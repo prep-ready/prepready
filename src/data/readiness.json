@@ -1,7 +1,7 @@
 {
   "_comment": "Aktualizuje scripts/update-data.mjs (GitHub Actions, codziennie). Składowe z mode=manual ustawiasz ręcznie.",
   "sample": false,
-  "updatedAt": "2026-09-25T15:34:36.081Z",
+  "updatedAt": "2026-09-25T15:41:47.156Z",
   "score": 36,
   "delta7": 0,
   "ago30": 36,
@@ -20,12 +20,14 @@
       "sources": "GDELT · Google News",
       "trend": [
         40,
+        40,
         40
       ],
       "mode": "auto",
       "raw": [
         59,
-        59
+        59,
+        60
       ],
       "stale": false
     },
@@ -61,6 +63,7 @@
       "sources": "PSE",
       "trend": [
         25,
+        25,
         25
       ],
       "mode": "auto",
@@ -77,6 +80,7 @@
       "value": 18,
       "sources": "IMGW · GDACS",
       "trend": [
+        18,
         18,
         18
       ],
@@ -95,6 +99,7 @@
       "sources": "ECDC",
       "trend": [
         18,
+        18,
         18
       ],
       "mode": "auto",
@@ -112,6 +117,7 @@
       "sources": "GDELT · Google News · CERT",
       "trend": [
         35,
+        73,
         73
       ],
       "mode": "auto",
