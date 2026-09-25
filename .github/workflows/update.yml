@@ -1,0 +1,48 @@
+name: Aktualizacja i publikacja
+
+on:
+  schedule:
+    - cron: '47 4 * * *'
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+jobs:
+  update-and-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Pobierz dane i przelicz indeks
+        if: github.event_name != 'push'
+        run: node scripts/update-data.mjs
+      - name: Zapisz nowe dane w repozytorium
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "prepready-bot"
+          git config user.email "bot@prepready.pro"
+          git add src/data/readiness.json src/data/feed.json
+          git diff --cached --quiet || git commit -m "Dane: aktualizacja $(date -u +%F)"
+          git push
+      - run: npm run build
+      - name: Wyślij na Hostingera (FTP)
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./dist/
+          server-dir: ./public_html/
+          dangerous-clean-slate: false
