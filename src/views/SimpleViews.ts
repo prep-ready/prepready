@@ -2,19 +2,37 @@
 export const about = {
   pl: {
     title: 'O PrepReady',
-    desc: 'Kim jesteśmy, jak pracujemy i skąd bierzemy dane do indeksu gotowości.',
-    html: `<p>PrepReady pomaga rodzinom przygotować się na kryzys spokojnie i bez paniki. Łączymy dane z oficjalnych źródeł w jeden czytelny indeks, wybieramy najważniejsze wiadomości i piszemy poradniki, które działają w praktyce.</p>
-<h2>Jak pracujemy</h2>
-<ul><li>Każdy poradnik opiera się na źródłach urzędowych (MSWiA, RCB, PSP, ECDC) i ma datę ostatniego przeglądu.</li><li>Teksty sprawdzają konsultanci z doświadczeniem w ratownictwie i ochronie ludności.</li><li>Sprzęt testujemy sami i publikujemy metodologię pomiarów.</li></ul>
-<h2>Redakcja</h2><p>Sekcja w przygotowaniu — tutaj pojawią się biogramy autorów i konsultantów.</p>`,
+    desc: 'Czym jest PrepReady, dla kogo powstał, skąd bierzemy dane do indeksu gotowości i jak powstają nasze poradniki.',
+    html: `<p>PrepReady pomaga rodzinom w Polsce przygotować się na sytuacje kryzysowe spokojnie i bez paniki. Łączymy dane z oficjalnych źródeł w jeden czytelny indeks, wybieramy wiadomości, które naprawdę mają znaczenie, i piszemy poradniki, które da się wykonać w zwykłym mieszkaniu i w zwykły weekend.</p>
+<h2>Dla kogo jest PrepReady</h2>
+<p>Dla osób, które dostały rządowy „Poradnik bezpieczeństwa”, słyszą o dronach, blackoutach i powodziach, i chcą po prostu wiedzieć, co zrobić. Nie trzeba być survivalowcem ani kupować drogiego sprzętu. Większość przygotowań to rzeczy, które masz już w domu, i plan, który ustalasz z bliskimi.</p>
+<h2>Indeks gotowości</h2>
+<p>Codziennie liczymy wskaźnik od 0 do 100 z sześciu składowych: sytuacji militarnej w regionie, ryzyka radiacyjnego, stanu sieci energetycznej, ostrzeżeń pogodowych, zdrowia publicznego i cyberbezpieczeństwa. Dane pochodzą z publicznych źródeł, m.in. IMGW, PSE, CERT Polska, ECDC i GDACS. Wagi i źródła są jawne, a każdemu poziomowi indeksu odpowiadają konkretne kroki do zrobienia. Szczegóły są na stronie z metodologią.</p>
+<p>Indeks jest narzędziem edukacyjnym. W sytuacji zagrożenia zawsze obowiązują komunikaty RCB, alerty RSO i polecenia służb.</p>
+<h2>Jak powstają poradniki</h2>
+<ul><li>Opieramy się na dokumentach urzędowych: MSWiA, RCB, PSP, ECDC, a w wersji angielskiej także Ready.gov.</li>
+<li>Każdy poradnik ma datę ostatniego przeglądu i listę źródeł.</li>
+<li>Do rankingów sprzętu trafiają tylko rzeczy, które sprawdziliśmy. Metodę pomiarów opisujemy przy każdym teście.</li>
+<li>Szukamy konsultantów z doświadczeniem w ratownictwie i ochronie ludności, którzy będą recenzować nasze teksty.</li></ul>
+<h2>Kontakt</h2>
+<p>Masz uwagi do poradnika albo znalazłeś błąd? Napisz przez formularz na stronie <a href="/pl/wspolpraca/">Dla producentów</a> — czytamy wszystkie wiadomości.</p>`,
   },
   en: {
     title: 'About PrepReady',
-    desc: 'Who we are, how we work and where the readiness index data comes from.',
-    html: `<p>PrepReady helps households prepare for emergencies calmly, without panic. We combine official data into one readable index, pick the news that matters and write guides that work in practice.</p>
-<h2>How we work</h2>
-<ul><li>Every guide is based on official sources and shows its last review date.</li><li>Articles are checked by advisors with rescue and civil-protection experience.</li><li>We test gear ourselves and publish our measurement method.</li></ul>
-<h2>Editors</h2><p>Coming soon — author and advisor bios will appear here.</p>`,
+    desc: 'What PrepReady is, who it is for, where the readiness index data comes from and how our guides are made.',
+    html: `<p>PrepReady helps households prepare for emergencies calmly, without panic. We combine official data into one readable index, pick the news that actually matters and write guides you can follow in an ordinary flat on an ordinary weekend.</p>
+<h2>Who it is for</h2>
+<p>For people who keep hearing about drones, blackouts, floods and cyberattacks and simply want to know what to do. You do not need to be a survivalist or buy expensive gear. Most preparation is things you already own and a plan you agree with the people you live with.</p>
+<h2>The Readiness Index</h2>
+<p>Every day we calculate a score from 0 to 100 from six components: armed conflict, radiation risk, the power grid, disasters and weather, public health and cyber threats. The global index uses international public sources such as GDACS and ECDC, plus global news coverage. Weights and sources are public, and every level of the index comes with concrete steps to take. The full method is on the methodology page.</p>
+<p>The index is an educational tool. In an emergency, official alerts and instructions from emergency services always come first.</p>
+<h2>How our guides are made</h2>
+<ul><li>We build on official guidance, including Ready.gov and European civil-protection agencies.</li>
+<li>Every guide shows its last review date and its sources.</li>
+<li>Only gear we have checked goes into our rankings, and every test explains how we measured.</li>
+<li>We are looking for advisors with rescue and civil-protection experience to review our guides.</li></ul>
+<h2>Contact</h2>
+<p>Spotted a mistake or have feedback on a guide? Use the form on the <a href="/en/partners/">For manufacturers</a> page — we read every message.</p>`,
   },
 };
 
@@ -56,7 +74,7 @@ export const earn = {
 export const partners = {
   pl: {
     title: 'Dla producentów i sklepów',
-    desc: 'Pokaż swój sprzęt osobom, które właśnie przygotowują dom na kryzys.',
+    desc: 'Współpraca dla producentów i sklepów: test sprzętu, miejsce w rankingu i kod rabatowy dla osób, które przygotowują dom na kryzys.',
     html: `<p>PrepReady czytają rodziny, które kompletują plecak ewakuacyjny, zapasy i sprzęt na blackout. Współpracujemy bezpośrednio z producentami i sklepami, bez pośredników.</p>
 <h2>Co proponujemy</h2>
 <ul><li>Rzetelny test produktu z własnymi zdjęciami i pomiarami.</li>
@@ -70,7 +88,7 @@ export const partners = {
   },
   en: {
     title: 'For manufacturers and retailers',
-    desc: 'Put your gear in front of people preparing their homes for emergencies.',
+    desc: 'Partnerships for gear makers and retailers: an honest test, a place in our rankings and a discount code for people preparing their homes.',
     html: `<p>PrepReady readers are households building go-bags, supplies and blackout kits. We work directly with manufacturers and retailers, without middlemen.</p>
 <h2>What we offer</h2>
 <ul><li>An honest test with our own photos and measurements.</li>

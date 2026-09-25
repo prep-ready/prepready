@@ -59,7 +59,7 @@ Każda wersja ma własny wynik i historię w `readiness.json` (`pl` i `en`) oraz
 
 ## Formularz „Dla producentów”
 
-Formularz wysyła wiadomość przez `public/contact.php` (PHP na Hostingerze). Adres odbiorcy nie jest w kodzie ani na stronie: dodaj w GitHubie sekret `CONTACT_EMAIL` (np. `info.prepready@gmail.com`). Przy każdej publikacji GitHub zapisuje go na serwerze w `contact-config.php`. Maile przychodzą od `no-reply@prepready.pro` — przy pierwszym sprawdź folder Spam w Gmailu i oznacz „To nie spam”.
+Formularz wysyła wiadomość przez `public/contact.php` (PHP na Hostingerze). Adres odbiorcy nie jest w kodzie ani na stronie: dodaj w GitHubie sekret `CONTACT_EMAIL` — jeden adres albo kilka po przecinku, np. `info@prepready.pro, info.prepready@gmail.com`. Przy każdej publikacji GitHub zapisuje go na serwerze w `contact-config.php`. Maile przychodzą od `info@prepready.pro` — przy pierwszym sprawdź folder Spam w Gmailu i oznacz „To nie spam”.
 
 ## Telegram
 

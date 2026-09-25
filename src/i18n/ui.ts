@@ -26,6 +26,16 @@ export const clusters = {
   'first-aid':  { pl: 'Pierwsza pomoc',     en: 'First aid' },
 } as const;
 
+/** Krótki opis tematu — pokazywany na kafelku, dopóki nie ma w nim poradnika. */
+export const clusterDesc = {
+  bag:          { pl: 'Co spakować, ile to waży i gdzie trzymać plecak, żeby wyjść z domu w 5 minut.', en: 'What to pack, how much it weighs and where to keep it so you can leave in five minutes.' },
+  'water-food': { pl: 'Ile wody i jedzenia na osobę, jak je przechowywać i rotować, żeby nic się nie zmarnowało.', en: 'How much water and food per person, and how to store and rotate it so nothing goes to waste.' },
+  shelter:      { pl: 'Miejsce ukrycia w bloku i w domu, uszczelnianie pomieszczenia i co w nim trzymać.', en: 'Where to shelter in a flat or a house, how to seal a room and what to keep there.' },
+  blackout:     { pl: 'Światło, ciepło, jedzenie i łączność, gdy przez kilka dni nie ma prądu.', en: 'Light, heat, food and communication when the power is out for days.' },
+  evacuation:   { pl: 'Sygnały syren, alerty, plan kontaktu rodziny i trasy ewakuacji.', en: 'Sirens, alerts, a family contact plan and evacuation routes.' },
+  'first-aid':  { pl: 'Apteczka domowa i ewakuacyjna, podstawy pierwszej pomocy i leki na zapas.', en: 'A home and go-bag first-aid kit, first-aid basics and spare medication.' },
+} as const;
+
 export const ui = {
   pl: {
     'site.tagline': 'Spokojne, oparte na danych przygotowanie na kryzys.',
@@ -34,7 +44,7 @@ export const ui = {
     'cta.start': 'Zacznij od plecaka 72h',
     'sample': 'Dane przykładowe',
     'strip.updated': 'Indeks zaktualizowano',
-    'strip.alerts': 'Sprawdź ostrzeżenia w aplikacji RSO',
+    'strip.alerts': 'Aktualne ostrzeżenia IMGW dla Twojego regionu',
     'idx.eyebrow': 'Indeks gotowości · Polska',
     'idx.title': 'Jak bardzo trzeba się przygotować?',
     'idx.todo': 'Co zrobić przy tym poziomie',
@@ -80,7 +90,7 @@ export const ui = {
     'cta.start': 'Start with a 72-hour kit',
     'sample': 'Sample data',
     'strip.updated': 'Index updated',
-    'strip.alerts': 'Official local alerts always take priority',
+    'strip.alerts': 'Current global disaster alerts (GDACS)',
     'idx.eyebrow': 'Readiness Index · Global',
     'idx.title': 'How prepared should you be right now?',
     'idx.todo': 'What to do at this level',

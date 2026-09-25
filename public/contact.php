@@ -14,8 +14,10 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') out(405, ['ok' => false, 'error' => '
 
 $cfgFile = __DIR__ . '/contact-config.php';
 $cfg = is_file($cfgFile) ? require $cfgFile : [];
-$to = $cfg['to'] ?? '';
-if (!filter_var($to, FILTER_VALIDATE_EMAIL)) out(500, ['ok' => false, 'error' => 'config']);
+// CONTACT_EMAIL może zawierać kilka adresów rozdzielonych przecinkiem
+$recipients = array_values(array_filter(array_map('trim', explode(',', (string)($cfg['to'] ?? ''))), fn($a) => filter_var($a, FILTER_VALIDATE_EMAIL)));
+if (!$recipients) out(500, ['ok' => false, 'error' => 'config']);
+$to = implode(', ', $recipients);
 
 // Ochrona przed botami: ukryte pole + minimalny czas wypełniania
 if (!empty($_POST['website_url'])) out(200, ['ok' => true]);
@@ -49,12 +51,12 @@ $body = "Nowe zgłoszenie z formularza „Dla producentów” ($lang)\n\n"
 
 $host = preg_replace('/^www\./', '', $_SERVER['HTTP_HOST'] ?? 'prepready.pro');
 $headers = implode("\r\n", [
-  'From: PrepReady <no-reply@' . $host . '>',
+  'From: PrepReady <info@' . $host . '>',
   'Reply-To: ' . $name . ' <' . $email . '>',
   'MIME-Version: 1.0',
   'Content-Type: text/plain; charset=UTF-8',
   'Content-Transfer-Encoding: 8bit',
 ]);
 
-$sent = @mail($to, $subject, $body, $headers, '-f no-reply@' . $host);
+$sent = @mail($to, $subject, $body, $headers, '-f info@' . $host);
 out($sent ? 200 : 500, ['ok' => $sent, 'error' => $sent ? null : 'mail']);

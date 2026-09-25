@@ -1,7 +1,7 @@
 ---
 import Icon from './Icon.astro';
 import { guideTopics } from '../data/site';
-import { clusters, guideBase, t, fmtDate, type Lang } from '../i18n/ui';
+import { clusters, clusterDesc, guideBase, t, fmtDate, type Lang } from '../i18n/ui';
 import { articles, hrefOf } from '../lib/articles';
 
 interface Props { lang: Lang }
@@ -22,7 +22,7 @@ const cards = guideTopics.map((g) => {
         <div class="body">
           <span class="eyebrow">{clusters[c.cluster][lang]}</span>
           <h3>{c.lead ? c.lead.data.title : clusters[c.cluster][lang]}</h3>
-          {c.lead && <p>{c.lead.data.description}</p>}
+          <p>{c.lead ? c.lead.data.description : clusterDesc[c.cluster][lang]}</p>
           <div class="foot">
             {c.lead
               ? <span>{c.lead.data.readingMinutes} {t(lang, 'g.min')} · {t(lang, 'g.reviewed')} {fmtDate(c.lead.data.reviewed, lang, { month: '2-digit', year: 'numeric' })}</span>

@@ -19,7 +19,8 @@ const { lang, title, description, alternates = {}, current, ogType = 'website', 
 const site = Astro.site!;
 const canonical = new URL(Astro.url.pathname, site).href;
 const other: Lang = lang === 'pl' ? 'en' : 'pl';
-const fullTitle = title.includes('PrepReady') ? title : `${title} · PrepReady`;
+// Dopisek marki tylko wtedy, gdy tytuł zmieści się w ~60 znakach (limit wyników Google).
+const fullTitle = title.includes('PrepReady') || title.length + 12 > 60 ? title : `${title} · PrepReady`;
 const ld = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
 ---
 <!doctype html>
@@ -29,6 +30,7 @@ const ld = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <title>{fullTitle}</title>
   <meta name="description" content={description} />
+  <meta name="google-site-verification" content="DEQNLS1FFWylPMmvLuL7WCaw5fb-DDakhQBT31PPQIs" />
   <link rel="canonical" href={canonical} />
   {noindex && <meta name="robots" content="noindex" />}
   {Object.entries(alternates).map(([l, href]) => (

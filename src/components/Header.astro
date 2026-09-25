@@ -18,7 +18,7 @@ const updatedLabel = `${fmtDate(updated, lang, { day: 'numeric', month: 'short',
   <div class="wrap">
     <span><span class="dot" aria-hidden="true"></span>{t(lang, 'strip.updated')}: {updatedLabel}</span>
     <span class="sep" aria-hidden="true">|</span>
-    <span>{t(lang, 'strip.alerts')}</span>
+    <a class="alerts" href={lang === 'pl' ? 'https://meteo.imgw.pl/' : 'https://www.gdacs.org/'} target="_blank" rel="noopener">{t(lang, 'strip.alerts')} →</a>
     {R.sample && <span class="right">{t(lang, 'sample')}</span>}
   </div>
 </div>
@@ -68,6 +68,8 @@ const updatedLabel = `${fmtDate(updated, lang, { day: 'numeric', month: 'short',
   .strip .wrap{display:flex;gap:14px;align-items:center;padding-block:8px;flex-wrap:wrap}
   .dot{width:8px;height:8px;border-radius:50%;background:var(--l1);display:inline-block;margin-right:8px}
   .sep{opacity:.4}
+  .alerts{color:#D3D8D4;text-decoration:none;border-bottom:1px solid #3a4247}
+  .alerts:hover{color:#fff;border-color:#fff}
   .right{margin-left:auto;color:var(--signal-bright)}
   header.site{background:var(--surface);border-bottom:1px solid var(--line);position:sticky;top:env(safe-area-inset-top,0px);z-index:20}
   header.site .wrap{display:flex;align-items:center;gap:28px;padding-block:12px}
