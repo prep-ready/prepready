@@ -1,0 +1,48 @@
+---
+import { activeDeals } from '../data/deals';
+import { community } from '../data/community';
+import { routes, fmtDate, type Lang } from '../i18n/ui';
+interface Props { lang: Lang; showEmpty?: boolean }
+const { lang, showEmpty = false } = Astro.props;
+const pl = lang === 'pl';
+const list = activeDeals(lang);
+---
+{list.length > 0 ? (
+  <div class="deals">
+    {list.map((d) => (
+      <div class="deal">
+        <div class="top"><strong>{d.brand}</strong><span class="off">{d.discount[lang]}</span></div>
+        <p>{d.product}</p>
+        <div class="code"><code>{d.code}</code><button type="button" class="copy" data-code={d.code}>{pl ? 'Kopiuj' : 'Copy'}</button></div>
+        <div class="foot"><span>{pl ? 'ważny do' : 'valid until'} {fmtDate(d.until, lang)}</span><a href={d.url} rel="sponsored noopener" target="_blank">{pl ? 'Do sklepu →' : 'Go to shop →'}</a></div>
+      </div>
+    ))}
+  </div>
+) : showEmpty && (
+  <div class="empty">
+    <p><strong>{pl ? 'Kody rabatowe od producentów — wkrótce.' : 'Discount codes from manufacturers — coming soon.'}</strong>
+    {pl ? ' Nawiązujemy współpracę bezpośrednio z producentami sprzętu. Kody ogłosimy w newsletterze i na Telegramie.' : ' We are partnering directly with gear makers. Codes will be announced in the newsletter and on Telegram.'}</p>
+    <p class="small">{pl ? 'Jesteś producentem?' : 'Are you a manufacturer?'} <a href={routes.partners[lang]}>{pl ? 'Zobacz współpracę' : 'Partner with us'}</a> · <span class="mono">{community.email}</span></p>
+  </div>
+)}
+<script>
+  document.querySelectorAll<HTMLButtonElement>('.deal .copy').forEach((b) => b.addEventListener('click', async () => {
+    try { await navigator.clipboard.writeText(b.dataset.code!); const t = b.textContent; b.textContent = '✓'; setTimeout(() => (b.textContent = t), 1500); } catch {}
+  }));
+</script>
+<style>
+  .deals{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px}
+  .deal{background:var(--surface);border:1px dashed var(--signal);border-radius:var(--radius);padding:16px;display:flex;flex-direction:column;gap:8px}
+  .top{display:flex;justify-content:space-between;align-items:baseline}
+  .off{font-family:var(--mono);font-weight:600;color:var(--signal)}
+  p{font-family:var(--body);font-size:14px;color:var(--ink-2)}
+  .code{display:flex;gap:8px}
+  code{flex:1;font-family:var(--mono);font-size:15px;background:var(--surface-2);padding:6px 10px;border-radius:6px;letter-spacing:.06em}
+  .copy{border:1px solid var(--line);background:transparent;color:var(--ink);border-radius:6px;padding:0 12px;font-size:13px}
+  .foot{display:flex;justify-content:space-between;font-family:var(--mono);font-size:11.5px;color:var(--muted)}
+  .foot a{color:var(--action);text-decoration:none;font-family:var(--display);font-weight:700;font-size:13px}
+  .empty{background:var(--surface);border:1px dashed var(--line);border-radius:var(--radius);padding:18px;display:grid;gap:8px}
+  .empty p{font-size:15px}
+  .small{font-size:13px!important}
+  .small a{color:var(--action)}
+</style>

@@ -12,8 +12,9 @@ const meta = pl
   : { title: 'Readiness Index — how prepared should you be', desc: 'A daily 0–100 score combining conflict, radiation, energy, weather, health and cyber data. With open methodology and sources.' };
 
 // History chart (last 14 days)
-const enough = readiness.history.length >= 2;
-const hist = enough ? readiness.history : [readiness.score, readiness.score];
+const R = readiness[lang];
+const enough = R.history.length >= 2;
+const hist = enough ? R.history : [R.score, R.score];
 const W = 640, H = 200, P = { l: 34, r: 12, t: 12, b: 26 };
 const x = (i: number) => P.l + (i * (W - P.l - P.r)) / (hist.length - 1);
 const y = (v: number) => P.t + (1 - v / 100) * (H - P.t - P.b);
@@ -86,7 +87,7 @@ const dataset = {
       <div class="tbl panel">
         <table>
           <thead><tr><th>{pl ? 'Składowa' : 'Component'}</th><th class="n">{pl ? 'Waga' : 'Weight'}</th><th>{pl ? 'Źródła' : 'Sources'}</th></tr></thead>
-          <tbody>{readiness.components.map((c) => <tr><td>{c.name[lang as Lang]}</td><td class="n mono">{c.weight}%</td><td class="mono src">{c.sources}</td></tr>)}</tbody>
+          <tbody>{R.components.map((c) => <tr><td>{c.name}</td><td class="n mono">{c.weight}%</td><td class="mono src">{c.sources}</td></tr>)}</tbody>
         </table>
       </div>
     </div>

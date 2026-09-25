@@ -1,3 +1,5 @@
+import { community } from '../data/community';
+
 /** Teksty stron „O nas” i „Jak zarabiamy”. Edytuj swobodnie — to zwykły HTML. */
 export const about = {
   pl: {
@@ -20,25 +22,68 @@ export const about = {
 
 export const earn = {
   pl: {
-    title: 'Jak zarabiamy',
-    desc: 'PrepReady utrzymuje się z linków partnerskich, współprac z producentami i produktów cyfrowych. Tak to działa i tak chronimy niezależność.',
-    html: `<p>PrepReady jest bezpłatny dla czytelników. Utrzymujemy się z trzech źródeł:</p>
-<ul><li><strong>Linki partnerskie.</strong> Gdy kupisz produkt przez nasz link, sklep lub producent może zapłacić nam prowizję. Cena dla Ciebie się nie zmienia. Takie linki oznaczamy.</li>
-<li><strong>Współprace z producentami.</strong> Możemy przyjąć sprzęt do testu lub wynagrodzenie za test. Zawsze to ujawniamy, a producent nie widzi tekstu przed publikacją.</li>
+    title: 'Jak działamy i zarabiamy',
+    desc: 'Polecamy tylko sprawdzony sprzęt. Współpracujemy bezpośrednio z producentami, dzięki czemu mamy dla Was kody rabatowe i lepsze ceny.',
+    html: `<p>PrepReady jest bezpłatny dla czytelników. Utrzymujemy się ze współpracy z producentami i sklepami, które sprzedają sprzęt na sytuacje kryzysowe.</p>
+<h2>Rankingi tylko ze sprawdzonych rzeczy</h2>
+<ul><li>Do rankingów i checklist trafia wyłącznie sprzęt, który sprawdziliśmy albo przetestowaliśmy.</li>
+<li>Przy każdym teście opisujemy, jak mierzyliśmy i co wyszło — także minusy.</li>
+<li>Zawsze podajemy też tanie i darmowe rozwiązania, jeśli istnieją.</li></ul>
+<h2>Współpraca z producentami = lepsze ceny dla Was</h2>
+<p>Nawiązujemy współpracę bezpośrednio z producentami. Dzięki temu często dostajemy dla czytelników <strong>kody rabatowe, bonusy i tańsze zestawy</strong>, których nie ma w zwykłej sprzedaży. Aktualne kody są na stronie sprzętu, w newsletterze i na Telegramie.</p>
+<h2>Za co płacą nam partnerzy</h2>
+<ul><li><strong>Sprzedaż z naszego kodu lub linku.</strong> Gdy kupisz z naszym kodem, partner może nam zapłacić prowizję. Nie płacisz więcej, a z kodem zwykle mniej.</li>
+<li><strong>Testy i prezentacje sprzętu.</strong> Producent może przekazać sprzęt do testu lub zapłacić za prezentację. Zawsze to oznaczamy, a producent nie zatwierdza tekstu przed publikacją.</li>
 <li><strong>Produkty cyfrowe.</strong> Rozszerzone checklisty i poradniki PDF.</li></ul>
-<h2>Czego nie robimy</h2>
-<ul><li>Kolejność w rankingach nie zależy od prowizji.</li><li>Nie straszymy, żeby sprzedać. Zawsze podajemy też tanie i darmowe rozwiązania.</li></ul>
-<h2>Współpraca</h2><p>Jesteś producentem lub sklepem i chcesz, żebyśmy przetestowali Twój sprzęt? Napisz do nas — adres kontaktowy pojawi się tutaj.</p>`,
+<p>Jesteś producentem lub sklepem? Zobacz <a href="/pl/wspolpraca/">Dla producentów</a>.</p>`,
   },
   en: {
-    title: 'How we make money',
-    desc: 'PrepReady is funded by affiliate links, manufacturer partnerships and digital products. Here is how it works and how we stay independent.',
-    html: `<p>PrepReady is free for readers. We are funded in three ways:</p>
-<ul><li><strong>Affiliate links.</strong> If you buy through our link, the shop or manufacturer may pay us a commission. Your price stays the same. These links are labelled.</li>
-<li><strong>Manufacturer partnerships.</strong> We may accept gear or a fee for testing. We always disclose it, and manufacturers never see the text before publication.</li>
+    title: 'How we work and make money',
+    desc: 'We only recommend gear we have checked. We work directly with manufacturers, which gets our readers discount codes and better prices.',
+    html: `<p>PrepReady is free for readers. We are funded by partnerships with manufacturers and retailers of emergency gear.</p>
+<h2>Rankings only include checked gear</h2>
+<ul><li>Only gear we have checked or tested makes it into our rankings and checklists.</li>
+<li>Every test explains how we measured and what we found — including the downsides.</li>
+<li>We always list cheap and free options when they exist.</li></ul>
+<h2>Manufacturer partnerships = better prices for you</h2>
+<p>We work directly with gear makers. That often gets our readers <strong>discount codes, bonuses and cheaper bundles</strong> you won't find elsewhere. Current codes are on the gear page, in the newsletter and on Telegram.</p>
+<h2>What partners pay us for</h2>
+<ul><li><strong>Sales through our code or link.</strong> The partner may pay us a commission. You never pay more, and with a code usually less.</li>
+<li><strong>Gear tests and features.</strong> A maker may provide gear for testing or pay for a feature. We always label it, and makers never approve our text before publication.</li>
 <li><strong>Digital products.</strong> Extended checklists and PDF guides.</li></ul>
-<h2>What we don't do</h2>
-<ul><li>Rankings never depend on commission.</li><li>We don't use fear to sell. We always list cheap and free options too.</li></ul>
-<h2>Work with us</h2><p>Are you a manufacturer or retailer who wants your gear tested? Contact details will appear here.</p>`,
+<p>Are you a manufacturer or retailer? See <a href="/en/partners/">For manufacturers</a>.</p>`,
+  },
+};
+
+export const partners = {
+  pl: {
+    title: 'Dla producentów i sklepów',
+    desc: 'Pokaż swój sprzęt osobom, które właśnie przygotowują dom na kryzys. Test, miejsce w rankingu i kod rabatowy dla naszej społeczności.',
+    html: `<p>PrepReady czytają rodziny, które kompletują plecak ewakuacyjny, zapasy i sprzęt na blackout. Szukamy producentów i sklepów, z którymi możemy współpracować bezpośrednio.</p>
+<h2>Co proponujemy</h2>
+<ul><li><strong>Rzetelny test</strong> Twojego produktu z własnymi zdjęciami i pomiarami.</li>
+<li><strong>Miejsce w rankingach i checklistach</strong> — jeśli produkt przejdzie test.</li>
+<li><strong>Kod rabatowy dla naszej społeczności</strong> ogłaszany na stronie, w newsletterze i na Telegramie.</li>
+<li><strong>Rozliczenie od sprzedaży</strong> (prowizja od kodu) albo stała opłata za prezentację — jak Ci wygodniej.</li></ul>
+<h2>Od Ciebie</h2>
+<ul><li>Egzemplarz do testu (albo wypożyczenie).</li>
+<li>Kod rabatowy na wyłączność dla PrepReady.</li>
+<li>Zgoda na niezależny test: publikujemy też minusy.</li></ul>
+<h2>Kontakt</h2>
+<p>Napisz na <strong>${community.email}</strong> — w temacie „Współpraca” i nazwa firmy. Odpowiadamy w ciągu 3 dni roboczych.</p>`,
+  },
+  en: {
+    title: 'For manufacturers and retailers',
+    desc: 'Put your gear in front of people preparing their homes for emergencies. A test, a place in our rankings and a discount code for our community.',
+    html: `<p>PrepReady readers are households building go-bags, supplies and blackout kits. We want to work directly with manufacturers and retailers.</p>
+<h2>What we offer</h2>
+<ul><li><strong>An honest test</strong> of your product with our own photos and measurements.</li>
+<li><strong>A place in our rankings and checklists</strong> — if the product passes.</li>
+<li><strong>A discount code for our community</strong>, announced on the site, in the newsletter and on Telegram.</li>
+<li><strong>Revenue share</strong> on code sales or a flat fee for a feature — your choice.</li></ul>
+<h2>What we need</h2>
+<ul><li>A test unit (or a loan).</li><li>An exclusive discount code for PrepReady.</li><li>Agreement that the test is independent: we publish downsides too.</li></ul>
+<h2>Contact</h2>
+<p>Email <strong>${community.email}</strong> with “Partnership” and your company name in the subject. We reply within 3 working days.</p>`,
   },
 };

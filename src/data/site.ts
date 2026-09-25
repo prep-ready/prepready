@@ -44,7 +44,10 @@ export const gearTest = {
   ],
 };
 
-export const sourcesMonitored = ['IMGW · GDACS', 'PSE', 'CERT Polska', 'ECDC', 'GDELT · Google News', 'PAA · EURDEP (ręcznie)'];
+export const sourcesMonitored = {
+  pl: ['IMGW · GDACS', 'PSE', 'CERT Polska', 'ECDC', 'GDELT · Google News (PL)', 'PAA (ręcznie)'],
+  en: ['GDACS', 'ECDC', 'GDELT · Google News', 'IAEA (manual)'],
+};
 
 /** Tematy poradników na stronie głównej (kolejność = kolejność kafelków). */
 export const guideTopics = [

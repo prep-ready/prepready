@@ -1,24 +1,17 @@
 ---
-/** Znak PrepReady: wskaźnik z 5 segmentami (poziomy indeksu) + wordmark. */
+/** Znak PrepReady „Horyzont”: słońce nad linią horyzontu + wordmark. */
 interface Props { size?: number; wordmark?: boolean }
-const { size = 34, wordmark = true } = Astro.props;
+const { size = 32, wordmark = true } = Astro.props;
 ---
 <span class="logo">
-  <svg width={size} height={size} viewBox="0 0 34 34" aria-hidden="true">
-    <g fill="none" stroke-width="4">
-      <path d="M5 24 A13 13 0 0 1 6.9 11.6" stroke="var(--l1)"/>
-      <path d="M8.6 9.4 A13 13 0 0 1 15 4.2" stroke="var(--l2)"/>
-      <path d="M18.2 4.1 A13 13 0 0 1 25 8.8" stroke="var(--signal-bright)"/>
-      <path d="M26.8 11 A13 13 0 0 1 29 17.5" stroke="var(--line)"/>
-      <path d="M29 20.5 A13 13 0 0 1 28.4 24" stroke="var(--line)"/>
-    </g>
-    <path d="M17 24 L22 9.5" stroke="var(--ink)" stroke-width="2.4" stroke-linecap="round"/>
-    <circle cx="17" cy="24" r="3" fill="var(--ink)"/>
+  <svg width={size} height={size} viewBox="0 0 32 32" aria-hidden="true">
+    <circle cx="16" cy="16" r="12.4" fill="none" stroke="currentColor" stroke-width="3.2"/>
+    <line x1="3.6" y1="19.6" x2="28.4" y2="19.6" stroke="currentColor" stroke-width="3.2"/>
+    <circle cx="16" cy="12.6" r="3.2" fill="var(--signal-bright)"/>
   </svg>
-  {wordmark && <b>Prep<span>Ready</span></b>}
+  {wordmark && <b>PrepReady</b>}
 </span>
 <style>
-  .logo{display:inline-flex;align-items:center;gap:10px}
-  b{font-size:22px;font-weight:900;font-stretch:78%;letter-spacing:-.01em;color:var(--ink)}
-  b span{color:var(--signal-bright)}
+  .logo{display:inline-flex;align-items:center;gap:9px;color:var(--ink)}
+  b{font-size:22px;font-weight:720;font-stretch:80%;letter-spacing:-.005em;line-height:1}
 </style>

@@ -1,5 +1,5 @@
 @import '@fontsource-variable/archivo/wdth.css';
-@import '@fontsource-variable/source-serif-4/index.css';
+@import '@fontsource-variable/public-sans/index.css';
 @import '@fontsource/jetbrains-mono/400.css';
 @import '@fontsource/jetbrains-mono/600.css';
 
@@ -10,7 +10,7 @@
   --line:#CDD2CB; --signal:#C94A06; --signal-bright:#EA5A0C; --on-signal:#FFFFFF; --action:#1F4FB4; --olive:#4E6054;
   --l1:#3F8F5A; --l2:#8AA23A; --l3:#D9A21B; --l4:#E26B1C; --l5:#C8322B; --on-level:#15130D;
   --display:"Archivo Variable", "Arial Narrow", Arial, sans-serif;
-  --body:"Source Serif 4 Variable", Georgia, "Times New Roman", serif;
+  --body:"Public Sans Variable", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   --mono:"JetBrains Mono", ui-monospace, Menlo, Consolas, monospace;
   --radius:10px; --gutter:20px; --maxw:1200px;
 }

@@ -1,138 +1,221 @@
 {
-  "_comment": "Aktualizuje scripts/update-data.mjs (GitHub Actions, codziennie). Składowe z mode=manual ustawiasz ręcznie.",
-  "sample": false,
-  "updatedAt": "2026-09-25T15:41:47.156Z",
-  "score": 36,
-  "delta7": 0,
-  "ago30": 36,
-  "history": [
-    36
-  ],
-  "components": [
-    {
-      "id": "conflict",
-      "name": {
-        "pl": "Konflikt w regionie",
-        "en": "Regional conflict"
+  "_comment": "Aktualizuje scripts/update-data.mjs codziennie. pl = Polska, en = świat. Składowe z mode=manual ustawiasz ręcznie.",
+  "pl": {
+    "sample": false,
+    "updatedAt": "2026-09-25T16:39:58.621Z",
+    "score": 29,
+    "delta7": 0,
+    "ago30": 29,
+    "history": [
+      29
+    ],
+    "components": [
+      {
+        "id": "conflict",
+        "name": "Konflikt w regionie",
+        "weight": 30,
+        "value": 40,
+        "sources": "GDELT · Google News",
+        "trend": [
+          40,
+          40
+        ],
+        "mode": "auto",
+        "raw": [
+          59,
+          95
+        ],
+        "stale": false
       },
-      "weight": 30,
-      "value": 40,
-      "sources": "GDELT · Google News",
-      "trend": [
-        40,
-        40,
-        40
-      ],
-      "mode": "auto",
-      "raw": [
-        59,
-        59,
-        60
-      ],
-      "stale": false
-    },
-    {
-      "id": "nuclear",
-      "name": {
-        "pl": "Nuklearne i radiacja",
-        "en": "Nuclear & radiation"
+      {
+        "id": "nuclear",
+        "name": "Nuklearne i radiacja",
+        "weight": 15,
+        "value": 34,
+        "sources": "PAA · EURDEP",
+        "trend": [
+          31,
+          31,
+          33,
+          32,
+          34,
+          34,
+          34,
+          34
+        ],
+        "mode": "manual"
       },
-      "weight": 15,
-      "value": 34,
-      "sources": "PAA · EURDEP",
-      "trend": [
-        30,
-        31,
-        31,
-        33,
-        32,
-        34,
-        34,
-        34
-      ],
-      "mode": "manual"
-    },
-    {
-      "id": "energy",
-      "name": {
-        "pl": "Energia",
-        "en": "Energy grid"
+      {
+        "id": "energy",
+        "name": "Energia",
+        "weight": 15,
+        "value": 25,
+        "sources": "PSE",
+        "trend": [
+          25,
+          25
+        ],
+        "mode": "auto",
+        "raw": [],
+        "stale": false
       },
-      "weight": 15,
-      "value": 25,
-      "sources": "PSE",
-      "trend": [
-        25,
-        25,
-        25
-      ],
-      "mode": "auto",
-      "raw": [],
-      "stale": false
-    },
-    {
-      "id": "weather",
-      "name": {
-        "pl": "Pogoda i żywioły",
-        "en": "Weather & hazards"
+      {
+        "id": "weather",
+        "name": "Pogoda i żywioły",
+        "weight": 15,
+        "value": 13,
+        "sources": "IMGW · GDACS",
+        "trend": [
+          18,
+          13
+        ],
+        "mode": "auto",
+        "raw": [],
+        "stale": false
       },
-      "weight": 15,
-      "value": 18,
-      "sources": "IMGW · GDACS",
-      "trend": [
-        18,
-        18,
-        18
-      ],
-      "mode": "auto",
-      "raw": [],
-      "stale": false
-    },
-    {
-      "id": "health",
-      "name": {
-        "pl": "Zdrowie publiczne",
-        "en": "Public health"
+      {
+        "id": "health",
+        "name": "Zdrowie publiczne",
+        "weight": 10,
+        "value": 12,
+        "sources": "ECDC",
+        "trend": [
+          18,
+          12
+        ],
+        "mode": "auto",
+        "raw": [],
+        "stale": false
       },
-      "weight": 10,
-      "value": 18,
-      "sources": "ECDC",
-      "trend": [
-        18,
-        18,
-        18
-      ],
-      "mode": "auto",
-      "raw": [],
-      "stale": false
-    },
-    {
-      "id": "cyber",
-      "name": {
-        "pl": "Cyber i łączność",
-        "en": "Cyber & comms"
+      {
+        "id": "cyber",
+        "name": "Cyber i łączność",
+        "weight": 15,
+        "value": 35,
+        "sources": "GDELT · Google News · CERT",
+        "trend": [
+          35,
+          35
+        ],
+        "mode": "auto",
+        "raw": [
+          62,
+          62
+        ],
+        "stale": false
+      }
+    ],
+    "historyDates": [
+      "2026-09-25"
+    ]
+  },
+  "en": {
+    "sample": false,
+    "updatedAt": "2026-09-25T16:42:20.155Z",
+    "score": 35,
+    "delta7": 0,
+    "ago30": 35,
+    "history": [
+      35
+    ],
+    "components": [
+      {
+        "id": "conflict",
+        "name": "Global conflict",
+        "weight": 30,
+        "value": 45,
+        "sources": "GDELT · Google News",
+        "trend": [
+          45
+        ],
+        "mode": "auto",
+        "raw": [
+          55
+        ],
+        "stale": false
       },
-      "weight": 15,
-      "value": 73,
-      "sources": "GDELT · Google News · CERT",
-      "trend": [
-        35,
-        73,
-        73
-      ],
-      "mode": "auto",
-      "raw": [
-        62
-      ],
-      "stale": false
-    }
-  ],
+      {
+        "id": "nuclear",
+        "name": "Nuclear & radiation",
+        "weight": 15,
+        "value": 34,
+        "sources": "IAEA · EURDEP",
+        "trend": [
+          31,
+          31,
+          33,
+          32,
+          34,
+          34,
+          34,
+          34
+        ],
+        "mode": "manual"
+      },
+      {
+        "id": "energy",
+        "name": "Power & grid",
+        "weight": 15,
+        "value": 25,
+        "sources": "Google News",
+        "trend": [
+          25
+        ],
+        "mode": "auto",
+        "raw": [
+          45
+        ],
+        "stale": false
+      },
+      {
+        "id": "weather",
+        "name": "Disasters & weather",
+        "weight": 15,
+        "value": 29,
+        "sources": "GDACS",
+        "trend": [
+          29
+        ],
+        "mode": "auto",
+        "raw": [],
+        "stale": false
+      },
+      {
+        "id": "health",
+        "name": "Public health",
+        "weight": 10,
+        "value": 28,
+        "sources": "ECDC",
+        "trend": [
+          28
+        ],
+        "mode": "auto",
+        "raw": [],
+        "stale": false
+      },
+      {
+        "id": "cyber",
+        "name": "Cyber & infrastructure",
+        "weight": 15,
+        "value": 35,
+        "sources": "GDELT · Google News",
+        "trend": [
+          35
+        ],
+        "mode": "auto",
+        "raw": [
+          59
+        ],
+        "stale": false
+      }
+    ],
+    "historyDates": [
+      "2026-09-25"
+    ]
+  },
   "doomsdayClock": {
     "seconds": 85,
     "setOn": "2026-01-27",
     "source": "https://thebulletin.org/2026/01/press-release-it-is-85-seconds-to-midnight/"
-  },
-  "historyDates": [
-    "2026-09-25"
-  ]
+  }
 }

@@ -1,6 +1,7 @@
 ---
 import { t, type Lang } from '../i18n/ui';
 import { sourcesMonitored } from '../data/site';
+import Community from './Community.astro';
 interface Props { lang: Lang; showSources?: boolean }
 const { lang, showSources = true } = Astro.props;
 /** Po wyborze narzędzia (MailerLite / Beehiiv) wstaw tu adres formularza. Pusty = komunikat „wkrótce”. */
@@ -18,10 +19,11 @@ const ACTION = '';
     </form>
     <small class="nl-msg" aria-live="polite">{t(lang, 'nl.small')}</small>
   </div>
+  <Community lang={lang} />
   {showSources && (
     <div class="panel srcs">
       <div class="eyebrow">{t(lang, 'src.title')}</div>
-      <ul>{sourcesMonitored.map((s) => <li>{s}</li>)}</ul>
+      <ul>{sourcesMonitored[lang].map((s) => <li>{s}</li>)}</ul>
     </div>
   )}
 </div>

@@ -5,6 +5,7 @@ import NewsFeed from '../components/NewsFeed.astro';
 import Newsletter from '../components/Newsletter.astro';
 import Checklist from '../components/Checklist.astro';
 import GearTable from '../components/GearTable.astro';
+import Deals from '../components/Deals.astro';
 import feed from '../data/feed.json';
 import { gearTest } from '../data/site';
 import { routes, t, type Lang } from '../i18n/ui';
@@ -25,7 +26,7 @@ const M = {
     en: { title: 'Emergency gear — tests and rankings', desc: t('en', 'gear.sub') },
   },
 }[section][lang];
-const sample = section === 'news' ? feed.sample : section === 'gear' ? gearTest.sample : false;
+const sample = section === 'news' ? feed[lang].sample : section === 'gear' ? gearTest.sample : false;
 ---
 <Base lang={lang} title={M.title} description={M.desc} alternates={{ pl: routes[section].pl, en: routes[section].en }} current={section}>
   <div class="wrap page-head">
@@ -35,10 +36,11 @@ const sample = section === 'news' ? feed.sample : section === 'gear' ? gearTest.
   <div class="wrap">
     {section === 'news' && <div class="two"><NewsFeed lang={lang} /><Newsletter lang={lang} /></div>}
     {section === 'checklist' && <Checklist lang={lang} />}
-    {section === 'gear' && <GearTable lang={lang} />}
+    {section === 'gear' && <div class="stack"><Deals lang={lang} showEmpty /><GearTable lang={lang} /></div>}
   </div>
 </Base>
 <style>
+  .stack{display:grid;gap:24px}
   .head-row{display:flex;gap:16px;align-items:flex-start;justify-content:space-between;flex-wrap:wrap}
   .two{display:grid;grid-template-columns:minmax(0,8fr) minmax(0,4fr);gap:24px;align-items:start}
   @media (max-width:980px){ .two{grid-template-columns:1fr} }

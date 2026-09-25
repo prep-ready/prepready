@@ -7,6 +7,7 @@ import Steps from '../components/Steps.astro';
 import Checklist from '../components/Checklist.astro';
 import GuideCards from '../components/GuideCards.astro';
 import GearTable from '../components/GearTable.astro';
+import Deals from '../components/Deals.astro';
 import feed from '../data/feed.json';
 import { gearTest } from '../data/site';
 import { routes, t, type Lang } from '../i18n/ui';
@@ -32,7 +33,7 @@ const jsonLd = {
           <h2>{t(lang, 'news.title')}</h2>
         </div>
         <div class="right">
-          {feed.sample && <span class="sample">{t(lang, 'sample')}</span>}
+          {feed[lang].sample && <span class="sample">{t(lang, 'sample')}</span>}
           <a class="link-more" href={routes.news[lang]}>{t(lang, 'news.more')}</a>
         </div>
       </div>
@@ -83,7 +84,7 @@ const jsonLd = {
         </div>
         {gearTest.sample && <span class="sample">{t(lang, 'sample')}</span>}
       </div>
-      <GearTable lang={lang} />
+      <div style="display:grid;gap:24px"><Deals lang={lang} showEmpty /><GearTable lang={lang} /></div>
     </div>
   </section>
 </Base>

@@ -7,7 +7,9 @@ import { routes, t, fmtDate, type Lang } from '../i18n/ui';
 interface Props { lang: Lang; headingLevel?: 'h1' | 'h2' }
 const { lang, headingLevel = 'h1' } = Astro.props;
 const H = headingLevel;
-const { score, delta7, ago30, components, doomsdayClock: dc } = readiness;
+const R = readiness[lang];
+const { score, delta7, ago30, components } = R;
+const dc = readiness.doomsdayClock;
 const lvl = levelFor(score);
 const li = levelIndex(score);
 
@@ -30,7 +32,7 @@ const sign = delta7 > 0 ? '▲' : delta7 < 0 ? '▼' : '■';
         <div class="eyebrow">{t(lang, 'idx.eyebrow')}</div>
         <H class="title">{t(lang, 'idx.title')}</H>
       </div>
-      {readiness.sample && <span class="sample">{t(lang, 'sample')}</span>}
+      {R.sample && <span class="sample">{t(lang, 'sample')}</span>}
     </div>
     <svg class="gauge" viewBox="0 0 300 170" role="img" aria-label={`${score}/100 · ${lvl.name[lang]}`}>
       <g fill="none" stroke-width="22">
@@ -45,8 +47,8 @@ const sign = delta7 > 0 ? '▲' : delta7 < 0 ? '▼' : '■';
     <div class="read">
       <div class="num">{score}</div>
       <span class="pill" style={`background:var(${lvl.token})`}>{lvl.name[lang]}</span>
-      {readiness.history.length > 7 ? <div class="delta">{sign} {Math.abs(delta7)} {lang === 'pl' ? 'pkt' : 'pts'} {t(lang, 'idx.delta7')} · {t(lang, 'idx.ago30')}: {ago30}</div>
-        : <div class="delta">{lang === 'pl' ? `Zbieramy historię · dzień ${readiness.history.length}` : `Building history · day ${readiness.history.length}`}</div>}
+      {R.history.length > 7 ? <div class="delta">{sign} {Math.abs(delta7)} {lang === 'pl' ? 'pkt' : 'pts'} {t(lang, 'idx.delta7')} · {t(lang, 'idx.ago30')}: {ago30}</div>
+        : <div class="delta">{lang === 'pl' ? `Zbieramy historię · dzień ${R.history.length}` : `Building history · day ${R.history.length}`}</div>}
     </div>
     <div class="scale" aria-hidden="true">
       {levels.map((l, i) => (
@@ -72,7 +74,7 @@ const sign = delta7 > 0 ? '▲' : delta7 < 0 ? '▼' : '■';
     <div class="cgrid">
       {components.map((c) => (
         <div class="comp" style={`--c:var(${tokenFor(c.value)})`}>
-          <div class="top"><span class="name">{c.name[lang as Lang]}</span><span class="val">{c.value}</span></div>
+          <div class="top"><span class="name">{c.name}</span><span class="val">{c.value}</span></div>
           <Sparkline data={c.trend} token={tokenFor(c.value)} />
           <span class="src">{c.sources} · {t(lang, 'idx.weight')} {c.weight}%{c.mode === 'manual' && (lang === 'pl' ? ' · ręcznie' : ' · manual')}{c.stale && (lang === 'pl' ? ' · brak świeżych danych' : ' · not updated today')}</span>
         </div>

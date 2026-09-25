@@ -25,6 +25,9 @@ npm run build    # gotowa strona w folderze dist/
 | „O nas”, „Jak zarabiamy” | `src/views/SimpleViews.ts` |
 | Kolory, fonty | `src/styles/global.css` (tokeny na górze) |
 | Logo | `src/components/Logo.astro`, `public/favicon.svg` |
+| Kody rabatowe od partnerów | `src/data/deals.ts` |
+| Linki do Telegrama, e-mail kontaktowy | `src/data/community.ts` |
+| „Dla producentów” | `src/views/SimpleViews.ts` → `partners` |
 
 ## Nowy artykuł
 
@@ -45,6 +48,19 @@ W `src/data/site.ts` → `picks[].url` wstaw link partnerski. Linki mają `rel="
 ## Newsletter
 
 W `src/components/Newsletter.astro` ustaw `ACTION` na adres formularza z MailerLite/Beehiiv. Do tego czasu formularz pokazuje komunikat „wkrótce”.
+
+## Dwie wersje: Polska i świat
+
+- `/pl/` — indeks i wiadomości dla Polski, tylko polskie źródła, po polsku.
+- `/en/` — indeks i wiadomości globalne, źródła międzynarodowe, po angielsku.
+
+Każda wersja ma własny wynik i historię w `readiness.json` (`pl` i `en`) oraz własny feed w `feed.json`.
+
+## Telegram (opcjonalnie)
+
+1. Utwórz kanał (np. `@prepready_pl`) i grupę dyskusyjną; w ustawieniach kanału → Dyskusja podepnij grupę.
+2. Wpisz linki w `src/data/community.ts` — na stronie pojawią się przyciski.
+3. Automatyczny codzienny wpis: w Telegramie napisz do @BotFather → /newbot, dodaj bota jako administratora kanału. W GitHubie dodaj sekrety `TELEGRAM_BOT_TOKEN` (token od BotFathera) i `TELEGRAM_CHAT_ID` (np. `@prepready_pl`).
 
 ## Automatyzacja za 0 zł (zamiast n8n)
 

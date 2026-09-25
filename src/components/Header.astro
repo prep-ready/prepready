@@ -10,7 +10,8 @@ const other: Lang = lang === 'pl' ? 'en' : 'pl';
 const nav = [
   ['index', 'nav.index'], ['news', 'nav.news'], ['guides', 'nav.guides'], ['checklist', 'nav.checklist'], ['gear', 'nav.gear'],
 ] as const;
-const updated = new Date(readiness.updatedAt);
+const R = readiness[lang];
+const updated = new Date(R.updatedAt);
 const updatedLabel = `${fmtDate(updated, lang, { day: 'numeric', month: 'short', year: 'numeric' })}, ${updated.toLocaleTimeString(lang === 'pl' ? 'pl-PL' : 'en-GB', { hour: '2-digit', minute: '2-digit', timeZone: 'Europe/Warsaw', timeZoneName: 'short' })}`;
 ---
 <div class="strip" role="note">
@@ -18,7 +19,7 @@ const updatedLabel = `${fmtDate(updated, lang, { day: 'numeric', month: 'short',
     <span><span class="dot" aria-hidden="true"></span>{t(lang, 'strip.updated')}: {updatedLabel}</span>
     <span class="sep" aria-hidden="true">|</span>
     <span>{t(lang, 'strip.alerts')}</span>
-    {readiness.sample && <span class="right">{t(lang, 'sample')}</span>}
+    {R.sample && <span class="right">{t(lang, 'sample')}</span>}
   </div>
 </div>
 <header class="site">
