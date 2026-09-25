@@ -1,0 +1,114 @@
+---
+import Base from '../layouts/Base.astro';
+import ReadinessIndex from '../components/ReadinessIndex.astro';
+import readiness from '../data/readiness.json';
+import { levels } from '../data/levels';
+import { routes, t, type Lang } from '../i18n/ui';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const pl = lang === 'pl';
+const meta = pl
+  ? { title: 'Indeks gotowości — jak bardzo trzeba się przygotować', desc: 'Codzienny wskaźnik 0–100 łączący dane o konflikcie, radiacji, energii, pogodzie, zdrowiu i cyberbezpieczeństwie. Z jawną metodologią i źródłami.' }
+  : { title: 'Readiness Index — how prepared should you be', desc: 'A daily 0–100 score combining conflict, radiation, energy, weather, health and cyber data. With open methodology and sources.' };
+
+// History chart (last 14 days)
+const enough = readiness.history.length >= 2;
+const hist = enough ? readiness.history : [readiness.score, readiness.score];
+const W = 640, H = 200, P = { l: 34, r: 12, t: 12, b: 26 };
+const x = (i: number) => P.l + (i * (W - P.l - P.r)) / (hist.length - 1);
+const y = (v: number) => P.t + (1 - v / 100) * (H - P.t - P.b);
+const path = hist.map((v, i) => `${i ? 'L' : 'M'}${x(i).toFixed(1)} ${y(v).toFixed(1)}`).join(' ');
+const bands = levels.map((l, i) => ({ y0: y(l.max), y1: y(i === 0 ? 0 : levels[i - 1].max), token: l.token }));
+const dataset = {
+  '@context': 'https://schema.org', '@type': 'Dataset', name: pl ? 'Indeks gotowości PrepReady' : 'PrepReady Readiness Index',
+  description: meta.desc, url: new URL(routes.index[lang], Astro.site).href, creator: { '@type': 'Organization', name: 'PrepReady' },
+  temporalCoverage: '2026/..', isAccessibleForFree: true,
+};
+---
+<Base lang={lang} title={meta.title} description={meta.desc} alternates={{ pl: routes.index.pl, en: routes.index.en }} current="index" jsonLd={dataset}>
+  <div class="wrap" style="padding-block:32px 8px"><ReadinessIndex lang={lang} /></div>
+
+  <section class="block">
+    <div class="wrap two">
+      <div>
+        <div class="eyebrow">{pl ? 'Historia · do 30 dni' : 'History · up to 30 days'}</div>
+        <h2>{pl ? 'Jak zmieniał się wynik' : 'How the score has moved'}</h2>
+        {!enough && <p class="note">{pl ? 'Historia buduje się od dnia startu — wykres wypełni się w kolejnych dniach.' : 'History starts on launch day — the chart fills in over the coming days.'}</p>}
+        <div class="panel chart">
+          <svg viewBox={`0 0 ${W} ${H}`} role="img" aria-label={pl ? 'Wykres indeksu z ostatnich 14 dni' : 'Index chart, last 14 days'}>
+            {bands.map((b) => <rect x={P.l} y={b.y0} width={W - P.l - P.r} height={b.y1 - b.y0} fill={`var(${b.token})`} opacity=".08" />)}
+            {[0, 20, 40, 60, 80, 100].map((v) => (
+              <g><line x1={P.l} x2={W - P.r} y1={y(v)} y2={y(v)} stroke="var(--line)" stroke-dasharray={v % 100 ? '2 4' : ''} />
+              <text x={P.l - 8} y={y(v) + 3} text-anchor="end" font-size="10" font-family="JetBrains Mono, monospace" fill="var(--muted)">{v}</text></g>
+            ))}
+            <path d={`${path} L${x(hist.length - 1)} ${y(0)} L${x(0)} ${y(0)} Z`} fill="var(--ink)" opacity=".06" />
+            <path d={path} fill="none" stroke="var(--ink)" stroke-width="2.2" />
+            <circle cx={x(hist.length - 1)} cy={y(hist[hist.length - 1])} r="4.5" fill="var(--signal-bright)" stroke="var(--surface)" stroke-width="2" />
+            <text x={x(0)} y={H - 6} font-size="10" font-family="JetBrains Mono, monospace" fill="var(--muted)">−{hist.length - 1} {pl ? 'dni' : 'days'}</text>
+            <text x={x(hist.length - 1)} y={H - 6} text-anchor="end" font-size="10" font-family="JetBrains Mono, monospace" fill="var(--muted)">{pl ? 'dziś' : 'today'} · {hist[hist.length - 1]}</text>
+          </svg>
+        </div>
+      </div>
+      <div>
+        <div class="eyebrow">{pl ? 'Poziomy i działania' : 'Levels and actions'}</div>
+        <h2>{pl ? 'Co oznacza każdy poziom' : 'What each level means'}</h2>
+        <ul class="levels">
+          {levels.map((l, i) => (
+            <li style={`--c:var(${l.token})`}>
+              <span class="rng mono">{i === 0 ? 0 : levels[i - 1].max + 1}–{l.max}</span>
+              <div><strong>{l.name[lang]}</strong><p>{l.todo[lang].join(' · ')}</p></div>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="metodologia">
+    <div class="wrap">
+      <div class="eyebrow">{pl ? 'Metodologia' : 'Methodology'}</div>
+      <h2>{pl ? 'Jak liczymy indeks' : 'How we calculate the index'}</h2>
+      <div class="method">
+        {pl ? (
+          <Fragment>
+            <p>Każda z sześciu składowych jest skalowana do 0–100 na podstawie danych z oficjalnych i naukowych źródeł. Wynik to średnia ważona. Wagi są stałe i jawne — widzisz je przy każdej składowej.</p>
+            <p>Automat liczy wynik codziennie, a redakcja go zatwierdza. Zmiana o więcej niż 10 punktów w ciągu doby wymaga notki z wyjaśnieniem. Zegar Zagłady pokazujemy jako kontekst i nie wliczamy go do wyniku, bo zmienia się raz w roku.</p>
+            <p><strong>Indeks jest narzędziem edukacyjnym.</strong> Nie zastępuje ostrzeżeń RCB, RSO, IMGW ani poleceń służb.</p>
+          </Fragment>
+        ) : (
+          <Fragment>
+            <p>Each of the six components is scaled to 0–100 from official and scientific data sources. The score is a weighted average. Weights are fixed and public — shown next to each component.</p>
+            <p>The score is computed daily and approved by an editor. Any change of more than 10 points in a day comes with a written explanation. The Doomsday Clock is shown as context only; it changes once a year.</p>
+            <p><strong>The index is an educational tool.</strong> It never replaces official warnings or instructions from emergency services.</p>
+          </Fragment>
+        )}
+      </div>
+      <div class="tbl panel">
+        <table>
+          <thead><tr><th>{pl ? 'Składowa' : 'Component'}</th><th class="n">{pl ? 'Waga' : 'Weight'}</th><th>{pl ? 'Źródła' : 'Sources'}</th></tr></thead>
+          <tbody>{readiness.components.map((c) => <tr><td>{c.name[lang as Lang]}</td><td class="n mono">{c.weight}%</td><td class="mono src">{c.sources}</td></tr>)}</tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+</Base>
+<style>
+  .two{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:32px}
+  h2{margin:4px 0 16px}
+  .chart{padding:12px}
+  .note{font-family:var(--body);color:var(--muted);margin-bottom:10px}
+  .chart svg{width:100%;height:auto;display:block}
+  .levels{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+  .levels li{display:grid;grid-template-columns:64px 1fr;gap:12px;padding:10px 0 10px 12px;border-left:4px solid var(--c)}
+  .rng{font-size:12px;color:var(--muted);padding-top:2px}
+  .levels p{font-family:var(--body);font-size:14px;color:var(--ink-2);margin-top:2px}
+  .method{max-width:68ch;font-family:var(--body);font-size:17px;line-height:1.6;display:grid;gap:12px;margin-bottom:24px}
+  .tbl{overflow-x:auto}
+  table{width:100%;border-collapse:collapse;min-width:480px}
+  th,td{text-align:left;padding:12px 16px;border-bottom:1px solid var(--line);font-size:14px}
+  th{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600}
+  tr:last-child td{border-bottom:0}
+  .n{text-align:right}
+  .src{font-size:12px;color:var(--ink-2)}
+  @media (max-width:980px){ .two{grid-template-columns:1fr} }
+</style>

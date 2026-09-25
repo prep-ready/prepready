@@ -1,0 +1,65 @@
+---
+import feed from '../data/feed.json';
+import { t, type Lang } from '../i18n/ui';
+
+interface Props { lang: Lang; limit?: number; filters?: boolean }
+const { lang, limit, filters = true } = Astro.props;
+const items = [...feed.items].sort((a, b) => +new Date(b.at) - +new Date(a.at)).slice(0, limit ?? feed.items.length);
+const cats = ['all', 'weather', 'energy', 'security', 'health'] as const;
+const sevToken = ['', '--l1', '--l3', '--l4', '--l5'];
+const today = new Date(items[0]?.at ?? Date.now()).toDateString();
+const when = (iso: string) => {
+  const d = new Date(iso);
+  if (d.toDateString() === today) return d.toLocaleTimeString(lang === 'pl' ? 'pl-PL' : 'en-GB', { hour: '2-digit', minute: '2-digit', timeZone: 'Europe/Warsaw' });
+  return d.toLocaleDateString(lang === 'pl' ? 'pl-PL' : 'en-GB', { day: 'numeric', month: 'short', timeZone: 'Europe/Warsaw' });
+};
+---
+<div class="news" data-news>
+  {filters && (
+    <div class="filters" role="group" aria-label={t(lang, 'news.all')}>
+      {cats.map((c, i) => <button class="chip" type="button" aria-pressed={i === 0 ? 'true' : 'false'} data-f={c}>{t(lang, `news.${c}` as any)}</button>)}
+    </div>
+  )}
+  <div class="feed">
+    {items.map((x) => (
+      <article class="item" data-cat={x.cat}>
+        <time datetime={x.at}>{when(x.at)}</time>
+        <div>
+          <div class="meta">
+            <span class="sev" style={`background:var(${sevToken[x.sev]})`}>{t(lang, `sev.${x.sev}` as any)}</span>
+            <a class="tag" href={x.url} rel="noopener" target="_blank">{x.source}</a>
+          </div>
+          <h3>{x.title[lang as Lang]}</h3>
+          <p class="so"><b>{t(lang, 'news.forYou')}</b> · {x.forYou[lang as Lang]}</p>
+        </div>
+      </article>
+    ))}
+  </div>
+</div>
+
+<script>
+  document.querySelectorAll<HTMLElement>('[data-news]').forEach((root) => {
+    const chips = root.querySelectorAll<HTMLButtonElement>('.chip');
+    chips.forEach((b) => b.addEventListener('click', () => {
+      chips.forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+      const f = b.dataset.f;
+      root.querySelectorAll<HTMLElement>('.item').forEach((it) => { it.hidden = f !== 'all' && it.dataset.cat !== f; });
+    }));
+  });
+</script>
+
+<style>
+  .filters{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}
+  .feed{display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius)}
+  .item{display:grid;grid-template-columns:64px 1fr;gap:14px;padding:16px 18px;border-bottom:1px solid var(--line)}
+  .item:last-child{border-bottom:0}
+  .item[hidden]{display:none}
+  time{font-family:var(--mono);font-size:12px;color:var(--muted);padding-top:2px}
+  .meta{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:4px}
+  .sev{font-family:var(--mono);font-size:10.5px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;padding:2px 7px;border-radius:4px;color:var(--on-level)}
+  .tag{font-family:var(--mono);font-size:11px;color:var(--muted)}
+  h3{font-size:16px;font-weight:700;line-height:1.3}
+  .so{font-family:var(--body);font-size:14.5px;color:var(--ink-2);margin-top:6px;padding-left:12px;border-left:2px solid var(--line)}
+  .so b{font-family:var(--display);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--olive)}
+  @media (max-width:620px){ .item{grid-template-columns:1fr;gap:4px} }
+</style>

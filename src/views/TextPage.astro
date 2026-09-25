@@ -1,0 +1,18 @@
+---
+import Base from '../layouts/Base.astro';
+import type { Lang, RouteKey } from '../i18n/ui';
+import { routes } from '../i18n/ui';
+interface Props { lang: Lang; route: RouteKey; title: string; desc: string; html: string }
+const { lang, route, title, desc, html } = Astro.props;
+---
+<Base lang={lang} title={title} description={desc} alternates={{ pl: routes[route].pl, en: routes[route].en }}>
+  <div class="wrap page-head"><h1>{title}</h1><p>{desc}</p></div>
+  <div class="wrap"><div class="prose" set:html={html} /></div>
+</Base>
+<style>
+  .prose{max-width:68ch;font-family:var(--body);font-size:18px;line-height:1.65;padding-bottom:24px}
+  .prose :global(h2){font-family:var(--display);font-size:24px;font-weight:800;margin:32px 0 10px}
+  .prose :global(p){margin:0 0 14px}
+  .prose :global(ul){padding-left:1.3em;margin:0 0 14px}
+  .prose :global(li){margin-bottom:8px}
+</style>

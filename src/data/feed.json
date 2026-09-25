@@ -1,0 +1,81 @@
+{
+  "_comment": "Aktualizuje scripts/update-data.mjs (GitHub Actions, codziennie). sample=true = wpisy przykładowe.",
+  "sample": false,
+  "items": [
+    {
+      "at": "2026-09-25T14:31:37.000Z",
+      "cat": "security",
+      "sev": 2,
+      "source": "edgp.gazetaprawna.pl",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUk1FUWJTZllpVUNZdVczdUw1ZXRLcEZHS3pLRE4yZ2huZllwdXNiempicTJxN0FwcmJ1TGVjWUZyQVBJVlgtS2FIekRuOTc3YXNYY1cwalpwNHBaS1RuUC1kaG8wSlVWWW5UaFN4TXRqSUF5c0xDZnRaT3Rzd2pvNHdtM2ZraUFkVkNLRllYdWE0bUZsaEE0ZFFwSWFkVGtFM1Q5RXdmTmE?oc=5",
+      "title": {
+        "pl": "Co z dziećmi w szkole, kiedy zawyją syreny? Nasza bezradność i niewiedza daje punkty Rosji",
+        "en": "Co z dziećmi w szkole, kiedy zawyją syreny? Nasza bezradność i niewiedza daje punkty Rosji"
+      },
+      "forYou": {
+        "pl": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań.",
+        "en": "Learn the siren signals and find your nearest shelter. Don’t share unverified footage."
+      }
+    },
+    {
+      "at": "2026-09-25T14:20:32.000Z",
+      "cat": "security",
+      "sev": 2,
+      "source": "WP Wiadomości",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPYWtxSkN1b3VnV0hUWmV2d1dFSmZqOW1VOTB3dUk4ZlVHVVFWQzdUTDB3akNCQk9yeHBtaU5qemMzcFpTUnZNQ2JRWE9zNWtxOGRab3Jwd1NPckx1aXYyM2U1TWxxeHg5Qlg4d0Q1NWh4d3kxQTlXZVJ1MU1KYTFyMDVxcUVtenhzenVtckplTjNJamh6bGFuM2p1UXNGcVJsaVdZZGNVaU1KMHVw?oc=5",
+      "title": {
+        "pl": "Sabotaż i terroryzm na Mazowszu. Trop prowadzi do rosyjskich służb",
+        "en": "Sabotaż i terroryzm na Mazowszu. Trop prowadzi do rosyjskich służb"
+      },
+      "forYou": {
+        "pl": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań.",
+        "en": "Learn the siren signals and find your nearest shelter. Don’t share unverified footage."
+      }
+    },
+    {
+      "at": "2026-09-23T15:36:21.000Z",
+      "cat": "health",
+      "sev": 2,
+      "source": "ECDC",
+      "url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
+      "title": {
+        "pl": "Ebola disease outbreak in the Democratic Republic of the Congo",
+        "en": "Ebola disease outbreak in the Democratic Republic of the Congo"
+      },
+      "forYou": {
+        "pl": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków.",
+        "en": "Usually no action. Check your first-aid kit and expiry dates."
+      }
+    },
+    {
+      "at": "2026-09-23T12:55:00.000Z",
+      "cat": "security",
+      "sev": 2,
+      "source": "CERT Polska",
+      "url": "https://cert.pl/posts/2026/09/CVE-2026-92419/",
+      "title": {
+        "pl": "Podatność w oprogramowaniu WEBCON BPS",
+        "en": "Podatność w oprogramowaniu WEBCON BPS"
+      },
+      "forYou": {
+        "pl": "Aktualizuj system i aplikacje. Nie klikaj linków w SMS-ach o zagrożeniach — zgłaszaj je na 8080.",
+        "en": "Keep devices updated. Don’t tap links in alert-style texts."
+      }
+    },
+    {
+      "at": "2026-09-23T10:00:00.000Z",
+      "cat": "security",
+      "sev": 2,
+      "source": "CERT Polska",
+      "url": "https://cert.pl/posts/2026/09/analiza-tollfraud/",
+      "title": {
+        "pl": "Fałszywe reklamy i złośliwe aplikacje - analiza operacji toll fraud",
+        "en": "Fałszywe reklamy i złośliwe aplikacje - analiza operacji toll fraud"
+      },
+      "forYou": {
+        "pl": "Aktualizuj system i aplikacje. Nie klikaj linków w SMS-ach o zagrożeniach — zgłaszaj je na 8080.",
+        "en": "Keep devices updated. Don’t tap links in alert-style texts."
+      }
+    }
+  ]
+}

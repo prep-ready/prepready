@@ -1,0 +1,90 @@
+---
+import Icon from './Icon.astro';
+import { checklist, picks } from '../data/site';
+import { routes, t, type Lang } from '../i18n/ui';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const pickHref = (id: string) => picks.find((p) => p.id === id)?.url || routes.gear[lang];
+---
+<div class="cl-layout" data-checklist="bag72">
+  <div class="panel check">
+    <div class="top">
+      <strong class="mono count" aria-live="polite">0/{checklist.length}</strong>
+      <div class="bar" aria-hidden="true"><i></i></div>
+      <button class="btn ghost reset" type="button">{t(lang, 'cl.reset')}</button>
+    </div>
+    <ul class="list">
+      {checklist.map((c) => (
+        <li data-id={c.id}>
+          <input type="checkbox" id={`cl-${c.id}`} />
+          <label for={`cl-${c.id}`}><span class="n">{c.name[lang]}</span><span class="qty">{c.qty[lang]}</span></label>
+          {c.pickId ? <a class="buy" href={pickHref(c.pickId)} rel="sponsored noopener">{t(lang, 'cl.pick')}</a> : <span></span>}
+        </li>
+      ))}
+    </ul>
+  </div>
+  <div class="panel picks">
+    <div class="eyebrow">{t(lang, 'cl.picksTitle')}</div>
+    {picks.map((p) => (
+      <div class="row">
+        <div class="img"><Icon name={p.icon} size="40" /></div>
+        <div><div class="pt">{p.title[lang]}</div><div class="why">{p.why[lang]}</div></div>
+        <div class="price">{p.price[lang]}<br /><a class="link-more" href={p.url || routes.gear[lang]} rel="sponsored noopener">{t(lang, 'cl.view')}</a></div>
+      </div>
+    ))}
+    <p class="disclose">{t(lang, 'aff.disclose')} <a href={routes.earn[lang]}>{t(lang, 'aff.how')}</a></p>
+  </div>
+</div>
+
+<script>
+  document.querySelectorAll<HTMLElement>('[data-checklist]').forEach((root) => {
+    const key = 'pr-cl-' + root.dataset.checklist;
+    let done = new Set<string>();
+    try { done = new Set(JSON.parse(localStorage.getItem(key) || '[]')); } catch {}
+    const rows = [...root.querySelectorAll<HTMLLIElement>('.list li')];
+    const count = root.querySelector('.count')!;
+    const bar = root.querySelector<HTMLElement>('.bar i')!;
+    const sync = () => {
+      rows.forEach((li) => {
+        const on = done.has(li.dataset.id!);
+        li.classList.toggle('done', on);
+        (li.querySelector('input') as HTMLInputElement).checked = on;
+      });
+      count.textContent = `${done.size}/${rows.length}`;
+      bar.style.width = (done.size / rows.length) * 100 + '%';
+      try { localStorage.setItem(key, JSON.stringify([...done])); } catch {}
+    };
+    rows.forEach((li) => li.querySelector('input')!.addEventListener('change', (e) => {
+      const id = li.dataset.id!;
+      (e.target as HTMLInputElement).checked ? done.add(id) : done.delete(id);
+      sync();
+    }));
+    root.querySelector('.reset')!.addEventListener('click', () => { done.clear(); sync(); });
+    sync();
+  });
+</script>
+
+<style>
+  .cl-layout{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:24px;align-items:start}
+  .top{padding:16px 20px;border-bottom:1px solid var(--line);display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+  .bar{flex:1 1 160px;height:10px;border-radius:5px;background:var(--surface-2);overflow:hidden}
+  .bar i{display:block;height:100%;width:0;background:var(--olive);transition:width .3s}
+  .reset{padding:6px 12px;font-size:13px}
+  .list{list-style:none;margin:0;padding:0}
+  .list li{display:grid;grid-template-columns:22px 1fr auto;gap:12px;align-items:start;padding:12px 20px;border-bottom:1px solid var(--line)}
+  .list li:last-child{border-bottom:0}
+  input{width:18px;height:18px;margin:2px 0 0;accent-color:var(--olive)}
+  label{cursor:pointer}
+  .qty{font-family:var(--mono);font-size:12px;color:var(--muted);display:block}
+  .buy{font-size:12px;font-weight:700;color:var(--action);text-decoration:none;white-space:nowrap;padding-top:2px}
+  li.done .n{text-decoration:line-through;color:var(--muted)}
+  li.done .buy{visibility:hidden}
+  .picks{padding:20px;display:flex;flex-direction:column;gap:14px}
+  .row{display:grid;grid-template-columns:52px 1fr auto;gap:12px;align-items:center;padding-top:14px;border-top:1px solid var(--line)}
+  .img{width:52px;height:52px;border-radius:6px;background:var(--surface-2);display:grid;place-items:center}
+  .pt{font-weight:700;font-size:14px;line-height:1.3}
+  .why{font-family:var(--body);font-size:13.5px;color:var(--muted)}
+  .price{font-family:var(--mono);font-size:12.5px;text-align:right;white-space:nowrap}
+  .disclose{font-family:var(--mono);font-size:11px;color:var(--muted)}
+  @media (max-width:980px){ .cl-layout{grid-template-columns:1fr} }
+</style>

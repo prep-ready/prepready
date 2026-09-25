@@ -1,0 +1,40 @@
+---
+import { gearTest } from '../data/site';
+import { t, num, type Lang } from '../i18n/ui';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+---
+<div class="tbl-wrap">
+  <table>
+    <thead><tr>
+      <th scope="col">{t(lang, 'gear.model')}</th>
+      <th scope="col" class="n">{t(lang, 'gear.cap')}</th>
+      <th scope="col" class="n">{t(lang, 'gear.charge')}</th>
+      <th scope="col" class="n">{t(lang, 'gear.phone')}</th>
+      <th scope="col" class="n">{t(lang, 'gear.score')}</th>
+      <th scope="col" class="n">{t(lang, 'gear.price')}</th>
+    </tr></thead>
+    <tbody>
+      {gearTest.rows.map((r) => (
+        <tr>
+          <th scope="row"><strong>{r.model}</strong><span class="badge">{r.badge[lang]}</span></th>
+          <td class="n">{num(r.cap, lang)}</td>
+          <td class="n">{num(r.charge, lang, { minimumFractionDigits: 1 })}</td>
+          <td class="n">{r.phone}</td>
+          <td class="n"><span class="score">{num(r.score, lang, { minimumFractionDigits: 1 })}</span></td>
+          <td class="n">{lang === 'pl' ? num(r.price.pl, lang) : '€' + num(r.price.en, lang)}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>
+<style>
+  .tbl-wrap{overflow-x:auto;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius)}
+  table{border-collapse:collapse;width:100%;min-width:660px}
+  th,td{text-align:left;padding:12px 16px;border-bottom:1px solid var(--line);font-size:14px;vertical-align:top;font-weight:400}
+  thead th{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600}
+  tbody tr:last-child > *{border-bottom:0}
+  .n{font-family:var(--mono);font-variant-numeric:tabular-nums;text-align:right}
+  .score{display:inline-block;font-weight:600;background:var(--surface-2);padding:2px 8px;border-radius:4px}
+  .badge{font-family:var(--mono);font-size:10.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--olive);display:block;margin-top:2px}
+</style>

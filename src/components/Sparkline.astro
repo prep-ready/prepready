@@ -1,0 +1,17 @@
+---
+interface Props { data: number[]; token: string; height?: number }
+const { data: raw, token, height = 34 } = Astro.props;
+const data = raw.length >= 2 ? raw : [raw[0] ?? 0, raw[0] ?? 0];
+const w = 120, h = height;
+const y = (v: number) => h - 3 - (v / 100) * (h - 8);
+const pts = data.map((v, i) => [i * (w / (data.length - 1)), y(v)] as const);
+const line = pts.map((p, i) => `${i ? 'L' : 'M'}${p[0].toFixed(1)} ${p[1].toFixed(1)}`).join(' ');
+const last = pts[pts.length - 1];
+const mid = y(50);
+---
+<svg viewBox={`-3 0 ${w + 6} ${h}`} preserveAspectRatio="none" aria-hidden="true" style={`width:100%;height:${h}px;display:block`}>
+  <line x1="0" y1={mid} x2={w} y2={mid} stroke="var(--line)" stroke-dasharray="2 3" vector-effect="non-scaling-stroke" />
+  <path d={`${line} L${w} ${h} L0 ${h} Z`} fill={`var(${token})`} opacity=".14" />
+  <path d={line} fill="none" stroke={`var(${token})`} stroke-width="2" vector-effect="non-scaling-stroke" />
+  <circle cx={last[0]} cy={last[1]} r="3" fill={`var(${token})`} />
+</svg>

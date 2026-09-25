@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://prepready.pro/sitemap-index.xml

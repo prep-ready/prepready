@@ -1,0 +1,51 @@
+---
+import { t, type Lang } from '../i18n/ui';
+import { sourcesMonitored } from '../data/site';
+interface Props { lang: Lang; showSources?: boolean }
+const { lang, showSources = true } = Astro.props;
+/** Po wyborze narzędzia (MailerLite / Beehiiv) wstaw tu adres formularza. Pusty = komunikat „wkrótce”. */
+const ACTION = '';
+---
+<div class="stack">
+  <div class="nl">
+    <div class="eyebrow">{t(lang, 'nl.eyebrow')}</div>
+    <h3>{t(lang, 'nl.title')}</h3>
+    <p>{t(lang, 'nl.body')}</p>
+    <form class="nl-form" method="post" action={ACTION || undefined} data-pending={t(lang, 'nl.pending')}>
+      <label for={`nl-email-${lang}`} class="sr-only">E-mail</label>
+      <input id={`nl-email-${lang}`} name="email" type="email" required placeholder={t(lang, 'nl.placeholder')} autocomplete="email" />
+      <button class="btn primary" type="submit">{t(lang, 'nl.btn')}</button>
+    </form>
+    <small class="nl-msg" aria-live="polite">{t(lang, 'nl.small')}</small>
+  </div>
+  {showSources && (
+    <div class="panel srcs">
+      <div class="eyebrow">{t(lang, 'src.title')}</div>
+      <ul>{sourcesMonitored.map((s) => <li>{s}</li>)}</ul>
+    </div>
+  )}
+</div>
+<script>
+  document.querySelectorAll<HTMLFormElement>('.nl-form').forEach((f) => {
+    if (f.getAttribute('action')) return;
+    f.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const msg = f.parentElement?.querySelector('.nl-msg');
+      if (msg) msg.textContent = f.dataset.pending ?? '';
+    });
+  });
+</script>
+<style>
+  .stack{display:flex;flex-direction:column;gap:16px}
+  .nl{background:#121619;color:#E9ECE8;border-radius:var(--radius);padding:22px;display:flex;flex-direction:column;gap:12px}
+  .nl .eyebrow{color:#E9ECE8;opacity:.6}
+  h3{font-size:22px;font-weight:800;font-stretch:85%}
+  p{font-family:var(--body);opacity:.8;font-size:14.5px}
+  form{display:flex;gap:8px;flex-wrap:wrap}
+  input{flex:1 1 160px;min-width:0;border:1px solid #4a535a;background:transparent;color:inherit;border-radius:6px;padding:10px 12px;font:inherit}
+  input::placeholder{color:#8C958F}
+  .nl .btn.primary{background:#C94A06;color:#fff}
+  small{font-family:var(--mono);font-size:11px;opacity:.65}
+  .srcs{padding:18px}
+  .srcs ul{list-style:none;margin:10px 0 0;padding:0;display:grid;gap:6px;font-family:var(--mono);font-size:12px;color:var(--ink-2)}
+</style>

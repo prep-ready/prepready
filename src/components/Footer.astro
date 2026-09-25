@@ -1,0 +1,57 @@
+---
+import Logo from './Logo.astro';
+import { routes, t, type Lang } from '../i18n/ui';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const year = new Date().getFullYear();
+const numbers = lang === 'pl'
+  ? [['112', 'Numer alarmowy'], ['rcb.gov.pl', 'Rządowe Centrum Bezpieczeństwa'], ['meteo.imgw.pl', 'Ostrzeżenia IMGW']]
+  : [['112', 'EU emergency number'], ['ecdc.europa.eu', 'EU health alerts'], ['gdacs.org', 'Global disaster alerts']];
+---
+<footer class="site-footer">
+  <div class="wrap grid">
+    <div class="about">
+      <Logo size={28} />
+      <p>{t(lang, 'f.about')}</p>
+    </div>
+    <div>
+      <h2 class="h">{t(lang, 'f.c1')}</h2>
+      <ul>
+        <li><a href={routes.index[lang]}>{t(lang, 'nav.index')}</a></li>
+        <li><a href={routes.news[lang]}>{t(lang, 'nav.news')}</a></li>
+        <li><a href={routes.guides[lang]}>{t(lang, 'nav.guides')}</a></li>
+        <li><a href={routes.gear[lang]}>{t(lang, 'nav.gear')}</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2 class="h">{t(lang, 'f.c2')}</h2>
+      <ul>
+        <li><a href={routes.about[lang]}>{t(lang, 'f.team')}</a></li>
+        <li><a href={routes.earn[lang]}>{t(lang, 'f.earn')}</a></li>
+        <li><a href={routes.index[lang] + '#metodologia'}>{t(lang, 'f.method')}</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2 class="h">{t(lang, 'f.c3')}</h2>
+      <ul class="nums">
+        {numbers.map(([n, d]) => <li><span class="mono">{n}</span><small>{d}</small></li>)}
+      </ul>
+    </div>
+  </div>
+  <div class="legal"><div class="wrap">© {year} PrepReady · prepready.pro</div></div>
+</footer>
+<style>
+  .site-footer{background:#121619;color:#E9ECE8;margin-top:48px;--ink:#E9ECE8;--line:#3a4247}
+  .grid{display:grid;grid-template-columns:2fr 1fr 1fr 1.3fr;gap:28px;padding-block:40px}
+  .about p{font-family:var(--body);font-size:14px;opacity:.75;max-width:48ch;margin-top:12px}
+  .h{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;opacity:.6;font-weight:600;margin-bottom:10px}
+  ul{list-style:none;margin:0;padding:0;display:grid;gap:8px;font-size:14px}
+  a{text-decoration:none;opacity:.9}
+  a:hover{text-decoration:underline}
+  .nums li{display:flex;flex-direction:column}
+  .nums small{opacity:.6;font-size:12px}
+  .legal{border-top:1px solid #2C3337}
+  .legal .wrap{padding-block:16px;font-family:var(--mono);font-size:11px;opacity:.6}
+  @media (max-width:980px){ .grid{grid-template-columns:1fr 1fr} }
+  @media (max-width:520px){ .grid{grid-template-columns:1fr} }
+</style>

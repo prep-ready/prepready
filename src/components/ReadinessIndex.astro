@@ -1,0 +1,127 @@
+---
+import Sparkline from './Sparkline.astro';
+import readiness from '../data/readiness.json';
+import { levels, levelFor, levelIndex, tokenFor } from '../data/levels';
+import { routes, t, fmtDate, type Lang } from '../i18n/ui';
+
+interface Props { lang: Lang; headingLevel?: 'h1' | 'h2' }
+const { lang, headingLevel = 'h1' } = Astro.props;
+const H = headingLevel;
+const { score, delta7, ago30, components, doomsdayClock: dc } = readiness;
+const lvl = levelFor(score);
+const li = levelIndex(score);
+
+// Gauge geometry
+const cx = 150, cy = 150, r = 110;
+const pt = (a: number, rr = r) => [cx + rr * Math.cos(a), cy - rr * Math.sin(a)];
+const arcs = levels.map((l, i) => {
+  const a0 = Math.PI * (1 - i / 5) - 0.012, a1 = Math.PI * (1 - (i + 1) / 5) + 0.012;
+  const [x0, y0] = pt(a0), [x1, y1] = pt(a1);
+  return { d: `M${x0.toFixed(1)} ${y0.toFixed(1)} A${r} ${r} 0 0 1 ${x1.toFixed(1)} ${y1.toFixed(1)}`, token: l.token, active: i === li };
+});
+const ticks = [0, 20, 40, 60, 80, 100].map((v) => { const [x, y] = pt(Math.PI * (1 - v / 100), r + 20); return { v, x, y }; });
+const needleDeg = (score / 100) * 180 - 90;
+const sign = delta7 > 0 ? '▲' : delta7 < 0 ? '▼' : '■';
+---
+<div class="idx-grid">
+  <div class="panel card main">
+    <div class="head">
+      <div>
+        <div class="eyebrow">{t(lang, 'idx.eyebrow')}</div>
+        <H class="title">{t(lang, 'idx.title')}</H>
+      </div>
+      {readiness.sample && <span class="sample">{t(lang, 'sample')}</span>}
+    </div>
+    <svg class="gauge" viewBox="0 0 300 170" role="img" aria-label={`${score}/100 · ${lvl.name[lang]}`}>
+      <g fill="none" stroke-width="22">
+        {arcs.map((a) => <path d={a.d} stroke={`var(${a.token})`} opacity={a.active ? 1 : 0.32} />)}
+      </g>
+      <g font-family="JetBrains Mono, monospace" font-size="10" fill="var(--muted)" text-anchor="middle">
+        {ticks.map((k) => <text x={k.x.toFixed(1)} y={(k.y + 3).toFixed(1)}>{k.v}</text>)}
+      </g>
+      <line class="needle" x1="150" y1="150" x2="150" y2="46" stroke="var(--ink)" stroke-width="3" stroke-linecap="round" style={`--deg:${needleDeg}deg`} />
+      <circle cx="150" cy="150" r="7" fill="var(--ink)" />
+    </svg>
+    <div class="read">
+      <div class="num">{score}</div>
+      <span class="pill" style={`background:var(${lvl.token})`}>{lvl.name[lang]}</span>
+      {readiness.history.length > 7 ? <div class="delta">{sign} {Math.abs(delta7)} {lang === 'pl' ? 'pkt' : 'pts'} {t(lang, 'idx.delta7')} · {t(lang, 'idx.ago30')}: {ago30}</div>
+        : <div class="delta">{lang === 'pl' ? `Zbieramy historię · dzień ${readiness.history.length}` : `Building history · day ${readiness.history.length}`}</div>}
+    </div>
+    <div class="scale" aria-hidden="true">
+      {levels.map((l, i) => (
+        <div style={`border-color:var(${l.token})`} class={i === li ? 'on' : ''}>
+          {i === 0 ? 0 : levels[i - 1].max + 1}–{l.max}<br />{l.name[lang]}
+        </div>
+      ))}
+    </div>
+    <div class="todo">
+      <div class="eyebrow">{t(lang, 'idx.todo')}</div>
+      <ul>{lvl.todo[lang].map((x) => <li>{x}</li>)}</ul>
+    </div>
+  </div>
+
+  <div class="panel card comps">
+    <div class="head">
+      <div>
+        <div class="eyebrow">{t(lang, 'idx.compEyebrow')}</div>
+        <h2 class="title sm">{t(lang, 'idx.compTitle')}</h2>
+      </div>
+      <a class="link-more" href={routes.index[lang] + '#metodologia'}>{t(lang, 'idx.method')}</a>
+    </div>
+    <div class="cgrid">
+      {components.map((c) => (
+        <div class="comp" style={`--c:var(${tokenFor(c.value)})`}>
+          <div class="top"><span class="name">{c.name[lang as Lang]}</span><span class="val">{c.value}</span></div>
+          <Sparkline data={c.trend} token={tokenFor(c.value)} />
+          <span class="src">{c.sources} · {t(lang, 'idx.weight')} {c.weight}%{c.mode === 'manual' && (lang === 'pl' ? ' · ręcznie' : ' · manual')}{c.stale && (lang === 'pl' ? ' · brak świeżych danych' : ' · not updated today')}</span>
+        </div>
+      ))}
+    </div>
+    <div class="clock">
+      <svg viewBox="0 0 56 56" width="52" height="52" aria-hidden="true">
+        <circle cx="28" cy="28" r="25" fill="var(--surface)" stroke="var(--ink)" stroke-width="2"/>
+        <path d="M28 28 L28 3 A25 25 0 0 1 32.2 3.4 Z" fill="var(--signal-bright)"/>
+        <line x1="28" y1="28" x2="28" y2="8" stroke="var(--ink)" stroke-width="2.5" stroke-linecap="round"/>
+        <line x1="28" y1="28" x2="26.8" y2="6" stroke="var(--signal-bright)" stroke-width="1.5" stroke-linecap="round"/>
+        <circle cx="28" cy="28" r="2.5" fill="var(--ink)"/>
+      </svg>
+      <p set:html={t(lang, 'clock.text', { s: dc.seconds, d: fmtDate(dc.setOn, lang) })} />
+    </div>
+  </div>
+</div>
+
+<style>
+  .idx-grid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:24px}
+  .card{padding:24px;display:flex;flex-direction:column;gap:18px}
+  .head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
+  .title{font-size:26px;font-weight:800;margin-top:4px}
+  .title.sm{font-size:22px}
+  .gauge{width:100%;max-width:380px;margin:0 auto;display:block}
+  .needle{transform-origin:150px 150px;transform:rotate(var(--deg));animation:swing 1.1s cubic-bezier(.2,.8,.2,1)}
+  @keyframes swing{from{transform:rotate(-90deg)}}
+  .read{text-align:center;margin-top:-4px}
+  .num{font-weight:900;font-size:72px;line-height:1;font-stretch:75%;font-variant-numeric:tabular-nums}
+  .pill{display:inline-block;margin-top:6px;padding:4px 12px;border-radius:999px;color:var(--on-level);font-weight:800;font-size:13px;letter-spacing:.06em;text-transform:uppercase}
+  .delta{font-family:var(--mono);font-size:12px;color:var(--muted);margin-top:8px}
+  .scale{display:grid;grid-template-columns:repeat(5,1fr);gap:3px;font-family:var(--mono);font-size:10px;color:var(--muted);line-height:1.35}
+  .scale div{border-top:4px solid;padding-top:4px}
+  .scale .on{color:var(--ink);font-weight:600}
+  .todo{border-top:1px solid var(--line);padding-top:16px}
+  .todo ul{margin:10px 0 0;padding:0;list-style:none;display:grid;gap:8px}
+  .todo li{display:flex;gap:10px;font-family:var(--body);font-size:15px}
+  .todo li::before{content:"";flex:0 0 6px;height:6px;margin-top:9px;background:var(--signal-bright)}
+  .comps{gap:16px}
+  .cgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:8px;overflow:hidden}
+  .comp{background:var(--surface);padding:14px;display:flex;flex-direction:column;gap:6px;min-height:136px;border-top:3px solid var(--c)}
+  .top{display:flex;justify-content:space-between;align-items:baseline;gap:6px}
+  .name{font-weight:700;font-size:14px;line-height:1.25}
+  .val{font-family:var(--mono);font-weight:600;font-size:22px}
+  .src{font-family:var(--mono);font-size:10.5px;color:var(--muted);margin-top:auto}
+  .clock{display:flex;gap:16px;align-items:center;padding:14px 16px;background:var(--surface-2);border-radius:8px}
+  .clock svg{flex:0 0 52px}
+  .clock p{font-family:var(--body);font-size:14px;color:var(--ink-2)}
+  .clock :global(strong){font-family:var(--display);color:var(--ink)}
+  @media (max-width:980px){ .idx-grid{grid-template-columns:1fr} }
+  @media (max-width:620px){ .cgrid{grid-template-columns:repeat(2,minmax(0,1fr))} .card{padding:18px} .scale{font-size:9px} }
+</style>

@@ -1,0 +1,69 @@
+@import '@fontsource-variable/archivo/wdth.css';
+@import '@fontsource-variable/source-serif-4/index.css';
+@import '@fontsource/jetbrains-mono/400.css';
+@import '@fontsource/jetbrains-mono/600.css';
+
+/* ── Design tokens ─────────────────────────────────────────── */
+:root{
+  color-scheme:light;
+  --bg:#ECEEEA; --surface:#F7F8F5; --surface-2:#E2E5DF; --ink:#121619; --ink-2:#3C4541; --muted:#626C66;
+  --line:#CDD2CB; --signal:#C94A06; --signal-bright:#EA5A0C; --on-signal:#FFFFFF; --action:#1F4FB4; --olive:#4E6054;
+  --l1:#3F8F5A; --l2:#8AA23A; --l3:#D9A21B; --l4:#E26B1C; --l5:#C8322B; --on-level:#15130D;
+  --display:"Archivo Variable", "Arial Narrow", Arial, sans-serif;
+  --body:"Source Serif 4 Variable", Georgia, "Times New Roman", serif;
+  --mono:"JetBrains Mono", ui-monospace, Menlo, Consolas, monospace;
+  --radius:10px; --gutter:20px; --maxw:1200px;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --bg:#0E1113; --surface:#161A1D; --surface-2:#1F2427; --ink:#E9ECE8; --ink-2:#BCC4BF; --muted:#8C958F;
+    --line:#2C3337; --signal:#F2702A; --signal-bright:#F2702A; --on-signal:#140A03; --action:#86A8F4; --olive:#8FA595;
+    --l1:#52B07A; --l2:#A9BF52; --l3:#E8B83A; --l4:#F0843A; --l5:#E5574E;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#0E1113; --surface:#161A1D; --surface-2:#1F2427; --ink:#E9ECE8; --ink-2:#BCC4BF; --muted:#8C958F;
+  --line:#2C3337; --signal:#F2702A; --signal-bright:#F2702A; --on-signal:#140A03; --action:#86A8F4; --olive:#8FA595;
+  --l1:#52B07A; --l2:#A9BF52; --l3:#E8B83A; --l4:#F0843A; --l5:#E5574E;
+}
+
+/* ── Base ──────────────────────────────────────────────────── */
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--display);font-size:15px;line-height:1.5}
+img,svg{max-width:100%}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--action);outline-offset:2px}
+h1,h2,h3,h4{margin:0;text-wrap:balance;font-stretch:88%;line-height:1.15}
+h2{font-size:clamp(24px,3vw,32px);font-weight:800;letter-spacing:-.01em}
+h3{font-size:18px;font-weight:700}
+p{margin:0}
+button{font:inherit;cursor:pointer}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip{position:absolute;left:-9999px;top:0;background:var(--ink);color:var(--bg);padding:8px 12px;z-index:99}
+.skip:focus{left:8px}
+
+/* ── Utilities & shared parts ──────────────────────────────── */
+.wrap{max-width:var(--maxw);margin:0 auto;padding-inline:var(--gutter)}
+.mono{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius)}
+.sample{font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--signal);border:1px dashed var(--signal);padding:1px 6px;border-radius:4px;white-space:nowrap}
+.btn{display:inline-flex;align-items:center;gap:8px;border:0;border-radius:6px;padding:10px 16px;font-weight:700;font-size:14px;text-decoration:none;line-height:1.2}
+.btn.primary{background:var(--signal);color:var(--on-signal)}
+.btn.ghost{background:transparent;border:1px solid var(--line);color:var(--ink)}
+.link-more{font-weight:700;font-size:14px;color:var(--action);text-decoration:none}
+.link-more:hover{text-decoration:underline}
+section.block{padding-block:44px;border-top:1px solid var(--line)}
+.sec-head{display:flex;justify-content:space-between;align-items:end;gap:16px;margin-bottom:20px;flex-wrap:wrap}
+.sec-head .lead{color:var(--muted);font-family:var(--body);max-width:60ch;margin-top:6px}
+.chip{border:1px solid var(--line);background:var(--surface);color:var(--ink-2);border-radius:999px;padding:5px 12px;font-size:13px;font-weight:600}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.page-head{padding-block:40px 24px}
+.page-head h1{font-size:clamp(30px,4.4vw,48px);font-weight:850;font-stretch:80%;letter-spacing:-.01em;margin-top:8px}
+.page-head p{font-family:var(--body);font-size:18px;color:var(--ink-2);max-width:62ch;margin-top:12px}
+
+@media (max-width:620px){ :root{--gutter:16px} }
+@media (prefers-reduced-motion:reduce){ *{transition:none!important;animation:none!important;scroll-behavior:auto!important} }

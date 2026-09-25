@@ -1,0 +1,41 @@
+---
+import Base from '../layouts/Base.astro';
+import GuideCards from '../components/GuideCards.astro';
+import { clusters, routes, t, fmtDate, type Lang } from '../i18n/ui';
+import { articles, hrefOf } from '../lib/articles';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const list = await articles(lang);
+const meta = {
+  pl: { title: 'Poradniki na czas kryzysu', desc: 'Praktyczne poradniki: plecak ewakuacyjny, blackout, woda i żywność, schron, ewakuacja i pierwsza pomoc. Oparte na źródłach urzędowych.' },
+  en: { title: 'Crisis preparedness guides', desc: 'Practical guides: go-bags, blackouts, water and food, shelter, evacuation and first aid. Based on official sources.' },
+}[lang];
+---
+<Base lang={lang} title={meta.title} description={meta.desc} alternates={{ pl: routes.guides.pl, en: routes.guides.en }} current="guides">
+  <div class="wrap page-head">
+    <div class="eyebrow">{t(lang, 'g.eyebrow')}</div>
+    <h1>{meta.title}</h1>
+    <p>{meta.desc}</p>
+  </div>
+  <div class="wrap"><GuideCards lang={lang} /></div>
+  <section class="block" style="margin-top:40px">
+    <div class="wrap">
+      <h2 style="margin-bottom:16px">{lang === 'pl' ? 'Wszystkie teksty' : 'All articles'}</h2>
+      <ul class="all">
+        {list.map((a) => (
+          <li>
+            <a href={hrefOf(a)}>{a.data.title}</a>
+            <span>{clusters[a.data.cluster][lang]} · {a.data.readingMinutes} {t(lang, 'g.min')} · {fmtDate(a.data.reviewed, lang)}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+</Base>
+<style>
+  .all{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+  .all li{display:flex;justify-content:space-between;gap:16px;padding:14px 0;border-bottom:1px solid var(--line);flex-wrap:wrap}
+  .all a{font-weight:700;font-size:17px;text-decoration:none}
+  .all a:hover{color:var(--action)}
+  .all span{font-family:var(--mono);font-size:12px;color:var(--muted)}
+</style>

@@ -1,0 +1,95 @@
+---
+import Base from '../layouts/Base.astro';
+import ReadinessIndex from '../components/ReadinessIndex.astro';
+import NewsFeed from '../components/NewsFeed.astro';
+import Newsletter from '../components/Newsletter.astro';
+import Steps from '../components/Steps.astro';
+import Checklist from '../components/Checklist.astro';
+import GuideCards from '../components/GuideCards.astro';
+import GearTable from '../components/GearTable.astro';
+import feed from '../data/feed.json';
+import { gearTest } from '../data/site';
+import { routes, t, type Lang } from '../i18n/ui';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const meta = {
+  pl: { title: 'PrepReady — Indeks gotowości i poradniki na czas kryzysu', description: 'Codzienny indeks gotowości dla Polski, sprawdzone wiadomości i praktyczne poradniki: plecak ewakuacyjny, blackout, woda, schron. Spokojnie i na podstawie danych.' },
+  en: { title: 'PrepReady — Readiness Index and crisis preparedness guides', description: 'A daily readiness index, verified news and practical guides: go-bags, blackouts, water, shelter. Calm and data-driven.' },
+}[lang];
+const jsonLd = {
+  '@context': 'https://schema.org', '@type': 'WebSite', name: 'PrepReady', url: new URL(routes.home[lang], Astro.site).href, inLanguage: lang,
+};
+---
+<Base lang={lang} title={meta.title} description={meta.description} alternates={{ pl: routes.home.pl, en: routes.home.en }} jsonLd={jsonLd}>
+  <div class="wrap hero"><ReadinessIndex lang={lang} /></div>
+
+  <section class="block">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <div class="eyebrow">{t(lang, 'news.eyebrow')}</div>
+          <h2>{t(lang, 'news.title')}</h2>
+        </div>
+        <div class="right">
+          {feed.sample && <span class="sample">{t(lang, 'sample')}</span>}
+          <a class="link-more" href={routes.news[lang]}>{t(lang, 'news.more')}</a>
+        </div>
+      </div>
+      <div class="news-layout">
+        <NewsFeed lang={lang} limit={5} />
+        <Newsletter lang={lang} />
+      </div>
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="wrap">
+      <div class="sec-head"><div><div class="eyebrow">{t(lang, 'start.eyebrow')}</div><h2>{t(lang, 'start.title')}</h2></div></div>
+      <Steps lang={lang} />
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <div class="eyebrow">{t(lang, 'cl.eyebrow')}</div>
+          <h2>{t(lang, 'cl.title')}</h2>
+          <p class="lead">{t(lang, 'cl.sub')}</p>
+        </div>
+      </div>
+      <Checklist lang={lang} />
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="wrap">
+      <div class="sec-head">
+        <div><div class="eyebrow">{t(lang, 'g.eyebrow')}</div><h2>{t(lang, 'g.title')}</h2></div>
+        <a class="link-more" href={routes.guides[lang]}>{t(lang, 'g.all')}</a>
+      </div>
+      <GuideCards lang={lang} />
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <div class="eyebrow">{t(lang, 'gear.eyebrow')}</div>
+          <h2>{t(lang, 'gear.title')}</h2>
+          <p class="lead">{t(lang, 'gear.sub')}</p>
+        </div>
+        {gearTest.sample && <span class="sample">{t(lang, 'sample')}</span>}
+      </div>
+      <GearTable lang={lang} />
+    </div>
+  </section>
+</Base>
+<style>
+  .hero{padding-block:32px 36px}
+  .right{display:flex;gap:14px;align-items:center}
+  .news-layout{display:grid;grid-template-columns:minmax(0,8fr) minmax(0,4fr);gap:24px;align-items:start}
+  @media (max-width:980px){ .news-layout{grid-template-columns:1fr} }
+</style>

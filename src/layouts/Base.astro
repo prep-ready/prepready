@@ -1,0 +1,61 @@
+---
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import type { Lang } from '../i18n/ui';
+
+interface Props {
+  lang: Lang;
+  title: string;
+  description: string;
+  /** Adresy tej samej strony w obu językach — generują hreflang i przełącznik języka. */
+  alternates?: Partial<Record<Lang, string>>;
+  current?: string;
+  ogType?: 'website' | 'article';
+  jsonLd?: object | object[];
+  noindex?: boolean;
+}
+const { lang, title, description, alternates = {}, current, ogType = 'website', jsonLd, noindex = false } = Astro.props;
+const site = Astro.site!;
+const canonical = new URL(Astro.url.pathname, site).href;
+const other: Lang = lang === 'pl' ? 'en' : 'pl';
+const fullTitle = title.includes('PrepReady') ? title : `${title} · PrepReady`;
+const ld = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
+---
+<!doctype html>
+<html lang={lang}>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>{fullTitle}</title>
+  <meta name="description" content={description} />
+  <link rel="canonical" href={canonical} />
+  {noindex && <meta name="robots" content="noindex" />}
+  {Object.entries(alternates).map(([l, href]) => (
+    <link rel="alternate" hreflang={l} href={new URL(href!, site).href} />
+  ))}
+  {alternates.pl && <link rel="alternate" hreflang="x-default" href={new URL(alternates.pl, site).href} />}
+  <meta property="og:type" content={ogType} />
+  <meta property="og:title" content={fullTitle} />
+  <meta property="og:description" content={description} />
+  <meta property="og:url" content={canonical} />
+  <meta property="og:site_name" content="PrepReady" />
+  <meta property="og:locale" content={lang === 'pl' ? 'pl_PL' : 'en_US'} />
+  <meta name="theme-color" content="#121619" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="sitemap" href="/sitemap-index.xml" />
+  <link rel="alternate" type="application/rss+xml" title="PrepReady" href={`/${lang}/rss.xml`} />
+  <script is:inline>
+    try { var th = localStorage.getItem('pr-theme'); if (th === 'dark' || th === 'light') document.documentElement.dataset.theme = th; } catch (e) {}
+  </script>
+  {ld.map((o) => <script type="application/ld+json" set:html={JSON.stringify(o)} />)}
+</head>
+<body>
+  <a class="skip" href="#main">{lang === 'pl' ? 'Przejdź do treści' : 'Skip to content'}</a>
+  <Header lang={lang} altHref={alternates[other]} current={current} />
+  <main id="main">
+    <slot />
+  </main>
+  <Footer lang={lang} />
+</body>
+</html>

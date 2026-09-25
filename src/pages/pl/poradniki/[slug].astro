@@ -1,0 +1,9 @@
+---
+import V from '../../../views/ArticleView.astro';
+import { articles, slugOf } from '../../../lib/articles';
+export async function getStaticPaths() {
+  return (await articles('pl')).map((entry) => ({ params: { slug: slugOf(entry) }, props: { entry } }));
+}
+const { entry } = Astro.props;
+---
+<V entry={entry} />

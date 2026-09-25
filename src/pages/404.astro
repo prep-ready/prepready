@@ -1,0 +1,12 @@
+---
+import Base from '../layouts/Base.astro';
+import { routes } from '../i18n/ui';
+---
+<Base lang="pl" title="Nie znaleziono strony" description="Ta strona nie istnieje." noindex>
+  <div class="wrap page-head">
+    <div class="eyebrow">404</div>
+    <h1>Nie ma tu tej strony</h1>
+    <p>Mogła zostać przeniesiona po przebudowie serwisu. / This page may have moved during our relaunch.</p>
+    <p style="margin-top:20px;display:flex;gap:10px;flex-wrap:wrap"><a class="btn primary" href={routes.home.pl}>Strona główna</a><a class="btn ghost" href={routes.home.en}>English</a></p>
+  </div>
+</Base>
