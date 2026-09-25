@@ -1,0 +1,101 @@
+---
+import type { Lang } from '../i18n/ui';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const pl = lang === 'pl';
+const T = pl ? {
+  title: 'Napisz do nas', lead: 'Odpowiadamy w ciągu 3 dni roboczych.',
+  company: 'Firma', name: 'Imię i nazwisko', email: 'E-mail służbowy', site: 'Strona www (opcjonalnie)',
+  category: 'Czego dotyczy produkt', msg: 'Krótko o produkcie i propozycji',
+  msgPh: 'Np. model, cena, czy możecie przekazać egzemplarz do testu i kod rabatowy dla społeczności.',
+  cats: ['Zasilanie i powerbanki', 'Woda i filtry', 'Żywność długoterminowa', 'Apteczki i ratownictwo', 'Plecaki i zestawy', 'Łączność i oświetlenie', 'Inne'],
+  consent: 'Zgadzam się na kontakt w sprawie współpracy. Dane służą tylko do odpowiedzi na to zgłoszenie.',
+  send: 'Wyślij zgłoszenie', sending: 'Wysyłanie…',
+  ok: 'Dziękujemy! Zgłoszenie dotarło. Odezwiemy się w ciągu 3 dni roboczych.',
+  err: 'Nie udało się wysłać. Sprawdź pola i spróbuj ponownie za chwilę.',
+} : {
+  title: 'Get in touch', lead: 'We reply within 3 working days.',
+  company: 'Company', name: 'Full name', email: 'Work email', site: 'Website (optional)',
+  category: 'Product category', msg: 'A few words about the product and your proposal',
+  msgPh: 'E.g. model, price, whether you can provide a test unit and a discount code for our community.',
+  cats: ['Power & power banks', 'Water & filters', 'Long-life food', 'First aid & rescue', 'Bags & kits', 'Comms & lighting', 'Other'],
+  consent: 'I agree to be contacted about a partnership. Data is used only to reply to this enquiry.',
+  send: 'Send enquiry', sending: 'Sending…',
+  ok: 'Thank you! Your enquiry has arrived. We will reply within 3 working days.',
+  err: 'Could not send. Check the fields and try again in a moment.',
+};
+---
+<form class="pform panel" id="partner-form" method="post" action="/contact.php" data-ok={T.ok} data-err={T.err} data-sending={T.sending} novalidate>
+  <div class="fhead">
+    <h2>{T.title}</h2>
+    <p>{T.lead}</p>
+  </div>
+  <input type="hidden" name="lang" value={lang} />
+  <input type="hidden" name="t" value="" />
+  <div class="hp" aria-hidden="true"><label for="pf-website">Website</label><input id="pf-website" name="website_url" tabindex="-1" autocomplete="off" /></div>
+
+  <div class="row2">
+    <label class="f"><span>{T.company}</span><input id="pf-company" name="company" required autocomplete="organization" /></label>
+    <label class="f"><span>{T.name}</span><input id="pf-name" name="name" required autocomplete="name" /></label>
+  </div>
+  <div class="row2">
+    <label class="f"><span>{T.email}</span><input id="pf-email" name="email" type="email" required autocomplete="email" /></label>
+    <label class="f"><span>{T.site}</span><input id="pf-site" name="site" type="url" placeholder="https://" autocomplete="url" /></label>
+  </div>
+  <label class="f"><span>{T.category}</span>
+    <select id="pf-category" name="category">{T.cats.map((c) => <option>{c}</option>)}</select>
+  </label>
+  <label class="f"><span>{T.msg}</span><textarea id="pf-message" name="message" rows="5" required placeholder={T.msgPh}></textarea></label>
+  <label class="check"><input id="pf-consent" type="checkbox" name="consent" value="1" required /><span>{T.consent}</span></label>
+  <div class="actions">
+    <button class="btn primary" type="submit">{T.send}</button>
+    <p class="status" role="status" aria-live="polite"></p>
+  </div>
+</form>
+
+<script>
+  const f = document.getElementById('partner-form') as HTMLFormElement | null;
+  if (f) {
+    (f.elements.namedItem('t') as HTMLInputElement).value = String(Date.now());
+    const status = f.querySelector('.status') as HTMLElement;
+    const btn = f.querySelector('button[type=submit]') as HTMLButtonElement;
+    f.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      if (!f.checkValidity()) { f.reportValidity(); return; }
+      const label = btn.textContent;
+      btn.disabled = true; btn.textContent = f.dataset.sending!;
+      status.className = 'status';
+      try {
+        const r = await fetch(f.action, { method: 'POST', body: new FormData(f) });
+        const j = await r.json().catch(() => ({ ok: false }));
+        if (!j.ok) throw new Error();
+        f.querySelectorAll('.row2, .f, .check, .actions button').forEach((el) => ((el as HTMLElement).hidden = true));
+        status.textContent = f.dataset.ok!; status.classList.add('ok');
+      } catch {
+        status.textContent = f.dataset.err!; status.classList.add('err');
+        btn.disabled = false; btn.textContent = label;
+      }
+    });
+  }
+</script>
+
+<style>
+  .pform{padding:24px;display:grid;gap:14px}
+  .fhead h2{font-size:22px}
+  .fhead p{color:var(--muted);font-size:14px;margin-top:4px}
+  .hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+  .row2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  .f{display:grid;gap:6px;font-size:13px;color:var(--ink-2)}
+  .f span{font-weight:500}
+  input,select,textarea{font:inherit;font-family:var(--body);font-size:15px;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:10px 12px;width:100%;min-width:0}
+  textarea{resize:vertical;min-height:120px;line-height:1.5}
+  input:focus,select:focus,textarea:focus{outline:2px solid var(--action);outline-offset:0;border-color:transparent}
+  .check{display:flex;gap:10px;align-items:flex-start;font-family:var(--body);font-size:13px;color:var(--muted);line-height:1.5}
+  .check input{width:16px;height:16px;margin-top:2px;flex:0 0 16px;accent-color:var(--olive)}
+  .actions{display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+  .status{font-family:var(--body);font-size:14px}
+  .status.ok{color:var(--olive);font-size:15px}
+  .status.err{color:var(--l5)}
+  button[disabled]{opacity:.6;cursor:wait}
+  @media (max-width:560px){ .row2{grid-template-columns:1fr} }
+</style>

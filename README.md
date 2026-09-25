@@ -26,7 +26,8 @@ npm run build    # gotowa strona w folderze dist/
 | Kolory, fonty | `src/styles/global.css` (tokeny na górze) |
 | Logo | `src/components/Logo.astro`, `public/favicon.svg` |
 | Kody rabatowe od partnerów | `src/data/deals.ts` |
-| Linki do Telegrama, e-mail kontaktowy | `src/data/community.ts` |
+| Link do grupy na Telegramie | `src/data/community.ts` |
+| E-mail, na który trafia formularz producentów | sekret `CONTACT_EMAIL` w GitHubie (nie ma go w kodzie) |
 | „Dla producentów” | `src/views/SimpleViews.ts` → `partners` |
 
 ## Nowy artykuł
@@ -56,11 +57,14 @@ W `src/components/Newsletter.astro` ustaw `ACTION` na adres formularza z MailerL
 
 Każda wersja ma własny wynik i historię w `readiness.json` (`pl` i `en`) oraz własny feed w `feed.json`.
 
-## Telegram (opcjonalnie)
+## Formularz „Dla producentów”
 
-1. Utwórz kanał (np. `@prepready_pl`) i grupę dyskusyjną; w ustawieniach kanału → Dyskusja podepnij grupę.
-2. Wpisz linki w `src/data/community.ts` — na stronie pojawią się przyciski.
-3. Automatyczny codzienny wpis: w Telegramie napisz do @BotFather → /newbot, dodaj bota jako administratora kanału. W GitHubie dodaj sekrety `TELEGRAM_BOT_TOKEN` (token od BotFathera) i `TELEGRAM_CHAT_ID` (np. `@prepready_pl`).
+Formularz wysyła wiadomość przez `public/contact.php` (PHP na Hostingerze). Adres odbiorcy nie jest w kodzie ani na stronie: dodaj w GitHubie sekret `CONTACT_EMAIL` (np. `info.prepready@gmail.com`). Przy każdej publikacji GitHub zapisuje go na serwerze w `contact-config.php`. Maile przychodzą od `no-reply@prepready.pro` — przy pierwszym sprawdź folder Spam w Gmailu i oznacz „To nie spam”.
+
+## Telegram
+
+1. Utwórz grupę na Telegramie i ustaw ją jako publiczną (link `t.me/nazwa`).
+2. Wpisz link w `src/data/community.ts` → `telegramGroup` — na stronie pojawi się przycisk „Grupa PrepReady na Telegramie”.
 
 ## Automatyzacja za 0 zł (zamiast n8n)
 

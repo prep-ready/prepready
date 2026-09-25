@@ -1,11 +1,8 @@
 /**
- * Społeczność i kontakt.
- * telegramChannel — link do kanału (ogłoszenia, codzienny indeks), np. 'https://t.me/prepready_pl'
- * telegramGroup   — link do grupy dyskusyjnej podpiętej pod kanał, np. 'https://t.me/prepready_pl_czat'
- * Puste = przyciski Telegrama się nie pokazują.
+ * Społeczność.
+ * telegramGroup — link do grupy na Telegramie, np. 'https://t.me/prepready_pl'. Puste = przycisk się nie pokazuje.
+ * Adres e-mail do formularza „Dla producentów” NIE jest tutaj: ustawiasz go w GitHubie jako sekret CONTACT_EMAIL.
  */
 export const community = {
-  telegramChannel: '',
   telegramGroup: '',
-  email: 'info.prepready@gmail.com', // docelowo np. kontakt@prepready.pro
 };

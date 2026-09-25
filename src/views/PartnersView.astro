@@ -1,0 +1,21 @@
+---
+import Base from '../layouts/Base.astro';
+import PartnerForm from '../components/PartnerForm.astro';
+import { partners } from './SimpleViews';
+import { routes, type Lang } from '../i18n/ui';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const P = partners[lang];
+---
+<Base lang={lang} title={P.title} description={P.desc} alternates={{ pl: routes.partners.pl, en: routes.partners.en }}>
+  <div class="wrap page-head"><h1>{P.title}</h1><p>{P.desc}</p></div>
+  <div class="wrap grid">
+    <div class="prose" set:html={P.html} />
+    <PartnerForm lang={lang} />
+  </div>
+</Base>
+<style>
+  .grid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:48px;align-items:start;padding-bottom:24px}
+  .grid .prose :global(h2:first-child){margin-top:0}
+  @media (max-width:900px){ .grid{grid-template-columns:1fr;gap:28px} }
+</style>

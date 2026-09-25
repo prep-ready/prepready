@@ -23,7 +23,7 @@ faq:
     a: "Co 6 miesięcy: daty ważności jedzenia i leków, stan baterii, rozmiar ubrań dzieci. Wygodnie robić to przy zmianie czasu na letni i zimowy."
 ---
 
-Plecak ewakuacyjny to torba, którą bierzesz w 5 minut, gdy trzeba opuścić dom: z powodu pożaru, powodzi, awarii chemicznej albo zagrożenia militarnego. Ma pozwolić przetrwać **co najmniej 72 godziny** bez dostępu do sklepów, prądu i sieci komórkowej.
+Plecak ewakuacyjny to torba, którą bierzesz w 5 minut, gdy trzeba opuścić dom: z powodu pożaru, powodzi, awarii chemicznej albo zagrożenia militarnego. Ma pozwolić przetrwać co najmniej 72 godziny bez dostępu do sklepów, prądu i sieci komórkowej.
 
 Poniższa lista łączy zalecenia *Poradnika bezpieczeństwa* MSWiA i poradnika Rządowego Centrum Bezpieczeństwa. Przy każdej pozycji podajemy ilość dla jednej osoby dorosłej.
 
@@ -42,20 +42,20 @@ Poniższa lista łączy zalecenia *Poradnika bezpieczeństwa* MSWiA i poradnika 
 
 ## Kolejność pakowania
 
-1. **Na dno** najcięższe i najrzadziej potrzebne: śpiwór, zapas jedzenia, ubrania na zmianę.
-2. **Środek, przy plecach** — woda. Ciężar blisko kręgosłupa męczy najmniej.
-3. **Góra** — apteczka, kurtka przeciwdeszczowa, latarka.
-4. **Kieszenie zewnętrzne** — dokumenty, gotówka, telefon, powerbank, leki na najbliższą dobę.
+1. Na dno najcięższe i najrzadziej potrzebne: śpiwór, zapas jedzenia, ubrania na zmianę.
+2. Środek, przy plecach — woda. Ciężar blisko kręgosłupa męczy najmniej.
+3. Góra — apteczka, kurtka przeciwdeszczowa, latarka.
+4. Kieszenie zewnętrzne — dokumenty, gotówka, telefon, powerbank, leki na najbliższą dobę.
 
 Spakowany plecak dla dorosłego powinien ważyć najwyżej ok. 10–12 kg. Sprawdź, czy przejdziesz z nim kilka kilometrów.
 
 ## Czego zwykle brakuje
 
-- **Leków na receptę.** Poproś lekarza o receptę z zapasem albo rotuj opakowania: nowe do szafki, starsze do plecaka.
-- **Okularów lub soczewek.** Stara para w etui wystarczy.
-- **Ładowarki bez prądu.** Powerbank naładowany do 100% i sprawdzany co kwartał.
-- **Wody na drogę.** Butelka wody ciąży, dlatego filtr grawitacyjny albo tabletki są w praktyce ważniejsze niż kolejny litr.
-- **Rzeczy dla dzieci, seniorów i zwierząt.** Każda osoba w domu ma własny, dopasowany plecak.
+- Leków na receptę. Poproś lekarza o receptę z zapasem albo rotuj opakowania: nowe do szafki, starsze do plecaka.
+- Okularów lub soczewek. Stara para w etui wystarczy.
+- Ładowarki bez prądu. Powerbank naładowany do 100% i sprawdzany co kwartał.
+- Wody na drogę. Butelka wody ciąży, dlatego filtr grawitacyjny albo tabletki są w praktyce ważniejsze niż kolejny litr.
+- Rzeczy dla dzieci, seniorów i zwierząt. Każda osoba w domu ma własny, dopasowany plecak.
 
 ## Gdzie trzymać plecak
 

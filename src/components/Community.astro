@@ -4,26 +4,24 @@ import type { Lang } from '../i18n/ui';
 interface Props { lang: Lang }
 const { lang } = Astro.props;
 const pl = lang === 'pl';
-const { telegramChannel: ch, telegramGroup: gr } = community;
+const gr = community.telegramGroup;
 ---
-{(ch || gr) && (
-  <div class="tg">
+{gr && (
+  <a class="tg" href={gr} rel="noopener" target="_blank">
     <svg width="28" height="28" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="12" fill="#229ED9"/><path d="M5.4 11.8l11.1-4.3c.5-.2 1 .1.8.9l-1.9 8.9c-.1.6-.5.8-1 .5l-2.8-2.1-1.4 1.3c-.2.2-.3.3-.6.3l.2-2.9 5.2-4.7c.2-.2 0-.3-.3-.1l-6.4 4-2.8-.9c-.6-.2-.6-.6.1-.9z" fill="#fff"/></svg>
-    <div>
-      <h3>{pl ? 'Społeczność na Telegramie' : 'Join us on Telegram'}</h3>
-      <p>{pl ? 'Codzienny indeks i pilne alerty na kanale. Pytania i wymiana doświadczeń w grupie.' : 'Daily index and urgent alerts in the channel. Questions and tips in the group.'}</p>
-      <div class="btns">
-        {ch && <a class="btn primary" href={ch} rel="noopener" target="_blank">{pl ? 'Kanał' : 'Channel'}</a>}
-        {gr && <a class="btn ghost" href={gr} rel="noopener" target="_blank">{pl ? 'Grupa dyskusyjna' : 'Discussion group'}</a>}
-      </div>
-    </div>
-  </div>
+    <span>
+      <span class="t">{pl ? 'Grupa PrepReady na Telegramie' : 'PrepReady group on Telegram'}</span>
+      <span class="d">{pl ? 'Pytania, sprzęt, wymiana doświadczeń. Dołącz do rozmowy.' : 'Questions, gear and shared experience. Join the conversation.'}</span>
+    </span>
+    <span class="go" aria-hidden="true">→</span>
+  </a>
 )}
 <style>
-  .tg{display:flex;gap:14px;align-items:flex-start;padding:18px;border:1px solid var(--line);background:var(--surface);border-radius:var(--radius)}
+  .tg{display:flex;gap:14px;align-items:center;padding:16px 18px;border:1px solid var(--line);background:var(--surface);border-radius:var(--radius);text-decoration:none}
+  .tg:hover{border-color:#229ED9}
   .tg svg{flex:0 0 28px}
-  h3{font-size:17px}
-  p{font-family:var(--body);font-size:14px;color:var(--ink-2);margin-top:4px}
-  .btns{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
-  .btn{padding:8px 14px;font-size:13px}
+  .tg > span:nth-child(2){display:grid;gap:2px;flex:1}
+  .t{font-weight:600;font-size:15px;color:var(--ink)}
+  .d{font-family:var(--body);font-size:13.5px;color:var(--muted)}
+  .go{color:var(--muted)}
 </style>

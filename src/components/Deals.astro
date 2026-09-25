@@ -1,6 +1,5 @@
 ---
 import { activeDeals } from '../data/deals';
-import { community } from '../data/community';
 import { routes, fmtDate, type Lang } from '../i18n/ui';
 interface Props { lang: Lang; showEmpty?: boolean }
 const { lang, showEmpty = false } = Astro.props;
@@ -20,9 +19,9 @@ const list = activeDeals(lang);
   </div>
 ) : showEmpty && (
   <div class="empty">
-    <p><strong>{pl ? 'Kody rabatowe od producentów — wkrótce.' : 'Discount codes from manufacturers — coming soon.'}</strong>
+    <p>{pl ? 'Kody rabatowe od producentów pojawią się tu wkrótce.' : 'Discount codes from manufacturers are coming soon.'}
     {pl ? ' Nawiązujemy współpracę bezpośrednio z producentami sprzętu. Kody ogłosimy w newsletterze i na Telegramie.' : ' We are partnering directly with gear makers. Codes will be announced in the newsletter and on Telegram.'}</p>
-    <p class="small">{pl ? 'Jesteś producentem?' : 'Are you a manufacturer?'} <a href={routes.partners[lang]}>{pl ? 'Zobacz współpracę' : 'Partner with us'}</a> · <span class="mono">{community.email}</span></p>
+    <p class="small">{pl ? 'Jesteś producentem?' : 'Are you a manufacturer?'} <a href={routes.partners[lang]}>{pl ? 'Napisz do nas' : 'Get in touch'}</a></p>
   </div>
 )}
 <script>
@@ -42,7 +41,7 @@ const list = activeDeals(lang);
   .foot{display:flex;justify-content:space-between;font-family:var(--mono);font-size:11.5px;color:var(--muted)}
   .foot a{color:var(--action);text-decoration:none;font-family:var(--display);font-weight:700;font-size:13px}
   .empty{background:var(--surface);border:1px dashed var(--line);border-radius:var(--radius);padding:18px;display:grid;gap:8px}
-  .empty p{font-size:15px}
+  .empty p{font-family:var(--body);font-size:15px;color:var(--ink-2)}
   .small{font-size:13px!important}
   .small a{color:var(--action)}
 </style>

@@ -23,7 +23,7 @@ faq:
     a: "Every six months: food and medication expiry dates, battery charge, children's clothing sizes. The clock change is an easy reminder."
 ---
 
-A go-bag is the bag you grab within five minutes when you must leave home — because of a fire, flood, chemical accident or military threat. It should keep you going for **at least 72 hours** without shops, power or mobile signal.
+A go-bag is the bag you grab within five minutes when you must leave home — because of a fire, flood, chemical accident or military threat. It should keep you going for at least 72 hours without shops, power or mobile signal.
 
 This list combines guidance from [Ready.gov](https://www.ready.gov/kit) and the Polish government's *Safety Guide*. Quantities are per adult.
 
@@ -42,20 +42,20 @@ This list combines guidance from [Ready.gov](https://www.ready.gov/kit) and the 
 
 ## Packing order
 
-1. **Bottom** — heaviest, least-used items: sleeping bag, spare food, change of clothes.
-2. **Middle, close to your back** — water. Weight near the spine is the least tiring.
-3. **Top** — first-aid kit, rain jacket, flashlight.
-4. **Outer pockets** — documents, cash, phone, power bank, today's medication.
+1. Bottom — heaviest, least-used items: sleeping bag, spare food, change of clothes.
+2. Middle, close to your back — water. Weight near the spine is the least tiring.
+3. Top — first-aid kit, rain jacket, flashlight.
+4. Outer pockets — documents, cash, phone, power bank, today's medication.
 
 A packed adult bag should weigh no more than about 10–12 kg. Walk a few kilometres with it once to be sure.
 
 ## What people usually forget
 
-- **Prescription medication.** Rotate packs: new ones to the cabinet, older ones to the bag.
-- **Glasses or contact lenses.** An old pair in a case is enough.
-- **Charging without mains power.** A power bank at 100%, checked every quarter.
-- **Water on the move.** Bottles are heavy, so a squeeze filter or tablets matter more than another litre.
-- **Kids, older relatives and pets.** Everyone at home gets their own bag.
+- Prescription medication. Rotate packs: new ones to the cabinet, older ones to the bag.
+- Glasses or contact lenses. An old pair in a case is enough.
+- Charging without mains power. A power bank at 100%, checked every quarter.
+- Water on the move. Bottles are heavy, so a squeeze filter or tablets matter more than another litre.
+- Kids, older relatives and pets. Everyone at home gets their own bag.
 
 ## Where to keep it
 
