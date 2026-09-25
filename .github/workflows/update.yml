@@ -7,6 +7,11 @@ on:
     branches: [main]
   workflow_dispatch: {}
 
+      - name: Adres do formularza kontaktowego (z sekretu, nie z kodu)
+        env:
+          CONTACT_EMAIL: ${{ secrets.CONTACT_EMAIL }}
+        run: |
+          printf "<?php return ['to' => '%s'];\n" "$CONTACT_EMAIL" > dist/contact-config.php
 permissions:
   contents: write
 
