@@ -111,7 +111,7 @@ const sign = delta7 > 0 ? '▲' : delta7 < 0 ? '▼' : '■';
   .scale .on{color:var(--ink);font-weight:600}
   .todo{border-top:1px solid var(--line);padding-top:16px}
   .todo ul{margin:10px 0 0;padding:0;list-style:none;display:grid;gap:8px}
-  .todo li{display:flex;gap:10px;font-family:var(--body);font-size:15px}
+  .todo li{display:flex;gap:10px;font-family:var(--body);font-weight:var(--body-w);font-size:15px}
   .todo li::before{content:"";flex:0 0 6px;height:6px;margin-top:9px;background:var(--signal-bright)}
   .comps{gap:16px}
   .cgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:8px;overflow:hidden}
@@ -122,7 +122,7 @@ const sign = delta7 > 0 ? '▲' : delta7 < 0 ? '▼' : '■';
   .src{font-family:var(--mono);font-size:10.5px;color:var(--muted);margin-top:auto}
   .clock{display:flex;gap:16px;align-items:center;padding:14px 16px;background:var(--surface-2);border-radius:8px}
   .clock svg{flex:0 0 52px}
-  .clock p{font-family:var(--body);font-size:14px;color:var(--ink-2)}
+  .clock p{font-family:var(--body);font-weight:var(--body-w);font-size:14px;color:var(--ink-2)}
   .clock :global(strong){font-family:var(--display);color:var(--ink)}
   @media (max-width:980px){ .idx-grid{grid-template-columns:1fr} }
   @media (max-width:620px){ .cgrid{grid-template-columns:repeat(2,minmax(0,1fr))} .card{padding:18px} .scale{font-size:9px} }

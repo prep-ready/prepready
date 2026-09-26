@@ -87,13 +87,13 @@ const T = pl ? {
   .row2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
   .f{display:grid;gap:6px;font-size:13px;color:var(--ink-2)}
   .f span{font-weight:500}
-  input,select,textarea{font:inherit;font-family:var(--body);font-size:15px;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:10px 12px;width:100%;min-width:0}
+  input,select,textarea{font:inherit;font-family:var(--body);font-weight:var(--body-w);font-size:15px;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:10px 12px;width:100%;min-width:0}
   textarea{resize:vertical;min-height:120px;line-height:1.5}
   input:focus,select:focus,textarea:focus{outline:2px solid var(--action);outline-offset:0;border-color:transparent}
-  .check{display:flex;gap:10px;align-items:flex-start;font-family:var(--body);font-size:13px;color:var(--muted);line-height:1.5}
+  .check{display:flex;gap:10px;align-items:flex-start;font-family:var(--body);font-weight:var(--body-w);font-size:13px;color:var(--muted);line-height:1.5}
   .check input{width:16px;height:16px;margin-top:2px;flex:0 0 16px;accent-color:var(--olive)}
   .actions{display:flex;gap:14px;align-items:center;flex-wrap:wrap}
-  .status{font-family:var(--body);font-size:14px}
+  .status{font-family:var(--body);font-weight:var(--body-w);font-size:14px}
   .status.ok{color:var(--olive);font-size:15px}
   .status.err{color:var(--l5)}
   button[disabled]{opacity:.6;cursor:wait}
