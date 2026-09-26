@@ -4,6 +4,24 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-09-25T22:15:03.000Z",
+        "cat": "health",
+        "sev": 1,
+        "source": "Radio UWM FM",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBrU1FsenROYkVKOVU2UjNNd3kxVXl5WEtOMUZkMzZfanF0bjFnZTUwWW9sSnZscXFKVzk4Sy1TMnJ3eGlLbXh1Q0NXbV9nd1FtZ3dGMno4X0tOdGVicFhwR0pNQ09TN2x6VVBNdzR3QVVLbVdvVFg5UUlqZlU4UQ?oc=5",
+        "title": "UWM gospodarzem spotkania specjalistów od geoinformacji",
+        "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
+      },
+      {
+        "at": "2026-09-25T19:01:45.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "AstroNET – Polski Portal Astronomiczny",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQYnMzNUltbjhwejBtNG5HNk5tZUZrU0liSzVuWWhfaEtKQWs2V1VXSUF3TG5ldnI5MC1QbHpLcjVJTk9OdlV2Ni1pQUg2SnFxb2lkM21KME9hY0RIcERJaVRqUlVXME1uU0dxTTJPRndSRDRtU3hUVjZCZmRBblNzY1dxeF92YThRR3lMSlVrREJaZmVCZy1Ic2RiV1kyWHdPc1N4MjdWcEx3bTRVVTJj?oc=5",
+        "title": "Polska rakieta znów startuje. Jak Gdynia buduje kosmiczną i obronną przyszłość Polski",
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+      },
+      {
         "at": "2026-09-25T15:51:00.000Z",
         "cat": "health",
         "sev": 1,
@@ -19,6 +37,15 @@
         "source": "edgp.gazetaprawna.pl",
         "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUk1FUWJTZllpVUNZdVczdUw1ZXRLcEZHS3pLRE4yZ2huZllwdXNiempicTJxN0FwcmJ1TGVjWUZyQVBJVlgtS2FIekRuOTc3YXNYY1cwalpwNHBaS1RuUC1kaG8wSlVWWW5UaFN4TXRqSUF5c0xDZnRaT3Rzd2pvNHdtM2ZraUFkVkNLRllYdWE0bUZsaEE0ZFFwSWFkVGtFM1Q5RXdmTmE?oc=5",
         "title": "Co z dziećmi w szkole, kiedy zawyją syreny? Nasza bezradność i niewiedza daje punkty Rosji",
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+      },
+      {
+        "at": "2026-09-25T14:24:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "RMF24",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTE52S0dKUy1fa1pZX1JLZGhiTzRUQVBOc21EYTllSVNNNXBCSGJpYk03UEo1NjU0Mkt0ai11cC1EbWFVNlBmUmF3SGlCN1FGYzZ3aEhkMHowdzdKNFhqb3NHOTN4R1VOQ2hxcjBDeE9CU0ZDYk5CM2hjMEVvSlY3R3lpWGJhWWpRT3lyYURRWHJGVjF1UVZ6YmU5a2VhT0lFeXR3dEl3WnRieGRoRjhzZlBnWkNscFk?oc=5",
+        "title": "„Sabotaż, przestępstwo terrorystyczne, rosyjskie służby”. Jest śledztwo PK ws. pożaru stacji Starlinków",
         "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
       },
       {
@@ -81,6 +108,33 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-09-26T03:54:39.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "News/Talk/Sports 94.9 WSJM",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOOHRmd0JkZGtjUDhTUTliSzBLMDd3OVpCWEJrTzZzR1cxTXZoX0dibHlQaUFSNmpGUEJZZTlpWG54WHM0MW5vR0NnY18zRUg5SEdpWXc3YWJPNGRrX0ZfVW1XdVFqZE8weUxodGJmY21QSWN2MkhlZS1NcXBEcHBvRUZVb1drbGdDZFlKTXdwa21xOW0ydndz?oc=5",
+        "title": "Photos: SHAES continuing to work fire scene at East Jordan Plastics",
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
+      {
+        "at": "2026-09-26T03:49:31.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Newswav",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOOG8tbDdiMVh2bURNUEpwUm5TYjZHZzIzZFJwcDV6R3NqSndCNk91YUpaR1FkMG9nUjd5bTJPWEF2ZGJWM0o1NHFTVjNOWnRQN2JPZHRRaERDVktDWjhDcWFaSDNvZXhwVURXOEQ2RDZXSmFnbDFfWGdhcjVtbjZCWi1tTDROYW0zWkpXbXh6ZHNoWi1Xd1lrOTA5THo3RTNuUS0xSFlB?oc=5",
+        "title": "Spanish rail operator hit by cyberattack, user data compromised",
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
+      {
+        "at": "2026-09-25T21:05:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Daily Sabah",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNQms1TjN5aVdTblJoV2FBQnY4ZE03aTJqVTdxLWhnWl80OG5oZktPU0hjZmxhT1lyRlFWSG9mMUtaNzdmMWNnRmVqci1VOVdpRnVMMV9QZkxQcWotaUJPR1VyWWxtZ283WkNjSUZodEJqRnhITGd5bE51ZG5RNGpJOV9DRUZCMTMtZzhqbENhODVtWUxjR0hlZ0FiR3lwYXBtUUFsNlBZbjLSAagBQVVfeXFMTUJrNU4zeWlXU25SaFdhQUJ2OGRNN2kyalU3cS1oZ1pfNDhuaGZLT1NIY2ZsYU9ZckZRVkhvZjFLWjc3ZjFjZ0ZlanItVTlXaUZ1TDFfUGZMUHFqLWlCT0dVcllsbWdvN1pDY0lGaHRCakZ4SExneWxOdWRuUTRqSTlfQ0VGQjEzLWc4amxDYTg1bVlMY0dIZWdBYkd5cGFwbVFBbDZQWW4y?oc=5",
+        "title": "Strategic shift in Yemen conflict: Toward collective response | Daily Sabah",
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
+      {
         "at": "2026-09-25T15:53:09.000Z",
         "cat": "cyber",
         "sev": 2,
@@ -90,10 +144,19 @@
         "forYou": "Update your devices and don’t tap links in alert-style messages."
       },
       {
+        "at": "2026-09-25T15:36:19.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "EnergyNow.com",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUmRjOW5iTlYxTE5NSkNHZlRTZXJRWXBZTEJMZ0FyNFItWWtPV3pmWUdnVTF0M2JzMmxOTmMyMU5MMG1nM3VJcnk2OS1OMXBrS3IxbTBvVVZVb1N0S2F6M1ZSS09kT18yOWZvZUh1MEdWSzlhTWw2TlAxWmpHcGZOZEN0U0haVUNBWHBPeS1ZNzVzYmlBZkMxTmFkb25vbERIeUx1eDBSeHNoUkVSUjVkc1dZeG8yYUZRbFJoTA?oc=5",
+        "title": "Fujairah Oil Zone Hit by Fire After Drone Attack as UAE Says it Intercepted Iran Missiles",
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
+      {
         "at": "2026-09-25T14:25:19.000Z",
         "cat": "security",
         "sev": 2,
-        "source": "UNITED24 Media",
+        "source": "united24media.com",
         "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSlRHTUpmVXNvQWVMTUcxZWNwcEpsZzRkaHlacWVZbGJjX3pMb2RtcWtJVDBrSFNzM1Z1WmcybDJsVVVOSHEwOGJlalpYTVE1NVZIZGhWYnZGeEJpUl9lSEZLWDBaeGxjVnBBQmxDaEpGS3JYVUlYT1NobGNFeGdacHE2a2hMVHNReGZMRVJkRnFPenFORjRXUUpjTHk1T1Q0QXRlc3JKRWd5VE5Fb0ppSnZUWG9TOGxoMm44c25mMXJrQ0lsSmc?oc=5",
         "title": "Ukrainian Forces Strike Russian Factories Supplying Pantsir and Iskander Systems",
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
@@ -135,7 +198,7 @@
         "forYou": "Usually no action. Check your first-aid kit and expiry dates."
       },
       {
-        "at": "2026-09-22T16:00:00.000Z",
+        "at": "2026-09-22T18:00:00.000Z",
         "cat": "disaster",
         "sev": 3,
         "source": "GDACS",
@@ -151,6 +214,15 @@
         "url": "https://www.ecdc.europa.eu/en/news-events/ecdc-deploys-experts-drc-increase-support-amidst-ongoing-ebola-outbreak",
         "title": "ECDC deploys experts to DRC to increase support amidst ongoing Ebola outbreak",
         "forYou": "Usually no action. Check your first-aid kit and expiry dates."
+      },
+      {
+        "at": "2026-09-21T03:00:00.000Z",
+        "cat": "disaster",
+        "sev": 3,
+        "source": "GDACS",
+        "url": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=22&eventtype=TC",
+        "title": "Tropical Cyclone POLO-26 (Orange alert)",
+        "forYou": "If you have family in the area, check in. Review your own evacuation plan."
       },
       {
         "at": "2026-09-21T01:00:00.000Z",
