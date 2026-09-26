@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import { render } from 'astro:content';
+import Community from '../components/Community.astro';
 import { clusters, routes, t, fmtDate, type Lang } from '../i18n/ui';
 import { hrefOf, translationOf, type Article } from '../lib/articles';
 
@@ -73,6 +74,8 @@ if (d.faq.length) jsonLd.push({
             <ol>{d.sources.map((s) => <li><a href={s.url} rel="noopener" target="_blank">{s.name}</a></li>)}</ol>
           </section>
         )}
+
+        <div style="margin-top:28px"><Community lang={lang} /></div>
 
         <p class="disclaimer">{t(lang, 'art.disclaimer')}</p>
       </div>
