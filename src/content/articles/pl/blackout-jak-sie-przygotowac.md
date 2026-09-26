@@ -86,7 +86,9 @@ Mieszkanie w bloku ma swoje słabe punkty:
 
 W bloku agregat spalinowy odpada: nie wolno go uruchamiać w mieszkaniu, na klatce ani na balkonie. Rozsądny wybór to powerbanki na telefony i lampki USB, a przy większych potrzebach przenośna stacja zasilania (akumulator z gniazdkiem 230 V). W domu jednorodzinnym agregat ma sens, ale tylko na zewnątrz i z zapasem paliwa.
 
-Sprzęt, który sprawdziliśmy sami, znajdziesz w dziale [Sprzęt](/pl/sprzet/). Nie polecamy niczego, czego nie przetestowaliśmy.
+Jeśli kompletujesz zapas od zera, gotowe rzeczy na brak prądu zebrane w jednym miejscu ma polski sklep dla prepperów: <a class="aff" href="https://www.prepersi.eu/sklep/Blackout-zestawy-i-sprzet-na-brak-pradu?tracking=6TjpudogVnmAPlRLSfPdnIfOPpA5HuKEKdfTanbx" rel="sponsored nofollow noopener" target="_blank">dział Blackout</a> (latarki, świece awaryjne, zasilanie) i <a class="aff" href="https://www.prepersi.eu/sklep/Gotowanie-bez-pradu?tracking=6TjpudogVnmAPlRLSfPdnIfOPpA5HuKEKdfTanbx" rel="sponsored nofollow noopener" target="_blank">gotowanie bez prądu</a>. Sprzęt, który sprawdziliśmy sami, opisujemy w dziale [Sprzęt](/pl/sprzet/).
+
+<p class="aff-note">Linki oznaczone ↗ są partnerskie: jeśli coś kupisz, możemy dostać prowizję. Cena się dla Ciebie nie zmienia, a sklep nie ma wpływu na treść poradnika.</p>
 
 ## Zanim zgaśnie światło
 

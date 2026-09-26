@@ -59,7 +59,7 @@ Warto dodać, po konsultacji w aptece: lek przeciwgorączkowy (także w wersji d
 ## Jak skompletować apteczkę krok po kroku
 
 1. Przejrzyj, co już masz w domu. Wyrzuć przeterminowane leki (do pojemnika w aptece, nie do kosza).
-2. Dokup braki z listy. Gotowa apteczka to dobry start, ale zwykle trzeba ją uzupełnić o leki i większy zapas opatrunków.
+2. Dokup braki z listy. Gotowa apteczka to dobry start, ale zwykle trzeba ją uzupełnić o leki i większy zapas opatrunków. Opatrunki, folie NRC i gotowe zestawy znajdziesz np. w dziale <a class="aff" href="https://www.prepersi.eu/sklep/Pierwsza-pomoc?tracking=6TjpudogVnmAPlRLSfPdnIfOPpA5HuKEKdfTanbx" rel="sponsored nofollow noopener" target="_blank">Pierwsza pomoc</a>.
 3. Spakuj wszystko do jednej, wodoodpornej torby lub pudełka, opisanej „Apteczka”.
 4. Włóż kartkę z lekami, dawkami i alergiami każdego domownika oraz numerem 112.
 5. Trzymaj apteczkę w miejscu, które znają wszyscy — nie w łazience, gdzie jest wilgotno.
@@ -77,3 +77,5 @@ Sprzęt bez umiejętności niewiele daje. Kurs pierwszej pomocy (np. w Polskim C
 - czy zużyte rzeczy zostały odkupione.
 
 Dobry moment to zmiana czasu — wtedy sprawdzasz też [zapas wody i jedzenia](/pl/poradniki/zapas-wody-i-jedzenia/).
+
+<p class="aff-note">Linki oznaczone ↗ są partnerskie: jeśli coś kupisz, możemy dostać prowizję. Cena się dla Ciebie nie zmienia, a sklep nie ma wpływu na treść poradnika.</p>

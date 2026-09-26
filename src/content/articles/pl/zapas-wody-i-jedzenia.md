@@ -43,7 +43,7 @@ Dla czteroosobowej rodziny minimum to 36 litrów wody, czyli sześć zgrzewek bu
 
 Woda:
 - woda butelkowana (najbezpieczniejsze źródło w kryzysie według CDC),
-- filtr do wody albo tabletki do uzdatniania — na wypadek, gdyby zapas się skończył.
+- filtr do wody albo tabletki do uzdatniania — na wypadek, gdyby zapas się skończył (np. <a class="aff" href="https://www.prepersi.eu/sklep/survival/systemy-uzdatniania-wody?tracking=6TjpudogVnmAPlRLSfPdnIfOPpA5HuKEKdfTanbx" rel="sponsored nofollow noopener" target="_blank">systemy uzdatniania wody</a>).
 
 Jedzenie, które nie wymaga gotowania:
 - konserwy rybne i mięsne, fasola w puszce, gotowe dania w słoikach,
@@ -79,4 +79,6 @@ Poradnik MSWiA radzi przeglądać zapasy co kilka miesięcy i sprawdzać daty wa
 
 ## Pierwszy krok
 
-Kup dziś jedną zgrzewkę wody na osobę i trzy dni jedzenia, które lubicie. Resztę dokładaj przy kolejnych zakupach. Zapas na blackout opisujemy też w poradniku [Blackout: jak się przygotować](/pl/poradniki/blackout-jak-sie-przygotowac/).
+Kup dziś jedną zgrzewkę wody na osobę i trzy dni jedzenia, które lubicie. Jeśli chcesz mieć też jedzenie z długim terminem ważności do plecaka lub piwnicy, zobacz <a class="aff" href="https://www.prepersi.eu/sklep/zywnosc/racje-zywnosciowe-survivalowe?tracking=6TjpudogVnmAPlRLSfPdnIfOPpA5HuKEKdfTanbx" rel="sponsored nofollow noopener" target="_blank">racje żywnościowe</a> i <a class="aff" href="https://www.prepersi.eu/sklep/zywnosc/liofilizowane?tracking=6TjpudogVnmAPlRLSfPdnIfOPpA5HuKEKdfTanbx" rel="sponsored nofollow noopener" target="_blank">żywność liofilizowaną</a>. Resztę dokładaj przy kolejnych zakupach. Zapas na blackout opisujemy też w poradniku [Blackout: jak się przygotować](/pl/poradniki/blackout-jak-sie-przygotowac/).
+
+<p class="aff-note">Linki oznaczone ↗ są partnerskie: jeśli coś kupisz, możemy dostać prowizję. Cena się dla Ciebie nie zmienia, a sklep nie ma wpływu na treść poradnika.</p>
