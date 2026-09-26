@@ -4,17 +4,24 @@ import { sourcesMonitored } from '../data/site';
 import Community from './Community.astro';
 interface Props { lang: Lang; showSources?: boolean }
 const { lang, showSources = true } = Astro.props;
-/** Po wyborze narzędzia (MailerLite / Beehiiv) wstaw tu adres formularza. Pusty = komunikat „wkrótce”. */
-const ACTION = '';
+/** Formularze Brevo (Marketing → Forms). Lista „PrepReady PL” / „PrepReady EN”. Pusty = komunikat „wkrótce”. */
+const ACTIONS: Record<Lang, string> = {
+  pl: 'https://859cf2ed.sibforms.com/serve/MUIFAPBMCtMFSX_GSzuX9NRfoE3MdoH_w-rDpdl3qVJjbDGmwT5QIgIsbT8xSDjRfGNDvdYvF7ZsO0XBlgURUz26YjgAfI021QGso85BA8u9qoGFpd4ehLjkNZT8xih7dhxXHCCpVe0Pmwet_eyI0nwlIsj5FTmHNzqP3lGEqcVk21thWC-ar7UblIQtp0_XtgRzW5ymJ7wWZCS_pg==',
+  en: 'https://859cf2ed.sibforms.com/serve/MUIFAK0p-QToC0tmIIUB4ymi2bINF5r_uHsq0IV3ncss2uQxKNZvknimMb_sLQ1OESI4AOuM-1C8HNdPdCkk5fzpoukJkD6SSwRbM75ii-BHBLlW_ae1x7TmB_xz0ElRWG07SC0ZgNYcK8v76LmgEag5aBGhyqURdjcxO3KPtHJl7GIySf2hFw1CDLz2cfl9F1SqIaod9DJY37ciKw==',
+};
+const ACTION = ACTIONS[lang];
 ---
 <div class="stack">
   <div class="nl">
     <div class="eyebrow">{t(lang, 'nl.eyebrow')}</div>
     <h3>{t(lang, 'nl.title')}</h3>
     <p>{t(lang, 'nl.body')}</p>
-    <form class="nl-form" method="post" action={ACTION || undefined} data-pending={t(lang, 'nl.pending')}>
+    <form class="nl-form" method="post" action={ACTION || undefined} data-pending={t(lang, 'nl.pending')} data-ok={t(lang, 'nl.ok')} data-err={t(lang, 'nl.err')}>
+      <input type="text" name="email_address_check" value="" tabindex="-1" autocomplete="off" aria-hidden="true" class="hp" />
+      <input type="hidden" name="locale" value={lang} />
+      <input type="hidden" name="html_type" value="simple" />
       <label for={`nl-email-${lang}`} class="sr-only">E-mail</label>
-      <input id={`nl-email-${lang}`} name="email" type="email" required placeholder={t(lang, 'nl.placeholder')} autocomplete="email" />
+      <input id={`nl-email-${lang}`} name="EMAIL" type="email" required placeholder={t(lang, 'nl.placeholder')} autocomplete="email" />
       <button class="btn primary" type="submit">{t(lang, 'nl.btn')}</button>
     </form>
     <small class="nl-msg" aria-live="polite">{t(lang, 'nl.small')}</small>
@@ -29,11 +36,23 @@ const ACTION = '';
 </div>
 <script>
   document.querySelectorAll<HTMLFormElement>('.nl-form').forEach((f) => {
-    if (f.getAttribute('action')) return;
-    f.addEventListener('submit', (e) => {
+    const msg = f.parentElement?.querySelector('.nl-msg');
+    const say = (s?: string) => { if (msg && s) msg.textContent = s; };
+    f.addEventListener('submit', async (e) => {
       e.preventDefault();
-      const msg = f.parentElement?.querySelector('.nl-msg');
-      if (msg) msg.textContent = f.dataset.pending ?? '';
+      const action = f.getAttribute('action');
+      if (!action) return say(f.dataset.pending);
+      const btn = f.querySelector('button');
+      if (btn) btn.disabled = true;
+      try {
+        // Brevo nie zwraca nagłówków CORS, więc wysyłamy „no-cors” i pokazujemy własny komunikat
+        await fetch(action, { method: 'POST', mode: 'no-cors', body: new FormData(f) });
+        f.reset();
+        say(f.dataset.ok);
+      } catch {
+        say(f.dataset.err);
+        if (btn) btn.disabled = false;
+      }
     });
   });
 </script>
@@ -47,6 +66,7 @@ const ACTION = '';
   input{flex:1 1 160px;min-width:0;border:1px solid #4a535a;background:transparent;color:inherit;border-radius:6px;padding:10px 12px;font:inherit}
   input::placeholder{color:#8C958F}
   .nl .btn.primary{background:#C94A06;color:#fff}
+  .hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
   small{font-family:var(--mono);font-size:11px;opacity:.65}
   .srcs{padding:18px}
   .srcs ul{list-style:none;margin:10px 0 0;padding:0;display:grid;gap:6px;font-family:var(--mono);font-size:12px;color:var(--ink-2)}
