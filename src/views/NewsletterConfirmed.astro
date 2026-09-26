@@ -1,0 +1,36 @@
+---
+import Base from '../layouts/Base.astro';
+import { community } from '../data/community';
+interface Props { lang: 'pl' | 'en' }
+const { lang } = Astro.props;
+const t = lang === 'pl' ? {
+  title: 'Zapis potwierdzony',
+  desc: 'Dzięki! Jesteś na liście newslettera PrepReady. Za chwilę dostaniesz maila powitalnego.',
+  start: 'Od czego zacząć',
+  items: [
+    ['/pl/checklisty/plecak-72h/', 'Spakuj plecak ewakuacyjny', 'Interaktywna checklista na 72 godziny.'],
+    ['/pl/poradniki/plan-ewakuacji-rodziny/', 'Ustal plan z bliskimi', 'Miejsce spotkania, kontakty, role.'],
+    ['/pl/poradniki/syreny-alarmowe/', 'Naucz się rozpoznawać syreny', 'Oficjalne nagrania RCB.'],
+  ],
+  tg: 'Dołącz na Telegramie',
+} : {
+  title: 'Subscription confirmed',
+  desc: 'Thanks! You are on the PrepReady newsletter list. A welcome email is on its way.',
+  start: 'Where to start',
+  items: [
+    ['/en/checklists/72-hour-bag/', 'Pack a go-bag', 'Interactive 72-hour checklist.'],
+    ['/en/guides/family-emergency-plan/', 'Make a family plan', 'Meeting points, contacts, roles.'],
+    ['/en/guides/emergency-water-and-food-supply/', 'Store water and food', 'How much to keep and how to rotate it.'],
+  ],
+  tg: 'Join on Telegram',
+};
+---
+<Base lang={lang} title={t.title} description={t.desc} noindex={true} alternates={{ pl: '/pl/newsletter/potwierdzono/', en: '/en/newsletter/confirmed/' }}>
+  <div class="wrap page-head"><h1>✓ {t.title}</h1><p>{t.desc}</p></div>
+  <div class="wrap"><div class="prose">
+    <h2>{t.start}</h2>
+    <ul>{t.items.map(([href, name, d]) => <li><a href={href}>{name}</a> — {d}</li>)}</ul>
+    {community.telegramGroup && <p><a class="btn primary" style="display:inline-block;background:#229ED9;color:#fff;padding:10px 18px;border-radius:8px;text-decoration:none;font-weight:700" href={community.telegramGroup} target="_blank" rel="noopener">{t.tg}</a></p>}
+  </div></div>
+</Base>
+<style>.prose{padding-bottom:32px}</style>
