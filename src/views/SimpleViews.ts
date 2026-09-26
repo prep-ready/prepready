@@ -51,7 +51,13 @@ export const earn = {
 <ul><li>Sprzedaż z naszego kodu lub linku. Gdy kupisz z naszym kodem, partner może nam zapłacić prowizję. Nie płacisz więcej, a z kodem zwykle mniej.</li>
 <li>Testy i prezentacje sprzętu. Producent może przekazać sprzęt do testu lub zapłacić za prezentację. Zawsze to oznaczamy, a producent nie zatwierdza tekstu przed publikacją.</li>
 <li>Produkty cyfrowe. Rozszerzone checklisty i poradniki PDF.</li></ul>
-<p>Jesteś producentem lub sklepem? Zobacz <a href="/pl/wspolpraca/">Dla producentów</a>.</p>`,
+<p>Jesteś producentem lub sklepem? Zobacz <a href="/pl/wspolpraca/">Dla producentów</a>.</p>
+<h2>Masz własną stronę, bloga albo profil? Zarabiaj tak jak my</h2>
+<p>Większość naszych linków partnerskich działa przez <a class="aff" href="https://webep1.com/c/286/6ab7bf82a42c9137f390e6e0" rel="sponsored nofollow noopener" target="_blank">webePartners</a> — polską sieć afiliacyjną, w której są setki polskich sklepów, także outdoorowe, turystyczne i z elektroniką. Rejestracja jest darmowa, a na start wystarczy strona www albo profil w social mediach (Instagram, TikTok, YouTube, Facebook).</p>
+<ul><li>Wybierasz sklepy, które pasują do Twoich odbiorców, i dostajesz prowizję od sprzedaży z Twoich linków.</li>
+<li>Linki generujesz w panelu jednym kliknięciem — do strony głównej sklepu albo konkretnego produktu.</li>
+<li>W panelu widzisz kliknięcia, sprzedaż i prowizje.</li></ul>
+<p><a class="aff" href="https://webep1.com/c/286/6ab7bf82a42c9137f390e6e0" rel="sponsored nofollow noopener" target="_blank">Załóż darmowe konto w webePartners</a>. To nasz link polecający: jeśli z niego skorzystasz i zaczniesz współpracę z jakimś sklepem, webePartners zapłaci nam niewielkie wynagrodzenie. Ciebie nic to nie kosztuje.</p>`,
   },
   en: {
     title: 'How we work and make money',
