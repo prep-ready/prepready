@@ -1,5 +1,6 @@
 ---
 import Logo from './Logo.astro';
+import { community } from '../data/community';
 import { routes, t, type Lang } from '../i18n/ui';
 interface Props { lang: Lang }
 const { lang } = Astro.props;
@@ -21,6 +22,7 @@ const numbers = lang === 'pl'
         <li><a href={routes.news[lang]}>{t(lang, 'nav.news')}</a></li>
         <li><a href={routes.guides[lang]}>{t(lang, 'nav.guides')}</a></li>
         <li><a href={routes.gear[lang]}>{t(lang, 'nav.gear')}</a></li>
+        {community.telegramGroup && <li><a href={community.telegramGroup} target="_blank" rel="noopener">{lang === 'pl' ? 'Grupa na Telegramie' : 'Telegram group'}</a></li>}
       </ul>
     </div>
     <div>
