@@ -9,6 +9,9 @@ RewriteCond %{HTTPS} off [OR]
 RewriteCond %{HTTP_HOST} ^www\. [NC]
 RewriteRule ^(.*)$ https://prepready.pro/$1 [R=301,L]
 
+# Stara mapa strony z WordPressa -> nowa
+RewriteRule ^sitemap_index\.xml$ /sitemap-index.xml [R=301,L]
+
 # Strona główna -> wersja polska
 RewriteRule ^$ /pl/ [R=301,L]
 
@@ -24,7 +27,7 @@ RewriteRule ^about-us/?$ /pl/o-nas/ [R=301,L]
 RewriteRule ^contact/?$ /pl/o-nas/ [R=301,L]
 RewriteRule ^category/.*$ /pl/poradniki/ [R=301,L]
 RewriteRule ^(wp-admin|wp-login\.php|wp-content|wp-includes|xmlrpc\.php).*$ - [G,L]
-# Każdy inny stary slug wpisu -> lista poradników EN
+# Każdy inny stary slug wpisu (jeden segment, bez rozszerzenia, nie pl/en) -> lista poradników EN
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(?!pl/|en/)([a-z0-9-]+)/?$ /en/guides/ [R=301,L]
