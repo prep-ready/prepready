@@ -1,0 +1,7 @@
+Options -Indexes
+<FilesMatch "^(config\.php|.*\.json)$">
+  Require all denied
+</FilesMatch>
+<IfModule mod_headers.c>
+Header always set X-Robots-Tag "noindex"
+</IfModule>
