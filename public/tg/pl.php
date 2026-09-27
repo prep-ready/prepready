@@ -132,6 +132,8 @@ switch ($cmd) {
 
   case '/alerty':
     $w = getJson('https://danepubliczne.imgw.pl/api/data/warningsmeteo');
+    if (!isset($w[0])) $w = []; // gdy brak ostrzeżeń IMGW zwraca {"message": "..."}
+    $w = array_values(array_filter($w, 'is_array'));
     usort($w, fn($a, $b) => (int)$b['stopien'] <=> (int)$a['stopien']);
     if (!$w) { reply("✅ IMGW nie ma teraz aktywnych ostrzeżeń meteorologicznych.\n\nWszystkie komunikaty trafiają też do tematu 🚨 Alerty.", [[btn('🚨 Alerty w grupie', topic('alerty'))]]); break; }
     $lines = [];
