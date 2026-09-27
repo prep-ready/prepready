@@ -35,6 +35,12 @@ function api(string $method, array $params = []): array {
   $r = curl_exec($ch); curl_close($ch);
   return is_string($r) ? (json_decode($r, true) ?: []) : [];
 }
+function getJson(string $url): array {
+  $ch = curl_init($url);
+  curl_setopt_array($ch, [CURLOPT_RETURNTRANSFER => true, CURLOPT_TIMEOUT => 8, CURLOPT_FOLLOWLOCATION => true, CURLOPT_USERAGENT => 'PrepReadyBot/1.0 (+https://prepready.pro)']);
+  $r = curl_exec($ch); curl_close($ch);
+  return is_string($r) ? (json_decode($r, true) ?: []) : [];
+}
 function e(string $s): string { return htmlspecialchars($s, ENT_QUOTES | ENT_HTML5, 'UTF-8'); }
 function topic(string $k): string { return 'https://t.me/' . GROUP . '/' . T[$k]; }
 function btn(string $text, string $url): array { return ['text' => $text, 'url' => $url]; }
@@ -125,7 +131,7 @@ switch ($cmd) {
     break;
 
   case '/alerty':
-    $w = @json_decode((string)@file_get_contents('https://danepubliczne.imgw.pl/api/data/warningsmeteo'), true) ?: [];
+    $w = getJson('https://danepubliczne.imgw.pl/api/data/warningsmeteo');
     usort($w, fn($a, $b) => (int)$b['stopien'] <=> (int)$a['stopien']);
     if (!$w) { reply("✅ IMGW nie ma teraz aktywnych ostrzeżeń meteorologicznych.\n\nWszystkie komunikaty trafiają też do tematu 🚨 Alerty.", [[btn('🚨 Alerty w grupie', topic('alerty'))]]); break; }
     $lines = [];
