@@ -6,6 +6,6 @@
 export const community = {
   tg: {
     pl: 'https://t.me/prepreadyPL',
-    en: '', // uzupełnij, gdy powstanie angielska grupa
+    en: 'https://t.me/prepready_global',
   } as Record<'pl' | 'en', string>,
 };
