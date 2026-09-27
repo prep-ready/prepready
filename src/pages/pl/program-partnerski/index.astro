@@ -1,0 +1,75 @@
+---
+/** Poradnik o afiliacji z webePartners (link polecający PrepReady). */
+import Base from '../../../layouts/Base.astro';
+const REF = 'https://webep1.com/c/286/6ab7bf82a42c9137f390e6e0';
+const title = 'Jak zarabiać na afiliacji z webePartners: poradnik krok po kroku';
+const desc = 'Afiliacja bez tajemnic: jak zarabiać na poleceniach sklepów przez webePartners. Rejestracja, wybór programów, linki, obowiązki i nasze doświadczenia.';
+const faq = [
+  ['Czy rejestracja w webePartners jest płatna?', 'Nie. Konto wydawcy zakładasz za darmo i bez zobowiązań. Płaci reklamodawca, gdy z Twojego linku ktoś kupi lub zostawi zgłoszenie.'],
+  ['Czy potrzebuję własnej strony internetowej?', 'Nie musisz. Poza stronami i blogami webePartners przyjmuje też wydawców z mediów społecznościowych, newsletterów, porównywarek i serwisów z kodami rabatowymi.'],
+  ['Ile można zarobić na afiliacji?', 'To zależy od ruchu, tematyki i dopasowania produktów. Prowizje w programach wynoszą zwykle kilka–kilkanaście procent wartości zamówienia. Na start ważniejsze jest zaufanie odbiorców niż liczba linków.'],
+  ['Czy muszę oznaczać linki partnerskie?', 'Tak. Odbiorca powinien wiedzieć, że link jest partnerski. Na stronie oznacz go i dodaj atrybut rel="sponsored", a w social mediach użyj oznaczenia współpracy lub linku partnerskiego.'],
+];
+const jsonLd = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faq.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) };
+---
+<Base lang="pl" title={title} description={desc} alternates={{ pl: '/pl/program-partnerski/' }} jsonLd={jsonLd}>
+  <div class="wrap page-head"><h1>{title}</h1><p>{desc}</p></div>
+  <div class="wrap"><div class="prose">
+    <p class="note-box"><strong>Przejrzystość:</strong> link do rejestracji na tej stronie jest naszym linkiem polecającym. Jeśli z niego skorzystasz i zaczniesz współpracę, webePartners zapłaci nam niewielkie wynagrodzenie. Ciebie to nic nie kosztuje, a warunki dla Ciebie są takie same.</p>
+
+    <p>Afiliacja, czyli marketing partnerski, to polecanie produktów sklepów w zamian za prowizję. Wstawiasz specjalny link, ktoś przez niego kupuje, a sklep płaci Ci procent od sprzedaży. Z tego modelu utrzymuje się także PrepReady: linki do sprzętu w naszych poradnikach działają właśnie tak.</p>
+    <p>Poniżej opisujemy, jak zacząć z <strong>webePartners</strong>, polską siecią afiliacyjną, z której sami korzystamy. Bez obietnic szybkiego zarobku, za to z tym, co naprawdę ma znaczenie.</p>
+
+    <h2>Czym jest webePartners</h2>
+    <p>To sieć afiliacyjna, czyli pośrednik między sklepami internetowymi (reklamodawcami) a osobami, które je polecają (wydawcami). Działa od 2009 roku. Według danych firmy współpracuje z ok. 3 000 reklamodawców i ponad 20 000 wydawców. Zamiast podpisywać osobne umowy z każdym sklepem, masz jedno konto, jeden panel, statystyki i rozliczenia w jednym miejscu.</p>
+    <ul>
+      <li><strong>CPS (cost per sale):</strong> dostajesz procent od wartości zamówienia. To najczęstszy model.</li>
+      <li><strong>CPL (cost per lead):</strong> dostajesz stałą kwotę za zgłoszenie, np. rejestrację czy wypełniony formularz.</li>
+    </ul>
+
+    <h2>Dla kogo to jest</h2>
+    <p>Nie trzeba mieć dużego portalu. webePartners przyjmuje m.in.:</p>
+    <ul>
+      <li>blogi i serwisy tematyczne (jak PrepReady),</li>
+      <li>profile w social mediach: Instagram, TikTok, YouTube, Facebook, Pinterest,</li>
+      <li>newslettery i listy mailingowe,</li>
+      <li>porównywarki cen, serwisy z kodami rabatowymi i cashbackiem.</li>
+    </ul>
+    <p>Najlepiej działa, gdy polecasz rzeczy związane z tym, o czym i tak piszesz. Blog o bieganiu i sklep z butami, profil kulinarny i sklep z przyprawami, poradnik o przygotowaniu na kryzys i sprzęt na blackout.</p>
+
+    <h2>Jak zacząć: 5 kroków</h2>
+    <ol>
+      <li><strong>Załóż darmowe konto wydawcy.</strong> Rejestracja trwa kilka minut. <a class="aff" href={REF} rel="sponsored nofollow noopener" target="_blank">Zarejestruj się w webePartners</a>.</li>
+      <li><strong>Uzupełnij dane do wypłat</strong> w ustawieniach profilu. Bez nich nie dostaniesz pieniędzy, nawet jeśli prowizje się naliczą.</li>
+      <li><strong>Dołącz do programów.</strong> W zakładce „Programy partnerskie” filtrujesz sklepy po kategorii i klikasz „Dołącz”. Część programów akceptuje wydawców od razu, inne ręcznie, zwykle w ciągu kilku dni. U nas po rejestracji ponad 140 programów było aktywnych od ręki, a kilka czekało na akceptację.</li>
+      <li><strong>Wygeneruj linki.</strong> Możesz linkować do strony głównej sklepu albo do konkretnego produktu (tzw. deep link). Są też widżety produktowe, banery, kody rabatowe i pliki produktowe (datafeed) dla bardziej zaawansowanych.</li>
+      <li><strong>Umieść linki tam, gdzie pomagają.</strong> Najlepiej konwertują linki w poradnikach i porównaniach, czyli tam, gdzie ktoś właśnie decyduje, co kupić.</li>
+    </ol>
+
+    <h2>Co naprawdę działa: nasze wnioski</h2>
+    <ul>
+      <li><strong>Pisz dla ludzi, nie dla linków.</strong> Tekst, który rozwiązuje problem („jaki filtr do wody wybrać”), zarabia latami. Lista linków bez treści nie zarabia wcale.</li>
+      <li><strong>Mów o minusach.</strong> Czytelnik ufa rekomendacji, jeśli widzi, że nie chwalisz wszystkiego.</li>
+      <li><strong>Wybieraj mniej programów, ale dopasowanych.</strong> Kilka sklepów związanych z tematem jest lepsze niż sto przypadkowych.</li>
+      <li><strong>Sprawdzaj statystyki.</strong> W panelu widać kliknięcia i sprzedaż. Tekst, który ma kliknięcia bez sprzedaży, zwykle potrzebuje lepszego dopasowania produktu.</li>
+      <li><strong>Pamiętaj o czasie walidacji.</strong> Sklep zatwierdza prowizję dopiero po okresie na zwroty, zwykle kilkadziesiąt dni. Pierwsze pieniądze nie przychodzą od razu.</li>
+    </ul>
+
+    <h2>Obowiązki: oznaczenia i podatki</h2>
+    <ul>
+      <li><strong>Oznaczaj linki partnerskie.</strong> Na stronie dodaj krótką informację (jak my pod każdym poradnikiem) i atrybut <code>rel="sponsored"</code>. W social mediach oznacz współpracę.</li>
+      <li><strong>Nie wprowadzaj w błąd.</strong> Nie pisz, że coś przetestowałeś, jeśli tego nie zrobiłeś, i nie wymyślaj opinii klientów.</li>
+      <li><strong>Rozlicz przychód.</strong> Prowizje to przychód. Sposób rozliczenia zależy od tego, czy działasz jako osoba prywatna, czy firma. Zapytaj księgowego albo sprawdź zasady wypłat w panelu webePartners.</li>
+    </ul>
+
+    <h2>Podsumowanie</h2>
+    <p>Afiliacja to nie szybki zarobek, tylko dodatkowy przychód z treści, które i tak tworzysz. Jeśli masz stronę, bloga albo profil z zaangażowanymi odbiorcami, webePartners pozwala zacząć za darmo i bez formalności.</p>
+    <p><a class="aff" href={REF} rel="sponsored nofollow noopener" target="_blank"><strong>Załóż darmowe konto wydawcy w webePartners</strong></a></p>
+
+    <h2>Najczęstsze pytania</h2>
+    {faq.map(([q, a]) => <Fragment><h3>{q}</h3><p>{a}</p></Fragment>)}
+
+    <p>Zobacz też, <a href="/pl/jak-zarabiamy/">jak zarabia PrepReady</a> i dlaczego nie płacisz więcej, kupując z naszych linków.</p>
+  </div></div>
+</Base>
+<style>.prose{padding-bottom:32px}</style>

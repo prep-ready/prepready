@@ -44,6 +44,8 @@ Do plecaka pasują tylko rozchodzone, wygodne buty — w nowych po kilku kilomet
 
 <p class="aff-note">Linki oznaczone ↗ są partnerskie: jeśli coś kupisz, możemy dostać prowizję. Cena się dla Ciebie nie zmienia, a sklep nie ma wpływu na treść poradnika.</p>
 
+Wolisz gotowy zestaw? Porównaliśmy cztery gotowe plecaki: [Gotowy plecak ewakuacyjny: który wybrać](/pl/poradniki/gotowy-plecak-ewakuacyjny/). Osobno opisujemy [filtry do wody](/pl/poradniki/filtr-do-wody-na-kryzys/) i [radia na korbkę](/pl/poradniki/radio-na-korbke/).
+
 ## Kolejność pakowania
 
 1. Na dno najcięższe i najrzadziej potrzebne: śpiwór, zapas jedzenia, ubrania na zmianę.

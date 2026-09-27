@@ -43,7 +43,7 @@ Dla czteroosobowej rodziny minimum to 36 litrów wody, czyli sześć zgrzewek bu
 
 Woda:
 - woda butelkowana (najbezpieczniejsze źródło w kryzysie według CDC),
-- filtr do wody albo tabletki do uzdatniania — na wypadek, gdyby zapas się skończył (np. <a class="aff" href="https://www.prepersi.eu/sklep/survival/systemy-uzdatniania-wody?tracking=6TjpudogVnmAPlRLSfPdnIfOPpA5HuKEKdfTanbx" rel="sponsored nofollow noopener" target="_blank">systemy uzdatniania wody</a>).
+- filtr do wody albo tabletki do uzdatniania — na wypadek, gdyby zapas się skończył (porównanie: [Filtr do wody na kryzys](/pl/poradniki/filtr-do-wody-na-kryzys/); np. <a class="aff" href="https://www.prepersi.eu/sklep/survival/systemy-uzdatniania-wody?tracking=6TjpudogVnmAPlRLSfPdnIfOPpA5HuKEKdfTanbx" rel="sponsored nofollow noopener" target="_blank">systemy uzdatniania wody</a>).
 
 Jedzenie, które nie wymaga gotowania:
 - konserwy rybne i mięsne, fasola w puszce, gotowe dania w słoikach,

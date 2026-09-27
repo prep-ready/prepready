@@ -42,7 +42,8 @@ export const earn = {
     desc: 'Polecamy tylko sprawdzony sprzęt. Współpracujemy bezpośrednio z producentami, dzięki czemu mamy dla Was kody rabatowe i lepsze ceny.',
     html: `<p>PrepReady jest bezpłatny dla czytelników. Utrzymujemy się ze współpracy z producentami i sklepami, które sprzedają sprzęt na sytuacje kryzysowe.</p>
 <h2>Rankingi tylko ze sprawdzonych rzeczy</h2>
-<ul><li>Do rankingów i checklist trafia wyłącznie sprzęt, który sprawdziliśmy albo przetestowaliśmy.</li>
+<ul><li>Do rankingów i testów trafia wyłącznie sprzęt, który sprawdziliśmy albo przetestowaliśmy.</li>
+<li>W poradnikach zakupowych piszemy wprost, jeśli produktu jeszcze nie testowaliśmy. Wybieramy go wtedy na podstawie specyfikacji i oficjalnych zaleceń.</li>
 <li>Przy każdym teście opisujemy, jak mierzyliśmy i co wyszło — także minusy.</li>
 <li>Zawsze podajemy też tanie i darmowe rozwiązania, jeśli istnieją.</li></ul>
 <h2>Współpraca z producentami = lepsze ceny dla Was</h2>
@@ -57,14 +58,16 @@ export const earn = {
 <ul><li>Wybierasz sklepy, które pasują do Twoich odbiorców, i dostajesz prowizję od sprzedaży z Twoich linków.</li>
 <li>Linki generujesz w panelu jednym kliknięciem — do strony głównej sklepu albo konkretnego produktu.</li>
 <li>W panelu widzisz kliknięcia, sprzedaż i prowizje.</li></ul>
-<p><a class="aff" href="https://webep1.com/c/286/6ab7bf82a42c9137f390e6e0" rel="sponsored nofollow noopener" target="_blank">Załóż darmowe konto w webePartners</a>. To nasz link polecający: jeśli z niego skorzystasz i zaczniesz współpracę z jakimś sklepem, webePartners zapłaci nam niewielkie wynagrodzenie. Ciebie nic to nie kosztuje.</p>`,
+<p><a class="aff" href="https://webep1.com/c/286/6ab7bf82a42c9137f390e6e0" rel="sponsored nofollow noopener" target="_blank">Załóż darmowe konto w webePartners</a>. To nasz link polecający: jeśli z niego skorzystasz i zaczniesz współpracę z jakimś sklepem, webePartners zapłaci nam niewielkie wynagrodzenie. Ciebie nic to nie kosztuje.</p>
+<p>Chcesz wiedzieć więcej? Przeczytaj nasz poradnik <a href="/pl/program-partnerski/">Jak zarabiać na afiliacji z webePartners krok po kroku</a>.</p>`,
   },
   en: {
     title: 'How we work and make money',
     desc: 'We only recommend gear we have checked. We work directly with manufacturers, which gets our readers discount codes and better prices.',
     html: `<p>PrepReady is free for readers. We are funded by partnerships with manufacturers and retailers of emergency gear.</p>
 <h2>Rankings only include checked gear</h2>
-<ul><li>Only gear we have checked or tested makes it into our rankings and checklists.</li>
+<ul><li>Only gear we have checked or tested makes it into our rankings and tests.</li>
+<li>In buying guides we say clearly when we have not tested a product yet; we then pick it based on specifications and official guidance.</li>
 <li>Every test explains how we measured and what we found — including the downsides.</li>
 <li>We always list cheap and free options when they exist.</li></ul>
 <h2>Manufacturer partnerships = better prices for you</h2>

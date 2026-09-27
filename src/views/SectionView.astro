@@ -9,6 +9,7 @@ import Deals from '../components/Deals.astro';
 import feed from '../data/feed.json';
 import { gearTest } from '../data/site';
 import { routes, t, type Lang } from '../i18n/ui';
+import { articles as allArticles, hrefOf } from '../lib/articles';
 
 interface Props { lang: Lang; section: 'news' | 'checklist' | 'gear' }
 const { lang, section } = Astro.props;
@@ -26,6 +27,7 @@ const M = {
     en: { title: 'Emergency gear — tests and rankings', desc: t('en', 'gear.sub') },
   },
 }[section][lang];
+const buying = section === 'gear' ? (await allArticles(lang)).filter((a) => a.data.translationKey.startsWith('buy-')) : [];
 const sample = section === 'news' ? feed[lang].sample : section === 'gear' ? gearTest.sample : false;
 ---
 <Base lang={lang} title={M.title} description={M.desc} alternates={{ pl: routes[section].pl, en: routes[section].en }} current={section}>
@@ -36,7 +38,7 @@ const sample = section === 'news' ? feed[lang].sample : section === 'gear' ? gea
   <div class="wrap">
     {section === 'news' && <div class="two"><div><h2 class="sub">{lang === 'pl' ? 'Najnowsze' : 'Latest'}</h2><NewsFeed lang={lang} /></div><Newsletter lang={lang} /></div>}
     {section === 'checklist' && <Checklist lang={lang} />}
-    {section === 'gear' && <div class="stack"><Deals lang={lang} showEmpty /><GearTable lang={lang} />
+    {section === 'gear' && <div class="stack">{buying.length > 0 && <section class="buying"><h2 class="sub">{lang === 'pl' ? 'Poradniki zakupowe' : 'Buying guides'}</h2><ul class="buy-list">{buying.map((a) => <li><a href={hrefOf(a)}><strong>{a.data.title}</strong><span>{a.data.description}</span></a></li>)}</ul></section>}<Deals lang={lang} showEmpty /><GearTable lang={lang} />
       <div class="prose method">{lang === 'pl' ? (
         <Fragment>
           <h2>Jak testujemy sprzęt</h2>
@@ -66,6 +68,11 @@ const sample = section === 'news' ? feed[lang].sample : section === 'gear' ? gea
 </Base>
 <style>
   .stack{display:grid;gap:24px}
+  .buy-list{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
+  .buy-list a{display:block;height:100%;border:1px solid var(--line);background:var(--surface);border-radius:var(--radius);padding:14px 16px;text-decoration:none;color:var(--ink)}
+  .buy-list a:hover{border-color:var(--signal)}
+  .buy-list strong{display:block;font-size:16px;line-height:1.3;margin-bottom:6px}
+  .buy-list span{display:block;font-family:var(--body);font-weight:var(--body-w);font-size:14px;color:var(--muted);line-height:1.5}
   .method{margin-top:12px}
   .sub{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600;margin-bottom:12px}
   .head-row{display:flex;gap:16px;align-items:flex-start;justify-content:space-between;flex-wrap:wrap}
