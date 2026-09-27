@@ -50,18 +50,20 @@ jobs:
         run: |
           printf "<?php return ['to' => '%s'];\n" "$CONTACT_EMAIL" > dist/contact-config.php
 
-      - name: Bot Telegram PL — token i dane dla webhooka (z sekretu, nie z kodu)
+      - name: Boty Telegram PL i EN — tokeny i dane dla webhooków (z sekretów, nie z kodu)
         env:
           TG_BOT_PL_TOKEN: ${{ secrets.TG_BOT_PL_TOKEN }}
+          TG_BOT_EN_TOKEN: ${{ secrets.TG_BOT_EN_TOKEN }}
         run: |
           mkdir -p dist/tg
-          printf "<?php return ['pl' => '%s'];\n" "$TG_BOT_PL_TOKEN" > dist/tg/config.php
+          printf "<?php return ['pl' => '%s', 'en' => '%s'];\n" "$TG_BOT_PL_TOKEN" "$TG_BOT_EN_TOKEN" > dist/tg/config.php
           cp src/data/readiness.json dist/tg/readiness.json
 
-      - name: Dzienny indeks w temacie Alerty
+      - name: Dzienny indeks w tematach Alerty (PL i EN)
         if: github.event_name == 'schedule'
         env:
           TG_BOT_PL_TOKEN: ${{ secrets.TG_BOT_PL_TOKEN }}
+          TG_BOT_EN_TOKEN: ${{ secrets.TG_BOT_EN_TOKEN }}
         run: node scripts/telegram-post.mjs
 
       - name: Wyślij na Hostingera (FTP)
@@ -74,12 +76,17 @@ jobs:
           server-dir: ./
           dangerous-clean-slate: false
 
-      - name: Podłącz webhook bota PL
+      - name: Podłącz webhooki botów PL i EN
         env:
           TG_BOT_PL_TOKEN: ${{ secrets.TG_BOT_PL_TOKEN }}
+          TG_BOT_EN_TOKEN: ${{ secrets.TG_BOT_EN_TOKEN }}
         run: |
-          [ -z "$TG_BOT_PL_TOKEN" ] && { echo "Brak tokena — pomijam."; exit 0; }
-          SECRET=$(printf "prepready-pl:%s" "$TG_BOT_PL_TOKEN" | sha256sum | cut -c1-48)
-          curl -s -o /dev/null -w "setWebhook HTTP %{http_code}\n" "https://api.telegram.org/bot${TG_BOT_PL_TOKEN}/setWebhook" \
-            -d url=https://prepready.pro/tg/pl.php -d secret_token="$SECRET" \
-            --data-urlencode 'allowed_updates=["message"]'
+          hook() {
+            [ -z "$2" ] && { echo "$1: brak tokena — pomijam."; return 0; }
+            SECRET=$(printf "prepready-%s:%s" "$1" "$2" | sha256sum | cut -c1-48)
+            curl -s -o /dev/null -w "$1 setWebhook HTTP %{http_code}\n" "https://api.telegram.org/bot$2/setWebhook" \
+              -d url=https://prepready.pro/tg/$1.php -d secret_token="$SECRET" \
+              --data-urlencode 'allowed_updates=["message"]'
+          }
+          hook pl "$TG_BOT_PL_TOKEN"
+          hook en "$TG_BOT_EN_TOKEN"

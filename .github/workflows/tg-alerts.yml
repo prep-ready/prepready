@@ -1,4 +1,4 @@
-# Alerty IMGW do grupy Telegram @prepreadyPL (temat 🚨 Alerty), co 30 minut.
+# Alerty do grup Telegram co 30 minut: IMGW → @prepreadyPL, GDACS → @prepready_global.
 name: Alerty Telegram
 
 on:
@@ -28,6 +28,7 @@ jobs:
       - name: Wyślij nowe ostrzeżenia
         env:
           TG_BOT_PL_TOKEN: ${{ secrets.TG_BOT_PL_TOKEN }}
+          TG_BOT_EN_TOKEN: ${{ secrets.TG_BOT_EN_TOKEN }}
         run: node scripts/tg-alerts.mjs
       - name: Zapisz pamięć
         uses: actions/cache/save@v4
