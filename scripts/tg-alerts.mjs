@@ -24,7 +24,7 @@ let state = { sent: {} };
 try { state = JSON.parse(await readFile(STATE, 'utf8')); } catch {}
 const firstRun = Object.keys(state.sent).length === 0 && !process.env.TG_ALERTS_SEND_EXISTING;
 
-const get = async (u) => { try { const r = await fetch(u); return r.ok ? await r.json() : []; } catch { return []; } };
+const get = async (u) => { try { const r = await fetch(u); const j = r.ok ? await r.json() : []; return Array.isArray(j) ? j : []; } catch { return []; } };
 const meteo = await get('https://danepubliczne.imgw.pl/api/data/warningsmeteo');
 const hydro = await get('https://danepubliczne.imgw.pl/api/data/warningshydro');
 
