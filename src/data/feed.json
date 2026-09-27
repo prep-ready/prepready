@@ -4,6 +4,51 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-09-26T15:30:54.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Rzeczpospolita",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUzRkRjFDRzB5dE12SDNkZk0xamhRZjZYb3ZxejExNi0waW91VkY3NmVnZHFKdXQ3NTVERE9rVUxrZ0hxa0JxNXBjT0lYM1c5emxxWmh0a3VxWUJZc2NBOUM5Mnphb1FEWW1UUWE5VnA3R0V0MzhNWGZXd3FyQ2drRGJZMHlFWFhTamxQcUo5VC01SUFCdTJ3YlplQkwzLUtRS0d4b2pHWG1fQQ?oc=5",
+        "title": "Gen. Polko mówi, jak odpowiadać na rosyjskie drony. „Działać szybciej i sprawniej”",
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+      },
+      {
+        "at": "2026-09-26T11:16:27.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Media",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcUFzWWRMZWhFSVBTNkZ0aUh0eWpiVFJSTnVjWWQ4dE0zQi1ISHhlXzJPTHJYSVlNb3M0eUo1S1lnekRQWnVXc2c0RU90YkNsaVlqMUg2dFhqZ2M0S0JNdmFVSmR0cFNyZHpRa0JPakRkV0FUZVdobmEyVl94ekNqNWxKMFQxdzdJZDI3TElUZXRpeEFaeTZLTEdSeGNIalZOeEt5alNOa01QLWRZZXMwQ3AtSEdJOTBaZEE?oc=5",
+        "title": "Gotowi na każdą ewentualność – podchorążowie złożyli przysięgę - Wojsko-Polskie.pl",
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+      },
+      {
+        "at": "2026-09-26T11:15:00.000Z",
+        "cat": "weather",
+        "sev": 2,
+        "source": "IMGW",
+        "url": "https://meteo.imgw.pl/",
+        "title": "IMGW: 1 ostrzeżeń meteo, najwyższy stopień 1 — Gęsta mgła",
+        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
+      },
+      {
+        "at": "2026-09-26T08:40:00.000Z",
+        "cat": "health",
+        "sev": 1,
+        "source": "Polskie Radio PiK",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQbExTN0d1TkhBZzZVd1o5VEw3RVJSMUtEcVdfN21PM1N0ZEp4WU9JQTdzOXBsTDEyZGhSLUJMcVVEWk40RFJhSGh3UTllRF82c0IySnlXWGhTZUFBdFZ3SUtnR04wOGVXM3Z6RmlLWlA0TkxJOTdmUlJ6eUJia0pkMEpKMFo0UTQzM3pXTGhhLWM5cEVraTlXTnZxNDcxRVVmRzlvWkVENWhuRXlab2R6RXZLTXFyc1l2N1c4MTlpMWY3OEdlbnpNMg?oc=5",
+        "title": "Służby sprawdzają, czy była ingerencja w wodociąg w Złejwsi Wielkiej. Ustalenia Polskiego Radio PiK",
+        "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
+      },
+      {
+        "at": "2026-09-26T07:46:36.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Kronika24.pl",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOU0xldDJoQzdrclJJLWw3MjVtSzE1Y2VMVnI0bmx6T3hRb0tJU2YyMzJ6RzhyTF9TdDNhZ21abGpzbTI3YlVUVWVQZ09uaHhYMnItSENFN0VjQUlYZlZ5a2M1aFk3dEhwWGtURlFQY1ZCeHA0b09Ibl8ybnh4WmF2YzN3Umh1SzlmOW9XQV83RFNnUW40cWF3eUJ2WFIyM0JjZ2UxUmpaV3BnYmdrQldPdG9pWGtfV0RPWU5r0gHAAUFVX3lxTE1OdWNiU2o1N19jdzFUaEM1TGdpOXJZWlg5MkV0em42UEViemJQSXFaYXJjU0k3QnRMQjRxRS1VYU0wa055UndDdWdLR2hOM29wMVU4RndLSDVtTndTYUU2WnVKLWNQeXhTVVBjY21VRlItMU1SeDNrdHZGcU5ZRUFtSE1TaW1VWHFCdnZnNS1VNHk1VDV1YjZPYzBlZFpndmdEYXl1UWpIUmZwVkVSRjlCRThfdVVIaEFFUm9OZ09lMQ?oc=5",
+        "title": "Rejon lotniska Rzeszów-Jasionka. Szef MON odwiedził żołnierzy brytyjskich, holenderskich i polskich",
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+      },
+      {
         "at": "2026-09-25T22:15:03.000Z",
         "cat": "health",
         "sev": 1,
@@ -107,6 +152,51 @@
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-09-27T00:51:53.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "SSBCrack",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVGhja09UZExRdHh2cHRCOWlnelFTUHI5V0xyS1pZRmV1Rm9ZR25fZHhwOTFjdE8xQlVjRklYWE9qS2hfQWdvX3dESmRkdTR6LTJKUzNISTNGUVJpbmhLU1ZzRDZlSW04MmtIdmY0cXpGT0ZPakQ1MFljU1dfNVRzcFdYQk5UYjZBUjl5cEUtWU5lMDJ3V3ltU0VsTVJxUQ?oc=5",
+        "title": "Expert Warns of Preparedness Amid Europe’s Largest Blackout in 20 Years",
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
+      {
+        "at": "2026-09-26T22:56:33.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Breaking News, Latest News and Videos",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZEdMZldscXowbHVadzFLRS0xajFnSHZ4M0hjVXNiMVRLVTlXZElQWDEyMm5zcV80ZkFuTm54Y2JySUJ0bV9rNDVWSXhHTlgtcFlvWm9JNDZnMnNoZTUyMV9xTGM5TXg3Q1Jwc1hCclhjSTRCNDJaSXVtRzVwTnRKc1hPMHpDMi1jcjNSR1dzOUpHMDh6UEpxR19ZbHY0X3ktbGFQcUs3U09YVGlrWjFJ0gG0AUFVX3lxTE9nN2pBOWdLMkJwMVdqZVlBM29rTUR5YkFlSFRVRm5vd0piMHp5dXRyTWRacDRiU1JyS2pGWnktdmpYdWhuZXoxSGVPa003eDNscVoxSTZGbWNGaHVOWXR4WGdNQVBtN2UxTmNCMUlwSlNLVHlublFaWHdZRndkZDI4RElmMGdtSy1VMlJVemNfVUNiX1BFbXdYQUs0QXZLYUpENnNuY3ZMNGNPLVNTVFFvX2J3ZA?oc=5",
+        "title": "Trump blames Minnesota governor, not Iran, for cyberattacks on the state's water systems - ABC News",
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
+      {
+        "at": "2026-09-26T21:09:05.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Breaking News, Latest News and Videos",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTGZ3a3Q4R2NnNWJ6TXdGcWNEd0EzUnozYmtiNmI1TC1xcEw2dkMxN09CZDhuN3hDX3k2SkV1M2tjTGt2RHNFVXVmaEQwOVhQZVc4VzhJaHZraHloWWRzR0xoVkhqVmtoc2xPZ0pzWUxOa2ZpdnlrbENWSU1ZeTFha1pCRUlORXBzV2RLR1VhRElJejAyY0FXd2RlMlRnQWFp0gGmAUFVX3lxTFBiOXlWck42MkJWNjhKWDVDQWZXVGdLNm94cEU4b2ZJdlkxWFVyVWJpQkppenhGeW1JWGpESDh4UDFTS2s3WS1qa0c2cXJXLTlWa0pnd2pjZ19WcVZFaFhxRDZqNkI4QURjSGpDd0JUQ1lXSGY0Y3hGRVJrNUQyLUlzeEpTNmVwZmhobmZDeHlsWVk2NktDNEdwWXA2Uld5Z0JBUkhWVGc?oc=5",
+        "title": "White House posts so-called 'hype' videos combining real Iran war footage alongside movie, video game clips - ABC News",
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
+      {
+        "at": "2026-09-26T15:04:32.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "АНТИКОР",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPU0ViVjc0TXp5aE1Sd294OG9sNEpueFBlREswdUJqTDMtN3Z0dFgwYmVlTkFLZE5UZzJ0T0VsWWtEcXc2cHVJMG9FWXdDckc5cm8xV1ZodWtxcXN6ZFVhMF8zOTdUd3lQVjZxMWZiVkF2MjJQWHZWTHlKc2xydVd5U1h5OXlRMUJYQkx6TWsyYnJUVlFtd3BqLUtNa0U5d3Ywb2E5eXhWTHZSVEtOTV9GTGlUYjBHZTUzaFZCT2pNTTBhblRLWWo4azNqTWtkemM?oc=5",
+        "title": "In the Kharkiv region, four people were injured as a result of a missile strike, including two children",
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
+      {
+        "at": "2026-09-26T12:10:25.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "UNITED24 Media",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNdW1keUxvODVkaVRaaFJfLW1jdEtCbGQ5V0ZKY2lPT0NJRUM4RHAxZE11aTFaTkhPMXFGb2FpQ1FjOFQ5d3hxcnJhVldqdnlQN3pXR3NCZ0J2ZGZURUNjMmxVekRkY0R4ZElrYnFVQVJSSWZraVNUZnRQQjJXQW15OHdkRVFKM3hrS1k3WHJKb0JVOWRPa0VQMzJEQUVzeDg4WVZnSjh4MkY3RmVmWEd5MlBxWEFQOFZlSVFiemNzbDhxb29TOHpUUXRWU0NoLVF2SWc?oc=5",
+        "title": "Ukraine’s Neptune Missiles Hammer Russian Plant Supplying Missile and Artillery Components",
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
       {
         "at": "2026-09-26T03:54:39.000Z",
         "cat": "energy",
@@ -214,6 +304,15 @@
         "url": "https://www.ecdc.europa.eu/en/news-events/ecdc-deploys-experts-drc-increase-support-amidst-ongoing-ebola-outbreak",
         "title": "ECDC deploys experts to DRC to increase support amidst ongoing Ebola outbreak",
         "forYou": "Usually no action. Check your first-aid kit and expiry dates."
+      },
+      {
+        "at": "2026-09-21T03:00:00.000Z",
+        "cat": "disaster",
+        "sev": 3,
+        "source": "GDACS",
+        "url": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=26&eventtype=TC",
+        "title": "Tropical Cyclone POLO-26 (Orange alert)",
+        "forYou": "If you have family in the area, check in. Review your own evacuation plan."
       },
       {
         "at": "2026-09-21T03:00:00.000Z",

@@ -2,30 +2,33 @@
   "_comment": "Aktualizuje scripts/update-data.mjs codziennie. pl = Polska, en = świat. Składowe z mode=manual ustawiasz ręcznie.",
   "pl": {
     "sample": false,
-    "updatedAt": "2026-09-26T04:53:01.838Z",
-    "score": 37,
+    "updatedAt": "2026-09-27T04:53:36.608Z",
+    "score": 32,
     "delta7": 0,
     "ago30": 29,
     "history": [
       29,
-      37
+      37,
+      32
     ],
     "components": [
       {
         "id": "conflict",
         "name": "Konflikt w regionie",
         "weight": 30,
-        "value": 65,
+        "value": 40,
         "sources": "GDELT · Google News",
         "trend": [
           40,
           40,
-          65
+          65,
+          40
         ],
         "mode": "auto",
         "raw": [
           59,
-          95
+          95,
+          57
         ],
         "stale": false
       },
@@ -36,9 +39,9 @@
         "value": 34,
         "sources": "PAA · EURDEP",
         "trend": [
-          31,
           33,
           32,
+          34,
           34,
           34,
           34,
@@ -56,6 +59,7 @@
         "trend": [
           25,
           25,
+          25,
           25
         ],
         "mode": "auto",
@@ -66,12 +70,13 @@
         "id": "weather",
         "name": "Pogoda i żywioły",
         "weight": 15,
-        "value": 13,
+        "value": 33,
         "sources": "IMGW · GDACS",
         "trend": [
           18,
           13,
-          13
+          13,
+          33
         ],
         "mode": "auto",
         "raw": [],
@@ -86,6 +91,7 @@
         "trend": [
           18,
           12,
+          12,
           12
         ],
         "mode": "auto",
@@ -96,47 +102,52 @@
         "id": "cyber",
         "name": "Cyber i łączność",
         "weight": 15,
-        "value": 35,
+        "value": 33,
         "sources": "GDELT · Google News · CERT",
         "trend": [
           35,
           35,
-          35
+          35,
+          33
         ],
         "mode": "auto",
         "raw": [
           62,
           62,
-          61
+          61,
+          59
         ],
         "stale": false
       }
     ],
     "historyDates": [
       "2026-09-25",
-      "2026-09-26"
+      "2026-09-26",
+      "2026-09-27"
     ]
   },
   "en": {
     "sample": false,
-    "updatedAt": "2026-09-26T04:54:37.235Z",
-    "score": 35,
+    "updatedAt": "2026-09-27T04:55:42.156Z",
+    "score": 32,
     "delta7": 0,
     "ago30": 35,
     "history": [
       35,
-      35
+      35,
+      32
     ],
     "components": [
       {
         "id": "conflict",
         "name": "Global conflict",
         "weight": 30,
-        "value": 45,
+        "value": 37,
         "sources": "GDELT · Google News",
         "trend": [
           45,
-          45
+          45,
+          37
         ],
         "mode": "auto",
         "raw": [
@@ -152,9 +163,9 @@
         "value": 34,
         "sources": "IAEA · EURDEP",
         "trend": [
-          31,
           33,
           32,
+          34,
           34,
           34,
           34,
@@ -171,12 +182,14 @@
         "sources": "Google News",
         "trend": [
           25,
+          25,
           25
         ],
         "mode": "auto",
         "raw": [
           45,
-          46
+          46,
+          44
         ],
         "stale": false
       },
@@ -187,6 +200,7 @@
         "value": 29,
         "sources": "GDACS",
         "trend": [
+          29,
           29,
           29
         ],
@@ -202,6 +216,7 @@
         "sources": "ECDC",
         "trend": [
           28,
+          28,
           28
         ],
         "mode": "auto",
@@ -212,22 +227,25 @@
         "id": "cyber",
         "name": "Cyber & infrastructure",
         "weight": 15,
-        "value": 39,
+        "value": 35,
         "sources": "GDELT · Google News",
         "trend": [
           35,
-          39
+          39,
+          35
         ],
         "mode": "auto",
         "raw": [
-          59
+          59,
+          54
         ],
         "stale": false
       }
     ],
     "historyDates": [
       "2026-09-25",
-      "2026-09-26"
+      "2026-09-26",
+      "2026-09-27"
     ]
   },
   "doomsdayClock": {
