@@ -2,29 +2,31 @@
   "_comment": "Aktualizuje scripts/update-data.mjs codziennie. pl = Polska, en = świat. Składowe z mode=manual ustawiasz ręcznie.",
   "pl": {
     "sample": false,
-    "updatedAt": "2026-09-28T04:55:30.493Z",
-    "score": 37,
+    "updatedAt": "2026-09-29T04:55:44.702Z",
+    "score": 28,
     "delta7": 0,
     "ago30": 29,
     "history": [
       29,
       37,
       32,
-      37
+      37,
+      28
     ],
     "components": [
       {
         "id": "conflict",
         "name": "Konflikt w regionie",
         "weight": 30,
-        "value": 39,
+        "value": 40,
         "sources": "GDELT · Google News",
         "trend": [
           40,
           40,
           65,
           40,
-          39
+          39,
+          40
         ],
         "mode": "auto",
         "raw": [
@@ -42,7 +44,7 @@
         "value": 34,
         "sources": "PAA · EURDEP",
         "trend": [
-          32,
+          34,
           34,
           34,
           34,
@@ -64,6 +66,7 @@
           25,
           25,
           25,
+          25,
           25
         ],
         "mode": "auto",
@@ -81,6 +84,7 @@
           13,
           13,
           33,
+          13,
           13
         ],
         "mode": "auto",
@@ -98,6 +102,7 @@
           12,
           12,
           12,
+          12,
           12
         ],
         "mode": "auto",
@@ -108,21 +113,23 @@
         "id": "cyber",
         "name": "Cyber i łączność",
         "weight": 15,
-        "value": 86,
+        "value": 29,
         "sources": "GDELT · Google News · CERT",
         "trend": [
           35,
           35,
           35,
           33,
-          86
+          86,
+          29
         ],
         "mode": "auto",
         "raw": [
           62,
           62,
           61,
-          59
+          59,
+          54
         ],
         "stale": false
       }
@@ -131,39 +138,43 @@
       "2026-09-25",
       "2026-09-26",
       "2026-09-27",
-      "2026-09-28"
+      "2026-09-28",
+      "2026-09-29"
     ]
   },
   "en": {
     "sample": false,
-    "updatedAt": "2026-09-28T04:57:36.457Z",
-    "score": 35,
+    "updatedAt": "2026-09-29T04:57:51.181Z",
+    "score": 33,
     "delta7": 0,
     "ago30": 35,
     "history": [
       35,
       35,
       32,
-      35
+      35,
+      33
     ],
     "components": [
       {
         "id": "conflict",
         "name": "Global conflict",
         "weight": 30,
-        "value": 45,
+        "value": 43,
         "sources": "GDELT · Google News",
         "trend": [
           45,
           45,
           37,
-          45
+          45,
+          43
         ],
         "mode": "auto",
         "raw": [
           55,
           54,
-          49
+          49,
+          52
         ],
         "stale": false
       },
@@ -174,7 +185,7 @@
         "value": 34,
         "sources": "IAEA · EURDEP",
         "trend": [
-          32,
+          34,
           34,
           34,
           34,
@@ -189,20 +200,22 @@
         "id": "energy",
         "name": "Power & grid",
         "weight": 15,
-        "value": 18,
+        "value": 20,
         "sources": "Google News",
         "trend": [
           25,
           25,
           25,
-          18
+          18,
+          20
         ],
         "mode": "auto",
         "raw": [
           45,
           46,
           44,
-          38
+          38,
+          40
         ],
         "stale": false
       },
@@ -216,6 +229,7 @@
           29,
           29,
           29,
+          38,
           38
         ],
         "mode": "auto",
@@ -226,13 +240,14 @@
         "id": "health",
         "name": "Public health",
         "weight": 10,
-        "value": 28,
+        "value": 20,
         "sources": "ECDC",
         "trend": [
           28,
           28,
           28,
-          28
+          28,
+          20
         ],
         "mode": "auto",
         "raw": [],
@@ -242,19 +257,21 @@
         "id": "cyber",
         "name": "Cyber & infrastructure",
         "weight": 15,
-        "value": 35,
+        "value": 30,
         "sources": "GDELT · Google News",
         "trend": [
           35,
           39,
           35,
-          35
+          35,
+          30
         ],
         "mode": "auto",
         "raw": [
           59,
           54,
-          35
+          35,
+          48
         ],
         "stale": false
       }
@@ -263,7 +280,8 @@
       "2026-09-25",
       "2026-09-26",
       "2026-09-27",
-      "2026-09-28"
+      "2026-09-28",
+      "2026-09-29"
     ]
   },
   "doomsdayClock": {
