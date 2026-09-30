@@ -4,6 +4,60 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-09-30T04:27:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "RMF24",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQeVVWSVR6bEM0ZXlMaUZ5TEZjNnlYNU4zWHNuZWVrUE1qOU1ndW91QWV2ei00WmFYejYyaVNJenVDeHZnOURBZ2k5UUQyMTd0RWhDTW5iLXdPWkViUDNDSHI3TDR1NjZ1V3B2UkEyT0tZdVNJWDJXbXp4WlVpbGRWSlhJLXI5OXlQdE96VTFQTjl6QXBlVXJwaGdIMm9meG5fZl9fTER6RWxEVXJKbkxSU1dn?oc=5",
+        "title": "Polska traci pozycję lidera. Kto teraz wydaje najwięcej na wojsko w Europie?",
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+      },
+      {
+        "at": "2026-09-30T04:11:15.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaWhCalNaSktLX2lFWFZFQ2QtMF9lajhFZVdjZ2FwUnNGQnBkOW9nbkNEZzRHT2xOZ0s0akd1T29HVDBnV0ZrWDNRMVFMeUk0YU41WUZ1dFdnUXQ4cG1pbEVQVGp3cUN1S1BmcVFLRmVRaElodWQwb0NwNjI0bTA4UlpmM0pIdFlvYWh3VmNYUl9WTXRKbFpMZ2ZTSk4yQ0VzYmc?oc=5",
+        "title": "Rosyjski atak na Ukrainę. Wojsko uruchomiło polskie lotnictwo",
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+      },
+      {
+        "at": "2026-09-30T04:00:00.000Z",
+        "cat": "health",
+        "sev": 1,
+        "source": "Bankier.pl",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZWd2QzI4Y3B3U0xRT1ZNLVltbUptMEVHd3djOHlzVE5MVzFoU25JZDR6QjE0NS1OYXhpTDlqejVXUGQ4dU81UmZBVGRDRmNYd2tZVVZGUWtRdnY2Q2JOMlhOZGNmZ2dxd2FhaUFZb05HdEhHNUtzaTB6WmpkM01ZWkxTRnF0b2RiVldfczdvSEF1UlU4SncyeUVqb0FHTjZBY2lMOGJEMnRVcXRscDR5UEhCbVZHUQ?oc=5",
+        "title": "Deepfake to już nie tylko problem celebrytów. Oszuści biorą na cel zwykłych Kowalskich",
+        "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
+      },
+      {
+        "at": "2026-09-29T20:28:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Niezależna",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQTFlwLXZsaTRfR1JsS1hvb3AzemxpaDA2WDVDQWtfVjUyRHoyRmVsUExSX3VSMmFWV0ZaTl9tM2J6NFlON2MzZXVRUVh0dklucDdMS3J6Z0lXcE1vdnNqR1dvaXVCNVVSVVhTdWRvdXR5eHJoQ1hjTXBTOVRFQ1RnWDhiem9aQlU4Ukh6Rm5mWjZDY1RNMWY1NzEycmc4aFZoaGxGMXd5RFhDYzhELTZFU2pvbXFja09wNm1EdTVqY0FkdEx5RUY0N0F1YU1sa2RVd0Vpeg?oc=5",
+        "title": "\"Gazeta Polska\" NOWY NUMER: Drony, terror, sabotaż i rakiety. Jak Rosja może zagrozić Polsce i NATO",
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+      },
+      {
+        "at": "2026-09-29T13:55:00.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "CERT Polska",
+        "url": "https://cert.pl/posts/2026/09/CVE-2026-41875/",
+        "title": "Podatność w oprogramowaniu Quick.Cart",
+        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
+      },
+      {
+        "at": "2026-09-29T12:55:00.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "CERT Polska",
+        "url": "https://cert.pl/posts/2026/09/CVE-2026-85520/",
+        "title": "Podatność w oprogramowaniu MyPresta Google Merchant Center Feed",
+        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
+      },
+      {
         "at": "2026-09-29T04:26:58.000Z",
         "cat": "security",
         "sev": 2,
@@ -128,66 +182,57 @@
         "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQbExTN0d1TkhBZzZVd1o5VEw3RVJSMUtEcVdfN21PM1N0ZEp4WU9JQTdzOXBsTDEyZGhSLUJMcVVEWk40RFJhSGh3UTllRF82c0IySnlXWGhTZUFBdFZ3SUtnR04wOGVXM3Z6RmlLWlA0TkxJOTdmUlJ6eUJia0pkMEpKMFo0UTQzM3pXTGhhLWM5cEVraTlXTnZxNDcxRVVmRzlvWkVENWhuRXlab2R6RXZLTXFyc1l2N1c4MTlpMWY3OEdlbnpNMg?oc=5",
         "title": "Służby sprawdzają, czy była ingerencja w wodociąg w Złejwsi Wielkiej. Ustalenia Polskiego Radio PiK",
         "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
-      },
-      {
-        "at": "2026-09-26T07:46:36.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Kronika24.pl",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOU0xldDJoQzdrclJJLWw3MjVtSzE1Y2VMVnI0bmx6T3hRb0tJU2YyMzJ6RzhyTF9TdDNhZ21abGpzbTI3YlVUVWVQZ09uaHhYMnItSENFN0VjQUlYZlZ5a2M1aFk3dEhwWGtURlFQY1ZCeHA0b09Ibl8ybnh4WmF2YzN3Umh1SzlmOW9XQV83RFNnUW40cWF3eUJ2WFIyM0JjZ2UxUmpaV3BnYmdrQldPdG9pWGtfV0RPWU5r0gHAAUFVX3lxTE1OdWNiU2o1N19jdzFUaEM1TGdpOXJZWlg5MkV0em42UEViemJQSXFaYXJjU0k3QnRMQjRxRS1VYU0wa055UndDdWdLR2hOM29wMVU4RndLSDVtTndTYUU2WnVKLWNQeXhTVVBjY21VRlItMU1SeDNrdHZGcU5ZRUFtSE1TaW1VWHFCdnZnNS1VNHk1VDV1YjZPYzBlZFpndmdEYXl1UWpIUmZwVkVSRjlCRThfdVVIaEFFUm9OZ09lMQ?oc=5",
-        "title": "Rejon lotniska Rzeszów-Jasionka. Szef MON odwiedził żołnierzy brytyjskich, holenderskich i polskich",
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-09-25T22:15:03.000Z",
-        "cat": "health",
-        "sev": 1,
-        "source": "Radio UWM FM",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBrU1FsenROYkVKOVU2UjNNd3kxVXl5WEtOMUZkMzZfanF0bjFnZTUwWW9sSnZscXFKVzk4Sy1TMnJ3eGlLbXh1Q0NXbV9nd1FtZ3dGMno4X0tOdGVicFhwR0pNQ09TN2x6VVBNdzR3QVVLbVdvVFg5UUlqZlU4UQ?oc=5",
-        "title": "UWM gospodarzem spotkania specjalistów od geoinformacji",
-        "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
-      },
-      {
-        "at": "2026-09-25T19:01:45.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "AstroNET – Polski Portal Astronomiczny",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQYnMzNUltbjhwejBtNG5HNk5tZUZrU0liSzVuWWhfaEtKQWs2V1VXSUF3TG5ldnI5MC1QbHpLcjVJTk9OdlV2Ni1pQUg2SnFxb2lkM21KME9hY0RIcERJaVRqUlVXME1uU0dxTTJPRndSRDRtU3hUVjZCZmRBblNzY1dxeF92YThRR3lMSlVrREJaZmVCZy1Ic2RiV1kyWHdPc1N4MjdWcEx3bTRVVTJj?oc=5",
-        "title": "Polska rakieta znów startuje. Jak Gdynia buduje kosmiczną i obronną przyszłość Polski",
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-09-25T15:51:00.000Z",
-        "cat": "health",
-        "sev": 1,
-        "source": "Bydgoszcz Radio ESKA",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObWpvbVFMRWxHaDg4Tloyb1RuMDdKbDFvZ3ZWazJsLWE1cFU1SVN0MjlsS1hOUXhaVXdXdDZkbjMzQVJEdHNESy1weUdXZDFQSHhUTGZjaVB0WXBpV1hqdGhLdDVJSW03VG84QnNTRV9BUlB3REgzbGU1R3BzZjFsM3N6MXZNRW9Cc1k0a2FRVlBTRzljX0FPc1d0S05PZDJXaTJnVWFMQ05HMnRxSEtzdzNRTTRYdUxwWkpTamQ5Q2o2VFhkS2JpZA?oc=5",
-        "title": "Skażenie wody w Kujawsko-Pomorskiem. Sanepid wydał zakaz, alerty RCB u mieszkańców",
-        "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
-      },
-      {
-        "at": "2026-09-25T14:31:37.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "edgp.gazetaprawna.pl",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUk1FUWJTZllpVUNZdVczdUw1ZXRLcEZHS3pLRE4yZ2huZllwdXNiempicTJxN0FwcmJ1TGVjWUZyQVBJVlgtS2FIekRuOTc3YXNYY1cwalpwNHBaS1RuUC1kaG8wSlVWWW5UaFN4TXRqSUF5c0xDZnRaT3Rzd2pvNHdtM2ZraUFkVkNLRllYdWE0bUZsaEE0ZFFwSWFkVGtFM1Q5RXdmTmE?oc=5",
-        "title": "Co z dziećmi w szkole, kiedy zawyją syreny? Nasza bezradność i niewiedza daje punkty Rosji",
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-09-25T14:24:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "RMF24",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTE52S0dKUy1fa1pZX1JLZGhiTzRUQVBOc21EYTllSVNNNXBCSGJpYk03UEo1NjU0Mkt0ai11cC1EbWFVNlBmUmF3SGlCN1FGYzZ3aEhkMHowdzdKNFhqb3NHOTN4R1VOQ2hxcjBDeE9CU0ZDYk5CM2hjMEVvSlY3R3lpWGJhWWpRT3lyYURRWHJGVjF1UVZ6YmU5a2VhT0lFeXR3dEl3WnRieGRoRjhzZlBnWkNscFk?oc=5",
-        "title": "„Sabotaż, przestępstwo terrorystyczne, rosyjskie służby”. Jest śledztwo PK ws. pożaru stacji Starlinków",
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
       }
     ]
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-09-30T02:19:43.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "USA Today",
+        "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxPaXVSWkFVWU93YldrUGRnaWpFb3h5SXpVaTNZYW40QUlkN3NGQ0R3aXg3bHVHeWNCQXo4QUlxYk5tYjNYUmZQdTJsS1RVZGxKUWtJMTFVUVVhTnZTdUR1V2dzcjJBRF9kN1dkMF84MG9qWFFKMGFNYTZKempYTEJHejluUlhCdmpiQldRMWUydkJYRkNuWHFpQ2J1b3h5X0RwX1pMQ2FVRnR1YzctUkowZTV0ZFR2cjJCOWFybW5DNG9qTFdCcUFVNnpyVHFPVEZsN1pXR3ZmNjU2dVFkbE5ySDNoY3BuQjBOZzdha2tKVG5XZWtjMElnZHhuTHRDTWRqUzN2RjVEcG1fQW1zbDJ2dVU4ZmpWNngwWGlPR2ItTl9mZWxDa1lKUFYwUV91TGNtNGhhREZ0SXBmQ0ZWWGM0SnQ3Y0c?oc=5",
+        "title": "When the Grid Goes Dark, the Boardroom Becomes the Battlefield: CISO and Board Advisor Professor Kai London Publishes 100+ Title Cyber, AI and Critical Infrastructure Library",
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
+      {
+        "at": "2026-09-29T22:45:10.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "EnergyNow.com",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRHM5Z0w3dFFfNEtpem9naS1GakppY2drNmxqQ2xWRDB3b1hmMHBDWUZZc2ZKY2ZJR2RKejd4YW9CMTYxMzFqX01ZcmNXZG9WMVVKaXFIVlY2WVpBWUpMQnZMOEJaM2xtRW9IMnEzelgwQmQ4djVuYTA1MmVZWVB0a01IeWhuNkJnMnR3TA?oc=5",
+        "title": "Cuba’s National Electric Grid Collapses, Reason Unknown",
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
+      {
+        "at": "2026-09-29T22:37:55.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "EnergyNow.com",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUmRjOW5iTlYxTE5NSkNHZlRTZXJRWXBZTEJMZ0FyNFItWWtPV3pmWUdnVTF0M2JzMmxOTmMyMU5MMG1nM3VJcnk2OS1OMXBrS3IxbTBvVVZVb1N0S2F6M1ZSS09kT18yOWZvZUh1MEdWSzlhTWw2TlAxWmpHcGZOZEN0U0haVUNBWHBPeS1ZNzVzYmlBZkMxTmFkb25vbERIeUx1eDBSeHNoUkVSUjVkc1dZeG8yYUZRbFJoTA?oc=5",
+        "title": "Fujairah Oil Zone Hit by Fire After Drone Attack as UAE Says it Intercepted Iran Missiles",
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
+      {
+        "at": "2026-09-29T21:27:15.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Hindustan Times",
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOcmtnSklsd2pXTVlzTWtNNG1GOUg1RnUwN0VWUDRhZjBVWjNEZ1JtS2ZTdHEtQzVqSTBYcGc1M3BianF1d1hLYkpKbmVCaER1UlpyTFNSNFQ4Um9UN19kN1Jmb1U5TzFGcUk2SDhNV0xSeGZya0pVbm9zWXpueGlSUFdKOXR0X1pnZjNDWmhIMEJMeVRDSEZGdDJjNmxLMzdDU1F3aHpfTkpwTTZYS1RZU2M4aVdrVzlSaHh6LWgtZndnUVM5R1pseUR2TGRnbS0zM3k3c2VKRDBGdWlfbF9jREN0U0xZY3ZVbWhWMU1EeVBEQ24zR21LeNIB_gFBVV95cUxOVTFwRVRGeVpOY2RBcXpFNlFLZmN5eXBRbncyZm01UU9TeTNKZjlFbXMyYW13NGtiRTVoMGYzeDNFV1RUZnpjUXB3ZVdvVGE3Sml1aHB0YnBXV0c5WDVTZGtNOFdUS2ZKNXNZTUwxMHh5LWVHTVJkalhORWIyal91ZkFGRWpaNENlWmpoU2F5QTJ6VXhSZ2hqZEpSakhGWVlCSElSZ3ZPTXBnSVZIN0h0b0djc2tmTFJEWTNvejZOQmxVSWRKVDRKSl9jckxISzJDRllhNDZySjR0c2RFY19FeDZfcVNDQTZzdDhtel9Fb0lFUjRxZHQ2XzEzR1JnZw?oc=5",
+        "title": "Kaliningrad attack could trigger nuclear war: These Russia missiles can reach every NATO capital? | Hindustan Times",
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
+      {
+        "at": "2026-09-29T20:23:05.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "National Security Journal",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNcTdxRkxRT20tOEhyeGlJY2xPRVBNS2E3dlQxakxlNDdISDFOS0J3aTNyYWtfNGVtMVdRM3JmSlVQSjlMN1p0a3hjR2hnLV9BdldyLTFSd1MxU2RCT1BCVHFTdHowZlNRNHp1dC1CRmxvME5ka0hDWFdSck1DU19vYVc3eFRuaTRZbUNNSE81MWhIeVJFNHpyRnpmSzNEdmUxMFh6LVZ6LURIYmdobFJMYTBwLVNVbFhpaWY5TGxlSGlla3VveDdkakpPZm5PTjNxYVVGN0s1aUJyZGstc003Z1kxRkpCbUJrSDh5RVNhTi1aaEJ3S2c?oc=5",
+        "title": "The Congressional Budget Office Warns That America's Stock of Missile Interceptors Will Stay Depleted for Years Due to Iran War",
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
       {
         "at": "2026-09-29T04:25:37.000Z",
         "cat": "security",
@@ -261,15 +306,6 @@
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       },
       {
-        "at": "2026-09-27T17:04:47.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "energynow.com",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUmRjOW5iTlYxTE5NSkNHZlRTZXJRWXBZTEJMZ0FyNFItWWtPV3pmWUdnVTF0M2JzMmxOTmMyMU5MMG1nM3VJcnk2OS1OMXBrS3IxbTBvVVZVb1N0S2F6M1ZSS09kT18yOWZvZUh1MEdWSzlhTWw2TlAxWmpHcGZOZEN0U0haVUNBWHBPeS1ZNzVzYmlBZkMxTmFkb25vbERIeUx1eDBSeHNoUkVSUjVkc1dZeG8yYUZRbFJoTA?oc=5",
-        "title": "Fujairah Oil Zone Hit by Fire After Drone Attack as UAE Says it Intercepted Iran Missiles",
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
         "at": "2026-09-27T16:40:00.000Z",
         "cat": "security",
         "sev": 2,
@@ -331,42 +367,6 @@
         "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNdW1keUxvODVkaVRaaFJfLW1jdEtCbGQ5V0ZKY2lPT0NJRUM4RHAxZE11aTFaTkhPMXFGb2FpQ1FjOFQ5d3hxcnJhVldqdnlQN3pXR3NCZ0J2ZGZURUNjMmxVekRkY0R4ZElrYnFVQVJSSWZraVNUZnRQQjJXQW15OHdkRVFKM3hrS1k3WHJKb0JVOWRPa0VQMzJEQUVzeDg4WVZnSjh4MkY3RmVmWEd5MlBxWEFQOFZlSVFiemNzbDhxb29TOHpUUXRWU0NoLVF2SWc?oc=5",
         "title": "Ukraine’s Neptune Missiles Hammer Russian Plant Supplying Missile and Artillery Components",
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-09-26T03:54:39.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "News/Talk/Sports 94.9 WSJM",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOOHRmd0JkZGtjUDhTUTliSzBLMDd3OVpCWEJrTzZzR1cxTXZoX0dibHlQaUFSNmpGUEJZZTlpWG54WHM0MW5vR0NnY18zRUg5SEdpWXc3YWJPNGRrX0ZfVW1XdVFqZE8weUxodGJmY21QSWN2MkhlZS1NcXBEcHBvRUZVb1drbGdDZFlKTXdwa21xOW0ydndz?oc=5",
-        "title": "Photos: SHAES continuing to work fire scene at East Jordan Plastics",
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-09-26T03:49:31.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "Newswav",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOOG8tbDdiMVh2bURNUEpwUm5TYjZHZzIzZFJwcDV6R3NqSndCNk91YUpaR1FkMG9nUjd5bTJPWEF2ZGJWM0o1NHFTVjNOWnRQN2JPZHRRaERDVktDWjhDcWFaSDNvZXhwVURXOEQ2RDZXSmFnbDFfWGdhcjVtbjZCWi1tTDROYW0zWkpXbXh6ZHNoWi1Xd1lrOTA5THo3RTNuUS0xSFlB?oc=5",
-        "title": "Spanish rail operator hit by cyberattack, user data compromised",
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-09-25T21:05:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Daily Sabah",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNQms1TjN5aVdTblJoV2FBQnY4ZE03aTJqVTdxLWhnWl80OG5oZktPU0hjZmxhT1lyRlFWSG9mMUtaNzdmMWNnRmVqci1VOVdpRnVMMV9QZkxQcWotaUJPR1VyWWxtZ283WkNjSUZodEJqRnhITGd5bE51ZG5RNGpJOV9DRUZCMTMtZzhqbENhODVtWUxjR0hlZ0FiR3lwYXBtUUFsNlBZbjLSAagBQVVfeXFMTUJrNU4zeWlXU25SaFdhQUJ2OGRNN2kyalU3cS1oZ1pfNDhuaGZLT1NIY2ZsYU9ZckZRVkhvZjFLWjc3ZjFjZ0ZlanItVTlXaUZ1TDFfUGZMUHFqLWlCT0dVcllsbWdvN1pDY0lGaHRCakZ4SExneWxOdWRuUTRqSTlfQ0VGQjEzLWc4amxDYTg1bVlMY0dIZWdBYkd5cGFwbVFBbDZQWW4y?oc=5",
-        "title": "Strategic shift in Yemen conflict: Toward collective response | Daily Sabah",
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-09-25T15:53:09.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "MindaNews",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMjZkUWxDTTQyOVA5ZnlRRkNvVDl4cXFodERIa0N5VDl1WXk0VXN0bHkwa21QaHZZSWJDVmZoVEVxVGtqSHptNUdrTUs4WFBtS3FlQTAwcTlvYkdLYVJiTjFNR3dYTklPWmJZNmhHX2IwSWRrMTNnM1J4bTNwOFJwZThHU2p0UjNtY2I4dnY0MGhUSHNrX0VGSkYwMnMtQjRudGlpSFpOX3o4RHdX?oc=5",
-        "title": "GenSan hospital admits ‘data breach’ after ransomware group’s claims",
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
       }
     ]
   }
