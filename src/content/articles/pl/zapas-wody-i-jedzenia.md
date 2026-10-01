@@ -52,6 +52,8 @@ Jedzenie, które nie wymaga gotowania:
 - mleko UHT lub w proszku, płatki,
 - jedzenie dla dzieci i zwierząt, jeśli ich masz.
 
+Pełną listę z przykładowym jadłospisem i zasadami porcjowania znajdziesz w poradniku [Jedzenie bez gotowania na kryzys](/pl/poradniki/jedzenie-bez-gotowania/).
+
 Do tego: otwieracz do puszek bez prądu, jednorazowe naczynia, worki na śmieci, a jeśli masz możliwość — kuchenka turystyczna z kartuszami (używaj jej tylko przy otwartym oknie).
 
 ## Jak przechowywać zapas
