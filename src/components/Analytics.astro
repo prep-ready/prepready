@@ -1,0 +1,64 @@
+---
+/**
+ * Google Analytics 4 (G-M7WL95P43G) z Google Consent Mode v2.
+ * Domyślnie: brak zgody → GA wysyła tylko anonimowe sygnały bez cookies.
+ * Po kliknięciu „Akceptuję” → pełne statystyki (cookies analityczne).
+ * Reklamowe zgody zawsze odrzucone — nie używamy reklam Google.
+ */
+import type { Lang } from '../i18n/ui';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const GA_ID = 'G-M7WL95P43G';
+const T = lang === 'pl'
+  ? { text: 'Używamy Google Analytics, żeby wiedzieć, które poradniki są czytane. Bez reklam i bez sprzedaży danych.', yes: 'Akceptuję', no: 'Nie, dziękuję' }
+  : { text: 'We use Google Analytics to see which guides people read. No ads, no selling data.', yes: 'Accept', no: 'No thanks' };
+---
+<script is:inline define:vars={{ GA_ID }}>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){ dataLayer.push(arguments); }
+  window.gtag = gtag;
+  var c = null; try { c = localStorage.getItem('pr-consent'); } catch (e) {}
+  gtag('consent', 'default', {
+    analytics_storage: c === 'yes' ? 'granted' : 'denied',
+    ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied',
+    wait_for_update: 500
+  });
+  gtag('js', new Date());
+  gtag('config', GA_ID);
+  var s = document.createElement('script');
+  s.async = true; s.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_ID;
+  document.head.appendChild(s);
+</script>
+
+<div id="pr-consent" class="pr-consent" role="region" aria-label="Cookies" hidden>
+  <p>{T.text}</p>
+  <div class="pr-consent-btns">
+    <button type="button" class="btn ghost" data-consent="no">{T.no}</button>
+    <button type="button" class="btn primary" data-consent="yes">{T.yes}</button>
+  </div>
+</div>
+
+<script is:inline>
+  (function () {
+    var box = document.getElementById('pr-consent');
+    var c = null; try { c = localStorage.getItem('pr-consent'); } catch (e) {}
+    if (c !== 'yes' && c !== 'no') box.hidden = false;
+    box.addEventListener('click', function (e) {
+      var v = e.target.getAttribute && e.target.getAttribute('data-consent');
+      if (!v) return;
+      try { localStorage.setItem('pr-consent', v); } catch (err) {}
+      if (v === 'yes') window.gtag('consent', 'update', { analytics_storage: 'granted' });
+      box.hidden = true;
+    });
+  })();
+</script>
+
+<style>
+  .pr-consent{position:fixed;left:16px;right:16px;bottom:16px;z-index:50;max-width:560px;margin:0 auto;
+    background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:var(--radius);
+    padding:14px 16px;box-shadow:0 8px 24px rgba(0,0,0,.18);font-family:var(--body);font-size:14px}
+  .pr-consent[hidden]{display:none}
+  .pr-consent p{margin:0 0 10px}
+  .pr-consent-btns{display:flex;gap:8px;justify-content:flex-end;flex-wrap:wrap}
+  .pr-consent .btn{cursor:pointer}
+</style>
