@@ -4,6 +4,42 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-10-05T04:19:31.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "TVN24",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQckhxd05La2Vfa3hWdFE0OElIME5ZMUZwbWUyZFdIVEk2RGdteTNBZ2ZtWEJGSHlHSER4cHhpcDU5cXYtSmxPYXBLWWltUlJGbXg5dWs4a1lXc0VMbFJCdlBHOHh6ZzRiZjNsNnNLTEJOUzRFRDc4RE9ONDN4QjZXXzY3OUtuRGVvdWRPX3lBNVBia09qOVQxVg?oc=5",
+        "title": "Most w Kijowie trafiony dronem. Nagranie",
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+      },
+      {
+        "at": "2026-10-05T03:45:08.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "kresy.pl",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRFdtSkNzQkk4b3puUGdxdzhLWnBhZkQtSWVuWjNJQ3JVOEtMVk9RNlRaUXc0ZGZ3T09ESUtTTVNiWDZxR3RQcEQ2dlp1QnJzdThfQU9URllldU42c045ZFItSlhXWmFOclBMSlpfZ2tyTU5QMkVTVU9mQnFoaXA1OEJsYnRaUHJmNHd1dzhkSVV0Y1pXZFNnNzdnS2IwS2M?oc=5",
+        "title": "Wojsko Polskie dostanie nowy mundur polowy. Prezentacja w poniedziałek",
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+      },
+      {
+        "at": "2026-10-05T00:29:46.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Portal Obronny",
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOMEVPSHlkSWE0REg5T1RaLTJvekozTjhka1NTZHlVdnRqd1ZfZy1qRjBIdVJxQVE0Zl9BcVB4eHhJeHJteDlIQy1MdUlvZFY1YlpMM2t2RUVwem5TbjAydjdmSUdVZ2V3Y1d4alF1cXZMenBJMEhPdlR3MVVjNzVfTzktbHM4NGVNREVBbTFmQ0FLY1pEVXB1cWhxZlZCbm5QZURoVE9BblM3eWcwbWUtRzBoRnBWRkRPY0tHMEIwVmZCOVhYVVlnQ1pDbmxKbzBHa2pRRkFhbkVFZlVlQllCbGN0bUtSalR2Vkg4cjNwQ09sYnVvaXAyaw?oc=5",
+        "title": "„Inteligentna Granica” staje się faktem. Wojsko i Straż Graniczna sięgają po AI na wschodniej flance",
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+      },
+      {
+        "at": "2026-10-04T21:26:00.000Z",
+        "cat": "health",
+        "sev": 1,
+        "source": "TVP Katowice",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLUFIVEhuU2dOdFZUaG83VjRXOGl2OXpQa0J2YTY1UkVLeUtZSUxXdFJwNnVUV041SjZ6aG9oNFhVajNpbnNiQUc1ZHBWU29neWoyclVjRWdFUkgyYzBXc29rclo4OXFLQ21lWExqY2ZRclRPMDhGTWRSbVR4MjFNeW5PUl9tek94OUZKc0VkaDloTmw5YlhyRThtYXRtZw?oc=5",
+        "title": "To już epidemia! W Światowym Dniu Onkologii lekarze biją na alarm",
+        "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
+      },
+      {
         "at": "2026-10-04T11:50:00.000Z",
         "cat": "weather",
         "sev": 2,
@@ -19,15 +55,6 @@
         "source": "satkurier.pl",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaGozZ25UalAzUkNfeEJXSDRnUmlpVmYyZkVwUTRKX1FlRjJ4eW9xYlh1ZEROVTI4NFdfUHB4dHVSRVl3RFBDdmNLdUZFbzdBR29tUEphRllja0R0dnh0R1NTUnF5WDJPQVNHZE42RzhDZnl2aFBqbUJIWGpnQ2VUdU9fSGd4dWJmS3pubkpDcGk0MWt0ZTZkQzV6SGstLTRpTm40RnJtMA?oc=5",
         "title": "Polskie satelity MikroGlob już na orbicie. Wojsko zyskało nowe oczy",
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-10-04T09:06:24.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Portal Obronny",
-        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOMEVPSHlkSWE0REg5T1RaLTJvekozTjhka1NTZHlVdnRqd1ZfZy1qRjBIdVJxQVE0Zl9BcVB4eHhJeHJteDlIQy1MdUlvZFY1YlpMM2t2RUVwem5TbjAydjdmSUdVZ2V3Y1d4alF1cXZMenBJMEhPdlR3MVVjNzVfTzktbHM4NGVNREVBbTFmQ0FLY1pEVXB1cWhxZlZCbm5QZURoVE9BblM3eWcwbWUtRzBoRnBWRkRPY0tHMEIwVmZCOVhYVVlnQ1pDbmxKbzBHa2pRRkFhbkVFZlVlQllCbGN0bUtSalR2Vkg4cjNwQ09sYnVvaXAyaw?oc=5",
-        "title": "„Inteligentna Granica” staje się faktem. Wojsko i Straż Graniczna sięgają po AI na wschodniej flance",
         "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
       },
       {
@@ -155,39 +182,57 @@
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQ19MTTFpUXdjU08zSE5oWHMzbjZjckRET1lQLVNIY0RrRGVUVWtmUGVMOGd1Z2VyRDUwNVYwb3VFWkVldmdxMWNMWDBDaE9pWmF6bmhDYnpkYlRqRTlZTklpMkhGU09HYk5HYXJFeFZFeWlraUFFdmFlMHFiNTVoN29Pc05fQWdvV29tOEVmU0N2dFZlbVlFUWh0MXA2SUY1cDQ3OHI1Mk5PQ3pF?oc=5",
         "title": "\"Chcemy zostać w cieniu\". Tajemnica specjalnego lotu MON z Filipin",
         "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-09-30T16:01:01.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "INNPoland.pl",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB5RGZqcHljWm9SdnpEMVk2NDZvbWRxcVNnZWRSQlFFSExORzVGNU9GUHdMWUdaNm1aWHRuVnNBdFlIYkdWZHg0cmFYMWtIQ3YzOG00NTdLWkhzaEk?oc=5",
-        "title": "Incydent w Dorohusku i alert RCB. Czy Polacy boją się rosyjskich dronów?",
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-09-30T10:55:00.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "CERT Polska",
-        "url": "https://cert.pl/posts/2026/09/CVE-2026-74864/",
-        "title": "Podatności w oprogramowaniu YunoHost-Apps sogo_yhn",
-        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
-      },
-      {
-        "at": "2026-09-30T04:27:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "RMF24",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQeVVWSVR6bEM0ZXlMaUZ5TEZjNnlYNU4zWHNuZWVrUE1qOU1ndW91QWV2ei00WmFYejYyaVNJenVDeHZnOURBZ2k5UUQyMTd0RWhDTW5iLXdPWkViUDNDSHI3TDR1NjZ1V3B2UkEyT0tZdVNJWDJXbXp4WlVpbGRWSlhJLXI5OXlQdE96VTFQTjl6QXBlVXJwaGdIMm9meG5fZl9fTER6RWxEVXJKbkxSU1dn?oc=5",
-        "title": "Polska traci pozycję lidera. Kto teraz wydaje najwięcej na wojsko w Europie?",
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
       }
     ]
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-05T03:22:30.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Greek City Times",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWjVDWnBjdzJKRlFsRldMNVRiSktjYWlTT1pUVHpRUDNvdzVvT1QtQ1Nwd204UUtxZGs4Rjd2U2pHYzZ3dE5WbUUyWFM3ckpHbzlWOTYxejA1QTdlTjRMUFJNN3VkalpFYlZxdno5WEttY2NqQjRkbm9WVjR2X3M4MTVHUzhxMkREa1FaXzZpQkYxRzlBcjZtRw?oc=5",
+        "title": "Teenager Suspected of Running KillSec Ransomware Group as Police Seize Servers in International Crackdown",
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
+      {
+        "at": "2026-10-05T02:40:23.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "aljazeera.com",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONmY5RE5ILWt6MWtRZTJBS2VXVzdQdERuNHZFbk9PVHVuZFNfTVhjdm1yTWdUSTR0Q0xlNTN2eGhOUkE2WThVcXdDZ1pEcDAtQWJWWUFQbUM2RE9pbmtCa2lfM2t2RUxxVF9kUkJxd0htRjA0aXprc0NEQWZlNHVQTWpPVDdPNDVmZ25sNXFISGhaa0MxdEJzNEQxekE1ZVRoZWFkVEZsOElNR1g1amRXRFdkZm85RnPSAbwBQVVfeXFMUHdUakUzMklBc1VSRGZwMXN1X2M1NVg3b1dmUFZ5aXUtX2tmbW84UHNSckw2TlBmS1pXdmx1VE4tclZ6cGpSSFU1WTZRRmg3c3V2N3lYME1BRmUwa0RHZS1rd1BINkowa0xrMHNReUxXdmZyRzduTkN0TTlpVWV4c0p2Um5uWHRlNG14b0MwNF8zd2JTMHppaHlnN0tHMWJJTlhKMTltOE5MN0ktQVdoNGhRekg1RmhoVVBrdGM?oc=5",
+        "title": "Houthis claim strike on Aramco site as Yemen fighting intensifies",
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
+      {
+        "at": "2026-10-04T23:39:16.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Latin Times",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbk1JS2xqOEZfU2J3M3M5c1lnMU5ESHJKNTh4UmRzMUFnd2o5cGhUNzBJNlRyanZhRXVLWnRoTnEyczdMUmh4bzhtaHJfbUtrVGhHOEVNR2E5WjhCMDBnN29zbEJ6R1M0R3F3dHJhZ2lGR1NHblhwRmFxWWxIXzZNNzkyX3hzZjBRT2l4NDR0ekVERVNTanh5cDFJay1wUzVvSGFrNlY4VDFDclNMTlI2cUZqS1FiT2pJUzlxMQ?oc=5",
+        "title": "Yemen's Government Launches Major Offensive as Houthi Missiles Reach Saudi Arabia's Capital",
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
+      {
+        "at": "2026-10-04T23:00:28.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The News Line",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNM2FLQU1JVVFZNkNMRnRnVU1tUU14QU4xRnk2UV9rNVBIcDl4SkJ6T21ZblkwQ3Y2dUV0elh2RE9hcmM1RFNQb3ZYZnNoem5KVGtvam94eURnb0lLZEg0YU82Qy11MURCX0pXc3NhWkV2SlV2bW5JQTdrdlpyVWl2ejdTZUd6MFc5RTNYN2tn0gGTAUFVX3lxTE80SFhidnZTQVI2TDRSWjI3ZkhsV3NwYy1jQlRKOW90cm1EZGY5WG9sa3pQdTZDQTY2elZqbWRVYUVhWlFKZHpwTXlaWFJjTzVFTlNGY1dETG1MV3hraU1xZlFRejlRQWswNldjMGZBblFiLXNhX0RFNHNlMk9iMDFoa3JTcF91RTVxTW9sQ2dCM3ljVQ?oc=5",
+        "title": "US committed a war crime at Minab school in Iran says UN",
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
+      {
+        "at": "2026-10-04T18:57:21.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Canarian Weekly",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVEcyR01aYTVsSTB1TVd6XzYxQ1NkbF8yZnhPWHBvc2pRX1RsUzBJWXBUTC1KdkNNMG9RWFRTSXpSV3dNc3NQYkNvd0ttNE5ZUDZiWkRiTVJwTXZOWXlXQVA5Z0NCM05nTDFwbThkQkZGZGVFZWZYU3dNRHRHYk5EQjhRUnBFZnRfbTdvcEI5c2FTdw?oc=5",
+        "title": "UPDATE: Water supplies still disrupted in Yaiza and Teguise after island-wide blackout",
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
       {
         "at": "2026-10-04T10:12:08.000Z",
         "cat": "energy",
@@ -196,15 +241,6 @@
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeExGRUdGQUozb2VLOWpQZ1E4MnZSUzlWb1ZjSkI5VEd5V2FkSTZ0RGJyODE4MWNHRl9tVERzSlVuQ2E4SDdwZnFCQWdISXpaTGkwQkhBSW1KV0xiLWdNdGJpbGMwXzVXRTNiUDZCS0ZlbHcxUDM4QkJlVFR5M3FhSU9LT25uQ2ljbHpCZnp5XzFfcVJhX01kU3JTR1Y?oc=5",
         "title": "Marcos pushes nationwide expansion of solar-powered irrigation",
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-04T09:54:28.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONmY5RE5ILWt6MWtRZTJBS2VXVzdQdERuNHZFbk9PVHVuZFNfTVhjdm1yTWdUSTR0Q0xlNTN2eGhOUkE2WThVcXdDZ1pEcDAtQWJWWUFQbUM2RE9pbmtCa2lfM2t2RUxxVF9kUkJxd0htRjA0aXprc0NEQWZlNHVQTWpPVDdPNDVmZ25sNXFISGhaa0MxdEJzNEQxekE1ZVRoZWFkVEZsOElNR1g1amRXRFdkZm85RnPSAbwBQVVfeXFMUHdUakUzMklBc1VSRGZwMXN1X2M1NVg3b1dmUFZ5aXUtX2tmbW84UHNSckw2TlBmS1pXdmx1VE4tclZ6cGpSSFU1WTZRRmg3c3V2N3lYME1BRmUwa0RHZS1rd1BINkowa0xrMHNReUxXdmZyRzduTkN0TTlpVWV4c0p2Um5uWHRlNG14b0MwNF8zd2JTMHppaHlnN0tHMWJJTlhKMTltOE5MN0ktQVdoNGhRekg1RmhoVVBrdGM?oc=5",
-        "title": "Houthis claim strike on Aramco site as Yemen fighting intensifies",
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       },
       {
         "at": "2026-10-04T07:56:09.000Z",
@@ -331,42 +367,6 @@
         "url": "https://www.ecdc.europa.eu/en/news-events/risk-general-population-remains-very-low-following-fourth-imported-ebola-case-europe",
         "title": "Risk to general population remains very low following fourth imported Ebola case in Europe",
         "forYou": "Usually no action. Check your first-aid kit and expiry dates."
-      },
-      {
-        "at": "2026-10-01T12:35:32.000Z",
-        "cat": "health",
-        "sev": 1,
-        "source": "ECDC",
-        "url": "https://www.ecdc.europa.eu/en/news-events/new-hepatitis-surveillance-report-shows-strengthened-public-health-cooperation-eu",
-        "title": "New hepatitis surveillance report shows strengthened public health cooperation with EU candidate countries",
-        "forYou": "Usually no action. Check your first-aid kit and expiry dates."
-      },
-      {
-        "at": "2026-10-01T03:44:31.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "조선일보",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZzBDSGd3SmFNSE9tSzBkTWZ1R1BfQXZSTUwyR0dwNExpVXNnZXFqaHZjUnUzbjFHcW9ieTdnMDFxc3NYeUw4UUxhNWFXdzBRSWpsaFNYRnBheGpFc3lfeWItLXk2RkNhRnFnMmJXQk5qNVBGTFVTQnB1WUc0cTVQRWN1M1kzSEVk?oc=5",
-        "title": "South Korea Holds Level 1 Officials Accountable for Cybersecurity Leaks",
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-01T01:07:37.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Daily Mail",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNU05UMFUyZWRGTGN0dG93TFNDUHNiUmpHOUNmMVRRU2Z1V0l4R29RQnVzOTVlc1Y1VG1jSGl3dWgwTzFUbmNkbkgzRnc3aGs1U2ZjMHRNVHBLLTczMmJpdTNWdTRkellDb09rcHdla2h3dU9fbGROZHIwblhIVU1pUGtxV0JFRUp6TE9WWktyRm1tMG5NUkRseUR1bUdRamQ2MXQ4YkZjZw?oc=5",
-        "title": "'Blackout Arc' event could now leave 5 million Americans in darkness",
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-01T00:43:05.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Institute for the Study of War",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSE9kNFdlUk9vUmRwVVVkSlhILXJoRDJZOWlmRkhVNUk0ZHhlQlk0ZEdxdnJfN29NOGgyaWcyRS1TNVAyTVhSMnVhaDBaUE4xWENUX2g5SkV6YklCSXhnSzJWZmEwanQ4clMzRzA4MEhXT3VVTmNJVUgyQXFFU0thdEpDVUQ0MERveEdtSm9saEM5dnBMTmFrTVBwY240NjhuLVo4NjBudHZyTmRPWEE?oc=5",
-        "title": "Russian Offensive Campaign Assessment, September 30, 2026",
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       }
     ]
   }
