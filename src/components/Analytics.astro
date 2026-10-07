@@ -9,6 +9,8 @@ import type { Lang } from '../i18n/ui';
 interface Props { lang: Lang }
 const { lang } = Astro.props;
 const GA_ID = 'G-M7WL95P43G';
+// Cloudflare Web Analytics — bez cookies, nie wymaga zgody; liczy wszystkie odsłony.
+const CF_TOKEN = 'de609046a2584821983e9325a97634a8';
 const T = lang === 'pl'
   ? { text: 'Używamy Google Analytics, żeby wiedzieć, które poradniki są czytane. Bez reklam i bez sprzedaży danych.', yes: 'Akceptuję', no: 'Nie, dziękuję' }
   : { text: 'We use Google Analytics to see which guides people read. No ads, no selling data.', yes: 'Accept', no: 'No thanks' };
@@ -29,6 +31,7 @@ const T = lang === 'pl'
   s.async = true; s.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_ID;
   document.head.appendChild(s);
 </script>
+<script is:inline defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon={JSON.stringify({ token: CF_TOKEN })}></script>
 
 <div id="pr-consent" class="pr-consent" role="region" aria-label="Cookies" hidden>
   <p>{T.text}</p>
@@ -47,7 +50,10 @@ const T = lang === 'pl'
       var v = e.target.getAttribute && e.target.getAttribute('data-consent');
       if (!v) return;
       try { localStorage.setItem('pr-consent', v); } catch (err) {}
-      if (v === 'yes') window.gtag('consent', 'update', { analytics_storage: 'granted' });
+      if (v === 'yes') {
+        window.gtag('consent', 'update', { analytics_storage: 'granted' });
+        window.gtag('event', 'page_view'); // policz też stronę, na której kliknięto zgodę
+      }
       box.hidden = true;
     });
   })();
