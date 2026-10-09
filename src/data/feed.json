@@ -4,6 +4,60 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-10-09T00:09:17.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Rzeczpospolita",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSHhlZWtaZUNNcXpuZktQSFNqbF81bERpeVJ0cjBfTmI5NDlZanpDdTNQQXFUb2xzSC1OV2xKR01wd3lzY1ltbXJBQ0tweEU0TDJkVk5xN3J6ZUJmOC1lWVRjdmRkY3VzNlE2UTVKcEFSaTBPdDJLRng0RVR0UzJBMW9SMWdTaVVsbVV3S1JWcEk4TlR5UWNwOUFBbkVEUVc2OXdxLTJjUEpEQktqY2FVcEx0RGo?oc=5",
+        "title": "Polscy żołnierze szukają ochrony przed dronami. Ekspert nie ma wątpliwości: sama siatka to za mało",
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+      },
+      {
+        "at": "2026-10-08T21:09:01.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbWdpODdOd05ZYTZISTdnWmh5QXpScXpZcTA4aDFwd2FQNFBGWTJjOEpNeHZ1OVd1cktrVlN3WnR6bmRwcDNIZFRfYmNvU1ZnTmVYSUdjSmg5NWNJZUxxV1hZaHBCWFJCSWZ1R19BZmROTVBKNjQ4dEQtMjI3YnhZTExDNTRmd1ZpOVlDSU1DekttMmVBRHhETmw5NA?oc=5",
+        "title": "Lotnictwo wojskowe nad Polską. Rosja atakowała zachód Ukrainy",
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+      },
+      {
+        "at": "2026-10-08T19:47:00.000Z",
+        "cat": "health",
+        "sev": 1,
+        "source": "Newsmax Polska",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPejNlbHJQa1FtVWJTVTRHdnJSYjBXRVg5N3JDQjZXS3BNbVJkZG0zd3dXRlBKT3dQQ2FURHhHcjRqLWZGVUQtT3NZemZJMFU1QWJ4NlpNTE1MYUJVQzNLR25La045enFCdjE2ZGNmRlZ6STZzaE1Gbk0zWDNFbGdYS2NXbms5YV8wZW5tVldsNzhSNTVGcXVHMzJSMDYzX3RoT01tQ09zMG9fTkdLZEZCbg?oc=5",
+        "title": "Epidemia odry w USA. Ponad 1000 przypadków w jednym stanie",
+        "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
+      },
+      {
+        "at": "2026-10-08T18:30:25.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Wieści24.pl",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxONHVDUC0yb0hnSmc1SW85LXpPdFo2dng5WXFvRy1sWkRZcGVydlhfMlRtSnBUYmltZm9weEZUdnBKZUd5c0RqcmtEODJzSTlvbEdqclI5UHk1ZFpiSm54TnliUnowdmpxZ2xqVzdSb2ZPMUZzMzQ0MUZ2WmFCUGVNdHhIYzlpaFRqRzB5bWxzSGt2ekpmQkphTDdWaVotVXdEdTRVZmNNS3c?oc=5",
+        "title": "Bielan kreuje się na człowieka Trumpa. Teraz oskarża polski rząd o „sabotaż”",
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+      },
+      {
+        "at": "2026-10-08T11:52:00.000Z",
+        "cat": "weather",
+        "sev": 3,
+        "source": "IMGW",
+        "url": "https://meteo.imgw.pl/",
+        "title": "IMGW: 7 ostrzeżeń meteo, najwyższy stopień 2 — Silny wiatr",
+        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
+      },
+      {
+        "at": "2026-10-08T10:55:00.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "CERT Polska",
+        "url": "https://cert.pl/posts/2026/10/CVE-2026-103663/",
+        "title": "Podatność w oprogramowaniu Ollama",
+        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
+      },
+      {
         "at": "2026-10-08T03:30:00.000Z",
         "cat": "health",
         "sev": 1,
@@ -128,66 +182,57 @@
         "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTGd0SVVqUE9XR2FUMFY3N1ZQQUlSMXlDZkxhMWRHTGpoZTJjUl9aZlJEM25BYVlQeFJfUi1tWVp4cXpYWmdqRkxESmk1VXA2OW5kV3BvZE1zTlQybmhoZ0NUeXVPclBxMmhJcVNiVGRhQldvLUtzYVFsaWxuM19JdXlzQ1Y?oc=5",
         "title": "Wojsko otrzyma umundurowanie nowego wzoru [WIDEO + ZDJĘCIA]",
         "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-10-05T19:35:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Fronda.pl",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMTlWQmpEd2NMTkxUc3VhU091VENXQXpCeUVoQ3AtUEpYWG1tQllNTmtFWkFGVHJVWV9vNFNSNkYwY1Y1MUdHNTFBc2xCamlYRVo0XzZjcFdQNXBGTTV2WHgtekZ2SDBRU1pZT3ZoeXdDMy1xMVRtNk5NMlFteEt0TXZVXzlTWkdQSWdycVN1bmlhMVlRV3BBTkJYSDFhT3pzcFRsem0tcVhoUWliWktjbEtfNA?oc=5",
-        "title": "Bielan oskarża rząd Tuska o sabotaż rozmów z USA – politycy KO mówią o „skandalu”",
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-10-05T04:19:31.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "TVN24",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQckhxd05La2Vfa3hWdFE0OElIME5ZMUZwbWUyZFdIVEk2RGdteTNBZ2ZtWEJGSHlHSER4cHhpcDU5cXYtSmxPYXBLWWltUlJGbXg5dWs4a1lXc0VMbFJCdlBHOHh6ZzRiZjNsNnNLTEJOUzRFRDc4RE9ONDN4QjZXXzY3OUtuRGVvdWRPX3lBNVBia09qOVQxVg?oc=5",
-        "title": "Most w Kijowie trafiony dronem. Nagranie",
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-10-05T03:45:08.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "kresy.pl",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRFdtSkNzQkk4b3puUGdxdzhLWnBhZkQtSWVuWjNJQ3JVOEtMVk9RNlRaUXc0ZGZ3T09ESUtTTVNiWDZxR3RQcEQ2dlp1QnJzdThfQU9URllldU42c045ZFItSlhXWmFOclBMSlpfZ2tyTU5QMkVTVU9mQnFoaXA1OEJsYnRaUHJmNHd1dzhkSVV0Y1pXZFNnNzdnS2IwS2M?oc=5",
-        "title": "Wojsko Polskie dostanie nowy mundur polowy. Prezentacja w poniedziałek",
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-10-05T00:29:46.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Portal Obronny",
-        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOMEVPSHlkSWE0REg5T1RaLTJvekozTjhka1NTZHlVdnRqd1ZfZy1qRjBIdVJxQVE0Zl9BcVB4eHhJeHJteDlIQy1MdUlvZFY1YlpMM2t2RUVwem5TbjAydjdmSUdVZ2V3Y1d4alF1cXZMenBJMEhPdlR3MVVjNzVfTzktbHM4NGVNREVBbTFmQ0FLY1pEVXB1cWhxZlZCbm5QZURoVE9BblM3eWcwbWUtRzBoRnBWRkRPY0tHMEIwVmZCOVhYVVlnQ1pDbmxKbzBHa2pRRkFhbkVFZlVlQllCbGN0bUtSalR2Vkg4cjNwQ09sYnVvaXAyaw?oc=5",
-        "title": "„Inteligentna Granica” staje się faktem. Wojsko i Straż Graniczna sięgają po AI na wschodniej flance",
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-10-04T21:26:00.000Z",
-        "cat": "health",
-        "sev": 1,
-        "source": "TVP Katowice",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLUFIVEhuU2dOdFZUaG83VjRXOGl2OXpQa0J2YTY1UkVLeUtZSUxXdFJwNnVUV041SjZ6aG9oNFhVajNpbnNiQUc1ZHBWU29neWoyclVjRWdFUkgyYzBXc29rclo4OXFLQ21lWExqY2ZRclRPMDhGTWRSbVR4MjFNeW5PUl9tek94OUZKc0VkaDloTmw5YlhyRThtYXRtZw?oc=5",
-        "title": "To już epidemia! W Światowym Dniu Onkologii lekarze biją na alarm",
-        "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
-      },
-      {
-        "at": "2026-10-04T10:01:35.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "satkurier.pl",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaGozZ25UalAzUkNfeEJXSDRnUmlpVmYyZkVwUTRKX1FlRjJ4eW9xYlh1ZEROVTI4NFdfUHB4dHVSRVl3RFBDdmNLdUZFbzdBR29tUEphRllja0R0dnh0R1NTUnF5WDJPQVNHZE42RzhDZnl2aFBqbUJIWGpnQ2VUdU9fSGd4dWJmS3pubkpDcGk0MWt0ZTZkQzV6SGstLTRpTm40RnJtMA?oc=5",
-        "title": "Polskie satelity MikroGlob już na orbicie. Wojsko zyskało nowe oczy",
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
       }
     ]
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-09T03:46:57.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The Sunday Guardian",
+        "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxOLTZxZVplcUdTSWNBNjllc2ROY1g2YlRrLXpCRFhnblRsNEIwenJzbkp0YmFST0FFTnh0YmJsb25JU29paTRUZ3ZVVzRxLVg1Nmh0NkhhUzFVc2YzTTlwNDVVS2pwdTNYdFFsWHZoQ0tXVFBWMTltZkttaUJtQm5pV1lZNHdZWTlaUmgzakFEdjZ6V3dhTW5DcTFfVmJBVlRhNGc0Q1djejFYdENoUE9nY050WTVwYUlVTGpjeVc0ck4yZm96NEEwVDhqRXppYWI5aEZodjJ5MjV2ZGZBMFExR0lrRUZsRzV1NVlJS2ZvVDgzc0Y2Q0c3RXhnOHc3N3RaRkR0M255bEdVUlRkSTlpZm85czRHamhERFRNTGllWnVCaWkzLXFYeW5BaVhPS0lkUjJIVkJhTHdDVHVtM0ZwTmlKM2pSLWY4bzBvSndjM2RvUdIB1wJBVV95cUxQVFhTbzZRS0NYaVhfZE4tOXpOZDJsZEJlcDNBR3NpMXNCRFo5WnVKcmN5Zzdfb0o1NHE5X2gxbmU5Q3VsTDdmNWFrcWVzLVc0a3lVc2R1Y0FzdTBhc1F5NnVCY0pnNkE0ZzJpUDdpODJrcEIyRFBaTk5fclBrZmM1eG9kd01wUGQ5azFfcXdDN1J3RW83NVpmdUZ6TkVNSTZUeEFva3drRk5BZHd2Yi13RTl4bk1ld3dHSGFWdlpmOW5rZ0o1M3A5bG1WUFM0amJkRVptaHNPWEhudmJkWXlTMU9VeWNMalFkLUw2SFhXWk0yNDJ2WUtHbGxUdXNlZ1B0d2VXZmZrR2pVYUs2Y2p5ZmpqUUlNS0xOVXh3V29NZndrWUREejNnRFpHYnJqaG8wTkt5aktXLXhRYVlrdjAzY0Z4Xy1CcHZja1FDNnBYSjZXMGF1MzNN?oc=5",
+        "title": "US-Israel-Iran War Latest Live News: Did Houthis Strike Riyadh Airport? Is King Khalid International Airport (RUH) Open or Closed Today? Saudi Plane Fire, Air India & Lufthansa Flight Suspensions",
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
+      {
+        "at": "2026-10-09T01:00:00.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Media",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPR3FXLWhjbXVYYk1ReXB2M1JSdVpYeWNwem5DMFlhMXZUeEpLRkNnODgxUTFUVVBwdFVkdXI3STNocGxzdjVHcjBFdlJ4WjJqOVhMZFR2SmVTODZ2ajNZTWp6NWg5Q0k1MlpnUXBldFl2djhLWk1CMngwN2E0SW5QQjROV3cteUtiTUdSM1dKQXl4TGVvNTRybE5fVHB3RmRZRm0yaGZzUjVtc3FZUDN3cFEtTm1Jb1ZUUFZ6Y1k2UG1heUdyZ0E?oc=5",
+        "title": "Hurricane Isaias could cause power outages. Check Mississippi tracker - The Clarion-Ledger",
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
+      {
+        "at": "2026-10-08T23:26:15.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "BankInfoSecurity",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRmpVYlc4emoyQjVnMUV4eXVrWVFuTG45TDhsVmJWalZnSGhoR29BS0RkY3NqY3IzNE8xRFBvckZnaGpBYlRjdVltUWluRjFMQUd5UUVjdVh5c0pqNWEyRmFibjFHbGFwZmw5aVBrUUIxOUkyTE9CQ1l1R1p6bGg3TFpXRl9CQy1MbGlqcU1yZ2o2S1RwWUNDeW1Tak5NQQ?oc=5",
+        "title": "Ransomware Response Firm CEO Accused of Data Recovery Fraud",
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
+      {
+        "at": "2026-10-08T20:41:59.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Euromaidan Press",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBHc1A4cFkxQjVNdzY2ZExBMFVHYmp3ZFlncGpTNkVyakNUSlE1TlpuVlJZLWpmZVp0WHZ6UlF1TDBJSTN1WGt0SVBFeERNWDAwZHRhdWNLc1ZMajluU3czWThxZkpTeVJ0ZTVobnkzdmp6QXlTeGNJ?oc=5",
+        "title": "Russo-Ukrainian war, day 1688: Russian strike on two passenger buses kills 30 in Kramatorsk",
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
+      {
+        "at": "2026-10-08T20:41:23.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5NRE9XT1JnZUZoWXpuNXBzS3Z3MnNOQUlJWV84dXhkczZuRDdSOUFvNWRqSjlpTlUzNXlaUHJxblNtb0stWHRST2czR190bWtkaXFNV09IbE9OYTUxYzlhNUNneHJiUjBzbFRCeTcxTE13X1RaSTd4YnZLcFUwUVU?oc=5",
+        "title": "Trump Says U.S. Will Not Strike Iran Again Before Midterms as Military Draws Up New Plans",
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
       {
         "at": "2026-10-08T04:36:00.000Z",
         "cat": "cyber",
@@ -322,51 +367,6 @@
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONmpSQUpsbFBZdHJBVzE5RksxTlV3a01Mb0c1bHktX0RSeXhLR3c1bC1JZ3FBUUtWcEYzbkNWZEV1SXQ1QUl2LW1oR0VMa2lvQ0dycm1QMHRWQmpRUjNDOTlqZ2xoU2xkOWZab25sb1R6UW56QWJqb0h0NjRaX3RiOFpCQTc5UzQtRjlMWFBFWG9QazFHQnpHTg?oc=5",
         "title": "Here’s a List of Gulf Energy Infrastructure Damaged in Iran War",
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-05T17:00:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "SMH.com.au",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQNFlaRW9HZXc5RUQ1T3NDUi1qUm9RUnRwQVRMSWlHRkVHVVVINTBCMVdsam1Mbnd3UlFwU2JlVWpFelR3MGtiQWxfVmFPS3hkQW5XV2VlRGNXeTl1cnNKU01veVlBRlBJWUNrWkVfNTR6QW1JOTVUR1BYdURmN2k5MklKcThwRUtTTjdRdTFQd1Z6aURxMTlya1RtWHNCN0c5Q0tMMFZvY2tuSm52ZTNHVm9COFFEVUdtdXVJaS1GUGkxLTlIZDJGYlN3X002UnM5bXpR?oc=5",
-        "title": "‘Shameful, repugnant’: Greens under fire over opposition to Ukraine military aid",
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-05T16:00:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The Washington Post",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSTVEQk9ya2FaTlljN3NfeG9YWkRRTGJoWHA0Y29EQXJUOUJkRzV0eVVPTVFqVFowYVd0WnMyaFdmQkdFMnRZTl9RMWdpLVNoYXVCRHhCcEY0TVJXN0x0bzIwSUhFclNPWV9HVzNTX2ZFald3SVB4aGdnbko5Y3pFUzRvQkV5R0xJVHJTOXhrb2hZNVJwVmNJelZCdnI5dTUycWxhdmpPcThOTTZFY01GWg?oc=5",
-        "title": "Pentagon officials’ heated debates foreshadowed problems in Iran",
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-05T15:36:21.000Z",
-        "cat": "health",
-        "sev": 2,
-        "source": "ECDC",
-        "url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
-        "title": "Ebola disease outbreak in the Democratic Republic of the Congo",
-        "forYou": "Usually no action. Check your first-aid kit and expiry dates."
-      },
-      {
-        "at": "2026-10-05T14:05:05.000Z",
-        "cat": "health",
-        "sev": 1,
-        "source": "ECDC",
-        "url": "https://www.ecdc.europa.eu/en/chikungunya-monthly",
-        "title": "Chikungunya virus disease worldwide overview",
-        "forYou": "Usually no action. Check your first-aid kit and expiry dates."
-      },
-      {
-        "at": "2026-10-05T03:22:30.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "Greek City Times",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWjVDWnBjdzJKRlFsRldMNVRiSktjYWlTT1pUVHpRUDNvdzVvT1QtQ1Nwd204UUtxZGs4Rjd2U2pHYzZ3dE5WbUUyWFM3ckpHbzlWOTYxejA1QTdlTjRMUFJNN3VkalpFYlZxdno5WEttY2NqQjRkbm9WVjR2X3M4MTVHUzhxMkREa1FaXzZpQkYxRzlBcjZtRw?oc=5",
-        "title": "Teenager Suspected of Running KillSec Ransomware Group as Police Seize Servers in International Crackdown",
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
       }
     ]
   }
