@@ -42,6 +42,13 @@ jobs:
           git diff --cached --quiet || git commit -m "Dane: aktualizacja $(date -u +%F)"
           git push
 
+      - name: Mapa schronów — dane startowe (KG PSP, dane.gov.pl, CC BY 4.0)
+        continue-on-error: true
+        run: |
+          # Najpierw świeży plik PSP (często blokuje IP spoza PL), potem kopia na dane.gov.pl.
+          curl -fsSL --max-time 60 -o /tmp/ps.csv https://gdziesieukryc.pl/PS_XML/punkty_schronienia.csv && node scripts/shelters.mjs /tmp/ps.csv "$(date -u +%F)" \
+          || { curl -fsSL --max-time 300 -o /tmp/ps.csv https://api.dane.gov.pl/media/resources/20260310/punkty_schronienia_875cc428.csv && node scripts/shelters.mjs /tmp/ps.csv 2026-03-10; }
+
       - run: npm run build
 
       - name: Adres do formularza kontaktowego (z sekretu, nie z kodu)
@@ -75,6 +82,10 @@ jobs:
           local-dir: ./dist/
           server-dir: ./
           dangerous-clean-slate: false
+
+      - name: Mapa schronów — cotygodniowe dane PSP (pobiera serwer w Polsce/UE; sam pilnuje, by robić to raz na 6 dni)
+        continue-on-error: true
+        run: curl -sS --max-time 150 https://prepready.pro/schrony/aktualizuj.php || true
 
       - name: Podłącz webhooki botów PL i EN
         env:

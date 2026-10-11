@@ -1,0 +1,5 @@
+node_modules/
+dist/
+.astro/
+# Mapa schronów: dane generuje workflow
+public/schrony/dane/

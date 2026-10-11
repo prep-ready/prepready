@@ -19,6 +19,7 @@ const numbers = lang === 'pl'
       <h2 class="h">{t(lang, 'f.c1')}</h2>
       <ul>
         <li><a href={routes.index[lang]}>{t(lang, 'nav.index')}</a></li>
+        {routes.shelters[lang] && <li><a href={routes.shelters[lang]}>{t(lang, 'nav.shelters')}</a></li>}
         <li><a href={routes.news[lang]}>{t(lang, 'nav.news')}</a></li>
         <li><a href={routes.guides[lang]}>{t(lang, 'nav.guides')}</a></li>
         <li><a href={routes.gear[lang]}>{t(lang, 'nav.gear')}</a></li>

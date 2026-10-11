@@ -9,9 +9,9 @@ const tgIcon = '<svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="tru
 interface Props { lang: Lang; altHref?: string; current?: string }
 const { lang, altHref, current } = Astro.props;
 const other: Lang = lang === 'pl' ? 'en' : 'pl';
-const nav = [
-  ['index', 'nav.index'], ['news', 'nav.news'], ['guides', 'nav.guides'], ['checklist', 'nav.checklist'], ['gear', 'nav.gear'],
-] as const;
+const nav = ([
+  ['index', 'nav.index'], ['shelters', 'nav.shelters'], ['news', 'nav.news'], ['guides', 'nav.guides'], ['checklist', 'nav.checklist'], ['gear', 'nav.gear'],
+] as const).filter(([k]) => routes[k][lang]);
 const R = readiness[lang];
 const updated = new Date(R.updatedAt);
 const updatedLabel = `${fmtDate(updated, lang, { day: 'numeric', month: 'short', year: 'numeric' })}, ${updated.toLocaleTimeString(lang === 'pl' ? 'pl-PL' : 'en-GB', { hour: '2-digit', minute: '2-digit', timeZone: 'Europe/Warsaw', timeZoneName: 'short' })}`;
