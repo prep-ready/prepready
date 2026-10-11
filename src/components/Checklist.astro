@@ -4,7 +4,7 @@ import { checklist, picks } from '../data/site';
 import { routes, t, type Lang } from '../i18n/ui';
 interface Props { lang: Lang }
 const { lang } = Astro.props;
-const pickHref = (id: string) => picks.find((p) => p.id === id)?.url || routes.gear[lang];
+const pickHref = (id: string) => picks.find((p) => p.id === id)?.url[lang] || routes.gear[lang];
 ---
 <div class="cl-layout" data-checklist="bag72">
   <div class="panel check">
@@ -29,7 +29,7 @@ const pickHref = (id: string) => picks.find((p) => p.id === id)?.url || routes.g
       <div class="row">
         <div class="img"><Icon name={p.icon} size="40" /></div>
         <div><div class="pt">{p.title[lang]}</div><div class="why">{p.why[lang]}</div></div>
-        <div class="price">{p.price[lang]}<br /><a class="link-more" href={p.url || routes.gear[lang]} rel="sponsored noopener">{t(lang, 'cl.view')}</a></div>
+        <div class="price">{p.price[lang]}<br /><a class="link-more" href={p.url[lang] || routes.gear[lang]} rel="sponsored noopener">{t(lang, 'cl.view')}</a></div>
       </div>
     ))}
     <p class="disclose">{t(lang, 'aff.disclose')} <a href={routes.earn[lang]}>{t(lang, 'aff.how')}</a></p>
