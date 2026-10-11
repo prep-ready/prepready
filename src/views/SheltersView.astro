@@ -1,0 +1,324 @@
+---
+/**
+ * Mapa schronów (tylko PL). Dane: „Punkty schronienia w Polsce”, KG PSP, dane.gov.pl, CC BY 4.0.
+ * Pliki z punktami: /schrony/live/ (aktualizuje serwer co tydzień) albo /schrony/dane/ (dane startowe z workflow).
+ * Wyszukiwanie adresu: Nominatim (OpenStreetMap). Mapa: Leaflet + kafelki OSM.
+ */
+import Base from '../layouts/Base.astro';
+import { routes, guideBase } from '../i18n/ui';
+import { community } from '../data/community';
+import { readFileSync } from 'node:fs';
+
+// Dane startowe generuje workflow (scripts/shelters.mjs) przed budowaniem. Bez nich strona i tak działa —
+// czyta dane w przeglądarce z /schrony/live/ albo /schrony/dane/.
+let idx: { total: number; sourceDate: string | null } = { total: 0, sourceDate: null };
+try { idx = JSON.parse(readFileSync('public/schrony/dane/index.json', 'utf8')); } catch {}
+
+const title = 'Mapa schronów — najbliższe punkty schronienia';
+const desc = 'Wpisz adres i zobacz najbliższe punkty schronienia z bazy Państwowej Straży Pożarnej: odległość, czas dojścia, dostępność całodobowa i trasa pieszo.';
+const total = idx.total ? idx.total.toLocaleString('pl-PL') : 'ponad 80 tys.';
+const faq = [
+  ['Co to jest punkt schronienia?', 'To sprawdzony przez Państwową Straż Pożarną obiekt, w którym można się ukryć przy zagrożeniu: piwnica, garaż podziemny, przejście podziemne, stacja metra albo masywny budynek. Nie każdy punkt to schron w ścisłym znaczeniu — chroni przede wszystkim przed odłamkami, gruzem i silnym wiatrem.'],
+  ['Co znaczy dostępność „na żądanie”?', 'Obiekt nie jest stale otwarty. Udostępnia go zarządca albo samorząd, gdy ogłoszony zostanie alarm lub polecenie służb. Punkty „całodobowe” są dostępne o każdej porze, a „w określonych godzinach” — tylko w godzinach otwarcia obiektu.'],
+  ['Skąd są dane i jak często się zmieniają?', 'Z bazy „Punkty schronienia w Polsce”, którą Komenda Główna PSP publikuje na dane.gov.pl na licencji CC BY 4.0. Aktualizujemy je automatycznie raz w tygodniu. Przed alarmem sprawdź swój punkt na miejscu — zarządca mógł go zmienić.'],
+  ['Czym ta mapa różni się od gdziesieukryc.pl?', 'Korzysta z tych samych danych PSP. Oficjalna aplikacja gdziesieukryc.pl działa też offline i warto ją zainstalować na telefonie. Nasza mapa to szybkie sprawdzenie okolicy razem z poradnikami PrepReady.'],
+];
+const jsonLd = [
+  { '@context': 'https://schema.org', '@type': 'WebApplication', name: 'Mapa schronów PrepReady', url: new URL(routes.shelters.pl, Astro.site).href, applicationCategory: 'UtilitiesApplication', operatingSystem: 'Web', inLanguage: 'pl', isAccessibleForFree: true, description: desc },
+  { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faq.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) },
+];
+---
+<Base lang="pl" title={title} description={desc} alternates={{ pl: routes.shelters.pl }} current="shelters" jsonLd={jsonLd}>
+  <div class="wrap page-head">
+    <div class="eyebrow">Mapa schronów · Polska</div>
+    <h1>Gdzie się schować w Twojej okolicy</h1>
+    <p>Wpisz adres albo użyj swojej lokalizacji. Pokażemy najbliższe punkty schronienia z bazy Państwowej Straży Pożarnej — <span id="sh-total">{total}</span> zweryfikowanych miejsc w całym kraju.</p>
+  </div>
+
+  <div class="wrap">
+    <form class="search panel" id="sh-form" role="search">
+      <label class="sr-only" for="sh-q">Adres, ulica lub miejscowość</label>
+      <input id="sh-q" name="q" type="search" autocomplete="street-address" placeholder="np. ul. Długa 5, Kraków" required />
+      <button class="btn primary" type="submit">Szukaj</button>
+      <button class="btn ghost" type="button" id="sh-geo">
+        <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="3" fill="currentColor"/><path d="M8 0v3M8 13v3M0 8h3M13 8h3" stroke="currentColor" stroke-width="1.6"/><circle cx="8" cy="8" r="5.5" fill="none" stroke="currentColor" stroke-width="1.4"/></svg>
+        Moja lokalizacja
+      </button>
+    </form>
+    <p class="status" id="sh-status" role="status" aria-live="polite"></p>
+    <div class="alts" id="sh-alts" hidden></div>
+
+    <div class="layout">
+      <div class="mapbox panel">
+        <div id="sh-map" aria-label="Mapa punktów schronienia"></div>
+        <div class="legend">
+          <span><i class="d a0"></i>Całodobowo</span>
+          <span><i class="d a1"></i>W określonych godzinach</span>
+          <span><i class="d a2"></i>Na żądanie</span>
+        </div>
+      </div>
+      <aside class="list panel" aria-labelledby="sh-list-h">
+        <div class="list-head">
+          <h2 id="sh-list-h">Najbliższe punkty</h2>
+          <div class="filter" role="group" aria-label="Filtr dostępności">
+            <button type="button" class="chip" aria-pressed="false" id="sh-24h">Tylko całodobowe</button>
+          </div>
+        </div>
+        <ol id="sh-list" class="results"></ol>
+        <div class="empty" id="sh-empty">
+          <p><strong>Zacznij od adresu.</strong> Mapa przybliży okolicę i ułoży punkty od najbliższego.</p>
+          <p>Sprawdź też miejsca, w których bywasz najczęściej: pracę, szkołę dzieci, drogę dojazdu.</p>
+        </div>
+      </aside>
+    </div>
+  </div>
+
+  <section class="block">
+    <div class="wrap">
+      <div class="eyebrow">Po usłyszeniu syreny</div>
+      <h2>Co zrobić w pierwszych minutach</h2>
+      <ol class="steps3">
+        <li><span class="mono">01</span><div><strong>Rozpoznaj sygnał</strong><p>Modulowany dźwięk przez 3 minuty to ogłoszenie alarmu. Sprawdź komunikat w radiu, telewizji albo alercie RCB.</p><a class="link-more" href={`${guideBase.pl}syreny-alarmowe/`}>Posłuchaj syren →</a></div></li>
+        <li><span class="mono">02</span><div><strong>Idź do najbliższego punktu</strong><p>Weź plecak 72h, dokumenty i leki. Jeśli punkt jest daleko, ukryj się w piwnicy lub w pomieszczeniu bez okien w środku budynku.</p><a class="link-more" href={`${guideBase.pl}schron-w-bloku/`}>Schron w bloku →</a></div></li>
+        <li><span class="mono">03</span><div><strong>Zostań do odwołania</strong><p>Ciągły dźwięk przez 3 minuty oznacza odwołanie alarmu. Do tego czasu słuchaj komunikatów i poleceń służb.</p><a class="link-more" href={routes.checklist.pl}>Spakuj plecak 72h →</a></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="wrap two">
+      <div>
+        <div class="eyebrow">Pytania</div>
+        <h2>Jak czytać mapę</h2>
+        <div class="faq">
+          {faq.map(([q, a]) => <details><summary>{q}</summary><p>{a}</p></details>)}
+        </div>
+      </div>
+      <div class="side">
+        <div class="panel note-box">
+          <div class="eyebrow">Ważne</div>
+          <p><strong>Mapa jest pomocą, nie poleceniem służb.</strong> W sytuacji zagrożenia słuchaj komunikatów RCB, wojewody i straży pożarnej. Numer alarmowy: <span class="mono">112</span>.</p>
+          <p>Oficjalna aplikacja PSP działa także offline: <a href="https://gdziesieukryc.pl" target="_blank" rel="noopener">gdziesieukryc.pl</a>.</p>
+        </div>
+        <div class="panel note-box">
+          <div class="eyebrow">Źródło danych</div>
+          <p>„Punkty schronienia w Polsce”, <a href="https://dane.gov.pl/pl/dataset/28058,punkty-schronienia-w-polsce" target="_blank" rel="noopener">Komenda Główna Państwowej Straży Pożarnej, dane.gov.pl</a>, licencja <a href="https://creativecommons.org/licenses/by/4.0/legalcode.pl" target="_blank" rel="noopener">CC BY 4.0</a>. Przetworzone przez PrepReady: podział na obszary i obliczanie odległości.</p>
+          <p class="mono small" id="sh-src">Stan danych: {idx.sourceDate ?? '—'}</p>
+          <p class="small">Wyszukiwanie adresów: © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> (Nominatim).</p>
+        </div>
+        {community.tg.pl && <a class="btn ghost" href={community.tg.pl} target="_blank" rel="noopener">Błąd w danych? Napisz na Telegramie →</a>}
+      </div>
+    </div>
+  </section>
+</Base>
+
+<script>
+  import L from 'leaflet';
+  import 'leaflet/dist/leaflet.css';
+
+  type P = [number, number, number, string, string]; // latE5, lngE5, dostępność, adres, gmina
+  type Index = { total: number; sourceDate: string | null; grid: { lat0: number; lng0: number; dLat: number; dLng: number }; cells: Record<string, number> };
+  type Hit = { lat: number; lng: number; a: number; addr: string; gmina: string; d: number };
+
+  const AVAIL = ['Całodobowo', 'W określonych godzinach', 'Na żądanie'];
+  const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as T;
+  const statusEl = $('sh-status'), listEl = $('sh-list'), emptyEl = $('sh-empty'), altsEl = $('sh-alts');
+  const only24 = $('sh-24h');
+  const say = (msg: string, err = false) => { statusEl.textContent = msg; statusEl.classList.toggle('err', err); };
+
+  // ── Dane: najpierw świeże z serwera (/schrony/live/), potem startowe z workflow (/schrony/dane/)
+  let base = '/schrony/live/';
+  let index: Index;
+  async function loadIndex() {
+    for (const b of ['/schrony/live/', '/schrony/dane/']) {
+      try { const r = await fetch(b + 'index.json', { cache: 'no-cache' }); if (r.ok) { base = b; return (index = await r.json()); } } catch {}
+    }
+    throw new Error('Nie udało się wczytać danych.');
+  }
+  const cellCache = new Map<string, Promise<P[]>>();
+  const cellOf = (lat: number, lng: number) => [Math.floor((lat - index.grid.lat0) / index.grid.dLat), Math.floor((lng - index.grid.lng0) / index.grid.dLng)];
+  function cell(key: string): Promise<P[]> {
+    if (!index.cells[key]) return Promise.resolve([]);
+    if (!cellCache.has(key)) cellCache.set(key, fetch(`${base}c/${key}.json`).then((r) => r.json()).then((j) => j.p).catch(() => { cellCache.delete(key); return []; }));
+    return cellCache.get(key)!;
+  }
+  async function around(lat: number, lng: number, ring: number) {
+    const [r0, c0] = cellOf(lat, lng); const keys: string[] = [];
+    for (let r = r0 - ring; r <= r0 + ring; r++) for (let c = c0 - ring; c <= c0 + ring; c++) keys.push(`${r}_${c}`);
+    return (await Promise.all(keys.map(cell))).flat();
+  }
+  const R = 6371e3, rad = Math.PI / 180;
+  const dist = (a: number, b: number, c: number, d: number) => {
+    const x = Math.sin(((c - a) * rad) / 2) ** 2 + Math.cos(a * rad) * Math.cos(c * rad) * Math.sin(((d - b) * rad) / 2) ** 2;
+    return 2 * R * Math.asin(Math.sqrt(x));
+  };
+
+  // ── Mapa
+  const map = L.map('sh-map', { zoomControl: true, attributionControl: true }).setView([52.07, 19.48], 6);
+  map.attributionControl.setPrefix('<a href="https://leafletjs.com" target="_blank" rel="noopener">Leaflet</a>');
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19, attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> · punkty: <a href="https://dane.gov.pl/pl/dataset/28058">KG PSP</a>' }).addTo(map);
+  const canvas = L.canvas({ padding: 0.3 });
+  const dots = L.layerGroup().addTo(map);
+  const top = L.layerGroup().addTo(map);
+  let here: L.Marker | null = null;
+  let origin: { lat: number; lng: number } | null = null;
+  let hits: Hit[] = [];
+
+  const css = (v: string) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+  const colors = () => [css('--l1'), css('--l3'), css('--muted')];
+  const fmtD = (m: number) => (m < 10 ? 'do 10 m' : m < 1000 ? `${Math.round(m / 10) * 10} m` : `${(m / 1000).toFixed(1).replace('.', ',')} km`);
+  const walk = (m: number) => { const min = Math.max(1, Math.round((m * 1.3) / 80)); return min > 90 ? 'ponad 1,5 h pieszo' : `ok. ${min} min pieszo`; };
+  const route = (h: Hit) => `https://www.google.com/maps/dir/?api=1&destination=${h.lat},${h.lng}&travelmode=walking`;
+  const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]!);
+  const place = (h: Hit) => (h.gmina && h.gmina !== 'Nieznana' ? `${esc(h.gmina)} · ` : '');
+  const popup = (h: Hit) => `<strong>${esc(h.addr)}</strong><br>${place(h)}${AVAIL[h.a]}${origin ? `<br>${fmtD(h.d)} · ${walk(h.d)}` : ''}<br><a href="${route(h)}" target="_blank" rel="noopener">Prowadź pieszo →</a>`;
+
+  // Kropki wszystkich punktów w widoku (od przybliżenia 13)
+  let drawn = new Set<string>();
+  async function drawVisible() {
+    if (!index || map.getZoom() < 13) { dots.clearLayers(); drawn = new Set(); return; }
+    const b = map.getBounds(); const [r1, c1] = cellOf(b.getSouth(), b.getWest()); const [r2, c2] = cellOf(b.getNorth(), b.getEast());
+    if ((r2 - r1 + 1) * (c2 - c1 + 1) > 16) return;
+    const col = colors();
+    for (let r = r1; r <= r2; r++) for (let c = c1; c <= c2; c++) {
+      const key = `${r}_${c}`; if (drawn.has(key)) continue; drawn.add(key);
+      for (const p of await cell(key)) {
+        const h: Hit = { lat: p[0] / 1e5, lng: p[1] / 1e5, a: p[2], addr: p[3], gmina: p[4], d: origin ? dist(origin.lat, origin.lng, p[0] / 1e5, p[1] / 1e5) : 0 };
+        L.circleMarker([h.lat, h.lng], { renderer: canvas, radius: 4, weight: 1, color: '#fff', fillColor: col[h.a], fillOpacity: 0.9 }).bindPopup(() => popup(h)).addTo(dots);
+      }
+    }
+  }
+  map.on('moveend', drawVisible);
+
+  function render() {
+    const list = (only24.getAttribute('aria-pressed') === 'true' ? hits.filter((h) => h.a === 0) : hits).slice(0, 10);
+    top.clearLayers(); listEl.innerHTML = '';
+    emptyEl.hidden = !!origin;
+    if (!origin) return;
+    if (!list.length) { listEl.innerHTML = '<li class="none">Brak punktów w promieniu kilkudziesięciu kilometrów dla wybranego filtra.</li>'; return; }
+    const col = colors();
+    list.forEach((h, i) => {
+      const icon = L.divIcon({ className: 'sh-pin', html: `<span style="--c:${col[h.a]}">${i + 1}</span>`, iconSize: [26, 26], iconAnchor: [13, 13] });
+      const m = L.marker([h.lat, h.lng], { icon, zIndexOffset: 1000 - i, title: h.addr }).bindPopup(popup(h)).addTo(top);
+      const li = document.createElement('li');
+      li.innerHTML = `<button type="button" class="hit"><span class="n mono" style="--c:${col[h.a]}">${i + 1}</span><span class="t"><strong>${esc(h.addr)}</strong><small>${place(h)}<span class="av a${h.a}">${AVAIL[h.a]}</span></small></span><span class="d mono">${fmtD(h.d)}<small>${walk(h.d)}</small></span></button><a class="go" href="${route(h)}" target="_blank" rel="noopener" aria-label="Prowadź pieszo do: ${esc(h.addr)}">Prowadź →</a>`;
+      li.querySelector('button')!.addEventListener('click', () => { map.setView([h.lat, h.lng], Math.max(map.getZoom(), 16)); m.openPopup(); });
+      listEl.append(li);
+    });
+    const b = L.latLngBounds(list.slice(0, 5).map((h) => [h.lat, h.lng] as [number, number])).extend([origin.lat, origin.lng]);
+    map.fitBounds(b, { padding: [40, 40], maxZoom: 16 });
+  }
+
+  async function goTo(lat: number, lng: number, label: string) {
+    origin = { lat, lng };
+    if (here) here.remove();
+    here = L.marker([lat, lng], { icon: L.divIcon({ className: 'sh-here', html: '<span></span>', iconSize: [18, 18], iconAnchor: [9, 9] }), zIndexOffset: 2000, title: 'Twoje miejsce' }).addTo(map);
+    say('Szukam najbliższych punktów…');
+    let pts: P[] = [];
+    for (const ring of [1, 2, 4]) { pts = await around(lat, lng, ring); if (pts.length >= 10 && pts.some((p) => p[2] === 0)) break; }
+    hits = pts.map((p) => ({ lat: p[0] / 1e5, lng: p[1] / 1e5, a: p[2], addr: p[3], gmina: p[4], d: dist(lat, lng, p[0] / 1e5, p[1] / 1e5) })).sort((x, y) => x.d - y.d);
+    say(hits.length ? `${label} — najbliższy punkt: ${fmtD(hits[0].d)}.` : `${label} — w pobliżu nie ma punktów w bazie PSP.`);
+    dots.clearLayers(); drawn = new Set();
+    render();
+    const u = new URL(location.href); u.searchParams.set('lat', lat.toFixed(5)); u.searchParams.set('lng', lng.toFixed(5)); history.replaceState(null, '', u);
+  }
+
+  // ── Wyszukiwanie adresu (Nominatim — tylko po wysłaniu formularza, bez podpowiedzi przy pisaniu)
+  type Place = { lat: string; lon: string; display_name: string };
+  const short = (s: string) => s.split(', ').filter((x) => !/^(województwo|Polska|\d{2}-\d{3})/.test(x)).slice(0, 4).join(', ');
+  $('sh-form').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const q = ($('sh-q') as HTMLInputElement).value.trim(); if (!q) return;
+    say('Szukam adresu…'); altsEl.hidden = true;
+    try {
+      const r = await fetch(`https://nominatim.openstreetmap.org/search?format=jsonv2&countrycodes=pl&limit=5&accept-language=pl&q=${encodeURIComponent(q)}`);
+      const res: Place[] = await r.json();
+      if (!res.length) return say('Nie znaleziono tego adresu. Spróbuj dopisać miejscowość, np. „ul. Długa 5, Kraków”.', true);
+      await goTo(+res[0].lat, +res[0].lon, short(res[0].display_name));
+      if (res.length > 1) {
+        altsEl.innerHTML = '<span>Chodziło o inne miejsce?</span>';
+        res.slice(1).forEach((p) => { const b = document.createElement('button'); b.type = 'button'; b.className = 'chip'; b.textContent = short(p.display_name); b.onclick = () => { altsEl.hidden = true; goTo(+p.lat, +p.lon, short(p.display_name)); }; altsEl.append(b); });
+        altsEl.hidden = false;
+      }
+    } catch { say('Wyszukiwarka adresów nie odpowiada. Spróbuj za chwilę albo użyj swojej lokalizacji.', true); }
+  });
+  $('sh-geo').addEventListener('click', () => {
+    if (!navigator.geolocation) return say('Ta przeglądarka nie udostępnia lokalizacji. Wpisz adres.', true);
+    say('Pobieram lokalizację…');
+    navigator.geolocation.getCurrentPosition(
+      (p) => goTo(p.coords.latitude, p.coords.longitude, 'Twoja lokalizacja'),
+      () => say('Nie mamy dostępu do lokalizacji. Wpisz adres albo zezwól na lokalizację w przeglądarce.', true),
+      { enableHighAccuracy: true, timeout: 10000 },
+    );
+  });
+  only24.addEventListener('click', () => { only24.setAttribute('aria-pressed', String(only24.getAttribute('aria-pressed') !== 'true')); render(); });
+
+  loadIndex().then(() => {
+    $('sh-total').textContent = index.total.toLocaleString('pl-PL');
+    if (index.sourceDate) $('sh-src').textContent = `Stan danych: ${index.sourceDate}`;
+    const u = new URL(location.href); const lat = +u.searchParams.get('lat')!, lng = +u.searchParams.get('lng')!;
+    if (lat && lng) goTo(lat, lng, 'Zapisane miejsce');
+  }).catch((e) => say(e.message, true));
+</script>
+
+<style>
+  .search{display:flex;gap:8px;padding:8px;flex-wrap:wrap}
+  .search input{flex:1 1 260px;min-width:0;border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:6px;padding:10px 12px;font:inherit;font-size:16px}
+  .search input:focus-visible{outline:2px solid var(--action);outline-offset:0}
+  .status{min-height:22px;margin:10px 2px 6px;font-family:var(--body);font-weight:var(--body-w);color:var(--ink-2)}
+  .status.err{color:var(--l5)}
+  .alts{display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin:0 0 10px;font-size:13px;color:var(--muted)}
+  .alts :global(.chip){cursor:pointer}
+  .layout{display:grid;grid-template-columns:minmax(0,1fr) 380px;gap:16px;align-items:start}
+  .mapbox{overflow:hidden}
+  #sh-map{height:min(70vh,600px);min-height:380px;background:var(--surface-2)}
+  .legend{display:flex;gap:16px;flex-wrap:wrap;padding:10px 14px;font-size:12.5px;color:var(--ink-2);border-top:1px solid var(--line)}
+  .legend span{display:inline-flex;align-items:center;gap:6px}
+  .d{width:10px;height:10px;border-radius:50%;display:inline-block;border:1px solid var(--surface)}
+  .d.a0{background:var(--l1)} .d.a1{background:var(--l3)} .d.a2{background:var(--muted)}
+  .list{padding:0;max-height:min(70vh + 44px,644px);display:flex;flex-direction:column}
+  .list-head{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:14px 16px;border-bottom:1px solid var(--line)}
+  .list-head h2{font-size:17px;font-weight:700}
+  .list-head .chip{cursor:pointer;font-size:12px}
+  .results{list-style:none;margin:0;padding:0;overflow-y:auto}
+  .results :global(li){display:grid;grid-template-columns:1fr auto;align-items:center;border-bottom:1px solid var(--line)}
+  .results :global(li:last-child){border-bottom:0}
+  .results :global(.none){display:block;padding:16px;font-family:var(--body);color:var(--muted)}
+  .results :global(.hit){display:grid;grid-template-columns:26px 1fr auto;gap:10px;align-items:center;text-align:left;background:none;border:0;color:inherit;padding:12px 4px 12px 14px;min-width:0}
+  .results :global(.hit:hover strong){text-decoration:underline}
+  .results :global(.hit .n){width:24px;height:24px;border-radius:50%;background:var(--c);color:var(--on-level);display:grid;place-items:center;font-size:11.5px;font-weight:600}
+  .results :global(.hit .t){min-width:0;display:grid;gap:2px}
+  .results :global(.hit strong){font-size:14px;font-weight:650;overflow:hidden;text-overflow:ellipsis}
+  .results :global(.hit small){font-family:var(--body);font-size:12.5px;color:var(--muted)}
+  .results :global(.hit .d){text-align:right;font-size:13px;display:grid;white-space:nowrap}
+  .results :global(.hit .d small){font-family:var(--body);font-size:11.5px}
+  .results :global(.av.a0){color:var(--l1);font-weight:600}
+  .results :global(.go){font-size:13px;font-weight:700;color:var(--action);text-decoration:none;padding:12px 14px;white-space:nowrap}
+  .results :global(.go:hover){text-decoration:underline}
+  .empty{padding:18px 16px;display:grid;gap:8px;font-family:var(--body);font-weight:var(--body-w);font-size:14.5px;color:var(--ink-2)}
+  .empty[hidden]{display:none}
+  .steps3{list-style:none;margin:16px 0 0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+  .steps3 li{display:grid;grid-template-columns:34px 1fr;gap:8px;padding:16px;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius)}
+  .steps3 .mono{color:var(--signal);font-weight:600;font-size:13px;padding-top:2px}
+  .steps3 p{font-family:var(--body);font-weight:var(--body-w);font-size:14.5px;color:var(--ink-2);margin:6px 0 10px}
+  .two{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:32px}
+  .two h2{margin:4px 0 16px}
+  .faq details{border-bottom:1px solid var(--line);padding:12px 0}
+  .faq summary{cursor:pointer;font-weight:700}
+  .faq p{font-family:var(--body);font-weight:var(--body-w);color:var(--ink-2);margin-top:8px;line-height:1.6}
+  .side{display:grid;gap:14px;align-content:start}
+  .note-box{padding:16px;display:grid;gap:8px;font-family:var(--body);font-weight:var(--body-w);font-size:14.5px;color:var(--ink-2)}
+  .note-box a{color:var(--action)}
+  .note-box .eyebrow{font-family:var(--mono)}
+  .small{font-size:12.5px;color:var(--muted)}
+  :global(.sh-pin span){display:grid;place-items:center;width:26px;height:26px;border-radius:50%;background:var(--c);color:var(--on-level);font:600 12px/1 var(--mono);border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.35)}
+  :global(.sh-here span){display:block;width:18px;height:18px;border-radius:50%;background:var(--action);border:3px solid #fff;box-shadow:0 0 0 6px color-mix(in srgb,var(--action) 25%,transparent)}
+  :global(.leaflet-container){font-family:var(--body);background:var(--surface-2)}
+  :global(.leaflet-popup-content a){color:var(--action);font-weight:700}
+  @media (max-width:980px){
+    .layout{grid-template-columns:1fr}
+    .list{max-height:none}
+    .steps3,.two{grid-template-columns:1fr}
+  }
+  @media (max-width:560px){ #sh-map{height:58vh;min-height:320px} .search .btn{flex:1 1 auto;justify-content:center} }
+</style>
