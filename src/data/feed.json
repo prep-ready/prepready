@@ -4,6 +4,42 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-10-11T20:52:20.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Polska Zbrojna",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMW1ENHdlYXpLaTMtRUVWYnJGTGNfTnJsVkdEVGNlWl9DcVJ0S2lmTHpMSUIyXy1KemJ3bGVsXzAtcEQwRmJFTmV1RDI3Z25Jc1BNY1FfZTdDLVoxZk5IdXFYTXBMZ2hodkR4UXBGRG1Nc1U4Z255LUszdzh2UGtLNlc4bjg3d2VKSlF2MTd5Z1hLSWc?oc=5",
+        "title": "Polska Zbrojna",
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+      },
+      {
+        "at": "2026-10-11T18:30:02.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Defence24",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOcGhtWTZQc29RRU5vYllkaExnREoxZFpZamhBaFRUa3k5UVhya3ktX01iUEt2TjVoRVdTbmNsZTVBNTdPNXlKUWt1RUhQdE5WQ0dCYmRoTk9sRUl2OXFFR1JiaEZxTjdyYzlWZWlFOEVxd2Mzd0RnRVBlakZhQllPQ2l0cHAyb0NDUWlWcGh2MkMyaEthT0x4VGdGQjFkYkpCNm5F?oc=5",
+        "title": "„Od lat ma obsesję na punkcie Polski”. Mówi o Putinie i eskalacji wojny",
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+      },
+      {
+        "at": "2026-10-11T18:00:02.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Defence24",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNc3VjbWJVVjctQjE4UnNaQm1Mek5WQXFpYnhWd3ZSVXJ0ZFNVT3NPWDZXSUt5UHVkYVNldmZMazktLXdlbnFsa2g0SjNxN0FHMlo4Z1NITnVIemRWOTg3dXFQZzRpZmktWUVxU0RLdnZ0YlNWdHdfdUtXR3NaT2tGcHNfdmlLNkUtUGNYUVlTMVRhWDRwNU5xRW00SzFHLVJ6aGZNaGFhWFFoaHM?oc=5",
+        "title": "Polska wyśle okręt do cieśniny Ormuz? Wojsko analizuje przełomowy ruch",
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+      },
+      {
+        "at": "2026-10-11T10:04:00.000Z",
+        "cat": "health",
+        "sev": 1,
+        "source": "Medonet",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNUjNNVnEwQ2pyRHh6TG1PVWRMcHlzbG5GVTVfWU56ODVodVlQbU9hQkJwYUFHQ2hoLVliR1ZDZXd0MzV1RXRyUkxrbHQtRUp1MHpZNnctc24xdjlRVHluc0R4ZU53bTRqVVd2QXViWE5hcEViS3lORy1QYmVxc2dQbmwyZDByZjJHclkyTng1N3ZSVTRHZUVYczdaeUotdzB3RWtmTGZhMDhWVWtlbTFwdWM4bG82SjZkWGd3d2xfSGlQeEZtTnpHc1FOT0FBclg3WFJKSEczYm9FcmZxalU4VEJLOFVjOFRGMmc?oc=5",
+        "title": "\"To jest dla dziewczyn\". Przez taki mit chłopcy omijają szczepienia HPV",
+        "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
+      },
+      {
         "at": "2026-10-10T17:24:00.000Z",
         "cat": "security",
         "sev": 2,
@@ -146,48 +182,57 @@
         "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQVGFtNE40dDE2bVpqOHhBb2ZEZUFSaWJQS1ZaUzN3OHp5Tzd3cmxYVXdSOEJpMGdEWFQ1Q18xcVk0ZmFuU0NFMGMxblU1bDNpS0R1TE5Hbm1ZSHlFenNEZnVHMndqc1NaRXJFSlBJd0luTkFlUTZxbnR5SXV6eXdEWg?oc=5",
         "title": "Szerszeń czyli polski Szahed. Doleci do Moskwy?",
         "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-10-07T21:14:31.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Forsal.pl",
-        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOWkdlbE1IdzNYOWtxWEV5d2FwNDhQSjdYdGRWeUFqX0laWl9uclBlaXZqYkNtWDRWdHJadHBxNTlTampGQVIzS1VnTXNNeWtqbVp6VUE2dGNYRUw1TzVveDJrWWluTTltLVhyOENLdFR3bmx2N3Q0RHB1UVl2ZGQwX0UybUdFQ2N3YmdUcHBJeDdBUlJWcDB4ajJvTHBPblRzdUtyNmhSRzBuNFpHQ3g5SXZvMGhYZEVyX0lMUTFZTG1vb20yU3pUalBaZy1aMERoQ1YyaldUNnVfVUFUOG9zcEV3U1dRNUpoU2lvOG12MUdweWR0WHFQTzlJaw?oc=5",
-        "title": "Wojsko wysyła karty mobilizacyjne do Polaków. Trzeba stawić się w wyznaczonym miejscu i czasie. Co to znaczy?",
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-10-07T19:48:38.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "WP Wiadomości",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUDI2aVowa1pBOFc0UThqeC1fd0lpZ3RFWmpaZFkxSWpOdjd0YWFvR3pOWmJ2UXJJOW42Z2NXbU05LVFiMUh1czZuTjFCNzRXdUl2R3VQMklDLUVCbHI2cm1YVnlobkpxeVZSb2pLMUdMdHBXQXRHWW4yN2toZDBnb042WWhpWU1BSEZZbVA1ZUZtMU5sLUN5ZGFya21TVGN2YlpPOTJpcUxSMDBqZ19GRVlsaXR4NzZCZDU0?oc=5",
-        "title": "Na polskie wojsko patrzymy przez różowe okulary, uważa historyk",
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-10-07T11:55:00.000Z",
-        "cat": "weather",
-        "sev": 2,
-        "source": "IMGW",
-        "url": "https://meteo.imgw.pl/",
-        "title": "IMGW: 1 ostrzeżeń meteo, najwyższy stopień 1 — Silny wiatr",
-        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
-      },
-      {
-        "at": "2026-10-07T04:26:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Fakt",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPMS1qcDROYVdtbFVKZk5wTHFKblJKdjk3N1N2SVBFa25lMncteXU1WEtHYXBhLVh4ZjJNWDU4WXdnbHlsUlBuZ3pxUHZPTzQ5NEU0NlZtUElBT2djYmpZclFWaTE0T08tbDk5RjVOaEdDSEZTVWk3aXZ5d2tPLThSRUtPNlhrWE5TR04xTVF4QUJ0SXh2?oc=5",
-        "title": "Zmasowany atak na Ukrainę. Polska poderwała myśliwce. Pilny komunikat",
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
       }
     ]
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-12T04:21:28.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "The420.in",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9MYjl2Q3VmRWxsOUVUT1RpOTBDNHlMbjhHMTNxRE1XT3dfd1oxWFVIdzB4Q0Y2YUx6UWZaTHZ0QlRrbWh1eVlEc3BJRFdnSm1FY3RSTUtJN2VrNG1tWjhRamxjUk5hUzg3N1pILUU2b1YxTE5yeVphWXFUN0pwNFU?oc=5",
+        "title": "Day 12 | Network Forensics: Following the Digital Trail of a Cyberattack",
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
+      {
+        "at": "2026-10-11T22:11:15.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Daily Excelsior",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQS3ZpSkRNRHBXenozSDVBbFFUS3ZaLWhGOVBjRWRjWXdpNlppTFA2cVl3NXc1NzNyZENEWS16amFpcU03ZEV0ckRQMkZpUUVWLTBNX0p1bkhPMU43LTRwLXQ4ekJKMHJmUDFLTGozUDI1LW4zOEg5RkQ0a2ZZTG9UaWZxVmtKMlo5TERiRXhHWk95VjkxVldrazh1eGlPT3hJWUlhSmVvU3lodEc2MW91ZkpB0gGyAUFVX3lxTFBLdmlKRE1EcFd6ejNINUFsUVRLdlotaEY5UGNFZGNZd2k2WmlMUDZxWXc1dzU3M3JkQ0RZLXpqYWlxTTdkRXRyRFAyRmlRRVYtME1fSnVuSE8xTjctNHAtdDh6QkowcmZQMUtMajNQMjUtbjM4SDlGRDRrZllMb1RpZnFWa0oyWjlMRGJFeEdaT3lWOTFWV2trOHV4aU9PeElZSWFKZW9TeWh0RzYxb3VmSkE?oc=5",
+        "title": "Cubas power grid collapses leaving it without electricity 3rd time this month",
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
+      {
+        "at": "2026-10-11T21:11:29.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "АНТИКОР",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdDYtNmM3cV9HQ3dnVF9MT3Zna0trcEloUjdkdGk5VnpiMWdhZGJ5X2I5OV9UcDhkZGRURm0wVi1SUWkxS0d3VmhtTXFaNnNXaFRUQmVKNS1tc0tWRFFKQWwyenFLZFN1ckw4Y1VTeU9CcWNHOURZeTBNS1hHTk1rZTNoOC1BNkh5eEdzRzlNSlhvR3hrbFE0NEhSVFl5cUpOYlFzR012RkxHX0lfbGxJalpiZWE5ZXY2ZFUxb0hWdw?oc=5",
+        "title": "The moment of the RF missile strike on the suburbs of Kharkiv was caught on video: three people killed",
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
+      {
+        "at": "2026-10-11T20:47:08.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Nine.com.au",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNNGRPbVFMV2pGaGFQS2FqeGhERTBIOU5vdW1qNEU2Qkp1ZGJQa1p2MEdUQmlzNl9sVlZ2a0hvX09nQ3NnZEZ3bmdVTWZwREhqVGhIM2l1REZaRXFHQTNsWlgtaGhjaWlvTUZ5THVydHVRZmFEdmc4UHRlUVRmZmpvTDlQdlNPdktIR1BBUmhCM2wxNGZrSzdkcWw0bHJwR3JqSkNnMk1OZGEyQUJ5YVQ2dmF1WHVwV0FGUzNuWjIya2xaTUE5aWljQ1U1TVJwM25K?oc=5",
+        "title": "Death toll rises after second attack on Saudi airport",
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
+      {
+        "at": "2026-10-11T20:25:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Media",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbWtqVEpDcTNEWXVxdGRWVFE0UTlhVUJ5ZXdEbVNraVFYaHJlVk5keHpFT1dXSlBPYUVkLW1tR2dhSEpwRU9NX0ZoS2hqUHRJamNXb3dIZ3ZhT0RJT3hTSkdndWp6Z0wyRTBwUkY3MjYzTnZlcHJCRklhSV9JRk4ycXlxRnpJcll6UWlMNEpNMlNMVlpHajUw?oc=5",
+        "title": "Russian missile strike on store near Ukraine's Kharkiv kills 3, injures 22 - RBC-Ukraine",
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
       {
         "at": "2026-10-11T01:51:44.000Z",
         "cat": "energy",
@@ -321,51 +366,6 @@
         "source": "Euromaidan Press",
         "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBHc1A4cFkxQjVNdzY2ZExBMFVHYmp3ZFlncGpTNkVyakNUSlE1TlpuVlJZLWpmZVp0WHZ6UlF1TDBJSTN1WGt0SVBFeERNWDAwZHRhdWNLc1ZMajluU3czWThxZkpTeVJ0ZTVobnkzdmp6QXlTeGNJ?oc=5",
         "title": "Russo-Ukrainian war, day 1688: Russian strike on two passenger buses kills 30 in Kramatorsk",
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-08T20:41:23.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5NRE9XT1JnZUZoWXpuNXBzS3Z3MnNOQUlJWV84dXhkczZuRDdSOUFvNWRqSjlpTlUzNXlaUHJxblNtb0stWHRST2czR190bWtkaXFNV09IbE9OYTUxYzlhNUNneHJiUjBzbFRCeTcxTE13X1RaSTd4YnZLcFUwUVU?oc=5",
-        "title": "Trump Says U.S. Will Not Strike Iran Again Before Midterms as Military Draws Up New Plans",
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-08T10:29:00.000Z",
-        "cat": "disaster",
-        "sev": 3,
-        "source": "GDACS",
-        "url": "https://www.gdacs.org/report.aspx?eventid=1000151&episodeid=1&eventtype=VO",
-        "title": "Eruption  Taal (Orange alert)",
-        "forYou": "If you have family in the area, check in. Review your own evacuation plan."
-      },
-      {
-        "at": "2026-10-08T09:00:07.000Z",
-        "cat": "disaster",
-        "sev": 3,
-        "source": "GDACS",
-        "url": "https://www.gdacs.org/report.aspx?eventid=1570077&episodeid=1738390&eventtype=EQ",
-        "title": "Earthquake in Vanuatu (Orange alert)",
-        "forYou": "If you have family in the area, check in. Review your own evacuation plan."
-      },
-      {
-        "at": "2026-10-08T04:36:00.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "7NEWS",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQMEZINWRBTUlmNkdaeFRUX2F5Q1ZzSWpyQ3J4YXN4VXZUSFVzQ09OX0xkUlJCd2l5UUdubFBxZmEzbmFoWGM5UjVZSFBUbWFCUlhLNTFwNll3VEtUWGg0VjRqSEl2UG9MT3RUUzV5eFdwY2E2RmpVZm9GTFUtSVRDWFpCdFVIcXNfVUJfTW9HcGphaG0xcEk1Qy1pLWhHZndFNVdiNHlfd2Y4d3NxQWhwUjhEWE5VaEljTDMwcXdubkhhN3F0Uno4RGE1UdIB0AFBVV95cUxNR3paY1JJTVZETDJBTk9WcWJmSTVUVENyWHhKRjA0VWxKZXlGamFtdUJORWI5VFhqUnBoMVZ6VWdFbW16OUN2R2MtOGtuenpGN3lJUkgzR1k2Q0RFMnRrdl9RT1NWaFRYNGlZZGhndE5Nb3Z3c1F2dDZKMUg1Z3NhcFdPYUZETTV0TjJudEZ2WE5oeGg1MFMyUk1SRkxFZXNFTGtOX214WDF4ZWV2UV9QY1dXQ3ZCdUhFbkVVSVQtTy1IY1ZPV2N3d3lQTHBKQlZx?oc=5",
-        "title": "Patients notified after personal data stolen in cyberattack on St Andrew’s Hospital in Adelaide",
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-08T04:00:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Breakingthenews.net",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVzM5STB3c0lZR1RsVkEyeDFyMjhWcVh0WXRfVDl2RWpYLW1TSmQzSHRWUzd0ZVlvdUNNSlhZTXowVF96QVFhYzZuVUhaME9GT3hDb3NZSlo1YlQxcnFRS0ZfOVluWE9memk5akVIaVp6UXREWkJQanJuUTRyWUZSRi1qNlk4U0hvRGJzWVQyQW9WdjdmNlE?oc=5",
-        "title": "Houthis claim missile strike on Riyadh airport",
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       }
     ]
