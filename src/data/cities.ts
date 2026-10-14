@@ -1,0 +1,26 @@
+/** Miasta z osobną stroną mapy schronów: /pl/mapa-schronow/<slug>/ (frazy „schrony Warszawa”, „schron Kraków”…). */
+export type City = { slug: string; name: string; loc: string; woj: string; lat: number; lng: number };
+export const cities: City[] = [
+  { slug: 'warszawa', name: 'Warszawa', loc: 'w Warszawie', woj: 'mazowieckie', lat: 52.2297, lng: 21.0122 },
+  { slug: 'krakow', name: 'Kraków', loc: 'w Krakowie', woj: 'małopolskie', lat: 50.0614, lng: 19.9366 },
+  { slug: 'lodz', name: 'Łódź', loc: 'w Łodzi', woj: 'łódzkie', lat: 51.7592, lng: 19.456 },
+  { slug: 'wroclaw', name: 'Wrocław', loc: 'we Wrocławiu', woj: 'dolnośląskie', lat: 51.1079, lng: 17.0385 },
+  { slug: 'poznan', name: 'Poznań', loc: 'w Poznaniu', woj: 'wielkopolskie', lat: 52.4064, lng: 16.9252 },
+  { slug: 'gdansk', name: 'Gdańsk', loc: 'w Gdańsku', woj: 'pomorskie', lat: 54.352, lng: 18.6466 },
+  { slug: 'szczecin', name: 'Szczecin', loc: 'w Szczecinie', woj: 'zachodniopomorskie', lat: 53.4285, lng: 14.5528 },
+  { slug: 'bydgoszcz', name: 'Bydgoszcz', loc: 'w Bydgoszczy', woj: 'kujawsko-pomorskie', lat: 53.1235, lng: 18.0084 },
+  { slug: 'lublin', name: 'Lublin', loc: 'w Lublinie', woj: 'lubelskie', lat: 51.2465, lng: 22.5684 },
+  { slug: 'bialystok', name: 'Białystok', loc: 'w Białymstoku', woj: 'podlaskie', lat: 53.1325, lng: 23.1688 },
+  { slug: 'katowice', name: 'Katowice', loc: 'w Katowicach', woj: 'śląskie', lat: 50.2649, lng: 19.0238 },
+  { slug: 'gdynia', name: 'Gdynia', loc: 'w Gdyni', woj: 'pomorskie', lat: 54.5189, lng: 18.5305 },
+  { slug: 'czestochowa', name: 'Częstochowa', loc: 'w Częstochowie', woj: 'śląskie', lat: 50.8118, lng: 19.1203 },
+  { slug: 'radom', name: 'Radom', loc: 'w Radomiu', woj: 'mazowieckie', lat: 51.4027, lng: 21.1471 },
+  { slug: 'rzeszow', name: 'Rzeszów', loc: 'w Rzeszowie', woj: 'podkarpackie', lat: 50.0412, lng: 21.9991 },
+  { slug: 'torun', name: 'Toruń', loc: 'w Toruniu', woj: 'kujawsko-pomorskie', lat: 53.0138, lng: 18.5984 },
+  { slug: 'kielce', name: 'Kielce', loc: 'w Kielcach', woj: 'świętokrzyskie', lat: 50.8661, lng: 20.6286 },
+  { slug: 'olsztyn', name: 'Olsztyn', loc: 'w Olsztynie', woj: 'warmińsko-mazurskie', lat: 53.7784, lng: 20.4801 },
+  { slug: 'opole', name: 'Opole', loc: 'w Opolu', woj: 'opolskie', lat: 50.6751, lng: 17.9213 },
+  { slug: 'zielona-gora', name: 'Zielona Góra', loc: 'w Zielonej Górze', woj: 'lubuskie', lat: 51.9356, lng: 15.5062 },
+  { slug: 'gorzow-wielkopolski', name: 'Gorzów Wielkopolski', loc: 'w Gorzowie Wielkopolskim', woj: 'lubuskie', lat: 52.7368, lng: 15.2288 },
+  { slug: 'tarnow', name: 'Tarnów', loc: 'w Tarnowie', woj: 'małopolskie', lat: 50.0121, lng: 20.9858 },
+];

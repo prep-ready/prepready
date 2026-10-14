@@ -23,6 +23,12 @@ const other: Lang = lang === 'pl' ? 'en' : 'pl';
 // Dopisek marki tylko wtedy, gdy tytuł zmieści się w ~60 znakach (limit wyników Google).
 const fullTitle = title.includes('PrepReady') || title.length + 12 > 60 ? title : `${title} · PrepReady`;
 const ld = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
+// Dane o serwisie na każdej stronie — pomagają Google i asystentom AI rozpoznać markę i język.
+ld.unshift({
+  '@context': 'https://schema.org', '@type': 'WebSite', name: 'PrepReady', url: new URL(`/${lang}/`, site).href, inLanguage: lang,
+  description: lang === 'pl' ? 'Poradniki na czas kryzysu, mapa schronów w Polsce, sygnały alarmowe i indeks gotowości.' : 'Crisis preparedness guides, checklists and a daily readiness index.',
+  publisher: { '@type': 'Organization', name: 'PrepReady', url: site.href, logo: new URL('/favicon.svg', site).href, sameAs: ['https://t.me/prepreadyPL', 'https://t.me/prepready_global'] },
+});
 ---
 <!doctype html>
 <html lang={lang}>
@@ -48,6 +54,7 @@ const ld = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
   <meta name="theme-color" content="#121619" />
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
   <link rel="sitemap" href="/sitemap-index.xml" />
+  <link rel="alternate" type="text/plain" title="llms.txt" href="/llms.txt" />
   <link rel="alternate" type="application/rss+xml" title="PrepReady" href={`/${lang}/rss.xml`} />
   <script is:inline>
     try { var th = localStorage.getItem('pr-theme'); if (th === 'dark' || th === 'light') document.documentElement.dataset.theme = th; } catch (e) {}

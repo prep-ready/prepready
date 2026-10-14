@@ -1,6 +1,6 @@
 ---
 title: "Schron w bloku: gdzie się ukryć i jak znaleźć najbliższy schron"
-description: "Gdzie się schować w bloku podczas alarmu, czym różni się schron, ukrycie i miejsce doraźnego schronienia oraz jak znaleźć najbliższe w aplikacji PSP."
+description: "Gdzie się schować w bloku podczas alarmu, czym różni się schron, ukrycie i miejsce doraźnego schronienia oraz jak znaleźć najbliższy schron na mapie."
 lang: pl
 translationKey: shelter-apartment
 cluster: shelter
@@ -20,7 +20,7 @@ sources:
     url: "https://builderpolska.pl/2026/08/31/schron-ukrycie-mds-i-punkt-schronienia/"
 faq:
   - q: "Jak sprawdzić, gdzie jest najbliższy schron?"
-    a: "Użyj mapy Państwowej Straży Pożarnej (schrony.straz.gov.pl) albo serwisu gdziesieukryc.pl. Informacje o miejscach schronienia ma też urząd gminy."
+    a: "Wpisz adres na mapie schronów PrepReady (prepready.pro/pl/mapa-schronow/) — pokaże najbliższe punkty z bazy PSP z odległością i trasą pieszo. Te same dane mają mapa Państwowej Straży Pożarnej (schrony.straz.gov.pl) i serwis gdziesieukryc.pl. Informacje o miejscach schronienia ma też urząd gminy."
   - q: "Czy piwnica w bloku to schron?"
     a: "Zwykle nie. Piwnica bywa miejscem doraźnego schronienia (MDS), czyli podziemną częścią budynku, która ogranicza skutki zagrożenia. Nie jest hermetyczna jak schron."
   - q: "Gdzie się schować w mieszkaniu, gdy nie zdążę zejść do schronu?"
@@ -46,7 +46,9 @@ W bloku najczęściej znajdziesz MDS: piwnicę albo garaż podziemny. To nie bun
 
 ## Jak znaleźć najbliższe miejsce schronienia
 
-Państwowa Straż Pożarna prowadzi dwie bezpłatne mapy:
+Najszybciej: wpisz adres na [mapie schronów PrepReady](/pl/mapa-schronow/) — pokaże 10 najbliższych punktów z bazy PSP z odległością, czasem dojścia i trasą pieszo. Mamy też gotowe widoki dla miast, np. [schrony w Warszawie](/pl/mapa-schronow/warszawa/), [w Krakowie](/pl/mapa-schronow/krakow/) czy [we Wrocławiu](/pl/mapa-schronow/wroclaw/).
+
+Państwowa Straż Pożarna prowadzi też dwie własne, bezpłatne mapy:
 
 - schrony.straz.gov.pl — schrony, ukrycia i miejsca doraźnego schronienia z podziałem na kategorie;
 - gdziesieukryc.pl — punkty schronienia w pobliżu z trasą pieszą i przekierowaniem do Map Google. Działa w przeglądarce, można go dodać do ekranu telefonu. Zapisuje dane o ok. 100 punktach w promieniu 15 km, które są dostępne przez 7 dni bez zasięgu.
@@ -86,4 +88,4 @@ Budynki wielorodzinne, dla których wniosek o pozwolenie na budowę złożono po
 
 ## Jedno zadanie na dziś
 
-Otwórz schrony.straz.gov.pl albo gdziesieukryc.pl, znajdź dwa najbliższe miejsca i zapisz je w telefonie. To zajmuje pięć minut.
+Otwórz [mapę schronów](/pl/mapa-schronow/) albo gdziesieukryc.pl, znajdź dwa najbliższe miejsca i zapisz je w telefonie. To zajmuje pięć minut.

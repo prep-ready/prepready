@@ -1,5 +1,5 @@
 ---
-title: "Plecak ewakuacyjny: lista rzeczy na 72 godziny"
+title: "Plecak ewakuacyjny: co spakować? Lista rzeczy na 72 godziny"
 description: "Co spakować do plecaka ewakuacyjnego według zaleceń MSWiA i RCB. Lista z ilościami, kolejność pakowania i najczęstsze błędy."
 lang: pl
 translationKey: go-bag-72h

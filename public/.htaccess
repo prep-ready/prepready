@@ -1,6 +1,9 @@
 # PrepReady — Hostinger (LiteSpeed/Apache)
 ErrorDocument 404 /404.html
+ErrorDocument 410 /404.html
 Options -Indexes
+AddDefaultCharset UTF-8
+AddCharset UTF-8 .txt .xml .md
 
 <IfModule mod_rewrite.c>
 RewriteEngine On
@@ -12,25 +15,46 @@ RewriteRule ^(.*)$ https://prepready.pro/$1 [R=301,L]
 # Stara mapa strony z WordPressa -> nowa
 RewriteRule ^sitemap_index\.xml$ /sitemap-index.xml [R=301,L]
 
+# Stare zapytania WordPressa (wyszukiwarka, WooCommerce AJAX) -> 410 Gone
+RewriteCond %{QUERY_STRING} (^|&)(s|wc-ajax|p|page_id|replytocom)= [NC]
+RewriteRule ^$ - [G,L]
+
 # Strona główna -> wersja polska
 RewriteRule ^$ /pl/ [R=301,L]
 
-# Stare wpisy z WordPressa (EN) -> nowe poradniki
+# /pl i /en bez ukośnika -> z ukośnikiem
+RewriteRule ^(pl|en)$ /$1/ [R=301,L]
+
+# Stare kanały RSS, paginacja i tagi WordPressa -> 410 Gone (nie mają odpowiednika)
+RewriteRule ^(.+/)?feed/?$ - [G,L]
+RewriteRule ^(.+/)?comments/feed/?$ - [G,L]
+RewriteRule ^blog/page/[0-9]+/?$ - [G,L]
+RewriteRule ^(page|tag|author)/.*$ - [G,L]
+
+# Stare wpisy z WordPressa (EN) -> pasujące nowe poradniki
 RewriteRule ^emergency-bug-out-kit-essentials/?$ /en/guides/go-bag-checklist/ [R=301,L]
 RewriteRule ^(car-emergency-kit-essentials|winter-car-emergency-kit|budget-get-home-bag-ice-storm|personalized-medical-supply-kit-seniors)/?$ /en/guides/go-bag-checklist/ [R=301,L]
-RewriteRule ^(mastering-emergency-codes-flood-communication|master-emergency-communication-codes-family-safety)/?$ /en/guides/ [R=301,L]
-# Pozostałe stare adresy i strony WP (sklep, konto, afiliacja, blog, kategorie)
-RewriteRule ^(shop|cart|checkout|my-account|affiliate-[a-z-]+|affiliate-program)/?$ /pl/ [R=301,L]
+RewriteRule ^(stay-warm-power-outage|blackout-[a-z0-9-]+|power-outage-[a-z0-9-]+)/?$ /en/guides/blackout-preparedness/ [R=301,L]
+RewriteRule ^(family-water-purification-tornado|budget-friendly-rainwater-[a-z0-9-]+|[a-z0-9-]*water-[a-z0-9-]*)/?$ /en/guides/emergency-water-and-food-supply/ [R=301,L]
+RewriteRule ^(survival-skills-apartment-dwellers-rule-of-threes|[a-z0-9-]*apartment[a-z0-9-]*)/?$ /en/guides/emergency-preparedness-for-renters/ [R=301,L]
+RewriteRule ^(mastering-emergency-codes-flood-communication|master-emergency-communication-codes-family-safety)/?$ /en/guides/family-emergency-plan/ [R=301,L]
+RewriteRule ^(first-aid-[a-z0-9-]+|[a-z0-9-]*medical-kit[a-z0-9-]*)/?$ /en/guides/first-aid-kit-checklist/ [R=301,L]
+RewriteRule ^gear-reviews/?$ /en/gear/ [R=301,L]
+
+# Pozostałe strony WP (sklep, konto, afiliacja, blog, kategorie)
+RewriteRule ^(shop|cart|checkout|my-account|affiliate-[a-z-]+|affiliate-program)/?$ - [G,L]
 RewriteRule ^blog/?$ /pl/poradniki/ [R=301,L]
 RewriteRule ^free-resources/?$ /pl/checklisty/plecak-72h/ [R=301,L]
-RewriteRule ^about-us/?$ /pl/o-nas/ [R=301,L]
-RewriteRule ^contact/?$ /pl/o-nas/ [R=301,L]
+RewriteRule ^about-us/?$ /en/about/ [R=301,L]
+RewriteRule ^contact/?$ /pl/wspolpraca/ [R=301,L]
 RewriteRule ^category/.*$ /pl/poradniki/ [R=301,L]
-RewriteRule ^(wp-admin|wp-login\.php|wp-content|wp-includes|xmlrpc\.php).*$ - [G,L]
-# Każdy inny stary slug wpisu (jeden segment, bez rozszerzenia, nie pl/en) -> lista poradników EN
+RewriteRule ^(wp-admin|wp-login\.php|wp-content|wp-includes|wp-json|xmlrpc\.php).*$ - [G,L]
+
+# Każdy inny stary slug wpisu (jeden segment, bez odpowiednika) -> 410 Gone.
+# Google szybciej usuwa takie adresy z indeksu niż przekierowania na ogólną listę (to traktuje jak „soft 404”).
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(?!pl/|en/)([a-z0-9-]+)/?$ /en/guides/ [R=301,L]
+RewriteRule ^(?!pl/|en/|pl$|en$)([a-z0-9-]+)/?$ - [G,L]
 </IfModule>
 
 <IfModule mod_headers.c>

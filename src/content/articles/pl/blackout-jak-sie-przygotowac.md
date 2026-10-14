@@ -64,7 +64,7 @@ Mieszkanie w bloku ma swoje słabe punkty:
 - Winda. Nie wsiadaj do windy podczas burzy ani przy pierwszych przerwach w zasilaniu. Osoby starsze i z niepełnosprawnością z wyższych pięter potrzebują planu, jak zejść schodami.
 - Ogrzewanie. Kotłownie i węzły cieplne mają pompy obiegowe na prąd. Zimą mieszkanie wychładza się w ciągu kilku godzin.
 - Domofon i brama garażu. Przestają działać. Miej przy sobie klucz do drzwi wejściowych.
-- Lodówka i zamrażarka. Nie otwieraj ich bez potrzeby. Zamknięta zamrażarka utrzyma mróz przez wiele godzin.
+- Lodówka i zamrażarka. Nie otwieraj ich bez potrzeby. Zamknięta lodówka trzyma chłód ok. 4 godziny, a pełna zamrażarka ok. 48 godzin — co potem zjeść, a co wyrzucić, piszemy w poradniku [jak uratować jedzenie bez prądu](/pl/poradniki/jak-uratowac-jedzenie-bez-pradu/).
 
 ## Co zrobić w pierwszej godzinie
 

@@ -26,6 +26,7 @@ export const clusters = {
   blackout:     { pl: 'Blackout',           en: 'Blackouts' },
   evacuation:   { pl: 'Ewakuacja i łączność', en: 'Evacuation & comms' },
   'first-aid':  { pl: 'Pierwsza pomoc',     en: 'First aid' },
+  law:          { pl: 'Prawo i bezpieczeństwo', en: 'Law & safety' },
 } as const;
 
 /** Krótki opis tematu — pokazywany na kafelku, dopóki nie ma w nim poradnika. */
@@ -36,6 +37,7 @@ export const clusterDesc = {
   blackout:     { pl: 'Światło, ciepło, jedzenie i łączność, gdy przez kilka dni nie ma prądu.', en: 'Light, heat, food and communication when the power is out for days.' },
   evacuation:   { pl: 'Sygnały syren, alerty, plan kontaktu rodziny i trasy ewakuacji.', en: 'Sirens, alerts, a family contact plan and evacuation routes.' },
   'first-aid':  { pl: 'Apteczka domowa i ewakuacyjna, podstawy pierwszej pomocy i leki na zapas.', en: 'A home and go-bag first-aid kit, first-aid basics and spare medication.' },
+  law:          { pl: 'Przepisy, pozwolenia i obowiązki obywatela na czas kryzysu.', en: 'Rules, permits and civic duties in a crisis.' },
 } as const;
 
 export const ui = {

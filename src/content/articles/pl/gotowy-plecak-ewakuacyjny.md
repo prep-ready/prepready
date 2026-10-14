@@ -23,7 +23,7 @@ faq:
     a: "Dla dorosłej osoby najwyżej ok. 10–12 kg razem z wodą i rzeczami osobistymi. Gotowe zestawy ważą ok. 8–9 kg, więc zostaje niewiele miejsca na dodatki."
 ---
 
-Gotowy plecak ewakuacyjny kupujesz raz i masz spakowane 72 godziny w kilka minut. Kompletowanie własnego trwa kilka wieczorów, ale lepiej pasuje do Twojej rodziny. Poniżej porównujemy cztery gotowe zestawy dostępne w Polsce: od kieszonkowego etui za niecałe 200 zł po pełne plecaki za 1700–2500 zł. Piszemy, co jest w środku, czego brakuje i dla kogo który ma sens.
+Gotowy plecak ewakuacyjny kupujesz raz i masz spakowane 72 godziny w kilka minut. Kompletowanie własnego trwa kilka wieczorów, ale lepiej pasuje do Twojej rodziny. Poniżej porównujemy cztery gotowe zestawy dostępne w Polsce: od kieszonkowego etui za niecałe 200 zł po pełne plecaki za 1700–2500 zł. Piszemy, co jest w środku, czego brakuje i dla kogo który ma sens. Wolisz spakować własny? Zacznij od listy [co spakować do plecaka ewakuacyjnego](/pl/poradniki/plecak-ewakuacyjny/) i odhaczaj rzeczy w [checkliście 72h](/pl/checklisty/plecak-72h/).
 
 <p class="note-box"><strong>Jak powstało to zestawienie.</strong> Tych modeli nie testowaliśmy jeszcze osobiście. Wybraliśmy je na podstawie specyfikacji producentów i zaleceń oficjalnych poradników, a opisujemy także ich minusy. Gdy przetestujemy sprzęt, dodamy wyniki pomiarów.</p>
 

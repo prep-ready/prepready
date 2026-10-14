@@ -7,6 +7,7 @@ import Checklist from '../components/Checklist.astro';
 import GearTable from '../components/GearTable.astro';
 import Deals from '../components/Deals.astro';
 import feed from '../data/feed.json';
+import { guideBase } from '../i18n/ui';
 import { gearTest } from '../data/site';
 import { routes, t, type Lang } from '../i18n/ui';
 import { articles as allArticles, hrefOf } from '../lib/articles';
@@ -19,7 +20,7 @@ const M = {
     en: { title: 'Crisis news — what it means for you', desc: 'Key updates from official agencies and wire services, each with a short note on what to do.' },
   },
   checklist: {
-    pl: { title: 'Plecak ewakuacyjny 72h — interaktywna checklista', desc: t('pl', 'cl.sub') },
+    pl: { title: 'Checklista plecaka ewakuacyjnego 72h — zaznacz, co już masz', desc: t('pl', 'cl.sub') },
     en: { title: '72-hour go-bag — interactive checklist', desc: t('en', 'cl.sub') },
   },
   gear: {
@@ -37,7 +38,9 @@ const sample = section === 'news' ? feed[lang].sample : section === 'gear' ? gea
   </div>
   <div class="wrap">
     {section === 'news' && <div class="two"><div><h2 class="sub">{lang === 'pl' ? 'Najnowsze' : 'Latest'}</h2><NewsFeed lang={lang} /></div><Newsletter lang={lang} /></div>}
-    {section === 'checklist' && <Checklist lang={lang} />}
+    {section === 'checklist' && <Fragment><Checklist lang={lang} /><p class="cl-more">{lang === 'pl'
+      ? <Fragment>Nie wiesz, po co dana rzecz i ile jej spakować? Przeczytaj <a href={`${guideBase.pl}plecak-ewakuacyjny/`}>co spakować do plecaka ewakuacyjnego</a>. Wolisz kupić gotowy zestaw? Zobacz <a href={`${guideBase.pl}gotowy-plecak-ewakuacyjny/`}>porównanie gotowych plecaków ewakuacyjnych</a>.</Fragment>
+      : <Fragment>Not sure why an item matters or how much to pack? Read the <a href={`${guideBase.en}go-bag-checklist/`}>go-bag guide</a>.</Fragment>}</p></Fragment>}
     {section === 'gear' && <div class="stack">{buying.length > 0 && <section class="buying"><h2 class="sub">{lang === 'pl' ? 'Poradniki zakupowe' : 'Buying guides'}</h2><ul class="buy-list">{buying.map((a) => <li><a href={hrefOf(a)}><strong>{a.data.title}</strong><span>{a.data.description}</span></a></li>)}</ul></section>}<Deals lang={lang} showEmpty /><GearTable lang={lang} />
       <div class="prose method">{lang === 'pl' ? (
         <Fragment>
@@ -78,4 +81,6 @@ const sample = section === 'news' ? feed[lang].sample : section === 'gear' ? gea
   .head-row{display:flex;gap:16px;align-items:flex-start;justify-content:space-between;flex-wrap:wrap}
   .two{display:grid;grid-template-columns:minmax(0,8fr) minmax(0,4fr);gap:24px;align-items:start}
   @media (max-width:980px){ .two{grid-template-columns:1fr} }
+  .cl-more{margin-top:24px;font-size:16px;color:var(--ink-2)}
+  .cl-more a{color:var(--action)}
 </style>
