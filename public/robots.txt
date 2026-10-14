@@ -1,3 +1,30 @@
+# PrepReady — prepready.pro
+# Poradniki na czas kryzysu (PL/EN), mapa schronów w Polsce, sygnały alarmowe, indeks gotowości.
+# Opis serwisu dla modeli językowych (AI): https://prepready.pro/llms.txt
+
+# Wyszukiwarki i asystenci AI — zapraszamy (wyszukiwanie, cytowanie, odpowiedzi z linkiem do źródła)
 User-agent: *
+User-agent: Googlebot
+User-agent: Bingbot
+User-agent: GPTBot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Google-Extended
+User-agent: Applebot
+User-agent: Applebot-Extended
+User-agent: DuckAssistBot
+User-agent: MistralAI-User
+User-agent: CCBot
 Allow: /
+Disallow: /tg/
+Disallow: /contact.php
+Disallow: /schrony/aktualizuj.php
+Disallow: /pl/newsletter/
+Disallow: /en/newsletter/
+
 Sitemap: https://prepready.pro/sitemap-index.xml
