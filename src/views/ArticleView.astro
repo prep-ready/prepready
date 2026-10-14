@@ -3,7 +3,8 @@ import Base from '../layouts/Base.astro';
 import { render } from 'astro:content';
 import Community from '../components/Community.astro';
 import { clusters, routes, t, fmtDate, type Lang } from '../i18n/ui';
-import { hrefOf, translationOf, type Article } from '../lib/articles';
+import { hrefOf, translationOf, articles, slugOf, type Article } from '../lib/articles';
+import { guideBase } from '../i18n/ui';
 
 interface Props { entry: Article }
 const { entry } = Astro.props;
@@ -15,6 +16,15 @@ const tr = await translationOf(entry);
 const here = hrefOf(entry);
 const alternates = { [lang]: here, ...(tr ? { [tr.data.lang]: hrefOf(tr) } : {}) } as Partial<Record<Lang, string>>;
 const url = new URL(here, Astro.site).href;
+// Powiązane: ten sam temat + stałe linki do najważniejszych narzędzi (linkowanie wewnętrzne)
+const same = (await articles(lang)).filter((a) => a.id !== entry.id && a.data.cluster === d.cluster).slice(0, 3);
+const keyLinks = lang === 'pl'
+  ? [
+      { href: routes.shelters.pl, label: 'Mapa schronów — gdzie jest najbliższy schron' },
+      { href: `${guideBase.pl}syreny-alarmowe/`, label: 'Sygnały alarmowe — jak rozpoznać syrenę' },
+      { href: routes.checklist.pl, label: 'Checklista plecaka ewakuacyjnego 72h' },
+    ].filter((l) => l.href !== here)
+  : [{ href: routes.checklist.en, label: '72-hour go-bag checklist' }].filter((l) => l.href !== here);
 const jsonLd: object[] = [
   {
     '@context': 'https://schema.org', '@type': 'Article', headline: d.title, description: d.description, inLanguage: lang,
@@ -75,6 +85,14 @@ if (d.faq.length) jsonLd.push({
           </section>
         )}
 
+        <nav class="related" aria-labelledby="rel-h">
+          <h2 id="rel-h">{lang === 'pl' ? 'Przeczytaj też' : 'Read next'}</h2>
+          <ul>
+            {same.map((a) => <li><a href={hrefOf(a)}>{a.data.title}</a></li>)}
+            {keyLinks.map((l) => <li><a href={l.href}>{l.label}</a></li>)}
+          </ul>
+        </nav>
+
         <div style="margin-top:28px"><Community lang={lang} /></div>
 
         <p class="disclaimer">{t(lang, 'art.disclaimer')}</p>
@@ -103,6 +121,10 @@ if (d.faq.length) jsonLd.push({
   .faq summary{font-family:var(--display);font-weight:600;cursor:pointer;font-size:16px;color:var(--ink)}
   .faq details p{margin:8px 0 0}
   .sources ol{font-size:15px}
+  .related{margin-top:32px;padding:18px 20px;border:1px solid var(--line);border-radius:10px}
+  .related h2{font-size:18px;margin:0 0 8px}
+  .related ul{margin:0;padding-left:18px;display:grid;gap:6px;font-size:16px}
+  .related a{color:var(--action)}
   .disclaimer{margin-top:32px;padding:14px 16px;background:var(--surface-2);border-radius:8px;font-size:14px;color:var(--ink-2)}
   @media (max-width:900px){ .layout{grid-template-columns:1fr;gap:16px} .toc{position:static} .prose{font-size:17px} }
 </style>
