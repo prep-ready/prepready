@@ -1,5 +1,5 @@
 ---
-title: "Sygnały alarmowe: jak brzmią syreny i co oznaczają"
+title: "Sygnały alarmowe: jak rozpoznać syrenę i co oznacza każdy dźwięk"
 description: "Posłuchaj oficjalnych nagrań RCB: ogłoszenie i odwołanie alarmu. Jak rozpoznać syrenę, alarm ćwiczebny, wezwanie straży i co robić po usłyszeniu alarmu."
 lang: pl
 translationKey: sirens
@@ -19,6 +19,8 @@ sources:
   - name: "Poradnik bezpieczeństwa (MSWiA / COI, 2025), PDF"
     url: "https://www.coi.gov.pl/static/poradnik_bezpieczenstwa_PL.pdf"
 faq:
+  - q: "Jak rozpoznać sygnał alarmowy?"
+    a: "Słuchaj, czy dźwięk się zmienia. Falujący (modulowany) dźwięk syreny przez 3 minuty to ogłoszenie alarmu — idź do miejsca schronienia i słuchaj komunikatów. Ciągły, jednostajny dźwięk przez 3 minuty to odwołanie alarmu. Ciągły dźwięk przez 1 minutę to alarm ćwiczebny lub próba syren. Trzy narastające i opadające tony to wezwanie straży pożarnej, a nie alarm dla ludności."
   - q: "Jak brzmi ogłoszenie alarmu w Polsce?"
     a: "Ogłoszenie alarmu to modulowany, falujący dźwięk syreny trwający 3 minuty. Może go też zastąpić komunikat słowny przez głośniki: „Uwaga! Uwaga! Uwaga! Ogłaszam alarm…” powtórzony trzy razy."
   - q: "Jak brzmi odwołanie alarmu?"
@@ -92,7 +94,7 @@ Według Poradnika bezpieczeństwa MSWiA:
 1. **Włącz radio, telewizję lub aplikację RSO** i słuchaj komunikatów. Sprawdź, czy dostałeś ALERT RCB.
 2. **Zbierz domowników i zwierzęta.** Weź [plecak ewakuacyjny](/pl/poradniki/plecak-ewakuacyjny/), dokumenty i leki.
 3. **Zamknij okna, wyłącz gaz i urządzenia elektryczne**, jeśli zajmie to chwilę.
-4. **Jeśli komunikat każe się ukryć** — idź do najbliższego schronu lub miejsca doraźnego schronienia. Schodami, nie windą. Gdy nie zdążysz, zostań w środku budynku, z dala od okien, przy ścianach nośnych. Więcej: [Schron w bloku: gdzie się ukryć](/pl/poradniki/schron-w-bloku/).
+4. **Jeśli komunikat każe się ukryć** — idź do najbliższego schronu lub miejsca doraźnego schronienia. Schodami, nie windą. Gdy nie zdążysz, zostań w środku budynku, z dala od okien, przy ścianach nośnych. Więcej: [Schron w bloku: gdzie się ukryć](/pl/poradniki/schron-w-bloku/) (najbliższy punkt sprawdzisz na [mapie schronów](/pl/mapa-schronow/)).
 5. **Jeśli komunikat mówi o skażeniu** — zostań w budynku, zamknij okna i drzwi, wyłącz wentylację i klimatyzację.
 6. **Nie dzwoń bez potrzeby.** Sieć jest przeciążona, pisz SMS-y. Na 112 dzwoń tylko w sytuacji zagrożenia życia.
 7. **Pomóż sąsiadom**, którzy sami sobie nie poradzą.
