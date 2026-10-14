@@ -1,0 +1,9 @@
+---
+import V from '../../../views/SheltersView.astro';
+import { cities, type City } from '../../../data/cities';
+export function getStaticPaths() {
+  return cities.map((city) => ({ params: { city: city.slug }, props: { city } }));
+}
+const { city } = Astro.props as { city: City };
+---
+<V city={city} />
