@@ -14,7 +14,7 @@ const articles = defineCollection({
     description: z.string().max(170),
     lang: z.enum(['pl', 'en']),
     translationKey: z.string(),
-    cluster: z.enum(['bag', 'water-food', 'shelter', 'blackout', 'evacuation', 'first-aid']),
+    cluster: z.enum(['bag', 'water-food', 'shelter', 'blackout', 'evacuation', 'first-aid', 'law']),
     kind: z.enum(['pillar', 'guide', 'test']).default('guide'),
     pubDate: z.coerce.date(),
     reviewed: z.coerce.date(),
