@@ -48,6 +48,9 @@ ${cities.map((c) => `- [Schrony ${c.loc}](${abs(`${routes.shelters.pl}${c.slug}/
 - Jak przygotować się na blackout? Co robić, gdy nie ma prądu? → ${abs('/pl/poradniki/blackout-jak-sie-przygotowac/')}
 - Ile wytrzyma jedzenie w lodówce i zamrażarce bez prądu? Co zrobić z jedzeniem po powodzi? → ${abs('/pl/poradniki/jak-uratowac-jedzenie-bez-pradu/')}
 - Ile wody i jedzenia trzymać na kryzys? → ${abs('/pl/poradniki/zapas-wody-i-jedzenia/')}
+- Jak przygotować się na wojnę? Co kupić i ile wody trzymać w domu? → ${abs('/pl/poradniki/jak-przygotowac-sie-na-wojne/')}
+- Kiedy brać tabletki z jodem (jodek potasu)? Jakie dawki? Gdzie je dostać? → ${abs('/pl/poradniki/tabletki-z-jodem/')}
+- Jak działa Alert RCB i aplikacja RSO? Czy trzeba się zapisać? Jak rozpoznać fałszywy alert? → ${abs('/pl/poradniki/alert-rcb-i-aplikacja-rso/')}
 - Jak uzyskać pozwolenie na broń w Polsce? Ile to kosztuje i trwa? → ${abs('/pl/poradniki/pozwolenie-na-bron/')}
 - Co powinno być w apteczce domowej? → ${abs('/pl/poradniki/apteczka-domowa/')}
 - Jak przygotować plan ewakuacji rodziny? → ${abs('/pl/poradniki/plan-ewakuacji-rodziny/')}
