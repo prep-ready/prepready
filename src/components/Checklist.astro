@@ -28,7 +28,7 @@ const pickHref = (id: string) => picks.find((p) => p.id === id)?.url[lang] || ro
     {picks.map((p) => (
       <div class="row">
         <div class="img"><Icon name={p.icon} size="40" /></div>
-        <div><div class="pt">{p.title[lang]}</div><div class="why">{p.why[lang]}</div></div>
+        <div><div class="pt">{p.title[lang]}</div><div class="why">{p.why[lang]}</div>{p.more?.[lang]?.length ? <div class="alt">{lang === 'pl' ? 'Też w:' : 'Also at:'} {p.more[lang].map((m, i) => <>{i > 0 && ' · '}<a href={m.url} rel="sponsored noopener">{m.label}</a></>)}</div> : null}</div>
         <div class="price">{p.price[lang]}<br /><a class="link-more" href={p.url[lang] || routes.gear[lang]} rel="sponsored noopener">{t(lang, 'cl.view')}</a></div>
       </div>
     ))}
@@ -80,6 +80,8 @@ const pickHref = (id: string) => picks.find((p) => p.id === id)?.url[lang] || ro
   li.done .n{text-decoration:line-through;color:var(--muted)}
   li.done .buy{visibility:hidden}
   .picks{padding:20px;display:flex;flex-direction:column;gap:14px}
+  .picks .alt{font-size:12px;margin-top:4px;color:var(--muted, inherit)}
+  .picks .alt a{text-decoration:underline}
   .row{display:grid;grid-template-columns:52px 1fr auto;gap:12px;align-items:center;padding-top:14px;border-top:1px solid var(--line)}
   .img{width:52px;height:52px;border-radius:6px;background:var(--surface-2);display:grid;place-items:center}
   .pt{font-weight:700;font-size:14px;line-height:1.3}
