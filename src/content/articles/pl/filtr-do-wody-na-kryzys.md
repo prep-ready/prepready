@@ -56,6 +56,8 @@ Najważniejsze fakty według amerykańskiego CDC:
 
 <div class="product"><img src="/img/produkty/doulton-grawitacyjny.webp" alt="Grawitacyjny filtr wody pitnej British Berkefeld (Doulton)" width="132" height="132" loading="lazy" /><div><span class="product-badge">Do domu</span><p class="product-name">Grawitacyjny filtr wody pitnej British Berkefeld (Doulton)</p><p class="product-meta">ok. 1 089 zł · zbiornik 8,5 l · 2 wkłady ceramiczne</p><p class="pros">Filtr do domu: wlewasz wodę do górnego zbiornika, a przefiltrowana spływa do dolnego bez prądu i ciśnienia. Wkłady ceramiczne Ultra Sterasyl można czyścić i używać ponownie. Producent deklaruje usuwanie bakterii, mikroplastiku, ołowiu i chloru.</p><a class="aff btn-aff" href="https://www.prepersi.eu/sklep/survival/systemy-uzdatniania-wody/Grawitacyjny-Filtr-Wody-Pitnej-Doulton-British-Berkefeld?tracking=6TjpudogVnmAPlRLSfPdnIfOPpA5HuKEKdfTanbx" rel="sponsored nofollow noopener" target="_blank">Zobacz w sklepie Prepersi</a></div></div>
 
+Inne filtry turystyczne (słomki, filtry na butelkę, pompki) porównasz też w dziale <a class="aff" href="https://webep1.com/go/967eae92d6" rel="sponsored nofollow noopener" target="_blank">filtry do wody w Sporti.pl</a>. Przy każdym sprawdź wielkość porów: 0,1–0,3 µm zatrzymuje bakterie i pasożyty.
+
 ## Co wybrać
 
 - **Do plecaka ewakuacyjnego:** Sawyer Mini + opakowanie tabletek. Razem ok. 290 zł i niecałe 100 g.

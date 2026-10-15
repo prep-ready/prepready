@@ -54,11 +54,15 @@ Przy 154 Wh to szacunkowo ok. 6–7 ładowań typowego smartfona albo 1–2 ład
 
 Uczciwie o panelu: 5 W w pełnym słońcu to wolne ładowanie, a zimą w Polsce słońca jest mało. Panel to dodatek na długi blackout latem, a nie sposób na szybkie ładowanie. Za te pieniądze dostajesz jednak lekki, wytrzymały powerbank z możliwością doładowania bez gniazdka.
 
+Więcej powerbanków w różnych pojemnościach i cenach znajdziesz w dziale <a class="aff" href="https://webep1.com/go/6e846ac6d6" rel="sponsored nofollow noopener" target="_blank">powerbanki w Hobby House</a>. Przed zakupem sprawdź pojemność w Wh, nie tylko w mAh.
+
 ## Stacja zasilania: gdy trzeba zasilić router, lampy i laptopa
 
 <div class="product"><img src="/img/produkty/travelbox-500.webp" alt="Bank energii CROSS TOOLS TRAVELBOX 500+" width="132" height="132" loading="lazy" /><div><span class="product-badge">Dla rodziny</span><p class="product-name">Bank energii CROSS TOOLS TRAVELBOX 500+</p><p class="product-meta">ok. 2 082 zł · 555 Wh · 2× gniazdo 230 V (500 W, chwilowo 700 W) · ok. 6 kg</p><p class="pros">Przenośna stacja z dwoma gniazdkami 230 V, portami USB-C i USB-A oraz wyjściami 12 V. Ładowana z gniazdka (ok. 8,4 h), z gniazda samochodowego albo z panelu słonecznego (panel osobno).</p><a class="aff btn-aff" href="https://www.prepersi.eu/sklep/Blackout-zestawy-i-sprzet-na-brak-pradu/bank-energii-powerbank-cross-tools-travelbox-500?tracking=6TjpudogVnmAPlRLSfPdnIfOPpA5HuKEKdfTanbx" rel="sponsored nofollow noopener" target="_blank">Zobacz w sklepie Prepersi</a></div></div>
 
 Szacunkowo: router 10 W przez 1,5–2 doby albo ok. 20 ładowań telefonów. Nie nadaje się do czajnika, grzejnika ani lodówki na dłużej. Te urządzenia pobierają za dużo. Jest to akumulator litowo-jonowy (nie LiFePO4), więc trzymaj go w temperaturze pokojowej i doładowuj co kilka miesięcy.
+
+Jeśli myślisz o czymś większym na dom albo działkę (stacje zasilania, magazyny energii, panele off-grid), szerszy wybór ma <a class="aff" href="https://webep1.com/go/a9b5c4a9d6" rel="sponsored nofollow noopener" target="_blank">ORLLO Energy</a>.
 
 ## Co wybrać
 
