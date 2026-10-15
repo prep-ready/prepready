@@ -22,6 +22,7 @@ User-agent: MistralAI-User
 User-agent: CCBot
 Allow: /
 Disallow: /tg/
+Disallow: /tg-artykuly.json
 Disallow: /contact.php
 Disallow: /schrony/aktualizuj.php
 Disallow: /pl/newsletter/

@@ -3,3 +3,5 @@ dist/
 .astro/
 # Mapa schronów: dane generuje workflow
 public/schrony/dane/
+.tg-content-state.json
+.tg-alerts-state.json
