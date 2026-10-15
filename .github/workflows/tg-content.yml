@@ -1,0 +1,45 @@
+# Treści z bloga do grup Telegram raz dziennie (ok. 10:13 czasu polskiego latem, 9:13 zimą):
+# nowy poradnik / porada dnia → Porady, środa → Sprzęt, piątek → narzędzie, niedziela → pytanie do Dyskusji.
+name: Treści Telegram
+
+on:
+  schedule:
+    - cron: '13 8 * * *'
+  workflow_dispatch:
+    inputs:
+      dry:
+        description: 'Tylko podgląd (nic nie wysyła)'
+        type: boolean
+        default: true
+
+concurrency:
+  group: tg-content
+  cancel-in-progress: false
+
+jobs:
+  content:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Przywróć pamięć ogłoszonych poradników
+        uses: actions/cache/restore@v4
+        with:
+          path: .tg-content-state.json
+          key: tg-content-${{ github.run_id }}
+          restore-keys: tg-content-
+      - name: Wyślij treści
+        env:
+          TG_BOT_PL_TOKEN: ${{ secrets.TG_BOT_PL_TOKEN }}
+          TG_BOT_EN_TOKEN: ${{ secrets.TG_BOT_EN_TOKEN }}
+          TG_DRY: ${{ (github.event_name == 'workflow_dispatch' && inputs.dry) && '1' || '' }}
+        run: node scripts/tg-content.mjs
+      - name: Zapisz pamięć
+        if: github.event_name == 'schedule' || !inputs.dry
+        uses: actions/cache/save@v4
+        with:
+          path: .tg-content-state.json
+          key: tg-content-${{ github.run_id }}
