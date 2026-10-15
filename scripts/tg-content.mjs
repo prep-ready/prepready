@@ -76,6 +76,7 @@ const CFG = {
 };
 
 async function send(c, thread, text, preview = true) {
+  text = text.replace(/ — /g, ', ').replace(/\s+,/g, ',');   // bez półpauz w treści (styl PrepReady)
   if (DRY) { console.log(`\n--- ${c.chat} #${thread} ---\n${text}`); return true; }
   const r = await fetch(`https://api.telegram.org/bot${c.token}/sendMessage`, {
     method: 'POST', headers: { 'Content-Type': 'application/json' },
