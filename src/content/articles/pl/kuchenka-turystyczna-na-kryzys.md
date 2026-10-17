@@ -9,7 +9,6 @@ pubDate: 2026-10-17
 reviewed: 2026-10-17
 author: "Redakcja PrepReady"
 readingMinutes: 9
-draft: true
 sources:
   - name: "Poradnik bezpieczeństwa (MSWiA / COI, 2025), PDF"
     url: "https://www.coi.gov.pl/static/poradnik_bezpieczenstwa_PL.pdf"

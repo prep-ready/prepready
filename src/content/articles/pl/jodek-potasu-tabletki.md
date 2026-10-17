@@ -9,7 +9,6 @@ pubDate: 2026-10-17
 reviewed: 2026-10-17
 author: "Redakcja PrepReady"
 readingMinutes: 8
-draft: true
 sources:
   - name: "WHO: Use of potassium iodide for thyroid protection during nuclear or radiological emergencies (pytania i odpowiedzi)"
     url: "https://www.who.int/news-room/questions-and-answers/item/use-of-potassium-iodide-for-thyroid-protection-during-nuclear-or-radiological-emergencies"

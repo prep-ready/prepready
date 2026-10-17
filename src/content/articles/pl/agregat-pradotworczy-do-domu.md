@@ -9,7 +9,6 @@ pubDate: 2026-10-17
 reviewed: 2026-10-17
 author: "Redakcja PrepReady"
 readingMinutes: 9
-draft: true
 sources:
   - name: "Tauron Dystrybucja: Agregaty prądotwórcze w domu jednorodzinnym (ulotka), PDF"
     url: "https://www.tauron-dystrybucja.pl/-/media/offer-documents/dystrybucja/inne-dokumenty/td-agregaty-pradotworcze-dom-jednorodzinny.ashx"
