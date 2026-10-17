@@ -61,7 +61,7 @@ Do tego kilka rzeczy, o których łatwo zapomnieć:
 - **Samochód trzymaj sprawny i zatankowany**, a w schowku papierową mapę. GPS może nie działać.
 - **Zainstaluj aplikację RSO** (Regionalny System Ostrzegania). Jest bezpłatna.
 
-<!-- AFILIACJA: radio na korbkę z latarką i powerbankiem albo gotowy zestaw zapasów na 72 h -->
+Radio, które działa bez prądu, porównujemy w poradniku [Radio na korbkę](/pl/poradniki/radio-na-korbke/), a gotowe radia awaryjne znajdziesz w dziale <a class="aff" href="https://www.prepersi.eu/sklep/Blackout-zestawy-i-sprzet-na-brak-pradu?tracking=6TjpudogVnmAPlRLSfPdnIfOPpA5HuKEKdfTanbx" rel="sponsored nofollow noopener" target="_blank">sprzęt na brak prądu</a>.
 
 Jeśli możesz zostać zmobilizowany lub wezwany do innych zadań związanych z obroną, poradnik zaleca, żeby poinformować o tym pracodawcę już teraz.
 
@@ -169,3 +169,5 @@ Jeśli masz wątpliwości co do własnej sytuacji, sprawdź informacje w Wojskow
 ## Jedno zadanie na dziś
 
 Nie musisz robić wszystkiego naraz. Zacznij od jednej rzeczy: zainstaluj aplikację RSO, sprawdź na [mapie schronów](/pl/mapa-schronow/), gdzie jest najbliższe miejsce schronienia, i powiedz o nim domownikom. Kolejny krok to [plecak ewakuacyjny](/pl/poradniki/plecak-ewakuacyjny/) dla każdego z Was.
+
+<p class="aff-note">Linki oznaczone ↗ są partnerskie: jeśli coś kupisz, możemy dostać prowizję. Cena się dla Ciebie nie zmienia. Ceny z dnia publikacji, mogą się zmienić.</p>

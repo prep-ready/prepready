@@ -71,8 +71,6 @@ To samo mówią polskie źródła. Ulotka leku Jodek Potasu TZF podaje, że tabl
 
 Taki komunikat usłyszysz w radiu i telewizji, dostaniesz w aplikacji RSO albo jako ALERT RCB. Jak wyglądają sygnały i komunikaty ostrzegawcze, opisujemy w poradniku [Sygnały alarmowe: co oznacza każdy dźwięk](/pl/poradniki/syreny-alarmowe/). Przy wyłączonym prądzie zostaje radio na baterie lub korbkę.
 
-<!-- AFILIACJA: radio na baterie/korbkę z odbiorem FM do słuchania komunikatów służb -->
-
 ### Ile czasu jest na przyjęcie
 
 Moment ma znaczenie, ale ogłaszają go służby. Dla orientacji, co mówią źródła:
@@ -113,6 +111,8 @@ Broszura MSWiA i ulotka wymieniają przeciwwskazania. Nie przyjmuj jodku potasu,
 - **Noworodki** też tylko jedną dawkę. Jeśli lek dostało dziecko w wieku kilku tygodni, trzeba jak najszybciej zgłosić się z nim do lekarza na kontrolę tarczycy.
 - **Osoby po 60. roku życia** według ulotki nie powinny przyjmować więcej niż jednej dawki. Polski plan dystrybucji przewiduje tabletki dla osób do 60 lat.
 - **Dorośli po 40. roku życia:** WHO i ulotka zaznaczają, że blokada tarczycy zwykle nie jest u nich wskazana, bo korzyść jest mniejsza, a ryzyko działań niepożądanych większe. Wyjątkiem są osoby narażone na duże dawki, np. ratownicy. Czy dotyczy to Ciebie, wynika z komunikatu władz.
+
+<p class="note-box"><strong>Źródła się tu różnią.</strong> Polski plan dystrybucji przewiduje tabletki dla dorosłych do 60. roku życia, a WHO i ulotka leku piszą, że po 40. roku życia przyjmowanie zwykle nie jest wskazane. Nie rozstrzygamy tego za Ciebie: jeśli masz 40-60 lat, decyzję podejmij sam, najlepiej po rozmowie z lekarzem rodzinnym lub farmaceutą, i zawsze dopiero wtedy, gdy władze ogłoszą komunikat o przyjęciu tabletek. Warto porozmawiać z lekarzem wcześniej, zanim cokolwiek się wydarzy, zwłaszcza jeśli chorujesz na tarczycę lub serce.</p>
 
 ## Jodek potasu: czy jest szkodliwy?
 

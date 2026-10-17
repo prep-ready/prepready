@@ -63,8 +63,6 @@ Poniższe grupy odpowiadają kategoriom z *Poradnika bezpieczeństwa* MSWiA, uzu
 
 Ile dokładnie wody i jak ją przechowywać, liczymy w poradniku [Zapas wody i jedzenia na kryzys](/pl/poradniki/zapas-wody-i-jedzenia/).
 
-<!-- AFILIACJA: woda w baniakach / zgrzewkach albo pojemniki na wodę pitną z kranikiem -->
-
 ### Co kupić do jedzenia na wypadek wojny
 
 MSWiA zaleca żywność gotową do spożycia, a RCB dodaje: produkty z długą datą ważności, które można zjeść na zimno, bez chłodzenia i bez gotowania. Przykłady z poradnika RCB to batony, konserwy, dania gotowe (bigos, klopsy, fasolka) i suche pieczywo.
@@ -78,7 +76,7 @@ MSWiA zaleca żywność gotową do spożycia, a RCB dodaje: produkty z długą d
 
 Kupuj to, co jecie na co dzień. MSWiA radzi przeglądać zapasy raz na kilka miesięcy i sprawdzać terminy, a łatwiej rotować produkty, które i tak trafiają na talerz. Gotowy jadłospis i ilości na osobę znajdziesz w poradniku [Jedzenie bez gotowania na kryzys](/pl/poradniki/jedzenie-bez-gotowania/).
 
-<!-- AFILIACJA: racje żywnościowe lub żywność liofilizowana z długim terminem ważności -->
+Jeśli wolisz gotowe zapasy z długim terminem, zobacz <a class="aff" href="https://www.prepersi.eu/sklep/zywnosc/liofilizowane?tracking=6TjpudogVnmAPlRLSfPdnIfOPpA5HuKEKdfTanbx" rel="sponsored nofollow noopener" target="_blank">żywność liofilizowaną</a> i <a class="aff" href="https://www.prepersi.eu/sklep/zywnosc/racje-zywnosciowe-survivalowe?tracking=6TjpudogVnmAPlRLSfPdnIfOPpA5HuKEKdfTanbx" rel="sponsored nofollow noopener" target="_blank">racje żywnościowe</a>.
 
 ### Energia i światło
 
@@ -89,7 +87,7 @@ Kupuj to, co jecie na co dzień. MSWiA radzi przeglądać zapasy raz na kilka mi
 
 MSWiA w rozdziale o blackoucie radzi też rozważyć zakup agregatu prądotwórczego. To sprzęt dla domu jednorodzinnego: agregat spalinowy pracuje wyłącznie na zewnątrz, nigdy w mieszkaniu, garażu ani na balkonie.
 
-<!-- AFILIACJA: czołówka LED na baterie AA/AAA i zestaw akumulatorków -->
+Latarki, radia awaryjne i powerbanki zebraliśmy w dziale <a class="aff" href="https://www.prepersi.eu/sklep/Blackout-zestawy-i-sprzet-na-brak-pradu?tracking=6TjpudogVnmAPlRLSfPdnIfOPpA5HuKEKdfTanbx" rel="sponsored nofollow noopener" target="_blank">sprzęt na brak prądu w Sklepie Polskiego Prepersa</a>.
 
 ### Łączność
 
@@ -130,8 +128,6 @@ Dokumenty trzymaj tak, żeby w razie ewakuacji przełożyć je do plecaka w minu
 
 Zasady bezpieczeństwa przy każdym urządzeniu, które coś spala: używaj go zgodnie z instrukcją producenta, nie zasłaniaj kratek wentylacyjnych i często wietrz pomieszczenie. Nigdy nie ogrzewaj mieszkania kuchenką gazową, grillem ani agregatem. Grill ogrodowy, o którym wspomina RCB jako o awaryjnym palenisku, służy tylko na zewnątrz.
 
-<!-- AFILIACJA: czujka tlenku węgla z certyfikatem EN 50291 -->
-
 ## Co trzeba kupić na wypadek wojny najpierw: kolejność przy małym budżecie
 
 Nie musisz kupować wszystkiego naraz. Poniższa kolejność to nasza propozycja redakcyjna: zaczyna od rzeczy, bez których najszybciej robi się groźnie, i od tych najtańszych.
@@ -168,3 +164,5 @@ Pamiętaj też o dezinformacji. Poradniki MSWiA i RCB ostrzegają, żeby nie pod
 Ta sama lista sprawdzi się przy każdym kryzysie, w którym przez kilka dni nie masz dostępu do prądu, wody lub sklepów. Przy długim braku prądu zajrzyj do poradnika [Blackout: jak się przygotować](/pl/poradniki/blackout-jak-sie-przygotowac/), a jeśli mieszkasz w bloku, sprawdź, gdzie jest najbliższe miejsce schronienia na [mapie schronów](/pl/mapa-schronow/).
 
 Zapas raz na kilka miesięcy przejrzyj: wymień wodę z kranu, zjedz produkty, którym kończy się termin, sprawdź baterie i naładuj powerbank. Wygodnie robić to przy zmianie czasu.
+
+<p class="aff-note">Linki oznaczone ↗ są partnerskie: jeśli coś kupisz, możemy dostać prowizję. Cena się dla Ciebie nie zmienia. Ceny z dnia publikacji, mogą się zmienić.</p>

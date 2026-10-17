@@ -95,7 +95,7 @@ Większość domowych urządzeń (lodówka, kocioł, oświetlenie, elektronika) 
 
 Agregat 3-fazowy (400 V) jest potrzebny, gdy masz urządzenia trójfazowe, np. pompę głębinową, hydrofor albo maszyny warsztatowe na 400 V. Uwaga: w wielu agregatach trójfazowych z gniazda 230 V weźmiesz tylko część mocy podanej na tabliczce. Zanim kupisz agregat 10 kW z myślą o domowych gniazdkach, sprawdź w specyfikacji, ile mocy daje jedna faza.
 
-<!-- AFILIACJA: agregaty 3-fazowe ok. 7-10 kW, np. z oferty ORLLO Energy, z wyraźnie podaną mocą na jedną fazę -->
+Agregaty jedno- i trójfazowe, także inwertorowe, ma w ofercie <a class="aff" href="https://webep1.com/go/a9b5c4a9d6" rel="sponsored nofollow noopener" target="_blank">ORLLO Energy</a>. Przed zakupem sprawdź moc na jedną fazę.
 
 ## Agregat inwertorowy czy klasyczny?
 
@@ -107,8 +107,6 @@ Do czego który:
 
 - **Kocioł gazowy, sterowniki, komputer, telewizor, router:** inwertor. Elektronika kotła jest wrażliwa na skoki napięcia. Zanim kupisz agregat do kotła, sprawdź w instrukcji kotła, czy producent ma zalecenia co do zasilania awaryjnego.
 - **Pompa, narzędzia, grzałka, oświetlenie:** wystarczy klasyczny z AVR.
-
-<!-- AFILIACJA: agregat inwertorowy ok. 3-3,5 kW do kotła gazowego i elektroniki (ORLLO Energy lub Hobby House) -->
 
 ## Benzyna, diesel czy gaz LPG?
 
@@ -148,16 +146,12 @@ Zasady:
 - **Nie zostawiaj pracującego agregatu bez nadzoru** i nie dotykaj gorącego silnika ani tłumika.
 - **Zamontuj czujnik czadu** w domu, szczególnie jeśli masz kocioł lub kominek. PSP przy wyborze czujek radzi nie kierować się tylko ceną i wybrać model z certyfikatem zgodności z normą europejską EN (dla czujników czadu to EN 50291).
 
-<!-- AFILIACJA: czujnik tlenku węgla z certyfikatem EN 50291 (Hobby House) -->
-
 ## Przechowywanie paliwa
 
 - Benzynę trzymaj w kanistrach przeznaczonych do paliwa, poza domem, w chłodnym, przewiewnym miejscu i poza zasięgiem dzieci.
 - Rotuj zapas: Honda zaleca nie przechowywać benzyny dłużej niż miesiąc. Starą zużyj do kosiarki czy samochodu i kup świeżą.
 - Tankuj tylko przy wyłączonym i ostygniętym silniku, na zewnątrz.
 - Przed dłuższym przechowywaniem agregatu postępuj według instrukcji producenta (zwykle opróżnienie zbiornika i gaźnika).
-
-<!-- AFILIACJA: atestowane kanistry na paliwo 5-20 l (Hobby House) -->
 
 ## Przeglądy i próby
 
@@ -184,3 +178,5 @@ Do ceny agregatu dolicz montaż przełącznika sieć-agregat przez elektryka, ka
 ## Agregat to nie wszystko
 
 Agregat zasili lodówkę i ogrzewanie, ale nie zastąpi reszty przygotowań: zapasu wody, latarek, radia i planu na pierwsze godziny bez prądu. Opisujemy je w poradniku [Blackout: jak się przygotować](/pl/poradniki/blackout-jak-sie-przygotowac/). Jeśli agregat nie zdąży ruszyć albo zabraknie paliwa, sprawdź, [jak uratować jedzenie z lodówki i zamrażarki](/pl/poradniki/jak-uratowac-jedzenie-bez-pradu/). Do zasilania telefonów i routera w nocy, gdy agregat odpoczywa, przyda się [powerbank albo stacja zasilania](/pl/poradniki/powerbank-na-blackout/).
+
+<p class="aff-note">Linki oznaczone ↗ są partnerskie: jeśli coś kupisz, możemy dostać prowizję. Cena się dla Ciebie nie zmienia. Ceny z dnia publikacji, mogą się zmienić.</p>

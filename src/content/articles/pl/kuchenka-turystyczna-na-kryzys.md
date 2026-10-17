@@ -43,7 +43,7 @@ Pamiętaj, że kuchenka to dodatek do zapasu, a nie jego podstawa. *Poradnik bez
 
 Mały palnik przykręcany od góry do kartusza z gwintowanym zaworem. Kartusz z zaworem możesz odkręcić w dowolnym momencie, a palnik pasuje do kartuszy różnych marek z tym samym typem gwintu. Zestaw jest lekki i mieści się w garnku, więc to pierwszy wybór do [plecaka ewakuacyjnego](/pl/poradniki/plecak-ewakuacyjny/). Minus: wysoki, wąski zestaw łatwo przewrócić, a na jednym małym palniku trudno ugotować obiad dla rodziny.
 
-<!-- AFILIACJA: mała kuchenka turystyczna na kartusz nakręcany EN 417 + kartusze z mieszanką izobutan/propan (Decathlon, Sklep Polskiego Prepersa) -->
+Kuchenki na kartusze, paliwo stałe i spirytus oraz zapasowe kartusze znajdziesz w dziale <a class="aff" href="https://www.prepersi.eu/sklep/Gotowanie-bez-pradu?tracking=6TjpudogVnmAPlRLSfPdnIfOPpA5HuKEKdfTanbx" rel="sponsored nofollow noopener" target="_blank">gotowanie bez prądu w Sklepie Polskiego Prepersa</a>.
 
 ### Kuchenka walizkowa na kartusze butanowe
 
@@ -51,31 +51,21 @@ Płaska kuchenka w plastikowej walizce, zasilana podłużnym kartuszem wkładany
 
 Przykład z instrukcji producenta: Campingaz Camp'Bistro ma moc 2,2 kW, zużywa 160 g gazu na godzinę i działa wyłącznie z kartuszami Campingaz CP 250. W tej samej instrukcji producent zastrzega, że urządzenie należy używać tylko na zewnątrz pomieszczeń, a nie wolno go używać w przyczepach, samochodach, namiotach, szopach ani małych zamkniętych pomieszczeniach. Ten konkretny model nie nadaje się więc do gotowania w mieszkaniu.
 
-<!-- AFILIACJA: kuchenka walizkowa jednopalnikowa na kartusze butanowe + zapas kartuszy (Decathlon, Sklep Polskiego Prepersa) -->
-
 ### Kuchenka turystyczna dwupalnikowa na butlę 11 kg
 
 Kuchenka dwupalnikowa podłączona wężem do butli z gazem propan-butan. Jedna butla to zapas na wiele dni, a dwa palniki pozwalają gotować dla kilku osób. To dobre rozwiązanie na działkę, do domu jednorodzinnego albo garażu z dobrą wentylacją. W bloku ogranicza je prawo, o czym niżej.
-
-<!-- AFILIACJA: kuchenka turystyczna dwupalnikowa na gaz z reduktorem i wężem (Decathlon, Sklep Polskiego Prepersa) -->
 
 ### Kuchenka spirytusowa
 
 Prosty palnik na denaturat lub spirytus. Nie ma w nim nic, co mogłoby się zepsuć, a paliwo nie traci właściwości przez lata. Płomień jest słaby i w jasnym świetle prawie niewidoczny, więc łatwo się poparzyć albo rozlać płonące paliwo. Dobra jako zapasowa kuchenka do plecaka, za słaba do codziennego gotowania dla rodziny.
 
-<!-- AFILIACJA: kuchenka spirytusowa z osłoną od wiatru (Decathlon, Sklep Polskiego Prepersa) -->
-
 ### Kuchenka na paliwo stałe (typu Esbit)
 
 Składany stelaż i tabletki paliwa stałego. Lekka, tania i odporna na mróz, dlatego często trafia do gotowych zestawów ewakuacyjnych. Wystarczy do zagotowania kubka wody albo podgrzania liofilizatu, ale nie do gotowania obiadu. Tabletki przy spalaniu wydzielają zapach, więc używaj ich na zewnątrz albo przy szeroko otwartym oknie.
 
-<!-- AFILIACJA: kuchenka na paliwo stałe + zapas tabletek (Sklep Polskiego Prepersa, Decathlon) -->
-
 ### Kuchenka rakietowa i kuchenki na drewno
 
 Kuchenka rakietowa spala drobne patyki i szyszki w izolowanej komorze, więc grzeje mocno przy małej ilości drewna. Paliwo masz za darmo, ale to sprzęt **wyłącznie na zewnątrz**: na działkę, podwórko, ogród. Na balkonie w bloku odpada ze względu na ogień i dym.
-
-<!-- AFILIACJA: kuchenka rakietowa lub składana kuchenka na drewno (Sklep Polskiego Prepersa) -->
 
 ## Porównanie: jaka kuchenka turystyczna do mieszkania, plecaka i na działkę
 
@@ -138,8 +128,6 @@ Każdy płomień zużywa tlen z pomieszczenia, a przy złym spalaniu powstaje tl
 
 Objawy zatrucia czadem według PSP to m.in. ból i zawroty głowy, zmęczenie, senność, nudności i duszność. Gdy je zauważysz: zgaś płomień, otwórz okna, wyprowadź wszystkich na świeże powietrze i dzwoń pod 112.
 
-<!-- AFILIACJA: czujka tlenku węgla na baterie (Decathlon, Sklep Polskiego Prepersa) -->
-
 ### Przechowywanie kartuszy
 
 - Trzymaj kartusze w chłodnym, suchym i przewiewnym miejscu, z dala od dzieci, słońca i źródeł ciepła. Nie zostawiaj ich latem w samochodzie ani na parapecie w słońcu.
@@ -174,3 +162,5 @@ Długo gotujące się produkty, takie jak suchy groch, fasola czy ryż brązowy,
 ## Jak zacząć
 
 Kup jedną kuchenkę, która pasuje do Twojego mieszkania, i 2-3 kartusze. Zanim przyjdzie kryzys, ugotuj na niej kilka posiłków (na zewnątrz albo, jeśli instrukcja to dopuszcza, w domu przy otwartym oknie): zobaczysz, ile gazu naprawdę zużywasz, i nauczysz się bezpiecznie wymieniać kartusz. Przy okazji zamontuj czujkę czadu na baterie. Kartusze rotuj jak resztę zapasu: zużywaj starsze na wyjazdach, a na ich miejsce kupuj nowe.
+
+<p class="aff-note">Linki oznaczone ↗ są partnerskie: jeśli coś kupisz, możemy dostać prowizję. Cena się dla Ciebie nie zmienia. Ceny z dnia publikacji, mogą się zmienić.</p>

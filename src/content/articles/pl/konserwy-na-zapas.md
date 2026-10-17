@@ -58,7 +58,7 @@ Trzy praktyczne zasady:
 2. **Wybieraj małe opakowania.** Otwartej puszki bez lodówki nie przechowasz, więc jedna konserwa powinna wystarczyć na jeden posiłek. Więcej o porcjowaniu piszemy w poradniku [Jedzenie bez gotowania](/pl/poradniki/jedzenie-bez-gotowania/).
 3. **Licz wodę.** Słone konserwy mięsne i rybne zwiększają pragnienie. Poradnik MSWiA zaleca minimum 3 litry wody na osobę na dobę.
 
-<!-- AFILIACJA: zestaw konserw mięsnych lub rybnych o długim terminie (sklep survivalowy/spożywczy) -->
+Konserwy mięsne i gotowe dania z długim terminem ma m.in. <a class="aff" href="https://www.prepersi.eu/sklep/zywnosc/konserwy?tracking=6TjpudogVnmAPlRLSfPdnIfOPpA5HuKEKdfTanbx" rel="sponsored nofollow noopener" target="_blank">dział konserw w Sklepie Polskiego Prepersa</a>.
 
 ## Konserwy wojskowe: co to jest i czym się różnią
 
@@ -79,7 +79,7 @@ Pod względem bezpieczeństwa i zasad przechowywania konserwa wojskowa niczym si
 
 Przed zakupem sprawdź, czy na puszce lub opakowaniu jest **nazwa i adres producenta, skład, data i oznaczenie partii**, a sprzedawca wystawia paragon. Omijaj puszki bez etykiety, z zatartą datą i z niejasnych ogłoszeń typu „prosto z jednostki”. Kupowanie rzeczy pochodzących z kradzieży to paserstwo, a do tego nie wiesz, jak taka żywność była przechowywana.
 
-<!-- AFILIACJA: konserwy typu wojskowego lub racje żywnościowe z pełnym oznakowaniem producenta -->
+Racje żywnościowe z pełnym oznakowaniem producenta znajdziesz w dziale <a class="aff" href="https://www.prepersi.eu/sklep/zywnosc/racje-zywnosciowe-survivalowe?tracking=6TjpudogVnmAPlRLSfPdnIfOPpA5HuKEKdfTanbx" rel="sponsored nofollow noopener" target="_blank">racje żywnościowe survivalowe</a>.
 
 ## Jak długo można trzymać konserwy
 
@@ -189,8 +189,8 @@ Konserwa bez otwieracza to puszka, której nie zjesz. Elektryczny otwieracz w bl
 - Do plecaka wystarczy mały, składany otwieracz albo multitool z otwieraczem.
 - Dołóż łyżki, worki na śmieci i chusteczki: otwartą puszkę i jej resztki najlepiej od razu zamknąć w worku.
 
-<!-- AFILIACJA: solidny ręczny otwieracz do puszek lub multitool z otwieraczem -->
-
 ## Konserwy na wojnę i dłuższy kryzys
 
 Jeśli myślisz o zapasie na dłuższą sytuację kryzysową, zasady są te same, zmienia się tylko skala. Zacznij od minimum 3 dni, które zaleca Poradnik bezpieczeństwa MSWiA, i dokładaj kolejne tygodnie przy zwykłych zakupach, po kilka puszek. Taki zapas łatwiej rotować i nie zmarnujesz pieniędzy na jednorazowe duże zakupy, które za kilka lat będą po terminie. Do konserw dołóż wodę, pieczywo chrupkie, orzechy i suszone owoce, a do plecaka ewakuacyjnego lżejsze racje żywnościowe.
+
+<p class="aff-note">Linki oznaczone ↗ są partnerskie: jeśli coś kupisz, możemy dostać prowizję. Cena się dla Ciebie nie zmienia. Ceny z dnia publikacji, mogą się zmienić.</p>
