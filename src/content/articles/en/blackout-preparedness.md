@@ -1,6 +1,6 @@
 ---
 title: "Blackout preparedness: how to get ready for a long power cut"
-description: "How to prepare for a blackout: supplies checklist, water, heat, light and communication, what to do in the first hour, and flat-specific risks."
+description: "How to prepare for a blackout or power cut: supplies checklist, water, heat, light and communication, what to do in the first hour, and risks in flats."
 lang: en
 translationKey: blackout-prep
 cluster: blackout
@@ -31,7 +31,7 @@ A blackout is a large, long power cut that takes out a district, a city or a who
 
 The Polish government's Safety Guide warns that a power cut "may last several days". Without power, heating, internet and mobile networks can fail, and in many buildings so can the water.
 
-## The short version
+## How to prepare for a power cut: the short version
 
 - Water: 1 gallon (3.8 l) per person per day, at least 3 days.
 - Light: torches and headlamps with spare batteries, no candles near children or curtains.

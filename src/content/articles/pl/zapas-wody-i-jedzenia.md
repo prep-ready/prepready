@@ -1,6 +1,6 @@
 ---
 title: "Zapas wody i jedzenia na kryzys: ile, co kupić, jak rotować"
-description: "Ile wody i jedzenia trzymać w domu na wypadek kryzysu, co kupić, jak przechowywać i rotować zapas. Według Poradnika bezpieczeństwa MSWiA i CDC."
+description: "Zapasy na 72 godziny i dłużej: ile wody i jedzenia trzymać w domu, lista zakupów, przechowywanie i rotacja. Według Poradnika bezpieczeństwa MSWiA i CDC."
 lang: pl
 translationKey: water-food-supply
 cluster: water-food
@@ -39,14 +39,14 @@ Zapas wody i jedzenia to podstawa przygotowania na każdy kryzys: blackout, pow�
 
 Dla czteroosobowej rodziny minimum to 36 litrów wody, czyli sześć zgrzewek butelek 6 × 1 l albo kilka baniaków. CDC radzi mieć więcej wody dla kobiet w ciąży, osób chorych, zwierząt i przy upałach.
 
-## Co kupić: lista na start
+## Zapasy na 72 godziny: lista na start
 
 Woda:
 - woda butelkowana (najbezpieczniejsze źródło w kryzysie według CDC),
 - filtr do wody albo tabletki do uzdatniania — na wypadek, gdyby zapas się skończył (porównanie: [Filtr do wody na kryzys](/pl/poradniki/filtr-do-wody-na-kryzys/); np. <a class="aff" href="https://www.prepersi.eu/sklep/survival/systemy-uzdatniania-wody?tracking=6TjpudogVnmAPlRLSfPdnIfOPpA5HuKEKdfTanbx" rel="sponsored nofollow noopener" target="_blank">systemy uzdatniania wody</a>).
 
 Jedzenie, które nie wymaga gotowania:
-- konserwy rybne i mięsne, fasola w puszce, gotowe dania w słoikach,
+- konserwy rybne i mięsne, fasola w puszce, gotowe dania w słoikach (jakie wybrać i jak długo trzymać: [Konserwy na zapas](/pl/poradniki/konserwy-na-zapas/)),
 - pieczywo chrupkie, sucharki, krakersy,
 - orzechy, masło orzechowe, suszone owoce, batony,
 - mleko UHT lub w proszku, płatki,
@@ -54,7 +54,7 @@ Jedzenie, które nie wymaga gotowania:
 
 Pełną listę z przykładowym jadłospisem i zasadami porcjowania znajdziesz w poradniku [Jedzenie bez gotowania na kryzys](/pl/poradniki/jedzenie-bez-gotowania/).
 
-Do tego: otwieracz do puszek bez prądu, jednorazowe naczynia, worki na śmieci, a jeśli masz możliwość — kuchenka turystyczna z kartuszami (używaj jej tylko przy otwartym oknie).
+Do tego: otwieracz do puszek bez prądu, jednorazowe naczynia, worki na śmieci, a jeśli masz możliwość, kuchenka turystyczna z kartuszami (na zewnątrz, a w domu tylko jeśli dopuszcza to instrukcja i przy otwartym oknie, więcej w poradniku [Kuchenka turystyczna na kryzys](/pl/poradniki/kuchenka-turystyczna-na-kryzys/)).
 
 ## Jak przechowywać zapas
 
