@@ -95,7 +95,7 @@ MSWiA w rozdziale o blackoucie radzi też rozważyć zakup agregatu prądotwórc
 
 - **Radio na baterie lub na korbkę.** Gdy nie działa internet i telefonia, radio jest głównym źródłem komunikatów. Modele z dynamem porównujemy w poradniku [Radio na korbkę](/pl/poradniki/radio-na-korbke/).
 - **Naładowany telefon** z zainstalowaną aplikacją Alert RCB lub RSO.
-- **Krótkofalówki albo CB radio:** MSWiA wymienia je jako alternatywną łączność, przydatną zwłaszcza w rodzinie mieszkającej blisko siebie.
+- **Krótkofalówki albo CB radio:** MSWiA wymienia je jako alternatywną łączność. Przydają się zwłaszcza w rodzinie mieszkającej blisko siebie.
 
 Zapisz na kartce najważniejsze numery telefonów. Gdy telefon się rozładuje, nie odczytasz ich z kontaktów.
 

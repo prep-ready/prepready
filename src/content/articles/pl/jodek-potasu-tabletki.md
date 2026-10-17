@@ -18,6 +18,10 @@ sources:
     url: "https://www.gov.pl/web/uw-opolski/dystrybucja-tabletek-jodku-potasu-na-terenie-wojewodztwa-opolskiego"
   - name: "Świętokrzyski Urząd Wojewódzki: Jodek potasu, pytania i odpowiedzi (PDF)"
     url: "https://www.kielce.uw.gov.pl/pl/biuro-prasowe/aktualnosci/22641,Jodek-potasu-pytania.pdf"
+  - name: "Podlaski Urząd Wojewódzki: Dystrybucja jodku potasu"
+    url: "https://www.gov.pl/web/uw-podlaski/dystrybucja-jodku-potasu"
+  - name: "Mazowiecki Urząd Wojewódzki: Dystrybucja tabletek jodku potasu na terenie województwa mazowieckiego"
+    url: "https://www.gov.pl/web/uw-mazowiecki/dystrybucja-tabletek-jodku-potasu-na-terenie-wojewodztwa-mazowieckiego-w-przypadku-zagrozenia-radiacyjnego"
   - name: "Ulotka dla pacjenta: Jodek Potasu TZF 65 mg (Rejestr Produktów Leczniczych, e-Zdrowie)"
     url: "https://rejestry.ezdrowie.gov.pl/api/rpl/medicinal-products/48033/leaflet"
   - name: "Ministerstwo Zdrowia: odpowiedź na interpelację nr 6044 w sprawie jodowania soli (PDF)"
@@ -89,7 +93,7 @@ Nie podajemy własnych schematów. Poniższa tabela to dosłownie dane z broszur
 | Dzieci od 1 miesiąca do 3 lat | ½ tabletki | 25 mg |
 | Noworodki (do 1 miesiąca) | ¼ tabletki | 12,5 mg |
 
-**Dawkę i moment przyjęcia ogłaszają służby w komunikacie.** Zawsze kieruj się komunikatem i ulotką dołączoną do opakowania, które dostaniesz. Tabletki można dzielić wzdłuż linii podziału. Według broszury można je żuć, połknąć w całości, a małym dzieciom rozkruszyć i rozpuścić w wodzie, syropie lub innym płynie.
+**Dawkę i moment przyjęcia ogłaszają służby w komunikacie.** Zawsze kieruj się komunikatem i ulotką dołączoną do opakowania, które dostaniesz. Tabletki można dzielić wzdłuż linii podziału. Według broszury można je rozgryzać lub połknąć w całości, a dzieciom karmionym piersią rozkruszyć i rozpuścić w wodzie, syropie lub innym płynie.
 
 ## Kto nie powinien przyjmować jodku potasu
 
@@ -129,7 +133,7 @@ Państwo przygotowało tabletki z wyprzedzeniem. Według MSWiA (wrzesień 2022) 
 
 - **Sprawdź, gdzie jest Twój punkt.** Listy punktów publikują urzędy wojewódzkie i gminy na swoich stronach. Wpisz w wyszukiwarkę nazwę swojej gminy i „punkty wydawania jodku potasu”.
 - **Jedna osoba może odebrać tabletki dla domowników.** Nie odbierajcie ich jednak dla tych samych osób w różnych punktach, żeby nie brać nadmiaru.
-- **Szkoły nie będą wydawać tabletek uczniom**, nawet jeśli w szkole jest punkt wydawania dla mieszkańców.
+- **Szkoły nie wydają tabletek swoim uczniom** (tak zastrzega np. Świętokrzyski Urząd Wojewódzki), nawet jeśli w szkole jest punkt wydawania dla mieszkańców.
 - **Do każdego opakowania dołączona jest ulotka** z dawkowaniem i środkami ostrożności.
 
 Jeśli komunikat każe zostać w budynku, nie wychodź po tabletki na własną rękę, tylko postępuj według poleceń służb. Gdzie się schronić w bloku, opisujemy w poradniku [Schron w bloku: gdzie się ukryć](/pl/poradniki/schron-w-bloku/), a najbliższe miejsca schronienia znajdziesz na naszej [mapie schronów](/pl/mapa-schronow/).

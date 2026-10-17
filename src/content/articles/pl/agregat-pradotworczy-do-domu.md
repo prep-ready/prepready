@@ -20,6 +20,8 @@ sources:
     url: "https://www.mojahonda.pl/download/agregaty/EA6200_MA_21.pdf"
   - name: "Honda Power Equipment Canada: Generators (dobór mocy, bezpieczeństwo), PDF"
     url: "https://integration-powerequipment.honda.ca/Content/pe.honda.ca/c8bb9551-1f5b-40fd-90a5-38a7cfce00fd/SafetyPage_DownloadExplore_GenericLink/Generators_En.pdf"
+  - name: "CDC: Use a Generator Safely (odległość od budynku)"
+    url: "https://www.cdc.gov/natural-disasters/psa-toolkit/use-a-generator-safely.html"
   - name: "Media Expert: agregaty prądotwórcze (ceny sprawdzone 17.10.2026)"
     url: "https://www.mediaexpert.pl/dom-i-ogrod/agregaty/waga-kg_96-8"
 faq:
@@ -28,7 +30,7 @@ faq:
   - q: "Czy można podłączyć agregat do gniazdka w domu?"
     a: "Nie. Tauron Dystrybucja wprost ostrzega, żeby nigdy nie podłączać agregatu do zwykłego gniazdka w ścianie. Bezpieczne są dwie drogi: przełącznik sieć-agregat w rozdzielnicy montowany przez elektryka z uprawnieniami albo podłączanie pojedynczych urządzeń bezpośrednio do agregatu."
   - q: "Czy agregat może stać w garażu?"
-    a: "Nie. Spaliny zawierają tlenek węgla, który może zabić. Agregat uruchamiaj tylko na zewnątrz, z dala od okien i drzwi. Honda zaleca co najmniej 1 metr od ściany budynku."
+    a: "Nie. Spaliny zawierają tlenek węgla, który może zabić. Agregat uruchamiaj tylko na zewnątrz, z dala od okien, drzwi i kratek wentylacyjnych. Amerykańskie CDC zaleca co najmniej 6 metrów od drzwi, okien i otworów wentylacyjnych."
   - q: "Jaki agregat do pieca gazowego?"
     a: "Do kotła z elektroniką najczęściej poleca się agregat inwertorowy, bo daje stabilniejsze napięcie. Sam kocioł z pompą zwykle pobiera niewiele, ale sprawdź zalecenia producenta kotła i jego tabliczkę znamionową."
 ---
@@ -57,7 +59,7 @@ Przykład z instrukcji Hondy EA6200: 5,7 kW mocy znamionowej i 6,2 kW maksymalne
 | Urządzenie | Moc w pracy | Moc przy rozruchu |
 | --- | --- | --- |
 | Lodówka lub zamrażarka | do ok. 700 W | do ok. 2 200 W |
-| Pompa wody ok. 0,5 KM | ok. 1 000 W | ok. 2 100 W |
+| Pompa odwadniająca ok. 0,5 KM (pompa głębinowa bywa mniejsza, sprawdź tabliczkę) | ok. 1 000 W | ok. 2 100 W |
 | Kocioł gazowy lub piec CO z pompą obiegową | ok. 100-200 W (szacunek) | niewiele więcej |
 | Oświetlenie LED, 10 żarówek | ok. 50-100 W | bez skoku |
 | Komputer | ok. 150 W | bez skoku |
@@ -131,7 +133,7 @@ Dla stacjonarnych agregatów, które same startują po zaniku prądu, stosuje si
 
 ### Kolejność pracy z przełącznikiem
 
-Według Tauronu: ustaw agregat, sprawdź paliwo i olej, podłącz go do dedykowanego gniazda, uruchom, przełącz na pozycję "agregat" i włączaj urządzenia stopniowo. Gdy wróci prąd z sieci: wyłącz urządzenia, ustaw przełącznik w pozycji 0, zgaś agregat i dopiero wtedy przełącz na sieć.
+Według Tauronu: wyłącz urządzenia w domu, ustaw przełącznik w pozycji 0, sprawdź izolację przewodów, podłącz agregat do dedykowanego gniazda, sprawdź paliwo i olej, uruchom, przełącz na pozycję "agregat" i włączaj urządzenia stopniowo. Gdy wróci prąd z sieci: wyłącz urządzenia, ustaw przełącznik w pozycji 0, zgaś agregat i dopiero wtedy przełącz na sieć.
 
 ## Czad: gdzie postawić agregat
 
@@ -141,10 +143,10 @@ Zasady:
 
 - **Nigdy w domu, w garażu, w piwnicy ani w zamkniętym pomieszczeniu.** Także nie przy uchylonej bramie garażu.
 - **Nigdy na balkonie ani na klatce schodowej.**
-- **Na zewnątrz, z dala od okien, drzwi i kratek wentylacyjnych.** Honda zaleca co najmniej 1 metr od ściany budynku i innych urządzeń.
+- **Na zewnątrz, z dala od okien, drzwi i kratek wentylacyjnych.** Amerykańskie CDC zaleca co najmniej 6 metrów od drzwi, okien i otworów wentylacyjnych. Minimum 1 metr od ściany budynku i innych urządzeń, które podaje instrukcja Hondy, nie chroni przed spalinami wpadającymi przez okno.
 - **Stabilne, suche podłoże.** Daszek od deszczu jest w porządku, szczelna obudowa nie.
 - **Nie zostawiaj pracującego agregatu bez nadzoru** i nie dotykaj gorącego silnika ani tłumika.
-- **Zamontuj czujnik czadu** w domu, szczególnie jeśli masz kocioł lub kominek. PSP radzi wybrać czujnik z certyfikatem zgodności z normą europejską, a nie najtańszy.
+- **Zamontuj czujnik czadu** w domu, szczególnie jeśli masz kocioł lub kominek. PSP przy wyborze czujek radzi nie kierować się tylko ceną i wybrać model z certyfikatem zgodności z normą europejską EN (dla czujników czadu to EN 50291).
 
 <!-- AFILIACJA: czujnik tlenku węgla z certyfikatem EN 50291 (Hobby House) -->
 

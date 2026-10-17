@@ -47,9 +47,9 @@ Mały palnik przykręcany od góry do kartusza z gwintowanym zaworem. Kartusz z 
 
 ### Kuchenka walizkowa na kartusze butanowe
 
-Płaska kuchenka w plastikowej walizce, zasilana podłużnym kartuszem wkładanym z boku i blokowanym zaczepem (stąd potoczna nazwa: kartusze „bagnetowe”). Stoi stabilnie jak zwykła płyta, uniesie duży garnek, a kartusze kupisz w wielu marketach. W domu to najwygodniejsza kuchenka gazowa przenośna. Minus: kartusze z czystym butanem źle działają na mrozie, a sama kuchenka jest za duża do plecaka.
+Płaska kuchenka w plastikowej walizce, zasilana podłużnym kartuszem wkładanym z boku i blokowanym zaczepem (stąd potoczna nazwa: kartusze „bagnetowe”). Stoi stabilnie jak zwykła płyta, uniesie duży garnek, a kartusze kupisz w wielu marketach. W domu to najwygodniejsza kuchenka gazowa przenośna, o ile instrukcja Twojego modelu dopuszcza użycie w pomieszczeniu. Minus: kartusze z czystym butanem źle działają na mrozie, a sama kuchenka jest za duża do plecaka.
 
-Przykład z instrukcji producenta: Campingaz Camp'Bistro ma moc 2,2 kW, zużywa 160 g gazu na godzinę i działa wyłącznie z kartuszami Campingaz CP 250. W tej samej instrukcji producent zastrzega, że kuchenki nie wolno używać w przyczepach, samochodach, namiotach, szopach ani małych zamkniętych pomieszczeniach.
+Przykład z instrukcji producenta: Campingaz Camp'Bistro ma moc 2,2 kW, zużywa 160 g gazu na godzinę i działa wyłącznie z kartuszami Campingaz CP 250. W tej samej instrukcji producent zastrzega, że urządzenie należy używać tylko na zewnątrz pomieszczeń, a nie wolno go używać w przyczepach, samochodach, namiotach, szopach ani małych zamkniętych pomieszczeniach. Ten konkretny model nie nadaje się więc do gotowania w mieszkaniu.
 
 <!-- AFILIACJA: kuchenka walizkowa jednopalnikowa na kartusze butanowe + zapas kartuszy (Decathlon, Sklep Polskiego Prepersa) -->
 
@@ -130,7 +130,7 @@ Każdy płomień zużywa tlen z pomieszczenia, a przy złym spalaniu powstaje tl
 - **Nie zasłaniaj kratek wentylacyjnych**, nawet gdy w mieszkaniu jest zimno.
 - **Nigdy nie ogrzewaj mieszkania kuchenką gazową.** Według PSP długie spalanie gazu obniża zawartość tlenu w powietrzu, a przy niedrożnej wentylacji może dojść do śmiertelnego zatrucia.
 - **Nie gotuj w namiocie, samochodzie, przyczepie ani małym zamkniętym pomieszczeniu.** Taki zakaz zawiera wprost np. instrukcja kuchenki Campingaz.
-- **Sprawdź instrukcję swojej kuchenki.** Wielu producentów dopuszcza tylko użytek na zewnątrz. Jeśli tak jest w Twoim modelu, w kryzysie gotuj przy szeroko otwartym oknie, jak najkrócej i nie zostawiaj płomienia bez nadzoru.
+- **Sprawdź instrukcję swojej kuchenki.** Wielu producentów dopuszcza tylko użytek na zewnątrz. Jeśli tak jest w Twoim modelu, nie używaj go w mieszkaniu: gotuj na zewnątrz albo kup model, którego instrukcja dopuszcza użycie w pomieszczeniu. Nawet wtedy gotuj przy szeroko otwartym oknie, jak najkrócej i nie zostawiaj płomienia bez nadzoru.
 
 ### Czujka czadu
 
@@ -173,4 +173,4 @@ Długo gotujące się produkty, takie jak suchy groch, fasola czy ryż brązowy,
 
 ## Jak zacząć
 
-Kup jedną kuchenkę, która pasuje do Twojego mieszkania, i 2-3 kartusze. Zanim przyjdzie kryzys, ugotuj na niej kilka posiłków przy otwartym oknie: zobaczysz, ile gazu naprawdę zużywasz, i nauczysz się bezpiecznie wymieniać kartusz. Przy okazji zamontuj czujkę czadu na baterie. Kartusze rotuj jak resztę zapasu: zużywaj starsze na wyjazdach, a na ich miejsce kupuj nowe.
+Kup jedną kuchenkę, która pasuje do Twojego mieszkania, i 2-3 kartusze. Zanim przyjdzie kryzys, ugotuj na niej kilka posiłków (na zewnątrz albo, jeśli instrukcja to dopuszcza, w domu przy otwartym oknie): zobaczysz, ile gazu naprawdę zużywasz, i nauczysz się bezpiecznie wymieniać kartusz. Przy okazji zamontuj czujkę czadu na baterie. Kartusze rotuj jak resztę zapasu: zużywaj starsze na wyjazdach, a na ich miejsce kupuj nowe.

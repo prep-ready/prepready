@@ -54,7 +54,7 @@ Jedzenie, które nie wymaga gotowania:
 
 Pełną listę z przykładowym jadłospisem i zasadami porcjowania znajdziesz w poradniku [Jedzenie bez gotowania na kryzys](/pl/poradniki/jedzenie-bez-gotowania/).
 
-Do tego: otwieracz do puszek bez prądu, jednorazowe naczynia, worki na śmieci, a jeśli masz możliwość, kuchenka turystyczna z kartuszami (używaj jej tylko przy otwartym oknie, więcej w poradniku [Kuchenka turystyczna na kryzys](/pl/poradniki/kuchenka-turystyczna-na-kryzys/)).
+Do tego: otwieracz do puszek bez prądu, jednorazowe naczynia, worki na śmieci, a jeśli masz możliwość, kuchenka turystyczna z kartuszami (na zewnątrz, a w domu tylko jeśli dopuszcza to instrukcja i przy otwartym oknie, więcej w poradniku [Kuchenka turystyczna na kryzys](/pl/poradniki/kuchenka-turystyczna-na-kryzys/)).
 
 ## Jak przechowywać zapas
 

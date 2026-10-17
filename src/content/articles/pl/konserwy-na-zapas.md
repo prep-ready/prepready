@@ -176,7 +176,7 @@ Konserwy przemysłowe są wyjaławiane w czasie produkcji, więc większość mo
 - gotowe danie w galarecie lub sosie zjedzone na zimno, z pieczywem,
 - owoce z puszki jako deser, zalewa owocowa jako napój.
 
-Jeśli masz czym podgrzać, przełóż jedzenie do garnka. **Nie podgrzewaj zamkniętej puszki** nad ogniem ani w ognisku: ciśnienie może ją rozerwać. Bezpieczne podgrzewanie opisujemy w poradniku [Kuchenka turystyczna na kryzys](/pl/poradniki/kuchenka-turystyczna-na-kryzys/). Pamiętaj, że kuchenki gazowej turystycznej używa się tylko przy otwartym oknie lub na zewnątrz.
+Jeśli masz czym podgrzać, przełóż jedzenie do garnka. **Nie podgrzewaj zamkniętej puszki** nad ogniem ani w ognisku: ciśnienie może ją rozerwać. Bezpieczne podgrzewanie opisujemy w poradniku [Kuchenka turystyczna na kryzys](/pl/poradniki/kuchenka-turystyczna-na-kryzys/). Pamiętaj, że kuchenki gazowej turystycznej używa się na zewnątrz, a w domu tylko wtedy, gdy dopuszcza to instrukcja, i zawsze przy otwartym oknie.
 
 Gdy prąd wyłączą, zanim sięgniesz po puszki, zjedz to, co jest w lodówce i zamrażarce. Jak to zaplanować, piszemy w poradniku [Jak uratować jedzenie bez prądu](/pl/poradniki/jak-uratowac-jedzenie-bez-pradu/).
 
