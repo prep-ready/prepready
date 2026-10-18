@@ -10,11 +10,11 @@ reviewed: 2026-09-26
 author: "PrepReady Editors"
 readingMinutes: 7
 sources:
-  - name: "Ready.gov — Make a Plan"
+  - name: "Ready.gov: Make a Plan"
     url: "https://www.ready.gov/plan"
-  - name: "FCC / FEMA — Emergency Communications Tips"
+  - name: "FCC / FEMA: Emergency Communications Tips"
     url: "https://www.fcc.gov/emergency"
-  - name: "Polish Ministry of the Interior — Safety Guide (PDF, Polish)"
+  - name: "Polish Ministry of the Interior: Safety Guide (PDF, Polish)"
     url: "https://www.coi.gov.pl/static/poradnik_bezpieczenstwa_PL.pdf"
 faq:
   - q: "What should a family emergency plan include?"

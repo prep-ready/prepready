@@ -10,9 +10,9 @@ reviewed: 2026-09-25
 author: "PrepReady Editors"
 readingMinutes: 8
 sources:
-  - name: "Ready.gov — Build a Kit"
+  - name: "Ready.gov: Build a Kit"
     url: "https://www.ready.gov/kit"
-  - name: "Polish Ministry of the Interior — Safety Guide (PDF, Polish)"
+  - name: "Polish Ministry of the Interior: Safety Guide (PDF, Polish)"
     url: "https://www.coi.gov.pl/static/poradnik_bezpieczenstwa_PL.pdf"
 faq:
   - q: "How much water should a go-bag hold?"
@@ -23,7 +23,7 @@ faq:
     a: "Every six months: food and medication expiry dates, battery charge, children's clothing sizes. The clock change is an easy reminder."
 ---
 
-A go-bag is the bag you grab within five minutes when you must leave home — because of a fire, flood, chemical accident or military threat. It should keep you going for at least 72 hours without shops, power or mobile signal.
+A go-bag is the bag you grab within five minutes when you must leave home, because of a fire, flood, chemical accident or military threat. It should keep you going for at least 72 hours without shops, power or mobile signal.
 
 This list combines guidance from [Ready.gov](https://www.ready.gov/kit) and the Polish government's *Safety Guide*. Quantities are per adult.
 
@@ -37,15 +37,15 @@ This list combines guidance from [Ready.gov](https://www.ready.gov/kit) and the 
 | Documents & cash | Copies of ID and key documents, a USB stick with scans, cash in small notes | waterproof pouch |
 | Light & comms | Flashlight, battery or hand-crank radio, charged phone, power bank, cables, batteries | 2 spare sets of batteries |
 | Clothing & sleep | Seasonal layers, rain jacket, sleeping bag, mat, emergency blanket | one change |
-| Tools | Multi-tool, whistle, dust mask, lighter, bin bags, duct tape, printed local map | — |
-| Personal | Family photo, small keepsake, a toy for a child | — |
+| Tools | Multi-tool, whistle, dust mask, lighter, bin bags, duct tape, printed local map | – |
+| Personal | Family photo, small keepsake, a toy for a child | – |
 
 ## Packing order
 
-1. Bottom — heaviest, least-used items: sleeping bag, spare food, change of clothes.
-2. Middle, close to your back — water. Weight near the spine is the least tiring.
-3. Top — first-aid kit, rain jacket, flashlight.
-4. Outer pockets — documents, cash, phone, power bank, today's medication.
+1. Bottom: the heaviest, least-used items (sleeping bag, spare food, change of clothes).
+2. Middle, close to your back: water. Weight near the spine is the least tiring.
+3. Top: first-aid kit, rain jacket, flashlight.
+4. Outer pockets: documents, cash, phone, power bank, today's medication.
 
 A packed adult bag should weigh no more than about 10–12 kg. Walk a few kilometres with it once to be sure.
 
@@ -59,8 +59,8 @@ A packed adult bag should weigh no more than about 10–12 kg. Walk a few kilome
 
 ## Where to keep it
 
-By the front door or in the hall cupboard — somewhere everyone at home knows. Not in the basement or the car boot: you may not be able to reach them in an emergency.
+By the front door or in the hall cupboard, somewhere everyone at home knows. Not in the basement or the car boot: you may not be able to reach them in an emergency.
 
 ## Before you buy anything
 
-Start with what you already own. Most of the list is everyday stuff: a torch, old clothes, a first-aid kit, document copies. Buy only the gaps — our [interactive checklist](/en/checklists/72-hour-bag/) shows what is missing and saves your progress.
+Start with what you already own. Most of the list is everyday stuff: a torch, old clothes, a first-aid kit, document copies. Buy only the gaps. Our [interactive checklist](/en/checklists/72-hour-bag/) shows what is missing and saves your progress.

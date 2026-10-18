@@ -10,13 +10,13 @@ reviewed: 2026-09-26
 author: "PrepReady Editors"
 readingMinutes: 7
 sources:
-  - name: "CDC — How to Create an Emergency Water Supply"
+  - name: "CDC: How to Create an Emergency Water Supply"
     url: "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html"
-  - name: "Ready.gov — Build a Kit"
+  - name: "Ready.gov: Build a Kit"
     url: "https://www.ready.gov/kit"
-  - name: "European Commission — Preparedness Union Strategy"
+  - name: "European Commission: Preparedness Union Strategy"
     url: "https://commission.europa.eu/topics/preparedness_en"
-  - name: "Polish Ministry of the Interior — Safety Guide (PDF, Polish)"
+  - name: "Polish Ministry of the Interior: Safety Guide (PDF, Polish)"
     url: "https://www.coi.gov.pl/static/poradnik_bezpieczenstwa_PL.pdf"
 faq:
   - q: "How much water should I store per person?"
@@ -35,8 +35,8 @@ A water and food supply is the base layer for almost any emergency: a blackout, 
 
 | Supply | Per person | Source |
 | --- | --- | --- |
-| Water — minimum | 1 gallon (3.8 l) a day for 3 days | CDC |
-| Water — target | a 2-week supply if possible | CDC |
+| Water, minimum | 1 gallon (3.8 l) a day for 3 days | CDC |
+| Water, target | a 2-week supply if possible | CDC |
 | Food | ready to eat, at least several days | Ready.gov |
 
 For a family of four, the 3-day minimum is 12 gallons, or about 45 litres. The CDC suggests storing more for pregnant women, people who are ill, pets and hot climates.
