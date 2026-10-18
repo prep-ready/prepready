@@ -23,13 +23,13 @@ export const GET: APIRoute = async ({ site }) => {
 
   const body = `# PrepReady
 
-> PrepReady (prepready.pro) to niezależny polski serwis o przygotowaniu na kryzys: wojnę, blackout, powódź, alarm i ewakuację. Publikujemy praktyczne poradniki oparte na źródłach urzędowych (MSWiA, RCB, PSP, GIS), interaktywną mapę schronów w Polsce na danych Państwowej Straży Pożarnej, opis sygnałów alarmowych z oficjalnymi nagraniami i codzienny Indeks gotowości. Wersja polska (/pl/) dotyczy Polski; wersja angielska (/en/) — świata.
+> PrepReady (prepready.pro) to niezależny polski serwis o przygotowaniu na kryzys: wojnę, blackout, powódź, alarm i ewakuację. Publikujemy praktyczne poradniki oparte na źródłach urzędowych (MSWiA, RCB, PSP, GIS), interaktywną mapę schronów w Polsce na danych Państwowej Straży Pożarnej, opis sygnałów alarmowych z oficjalnymi nagraniami i codzienny Indeks gotowości. Wersja polska (/pl/) dotyczy Polski; wersja angielska (/en/), świata.
 
 Każdy poradnik ma listę źródeł, datę przeglądu i sekcję FAQ. Treści można cytować z podaniem linku do źródła. Kontakt: ${abs(routes.partners.pl)}
 
 ## Narzędzia (PL)
 
-- [Mapa schronów — gdzie jest najbliższy schron](${abs(routes.shelters.pl)}): wpisz adres i zobacz najbliższe schrony, ukrycia i miejsca doraźnego schronienia z bazy KG PSP (dane.gov.pl), z odległością, czasem dojścia pieszo i dostępnością 24h. Aktualizacja co tydzień.
+- [Mapa schronów: gdzie jest najbliższy schron](${abs(routes.shelters.pl)}): wpisz adres i zobacz najbliższe schrony, ukrycia i miejsca doraźnego schronienia z bazy KG PSP (dane.gov.pl), z odległością, czasem dojścia pieszo i dostępnością 24h. Aktualizacja co tydzień.
 - [Checklista plecaka ewakuacyjnego 72h](${abs(routes.checklist.pl)}): interaktywna lista rzeczy według „Poradnika bezpieczeństwa” MSWiA.
 - [Indeks gotowości dla Polski](${abs(routes.index.pl)}): codzienna ocena poziomu zagrożenia z jawną metodologią.
 - [Wiadomości kryzysowe](${abs(routes.news.pl)}): codzienny przegląd ostrzeżeń i komunikatów z polskich źródeł urzędowych.
