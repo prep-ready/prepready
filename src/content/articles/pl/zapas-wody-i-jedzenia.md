@@ -12,9 +12,9 @@ readingMinutes: 7
 sources:
   - name: "Poradnik bezpieczeństwa (MSWiA / COI, 2025), PDF"
     url: "https://www.coi.gov.pl/static/poradnik_bezpieczenstwa_PL.pdf"
-  - name: "CDC — How to Create an Emergency Water Supply"
+  - name: "CDC: How to Create an Emergency Water Supply"
     url: "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html"
-  - name: "Komisja Europejska — Strategia gotowości (Preparedness Union Strategy)"
+  - name: "Komisja Europejska: Strategia gotowości (Preparedness Union Strategy)"
     url: "https://commission.europa.eu/topics/preparedness_en"
 faq:
   - q: "Ile wody na osobę trzymać w domu?"
@@ -33,8 +33,8 @@ Zapas wody i jedzenia to podstawa przygotowania na każdy kryzys: blackout, pow�
 
 | Zapas | Ile na osobę | Źródło |
 | --- | --- | --- |
-| Woda — minimum | 3 litry na dobę × 3 dni = 9 litrów | Poradnik bezpieczeństwa MSWiA |
-| Woda — docelowo | zapas na 2 tygodnie | CDC |
+| Woda, minimum | 3 litry na dobę × 3 dni = 9 litrów | Poradnik bezpieczeństwa MSWiA |
+| Woda, docelowo | zapas na 2 tygodnie | CDC |
 | Jedzenie | gotowe do zjedzenia, na min. 3 dni | Poradnik bezpieczeństwa MSWiA |
 
 Dla czteroosobowej rodziny minimum to 36 litrów wody, czyli sześć zgrzewek butelek 6 × 1 l albo kilka baniaków. CDC radzi mieć więcej wody dla kobiet w ciąży, osób chorych, zwierząt i przy upałach.
@@ -43,7 +43,7 @@ Dla czteroosobowej rodziny minimum to 36 litrów wody, czyli sześć zgrzewek bu
 
 Woda:
 - woda butelkowana (najbezpieczniejsze źródło w kryzysie według CDC),
-- filtr do wody albo tabletki do uzdatniania — na wypadek, gdyby zapas się skończył (porównanie: [Filtr do wody na kryzys](/pl/poradniki/filtr-do-wody-na-kryzys/); np. <a class="aff" href="https://www.prepersi.eu/sklep/survival/systemy-uzdatniania-wody?tracking=6TjpudogVnmAPlRLSfPdnIfOPpA5HuKEKdfTanbx" rel="sponsored nofollow noopener" target="_blank">systemy uzdatniania wody</a>).
+- filtr do wody albo tabletki do uzdatniania: na wypadek, gdyby zapas się skończył (porównanie: [Filtr do wody na kryzys](/pl/poradniki/filtr-do-wody-na-kryzys/); np. <a class="aff" href="https://www.prepersi.eu/sklep/survival/systemy-uzdatniania-wody?tracking=6TjpudogVnmAPlRLSfPdnIfOPpA5HuKEKdfTanbx" rel="sponsored nofollow noopener" target="_blank">systemy uzdatniania wody</a>).
 
 Jedzenie, które nie wymaga gotowania:
 - konserwy rybne i mięsne, fasola w puszce, gotowe dania w słoikach (jakie wybrać i jak długo trzymać: [Konserwy na zapas](/pl/poradniki/konserwy-na-zapas/)),
@@ -70,7 +70,7 @@ Poradnik MSWiA radzi przeglądać zapasy co kilka miesięcy i sprawdzać daty wa
 1. Kupuj to, co jecie na co dzień.
 2. Nowe opakowania stawiaj z tyłu, starsze wysuwaj do przodu.
 3. Raz na kwartał zjedz to, czemu kończy się termin, i odkup.
-4. Wodę z kranu wymieniaj co pół roku — np. przy zmianie czasu.
+4. Wodę z kranu wymieniaj co pół roku, np. przy zmianie czasu.
 
 ## Częste błędy
 

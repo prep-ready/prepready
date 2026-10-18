@@ -10,9 +10,9 @@ reviewed: 2026-09-27
 author: "Redakcja PrepReady"
 readingMinutes: 7
 sources:
-  - name: "CDC — Water Treatment Options When Hiking, Camping, or Traveling"
+  - name: "CDC: Water Treatment Options When Hiking, Camping, or Traveling"
     url: "https://www.cdc.gov/drinking-water/prevention/water-treatment-hiking-camping-traveling.html"
-  - name: "CDC — How to Make Water Safe in an Emergency"
+  - name: "CDC: How to Make Water Safe in an Emergency"
     url: "https://www.cdc.gov/water-emergency/about/index.html"
   - name: "Poradnik bezpieczeństwa (MSWiA / COI, 2025), PDF"
     url: "https://www.coi.gov.pl/static/poradnik_bezpieczenstwa_PL.pdf"

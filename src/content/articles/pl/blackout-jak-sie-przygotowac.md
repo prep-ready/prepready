@@ -12,9 +12,9 @@ readingMinutes: 8
 sources:
   - name: "Poradnik bezpieczeństwa (MSWiA / COI, 2025), PDF"
     url: "https://www.coi.gov.pl/static/poradnik_bezpieczenstwa_PL.pdf"
-  - name: "Urząd m.st. Warszawy — Przygotowanie na wypadek awarii elektroenergetycznej"
+  - name: "Urząd m.st. Warszawy: Przygotowanie na wypadek awarii elektroenergetycznej"
     url: "https://bezpieczna.um.warszawa.pl/-/przygotowanie-na-wypadek-awarii-elektroenergetycznej-blackout"
-  - name: "ENTSO-E — raport o blackoucie w Hiszpanii i Portugalii (28.04.2025)"
+  - name: "ENTSO-E: raport o blackoucie w Hiszpanii i Portugalii (28.04.2025)"
     url: "https://www.entsoe.eu/publications/blackout/28-april-2025-iberian-blackout/"
 faq:
   - q: "Ile może trwać blackout w Polsce?"
@@ -64,7 +64,7 @@ Mieszkanie w bloku ma swoje słabe punkty:
 - Winda. Nie wsiadaj do windy podczas burzy ani przy pierwszych przerwach w zasilaniu. Osoby starsze i z niepełnosprawnością z wyższych pięter potrzebują planu, jak zejść schodami.
 - Ogrzewanie. Kotłownie i węzły cieplne mają pompy obiegowe na prąd. Zimą mieszkanie wychładza się w ciągu kilku godzin.
 - Domofon i brama garażu. Przestają działać. Miej przy sobie klucz do drzwi wejściowych.
-- Lodówka i zamrażarka. Nie otwieraj ich bez potrzeby. Zamknięta lodówka trzyma chłód ok. 4 godziny, a pełna zamrażarka ok. 48 godzin — co potem zjeść, a co wyrzucić, piszemy w poradniku [jak uratować jedzenie bez prądu](/pl/poradniki/jak-uratowac-jedzenie-bez-pradu/).
+- Lodówka i zamrażarka. Nie otwieraj ich bez potrzeby. Zamknięta lodówka trzyma chłód ok. 4 godziny, a pełna zamrażarka ok. 48 godzin. Co potem zjeść, a co wyrzucić, piszemy w poradniku [jak uratować jedzenie bez prądu](/pl/poradniki/jak-uratowac-jedzenie-bez-pradu/).
 
 ## Co zrobić w pierwszej godzinie
 

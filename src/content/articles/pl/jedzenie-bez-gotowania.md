@@ -12,13 +12,13 @@ readingMinutes: 8
 sources:
   - name: "Poradnik bezpieczeństwa (MSWiA / COI, 2025), PDF"
     url: "https://www.coi.gov.pl/static/poradnik_bezpieczenstwa_PL.pdf"
-  - name: "Ready.gov — Food"
+  - name: "Ready.gov: Food"
     url: "https://www.ready.gov/food"
-  - name: "CDC — Keep Food Safe After a Disaster or Emergency"
+  - name: "CDC: Keep Food Safe After a Disaster or Emergency"
     url: "https://www.cdc.gov/food-safety/foods/keep-food-safe-after-emergency.html"
-  - name: "USDA FSIS — Leftovers and Food Safety (zasada 2 godzin)"
+  - name: "USDA FSIS: Leftovers and Food Safety (zasada 2 godzin)"
     url: "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
-  - name: "Rozporządzenie (UE) nr 1169/2011, załącznik XIII — wartość referencyjna 2000 kcal"
+  - name: "Rozporządzenie (UE) nr 1169/2011, załącznik XIII: wartość referencyjna 2000 kcal"
     url: "https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX:32011R1169"
 faq:
   - q: "Jakie jedzenie nie wymaga gotowania ani lodówki?"
@@ -87,9 +87,9 @@ Zwykłe zakupy z supermarketu wystarczą na pierwsze dni. Do plecaka ewakuacyjne
 
 <p class="note-box"><strong>Jak powstało to zestawienie.</strong> Tych modeli nie testowaliśmy jeszcze osobiście. Wybraliśmy je na podstawie specyfikacji producentów i zaleceń oficjalnych poradników, a opisujemy także ich minusy. Gdy przetestujemy sprzęt, dodamy wyniki pomiarów.</p>
 
-<div class="product"><img src="/img/produkty/nutribase-2500.webp" alt="NUTRIBASE 2500 — racja żywnościowa 2 500 kcal (bakaliowa)" width="132" height="132" loading="lazy" /><div><span class="product-badge">Dzień w jednej paczce</span><p class="product-name">NUTRIBASE 2500 — racja żywnościowa 2 500 kcal (bakaliowa)</p><p class="product-meta">ok. 49 zł · 2 500 kcal · 12 porcji po 50 g · termin 3 lata</p><p class="pros">Cała dzienna racja w jednym opakowaniu: daktyle, orzechy, suszone morele i białko serwatkowe, bez gotowania i bez dodawania wody. 12 porcji po ok. 200 kcal ułatwia porcjowanie: po 3 na posiłek i 3 na przekąski. Polska produkcja. Są też wersje mleczna i wegańska z figą.</p><a class="aff btn-aff" href="https://www.prepersi.eu/sklep/zywnosc/racje-zywnosciowe-survivalowe/NUTRIBASE-2500-Racja-zywnosciowa-bakaliowa-2500-kcal?tracking=6TjpudogVnmAPlRLSfPdnIfOPpA5HuKEKdfTanbx" rel="sponsored nofollow noopener" target="_blank">Zobacz w sklepie Prepersi</a></div></div>
+<div class="product"><img src="/img/produkty/nutribase-2500.webp" alt="NUTRIBASE 2500, racja żywnościowa 2 500 kcal (bakaliowa)" width="132" height="132" loading="lazy" /><div><span class="product-badge">Dzień w jednej paczce</span><p class="product-name">NUTRIBASE 2500, racja żywnościowa 2 500 kcal (bakaliowa)</p><p class="product-meta">ok. 49 zł · 2 500 kcal · 12 porcji po 50 g · termin 3 lata</p><p class="pros">Cała dzienna racja w jednym opakowaniu: daktyle, orzechy, suszone morele i białko serwatkowe, bez gotowania i bez dodawania wody. 12 porcji po ok. 200 kcal ułatwia porcjowanie: po 3 na posiłek i 3 na przekąski. Polska produkcja. Są też wersje mleczna i wegańska z figą.</p><a class="aff btn-aff" href="https://www.prepersi.eu/sklep/zywnosc/racje-zywnosciowe-survivalowe/NUTRIBASE-2500-Racja-zywnosciowa-bakaliowa-2500-kcal?tracking=6TjpudogVnmAPlRLSfPdnIfOPpA5HuKEKdfTanbx" rel="sponsored nofollow noopener" target="_blank">Zobacz w sklepie Prepersi</a></div></div>
 
-<div class="product"><img src="/img/produkty/nutribase-500.webp" alt="NUTRIBASE 500 — racja 500 kcal (bakaliowa)" width="132" height="132" loading="lazy" /><div><span class="product-badge">Do torby i auta</span><p class="product-name">NUTRIBASE 500 — racja 500 kcal (bakaliowa)</p><p class="product-meta">ok. 25 zł · 500 kcal · termin 3 lata</p><p class="pros">Mniejsza wersja tej samej racji: jeden obfity posiłek albo zapas do torby, samochodu czy biura. Gotowa do zjedzenia, bez konserwantów.</p><a class="aff btn-aff" href="https://www.prepersi.eu/sklep/zywnosc/racje-zywnosciowe-survivalowe/NUTRIBASE-500-Racja-zywnosciowa-bakaliowa-500-kcal?tracking=6TjpudogVnmAPlRLSfPdnIfOPpA5HuKEKdfTanbx" rel="sponsored nofollow noopener" target="_blank">Zobacz w sklepie Prepersi</a></div></div>
+<div class="product"><img src="/img/produkty/nutribase-500.webp" alt="NUTRIBASE 500, racja 500 kcal (bakaliowa)" width="132" height="132" loading="lazy" /><div><span class="product-badge">Do torby i auta</span><p class="product-name">NUTRIBASE 500, racja 500 kcal (bakaliowa)</p><p class="product-meta">ok. 25 zł · 500 kcal · termin 3 lata</p><p class="pros">Mniejsza wersja tej samej racji: jeden obfity posiłek albo zapas do torby, samochodu czy biura. Gotowa do zjedzenia, bez konserwantów.</p><a class="aff btn-aff" href="https://www.prepersi.eu/sklep/zywnosc/racje-zywnosciowe-survivalowe/NUTRIBASE-500-Racja-zywnosciowa-bakaliowa-500-kcal?tracking=6TjpudogVnmAPlRLSfPdnIfOPpA5HuKEKdfTanbx" rel="sponsored nofollow noopener" target="_blank">Zobacz w sklepie Prepersi</a></div></div>
 
 <div class="product"><img src="/img/produkty/kurczak-w-galaretce.webp" alt="Kurczak w galaretce (konserwa 300 g)" width="132" height="132" loading="lazy" /><div><span class="product-badge">Bez podgrzewania</span><p class="product-name">Kurczak w galaretce (konserwa 300 g)</p><p class="product-meta">ok. 14 zł · 300 g mięsa · termin min. 1,5 roku</p><p class="pros">Konserwa z polskiego kurczaka ze skórą, tylko z solą i przyprawami. Galaretkę je się na zimno, więc nie trzeba niczego podgrzewać. 300 g to porcja na jeden posiłek dla 2 osób.</p><a class="aff btn-aff" href="https://www.prepersi.eu/sklep/zywnosc/konserwy/Kurczak-w-galaretce?tracking=6TjpudogVnmAPlRLSfPdnIfOPpA5HuKEKdfTanbx" rel="sponsored nofollow noopener" target="_blank">Zobacz w sklepie Prepersi</a></div></div>
 

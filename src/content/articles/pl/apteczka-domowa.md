@@ -12,7 +12,7 @@ readingMinutes: 6
 sources:
   - name: "Poradnik bezpieczeństwa (MSWiA / COI, 2025), PDF"
     url: "https://www.coi.gov.pl/static/poradnik_bezpieczenstwa_PL.pdf"
-  - name: "American Red Cross — Anatomy of a First Aid Kit"
+  - name: "American Red Cross: Anatomy of a First Aid Kit"
     url: "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/anatomy-of-a-first-aid-kit.html"
 faq:
   - q: "Co musi być w apteczce domowej?"
@@ -50,7 +50,7 @@ Ten tekst nie zastępuje porady lekarza ani farmaceuty. O dobór leków, zwłasz
 
 Poradnik MSWiA wymienia:
 
-- leki przyjmowane na stałe — zapas na co najmniej kilka dni,
+- leki przyjmowane na stałe: zapas na co najmniej kilka dni,
 - leki przeciwbólowe i przeciwzapalne,
 - leki przeciwwymiotne i przeciwbiegunkowe.
 
@@ -62,7 +62,7 @@ Warto dodać, po konsultacji w aptece: lek przeciwgorączkowy (także w wersji d
 2. Dokup braki z listy. Gotowa apteczka to dobry start, ale zwykle trzeba ją uzupełnić o leki i większy zapas opatrunków. Opatrunki, folie NRC i gotowe zestawy znajdziesz np. w dziale <a class="aff" href="https://www.prepersi.eu/sklep/Pierwsza-pomoc?tracking=6TjpudogVnmAPlRLSfPdnIfOPpA5HuKEKdfTanbx" rel="sponsored nofollow noopener" target="_blank">Pierwsza pomoc</a>. Bandaże, gazę, plastry i opatrunki na oparzenia kupisz też w aptece internetowej: <a class="aff" href="https://webep1.com/go/12f416cd6" rel="sponsored nofollow noopener" target="_blank">opatrunki w i-APTEKA.pl</a>, a gotowe zestawy w dziale <a class="aff" href="https://webep1.com/go/f2bc99c8d6" rel="sponsored nofollow noopener" target="_blank">apteczki</a>.
 3. Spakuj wszystko do jednej, wodoodpornej torby lub pudełka, opisanej „Apteczka”.
 4. Włóż kartkę z lekami, dawkami i alergiami każdego domownika oraz numerem 112.
-5. Trzymaj apteczkę w miejscu, które znają wszyscy — nie w łazience, gdzie jest wilgotno.
+5. Trzymaj apteczkę w miejscu, które znają wszyscy, nie w łazience, gdzie jest wilgotno.
 6. Mniejszą wersję włóż do [plecaka ewakuacyjnego](/pl/poradniki/plecak-ewakuacyjny/).
 
 ## Apteczka to nie wszystko: umiejętności
@@ -76,6 +76,6 @@ Sprzęt bez umiejętności niewiele daje. Kurs pierwszej pomocy (np. w Polskim C
 - czy leki na stałe są aktualne (zmiana dawki, nowy lek),
 - czy zużyte rzeczy zostały odkupione.
 
-Dobry moment to zmiana czasu — wtedy sprawdzasz też [zapas wody i jedzenia](/pl/poradniki/zapas-wody-i-jedzenia/).
+Dobry moment to zmiana czasu, wtedy sprawdzasz też [zapas wody i jedzenia](/pl/poradniki/zapas-wody-i-jedzenia/).
 
 <p class="aff-note">Linki oznaczone ↗ są partnerskie: jeśli coś kupisz, możemy dostać prowizję. Cena się dla Ciebie nie zmienia, a sklep nie ma wpływu na treść poradnika.</p>

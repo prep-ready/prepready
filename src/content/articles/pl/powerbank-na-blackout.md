@@ -12,7 +12,7 @@ readingMinutes: 7
 sources:
   - name: "Poradnik bezpieczeństwa (MSWiA / COI, 2025), PDF"
     url: "https://www.coi.gov.pl/static/poradnik_bezpieczenstwa_PL.pdf"
-  - name: "IATA — Lithium Battery Guidance (limity 100/160 Wh w samolocie)"
+  - name: "IATA: Lithium Battery Guidance (limity 100/160 Wh w samolocie)"
     url: "https://www.iata.org/en/programs/cargo/dgr/lithium-batteries/"
   - name: "Specyfikacje producentów w sklepie Prepersi.eu"
     url: "https://www.prepersi.eu/sklep/Blackout-zestawy-i-sprzet-na-brak-pradu"

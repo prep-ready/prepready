@@ -12,7 +12,7 @@ readingMinutes: 9
 sources:
   - name: "Poradnik bezpieczeństwa (MSWiA / COI), PDF"
     url: "https://www.coi.gov.pl/static/poradnik_bezpieczenstwa_PL.pdf"
-  - name: "RCB — Poradnik na czas kryzysu i wojny"
+  - name: "RCB: Poradnik na czas kryzysu i wojny"
     url: "https://www.gov.pl/web/rcb/poradnik-na-czas-kryzysu-i-wojny2"
 faq:
   - q: "Ile wody spakować do plecaka ewakuacyjnego?"
@@ -37,10 +37,10 @@ Poniższa lista łączy zalecenia *Poradnika bezpieczeństwa* MSWiA i poradnika 
 | Dokumenty i pieniądze | Kopie dokumentów, pendrive z kopiami, gotówka w różnych nominałach | wodoszczelne etui |
 | Światło i łączność | Latarka, radio na baterie, naładowany telefon, powerbank, kable, baterie | zapas baterii na 2 wymiany |
 | Ubranie i sen | Odzież na porę roku, przeciwdeszczowa, śpiwór, karimata, folia termiczna (NRC) | 1 komplet na zmianę |
-| Narzędzia | Multitool lub nóż, zapalniczka, worki foliowe, drukowana mapa okolicy | — |
-| Osobiste | Zdjęcie bliskich, drobna pamiątka, zabawka dla dziecka | — |
+| Narzędzia | Multitool lub nóż, zapalniczka, worki foliowe, drukowana mapa okolicy | – |
+| Osobiste | Zdjęcie bliskich, drobna pamiątka, zabawka dla dziecka | – |
 
-Do plecaka pasują tylko rozchodzone, wygodne buty — w nowych po kilku kilometrach zrobisz sobie otarcia. Jeśli nie masz butów trekkingowych, przejrzyj ofertę <a class="aff" href="https://webep1.com/go/4f039ef6d6" rel="sponsored nofollow noopener" target="_blank">damskich</a> i <a class="aff" href="https://webep1.com/go/10a3b143d6" rel="sponsored nofollow noopener" target="_blank">męskich butów trekkingowych w Tramp4</a> i kup je z wyprzedzeniem, żeby zdążyć je rozchodzić.
+Do plecaka pasują tylko rozchodzone, wygodne buty. W nowych po kilku kilometrach zrobisz sobie otarcia. Jeśli nie masz butów trekkingowych, przejrzyj ofertę <a class="aff" href="https://webep1.com/go/4f039ef6d6" rel="sponsored nofollow noopener" target="_blank">damskich</a> i <a class="aff" href="https://webep1.com/go/10a3b143d6" rel="sponsored nofollow noopener" target="_blank">męskich butów trekkingowych w Tramp4</a> i kup je z wyprzedzeniem, żeby zdążyć je rozchodzić.
 
 <p class="aff-note">Linki oznaczone ↗ są partnerskie: jeśli coś kupisz, możemy dostać prowizję. Cena się dla Ciebie nie zmienia, a sklep nie ma wpływu na treść poradnika.</p>
 
@@ -49,9 +49,9 @@ Wolisz gotowy zestaw? Porównaliśmy cztery gotowe plecaki: [Gotowy plecak ewaku
 ## Kolejność pakowania
 
 1. Na dno najcięższe i najrzadziej potrzebne: śpiwór, zapas jedzenia, ubrania na zmianę.
-2. Środek, przy plecach — woda. Ciężar blisko kręgosłupa męczy najmniej.
-3. Góra — apteczka, kurtka przeciwdeszczowa, latarka.
-4. Kieszenie zewnętrzne — dokumenty, gotówka, telefon, powerbank, leki na najbliższą dobę.
+2. Środek, przy plecach: woda. Ciężar blisko kręgosłupa męczy najmniej.
+3. Góra: apteczka, kurtka przeciwdeszczowa, latarka.
+4. Kieszenie zewnętrzne: dokumenty, gotówka, telefon, powerbank, leki na najbliższą dobę.
 
 Spakowany plecak dla dorosłego powinien ważyć najwyżej ok. 10–12 kg. Sprawdź, czy przejdziesz z nim kilka kilometrów.
 
@@ -65,8 +65,8 @@ Spakowany plecak dla dorosłego powinien ważyć najwyżej ok. 10–12 kg. Spraw
 
 ## Gdzie trzymać plecak
 
-Przy drzwiach wyjściowych albo w szafie w przedpokoju — w miejscu, które znają wszyscy domownicy. Nie w piwnicy ani w bagażniku: w sytuacji zagrożenia możesz nie mieć do nich dostępu.
+Przy drzwiach wyjściowych albo w szafie w przedpokoju, w miejscu, które znają wszyscy domownicy. Nie w piwnicy ani w bagażniku: w sytuacji zagrożenia możesz nie mieć do nich dostępu.
 
 ## Zanim zaczniesz kupować
 
-Zacznij od tego, co masz w domu. Większość listy to rzeczy codzienne: latarka, stare ubrania, apteczka, kopie dokumentów. Kupuj dopiero to, czego brakuje — nasza [interaktywna checklista](/pl/checklisty/plecak-72h/) pokaże braki i zapamięta postęp.
+Zacznij od tego, co masz w domu. Większość listy to rzeczy codzienne: latarka, stare ubrania, apteczka, kopie dokumentów. Kupuj dopiero to, czego brakuje. Nasza [interaktywna checklista](/pl/checklisty/plecak-72h/) pokaże braki i zapamięta postęp.

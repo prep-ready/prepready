@@ -12,9 +12,9 @@ readingMinutes: 7
 sources:
   - name: "Poradnik bezpieczeństwa (MSWiA / COI, 2025), PDF"
     url: "https://www.coi.gov.pl/static/poradnik_bezpieczenstwa_PL.pdf"
-  - name: "RCB — Poradnik na czas kryzysu i wojny"
+  - name: "RCB: Poradnik na czas kryzysu i wojny"
     url: "https://www.gov.pl/web/rcb/poradnik-na-czas-kryzysu-i-wojny2"
-  - name: "FCC / FEMA — Emergency Communications Tips"
+  - name: "FCC / FEMA: Emergency Communications Tips"
     url: "https://www.fcc.gov/emergency"
 faq:
   - q: "Co powinien zawierać rodzinny plan ewakuacji?"
@@ -27,12 +27,12 @@ faq:
 
 Ewakuacja rzadko zaczyna się wtedy, gdy wszyscy są w domu. Dzieci są w szkole, ktoś w pracy, telefony nie łączą. Rodzinny plan to kilka decyzji podjętych wcześniej, żeby w stresie nie trzeba było ich wymyślać. Da się go przygotować w jeden wieczór.
 
-## 1. Spisz kontakty — na papierze
+## 1. Spisz kontakty na papierze
 
 Telefon może się rozładować albo zgubić. Na kartce, w portfelu i w [plecaku ewakuacyjnym](/pl/poradniki/plecak-ewakuacyjny/) każdego domownika zapisz:
 
 - numery wszystkich domowników,
-- osobę kontaktową spoza miejscowości — kogoś, do kogo wszyscy dzwonią lub piszą, gdy nie mogą dodzwonić się do siebie,
+- osobę kontaktową spoza miejscowości: kogoś, do kogo wszyscy dzwonią lub piszą, gdy nie mogą dodzwonić się do siebie,
 - szkołę, przedszkole, pracę, lekarza,
 - numer alarmowy 112.
 
@@ -58,7 +58,7 @@ Kto bierze plecaki, kto dokumenty i leki, kto zwierzęta, kto odbiera dzieci. Je
 
 - Dwie drogi wyjścia z domu (klatka schodowa, drugie wyjście).
 - Dwie trasy wyjazdu z miejscowości, na wypadek zablokowanej drogi.
-- Papierowa mapa okolicy w plecaku — nawigacja może nie działać.
+- Papierowa mapa okolicy w plecaku: nawigacja może nie działać.
 - Jeśli nie masz samochodu: gdzie jest najbliższy punkt zbiórki i jak dojdziesz tam pieszo.
 
 Najbliższe miejsca schronienia znajdziesz w poradniku [Schron w bloku](/pl/poradniki/schron-w-bloku/).

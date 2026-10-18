@@ -12,13 +12,13 @@ readingMinutes: 7
 sources:
   - name: "Ustawa z dnia 21 maja 1999 r. o broni i amunicji (Dz.U. 1999 nr 53 poz. 549, z późn. zm.)"
     url: "https://eli.gov.pl/api/acts/DU/1999/549/text.html"
-  - name: "KWP Opole — Uzyskanie pozwolenia na broń palną (BIP Policji), PDF"
+  - name: "KWP Opole: Uzyskanie pozwolenia na broń palną (BIP Policji), PDF"
     url: "https://opole.bip.policja.gov.pl/139/pozwolenia-na-bron/uzyskanie-pozwolenia-na/26453,Uzyskanie-pozwolenia-na-bron-palna.pdf"
-  - name: "KWP Lublin — Pozwolenia na broń dla osób fizycznych, informacje ogólne (BIP Policji), PDF"
+  - name: "KWP Lublin: Pozwolenia na broń dla osób fizycznych, informacje ogólne (BIP Policji), PDF"
     url: "https://lubelska.bip.policja.gov.pl/KWL/pozwolenia-na-bron-dopu/937,Pozwolenia-na-bron-dla-osob-fizycznych-informacje-ogolne.pdf"
-  - name: "GunTracker — Ile kosztuje pozwolenie na broń w 2026 roku"
+  - name: "GunTracker: Ile kosztuje pozwolenie na broń w 2026 roku"
     url: "https://www.guntracker.pl/pozwolenie-na-bron/koszt"
-  - name: "WGC Strzelnica — Zmiany w ustawie o broni i amunicji 2026"
+  - name: "WGC Strzelnica: Zmiany w ustawie o broni i amunicji 2026"
     url: "https://www.wgc-strzelnica.pl/zmiany-w-przepisach-o-dopuszczeniu-do-posiadania-broni-2026/"
 faq:
   - q: "Jak uzyskać pozwolenie na broń?"
@@ -26,7 +26,7 @@ faq:
   - q: "Ile kosztuje pozwolenie na broń?"
     a: "Opłata skarbowa za pozwolenie to 242 zł, a za świadectwo broni (promesę) 17 zł. Do tego dochodzą badania lekarskie i psychologiczne, egzamin państwowy (w 2026 r. ok. 865 zł, chyba że jesteś z niego zwolniony) oraz sejf klasy S1. Realnie trzeba liczyć od ok. 2–3 tys. zł razem z sejfem, bez samej broni."
   - q: "Ile trwa uzyskanie pozwolenia na broń?"
-    a: "Sama decyzja zapada zwykle w ciągu miesiąca od złożenia kompletnego wniosku. Cała droga — przez klub, patent strzelecki, licencję i badania — trwa najczęściej 4–6 miesięcy."
+    a: "Sama decyzja zapada zwykle w ciągu miesiąca od złożenia kompletnego wniosku. Cała droga, przez klub, patent strzelecki, licencję i badania, trwa najczęściej 4–6 miesięcy."
   - q: "Jakie pozwolenie na broń jest najłatwiej dostać?"
     a: "Najczęściej wybierane są pozwolenia sportowe i kolekcjonerskie, bo ich warunki są jasno opisane: przynależność do klubu lub stowarzyszenia i zdany egzamin albo licencja. Pozwolenie do ochrony osobistej wymaga wykazania stałego, realnego i ponadprzeciętnego zagrożenia i jest wydawane rzadko."
   - q: "Ile trzeba mieć lat, żeby dostać pozwolenie na broń?"
@@ -37,7 +37,7 @@ faq:
 
 Pozwolenie na broń w Polsce wydaje **komendant wojewódzki policji** (Wydział Postępowań Administracyjnych) właściwy dla Twojego miejsca zamieszkania. Musisz mieć **21 lat**, stałe miejsce pobytu w Polsce, zdrowie potwierdzone **badaniem lekarskim i psychologicznym**, zdany **egzamin** i **ważną przyczynę**, czyli cel posiadania broni. Opłata skarbowa wynosi **242 zł**. Najczęściej cała droga trwa 4–6 miesięcy.
 
-<p class="note-box"><strong>To nie jest porada prawna.</strong> Opisujemy procedurę według ustawy i informacji komend wojewódzkich policji z października 2026 r. Przed złożeniem wniosku sprawdź wymagania w swojej KWP — kolejność dokumentów i numery kont różnią się między województwami.</p>
+<p class="note-box"><strong>To nie jest porada prawna.</strong> Opisujemy procedurę według ustawy i informacji komend wojewódzkich policji z października 2026 r. Przed złożeniem wniosku sprawdź wymagania w swojej KWP: kolejność dokumentów i numery kont różnią się między województwami.</p>
 
 ## Rodzaje pozwoleń na broń
 
@@ -58,7 +58,7 @@ Jeśli myślisz o broni „na czas kryzysu”, pamiętaj o jednym: pozwolenie do
 
 ## Pozwolenie na broń krok po kroku
 
-1. **Wybierz cel i dołącz do klubu lub stowarzyszenia.** Przy drodze sportowej zapisujesz się do klubu strzeleckiego, przy kolekcjonerskiej — do stowarzyszenia kolekcjonerów.
+1. **Wybierz cel i dołącz do klubu lub stowarzyszenia.** Przy drodze sportowej zapisujesz się do klubu strzeleckiego, przy kolekcjonerskiej do stowarzyszenia kolekcjonerów.
 2. **Zdobądź kwalifikacje.** Sportowo: zdajesz egzamin na patent strzelecki, a potem dostajesz licencję zawodniczą PZSS. Licencja zwalnia z egzaminu państwowego na broń sportową. Kolekcjonersko: zdajesz egzamin przed komisją KWP.
 3. **Zrób badania lekarskie i psychologiczne.** Orzeczenia nie mogą być starsze niż 3 miesiące w dniu złożenia wniosku.
 4. **Zapłać 242 zł opłaty skarbowej** na konto podane przez urząd i zachowaj potwierdzenie.
@@ -90,11 +90,11 @@ Pozwolenia nie dostanie osoba, która:
 - ma zaburzenia psychiczne albo znacznie obniżoną sprawność psychofizyczną;
 - jest uzależniona od alkoholu lub innych substancji;
 - nie ma stałego miejsca pobytu w Polsce;
-- stanowi zagrożenie dla siebie, porządku lub bezpieczeństwa publicznego — np. była prawomocnie skazana za określone przestępstwa.
+- stanowi zagrożenie dla siebie, porządku lub bezpieczeństwa publicznego, np. była prawomocnie skazana za określone przestępstwa.
 
 ## Co się zmienia w przepisach
 
-Od października 2026 r. procedura uzyskania pozwolenia jest taka sama jak wcześniej. W Sejmie są projekty, które mogą ją zmienić — m.in. okresowe badania lekarskie i psychologiczne dla wszystkich posiadaczy broni (dziś muszą je powtarzać tylko osoby z pozwoleniem do ochrony osobistej i ochrony osób i mienia) oraz obowiązek zgłaszania policji adresu przechowywania broni. Zaktualizujemy ten tekst, gdy któryś z nich wejdzie w życie.
+Od października 2026 r. procedura uzyskania pozwolenia jest taka sama jak wcześniej. W Sejmie są projekty, które mogą ją zmienić, m.in. okresowe badania lekarskie i psychologiczne dla wszystkich posiadaczy broni (dziś muszą je powtarzać tylko osoby z pozwoleniem do ochrony osobistej i ochrony osób i mienia) oraz obowiązek zgłaszania policji adresu przechowywania broni. Zaktualizujemy ten tekst, gdy któryś z nich wejdzie w życie.
 
 ## Bez pozwolenia: co możesz mieć legalnie
 
