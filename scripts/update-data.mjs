@@ -158,12 +158,12 @@ const REGIONS = {
         score = ({ 1: 30, 2: 55, 3: 80 }[lvl] ?? 30) + Math.min(10, w.length / 5);
         const top = [...w].sort((a, b) => (+b.stopien || 0) - (+a.stopien || 0))[0];
         feed.push(item('pl', 'weather', Math.min(4, (+top.stopien || 1) + 1), 'IMGW', 'https://meteo.imgw.pl/',
-          `IMGW: ${w.length} ostrzeżeń meteo, najwyższy stopień ${lvl} — ${top.nazwa_zdarzenia ?? 'zjawiska'}`, top.opublikowano || Date.now()));
+          `IMGW: ${w.length} ostrzeżeń meteo, najwyższy stopień ${lvl}: ${top.nazwa_zdarzenia ?? 'zjawiska'}`, top.opublikowano || Date.now()));
       }
       const near = (ctx.gdacs ?? []).filter((e) => /Poland|Germany|Czech|Slovakia|Ukraine|Lithuania|Belarus/.test(e.country));
       score += near.filter((e) => e.fresh).length * 10 + near.filter((e) => !e.fresh).length * 3;
       near.filter((e) => e.fresh).slice(0, 2).forEach((e) => feed.push(item('pl', 'disaster', e.level === 'Red' ? 4 : 3, 'GDACS', e.url,
-        `${GDACS_PL[e.type] ?? 'Zdarzenie'} — ${e.country.split(',')[0]} (alert ${e.level === 'Red' ? 'czerwony' : 'pomarańczowy'})`, e.from)));
+        `${GDACS_PL[e.type] ?? 'Zdarzenie'}: ${e.country.split(',')[0]} (alert ${e.level === 'Red' ? 'czerwony' : 'pomarańczowy'})`, e.from)));
       return clamp(score, 5, 95);
     },
     async health(c, feed, ctx) {
