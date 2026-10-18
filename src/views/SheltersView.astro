@@ -279,8 +279,13 @@ if (city) jsonLd.push({ '@context': 'https://schema.org', '@type': 'BreadcrumbLi
     const q = ($('sh-q') as HTMLInputElement).value.trim(); if (!q) return;
     say('Szukam adresu…'); altsEl.hidden = true;
     try {
-      const r = await fetch(`https://nominatim.openstreetmap.org/search?format=jsonv2&countrycodes=pl&limit=5&accept-language=pl&q=${encodeURIComponent(q)}`);
-      const res: Place[] = await r.json();
+      // Nominatim nie rozumie skrótów „ul.”, „al.”, „pl.”, „os.” — usuwamy je (sama nazwa wystarcza).
+      const norm = q.replace(/(^|[\s,])(ul|al|pl|os)\.\s*/gi, '$1').replace(/(^|[\s,])ulica\s+/gi, '$1').replace(/\s+/g, ' ').trim();
+      const find = async (s: string): Promise<Place[]> => (await fetch(`https://nominatim.openstreetmap.org/search?format=jsonv2&countrycodes=pl&limit=5&accept-language=pl&q=${encodeURIComponent(s)}`)).json();
+      let res = await find(norm);
+      // Bez wyniku: spróbuj bez numeru domu (sama ulica i miejscowość).
+      const noNum = norm.replace(/\s\d+[a-zA-Z]?(\/\d+)?(?=\s*(,|$))/, '');
+      if (!res.length && noNum !== norm) res = await find(noNum);
       if (!res.length) return say('Nie znaleziono tego adresu. Spróbuj dopisać miejscowość, np. „ul. Długa 5, Kraków”.', true);
       await goTo(+res[0].lat, +res[0].lon, short(res[0].display_name));
       if (res.length > 1) {
