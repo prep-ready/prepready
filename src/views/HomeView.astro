@@ -15,8 +15,8 @@ import { routes, t, type Lang } from '../i18n/ui';
 interface Props { lang: Lang }
 const { lang } = Astro.props;
 const meta = {
-  pl: { title: 'PrepReady — Indeks gotowości i poradniki na czas kryzysu', description: 'Codzienny indeks gotowości dla Polski, sprawdzone wiadomości i praktyczne poradniki: plecak ewakuacyjny, blackout, woda, schron. Spokojnie, na danych.' },
-  en: { title: 'PrepReady — Readiness Index and crisis preparedness guides', description: 'A daily readiness index, verified news and practical guides: go-bags, blackouts, water, shelter. Calm and data-driven.' },
+  pl: { title: 'PrepReady: Indeks gotowości i poradniki na czas kryzysu', description: 'Codzienny indeks gotowości dla Polski, sprawdzone wiadomości i praktyczne poradniki: plecak ewakuacyjny, blackout, woda, schron. Spokojnie, na danych.' },
+  en: { title: 'PrepReady: Readiness Index and crisis preparedness guides', description: 'A daily readiness index, verified news and practical guides: go-bags, blackouts, water, shelter. Calm and data-driven.' },
 }[lang];
 const jsonLd = {
   '@context': 'https://schema.org', '@type': 'WebSite', name: 'PrepReady', url: new URL(routes.home[lang], Astro.site).href, inLanguage: lang,

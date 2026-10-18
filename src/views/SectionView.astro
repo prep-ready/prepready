@@ -16,16 +16,16 @@ interface Props { lang: Lang; section: 'news' | 'checklist' | 'gear' }
 const { lang, section } = Astro.props;
 const M = {
   news: {
-    pl: { title: 'Wiadomości kryzysowe — co to znaczy dla Ciebie', desc: 'Najważniejsze komunikaty z IMGW, RCB, PSE, CERT Polska i agencji prasowych, z krótką wskazówką, co zrobić.' },
-    en: { title: 'Crisis news — what it means for you', desc: 'Key updates from official agencies and wire services, each with a short note on what to do.' },
+    pl: { title: 'Wiadomości kryzysowe: co to znaczy dla Ciebie', desc: 'Najważniejsze komunikaty z IMGW, RCB, PSE, CERT Polska i agencji prasowych, z krótką wskazówką, co zrobić.' },
+    en: { title: 'Crisis news: what it means for you', desc: 'Key updates from official agencies and wire services, each with a short note on what to do.' },
   },
   checklist: {
-    pl: { title: 'Checklista plecaka ewakuacyjnego 72h — zaznacz, co już masz', desc: t('pl', 'cl.sub') },
-    en: { title: '72-hour go-bag — interactive checklist', desc: t('en', 'cl.sub') },
+    pl: { title: 'Checklista plecaka ewakuacyjnego 72h: zaznacz, co już masz', desc: t('pl', 'cl.sub') },
+    en: { title: '72-hour go-bag: interactive checklist', desc: t('en', 'cl.sub') },
   },
   gear: {
-    pl: { title: 'Sprzęt na kryzys — testy i rankingi', desc: t('pl', 'gear.sub') },
-    en: { title: 'Emergency gear — tests and rankings', desc: t('en', 'gear.sub') },
+    pl: { title: 'Sprzęt na kryzys: testy i rankingi', desc: t('pl', 'gear.sub') },
+    en: { title: 'Emergency gear: tests and rankings', desc: t('en', 'gear.sub') },
   },
 }[section][lang];
 const buying = section === 'gear' ? (await allArticles(lang)).filter((a) => a.data.translationKey.startsWith('buy-')) : [];
