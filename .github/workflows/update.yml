@@ -1,9 +1,9 @@
-# Codzienna aktualizacja indeksu i feedu + publikacja na Hostingerze.
+# Aktualizacja indeksu, feedu i cen co godzinę + publikacja na Hostingerze. Dzienny wpis na Telegramie i dane mapy schronów: raz dziennie (04 UTC).
 name: Aktualizacja i publikacja
 
 on:
   schedule:
-    - cron: '47 4 * * *'
+    - cron: '47 * * * *'
   push:
     branches: [main]
   workflow_dispatch: {}
@@ -38,16 +38,32 @@ jobs:
         run: |
           git config user.name "prepready-bot"
           git config user.email "bot@prepready.pro"
-          git add src/data/readiness.json src/data/feed.json
-          git diff --cached --quiet || git commit -m "Dane: aktualizacja $(date -u +%F)"
+          git add src/data/readiness.json src/data/feed.json src/data/supply.json
+          git diff --cached --quiet || git commit -m "Dane: aktualizacja $(date -u '+%F %H:%M') UTC"
+          git pull --rebase --autostash -q || true
           git push
+
+      - name: Data dla pamięci podręcznej danych PSP
+        id: day
+        run: echo "d=$(date -u +%F)" >> "$GITHUB_OUTPUT"
+
+      - name: Pamięć pliku PSP (pobieramy go raz dziennie, nie co godzinę)
+        uses: actions/cache@v4
+        with:
+          path: /tmp/ps
+          key: shelters-${{ steps.day.outputs.d }}
 
       - name: Mapa schronów — dane startowe (KG PSP, dane.gov.pl, CC BY 4.0)
         continue-on-error: true
         run: |
-          # Najpierw świeży plik PSP (często blokuje IP spoza PL), potem kopia na dane.gov.pl.
-          curl -fsSL --max-time 60 -o /tmp/ps.csv https://gdziesieukryc.pl/PS_XML/punkty_schronienia.csv && node scripts/shelters.mjs /tmp/ps.csv "$(date -u +%F)" \
-          || { curl -fsSL --max-time 300 -o /tmp/ps.csv https://api.dane.gov.pl/media/resources/20260310/punkty_schronienia_875cc428.csv && node scripts/shelters.mjs /tmp/ps.csv 2026-03-10; }
+          mkdir -p /tmp/ps
+          if [ ! -s /tmp/ps/ps.csv ]; then
+            # Najpierw świeży plik PSP (często blokuje IP spoza PL), potem kopia na dane.gov.pl.
+            if curl -fsSL --max-time 60 -o /tmp/ps/ps.csv https://gdziesieukryc.pl/PS_XML/punkty_schronienia.csv; then date -u +%F > /tmp/ps/date
+            elif curl -fsSL --max-time 300 -o /tmp/ps/ps.csv https://api.dane.gov.pl/media/resources/20260310/punkty_schronienia_875cc428.csv; then echo 2026-03-10 > /tmp/ps/date
+            fi
+          fi
+          [ -s /tmp/ps/ps.csv ] && node scripts/shelters.mjs /tmp/ps/ps.csv "$(cat /tmp/ps/date)"
 
       - run: npm run build
 
@@ -65,13 +81,6 @@ jobs:
           mkdir -p dist/tg
           printf "<?php return ['pl' => '%s', 'en' => '%s'];\n" "$TG_BOT_PL_TOKEN" "$TG_BOT_EN_TOKEN" > dist/tg/config.php
           cp src/data/readiness.json dist/tg/readiness.json
-
-      - name: Dzienny indeks w tematach Alerty (PL i EN)
-        if: github.event_name == 'schedule'
-        env:
-          TG_BOT_PL_TOKEN: ${{ secrets.TG_BOT_PL_TOKEN }}
-          TG_BOT_EN_TOKEN: ${{ secrets.TG_BOT_EN_TOKEN }}
-        run: node scripts/telegram-post.mjs
 
       - name: Wyślij na Hostingera (FTP)
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
