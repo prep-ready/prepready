@@ -8,6 +8,7 @@ import Checklist from '../components/Checklist.astro';
 import GuideCards from '../components/GuideCards.astro';
 import GearTable from '../components/GearTable.astro';
 import Deals from '../components/Deals.astro';
+import Supply from '../components/Supply.astro';
 import feed from '../data/feed.json';
 import { gearTest } from '../data/site';
 import { routes, t, type Lang } from '../i18n/ui';
@@ -18,12 +19,10 @@ const meta = {
   pl: { title: 'PrepReady: Indeks gotowości i poradniki na czas kryzysu', description: 'Codzienny indeks gotowości dla Polski, sprawdzone wiadomości i praktyczne poradniki: plecak ewakuacyjny, blackout, woda, schron. Spokojnie, na danych.' },
   en: { title: 'PrepReady: Readiness Index and crisis preparedness guides', description: 'A daily readiness index, verified news and practical guides: go-bags, blackouts, water, shelter. Calm and data-driven.' },
 }[lang];
-const jsonLd = {
-  '@context': 'https://schema.org', '@type': 'WebSite', name: 'PrepReady', url: new URL(routes.home[lang], Astro.site).href, inLanguage: lang,
-};
 ---
-<Base lang={lang} title={meta.title} description={meta.description} alternates={{ pl: routes.home.pl, en: routes.home.en }} jsonLd={jsonLd}>
+<Base lang={lang} title={meta.title} description={meta.description} alternates={{ pl: routes.home.pl, en: routes.home.en }}>
   <div class="wrap hero"><ReadinessIndex lang={lang} /></div>
+  {lang === 'pl' && <div class="wrap supply-wrap"><Supply /></div>}
 
   <section class="block">
     <div class="wrap">
@@ -38,7 +37,7 @@ const jsonLd = {
         </div>
       </div>
       <div class="news-layout">
-        <NewsFeed lang={lang} limit={5} />
+        <NewsFeed lang={lang} limit={8} />
         <Newsletter lang={lang} />
       </div>
     </div>
@@ -90,6 +89,7 @@ const jsonLd = {
 </Base>
 <style>
   .hero{padding-block:32px 36px}
+  .supply-wrap{margin-bottom:8px}
   .right{display:flex;gap:14px;align-items:center}
   .news-layout{display:grid;grid-template-columns:minmax(0,8fr) minmax(0,4fr);gap:24px;align-items:start}
   @media (max-width:980px){ .news-layout{grid-template-columns:1fr} }
