@@ -4,6 +4,42 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-10-19T05:00:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "TygodnikZamojski.pl",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBkcGxGSF9WQkRTeUFIX1ZST2Mwa21fZkd4aDg0XzJhR282MFZqSHdSU3dmdU5QUjBZZFdsWEZUSHpoTEMtNmdFTUduUmlMWWVtZUFpZ2NDVWFPaU9fSURZZXhOSzIxYUhxSVlpejVyaHdUNnNjMy1WNU5Rcw?oc=5",
+        "title": "Rosyjski atak na zachodnią Ukrainę. Wojsko poderwało lotnictwo, mieszkańcy dostali alerty",
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+      },
+      {
+        "at": "2026-10-19T04:57:20.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Polskie Radio 24",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQWJldWI0WXBwRFVWWG9CTVBjUV9jaXhiWFZEQTYyVlNqSk5JS2NTZUVwVGh2Ml8xc29wUGRPVktlaEgzYUhzUlVTSXZrS1NZdE1RS29OS1lGdWNpN0RiTVlzaTd1WDBSQndHMGdrdXUyTTNKdlpkYUtvNjBYUkVmb19DQWRmTmpUU0RlTjVTLWtOXzFDSWREMHJvcjR1LXI1aWM2Rkd4MkxKRVc3?oc=5",
+        "title": "Lotnictwo wojskowe nad Polską. Alert RCB i wstrzymane operacje dwóch lotnisk",
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+      },
+      {
+        "at": "2026-10-19T04:54:08.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Gazeta",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWE1RMVAtY1FJNldzVE8wYTltZzBUbGg2UG9GbFoxbWx5MVZtSXBGcXN6dnA0MUZiX1JYa25TbXU5YzFqQjF4dTVscUhMdGtlQnRGOWRrSkJKU3dWRXZZVmYzd3pZSU9qeFZjczlOUXgzU0lGRktFRmRkZlo2VWdxb09rUW94dlpxVklCNDZNeUFINm9lOGh5NktaOU5DdHBZQm1Hc2gxWl83NTBvQmR1Z2VaYnE5WEtvSUE?oc=5",
+        "title": "Rosyjski atak na Ukrainę. Polskie wojsko poderwało lotnictwo, jest alert RCB",
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+      },
+      {
+        "at": "2026-10-18T17:00:26.000Z",
+        "cat": "health",
+        "sev": 1,
+        "source": "Papilot.pl",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPWWhxTzhrenVIWEEyWW9IQ0JMeDc1QmZjbEtiR3V1NFhSejVOSHdKMnBubVFoeGtlenlaNVlmeUd0dzV2cGtNUXkxbEtUdnFvckwtQ25CdzhlRl9wS29zaURlZEJQMUJDa2Q4M2EwODhLSEJFQnlvNjVLWXFqdUZKSEIzNzF0T2lqWlE?oc=5",
+        "title": "Masz to w swojej lodówce? Sanepid wydał właśnie ostrzeżenie",
+        "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
+      },
+      {
         "at": "2026-10-18T04:54:49.000Z",
         "cat": "security",
         "sev": 2,
@@ -146,48 +182,57 @@
         "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNOEFEM2ZwRm80SXpXbVNpeUwwY1l1c1FJTHZvTS1qR2NYQ2g5SXhnWTR2ZjZHaUpaSkF5VkgxOHB3d1J0Z3FGVGlPSVhOcVhzSjdTeG1LV2FiUFZiSUcyUkxFRWFKcDdxWkp4U2tHX2N3YWVqVHVXdkhGR25FVl96SDhRWVZjWV82SE1aRVEwMFhpU1VRSkhMd0wtNTE0czYwY3JEckx3cnhyUkcycHdWODVKXy1nUHJPN1lr?oc=5",
         "title": "Woda przy Pułaskiego znów zdatna do picia - Świnoujście",
         "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
-      },
-      {
-        "at": "2026-10-15T11:55:00.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "CERT Polska",
-        "url": "https://cert.pl/posts/2026/10/CVE-2026-88794/",
-        "title": "Podatność w oprogramowaniu Sparx Systems Enterprise Architect",
-        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
-      },
-      {
-        "at": "2026-10-15T10:55:00.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "CERT Polska",
-        "url": "https://cert.pl/posts/2026/10/CVE-2026-35088/",
-        "title": "Podatności w centralach telefonicznych Slican",
-        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
-      },
-      {
-        "at": "2026-10-15T04:07:52.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Portal Obronny",
-        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNcUk3QVhsaTJqN1FVWTJ3RVZOSnRIb01lMDhMajBMZHhRSVViZlNfOEp4bEtRVWxBYkxrVEZVczdtbm02cW5OV1RFYWxFOWZ0NmlBVFk1MVVtWHFVRmF0cWkzOGsyZGRfeGxqV19sUmtteGdIZmlNWHo1UFdwbm9feEJELThaYldubXdFM1kyN1dLTGJidUxnOTFxMXBuSzhQcUJ5NTF4b0JkcGJzNndJTGw5RF9NZU9XVDZRZkRDTlBhaHlZV2dic3FPYzNEUFJHRTBRM2pTMHJnWkNsZnNHSU85bUVDR3pYaDhsOEJFbUJxUQ?oc=5",
-        "title": "Wojsko Polskie odbiera kolejne granatniki Carl-Gustaf M4. Era RPG-7 powoli dobiega końca",
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-10-14T20:30:19.000Z",
-        "cat": "health",
-        "sev": 1,
-        "source": "Tylko Śląsk",
-        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZVdoamd3M1AyYmpZMFR4bkVCdmRCWTlueEliOG0yQVlJelV6dUN6cFZRbUxyV2UxeEJIQy1peloxUG9SMnlvRTRFWHVMU0NPLU1FWm9WWDUxQUl3cHM4V2pqcFZwSGNuQ0ZKUGJ1aGJZSzdtZ1FWcFRVc2NQOWQ0UGFNcUVGb0Q2Z2NIQWpRTXo0T2lEOU1aSEVHUFNIaFlLd0xabFJlbnlzNEVRd3hPOGZYdFJlcl9EOHZwQkNWWlFCTWNKSzNMdHMxSmZJdGxLcmc?oc=5",
-        "title": "Prostsza współpraca szkół, przedszkoli i innych podmiotów z Państwową Inspekcją Sanitarną - promocja zdrowia w SEPIS",
-        "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
       }
     ]
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-19T02:36:15.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Odessa Journal",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQXNVMVUtVnlGTHJOWng4UzgtNkZUdFR5aS1CdEdJQk1McFJMMTdST3RjSU1DYTZJRmYxbEphUHZickh4X1VqSG1XZkZNWUhvRENaWGJxZE5Vbm8yVzVwMDdqSFltQ2dwVU5nOTNOVUJRSlA2MU1BbkhVT1ZuUjhGMTZwV2hQdXRpZ09iM0h0clNKV25RMEhlQWtQSTk4SkRHcUZaTDZmUnhUZ3l1czkyYVpncDdla2hONHNiN2Z1bXF5NUd0ZENqWGRPOFdmVFMtaUo4azln?oc=5",
+        "title": "Main",
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
+      {
+        "at": "2026-10-19T02:23:43.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "UA.NEWS",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObS1URXZjY3RxZW1lcnpzakc3enQzSUdkanE4UUV2QWtlbW44UzVhVFh6Ui1ZeGNuSnVBdUVPdUp4VGhfdVRRYzhYaVZobG4ta0xCR01rTlhqcVJwSEp6dDVEMGlOYlotNHo1UTVGajBKYnV1RkNXNjd0dXlsal9zYUpSb0JkWFNMVG5EZ1plREhoZFlsZU9FcUR3UHRWbENqWWM5SXY5ejE3cWJucDJNTHRBY2tGdTFK?oc=5",
+        "title": "Cyberattack raised refrigerator temperatures in French supermarkets — Politico Europe",
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
+      {
+        "at": "2026-10-19T01:31:39.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Sri Lanka Guardian",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQd1lsYUMtTUNhLW9XRmJKa2ZZT1E5ejZDVXl1a3o3WVBTZTJoWHVtd0NyV2dzMVhZTzlyLXlQalZSVk5NV21keXQzeDNkQkR2ZDhLYzh1MlhlMURJcmVteDdMMmVjckRoMHZEeWlBN3RJcVpXX0R6Y1ZpZzRjby1RMEJHdkpGdktmUW4ydC02SHppcXp2bmI4QnBzbU4wVFBnZktN?oc=5",
+        "title": "Sri Lanka’s 810MW Coal Power Plant to Remain Offline After Nationwide Blackout",
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
+      {
+        "at": "2026-10-18T23:15:28.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Breaking News, Latest News and Videos",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRVdvZHNQTkx1QWcyXzJicW9TMXA1aXJ0d2FGblJ5RTVCNUdDSmlicTNMVWk5MTR1dkxfZmdnbFQtN0N5UlVoTllwaXoxZ25OVHJGS0oxcGoxQkpMM0EwbE9TU25QY2pGdktkY1BZT0VDaEg5STdqeU9KVFN2UTBlNS16MEpNZGNFdVFrWURnZlZRYnUyemRkQ1lQZlJqQlpYZWFSZXdDY9IBrAFBVV95cUxOeDNvQUhTNGpnbFQzR1ZONi1kcGJ5VDJGV0tEVWpHUFFDSDJHcUwwejRHSG5JUnMxOGw2X3VEWFdqUUhpLVEyeENvR3VvNkdfbUJVcFpiM0puT19PbmNkSEVaalUwUGpkT0VpRUJIdkY3NWdDVU1kZGJVaXpTOFB6UTdvWXZFLTNqa3JPcy1KeDRZZTBoMXgtR204Q2phSlBESm94SFRXZ2xJbG9I?oc=5",
+        "title": "Ukraine outshoots Russia in cross-border drone war for 1st time, March data suggests - ABC News",
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
+      {
+        "at": "2026-10-18T21:10:30.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Daily Express US",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTHpCWDJoTDZ2ckc3SGJhcDRsTk1QWVNleUtRWkZXSkhkcUZuOWF2MUZLVlA0ZXF0NHotYU5CZXh0RkF5dFZBQ09tdjBFR19USnRlS2xpX2RrZ0tmY3FrbjAtdWJTUXlVS1hIN1E1NWRQYUc2WHpBMWdad3RZaUtnUVVyMTQxZWhE0gGIAUFVX3lxTE5MekJYMmhMNnZyRzdIYmFwNGxOTVBZU2V5S1FaRldKSGRxRm45YXYxRktWUDRlcXQ0ei1hTkJleHRGQXl0VkFDT212MEVHX1RKdGVLbGlfZGtnS2ZjcWtuMC11YlNReVVLWEg3UTU1ZFBhRzZYekExZ1p3dFlpS2dRVXIxNDFlaEQ?oc=5",
+        "title": "Trump fires '19 years worth' of interceptor missiles in Iran war over 7 months",
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
       {
         "at": "2026-10-18T02:15:00.000Z",
         "cat": "energy",
@@ -322,51 +367,6 @@
         "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQUJfaFV2cUdVWVY2WjM1UWw5c3IyVXZJNTVNbXV4WjhlSmRWbHA4MERvdTFUYXpLMU9aVzY3T3Z2VEpYbUdQWGY4UWRVOXNfU1Z3ZXljdnZWcjNSbWp4NG8wSVZoUjI5UTRUdmU2cjY3MVkydXhSQjNobGNUZ2xLWkktWGU3R0REOU1r?oc=5",
         "title": "Singapore faces AI-linked ransomware at 1.5 times global",
         "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-16T00:14:38.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRWFDdHFfLVg4dEdlTkhlN2NxQ3lnbEZvX3hRQ2FUU2ktTzFfQnFpd001ZzJMU01tcjNpaThxVGI2VFBLLV8xQTFfNFQzZHE4ZWU1OGdRV25rYU5uanhVblVfN2FFZ0JLeXljTC1qRUl5eV9MZ3JYQ3lkbFd4cE9TVEdwODhobzZB?oc=5",
-        "title": "Houthi Missiles Strike Government Headquarters in Yemen",
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-15T23:48:45.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "The Sun Nigeria",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE53Tk54NUJ3X25MN2t4VFdPUHBqY0wtcm9sbnRnM3BZNWFVQUl5MTB1QTg4eGxwdUtIdDU5NlA3aGtzcGhjekgxWXNjMlFwT01rRGRPZlc0OGpWa05BeDZ0aDU4LTBJajl6Ulg4UUJpVFJkX19tT1E?oc=5",
-        "title": "NEDL restores Shiroro power after 4-day blackout",
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-15T20:00:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The Guardian",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPbkFOY3lPYnZzY2JhR0RfeEUtQU1lZDVLU1N4a254d1Z6ZmlLM25LUm12Q2tudk1VOU9oR0xSaW92aUJEUlgyWWJ5NVQzVEJNb0dzU21MWWlXcU5JNkVKWlE5eVBteEItT3RXSHRvY2djQTFkOGNIUFVuVXRERUItcnMtSl9hdw?oc=5",
-        "title": "Houthi missiles strike Yemen presidential palace, killing five",
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-15T11:59:43.000Z",
-        "cat": "health",
-        "sev": 1,
-        "source": "ECDC",
-        "url": "https://www.ecdc.europa.eu/en/news-events/record-high-west-nile-virus-infections-reported-amid-spread-new-parts-europe",
-        "title": "Record-high West Nile virus infections reported amid spread to new parts of Europe",
-        "forYou": "Usually no action. Check your first-aid kit and expiry dates."
-      },
-      {
-        "at": "2026-10-15T04:32:13.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Tempo.co English",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZTFnRW80ZlVvM2RxM2NsNG9JeGNQNWlSUVNLSVdKZlJaV1Z6MGN4aDhicGw4T0FZa1E4UWVQQkNjMElmY3lkdGxNY1BEbUVXVVE4Y3RFRmV0aGJ2Nm1mVnpoWW9abnlSaWhKQWRRUnFHZDRNUlhJN0V3c3lDYlA3cWtZcFU?oc=5",
-        "title": "Batam Blackout: Govt Blames Lightning and Bats",
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       }
     ]
   }
