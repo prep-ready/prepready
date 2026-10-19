@@ -1,0 +1,63 @@
+---
+/**
+ * Ceny i zaopatrzenie (tylko PL): paliwa (Weekly Oil Bulletin KE, co tydzień) i kursy walut NBP.
+ * Dane zapisuje scripts/update-data.mjs w src/data/supply.json. Bez danych kafelek się nie pokazuje.
+ */
+import supply from '../data/supply.json';
+const S = supply as any;
+const h = S.fuel?.history ?? [];
+const now = h.at(-1), prev = h.at(-2);
+const fx = S.fx;
+const zl = (v: number) => v.toFixed(2).replace('.', ',');
+const pct = (a: number, b?: number) => (b ? ((a - b) / b) * 100 : null);
+const fmtPct = (p: number | null) => (p === null ? '' : `${p >= 0 ? '+' : '−'}${Math.abs(p).toFixed(1).replace('.', ',')}%`);
+const day = (d: string) => new Date(d + 'T12:00:00Z').toLocaleDateString('pl-PL', { day: 'numeric', month: 'long' });
+const fuel = now ? [
+  ['Pb95', now.pb95, prev?.pb95], ['ON', now.on, prev?.on], ['LPG', now.lpg, prev?.lpg],
+] as [string, number, number | undefined][] : [];
+const alert = fuel.some(([, v, p]) => (pct(v, p) ?? 0) > 5);
+---
+{(now || fx) && (
+  <section class="supply panel" aria-labelledby="sup-h">
+    <div class="head">
+      <h2 id="sup-h">Ceny i zaopatrzenie</h2>
+      {alert && <span class="warn">Skok cen paliw ponad 5% w tydzień</span>}
+    </div>
+    <div class="grid">
+      {fuel.map(([name, v, p]) => (
+        <div class="cell">
+          <span class="k">{name}</span>
+          <span class="v">{zl(v)} <small>zł/l</small></span>
+          {p !== undefined && <span class={(pct(v, p) ?? 0) > 0 ? 'd up' : 'd'}>{fmtPct(pct(v, p))} <small>t/t</small></span>}
+        </div>
+      ))}
+      {fx && ['eur', 'usd'].map((c) => (
+        <div class="cell">
+          <span class="k">{c.toUpperCase()}</span>
+          <span class="v">{zl(fx[c].value)} <small>zł</small></span>
+          <span class="d">{fmtPct(pct(fx[c].value, fx[c].prev))} <small>d/d</small></span>
+        </div>
+      ))}
+    </div>
+    <p class="src">
+      {now && <>Paliwa: średnie ceny w Polsce z {day(now.date)}, <a href="https://energy.ec.europa.eu/data-and-analysis/weekly-oil-bulletin_en" target="_blank" rel="noopener">Weekly Oil Bulletin KE</a>, przeliczone kursem NBP. </>}
+      {fx && <>Kursy: <a href="https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/" target="_blank" rel="noopener">NBP</a>, {day(fx.eur.date)}.</>}
+    </p>
+  </section>
+)}
+<style>
+  .supply{padding:16px 18px}
+  .head{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
+  h2{font-size:15px;font-family:var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600}
+  .warn{font-family:var(--mono);font-size:11px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;padding:2px 7px;border-radius:4px;background:var(--l4);color:var(--on-level)}
+  .grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;margin-top:10px}
+  .cell{display:flex;flex-direction:column;gap:2px;border-top:1px solid var(--line);padding-top:8px}
+  .k{font-family:var(--mono);font-size:12px;color:var(--muted)}
+  .v{font-family:var(--display);font-size:22px;font-weight:700;color:var(--ink)}
+  .v small,.d small{font-size:11px;color:var(--muted);font-weight:400}
+  .d{font-family:var(--mono);font-size:12px;color:var(--ink-2)}
+  .d.up{color:var(--l4)}
+  .src{margin-top:10px;font-size:12.5px;color:var(--muted)}
+  .src a{color:var(--action)}
+  @media (max-width:720px){ .grid{grid-template-columns:repeat(3,minmax(0,1fr))} }
+</style>
