@@ -1,0 +1,29 @@
+{
+  "fx": {
+    "eur": {
+      "value": 4.3702,
+      "date": "2026-10-19",
+      "prev": 4.3661,
+      "week": 4.3789
+    },
+    "usd": {
+      "value": 3.8974,
+      "date": "2026-10-19",
+      "prev": 3.8827,
+      "week": 3.9132
+    },
+    "source": "NBP"
+  },
+  "fuel": {
+    "history": [
+      {
+        "date": "2026-10-12",
+        "pb95": 6.86,
+        "on": 7.84,
+        "lpg": 3.38
+      }
+    ],
+    "source": "Komisja Europejska, Weekly Oil Bulletin (ceny z podatkami, przeliczone kursem NBP)"
+  },
+  "updatedAt": "2026-10-19T19:01:11.214Z"
+}
