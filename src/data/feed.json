@@ -4,6 +4,46 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-10-20T08:15:20.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "Polskie Radio Rzeszów",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQejRZZk5GbFJTVjdBZmo2ZGlxaDZDSHNjOWJRT3NfeFZ6VGd6WGtCMFplTWpJUExMNV93VWNaNkZQTHdOTldkM1Ztd1o5al91YWhHbW45Y1F5Y1VQUWlab1k2UU1TM0gwY0pLbGUtcEtvZC1zOWhoa2k4TWpFcE5pTnM2TEJGUWtMUEdINUZPVUVUbzY4bGNRSW91alFicEptYU5Gb0dfbzlnZGwtcjAza0NxNkhTMFpUMXhv?oc=5",
+        "title": "Rosyjskie ataki na Ukrainę. Wojsko Polskie poderwało lotnictwo, alert RCB na Podkarpaciu • Wiadomości",
+        "official": false,
+        "forYou": "Unikaj miejsca zdarzenia i stosuj się do poleceń służb. Numer alarmowy: 112."
+      },
+      {
+        "at": "2026-10-20T07:53:44.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "WP Tech",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTEdyMlZDVk11aEYzRk1XeGNWbUNHRzY2UzBncHFVWnVTZWs0QnlNVTk4VklmOXB6ek4yUEtiWG1DUTZ1MUxhcmVsWjMtV094Z1dXZjZfcGQzWkNQeGZDdnF5VlFSTTdwRUpYRE1LR1d4R1cxLVljR01ianp6TmJ2ZG1KdHBJRkNXck1uSnQxQ3ZncnRDREdqRFRGRnhsOWJMc3Nj?oc=5",
+        "title": "Polskie samoloty PZL-130 Orlik do wymiany. Wojsko szuka następców",
+        "official": false,
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+      },
+      {
+        "at": "2026-10-20T07:53:42.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "Polskie Radio 24",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNMHRER1ZZNldPN1NKdkJTT1lxTVNtc0ZWZ3JqLXZoLVJnSlEyYkY4a04xTlMzb1pxT2FtNEhablVlOG1XWE5yLVVlWmJCVlZ3clJ1RW1SMDRoU0x5MnBidjdObkxkRlRTeHczV1NUSDhnTjJRTmhNeXA2NmRkNGgwNDVPaGZHNUtoYnNieDZKUGdPVWdCUEhwVlJIMnBCSm5YV2xVeDF5QzVCQ3VXM0E?oc=5",
+        "title": "Alert RCB dla dwóch województw. \"Rosyjski atak powietrzny na terenie Ukrainy\"",
+        "official": false,
+        "forYou": "Unikaj miejsca zdarzenia i stosuj się do poleceń służb. Numer alarmowy: 112."
+      },
+      {
+        "at": "2026-10-20T07:33:39.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Lublin112",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNblU5S2JOak9fSDRtVTVUbXVCWFluYnlXYnhtSXBRb1dBUldaNFNnSHc3dV95aGNXeFotZlA1SFdSU3VqM21nRklxUGxXSXJYV1NBT0YySjNKZ0R5OFl0eGd0clBRRWN4TnlfWHVBS1pwVTc2clJWYXBMYUYwU3daQ1k4X3A0aDZzbF9nQW11bXA5VTlQVlVIODluR3pGWU0?oc=5",
+        "title": "Lotniska w Lublinie i Rzeszowie znów otwarte. Wojsko zakończyło działania",
+        "official": false,
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+      },
+      {
         "at": "2026-10-20T07:02:57.000Z",
         "cat": "security",
         "sev": 2,
@@ -42,16 +82,6 @@
         "title": "250-kilogramowa bomba lotnicza we Wrocławiu. Trwa ewakuacja mieszkańców",
         "official": false,
         "forYou": "Słuchaj poleceń służb, weź plecak ewakuacyjny, dokumenty i leki. Nie wracaj, dopóki służby nie odwołają ewakuacji."
-      },
-      {
-        "at": "2026-10-20T05:29:54.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Lublin112",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNblU5S2JOak9fSDRtVTVUbXVCWFluYnlXYnhtSXBRb1dBUldaNFNnSHc3dV95aGNXeFotZlA1SFdSU3VqM21nRklxUGxXSXJYV1NBT0YySjNKZ0R5OFl0eGd0clBRRWN4TnlfWHVBS1pwVTc2clJWYXBMYUYwU3daQ1k4X3A0aDZzbF9nQW11bXA5VTlQVlVIODluR3pGWU0?oc=5",
-        "title": "Lotniska w Lublinie i Rzeszowie znów otwarte. Wojsko zakończyło działania",
-        "official": false,
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
       },
       {
         "at": "2026-10-20T05:27:44.000Z",
@@ -165,40 +195,33 @@
         "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMXpjZUZ4MHhSaU5PamdXVGlacDdNNVFMV3NLV3I5bk5IT3llWWl0OTh3dXpLdWZoa2ZWZWNENUdka0RMVzRkYm5KUmExWThmMi1fWFVoaFhJOXZaS1JZTGVBOFVfVl9qdnNpZlZVV1k0TF9USmhVTklkci05ZEswVGFQS010OU9mYjRabXRnVmRHMWZfSGc?oc=5",
         "title": "Atak Rosji na Ukrainę. Alert RCB, operuje polskie lotnictwo",
         "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-10-18T04:26:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "TVP Info",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOYlQ2UjBQUmlNTmJHR1pQaUpaWUhVOWtjSklWQ2JfSEpBTXFoQUl1Z2FuVFBhUlVhRG56S0Jlek9wLWxCa3l6bUdnX1BrTDlST3diQlFWQm5Ob2xESXN3ejZyelBIX0hERVhfaE1HOVRwbV9XQVlCMlJDTnNxblFhQW1USnJ1dnBzb0dzN09iOFVDVnJPYWxYZGp4Z0t4WlZiUE8zNUQzeFVqWFFORlR4am14S1lvMHdR?oc=5",
-        "title": "Możliwe naruszenie polskiej przestrzeni. Wojsko szuka obiektu",
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-10-18T04:00:00.000Z",
-        "cat": "health",
-        "sev": 1,
-        "source": "Kutnowskie Centrum Informacyjne. Kutnowski portal internetowy.",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPTmJwYmV2cUNRRGlXak14R3NCNzhNQzJWak5ZUFp1Nk96enBMcTh1UllGX3pFVDRITzczOFh6eU5WNHVRVzZQcnRTSXYzelJYQ1Y5MzJuN21GZnJyTE54bTlIOGNpQnIxQjJiaXNJbnRhUVpIQXRnMjdYY0N3TE1kUVdPYXlzVzRUNEhMSUUxZ3pqbkJFUUlEdzRpbHdxdTlrd1hBWEhFUUVodmM2YVN0aDZYX2FyQ1hsZ1V6UjdLcEhDMzFXOG5vdUo5ZmVPSWM?oc=5",
-        "title": "Odłamki szkła w popularnej wodzie mineralnej. Masz ją w domu? GIS ostrzega! - KCI Kutno",
-        "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
-      },
-      {
-        "at": "2026-10-17T11:48:00.000Z",
-        "cat": "weather",
-        "sev": 2,
-        "source": "IMGW",
-        "url": "https://meteo.imgw.pl/",
-        "title": "IMGW: 1 ostrzeżeń meteo, najwyższy stopień 1 — Gęsta mgła",
-        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
       }
     ],
-    "updatedAt": "2026-10-20T07:29:09.701Z"
+    "updatedAt": "2026-10-20T08:19:18.301Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-20T08:06:04.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "IntelliNews",
+        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQWUMxS2xjUFJIVVpaeHZiWG9BZVZzLVA0bmkwU0oxYWxob1BYdFl3S25ob2tudWo3cG0yaU1nQWxfbU5pNGtiY283NFpaR1NuTGk1d0VDczRUaERXM3Baa1VrdFpVOU54QWJERk5adlUya3RNMUNKdEtxZ0NZUExUMG1adXhNa3RoM2JuVUdOMjRrZURWTS1GNlhpV050a2s0R2RoWmVoM1ZLZGhvRVhDOHd1X3BmUEdHRHdMbG5LWnYxZi1wUzRoU0xZajNGcEtZRzZ6d3M2eF8zcmFHY0RvYmJOUHJ3OTBodXQ4?oc=5",
+        "title": "Missile War Monitor: Russian strike wipes out Datagroup's Kyiv data centre, attack near capital kills three",
+        "official": false,
+        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+      },
+      {
+        "at": "2026-10-20T08:01:28.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Sri Lanka Guardian",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTUFNV2tsYWZuSERUUkE4anRQTEJySTNqUGJLZmFqN3JlS0VPNGJZalJTV0N1MWt3SjZCU1NERmFVUFZHRmFHdTdtTkJJTy1IWnhQRkl1cjlrUmhQVEJ4XzNMQkM4dTRfVVJYaU9ZT2xqdFAwTVcySVNYS2QzbE9UM3JFaXlaMEZmUDVtbUFxUVI3QnBhZ0lxUjBMUkVfY2hENi1j?oc=5",
+        "title": "Sri Lanka Opposition MP Blames Substandard Coal for Nationwide Power Blackout",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
       {
         "at": "2026-10-20T07:07:15.000Z",
         "cat": "security",
@@ -369,26 +392,8 @@
         "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdVhUTGVhWHJwbGRSY2NRZjItMzBmYWpFTWhua1VId0RlZjRsMTRKTkZqLW9JOHNZVWE3bkhaZUdmbWVzdEZVWm9kQzRCNHloT0VHbjhITXROSXRYWjdvZUpoWGFfTGxYUDctV25IWnVZT1I4SkRtQVBnaXNaMlVLNdIBlAFBVV95cUxQWF81TmkyREl4UlBsbnFfMFNZcE1ybE9QaXkwclFnMjMzczJIWm5ndkFVRXVJQndGeFY4TW8yWnBfaTgyQ1Q0ZnJIRFNuMzVoT01HRmhRal9fcGdaaUdxWHFvczVZUEtya3JxQWVnOFRXZjkxZVhTUjE0RVpVYWpIb2pQYzYyTXVwZFk1TEFBQ1luWlZE?oc=5",
         "title": "Cyberattacks hit small Korean clinics as few join government monitoring - CHOSUNBIZ",
         "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-17T20:04:33.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "АНТИКОР",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNN19PZ2FQU1I1Ync5dURDeWNDZkRaS1oyZkZDZXZ2ems4ajNTZU9ZcHBOamxObFlKOFZ2VG1DblBPaTFPdzNjVFpNamJRbkFPRzJEN2tRbXpVZUR2N25oV1hhQUV3NGl2cVhkWGdJNTU3WENPbldjSk8tb3g3SE80VE1tWW9Ja0RlSUtWdUsxQl90Y0U2QUpxNFI2SVdRQXRTNk5wOVozdHF0UUs5VzFrOE1GdUJCUQ?oc=5",
-        "title": "The RF army launched a missile strike on the Slobidskyi district of Kharkiv: there is a wounded person",
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-17T17:14:03.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "ИФЗ РАН",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9ZS21uUGY0UWQ2OUxsU3Jta2ptSXZNbVpidlN0aGVTUmh6LS04alNFQ0xrVC16WGdEMXdUeUdzWDA4YmN4ejZjWlFwMi1RN095VnBRdUdFUmhYMHM0bUo5ZzdjbllBWllaQW5XNXJoSkhESWRoOGJqdWtvODI?oc=5",
-        "title": "Why The Houthi Missile Strikes On Aden Mean Yemen's War Is F",
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       }
     ],
-    "updatedAt": "2026-10-20T07:31:12.324Z"
+    "updatedAt": "2026-10-20T08:20:46.972Z"
   }
 }
