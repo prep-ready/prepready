@@ -2,9 +2,9 @@
   "_comment": "Aktualizuje scripts/update-data.mjs codziennie. pl = Polska, en = świat. Składowe z mode=manual ustawiasz ręcznie.",
   "pl": {
     "sample": false,
-    "updatedAt": "2026-10-19T05:17:33.864Z",
+    "updatedAt": "2026-10-20T05:11:54.395Z",
     "score": 33,
-    "delta7": 9,
+    "delta7": 8,
     "ago30": 29,
     "history": [
       29,
@@ -31,6 +31,7 @@
       24,
       29,
       31,
+      33,
       33
     ],
     "components": [
@@ -41,13 +42,13 @@
         "value": 63,
         "sources": "GDELT · Google News",
         "trend": [
-          38,
           34,
           37,
           20,
           15,
           27,
           46,
+          63,
           63
         ],
         "mode": "auto",
@@ -64,6 +65,7 @@
           56,
           51,
           55,
+          100,
           100
         ],
         "stale": false
@@ -114,12 +116,12 @@
         "sources": "IMGW · GDACS",
         "trend": [
           13,
-          13,
           33,
           13,
           33,
           33,
           33,
+          13,
           13
         ],
         "mode": "auto",
@@ -137,7 +139,7 @@
           12,
           12,
           12,
-          12,
+          27,
           27,
           27,
           27
@@ -153,12 +155,12 @@
         "value": 5,
         "sources": "GDELT · Google News · CERT",
         "trend": [
-          5,
           17,
           5,
           34,
           28,
           30,
+          5,
           5,
           5
         ],
@@ -212,14 +214,15 @@
       "2026-10-16",
       "2026-10-17",
       "2026-10-18",
-      "2026-10-19"
+      "2026-10-19",
+      "2026-10-20"
     ]
   },
   "en": {
     "sample": false,
-    "updatedAt": "2026-10-19T05:19:41.296Z",
-    "score": 37,
-    "delta7": 0,
+    "updatedAt": "2026-10-20T05:13:59.805Z",
+    "score": 36,
+    "delta7": 2,
     "ago30": 35,
     "history": [
       35,
@@ -246,24 +249,25 @@
       37,
       40,
       35,
-      37
+      37,
+      36
     ],
     "components": [
       {
         "id": "conflict",
         "name": "Global conflict",
         "weight": 30,
-        "value": 40,
+        "value": 41,
         "sources": "GDELT · Google News",
         "trend": [
-          45,
           39,
           50,
           41,
           45,
           36,
           39,
-          40
+          40,
+          41
         ],
         "mode": "auto",
         "raw": [
@@ -284,7 +288,8 @@
           49,
           40,
           43,
-          44
+          44,
+          45
         ],
         "stale": false
       },
@@ -310,17 +315,17 @@
         "id": "energy",
         "name": "Power & grid",
         "weight": 15,
-        "value": 15,
+        "value": 12,
         "sources": "Google News",
         "trend": [
-          22,
           14,
           32,
           34,
           35,
           35,
           5,
-          15
+          15,
+          12
         ],
         "mode": "auto",
         "raw": [
@@ -348,7 +353,8 @@
           54,
           55,
           26,
-          35
+          35,
+          32
         ],
         "stale": false
       },
@@ -359,13 +365,13 @@
         "value": 66,
         "sources": "GDACS",
         "trend": [
-          46,
           52,
           67,
           57,
           66,
           72,
           72,
+          66,
           66
         ],
         "mode": "auto",
@@ -383,7 +389,7 @@
           20,
           20,
           20,
-          20,
+          28,
           28,
           28,
           28
@@ -396,17 +402,17 @@
         "id": "cyber",
         "name": "Cyber & infrastructure",
         "weight": 15,
-        "value": 32,
+        "value": 24,
         "sources": "GDELT · Google News",
         "trend": [
-          41,
           34,
           38,
           5,
           5,
           34,
           26,
-          32
+          32,
+          24
         ],
         "mode": "auto",
         "raw": [
@@ -452,7 +458,8 @@
       "2026-10-16",
       "2026-10-17",
       "2026-10-18",
-      "2026-10-19"
+      "2026-10-19",
+      "2026-10-20"
     ]
   },
   "doomsdayClock": {

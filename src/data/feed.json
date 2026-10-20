@@ -4,6 +4,42 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-10-20T03:06:21.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Portal Obronny",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQRTg3REdKU0ZUS1phZDNFRENBTzF3SlRRc2pyWmg3LTlYYU9wSTVqdllxQ3NlQkdxN3kydlptX3ZqcXdlRUVqTjB1V3FRU0FVTnlGY0tSMDBvTFpSQ3R1UHpXbWlXZHozZGxjRGN1b3k0NXV6d2w3T3R3LXJEQmE5cDlqNVBieUQ4QW5yRTZVNldqWVpPN05kekwzU21nbEw4NkFpT3ZEc3kzOWFxZDMzTXBFUTRQS1A3eDhHS2lQUlY1cnhudFJyYkw0bmFESjM3TDJfLVM0ejl2YTg?oc=5",
+        "title": "Nowe rakiety dla Homarów-K. Wojsko Polskie dostaje broń o zasięgu 290 km",
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+      },
+      {
+        "at": "2026-10-19T21:53:30.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Kresy.pl",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOTVVGRlRPN0lFOHZjcXBrUnE4SUNveV9nUG1CejBvMUJLV01hN25KcDZtVEZOYjBtX1BOV0JRaElRakNBUWVJMmxfVUNGdjk5Z204dnhTSWdRWFVmTWdzTWx6Y2lmenBhU2p6OF9TR3hjdkY4bWpPdWVhdGpJcDVjMThQRHNQbUVObHNXRXJfZzN5V2wxVl9waktzclRyLUlPUkNWdzJwcFJrV0ZlVE5WMDJQZFJUY2pKWlZkd241N1A1SF8zSmR6VF93?oc=5",
+        "title": "Premier Litwy: Dron, który eksplodował, był ukraiński i nadleciał z Polski. Przenosił materiały wybuchowe",
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+      },
+      {
+        "at": "2026-10-19T21:11:37.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQR282amJsTXVBQzJOVlJNb0g5TnpXQ3V3TmZJcnZDN09KdVdaUnhmSEhCS0ZwS3lIWXp4NGdPRExYX19jUWlqZkcwZU5iZUxMVkRXVlpnZ2MyOFlNb2JGR3BSQTJ3QjVJUkJpb0VIemtUSmFWVVVvUkhIM3R3djlIV0h5c0ZNLUZKTG1BcGFwSHNtcHFuY1JLNXhFR21lY200X251andyMnRKdHZOZmRKM21Mcw?oc=5",
+        "title": "Nowy alert RCB po ataku na Ukrainę. Polskie myśliwce patrolowały teren",
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+      },
+      {
+        "at": "2026-10-19T19:08:00.000Z",
+        "cat": "health",
+        "sev": 1,
+        "source": "Gov.pl",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPZzU4bHh3Zi1FTzNjM0NJMFp3VkNBSlBndkRzdElzenp4dG56MUlMMU8xZk9vR1FoWkJoNmNvWDdlRXdXWDJ0T05SMGEyTTM1aWZibXo0VmY2MVJUS2FuT2Zua3JISUxCUFpCdmpsT0xza1BLUlBFV1hoS3lpYVpoR2VNN21jWDM4a1ZOSVltQnpiUXlTZkdxcUpuclFGZ2U2Xy16MlhVZjlpck4zVGlxR2d5WnZXckVXMGNLeE1JTTRzR1lzTHczRkRSUko0b19IYmUwLVk0a0k?oc=5",
+        "title": "Ostrzeżenie publiczne dotyczące żywności: wykrycie obecności bakterii Listeria monocytogenes w jednej partii salami",
+        "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
+      },
+      {
         "at": "2026-10-19T05:00:00.000Z",
         "cat": "security",
         "sev": 2,
@@ -146,48 +182,66 @@
         "url": "https://cert.pl/posts/2026/10/CVE-2026-106030/",
         "title": "Podatność w oprogramowaniu NordVPN",
         "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
-      },
-      {
-        "at": "2026-10-16T04:32:52.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Dziennik Bałtycki",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQU51cDJTVlhGWml1TExUVDVwLVo1RU9zT00yd1VyNTVBV1NJTXZIYkNEbzAzelFJZy0yMTM3TENwRTNhWFFFUjdEOEl2b1NiLXlKeVptMXBLcTdNeGdYMHJ6SXRvWHhCOFF3b19idkd2RC1rVUhSdjdUa0licExJYmdIVjRidHE3ZHBOS1g3dldUYzAtTVhwUzdmeXktM2hkYkp3c29ZeEtlZHRWYS1LbXF1d0FES2RBOWZlRA?oc=5",
-        "title": "Wojsko Polskie wyprzedaje sprzęt i wyposażenie. To może być prawdziwa okazja",
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-10-16T04:00:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "wnp.pl",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbFZGNjd0NnBaUm1sN2dMcUNjOWlVYUptVUtUdTBlTVpvd0FhU1NjOExBSW94LW05Y1dOYUFlV3Y5Ukg3ajQtazlGT21fOUlGcW5JSm1aRHZHY0NDZTN1Tml5bWpONDVOY2FzVm1MMVBGelNueTlxdThsdDQ0dGlhZ0MtblpGX1JUNm5pYl9HQWIyMVN0UTllQVFUcTlRZnJiTTdsX0tsR1BWMVBCWkUyOUJ3?oc=5",
-        "title": "Wojsko dostanie lepszego Kraba. Będzie nie tylko szybciej strzelał",
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-10-15T21:22:03.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Wykop",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYktnNmM5eVZRbmFDdFVkd3MxdGI5MzR4RXVrOVBPUjNPeFRkcnl5U2VBN2dKZ3FRUmR5eDFtOUsyUUk1UVIwU0ZwMzZXMHpXd0V4NHQ0ZVZiMkxibHpEWFNTd3JwZVkwdG9EOFlDNXEwOTBGdmprLVlRXzRLTG0tRWtwTEwwN292?oc=5",
-        "title": "RAKIETA NA UKRAINIE: LECI POLSKA WSCHODNIA: #UKRAINA #WOJNA #ROSJA #L... (@LM317K)",
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-10-15T15:43:18.000Z",
-        "cat": "health",
-        "sev": 1,
-        "source": "Świnoujście w sieci",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNOEFEM2ZwRm80SXpXbVNpeUwwY1l1c1FJTHZvTS1qR2NYQ2g5SXhnWTR2ZjZHaUpaSkF5VkgxOHB3d1J0Z3FGVGlPSVhOcVhzSjdTeG1LV2FiUFZiSUcyUkxFRWFKcDdxWkp4U2tHX2N3YWVqVHVXdkhGR25FVl96SDhRWVZjWV82SE1aRVEwMFhpU1VRSkhMd0wtNTE0czYwY3JEckx3cnhyUkcycHdWODVKXy1nUHJPN1lr?oc=5",
-        "title": "Woda przy Pułaskiego znów zdatna do picia - Świnoujście",
-        "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
       }
     ]
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-20T03:19:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQM2RmejR4dzYzZVU3WUU5WGw5V19hanBUNUwyUFVUX1JNckFtOWpwTlFBcnVrbVBNVi1GRGRnTzEtbEtNZkRyOU51a2lIanNURFp0ZjY3UlVPS0ZLZVdTVi00cHdpVnlsRWVUa1o5M2NwaWtlaGptVnRkZVdoXzhva0pTc2MwNFliWE8wLXoyVUdRM3R0TzVJY3p4Z05YblJkcVBLOXI0QmNzUURTd0VBMFJGSE14Y2NWY18xSWJjVG5GeU9UeXBlcWI5VWlGLUttV05nbWpmRlVNM1RwTktOdA?oc=5",
+        "title": "Ukraine war briefing: Zelenskyy claims US deliberately delaying interceptor missile deliveries to Kyiv",
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
+      {
+        "at": "2026-10-20T01:14:43.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Cyber Daily",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUldJMlZEdV9Jd0NjWjNHWGtuXy1tUWd1SWJBYm1wQzc5ck9feEJkVXA0ejZSQmNFRVJ1akJ3X0JVRnhNZDZNdllTX3c3dWJ0SEZIaTk3d3k4eDIyRG9rWGhpN1NfNHViR0ZwQnhaTlZxWm93LVdHaWhEMjEweUFYTmh4NlktRjRNa3ZmLTc2dVRidmlVeklUdENTN2FHUjgxQ1VRckhqdURuQm1IU1B6eVdwbnNzNjBrUkx6a043OA?oc=5",
+        "title": "Report: Australian cyber executives threatened physically by hackers",
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
+      {
+        "at": "2026-10-20T00:45:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "AP News",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNYm9Fd0ZUSUJudF9abExqQ1dsTEFBbS1nLXRRai1VQk5GRDlXNnFQbHlXM1kzVU41YnRJT3Y5d256eGZzU1lQeFAwamJxQlJKUkFMNkt0RG9lb29SMTJMMEVJSVdreEF6QTdseWI0VzUzTG9oUWtoVEh4UmdTNE44X0tWckx6M2VtZzZNcWRwV0JKMzEy?oc=5",
+        "title": "Zelenskyy says Ukraine got no early warning from partners as Russia hits the power grid again",
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
+      {
+        "at": "2026-10-20T00:17:26.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "NZ Herald",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdV9GaXNXWWNRM2FSZ1FBTnBtaV9MWlhRZ01lZDgxYl92R1QwVnhERV85dkxUMGtndzdnaEFOaDhESHdmU2llN0R4bjU3SGJYcDRRaksteFgtTkR1emY1ZEpyX1h1REFNUUtTcDJ0bC02LVRFcEFjQ1BDMEUxX2xmZWFoQUp1YkVjOTkxNC1TVmVocEswZkE5V0FFbm1LX3BGNy1zdmRlaC1XNExIT3A2MURob3BQUQ?oc=5",
+        "title": "Ukraine claims US missile hold-up as Trump floats summit without Zelenskyy",
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
+      {
+        "at": "2026-10-20T00:11:10.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "The Sun Nigeria",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNmRHd1Bzb0tjMEZteVYtSl8yaFhWY3NQYXRSRXprSWxmRkRqVFpoaGRHelZDQUg3dWYyWmhVUWpFaDZmdmppZldCZTJMaE9STjhPN0NNLUxoNEJrT0lxbFZGakpNTGtsRGtpRUd0Z0lBYks4VDc3dXBSa0xKeEg2Q0xZS0U?oc=5",
+        "title": "Nationwide blackout looms as power generation dips to 476MW",
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
+      {
+        "at": "2026-10-19T15:36:21.000Z",
+        "cat": "health",
+        "sev": 2,
+        "source": "ECDC",
+        "url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
+        "title": "Ebola disease outbreak in the Democratic Republic of the Congo",
+        "forYou": "Usually no action. Check your first-aid kit and expiry dates."
+      },
       {
         "at": "2026-10-19T02:36:15.000Z",
         "cat": "security",
@@ -313,60 +367,6 @@
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZXdWUkVmcFNkTThYOW9xOEx2RnJaMXJJS2VQTVo5YVcteGJnMjVpeG54TnQtVWJWX1p4eE1JWXRrcmVpQ2VTMHRBa1ZpekNxSjRLaTRkVi0xZEVBTjBfZjBGcUZJa1lJTklxR3Q3ZlRMYW5oa083UV9aTUN2UGdzZER5RldtX3E3TnB4TjRFcFVUSzUyVGpVclBYclFoOEk?oc=5",
         "title": "US War on Iran, Day 232: Houthis Strike Yemen Presidential Palace, Killing 5",
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-16T13:15:34.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "NeedToKnow.co.uk",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPRV9SeUQyc1hEQnBvSGNJZkZOUV82R25LYV9ZVDdxb3pwbXM2VThZUWV1bERHYmRxWk5sR1dsdWJaZWI5ZXB6NGxVVjJ2SVRWcC1SaVVHQ0o4bjIwbEs0WXhZT1VfenRUODYxMlNKc0ZFTno3eThRWGFSZ3lEclA0eThB?oc=5",
-        "title": "Car DEMOLISHED by ‘ballistic war missile’ is somehow still working",
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-16T13:00:29.000Z",
-        "cat": "health",
-        "sev": 2,
-        "source": "ECDC",
-        "url": "https://www.ecdc.europa.eu/en/news-events/strengthening-public-health-emergency-operations-centres-europe-through-exchange-good",
-        "title": "Strengthening public health emergency operations centres in Europe through exchange of good practices",
-        "forYou": "Usually no action. Check your first-aid kit and expiry dates."
-      },
-      {
-        "at": "2026-10-16T06:00:00.000Z",
-        "cat": "disaster",
-        "sev": 3,
-        "source": "GDACS",
-        "url": "https://www.gdacs.org/report.aspx?eventid=1001339&episodeid=4&eventtype=TC",
-        "title": "Tropical Cyclone WATI-26 (Orange alert)",
-        "forYou": "If you have family in the area, check in. Review your own evacuation plan."
-      },
-      {
-        "at": "2026-10-16T06:00:00.000Z",
-        "cat": "disaster",
-        "sev": 3,
-        "source": "GDACS",
-        "url": "https://www.gdacs.org/report.aspx?eventid=1001339&episodeid=2&eventtype=TC",
-        "title": "Tropical Cyclone ONE-26 (Orange alert)",
-        "forYou": "If you have family in the area, check in. Review your own evacuation plan."
-      },
-      {
-        "at": "2026-10-16T03:52:22.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The Sunday Guardian",
-        "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxQd3ZSRmNMWnFweHAwRkRLVWhkODNsNFcyWk51MTB1Q19NOUZqRHBaYUJMYkZ6UnNDd29OWG9fUzJ5MTI1eDFFREhnWVYxLV92STczNDFyYklHSGdwdk1qbjcybGVxaUt0RlRqNTh5Y1pSRExyUmtOb2t3cUdudjk5WUxodlowLUdZc1g0cXVjUjhiYmJYZ3Z5bmEzQnNsdHdMbmxKRkVrc0VHMHZUTXVQQnBKZVU1QW9tVEg1VnU3ZXJhOVNYM3dMZHU4anFmNUt6NGNITk0wM1NrUGtiR292b1RZelBVR253OUxMT09QaFdkcU9qcS1JNk1JTmxMRmJvOWk4STRQb2w0alJUMmVCV0w3LThhY09WZ2hJamE3c9IBpAJBVV95cUxOdXd2a1lLa2FaU1B0NUhTN1pvRk9ranYxT1VXeTU5SnZOSENnMUktTDJFV0lqREFUQjY5VUlFWDhtYUdCdml3NS0tdnlWTTc4Zm02RF80b2xLcmI1OTdMNnBvT2Vwb08tUjR1NWVMTHVyS3p2UVY2dVE2cU9RTmp1OW41ZlZDYTFSUVIzQ1hPdnl0d0VMaEs0Vm43NEI2VVBRMlJuSDduX2d1Uk5vTmpHeTFvVFJYMTZsbFVaVHhMbUN0MW9FZWR0MGFWa1NUaVdUNFpVbDNYT1BsV2hXSk9jUmx3cjRWVjhvd3VWVlVZdnhaSGtISEFxbzFsSkxhbW8wekNrQnBGMGFNcGpud0hENklCRU9BMHNwRkZXaEhfdm9JMGhH?oc=5",
-        "title": "US-Israel-Iran War Latest Live News: Could Trump Deploy the ‘Mother of All Bombs’ Against Iran? 30,000-Pound MOAB in Focus Amid Missile Shortages Concerns",
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-16T03:11:00.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "IT Brief Asia",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQUJfaFV2cUdVWVY2WjM1UWw5c3IyVXZJNTVNbXV4WjhlSmRWbHA4MERvdTFUYXpLMU9aVzY3T3Z2VEpYbUdQWGY4UWRVOXNfU1Z3ZXljdnZWcjNSbWp4NG8wSVZoUjI5UTRUdmU2cjY3MVkydXhSQjNobGNUZ2xLWkktWGU3R0REOU1r?oc=5",
-        "title": "Singapore faces AI-linked ransomware at 1.5 times global",
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
       }
     ]
   }
