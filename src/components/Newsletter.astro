@@ -2,6 +2,7 @@
 import { t, type Lang } from '../i18n/ui';
 import { sourcesMonitored } from '../data/site';
 import Community from './Community.astro';
+import Supply from './Supply.astro';
 interface Props { lang: Lang; showSources?: boolean }
 const { lang, showSources = true } = Astro.props;
 /** Formularze Brevo (Marketing → Forms). Lista „PrepReady PL” / „PrepReady EN”. Pusty = komunikat „wkrótce”. */
@@ -26,6 +27,7 @@ const ACTION = ACTIONS[lang];
     </form>
     <small class="nl-msg" aria-live="polite">{t(lang, 'nl.small')}</small>
   </div>
+  {lang === 'pl' && <Supply />}
   <Community lang={lang} />
   {showSources && (
     <div class="panel srcs">
