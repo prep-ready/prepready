@@ -28,6 +28,16 @@
         "cat": "safety",
         "sev": 2,
         "source": "RMF24",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWUxPOVpTZml0YUJrVjFJNGRpdXpvRzRRaE5HZ2lIRDR6QzJmcmRKSHFPMTkzYkh4UE9QWkZwR213RkFwLXJvODczcHppOENwTDZNVGRYRFBubTBYQURxbk81MTFPbWNqVFgySnFZNXkyZUJ5RE9BVGNubWh1RGhvT0h1UDlPVUNCTG1lZF9sQS1ZaXpLVDEtaUxEWm5JWHVld2RKM3h0b3hVM1k?oc=5",
+        "title": "Alert RCB dla Podkarpacia i Lubelszczyzny - piąty od rana",
+        "official": false,
+        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady."
+      },
+      {
+        "at": "2026-10-20T19:35:00.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "RMF24",
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPS1BVLXpyaERnTzZNT2MyMFFUOC1BemVPRlVscWN1dS1mVFZOakN0V3pqajNoLUZ3bWxTYkxyR1JJZUtlN3IzM1VtMkpKbjluS0UzRll4dkJkLUdySVhSWllVLVBPUndZeURxUDEyZ3NxX05uNmlTSGRDWkFVSmxhSmx5YlFac3lLUUZ5M2lrLXRPenFLMTNaZ000d05NanRrclg1YXFSVkVDMGk2YVg1NkFB?oc=5",
         "title": "Alert RCB dla Podkarpacia i Lubelszczyzny. „Operuje polskie lotnictwo”",
         "official": false,
@@ -192,23 +202,23 @@
         "title": "Ostrzeżenie dla Podkarpacia. Wojsko poderwało myśliwce",
         "official": false,
         "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112."
-      },
-      {
-        "at": "2026-10-20T13:37:00.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "Rzeczpospolita",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVG5yREFvWDdmUmdDdEpneG5JMmYyRDlkcElnS2xXT0VqUHd1S2prWl92WC0wWEo5QjJLV3BRQXVMakFsNmQxRDRpdVY1cXQ2NHZjY0gtM29FTlFfaHFuM0R5UXZxNEtVcmNHWmlQSmlFUkR0QVBvLTNTNllNYW1fNnJhTnZ3V25hS1dBMExqeTFBNGloVGtzSGNJdzhhTjZiX1VUakhSU01YbkZuYjJtZ2pEaERQbjZadEE?oc=5",
-        "title": "Kolejny atak Rosji na Ukrainę. Alert RCB. „Zagrożenie atakiem z powietrza”",
-        "official": false,
-        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady."
       }
     ],
-    "updatedAt": "2026-10-20T21:16:34.518Z"
+    "updatedAt": "2026-10-20T22:14:58.885Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-20T22:08:04.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Howl.link",
+        "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE1ZWDdfSmFLblU4aUJzbVlrSFpzUkp5Z3Z1YnJhTkRpWFVpaWpLa013Zy1YcGx0eEFsQklJ?oc=5",
+        "title": "Ahold Delhaize Cyberattack Disrupts Services Across the US and Europe · cyber.hendryadrian.com",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
       {
         "at": "2026-10-20T20:33:53.000Z",
         "cat": "cyber",
@@ -218,6 +228,16 @@
         "title": "FBI says SafePay ransomware gang ‘among most active’ with more than 600 victims since 2024",
         "official": false,
         "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
+      {
+        "at": "2026-10-20T19:59:24.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The Jerusalem Post",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5CV0dNTVVnNUZlMmlncmF4amlNa19Qc0J4cHpQd2lSXy04aVJ1VFNsdWZqbkU5bnBVdzJTTGg2eE1ndVhjREp4by0tM29PbkVIM3YxTlEyY1FLM3ct?oc=5",
+        "title": "Donald Trump, Benjamin Netanyahu warn Iran as fears of renewed war grow",
+        "official": false,
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       },
       {
         "at": "2026-10-20T19:15:27.000Z",
@@ -388,28 +408,8 @@
         "title": "Cash in hand beats a dead app when payments fail: the backup habit our grandmothers swore by, and why digital bank users need it",
         "official": false,
         "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-20T12:01:07.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Arabian Business",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeGVzSjhrbUhOTTctX0ViTkJTRnFEZnkwNTJQR3gySTJRQlk3aXNwenJ2Qk1DejVYcF84dmF4WDFPd2xKRzEwazEtOEdOb05OOFhJaXZQVTd3R2lDRHdGbTgtM1JSSEMxeFN5OTlLc0tLNE55MHlHRDZNU3lOVFBDaTJwQQ?oc=5",
-        "title": "Iran war live: RAF to defend Saudi Arabia against Houthi attacks",
-        "official": false,
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-20T11:48:40.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "Informat.ro",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdnQzeWoyZkRtekdUWUZ4VW1JeTlId0dpVC1lSG00bjNoVktKX3VLUk1rWTYtN3JSOEwxc1VaTGludWc5VnFUTmxvdFpMNXNJOU1RYlh5ckpndmo4a1J5UWVJNWRXMW1Mek11Rk5kSXhDU29oRGlmWHo3czNkeTZnSllFSEFYWThXSUVVNjAwWlBMcGNJak1CNnBaVnA2RjV1aGFYag?oc=5",
-        "title": "AfD targeted in a cyberattack / Approximately 421,000 emails may have been published online, with their authenticity unconfirmed",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
       }
     ],
-    "updatedAt": "2026-10-20T21:18:40.390Z"
+    "updatedAt": "2026-10-20T22:16:19.854Z"
   }
 }
