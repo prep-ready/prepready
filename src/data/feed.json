@@ -4,6 +4,46 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-10-20T19:55:42.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Gazeta",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcG1lQU1nRWc1SWxLLU8wczB0LVBjM0NrTy1GSm1XTllNNkJ5WDFMM2EtYTJaMGdvUVlST0FkWlJVdjdNc1BEVnBtZklSUWNaOXk5NEVIT2NwdEc2eGhkUVFKSDJHS3Z1WmNXbDBmS3FRM1JtMFhJRFRva005c0hPYmNQbkUyMU9KblFaN2tzOTJTMXljT3VvUkVsOXB4OUFIcVN6UEdfeDFBNmhNQTFPSHFRalZwY1lRU25DNWVFVVpHV05i?oc=5",
+        "title": "Dron ćwiczebny spadł na posesję. To maszyna polskiego wojskowego instytutu",
+        "official": false,
+        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112."
+      },
+      {
+        "at": "2026-10-20T19:35:00.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "RMF24",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPS1BVLXpyaERnTzZNT2MyMFFUOC1BemVPRlVscWN1dS1mVFZOakN0V3pqajNoLUZ3bWxTYkxyR1JJZUtlN3IzM1VtMkpKbjluS0UzRll4dkJkLUdySVhSWllVLVBPUndZeURxUDEyZ3NxX05uNmlTSGRDWkFVSmxhSmx5YlFac3lLUUZ5M2lrLXRPenFLMTNaZ000d05NanRrclg1YXFSVkVDMGk2YVg1NkFB?oc=5",
+        "title": "Alert RCB dla Podkarpacia i Lubelszczyzny. „Operuje polskie lotnictwo”",
+        "official": false,
+        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady."
+      },
+      {
+        "at": "2026-10-20T19:22:13.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcW0wckxiX3NUd2tIVEFySXZyRGJGNVczU3lpNnNicldsa2ZpbUsxWmhsc3Z5anltdXVwZlhzZ1ppaFdqWUNVRDlnUG9JYWNRd0I0cF9PX0xOcFZtOU13S05VbllaOWtXb2xFQllIWXlRcnBTRzV3YnUtR21xblBxamxUd3RaUWx5cmxQY1o1cUdaTUZjVUo0UU1nSVlUVkxlbS1LSlRoRFh3eWs?oc=5",
+        "title": "Piąty alert RCB jednego dnia. Polskie myśliwce poderwane w powietrze",
+        "official": false,
+        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady."
+      },
+      {
+        "at": "2026-10-20T19:22:07.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Polskie Radio 24",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPWlBNcnNQb0I4SHBKbGNYVjVxMHI1ellHMDF5aHZEeDczOENpaVlCMGZxcjF2bjRyc2lsRTY2NU8zaWFvY25tQ0xfbkMwZE5iUGdfUWFMY3hYY0VVU3RsNVh4Q0lBbkdwSlpUM2kxU2lTVmx6UGg0aGdKMmpVYmxVeDB4b1NJdW13YjlKOEl1V3lTelBkVmxWQ3Rodl85b3lCQk83VDhVdmxBUHM1U2c?oc=5",
+        "title": "Alert RCB odwołany. Nowy komunikat dla Lubelszczyzny i Podkarpacia",
+        "official": false,
+        "forYou": "Zagrożenie minęło. Sprawdź, czy w domu wszystko jest w porządku, i uzupełnij to, czego użyłeś z zapasu."
+      },
+      {
         "at": "2026-10-20T19:17:06.000Z",
         "cat": "safety",
         "sev": 3,
@@ -162,49 +202,9 @@
         "title": "Zagrożenie atakiem z powietrza. Alert RCB",
         "official": false,
         "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady."
-      },
-      {
-        "at": "2026-10-20T13:29:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Portal Obronny",
-        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQWG5VRXFJdU5meG9DeFlmQWI3dEtvcUNORlhNZWJIRFJVRkQ0N2kwN3ZlTlp1ak9WMmgwMzI2Z3J0X044UGZDT1pPZXdjenRJemNmVE9Ecy1JTndXS1poOEYyYmtrazhDYW5WSzFDYVZKU08xMWJEdmJ4VnMtSGEzZzJySXdhRU15RTZlaGM2MnYteVV5QXJlNldvbFVyWjVBdmN4VkcyOWhXQmFTUTB6VVEzX1RONjdoVWhUdm54QS03REk1MEE3ZU04akdvLWQwRE93SGsyX01pX1dKallhMlBpc2ctMUNLMW9z?oc=5",
-        "title": "Pioruny dla polskiej armii. Pierwsza umowa na finiszu, kolejna już czeka",
-        "official": false,
-        "forYou": "Informacja o modernizacji armii. Nie wymaga działań z Twojej strony."
-      },
-      {
-        "at": "2026-10-20T13:28:33.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "Interia Wydarzenia",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNb0dLU3FWNTRpWDhGcDRsV3pZRXVfU2ltcUZ1MDVZQlREMWszanRTU21yMzBGZHozUG1tdGpEZ3BxMnQ2NFNoMGE0S05Hb2p6X1BTekwtejRRVk1FQlcySG1zOGdCMHVhMERtdm41MFNmaTFaTUFaSjhiWkJ6SHRXNlRieW9wLXZ2bVkzZUgwZFJ2dE9FX0E1b3ZUQ2FRU3hPd29aT1VR?oc=5",
-        "title": "Alert RCB, Podkarpackie. \"Znajdź bezpieczne miejsce, zagrożenie atakiem\"",
-        "official": false,
-        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady."
-      },
-      {
-        "at": "2026-10-20T12:56:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Pelplin Nasze Miasto",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPei1BZWFxellycTl1eHlKbi1aakNYTHl3dlkwWTZwVGdDRnRBa20ya2kxSFRGel9aVXdqdmhlX1ZTQjVyUFBXS3FlcEZJNFR1cm95aEZ1RkZiaU95YjVEZDQ3Z3VVbWdrUkhFTFdRcHQ0dUh0MVBPNHVRV3ZSOHRlcERHQ3pkb0MzY0EzZFQ5dVROSGpDT3RFN0RYOFhQa3JCUzNPUDBYd0kwWHhabWtValppRU9pVVpkRHQzN2UyVFlhbzYybjV5blF3alBLeGM?oc=5",
-        "title": "Wojsko Polskie wyprzedaje sprzęt i wyposażenie. To może być prawdziwa okazja 20.10.2026",
-        "official": false,
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-10-20T12:56:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Dziennik Bałtycki",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPemVpRFpBVTRuTjR2ckdXTnNicTl5MEJ1Tl9FbURpVy1laC16aUwweFpwOXJqalRNOEhlMXRlYUV4c29yTEhlXzNpUjd6NFU3T3VIR1JCWklQZjFBVzloeFBNTFBIYnUwMHAwWlNqNjJ4Y3lhZ19iak1WbGxtaG81S25TUkFfejc0ZjM2VGliNjBwRlgzSzc2RmNMSTF6YUx3djdJeDNTUXQ2ZkwxZmc5VTdpQTNOdDFOaTE5Z1VCM0FhMWFmbXI3M3BiZw?oc=5",
-        "title": "Wojsko Polskie wyprzedaje sprzęt i wyposażenie. To może być prawdziwa okazja 20.10.2026",
-        "official": false,
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
       }
     ],
-    "updatedAt": "2026-10-20T19:22:39.403Z"
+    "updatedAt": "2026-10-20T20:13:12.377Z"
   },
   "en": {
     "sample": false,
@@ -240,6 +240,16 @@
         "forYou": "Update your devices and don’t tap links in alert-style messages."
       },
       {
+        "at": "2026-10-20T17:46:52.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Ada Derana",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1mUU5GYlUwWkRLVklIdnZMaFVKaHhBVjNsZy1rRkdsYWppcS1aRXhvcm5BMDBSZmo2OVd2N25SRVgwRDJaMjhz?oc=5",
+        "title": "Shooting reported in Piliyandala as suspects abandon car and flee on motorcycle",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
+      {
         "at": "2026-10-20T17:45:00.000Z",
         "cat": "energy",
         "sev": 2,
@@ -268,16 +278,6 @@
         "title": "Houthi missile strike on Yemen camp kills 70: Victims include security personnel; govt promises 'firm respo...",
         "official": false,
         "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
-      },
-      {
-        "at": "2026-10-20T17:14:18.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Ada Derana",
-        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1mUU5GYlUwWkRLVklIdnZMaFVKaHhBVjNsZy1rRkdsYWppcS1aRXhvcm5BMDBSZmo2OVd2N25SRVgwRDJaMjhz?oc=5",
-        "title": "Shooting reported in Piliyandala as suspects abandon car and flee on motorcycle",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       },
       {
         "at": "2026-10-20T16:50:00.000Z",
@@ -410,6 +410,6 @@
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       }
     ],
-    "updatedAt": "2026-10-20T19:24:41.208Z"
+    "updatedAt": "2026-10-20T20:15:06.683Z"
   }
 }
