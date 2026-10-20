@@ -4,6 +4,56 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-10-20T13:37:26.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "Gazeta",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQSjI2aGVmeVE3VEs4VjRzVkh5cUFfcUQ0ZWVOQ3BzVGx3ZkZVakpoT3VIM0p5OVczVHJDLW5ySDIwQklDbERpVWlZLUxkQTEtSzVmZk5oRWxZRmstOVg0ajZISnBBNXhLamE1amVxTHBHeFc5S0JwcDM4UFpPQzNUWHdDbnhVRldzVjMydTd0di03M3pmMEl5U0JtOV9oOFVwbHAzUnMzN3ZnV1c4NGlDTnpKRko1NWJ5cVlBa0xn?oc=5",
+        "title": "Wydano alert RCB dla części województwa podkarpackiego. Powodem zagrożenie atakiem z powietrza",
+        "official": false,
+        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady."
+      },
+      {
+        "at": "2026-10-20T13:37:10.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "WP Wiadomości",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTVo3M0h1SURTM2tndzdTWUVqSHU5QVRocF9vV3ZnTXd6Zl9hWTFvcU5DcTJpVTIzX3Rfc08wNTdiUG52UTJJVUlxMWxoOFFuVThGaGtaODhOSTMzLW82QzJfTG1jN2E0dWp1RVp2bTd6TVVkZUVIdkIyQUFHaUloRlNtS2pQQWFqTVJSY2VRN2lQSzFibmtxa2lhbzA?oc=5",
+        "title": "Ostrzeżenie dla Podkarpacia. Wojsko poderwało myśliwce",
+        "official": false,
+        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112."
+      },
+      {
+        "at": "2026-10-20T13:29:12.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOaldxSW9oNkNVcVdoMG1wTmltS213dGJ2QkJHN09YWXdGZGJLVlk0R2JlcTFUaFpqa2NvSk12UVBsN25nX2QxTFZ1YjFnUGVRR2g3Vm9HYkhxUGd6dEt2eG5DQjBrZjQxaEt3bF81ZHRKbm1yODB1LU54NXQ0OHRQRmlqV1lZQkUyZXV4X2tzd1VKa1FBa214YUI0MUJTczRKaEhaNUwtbGU?oc=5",
+        "title": "Zagrożenie atakiem z powietrza. Alert RCB",
+        "official": false,
+        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady."
+      },
+      {
+        "at": "2026-10-20T13:29:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Portal Obronny",
+        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQWG5VRXFJdU5meG9DeFlmQWI3dEtvcUNORlhNZWJIRFJVRkQ0N2kwN3ZlTlp1ak9WMmgwMzI2Z3J0X044UGZDT1pPZXdjenRJemNmVE9Ecy1JTndXS1poOEYyYmtrazhDYW5WSzFDYVZKU08xMWJEdmJ4VnMtSGEzZzJySXdhRU15RTZlaGM2MnYteVV5QXJlNldvbFVyWjVBdmN4VkcyOWhXQmFTUTB6VVEzX1RONjdoVWhUdm54QS03REk1MEE3ZU04akdvLWQwRE93SGsyX01pX1dKallhMlBpc2ctMUNLMW9z?oc=5",
+        "title": "Pioruny dla polskiej armii. Pierwsza umowa na finiszu, kolejna już czeka",
+        "official": false,
+        "forYou": "Informacja o modernizacji armii. Nie wymaga działań z Twojej strony."
+      },
+      {
+        "at": "2026-10-20T13:28:33.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "Interia Wydarzenia",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNb0dLU3FWNTRpWDhGcDRsV3pZRXVfU2ltcUZ1MDVZQlREMWszanRTU21yMzBGZHozUG1tdGpEZ3BxMnQ2NFNoMGE0S05Hb2p6X1BTekwtejRRVk1FQlcySG1zOGdCMHVhMERtdm41MFNmaTFaTUFaSjhiWkJ6SHRXNlRieW9wLXZ2bVkzZUgwZFJ2dE9FX0E1b3ZUQ2FRU3hPd29aT1VR?oc=5",
+        "title": "Alert RCB, Podkarpackie. \"Znajdź bezpieczne miejsce, zagrożenie atakiem\"",
+        "official": false,
+        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady."
+      },
+      {
         "at": "2026-10-20T12:56:00.000Z",
         "cat": "security",
         "sev": 2,
@@ -152,63 +202,33 @@
         "title": "Osiem okrążeń, zmiany kursu i powrót nad Lwów. Nowa broń Rosji blisko Polski",
         "official": false,
         "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-10-20T09:03:00.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "Polskie Radio",
-        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNcWZTbThXcDZuNVJxU0htRU83YUE5cGFOWkMtMk9sNFppR2tVWVdKdDVxZWNZc24zanRqMkYzQjRsczVPZFpWR1VTTHNMVDlyUkZiX0gzMzBBbTdHcEFaSTAtajUzQUZtS3RZUDB5bUlfT0M1dFZ3VTNxc3RlU2tTc1BpTUJQbHNGQnVVdFJKT2Z5RUg0am1Sa2lIRFoxNHZ2WmpfdGVYRm5oeWhHQzh0WElZcl9LcW5TUmZRRGgyZWpHcTZfeF9yeXhDb19GVVlycDdPaTdHVkZpZGZs?oc=5",
-        "title": "Kolejny alert RCB dla woj. lubelskiego i podkarpackiego w związku z atakiem Rosji na Ukrainę",
-        "official": false,
-        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady."
-      },
-      {
-        "at": "2026-10-20T08:54:52.000Z",
-        "cat": "health",
-        "sev": 1,
-        "source": "salon24.pl",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNODRkUFVUNnBDT2g3cnIyOVAwUVhqWndqUURwVXNOMEVLYy14VEwtZ0VXc1A0UE15TS1xbXM1MlJYUU5WeVpDZUxDcG83d0hWUVlPd0V4QVJXbkFESEowQWFWQkFQWlFTZ2h4VXJjc1R4TjhtQ2lPaGV5bWJ4QXpRWm13SzFGbzJMdXhpQlN2S0tLbktVaEd3OUFvS0w1QTItRmZNb0l3?oc=5",
-        "title": "GIS wydał pilne ostrzeżenie. Groźna bakteria w popularnym salami",
-        "official": false,
-        "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
-      },
-      {
-        "at": "2026-10-20T08:53:18.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Tysol.pl",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeTd4MnFMVjJ4d2t3N0VqUVNTT19sOVQtME52NWpOMUw3Y2M5VWtna3lQaVV0MEZmdURwUHRSTjhxblpyY0JIMlYwd0hGcGwtZWlMZ2RvbG14Q3g2OWlNbXhKUmJsYVd6c3NwQTVvOHFrM0NRc0lGLWFSbUhFZEduMThBM2UwRG9BRkhRMGRvZGZGUUUyYnVhYjlvZ2FQRV9x?oc=5",
-        "title": "Polska poderwała myśliwce. Alert dla mieszkańców dwóch województw",
-        "official": false,
-        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112."
-      },
-      {
-        "at": "2026-10-20T08:49:41.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Lublin24.pl",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSl85SzVQZmMycWFvVEkwdEVadnQyTmhnZFcwQmNEQjdaNDlEeG1WdDgtTjNFVVN0MzZ1UXNpT0xJYzc0QWFaeWRMRHY3Z0s5SktsYnRmbUhvMzdxY1hZUlEtc0ZwbjZ3anN3bkxFcXJSZXAwVDMzdXM3VGxwSUFZcnNiNWNmTVZlQldrOEdqNWhmYXJRTzlRTFpUUUtkalZBX0F1aFItNk51ZXNyVzF3a3BOZkxOcjBFZ0l2SWhDY09Kem85Vmc0?oc=5",
-        "title": "Alarm na Lubelszczyźnie i Podkarpaciu! Alert RCB, lotniska wstrzymały operacje",
-        "official": false,
-        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady."
-      },
-      {
-        "at": "2026-10-20T08:49:41.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "NOWa Gazeta Biłgorajska",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNdWZ6Zlo0cjd6T2EwS2kyUE0taHZLMkpoQTdDMnVCREZBanFtTWhJQ1hwNURJSHVWWktTeWtGNkJxa3JBRGtaVXozRzlGVVZTVTE2bDRTcmtndmVOa1pMM0hfeXV4Y0h3Z1dRRU1mN0k5Wmk3NHgtZEk3amR5TUlfMlZhbnI2aW5YMjR0d09PU2l2UzN2V3hDUmNadTVvTVpvUC1LQkJYZDhlWk1HYk9nbVF0NC1rci1zX3UxUjVKOG5HS0lSMVk2V1NPb21Ma0k?oc=5",
-        "title": "Alarm na Lubelszczyźnie i Podkarpaciu! Alert RCB, lotniska wstrzymały operacje",
-        "official": false,
-        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady."
       }
     ],
-    "updatedAt": "2026-10-20T13:28:10.972Z"
+    "updatedAt": "2026-10-20T14:20:41.398Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-20T13:53:18.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Ada Derana",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBheVBzLThicVduMjhaTUtUdWlRTkV3dlBzS19feWd2RGUwNlVweDNxMEpfTm9xSnNibDh1SFdoMHhHVXpjWmhF?oc=5",
+        "title": "Over 300,000 suspects arrested under ‘Nation United’ operation in one year",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
+      {
+        "at": "2026-10-20T13:35:00.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "The Register",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUEZjaFNGNXZ0TTZ0dVY3VDhsSVNuRXVCRTZGSEdSS3pGTzRIcUdPVW1IV2U3NzhvS0h1Z0hnQi1EZ21seVVGSVg3VDNpenRQejZ3WVhvUnp5aU9LdGdKYjZ3cGQyZklUXy1NeE9HMm5sUEJqMzRlNC1SNW1CUDRTeEV0WkIxZmo3TUpyb3BTSWtIMXhjbXpwemVwcnNWNXFDVmdrYjZsa1NLZDM2YlY1UmtNQUdkMmQ5MHplZ2h0SFBJaGJ6SDh0Tg?oc=5",
+        "title": "'Password1' and a forgotten test account land Welsh outfits in hot water",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
       {
         "at": "2026-10-20T13:11:16.000Z",
         "cat": "energy",
@@ -238,6 +258,16 @@
         "title": "AfD targeted in a cyberattack / Approximately 421,000 emails may have been published online, with their authenticity unconfirmed",
         "official": false,
         "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
+      {
+        "at": "2026-10-20T10:41:01.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The National",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPTVZ5ekNnd0lWdHo2RW5CVnUtOVZqZG5VUWd6V1pUQ2d0a2NxWFEwRzI5OTBQckZtTnVKUWRMZzNuT3N0X1V5YXlEU0lfdWtRY0hlRXRJSlNpNFhXZ3hYN240RTNCamhPSDBSaGdVZ0J2TUl4RDR3QUFFa1laMDRQTm5kOWF4QXZjTWdyZjR3?oc=5",
+        "title": "Iran war latest: Hegseth makes surprise visit to Israel as Netanyahu tells Trump 'we have job to finish'",
+        "official": false,
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       },
       {
         "at": "2026-10-20T10:36:00.000Z",
@@ -378,37 +408,8 @@
         "title": "US-Israel-Iran War Live: Saudi Arabia’s Future Investment Initiative (FII) 2026 ‘Davos in the Desert’ Conference Cancelled Amid Houthi Attacks",
         "official": false,
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-20T03:30:29.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "inkl",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPVzhqSFd5a1dHQW56LU5ZY3lBdjhPbmItaXBzZ1hrYVctdHB0VXBHajZvRzl3NDNXMERIUEQyVmxqYk5oQjNScm1hN0lQRHBxS3NGaDRoTEYxcl9SQjFySUtfSUNPZXBteFJ5OTRjT2xaM3JBUzZfVHBiRHRyRVl6bTdlOXBlSkVTTHpDM2p3RktqOVJrMEt4SkJtZk52dGhqQ2ttc3RybHBZQW82U3hVb0V5SXdpSkJia3JfVzBSS3J5WWQxQ2c?oc=5",
-        "title": "Ukraine war briefing: Zelenskyy claims US deliberately delaying interceptor missile deliveries to Kyiv",
-        "official": false,
-        "forYou": "Defence procurement news. No action needed."
-      },
-      {
-        "at": "2026-10-20T03:19:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The Guardian",
-        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQM2RmejR4dzYzZVU3WUU5WGw5V19hanBUNUwyUFVUX1JNckFtOWpwTlFBcnVrbVBNVi1GRGRnTzEtbEtNZkRyOU51a2lIanNURFp0ZjY3UlVPS0ZLZVdTVi00cHdpVnlsRWVUa1o5M2NwaWtlaGptVnRkZVdoXzhva0pTc2MwNFliWE8wLXoyVUdRM3R0TzVJY3p4Z05YblJkcVBLOXI0QmNzUURTd0VBMFJGSE14Y2NWY18xSWJjVG5GeU9UeXBlcWI5VWlGLUttV05nbWpmRlVNM1RwTktOdA?oc=5",
-        "title": "Ukraine war briefing: Zelenskyy claims US deliberately delaying interceptor missile deliveries to Kyiv",
-        "official": false,
-        "forYou": "Defence procurement news. No action needed."
-      },
-      {
-        "at": "2026-10-20T01:14:43.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "Cyber Daily",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUldJMlZEdV9Jd0NjWjNHWGtuXy1tUWd1SWJBYm1wQzc5ck9feEJkVXA0ejZSQmNFRVJ1akJ3X0JVRnhNZDZNdllTX3c3dWJ0SEZIaTk3d3k4eDIyRG9rWGhpN1NfNHViR0ZwQnhaTlZxWm93LVdHaWhEMjEweUFYTmh4NlktRjRNa3ZmLTc2dVRidmlVeklUdENTN2FHUjgxQ1VRckhqdURuQm1IU1B6eVdwbnNzNjBrUkx6a043OA?oc=5",
-        "title": "Report: Australian cyber executives threatened physically by hackers",
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
       }
     ],
-    "updatedAt": "2026-10-20T13:29:02.876Z"
+    "updatedAt": "2026-10-20T14:22:05.366Z"
   }
 }
