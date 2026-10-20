@@ -2,7 +2,7 @@
   "_comment": "Aktualizuje scripts/update-data.mjs codziennie. pl = Polska, en = świat. Składowe z mode=manual ustawiasz ręcznie.",
   "pl": {
     "sample": false,
-    "updatedAt": "2026-10-20T18:14:42.704Z",
+    "updatedAt": "2026-10-20T19:22:39.402Z",
     "score": 36,
     "delta7": 11,
     "ago30": 29,
@@ -184,7 +184,7 @@
           46,
           48,
           26,
-          24
+          25
         ],
         "stale": false
       }
@@ -220,9 +220,9 @@
   },
   "en": {
     "sample": false,
-    "updatedAt": "2026-10-20T18:16:31.842Z",
-    "score": 44,
-    "delta7": 10,
+    "updatedAt": "2026-10-20T19:24:41.207Z",
+    "score": 40,
+    "delta7": 6,
     "ago30": 35,
     "history": [
       35,
@@ -250,14 +250,14 @@
       40,
       35,
       37,
-      44
+      40
     ],
     "components": [
       {
         "id": "conflict",
         "name": "Global conflict",
         "weight": 30,
-        "value": 54,
+        "value": 44,
         "sources": "GDELT · Google News",
         "trend": [
           39,
@@ -267,7 +267,7 @@
           36,
           39,
           40,
-          54
+          44
         ],
         "mode": "auto",
         "raw": [
@@ -289,7 +289,7 @@
           40,
           43,
           44,
-          49
+          48
         ],
         "stale": false
       },
@@ -315,7 +315,7 @@
         "id": "energy",
         "name": "Power & grid",
         "weight": 15,
-        "value": 29,
+        "value": 28,
         "sources": "Google News",
         "trend": [
           14,
@@ -325,7 +325,7 @@
           35,
           5,
           15,
-          29
+          28
         ],
         "mode": "auto",
         "raw": [
@@ -354,7 +354,7 @@
           55,
           26,
           35,
-          47
+          46
         ],
         "stale": false
       },
@@ -402,7 +402,7 @@
         "id": "cyber",
         "name": "Cyber & infrastructure",
         "weight": 15,
-        "value": 38,
+        "value": 35,
         "sources": "GDELT · Google News",
         "trend": [
           34,
@@ -412,7 +412,7 @@
           34,
           26,
           32,
-          38
+          35
         ],
         "mode": "auto",
         "raw": [
