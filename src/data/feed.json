@@ -84,7 +84,7 @@
         "forYou": "Informacja o modernizacji armii. Nie wymaga działań z Twojej strony."
       },
       {
-        "at": "2026-10-20T19:02:45.000Z",
+        "at": "2026-10-20T19:07:08.000Z",
         "cat": "security",
         "sev": 2,
         "source": "TVP Warszawa",
@@ -204,7 +204,7 @@
         "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112."
       }
     ],
-    "updatedAt": "2026-10-20T22:14:58.885Z"
+    "updatedAt": "2026-10-20T23:11:56.618Z"
   },
   "en": {
     "sample": false,
@@ -278,6 +278,16 @@
         "title": "American Households Crushed: Housing Freezes, Car Loans Go Bad, and Electric Bills Keep Climbing",
         "official": false,
         "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
+      {
+        "at": "2026-10-20T17:54:46.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Ada Derana",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBuVkRrV2czTi02OVlkYnFsN1lpY0JnbVhxYXB5OUY0S0Y4dDc2azBqWTdfSDBoNEgtdTZ1RHhjWlFyVWo1cXNF?oc=5",
+        "title": "Tourist arrivals in October near 100,000",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       },
       {
         "at": "2026-10-20T17:46:52.000Z",
@@ -398,18 +408,8 @@
         "title": "Two killed by lightning strike in Anuradhapura",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-20T12:59:55.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "شبكة تواصل الإخبارية",
-        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4tSFBFZ3ZkMHc3WUk0WGRSeTVJN1hEWm5ZZEVpQXU0MzlMblc3enlSQktpdFFObDNfekRkeHlRRE5OOUZSRks1NFRwZ2lEdEtSbnNZ?oc=5",
-        "title": "Cash in hand beats a dead app when payments fail: the backup habit our grandmothers swore by, and why digital bank users need it",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
       }
     ],
-    "updatedAt": "2026-10-20T22:16:19.854Z"
+    "updatedAt": "2026-10-20T23:13:09.277Z"
   }
 }
