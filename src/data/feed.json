@@ -4,6 +4,26 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-10-20T12:10:12.000Z",
+        "cat": "health",
+        "sev": 1,
+        "source": "GEOFORUM",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSnBSRklucjBQMXFnNGZQSUd6Y1IzT0lsOENVbVhtT0lJWDFkMkdQeU5RNTd4dl9CekJBek1VVXU5Z2ppOVlzbk9ObTlLdXBCaml1Z3phQkxnVDhhUl9Vdk0xck5UM1ppUEV2SlNXWWdlampxS18xYlJBbFNiMTNsYUJ0NlkwWmxDQ2NMdHVB?oc=5",
+        "title": "geodezja, GIS, kataster, teledetekcja, kartografia",
+        "official": false,
+        "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
+      },
+      {
+        "at": "2026-10-20T12:05:55.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "InfoSecurity24",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPWVVpaG5qb0Zsbk9acnZ6am9QbnBBaEk4WmJ6SEFrYzFIUUd2V1lLRVJuOERnLTI0OFRETllqRmJ1QXVvQjlsc2R1dmUxb1FyOEk3Rktac2pPZ045TXpaUHh3clh0eG9XY0d0Um9EV01nMktFalVUTzcyNjA2YzlKQ0pBWUVEYnAwT3Rna3hHYkUxTEpDX3RVWmpEU1A3ZDNqRmRrazNWcUdlRHFHdHFnMzVkZldBbDVqUl9Z?oc=5",
+        "title": "Dron przeleciał nad Polską i spadł na Litwie. Służby go nie widziały?",
+        "official": false,
+        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112."
+      },
+      {
         "at": "2026-10-20T11:46:00.000Z",
         "cat": "weather",
         "sev": 2,
@@ -12,6 +32,46 @@
         "title": "IMGW: 1 ostrzeżeń meteo, najwyższy stopień 1: Silny wiatr",
         "official": true,
         "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
+      },
+      {
+        "at": "2026-10-20T11:41:31.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "Radio Zet",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcTQtNDAxb19ITVFsaU9OMkxLN1JBa1pWVTcxSFd3aW13aGZ6ZmJ6QktmRUd1Z0w2V3JiR0JhUTdXNEl1S1BHSDRVYW9VdE9YRUZhU09scHdOOHNGOWZldFZ0Sk02SlNmZ1NwZ2sxQ1dESVBqVjBkTnhsWkdSOVZsOEt1YV9IeGhsUkFUUFJjZkVOV0t1ZnlNa2k2SnRmWTVHMEw3NTI3c2dqcjJrV21Z?oc=5",
+        "title": "Kolejny alert RCB wysłany do mieszkańców. Rosja atakuje zachodnią Ukrainę",
+        "official": false,
+        "forYou": "Zgłaszaj podejrzane osoby i przedmioty przy torach, liniach energetycznych i obiektach wojskowych pod 112. Nie rób zdjęć instalacji wojskowych."
+      },
+      {
+        "at": "2026-10-20T11:30:21.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "TVN24",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOT2M5cUNIVVJJTE9DdTk0VVF6dlZta1cyLVpwRTRTNXJjelVRb1Vtc0VKVlJPTW9XZUVONU52bFdzOWs4T2ZqYWx6WWlPWG9zRFlyc1hqbE03Qm41eV93Wk5VVVExZ296NWw4QUx6dkxaWTgxYXJjY0pPLWdjYXZ1cVhLb05OWk5FdUE5LUZaOEE?oc=5",
+        "title": "Alert RCB dla mieszkańców Lubelszczyzny i Podkarpacia",
+        "official": false,
+        "forYou": "Unikaj miejsca zdarzenia i stosuj się do poleceń służb. Numer alarmowy: 112."
+      },
+      {
+        "at": "2026-10-20T11:30:18.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Onet",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSVVXXzBpckphY3B1TWIyRUgxMjFCNUNoVXVTWnR1X1U4RUJqaDNUTDZ1dnBybUhSb3VtWWpIUWJxeTh0SEJGOHltaFFfZk9UY0ZiTU9vNVQ3M09DZjB1Nk9Kcml4X3Rfb05LUzVjVGZxSGEwYUNNeG9udmR3Z1NfY21mMWktVFRRXzdlbFNObENrVHRUMmR5MjA2UVlieTZTYmZSZGl0YnJrdVBZZkdOMV9iWmRxNHJwcGhkVTVtNjRON1BHNmVHYw?oc=5",
+        "title": "Polska trzeci dziś raz poderwała myśliwce. Rosja atakuje w Ukrainie",
+        "official": false,
+        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112."
+      },
+      {
+        "at": "2026-10-20T11:24:00.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "TVP Info",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOYWV5VFEyY2pyb04zdDhkUkVHZHZxbEFxS2RJeGhuRkdoaURMZXZ4dTg5bkt4VkZTZGpLN3NIV3NYTDhta2FfcUFpWlhQT25ucHU0bGFudlhrc05LQjcxNjA3a0RYY0lkVEFkT3FyQkJsd3pMUVVyREFEY0FGSXk3UTJVOF9IZkx0d3JTaDJJRmphR0hONEVocU41dlFBbjNrOHJJUzNxajZ0aTdSX2VKdFdNZ2pNeEVjTmFLakhaZGp5MUZqMGhNR1h1bkc?oc=5",
+        "title": "Alert RCB dla dwóch województw. Operuje polskie lotnictwo",
+        "official": false,
+        "forYou": "Unikaj miejsca zdarzenia i stosuj się do poleceń służb. Numer alarmowy: 112."
       },
       {
         "at": "2026-10-20T10:50:00.000Z",
@@ -142,73 +202,23 @@
         "title": "Polskie samoloty PZL-130 Orlik do wymiany. Wojsko szuka następców",
         "official": false,
         "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-10-20T07:53:42.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "Polskie Radio 24",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNMHRER1ZZNldPN1NKdkJTT1lxTVNtc0ZWZ3JqLXZoLVJnSlEyYkY4a04xTlMzb1pxT2FtNEhablVlOG1XWE5yLVVlWmJCVlZ3clJ1RW1SMDRoU0x5MnBidjdObkxkRlRTeHczV1NUSDhnTjJRTmhNeXA2NmRkNGgwNDVPaGZHNUtoYnNieDZKUGdPVWdCUEhwVlJIMnBCSm5YV2xVeDF5QzVCQ3VXM0E?oc=5",
-        "title": "Alert RCB dla dwóch województw. \"Rosyjski atak powietrzny na terenie Ukrainy\"",
-        "official": false,
-        "forYou": "Unikaj miejsca zdarzenia i stosuj się do poleceń służb. Numer alarmowy: 112."
-      },
-      {
-        "at": "2026-10-20T07:33:39.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Lublin112",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNblU5S2JOak9fSDRtVTVUbXVCWFluYnlXYnhtSXBRb1dBUldaNFNnSHc3dV95aGNXeFotZlA1SFdSU3VqM21nRklxUGxXSXJYV1NBT0YySjNKZ0R5OFl0eGd0clBRRWN4TnlfWHVBS1pwVTc2clJWYXBMYUYwU3daQ1k4X3A0aDZzbF9nQW11bXA5VTlQVlVIODluR3pGWU0?oc=5",
-        "title": "Lotniska w Lublinie i Rzeszowie znów otwarte. Wojsko zakończyło działania",
-        "official": false,
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-10-20T07:02:57.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Wiadomości Onet",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTTJFUnNyY0tTRnBjSVUySHRhVkJJNm1fNDVfLWVNd2h2SWR4U3FmQmRqeF9xVEZlSXRlS015UVJuU3ZyM3R4bDQxNzh3MTF2WE1oQXdIem1RLUI0NGo3NlZBQ3IydGJuWFlmMTRNdFBUNDZBSk1MTXNWWWtyTkVkU0wycXlmRVhSU0ZrRnVJRFJKVm11Q3VKTWhsRlhWRjNubWtLMk55QUlXTkZuQ18wcFpuWXhxdENKdzFMQQ?oc=5",
-        "title": "Ukraiński dron wleciał z Polski? Premier Litwy mówi wprost",
-        "official": false,
-        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112."
-      },
-      {
-        "at": "2026-10-20T07:01:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Spider's Web",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBwUnlkS0tmcGt3QmYwMkRFYWNwVkZuVVRCdUtsUHdrbC0yZEt2cU9TcnczeUNkVDI4UmxkZ1pMcUFrS2kyZzBCR0xLNEd6WWtTTnBZalhvLTJJeFNwVUdDNEJKb3NKME5wOTl3SGpOMnpqLUgzVTRHSjk5UGo?oc=5",
-        "title": "Poszły na nie miliony, teraz mogą pójść na żyletki. Polska szuka nowych samolotów",
-        "official": false,
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-10-20T06:36:00.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "Polska Agencja Prasowa SA",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNNUkzV0NVU3hkazZza2s1eVlCMjVJQVVVNlJOMTFzZlJsMTZjWUVSVS1aOHZENUdadGk1bk1yWUEtSzlvTERJRlgtaTVZV2ZXWnQtdHNvZHNpTGEyZXhYaktsa0h1U1FRd0tBbmJiTmhnNk4xUHJEWndKV0c1UjZpTk00eWhKQW5oTmpUTmpBUUxGYVRBckFxcTRIOEFXRVB4X2dB?oc=5",
-        "title": "250-kilogramowa bomba lotnicza we Wrocławiu. Trwa ewakuacja mieszkańców",
-        "official": false,
-        "forYou": "Słuchaj poleceń służb, weź plecak ewakuacyjny, dokumenty i leki. Nie wracaj, dopóki służby nie odwołają ewakuacji."
-      },
-      {
-        "at": "2026-10-20T05:27:44.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "Polska Agencja Prasowa SA",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQXhSNUN5SXpDRVdFQUhDQkdzNU9qU2xzdE42bDhMbk96WTBfUFEzSklqenkwLWRBblRHQ3FGb2J6NVJjcktJdG9tMnpzdnVnVm9nUlJla2lBamJkOF9acFJhUXVKYm1Hb0tqOU5uQmUteHNCR0YzY1loU2l1VTZSeXROVDlyOTFUUDI4RXhSS2xCNG00SDIta3JIWlVBZkdDX2dWTHBJVk9CdU9USDdBSWF3?oc=5",
-        "title": "Zakończył się atak powietrzny na Ukrainę, brak zagrożenia na terenie Polski",
-        "official": false,
-        "forYou": "Unikaj miejsca zdarzenia i stosuj się do poleceń służb. Numer alarmowy: 112."
       }
     ],
-    "updatedAt": "2026-10-20T11:16:22.815Z"
+    "updatedAt": "2026-10-20T12:15:18.976Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-20T11:48:40.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Informat.ro",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdnQzeWoyZkRtekdUWUZ4VW1JeTlId0dpVC1lSG00bjNoVktKX3VLUk1rWTYtN3JSOEwxc1VaTGludWc5VnFUTmxvdFpMNXNJOU1RYlh5ckpndmo4a1J5UWVJNWRXMW1Mek11Rk5kSXhDU29oRGlmWHo3czNkeTZnSllFSEFYWThXSUVVNjAwWlBMcGNJak1CNnBaVnA2RjV1aGFYag?oc=5",
+        "title": "AfD targeted in a cyberattack / Approximately 421,000 emails may have been published online, with their authenticity unconfirmed",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
       {
         "at": "2026-10-20T10:36:00.000Z",
         "cat": "cyber",
@@ -396,18 +406,8 @@
         "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdV9GaXNXWWNRM2FSZ1FBTnBtaV9MWlhRZ01lZDgxYl92R1QwVnhERV85dkxUMGtndzdnaEFOaDhESHdmU2llN0R4bjU3SGJYcDRRaksteFgtTkR1emY1ZEpyX1h1REFNUUtTcDJ0bC02LVRFcEFjQ1BDMEUxX2xmZWFoQUp1YkVjOTkxNC1TVmVocEswZkE5V0FFbm1LX3BGNy1zdmRlaC1XNExIT3A2MURob3BQUQ?oc=5",
         "title": "Ukraine claims US missile hold-up as Trump floats summit without Zelenskyy",
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-20T00:11:10.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "The Sun Nigeria",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNmRHd1Bzb0tjMEZteVYtSl8yaFhWY3NQYXRSRXprSWxmRkRqVFpoaGRHelZDQUg3dWYyWmhVUWpFaDZmdmppZldCZTJMaE9STjhPN0NNLUxoNEJrT0lxbFZGakpNTGtsRGtpRUd0Z0lBYks4VDc3dXBSa0xKeEg2Q0xZS0U?oc=5",
-        "title": "Nationwide blackout looms as power generation dips to 476MW",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       }
     ],
-    "updatedAt": "2026-10-20T11:17:49.520Z"
+    "updatedAt": "2026-10-20T12:17:31.865Z"
   }
 }
