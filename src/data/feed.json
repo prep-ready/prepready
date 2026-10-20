@@ -7,6 +7,16 @@
         "at": "2026-10-20T12:56:00.000Z",
         "cat": "security",
         "sev": 2,
+        "source": "Pelplin Nasze Miasto",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPei1BZWFxellycTl1eHlKbi1aakNYTHl3dlkwWTZwVGdDRnRBa20ya2kxSFRGel9aVXdqdmhlX1ZTQjVyUFBXS3FlcEZJNFR1cm95aEZ1RkZiaU95YjVEZDQ3Z3VVbWdrUkhFTFdRcHQ0dUh0MVBPNHVRV3ZSOHRlcERHQ3pkb0MzY0EzZFQ5dVROSGpDT3RFN0RYOFhQa3JCUzNPUDBYd0kwWHhabWtValppRU9pVVpkRHQzN2UyVFlhbzYybjV5blF3alBLeGM?oc=5",
+        "title": "Wojsko Polskie wyprzedaje sprzęt i wyposażenie. To może być prawdziwa okazja 20.10.2026",
+        "official": false,
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+      },
+      {
+        "at": "2026-10-20T12:56:00.000Z",
+        "cat": "security",
+        "sev": 2,
         "source": "Dziennik Bałtycki",
         "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPemVpRFpBVTRuTjR2ckdXTnNicTl5MEJ1Tl9FbURpVy1laC16aUwweFpwOXJqalRNOEhlMXRlYUV4c29yTEhlXzNpUjd6NFU3T3VIR1JCWklQZjFBVzloeFBNTFBIYnUwMHAwWlNqNjJ4Y3lhZ19iak1WbGxtaG81S25TUkFfejc0ZjM2VGliNjBwRlgzSzc2RmNMSTF6YUx3djdJeDNTUXQ2ZkwxZmc5VTdpQTNOdDFOaTE5Z1VCM0FhMWFmbXI3M3BiZw?oc=5",
         "title": "Wojsko Polskie wyprzedaje sprzęt i wyposażenie. To może być prawdziwa okazja 20.10.2026",
@@ -192,19 +202,9 @@
         "title": "Alarm na Lubelszczyźnie i Podkarpaciu! Alert RCB, lotniska wstrzymały operacje",
         "official": false,
         "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady."
-      },
-      {
-        "at": "2026-10-20T08:15:26.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Rzeszów24.info",
-        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOT0xUNGlBWXRwaDNXUEotZDdGam5Hdko3MV9VbFBJZG9CTWtMLWlkbVVBWXVKREVKRHFUZGt2RUJZRmhqYUlHcTdUc085eFExaGF2VndXa0d5dkZsMFU5clBob3hCYVNicm8zal9jTC1aTHdfTkF5LXNzTnNSZWJtUUVISXBjLVJEVzBIeWhLdWhjRE5HTVpaZlZfMzM4V3gySmlCRVc3dUtCaDdlbUVHXzRNUDRqMHVDNFBYZFVsYkp0MFhsdUdyNVhUUHJMLVQxbTl5cHJVLVJKU0pVbmc?oc=5",
-        "title": "Wstrzymane operacje lotnicze na lotnisku Rzeszów-Jasionka. Alert RCB i myśliwce w powietrzu",
-        "official": false,
-        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady."
       }
     ],
-    "updatedAt": "2026-10-20T13:11:16.975Z"
+    "updatedAt": "2026-10-20T13:28:10.972Z"
   },
   "en": {
     "sample": false,
@@ -409,6 +409,6 @@
         "forYou": "Update your devices and don’t tap links in alert-style messages."
       }
     ],
-    "updatedAt": "2026-10-20T13:13:18.717Z"
+    "updatedAt": "2026-10-20T13:29:02.876Z"
   }
 }
