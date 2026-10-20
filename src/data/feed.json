@@ -4,6 +4,26 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-10-20T12:56:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Dziennik Bałtycki",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPemVpRFpBVTRuTjR2ckdXTnNicTl5MEJ1Tl9FbURpVy1laC16aUwweFpwOXJqalRNOEhlMXRlYUV4c29yTEhlXzNpUjd6NFU3T3VIR1JCWklQZjFBVzloeFBNTFBIYnUwMHAwWlNqNjJ4Y3lhZ19iak1WbGxtaG81S25TUkFfejc0ZjM2VGliNjBwRlgzSzc2RmNMSTF6YUx3djdJeDNTUXQ2ZkwxZmc5VTdpQTNOdDFOaTE5Z1VCM0FhMWFmbXI3M3BiZw?oc=5",
+        "title": "Wojsko Polskie wyprzedaje sprzęt i wyposażenie. To może być prawdziwa okazja 20.10.2026",
+        "official": false,
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+      },
+      {
+        "at": "2026-10-20T12:47:54.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "NewMedia24",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSVZBQnBBTjNKLXN2VHpFeFZLbG9OV0syR0JTTUJIbzdDWlljSndabEZDSVdwZUpzWFExUy1zOUNQTnVOTlRGbHU4UTlBanBKbGJoZkNUQVNSOG1tUkdvZVpaMGdLcWp0N1VMMzNlQUhWdG1IY0FUUlVpTC1leWl2Szh0RXpwME1Rc293N2hKY0c5R3JKUHJaUkgyU2x5ZS1yM0V3Sw?oc=5",
+        "title": "Pilny alert RCB dla dwóch województw. Polska poderwała myśliwce",
+        "official": false,
+        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady."
+      },
+      {
         "at": "2026-10-20T12:10:12.000Z",
         "cat": "health",
         "sev": 1,
@@ -41,7 +61,7 @@
         "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcTQtNDAxb19ITVFsaU9OMkxLN1JBa1pWVTcxSFd3aW13aGZ6ZmJ6QktmRUd1Z0w2V3JiR0JhUTdXNEl1S1BHSDRVYW9VdE9YRUZhU09scHdOOHNGOWZldFZ0Sk02SlNmZ1NwZ2sxQ1dESVBqVjBkTnhsWkdSOVZsOEt1YV9IeGhsUkFUUFJjZkVOV0t1ZnlNa2k2SnRmWTVHMEw3NTI3c2dqcjJrV21Z?oc=5",
         "title": "Kolejny alert RCB wysłany do mieszkańców. Rosja atakuje zachodnią Ukrainę",
         "official": false,
-        "forYou": "Zgłaszaj podejrzane osoby i przedmioty przy torach, liniach energetycznych i obiektach wojskowych pod 112. Nie rób zdjęć instalacji wojskowych."
+        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady."
       },
       {
         "at": "2026-10-20T11:30:21.000Z",
@@ -51,7 +71,7 @@
         "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOT2M5cUNIVVJJTE9DdTk0VVF6dlZta1cyLVpwRTRTNXJjelVRb1Vtc0VKVlJPTW9XZUVONU52bFdzOWs4T2ZqYWx6WWlPWG9zRFlyc1hqbE03Qm41eV93Wk5VVVExZ296NWw4QUx6dkxaWTgxYXJjY0pPLWdjYXZ1cVhLb05OWk5FdUE5LUZaOEE?oc=5",
         "title": "Alert RCB dla mieszkańców Lubelszczyzny i Podkarpacia",
         "official": false,
-        "forYou": "Unikaj miejsca zdarzenia i stosuj się do poleceń służb. Numer alarmowy: 112."
+        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady."
       },
       {
         "at": "2026-10-20T11:30:18.000Z",
@@ -71,7 +91,7 @@
         "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOYWV5VFEyY2pyb04zdDhkUkVHZHZxbEFxS2RJeGhuRkdoaURMZXZ4dTg5bkt4VkZTZGpLN3NIV3NYTDhta2FfcUFpWlhQT25ucHU0bGFudlhrc05LQjcxNjA3a0RYY0lkVEFkT3FyQkJsd3pMUVVyREFEY0FGSXk3UTJVOF9IZkx0d3JTaDJJRmphR0hONEVocU41dlFBbjNrOHJJUzNxajZ0aTdSX2VKdFdNZ2pNeEVjTmFLakhaZGp5MUZqMGhNR1h1bkc?oc=5",
         "title": "Alert RCB dla dwóch województw. Operuje polskie lotnictwo",
         "official": false,
-        "forYou": "Unikaj miejsca zdarzenia i stosuj się do poleceń służb. Numer alarmowy: 112."
+        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady."
       },
       {
         "at": "2026-10-20T10:50:00.000Z",
@@ -111,7 +131,7 @@
         "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQRTg3REdKU0ZUS1phZDNFRENBTzF3SlRRc2pyWmg3LTlYYU9wSTVqdllxQ3NlQkdxN3kydlptX3ZqcXdlRUVqTjB1V3FRU0FVTnlGY0tSMDBvTFpSQ3R1UHpXbWlXZHozZGxjRGN1b3k0NXV6d2w3T3R3LXJEQmE5cDlqNVBieUQ4QW5yRTZVNldqWVpPN05kekwzU21nbEw4NkFpT3ZEc3kzOWFxZDMzTXBFUTRQS1A3eDhHS2lQUlY1cnhudFJyYkw0bmFESjM3TDJfLVM0ejl2YTg?oc=5",
         "title": "Nowe rakiety dla Homarów-K. Wojsko Polskie dostaje broń o zasięgu 290 km",
         "official": false,
-        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112."
+        "forYou": "Informacja o modernizacji armii. Nie wymaga działań z Twojej strony."
       },
       {
         "at": "2026-10-20T09:09:37.000Z",
@@ -131,7 +151,7 @@
         "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNcWZTbThXcDZuNVJxU0htRU83YUE5cGFOWkMtMk9sNFppR2tVWVdKdDVxZWNZc24zanRqMkYzQjRsczVPZFpWR1VTTHNMVDlyUkZiX0gzMzBBbTdHcEFaSTAtajUzQUZtS3RZUDB5bUlfT0M1dFZ3VTNxc3RlU2tTc1BpTUJQbHNGQnVVdFJKT2Z5RUg0am1Sa2lIRFoxNHZ2WmpfdGVYRm5oeWhHQzh0WElZcl9LcW5TUmZRRGgyZWpHcTZfeF9yeXhDb19GVVlycDdPaTdHVkZpZGZs?oc=5",
         "title": "Kolejny alert RCB dla woj. lubelskiego i podkarpackiego w związku z atakiem Rosji na Ukrainę",
         "official": false,
-        "forYou": "Zgłaszaj podejrzane osoby i przedmioty przy torach, liniach energetycznych i obiektach wojskowych pod 112. Nie rób zdjęć instalacji wojskowych."
+        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady."
       },
       {
         "at": "2026-10-20T08:54:52.000Z",
@@ -161,7 +181,7 @@
         "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSl85SzVQZmMycWFvVEkwdEVadnQyTmhnZFcwQmNEQjdaNDlEeG1WdDgtTjNFVVN0MzZ1UXNpT0xJYzc0QWFaeWRMRHY3Z0s5SktsYnRmbUhvMzdxY1hZUlEtc0ZwbjZ3anN3bkxFcXJSZXAwVDMzdXM3VGxwSUFZcnNiNWNmTVZlQldrOEdqNWhmYXJRTzlRTFpUUUtkalZBX0F1aFItNk51ZXNyVzF3a3BOZkxOcjBFZ0l2SWhDY09Kem85Vmc0?oc=5",
         "title": "Alarm na Lubelszczyźnie i Podkarpaciu! Alert RCB, lotniska wstrzymały operacje",
         "official": false,
-        "forYou": "Unikaj miejsca zdarzenia i stosuj się do poleceń służb. Numer alarmowy: 112."
+        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady."
       },
       {
         "at": "2026-10-20T08:49:41.000Z",
@@ -171,7 +191,7 @@
         "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNdWZ6Zlo0cjd6T2EwS2kyUE0taHZLMkpoQTdDMnVCREZBanFtTWhJQ1hwNURJSHVWWktTeWtGNkJxa3JBRGtaVXozRzlGVVZTVTE2bDRTcmtndmVOa1pMM0hfeXV4Y0h3Z1dRRU1mN0k5Wmk3NHgtZEk3amR5TUlfMlZhbnI2aW5YMjR0d09PU2l2UzN2V3hDUmNadTVvTVpvUC1LQkJYZDhlWk1HYk9nbVF0NC1rci1zX3UxUjVKOG5HS0lSMVk2V1NPb21Ma0k?oc=5",
         "title": "Alarm na Lubelszczyźnie i Podkarpaciu! Alert RCB, lotniska wstrzymały operacje",
         "official": false,
-        "forYou": "Unikaj miejsca zdarzenia i stosuj się do poleceń służb. Numer alarmowy: 112."
+        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady."
       },
       {
         "at": "2026-10-20T08:15:26.000Z",
@@ -181,34 +201,34 @@
         "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOT0xUNGlBWXRwaDNXUEotZDdGam5Hdko3MV9VbFBJZG9CTWtMLWlkbVVBWXVKREVKRHFUZGt2RUJZRmhqYUlHcTdUc085eFExaGF2VndXa0d5dkZsMFU5clBob3hCYVNicm8zal9jTC1aTHdfTkF5LXNzTnNSZWJtUUVISXBjLVJEVzBIeWhLdWhjRE5HTVpaZlZfMzM4V3gySmlCRVc3dUtCaDdlbUVHXzRNUDRqMHVDNFBYZFVsYkp0MFhsdUdyNVhUUHJMLVQxbTl5cHJVLVJKU0pVbmc?oc=5",
         "title": "Wstrzymane operacje lotnicze na lotnisku Rzeszów-Jasionka. Alert RCB i myśliwce w powietrzu",
         "official": false,
-        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112."
-      },
-      {
-        "at": "2026-10-20T08:15:20.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "Polskie Radio Rzeszów",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQejRZZk5GbFJTVjdBZmo2ZGlxaDZDSHNjOWJRT3NfeFZ6VGd6WGtCMFplTWpJUExMNV93VWNaNkZQTHdOTldkM1Ztd1o5al91YWhHbW45Y1F5Y1VQUWlab1k2UU1TM0gwY0pLbGUtcEtvZC1zOWhoa2k4TWpFcE5pTnM2TEJGUWtMUEdINUZPVUVUbzY4bGNRSW91alFicEptYU5Gb0dfbzlnZGwtcjAza0NxNkhTMFpUMXhv?oc=5",
-        "title": "Rosyjskie ataki na Ukrainę. Wojsko Polskie poderwało lotnictwo, alert RCB na Podkarpaciu • Wiadomości",
-        "official": false,
-        "forYou": "Unikaj miejsca zdarzenia i stosuj się do poleceń służb. Numer alarmowy: 112."
-      },
-      {
-        "at": "2026-10-20T07:53:44.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "WP Tech",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTEdyMlZDVk11aEYzRk1XeGNWbUNHRzY2UzBncHFVWnVTZWs0QnlNVTk4VklmOXB6ek4yUEtiWG1DUTZ1MUxhcmVsWjMtV094Z1dXZjZfcGQzWkNQeGZDdnF5VlFSTTdwRUpYRE1LR1d4R1cxLVljR01ianp6TmJ2ZG1KdHBJRkNXck1uSnQxQ3ZncnRDREdqRFRGRnhsOWJMc3Nj?oc=5",
-        "title": "Polskie samoloty PZL-130 Orlik do wymiany. Wojsko szuka następców",
-        "official": false,
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady."
       }
     ],
-    "updatedAt": "2026-10-20T12:15:18.976Z"
+    "updatedAt": "2026-10-20T13:11:16.975Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-20T13:11:16.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Ada Derana",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE90UG9TTXVLZVF1UlRmX1g5S2MzZ3pjeldMN0JhMEZEc3lVbzUtS2c2aDFjU0tzYWR0bUx6VGpyWkRxVXYzWFFr?oc=5",
+        "title": "Two killed by lightning strike in Anuradhapura",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
+      {
+        "at": "2026-10-20T12:59:55.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "شبكة تواصل الإخبارية",
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4tSFBFZ3ZkMHc3WUk0WGRSeTVJN1hEWm5ZZEVpQXU0MzlMblc3enlSQktpdFFObDNfekRkeHlRRE5OOUZSRks1NFRwZ2lEdEtSbnNZ?oc=5",
+        "title": "Cash in hand beats a dead app when payments fail: the backup habit our grandmothers swore by, and why digital bank users need it",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
       {
         "at": "2026-10-20T11:48:40.000Z",
         "cat": "cyber",
@@ -367,7 +387,7 @@
         "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPVzhqSFd5a1dHQW56LU5ZY3lBdjhPbmItaXBzZ1hrYVctdHB0VXBHajZvRzl3NDNXMERIUEQyVmxqYk5oQjNScm1hN0lQRHBxS3NGaDRoTEYxcl9SQjFySUtfSUNPZXBteFJ5OTRjT2xaM3JBUzZfVHBiRHRyRVl6bTdlOXBlSkVTTHpDM2p3RktqOVJrMEt4SkJtZk52dGhqQ2ttc3RybHBZQW82U3hVb0V5SXdpSkJia3JfVzBSS3J5WWQxQ2c?oc=5",
         "title": "Ukraine war briefing: Zelenskyy claims US deliberately delaying interceptor missile deliveries to Kyiv",
         "official": false,
-        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+        "forYou": "Defence procurement news. No action needed."
       },
       {
         "at": "2026-10-20T03:19:00.000Z",
@@ -377,7 +397,7 @@
         "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQM2RmejR4dzYzZVU3WUU5WGw5V19hanBUNUwyUFVUX1JNckFtOWpwTlFBcnVrbVBNVi1GRGRnTzEtbEtNZkRyOU51a2lIanNURFp0ZjY3UlVPS0ZLZVdTVi00cHdpVnlsRWVUa1o5M2NwaWtlaGptVnRkZVdoXzhva0pTc2MwNFliWE8wLXoyVUdRM3R0TzVJY3p4Z05YblJkcVBLOXI0QmNzUURTd0VBMFJGSE14Y2NWY18xSWJjVG5GeU9UeXBlcWI5VWlGLUttV05nbWpmRlVNM1RwTktOdA?oc=5",
         "title": "Ukraine war briefing: Zelenskyy claims US deliberately delaying interceptor missile deliveries to Kyiv",
         "official": false,
-        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+        "forYou": "Defence procurement news. No action needed."
       },
       {
         "at": "2026-10-20T01:14:43.000Z",
@@ -387,27 +407,8 @@
         "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUldJMlZEdV9Jd0NjWjNHWGtuXy1tUWd1SWJBYm1wQzc5ck9feEJkVXA0ejZSQmNFRVJ1akJ3X0JVRnhNZDZNdllTX3c3dWJ0SEZIaTk3d3k4eDIyRG9rWGhpN1NfNHViR0ZwQnhaTlZxWm93LVdHaWhEMjEweUFYTmh4NlktRjRNa3ZmLTc2dVRidmlVeklUdENTN2FHUjgxQ1VRckhqdURuQm1IU1B6eVdwbnNzNjBrUkx6a043OA?oc=5",
         "title": "Report: Australian cyber executives threatened physically by hackers",
         "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-20T00:45:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "AP News",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNYm9Fd0ZUSUJudF9abExqQ1dsTEFBbS1nLXRRai1VQk5GRDlXNnFQbHlXM1kzVU41YnRJT3Y5d256eGZzU1lQeFAwamJxQlJKUkFMNkt0RG9lb29SMTJMMEVJSVdreEF6QTdseWI0VzUzTG9oUWtoVEh4UmdTNE44X0tWckx6M2VtZzZNcWRwV0JKMzEy?oc=5",
-        "title": "Zelenskyy says Ukraine got no early warning from partners as Russia hits the power grid again",
-        "official": false,
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-20T00:17:26.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "NZ Herald",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdV9GaXNXWWNRM2FSZ1FBTnBtaV9MWlhRZ01lZDgxYl92R1QwVnhERV85dkxUMGtndzdnaEFOaDhESHdmU2llN0R4bjU3SGJYcDRRaksteFgtTkR1emY1ZEpyX1h1REFNUUtTcDJ0bC02LVRFcEFjQ1BDMEUxX2xmZWFoQUp1YkVjOTkxNC1TVmVocEswZkE5V0FFbm1LX3BGNy1zdmRlaC1XNExIT3A2MURob3BQUQ?oc=5",
-        "title": "Ukraine claims US missile hold-up as Trump floats summit without Zelenskyy",
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       }
     ],
-    "updatedAt": "2026-10-20T12:17:31.865Z"
+    "updatedAt": "2026-10-20T13:13:18.717Z"
   }
 }
