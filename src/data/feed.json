@@ -9,6 +9,16 @@
         "sev": 2,
         "source": "Gazeta",
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcG1lQU1nRWc1SWxLLU8wczB0LVBjM0NrTy1GSm1XTllNNkJ5WDFMM2EtYTJaMGdvUVlST0FkWlJVdjdNc1BEVnBtZklSUWNaOXk5NEVIT2NwdEc2eGhkUVFKSDJHS3Z1WmNXbDBmS3FRM1JtMFhJRFRva005c0hPYmNQbkUyMU9KblFaN2tzOTJTMXljT3VvUkVsOXB4OUFIcVN6UEdfeDFBNmhNQTFPSHFRalZwY1lRU25DNWVFVVpHV05i?oc=5",
+        "title": "Dron spadł na posesję w Józefowie pod Warszawą. To maszyna polskiego wojskowego instytutu",
+        "official": false,
+        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112."
+      },
+      {
+        "at": "2026-10-20T19:55:42.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Gazeta",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcG1lQU1nRWc1SWxLLU8wczB0LVBjM0NrTy1GSm1XTllNNkJ5WDFMM2EtYTJaMGdvUVlST0FkWlJVdjdNc1BEVnBtZklSUWNaOXk5NEVIT2NwdEc2eGhkUVFKSDJHS3Z1WmNXbDBmS3FRM1JtMFhJRFRva005c0hPYmNQbkUyMU9KblFaN2tzOTJTMXljT3VvUkVsOXB4OUFIcVN6UEdfeDFBNmhNQTFPSHFRalZwY1lRU25DNWVFVVpHV05i?oc=5",
         "title": "Dron ćwiczebny spadł na posesję. To maszyna polskiego wojskowego instytutu",
         "official": false,
         "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112."
@@ -192,23 +202,33 @@
         "title": "Kolejny atak Rosji na Ukrainę. Alert RCB. „Zagrożenie atakiem z powietrza”",
         "official": false,
         "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady."
-      },
-      {
-        "at": "2026-10-20T13:29:12.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Wiadomości Onet",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOaldxSW9oNkNVcVdoMG1wTmltS213dGJ2QkJHN09YWXdGZGJLVlk0R2JlcTFUaFpqa2NvSk12UVBsN25nX2QxTFZ1YjFnUGVRR2g3Vm9HYkhxUGd6dEt2eG5DQjBrZjQxaEt3bF81ZHRKbm1yODB1LU54NXQ0OHRQRmlqV1lZQkUyZXV4X2tzd1VKa1FBa214YUI0MUJTczRKaEhaNUwtbGU?oc=5",
-        "title": "Zagrożenie atakiem z powietrza. Alert RCB",
-        "official": false,
-        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady."
       }
     ],
-    "updatedAt": "2026-10-20T20:13:12.377Z"
+    "updatedAt": "2026-10-20T21:16:34.518Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-20T20:33:53.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "The Record from Recorded Future News",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQMEdYbExXaVFjY212elVRT0YxM0FIa2FUMGhSRjJsS0Y4enVEdmdGNnNUVDlHTGkyakdxbkpUS3NzdTdjLXpqc1pXanNJQzhjWGxRVndCSDJBZC1PU3d2RVlrcHlDbUZfY0NoRmRfTkF3QnhHMThtNGNsSGc1NHktZkdlOUNwQzEwY0d3SnB2RQ?oc=5",
+        "title": "FBI says SafePay ransomware gang ‘among most active’ with more than 600 victims since 2024",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
+      {
+        "at": "2026-10-20T19:15:27.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The Sunday Guardian",
+        "url": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxPOEwza1ljNUhLTWxKN2VIa1p1Q2t5ZF9GY1JXdXdENDNNOFh2MTR5MjFjbmZMbEtHcUYtT0RqUWNaWW95WTJ5ZEMzR3BiMkdzZGZNY0d5SFJPaXEwRVMtVEpLTGlMTmppdnlpZEFKVzVBaVdsV3VZNlJWazhsbzM4R2syTFROT1ZIT2dFcm5PV1cyYnMyYUkyUGoyek1rMnJ2bW93Vk0wVC0wREZNbFUwaXItNTB6cUdQQU5sWTQwZFlVYTBZRTFfemZOUjd0OXpERGpXV2RFVnZFRHZ1WDNnMkdodUJYRWhLNVZVMVg0OUd5ZGxib3pkbnU2b1VvOE9SREU1VVRmMmprd3JPeDcxNnpzd2tiLW1PYkZuSDM3SXVjcjFfdWF4a2s4dHBiZEJISEoxemI3aE90bnBGVm5oa2FHcVNKb1dkVGZQcEJMQWRRX1oyTlB0dnBSQW5IeTTSAd8CQVVfeXFMTzhMM2tZYzVIS01sSjdlSGtadUNreWRfRmNSV3V3RDQzTThYdjE0eTIxY25mTGxLR3FGLU9EalFjWllveVkyeWRDM0dwYjJHc2RmTWNHeUhST2lxMEVTLVRKS0xpTE5qaXZ5aWRBSlc1QWlXbFd1WTZSVms4bG8zOEdrMkxUTk9WSE9nRXJuT1dXMmJzMmFJMlBqMnpNazJydm1vd1ZNMFQtMERGTWxVMGlyLTUwenFHUEFObFk0MGRZVWEwWUUxX3pmTlI3dDl6RERqV1dkRVZ2RUR2dVgzZzJHaHVCWEVoSzVWVTFYNDlHeWRsYm96ZG51Nm9VbzhPUkRFNVVUZjJqa3dyT3g3MTZ6c3drYi1tT2JGbkgzN0l1Y3IxX3VheGtrOHRwYmRCSEhKMXpiN2hPdG5wRlZuaGthR3FTSm9XZFRmUHBCTEFkUV9aMk5QdHZwUkFuSHk0?oc=5",
+        "title": "US-Israel-Iran War Latest Live News: Saudi Coalition Destroys Houthi Missile Launcher After Riyadh Attack as Tanker Carrying Over 2 Million Barrels Reportedly Hits Naval Mine in Strait of Hormuz",
+        "official": false,
+        "forYou": "The threat has passed. Check your home and restock anything you used."
+      },
       {
         "at": "2026-10-20T19:15:12.000Z",
         "cat": "security",
@@ -388,28 +408,8 @@
         "title": "AfD targeted in a cyberattack / Approximately 421,000 emails may have been published online, with their authenticity unconfirmed",
         "official": false,
         "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-20T11:10:46.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Il Sole 24 ORE",
-        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQNEloRGhRNzd4OU5WOFRENVpJQ21hN25WQ2NxQVFJUkVzSE9iRUdmZ0szejJ1c2R3LWI0NHBmbEZKY0Q0bUJidDNMeE9uNnhDYW44NWFpTEktc0tGM01PNXVSUmVTRGsyR1BZTFRWZjBIRlFCcUJwR3BOdkx5SDBYVlJhSk9vbHdjLVd4Mi1yUkFZMjR5QWhrVVd1cnlBNGNyYzVlLTlkLXFlVjFlQ25mYTAtaHFHVUh0Z0F6N3VrdlEwZEhrY2RCd2RId2ZCOFJWNkpJdlRRYWk?oc=5",
-        "title": "Ukraine: Kharkiv, massacre at a playground. Missiles strike infrastructure",
-        "official": false,
-        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
-      },
-      {
-        "at": "2026-10-20T10:41:01.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The National",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPTVZ5ekNnd0lWdHo2RW5CVnUtOVZqZG5VUWd6V1pUQ2d0a2NxWFEwRzI5OTBQckZtTnVKUWRMZzNuT3N0X1V5YXlEU0lfdWtRY0hlRXRJSlNpNFhXZ3hYN240RTNCamhPSDBSaGdVZ0J2TUl4RDR3QUFFa1laMDRQTm5kOWF4QXZjTWdyZjR3?oc=5",
-        "title": "Iran war latest: Hegseth makes surprise visit to Israel as Netanyahu tells Trump 'we have job to finish'",
-        "official": false,
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       }
     ],
-    "updatedAt": "2026-10-20T20:15:06.683Z"
+    "updatedAt": "2026-10-20T21:18:40.390Z"
   }
 }
