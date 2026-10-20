@@ -2,7 +2,7 @@
   "_comment": "Aktualizuje scripts/update-data.mjs codziennie. pl = Polska, en = świat. Składowe z mode=manual ustawiasz ręcznie.",
   "pl": {
     "sample": false,
-    "updatedAt": "2026-10-20T16:20:37.814Z",
+    "updatedAt": "2026-10-20T17:20:57.260Z",
     "score": 36,
     "delta7": 11,
     "ago30": 29,
@@ -220,9 +220,9 @@
   },
   "en": {
     "sample": false,
-    "updatedAt": "2026-10-20T16:21:40.043Z",
-    "score": 43,
-    "delta7": 9,
+    "updatedAt": "2026-10-20T17:22:57.425Z",
+    "score": 42,
+    "delta7": 8,
     "ago30": 35,
     "history": [
       35,
@@ -250,14 +250,14 @@
       40,
       35,
       37,
-      43
+      42
     ],
     "components": [
       {
         "id": "conflict",
         "name": "Global conflict",
         "weight": 30,
-        "value": 52,
+        "value": 45,
         "sources": "GDELT · Google News",
         "trend": [
           39,
@@ -267,7 +267,7 @@
           36,
           39,
           40,
-          52
+          45
         ],
         "mode": "auto",
         "raw": [
@@ -315,7 +315,7 @@
         "id": "energy",
         "name": "Power & grid",
         "weight": 15,
-        "value": 29,
+        "value": 28,
         "sources": "Google News",
         "trend": [
           14,
@@ -325,7 +325,7 @@
           35,
           5,
           15,
-          29
+          28
         ],
         "mode": "auto",
         "raw": [
@@ -354,7 +354,7 @@
           55,
           26,
           35,
-          47
+          46
         ],
         "stale": false
       },
@@ -402,7 +402,7 @@
         "id": "cyber",
         "name": "Cyber & infrastructure",
         "weight": 15,
-        "value": 33,
+        "value": 42,
         "sources": "GDELT · Google News",
         "trend": [
           34,
@@ -412,7 +412,7 @@
           34,
           26,
           32,
-          33
+          42
         ],
         "mode": "auto",
         "raw": [
@@ -428,7 +428,7 @@
           53,
           58,
           53,
-          62
+          63
         ],
         "stale": false
       }

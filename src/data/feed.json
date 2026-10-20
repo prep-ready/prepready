@@ -4,6 +4,16 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-10-20T16:36:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Warszawa.Wyborcza.pl",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUm9WMXg4bTRZQVVaLVE4OHM5aG9GNjcwRmYxX1ZNQ19GUlpJXzlZT1JVYkR0bG5OdUFNTHQ5aHZTVTRRMzI3VlZ5cEw3Q2NVeGNyVkVXTXJlVnRBTi0xaUcwVVE0aVYwaW1WWXVJM0ttLWRWYjQ4emJDRFdBcjI1TjRhUDFTblRGb0NHQ1hxR00yN05JeFVMQURJNA?oc=5",
+        "title": "Polski wojskowy dron ćwiczebny spadł niedaleko Warszawy",
+        "official": false,
+        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112."
+      },
+      {
         "at": "2026-10-20T16:00:01.000Z",
         "cat": "security",
         "sev": 2,
@@ -59,6 +69,16 @@
         "sev": 2,
         "source": "Polska Agencja Prasowa SA",
         "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOLXAyTlkyVHktY1FNd2VmeXAwR2ZobTUzMFVTNFQ0UGRWcEg3X0RGRXYyVG5QWEtmYzctc1JnbWcxNTA4X2ItUXZPcnltRmJkb0tWS0s4QUxGVHZNcGt4aGJYcnlrSFcyZTl2OGJjUUlaTWhaSHRPdEIyLUVZNnRzNHdjSlY0bHpxU2RF?oc=5",
+        "title": "Alert RCB odwołany. „Brak zagrożenia na terenie Polski”",
+        "official": false,
+        "forYou": "Zagrożenie minęło. Sprawdź, czy w domu wszystko jest w porządku, i uzupełnij to, czego użyłeś z zapasu."
+      },
+      {
+        "at": "2026-10-20T13:50:07.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Polska Agencja Prasowa SA",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxObXJOVGZWckQxTmt6Z09mcWVSNlZwUG4wYnVyT0NJR0M5T3lxR2Vmc2VEeHJ6VE90TF9MWktBNXUzRnh3aUZQQ1dBb29TUDY2OXV1VXRIeFlKWkJVMDJUWlhDQjJJZVRIdFJKaUJqRnU4WlNfSXhEcXpzWklrYU1Ycl83UXBxOTM2dnprTzFNbw?oc=5",
         "title": "Alert RCB odwołany. „Brak zagrożenia na terenie Polski”",
         "official": false,
         "forYou": "Zagrożenie minęło. Sprawdź, czy w domu wszystko jest w porządku, i uzupełnij to, czego użyłeś z zapasu."
@@ -182,33 +202,33 @@
         "title": "IMGW: 1 ostrzeżeń meteo, najwyższy stopień 1: Silny wiatr",
         "official": true,
         "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
-      },
-      {
-        "at": "2026-10-20T11:41:31.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "Radio Zet",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcTQtNDAxb19ITVFsaU9OMkxLN1JBa1pWVTcxSFd3aW13aGZ6ZmJ6QktmRUd1Z0w2V3JiR0JhUTdXNEl1S1BHSDRVYW9VdE9YRUZhU09scHdOOHNGOWZldFZ0Sk02SlNmZ1NwZ2sxQ1dESVBqVjBkTnhsWkdSOVZsOEt1YV9IeGhsUkFUUFJjZkVOV0t1ZnlNa2k2SnRmWTVHMEw3NTI3c2dqcjJrV21Z?oc=5",
-        "title": "Kolejny alert RCB wysłany do mieszkańców. Rosja atakuje zachodnią Ukrainę",
-        "official": false,
-        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady."
-      },
-      {
-        "at": "2026-10-20T11:30:21.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "TVN24",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOT2M5cUNIVVJJTE9DdTk0VVF6dlZta1cyLVpwRTRTNXJjelVRb1Vtc0VKVlJPTW9XZUVONU52bFdzOWs4T2ZqYWx6WWlPWG9zRFlyc1hqbE03Qm41eV93Wk5VVVExZ296NWw4QUx6dkxaWTgxYXJjY0pPLWdjYXZ1cVhLb05OWk5FdUE5LUZaOEE?oc=5",
-        "title": "Alert RCB dla mieszkańców Lubelszczyzny i Podkarpacia",
-        "official": false,
-        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady."
       }
     ],
-    "updatedAt": "2026-10-20T16:20:37.815Z"
+    "updatedAt": "2026-10-20T17:20:57.261Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-20T17:18:00.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Nikkei Asia",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbVFoQ25GejFqMWRCQVRmX0o2WmZTRTJIYkFta0JtV2lFdmxsVHNpZ3N3R3paY0JVSkRZSWljaF9CODlLY2dOU3JvMzV4ZXMtQnlCc3k1ekVhVWZTUkExMmY0bFdCejJNTjNMSm55N0FJRGR3S3ZJU1QtSUtuVnQ5dTZNajlLQ0lnN3A2VGZBN2psNUFEZWV2LXp1ckxfdUYxVUNIbFNGUzdnSFJaZHlET2tMMmN3OW5H?oc=5",
+        "title": "Japan brokerage IwaiCosmo hit with unauthorized trades in cyberattack",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
+      {
+        "at": "2026-10-20T16:50:00.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSlYyYXhfVUZKTDFpeUhxYi1YOTFCeXcwZzRBSjlIN1hZRFNYQ1ljMGZ1TkZRRlR1WEJEdjY4N1VVQUNEVjJMTl81R3VTVmhHMVQzM1VrRUdMQVp4MVpNYzhnWWZZTUdCc0lCdkxydjF3SU1GR0Z5SGN3WnVrN2VwdzRuWkhaMkszN01TQlAzYWVPQ0EwR0dhSHA4dnlVdnlDbWJ0dTQxeTBNNlU?oc=5",
+        "title": "Power outage at Google datacentre in London causes widespread disruption",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
       {
         "at": "2026-10-20T16:04:43.000Z",
         "cat": "cyber",
@@ -354,6 +374,16 @@
         "cat": "security",
         "sev": 2,
         "source": "Media",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOUklpd1NvQTByLWQ4SVNCenRzRmFxaWJIelRGdVNpVVVFYmgyQXNQR09XMVhMcU9qenFWd3FVYjZZblJRSGdrdlBERDZFNVNzaUM0dUFOSFV0UmkzYk54UE1zcjM1cVRwWGl2dGhYSkpQdFZHVFlPeV91dE8xa0oyMEdkMC00VGVyTWlTZVcyQVFjeUE1SlJEb09BWVNON1FON2QweG5Cb0NmVXZETG1NckwyVnc5MEVnRmNvTkIzNWZvVmtNY2RYY01TbHJiaVhjT3Y3SzhJTThiWGVDTzh0UENxa3JnWVgySXV2Wm13?oc=5",
+        "title": "Houthi Missile Strike Kills 58 In Yemen Camp, Wounds 200+ - Mid-Day",
+        "official": false,
+        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+      },
+      {
+        "at": "2026-10-20T09:57:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Media",
         "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQaElrMjJ3M1ZBNVN6X1ZBaWVUbm5kQW5XeWZ2M2F2SHh6aml5OFRncWpaMVFRQ2xYNXRhbjlQcjZrbVJVVENOUTM3bTJ3VkdDX3VZcm8yRGxBbjZQWV80SHJrZkVXMm8xNGxFMG9zb2owcGJyOTgwTk9yQTVMNEdOSjVqNF9ESm4wUElaTXlVWmRHcEdoRVZ3T29NODg3RVdhbl8wSVdDRkxqb3UzdVp6c2Z6ZDdLeHJ1cEt4d0puM2NWT2JaNk9MclotTUVFSzNNY2VlVWxDZ2ZDMExyRWF0eHNOanZ1cTRa?oc=5",
         "title": "Houthi Missile Strike Kills 58 In Yemen Camp, Wounds 200+ - Mid-Day",
         "official": false,
@@ -378,38 +408,8 @@
         "title": "White House posts so-called 'hype' videos combining real Iran war footage alongside movie, video game clips - ABC News",
         "official": false,
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-20T09:03:15.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "NBC News",
-        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5TcUZmN3R2SnNIRXJncmpsbmtnUnp0VW4zZGp2bVNFMmVsTmhRWHFrQW53S1FKVUlwMEJ1ekt4Y0s3czhudjYzNnVHMHNhNFNRQWVaZnJwZFFEM1lKcUE?oc=5",
-        "title": "Ukraine claims world’s first drone evacuation of wounded soldier",
-        "official": false,
-        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
-      },
-      {
-        "at": "2026-10-20T08:06:04.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "IntelliNews",
-        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQWUMxS2xjUFJIVVpaeHZiWG9BZVZzLVA0bmkwU0oxYWxob1BYdFl3S25ob2tudWo3cG0yaU1nQWxfbU5pNGtiY283NFpaR1NuTGk1d0VDczRUaERXM3Baa1VrdFpVOU54QWJERk5adlUya3RNMUNKdEtxZ0NZUExUMG1adXhNa3RoM2JuVUdOMjRrZURWTS1GNlhpV050a2s0R2RoWmVoM1ZLZGhvRVhDOHd1X3BmUEdHRHdMbG5LWnYxZi1wUzRoU0xZajNGcEtZRzZ6d3M2eF8zcmFHY0RvYmJOUHJ3OTBodXQ4?oc=5",
-        "title": "Missile War Monitor: Russian strike wipes out Datagroup's Kyiv data centre, attack near capital kills three",
-        "official": false,
-        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
-      },
-      {
-        "at": "2026-10-20T08:01:28.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Sri Lanka Guardian",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTUFNV2tsYWZuSERUUkE4anRQTEJySTNqUGJLZmFqN3JlS0VPNGJZalJTV0N1MWt3SjZCU1NERmFVUFZHRmFHdTdtTkJJTy1IWnhQRkl1cjlrUmhQVEJ4XzNMQkM4dTRfVVJYaU9ZT2xqdFAwTVcySVNYS2QzbE9UM3JFaXlaMEZmUDVtbUFxUVI3QnBhZ0lxUjBMUkVfY2hENi1j?oc=5",
-        "title": "Sri Lanka Opposition MP Blames Substandard Coal for Nationwide Power Blackout",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       }
     ],
-    "updatedAt": "2026-10-20T16:21:40.043Z"
+    "updatedAt": "2026-10-20T17:22:57.426Z"
   }
 }
