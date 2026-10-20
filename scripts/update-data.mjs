@@ -131,8 +131,11 @@ const TIP = {
 /** Konkretna rada zależna od treści wiadomości (pierwsza pasująca reguła), w razie braku: rada dla kategorii. */
 const RULES = {
   pl: [
+    [/zakończ|odwoł|brak zagrożenia|znów otwart|wznowion|ponownie otwart/i, 'Zagrożenie minęło. Sprawdź, czy w domu wszystko jest w porządku, i uzupełnij to, czego użyłeś z zapasu.'],
+    [/dostaw|zakup|kontrakt|umow[aęy]|dostaje|nowe (rakiety|czołgi|samoloty|śmigłowce)|modernizac/i, 'Informacja o modernizacji armii. Nie wymaga działań z Twojej strony.'],
+    [/alert rcb/i, 'Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.'],
     [/dron|przestrze[nń] powietrzn|rakiet|poderwan|myśliw/i, 'Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112.'],
-    [/sabota[żz]|dywersj|podpalen|kolej|tor[óo]w/i, 'Zgłaszaj podejrzane osoby i przedmioty przy torach, liniach energetycznych i obiektach wojskowych pod 112. Nie rób zdjęć instalacji wojskowych.'],
+    [/sabota[żz]|dywersj|podpalen|(torach|torów|linii) kolejow/i, 'Zgłaszaj podejrzane osoby i przedmioty przy torach, liniach energetycznych i obiektach wojskowych pod 112. Nie rób zdjęć instalacji wojskowych.'],
     [/ćwiczen|manewr|kolumn|konw[oó]j|przemarsz/i, 'Ćwiczenia wojskowe: spodziewaj się utrudnień na drogach i hałasu. To zaplanowane działania, nie powód do niepokoju.'],
     [/mobilizac|pobór|kwalifikacj|karta mobilizacyjn/i, 'Sprawdź, czy Twoje dane w urzędzie i WKU są aktualne. Informacje o wezwaniach podaje tylko wojsko i gov.pl.'],
     [/ewakuac/i, 'Słuchaj poleceń służb, weź plecak ewakuacyjny, dokumenty i leki. Nie wracaj, dopóki służby nie odwołają ewakuacji.'],
@@ -141,6 +144,8 @@ const RULES = {
     [/fałszyw|dezinformac|fake/i, 'Sprawdzaj informacje w źródłach urzędowych (gov.pl, RCB, policja) zanim je udostępnisz.'],
   ],
   en: [
+    [/\b(ended|over|lifted|reopen|all clear)\b/i, 'The threat has passed. Check your home and restock anything you used.'],
+    [/contract|deliver|purchase|procure|order(s|ed)? .*(jets|missiles|tanks)/i, 'Defence procurement news. No action needed.'],
     [/drone|airspace|missile|interceptor|jet/i, 'If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services.'],
     [/nuclear|radiation|radiolog/i, 'If authorities warn of radiation, go inside, close windows and follow official instructions. Take iodine tablets only if told to.'],
     [/sabotage|arson|railway|pipeline|cable/i, 'Report suspicious activity near railways, power lines or military sites to emergency services. Do not photograph military installations.'],
@@ -298,7 +303,7 @@ for (const region of ['pl', 'en']) {
   const F = feedFile[region] ?? { items: [] };
   if (feed.length) {
     const seen = new Set();
-    F.items = [...feed, ...(F.sample ? [] : F.items)]
+    F.items = [...feed, ...(F.sample ? [] : F.items).map((i) => ({ ...i, forYou: tipFor(region, i.cat, i.title) }))]
       .filter((i) => (seen.has(i.url + i.title) ? false : seen.add(i.url + i.title)))
       .filter((i) => Date.now() - new Date(i.at) < 14 * DAY)
       .sort((a, b) => +new Date(b.at) - +new Date(a.at))
