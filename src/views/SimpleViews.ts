@@ -15,7 +15,7 @@ export const about = {
 <li>Do rankingów sprzętu trafiają tylko rzeczy, które sprawdziliśmy. Metodę pomiarów opisujemy przy każdym teście.</li>
 <li>Szukamy konsultantów z doświadczeniem w ratownictwie i ochronie ludności, którzy będą recenzować nasze teksty.</li></ul>
 <h2>Kontakt</h2>
-<p>Masz uwagi do poradnika albo znalazłeś błąd? Napisz przez formularz na stronie <a href="/pl/wspolpraca/">Dla producentów</a> — czytamy wszystkie wiadomości.</p>`,
+<p>Masz uwagi do poradnika albo znalazłeś błąd? Napisz przez formularz na stronie <a href="/pl/wspolpraca/">Dla producentów</a>. Czytamy wszystkie wiadomości.</p>`,
   },
   en: {
     title: 'About PrepReady',
@@ -32,7 +32,7 @@ export const about = {
 <li>Only gear we have checked goes into our rankings, and every test explains how we measured.</li>
 <li>We are looking for advisors with rescue and civil-protection experience to review our guides.</li></ul>
 <h2>Contact</h2>
-<p>Spotted a mistake or have feedback on a guide? Use the form on the <a href="/en/partners/">For manufacturers</a> page — we read every message.</p>`,
+<p>Spotted a mistake or have feedback on a guide? Use the form on the <a href="/en/partners/">For manufacturers</a> page. We read every message.</p>`,
   },
 };
 
@@ -44,7 +44,7 @@ export const earn = {
 <h2>Rankingi tylko ze sprawdzonych rzeczy</h2>
 <ul><li>Do rankingów i testów trafia wyłącznie sprzęt, który sprawdziliśmy albo przetestowaliśmy.</li>
 <li>W poradnikach zakupowych piszemy wprost, jeśli produktu jeszcze nie testowaliśmy. Wybieramy go wtedy na podstawie specyfikacji i oficjalnych zaleceń.</li>
-<li>Przy każdym teście opisujemy, jak mierzyliśmy i co wyszło — także minusy.</li>
+<li>Przy każdym teście opisujemy, jak mierzyliśmy i co wyszło, także minusy.</li>
 <li>Zawsze podajemy też tanie i darmowe rozwiązania, jeśli istnieją.</li></ul>
 <h2>Współpraca z producentami = lepsze ceny dla Was</h2>
 <p>Nawiązujemy współpracę bezpośrednio z producentami. Dzięki temu często dostajemy dla czytelników kody rabatowe, bonusy i tańsze zestawy, których nie ma w zwykłej sprzedaży. Aktualne kody są na stronie sprzętu, w newsletterze i na Telegramie.</p>
@@ -54,9 +54,9 @@ export const earn = {
 <li>Produkty cyfrowe. Rozszerzone checklisty i poradniki PDF.</li></ul>
 <p>Jesteś producentem lub sklepem? Zobacz <a href="/pl/wspolpraca/">Dla producentów</a>.</p>
 <h2>Masz własną stronę, bloga albo profil? Zarabiaj tak jak my</h2>
-<p>Większość naszych linków partnerskich działa przez <a class="aff" href="https://webep1.com/c/286/6ab7bf82a42c9137f390e6e0" rel="sponsored nofollow noopener" target="_blank">webePartners</a> — polską sieć afiliacyjną, w której są setki polskich sklepów, także outdoorowe, turystyczne i z elektroniką. Rejestracja jest darmowa, a na start wystarczy strona www albo profil w social mediach (Instagram, TikTok, YouTube, Facebook).</p>
+<p>Większość naszych linków partnerskich działa przez <a class="aff" href="https://webep1.com/c/286/6ab7bf82a42c9137f390e6e0" rel="sponsored nofollow noopener" target="_blank">webePartners</a>, polską sieć afiliacyjną, w której są setki polskich sklepów, także outdoorowe, turystyczne i z elektroniką. Rejestracja jest darmowa, a na start wystarczy strona www albo profil w social mediach (Instagram, TikTok, YouTube, Facebook).</p>
 <ul><li>Wybierasz sklepy, które pasują do Twoich odbiorców, i dostajesz prowizję od sprzedaży z Twoich linków.</li>
-<li>Linki generujesz w panelu jednym kliknięciem — do strony głównej sklepu albo konkretnego produktu.</li>
+<li>Linki generujesz w panelu jednym kliknięciem: do strony głównej sklepu albo konkretnego produktu.</li>
 <li>W panelu widzisz kliknięcia, sprzedaż i prowizje.</li></ul>
 <p><a class="aff" href="https://webep1.com/c/286/6ab7bf82a42c9137f390e6e0" rel="sponsored nofollow noopener" target="_blank">Załóż darmowe konto w webePartners</a>. To nasz link polecający: jeśli z niego skorzystasz i zaczniesz współpracę z jakimś sklepem, webePartners zapłaci nam niewielkie wynagrodzenie. Ciebie nic to nie kosztuje.</p>
 <p>Chcesz wiedzieć więcej? Przeczytaj nasz poradnik <a href="/pl/program-partnerski/">Jak zarabiać na afiliacji z webePartners krok po kroku</a>.</p>`,
@@ -68,7 +68,7 @@ export const earn = {
 <h2>Rankings only include checked gear</h2>
 <ul><li>Only gear we have checked or tested makes it into our rankings and tests.</li>
 <li>In buying guides we say clearly when we have not tested a product yet; we then pick it based on specifications and official guidance.</li>
-<li>Every test explains how we measured and what we found — including the downsides.</li>
+<li>Every test explains how we measured and what we found, including the downsides.</li>
 <li>We always list cheap and free options when they exist.</li></ul>
 <h2>Manufacturer partnerships = better prices for you</h2>
 <p>We work directly with gear makers. That often gets our readers discount codes, bonuses and cheaper bundles you won't find elsewhere. Current codes are on the gear page, in the newsletter and on Telegram.</p>

@@ -10,9 +10,9 @@ reviewed: 2026-09-26
 author: "PrepReady Editors"
 readingMinutes: 6
 sources:
-  - name: "American Red Cross — Anatomy of a First Aid Kit"
+  - name: "American Red Cross: Anatomy of a First Aid Kit"
     url: "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/anatomy-of-a-first-aid-kit.html"
-  - name: "Polish Ministry of the Interior — Safety Guide (PDF, Polish)"
+  - name: "Polish Ministry of the Interior: Safety Guide (PDF, Polish)"
     url: "https://www.coi.gov.pl/static/poradnik_bezpieczenstwa_PL.pdf"
 faq:
   - q: "What should be in a home first aid kit?"

@@ -26,7 +26,7 @@ for (const [lang, c] of Object.entries(CFG)) {
   if (!r) continue;
   const lvl = c.lvl.find(([m]) => r.score <= m)[1];
   const delta = r.history?.length > 7 ? ` (${r.delta7 >= 0 ? '+' : ''}${r.delta7} ${c.week})` : '';
-  const news = (f?.items ?? []).slice(0, 3).map((i) => `• <a href="${i.url}">${esc(i.title)}</a> — ${esc(i.source)}`).join('\n');
+  const news = (f?.items ?? []).slice(0, 3).map((i) => `• <a href="${i.url}">${esc(i.title)}</a> (${esc(i.source)})`).join('\n');
   const text = `<b>${c.title}: ${r.score}/100</b>${delta}\n${lvl}\n\n` +
     r.components.map((x) => `${esc(x.name)}: ${x.value}`).join(' · ') +
     (news ? `\n\n<b>${c.news}</b>\n${news}` : '') + `\n\n👉 ${c.url}`;

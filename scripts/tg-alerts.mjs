@@ -50,7 +50,7 @@ if (process.env.TG_BOT_PL_TOKEN) {
     const lvl = +w.stopien || 0;
     if (lvl < 2) continue;
     const woj = [...new Set((w.teryt || []).map((t) => WOJ[String(t).slice(0, 2)]).filter(Boolean))].sort();
-    pl.push([`pl:m:${w.id}:${lvl}`, `${dotPl(lvl)} <b>IMGW: ${esc(w.nazwa_zdarzenia)} — ${lvl}° stopień</b>\n` +
+    pl.push([`pl:m:${w.id}:${lvl}`, `${dotPl(lvl)} <b>IMGW: ${esc(w.nazwa_zdarzenia)}, ${lvl}° stopień</b>\n` +
       `📍 ${woj.length ? esc(woj.join(', ')) : 'wg mapy IMGW'}\n🕒 od ${esc(when(w.obowiazuje_od))} do ${esc(when(w.obowiazuje_do))}\n\n` +
       `${esc(w.tresc)}\n\nMapa i powiaty: https://meteo.imgw.pl/`]);
   }
@@ -58,7 +58,7 @@ if (process.env.TG_BOT_PL_TOKEN) {
     const lvl = +(w['stopień'] ?? w.stopien) || 0;
     if (lvl < 2) continue;
     const woj = [...new Set((w.obszary || []).map((o) => o.wojewodztwo).filter(Boolean))].sort();
-    pl.push([`pl:h:${w.numer}:${w.biuro}:${lvl}:${w.data_od}`, `${dotPl(lvl)} <b>IMGW hydro: ${esc(w.zdarzenie)} — ${lvl}° stopień</b>\n` +
+    pl.push([`pl:h:${w.numer}:${w.biuro}:${lvl}:${w.data_od}`, `${dotPl(lvl)} <b>IMGW hydro: ${esc(w.zdarzenie)}, ${lvl}° stopień</b>\n` +
       `📍 ${esc(woj.join(', '))}\n🕒 od ${esc(when(w.data_od))} do ${esc(when(w.data_do))}\n\n${esc(w.przebieg)}\n\nSzczegóły: https://hydro.imgw.pl/`]);
   }
 }
@@ -75,7 +75,7 @@ if (process.env.TG_BOT_EN_TOKEN) {
     if (!TYPE[p.eventtype] || p.iscurrent !== 'true') continue;
     const red = p.alertlevel === 'Red';
     en.push([`en:${p.eventtype}:${p.eventid}:${p.alertlevel}`,
-      `${red ? '🔴' : '🟠'} <b>${TYPE[p.eventtype]} — ${esc(p.alertlevel)} alert</b>\n${esc(p.name)}\n` +
+      `${red ? '🔴' : '🟠'} <b>${TYPE[p.eventtype]}: ${esc(p.alertlevel)} alert</b>\n${esc(p.name)}\n` +
       (p.country ? `📍 ${esc(String(p.country).replace(/,\s*$/, ''))}\n` : '') +
       (p.severitydata?.severitytext ? `⚠️ ${esc(p.severitydata.severitytext)}\n` : '') +
       `🕒 since ${esc(when(p.fromdate))} UTC\n\nFollow your local authorities. Details: ${p.url?.report || 'https://www.gdacs.org/'}`]);

@@ -20,8 +20,8 @@ const { city } = Astro.props;
 const here = city ? `${routes.shelters.pl}${city.slug}/` : routes.shelters.pl;
 
 const title = city
-  ? `Schrony ${city.loc} — mapa, najbliższy schron`
-  : 'Najbliższy schron — mapa schronów w Polsce';
+  ? `Schrony ${city.loc}: mapa i najbliższy schron`
+  : 'Najbliższy schron: mapa schronów w Polsce';
 const desc = city
   ? `Gdzie jest najbliższy schron ${city.loc}? Wpisz adres i zobacz na mapie schrony i miejsca ukrycia z bazy PSP: odległość, czas dojścia pieszo i dostępność 24h.`
   : 'Gdzie jest najbliższy schron? Wpisz adres i zobacz na mapie schrony i miejsca ukrycia z bazy Państwowej Straży Pożarnej: odległość, czas dojścia, dostępność 24h.';
@@ -29,19 +29,19 @@ const total = idx.total ? idx.total.toLocaleString('pl-PL') : 'ponad 80 tys.';
 const faq: [string, string][] = [
   ...(city ? [
     [`Gdzie są schrony ${city.loc}?`, `Schrony i miejsca doraźnego schronienia ${city.loc} to głównie piwnice bloków i budynków publicznych, garaże podziemne, przejścia podziemne i masywne budynki wskazane przez Państwową Straż Pożarną. Wpisz swój adres na mapie powyżej, a pokażemy 10 najbliższych punktów z odległością i trasą pieszo.`],
-    [`Jak sprawdzić, czy w moim bloku ${city.loc} jest schron?`, 'Wpisz adres bloku na mapie. Jeśli budynek jest w bazie PSP, pojawi się na liście jako punkt o odległości kilku metrów. Możesz też zapytać zarządcę budynku (spółdzielnię, wspólnotę) albo urząd miasta — wydział zarządzania kryzysowego.'],
+    [`Jak sprawdzić, czy w moim bloku ${city.loc} jest schron?`, 'Wpisz adres bloku na mapie. Jeśli budynek jest w bazie PSP, pojawi się na liście jako punkt o odległości kilku metrów. Możesz też zapytać zarządcę budynku (spółdzielnię, wspólnotę) albo urząd miasta, wydział zarządzania kryzysowego.'],
   ] as [string, string][] : [
-    ['Jak znaleźć najbliższy schron?', 'Wpisz adres albo użyj lokalizacji telefonu na mapie powyżej — pokażemy 10 najbliższych schronów i miejsc ukrycia z bazy PSP, z odległością, czasem dojścia i trasą pieszo. Te same dane ma oficjalna aplikacja gdziesieukryc.pl. W razie wątpliwości zapytaj zarządcę budynku albo urząd gminy.'],
-    ['Czy w Polsce są schrony?', 'Tak. Państwowa Straż Pożarna zinwentaryzowała w całym kraju kilkadziesiąt tysięcy obiektów ochronnych: nieliczne schrony i ukrycia oraz znacznie więcej miejsc doraźnego schronienia — piwnic, garaży podziemnych, przejść podziemnych i stacji metra. Wszystkie są na tej mapie.'],
+    ['Jak znaleźć najbliższy schron?', 'Wpisz adres albo użyj lokalizacji telefonu na mapie powyżej. Pokażemy 10 najbliższych schronów i miejsc ukrycia z bazy PSP, z odległością, czasem dojścia i trasą pieszo. Te same dane ma oficjalna aplikacja gdziesieukryc.pl. W razie wątpliwości zapytaj zarządcę budynku albo urząd gminy.'],
+    ['Czy w Polsce są schrony?', 'Tak. Państwowa Straż Pożarna zinwentaryzowała w całym kraju kilkadziesiąt tysięcy obiektów ochronnych: nieliczne schrony i ukrycia oraz znacznie więcej miejsc doraźnego schronienia: piwnic, garaży podziemnych, przejść podziemnych i stacji metra. Wszystkie są na tej mapie.'],
   ]),
-  ['Co to jest punkt schronienia?', 'To sprawdzony przez Państwową Straż Pożarną obiekt, w którym można się ukryć przy zagrożeniu: piwnica, garaż podziemny, przejście podziemne, stacja metra albo masywny budynek. Nie każdy punkt to schron w ścisłym znaczeniu — chroni przede wszystkim przed odłamkami, gruzem i silnym wiatrem.'],
-  ['Co znaczy dostępność „na żądanie”?', 'Obiekt nie jest stale otwarty. Udostępnia go zarządca albo samorząd, gdy ogłoszony zostanie alarm lub polecenie służb. Punkty „całodobowe” są dostępne o każdej porze, a „w określonych godzinach” — tylko w godzinach otwarcia obiektu.'],
-  ['Skąd są dane i jak często się zmieniają?', 'Z bazy „Punkty schronienia w Polsce”, którą Komenda Główna PSP publikuje na dane.gov.pl na licencji CC BY 4.0. Aktualizujemy je automatycznie raz w tygodniu. Przed alarmem sprawdź swój punkt na miejscu — zarządca mógł go zmienić.'],
+  ['Co to jest punkt schronienia?', 'To sprawdzony przez Państwową Straż Pożarną obiekt, w którym można się ukryć przy zagrożeniu: piwnica, garaż podziemny, przejście podziemne, stacja metra albo masywny budynek. Nie każdy punkt to schron w ścisłym znaczeniu, chroni przede wszystkim przed odłamkami, gruzem i silnym wiatrem.'],
+  ['Co znaczy dostępność „na żądanie”?', 'Obiekt nie jest stale otwarty. Udostępnia go zarządca albo samorząd, gdy ogłoszony zostanie alarm lub polecenie służb. Punkty „całodobowe” są dostępne o każdej porze, a „w określonych godzinach”, tylko w godzinach otwarcia obiektu.'],
+  ['Skąd są dane i jak często się zmieniają?', 'Z bazy „Punkty schronienia w Polsce”, którą Komenda Główna PSP publikuje na dane.gov.pl na licencji CC BY 4.0. Aktualizujemy je automatycznie raz w tygodniu. Przed alarmem sprawdź swój punkt na miejscu, zarządca mógł go zmienić.'],
   ['Czym ta mapa różni się od gdziesieukryc.pl?', 'Korzysta z tych samych danych PSP. Oficjalna aplikacja gdziesieukryc.pl działa też offline i warto ją zainstalować na telefonie. Nasza mapa to szybkie sprawdzenie okolicy razem z poradnikami PrepReady.'],
 ];
 const pageUrl = new URL(here, Astro.site).href;
 const jsonLd: object[] = [
-  { '@context': 'https://schema.org', '@type': 'WebApplication', name: city ? `Mapa schronów — ${city.name}` : 'Mapa schronów PrepReady', url: pageUrl, applicationCategory: 'UtilitiesApplication', operatingSystem: 'Web', inLanguage: 'pl', isAccessibleForFree: true, description: desc,
+  { '@context': 'https://schema.org', '@type': 'WebApplication', name: city ? `Mapa schronów: ${city.name}` : 'Mapa schronów PrepReady', url: pageUrl, applicationCategory: 'UtilitiesApplication', operatingSystem: 'Web', inLanguage: 'pl', isAccessibleForFree: true, description: desc,
     ...(city ? { spatialCoverage: { '@type': 'City', name: city.name, containedInPlace: { '@type': 'AdministrativeArea', name: `województwo ${city.woj}` } } } : { spatialCoverage: { '@type': 'Country', name: 'Polska' } }) },
   { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faq.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) },
 ];
@@ -55,7 +55,7 @@ if (city) jsonLd.push({ '@context': 'https://schema.org', '@type': 'BreadcrumbLi
   <div class="wrap page-head">
     <div class="eyebrow">{city ? <><a href={routes.shelters.pl}>Mapa schronów</a> · {city.name}</> : 'Mapa schronów · Polska'}</div>
     <h1>{city ? `Schrony ${city.loc}: gdzie jest najbliższy schron?` : 'Gdzie jest najbliższy schron? Mapa schronów w Polsce'}</h1>
-    <p>Wpisz adres albo użyj swojej lokalizacji. Pokażemy najbliższe schrony i miejsca ukrycia z bazy Państwowej Straży Pożarnej{city ? <> {city.loc} i okolicy</> : ''} — <span id="sh-total">{total}</span> zweryfikowanych miejsc w całym kraju.</p>
+    <p>Wpisz adres albo użyj swojej lokalizacji. Pokażemy najbliższe schrony i miejsca ukrycia z bazy Państwowej Straży Pożarnej{city ? <> {city.loc} i okolicy</> : ''}: <span id="sh-total">{total}</span> zweryfikowanych miejsc w całym kraju.</p>
   </div>
 
   <div class="wrap">
@@ -111,13 +111,13 @@ if (city) jsonLd.push({ '@context': 'https://schema.org', '@type': 'BreadcrumbLi
   <section class="block">
     <div class="wrap"><div class="prose-lite">
       <div class="eyebrow">Jak to sprawdzić</div>
-      <h2>{city ? `Jak znaleźć najbliższy schron ${city.loc}` : 'Jak znaleźć najbliższy schron — 3 sposoby'}</h2>
+      <h2>{city ? `Jak znaleźć najbliższy schron ${city.loc}` : 'Jak znaleźć najbliższy schron: 3 sposoby'}</h2>
       <ol class="how">
         <li><strong>Mapa powyżej.</strong> Wpisz adres domu, pracy lub szkoły dzieci. Lista pokaże 10 najbliższych punktów, odległość, czas dojścia pieszo i to, czy obiekt jest otwarty całą dobę.</li>
-        <li><strong>Aplikacja „Gdzie się ukryć”</strong> (<a href="https://gdziesieukryc.pl" target="_blank" rel="noopener">gdziesieukryc.pl</a>) — oficjalne narzędzie PSP na tych samych danych, działa też bez internetu. Zainstaluj ją na telefonie zawczasu.</li>
+        <li><strong>Aplikacja „Gdzie się ukryć”</strong> (<a href="https://gdziesieukryc.pl" target="_blank" rel="noopener">gdziesieukryc.pl</a>): oficjalne narzędzie PSP na tych samych danych, działa też bez internetu. Zainstaluj ją na telefonie zawczasu.</li>
         <li><strong>Zarządca budynku i urząd {city ? 'miasta' : 'gminy'}.</strong> Spółdzielnia albo wspólnota wie, czy piwnica bloku jest wyznaczona jako miejsce schronienia. Wydział zarządzania kryzysowego {city ? 'urzędu miasta' : 'urzędu gminy'} ma listę obiektów i informacje o ich udostępnianiu.</li>
       </ol>
-      <p>Schron, ukrycie i miejsce doraźnego schronienia to nie to samo. Prawdziwych schronów jest w Polsce niewiele, a większość punktów na mapie to piwnice, garaże podziemne i przejścia podziemne, które chronią przed odłamkami i gruzem. Jeśli punkt jest daleko, schowaj się w najniższej kondygnacji budynku, w pomieszczeniu bez okien — więcej w poradniku <a href={`${guideBase.pl}schron-w-bloku/`}>schron w bloku</a>. Żeby wiedzieć, kiedy iść, naucz się <a href={`${guideBase.pl}syreny-alarmowe/`}>rozpoznawać sygnały alarmowe</a>.</p>
+      <p>Schron, ukrycie i miejsce doraźnego schronienia to nie to samo. Prawdziwych schronów jest w Polsce niewiele, a większość punktów na mapie to piwnice, garaże podziemne i przejścia podziemne, które chronią przed odłamkami i gruzem. Jeśli punkt jest daleko, schowaj się w najniższej kondygnacji budynku, w pomieszczeniu bez okien, więcej w poradniku <a href={`${guideBase.pl}schron-w-bloku/`}>schron w bloku</a>. Żeby wiedzieć, kiedy iść, naucz się <a href={`${guideBase.pl}syreny-alarmowe/`}>rozpoznawać sygnały alarmowe</a>.</p>
     </div></div>
   </section>
 
@@ -135,7 +135,7 @@ if (city) jsonLd.push({ '@context': 'https://schema.org', '@type': 'BreadcrumbLi
     <div class="wrap two">
       <div>
         <div class="eyebrow">Pytania</div>
-        <h2>{city ? `Schrony ${city.loc} — pytania` : 'Najczęstsze pytania o schrony'}</h2>
+        <h2>{city ? `Schrony ${city.loc}: pytania` : 'Najczęstsze pytania o schrony'}</h2>
         <div class="faq">
           {faq.map(([q, a]) => <details><summary>{q}</summary><p>{a}</p></details>)}
         </div>
@@ -265,7 +265,7 @@ if (city) jsonLd.push({ '@context': 'https://schema.org', '@type': 'BreadcrumbLi
     let pts: P[] = [];
     for (const ring of [1, 2, 4]) { pts = await around(lat, lng, ring); if (pts.length >= 10 && pts.some((p) => p[2] === 0)) break; }
     hits = pts.map((p) => ({ lat: p[0] / 1e5, lng: p[1] / 1e5, a: p[2], addr: p[3], gmina: p[4], d: dist(lat, lng, p[0] / 1e5, p[1] / 1e5) })).sort((x, y) => x.d - y.d);
-    say(hits.length ? `${label} — najbliższy punkt: ${fmtD(hits[0].d)}.` : `${label} — w pobliżu nie ma punktów w bazie PSP.`);
+    say(hits.length ? `${label}: najbliższy punkt: ${fmtD(hits[0].d)}.` : `${label}: w pobliżu nie ma punktów w bazie PSP.`);
     dots.clearLayers(); drawn = new Set();
     render();
     const u = new URL(location.href); u.searchParams.set('lat', lat.toFixed(5)); u.searchParams.set('lng', lng.toFixed(5)); history.replaceState(null, '', u);

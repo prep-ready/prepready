@@ -10,13 +10,13 @@ reviewed: 2026-09-26
 author: "PrepReady Editors"
 readingMinutes: 8
 sources:
-  - name: "ENTSO-E — 28 April 2025 Iberian blackout"
+  - name: "ENTSO-E: 28 April 2025 Iberian blackout"
     url: "https://www.entsoe.eu/publications/blackout/28-april-2025-iberian-blackout/"
-  - name: "Ready.gov — Build a Kit"
+  - name: "Ready.gov: Build a Kit"
     url: "https://www.ready.gov/kit"
-  - name: "CDC — How to Create an Emergency Water Supply"
+  - name: "CDC: How to Create an Emergency Water Supply"
     url: "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html"
-  - name: "Polish Ministry of the Interior — Safety Guide (PDF, Polish)"
+  - name: "Polish Ministry of the Interior: Safety Guide (PDF, Polish)"
     url: "https://www.coi.gov.pl/static/poradnik_bezpieczenstwa_PL.pdf"
 faq:
   - q: "How long can a blackout last?"

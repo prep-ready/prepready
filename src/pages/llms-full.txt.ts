@@ -10,6 +10,6 @@ export const GET: APIRoute = async ({ site }) => {
     const src = d.sources.length ? '\n\n### Źródła\n\n' + d.sources.map((s) => `- ${s.name}: ${s.url}`).join('\n') : '';
     return `# ${d.title}\n\nURL: ${new URL(hrefOf(a), site).href}\nOstatni przegląd: ${d.reviewed.toISOString().slice(0, 10)}\n\n> ${d.description}\n\n${(a.body ?? '').replace(/<[^>]+>/g, '').trim()}${faq}${src}`;
   });
-  const body = `# PrepReady — poradniki na czas kryzysu (pełna treść, PL)\n\nŹródło: https://prepready.pro · opis serwisu: https://prepready.pro/llms.txt\n\n---\n\n${parts.join('\n\n---\n\n')}\n`;
+  const body = `# PrepReady, poradniki na czas kryzysu (pełna treść, PL)\n\nŹródło: https://prepready.pro · opis serwisu: https://prepready.pro/llms.txt\n\n---\n\n${parts.join('\n\n---\n\n')}\n`;
   return new Response(body, { headers: { 'Content-Type': 'text/plain; charset=utf-8' } });
 };

@@ -10,11 +10,11 @@ reviewed: 2026-09-26
 author: "PrepReady Editors"
 readingMinutes: 8
 sources:
-  - name: "Ready.gov — Build a Kit"
+  - name: "Ready.gov: Build a Kit"
     url: "https://www.ready.gov/kit"
-  - name: "European Commission — Preparedness Union Strategy"
+  - name: "European Commission: Preparedness Union Strategy"
     url: "https://commission.europa.eu/topics/preparedness_en"
-  - name: "Polish Ministry of the Interior — Safety Guide (PDF, Polish)"
+  - name: "Polish Ministry of the Interior: Safety Guide (PDF, Polish)"
     url: "https://www.coi.gov.pl/static/poradnik_bezpieczenstwa_PL.pdf"
 faq:
   - q: "How much water should a renter store?"
@@ -36,7 +36,7 @@ The European Commission's Preparedness Union Strategy (March 2025) asks househol
 Before buying anything, answer four questions:
 
 1. Which risks are real where you live: power cuts, floods, heatwaves, storms, wildfire smoke, conflict?
-2. Where would you go if you had to leave — a friend, family, a shelter — and how would you get there without a car?
+2. Where would you go if you had to leave: a friend, family, a shelter, and how would you get there without a car?
 3. How will you reach the people you live with if the mobile network is down?
 4. Who in the building might need help: elderly neighbours, parents with babies?
 

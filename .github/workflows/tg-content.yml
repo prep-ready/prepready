@@ -37,6 +37,12 @@ jobs:
           TG_BOT_EN_TOKEN: ${{ secrets.TG_BOT_EN_TOKEN }}
           TG_DRY: ${{ (github.event_name == 'workflow_dispatch' && inputs.dry) && '1' || '' }}
         run: node scripts/tg-content.mjs
+      - name: Dzienny indeks w tematach Alerty (PL i EN)
+        if: github.event_name == 'schedule'
+        env:
+          TG_BOT_PL_TOKEN: ${{ secrets.TG_BOT_PL_TOKEN }}
+          TG_BOT_EN_TOKEN: ${{ secrets.TG_BOT_EN_TOKEN }}
+        run: node scripts/telegram-post.mjs
       - name: Zapisz pamięć
         if: github.event_name == 'schedule' || !inputs.dry
         uses: actions/cache/save@v4

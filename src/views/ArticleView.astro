@@ -20,8 +20,8 @@ const url = new URL(here, Astro.site).href;
 const same = (await articles(lang)).filter((a) => a.id !== entry.id && a.data.cluster === d.cluster).slice(0, 3);
 const keyLinks = lang === 'pl'
   ? [
-      { href: routes.shelters.pl, label: 'Mapa schronów — gdzie jest najbliższy schron' },
-      { href: `${guideBase.pl}syreny-alarmowe/`, label: 'Sygnały alarmowe — jak rozpoznać syrenę' },
+      { href: routes.shelters.pl, label: 'Mapa schronów: gdzie jest najbliższy schron' },
+      { href: `${guideBase.pl}syreny-alarmowe/`, label: 'Sygnały alarmowe: jak rozpoznać syrenę' },
       { href: routes.checklist.pl, label: 'Checklista plecaka ewakuacyjnego 72h' },
     ].filter((l) => l.href !== here)
   : [{ href: routes.checklist.en, label: '72-hour go-bag checklist' }].filter((l) => l.href !== here);

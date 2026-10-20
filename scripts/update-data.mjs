@@ -13,10 +13,14 @@
  * Źródło, które nie odpowie, nie psuje strony: składowa zostaje z poprzednią wartością.
  * Składowe z "mode": "manual" (radiacja) ustawiasz ręcznie w readiness.json.
  */
-import { readFile, writeFile } from 'node:fs/promises';
+import { readFile, writeFile, mkdtemp } from 'node:fs/promises';
+import { execFileSync } from 'node:child_process';
+import { tmpdir } from 'node:os';
+import { join } from 'node:path';
 
 const READINESS = new URL('../src/data/readiness.json', import.meta.url);
 const FEED = new URL('../src/data/feed.json', import.meta.url);
+const SUPPLY = new URL('../src/data/supply.json', import.meta.url);
 const UA = { 'User-Agent': 'PrepReady/1.0 (+https://prepready.pro)' };
 const DAY = 864e5;
 
@@ -64,8 +68,11 @@ async function newsCount(q, lang) {
   const u = `https://news.google.com/rss/search?q=${encodeURIComponent(q + ' when:3d')}&${loc}`;
   return rss(await get(u, 'text')).sort((a, b) => b.date - a.date);
 }
+// Skrypt działa co godzinę; historia pomiarów i trendy zapisują się raz na dobę (ostatni pomiar dnia nadpisuje poprzedni).
+let NEW_DAY = true;
+const pushDaily = (arr = [], v) => (NEW_DAY ? [...arr, v] : [...arr.slice(0, -1), v]);
 function ratioFromHistory(comp, count) {
-  const prev = comp.raw ?? [];
+  const prev = NEW_DAY ? comp.raw ?? [] : (comp.raw ?? []).slice(0, -1);
   const sorted = [...prev].sort((a, b) => a - b);
   const median = sorted.length ? sorted[Math.floor(sorted.length / 2)] : 0;
   comp.raw = [...prev, count].slice(-30);
@@ -102,6 +109,8 @@ async function gdacs() {
 const TIP = {
   pl: {
     security: 'Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań.',
+    safety: 'Unikaj miejsca zdarzenia i stosuj się do poleceń służb. Numer alarmowy: 112.',
+    supply: 'Nie rób zakupów w panice. Uzupełniaj zapas stopniowo, a bak tankuj, gdy spadnie do połowy.',
     cyber: 'Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080.',
     energy: 'Ogranicz zużycie prądu w godzinach szczytu, naładuj powerbanki i latarki.',
     weather: 'Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz.',
@@ -110,6 +119,8 @@ const TIP = {
   },
   en: {
     security: 'Know your local alert signals and nearest shelter. Don’t share unverified footage.',
+    safety: 'Avoid the area and follow instructions from emergency services.',
+    supply: 'Don’t panic-buy. Top up supplies gradually.',
     cyber: 'Update your devices and don’t tap links in alert-style messages.',
     energy: 'Keep power banks and torches charged; have a plan for heat and light without mains power.',
     weather: 'If you live nearby, follow local warnings and keep your go-bag ready.',
@@ -117,8 +128,31 @@ const TIP = {
     health: 'Usually no action. Check your first-aid kit and expiry dates.',
   },
 };
+/** Konkretna rada zależna od treści wiadomości (pierwsza pasująca reguła), w razie braku: rada dla kategorii. */
+const RULES = {
+  pl: [
+    [/dron|przestrze[nń] powietrzn|rakiet|poderwan|myśliw/i, 'Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112.'],
+    [/sabota[żz]|dywersj|podpalen|kolej|tor[óo]w/i, 'Zgłaszaj podejrzane osoby i przedmioty przy torach, liniach energetycznych i obiektach wojskowych pod 112. Nie rób zdjęć instalacji wojskowych.'],
+    [/ćwiczen|manewr|kolumn|konw[oó]j|przemarsz/i, 'Ćwiczenia wojskowe: spodziewaj się utrudnień na drogach i hałasu. To zaplanowane działania, nie powód do niepokoju.'],
+    [/mobilizac|pobór|kwalifikacj|karta mobilizacyjn/i, 'Sprawdź, czy Twoje dane w urzędzie i WKU są aktualne. Informacje o wezwaniach podaje tylko wojsko i gov.pl.'],
+    [/ewakuac/i, 'Słuchaj poleceń służb, weź plecak ewakuacyjny, dokumenty i leki. Nie wracaj, dopóki służby nie odwołają ewakuacji.'],
+    [/alarm bombow|ładun|podejrzan[ay] (pakunek|przedmiot)/i, 'Omijaj wskazany teren i nie podchodź do podejrzanych pakunków. Stosuj się do poleceń policji.'],
+    [/strzelanin|strzał|nożownik|atak na|napastnik/i, 'Jeśli jesteś w pobliżu: uciekaj, a jeśli nie możesz, ukryj się i wycisz telefon. Dzwoń pod 112, gdy będzie to bezpieczne. Unikaj okolicy i nie powielaj niesprawdzonych nagrań.'],
+    [/fałszyw|dezinformac|fake/i, 'Sprawdzaj informacje w źródłach urzędowych (gov.pl, RCB, policja) zanim je udostępnisz.'],
+  ],
+  en: [
+    [/drone|airspace|missile|interceptor|jet/i, 'If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services.'],
+    [/nuclear|radiation|radiolog/i, 'If authorities warn of radiation, go inside, close windows and follow official instructions. Take iodine tablets only if told to.'],
+    [/sabotage|arson|railway|pipeline|cable/i, 'Report suspicious activity near railways, power lines or military sites to emergency services. Do not photograph military installations.'],
+    [/evacuat/i, 'Follow official instructions, take your go-bag, documents and medication, and do not return until the order is lifted.'],
+    [/mobiliz|conscription|draft/i, 'Rely only on official government sources for call-up information.'],
+    [/ceasefire|talks|negotiat/i, 'No action needed. Keep your basic supplies ready; situations can change quickly.'],
+  ],
+};
+const tipFor = (lang, cat, title) => ((cat === 'security' || cat === 'safety') && RULES[lang].find(([re]) => re.test(title))?.[1]) || TIP[lang][cat] || TIP[lang].security;
+const OFFICIAL = /^(IMGW|PSE|CERT Polska|GDACS|ECDC|RCB|Policja|gov\.pl|policja\.pl|Rządowe Centrum Bezpieczeństwa|Ministerstwo|MON|MSWiA|Dowództwo Operacyjne|Straż Graniczna|PSP)/i;
 const item = (lang, cat, sev, source, url, title, at = new Date()) =>
-  ({ at: new Date(at).toISOString(), cat, sev, source, url, title, forYou: TIP[lang][cat] ?? TIP[lang].security });
+  ({ at: new Date(at).toISOString(), cat, sev, source, url, title, official: OFFICIAL.test(source) || /\.gov\.pl|policja\.pl|wojsko-polskie\.pl/.test(url), forYou: tipFor(lang, cat, title) });
 
 // ── Regiony ─────────────────────────────────────────────────
 const REGIONS = {
@@ -128,6 +162,12 @@ const REGIONS = {
         gdelt: '"Poland" (drone OR airspace OR missile OR sabotage)',
         news: 'Polska (dron OR "przestrzeń powietrzna" OR rakieta OR sabotaż OR wojsko)' });
       items.slice(0, 3).forEach((i) => feed.push(item('pl', 'security', 2, sourceOf(i.title), i.link, stripSource(i.title), i.date)));
+      // Zdarzenia w kraju: ewakuacje, alarmy bombowe, ataki, komunikaty policji i RCB (z ostatnich 24 h).
+      try {
+        const inc = (await newsCount('(ewakuacja OR "alarm bombowy" OR strzelanina OR nożownik OR "atak w szkole" OR "komunikat policji" OR "Alert RCB") Polska', 'pl'))
+          .filter((i) => Date.now() - i.date < DAY).slice(0, 3);
+        inc.forEach((i) => feed.push(item('pl', 'safety', /strzel|nożow|atak|bomb/i.test(i.title) ? 3 : 2, sourceOf(i.title), i.link, stripSource(i.title), i.date)));
+      } catch (e) { console.warn('  incydenty:', e.message); }
       return score;
     },
     async cyber(c, feed) {
@@ -158,12 +198,12 @@ const REGIONS = {
         score = ({ 1: 30, 2: 55, 3: 80 }[lvl] ?? 30) + Math.min(10, w.length / 5);
         const top = [...w].sort((a, b) => (+b.stopien || 0) - (+a.stopien || 0))[0];
         feed.push(item('pl', 'weather', Math.min(4, (+top.stopien || 1) + 1), 'IMGW', 'https://meteo.imgw.pl/',
-          `IMGW: ${w.length} ostrzeżeń meteo, najwyższy stopień ${lvl} — ${top.nazwa_zdarzenia ?? 'zjawiska'}`, top.opublikowano || Date.now()));
+          `IMGW: ${w.length} ostrzeżeń meteo, najwyższy stopień ${lvl}: ${top.nazwa_zdarzenia ?? 'zjawiska'}`, top.opublikowano || Date.now()));
       }
       const near = (ctx.gdacs ?? []).filter((e) => /Poland|Germany|Czech|Slovakia|Ukraine|Lithuania|Belarus/.test(e.country));
       score += near.filter((e) => e.fresh).length * 10 + near.filter((e) => !e.fresh).length * 3;
       near.filter((e) => e.fresh).slice(0, 2).forEach((e) => feed.push(item('pl', 'disaster', e.level === 'Red' ? 4 : 3, 'GDACS', e.url,
-        `${GDACS_PL[e.type] ?? 'Zdarzenie'} — ${e.country.split(',')[0]} (alert ${e.level === 'Red' ? 'czerwony' : 'pomarańczowy'})`, e.from)));
+        `${GDACS_PL[e.type] ?? 'Zdarzenie'}: ${e.country.split(',')[0]} (alert ${e.level === 'Red' ? 'czerwony' : 'pomarańczowy'})`, e.from)));
       return clamp(score, 5, 95);
     },
     async health(c, feed, ctx) {
@@ -232,15 +272,16 @@ for (const region of ['pl', 'en']) {
     R.history = []; R.historyDates = [];
     R.components.forEach((c) => { if (c.mode !== 'manual') { c.trend = []; c.raw = []; c.value = BASELINE[c.id] ?? 30; } });
   }
+  NEW_DAY = R.historyDates?.at(-1) !== today;
   const feed = [];
   let live = 0;
   console.log(`\n[${region.toUpperCase()}]`);
   for (const c of R.components) {
     const fn = REGIONS[region][c.id];
-    if (c.mode === 'manual' || !fn) { console.log(`• ${c.id}: ręcznie (${c.value})`); c.trend = [...(c.trend ?? []), c.value].slice(-8); continue; }
+    if (c.mode === 'manual' || !fn) { console.log(`• ${c.id}: ręcznie (${c.value})`); c.trend = pushDaily(c.trend, c.value).slice(-8); continue; }
     try { c.value = await fn(c, feed, ctx); c.stale = false; live++; console.log(`✓ ${c.id}: ${c.value}`); }
     catch (e) { c.stale = true; console.warn(`✗ ${c.id}: ${e.message.slice(0, 90)} — zostaje ${c.value}`); }
-    c.trend = [...(c.trend ?? []), c.value].slice(-8);
+    c.trend = pushDaily(c.trend, c.value).slice(-8);
   }
   const totalW = R.components.reduce((s, c) => s + c.weight, 0);
   const score = clamp(R.components.reduce((s, c) => s + c.value * c.weight, 0) / totalW);
@@ -264,9 +305,48 @@ for (const region of ['pl', 'en']) {
       .slice(0, 20);
     F.sample = false;
   }
+  F.updatedAt = new Date().toISOString();
   feedFile[region] = F;
   console.log(`→ indeks ${region}: ${score} (na żywo ${live}/${R.components.length}), newsów: ${F.items.length}`);
 }
+
+// ── Ceny i zaopatrzenie (PL): paliwa z Weekly Oil Bulletin KE (co tydzień), kursy z NBP (dni robocze) ──
+let supply = {};
+try { supply = JSON.parse(await readFile(SUPPLY, 'utf8')); } catch {}
+try {
+  const rate = async (code) => (await get(`https://api.nbp.pl/api/exchangerates/rates/a/${code}/last/8/?format=json`)).rates;
+  const eur = await rate('eur'), usd = await rate('usd');
+  const fx = (r) => ({ value: r.at(-1).mid, date: r.at(-1).effectiveDate, prev: r.at(-2)?.mid ?? null, week: r[0].mid });
+  supply.fx = { eur: fx(eur), usd: fx(usd), source: 'NBP' };
+  // Oil Bulletin: plik „Prices with taxes, latest” (XLSX). Rozpakowanie systemowym unzip, bez zależności npm.
+  const dir = await mkdtemp(join(tmpdir(), 'ob-'));
+  const r = await fetch('https://energy.ec.europa.eu/document/download/264c2d0f-f161-4ea3-a777-78faae59bea0_en', { headers: UA, signal: AbortSignal.timeout(60000) });
+  if (!r.ok) throw new Error(`Oil Bulletin ${r.status}`);
+  await writeFile(join(dir, 'ob.xlsx'), Buffer.from(await r.arrayBuffer()));
+  const unzip = (f) => execFileSync('unzip', ['-p', join(dir, 'ob.xlsx'), f], { encoding: 'utf8' });
+  const strings = [...unzip('xl/sharedStrings.xml').matchAll(/<si>([\s\S]*?)<\/si>/g)].map((m) => m[1].replace(/<[^>]+>/g, '').trim());
+  const rows = [...unzip('xl/worksheets/sheet1.xml').matchAll(/<row[^>]*>([\s\S]*?)<\/row>/g)].map((m) =>
+    Object.fromEntries([...m[1].matchAll(/<c r="([A-Z]+)\d+"([^>]*)>(?:<v>([^<]*)<\/v>)?/g)].map(([, col, attr, v]) => [col, /t="s"/.test(attr) ? strings[+v] : v])));
+  const serial = +rows.find((x) => /^\d{5}(\.\d+)?$/.test(String(x.A ?? '')))?.A;
+  const dateOB = serial ? new Date(Date.UTC(1899, 11, 30) + serial * DAY).toISOString().slice(0, 10) : today;
+  const pl = rows.find((x) => /^Poland$/i.test(String(x.A ?? '').trim()));
+  if (!pl) throw new Error('Oil Bulletin: brak wiersza Poland');
+  const eurPln = supply.fx.eur.value;
+  const perL = (v) => Math.round((+v / 1000) * eurPln * 100) / 100;      // EUR/1000 l → zł/l
+  const now = { date: dateOB, pb95: perL(pl.B), on: perL(pl.C), lpg: perL(pl.G) };
+  supply.fuel ??= { history: [] };
+  const H = supply.fuel.history.filter((h) => h.date !== now.date);
+  supply.fuel.history = [...H, now].sort((a, b) => a.date.localeCompare(b.date)).slice(-12);
+  supply.fuel.source = 'Komisja Europejska, Weekly Oil Bulletin (ceny z podatkami, przeliczone kursem NBP)';
+  const prev = supply.fuel.history.at(-2);
+  const jump = prev ? Math.max(...['pb95', 'on', 'lpg'].map((k) => (now[k] - prev[k]) / prev[k])) : 0;
+  const fuelTitle = `Ceny paliw w Polsce wzrosły w tydzień o ${Math.round(jump * 100)}%: Pb95 ${now.pb95.toFixed(2)} zł, ON ${now.on.toFixed(2)} zł`;
+  if (jump > 0.05 && !feedFile.pl.items.some((i) => i.cat === 'supply' && i.at.startsWith(dateOB))) feedFile.pl.items.unshift(item('pl', 'supply', 3, 'Komisja Europejska', 'https://energy.ec.europa.eu/data-and-analysis/weekly-oil-bulletin_en',
+    fuelTitle, new Date(dateOB + 'T12:00:00Z')));
+  supply.updatedAt = new Date().toISOString();
+  console.log(`✓ ceny: Pb95 ${now.pb95} ON ${now.on} LPG ${now.lpg} (${dateOB}), EUR ${eurPln}`);
+} catch (e) { console.warn('✗ ceny i zaopatrzenie:', e.message); }
+await writeFile(SUPPLY, JSON.stringify(supply, null, 2) + '\n');
 
 await writeFile(READINESS, JSON.stringify(readiness, null, 2) + '\n');
 await writeFile(FEED, JSON.stringify(feedFile, null, 2) + '\n');

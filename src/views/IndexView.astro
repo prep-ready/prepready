@@ -8,8 +8,8 @@ interface Props { lang: Lang }
 const { lang } = Astro.props;
 const pl = lang === 'pl';
 const meta = pl
-  ? { title: 'Indeks gotowości — jak bardzo trzeba się przygotować', desc: 'Codzienny wskaźnik 0–100 łączący dane o konflikcie, radiacji, energii, pogodzie, zdrowiu i cyberbezpieczeństwie. Z jawną metodologią i źródłami.' }
-  : { title: 'Readiness Index — how prepared should you be', desc: 'A daily 0–100 score combining conflict, radiation, energy, weather, health and cyber data. With open methodology and sources.' };
+  ? { title: 'Indeks gotowości: jak bardzo trzeba się przygotować', desc: 'Codzienny wskaźnik 0–100 łączący dane o konflikcie, radiacji, energii, pogodzie, zdrowiu i cyberbezpieczeństwie. Z jawną metodologią i źródłami.' }
+  : { title: 'Readiness Index: how prepared should you be', desc: 'A daily 0–100 score combining conflict, radiation, energy, weather, health and cyber data. With open methodology and sources.' };
 
 // History chart (last 14 days)
 const R = readiness[lang];
@@ -34,7 +34,7 @@ const dataset = {
       <div>
         <div class="eyebrow">{pl ? 'Historia · do 30 dni' : 'History · up to 30 days'}</div>
         <h2>{pl ? 'Jak zmieniał się wynik' : 'How the score has moved'}</h2>
-        {!enough && <p class="note">{pl ? 'Historia buduje się od dnia startu — wykres wypełni się w kolejnych dniach.' : 'History starts on launch day — the chart fills in over the coming days.'}</p>}
+        {!enough && <p class="note">{pl ? 'Historia buduje się od dnia startu. Wykres wypełni się w kolejnych dniach.' : 'History starts on launch day. The chart fills in over the coming days.'}</p>}
         <div class="panel chart">
           <svg viewBox={`0 0 ${W} ${H}`} role="img" aria-label={pl ? 'Wykres indeksu z ostatnich 14 dni' : 'Index chart, last 14 days'}>
             {bands.map((b) => <rect x={P.l} y={b.y0} width={W - P.l - P.r} height={b.y1 - b.y0} fill={`var(${b.token})`} opacity=".08" />)}
@@ -72,13 +72,13 @@ const dataset = {
       <div class="method">
         {pl ? (
           <Fragment>
-            <p>Każda z sześciu składowych jest skalowana do 0–100 na podstawie danych z oficjalnych i naukowych źródeł. Wynik to średnia ważona. Wagi są stałe i jawne — widzisz je przy każdej składowej.</p>
+            <p>Każda z sześciu składowych jest skalowana do 0–100 na podstawie danych z oficjalnych i naukowych źródeł. Wynik to średnia ważona. Wagi są stałe i jawne: widzisz je przy każdej składowej.</p>
             <p>Automat liczy wynik codziennie, a redakcja go zatwierdza. Zmiana o więcej niż 10 punktów w ciągu doby wymaga notki z wyjaśnieniem. Zegar Zagłady pokazujemy jako kontekst i nie wliczamy go do wyniku, bo zmienia się raz w roku.</p>
             <p><strong>Indeks jest narzędziem edukacyjnym.</strong> Nie zastępuje ostrzeżeń RCB, RSO, IMGW ani poleceń służb.</p>
           </Fragment>
         ) : (
           <Fragment>
-            <p>Each of the six components is scaled to 0–100 from official and scientific data sources. The score is a weighted average. Weights are fixed and public — shown next to each component.</p>
+            <p>Each of the six components is scaled to 0–100 from official and scientific data sources. The score is a weighted average. Weights are fixed and public, shown next to each component.</p>
             <p>The score is computed daily and approved by an editor. Any change of more than 10 points in a day comes with a written explanation. The Doomsday Clock is shown as context only; it changes once a year.</p>
             <p><strong>The index is an educational tool.</strong> It never replaces official warnings or instructions from emergency services.</p>
           </Fragment>

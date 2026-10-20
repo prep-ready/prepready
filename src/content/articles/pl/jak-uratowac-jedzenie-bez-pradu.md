@@ -10,13 +10,13 @@ reviewed: 2026-10-14
 author: "Redakcja PrepReady"
 readingMinutes: 6
 sources:
-  - name: "FoodSafety.gov (USDA/FDA/CDC) — Food Safety During Power Outage"
+  - name: "FoodSafety.gov (USDA/FDA/CDC): Food Safety During Power Outage"
     url: "https://www.foodsafety.gov/food-safety-charts/food-safety-during-power-outage"
-  - name: "PSSE Głogów (Państwowa Inspekcja Sanitarna) — Bezpieczeństwo żywności podczas powodzi"
+  - name: "PSSE Głogów (Państwowa Inspekcja Sanitarna): Bezpieczeństwo żywności podczas powodzi"
     url: "https://www.gov.pl/web/psse-glogow/bezpieczenstwo-zywnosci-podczas-powodzi"
-  - name: "USDA — Food Safety: Power Outages & Flooding, PDF"
+  - name: "USDA: Food Safety: Power Outages & Flooding, PDF"
     url: "https://texashelp.tamu.edu/wp-content/uploads/2016/02/usda-power-outages-food-safety.pdf"
-  - name: "CDC — Keep Food Safe After a Disaster or Emergency"
+  - name: "CDC: Keep Food Safe After a Disaster or Emergency"
     url: "https://www.cdc.gov/food-safety/foods/keep-food-safe-after-emergency.html"
   - name: "Poradnik bezpieczeństwa (MSWiA / COI, 2025), PDF"
     url: "https://www.coi.gov.pl/static/poradnik_bezpieczenstwa_PL.pdf"
@@ -24,9 +24,9 @@ faq:
   - q: "Ile wytrzyma jedzenie w lodówce bez prądu?"
     a: "Około 4 godzin, jeśli drzwi są zamknięte. Po tym czasie mięso, wędliny, ryby, nabiał, jajka i resztki obiadu, które ogrzały się powyżej 4°C, trzeba wyrzucić."
   - q: "Ile wytrzyma zamrażarka bez prądu?"
-    a: "Pełna zamrażarka utrzymuje bezpieczną temperaturę około 48 godzin, a w połowie pusta — około 24 godzin, pod warunkiem że nie otwierasz drzwi."
+    a: "Pełna zamrażarka utrzymuje bezpieczną temperaturę około 48 godzin, a w połowie pusta około 24 godzin, pod warunkiem że nie otwierasz drzwi."
   - q: "Czy można ponownie zamrozić rozmrożone jedzenie?"
-    a: "Tak, jeśli wciąż ma kryształki lodu albo ma najwyżej 4°C. Smak i konsystencja mogą się pogorszyć, ale jedzenie jest bezpieczne. Jeśli było cieplejsze niż 4°C dłużej niż 2 godziny — wyrzuć je."
+    a: "Tak, jeśli wciąż ma kryształki lodu albo ma najwyżej 4°C. Smak i konsystencja mogą się pogorszyć, ale jedzenie jest bezpieczne. Jeśli było cieplejsze niż 4°C dłużej niż 2 godziny, wyrzuć je."
   - q: "Czy jedzenie, które miało kontakt z wodą powodziową, da się uratować?"
     a: "Nie. Sanepid zaleca wyrzucić całą żywność, która miała kontakt z wodą powodziową. Do picia i gotowania używaj tylko wody butelkowanej albo z beczkowozów."
   - q: "Po czym poznać, że jedzenie się zepsuło?"
@@ -74,7 +74,7 @@ Gdy prąd nie wraca, a mięso zaczyna się rozmrażać, a nadal jest zimne, moż
 - **Trzymaj w zamrażarce butelki z wodą.** Wypełniają puste miejsce, dłużej trzymają zimno, a po rozmrożeniu dają wodę do picia.
 - **Zamrażarka pełna, nie pusta.** Pełna trzyma chłód dwa razy dłużej niż w połowie pusta.
 - **Wkłady chłodzące i torba termiczna** pozwalają przełożyć najważniejsze produkty, np. leki wymagające chłodzenia.
-- **Zapas jedzenia, które nie wymaga lodówki** — konserwy, mleko UHT, pieczywo chrupkie. Szczegóły w poradniku [zapas wody i jedzenia na kryzys](/pl/poradniki/zapas-wody-i-jedzenia/).
+- **Zapas jedzenia, które nie wymaga lodówki**: konserwy, mleko UHT, pieczywo chrupkie. Szczegóły w poradniku [zapas wody i jedzenia na kryzys](/pl/poradniki/zapas-wody-i-jedzenia/).
 
 ## Jedzenie po powodzi: tu nie ma wyjątków
 

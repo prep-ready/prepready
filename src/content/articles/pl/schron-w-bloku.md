@@ -12,15 +12,15 @@ readingMinutes: 7
 sources:
   - name: "Poradnik bezpieczeństwa (MSWiA / COI, 2025), PDF"
     url: "https://www.coi.gov.pl/static/poradnik_bezpieczenstwa_PL.pdf"
-  - name: "Przegląd Pożarniczy (KG PSP) — Gdziesieukryc.pl, serwis pierwszej potrzeby"
+  - name: "Przegląd Pożarniczy (KG PSP): Gdziesieukryc.pl, serwis pierwszej potrzeby"
     url: "https://www.ppoz.pl/czytelnia/ratownictwo-i-ochrona-ludnosci/Gdziesieukryc-pl-serwis-pierwszej-potrzeby/idn:3441"
-  - name: "PSP — mapa schronów, ukryć i miejsc doraźnego schronienia"
+  - name: "PSP: mapa schronów, ukryć i miejsc doraźnego schronienia"
     url: "https://schrony.straz.gov.pl/"
-  - name: "Builder Polska — Schron, ukrycie, MDS i punkt schronienia (2026)"
+  - name: "Builder Polska: Schron, ukrycie, MDS i punkt schronienia (2026)"
     url: "https://builderpolska.pl/2026/08/31/schron-ukrycie-mds-i-punkt-schronienia/"
 faq:
   - q: "Jak sprawdzić, gdzie jest najbliższy schron?"
-    a: "Wpisz adres na mapie schronów PrepReady (prepready.pro/pl/mapa-schronow/) — pokaże najbliższe punkty z bazy PSP z odległością i trasą pieszo. Te same dane mają mapa Państwowej Straży Pożarnej (schrony.straz.gov.pl) i serwis gdziesieukryc.pl. Informacje o miejscach schronienia ma też urząd gminy."
+    a: "Wpisz adres na mapie schronów PrepReady (prepready.pro/pl/mapa-schronow/). Pokaże najbliższe punkty z bazy PSP z odległością i trasą pieszo. Te same dane mają mapa Państwowej Straży Pożarnej (schrony.straz.gov.pl) i serwis gdziesieukryc.pl. Informacje o miejscach schronienia ma też urząd gminy."
   - q: "Czy piwnica w bloku to schron?"
     a: "Zwykle nie. Piwnica bywa miejscem doraźnego schronienia (MDS), czyli podziemną częścią budynku, która ogranicza skutki zagrożenia. Nie jest hermetyczna jak schron."
   - q: "Gdzie się schować w mieszkaniu, gdy nie zdążę zejść do schronu?"
@@ -39,19 +39,19 @@ Ustawa o ochronie ludności i obronie cywilnej z 5 grudnia 2024 roku porządkuje
 | --- | --- | --- |
 | Schron | budowla hermetyczna, z filtrowentylacją | najwyższy, także przy skażeniu |
 | Ukrycie | budowla ochronna bez hermetyzacji | chroni przed gruzem i odłamkami |
-| MDS — miejsce doraźnego schronienia | podziemna część zwykłego budynku: piwnica, garaż, stacja metra | ogranicza skutki zagrożenia do ok. 48 godzin |
+| MDS, miejsce doraźnego schronienia | podziemna część zwykłego budynku: piwnica, garaż, stacja metra | ogranicza skutki zagrożenia do ok. 48 godzin |
 | Punkt schronienia | przejście podziemne, tunel, wiadukt | krótkie schronienie, np. przed burzą lub gradem |
 
 W bloku najczęściej znajdziesz MDS: piwnicę albo garaż podziemny. To nie bunkier, ale gruba ściana i strop nad głową dają realną ochronę przed odłamkami i falą uderzeniową.
 
 ## Jak znaleźć najbliższe miejsce schronienia
 
-Najszybciej: wpisz adres na [mapie schronów PrepReady](/pl/mapa-schronow/) — pokaże 10 najbliższych punktów z bazy PSP z odległością, czasem dojścia i trasą pieszo. Mamy też gotowe widoki dla miast, np. [schrony w Warszawie](/pl/mapa-schronow/warszawa/), [w Krakowie](/pl/mapa-schronow/krakow/) czy [we Wrocławiu](/pl/mapa-schronow/wroclaw/).
+Najszybciej: wpisz adres na [mapie schronów PrepReady](/pl/mapa-schronow/). Pokaże 10 najbliższych punktów z bazy PSP z odległością, czasem dojścia i trasą pieszo. Mamy też gotowe widoki dla miast, np. [schrony w Warszawie](/pl/mapa-schronow/warszawa/), [w Krakowie](/pl/mapa-schronow/krakow/) czy [we Wrocławiu](/pl/mapa-schronow/wroclaw/).
 
 Państwowa Straż Pożarna prowadzi też dwie własne, bezpłatne mapy:
 
-- schrony.straz.gov.pl — schrony, ukrycia i miejsca doraźnego schronienia z podziałem na kategorie;
-- gdziesieukryc.pl — punkty schronienia w pobliżu z trasą pieszą i przekierowaniem do Map Google. Działa w przeglądarce, można go dodać do ekranu telefonu. Zapisuje dane o ok. 100 punktach w promieniu 15 km, które są dostępne przez 7 dni bez zasięgu.
+- schrony.straz.gov.pl: schrony, ukrycia i miejsca doraźnego schronienia z podziałem na kategorie;
+- gdziesieukryc.pl: punkty schronienia w pobliżu z trasą pieszą i przekierowaniem do Map Google. Działa w przeglądarce, można go dodać do ekranu telefonu. Zapisuje dane o ok. 100 punktach w promieniu 15 km, które są dostępne przez 7 dni bez zasięgu.
 
 Sprawdź to dziś, nie w chwili alarmu. Zapisz dwa miejsca: najbliższe od domu i od pracy lub szkoły. Przejdź się tam raz, żeby wiedzieć, którędy wejść. Poradnik MSWiA wskazuje też urząd gminy jako źródło informacji o miejscach schronienia.
 
@@ -59,9 +59,9 @@ Sprawdź to dziś, nie w chwili alarmu. Zapisz dwa miejsca: najbliższe od domu 
 
 Jeśli do schronu jest za daleko, poradnik MSWiA zaleca szukać „minimum ochrony” jak najniżej w budynku:
 
-1. Piwnica lub garaż podziemny — najlepsza opcja w bloku.
-2. Klatka schodowa na niskim piętrze — ściany nośne, zwykle mało okien.
-3. Środek mieszkania — korytarz albo łazienka bez okna, z dala od szyb, przy ścianie nośnej.
+1. Piwnica lub garaż podziemny: najlepsza opcja w bloku.
+2. Klatka schodowa na niskim piętrze: ściany nośne, zwykle mało okien.
+3. Środek mieszkania: korytarz albo łazienka bez okna, z dala od szyb, przy ścianie nośnej.
 
 Unikaj pomieszczeń z dużymi oknami, balkonów, ostatniego piętra i strychu. Szkło to podczas wybuchu główne źródło obrażeń.
 
