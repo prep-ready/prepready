@@ -4,6 +4,26 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-10-21T03:42:00.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "PolsatNews.pl",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZlpCVGJJQjhwSWsxRHFTbGNEZEtyQ2dnV191ckRhRFlSZlV6ZHFPUzJpME9PZWNERDFQdG80Y0ZvLU40aE5LcENfdVRzeTM1Y2VuNXpyQWIteGxGSzNHODRCTjdBQjFtUElkT1k5VnRxczdaS1lhUEhZRXRvenl2TXlPZkFPVXVlRkJxeldDWVI5V1hJeXNZaUg3SER2c1puc2c?oc=5",
+        "title": "Rosyjski atak na Ukrainę. Polska poderwała myśliwce",
+        "official": false,
+        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112."
+      },
+      {
+        "at": "2026-10-21T03:01:15.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "WP Wiadomości",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVmhSdXpuUmJETFVkek00eE1HMjRUSWIyRE5Jd3MzM3NNM1hiQ3doNkVPLVJVak5wWWV3V1daOUhBRFJCTUlCemZpanY2RmwxV2JSdnJtcTFwQjJBVFVmc2pvdUlpTVhOUkw5S2JSY0JtYW04UFFzNEV4ckQ4ZG5WY0YtYWRqZGpqcVpxTHdlRFl3VG1sOHdNWjloZllSYUoyQk9z?oc=5",
+        "title": "Działo się w nocy. Nocny alert RCB, spór o UPA i decyzja USA",
+        "official": false,
+        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady."
+      },
+      {
         "at": "2026-10-21T01:14:01.000Z",
         "cat": "safety",
         "sev": 2,
@@ -20,6 +40,16 @@
         "source": "Onet",
         "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcGF6Z3ktRXo1d2ZDTTJFNFJuRU83QVVmQ3hvNzJfdGQ0ZEtYQVZWQ0Q3TDNPM1RXMHJwQW0yY2c4VDJndGZ5UlN4RkRBUmlCWmN6ZjY5QVU5clR3Ty1ROWJlWVFyV0pSVlVmSk1IOVBISmtPNWxDNk0tMHEwM3l0U3F0MXBQMmJKc3lKdHA3MDJMUVpjV2JBMFZGWHpXNjhZemdfRUJVd3dVZ05IQXllNWFiUlo2OE9pQzlQaHVpS0o?oc=5",
         "title": "Rosja atakuje Ukrainę. Polskie myśliwce poderwane w powietrze",
+        "official": false,
+        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112."
+      },
+      {
+        "at": "2026-10-21T00:44:15.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "WP Wiadomości",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQaHpfOS1GYXA2RDNZaG9JUS1FeDJJZlExd1RqS0psY0p1TC1wUkFWeUFFX2ZjLWZIVVZmWlBIcXViVmtwR0dJVl9DR1EyMWw3aW95cmhVYlBTVFVRUTJsZGVvUXlFUFloRk9qNFVSRWFpUmtKc0lZZnBacE41LWdINmRuckVRdU56Z2lSb28tRWxfck9ONWdKRw?oc=5",
+        "title": "Rosyjski atak w Ukrainie. Wojsko poderwało myśliwce",
         "official": false,
         "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112."
       },
@@ -172,43 +202,33 @@
         "title": "Wojsko zakończyło działania w przestrzeni powietrznej. Nie odnotowano naruszeń",
         "official": false,
         "forYou": "Zagrożenie minęło. Sprawdź, czy w domu wszystko jest w porządku, i uzupełnij to, czego użyłeś z zapasu."
-      },
-      {
-        "at": "2026-10-20T15:43:31.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Lublin112",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOSXVuekJkQVVmalhUd3FUaUJHbXUxY083UGQ1V05rbHFObWhpUG5mLU96dHNMZ3l2TUs2T2tmTlotWGxxWVFwWFI3UzNHZ0xkN3NOajkwMkdaYVRFNm53NUo1U0Zqd0QxVk1lVHQ0VmJZWFpwNjkzaThkdmNIN21YVHhJR1hhUURPSDFHdjk1aUZ1NkJadGVJMmV3WHN0SC1zUlJwbFBISnBmX2ZFOXNGUlpsdUFLUk1UWWtj?oc=5",
-        "title": "Wojsko zakończyło działania po kolejnym rosyjskim ataku na Ukrainę. Lotniska wznowiły operacje",
-        "official": false,
-        "forYou": "Zagrożenie minęło. Sprawdź, czy w domu wszystko jest w porządku, i uzupełnij to, czego użyłeś z zapasu."
-      },
-      {
-        "at": "2026-10-20T15:28:05.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Gov.pl",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1yUkFPaHBtNXdmV1RYWXFSckR3THJKeHZxVWxCWXlrektOT0RyRE5YVXRjc3NPOHZYellaMGZOLXc1cmcwUnF2M0xOcElUNnRqNUR0NUhHUTNBeHVWUC1yTkVfVnU1WFF0MHg3dS1BQVd3VVo2?oc=5",
-        "title": "Alert RCB - zagrożenie z powietrza (20.10)",
-        "official": true,
-        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady."
-      },
-      {
-        "at": "2026-10-20T15:06:24.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Forsal.pl",
-        "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPTWd2RmstSHVnNEV1ODVTb1FRRHhpb2pFQmlFYzEwSHFBQlp6YzlWR2lHRm1MeDZIN1pqYmNYWXF4bG9pZ2l0anV0TlZROXhrX0R2YWNHMDRHWDlOY2tZRVVnaGowdjhVcF9Na3ZIZ1VfbUJudVlBQ1VSZk5aZGFZRDc1SWVpajc0TXpUMGdjT05KV0dWZHRoT1hPaG5mX3lkTWJKRktnQXFZaFhGME1fR3FPT3dSWFhoVjB1YWFXQUVYT2xLLXUwZ1N2UE1kYWwtUzFsM2hnUi1UVVVlVm5IM1FMak9YRU0yLWNEdEtYZjBUR3pnZjdrcHNGQjdJM3VBcGpPaEhrTzZqa3k2T1dybTFZZk9Na1E?oc=5",
-        "title": "Rząd ma już plan masowej ewakuacji i przygotowuje się na najgorsze. Miliony Polaków mogą dostać sygnał w jednym momencie",
-        "official": false,
-        "forYou": "Słuchaj poleceń służb, weź plecak ewakuacyjny, dokumenty i leki. Nie wracaj, dopóki służby nie odwołają ewakuacji."
       }
     ],
-    "updatedAt": "2026-10-21T03:20:35.680Z"
+    "updatedAt": "2026-10-21T04:20:31.356Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-21T03:47:14.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Ada Derana",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBZSlRSTHJxMzl6ek9WcDZnWFFfZzlEbXFBNGpVMERRN2RIQWhabFNzLVJSSFlMQ0NtYmxSeVdOVm1FWV9POElr?oc=5",
+        "title": "Severe traffic congestion in Borella due to damaged sewerage pipeline",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
+      {
+        "at": "2026-10-21T02:28:26.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Inventiva",
+        "url": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxPUU1FODByazdOWXp3OUp6SUhBZ2V3ZGJIdUxId0dyZXcwXzRvYVNKZ2RJd1NUMkdEaFdCNk5rR2MxSUE2dmtFenBPQ3Nra21zbDk5eFY4WGlOY1RWMmdNME1MNTZIYXl0dzJMQk1RR0poai1WWTYweVhrWkp5UUJPRVFsWU1MbU9taUo0WFNveTZXRExRNzlyVndnTEd1YUg5NHI1aWt0R2diNEhac0xuTC1Td0RrSWVpTHY1TVFCLWlnbXdGcGlGSjc1UmZvOGNhQkJQU2F0Z2REQXNGb2YyUFpQTFZpWjl0Z2cwaVRaQl9NbkpnMnNxRklCMmZqR0p2YUkxZjhTR2dYdmZ0VG4taEVaWXdqREJkdFNlOV93c1hzZEx6UkZPZnk0Y2tMS19wSFpuTF9SY3JwR0FIUEdDdFN3eXh2aVhDb21MUVZrWmRsOTg?oc=5",
+        "title": "Cyberattack Hits Hundreds of French Supermarkets, Overheating Fridges and Sparking Fires. Could The Next Cyberattack Disrupt An Entire Supply Chain, From Phones To Traffic Lights And Hospital Equipment?",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
       {
         "at": "2026-10-21T02:01:46.000Z",
         "cat": "energy",
@@ -388,28 +408,8 @@
         "title": "Power outage at Google datacentre in London causes widespread disruption",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-20T16:04:43.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "Pasquale Pillitteri",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNaTMwNkdLYnE3QVZjT3FUelFvVmg1RTNQM3drS3E2WnhkeFAxLU1FOTcyX1lLVVNXdVo3WjZ6UU42V0NSdW1YdnZ3ZG5GaFhMNTlkblVmSXhxNzUwblN4eE95SnNRRVN4b3Fma1RUR3VpSmpSWWZBN1JqbzVFLUI3LWh6X2puanphQlNPcDI3bVlQX3VhSDkySmo2a1A?oc=5",
-        "title": "Ransomware gangs INC and The Gentlemen use Claude, an open server exposes 46 attacks ready to launch",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-20T15:45:21.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Ada Derana",
-        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5Vb0h1R045SnBsQVNxb3U2U0N4T0JZdl9ibW5yY2lDMVhERndoRWV2WExGSzNWd1NIZmtSdE85bGZidEtOekow?oc=5",
-        "title": "Hotel owner hospitalised after shooting in Moratuwa",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       }
     ],
-    "updatedAt": "2026-10-21T03:23:58.429Z"
+    "updatedAt": "2026-10-21T04:22:33.845Z"
   }
 }
