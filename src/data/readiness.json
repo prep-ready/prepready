@@ -2,7 +2,7 @@
   "_comment": "Aktualizuje scripts/update-data.mjs codziennie. pl = Polska, en = świat. Składowe z mode=manual ustawiasz ręcznie.",
   "pl": {
     "sample": false,
-    "updatedAt": "2026-10-21T14:18:35.307Z",
+    "updatedAt": "2026-10-21T15:19:29.624Z",
     "score": 33,
     "delta7": 6,
     "ago30": 29,
@@ -154,7 +154,7 @@
         "id": "cyber",
         "name": "Cyber i łączność",
         "weight": 15,
-        "value": 6,
+        "value": 7,
         "sources": "GDELT · Google News · CERT",
         "trend": [
           5,
@@ -164,7 +164,7 @@
           5,
           5,
           5,
-          6
+          7
         ],
         "mode": "auto",
         "raw": [
@@ -186,7 +186,7 @@
           46,
           48,
           26,
-          27
+          28
         ],
         "stale": false
       }
@@ -223,7 +223,7 @@
   },
   "en": {
     "sample": false,
-    "updatedAt": "2026-10-21T14:20:38.618Z",
+    "updatedAt": "2026-10-21T15:21:32.724Z",
     "score": 41,
     "delta7": -2,
     "ago30": 35,
@@ -295,7 +295,7 @@
           44,
           53
         ],
-        "stale": true
+        "stale": false
       },
       {
         "id": "nuclear",
@@ -359,7 +359,7 @@
           26,
           35,
           51,
-          50
+          51
         ],
         "stale": false
       },
@@ -367,7 +367,7 @@
         "id": "weather",
         "name": "Disasters & weather",
         "weight": 15,
-        "value": 61,
+        "value": 56,
         "sources": "GDACS",
         "trend": [
           67,
@@ -377,7 +377,7 @@
           72,
           66,
           61,
-          61
+          56
         ],
         "mode": "auto",
         "raw": [],

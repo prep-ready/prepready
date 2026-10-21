@@ -18,6 +18,30 @@
         }
       },
       {
+        "at": "2026-10-21T13:27:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Rzeczpospolita",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQXVYeWJ2T0p0R3ZfcTUzWkZoY2M1ZnJXay0xWmRhYnJlWEt5clFLbUdkNDBqTU1TbHZ2d0ppM01FR09mYWJUTmp3NUJiWDFvZ3psdFJaY0lWSEgxZlVvMXp2dGdWM1A5dDRXTFBUSktRblhHWWtMTzM0ZEZsdXlzUzRPcWg2dThmZ0FUajN2SFRsdmVoYlF2UWpfQW9lVnBtUFBMTkRPelpqT1Voc2xyWWlfYTh3Q05q?oc=5",
+        "title": "Dron na niezamieszkałej posesji w Lubaczowie. „Nikomu nic się nie stało”",
+        "official": false,
+        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112.",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
+      },
+      {
+        "at": "2026-10-21T11:58:06.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOV19kSWI5SHBwd2xTc1Y4Zlp2eWZ4SG5aLVZoVHE1bkRYaERJU0ZWSjBYZUNzS1lLZ0h6ZVlTZGY4cU5vZkhVTjlibzBPeUF5eFRqZ2pRckIyRFVjWFJPdHQxMDlvaWpTSVZ6X1NEbHZiV3BJaHR0VTczSFlmdG1ZNE9tLUttSjRkd1VTaml0TUNsbGlyUkxJSW9rQnhSeHpjcDJFUkpGMWZNcThYbXd6VQ?oc=5",
+        "title": "\"To nie będzie ostatni atak\". WSJ o tajnej kampanii Kremla przeciwko NATO",
+        "official": false,
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+      },
+      {
         "at": "2026-10-21T10:34:00.000Z",
         "cat": "health",
         "sev": 1,
@@ -160,7 +184,7 @@
         "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
       }
     ],
-    "updatedAt": "2026-10-21T14:18:35.311Z"
+    "updatedAt": "2026-10-21T15:19:29.626Z"
   },
   "en": {
     "sample": false,
@@ -174,6 +198,16 @@
         "title": "​US and Global Police Warn of SafePay Ransomware Attacks Across Four Continents",
         "official": false,
         "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
+      {
+        "at": "2026-10-21T14:10:41.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Latin Times",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPa29rYXBaOFo1ZE1MbUhmZzRJMk54Z25IeUhwbVMwcUhiMjU1OGNUV1M2MFEwWUFRejJ0TElSQWdqN2J1cFNOaHlSRkRTdEVKNTRtc0RqcWhrUlBDSG41ckxpcDM2R3FCMUJfQTFNY1lsM3o5aEtmX2czTERRVDlRZG1HUnpWbjVscGZlTGZud0VFYlplNHBUWFVJYUhYRzVhZTNwUGt1N2NjR1VIMi0wZzJwbWpfMFdBNFVnem9UcVU?oc=5",
+        "title": "How the Houthi Siege of Taiz Is Pushing Yemen's War to a Brutal New Extreme",
+        "official": false,
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       },
       {
         "at": "2026-10-21T13:11:07.000Z",
@@ -354,18 +388,8 @@
         "title": "Cyberattack Hits Hundreds of French Supermarkets, Overheating Fridges and Sparking Fires. Could The Next Cyberattack Disrupt An Entire Supply Chain, From Phones To Traffic Lights And Hospital Equipment?",
         "official": false,
         "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-19T15:36:21.000Z",
-        "cat": "health",
-        "sev": 2,
-        "source": "ECDC",
-        "url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
-        "title": "Ebola disease outbreak in the Democratic Republic of the Congo",
-        "official": true,
-        "forYou": "Usually no action. Check your first-aid kit and expiry dates."
       }
     ],
-    "updatedAt": "2026-10-21T14:20:38.620Z"
+    "updatedAt": "2026-10-21T15:21:32.724Z"
   }
 }
