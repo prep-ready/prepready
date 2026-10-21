@@ -4,6 +4,26 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-10-21T12:57:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Portal Obronny",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQMVZCMS15bWtvZ0ExRTAyRm5FbDYwMk1wMXF3Vk95dVE5YkMtUFhPbVFlZ3piVjdjWUh6OWhYR0VnRHVrYnFodXVhMm0xQ3c1RjBBX0EtWV9ORjF1S1BEWEpRTkRHQTlNTzJUWTZrZTEwYktqckRsQnN3OFhoeEhLblhhYUdjb2FVcDZhbXhFbkFHTEdyc0huQ3ZqX1pIdzI2alAxOWc1VjhhdGhFOTZsbU5wRkxkdlRhTnhldGstV0RwcENmb0VQXzZneFFqZ0dJblhHeHhZcXEwOFdFRkE?oc=5",
+        "title": "Polskie wojsko pyta Ukrainę o drona. Czy naruszył polską przestrzeń powietrzną?",
+        "official": false,
+        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112."
+      },
+      {
+        "at": "2026-10-21T12:41:21.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSE1ObDR1emNmUGdJSDFFWk5PUWFRQkF2cXRub1pqMEF0RElka2c1aGNzTXpEa2JqMXNPOUhCUFE1R2FkdE1RZnF6VjBZQVBaTl85NTVtWlc5QlhjMjlVTWwxR0NiZ2pvSXFtbXVrWEtVNDR2eHlQcHY0U3JOX1hjbHFHNkdOb0pMZmZXZVk3bzBNMm5sR1RDdmExUy1tb0liNXFKZkVJTEtVUGZv?oc=5",
+        "title": "Niezidentyfikowany obiekt spadł na Podkarpaciu. Mieszkańcy ewakuowani",
+        "official": false,
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+      },
+      {
         "at": "2026-10-21T11:08:43.000Z",
         "cat": "security",
         "sev": 2,
@@ -182,33 +202,23 @@
         "title": "Środowy przegląd mediów; RAF przeciwko dronom Huti; Wojsko musi przyspieszyć",
         "official": false,
         "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112."
-      },
-      {
-        "at": "2026-10-21T05:01:58.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Polityka.pl",
-        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOMnVBU2JBVTNWOUZaektZWW9nNEVTWl9OWHJJYmVHeUlPTDRtQkVFM2lfZUNCWHBnWkgyb2RJUVNqZGpwUkt6TEZZMEllSkZ4Y09sVEpiMnVxVTFJbW5mdWNSSUo1ZW50X0tuZEhpeVZKRkpmVFpEd2FKZkFuRHZXLTZkT3dkU2R5VXZkdmlSVXJWTXBobzlncGUyR01RSElJbk1aRVNaQkRHeDF1NFNEU2dlVHRsdnZtSmo0bk9vd1lvN29BZ3IxckpYTWNmT09wZTRPdVB5LUtHN0JOR1hyZmN2TUlhaWNiakVvMFl4MTJjNXJScHJ1RA?oc=5",
-        "title": "Kim ma walczyć polskie wojsko? Kryzys jest potężny, Trump lawiruje. Miliardy na sprzęt to za mało na Rosję",
-        "official": false,
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-10-21T03:42:00.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "PolsatNews.pl",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZlpCVGJJQjhwSWsxRHFTbGNEZEtyQ2dnV191ckRhRFlSZlV6ZHFPUzJpME9PZWNERDFQdG80Y0ZvLU40aE5LcENfdVRzeTM1Y2VuNXpyQWIteGxGSzNHODRCTjdBQjFtUElkT1k5VnRxczdaS1lhUEhZRXRvenl2TXlPZkFPVXVlRkJxeldDWVI5V1hJeXNZaUg3SER2c1puc2c?oc=5",
-        "title": "Rosyjski atak na Ukrainę. Polska poderwała myśliwce",
-        "official": false,
-        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112."
       }
     ],
-    "updatedAt": "2026-10-21T12:16:43.326Z"
+    "updatedAt": "2026-10-21T13:28:39.779Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-21T13:11:07.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Ada Derana",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE00Ym96WXlBelhkdDJsUTZ4ODNtQlJsbWw2Um9pNmxRdlBwbHlPYVR2cUhZVkUydUhwTmw2emtLMWJDcDdSODln?oc=5",
+        "title": "Two spill gates of Upper Kotmale Reservoir opened amid heavy rainfall",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
       {
         "at": "2026-10-21T12:06:01.000Z",
         "cat": "energy",
@@ -398,18 +408,8 @@
         "title": "Cyberattack Hits Hundreds of French Supermarkets, Overheating Fridges and Sparking Fires. Could The Next Cyberattack Disrupt An Entire Supply Chain, From Phones To Traffic Lights And Hospital Equipment?",
         "official": false,
         "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-21T02:01:46.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Batam News Asia",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQV2FXa1htQjQ1UUYybjFrQ1dOZFFmNjZFNld6TnhrLTZSLWVtR29pcGNybE82eWQwcGk0VGU1SWk1WUNLVE5nWXFSN2V1VlY5bFNxclBjdk81dGhmd0dXekcybHAxWHNTNTl4dWsyQzBEYk5VMGdBMDdOUHRnSUpUVk1KZ0Z3TlhMbGN4a0pLTDNzc3VZOEZMX0FtM3hGQm9pbzRJNnZuZUczWHpfRkc5YS1XMzB3Z2NiYjl3MU1pdlhDS0ZzanBxOENmTTNEZw?oc=5",
-        "title": "Batam-Bintan Blackout Investigation: Five Named Suspects Over Alleged Electrical Safety Failures",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       }
     ],
-    "updatedAt": "2026-10-21T12:18:52.965Z"
+    "updatedAt": "2026-10-21T13:30:36.234Z"
   }
 }
