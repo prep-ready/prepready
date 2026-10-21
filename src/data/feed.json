@@ -4,6 +4,46 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-10-21T08:09:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "RMF24",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOHBXWTR1cFZQTGhORDhvXzBhS2RMeXRPc0NmOTVOalpKXy1WbjVnMTJQSC1QZDlXOVlhQlZzYUJCS2dDTVg1Nm9VaHpxTGxDUzhJWS1UQk9VamlWUHNYZHdpQ3FzQmRucFBjbG5Tak9TaG1GT1FOSG85XzNpX2pqczNvQkxndnJZVnNmdnJwV3FyRGp2a1J1X3k5NzVlY1F0SHl0MW5lSmFaTlFXMmJJNEpR?oc=5",
+        "title": "Polskie wojsko wysłało pismo do Ukraińców. Chodzi o incydent z dronem na Litwie",
+        "official": false,
+        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112."
+      },
+      {
+        "at": "2026-10-21T07:52:47.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Portal Obronny",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQRTg3REdKU0ZUS1phZDNFRENBTzF3SlRRc2pyWmg3LTlYYU9wSTVqdllxQ3NlQkdxN3kydlptX3ZqcXdlRUVqTjB1V3FRU0FVTnlGY0tSMDBvTFpSQ3R1UHpXbWlXZHozZGxjRGN1b3k0NXV6d2w3T3R3LXJEQmE5cDlqNVBieUQ4QW5yRTZVNldqWVpPN05kekwzU21nbEw4NkFpT3ZEc3kzOWFxZDMzTXBFUTRQS1A3eDhHS2lQUlY1cnhudFJyYkw0bmFESjM3TDJfLVM0ejl2YTg?oc=5",
+        "title": "Nowe rakiety dla Homarów-K. Wojsko Polskie dostaje broń o zasięgu 290 km",
+        "official": false,
+        "forYou": "Informacja o modernizacji armii. Nie wymaga działań z Twojej strony."
+      },
+      {
+        "at": "2026-10-21T07:43:40.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Defence24",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZkpPLThNN0trWHV6cU1TNXk1YU1DNWhUZ1VVcXlMdnZ4QUNaX0FtQzNFajlCa2JRS1MyUlJGdGFkUGN1RmxGSlF2Qy15RGI3MGo3TkFfYlh6MVJHTVpzOGVhNWFKMEVJRWdFeGg4SVRrcllUcmYwbl9TbWNLcUxiMko0ZEM5dGtnc0dGREY3RzR0UFFRcGFBUUwwYXJGUEJ0aVltdXFCekM5U3hTUmpycjllRzM5QQ?oc=5",
+        "title": "Dron spadł na prywatną posesję pod Warszawą. Policja ustaliła jego pochodzenie",
+        "official": false,
+        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112."
+      },
+      {
+        "at": "2026-10-21T07:31:00.000Z",
+        "cat": "health",
+        "sev": 1,
+        "source": "Rynek Zdrowia",
+        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPUjFlQlJvSWhEUk5PZ252b2pfOEFMRjQyRjV6blMyY1J6UTd6aGY4RjF4SS13UTFnZTZVU0FSQXpBOWY0a2VfbXFIdUQ3bGhKVUp6LS1fRnVEbE5ydTFDSjBQcUNJQVpTc0tqNFBrLXZjVzdWeW1FcElZLTl4VF9JU0g0bTFYVHBnTm1NTDdFY2RoOEdUUUNKc1RjRnYyVDhRN050Yk9JOXNjWFpEQjJvdDZMa3RTWExRVXprSWdGM2Rwc0RuOUl3QzJFTmZDRFVZSDFWWTNIT3VQR0ZZX1JLT3hTR2tHQXRLa1h6VHZHZTlvc2s?oc=5",
+        "title": "GIS wszedł do sklepów w całej Polsce: 5850 produktów na komary i kleszcze pod lupą. Znamy wyniki kontroli",
+        "official": false,
+        "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
+      },
+      {
         "at": "2026-10-21T06:47:00.000Z",
         "cat": "security",
         "sev": 2,
@@ -162,53 +202,43 @@
         "title": "Dron spadł na posesję w Józefowie pod Warszawą. To maszyna polskiego wojskowego instytutu",
         "official": false,
         "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112."
-      },
-      {
-        "at": "2026-10-20T19:55:42.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Gazeta",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcG1lQU1nRWc1SWxLLU8wczB0LVBjM0NrTy1GSm1XTllNNkJ5WDFMM2EtYTJaMGdvUVlST0FkWlJVdjdNc1BEVnBtZklSUWNaOXk5NEVIT2NwdEc2eGhkUVFKSDJHS3Z1WmNXbDBmS3FRM1JtMFhJRFRva005c0hPYmNQbkUyMU9KblFaN2tzOTJTMXljT3VvUkVsOXB4OUFIcVN6UEdfeDFBNmhNQTFPSHFRalZwY1lRU25DNWVFVVpHV05i?oc=5",
-        "title": "Dron ćwiczebny spadł na posesję. To maszyna polskiego wojskowego instytutu",
-        "official": false,
-        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112."
-      },
-      {
-        "at": "2026-10-20T19:35:00.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "RMF24",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWUxPOVpTZml0YUJrVjFJNGRpdXpvRzRRaE5HZ2lIRDR6QzJmcmRKSHFPMTkzYkh4UE9QWkZwR213RkFwLXJvODczcHppOENwTDZNVGRYRFBubTBYQURxbk81MTFPbWNqVFgySnFZNXkyZUJ5RE9BVGNubWh1RGhvT0h1UDlPVUNCTG1lZF9sQS1ZaXpLVDEtaUxEWm5JWHVld2RKM3h0b3hVM1k?oc=5",
-        "title": "Alert RCB dla Podkarpacia i Lubelszczyzny - piąty od rana",
-        "official": false,
-        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady."
-      },
-      {
-        "at": "2026-10-20T19:35:00.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "RMF24",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPS1BVLXpyaERnTzZNT2MyMFFUOC1BemVPRlVscWN1dS1mVFZOakN0V3pqajNoLUZ3bWxTYkxyR1JJZUtlN3IzM1VtMkpKbjluS0UzRll4dkJkLUdySVhSWllVLVBPUndZeURxUDEyZ3NxX05uNmlTSGRDWkFVSmxhSmx5YlFac3lLUUZ5M2lrLXRPenFLMTNaZ000d05NanRrclg1YXFSVkVDMGk2YVg1NkFB?oc=5",
-        "title": "Alert RCB dla Podkarpacia i Lubelszczyzny. „Operuje polskie lotnictwo”",
-        "official": false,
-        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady."
-      },
-      {
-        "at": "2026-10-20T19:22:13.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Wiadomości Onet",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcW0wckxiX3NUd2tIVEFySXZyRGJGNVczU3lpNnNicldsa2ZpbUsxWmhsc3Z5anltdXVwZlhzZ1ppaFdqWUNVRDlnUG9JYWNRd0I0cF9PX0xOcFZtOU13S05VbllaOWtXb2xFQllIWXlRcnBTRzV3YnUtR21xblBxamxUd3RaUWx5cmxQY1o1cUdaTUZjVUo0UU1nSVlUVkxlbS1LSlRoRFh3eWs?oc=5",
-        "title": "Piąty alert RCB jednego dnia. Polskie myśliwce poderwane w powietrze",
-        "official": false,
-        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady."
       }
     ],
-    "updatedAt": "2026-10-21T07:31:58.749Z"
+    "updatedAt": "2026-10-21T08:21:44.737Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-21T08:19:43.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "سانا",
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1IbFdZTWluR2VIZEhVNjNlRU5oM2R6RHFpWDZZd0hrc3hidmNvWUo0cUpqNlBOY21EMTNhYU9mWmRRbnFCUWQzMW1oQnNGdmdvMEpF?oc=5",
+        "title": "UAE thwarts 750,000 cyberattack attempts targeting vital sectors",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
+      {
+        "at": "2026-10-21T07:48:26.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "UNITED24 Media",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQdXNIRXFrS1VHby1OcDc1RmZCZmJheHVKMnRWVzdZSVV2d1lXMUtyaFQ2OTR4RmRWU1pUcFFobElFd2NjN2xIVVgtZ2NuWGlTV29kU3NsWWlSNDVYZEhYeDFMNWNfQUpRQzZzSHJiSG5scC1PZ0VKQTVTU1l5eFkyN2puUGFRRkRObG1xYzJoUVAxRlF5VzZPVTMwZXpRd1Z0cE9aNjVSeVVmOTBQZjBFbG1aR00tM2JpYzdvb2FFc1FYeVFueUpkWTk3NGs4VXZVenc?oc=5",
+        "title": "US Restores Ballistic-Missile Warnings to Ukraine as Russia Hits Kyiv High-Rise, Killing 2",
+        "official": false,
+        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+      },
+      {
+        "at": "2026-10-21T06:36:52.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Ada Derana",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1QM3VSQll2eFZQQkxaRzV1azRHckYyc0QwX2pGcnVPUHBhNEx4T2c0MmJWOFp5NUxxel9ZZ2tPV2pkVC1BX0lR?oc=5",
+        "title": "Advisory issued for severe lightning",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
       {
         "at": "2026-10-21T06:09:51.000Z",
         "cat": "cyber",
@@ -228,6 +258,16 @@
         "title": "Google Blames Power Outage For Widespread Cloud Disruption",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
+      {
+        "at": "2026-10-21T05:39:04.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Arabian Business",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeGVzSjhrbUhOTTctX0ViTkJTRnFEZnkwNTJQR3gySTJRQlk3aXNwenJ2Qk1DejVYcF84dmF4WDFPd2xKRzEwazEtOEdOb05OOFhJaXZQVTd3R2lDRHdGbTgtM1JSSEMxeFN5OTlLc0tLNE55MHlHRDZNU3lOVFBDaTJwQQ?oc=5",
+        "title": "Iran war live: Netanyahu pushing for major new offensive",
+        "official": false,
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       },
       {
         "at": "2026-10-21T05:02:39.000Z",
@@ -368,48 +408,8 @@
         "title": "US-Israel-Iran War Latest Live News: Saudi Coalition Destroys Houthi Missile Launcher After Riyadh Attack as Tanker Carrying Over 2 Million Barrels Reportedly Hits Naval Mine in Strait of Hormuz",
         "official": false,
         "forYou": "The threat has passed. Check your home and restock anything you used."
-      },
-      {
-        "at": "2026-10-20T18:40:12.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "Tech Xplore",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMG1PdU12eV9qMmhRZG4yZlFqUlRxQS1taUNNRzJwM1NmSHVmcGZxQi1aQ1dlYkZDa0lXYTlXWVMyRndsWU5pQklTNGl3ZHJ6ZnFaMFVtNEJ4WmNONmU0R2d3Y0RtamY3Vjk3ekpoVWFvNFBxdnhWLV90LUdHUGRERV9XcVZyVkpEYk1Beko1cw?oc=5",
-        "title": "Discovery of cross-domain cyberattack risk targeting electric vehicle charging navigation systems",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-20T18:04:54.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Ada Derana",
-        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBfUGJnbWFaaFFtSm9iTHFEdGJiSG5LZWR5MmxxLTNOUU1XWXoxRjdFRXZRZWJJQkVwYm9YM25mODhxQjRubXhZ?oc=5",
-        "title": "Ex-Minister G.L. Peiris arrives at Bribery Commission",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-20T18:00:16.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "OFFGRID Survival",
-        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5XYXdoN3Zyb0ZVcHNDeVhZTWNXN2ZKenhDaFZBTzB0eGpMRWQ4bTBocUd5LVo4bXdqN1kzRFBROXc3UnBkZFR0ZXpxdzZmc08yby15WUNCd01TUWExVlNmNGVhM05wQjQ?oc=5",
-        "title": "American Households Crushed: Housing Freezes, Car Loans Go Bad, and Electric Bills Keep Climbing",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-20T17:54:46.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Ada Derana",
-        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBuVkRrV2czTi02OVlkYnFsN1lpY0JnbVhxYXB5OUY0S0Y4dDc2azBqWTdfSDBoNEgtdTZ1RHhjWlFyVWo1cXNF?oc=5",
-        "title": "Tourist arrivals in October near 100,000",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       }
     ],
-    "updatedAt": "2026-10-21T07:33:51.345Z"
+    "updatedAt": "2026-10-21T08:23:59.570Z"
   }
 }
