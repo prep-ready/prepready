@@ -4,6 +4,26 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-10-21T06:47:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Niezależna",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOd1B2dkhrdUU0bnlXNVUxelZnU2dOczgzb0JoaWtLajN0NHo3X29PZWpOTUQ4RVNiWnBGLWlQMTIzZzJKeEZydEVYNklsSXE2NnZIaTY0c0RWaVNFV3FBRmhhQXY3QWZlbmk3Vm1nNVktREZ3bkt6d1dkM3NJX2NNd0lwWS1aWkZseW52cUFWMXQ1WlM4dUZFUVlpSmtkdzdJVDhtNFhB?oc=5",
+        "title": "Dron spadł na prywatną posesję. Wojskowi stracili łączność z maszyną",
+        "official": false,
+        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112."
+      },
+      {
+        "at": "2026-10-21T06:27:42.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "naTemat.pl",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQekk5dGJyUHNieVZDRFFobFNRY0hRZzdnRVlwU0VGUXlaSHZpYl9WNmdxN2ktTWxRbzcxSGZPV19USmtpZ1BBUEhHU0x2STBfRTlELS1VT2dZYnJDWDVhNGdmQTJReTBGUlpuR3RXU0puczhFazRSc1RqamgtN3lUeUxzOHRITmduTW1XNW1QS196dnFQV2daMVI5S1I3ZlNyc1Jz?oc=5",
+        "title": "Dron spadł pod Warszawą. Tym razem winna nie jest Rosja, tylko polskie wojsko",
+        "official": false,
+        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112."
+      },
+      {
         "at": "2026-10-21T06:06:20.000Z",
         "cat": "safety",
         "sev": 2,
@@ -182,29 +202,9 @@
         "title": "Piąty alert RCB jednego dnia. Polskie myśliwce poderwane w powietrze",
         "official": false,
         "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady."
-      },
-      {
-        "at": "2026-10-20T19:22:07.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Polskie Radio 24",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPWlBNcnNQb0I4SHBKbGNYVjVxMHI1ellHMDF5aHZEeDczOENpaVlCMGZxcjF2bjRyc2lsRTY2NU8zaWFvY25tQ0xfbkMwZE5iUGdfUWFMY3hYY0VVU3RsNVh4Q0lBbkdwSlpUM2kxU2lTVmx6UGg0aGdKMmpVYmxVeDB4b1NJdW13YjlKOEl1V3lTelBkVmxWQ3Rodl85b3lCQk83VDhVdmxBUHM1U2c?oc=5",
-        "title": "Alert RCB odwołany. Nowy komunikat dla Lubelszczyzny i Podkarpacia",
-        "official": false,
-        "forYou": "Zagrożenie minęło. Sprawdź, czy w domu wszystko jest w porządku, i uzupełnij to, czego użyłeś z zapasu."
-      },
-      {
-        "at": "2026-10-20T19:17:06.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "TVN24",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOakZUSUhwekhHYjlTVDR2UmVYTTJoNHNoa19BdUZabGxLVzFEaWFhNnA4MW1pdGFXcmtHNXY2T096Qi1OWW9pUnpzc0ZJZGdwQ3Z5NndhNGNRMWNsaDA4dnp1YkJjdGtXMUtqU09LVGdhTEZObUxCS3ZXZHQ0SGhoRDV1eDNHLVNZSlFrTGlPUQ?oc=5",
-        "title": "Rosja atakuje Ukrainę. Alert RCB dla dwóch województw",
-        "official": false,
-        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady."
       }
     ],
-    "updatedAt": "2026-10-21T06:16:55.186Z"
+    "updatedAt": "2026-10-21T07:31:58.749Z"
   },
   "en": {
     "sample": false,
@@ -410,6 +410,6 @@
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       }
     ],
-    "updatedAt": "2026-10-21T06:18:20.658Z"
+    "updatedAt": "2026-10-21T07:33:51.345Z"
   }
 }
