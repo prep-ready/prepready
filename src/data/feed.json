@@ -4,12 +4,12 @@
     "sample": false,
     "items": [
       {
-        "at": "2026-10-21T19:16:43.000Z",
+        "at": "2026-10-21T19:25:00.000Z",
         "cat": "safety",
-        "sev": 3,
-        "source": "TVN24",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZ1R5cDNJa0JQeVU1MXZXVUZrSmxxaTRBaW94aTF1YUx0VnJ5WHg5eFlXNGw3eHROMzhOZks1WXFjR3hTMmFWUXIyQ3ZTTE5qSFkyNXhtSjJ3S1FBZE05ZUdYMzhoa3R2VkMzbHRaUjk5TGpWOFBpYm1VZnZiaXNCMzJFMDBDTDVwTzBfZndESUhmV3lVVGtFNVctNUN4VkdkVUlvd0tXRE9OZk8w?oc=5",
-        "title": "Alert RCB dla województwa lubelskiego. W związku z atakiem Rosji na Ukrainę",
+        "sev": 2,
+        "source": "RMF24",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRFA5Nk51bGJOc3hYOUcwbzk2SXF0NUNJV2NsRVJidWVpdEJmQzFCUDBvN0lBMDlNUXVkdk9MOGJqTjlndnVVSlFtanNweXFDWGMybFVaZzRFU3hjVDhCMG8xMUctU0Q2d1R5akVMQ0ZDeE13emJjOU9MelZxYzZVNkVha0VRdjFfTVd2VVJhd205NFFFM3ZsZ2pxOGlXMXBYWlRaV25tbjk2MzJzaGRxaHlwY1Q?oc=5",
+        "title": "Alert RCB dla mieszkańców Lubelszczyzny. W polskiej przestrzeni operuje lotnictwo",
         "official": false,
         "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
         "guide": {
@@ -18,12 +18,12 @@
         }
       },
       {
-        "at": "2026-10-21T19:14:52.000Z",
-        "cat": "safety",
+        "at": "2026-10-21T19:19:16.000Z",
+        "cat": "security",
         "sev": 2,
-        "source": "Polskie Radio 24",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSVlZNmtFYnd3MVhNWFgtbTNaVDY1MW5TRy1GalVLNW52VmtFMUtUX0doSWJjTk9HNDd6Q1pidGVSOGc3Z0xPektvWG1aOUs5Z21rVHN3VkJOMlVZLTNyWVp6OXlmRlhEbzRsdGg0Uk1La05PQ1J2R3FyU052ckVLODMxemkwNzhzaEdIMzBWTV95RXVKQk9GM1V2NzYyVXU4Z0d0SmJxN2t6TkcxeV91dGxR?oc=5",
-        "title": "Alert RCB dla Lubelszczyzny. \"Polskie lotnictwo operuje w powietrzu\"",
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdHI5eFREdHQ2alZId2dVaXZhYWdRM2tHeFE2VVhRQWpsTUV6bWNnMEpDS2tsY0FKUkp0MERfRVpwdlNnMVVXSWcwYVE0dVA3U1pvUWs5a3ZjX21BVFM5ZkZweU5QeWt4SE5fUUdwcW5yUm1QRC1DNFRUa29kNkpEUlA5UmYtRlQ0REg1UHVpOUZ1SEVJTl9zaGZ3?oc=5",
+        "title": "Alert RCB na Lubelszczyźnie. Rosja znów atakuje Ukrainę",
         "official": false,
         "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
         "guide": {
@@ -232,7 +232,7 @@
         "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
       }
     ],
-    "updatedAt": "2026-10-21T19:23:24.871Z"
+    "updatedAt": "2026-10-21T20:14:00.006Z"
   },
   "en": {
     "sample": false,
@@ -294,6 +294,16 @@
         "source": "Latin Times",
         "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPa29rYXBaOFo1ZE1MbUhmZzRJMk54Z25IeUhwbVMwcUhiMjU1OGNUV1M2MFEwWUFRejJ0TElSQWdqN2J1cFNOaHlSRkRTdEVKNTRtc0RqcWhrUlBDSG41ckxpcDM2R3FCMUJfQTFNY1lsM3o5aEtmX2czTERRVDlRZG1HUnpWbjVscGZlTGZud0VFYlplNHBUWFVJYUhYRzVhZTNwUGt1N2NjR1VIMi0wZzJwbWpfMFdBNFVnem9UcVU?oc=5",
         "title": "How the Houthi Siege of Taiz Is Pushing Yemen's War to a Brutal New Extreme",
+        "official": false,
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
+      {
+        "at": "2026-10-21T12:10:43.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Arabian Business",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeGVzSjhrbUhOTTctX0ViTkJTRnFEZnkwNTJQR3gySTJRQlk3aXNwenJ2Qk1DejVYcF84dmF4WDFPd2xKRzEwazEtOEdOb05OOFhJaXZQVTd3R2lDRHdGbTgtM1JSSEMxeFN5OTlLc0tLNE55MHlHRDZNU3lOVFBDaTJwQQ?oc=5",
+        "title": "Iran war live: Turkey, Qatar, Pakistan and Indonesia sign defence deal",
         "official": false,
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       },
@@ -426,18 +436,8 @@
         "title": "Iran Repeats Threat To Target Undersea Fiberoptic Cables",
         "official": false,
         "forYou": "Report suspicious activity near railways, power lines or military sites to emergency services. Do not photograph military installations."
-      },
-      {
-        "at": "2026-10-21T03:47:14.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Ada Derana",
-        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBZSlRSTHJxMzl6ek9WcDZnWFFfZzlEbXFBNGpVMERRN2RIQWhabFNzLVJSSFlMQ0NtYmxSeVdOVm1FWV9POElr?oc=5",
-        "title": "Severe traffic congestion in Borella due to damaged sewerage pipeline",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       }
     ],
-    "updatedAt": "2026-10-21T19:25:30.433Z"
+    "updatedAt": "2026-10-21T20:15:17.250Z"
   }
 }
