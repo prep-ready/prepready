@@ -4,6 +4,26 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-10-21T11:08:43.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Portal asta24.pl",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbmo0STV4WWhETk9GSFJ4WXA3SVhGejl0V2J1Z3FsemdhVExmQWptNVNfNGJ3VjJOSWVoY3lYOXBvOTlQeS1la3dtM2FXb0twbGNWS2tNSWJiM0tWenZmeXpJeHBOTmtVc2pLUnJmZkJrVlRrSHZibG9PVXRGNDUxeTJ4cFBjQzc1TmZFYzJoV1A5NnhjT0dkNTFDX3l2eUQ0S2huUDhuYUV4RXZtSWY4?oc=5",
+        "title": "Kilkutonowy człon chińskiej rakiety nad głowami mieszkańców powiatu pilskiego",
+        "official": false,
+        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112."
+      },
+      {
+        "at": "2026-10-21T10:53:05.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Tysol.pl",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObFdHNlljaDRHczV3amc0bjI0ZGRxdUJyZHVIQ2xUVEhsUUZEdmpDQ1FwY0t4RG1fSHZ1OXVIbk9zeVYtQlRaVXd1LWY2QldtY1I2cmpmYVMtMElGS1NFNl81akxuVFpKc0xaN3VON0JqRzJuZW1uaDh6OGYzV3RyTG4yUXVrNkVSUkxHSVQxQ3BkZnRfc0tjUTJNZEE2THY5NVZhS0VB?oc=5",
+        "title": "Polskie wojsko chce odpowiedzi od Ukrainy. Chodzi o incydent z dronem",
+        "official": false,
+        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112."
+      },
+      {
         "at": "2026-10-21T10:06:00.000Z",
         "cat": "security",
         "sev": 2,
@@ -54,6 +74,16 @@
         "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
       },
       {
+        "at": "2026-10-21T08:33:04.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Forsal.pl",
+        "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPTWd2RmstSHVnNEV1ODVTb1FRRHhpb2pFQmlFYzEwSHFBQlp6YzlWR2lHRm1MeDZIN1pqYmNYWXF4bG9pZ2l0anV0TlZROXhrX0R2YWNHMDRHWDlOY2tZRVVnaGowdjhVcF9Na3ZIZ1VfbUJudVlBQ1VSZk5aZGFZRDc1SWVpajc0TXpUMGdjT05KV0dWZHRoT1hPaG5mX3lkTWJKRktnQXFZaFhGME1fR3FPT3dSWFhoVjB1YWFXQUVYT2xLLXUwZ1N2UE1kYWwtUzFsM2hnUi1UVVVlVm5IM1FMak9YRU0yLWNEdEtYZjBUR3pnZjdrcHNGQjdJM3VBcGpPaEhrTzZqa3k2T1dybTFZZk9Na1E?oc=5",
+        "title": "Rząd ma już plan masowej ewakuacji i przygotowuje się na najgorsze. Miliony Polaków mogą dostać sygnał w jednym momencie",
+        "official": false,
+        "forYou": "Słuchaj poleceń służb, weź plecak ewakuacyjny, dokumenty i leki. Nie wracaj, dopóki służby nie odwołają ewakuacji."
+      },
+      {
         "at": "2026-10-21T08:21:46.000Z",
         "cat": "security",
         "sev": 2,
@@ -102,16 +132,6 @@
         "title": "GIS wszedł do sklepów w całej Polsce: 5850 produktów na komary i kleszcze pod lupą. Znamy wyniki kontroli",
         "official": false,
         "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
-      },
-      {
-        "at": "2026-10-21T07:22:51.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Forsal.pl",
-        "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPTWd2RmstSHVnNEV1ODVTb1FRRHhpb2pFQmlFYzEwSHFBQlp6YzlWR2lHRm1MeDZIN1pqYmNYWXF4bG9pZ2l0anV0TlZROXhrX0R2YWNHMDRHWDlOY2tZRVVnaGowdjhVcF9Na3ZIZ1VfbUJudVlBQ1VSZk5aZGFZRDc1SWVpajc0TXpUMGdjT05KV0dWZHRoT1hPaG5mX3lkTWJKRktnQXFZaFhGME1fR3FPT3dSWFhoVjB1YWFXQUVYT2xLLXUwZ1N2UE1kYWwtUzFsM2hnUi1UVVVlVm5IM1FMak9YRU0yLWNEdEtYZjBUR3pnZjdrcHNGQjdJM3VBcGpPaEhrTzZqa3k2T1dybTFZZk9Na1E?oc=5",
-        "title": "Rząd ma już plan masowej ewakuacji i przygotowuje się na najgorsze. Miliony Polaków mogą dostać sygnał w jednym momencie",
-        "official": false,
-        "forYou": "Słuchaj poleceń służb, weź plecak ewakuacyjny, dokumenty i leki. Nie wracaj, dopóki służby nie odwołają ewakuacji."
       },
       {
         "at": "2026-10-21T06:47:00.000Z",
@@ -182,33 +202,33 @@
         "title": "Rosyjski atak na Ukrainę. Polska poderwała myśliwce",
         "official": false,
         "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112."
-      },
-      {
-        "at": "2026-10-21T03:13:41.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "Polskie Radio 24",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQXhxbWhubzdsLTlhcW9TZk1qN0NTbXJONFFFekQ5Nk43QkZoMU5DUFliRDUzeFoxNE9IRjVKcTZMT0NQS0MtZEhFVDdhaW9NMU9fZVh1bjlFcHRrRlczRlg3a1I1NTlUa3hVMlN2MHBhZlZsVVZwWEF5N2t2UTBUX25FWmxmTDRBTk9fS2VTTzZqX0Z4Y1hNNlQzUW5xT3NfNnY0T2V4OTRfd3o0REE?oc=5",
-        "title": "Nocny alert RCB po ataku Rosji na Ukrainę. Polskie myśliwce patrolowały teren",
-        "official": false,
-        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady."
-      },
-      {
-        "at": "2026-10-21T03:01:15.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "WP Wiadomości",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVmhSdXpuUmJETFVkek00eE1HMjRUSWIyRE5Jd3MzM3NNM1hiQ3doNkVPLVJVak5wWWV3V1daOUhBRFJCTUlCemZpanY2RmwxV2JSdnJtcTFwQjJBVFVmc2pvdUlpTVhOUkw5S2JSY0JtYW04UFFzNEV4ckQ4ZG5WY0YtYWRqZGpqcVpxTHdlRFl3VG1sOHdNWjloZllSYUoyQk9z?oc=5",
-        "title": "Działo się w nocy. Nocny alert RCB, spór o UPA i decyzja USA",
-        "official": false,
-        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady."
       }
     ],
-    "updatedAt": "2026-10-21T10:19:54.742Z"
+    "updatedAt": "2026-10-21T11:17:02.273Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-21T11:00:00.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Infosecurity Magazine",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE81bkNYdXRUMnIwQ0VEbzFTOUJlSTNmeUlzZlB5b0NzMC1oeFMtRzBLSUZWbWtGRENkU0dGRkUwbXNZN1lXM0IyZU5JdUU4QkJIRUE1TC05bl9xS2ZVUWpQdmk1TWpaUWJoVjhFY3FYMHFueFhlSm8yd09SaWk?oc=5",
+        "title": "SafePay Has Compromised 600 Critical Infrastructure Victims Worldwide, CISA Warns",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
+      {
+        "at": "2026-10-21T10:48:27.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "TaiyangNews",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPUk5CWl9jQmhIX3QwRl83MEFjQVNqV1VhT1dreC0wVkJybHpoRVlZSV9NbEFBeEhNWkJ3U0l6Z2RrVlh5bWRHeTJ0dkM5WWY0dlcxR2NuMUQwalVDWlk5aFpuLVNvY2lOeDV4VDZhclRQa0QwMGE2VGtZUkxsRlhOY0p3VmlSdWhNNWxn?oc=5",
+        "title": "Sri Lanka Blackout Highlights Need For Flexibility",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
       {
         "at": "2026-10-21T10:00:00.000Z",
         "cat": "cyber",
@@ -388,28 +408,8 @@
         "title": "Police Probe Possible Sabotage Behind Batam-Bintan Blackout",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-20T23:57:13.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "WSAU",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOR0xVWXJ0YmRQZ3dkaXZENTZKaGtjbURWN2x1MjB0amRmeDhkWmFiUnJFbXdrVlotRnJqcGZ6cTl4eDhxc3dLdU9NemtOQU8xa3dGLXpwNEhJelBsdmM2Zy1tczdhVEh1U2VqU0RSZUM5Z0Y2NmJIVHdkZEN3bHNUSDVPanMtN3Z2R1ZsenBkWUZWcDVNLWd0a3F3SkU3VXgyMko4?oc=5",
-        "title": "SafePay ransomware group has targeted hundreds this year, US agencies say",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-20T22:08:04.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "Howl.link",
-        "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE1ZWDdfSmFLblU4aUJzbVlrSFpzUkp5Z3Z1YnJhTkRpWFVpaWpLa013Zy1YcGx0eEFsQklJ?oc=5",
-        "title": "Ahold Delhaize Cyberattack Disrupts Services Across the US and Europe · cyber.hendryadrian.com",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
       }
     ],
-    "updatedAt": "2026-10-21T10:21:33.966Z"
+    "updatedAt": "2026-10-21T11:18:48.678Z"
   }
 }
