@@ -4,6 +4,34 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-10-21T16:40:05.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Portal Samorządowy",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWXhxZ2w5bUZzc3kycnNrX2dHOUZuX1lQUEJvYW5rRWZrdmpyb0pvOWc3UU5jS3dYNF9JMGJJY1Fwel9RSFZrRVFnWmlZcFFjeTJ1VjdkcVllRUp3WERhajhtbFJvSHY0SndRWjU4OUJadDRKZmF1cXIyaEU0N08ydHIwMzlHal9sX29sV2ZQYkEzLUI5QVRMbXBkUnhvUTVEWWpqdFFDcWJxTl9uZVhOZ0JPbXREWDNieDVJbmNhRQ?oc=5",
+        "title": "Alert RCB na Wschodzie Polski. Wojsko włącza pełną gotowość",
+        "official": false,
+        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
+        "guide": {
+          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
+          "label": "Alert RCB i aplikacja RSO"
+        }
+      },
+      {
+        "at": "2026-10-21T16:27:01.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Polskie Radio 24",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMnNBWUw3MXN6TEt5aU9OSnRkM3dMYXFtWWFGLWJndUVZZjFyNEhtWGY3VjRYUUVOb2FueDU0d0ZFX2QyUWsyTTBoV1hka3pNbS10dTc1SkRYdlNUYk5hRzZrbGJBcVFGaXI3aFJnMjhzYXlvZEV6akVVbkE3WUUyb0FFUENLZWNYc1NJY1ZfTFpERzJfNVc2eGljWXN0SVcta0tZ?oc=5",
+        "title": "Alert RCB dla Podkarpacia. \"W przestrzeni RP operuje polskie lotnictwo\"",
+        "official": false,
+        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
+        "guide": {
+          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
+          "label": "Alert RCB i aplikacja RSO"
+        }
+      },
+      {
         "at": "2026-10-21T13:27:00.000Z",
         "cat": "security",
         "sev": 2,
@@ -184,11 +212,21 @@
         "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
       }
     ],
-    "updatedAt": "2026-10-21T16:19:11.558Z"
+    "updatedAt": "2026-10-21T17:18:31.532Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-21T16:40:31.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "SOCRadar",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdy1zeUtQdDNNd21TVUlIeFRCUElfZ3pxWWcwU2JtVUNLdEd0RTVsMkx1UndLUXIxZjBJaUtnb3hBQlhZdTFYc0E5LW1XYlRqRG1TYXZ6Q1Y5NGl2M1BFTVhkX0hfanVFOGFvLVV1NExZbmZTWGl0OUJRSTdRbEJGaU5jUnhZWDFoUXFFTERHdU5Ub29JbjVISw?oc=5",
+        "title": "TheHomeMag NorCal Ransomware Attack by N0n",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
       {
         "at": "2026-10-21T15:35:47.000Z",
         "cat": "cyber",
@@ -378,18 +416,8 @@
         "title": "Real Madrid seek Super League setup payments from Premier League six",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-21T02:28:26.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "Inventiva",
-        "url": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxPUU1FODByazdOWXp3OUp6SUhBZ2V3ZGJIdUxId0dyZXcwXzRvYVNKZ2RJd1NUMkdEaFdCNk5rR2MxSUE2dmtFenBPQ3Nra21zbDk5eFY4WGlOY1RWMmdNME1MNTZIYXl0dzJMQk1RR0poai1WWTYweVhrWkp5UUJPRVFsWU1MbU9taUo0WFNveTZXRExRNzlyVndnTEd1YUg5NHI1aWt0R2diNEhac0xuTC1Td0RrSWVpTHY1TVFCLWlnbXdGcGlGSjc1UmZvOGNhQkJQU2F0Z2REQXNGb2YyUFpQTFZpWjl0Z2cwaVRaQl9NbkpnMnNxRklCMmZqR0p2YUkxZjhTR2dYdmZ0VG4taEVaWXdqREJkdFNlOV93c1hzZEx6UkZPZnk0Y2tMS19wSFpuTF9SY3JwR0FIUEdDdFN3eXh2aVhDb21MUVZrWmRsOTg?oc=5",
-        "title": "Cyberattack Hits Hundreds of French Supermarkets, Overheating Fridges and Sparking Fires. Could The Next Cyberattack Disrupt An Entire Supply Chain, From Phones To Traffic Lights And Hospital Equipment?",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
       }
     ],
-    "updatedAt": "2026-10-21T16:20:36.502Z"
+    "updatedAt": "2026-10-21T17:20:42.107Z"
   }
 }
