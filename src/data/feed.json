@@ -4,54 +4,28 @@
     "sample": false,
     "items": [
       {
-        "at": "2026-10-21T12:57:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Portal Obronny",
-        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQMVZCMS15bWtvZ0ExRTAyRm5FbDYwMk1wMXF3Vk95dVE5YkMtUFhPbVFlZ3piVjdjWUh6OWhYR0VnRHVrYnFodXVhMm0xQ3c1RjBBX0EtWV9ORjF1S1BEWEpRTkRHQTlNTzJUWTZrZTEwYktqckRsQnN3OFhoeEhLblhhYUdjb2FVcDZhbXhFbkFHTEdyc0huQ3ZqX1pIdzI2alAxOWc1VjhhdGhFOTZsbU5wRkxkdlRhTnhldGstV0RwcENmb0VQXzZneFFqZ0dJblhHeHhZcXEwOFdFRkE?oc=5",
-        "title": "Polskie wojsko pyta Ukrainę o drona. Czy naruszył polską przestrzeń powietrzną?",
-        "official": false,
-        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112."
-      },
-      {
-        "at": "2026-10-21T12:41:21.000Z",
+        "at": "2026-10-21T14:00:23.000Z",
         "cat": "security",
         "sev": 2,
         "source": "Wiadomości Onet",
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSE1ObDR1emNmUGdJSDFFWk5PUWFRQkF2cXRub1pqMEF0RElka2c1aGNzTXpEa2JqMXNPOUhCUFE1R2FkdE1RZnF6VjBZQVBaTl85NTVtWlc5QlhjMjlVTWwxR0NiZ2pvSXFtbXVrWEtVNDR2eHlQcHY0U3JOX1hjbHFHNkdOb0pMZmZXZVk3bzBNMm5sR1RDdmExUy1tb0liNXFKZkVJTEtVUGZv?oc=5",
-        "title": "Niezidentyfikowany obiekt spadł na Podkarpaciu. Mieszkańcy ewakuowani",
+        "title": "Akcja służb na Podkarpaciu. W Lubaczowie spadł obiekt przypominający drona",
         "official": false,
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112.",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
       },
       {
-        "at": "2026-10-21T11:08:43.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Portal asta24.pl",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbmo0STV4WWhETk9GSFJ4WXA3SVhGejl0V2J1Z3FsemdhVExmQWptNVNfNGJ3VjJOSWVoY3lYOXBvOTlQeS1la3dtM2FXb0twbGNWS2tNSWJiM0tWenZmeXpJeHBOTmtVc2pLUnJmZkJrVlRrSHZibG9PVXRGNDUxeTJ4cFBjQzc1TmZFYzJoV1A5NnhjT0dkNTFDX3l2eUQ0S2huUDhuYUV4RXZtSWY4?oc=5",
-        "title": "Kilkutonowy człon chińskiej rakiety nad głowami mieszkańców powiatu pilskiego",
+        "at": "2026-10-21T10:34:00.000Z",
+        "cat": "health",
+        "sev": 1,
+        "source": "RMF24",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOX3dvT1ktTkxGNEVEU3lidkswMkNPWEZaMTJnMzhDdVcyRnV6UVN2cERWNHZCS3ZLdkVnZ3pjMGlJVzBOaHpLXzZRNEtBdlExOXI0V1FGcDNEckl0dEJKbVFNbzlrUVNxVmtJelFhRnFTeVdWOVVLZHB0cWNLUnVmVmp5TG1hNHQ0MXZZZjd6emNIejNzWDNxRVg5OUtNZlhpb01rM0E1U3lDOHNtR09Ld2J6UmVRcEE?oc=5",
+        "title": "Sanepid: „Nie stwierdzono obecności bakterii chorobotwórczych dla człowieka w sanatorium w Dąbkach”",
         "official": false,
-        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112."
-      },
-      {
-        "at": "2026-10-21T10:53:05.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Tysol.pl",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObFdHNlljaDRHczV3amc0bjI0ZGRxdUJyZHVIQ2xUVEhsUUZEdmpDQ1FwY0t4RG1fSHZ1OXVIbk9zeVYtQlRaVXd1LWY2QldtY1I2cmpmYVMtMElGS1NFNl81akxuVFpKc0xaN3VON0JqRzJuZW1uaDh6OGYzV3RyTG4yUXVrNkVSUkxHSVQxQ3BkZnRfc0tjUTJNZEE2THY5NVZhS0VB?oc=5",
-        "title": "Polskie wojsko chce odpowiedzi od Ukrainy. Chodzi o incydent z dronem",
-        "official": false,
-        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112."
-      },
-      {
-        "at": "2026-10-21T10:06:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Do Rzeczy",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQaTdJNnlJVnJmQWJKWTVXNkNfVlVQMUlzWFdSVExvczhiX051MEpOUDN1VERPTWc4MnFaN3FjNXBNTU9pOVNMaVhOYUtKSURfMkxYZzJzTUJPMVJUY2ZPb3ZPVjk0bmhZdkhjQklpZnVNZjlNUWVlWi1aVkRZMjB4Zl9maEpKblZzWGtCQl9xWFJHQ2J6d3BGcUQwc2JsS0nSAZ4BQVVfeXFMTzlnWVdzbm9KX3RHYzd4VDFqNUpLMlBjbnNSN2lsc1dvTkJDaGVRQlhfSEthUHVPcTVRbmVlU2VUSnlYS3hpZHhKMTktMzMzT1pWWjNuSFhjQWd1TzZtb25pSjRVRFZ6SWhxRzJuelJXTXk4NlVnUUdjQ0FLMlFYYXo0Wkdaelg3a1hOckI5bW85VVlBOHpEMG9oM1psc2c?oc=5",
-        "title": "Ukraina wykorzystała polską przestrzeń? Polska wysłała pytania",
-        "official": false,
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+        "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
       },
       {
         "at": "2026-10-21T09:39:58.000Z",
@@ -61,17 +35,11 @@
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNl9IWk5oZ1BoajFGbGFpN2JuUnNjMG1COXJZRGluS1BjZlFkOEdpbVZYSW5feC1oZWhZbFp2dWo5UWRLMVAzY3NTZmRkaU8wWmtTcUR3c2o1cTFldXEybnJ0NVBoZ3FFbDdfdXlxNFRvajVKckNBZVF6R0RkbFNhTG9XaUxzZ3BQMkZyMVdTSUtBd0ozRldkMmhlVFBNSDB3VDdNakN3?oc=5",
         "title": "Polskie wojsko wysłało pismo do Ukrainy. Pyta o drona z Litwy",
         "official": false,
-        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112."
-      },
-      {
-        "at": "2026-10-21T09:25:55.000Z",
-        "cat": "health",
-        "sev": 1,
-        "source": "Konińskie Centrum Kultury",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQ1hNZXdQblozOWJXZXk0Y3lmNHpuMUw3SE1kNUw3NWttVWZiTWkzeVd5b1REeUxOcTBkRzhJQ3lnUjlfaXZTOXdqQjk1bG5wQXlxWE81bGwtYUNtbFJpNFZ1bWV4SkFGVUZXOVZKN2otc0V4aC1ENjRUN1hoWDhRTEdZOUVPYS1lNU1lYURSa2dSSDFmZWNYNWhyamFJbEhjMVBDd0RWbFRKZWtG?oc=5",
-        "title": "Kwintet Gis. Muzyka kameralna w „Zemełce” nie po raz ostatni",
-        "official": false,
-        "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
+        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112.",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
       },
       {
         "at": "2026-10-21T09:24:14.000Z",
@@ -81,27 +49,11 @@
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbllTZnd0M0xGRkQ5eHl2clo2RzVkZE5FeFJFR3RIemtrRGlWRWkzdkVyRlpIWjhXZDdhV3Z1aGVfdk9DR0xzdVEwYnRraHVocEdNVzA0czNDTE1UMUVfTHhYaEI5U3VNdi1IRUFmcTY2MzhFbnlfQkk5c0tiRUlMM0NHTkpLZVJ5MG41T0RVMy1kTDZZaE83X1FUYzlOenVDWVJuOFJsTEo2aTVr?oc=5",
         "title": "Polska chce wyjaśnień od Ukrainy. Sprawa dotyczy zagadkowego drona",
         "official": false,
-        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112."
-      },
-      {
-        "at": "2026-10-21T08:47:57.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Forsal.pl",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOTGZMNVh1VURuU213bXo1cVNfTTFBaXd1U0JGMFQtMzFsWmJoUUlzN19QT2gyanctWUZuUGRXQUZIam95dGJFV3JYRlFjR2ljVWdaTElnZlM3Vmd1NzlIZGd5MmkwRFVPQXFFVVViZ19WcS1KVXhDMUpFM3NsbHJDZU54d28weDhHMUxiRDJJQlBMRnEyNk5wLXd1eEVwb3hlRnZfXy1KSEhBYnFkakszdHFhQWJVVVNvcGVkMktoN0U3dTNsQl9hbThVLWVWcDg?oc=5",
-        "title": "Stalowe kolosy przypłynęły do Polski. Wojsko spełnia część wielkiego planu",
-        "official": false,
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-10-21T08:33:04.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Forsal.pl",
-        "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPTWd2RmstSHVnNEV1ODVTb1FRRHhpb2pFQmlFYzEwSHFBQlp6YzlWR2lHRm1MeDZIN1pqYmNYWXF4bG9pZ2l0anV0TlZROXhrX0R2YWNHMDRHWDlOY2tZRVVnaGowdjhVcF9Na3ZIZ1VfbUJudVlBQ1VSZk5aZGFZRDc1SWVpajc0TXpUMGdjT05KV0dWZHRoT1hPaG5mX3lkTWJKRktnQXFZaFhGME1fR3FPT3dSWFhoVjB1YWFXQUVYT2xLLXUwZ1N2UE1kYWwtUzFsM2hnUi1UVVVlVm5IM1FMak9YRU0yLWNEdEtYZjBUR3pnZjdrcHNGQjdJM3VBcGpPaEhrTzZqa3k2T1dybTFZZk9Na1E?oc=5",
-        "title": "Rząd ma już plan masowej ewakuacji i przygotowuje się na najgorsze. Miliony Polaków mogą dostać sygnał w jednym momencie",
-        "official": false,
-        "forYou": "Słuchaj poleceń służb, weź plecak ewakuacyjny, dokumenty i leki. Nie wracaj, dopóki służby nie odwołają ewakuacji."
+        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112.",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
       },
       {
         "at": "2026-10-21T08:21:46.000Z",
@@ -111,27 +63,11 @@
         "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUm9WMXg4bTRZQVVaLVE4OHM5aG9GNjcwRmYxX1ZNQ19GUlpJXzlZT1JVYkR0bG5OdUFNTHQ5aHZTVTRRMzI3VlZ5cEw3Q2NVeGNyVkVXTXJlVnRBTi0xaUcwVVE0aVYwaW1WWXVJM0ttLWRWYjQ4emJDRFdBcjI1TjRhUDFTblRGb0NHQ1hxR00yN05JeFVMQURJNA?oc=5",
         "title": "Polski wojskowy dron ćwiczebny spadł niedaleko Warszawy",
         "official": false,
-        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112."
-      },
-      {
-        "at": "2026-10-21T08:09:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "RMF24",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOHBXWTR1cFZQTGhORDhvXzBhS2RMeXRPc0NmOTVOalpKXy1WbjVnMTJQSC1QZDlXOVlhQlZzYUJCS2dDTVg1Nm9VaHpxTGxDUzhJWS1UQk9VamlWUHNYZHdpQ3FzQmRucFBjbG5Tak9TaG1GT1FOSG85XzNpX2pqczNvQkxndnJZVnNmdnJwV3FyRGp2a1J1X3k5NzVlY1F0SHl0MW5lSmFaTlFXMmJJNEpR?oc=5",
-        "title": "Polskie wojsko wysłało pismo do Ukraińców. Chodzi o incydent z dronem na Litwie",
-        "official": false,
-        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112."
-      },
-      {
-        "at": "2026-10-21T07:52:47.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Portal Obronny",
-        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQRTg3REdKU0ZUS1phZDNFRENBTzF3SlRRc2pyWmg3LTlYYU9wSTVqdllxQ3NlQkdxN3kydlptX3ZqcXdlRUVqTjB1V3FRU0FVTnlGY0tSMDBvTFpSQ3R1UHpXbWlXZHozZGxjRGN1b3k0NXV6d2w3T3R3LXJEQmE5cDlqNVBieUQ4QW5yRTZVNldqWVpPN05kekwzU21nbEw4NkFpT3ZEc3kzOWFxZDMzTXBFUTRQS1A3eDhHS2lQUlY1cnhudFJyYkw0bmFESjM3TDJfLVM0ejl2YTg?oc=5",
-        "title": "Nowe rakiety dla Homarów-K. Wojsko Polskie dostaje broń o zasięgu 290 km",
-        "official": false,
-        "forYou": "Informacja o modernizacji armii. Nie wymaga działań z Twojej strony."
+        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112.",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
       },
       {
         "at": "2026-10-21T07:43:40.000Z",
@@ -141,37 +77,11 @@
         "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZkpPLThNN0trWHV6cU1TNXk1YU1DNWhUZ1VVcXlMdnZ4QUNaX0FtQzNFajlCa2JRS1MyUlJGdGFkUGN1RmxGSlF2Qy15RGI3MGo3TkFfYlh6MVJHTVpzOGVhNWFKMEVJRWdFeGg4SVRrcllUcmYwbl9TbWNLcUxiMko0ZEM5dGtnc0dGREY3RzR0UFFRcGFBUUwwYXJGUEJ0aVltdXFCekM5U3hTUmpycjllRzM5QQ?oc=5",
         "title": "Dron spadł na prywatną posesję pod Warszawą. Policja ustaliła jego pochodzenie",
         "official": false,
-        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112."
-      },
-      {
-        "at": "2026-10-21T07:31:00.000Z",
-        "cat": "health",
-        "sev": 1,
-        "source": "Rynek Zdrowia",
-        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPUjFlQlJvSWhEUk5PZ252b2pfOEFMRjQyRjV6blMyY1J6UTd6aGY4RjF4SS13UTFnZTZVU0FSQXpBOWY0a2VfbXFIdUQ3bGhKVUp6LS1fRnVEbE5ydTFDSjBQcUNJQVpTc0tqNFBrLXZjVzdWeW1FcElZLTl4VF9JU0g0bTFYVHBnTm1NTDdFY2RoOEdUUUNKc1RjRnYyVDhRN050Yk9JOXNjWFpEQjJvdDZMa3RTWExRVXprSWdGM2Rwc0RuOUl3QzJFTmZDRFVZSDFWWTNIT3VQR0ZZX1JLT3hTR2tHQXRLa1h6VHZHZTlvc2s?oc=5",
-        "title": "GIS wszedł do sklepów w całej Polsce: 5850 produktów na komary i kleszcze pod lupą. Znamy wyniki kontroli",
-        "official": false,
-        "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
-      },
-      {
-        "at": "2026-10-21T06:47:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Niezależna",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOd1B2dkhrdUU0bnlXNVUxelZnU2dOczgzb0JoaWtLajN0NHo3X29PZWpOTUQ4RVNiWnBGLWlQMTIzZzJKeEZydEVYNklsSXE2NnZIaTY0c0RWaVNFV3FBRmhhQXY3QWZlbmk3Vm1nNVktREZ3bkt6d1dkM3NJX2NNd0lwWS1aWkZseW52cUFWMXQ1WlM4dUZFUVlpSmtkdzdJVDhtNFhB?oc=5",
-        "title": "Dron spadł na prywatną posesję. Wojskowi stracili łączność z maszyną",
-        "official": false,
-        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112."
-      },
-      {
-        "at": "2026-10-21T06:27:42.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "naTemat.pl",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQekk5dGJyUHNieVZDRFFobFNRY0hRZzdnRVlwU0VGUXlaSHZpYl9WNmdxN2ktTWxRbzcxSGZPV19USmtpZ1BBUEhHU0x2STBfRTlELS1VT2dZYnJDWDVhNGdmQTJReTBGUlpuR3RXU0puczhFazRSc1RqamgtN3lUeUxzOHRITmduTW1XNW1QS196dnFQV2daMVI5S1I3ZlNyc1Jz?oc=5",
-        "title": "Dron spadł pod Warszawą. Tym razem winna nie jest Rosja, tylko polskie wojsko",
-        "official": false,
-        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112."
+        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112.",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
       },
       {
         "at": "2026-10-21T06:06:20.000Z",
@@ -181,17 +91,11 @@
         "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQUR6N2YwVW42eTJ4d2tCR09yRlVxVm1DWGM4LVhBVGM1X2JfQUhJOWdaMEx5aFlZR0ljQzZKU2pnZ3JlVG1lbEVrblA5d3FXQ1R1WWxXejlwVUFaamNTYkYyZVZVZ2p4N2F6R1N4ZTdfQzNpSkhQU3l5T2o2QkxSSWlURjRrUHdWaEEtSVNlOTMxdDJxRlpsZG1RaFZGdw?oc=5",
         "title": "Alert RCB. Syreny alarmowe zawyją w Częstochowie i pięciu powiatach",
         "official": false,
-        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady."
-      },
-      {
-        "at": "2026-10-21T05:44:43.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Forsal.pl",
-        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOQ3MtQ3UyMDFUTWNKeXpVM1hqMzZGS0tYd216SUxMUjlZWUFXMzBzUXQxcjFiZ2tSWmVMeUtkbmdlLVRkc2kxRjRCV3NiVkMxZmJ6Mm54YXBDSVplX1AxcTJUMWJmWkUzZkl4TTlPU1gxTVlFTFhWdC1tOWMyQWRFdEhxLW92emtmZHhtcEU5aEh4ZlRRZ2ZZU1lXcHUxZkRxRlJsTkpyd0hmb3BNU3p6ZmxGRFdhajQ2X0VFbWdweXBaZEJreG9BZE4tZHhGdURPSllJQU9JOE5URDFS?oc=5",
-        "title": "Nad Polską przeleciał potężny dron i spadł na Litwie. To ważna broń w wojnie z Rosją",
-        "official": false,
-        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112."
+        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
+        "guide": {
+          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
+          "label": "Alert RCB i aplikacja RSO"
+        }
       },
       {
         "at": "2026-10-21T05:35:24.000Z",
@@ -201,14 +105,76 @@
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaXpsQkNjMWpVR3dod2hoOXFZOFVGRng1MkwwLUlHTUR2dS0zUV9iMm9Bc3FvNjdzckJvSmJYREw1Ui1wcXlvc1J4WjA1OVdkQlp2TjFMc0RlTmVKVUFRb0t5cllGUnRrVTAxU2VBbkFaLThPQmFoV2lPXzk4ZzJ1NEFuOHZRbjFOdmstdmFjcVBqVlZ0OW9YZUZZZkQ5UFZQRFowa3Z0Y1FtNVlrTk9ZNld3?oc=5",
         "title": "Środowy przegląd mediów; RAF przeciwko dronom Huti; Wojsko musi przyspieszyć",
         "official": false,
-        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112."
+        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112.",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
+      },
+      {
+        "at": "2026-10-21T03:42:00.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "PolsatNews.pl",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZlpCVGJJQjhwSWsxRHFTbGNEZEtyQ2dnV191ckRhRFlSZlV6ZHFPUzJpME9PZWNERDFQdG80Y0ZvLU40aE5LcENfdVRzeTM1Y2VuNXpyQWIteGxGSzNHODRCTjdBQjFtUElkT1k5VnRxczdaS1lhUEhZRXRvenl2TXlPZkFPVXVlRkJxeldDWVI5V1hJeXNZaUg3SER2c1puc2c?oc=5",
+        "title": "Rosyjski atak na Ukrainę. Polska poderwała myśliwce",
+        "official": false,
+        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112.",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
+      },
+      {
+        "at": "2026-10-21T03:13:41.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "Polskie Radio 24",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQXhxbWhubzdsLTlhcW9TZk1qN0NTbXJONFFFekQ5Nk43QkZoMU5DUFliRDUzeFoxNE9IRjVKcTZMT0NQS0MtZEhFVDdhaW9NMU9fZVh1bjlFcHRrRlczRlg3a1I1NTlUa3hVMlN2MHBhZlZsVVZwWEF5N2t2UTBUX25FWmxmTDRBTk9fS2VTTzZqX0Z4Y1hNNlQzUW5xT3NfNnY0T2V4OTRfd3o0REE?oc=5",
+        "title": "Nocny alert RCB po ataku Rosji na Ukrainę. Polskie myśliwce patrolowały teren",
+        "official": false,
+        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
+        "guide": {
+          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
+          "label": "Alert RCB i aplikacja RSO"
+        }
+      },
+      {
+        "at": "2026-10-16T09:00:00.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "CERT Polska",
+        "url": "https://cert.pl/posts/2026/10/komunikacja-kryzysowa-w-cyberbezpieczenstwie/",
+        "title": "Komunikacja kryzysowa w cyberbezpieczeństwie",
+        "official": true,
+        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
+      },
+      {
+        "at": "2026-10-16T08:55:00.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "CERT Polska",
+        "url": "https://cert.pl/posts/2026/10/CVE-2026-106030/",
+        "title": "Podatność w oprogramowaniu NordVPN",
+        "official": true,
+        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
       }
     ],
-    "updatedAt": "2026-10-21T13:28:39.779Z"
+    "updatedAt": "2026-10-21T14:18:35.311Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-21T14:15:08.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "The420.in",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOcFdLNDJBZzVMeGV1Qm95V1plbGVMdDFXcmtKUmREQUR5VGhoVmI2NkY1a0lUTnQtSEo4endfUXlEbGU3YkJmV0NKX2lkbUdDRkFXTnF5ZTRJc2FjX2VQUnVjLTRKRVJBV3g5YnNmRC1nWml5Vk44NUl2V2x1YmdFYXVNODB1N3hVQTN3?oc=5",
+        "title": "​US and Global Police Warn of SafePay Ransomware Attacks Across Four Continents",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
       {
         "at": "2026-10-21T13:11:07.000Z",
         "cat": "energy",
@@ -290,16 +256,6 @@
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       },
       {
-        "at": "2026-10-21T08:36:24.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "BleepingComputer",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOb3NaOGFmN04tRTNZOEEzUS1QeEVzekQxMTk1OEVfbjU0ZnU5em1CRUhLcFF4OURxTDZvSm4xUmJHZ1FVenoxWi15c2lMaFFDei11cGx4RW1NdXdTeXBrdEw2UDYwSnNPMEpwdlNGUl96Z08tSVRtam1zYjdnc3NqQXI3YVZNcTVpWk9uWXFOVnBSSnNhaGQ0SFA5bndCN3FyaVprUmY3Zkl0SWJlV1NrMTBhNzRWNGdkaFRjT3hRWldZUkJhd0JVLUY0dzN6MzDSAdQBQVVfeXFMUGlGb3hFNHRIVnU3Ym5pbnJodkVKcTVxQ2dXbmZkdTI5ZWwtazhmZ01sRmdLVHdYWkp1eDdDMGJkVTZCTXNZcFBTaHVuVDFoYk0wZmMxQ0NtN0ZsTWRjbS03dTFlN3QwcFhoRnI3OFNlQmxpWWYzcXZmOW1TOEJXZ3kxS010N2piY2NhUGJVb2cxQUU2aVFocktMb3ZuS3dGUVNTVGJqVXlENzFnNFRMUkZMR2VIdS1Za0lhR2pwM1lpak1aUEd6alhhQ2xIZUN1T19taTE?oc=5",
-        "title": "CISA: SafePay ransomware hit over 600 critical infrastructure orgs",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
         "at": "2026-10-21T08:19:43.000Z",
         "cat": "cyber",
         "sev": 2,
@@ -360,16 +316,6 @@
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       },
       {
-        "at": "2026-10-21T05:02:39.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "London Daily News",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNY3YweUVKd1BoNjFGR2RwV0VvN0ZPVzZsX1o5dWE0SnFwT1cwYmJZZm91eE5hZDhBNHI1Rkh0ejR1bGFPWl93NU9HRFVmSkhTM29ma0xsMnhyd3Q2azFTaEtNNjZ5ZjR1Zk5jZ0pIR3dDSy1ZUHF2WnlyN3NnWDNxdnRqX3VUSnlWVmVESHlvTzdrMktHM1JtYlZGOUNZY091ckJnSUp4XzZfSUJfd254UFhB?oc=5",
-        "title": "CISA issues joint SafePay ransomware advisory after more than 600 victims reported",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
         "at": "2026-10-21T04:28:30.000Z",
         "cat": "security",
         "sev": 2,
@@ -408,8 +354,18 @@
         "title": "Cyberattack Hits Hundreds of French Supermarkets, Overheating Fridges and Sparking Fires. Could The Next Cyberattack Disrupt An Entire Supply Chain, From Phones To Traffic Lights And Hospital Equipment?",
         "official": false,
         "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
+      {
+        "at": "2026-10-19T15:36:21.000Z",
+        "cat": "health",
+        "sev": 2,
+        "source": "ECDC",
+        "url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
+        "title": "Ebola disease outbreak in the Democratic Republic of the Congo",
+        "official": true,
+        "forYou": "Usually no action. Check your first-aid kit and expiry dates."
       }
     ],
-    "updatedAt": "2026-10-21T13:30:36.234Z"
+    "updatedAt": "2026-10-21T14:20:38.620Z"
   }
 }

@@ -2,9 +2,9 @@
   "_comment": "Aktualizuje scripts/update-data.mjs codziennie. pl = Polska, en = świat. Składowe z mode=manual ustawiasz ręcznie.",
   "pl": {
     "sample": false,
-    "updatedAt": "2026-10-21T13:28:39.778Z",
-    "score": 32,
-    "delta7": 5,
+    "updatedAt": "2026-10-21T14:18:35.307Z",
+    "score": 33,
+    "delta7": 6,
     "ago30": 29,
     "history": [
       29,
@@ -33,14 +33,14 @@
       31,
       33,
       36,
-      32
+      33
     ],
     "components": [
       {
         "id": "conflict",
         "name": "Konflikt w regionie",
         "weight": 30,
-        "value": 59,
+        "value": 63,
         "sources": "GDELT · Google News",
         "trend": [
           37,
@@ -50,7 +50,7 @@
           46,
           63,
           63,
-          59
+          63
         ],
         "mode": "auto",
         "raw": [
@@ -68,7 +68,7 @@
           55,
           100,
           100,
-          91
+          100
         ],
         "stale": false
       },
@@ -223,7 +223,7 @@
   },
   "en": {
     "sample": false,
-    "updatedAt": "2026-10-21T13:30:36.233Z",
+    "updatedAt": "2026-10-21T14:20:38.618Z",
     "score": 41,
     "delta7": -2,
     "ago30": 35,
@@ -295,7 +295,7 @@
           44,
           53
         ],
-        "stale": false
+        "stale": true
       },
       {
         "id": "nuclear",
@@ -359,7 +359,7 @@
           26,
           35,
           51,
-          51
+          50
         ],
         "stale": false
       },
@@ -407,7 +407,7 @@
         "id": "cyber",
         "name": "Cyber & infrastructure",
         "weight": 15,
-        "value": 34,
+        "value": 35,
         "sources": "GDELT · Google News",
         "trend": [
           38,
@@ -417,7 +417,7 @@
           26,
           32,
           34,
-          34
+          35
         ],
         "mode": "auto",
         "raw": [
@@ -433,7 +433,7 @@
           53,
           58,
           53,
-          53
+          54
         ],
         "stale": false
       }
