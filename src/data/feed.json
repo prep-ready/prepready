@@ -4,6 +4,16 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-10-21T18:05:00.000Z",
+        "cat": "health",
+        "sev": 1,
+        "source": "Portal Samorządowy",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxObE5oUmlqbUFLZnNpMDVVTEl4OHkzb19aTHB2RFFTVWZNeWtwOF9ZdkZ1eTFHcGFpTU1HenQyblpnMTJLNGtxYU5xTVE5T3NNSDk5WXpvYzY0aTJRVEJOck92N2hXUklYb3Q2OC01NURlOWFLbGw5dlhWdE1VQ255U1lkVkk2RWFNV3pSaWJoMjZXQnAtNzhHMmJrRmM1eWlpa0N6cjBmNVlZUGVqNjJJN3RJbklKSXkwdjNIRmg3YWE?oc=5",
+        "title": "Nagły wzrost w trzech województwach. Rozpędza się nowa epidemia",
+        "official": false,
+        "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
+      },
+      {
         "at": "2026-10-21T16:40:05.000Z",
         "cat": "safety",
         "sev": 2,
@@ -12,6 +22,20 @@
         "title": "Alert RCB na Wschodzie Polski. Wojsko włącza pełną gotowość",
         "official": false,
         "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
+        "guide": {
+          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
+          "label": "Alert RCB i aplikacja RSO"
+        }
+      },
+      {
+        "at": "2026-10-21T16:27:15.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "TVN24",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5MYkE5WVRpTlhDZE5UcFdsam5sbUFJWVJmbzBHalBJMGwtdE5qWmVKeWMtUWpoVEJ3akxaeV9ublcwVlBvaVNKaHZSV1dYQmNDM1U0aVhkSklXU2xjMzRuaHkxcFRyLUt2NnNYVEVUdWpFbzNkMUhZ?oc=5",
+        "title": "Alert RCB odwołany. \"Brak zagrożenia\"",
+        "official": false,
+        "forYou": "Zagrożenie minęło. Sprawdź, czy w domu wszystko jest w porządku, i uzupełnij to, czego użyłeś z zapasu.",
         "guide": {
           "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
           "label": "Alert RCB i aplikacja RSO"
@@ -46,18 +70,14 @@
         }
       },
       {
-        "at": "2026-10-21T12:41:21.000Z",
+        "at": "2026-10-21T12:44:59.000Z",
         "cat": "security",
         "sev": 2,
-        "source": "Wiadomości Onet",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSE1ObDR1emNmUGdJSDFFWk5PUWFRQkF2cXRub1pqMEF0RElka2c1aGNzTXpEa2JqMXNPOUhCUFE1R2FkdE1RZnF6VjBZQVBaTl85NTVtWlc5QlhjMjlVTWwxR0NiZ2pvSXFtbXVrWEtVNDR2eHlQcHY0U3JOX1hjbHFHNkdOb0pMZmZXZVk3bzBNMm5sR1RDdmExUy1tb0liNXFKZkVJTEtVUGZv?oc=5",
-        "title": "Akcja służb na Podkarpaciu. W Lubaczowie spadł obiekt przypominający drona",
+        "source": "WP Wiadomości",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQU1Z4R1VhcTNnMjh3SlY1R1k0Qzl6WkZOOUdvTGZBRUp5dlE5TW5tdXhfOWFtdVI2V3NYYVYyeDVkeFdUR3p5U0o4VU53MlJlWUwwbnk3OTg1NDQ3Q2RYeTBnN3JtdUxKNjIwY2pOOVJMSFg5dWZnUGZ2akROSEtRR2tZd2c4bFRCNTRvM0Y5cXlzc2RxUkRXeQ?oc=5",
+        "title": "Akcja służb na Podkarpaciu. Spadł podejrzany obiekt",
         "official": false,
-        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112.",
-        "guide": {
-          "href": "/pl/mapa-schronow/",
-          "label": "Mapa schronów"
-        }
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
       },
       {
         "at": "2026-10-21T11:58:06.000Z",
@@ -212,11 +232,21 @@
         "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
       }
     ],
-    "updatedAt": "2026-10-21T17:18:31.532Z"
+    "updatedAt": "2026-10-21T18:14:20.757Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-21T18:11:53.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Media",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1CNS1UQWR2aEstbnp1SVd4TnliUWsxYWxNLVBIdEpOTkJoNlZfQXpmdjRnSTl0OFpTUU1vUXhvUHUyVzdlZVBySXpQcG5fMEJyN2F6aVBvalU3LUtyci1kTXdmRzB1eGd5eEt2VDNBMUVfZ3IyaTNQREJB?oc=5",
+        "title": "FBI, CISA Warn: SafePay Ransomware Hit 600 Firms - tech-insider.org",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
       {
         "at": "2026-10-21T16:40:31.000Z",
         "cat": "cyber",
@@ -406,18 +436,8 @@
         "title": "Severe traffic congestion in Borella due to damaged sewerage pipeline",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-21T03:32:14.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Ada Derana",
-        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFAzbDJOMi03Rm5peDRKQ292TDQ1cloxTXBsV0FxeG9Db0JZQUswbkpMWFBKX2ctNGxOVmlZeWZCeUJnalZqdkhv?oc=5",
-        "title": "Real Madrid seek Super League setup payments from Premier League six",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       }
     ],
-    "updatedAt": "2026-10-21T17:20:42.107Z"
+    "updatedAt": "2026-10-21T18:16:25.471Z"
   }
 }
