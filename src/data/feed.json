@@ -4,6 +4,46 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-10-21T10:06:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Do Rzeczy",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQaTdJNnlJVnJmQWJKWTVXNkNfVlVQMUlzWFdSVExvczhiX051MEpOUDN1VERPTWc4MnFaN3FjNXBNTU9pOVNMaVhOYUtKSURfMkxYZzJzTUJPMVJUY2ZPb3ZPVjk0bmhZdkhjQklpZnVNZjlNUWVlWi1aVkRZMjB4Zl9maEpKblZzWGtCQl9xWFJHQ2J6d3BGcUQwc2JsS0nSAZ4BQVVfeXFMTzlnWVdzbm9KX3RHYzd4VDFqNUpLMlBjbnNSN2lsc1dvTkJDaGVRQlhfSEthUHVPcTVRbmVlU2VUSnlYS3hpZHhKMTktMzMzT1pWWjNuSFhjQWd1TzZtb25pSjRVRFZ6SWhxRzJuelJXTXk4NlVnUUdjQ0FLMlFYYXo0Wkdaelg3a1hOckI5bW85VVlBOHpEMG9oM1psc2c?oc=5",
+        "title": "Ukraina wykorzystała polską przestrzeń? Polska wysłała pytania",
+        "official": false,
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+      },
+      {
+        "at": "2026-10-21T09:39:58.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "WP Wiadomości",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNl9IWk5oZ1BoajFGbGFpN2JuUnNjMG1COXJZRGluS1BjZlFkOEdpbVZYSW5feC1oZWhZbFp2dWo5UWRLMVAzY3NTZmRkaU8wWmtTcUR3c2o1cTFldXEybnJ0NVBoZ3FFbDdfdXlxNFRvajVKckNBZVF6R0RkbFNhTG9XaUxzZ3BQMkZyMVdTSUtBd0ozRldkMmhlVFBNSDB3VDdNakN3?oc=5",
+        "title": "Polskie wojsko wysłało pismo do Ukrainy. Pyta o drona z Litwy",
+        "official": false,
+        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112."
+      },
+      {
+        "at": "2026-10-21T09:25:55.000Z",
+        "cat": "health",
+        "sev": 1,
+        "source": "Konińskie Centrum Kultury",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQ1hNZXdQblozOWJXZXk0Y3lmNHpuMUw3SE1kNUw3NWttVWZiTWkzeVd5b1REeUxOcTBkRzhJQ3lnUjlfaXZTOXdqQjk1bG5wQXlxWE81bGwtYUNtbFJpNFZ1bWV4SkFGVUZXOVZKN2otc0V4aC1ENjRUN1hoWDhRTEdZOUVPYS1lNU1lYURSa2dSSDFmZWNYNWhyamFJbEhjMVBDd0RWbFRKZWtG?oc=5",
+        "title": "Kwintet Gis. Muzyka kameralna w „Zemełce” nie po raz ostatni",
+        "official": false,
+        "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
+      },
+      {
+        "at": "2026-10-21T09:24:14.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbllTZnd0M0xGRkQ5eHl2clo2RzVkZE5FeFJFR3RIemtrRGlWRWkzdkVyRlpIWjhXZDdhV3Z1aGVfdk9DR0xzdVEwYnRraHVocEdNVzA0czNDTE1UMUVfTHhYaEI5U3VNdi1IRUFmcTY2MzhFbnlfQkk5c0tiRUlMM0NHTkpLZVJ5MG41T0RVMy1kTDZZaE83X1FUYzlOenVDWVJuOFJsTEo2aTVr?oc=5",
+        "title": "Polska chce wyjaśnień od Ukrainy. Sprawa dotyczy zagadkowego drona",
+        "official": false,
+        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112."
+      },
+      {
         "at": "2026-10-21T08:47:57.000Z",
         "cat": "security",
         "sev": 2,
@@ -162,53 +202,33 @@
         "title": "Działo się w nocy. Nocny alert RCB, spór o UPA i decyzja USA",
         "official": false,
         "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady."
-      },
-      {
-        "at": "2026-10-21T01:14:01.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Radio Zet",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRk1wNUNXN2UzVDh5ZmN2cmNLTm9DSE11VDAzaFZtU0VneVp6QndyYmxhWTBIcFp1ZGNLOU14eHZEbXBLZjREODJqMDliRWxoNm5Jd2FNSTdoRHR4d09PbWpxY0k5YlhicDBDS2VTWHB5VGpnN2dMMzcwbmdwa3FoVElTQnl4Tkl1d29HbkoxWmJWUWtIbjg4SjlGZmN0N0YtblFybFd4am1rUzFBWGhzNU5SaURKRFJs?oc=5",
-        "title": "Nocny alert RCB dla dwóch województw. Polskie lotnictwo operuje w przestrzeni RP",
-        "official": false,
-        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady."
-      },
-      {
-        "at": "2026-10-21T00:53:56.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Onet",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcGF6Z3ktRXo1d2ZDTTJFNFJuRU83QVVmQ3hvNzJfdGQ0ZEtYQVZWQ0Q3TDNPM1RXMHJwQW0yY2c4VDJndGZ5UlN4RkRBUmlCWmN6ZjY5QVU5clR3Ty1ROWJlWVFyV0pSVlVmSk1IOVBISmtPNWxDNk0tMHEwM3l0U3F0MXBQMmJKc3lKdHA3MDJMUVpjV2JBMFZGWHpXNjhZemdfRUJVd3dVZ05IQXllNWFiUlo2OE9pQzlQaHVpS0o?oc=5",
-        "title": "Rosja atakuje Ukrainę. Polskie myśliwce poderwane w powietrze",
-        "official": false,
-        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112."
-      },
-      {
-        "at": "2026-10-21T00:44:15.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "WP Wiadomości",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQaHpfOS1GYXA2RDNZaG9JUS1FeDJJZlExd1RqS0psY0p1TC1wUkFWeUFFX2ZjLWZIVVZmWlBIcXViVmtwR0dJVl9DR1EyMWw3aW95cmhVYlBTVFVRUTJsZGVvUXlFUFloRk9qNFVSRWFpUmtKc0lZZnBacE41LWdINmRuckVRdU56Z2lSb28tRWxfck9ONWdKRw?oc=5",
-        "title": "Rosyjski atak w Ukrainie. Wojsko poderwało myśliwce",
-        "official": false,
-        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112."
-      },
-      {
-        "at": "2026-10-21T00:02:28.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "WP Wiadomości",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZ0VRTXNBaE1XMnhOQmlNcHQ1RlUtajdJYWZSN0tOaWpsbF9FRVNpcUhJaTcwRVl0LUE1cUpGYUFjRzM3dFAxWVJRbFN0ckVlbDJmbk83dzM5eTU1dXZoRFhDY2dNT1hxWTRTOXlnTDdvaE9qM1c5LXIyRkU3cDVyQ1lHMmlBRWQ2WUJwU3NB?oc=5",
-        "title": "Dron spadł pod Warszawą. To sprzęt wojskowy",
-        "official": false,
-        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112."
       }
     ],
-    "updatedAt": "2026-10-21T09:20:27.804Z"
+    "updatedAt": "2026-10-21T10:19:54.742Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-21T10:00:00.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "WJournalpr",
+        "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQcFROVDBmZTdqWlQ5OGdWdmlFMHpCTTN2cEx4NklIc1RMNEllZzFWZDMzMXd5bHJGVE5pMWlvZURLN1FweEtaajg2ZjNtbG9rMUxJUDNkOWlybVlqRXVnaE1rLW54QjRwMjBFVTZoazFOVUVRdnQ5TzZCdXlIMzRpZmZWZElDUm1NVUs1WGNVSTFoMFBUaFNUMU84TnY3azZZaEpic0QxdXJFcVlnSE0tZmdOYmRwM3lkSjJqVW9NUlpreEVLZ2RhZDdJeFYtTkhOdWFrMUhySEVKaF8tcUZEcnVyNm8wNTgzSjVXVHIxSnJWVmpKeFJhbHViMVpiY1IzZjZFa3lwblRTQQ?oc=5",
+        "title": "Auxilio Mutuo to compensate thousands of patients following cyberattack: here’s how to file a claim",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
+      {
+        "at": "2026-10-21T09:00:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Middle East Eye",
+        "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNRExxZzB6Q2FBeWNQY0lSOC1OZXVyMjdrNzhWbG9za0swaGl4TmFhQzRMWXFXcmxJWkEtTEp6UDRyVEIyUFk2bGdwU3dHZVFya1JSdk1WQnJmb254eXcxcGxkNDNVODkxbVV0d2pidkg5UUM0bDc1RVJWSm01VWxHemJMUGVRZVR4QV8yeXVDSDNoMnltN3BCZVBJbWl4M2lTQlVnbEtOQmZXU2RrVlNsSV9LVnVKR1M5RnRFRjRVYk5UM1c2V2hPbmFqX3ZoVU15cEx4Xy1OLWp5Zjd1U2lDVWFCb2hVV042NjlLTkdGa04tcHFvU3k4SDZJdWlMQQ?oc=5",
+        "title": "Missile targets Aden airport as Houthis claim strike on coalition site",
+        "official": false,
+        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+      },
       {
         "at": "2026-10-21T08:40:45.000Z",
         "cat": "energy",
@@ -388,28 +408,8 @@
         "title": "Ahold Delhaize Cyberattack Disrupts Services Across the US and Europe · cyber.hendryadrian.com",
         "official": false,
         "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-20T20:33:53.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "The Record from Recorded Future News",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQMEdYbExXaVFjY212elVRT0YxM0FIa2FUMGhSRjJsS0Y4enVEdmdGNnNUVDlHTGkyakdxbkpUS3NzdTdjLXpqc1pXanNJQzhjWGxRVndCSDJBZC1PU3d2RVlrcHlDbUZfY0NoRmRfTkF3QnhHMThtNGNsSGc1NHktZkdlOUNwQzEwY0d3SnB2RQ?oc=5",
-        "title": "FBI says SafePay ransomware gang ‘among most active’ with more than 600 victims since 2024",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-20T19:59:24.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The Jerusalem Post",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5CV0dNTVVnNUZlMmlncmF4amlNa19Qc0J4cHpQd2lSXy04aVJ1VFNsdWZqbkU5bnBVdzJTTGg2eE1ndVhjREp4by0tM29PbkVIM3YxTlEyY1FLM3ct?oc=5",
-        "title": "Donald Trump, Benjamin Netanyahu warn Iran as fears of renewed war grow",
-        "official": false,
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       }
     ],
-    "updatedAt": "2026-10-21T09:22:30.513Z"
+    "updatedAt": "2026-10-21T10:21:33.966Z"
   }
 }
