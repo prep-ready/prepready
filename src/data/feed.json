@@ -4,6 +4,46 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-10-21T06:06:20.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Polskie Radio 24",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQUR6N2YwVW42eTJ4d2tCR09yRlVxVm1DWGM4LVhBVGM1X2JfQUhJOWdaMEx5aFlZR0ljQzZKU2pnZ3JlVG1lbEVrblA5d3FXQ1R1WWxXejlwVUFaamNTYkYyZVZVZ2p4N2F6R1N4ZTdfQzNpSkhQU3l5T2o2QkxSSWlURjRrUHdWaEEtSVNlOTMxdDJxRlpsZG1RaFZGdw?oc=5",
+        "title": "Alert RCB. Syreny alarmowe zawyją w Częstochowie i pięciu powiatach",
+        "official": false,
+        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady."
+      },
+      {
+        "at": "2026-10-21T05:44:43.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Forsal.pl",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOQ3MtQ3UyMDFUTWNKeXpVM1hqMzZGS0tYd216SUxMUjlZWUFXMzBzUXQxcjFiZ2tSWmVMeUtkbmdlLVRkc2kxRjRCV3NiVkMxZmJ6Mm54YXBDSVplX1AxcTJUMWJmWkUzZkl4TTlPU1gxTVlFTFhWdC1tOWMyQWRFdEhxLW92emtmZHhtcEU5aEh4ZlRRZ2ZZU1lXcHUxZkRxRlJsTkpyd0hmb3BNU3p6ZmxGRFdhajQ2X0VFbWdweXBaZEJreG9BZE4tZHhGdURPSllJQU9JOE5URDFS?oc=5",
+        "title": "Nad Polską przeleciał potężny dron i spadł na Litwie. To ważna broń w wojnie z Rosją",
+        "official": false,
+        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112."
+      },
+      {
+        "at": "2026-10-21T05:35:24.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Defence24",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaXpsQkNjMWpVR3dod2hoOXFZOFVGRng1MkwwLUlHTUR2dS0zUV9iMm9Bc3FvNjdzckJvSmJYREw1Ui1wcXlvc1J4WjA1OVdkQlp2TjFMc0RlTmVKVUFRb0t5cllGUnRrVTAxU2VBbkFaLThPQmFoV2lPXzk4ZzJ1NEFuOHZRbjFOdmstdmFjcVBqVlZ0OW9YZUZZZkQ5UFZQRFowa3Z0Y1FtNVlrTk9ZNld3?oc=5",
+        "title": "Środowy przegląd mediów; RAF przeciwko dronom Huti; Wojsko musi przyspieszyć",
+        "official": false,
+        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112."
+      },
+      {
+        "at": "2026-10-21T05:01:58.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Polityka.pl",
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOMnVBU2JBVTNWOUZaektZWW9nNEVTWl9OWHJJYmVHeUlPTDRtQkVFM2lfZUNCWHBnWkgyb2RJUVNqZGpwUkt6TEZZMEllSkZ4Y09sVEpiMnVxVTFJbW5mdWNSSUo1ZW50X0tuZEhpeVZKRkpmVFpEd2FKZkFuRHZXLTZkT3dkU2R5VXZkdmlSVXJWTXBobzlncGUyR01RSElJbk1aRVNaQkRHeDF1NFNEU2dlVHRsdnZtSmo0bk9vd1lvN29BZ3IxckpYTWNmT09wZTRPdVB5LUtHN0JOR1hyZmN2TUlhaWNiakVvMFl4MTJjNXJScHJ1RA?oc=5",
+        "title": "Kim ma walczyć polskie wojsko? Kryzys jest potężny, Trump lawiruje. Miliardy na sprzęt to za mało na Rosję",
+        "official": false,
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+      },
+      {
         "at": "2026-10-21T03:42:00.000Z",
         "cat": "safety",
         "sev": 3,
@@ -162,53 +202,33 @@
         "title": "Rosja atakuje Ukrainę. Alert RCB dla dwóch województw",
         "official": false,
         "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady."
-      },
-      {
-        "at": "2026-10-20T19:15:34.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Portal Obronny",
-        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQRTg3REdKU0ZUS1phZDNFRENBTzF3SlRRc2pyWmg3LTlYYU9wSTVqdllxQ3NlQkdxN3kydlptX3ZqcXdlRUVqTjB1V3FRU0FVTnlGY0tSMDBvTFpSQ3R1UHpXbWlXZHozZGxjRGN1b3k0NXV6d2w3T3R3LXJEQmE5cDlqNVBieUQ4QW5yRTZVNldqWVpPN05kekwzU21nbEw4NkFpT3ZEc3kzOWFxZDMzTXBFUTRQS1A3eDhHS2lQUlY1cnhudFJyYkw0bmFESjM3TDJfLVM0ejl2YTg?oc=5",
-        "title": "Nowe rakiety dla Homarów-K. Wojsko Polskie dostaje broń o zasięgu 290 km",
-        "official": false,
-        "forYou": "Informacja o modernizacji armii. Nie wymaga działań z Twojej strony."
-      },
-      {
-        "at": "2026-10-20T19:07:08.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "TVP Warszawa",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQTWU5XzJwTEktb0NwTXpmMzlYbklRTV83SHJPZ2Y4ZEEybDhmYkU1WmRqdFZkRDlvdXhNYXIzaWl5UTZVczZ0dTY2S2ZVeXZCTlFxV2tjbHhvdWhZamRHMzhINUxtUk9sejZlUnNlREZDdFBsQTNKTU50bVA1VXN4dDJhVUZOSDNkODgtakU0LTFad3lJYURqYldTU09Rckw5Y0VNYjYyVnJaVFFrblRlLXJ4YU9vRlFueFE?oc=5",
-        "title": "Dron runął na posesję w Józefowie. Służby odzyskały zagubiony sprzęt",
-        "official": false,
-        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112."
-      },
-      {
-        "at": "2026-10-20T18:30:15.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Gazeta Prawna",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOTzdXR2JWM3RZWjF3VkkwckJ4cEZmX2RkNEoyOVhIcXA1cURXUEpRbEdRYmdmdkprX0N4Y0lET3FoUklMTVpmZUlLVGxzdWZGSkxoV25iZkRnZ0ZFTXloOGJweWIxeU1vMzdBT3kxd3VpeG1WNHJWYlBfVjJNVTczU3MtellzQjJUVE51ZDN3SjVTVFB0WUJ4TFJlZ25RaTU3dHlEWHQ2NmJxTVd5SjIydmhtLWgtbTVVek12T0RIc1lZcHEyWGlQT1BicVIyTHU4NFRqMjc0Zw?oc=5",
-        "title": "Bat na drony utknął za oceanem. Program Barbara zalicza poślizg",
-        "official": false,
-        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112."
-      },
-      {
-        "at": "2026-10-20T17:55:26.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Warszawa.Wyborcza.pl",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUm9WMXg4bTRZQVVaLVE4OHM5aG9GNjcwRmYxX1ZNQ19GUlpJXzlZT1JVYkR0bG5OdUFNTHQ5aHZTVTRRMzI3VlZ5cEw3Q2NVeGNyVkVXTXJlVnRBTi0xaUcwVVE0aVYwaW1WWXVJM0ttLWRWYjQ4emJDRFdBcjI1TjRhUDFTblRGb0NHQ1hxR00yN05JeFVMQURJNA?oc=5",
-        "title": "Polski wojskowy dron ćwiczebny spadł niedaleko Warszawy",
-        "official": false,
-        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112."
       }
     ],
-    "updatedAt": "2026-10-21T05:16:46.220Z"
+    "updatedAt": "2026-10-21T06:16:55.186Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-21T06:09:51.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Howl.link",
+        "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE0zclJQSzFMYlRFcmZOaTZySEpCZ0RxQ2NDeWYxd1ZkbnlpWlVFUlBWaW1nT2JvaDA0S1R3?oc=5",
+        "title": "Joint Advisory Details SafePay Ransomware Tactics After at Least 600 Victims · cyber.hendryadrian.com",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
+      {
+        "at": "2026-10-21T06:02:02.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Silicon UK",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPbGVhNEY4QnBhRXlqSFdaY09ReU00c3c2WjFLZEpmRndVZzlRRWlndjduelotb2k0QVR1Ui1JNFlNSFo1SzJ4dnk1dlR2NVdQVFpzMVBXcE1HM2VXbUpoT0RtcGZ4dVVyX0REdnVpcElHdkxoM3VkcmI3Uk9VQmlrbw?oc=5",
+        "title": "Google Blames Power Outage For Widespread Cloud Disruption",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
       {
         "at": "2026-10-21T05:02:39.000Z",
         "cat": "cyber",
@@ -218,6 +238,16 @@
         "title": "CISA issues joint SafePay ransomware advisory after more than 600 victims reported",
         "official": false,
         "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
+      {
+        "at": "2026-10-21T04:28:30.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Radio Free Europe/Radio Liberty",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9OeTc1VE5lcEx0QzNhVlh6TnBVZUhfdi1MR0xZQnJOLWo2U3dHb09ucVhPNXctSTFXNTF6R3EwZEJXSl96SF9zS2FPUWFwcHpHeFVMaGtUckZiaGIydHc1SFMwT3U1R1h5WnMtY2RGUkdtYm1jV2VUMWFB?oc=5",
+        "title": "Iran Repeats Threat To Target Undersea Fiberoptic Cables",
+        "official": false,
+        "forYou": "Report suspicious activity near railways, power lines or military sites to emergency services. Do not photograph military installations."
       },
       {
         "at": "2026-10-21T03:47:14.000Z",
@@ -378,38 +408,8 @@
         "title": "Tourist arrivals in October near 100,000",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-20T17:46:52.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Ada Derana",
-        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1mUU5GYlUwWkRLVklIdnZMaFVKaHhBVjNsZy1rRkdsYWppcS1aRXhvcm5BMDBSZmo2OVd2N25SRVgwRDJaMjhz?oc=5",
-        "title": "Shooting reported in Piliyandala as suspects abandon car and flee on motorcycle",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-20T17:45:00.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "The Guardian",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSlYyYXhfVUZKTDFpeUhxYi1YOTFCeXcwZzRBSjlIN1hZRFNYQ1ljMGZ1TkZRRlR1WEJEdjY4N1VVQUNEVjJMTl81R3VTVmhHMVQzM1VrRUdMQVp4MVpNYzhnWWZZTUdCc0lCdkxydjF3SU1GR0Z5SGN3WnVrN2VwdzRuWkhaMkszN01TQlAzYWVPQ0EwR0dhSHA4dnlVdnlDbWJ0dTQxeTBNNlU?oc=5",
-        "title": "‘Too big to not fail’: Google outage exposes UK reliance on a handful of cloud providers | Datacentres - UK",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-20T17:18:00.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "Nikkei Asia",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbVFoQ25GejFqMWRCQVRmX0o2WmZTRTJIYkFta0JtV2lFdmxsVHNpZ3N3R3paY0JVSkRZSWljaF9CODlLY2dOU3JvMzV4ZXMtQnlCc3k1ekVhVWZTUkExMmY0bFdCejJNTjNMSm55N0FJRGR3S3ZJU1QtSUtuVnQ5dTZNajlLQ0lnN3A2VGZBN2psNUFEZWV2LXp1ckxfdUYxVUNIbFNGUzdnSFJaZHlET2tMMmN3OW5H?oc=5",
-        "title": "Japan brokerage IwaiCosmo hit with unauthorized trades in cyberattack",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
       }
     ],
-    "updatedAt": "2026-10-21T05:18:55.641Z"
+    "updatedAt": "2026-10-21T06:18:20.658Z"
   }
 }

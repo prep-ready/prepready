@@ -2,7 +2,7 @@
   "_comment": "Aktualizuje scripts/update-data.mjs codziennie. pl = Polska, en = świat. Składowe z mode=manual ustawiasz ręcznie.",
   "pl": {
     "sample": false,
-    "updatedAt": "2026-10-21T05:16:46.219Z",
+    "updatedAt": "2026-10-21T06:16:55.186Z",
     "score": 36,
     "delta7": 9,
     "ago30": 29,
@@ -186,7 +186,7 @@
           46,
           48,
           26,
-          22
+          24
         ],
         "stale": false
       }
@@ -223,9 +223,9 @@
   },
   "en": {
     "sample": false,
-    "updatedAt": "2026-10-21T05:18:55.641Z",
-    "score": 36,
-    "delta7": -7,
+    "updatedAt": "2026-10-21T06:18:20.658Z",
+    "score": 41,
+    "delta7": -2,
     "ago30": 35,
     "history": [
       35,
@@ -254,14 +254,14 @@
       35,
       37,
       40,
-      36
+      41
     ],
     "components": [
       {
         "id": "conflict",
         "name": "Global conflict",
         "weight": 30,
-        "value": 46,
+        "value": 47,
         "sources": "GDELT · Google News",
         "trend": [
           50,
@@ -271,7 +271,7 @@
           39,
           40,
           43,
-          46
+          47
         ],
         "mode": "auto",
         "raw": [
@@ -319,7 +319,7 @@
         "id": "energy",
         "name": "Power & grid",
         "weight": 15,
-        "value": 28,
+        "value": 29,
         "sources": "Google News",
         "trend": [
           32,
@@ -329,7 +329,7 @@
           5,
           15,
           32,
-          28
+          29
         ],
         "mode": "auto",
         "raw": [
@@ -359,7 +359,7 @@
           26,
           35,
           51,
-          47
+          48
         ],
         "stale": false
       },
@@ -407,7 +407,7 @@
         "id": "cyber",
         "name": "Cyber & infrastructure",
         "weight": 15,
-        "value": 5,
+        "value": 35,
         "sources": "GDELT · Google News",
         "trend": [
           38,
@@ -417,7 +417,7 @@
           26,
           32,
           34,
-          5
+          35
         ],
         "mode": "auto",
         "raw": [
@@ -433,7 +433,7 @@
           53,
           58,
           53,
-          26
+          54
         ],
         "stale": false
       }
