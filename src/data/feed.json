@@ -15,8 +15,8 @@
       },
       {
         "at": "2026-10-21T00:53:56.000Z",
-        "cat": "safety",
-        "sev": 3,
+        "cat": "security",
+        "sev": 2,
         "source": "Onet",
         "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcGF6Z3ktRXo1d2ZDTTJFNFJuRU83QVVmQ3hvNzJfdGQ0ZEtYQVZWQ0Q3TDNPM1RXMHJwQW0yY2c4VDJndGZ5UlN4RkRBUmlCWmN6ZjY5QVU5clR3Ty1ROWJlWVFyV0pSVlVmSk1IOVBISmtPNWxDNk0tMHEwM3l0U3F0MXBQMmJKc3lKdHA3MDJMUVpjV2JBMFZGWHpXNjhZemdfRUJVd3dVZ05IQXllNWFiUlo2OE9pQzlQaHVpS0o?oc=5",
         "title": "Rosja atakuje Ukrainę. Polskie myśliwce poderwane w powietrze",
@@ -204,11 +204,21 @@
         "forYou": "Słuchaj poleceń służb, weź plecak ewakuacyjny, dokumenty i leki. Nie wracaj, dopóki służby nie odwołają ewakuacji."
       }
     ],
-    "updatedAt": "2026-10-21T01:24:17.490Z"
+    "updatedAt": "2026-10-21T02:15:47.622Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-21T02:01:46.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Batam News Asia",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQV2FXa1htQjQ1UUYybjFrQ1dOZFFmNjZFNld6TnhrLTZSLWVtR29pcGNybE82eWQwcGk0VGU1SWk1WUNLVE5nWXFSN2V1VlY5bFNxclBjdk81dGhmd0dXekcybHAxWHNTNTl4dWsyQzBEYk5VMGdBMDdOUHRnSUpUVk1KZ0Z3TlhMbGN4a0pLTDNzc3VZOEZMX0FtM3hGQm9pbzRJNnZuZUczWHpfRkc5YS1XMzB3Z2NiYjl3MU1pdlhDS0ZzanBxOENmTTNEZw?oc=5",
+        "title": "Batam-Bintan Blackout Investigation: Five Named Suspects Over Alleged Electrical Safety Failures",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
       {
         "at": "2026-10-21T01:14:50.000Z",
         "cat": "cyber",
@@ -398,18 +408,8 @@
         "title": "Hotel owner hospitalised after shooting in Moratuwa",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-20T15:03:03.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "FedScoop",
-        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBzYkRsRVVBWWduSEk2dzJYSEhJTkxETmhYUHl1QnVXdldpa2VKN09MVEgwc2Q4aTJHUEFJM29lQzhON3poRnVYODROaFpLUkx6UldSMTNreXRQMExVbnJ6RGJQRXBFbVlRY0dkQlNBZ1kxVTA?oc=5",
-        "title": "Can government and industry prove they’re ready for a cyberattack?",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
       }
     ],
-    "updatedAt": "2026-10-21T01:26:14.442Z"
+    "updatedAt": "2026-10-21T02:17:54.407Z"
   }
 }
