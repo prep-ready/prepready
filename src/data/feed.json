@@ -4,12 +4,52 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-10-21T01:14:01.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Radio Zet",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRk1wNUNXN2UzVDh5ZmN2cmNLTm9DSE11VDAzaFZtU0VneVp6QndyYmxhWTBIcFp1ZGNLOU14eHZEbXBLZjREODJqMDliRWxoNm5Jd2FNSTdoRHR4d09PbWpxY0k5YlhicDBDS2VTWHB5VGpnN2dMMzcwbmdwa3FoVElTQnl4Tkl1d29HbkoxWmJWUWtIbjg4SjlGZmN0N0YtblFybFd4am1rUzFBWGhzNU5SaURKRFJs?oc=5",
+        "title": "Nocny alert RCB dla dwóch województw. Polskie lotnictwo operuje w przestrzeni RP",
+        "official": false,
+        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady."
+      },
+      {
+        "at": "2026-10-21T00:53:56.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "Onet",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcGF6Z3ktRXo1d2ZDTTJFNFJuRU83QVVmQ3hvNzJfdGQ0ZEtYQVZWQ0Q3TDNPM1RXMHJwQW0yY2c4VDJndGZ5UlN4RkRBUmlCWmN6ZjY5QVU5clR3Ty1ROWJlWVFyV0pSVlVmSk1IOVBISmtPNWxDNk0tMHEwM3l0U3F0MXBQMmJKc3lKdHA3MDJMUVpjV2JBMFZGWHpXNjhZemdfRUJVd3dVZ05IQXllNWFiUlo2OE9pQzlQaHVpS0o?oc=5",
+        "title": "Rosja atakuje Ukrainę. Polskie myśliwce poderwane w powietrze",
+        "official": false,
+        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112."
+      },
+      {
+        "at": "2026-10-21T00:02:28.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "WP Wiadomości",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZ0VRTXNBaE1XMnhOQmlNcHQ1RlUtajdJYWZSN0tOaWpsbF9FRVNpcUhJaTcwRVl0LUE1cUpGYUFjRzM3dFAxWVJRbFN0ckVlbDJmbk83dzM5eTU1dXZoRFhDY2dNT1hxWTRTOXlnTDdvaE9qM1c5LXIyRkU3cDVyQ1lHMmlBRWQ2WUJwU3NB?oc=5",
+        "title": "Dron spadł pod Warszawą. To sprzęt wojskowy",
+        "official": false,
+        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112."
+      },
+      {
         "at": "2026-10-20T22:54:20.000Z",
         "cat": "security",
         "sev": 2,
         "source": "Wiadomości Onet",
         "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNYVdIY2tKVjNFZVBaZmFOSmFFNHNfX2pXTl82UUhiTXZUblRmZGdRczNKUjZONE5VdnE3TTFNTUNJdEtjUGpoUjNDQ0xZa2owd21jdXdZZVU4T2RnWWpfNE5wWVVmbmdvVEM0SzVIYUtvekpxTlU1QzRvVndxUVJMa1JwUnRRWjQ0T2RQZTVxNk9VZEpDaHZ1TnJhUlJScmtNcHpQWHliT2hnUQ?oc=5",
         "title": "Mieszkańców zaniepokoił huk. Dron spadł na prywatny teren pod Warszawą",
+        "official": false,
+        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112."
+      },
+      {
+        "at": "2026-10-20T20:24:51.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Goniec",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOOXc2NjFmaXk2YkkxVElZSmpRR0pnY1lBQktMSUlsRF82eEpSODA3S2ZPQW1qSGRfVmtRMm5vd1hFUGxDMXNabUdNdS0xdmVpVV94R3pGTktTVUd5ak9TSHRSRFVEdTE5V1VFM3NmQTdvOXRBT2xXVTMwaUs3UHUyTWIzRUJHZVpaY3I0VWNtM2hGR0xUai1XY1JzT1k5NDc2MlJ4RFFLbDJybDVKX0s5MTZVbzg5VkdzNkc4SnRjTHVTOXI0UUI0cXFFZFgxQQ?oc=5",
+        "title": "Dron spadł na posesję pod Warszawą. Należał do Wojskowego Instytutu Technicznego Uzbrojenia w Zielonce",
         "official": false,
         "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112."
       },
@@ -162,53 +202,33 @@
         "title": "Rząd ma już plan masowej ewakuacji i przygotowuje się na najgorsze. Miliony Polaków mogą dostać sygnał w jednym momencie",
         "official": false,
         "forYou": "Słuchaj poleceń służb, weź plecak ewakuacyjny, dokumenty i leki. Nie wracaj, dopóki służby nie odwołają ewakuacji."
-      },
-      {
-        "at": "2026-10-20T14:48:00.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "RMF24",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSEQ1VlpqdUNGMmNTQWl1enFQSFFpazdmOE01SHF3UkVuS2VhY0xwUlYyRkJtLS1nY0tfT2h5b1FyT1FxRGNyVlhNSjczcjVyazZDYlFjSkE5WkgxVjdiaHdzcTdJOE1adzkzYk1hajMwTWo2UFUwVlRrMDJ3MllOVTBPNU5hTVdEZGJ4TDhNSWxjR2c?oc=5",
-        "title": "Kolejny alert RCB. Ukraina atakowana",
-        "official": false,
-        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady."
-      },
-      {
-        "at": "2026-10-20T13:57:54.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Polska Agencja Prasowa SA",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOLXAyTlkyVHktY1FNd2VmeXAwR2ZobTUzMFVTNFQ0UGRWcEg3X0RGRXYyVG5QWEtmYzctc1JnbWcxNTA4X2ItUXZPcnltRmJkb0tWS0s4QUxGVHZNcGt4aGJYcnlrSFcyZTl2OGJjUUlaTWhaSHRPdEIyLUVZNnRzNHdjSlY0bHpxU2RF?oc=5",
-        "title": "Alert RCB odwołany. „Brak zagrożenia na terenie Polski”",
-        "official": false,
-        "forYou": "Zagrożenie minęło. Sprawdź, czy w domu wszystko jest w porządku, i uzupełnij to, czego użyłeś z zapasu."
-      },
-      {
-        "at": "2026-10-20T13:50:07.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Polska Agencja Prasowa SA",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxObXJOVGZWckQxTmt6Z09mcWVSNlZwUG4wYnVyT0NJR0M5T3lxR2Vmc2VEeHJ6VE90TF9MWktBNXUzRnh3aUZQQ1dBb29TUDY2OXV1VXRIeFlKWkJVMDJUWlhDQjJJZVRIdFJKaUJqRnU4WlNfSXhEcXpzWklrYU1Ycl83UXBxOTM2dnprTzFNbw?oc=5",
-        "title": "Alert RCB odwołany. „Brak zagrożenia na terenie Polski”",
-        "official": false,
-        "forYou": "Zagrożenie minęło. Sprawdź, czy w domu wszystko jest w porządku, i uzupełnij to, czego użyłeś z zapasu."
-      },
-      {
-        "at": "2026-10-20T13:37:26.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "Gazeta",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQSjI2aGVmeVE3VEs4VjRzVkh5cUFfcUQ0ZWVOQ3BzVGx3ZkZVakpoT3VIM0p5OVczVHJDLW5ySDIwQklDbERpVWlZLUxkQTEtSzVmZk5oRWxZRmstOVg0ajZISnBBNXhLamE1amVxTHBHeFc5S0JwcDM4UFpPQzNUWHdDbnhVRldzVjMydTd0di03M3pmMEl5U0JtOV9oOFVwbHAzUnMzN3ZnV1c4NGlDTnpKRko1NWJ5cVlBa0xn?oc=5",
-        "title": "Wydano alert RCB dla części województwa podkarpackiego. Powodem zagrożenie atakiem z powietrza",
-        "official": false,
-        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady."
       }
     ],
-    "updatedAt": "2026-10-21T00:08:29.508Z"
+    "updatedAt": "2026-10-21T01:24:17.490Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-21T01:14:50.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Bilyonaryo Business",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPU3RNN1UyQy1uSGVFU1RzZXNJNV8ya3k1UTBsTTlUb3VGZjVFTE92bzk0NnhqZGNoVlVIODR2NUVhWFhjRVc1U2xIMERnMEpEWTIyR0hPNjRuSjlDdWNmWTByUzNCN2RkY25ONHhlX2JyQU8tRTJlUW1YSS1GQUh6VnlrUkdJWVhFa3JYUm9MSnc3cldoSkZDQ3pySEE?oc=5",
+        "title": "SafePay ransomware group has targeted hundreds this year, US agencies say",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
+      {
+        "at": "2026-10-21T00:33:52.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Tempo.co English",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPVkNaMnIwN0JUVEZSQ2JGWVRoaTh1VUlWT2dzY0M1YmxETW9KQVRsSHFidXgwa0M3cENkTGVOMUZmNEVST3ZZbzloX3M4UlQyNUtXV1Y4ZTA5TGNOQy1NdThZUmRQUnRmaVlmNkViYnREY0xIUUtOU0R4VnE2bng5ejhJSlN2VFMyQkVNaHFscElTNm1XblY0?oc=5",
+        "title": "Police Probe Possible Sabotage Behind Batam-Bintan Blackout",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
       {
         "at": "2026-10-20T23:57:13.000Z",
         "cat": "cyber",
@@ -388,28 +408,8 @@
         "title": "Can government and industry prove they’re ready for a cyberattack?",
         "official": false,
         "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-20T14:19:23.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "France 24",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMzdyMVZ2cmVrTXdlNGNvWFpnNWNXM2hBT2JWczIyc0kxYnBSam0xTEFLZUQtaWlOeGxtNHRORjllRVJ3T1l2TjJUTmwwX2pxM1lkT0lJTWpnSWJiYlMtdnloNlZFU3MzQnJlS3dkdkdhakhqRkhyOHZqWnc2Z2xicEtaYmVTTi00NVlBdkpKYkkwcHZFSUZLTGJwZERTeDhpRHFjYlZ1dDJJQQ?oc=5",
-        "title": "Power outage hits Google Cloud services, disrupting UK banks",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-20T13:53:18.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Ada Derana",
-        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBheVBzLThicVduMjhaTUtUdWlRTkV3dlBzS19feWd2RGUwNlVweDNxMEpfTm9xSnNibDh1SFdoMHhHVXpjWmhF?oc=5",
-        "title": "Over 300,000 suspects arrested under ‘Nation United’ operation in one year",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       }
     ],
-    "updatedAt": "2026-10-21T00:09:54.014Z"
+    "updatedAt": "2026-10-21T01:26:14.442Z"
   }
 }
