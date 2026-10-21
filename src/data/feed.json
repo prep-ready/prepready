@@ -4,12 +4,12 @@
     "sample": false,
     "items": [
       {
-        "at": "2026-10-21T14:00:23.000Z",
+        "at": "2026-10-21T13:27:00.000Z",
         "cat": "security",
         "sev": 2,
-        "source": "Wiadomości Onet",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSE1ObDR1emNmUGdJSDFFWk5PUWFRQkF2cXRub1pqMEF0RElka2c1aGNzTXpEa2JqMXNPOUhCUFE1R2FkdE1RZnF6VjBZQVBaTl85NTVtWlc5QlhjMjlVTWwxR0NiZ2pvSXFtbXVrWEtVNDR2eHlQcHY0U3JOX1hjbHFHNkdOb0pMZmZXZVk3bzBNMm5sR1RDdmExUy1tb0liNXFKZkVJTEtVUGZv?oc=5",
-        "title": "Akcja służb na Podkarpaciu. W Lubaczowie spadł obiekt przypominający drona",
+        "source": "Rzeczpospolita",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQXVYeWJ2T0p0R3ZfcTUzWkZoY2M1ZnJXay0xWmRhYnJlWEt5clFLbUdkNDBqTU1TbHZ2d0ppM01FR09mYWJUTmp3NUJiWDFvZ3psdFJaY0lWSEgxZlVvMXp2dGdWM1A5dDRXTFBUSktRblhHWWtMTzM0ZEZsdXlzUzRPcWg2dThmZ0FUajN2SFRsdmVoYlF2UWpfQW9lVnBtUFBMTkRPelpqT1Voc2xyWWlfYTh3Q05q?oc=5",
+        "title": "Dron na niezamieszkałej posesji w Lubaczowie. „Nikomu nic się nie stało”",
         "official": false,
         "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112.",
         "guide": {
@@ -18,12 +18,12 @@
         }
       },
       {
-        "at": "2026-10-21T13:27:00.000Z",
+        "at": "2026-10-21T12:41:21.000Z",
         "cat": "security",
         "sev": 2,
-        "source": "Rzeczpospolita",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQXVYeWJ2T0p0R3ZfcTUzWkZoY2M1ZnJXay0xWmRhYnJlWEt5clFLbUdkNDBqTU1TbHZ2d0ppM01FR09mYWJUTmp3NUJiWDFvZ3psdFJaY0lWSEgxZlVvMXp2dGdWM1A5dDRXTFBUSktRblhHWWtMTzM0ZEZsdXlzUzRPcWg2dThmZ0FUajN2SFRsdmVoYlF2UWpfQW9lVnBtUFBMTkRPelpqT1Voc2xyWWlfYTh3Q05q?oc=5",
-        "title": "Dron na niezamieszkałej posesji w Lubaczowie. „Nikomu nic się nie stało”",
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSE1ObDR1emNmUGdJSDFFWk5PUWFRQkF2cXRub1pqMEF0RElka2c1aGNzTXpEa2JqMXNPOUhCUFE1R2FkdE1RZnF6VjBZQVBaTl85NTVtWlc5QlhjMjlVTWwxR0NiZ2pvSXFtbXVrWEtVNDR2eHlQcHY0U3JOX1hjbHFHNkdOb0pMZmZXZVk3bzBNMm5sR1RDdmExUy1tb0liNXFKZkVJTEtVUGZv?oc=5",
+        "title": "Akcja służb na Podkarpaciu. W Lubaczowie spadł obiekt przypominający drona",
         "official": false,
         "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112.",
         "guide": {
@@ -184,11 +184,31 @@
         "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
       }
     ],
-    "updatedAt": "2026-10-21T15:19:29.626Z"
+    "updatedAt": "2026-10-21T16:19:11.558Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-21T15:35:47.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Cybersecurity Dive",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWElmNk5keXBOZG9JQ0hRSnB2WjU0RklnU1RvZFBLcWRPWjFmZGxBN3VWSzgyZGRwaGlSYmticTNmTUFsYTgyTmZBVXVPZk1iX2Q3bjBsLTF2d3RCdDdBNE5RQWVDWVVwZlhQSkVnaDFxMmdfYmxYYkJIRDEtMjcyOTBfREp6ZkprTjlEY2doQjNiMXBwWUdpeW5JbE9QQllBS0h2dkNyR2daTmtCNkFB?oc=5",
+        "title": "FBI, CISA warn that SafePay ransomware poses threat to critical infrastructure",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
+      {
+        "at": "2026-10-21T15:26:26.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Ada Derana",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9JNkdydFNUemt5X1lYUFE0ZERKOHYydU5oNmpvMXkxeUd2OFVXRGJCcEdSZnptNEJnMTdncllKR1JGOTN6Ykk0?oc=5",
+        "title": "Public cautioned as 6 sluice gates of Deduru Oya Reservoir opened",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
       {
         "at": "2026-10-21T14:15:08.000Z",
         "cat": "cyber",
@@ -210,16 +230,6 @@
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       },
       {
-        "at": "2026-10-21T13:11:07.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Ada Derana",
-        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE00Ym96WXlBelhkdDJsUTZ4ODNtQlJsbWw2Um9pNmxRdlBwbHlPYVR2cUhZVkUydUhwTmw2emtLMWJDcDdSODln?oc=5",
-        "title": "Two spill gates of Upper Kotmale Reservoir opened amid heavy rainfall",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
         "at": "2026-10-21T12:06:01.000Z",
         "cat": "energy",
         "sev": 2,
@@ -228,16 +238,6 @@
         "title": "Advisory issued for rough seas",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-21T11:00:00.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "Infosecurity Magazine",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE81bkNYdXRUMnIwQ0VEbzFTOUJlSTNmeUlzZlB5b0NzMC1oeFMtRzBLSUZWbWtGRENkU0dGRkUwbXNZN1lXM0IyZU5JdUU4QkJIRUE1TC05bl9xS2ZVUWpQdmk1TWpaUWJoVjhFY3FYMHFueFhlSm8yd09SaWk?oc=5",
-        "title": "SafePay Has Compromised 600 Critical Infrastructure Victims Worldwide, CISA Warns",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
       },
       {
         "at": "2026-10-21T10:48:27.000Z",
@@ -390,6 +390,6 @@
         "forYou": "Update your devices and don’t tap links in alert-style messages."
       }
     ],
-    "updatedAt": "2026-10-21T15:21:32.724Z"
+    "updatedAt": "2026-10-21T16:20:36.502Z"
   }
 }
