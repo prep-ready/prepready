@@ -43,7 +43,7 @@
       },
       {
         "at": "2026-10-21T16:40:05.000Z",
-        "cat": "safety",
+        "cat": "security",
         "sev": 2,
         "source": "Portal Samorządowy",
         "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWXhxZ2w5bUZzc3kycnNrX2dHOUZuX1lQUEJvYW5rRWZrdmpyb0pvOWc3UU5jS3dYNF9JMGJJY1Fwel9RSFZrRVFnWmlZcFFjeTJ1VjdkcVllRUp3WERhajhtbFJvSHY0SndRWjU4OUJadDRKZmF1cXIyaEU0N08ydHIwMzlHal9sX29sV2ZQYkEzLUI5QVRMbXBkUnhvUTVEWWpqdFFDcWJxTl9uZVhOZ0JPbXREWDNieDVJbmNhRQ?oc=5",
@@ -232,11 +232,21 @@
         "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
       }
     ],
-    "updatedAt": "2026-10-21T20:14:00.006Z"
+    "updatedAt": "2026-10-21T21:16:33.628Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-21T20:55:34.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "UNITED24 Media",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcEZWdXNxVU1aNzZhcHRseUNpVGUwQkJwcFNjeEJGd2dEbkIwME1pNjJCZmd5V2J5ZzVmNjhJd193cUV0S1JjMnNoZmpZMWlWaXMzams2Q3lnaVFIT05YcGhUTjl0bzNhRWJnalNSU052emd3d1dROFp2ZWhpdWJqT0lMSU91M3FLZ3lFckhjSEptNDNNN0R1cW5ZS25oR2lkWUphb1piYWJFd1ZPQ1d4NHNCUTAzUG8tVWFSTkhwazJKa1AwT1RV?oc=5",
+        "title": "Russian Ballistic Missiles Strike Kyiv’s Dniprovskyi District, Leaving Five Injured",
+        "official": false,
+        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+      },
       {
         "at": "2026-10-21T18:21:39.000Z",
         "cat": "cyber",
@@ -378,16 +388,6 @@
         "forYou": "Update your devices and don’t tap links in alert-style messages."
       },
       {
-        "at": "2026-10-21T07:48:26.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "UNITED24 Media",
-        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQdXNIRXFrS1VHby1OcDc1RmZCZmJheHVKMnRWVzdZSVV2d1lXMUtyaFQ2OTR4RmRWU1pUcFFobElFd2NjN2xIVVgtZ2NuWGlTV29kU3NsWWlSNDVYZEhYeDFMNWNfQUpRQzZzSHJiSG5scC1PZ0VKQTVTU1l5eFkyN2puUGFRRkRObG1xYzJoUVAxRlF5VzZPVTMwZXpRd1Z0cE9aNjVSeVVmOTBQZjBFbG1aR00tM2JpYzdvb2FFc1FYeVFueUpkWTk3NGs4VXZVenc?oc=5",
-        "title": "US Restores Ballistic-Missile Warnings to Ukraine as Russia Hits Kyiv High-Rise, Killing 2",
-        "official": false,
-        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
-      },
-      {
         "at": "2026-10-21T06:36:52.000Z",
         "cat": "energy",
         "sev": 2,
@@ -438,6 +438,6 @@
         "forYou": "Report suspicious activity near railways, power lines or military sites to emergency services. Do not photograph military installations."
       }
     ],
-    "updatedAt": "2026-10-21T20:15:17.250Z"
+    "updatedAt": "2026-10-21T21:17:53.296Z"
   }
 }
