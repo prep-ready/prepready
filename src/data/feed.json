@@ -4,6 +4,16 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-10-20T22:54:20.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNYVdIY2tKVjNFZVBaZmFOSmFFNHNfX2pXTl82UUhiTXZUblRmZGdRczNKUjZONE5VdnE3TTFNTUNJdEtjUGpoUjNDQ0xZa2owd21jdXdZZVU4T2RnWWpfNE5wWVVmbmdvVEM0SzVIYUtvekpxTlU1QzRvVndxUVJMa1JwUnRRWjQ0T2RQZTVxNk9VZEpDaHZ1TnJhUlJScmtNcHpQWHliT2hnUQ?oc=5",
+        "title": "Mieszkańców zaniepokoił huk. Dron spadł na prywatny teren pod Warszawą",
+        "official": false,
+        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112."
+      },
+      {
         "at": "2026-10-20T19:55:42.000Z",
         "cat": "security",
         "sev": 2,
@@ -192,23 +202,23 @@
         "title": "Wydano alert RCB dla części województwa podkarpackiego. Powodem zagrożenie atakiem z powietrza",
         "official": false,
         "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady."
-      },
-      {
-        "at": "2026-10-20T13:37:10.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "WP Wiadomości",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTVo3M0h1SURTM2tndzdTWUVqSHU5QVRocF9vV3ZnTXd6Zl9hWTFvcU5DcTJpVTIzX3Rfc08wNTdiUG52UTJJVUlxMWxoOFFuVThGaGtaODhOSTMzLW82QzJfTG1jN2E0dWp1RVp2bTd6TVVkZUVIdkIyQUFHaUloRlNtS2pQQWFqTVJSY2VRN2lQSzFibmtxa2lhbzA?oc=5",
-        "title": "Ostrzeżenie dla Podkarpacia. Wojsko poderwało myśliwce",
-        "official": false,
-        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112."
       }
     ],
-    "updatedAt": "2026-10-20T23:11:56.618Z"
+    "updatedAt": "2026-10-21T00:08:29.508Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-20T23:57:13.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "WSAU",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOR0xVWXJ0YmRQZ3dkaXZENTZKaGtjbURWN2x1MjB0amRmeDhkWmFiUnJFbXdrVlotRnJqcGZ6cTl4eDhxc3dLdU9NemtOQU8xa3dGLXpwNEhJelBsdmM2Zy1tczdhVEh1U2VqU0RSZUM5Z0Y2NmJIVHdkZEN3bHNUSDVPanMtN3Z2R1ZsenBkWUZWcDVNLWd0a3F3SkU3VXgyMko4?oc=5",
+        "title": "SafePay ransomware group has targeted hundreds this year, US agencies say",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
       {
         "at": "2026-10-20T22:08:04.000Z",
         "cat": "cyber",
@@ -268,6 +278,16 @@
         "title": "Discovery of cross-domain cyberattack risk targeting electric vehicle charging navigation systems",
         "official": false,
         "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
+      {
+        "at": "2026-10-20T18:04:54.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Ada Derana",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBfUGJnbWFaaFFtSm9iTHFEdGJiSG5LZWR5MmxxLTNOUU1XWXoxRjdFRXZRZWJJQkVwYm9YM25mODhxQjRubXhZ?oc=5",
+        "title": "Ex-Minister G.L. Peiris arrives at Bribery Commission",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       },
       {
         "at": "2026-10-20T18:00:16.000Z",
@@ -388,28 +408,8 @@
         "title": "Over 300,000 suspects arrested under ‘Nation United’ operation in one year",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-20T13:35:00.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "The Register",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUEZjaFNGNXZ0TTZ0dVY3VDhsSVNuRXVCRTZGSEdSS3pGTzRIcUdPVW1IV2U3NzhvS0h1Z0hnQi1EZ21seVVGSVg3VDNpenRQejZ3WVhvUnp5aU9LdGdKYjZ3cGQyZklUXy1NeE9HMm5sUEJqMzRlNC1SNW1CUDRTeEV0WkIxZmo3TUpyb3BTSWtIMXhjbXpwemVwcnNWNXFDVmdrYjZsa1NLZDM2YlY1UmtNQUdkMmQ5MHplZ2h0SFBJaGJ6SDh0Tg?oc=5",
-        "title": "'Password1' and a forgotten test account land Welsh outfits in hot water",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-20T13:11:16.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Ada Derana",
-        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE90UG9TTXVLZVF1UlRmX1g5S2MzZ3pjeldMN0JhMEZEc3lVbzUtS2c2aDFjU0tzYWR0bUx6VGpyWkRxVXYzWFFr?oc=5",
-        "title": "Two killed by lightning strike in Anuradhapura",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       }
     ],
-    "updatedAt": "2026-10-20T23:13:09.277Z"
+    "updatedAt": "2026-10-21T00:09:54.014Z"
   }
 }

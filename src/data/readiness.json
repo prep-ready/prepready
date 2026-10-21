@@ -2,9 +2,9 @@
   "_comment": "Aktualizuje scripts/update-data.mjs codziennie. pl = Polska, en = świat. Składowe z mode=manual ustawiasz ręcznie.",
   "pl": {
     "sample": false,
-    "updatedAt": "2026-10-20T23:11:56.617Z",
+    "updatedAt": "2026-10-21T00:08:29.507Z",
     "score": 36,
-    "delta7": 11,
+    "delta7": 9,
     "ago30": 29,
     "history": [
       29,
@@ -32,6 +32,7 @@
       29,
       31,
       33,
+      36,
       36
     ],
     "components": [
@@ -42,12 +43,12 @@
         "value": 63,
         "sources": "GDELT · Google News",
         "trend": [
-          34,
           37,
           20,
           15,
           27,
           46,
+          63,
           63,
           63
         ],
@@ -65,6 +66,7 @@
           56,
           51,
           55,
+          100,
           100,
           100
         ],
@@ -115,13 +117,13 @@
         "value": 33,
         "sources": "IMGW · GDACS",
         "trend": [
-          13,
           33,
           13,
           33,
           33,
           33,
           13,
+          33,
           33
         ],
         "mode": "auto",
@@ -138,7 +140,7 @@
           12,
           12,
           12,
-          12,
+          27,
           27,
           27,
           27,
@@ -155,11 +157,11 @@
         "value": 5,
         "sources": "GDELT · Google News · CERT",
         "trend": [
-          17,
           5,
           34,
           28,
           30,
+          5,
           5,
           5,
           5
@@ -215,14 +217,15 @@
       "2026-10-17",
       "2026-10-18",
       "2026-10-19",
-      "2026-10-20"
+      "2026-10-20",
+      "2026-10-21"
     ]
   },
   "en": {
     "sample": false,
-    "updatedAt": "2026-10-20T23:13:09.276Z",
-    "score": 40,
-    "delta7": 6,
+    "updatedAt": "2026-10-21T00:09:54.013Z",
+    "score": 42,
+    "delta7": -1,
     "ago30": 35,
     "history": [
       35,
@@ -250,24 +253,25 @@
       40,
       35,
       37,
-      40
+      40,
+      42
     ],
     "components": [
       {
         "id": "conflict",
         "name": "Global conflict",
         "weight": 30,
-        "value": 43,
+        "value": 51,
         "sources": "GDELT · Google News",
         "trend": [
-          39,
           50,
           41,
           45,
           36,
           39,
           40,
-          43
+          43,
+          51
         ],
         "mode": "auto",
         "raw": [
@@ -315,17 +319,17 @@
         "id": "energy",
         "name": "Power & grid",
         "weight": 15,
-        "value": 32,
+        "value": 31,
         "sources": "Google News",
         "trend": [
-          14,
           32,
           34,
           35,
           35,
           5,
           15,
-          32
+          32,
+          31
         ],
         "mode": "auto",
         "raw": [
@@ -354,6 +358,7 @@
           55,
           26,
           35,
+          51,
           51
         ],
         "stale": false
@@ -365,13 +370,13 @@
         "value": 61,
         "sources": "GDACS",
         "trend": [
-          52,
           67,
           57,
           66,
           72,
           72,
           66,
+          61,
           61
         ],
         "mode": "auto",
@@ -388,7 +393,7 @@
           20,
           20,
           20,
-          20,
+          28,
           28,
           28,
           28,
@@ -402,17 +407,17 @@
         "id": "cyber",
         "name": "Cyber & infrastructure",
         "weight": 15,
-        "value": 34,
+        "value": 32,
         "sources": "GDELT · Google News",
         "trend": [
-          34,
           38,
           5,
           5,
           34,
           26,
           32,
-          34
+          34,
+          32
         ],
         "mode": "auto",
         "raw": [
@@ -459,7 +464,8 @@
       "2026-10-17",
       "2026-10-18",
       "2026-10-19",
-      "2026-10-20"
+      "2026-10-20",
+      "2026-10-21"
     ]
   },
   "doomsdayClock": {
