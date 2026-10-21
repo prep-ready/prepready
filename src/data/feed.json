@@ -232,11 +232,21 @@
         "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
       }
     ],
-    "updatedAt": "2026-10-21T21:16:33.628Z"
+    "updatedAt": "2026-10-21T22:14:14.432Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-21T22:05:01.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Security Today",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVVZ4SFJlb3EwV2IzODVjODRJUzg5VndIUmhHbUh1Y1FwNnk2eWIxTjZQbHhlaE0tQTZpRDZKRnRhYzhLT09hR3dFcHZRQ2pBTTdjdmJiOFJjeV9zdjdLdXZ6T2VmUnYwZTVlcnQwMklxcG8xcWxEWVkwTVFXUlR1SjA5TFE2bU1SZDRpQk5IZDY0V3loZjNCSXNhQTJjckdCMTNpZzBBbE15T1ZlTFE?oc=5",
+        "title": "Industrial Sector Drives Ransomware Surge in Third Quarter",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
       {
         "at": "2026-10-21T20:55:34.000Z",
         "cat": "security",
@@ -246,6 +256,16 @@
         "title": "Russian Ballistic Missiles Strike Kyiv’s Dniprovskyi District, Leaving Five Injured",
         "official": false,
         "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+      },
+      {
+        "at": "2026-10-21T20:24:03.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "GV Wire",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbm83RUFsaS1PeW1PTW9SOFRvVlBDV19CTjhtdklZR1VfcEhLWHNydVRrTVVCYlB6VHdzbERxcmlrZ09iYWFkMnJtNTFDM3VyN01xTHIxMkhYczgyRGVBVjdtS3otdGFocmttLXFqWVdMUUtWUXdPMTM3RkNpTHEtU1c3b1VqMkxvOTRqVEhjR0k5b0VnMVp6RlpNTS10VTQ0SVE?oc=5",
+        "title": "Clovis Police Warn Drivers as Power Outage Knocks Out Traffic Signals",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       },
       {
         "at": "2026-10-21T18:21:39.000Z",
@@ -266,6 +286,26 @@
         "title": "TheHomeMag NorCal Ransomware Attack by N0n",
         "official": false,
         "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
+      {
+        "at": "2026-10-21T15:56:21.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9xX1hnU3Z3UlN6QXdlYVZmc3pBdE1tX3ZVV24xSl9FaHNnWGY4YWhXVHBkb253UWJqODVkMmRlX0NDNGhHU3FYV2ZOSHNDU3UzZENnTXUxTHFYaU1veFE?oc=5",
+        "title": "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks",
+        "official": false,
+        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+      },
+      {
+        "at": "2026-10-21T15:56:12.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "TRT World",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNUlJRYUlid2ExM0hjaFdXNWdITTF0dnhWbDRud2FFZ3lCWURPLVI5SWdZXzBGRTNkM21iU181bW9lYXdQYzhyOGw3YlE5QTN0NmNzcVNwQnAzcFZRM3hpSXBvd0RpdFplOW81Q2duZzBwaWpSRnRUQlhnUlRWNFZwTmd1MWtJeUdEbEhpbTVQR2NMUDhOUWJRMGpXUFRvRkZVNHpUR2hvWkdqWHFuZ1M0amdselY3Sk5CeVliaHNPU3pzWkt3Ujdpb2pHMHpCZw?oc=5",
+        "title": "Houthi militia attacks Al-Rayyan airport, claims Aden strike: Yemeni media",
+        "official": false,
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       },
       {
         "at": "2026-10-21T15:35:47.000Z",
@@ -348,16 +388,6 @@
         "forYou": "Update your devices and don’t tap links in alert-style messages."
       },
       {
-        "at": "2026-10-21T09:00:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Middle East Eye",
-        "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNRExxZzB6Q2FBeWNQY0lSOC1OZXVyMjdrNzhWbG9za0swaGl4TmFhQzRMWXFXcmxJWkEtTEp6UDRyVEIyUFk2bGdwU3dHZVFya1JSdk1WQnJmb254eXcxcGxkNDNVODkxbVV0d2pidkg5UUM0bDc1RVJWSm01VWxHemJMUGVRZVR4QV8yeXVDSDNoMnltN3BCZVBJbWl4M2lTQlVnbEtOQmZXU2RrVlNsSV9LVnVKR1M5RnRFRjRVYk5UM1c2V2hPbmFqX3ZoVU15cEx4Xy1OLWp5Zjd1U2lDVWFCb2hVV042NjlLTkdGa04tcHFvU3k4SDZJdWlMQQ?oc=5",
-        "title": "Missile targets Aden airport as Houthis claim strike on coalition site",
-        "official": false,
-        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
-      },
-      {
         "at": "2026-10-21T08:45:55.000Z",
         "cat": "security",
         "sev": 2,
@@ -406,38 +436,8 @@
         "title": "Joint Advisory Details SafePay Ransomware Tactics After at Least 600 Victims · cyber.hendryadrian.com",
         "official": false,
         "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-21T06:02:02.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Silicon UK",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPbGVhNEY4QnBhRXlqSFdaY09ReU00c3c2WjFLZEpmRndVZzlRRWlndjduelotb2k0QVR1Ui1JNFlNSFo1SzJ4dnk1dlR2NVdQVFpzMVBXcE1HM2VXbUpoT0RtcGZ4dVVyX0REdnVpcElHdkxoM3VkcmI3Uk9VQmlrbw?oc=5",
-        "title": "Google Blames Power Outage For Widespread Cloud Disruption",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-21T05:39:04.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Arabian Business",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeGVzSjhrbUhOTTctX0ViTkJTRnFEZnkwNTJQR3gySTJRQlk3aXNwenJ2Qk1DejVYcF84dmF4WDFPd2xKRzEwazEtOEdOb05OOFhJaXZQVTd3R2lDRHdGbTgtM1JSSEMxeFN5OTlLc0tLNE55MHlHRDZNU3lOVFBDaTJwQQ?oc=5",
-        "title": "Iran war live: Netanyahu pushing for major new offensive",
-        "official": false,
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-21T04:28:30.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Radio Free Europe/Radio Liberty",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9OeTc1VE5lcEx0QzNhVlh6TnBVZUhfdi1MR0xZQnJOLWo2U3dHb09ucVhPNXctSTFXNTF6R3EwZEJXSl96SF9zS2FPUWFwcHpHeFVMaGtUckZiaGIydHc1SFMwT3U1R1h5WnMtY2RGUkdtYm1jV2VUMWFB?oc=5",
-        "title": "Iran Repeats Threat To Target Undersea Fiberoptic Cables",
-        "official": false,
-        "forYou": "Report suspicious activity near railways, power lines or military sites to emergency services. Do not photograph military installations."
       }
     ],
-    "updatedAt": "2026-10-21T21:17:53.296Z"
+    "updatedAt": "2026-10-21T22:16:23.487Z"
   }
 }
