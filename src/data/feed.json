@@ -4,6 +4,20 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-10-21T21:02:21.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Gov.pl",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAxMWZHYXAyeHkyT0JxRmtoVVpwSjFaaEZTNk1Gc1RTbzFjY0RpSkJOR1MzMUg1ODBrSjRwbTVYc0VXcjhaS2F4OTdJLVRzTmY3OHFCM0pJUGpBc3FGSzJwcFVBaU9MS1pPUjYwck9aSm9oQzhW?oc=5",
+        "title": "Alert RCB - zagrożenie z powietrza (21.10)",
+        "official": true,
+        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
+        "guide": {
+          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
+          "label": "Alert RCB i aplikacja RSO"
+        }
+      },
+      {
         "at": "2026-10-21T19:25:00.000Z",
         "cat": "safety",
         "sev": 2,
@@ -40,6 +54,16 @@
         "title": "Nagły wzrost w trzech województwach. Rozpędza się nowa epidemia",
         "official": false,
         "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
+      },
+      {
+        "at": "2026-10-21T17:45:58.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "TVN24",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNcmlMS0ctZGtIS2RuLXpCSDdZTjVESEM5U1ZXNkRfUEtQcmVMVnBpTno4LTJ0TkltMnVXWW16Zm54Y0ZiREFURHR4MnVRaGRUMkh0b2RXWnpRNzd0VVJIV1Q5RlR5Z2lRT0I3ZjN3dzJ2SHIzTWI5R0ZiaDhmT1VFb19qbjJuR0hMTnJiZzVsbTVjMGJQY2c?oc=5",
+        "title": "Żandarmeria o \"utracie kontaktu z obiektem latającym\". Spadł na Podkarpaciu",
+        "official": false,
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
       },
       {
         "at": "2026-10-21T16:40:05.000Z",
@@ -82,16 +106,6 @@
           "href": "/pl/mapa-schronow/",
           "label": "Mapa schronów"
         }
-      },
-      {
-        "at": "2026-10-21T12:44:59.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "WP Wiadomości",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQU1Z4R1VhcTNnMjh3SlY1R1k0Qzl6WkZOOUdvTGZBRUp5dlE5TW5tdXhfOWFtdVI2V3NYYVYyeDVkeFdUR3p5U0o4VU53MlJlWUwwbnk3OTg1NDQ3Q2RYeTBnN3JtdUxKNjIwY2pOOVJMSFg5dWZnUGZ2akROSEtRR2tZd2c4bFRCNTRvM0Y5cXlzc2RxUkRXeQ?oc=5",
-        "title": "Akcja służb na Podkarpaciu. Spadł podejrzany obiekt",
-        "official": false,
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
       },
       {
         "at": "2026-10-21T11:58:06.000Z",
@@ -232,7 +246,7 @@
         "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
       }
     ],
-    "updatedAt": "2026-10-21T22:14:14.432Z"
+    "updatedAt": "2026-10-21T23:11:58.473Z"
   },
   "en": {
     "sample": false,
@@ -438,6 +452,6 @@
         "forYou": "Update your devices and don’t tap links in alert-style messages."
       }
     ],
-    "updatedAt": "2026-10-21T22:16:23.487Z"
+    "updatedAt": "2026-10-21T23:13:34.935Z"
   }
 }
