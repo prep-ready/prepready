@@ -132,10 +132,11 @@ const TIP = {
 const RULES = {
   pl: [
     [/zakończ|odwoł|brak zagrożenia|znów otwart|wznowion|ponownie otwart/i, 'Zagrożenie minęło. Sprawdź, czy w domu wszystko jest w porządku, i uzupełnij to, czego użyłeś z zapasu.'],
-    [/dostaw|zakup|kontrakt|umow[aęy]|dostaje|nowe (rakiety|czołgi|samoloty|śmigłowce)|modernizac/i, 'Informacja o modernizacji armii. Nie wymaga działań z Twojej strony.'],
+    [/dostaw|zakup|kontrakt|umow[aęy]|dostaje|nowe (rakiety|czołgi|samoloty|śmigłowce)|modernizac|wyprzeda|przetarg|aukcj|Agencja Mienia/i, 'Informacja o sprzęcie wojskowym. Nie wymaga działań z Twojej strony.'],
     [/alert rcb/i, 'Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.'],
     [/dron|przestrze[nń] powietrzn|rakiet|poderwan|myśliw/i, 'Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112.'],
     [/sabota[żz]|dywersj|podpalen|(torach|torów|linii) kolejow/i, 'Zgłaszaj podejrzane osoby i przedmioty przy torach, liniach energetycznych i obiektach wojskowych pod 112. Nie rób zdjęć instalacji wojskowych.'],
+    [/szkoł|szkol[ey]|uczni|uczeń|uczennic|przedszkol|nauczyciel/i, 'Przypomnij dziecku zasady: słuchaj nauczyciela, uciekaj od zagrożenia albo schowaj się w sali i wycisz telefon. Nie dzwoń do dziecka i nie jedź od razu pod szkołę, czekaj na komunikat szkoły lub policji.'],
     [/ćwiczen|manewr|kolumn|konw[oó]j|przemarsz/i, 'Ćwiczenia wojskowe: spodziewaj się utrudnień na drogach i hałasu. To zaplanowane działania, nie powód do niepokoju.'],
     [/mobilizac|pobór|kwalifikacj|karta mobilizacyjn/i, 'Sprawdź, czy Twoje dane w urzędzie i WKU są aktualne. Informacje o wezwaniach podaje tylko wojsko i gov.pl.'],
     [/ewakuac/i, 'Słuchaj poleceń służb, weź plecak ewakuacyjny, dokumenty i leki. Nie wracaj, dopóki służby nie odwołają ewakuacji.'],
@@ -155,9 +156,38 @@ const RULES = {
   ],
 };
 const tipFor = (lang, cat, title) => ((cat === 'security' || cat === 'safety') && RULES[lang].find(([re]) => re.test(title))?.[1]) || TIP[lang][cat] || TIP[lang].security;
-const OFFICIAL = /^(IMGW|PSE|CERT Polska|GDACS|ECDC|RCB|Policja|gov\.pl|policja\.pl|Rządowe Centrum Bezpieczeństwa|Ministerstwo|MON|MSWiA|Dowództwo Operacyjne|Straż Graniczna|PSP)/i;
+/** Link do poradnika PrepReady pasującego do treści wiadomości. */
+const GUIDES = {
+  pl: [
+    [/szkoł|szkol[ey]|uczni|uczeń|uczennic|przedszkol|nauczyciel/i, '/pl/poradniki/bezpieczenstwo-dziecka-w-szkole/', 'Bezpieczeństwo dziecka w szkole'],
+    [/alert rcb/i, '/pl/poradniki/alert-rcb-i-aplikacja-rso/', 'Alert RCB i aplikacja RSO'],
+    [/syren/i, '/pl/poradniki/syreny-alarmowe/', 'Sygnały syren alarmowych'],
+    [/dron|rakiet|przestrze[nń] powietrzn|poderwan|myśliw/i, '/pl/mapa-schronow/', 'Mapa schronów'],
+    [/ewakuac/i, '/pl/poradniki/plan-ewakuacji-rodziny/', 'Plan ewakuacji rodziny'],
+    [/blackout|bez prądu|awari[ai] (prądu|zasilania)|ogranicz.*energi|oszczędzanie energii/i, '/pl/poradniki/blackout-jak-sie-przygotowac/', 'Jak przygotować się na blackout'],
+    [/paliw|benzyn|diesel/i, '/pl/poradniki/zapas-wody-i-jedzenia/', 'Zapas na kryzys'],
+  ],
+  en: [],
+};
+const guideFor = (lang, title) => { const g = GUIDES[lang].find(([re]) => re.test(title)); return g ? { href: g[1], label: g[2] } : undefined; };
+
+/** Selekcja źródeł: w feedzie PL tylko rzetelne redakcje i źródła urzędowe, bez portali klikalnych i skrajnie stronniczych. */
+const TRUSTED_PL = /^(PAP|Polska Agencja Prasowa|Polskie Radio( 24)?|PolskieRadio24\.pl|polskieradio\.pl|RMF ?24|RMF FM|TVN ?24|tvn24\.pl|TVP Info|tvp\.info|Polsat News|polsatnews\.pl|Rzeczpospolita|rp\.pl|.*Wyborcza\.pl|Gazeta Wyborcza|Wiadomości Onet|Onet( Wiadomości)?|WP Wiadomości|Wirtualna Polska|Interia|Wydarzenia w INTERIA\.PL|Radio ZET|Wiadomości Radio ZET|Gazeta\.pl|Wiadomości Gazeta\.pl|TOK FM|Business Insider( Polska)?|Bankier\.pl|Money\.pl|money\.pl|Puls Biznesu|GazetaPrawna\.pl|Dziennik Gazeta Prawna|Defence24|CyberDefence24|InfoSecurity24|Polska Zbrojna|OKO\.press|Notes from Poland|Euronews|Deutsche Welle|DW|Rynek Zdrowia|Medonet|Portal Oświatowy|Portal Samorządowy|Niebezpiecznik|Zaufana Trzecia Strona|Radio 357|Krytyka Polityczna|Polityka|Tygodnik Powszechny|Newsweek Polska)$/i;
+const CLICKBAIT = /[?!]$|(^|[\s„"(])(zobacz|sprawdź|szok\w*|nie uwierzysz|musisz|to może być|znamy|wiemy już|oto|tak wygląda|miliony polaków|na najgorsze|tym razem|ujawniamy|lawina|koszmar|horror|prawdziwa okazja)(?=[\s,.:;!?"”)]|$)/i;
+const qualityPl = (i) => i.official || (TRUSTED_PL.test(i.source) && !CLICKBAIT.test(i.title));
+/** Treść musi pasować do kategorii (np. „Kwintet Gis” nie jest komunikatem sanepidu). */
+const RELEVANT = {
+  health: /sanepid|epidemi|ognisk|zakaż|zatruci|wirus|gryp|odr[aęy]\b|krztuś|szczepi|Główn\w+ Inspektor\w* Sanitarn|GIS (ostrzega|wycofuje|apeluje|wszedł|kontrol)|wycof\w+ (ze sprzedaży|produkt)|bakteri|salmonell|legionell/i,
+};
+/** Ten sam temat z kilku redakcji: zostawiamy najnowszą pozycję (wspólne ≥3 dłuższe słowa w tytule). */
+const words = (t) => new Set(t.toLowerCase().replace(/[^\p{L}\d ]/gu, ' ').split(/\s+/).filter((w) => w.length >= 5).map((w) => w.slice(0, 6)));
+const nearDup = () => { const kept = []; return (i) => { if (i.official) return true; const w = words(i.title);
+  if (kept.some((k) => [...w].filter((x) => k.has(x)).length >= 3)) return false; kept.push(w); return true; }; };
+const relevant = (i) => !RELEVANT[i.cat] || RELEVANT[i.cat].test(i.title);
+
+const OFFICIAL = /^(Komisja Europejska|NBP|IMGW|PSE|CERT Polska|GDACS|ECDC|RCB|Policja|gov\.pl|policja\.pl|Rządowe Centrum Bezpieczeństwa|Ministerstwo|MON|MSWiA|Dowództwo Operacyjne|Straż Graniczna|PSP)/i;
 const item = (lang, cat, sev, source, url, title, at = new Date()) =>
-  ({ at: new Date(at).toISOString(), cat, sev, source, url, title, official: OFFICIAL.test(source) || /\.gov\.pl|policja\.pl|wojsko-polskie\.pl/.test(url), forYou: tipFor(lang, cat, title) });
+  ({ at: new Date(at).toISOString(), cat, sev, source, url, title, official: OFFICIAL.test(source) || /\.gov\.pl|policja\.pl|wojsko-polskie\.pl/.test(url), forYou: tipFor(lang, cat, title), guide: guideFor(lang, title) });
 
 // ── Regiony ─────────────────────────────────────────────────
 const REGIONS = {
@@ -166,13 +196,19 @@ const REGIONS = {
       const { score, items } = await media(c, { lang: 'pl', anchor: 40,
         gdelt: '"Poland" (drone OR airspace OR missile OR sabotage)',
         news: 'Polska (dron OR "przestrzeń powietrzna" OR rakieta OR sabotaż OR wojsko)' });
-      items.slice(0, 3).forEach((i) => feed.push(item('pl', 'security', 2, sourceOf(i.title), i.link, stripSource(i.title), i.date)));
+      items.slice(0, 12).forEach((i) => feed.push(item('pl', 'security', 2, sourceOf(i.title), i.link, stripSource(i.title), i.date)));
       // Zdarzenia w kraju: ewakuacje, alarmy bombowe, ataki, komunikaty policji i RCB (z ostatnich 24 h).
       try {
         const inc = (await newsCount('(ewakuacja OR "alarm bombowy" OR strzelanina OR nożownik OR "atak w szkole" OR "komunikat policji" OR "Alert RCB") Polska', 'pl'))
-          .filter((i) => Date.now() - i.date < DAY).slice(0, 3);
+          .filter((i) => Date.now() - i.date < DAY).slice(0, 10);
         inc.forEach((i) => feed.push(item('pl', 'safety', /strzel|nożow|atak|bomb/i.test(i.title) ? 3 : 2, sourceOf(i.title), i.link, stripSource(i.title), i.date)));
       } catch (e) { console.warn('  incydenty:', e.message); }
+      // Bezpieczeństwo w szkołach: ataki, groźby, alarmy, ewakuacje (z ostatnich 48 h).
+      try {
+        const sch = (await newsCount('(szkoła OR "w szkole" OR uczeń OR uczniowie) (nóż OR nożem OR napastnik OR atak OR groźby OR "alarm bombowy" OR ewakuacja)', 'pl'))
+          .filter((i) => Date.now() - i.date < 2 * DAY && /szkoł|szkol[ney]|uczni|uczeń|uczennic|przedszkol|nauczyciel|kuratori/i.test(i.title)).slice(0, 10);
+        sch.forEach((i) => feed.push(item('pl', 'safety', /nóż|noż|atak|napastnik|bomb/i.test(i.title) ? 3 : 2, sourceOf(i.title), i.link, stripSource(i.title), i.date)));
+      } catch (e) { console.warn('  szkoły:', e.message); }
       return score;
     },
     async cyber(c, feed) {
@@ -215,8 +251,8 @@ const REGIONS = {
       const week = (ctx.ecdc ?? []).filter((i) => Date.now() - i.date < 7 * DAY);
       const eu = week.filter((i) => /outbreak|threat|epidemic|emergency/i.test(i.title) && /Europe|EU\/EEA|\bEU\b|Poland|European/i.test(i.title));
       try {
-        const n = await newsCount('(GIS OR sanepid OR epidemia OR "ognisko choroby") Polska', 'pl');
-        n.slice(0, 1).forEach((i) => feed.push(item('pl', 'health', 1, sourceOf(i.title), i.link, stripSource(i.title), i.date)));
+        const n = await newsCount('("Główny Inspektor Sanitarny" OR sanepid OR epidemia OR "ognisko choroby" OR zatrucie) Polska', 'pl');
+        n.slice(0, 8).forEach((i) => feed.push(item('pl', 'health', 1, sourceOf(i.title), i.link, stripSource(i.title), i.date)));
       } catch {}
       return clamp(12 + eu.length * 15, 5, 90);
     },
@@ -303,10 +339,17 @@ for (const region of ['pl', 'en']) {
   const F = feedFile[region] ?? { items: [] };
   if (feed.length) {
     const seen = new Set();
-    F.items = [...feed, ...(F.sample ? [] : F.items).map((i) => ({ ...i, forYou: tipFor(region, i.cat, i.title) }))]
+    // Z nowych pozycji media: po maks. kilka na kategorię (po filtrze jakości), żeby jeden temat nie zalał feedu.
+    const CAP = { security: 3, safety: 3, health: 1, cyber: 2 };
+    const used = {};
+    const fresh = feed.filter((i) => region !== 'pl' || (qualityPl(i) && relevant(i)))
+      .filter((i) => (CAP[i.cat] === undefined || i.official ? true : (used[i.cat] = (used[i.cat] ?? 0) + 1) <= CAP[i.cat]));
+    F.items = [...fresh, ...(F.sample ? [] : F.items).map((i) => ({ ...i, forYou: tipFor(region, i.cat, i.title), guide: guideFor(region, i.title) }))]
+      .filter((i) => region !== 'pl' || (qualityPl(i) && relevant(i)))
       .filter((i) => (seen.has(i.url + i.title) ? false : seen.add(i.url + i.title)))
       .filter((i) => Date.now() - new Date(i.at) < 14 * DAY)
       .sort((a, b) => +new Date(b.at) - +new Date(a.at))
+      .filter(nearDup())
       .slice(0, 20);
     F.sample = false;
   }
