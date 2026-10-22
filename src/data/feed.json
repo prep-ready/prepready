@@ -4,6 +4,16 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-10-22T18:03:19.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "WP Wiadomości",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWXBOUks1a1NXMUVsaV9QVnFZdElFS1Bnd1A0Vi1PSUdzNWQwRjIxcVgxeUtUSTVtLTdrUjhZSV8wU21KX0duc0gzbWpBdXpCY0ZPX0pTVkl2b091N1B1M1Z3WkhNdktTUDVtYTV3UG5lNzA3c2xUalJWOFJYc0Q3ejJ0czV5Mm1hcnB5UFUyWndwWFZObzZMRjBMNDJGZTE2VU5NQkRVYVhlOTQydGZaeA?oc=5",
+        "title": "Nożownik z Warszawy schwytany, premier reaguje na tekst WP [SKRÓT DNIA]",
+        "official": false,
+        "forYou": "Jeśli jesteś w pobliżu: uciekaj, a jeśli nie możesz, ukryj się i wycisz telefon. Dzwoń pod 112, gdy będzie to bezpieczne. Unikaj okolicy i nie powielaj niesprawdzonych nagrań."
+      },
+      {
         "at": "2026-10-22T15:32:22.000Z",
         "cat": "safety",
         "sev": 3,
@@ -244,19 +254,9 @@
         "title": "\"To nie będzie ostatni atak\". WSJ o tajnej kampanii Kremla przeciwko NATO",
         "official": false,
         "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-10-21T10:34:00.000Z",
-        "cat": "health",
-        "sev": 1,
-        "source": "RMF24",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOX3dvT1ktTkxGNEVEU3lidkswMkNPWEZaMTJnMzhDdVcyRnV6UVN2cERWNHZCS3ZLdkVnZ3pjMGlJVzBOaHpLXzZRNEtBdlExOXI0V1FGcDNEckl0dEJKbVFNbzlrUVNxVmtJelFhRnFTeVdWOVVLZHB0cWNLUnVmVmp5TG1hNHQ0MXZZZjd6emNIejNzWDNxRVg5OUtNZlhpb01rM0E1U3lDOHNtR09Ld2J6UmVRcEE?oc=5",
-        "title": "Sanepid: „Nie stwierdzono obecności bakterii chorobotwórczych dla człowieka w sanatorium w Dąbkach”",
-        "official": false,
-        "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
       }
     ],
-    "updatedAt": "2026-10-22T17:16:58.818Z"
+    "updatedAt": "2026-10-22T18:13:26.732Z"
   },
   "en": {
     "sample": false,
@@ -320,6 +320,16 @@
         "title": "Russian missile strike destroys JYSK store in Kyiv",
         "official": false,
         "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+      },
+      {
+        "at": "2026-10-22T13:46:33.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5yZ2dTanNHRmFaRmNxVWRFLXoxMF9wUU9hYW1udXV5ZkUta1R5SVVRWVp1eHhfUU5admNaQ0JWN1VZZTRrVm9hZGpVcEgzMGxCNm9GZXNtZkpINnM?oc=5",
+        "title": "Two killed in Houthi attack on airport in eastern Saudi Arabia, authorities say",
+        "official": false,
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       },
       {
         "at": "2026-10-22T13:17:56.000Z",
@@ -422,16 +432,6 @@
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       },
       {
-        "at": "2026-10-22T09:14:48.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "BBC",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5yZ2dTanNHRmFaRmNxVWRFLXoxMF9wUU9hYW1udXV5ZkUta1R5SVVRWVp1eHhfUU5admNaQ0JWN1VZZTRrVm9hZGpVcEgzMGxCNm9GZXNtZkpINnM?oc=5",
-        "title": "Two killed in attack on airport in eastern Saudi Arabia, authorities say",
-        "official": false,
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
         "at": "2026-10-22T09:13:22.000Z",
         "cat": "health",
         "sev": 1,
@@ -462,6 +462,6 @@
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       }
     ],
-    "updatedAt": "2026-10-22T17:18:29.069Z"
+    "updatedAt": "2026-10-22T18:15:32.383Z"
   }
 }
