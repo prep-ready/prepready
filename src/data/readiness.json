@@ -2,9 +2,9 @@
   "_comment": "Aktualizuje scripts/update-data.mjs codziennie. pl = Polska, en = świat. Składowe z mode=manual ustawiasz ręcznie.",
   "pl": {
     "sample": false,
-    "updatedAt": "2026-10-22T19:26:45.433Z",
-    "score": 22,
-    "delta7": -1,
+    "updatedAt": "2026-10-22T20:15:44.084Z",
+    "score": 23,
+    "delta7": 0,
     "ago30": 29,
     "history": [
       29,
@@ -34,14 +34,14 @@
       33,
       36,
       33,
-      22
+      23
     ],
     "components": [
       {
         "id": "conflict",
         "name": "Konflikt w regionie",
         "weight": 30,
-        "value": 21,
+        "value": 22,
         "sources": "GDELT · Google News",
         "trend": [
           20,
@@ -51,7 +51,7 @@
           63,
           63,
           63,
-          21
+          22
         ],
         "mode": "auto",
         "raw": [
@@ -156,7 +156,7 @@
         "id": "cyber",
         "name": "Cyber i łączność",
         "weight": 15,
-        "value": 15,
+        "value": 17,
         "sources": "GDELT · Google News · CERT",
         "trend": [
           34,
@@ -166,7 +166,7 @@
           5,
           5,
           5,
-          15
+          17
         ],
         "mode": "auto",
         "raw": [
@@ -189,9 +189,9 @@
           48,
           26,
           27,
-          31
+          32
         ],
-        "stale": true
+        "stale": false
       }
     ],
     "historyDates": [
@@ -227,9 +227,9 @@
   },
   "en": {
     "sample": false,
-    "updatedAt": "2026-10-22T19:30:33.550Z",
-    "score": 45,
-    "delta7": 11,
+    "updatedAt": "2026-10-22T20:17:53.098Z",
+    "score": 37,
+    "delta7": 3,
     "ago30": 35,
     "history": [
       35,
@@ -259,14 +259,14 @@
       37,
       40,
       41,
-      45
+      37
     ],
     "components": [
       {
         "id": "conflict",
         "name": "Global conflict",
         "weight": 30,
-        "value": 58,
+        "value": 49,
         "sources": "GDELT · Google News",
         "trend": [
           41,
@@ -276,7 +276,7 @@
           40,
           43,
           48,
-          58
+          49
         ],
         "mode": "auto",
         "raw": [
@@ -299,7 +299,7 @@
           43,
           44,
           53,
-          27
+          54
         ],
         "stale": false
       },
@@ -368,7 +368,7 @@
           48,
           53
         ],
-        "stale": true
+        "stale": false
       },
       {
         "id": "weather",
@@ -414,7 +414,7 @@
         "id": "cyber",
         "name": "Cyber & infrastructure",
         "weight": 15,
-        "value": 37,
+        "value": 5,
         "sources": "GDELT · Google News",
         "trend": [
           5,
@@ -424,7 +424,7 @@
           32,
           34,
           42,
-          37
+          5
         ],
         "mode": "auto",
         "raw": [
@@ -441,9 +441,9 @@
           58,
           53,
           26,
-          56
+          26
         ],
-        "stale": true
+        "stale": false
       }
     ],
     "historyDates": [

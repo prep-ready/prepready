@@ -256,11 +256,41 @@
         "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
       }
     ],
-    "updatedAt": "2026-10-22T19:26:45.433Z"
+    "updatedAt": "2026-10-22T20:15:44.087Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-22T18:49:26.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The Jerusalem Post",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE85dEFKOXZIQVhWVThGbHNfb0dEOVhnajVlQzVESVB5MDlrN2xtY2xIeGQySGZob25XRk9xaUllaDFFbEtGTk9nMk42WGtNMGlldGdkRGg2VzA0aUNEdzYw?oc=5",
+        "title": "Donald Trump asks Elon Musk to lift Ukraine Starlink restrictions, WSJ reports",
+        "official": false,
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
+      {
+        "at": "2026-10-22T18:34:04.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "The420.in",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE03Nm83bHVUUzBBeDNXMzRQZkxYdmlVQmdTb1RHX2VNVzlyNkQxTDAxdnZjT2hVTS1nMncxVlVVUWVXd0tVclpkQWtkWjVyZEYtbzVtZnpDSkFka2xsYVJ5cUZ6Ym9zXzVGS2VlM3AxVGNKaXF1QkJiNW00Vk9obFk?oc=5",
+        "title": "Russia-Aligned Hackers Use Decentralised Network in Ukraine Cyberattack",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
+      {
+        "at": "2026-10-22T18:03:30.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The Kyiv Independent",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQbTdFSzllekZHa05sQ3gwTzVURW5qZC10dVl4NE9HbFdwTTNaMi1ldkxGTWswRnZlM18yU2Z6ZmdUMlYwQ19oQnItMlRHX1Q1cFNyMDFaVm1XZTduaHA2azEwY0ZicTgtUjgtLWhjNVpISlduekFXbXg4SkJoZGJkV1l3T3huakZldUtPSURCU3J6dUxTSnVJQnRkTlRHNERLOHJfZ01IcVBhNVA0MmM2WHdObDE5NTFtNHJmZ1d3dktFbWZValNSUFo3RUxMYjBBTzNmTnZIZDI?oc=5",
+        "title": "Ukraine war latest: Ukrainian troops infiltrate Russian rear near Kupiansk through 15 kilometers of gas pipelines",
+        "official": false,
+        "forYou": "Report suspicious activity near railways, power lines or military sites to emergency services. Do not photograph military installations."
+      },
       {
         "at": "2026-10-22T15:18:04.000Z",
         "cat": "security",
@@ -430,38 +460,8 @@
         "title": "Russian invaders launched three waves of ballistic strikes on Kyiv since Oct. 21 – Zelenskyy",
         "official": false,
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-22T09:13:22.000Z",
-        "cat": "health",
-        "sev": 1,
-        "source": "ECDC",
-        "url": "https://www.ecdc.europa.eu/en/news-events/severely-ill-patient-france-becomes-first-ever-human-infected-shamonda-virus",
-        "title": "Severely ill patient in France becomes first ever human infected with Shamonda virus",
-        "official": true,
-        "forYou": "Usually no action. Check your first-aid kit and expiry dates."
-      },
-      {
-        "at": "2026-10-22T09:06:17.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "Industrial Cyber",
-        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOamdWbDBfbzQtVkNnQVRicGJKWXI1MnJqWDVGM2N3dHBWS3BKS1RZNlRESmVVTnVoMzkzZWhMOXlKRnFabDdJcmdrRGlhZVBXTWVsNWpUcWJrRWc3ZzlGZi1sZ3dFUWJWRHF4Y3ZfbkFjMWdqNVNmUzJtTGh4UkJyRm5Dc19iVFpybG9pcTRna3JnT0xpdVFzX0NTVm96dEpvRko3OXdQQkFVek9EcHphU3AwNzctcHdraGU1dm5wd0hTVWcwMXdpRGFucmxVRTVGbkhFVnRaV19SaWhkdlRv?oc=5",
-        "title": "SafePay ransomware compromised 600 critical organizations worldwide; urge patching and network defenses",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-22T07:19:12.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Ada Derana",
-        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE45UTJIR1ExcXBiUlZ0Snc0U1lSVzZBWHg5VnRXdE1MY1ZOZ2xkRDVBMVBDY3BWeWQyYS14dHZuWWsyY1Z6SVFj?oc=5",
-        "title": "ADB approves $100 million for social protection and livelihood support in Sri Lanka",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       }
     ],
-    "updatedAt": "2026-10-22T19:30:33.552Z"
+    "updatedAt": "2026-10-22T20:17:53.098Z"
   }
 }
