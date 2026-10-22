@@ -264,11 +264,21 @@
         }
       }
     ],
-    "updatedAt": "2026-10-22T11:18:03.717Z"
+    "updatedAt": "2026-10-22T12:18:31.839Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-22T10:38:06.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Inventiva",
+        "url": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxPUU1FODByazdOWXp3OUp6SUhBZ2V3ZGJIdUxId0dyZXcwXzRvYVNKZ2RJd1NUMkdEaFdCNk5rR2MxSUE2dmtFenBPQ3Nra21zbDk5eFY4WGlOY1RWMmdNME1MNTZIYXl0dzJMQk1RR0poai1WWTYweVhrWkp5UUJPRVFsWU1MbU9taUo0WFNveTZXRExRNzlyVndnTEd1YUg5NHI1aWt0R2diNEhac0xuTC1Td0RrSWVpTHY1TVFCLWlnbXdGcGlGSjc1UmZvOGNhQkJQU2F0Z2REQXNGb2YyUFpQTFZpWjl0Z2cwaVRaQl9NbkpnMnNxRklCMmZqR0p2YUkxZjhTR2dYdmZ0VG4taEVaWXdqREJkdFNlOV93c1hzZEx6UkZPZnk0Y2tMS19wSFpuTF9SY3JwR0FIUEdDdFN3eXh2aVhDb21MUVZrWmRsOTg?oc=5",
+        "title": "Cyberattack Hits Hundreds of French Supermarkets, Overheating Fridges and Sparking Fires. Could The Next Cyberattack Disrupt An Entire Supply Chain, From Phones To Traffic Lights And Hospital Equipment?",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
       {
         "at": "2026-10-22T10:15:31.000Z",
         "cat": "cyber",
@@ -278,6 +288,16 @@
         "title": "Qilin and INC Exploit Palo Alto VPN Flaw in Ransomware Attacks",
         "official": false,
         "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
+      {
+        "at": "2026-10-22T10:11:47.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "NBC News",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOOEdGTWtjTl9xZ0UwUDlueUFBSG5PaXNRZW1oN0o4ZXF6Q1pjbEhrb2RmWkdVVUJTeEQ3ODQ0R1hoSFNjbTFVSEN0aEQ1SF9DeExXSmRubWNLcXhvWG4wSGs5Q0pKM1BjZWd2SExwNUprNWdzeFNBR2hLRjYxVnFCN2stOGh4WmYyb2JZZzZsNVVUdzRENFIxeXFDZVZVRm9Zd0N5N19IY3ZmYzYzbjA4?oc=5",
+        "title": "Russia pounds Kyiv with missiles and drones, hours after agreeing to peace talks",
+        "official": false,
+        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
       },
       {
         "at": "2026-10-22T09:59:31.000Z",
@@ -420,16 +440,6 @@
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       },
       {
-        "at": "2026-10-22T01:51:03.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "France 24",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWmNXb0JERGY3RE9CT2NPakhYRFA4NDhQTk9HU3hvQ1lZTWlsM2NtbUprS3RQS2VRNl82blo4S3BESUg1WDVTR3N0bUVlSU1KazlQVXVFVUZJU2RiNmNablNFNU1Zam1Dcm91SVBJWnBLa2gtekVxVGltZ2xKSFJCa0oyMm5TMDZEcWdZWg?oc=5",
-        "title": "Russian missiles hit Kyiv as Moscow signals readiness for peace talks",
-        "official": false,
-        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
-      },
-      {
         "at": "2026-10-21T22:58:33.000Z",
         "cat": "security",
         "sev": 2,
@@ -458,18 +468,8 @@
         "title": "Clovis Police Warn Drivers as Power Outage Knocks Out Traffic Signals",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-21T18:21:39.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "shattered.io",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1mckdtQV9PN0NybmM2WHdBMjBpZFhJNTdWUURteXRpMUpoS3B2el9VSGN6SElhRlNvN0lnYnIxNTg0YmpGc25BbldKS1BaTTk0R2NRZDktazZYc214dHVhdEhuSl9kZ1hKWU5RTFhYMlIzdWljZlBpZ3NnR3ZFdw?oc=5",
-        "title": "FBI, CISA Warn SafePay Ransomware Hit 600 Firms [2026]",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
       }
     ],
-    "updatedAt": "2026-10-22T11:20:08.736Z"
+    "updatedAt": "2026-10-22T12:19:59.202Z"
   }
 }
