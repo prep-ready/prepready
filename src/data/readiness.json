@@ -2,7 +2,7 @@
   "_comment": "Aktualizuje scripts/update-data.mjs codziennie. pl = Polska, en = świat. Składowe z mode=manual ustawiasz ręcznie.",
   "pl": {
     "sample": false,
-    "updatedAt": "2026-10-22T18:13:26.729Z",
+    "updatedAt": "2026-10-22T19:26:45.433Z",
     "score": 22,
     "delta7": -1,
     "ago30": 29,
@@ -191,7 +191,7 @@
           27,
           31
         ],
-        "stale": false
+        "stale": true
       }
     ],
     "historyDates": [
@@ -227,9 +227,9 @@
   },
   "en": {
     "sample": false,
-    "updatedAt": "2026-10-22T18:15:32.383Z",
-    "score": 33,
-    "delta7": -1,
+    "updatedAt": "2026-10-22T19:30:33.550Z",
+    "score": 45,
+    "delta7": 11,
     "ago30": 35,
     "history": [
       35,
@@ -259,14 +259,14 @@
       37,
       40,
       41,
-      33
+      45
     ],
     "components": [
       {
         "id": "conflict",
         "name": "Global conflict",
         "weight": 30,
-        "value": 19,
+        "value": 58,
         "sources": "GDELT · Google News",
         "trend": [
           41,
@@ -276,7 +276,7 @@
           40,
           43,
           48,
-          19
+          58
         ],
         "mode": "auto",
         "raw": [
@@ -368,7 +368,7 @@
           48,
           53
         ],
-        "stale": false
+        "stale": true
       },
       {
         "id": "weather",
@@ -443,7 +443,7 @@
           26,
           56
         ],
-        "stale": false
+        "stale": true
       }
     ],
     "historyDates": [
