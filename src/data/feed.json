@@ -264,11 +264,31 @@
         }
       }
     ],
-    "updatedAt": "2026-10-22T12:18:31.839Z"
+    "updatedAt": "2026-10-22T13:31:03.671Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-22T13:17:56.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Outlook India",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdGF4TWl0Qzh3NGVMZ3ZFUEZCcGRhc0JvaHdoZzNSUjl2dGg4Sk53TlY1aURJZzBrX2pqTXhxSDVUSUN1SmRjbHNNTlZYWmNKTVBrVkowLW9FaHBKZjQ5TTQwMWdYZnp5R1ZEb3BCRWJPLWNadDJTTU0zWjh2dUUtXzBYa1RYam5UYjJzSG5yLVgzVnlNQTkwTG9jb3hwWTF5S1NiY1VzLVBOTi1mYkxEalY0MzFQbUc2RGIw0gHIAUFVX3lxTE9uWUh1d2NxdlNIdHg2UHpSb2xpamxndUk3NHNDNDRaN1BTcWtSTVhRVTBaYmg0X1JHM1lRSmJqSUs5M0E2alNYeVpVMU5zRy11d1B4UW1YaW4xQjZPdklWWlBraEptZzl2WVc4cW9QejJZWjlOSEs4OGZ5Z2hLdkZTdDUxRm1RYzR4MWYwRHR2TExnR0JOOHhadV9qM09vbjJkcERDQ3BhNmZhWDQ5OC1ZbkpzY2thYTg2enRQNFhKSHRSMHlqa1NT?oc=5",
+        "title": "In Photos: Craters And Damaged Homes Mark Aftermath Of Russian Attack On Kyiv",
+        "official": false,
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
+      {
+        "at": "2026-10-22T10:49:28.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "SOCRadar",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1xMGp5UXVCNGFKWXpvRDBGS0wwZVNOYmZvTE1sSkdvQ3hyX2RTVHBqU25PRUFuV1dkZFRqcExGQ0t6aFJxWWw3Z3ZFYmtrVFhpOFZYeVk3cDkzLXNwd0ktWjZpajBTMDVPSXhyc3ZhMzg5V01iODVTZ0pGbw?oc=5",
+        "title": "emperador Ransomware Group Profile",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
       {
         "at": "2026-10-22T10:38:06.000Z",
         "cat": "cyber",
@@ -448,28 +468,8 @@
         "title": "‘We’ve lost everything’: Israelis displaced by Iran war fear another round of fighting",
         "official": false,
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-21T22:04:34.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "Security Today",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVVZ4SFJlb3EwV2IzODVjODRJUzg5VndIUmhHbUh1Y1FwNnk2eWIxTjZQbHhlaE0tQTZpRDZKRnRhYzhLT09hR3dFcHZRQ2pBTTdjdmJiOFJjeV9zdjdLdXZ6T2VmUnYwZTVlcnQwMklxcG8xcWxEWVkwTVFXUlR1SjA5TFE2bU1SZDRpQk5IZDY0V3loZjNCSXNhQTJjckdCMTNpZzBBbE15T1ZlTFE?oc=5",
-        "title": "Industrial Sector Drives Ransomware Surge in Third Quarter",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-21T20:24:03.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "GV Wire",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbm83RUFsaS1PeW1PTW9SOFRvVlBDV19CTjhtdklZR1VfcEhLWHNydVRrTVVCYlB6VHdzbERxcmlrZ09iYWFkMnJtNTFDM3VyN01xTHIxMkhYczgyRGVBVjdtS3otdGFocmttLXFqWVdMUUtWUXdPMTM3RkNpTHEtU1c3b1VqMkxvOTRqVEhjR0k5b0VnMVp6RlpNTS10VTQ0SVE?oc=5",
-        "title": "Clovis Police Warn Drivers as Power Outage Knocks Out Traffic Signals",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       }
     ],
-    "updatedAt": "2026-10-22T12:19:59.202Z"
+    "updatedAt": "2026-10-22T13:32:43.666Z"
   }
 }
