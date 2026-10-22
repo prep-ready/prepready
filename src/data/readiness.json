@@ -2,9 +2,9 @@
   "_comment": "Aktualizuje scripts/update-data.mjs codziennie. pl = Polska, en = świat. Składowe z mode=manual ustawiasz ręcznie.",
   "pl": {
     "sample": false,
-    "updatedAt": "2026-10-22T16:19:09.241Z",
-    "score": 22,
-    "delta7": -1,
+    "updatedAt": "2026-10-22T17:16:58.814Z",
+    "score": 21,
+    "delta7": -2,
     "ago30": 29,
     "history": [
       29,
@@ -34,7 +34,7 @@
       33,
       36,
       33,
-      22
+      21
     ],
     "components": [
       {
@@ -156,7 +156,7 @@
         "id": "cyber",
         "name": "Cyber i łączność",
         "weight": 15,
-        "value": 16,
+        "value": 8,
         "sources": "GDELT · Google News · CERT",
         "trend": [
           34,
@@ -166,7 +166,7 @@
           5,
           5,
           5,
-          16
+          8
         ],
         "mode": "auto",
         "raw": [
@@ -227,9 +227,9 @@
   },
   "en": {
     "sample": false,
-    "updatedAt": "2026-10-22T16:21:19.170Z",
-    "score": 36,
-    "delta7": 2,
+    "updatedAt": "2026-10-22T17:18:29.069Z",
+    "score": 41,
+    "delta7": 7,
     "ago30": 35,
     "history": [
       35,
@@ -259,7 +259,7 @@
       37,
       40,
       41,
-      36
+      41
     ],
     "components": [
       {
@@ -366,7 +366,7 @@
           35,
           51,
           48,
-          16
+          15
         ],
         "stale": false
       },
@@ -374,7 +374,7 @@
         "id": "weather",
         "name": "Disasters & weather",
         "weight": 15,
-        "value": 51,
+        "value": 60,
         "sources": "GDACS",
         "trend": [
           57,
@@ -384,7 +384,7 @@
           66,
           61,
           56,
-          51
+          60
         ],
         "mode": "auto",
         "raw": [],
@@ -414,7 +414,7 @@
         "id": "cyber",
         "name": "Cyber & infrastructure",
         "weight": 15,
-        "value": 37,
+        "value": 64,
         "sources": "GDELT · Google News",
         "trend": [
           5,
@@ -424,7 +424,7 @@
           32,
           34,
           42,
-          37
+          64
         ],
         "mode": "auto",
         "raw": [

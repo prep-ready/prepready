@@ -256,7 +256,7 @@
         "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
       }
     ],
-    "updatedAt": "2026-10-22T16:19:09.245Z"
+    "updatedAt": "2026-10-22T17:16:58.818Z"
   },
   "en": {
     "sample": false,
@@ -270,6 +270,16 @@
         "title": "Something Strange Is Happening to Putin: His New Ukraine War Strategy Is To Strike the Innocent Even Though He Talks Peace",
         "official": false,
         "forYou": "No action needed. Keep your basic supplies ready; situations can change quickly."
+      },
+      {
+        "at": "2026-10-22T14:33:40.000Z",
+        "cat": "disaster",
+        "sev": 4,
+        "source": "GDACS",
+        "url": "https://www.gdacs.org/report.aspx?eventid=1573141&episodeid=1741837&eventtype=EQ",
+        "title": "Earthquake in China (Red alert)",
+        "official": true,
+        "forYou": "If you have family in the area, check in. Review your own evacuation plan."
       },
       {
         "at": "2026-10-22T14:33:40.000Z",
@@ -450,18 +460,8 @@
         "title": "ADB approves $100 million for social protection and livelihood support in Sri Lanka",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-22T04:12:15.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The National",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNb1Rrak9DUVcxWUFNREEyZTgtVGRyT1ladW9xeldkR0tadEQxWGFDaS0zR0RrN3U1T3VTNmV2QnVrNHNramJTY0FRZ21IX0FMUWt5N0JGSk5qc2pyQXZBbFFDRkliU3NYanFLbC0tQnNzV0FoaXJuUWoyQ0Z4aDZ0eVY4WmFzbFlwd0JPLTBVNktWYmxQMjlSbzJYY0VtZ28?oc=5",
-        "title": "Middle East latest: Pezeshkian says US must recognise Iran's rights before talks can resume",
-        "official": false,
-        "forYou": "No action needed. Keep your basic supplies ready; situations can change quickly."
       }
     ],
-    "updatedAt": "2026-10-22T16:21:19.171Z"
+    "updatedAt": "2026-10-22T17:18:29.069Z"
   }
 }
