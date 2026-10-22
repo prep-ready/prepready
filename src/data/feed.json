@@ -19,7 +19,7 @@
         "sev": 3,
         "source": "Wiadomości Onet",
         "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQX3dUOGpLVUFDWVdyVHY1UUVRZWlnUTFUNlVWMHBpR0FVZ3lmcXd5ZzBteU1wY21mazE4V3Z6MEVXNmJGQUlTQ3p0SjV6TjdQQ1VYOHQ0dXdEZ2JqWERxWFRTb2xSemk3dzFPWUJvNTZpc2lwbWNock1xankzZ3hKbnRFazZOcFotckdKdWpqcTJxbWtHWUQ1LU5SYzdhR2g0SFF3VkRQUmd6dw?oc=5",
-        "title": "Nożownik z centrum Warszawy zatrzymany. Marcin Kierwiński komentuje",
+        "title": "Nożownik z Warszawy zatrzymany na Woli. \"Był agresywny\"",
         "official": false,
         "forYou": "Jeśli jesteś w pobliżu: uciekaj, a jeśli nie możesz, ukryj się i wycisz telefon. Dzwoń pod 112, gdy będzie to bezpieczne. Unikaj okolicy i nie powielaj niesprawdzonych nagrań."
       },
@@ -256,11 +256,21 @@
         "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
       }
     ],
-    "updatedAt": "2026-10-22T21:19:00.159Z"
+    "updatedAt": "2026-10-22T22:15:13.328Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-22T20:38:40.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "The HIPAA Journal",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9PMzZZbVJzWV9lV0JPWXBJOW9BSmI2eElLWHNxWVAtTkhyNnoydUdqTDRnNzE0X056UTE2WW9nakR1UTkxR0ZzX3pMVmdqb2Vjb095eHpIM1Bva0UtTXphRnh5bkpuaDBNQWNvamd5Z2E?oc=5",
+        "title": "Trends In Healthcare Data Breach Statistics",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
       {
         "at": "2026-10-22T20:10:24.000Z",
         "cat": "security",
@@ -450,18 +460,8 @@
         "title": "Respiratory infections season",
         "official": true,
         "forYou": "Usually no action. Check your first-aid kit and expiry dates."
-      },
-      {
-        "at": "2026-10-22T09:59:28.000Z",
-        "cat": "health",
-        "sev": 1,
-        "source": "ECDC",
-        "url": "https://www.ecdc.europa.eu/en/news-events/protect-yourself-and-others-during-cold-season",
-        "title": "Protect yourself and others during the cold season",
-        "official": true,
-        "forYou": "Usually no action. Check your first-aid kit and expiry dates."
       }
     ],
-    "updatedAt": "2026-10-22T21:20:41.748Z"
+    "updatedAt": "2026-10-22T22:17:19.916Z"
   }
 }
