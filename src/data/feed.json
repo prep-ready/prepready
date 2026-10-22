@@ -47,8 +47,8 @@
       },
       {
         "at": "2026-10-21T19:19:16.000Z",
-        "cat": "security",
-        "sev": 2,
+        "cat": "safety",
+        "sev": 3,
         "source": "Wiadomości Onet",
         "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdHI5eFREdHQ2alZId2dVaXZhYWdRM2tHeFE2VVhRQWpsTUV6bWNnMEpDS2tsY0FKUkp0MERfRVpwdlNnMVVXSWcwYVE0dVA3U1pvUWs5a3ZjX21BVFM5ZkZweU5QeWt4SE5fUUdwcW5yUm1QRC1DNFRUa29kNkpEUlA5UmYtRlQ0REg1UHVpOUZ1SEVJTl9zaGZ3?oc=5",
         "title": "Alert RCB na Lubelszczyźnie. Rosja znów atakuje Ukrainę",
@@ -260,11 +260,31 @@
         "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
       }
     ],
-    "updatedAt": "2026-10-22T01:22:18.366Z"
+    "updatedAt": "2026-10-22T02:15:56.561Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-22T02:12:37.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Ada Derana",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1VbkhRd3EwVUxXLWFpZ1lvcWhyOTloUFJ6SHhNd1VlMmJjaUhNT1dIWGtIeFItNFI1UDVFOG5BbDNtRk8zVFdv?oc=5",
+        "title": "Over 104,000 dengue cases confirmed so far this year",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
+      {
+        "at": "2026-10-22T01:51:03.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "France 24",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWmNXb0JERGY3RE9CT2NPakhYRFA4NDhQTk9HU3hvQ1lZTWlsM2NtbUprS3RQS2VRNl82blo4S3BESUg1WDVTR3N0bUVlSU1KazlQVXVFVUZJU2RiNmNablNFNU1Zam1Dcm91SVBJWnBLa2gtekVxVGltZ2xKSFJCa0oyMm5TMDZEcWdZWg?oc=5",
+        "title": "Russian missiles hit Kyiv as Moscow signals readiness for peace talks",
+        "official": false,
+        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+      },
       {
         "at": "2026-10-21T22:04:34.000Z",
         "cat": "cyber",
@@ -314,16 +334,6 @@
         "title": "TheHomeMag NorCal Ransomware Attack by N0n",
         "official": false,
         "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-21T15:56:21.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "BBC",
-        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9xX1hnU3Z3UlN6QXdlYVZmc3pBdE1tX3ZVV24xSl9FaHNnWGY4YWhXVHBkb253UWJqODVkMmRlX0NDNGhHU3FYV2ZOSHNDU3UzZENnTXUxTHFYaU1veFE?oc=5",
-        "title": "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks",
-        "official": false,
-        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
       },
       {
         "at": "2026-10-21T15:56:12.000Z",
@@ -454,18 +464,8 @@
         "title": "Advisory issued for severe lightning",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-21T06:09:51.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "Howl.link",
-        "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE0zclJQSzFMYlRFcmZOaTZySEpCZ0RxQ2NDeWYxd1ZkbnlpWlVFUlBWaW1nT2JvaDA0S1R3?oc=5",
-        "title": "Joint Advisory Details SafePay Ransomware Tactics After at Least 600 Victims · cyber.hendryadrian.com",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
       }
     ],
-    "updatedAt": "2026-10-22T01:24:21.260Z"
+    "updatedAt": "2026-10-22T02:17:45.716Z"
   }
 }
