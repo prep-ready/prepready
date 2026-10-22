@@ -264,7 +264,7 @@
         }
       }
     ],
-    "updatedAt": "2026-10-22T13:31:03.671Z"
+    "updatedAt": "2026-10-22T14:21:45.799Z"
   },
   "en": {
     "sample": false,
@@ -278,6 +278,16 @@
         "title": "In Photos: Craters And Damaged Homes Mark Aftermath Of Russian Attack On Kyiv",
         "official": false,
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
+      {
+        "at": "2026-10-22T13:16:19.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The Jerusalem Post",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE85dEFKOXZIQVhWVThGbHNfb0dEOVhnajVlQzVESVB5MDlrN2xtY2xIeGQySGZob25XRk9xaUllaDFFbEtGTk9nMk42WGtNMGlldGdkRGg2VzA0aUNEdzYw?oc=5",
+        "title": "Russia hit Kyiv with missiles carrying cluster warheads, Zelensky says",
+        "official": false,
+        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
       },
       {
         "at": "2026-10-22T10:49:28.000Z",
@@ -338,16 +348,6 @@
         "title": "Protect yourself and others during the cold season",
         "official": true,
         "forYou": "Usually no action. Check your first-aid kit and expiry dates."
-      },
-      {
-        "at": "2026-10-22T09:31:36.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "UNITED24 Media",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTl9yNndoT3hPMlJxcUxpNzNFUlM4d01ucENvTFUtdmlhNGdMS01PZ0FDMDJEZTRBZ00wWkJYLXpWcFRaMVJOd09ZREo4LW56anBQUy1SdGZXakNVaUQ4ekpVOTJqUmZwTjhzb3VjZWpidE9JWVpMYk9QNzZpZGJJT3NtMWlIdXFyeHY5alZSZUJ3NEVaWEF6THpuelhDZUNtSks4RklBTUp0SHBwV1ZQZXRMeHVfOU5GQ2FfN190WTZPYTQ3eVE2bGRIdnFJNmNRWVNnSA?oc=5",
-        "title": "Russia Hits Historic Kyiv With Cluster Missile Designed to Maximize Damage Across Wide Area",
-        "official": false,
-        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
       },
       {
         "at": "2026-10-22T09:16:00.000Z",
@@ -470,6 +470,6 @@
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       }
     ],
-    "updatedAt": "2026-10-22T13:32:43.666Z"
+    "updatedAt": "2026-10-22T14:23:50.516Z"
   }
 }
