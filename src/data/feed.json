@@ -4,6 +4,30 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-10-22T07:50:00.000Z",
+        "cat": "health",
+        "sev": 1,
+        "source": "Portal Samorządowy",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZjJfQjJ6ZUttUVhxNzU3Z2w5Qjd2UGhXM2xQQ3RxeVFWZk4tZkRrZHktTmtKQ0ctVzE4UVdPUktUVFl6NGVLc3FiMkpSOW9mZXRxZHFRRndnNzgxLWMzU2U0MkttZnpyMGE5YXF6V085dXUwNUctbjFSX0c4ZmdCRmVJaFJFOXJXODdLbkJJUDQ1QUpVTFc3RXRPTGpVWWlrS0FBNnVObEtxcERLWWM4aFl6T2dvaFFnNFZHekp2dnE?oc=5",
+        "title": "Rozpędza się nowa epidemia. Nagły wzrost w trzech województwach",
+        "official": false,
+        "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
+      },
+      {
+        "at": "2026-10-22T07:15:56.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "WP Wiadomości",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTExlS1FrX0hnUHFuTE4yY0VLRlR2a3puZzJuWnJrS2FRaG4yYzhZc0xnSHRMaFVRMG5iUTA0WExwVlVsTndvRGhXTmd3eVVuelI2eW9KNjhEU01zdU9RTThEbWVRTHNORjMxWW5pejhWRUJySGgtdkxVSjY2TUpjSGNwTUFtUTlOMVlsYmFUWi1CX2IwNi1PaE9oSTg2WHcxNlRTT3M4TQ?oc=5",
+        "title": "Dron eksplodował na Litwie. Wiceminister: zapytaliśmy Ukraińców",
+        "official": false,
+        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112.",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
+      },
+      {
         "at": "2026-10-22T06:56:31.000Z",
         "cat": "security",
         "sev": 2,
@@ -126,16 +150,6 @@
         "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
       },
       {
-        "at": "2026-10-21T18:05:00.000Z",
-        "cat": "health",
-        "sev": 1,
-        "source": "Portal Samorządowy",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxObE5oUmlqbUFLZnNpMDVVTEl4OHkzb19aTHB2RFFTVWZNeWtwOF9ZdkZ1eTFHcGFpTU1HenQyblpnMTJLNGtxYU5xTVE5T3NNSDk5WXpvYzY0aTJRVEJOck92N2hXUklYb3Q2OC01NURlOWFLbGw5dlhWdE1VQ255U1lkVkk2RWFNV3pSaWJoMjZXQnAtNzhHMmJrRmM1eWlpa0N6cjBmNVlZUGVqNjJJN3RJbklKSXkwdjNIRmg3YWE?oc=5",
-        "title": "Nagły wzrost w trzech województwach. Rozpędza się nowa epidemia",
-        "official": false,
-        "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
-      },
-      {
         "at": "2026-10-21T17:45:22.000Z",
         "cat": "security",
         "sev": 2,
@@ -248,27 +262,23 @@
           "href": "/pl/mapa-schronow/",
           "label": "Mapa schronów"
         }
-      },
-      {
-        "at": "2026-10-21T06:06:20.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Polskie Radio 24",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQUR6N2YwVW42eTJ4d2tCR09yRlVxVm1DWGM4LVhBVGM1X2JfQUhJOWdaMEx5aFlZR0ljQzZKU2pnZ3JlVG1lbEVrblA5d3FXQ1R1WWxXejlwVUFaamNTYkYyZVZVZ2p4N2F6R1N4ZTdfQzNpSkhQU3l5T2o2QkxSSWlURjRrUHdWaEEtSVNlOTMxdDJxRlpsZG1RaFZGdw?oc=5",
-        "title": "Alert RCB. Syreny alarmowe zawyją w Częstochowie i pięciu powiatach",
-        "official": false,
-        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
-        "guide": {
-          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
-          "label": "Alert RCB i aplikacja RSO"
-        }
       }
     ],
-    "updatedAt": "2026-10-22T07:38:47.545Z"
+    "updatedAt": "2026-10-22T08:25:19.932Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-22T08:07:38.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "UNITED24 Media",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUklSTWs0blBNdHhIdjVSRi1SbzNmOTJJdkFDTTdzRUh3aThVWmNtRFhreGpWemd4eEd6LWJOSmVZVmR1bWdiYUgzX3hySk9QZlZ0cl8xMUNrR2EyeWNFanMzTFZXM0hUM1VMSVVMaXJYTk5hV2d5bl9JM2dkSVZYT05wUGF0bU5FaXVuLXF3UGYwV0tSTFB2cUdHWThSdHB1dnlhS2ZmV01EakptYW9vR2t2ZW9DdmlnOTh0RWNrN2w?oc=5",
+        "title": "Russian Ballistic Strikes Hit Six Kyiv Districts, Killing One and Injuring 22",
+        "official": false,
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
       {
         "at": "2026-10-22T07:20:32.000Z",
         "cat": "cyber",
@@ -280,6 +290,26 @@
         "forYou": "Update your devices and don’t tap links in alert-style messages."
       },
       {
+        "at": "2026-10-22T07:19:12.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Ada Derana",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE45UTJIR1ExcXBiUlZ0Snc0U1lSVzZBWHg5VnRXdE1MY1ZOZ2xkRDVBMVBDY3BWeWQyYS14dHZuWWsyY1Z6SVFj?oc=5",
+        "title": "ADB approves $100 million for social protection and livelihood support in Sri Lanka",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
+      {
+        "at": "2026-10-22T06:57:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The New Voice of Ukraine",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOU3QyeTVINW45NXMxRFNzZXg5YVc5UWFTeV9rQklUcDlvLXZ2YjJ1U0hxTFhLaER5ZGV4cG94RWZJWFBjQXY5dThndGl3akZQbmNDbHh0UUVLM0FxVjNQTG9VRVpGYzBDeUxjWERGb2prWFM1RVNJUWZydld3UVVYTHZWVEpGZmgyV2FmUER6cElMeE9nM0o0eVdLTHVubXdmdm9hbzltSlk4c3Nsc0l5YUxtS2NDZVNi0gG4AUFVX3lxTE5TdDJ5NUg1bjk1czFEU3NleDlhVzlRYVN5X2tCSVRwOW8tdnZiMnVTSHFMWEtoRHlkZXhwb3hFZklYUGNBdjl1OGd0aXdqRlBuY0NseHRRRUszQXFWM1BMb1VFWkZjMEN5TGNYREZvamtYUzVFU0lRZnJ2V3dRVVhMdlZUSkZmaDJXYWZQRHpwSUx4T2czSjR5V0tMdW5td2Z2b2FvOW1KWThzc2xzSXlhTG1LY0NlU2I?oc=5",
+        "title": "Photos show the devastating toll of an overnight Russian missile strike on Kyiv",
+        "official": false,
+        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+      },
+      {
         "at": "2026-10-22T04:36:23.000Z",
         "cat": "security",
         "sev": 2,
@@ -288,6 +318,16 @@
         "title": "Middle East latest: One dead in attack on Dammam airport in Saudi Arabia",
         "official": false,
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
+      {
+        "at": "2026-10-22T04:12:15.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The National",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNb1Rrak9DUVcxWUFNREEyZTgtVGRyT1ladW9xeldkR0tadEQxWGFDaS0zR0RrN3U1T3VTNmV2QnVrNHNramJTY0FRZ21IX0FMUWt5N0JGSk5qc2pyQXZBbFFDRkliU3NYanFLbC0tQnNzV0FoaXJuUWoyQ0Z4aDZ0eVY4WmFzbFlwd0JPLTBVNktWYmxQMjlSbzJYY0VtZ28?oc=5",
+        "title": "Middle East latest: Pezeshkian says US must recognise Iran's rights before talks can resume",
+        "official": false,
+        "forYou": "No action needed. Keep your basic supplies ready; situations can change quickly."
       },
       {
         "at": "2026-10-22T03:38:00.000Z",
@@ -318,16 +358,6 @@
         "title": "Meta ordered to pay $25 billion penalty to New Mexico in data privacy case",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-22T02:37:30.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The Weekly Times",
-        "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPNldDbG1yUW5uQTNiSVhSdllJR3dxRjE2LUFJd0RLcDR3aUtETUEyS21NWTBXY0ZIYVFIZ3BlUWFxT2lDaTRhYVJDZXVDbVg4bjBpcUZOQm5FZHczQ2xYTC1NdUhhMGVLNHhiVTgzT0I2YWpjRUF4aVpSRks3TlEyUU4zVHA0elNNSWJwVWczU1R4MDNQZHBMYUpYcHRfaVpENHhhM2lDMEFsS0RNaWZXb3Jsb002eVJZb3AyVGlLTnIyb282RFZKdDNnNTVFLUpJZmdhTXF4R0Y0TzlQWWdxcHgteXA2bzVKdE9mVWRjNEVNZ1VGZ2hYQkhUMDQ?oc=5",
-        "title": "Missiles strike Ukraine’s capital after US envoy visits Russia",
-        "official": false,
-        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
       },
       {
         "at": "2026-10-22T02:12:37.000Z",
@@ -438,38 +468,8 @@
         "title": "​US and Global Police Warn of SafePay Ransomware Attacks Across Four Continents",
         "official": false,
         "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-21T14:10:41.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Latin Times",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPa29rYXBaOFo1ZE1MbUhmZzRJMk54Z25IeUhwbVMwcUhiMjU1OGNUV1M2MFEwWUFRejJ0TElSQWdqN2J1cFNOaHlSRkRTdEVKNTRtc0RqcWhrUlBDSG41ckxpcDM2R3FCMUJfQTFNY1lsM3o5aEtmX2czTERRVDlRZG1HUnpWbjVscGZlTGZud0VFYlplNHBUWFVJYUhYRzVhZTNwUGt1N2NjR1VIMi0wZzJwbWpfMFdBNFVnem9UcVU?oc=5",
-        "title": "How the Houthi Siege of Taiz Is Pushing Yemen's War to a Brutal New Extreme",
-        "official": false,
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-21T12:10:43.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Arabian Business",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeGVzSjhrbUhOTTctX0ViTkJTRnFEZnkwNTJQR3gySTJRQlk3aXNwenJ2Qk1DejVYcF84dmF4WDFPd2xKRzEwazEtOEdOb05OOFhJaXZQVTd3R2lDRHdGbTgtM1JSSEMxeFN5OTlLc0tLNE55MHlHRDZNU3lOVFBDaTJwQQ?oc=5",
-        "title": "Iran war live: Turkey, Qatar, Pakistan and Indonesia sign defence deal",
-        "official": false,
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-21T12:06:01.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Ada Derana",
-        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9EVUt5bXJyUEJVajd5cHB5LWxEY1l0WHU5SnF5bXlBZldUQi1BR1c2QnVLanRjYWZzRjc1SzNzRE9XWnF5R0xj?oc=5",
-        "title": "Advisory issued for rough seas",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       }
     ],
-    "updatedAt": "2026-10-22T07:40:55.708Z"
+    "updatedAt": "2026-10-22T08:26:47.722Z"
   }
 }
