@@ -4,6 +4,16 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-10-22T15:32:22.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQX3dUOGpLVUFDWVdyVHY1UUVRZWlnUTFUNlVWMHBpR0FVZ3lmcXd5ZzBteU1wY21mazE4V3Z6MEVXNmJGQUlTQ3p0SjV6TjdQQ1VYOHQ0dXdEZ2JqWERxWFRTb2xSemk3dzFPWUJvNTZpc2lwbWNock1xankzZ3hKbnRFazZOcFotckdKdWpqcTJxbWtHWUQ1LU5SYzdhR2g0SFF3VkRQUmd6dw?oc=5",
+        "title": "Nożownik z centrum Warszawy zatrzymany. Marcin Kierwiński komentuje",
+        "official": false,
+        "forYou": "Jeśli jesteś w pobliżu: uciekaj, a jeśli nie możesz, ukryj się i wycisz telefon. Dzwoń pod 112, gdy będzie to bezpieczne. Unikaj okolicy i nie powielaj niesprawdzonych nagrań."
+      },
+      {
         "at": "2026-10-22T13:55:00.000Z",
         "cat": "cyber",
         "sev": 2,
@@ -244,23 +254,9 @@
         "title": "Sanepid: „Nie stwierdzono obecności bakterii chorobotwórczych dla człowieka w sanatorium w Dąbkach”",
         "official": false,
         "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
-      },
-      {
-        "at": "2026-10-21T09:39:58.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "WP Wiadomości",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNl9IWk5oZ1BoajFGbGFpN2JuUnNjMG1COXJZRGluS1BjZlFkOEdpbVZYSW5feC1oZWhZbFp2dWo5UWRLMVAzY3NTZmRkaU8wWmtTcUR3c2o1cTFldXEybnJ0NVBoZ3FFbDdfdXlxNFRvajVKckNBZVF6R0RkbFNhTG9XaUxzZ3BQMkZyMVdTSUtBd0ozRldkMmhlVFBNSDB3VDdNakN3?oc=5",
-        "title": "Polskie wojsko wysłało pismo do Ukrainy. Pyta o drona z Litwy",
-        "official": false,
-        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112.",
-        "guide": {
-          "href": "/pl/mapa-schronow/",
-          "label": "Mapa schronów"
-        }
       }
     ],
-    "updatedAt": "2026-10-22T15:22:33.890Z"
+    "updatedAt": "2026-10-22T16:19:09.245Z"
   },
   "en": {
     "sample": false,
@@ -274,6 +270,16 @@
         "title": "Something Strange Is Happening to Putin: His New Ukraine War Strategy Is To Strike the Innocent Even Though He Talks Peace",
         "official": false,
         "forYou": "No action needed. Keep your basic supplies ready; situations can change quickly."
+      },
+      {
+        "at": "2026-10-22T14:33:40.000Z",
+        "cat": "disaster",
+        "sev": 3,
+        "source": "GDACS",
+        "url": "https://www.gdacs.org/report.aspx?eventid=1573141&episodeid=1741837&eventtype=EQ",
+        "title": "Earthquake in China (Orange alert)",
+        "official": true,
+        "forYou": "If you have family in the area, check in. Review your own evacuation plan."
       },
       {
         "at": "2026-10-22T14:33:39.000Z",
@@ -454,18 +460,8 @@
         "title": "Middle East latest: Pezeshkian says US must recognise Iran's rights before talks can resume",
         "official": false,
         "forYou": "No action needed. Keep your basic supplies ready; situations can change quickly."
-      },
-      {
-        "at": "2026-10-22T03:38:00.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "12News",
-        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOeTVSTkJPZ0Noc1o0U1k2emdkQUFkZGlPN0Jpd3RhcENoQlhDVm5BVWVhd3l0NUVFVnpwV3hMLUdGZGJpb2ZDdjNmZlRlUEVMMFpGVW1JZ1ZwZjduTVdHQml5dmJyQlE1YVIwUWhhYTR0dEdlbjU0aUh1cUxkd19aLWQtWEpzXzZ0NXhEblB5LUNXc1VLc1NYYm8zdDNtdXJFZ1praHk3U21uUFFHWlFhMWFhd1lWMGNmUWo5X3VYOUZ5RW9uQUpUNmZCRGQyS3JJRnFjdWdzd2JjNmszNUlZdGZaY29FN1lRdUczNEJ5OA?oc=5",
-        "title": "Storm causes widespread power outage in Heber-Overgaard",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       }
     ],
-    "updatedAt": "2026-10-22T15:23:55.605Z"
+    "updatedAt": "2026-10-22T16:21:19.171Z"
   }
 }
