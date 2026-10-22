@@ -4,6 +4,34 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-10-22T03:11:49.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Polskie Radio 24",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOc3U3WmZyXzFtUW9EQ0dzMGpfYXF6RXVLZXBBWnhNNkR0QWhaaWJnRGJnSjNVS1QtR1FKUV81OXNhV0tUZl8wd01tQWpyaWozT19oS2VwQ3JsXzFnM1NlZkhGY2RGVUdWaEltZU4yd1g2SHlhUG1ULTBYZkhicEx1blhlV2taOGxnS2Y3NVpZSXRRYjdBMnJDY1JiTWtqZXBpQ1dDcXdR?oc=5",
+        "title": "Alert RCB odwołany. Jest nowy komunikat dla mieszkańców woj. lubelskiego",
+        "official": false,
+        "forYou": "Zagrożenie minęło. Sprawdź, czy w domu wszystko jest w porządku, i uzupełnij to, czego użyłeś z zapasu.",
+        "guide": {
+          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
+          "label": "Alert RCB i aplikacja RSO"
+        }
+      },
+      {
+        "at": "2026-10-22T02:19:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Rzeczpospolita",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWkxiY1c2MThOalhhOWVBTEU0VEtEbUlETjJoa251MzlnaWs1X29UZVIzRVZETEp4TFl4M2NWeUswUmpOYzhnNlRhaHZ4eHc1aWpDLXdsQWtZRExCYTc3eFZUd1hCNFZIMk14ek5DMGdzYVNWTEVsQ0xzR0NFMmI3V012OWs2UHR1SlZJYmJWTFRsc25RVm5WYm1PTmRRcHR0S0o0NWI4ZzZsYU1UbURpSEltblA?oc=5",
+        "title": "Szef MON ponownie zapowiada utworzenie Dron Legionu. Konkretów wciąż brak",
+        "official": false,
+        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112.",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
+      },
+      {
         "at": "2026-10-22T01:21:37.181Z",
         "cat": "energy",
         "sev": 3,
@@ -25,20 +53,6 @@
         "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAxMWZHYXAyeHkyT0JxRmtoVVpwSjFaaEZTNk1Gc1RTbzFjY0RpSkJOR1MzMUg1ODBrSjRwbTVYc0VXcjhaS2F4OTdJLVRzTmY3OHFCM0pJUGpBc3FGSzJwcFVBaU9MS1pPUjYwck9aSm9oQzhW?oc=5",
         "title": "Alert RCB - zagrożenie z powietrza (21.10)",
         "official": true,
-        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
-        "guide": {
-          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
-          "label": "Alert RCB i aplikacja RSO"
-        }
-      },
-      {
-        "at": "2026-10-21T19:25:00.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "RMF24",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRFA5Nk51bGJOc3hYOUcwbzk2SXF0NUNJV2NsRVJidWVpdEJmQzFCUDBvN0lBMDlNUXVkdk9MOGJqTjlndnVVSlFtanNweXFDWGMybFVaZzRFU3hjVDhCMG8xMUctU0Q2d1R5akVMQ0ZDeE13emJjOU9MelZxYzZVNkVha0VRdjFfTVd2VVJhd205NFFFM3ZsZ2pxOGlXMXBYWlRaV25tbjk2MzJzaGRxaHlwY1Q?oc=5",
-        "title": "Alert RCB dla mieszkańców Lubelszczyzny. W polskiej przestrzeni operuje lotnictwo",
-        "official": false,
         "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
         "guide": {
           "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
@@ -248,23 +262,23 @@
           "href": "/pl/mapa-schronow/",
           "label": "Mapa schronów"
         }
-      },
-      {
-        "at": "2026-10-16T09:00:00.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "CERT Polska",
-        "url": "https://cert.pl/posts/2026/10/komunikacja-kryzysowa-w-cyberbezpieczenstwie/",
-        "title": "Komunikacja kryzysowa w cyberbezpieczeństwie",
-        "official": true,
-        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
       }
     ],
-    "updatedAt": "2026-10-22T02:15:56.561Z"
+    "updatedAt": "2026-10-22T03:22:11.699Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-22T02:56:54.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Ada Derana",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE42bzA2WjBWYlFiTlJIQ3Rab2ZKc2IybjBhNzZhM3F1T0JFcjgyOThrRnZVX0ZlczlZYzFvUmdIMWgzWUxTVHJr?oc=5",
+        "title": "Meta ordered to pay $25 billion penalty to New Mexico in data privacy case",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
       {
         "at": "2026-10-22T02:12:37.000Z",
         "cat": "energy",
@@ -284,6 +298,16 @@
         "title": "Russian missiles hit Kyiv as Moscow signals readiness for peace talks",
         "official": false,
         "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+      },
+      {
+        "at": "2026-10-21T22:58:33.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Ynetnews",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1hOHI5VDRWMGoyVVM2bmZhOHpzMEtLd2ZNdHN6N0hmWjRqRkZaMlc3VldCNC10NWdVQUVBd1JqTWltQlZnM0JRS1RRYVlLWk43VHJ4bkhUYw?oc=5",
+        "title": "‘We’ve lost everything’: Israelis displaced by Iran war fear another round of fighting",
+        "official": false,
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       },
       {
         "at": "2026-10-21T22:04:34.000Z",
@@ -444,28 +468,8 @@
         "title": "Norochcholai Power Plant expected to resume operations tomorrow",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-21T08:19:43.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "سانا",
-        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1IbFdZTWluR2VIZEhVNjNlRU5oM2R6RHFpWDZZd0hrc3hidmNvWUo0cUpqNlBOY21EMTNhYU9mWmRRbnFCUWQzMW1oQnNGdmdvMEpF?oc=5",
-        "title": "UAE thwarts 750,000 cyberattack attempts targeting vital sectors",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-21T06:36:52.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Ada Derana",
-        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1QM3VSQll2eFZQQkxaRzV1azRHckYyc0QwX2pGcnVPUHBhNEx4T2c0MmJWOFp5NUxxel9ZZ2tPV2pkVC1BX0lR?oc=5",
-        "title": "Advisory issued for severe lightning",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       }
     ],
-    "updatedAt": "2026-10-22T02:17:45.716Z"
+    "updatedAt": "2026-10-22T03:23:45.930Z"
   }
 }
