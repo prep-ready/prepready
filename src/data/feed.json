@@ -61,8 +61,8 @@
       },
       {
         "at": "2026-10-21T19:19:16.000Z",
-        "cat": "safety",
-        "sev": 3,
+        "cat": "security",
+        "sev": 2,
         "source": "Wiadomości Onet",
         "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdHI5eFREdHQ2alZId2dVaXZhYWdRM2tHeFE2VVhRQWpsTUV6bWNnMEpDS2tsY0FKUkp0MERfRVpwdlNnMVVXSWcwYVE0dVA3U1pvUWs5a3ZjX21BVFM5ZkZweU5QeWt4SE5fUUdwcW5yUm1QRC1DNFRUa29kNkpEUlA5UmYtRlQ0REg1UHVpOUZ1SEVJTl9zaGZ3?oc=5",
         "title": "Alert RCB na Lubelszczyźnie. Rosja znów atakuje Ukrainę",
@@ -88,6 +88,16 @@
         }
       },
       {
+        "at": "2026-10-21T18:35:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "PolsatNews.pl",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVWVoZ3B6aHRfN1M3X2hILVUtRkdxQTl1RzJNcWFWYjRkWXNKRm9WcDlITmRzWW9VeTRUc1RPNURaX2k1LUIyVjR3TDJHOVlVSmc5Q1k1dmpKUUlvRF9XNEo4dHA1X3kyMzkwd0Z1elpBX2Z3NVdQN0lKdTNBWko1X3JORzRZM2VBcVBIVlBQNE1vM2k5cjEwQmpvWVRmMXIxZEFkV0FJUmhBbHpuSzJNTXh3dzhjOWc?oc=5",
+        "title": "Wydrza. Obiekt wojsk NATO spadł na Podkarpaciu. Żandarmeria wydała komunikat",
+        "official": false,
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+      },
+      {
         "at": "2026-10-21T18:05:00.000Z",
         "cat": "health",
         "sev": 1,
@@ -96,16 +106,6 @@
         "title": "Nagły wzrost w trzech województwach. Rozpędza się nowa epidemia",
         "official": false,
         "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
-      },
-      {
-        "at": "2026-10-21T17:45:58.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "TVN24",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNcmlMS0ctZGtIS2RuLXpCSDdZTjVESEM5U1ZXNkRfUEtQcmVMVnBpTno4LTJ0TkltMnVXWW16Zm54Y0ZiREFURHR4MnVRaGRUMkh0b2RXWnpRNzd0VVJIV1Q5RlR5Z2lRT0I3ZjN3dzJ2SHIzTWI5R0ZiaDhmT1VFb19qbjJuR0hMTnJiZzVsbTVjMGJQY2c?oc=5",
-        "title": "Żandarmeria o \"utracie kontaktu z obiektem latającym\". Spadł na Podkarpaciu",
-        "official": false,
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
       },
       {
         "at": "2026-10-21T17:45:22.000Z",
@@ -264,7 +264,7 @@
         }
       }
     ],
-    "updatedAt": "2026-10-22T04:19:48.028Z"
+    "updatedAt": "2026-10-22T05:19:34.970Z"
   },
   "en": {
     "sample": false,
@@ -288,6 +288,16 @@
         "title": "Meta ordered to pay $25 billion penalty to New Mexico in data privacy case",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
+      {
+        "at": "2026-10-22T02:37:30.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The Weekly Times",
+        "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPNldDbG1yUW5uQTNiSVhSdllJR3dxRjE2LUFJd0RLcDR3aUtETUEyS21NWTBXY0ZIYVFIZ3BlUWFxT2lDaTRhYVJDZXVDbVg4bjBpcUZOQm5FZHczQ2xYTC1NdUhhMGVLNHhiVTgzT0I2YWpjRUF4aVpSRks3TlEyUU4zVHA0elNNSWJwVWczU1R4MDNQZHBMYUpYcHRfaVpENHhhM2lDMEFsS0RNaWZXb3Jsb002eVJZb3AyVGlLTnIyb282RFZKdDNnNTVFLUpJZmdhTXF4R0Y0TzlQWWdxcHgteXA2bzVKdE9mVWRjNEVNZ1VGZ2hYQkhUMDQ?oc=5",
+        "title": "Missiles strike Ukraine’s capital after US envoy visits Russia",
+        "official": false,
+        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
       },
       {
         "at": "2026-10-22T02:12:37.000Z",
@@ -328,16 +338,6 @@
         "title": "Industrial Sector Drives Ransomware Surge in Third Quarter",
         "official": false,
         "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-21T20:55:34.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "UNITED24 Media",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcEZWdXNxVU1aNzZhcHRseUNpVGUwQkJwcFNjeEJGd2dEbkIwME1pNjJCZmd5V2J5ZzVmNjhJd193cUV0S1JjMnNoZmpZMWlWaXMzams2Q3lnaVFIT05YcGhUTjl0bzNhRWJnalNSU052emd3d1dROFp2ZWhpdWJqT0lMSU91M3FLZ3lFckhjSEptNDNNN0R1cW5ZS25oR2lkWUphb1piYWJFd1ZPQ1d4NHNCUTAzUG8tVWFSTkhwazJKa1AwT1RV?oc=5",
-        "title": "Russian Ballistic Missiles Strike Kyiv’s Dniprovskyi District, Leaving Five Injured",
-        "official": false,
-        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
       },
       {
         "at": "2026-10-21T20:24:03.000Z",
@@ -470,6 +470,6 @@
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       }
     ],
-    "updatedAt": "2026-10-22T04:21:54.618Z"
+    "updatedAt": "2026-10-22T05:21:19.518Z"
   }
 }
