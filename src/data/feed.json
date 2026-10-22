@@ -4,7 +4,7 @@
     "sample": false,
     "items": [
       {
-        "at": "2026-10-22T00:08:09.980Z",
+        "at": "2026-10-22T01:21:37.181Z",
         "cat": "energy",
         "sev": 3,
         "source": "PSE",
@@ -60,6 +60,20 @@
         }
       },
       {
+        "at": "2026-10-21T19:16:43.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "TVN24",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZ1R5cDNJa0JQeVU1MXZXVUZrSmxxaTRBaW94aTF1YUx0VnJ5WHg5eFlXNGw3eHROMzhOZks1WXFjR3hTMmFWUXIyQ3ZTTE5qSFkyNXhtSjJ3S1FBZE05ZUdYMzhoa3R2VkMzbHRaUjk5TGpWOFBpYm1VZnZiaXNCMzJFMDBDTDVwTzBfZndESUhmV3lVVGtFNVctNUN4VkdkVUlvd0tXRE9OZk8w?oc=5",
+        "title": "Alert RCB odwołany. \"Brak zagrożenia na terenie Polski\"",
+        "official": false,
+        "forYou": "Zagrożenie minęło. Sprawdź, czy w domu wszystko jest w porządku, i uzupełnij to, czego użyłeś z zapasu.",
+        "guide": {
+          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
+          "label": "Alert RCB i aplikacja RSO"
+        }
+      },
+      {
         "at": "2026-10-21T18:05:00.000Z",
         "cat": "health",
         "sev": 1,
@@ -80,6 +94,16 @@
         "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
       },
       {
+        "at": "2026-10-21T17:45:22.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNYlVyUVA5RWhjS21mWXFhVDVYSnhWd2czcXRGaE1jY2h3TG9WT01DbG1nVC1KM1BtcWpJVjVmMWlyLVNFSUpqNXNIOXJXclQ5UDZmN3RtZVd2Y0QxMGxqZmMyQWhhbHFCQ2ptYksybEhqRUh4WU5UV081Nk9WQVhJMjFJLTFsWXJNM0JNSEJvZFBUODhfQ2hzNlF6QUR0b0ZTdFV2eHJWR00zVHZ1VklJSjB4cEk?oc=5",
+        "title": "Rosja szykuje nową falę ataków w krajach NATO? Amerykański wywiad alarmuje",
+        "official": false,
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+      },
+      {
         "at": "2026-10-21T16:40:05.000Z",
         "cat": "security",
         "sev": 2,
@@ -88,20 +112,6 @@
         "title": "Alert RCB na Wschodzie Polski. Wojsko włącza pełną gotowość",
         "official": false,
         "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
-        "guide": {
-          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
-          "label": "Alert RCB i aplikacja RSO"
-        }
-      },
-      {
-        "at": "2026-10-21T16:27:15.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "TVN24",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5MYkE5WVRpTlhDZE5UcFdsam5sbUFJWVJmbzBHalBJMGwtdE5qWmVKeWMtUWpoVEJ3akxaeV9ublcwVlBvaVNKaHZSV1dYQmNDM1U0aVhkSklXU2xjMzRuaHkxcFRyLUt2NnNYVEVUdWpFbzNkMUhZ?oc=5",
-        "title": "Alert RCB odwołany. \"Brak zagrożenia\"",
-        "official": false,
-        "forYou": "Zagrożenie minęło. Sprawdź, czy w domu wszystko jest w porządku, i uzupełnij to, czego użyłeś z zapasu.",
         "guide": {
           "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
           "label": "Alert RCB i aplikacja RSO"
@@ -248,25 +258,15 @@
         "title": "Komunikacja kryzysowa w cyberbezpieczeństwie",
         "official": true,
         "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
-      },
-      {
-        "at": "2026-10-16T08:55:00.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "CERT Polska",
-        "url": "https://cert.pl/posts/2026/10/CVE-2026-106030/",
-        "title": "Podatność w oprogramowaniu NordVPN",
-        "official": true,
-        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
       }
     ],
-    "updatedAt": "2026-10-22T00:09:15.754Z"
+    "updatedAt": "2026-10-22T01:22:18.366Z"
   },
   "en": {
     "sample": false,
     "items": [
       {
-        "at": "2026-10-21T22:05:01.000Z",
+        "at": "2026-10-21T22:04:34.000Z",
         "cat": "cyber",
         "sev": 2,
         "source": "Security Today",
@@ -466,6 +466,6 @@
         "forYou": "Update your devices and don’t tap links in alert-style messages."
       }
     ],
-    "updatedAt": "2026-10-22T00:11:23.273Z"
+    "updatedAt": "2026-10-22T01:24:21.260Z"
   }
 }
