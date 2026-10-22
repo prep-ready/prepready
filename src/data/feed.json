@@ -4,6 +4,20 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-10-22T09:54:40.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Gov.pl",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNb29IRjNnX1FnVmVObFdIc0tITXhXWURDdHY0OUlZakk5ajRGcGp1OHJiMWpfNHlnRTRKRFdJX0lMOU83VEt3Ymt6UzJQVXhhcUtJWThHZW5mOVJLSTlQcjROSlJieEdWVUhveXJLQzM4Rm5IYUJ6NklsT0kzUHZ0bktyVXlKaFRYUE1rdA?oc=5",
+        "title": "Próbna ewakuacja w szkole podstawowej",
+        "official": true,
+        "forYou": "Przypomnij dziecku zasady: słuchaj nauczyciela, uciekaj od zagrożenia albo schowaj się w sali i wycisz telefon. Nie dzwoń do dziecka i nie jedź od razu pod szkołę, czekaj na komunikat szkoły lub policji.",
+        "guide": {
+          "href": "/pl/poradniki/bezpieczenstwo-dziecka-w-szkole/",
+          "label": "Bezpieczeństwo dziecka w szkole"
+        }
+      },
+      {
         "at": "2026-10-22T07:50:00.000Z",
         "cat": "health",
         "sev": 1,
@@ -12,6 +26,20 @@
         "title": "Rozpędza się nowa epidemia. Nagły wzrost w trzech województwach",
         "official": false,
         "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
+      },
+      {
+        "at": "2026-10-22T07:27:54.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Polskie Radio 24",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMGRSSlNpb2xadjlVUmxyOEgxNGM1NG1ESjBpa0RwVUZOaHdwbkExakh0OTAxUTBRaXBWZlBUREFoVnJtMkF2WlRBX25uSEVHWnZsT3d6cDZCS3MzNWh1Q2VkMUpWbl9nYjlwWnVfcTJFRkJPNXlXbXp4VHNlYldpdzFoV1o5NTFiSEVvNA?oc=5",
+        "title": "Dlaczego wyją syreny w Małopolsce? Wysłano alert RCB",
+        "official": false,
+        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
+        "guide": {
+          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
+          "label": "Alert RCB i aplikacja RSO"
+        }
       },
       {
         "at": "2026-10-22T07:15:56.000Z",
@@ -234,41 +262,73 @@
           "href": "/pl/mapa-schronow/",
           "label": "Mapa schronów"
         }
-      },
-      {
-        "at": "2026-10-21T08:21:46.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Warszawa.Wyborcza.pl",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUm9WMXg4bTRZQVVaLVE4OHM5aG9GNjcwRmYxX1ZNQ19GUlpJXzlZT1JVYkR0bG5OdUFNTHQ5aHZTVTRRMzI3VlZ5cEw3Q2NVeGNyVkVXTXJlVnRBTi0xaUcwVVE0aVYwaW1WWXVJM0ttLWRWYjQ4emJDRFdBcjI1TjRhUDFTblRGb0NHQ1hxR00yN05JeFVMQURJNA?oc=5",
-        "title": "Polski wojskowy dron ćwiczebny spadł niedaleko Warszawy",
-        "official": false,
-        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112.",
-        "guide": {
-          "href": "/pl/mapa-schronow/",
-          "label": "Mapa schronów"
-        }
-      },
-      {
-        "at": "2026-10-21T07:43:40.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Defence24",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZkpPLThNN0trWHV6cU1TNXk1YU1DNWhUZ1VVcXlMdnZ4QUNaX0FtQzNFajlCa2JRS1MyUlJGdGFkUGN1RmxGSlF2Qy15RGI3MGo3TkFfYlh6MVJHTVpzOGVhNWFKMEVJRWdFeGg4SVRrcllUcmYwbl9TbWNLcUxiMko0ZEM5dGtnc0dGREY3RzR0UFFRcGFBUUwwYXJGUEJ0aVltdXFCekM5U3hTUmpycjllRzM5QQ?oc=5",
-        "title": "Dron spadł na prywatną posesję pod Warszawą. Policja ustaliła jego pochodzenie",
-        "official": false,
-        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112.",
-        "guide": {
-          "href": "/pl/mapa-schronow/",
-          "label": "Mapa schronów"
-        }
       }
     ],
-    "updatedAt": "2026-10-22T09:21:55.228Z"
+    "updatedAt": "2026-10-22T10:21:45.694Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-22T10:15:31.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Hackread",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNdm9tYnBpajZfck92ejFtRU5WaWZpS1AxcDBfWWRUMjdxXy0tN1pjeFd3NVZyZGVNTEpuTVY1T3hpdVBHcEJYRnExTW44UUtPYUlrQnJ2b0ktR3pyVEV6VmNTazNGS282Vkh6WFZXSkdxV0lhV2tBWGRVUzV1bDhXRkotMA?oc=5",
+        "title": "Qilin and INC Exploit Palo Alto VPN Flaw in Ransomware Attacks",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
+      {
+        "at": "2026-10-22T09:59:31.000Z",
+        "cat": "health",
+        "sev": 1,
+        "source": "ECDC",
+        "url": "https://www.ecdc.europa.eu/en/news-events/respiratory-infections-season",
+        "title": "Respiratory infections season",
+        "official": true,
+        "forYou": "Usually no action. Check your first-aid kit and expiry dates."
+      },
+      {
+        "at": "2026-10-22T09:59:28.000Z",
+        "cat": "health",
+        "sev": 1,
+        "source": "ECDC",
+        "url": "https://www.ecdc.europa.eu/en/news-events/protect-yourself-and-others-during-cold-season",
+        "title": "Protect yourself and others during the cold season",
+        "official": true,
+        "forYou": "Usually no action. Check your first-aid kit and expiry dates."
+      },
+      {
+        "at": "2026-10-22T09:31:36.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "UNITED24 Media",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTl9yNndoT3hPMlJxcUxpNzNFUlM4d01ucENvTFUtdmlhNGdMS01PZ0FDMDJEZTRBZ00wWkJYLXpWcFRaMVJOd09ZREo4LW56anBQUy1SdGZXakNVaUQ4ekpVOTJqUmZwTjhzb3VjZWpidE9JWVpMYk9QNzZpZGJJT3NtMWlIdXFyeHY5alZSZUJ3NEVaWEF6THpuelhDZUNtSks4RklBTUp0SHBwV1ZQZXRMeHVfOU5GQ2FfN190WTZPYTQ3eVE2bGRIdnFJNmNRWVNnSA?oc=5",
+        "title": "Russia Hits Historic Kyiv With Cluster Missile Designed to Maximize Damage Across Wide Area",
+        "official": false,
+        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+      },
+      {
+        "at": "2026-10-22T09:16:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The New Voice of Ukraine",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQlo5TUhsMV83WExrX3VDQ1lHMUJnWlZ3N3RfLVdZTjctY0ZDZ1NIYTYwa2I0YTZDUkg2TjIyMFRROXd0UHRTdTg5ZVhXRWp1ejF6V1hWeXVSYVNSbHhKSUJEaHRXeFJSYUVrSGtNVUQ3MS1xMmhZOWh3Y3QxTlJmekZkbVJuaEl4d1dCYWU5NjlzcTlVX3dPa2FiWkN5OUxuMUHSAZcBQVVfeXFMTTNlaFBEYjhWdkFiTC1UWHJEak0weXhoNWplRjU0a0hJV3FDUGhIS2RIbzF2RlBHTFB4T2N1ZjZEVXB4U1R0ZjZ6MEpKamxUTmZ2UmliSWpna0FPZWY1VkxxRzNFNld2cDhSWE1FdWwzTGRvOV8ySEh6SGVoa0s1SWNqdWJVSmtpOUpVVDd6dnFOWXBSeDlTaw?oc=5",
+        "title": "Russian invaders launched three waves of ballistic strikes on Kyiv since Oct. 21 – Zelenskyy",
+        "official": false,
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
+      {
+        "at": "2026-10-22T09:14:48.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5yZ2dTanNHRmFaRmNxVWRFLXoxMF9wUU9hYW1udXV5ZkUta1R5SVVRWVp1eHhfUU5admNaQ0JWN1VZZTRrVm9hZGpVcEgzMGxCNm9GZXNtZkpINnM?oc=5",
+        "title": "Two killed in attack on airport in eastern Saudi Arabia, authorities say",
+        "official": false,
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
       {
         "at": "2026-10-22T09:13:22.000Z",
         "cat": "health",
@@ -290,16 +350,6 @@
         "forYou": "Update your devices and don’t tap links in alert-style messages."
       },
       {
-        "at": "2026-10-22T08:07:38.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "UNITED24 Media",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUklSTWs0blBNdHhIdjVSRi1SbzNmOTJJdkFDTTdzRUh3aThVWmNtRFhreGpWemd4eEd6LWJOSmVZVmR1bWdiYUgzX3hySk9QZlZ0cl8xMUNrR2EyeWNFanMzTFZXM0hUM1VMSVVMaXJYTk5hV2d5bl9JM2dkSVZYT05wUGF0bU5FaXVuLXF3UGYwV0tSTFB2cUdHWThSdHB1dnlhS2ZmV01EakptYW9vR2t2ZW9DdmlnOTh0RWNrN2w?oc=5",
-        "title": "Russian Ballistic Strikes Hit Six Kyiv Districts, Killing One and Injuring 22",
-        "official": false,
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
         "at": "2026-10-22T07:19:12.000Z",
         "cat": "energy",
         "sev": 2,
@@ -318,16 +368,6 @@
         "title": "Photos show the devastating toll of an overnight Russian missile strike on Kyiv",
         "official": false,
         "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
-      },
-      {
-        "at": "2026-10-22T04:36:23.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The National",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQ2R1cnowWHhzQXdZcXRMWGVEZU83YmJaLUE3bHk1b1hleDhCNmpwcVJDbEg0Zll0LWpjTkhwdE1qc3hUdTJYSjdmMFlMaml2eTBPeHVwWll2bVFsVDJ5REx0RHk3YllpeXZuVVc5enVhS2ZyazlYQ0xGQl9WV0NMM1l0eHM0QQ?oc=5",
-        "title": "Middle East latest: One dead in attack on Dammam airport in Saudi Arabia",
-        "official": false,
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       },
       {
         "at": "2026-10-22T04:12:15.000Z",
@@ -428,48 +468,8 @@
         "title": "FBI, CISA Warn SafePay Ransomware Hit 600 Firms [2026]",
         "official": false,
         "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-21T16:40:31.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "SOCRadar",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdy1zeUtQdDNNd21TVUlIeFRCUElfZ3pxWWcwU2JtVUNLdEd0RTVsMkx1UndLUXIxZjBJaUtnb3hBQlhZdTFYc0E5LW1XYlRqRG1TYXZ6Q1Y5NGl2M1BFTVhkX0hfanVFOGFvLVV1NExZbmZTWGl0OUJRSTdRbEJGaU5jUnhZWDFoUXFFTERHdU5Ub29JbjVISw?oc=5",
-        "title": "TheHomeMag NorCal Ransomware Attack by N0n",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-21T15:56:12.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "TRT World",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNUlJRYUlid2ExM0hjaFdXNWdITTF0dnhWbDRud2FFZ3lCWURPLVI5SWdZXzBGRTNkM21iU181bW9lYXdQYzhyOGw3YlE5QTN0NmNzcVNwQnAzcFZRM3hpSXBvd0RpdFplOW81Q2duZzBwaWpSRnRUQlhnUlRWNFZwTmd1MWtJeUdEbEhpbTVQR2NMUDhOUWJRMGpXUFRvRkZVNHpUR2hvWkdqWHFuZ1M0amdselY3Sk5CeVliaHNPU3pzWkt3Ujdpb2pHMHpCZw?oc=5",
-        "title": "Houthi militia attacks Al-Rayyan airport, claims Aden strike: Yemeni media",
-        "official": false,
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-21T15:26:26.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Ada Derana",
-        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9JNkdydFNUemt5X1lYUFE0ZERKOHYydU5oNmpvMXkxeUd2OFVXRGJCcEdSZnptNEJnMTdncllKR1JGOTN6Ykk0?oc=5",
-        "title": "Public cautioned as 6 sluice gates of Deduru Oya Reservoir opened",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-21T14:15:08.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "The420.in",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOcFdLNDJBZzVMeGV1Qm95V1plbGVMdDFXcmtKUmREQUR5VGhoVmI2NkY1a0lUTnQtSEo4endfUXlEbGU3YkJmV0NKX2lkbUdDRkFXTnF5ZTRJc2FjX2VQUnVjLTRKRVJBV3g5YnNmRC1nWml5Vk44NUl2V2x1YmdFYXVNODB1N3hVQTN3?oc=5",
-        "title": "​US and Global Police Warn of SafePay Ransomware Attacks Across Four Continents",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
       }
     ],
-    "updatedAt": "2026-10-22T09:24:06.353Z"
+    "updatedAt": "2026-10-22T10:23:53.548Z"
   }
 }
