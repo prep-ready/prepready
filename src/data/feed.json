@@ -264,11 +264,31 @@
         }
       }
     ],
-    "updatedAt": "2026-10-22T08:25:19.932Z"
+    "updatedAt": "2026-10-22T09:21:55.228Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-22T09:13:22.000Z",
+        "cat": "health",
+        "sev": 1,
+        "source": "ECDC",
+        "url": "https://www.ecdc.europa.eu/en/news-events/severely-ill-patient-france-becomes-first-ever-human-infected-shamonda-virus",
+        "title": "Severely ill patient in France becomes first ever human infected with Shamonda virus",
+        "official": true,
+        "forYou": "Usually no action. Check your first-aid kit and expiry dates."
+      },
+      {
+        "at": "2026-10-22T09:06:17.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Industrial Cyber",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOamdWbDBfbzQtVkNnQVRicGJKWXI1MnJqWDVGM2N3dHBWS3BKS1RZNlRESmVVTnVoMzkzZWhMOXlKRnFabDdJcmdrRGlhZVBXTWVsNWpUcWJrRWc3ZzlGZi1sZ3dFUWJWRHF4Y3ZfbkFjMWdqNVNmUzJtTGh4UkJyRm5Dc19iVFpybG9pcTRna3JnT0xpdVFzX0NTVm96dEpvRko3OXdQQkFVek9EcHphU3AwNzctcHdraGU1dm5wd0hTVWcwMXdpRGFucmxVRTVGbkhFVnRaV19SaWhkdlRv?oc=5",
+        "title": "SafePay ransomware compromised 600 critical organizations worldwide; urge patching and network defenses",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
       {
         "at": "2026-10-22T08:07:38.000Z",
         "cat": "security",
@@ -278,16 +298,6 @@
         "title": "Russian Ballistic Strikes Hit Six Kyiv Districts, Killing One and Injuring 22",
         "official": false,
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-22T07:20:32.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "Cybernews",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNY09TVjBKUDlKZHMtelctVnByOTVqaUxGZWpTaXA2TDV0d1YzUG1jbTFXMFVSeC1tbV9mM0dkSFNtYmVlU2twSFdTOVlfU255ZHZmT01GS05CX0pFT2NaRmNXR2hOMWVxcUFNSHB3MmlLSDBmQXp0MU9rZjFPaHhIbGJtVExJdG5fZXcwVDAyaE8tYjhaWURWS3BSaXRzdw?oc=5",
-        "title": "SafePay ransomware gang hits at least 600 organizations worldwide",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
       },
       {
         "at": "2026-10-22T07:19:12.000Z",
@@ -440,16 +450,6 @@
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       },
       {
-        "at": "2026-10-21T15:35:47.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "Cybersecurity Dive",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWElmNk5keXBOZG9JQ0hRSnB2WjU0RklnU1RvZFBLcWRPWjFmZGxBN3VWSzgyZGRwaGlSYmticTNmTUFsYTgyTmZBVXVPZk1iX2Q3bjBsLTF2d3RCdDdBNE5RQWVDWVVwZlhQSkVnaDFxMmdfYmxYYkJIRDEtMjcyOTBfREp6ZkprTjlEY2doQjNiMXBwWUdpeW5JbE9QQllBS0h2dkNyR2daTmtCNkFB?oc=5",
-        "title": "FBI, CISA warn that SafePay ransomware poses threat to critical infrastructure",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
         "at": "2026-10-21T15:26:26.000Z",
         "cat": "energy",
         "sev": 2,
@@ -470,6 +470,6 @@
         "forYou": "Update your devices and don’t tap links in alert-style messages."
       }
     ],
-    "updatedAt": "2026-10-22T08:26:47.722Z"
+    "updatedAt": "2026-10-22T09:24:06.353Z"
   }
 }
