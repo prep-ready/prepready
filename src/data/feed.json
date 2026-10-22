@@ -4,6 +4,20 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-10-22T00:08:09.980Z",
+        "cat": "energy",
+        "sev": 3,
+        "source": "PSE",
+        "url": "https://www.pse.pl/",
+        "title": "PSE: dziś zalecane oszczędzanie energii",
+        "official": true,
+        "forYou": "Ogranicz zużycie prądu w godzinach szczytu, naładuj powerbanki i latarki.",
+        "guide": {
+          "href": "/pl/poradniki/blackout-jak-sie-przygotowac/",
+          "label": "Jak przygotować się na blackout"
+        }
+      },
+      {
         "at": "2026-10-21T21:02:21.000Z",
         "cat": "safety",
         "sev": 2,
@@ -246,7 +260,7 @@
         "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
       }
     ],
-    "updatedAt": "2026-10-21T23:11:58.473Z"
+    "updatedAt": "2026-10-22T00:09:15.754Z"
   },
   "en": {
     "sample": false,
@@ -452,6 +466,6 @@
         "forYou": "Update your devices and don’t tap links in alert-style messages."
       }
     ],
-    "updatedAt": "2026-10-21T23:13:34.935Z"
+    "updatedAt": "2026-10-22T00:11:23.273Z"
   }
 }
