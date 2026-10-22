@@ -4,6 +4,16 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-10-22T13:55:00.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "CERT Polska",
+        "url": "https://cert.pl/posts/2026/10/CVE-2026-16477/",
+        "title": "Podatność w oprogramowaniu MTW CleanShot X",
+        "official": true,
+        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
+      },
+      {
         "at": "2026-10-22T09:54:40.000Z",
         "cat": "safety",
         "sev": 2,
@@ -248,27 +258,53 @@
           "href": "/pl/mapa-schronow/",
           "label": "Mapa schronów"
         }
-      },
-      {
-        "at": "2026-10-21T09:24:14.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Wiadomości Onet",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbllTZnd0M0xGRkQ5eHl2clo2RzVkZE5FeFJFR3RIemtrRGlWRWkzdkVyRlpIWjhXZDdhV3Z1aGVfdk9DR0xzdVEwYnRraHVocEdNVzA0czNDTE1UMUVfTHhYaEI5U3VNdi1IRUFmcTY2MzhFbnlfQkk5c0tiRUlMM0NHTkpLZVJ5MG41T0RVMy1kTDZZaE83X1FUYzlOenVDWVJuOFJsTEo2aTVr?oc=5",
-        "title": "Polska chce wyjaśnień od Ukrainy. Sprawa dotyczy zagadkowego drona",
-        "official": false,
-        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112.",
-        "guide": {
-          "href": "/pl/mapa-schronow/",
-          "label": "Mapa schronów"
-        }
       }
     ],
-    "updatedAt": "2026-10-22T14:21:45.799Z"
+    "updatedAt": "2026-10-22T15:22:33.890Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-22T15:18:04.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "National Security Journal",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPcjFqRm1VT2VuWWUwTUw3WTRYUHJ2QnZ2V1ppQ0trUjc3Tllod0MtMXpTSmEtbW8xcEo0TDhueVZnNE4tZlFLZm03Wl9CZXVQTFpGSnpqY3JUbzAzQ0JWTzAyYW9YYV9tWGZxS2dIcVY4Um5aM0gteE4ySmhUUWpaYThhX2h1TlRaTTlabVJ6UE5FQ0NENGNiVThpVzFnRzNIbk93OC10b21tYU4xYW5WeGdBT09BaFlnRXBmMGFDSV9tV3VYTTVVb0hzNHVkd25PWGE2bm9jTEs2Z3BVUmZORjMydEhwRHlBX3UxdjlVZw?oc=5",
+        "title": "Something Strange Is Happening to Putin: His New Ukraine War Strategy Is To Strike the Innocent Even Though He Talks Peace",
+        "official": false,
+        "forYou": "No action needed. Keep your basic supplies ready; situations can change quickly."
+      },
+      {
+        "at": "2026-10-22T14:33:39.000Z",
+        "cat": "disaster",
+        "sev": 3,
+        "source": "GDACS",
+        "url": "https://www.gdacs.org/report.aspx?eventid=1573141&episodeid=1741831&eventtype=EQ",
+        "title": "Earthquake in China (Orange alert)",
+        "official": true,
+        "forYou": "If you have family in the area, check in. Review your own evacuation plan."
+      },
+      {
+        "at": "2026-10-22T14:27:14.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Odessa Journal",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPcmZ5ekxhT0ZjZlpxMlB2QmlxVkQtWWFaTDRJR3VnYVdOODNJZHRmSnY3TlhabjhhdFRhcEhIQjBfUldMMFNDcFZFbmRJUjRLVEJIS0hrNlFKSThTbGlENjdrWUZQcXpycHBRT2lBT25XMjZlQVctZk9EbTBNMTZZblY2ek5FM1hmelVkT3lTZ0pxM2FjcVFCOEFHU2tSWmRhSVA4U2NlVUpEUWZBS2dYejk5LWh6eWs?oc=5",
+        "title": "Main",
+        "official": false,
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
+      {
+        "at": "2026-10-22T14:19:29.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Odessa Journal",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTTdkWjZqLWZZYkR5bVRVWHd5SWFSR2tkTFRaQ0ZDZk1ITGlobkhxSVJQbDNBQUtDcGF3VDEyMTV4TnJmdE52OHQySWc5VENNR3JBY0JBR3lXcXlDY2lRN0hXYUJBQS1hckhjTEtNUzBNODFfRXJ4RGhNNjBoSy1MRmlfTQ?oc=5",
+        "title": "Russian missile strike destroys JYSK store in Kyiv",
+        "official": false,
+        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+      },
       {
         "at": "2026-10-22T13:17:56.000Z",
         "cat": "security",
@@ -288,6 +324,16 @@
         "title": "Russia hit Kyiv with missiles carrying cluster warheads, Zelensky says",
         "official": false,
         "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+      },
+      {
+        "at": "2026-10-22T12:30:00.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "The Hill",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRGJhRzdtM3ZXMnRmV2FfLUdiMnBqYmFXZEptSXRUX1ctcV9OYjRFS3o2ZFBGNmZvYWM1TmJ5Skx6VWhVb01lamZab292VkxUWlpjbmM5bmMtaDllbEJmVVpaNUVxaGViRnV2dEthSlo4ZkUyUXBWWjNuY0NaV0tyanFZME1Xa2JD0gGIAUFVX3lxTFBEYmFHN20zdlcydGZXYV8tR2IycGpiYVdkSm1JdFRfVy1xX05iNEVLejZkUEY2Zm9hYzVOYnlKTHpVaFVvTWVqZlpvb3ZWTFRaWmNuYzluYy1oOWVsQmZVWlo1RXFoZWJGdXZ0S2FKWjhmRTJRcFZaM25jQ1pXS3JqcVkwTVdrYkM?oc=5",
+        "title": "Russia and Iran are making copycats of China’s Great Firewall",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       },
       {
         "at": "2026-10-22T10:49:28.000Z",
@@ -400,16 +446,6 @@
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       },
       {
-        "at": "2026-10-22T06:57:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The New Voice of Ukraine",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOU3QyeTVINW45NXMxRFNzZXg5YVc5UWFTeV9rQklUcDlvLXZ2YjJ1U0hxTFhLaER5ZGV4cG94RWZJWFBjQXY5dThndGl3akZQbmNDbHh0UUVLM0FxVjNQTG9VRVpGYzBDeUxjWERGb2prWFM1RVNJUWZydld3UVVYTHZWVEpGZmgyV2FmUER6cElMeE9nM0o0eVdLTHVubXdmdm9hbzltSlk4c3Nsc0l5YUxtS2NDZVNi0gG4AUFVX3lxTE5TdDJ5NUg1bjk1czFEU3NleDlhVzlRYVN5X2tCSVRwOW8tdnZiMnVTSHFMWEtoRHlkZXhwb3hFZklYUGNBdjl1OGd0aXdqRlBuY0NseHRRRUszQXFWM1BMb1VFWkZjMEN5TGNYREZvamtYUzVFU0lRZnJ2V3dRVVhMdlZUSkZmaDJXYWZQRHpwSUx4T2czSjR5V0tMdW5td2Z2b2FvOW1KWThzc2xzSXlhTG1LY0NlU2I?oc=5",
-        "title": "Photos show the devastating toll of an overnight Russian missile strike on Kyiv",
-        "official": false,
-        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
-      },
-      {
         "at": "2026-10-22T04:12:15.000Z",
         "cat": "security",
         "sev": 2,
@@ -428,48 +464,8 @@
         "title": "Storm causes widespread power outage in Heber-Overgaard",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-22T03:03:08.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Kyiv Post",
-        "url": "https://news.google.com/rss/articles/CBMi9gNBVV95cUxQZjVmNHltaS1YMm95cDdrd0pFcE8zWEhieUNRR3JKUkJaU2NhX1RiR1M2dVk4czd0ZF9iZ1lmZHc0MFAwd0F4RDI5UndGU2M0V0pPajdvSTFiOWZtNlZtbjduaU5KZXNrMDdXTnJsRm5reHBPUDFQRFpKWndYaHprZVRiOFphUnE0OTZINFVsMTU0ZllHR1Z4XzVCTjF5VUxHSy1EbjFOMDRqOTUwYUNrUUc5TE1iNVBBUnJ1dm14dzNrbldDOXRRUnVlMEV5NUZYUXU2TU8zSktCV2c2bkxUZW1rMEhzVl9QSWtfOUVXaTNiOEZIMVVnb2Z3UlBkc0JJRGtiUGs2QnJCSEY5RlM1bThuRnNvcmljdWFxQzNjd3BMR25veEtPR2xoSEJEdXdQS1VUVXB6SnYzZURHWWkzRmlIMFR6RWhWVS1qYzhmdDY2SmZCZXpvREVQakd2QzdaVkpoV0tiVTlsMFc2WW4tcm9CNUFwSW5nOUVKUFRZTUl6TmUxdjF3TlA0YWR6eHo1d0hvV1hMcG50SnVyZHFBMTk2Mkl1LXVsNkZxUVZ3T00wRUtnVVpTOUNucUozWXQ5M1o5R3hCTG5qcVFINXBVR3U4Ynd5bDhMUmVvUS00NFkwVUt6V3pJWjhDdkh0MlZFTGtENU5B?oc=5",
-        "title": "War in Ukraine",
-        "official": false,
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-22T02:56:54.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Ada Derana",
-        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE42bzA2WjBWYlFiTlJIQ3Rab2ZKc2IybjBhNzZhM3F1T0JFcjgyOThrRnZVX0ZlczlZYzFvUmdIMWgzWUxTVHJr?oc=5",
-        "title": "Meta ordered to pay $25 billion penalty to New Mexico in data privacy case",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-22T02:12:37.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Ada Derana",
-        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1VbkhRd3EwVUxXLWFpZ1lvcWhyOTloUFJ6SHhNd1VlMmJjaUhNT1dIWGtIeFItNFI1UDVFOG5BbDNtRk8zVFdv?oc=5",
-        "title": "Over 104,000 dengue cases confirmed so far this year",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-21T22:58:33.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Ynetnews",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1hOHI5VDRWMGoyVVM2bmZhOHpzMEtLd2ZNdHN6N0hmWjRqRkZaMlc3VldCNC10NWdVQUVBd1JqTWltQlZnM0JRS1RRYVlLWk43VHJ4bkhUYw?oc=5",
-        "title": "‘We’ve lost everything’: Israelis displaced by Iran war fear another round of fighting",
-        "official": false,
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       }
     ],
-    "updatedAt": "2026-10-22T14:23:50.516Z"
+    "updatedAt": "2026-10-22T15:23:55.605Z"
   }
 }
