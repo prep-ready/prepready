@@ -264,11 +264,21 @@
         }
       }
     ],
-    "updatedAt": "2026-10-22T03:22:11.699Z"
+    "updatedAt": "2026-10-22T04:19:48.028Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-22T03:38:00.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "12News",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOeTVSTkJPZ0Noc1o0U1k2emdkQUFkZGlPN0Jpd3RhcENoQlhDVm5BVWVhd3l0NUVFVnpwV3hMLUdGZGJpb2ZDdjNmZlRlUEVMMFpGVW1JZ1ZwZjduTVdHQml5dmJyQlE1YVIwUWhhYTR0dEdlbjU0aUh1cUxkd19aLWQtWEpzXzZ0NXhEblB5LUNXc1VLc1NYYm8zdDNtdXJFZ1praHk3U21uUFFHWlFhMWFhd1lWMGNmUWo5X3VYOUZ5RW9uQUpUNmZCRGQyS3JJRnFjdWdzd2JjNmszNUlZdGZaY29FN1lRdUczNEJ5OA?oc=5",
+        "title": "Storm causes widespread power outage in Heber-Overgaard",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
       {
         "at": "2026-10-22T02:56:54.000Z",
         "cat": "energy",
@@ -458,18 +468,8 @@
         "title": "'Sheer madness': ex-IDF intelligence official warns against new Iran war ahead of elections",
         "official": false,
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-21T08:40:45.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Ada Derana",
-        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBCNWZNY2lTTGhVLU9KSHM2STlvVkNxb0YxLU0wTFI0TmR4dy1HX0QtNnpZalAwalM4TGpFbkZ2SkJQbDRiejRF?oc=5",
-        "title": "Norochcholai Power Plant expected to resume operations tomorrow",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       }
     ],
-    "updatedAt": "2026-10-22T03:23:45.930Z"
+    "updatedAt": "2026-10-22T04:21:54.618Z"
   }
 }
