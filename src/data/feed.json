@@ -4,6 +4,34 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-10-22T06:56:31.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "WP Wiadomości",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWWhkYVkxTndZYXZTenBjYmJucWVGVFVwTXQzNG5RVGpXbFVBblhpd0tVSTlVMzNVekFra1NKX2JCSzN3QS05Z1Q2Z0p0NHJXVzNVNlh3Q292bExaMG51VmNDdHhtV2sxV3AtTXo1TWxwYjNCTGllM1BTZC1EcElkTFVSUkktdDZORmFvU3FYNXVhQl9xTTNJc05mSU1HR1ZwRUNLN3NMaTNuREMwNXc?oc=5",
+        "title": "Dron z Lubaczowa przebadany. Żandarmeria Wojskowa ujawnia szczegóły",
+        "official": false,
+        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112.",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
+      },
+      {
+        "at": "2026-10-22T06:53:20.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Polskie Radio 24",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPb2dEd1gyczl5QVhOVTN6XzdKTUxWWkJGWk5yQTIwTWJnOWdIZXN4Wm1iSG1zRWI4UTdubENPS3ljN3AyYTJnQmEyMTBIa0pwdG56di1kZE5ncHF1UDFoNTFab01nb1VLVDBBaTdEbU1MNzVLSW1RRTdGRVI2MVVQX19RZHE3TnhpRWpHX21CcTN6ZWZuRXlqOXFLVklqWEZ5SmNFNElYX0RSY2JtcDdZbQ?oc=5",
+        "title": "Dron spadł w Lubaczowie. Sprawdzono promieniowanie i próbki chemiczne, są wyniki",
+        "official": false,
+        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112.",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
+      },
+      {
         "at": "2026-10-22T03:11:49.000Z",
         "cat": "safety",
         "sev": 2,
@@ -234,41 +262,23 @@
           "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
           "label": "Alert RCB i aplikacja RSO"
         }
-      },
-      {
-        "at": "2026-10-21T05:35:24.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Defence24",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaXpsQkNjMWpVR3dod2hoOXFZOFVGRng1MkwwLUlHTUR2dS0zUV9iMm9Bc3FvNjdzckJvSmJYREw1Ui1wcXlvc1J4WjA1OVdkQlp2TjFMc0RlTmVKVUFRb0t5cllGUnRrVTAxU2VBbkFaLThPQmFoV2lPXzk4ZzJ1NEFuOHZRbjFOdmstdmFjcVBqVlZ0OW9YZUZZZkQ5UFZQRFowa3Z0Y1FtNVlrTk9ZNld3?oc=5",
-        "title": "Środowy przegląd mediów; RAF przeciwko dronom Huti; Wojsko musi przyspieszyć",
-        "official": false,
-        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112.",
-        "guide": {
-          "href": "/pl/mapa-schronow/",
-          "label": "Mapa schronów"
-        }
-      },
-      {
-        "at": "2026-10-21T03:42:00.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "PolsatNews.pl",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZlpCVGJJQjhwSWsxRHFTbGNEZEtyQ2dnV191ckRhRFlSZlV6ZHFPUzJpME9PZWNERDFQdG80Y0ZvLU40aE5LcENfdVRzeTM1Y2VuNXpyQWIteGxGSzNHODRCTjdBQjFtUElkT1k5VnRxczdaS1lhUEhZRXRvenl2TXlPZkFPVXVlRkJxeldDWVI5V1hJeXNZaUg3SER2c1puc2c?oc=5",
-        "title": "Rosyjski atak na Ukrainę. Polska poderwała myśliwce",
-        "official": false,
-        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112.",
-        "guide": {
-          "href": "/pl/mapa-schronow/",
-          "label": "Mapa schronów"
-        }
       }
     ],
-    "updatedAt": "2026-10-22T06:17:47.987Z"
+    "updatedAt": "2026-10-22T07:38:47.545Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-22T07:20:32.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Cybernews",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNY09TVjBKUDlKZHMtelctVnByOTVqaUxGZWpTaXA2TDV0d1YzUG1jbTFXMFVSeC1tbV9mM0dkSFNtYmVlU2twSFdTOVlfU255ZHZmT01GS05CX0pFT2NaRmNXR2hOMWVxcUFNSHB3MmlLSDBmQXp0MU9rZjFPaHhIbGJtVExJdG5fZXcwVDAyaE8tYjhaWURWS3BSaXRzdw?oc=5",
+        "title": "SafePay ransomware gang hits at least 600 organizations worldwide",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
       {
         "at": "2026-10-22T04:36:23.000Z",
         "cat": "security",
@@ -458,18 +468,8 @@
         "title": "Advisory issued for rough seas",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-21T10:48:27.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "TaiyangNews",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPUk5CWl9jQmhIX3QwRl83MEFjQVNqV1VhT1dreC0wVkJybHpoRVlZSV9NbEFBeEhNWkJ3U0l6Z2RrVlh5bWRHeTJ0dkM5WWY0dlcxR2NuMUQwalVDWlk5aFpuLVNvY2lOeDV4VDZhclRQa0QwMGE2VGtZUkxsRlhOY0p3VmlSdWhNNWxn?oc=5",
-        "title": "Sri Lanka Blackout Highlights Need For Flexibility",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       }
     ],
-    "updatedAt": "2026-10-22T06:19:56.075Z"
+    "updatedAt": "2026-10-22T07:40:55.708Z"
   }
 }
