@@ -236,11 +236,21 @@
         }
       }
     ],
-    "updatedAt": "2026-10-23T12:12:57.280Z"
+    "updatedAt": "2026-10-23T13:27:30.346Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-23T13:13:05.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "The Mercury",
+        "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOdG5RVTZwTndyTXk1Q2VaSXBWWjJXeFUyMG03VGg0Qmx1M1VNcG9UdXJ2STdOTXVoWGdLTTVoaWdLZk1IY2RKLTllZFp4QUxCWU5rcjJPbU93ekJ5QXdsSHBoUnlqb2Q5ZGRJV1paM293a0dtU0Nlb0RSa21EYmFxS1F3Qi1UY3hpeFF2emViN1ZPSU9SQWNiQW84YzNjZkpCcExKUXNPTkE3UENUb2V6aS1fS3BsTGR5anV5V1RuS2REYXhqMlJLb0JHSHFFVElvNkRaVlJzSHRfUjRhcWZNRnl4SzZZUkNybW96dDAzWV92bWhtV0xCOEFZZjAwVXhiWjhqbGpqREU?oc=5",
+        "title": "‘When I got rid of it, my grades shot up’: Aussie boy’s move to get school off social media",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
       {
         "at": "2026-10-23T11:15:55.000Z",
         "cat": "cyber",
@@ -248,6 +258,16 @@
         "source": "Planet Biometrics",
         "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQYXpRSFlvaENiRldxNmtFVlpXdnBmWFlBdlN1WW9BN1UwZ2RDNVhpamxuVXNuTVdaX1FqNWE4dmNhTXdiNDBFbUxDTEJfRWJhTEgzTDRzM1FHSGhEVFAwUm9uQnREWXc5eXlkZHNoMWlCNktQbmFsaHRYLVdLZFhEeGZkaGRWSXpTdlloQ0dGWnprQnc?oc=5",
         "title": "SafePay: #StopRansomware campaign of joint cybersecurity advisory",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
+      {
+        "at": "2026-10-23T09:52:45.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "The HIPAA Journal",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9PMzZZbVJzWV9lV0JPWXBJOW9BSmI2eElLWHNxWVAtTkhyNnoydUdqTDRnNzE0X056UTE2WW9nakR1UTkxR0ZzX3pMVmdqb2Vjb095eHpIM1Bva0UtTXphRnh5bkpuaDBNQWNvamd5Z2E?oc=5",
+        "title": "Trends In Healthcare Data Breach Statistics",
         "official": false,
         "forYou": "Update your devices and don’t tap links in alert-style messages."
       },
@@ -372,16 +392,6 @@
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       },
       {
-        "at": "2026-10-22T20:38:40.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "The HIPAA Journal",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9PMzZZbVJzWV9lV0JPWXBJOW9BSmI2eElLWHNxWVAtTkhyNnoydUdqTDRnNzE0X056UTE2WW9nakR1UTkxR0ZzX3pMVmdqb2Vjb095eHpIM1Bva0UtTXphRnh5bkpuaDBNQWNvamd5Z2E?oc=5",
-        "title": "Trends In Healthcare Data Breach Statistics",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
         "at": "2026-10-22T20:10:24.000Z",
         "cat": "security",
         "sev": 2,
@@ -430,18 +440,8 @@
         "title": "Ukraine war latest: Ukrainian troops infiltrate Russian rear near Kupiansk through 15 kilometers of gas pipelines",
         "official": false,
         "forYou": "Report suspicious activity near railways, power lines or military sites to emergency services. Do not photograph military installations."
-      },
-      {
-        "at": "2026-10-22T15:18:04.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "National Security Journal",
-        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPcjFqRm1VT2VuWWUwTUw3WTRYUHJ2QnZ2V1ppQ0trUjc3Tllod0MtMXpTSmEtbW8xcEo0TDhueVZnNE4tZlFLZm03Wl9CZXVQTFpGSnpqY3JUbzAzQ0JWTzAyYW9YYV9tWGZxS2dIcVY4Um5aM0gteE4ySmhUUWpaYThhX2h1TlRaTTlabVJ6UE5FQ0NENGNiVThpVzFnRzNIbk93OC10b21tYU4xYW5WeGdBT09BaFlnRXBmMGFDSV9tV3VYTTVVb0hzNHVkd25PWGE2bm9jTEs2Z3BVUmZORjMydEhwRHlBX3UxdjlVZw?oc=5",
-        "title": "Something Strange Is Happening to Putin: His New Ukraine War Strategy Is To Strike the Innocent Even Though He Talks Peace",
-        "official": false,
-        "forYou": "No action needed. Keep your basic supplies ready; situations can change quickly."
       }
     ],
-    "updatedAt": "2026-10-23T12:15:04.721Z"
+    "updatedAt": "2026-10-23T13:29:38.211Z"
   }
 }

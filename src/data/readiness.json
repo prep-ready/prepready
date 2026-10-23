@@ -2,9 +2,9 @@
   "_comment": "Aktualizuje scripts/update-data.mjs codziennie. pl = Polska, en = świat. Składowe z mode=manual ustawiasz ręcznie.",
   "pl": {
     "sample": false,
-    "updatedAt": "2026-10-23T12:12:57.276Z",
-    "score": 31,
-    "delta7": 7,
+    "updatedAt": "2026-10-23T13:27:30.343Z",
+    "score": 29,
+    "delta7": 5,
     "ago30": 29,
     "history": [
       29,
@@ -35,14 +35,14 @@
       36,
       33,
       23,
-      31
+      29
     ],
     "components": [
       {
         "id": "conflict",
         "name": "Konflikt w regionie",
         "weight": 30,
-        "value": 47,
+        "value": 48,
         "sources": "GDELT · Google News",
         "trend": [
           15,
@@ -52,7 +52,7 @@
           63,
           63,
           23,
-          47
+          48
         ],
         "mode": "auto",
         "raw": [
@@ -72,7 +72,7 @@
           100,
           100,
           100,
-          92
+          94
         ],
         "stale": false
       },
@@ -138,7 +138,7 @@
         "id": "health",
         "name": "Zdrowie publiczne",
         "weight": 10,
-        "value": 27,
+        "value": 12,
         "sources": "ECDC",
         "trend": [
           12,
@@ -148,7 +148,7 @@
           27,
           27,
           27,
-          27
+          12
         ],
         "mode": "auto",
         "raw": [],
@@ -231,9 +231,9 @@
   },
   "en": {
     "sample": false,
-    "updatedAt": "2026-10-23T12:15:04.720Z",
-    "score": 40,
-    "delta7": 3,
+    "updatedAt": "2026-10-23T13:29:38.210Z",
+    "score": 35,
+    "delta7": -2,
     "ago30": 35,
     "history": [
       35,
@@ -264,14 +264,14 @@
       40,
       41,
       46,
-      40
+      35
     ],
     "components": [
       {
         "id": "conflict",
         "name": "Global conflict",
         "weight": 30,
-        "value": 47,
+        "value": 48,
         "sources": "GDELT · Google News",
         "trend": [
           45,
@@ -281,7 +281,7 @@
           43,
           48,
           61,
-          47
+          48
         ],
         "mode": "auto",
         "raw": [
@@ -305,7 +305,7 @@
           44,
           53,
           50,
-          51
+          52
         ],
         "stale": false
       },
@@ -331,7 +331,7 @@
         "id": "energy",
         "name": "Power & grid",
         "weight": 15,
-        "value": 28,
+        "value": 27,
         "sources": "Google News",
         "trend": [
           35,
@@ -341,7 +341,7 @@
           32,
           29,
           34,
-          28
+          27
         ],
         "mode": "auto",
         "raw": [
@@ -373,7 +373,7 @@
           51,
           48,
           54,
-          48
+          47
         ],
         "stale": false
       },
@@ -401,7 +401,7 @@
         "id": "health",
         "name": "Public health",
         "weight": 10,
-        "value": 28,
+        "value": 20,
         "sources": "ECDC",
         "trend": [
           20,
@@ -411,7 +411,7 @@
           28,
           28,
           28,
-          28
+          20
         ],
         "mode": "auto",
         "raw": [],
@@ -421,7 +421,7 @@
         "id": "cyber",
         "name": "Cyber & infrastructure",
         "weight": 15,
-        "value": 37,
+        "value": 5,
         "sources": "GDELT · Google News",
         "trend": [
           5,
@@ -431,7 +431,7 @@
           34,
           42,
           36,
-          37
+          5
         ],
         "mode": "auto",
         "raw": [
@@ -448,7 +448,7 @@
           58,
           53,
           26,
-          55
+          25
         ],
         "stale": false
       }
