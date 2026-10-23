@@ -4,6 +4,58 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-10-23T16:04:27.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Polskie Radio 24",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRmVVckxkckl4aVNvOWpoQkdlU3pSeTdFNVh4VUlxUkV2RDFncVNfaU96NWloZEk1eTB4LVlvOUVTMk9BVVFhMmwzRElIZW9sekFLVlBRU2dDTWpsTEVsalktX00wamdleEhzYm5zRElmTkE4Q3IweXAwdXFhdzZWZzlNT1E4dEFCVzZIcUo2enVPN1ZiQ3puVjYwMndienF6dFZURmNzVQ?oc=5",
+        "title": "Alert RCB dla Lubelszczyzny. W przestrzeni powietrznej operuje lotnictwo",
+        "official": false,
+        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
+        "guide": {
+          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
+          "label": "Alert RCB i aplikacja RSO"
+        }
+      },
+      {
+        "at": "2026-10-23T15:59:20.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "TVN24",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQckJMa3pzWjU4LVJHMXJHT3J0dU9zektCZ1VaN01oN0FodjdhUWxKX0RnWFJpelhZM2lXN2pDUjY2c2hTbnRlQlFKUnZfckF3U2l6TGFUY2ZodDhqajZkLTVuZ3pFM2NUMm5JLVpLWkNZNUdyTHhmUVBfUzl1S055V2VLalpfZnN0TERsOGozaw?oc=5",
+        "title": "Rosyjski atak na Ukrainę. Alert RCB dla Lubelszczyzny",
+        "official": false,
+        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
+        "guide": {
+          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
+          "label": "Alert RCB i aplikacja RSO"
+        }
+      },
+      {
+        "at": "2026-10-23T15:57:36.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "WP Wiadomości",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPN2JIazBBTkRfd090ejQwNnpKZVVtNlRzcm8xREJuendscUpqWVZuWWZRM2hvVzhyR0J0YzFCS3E3MVluZzB3WTVid3lsSmU1YzlSLWdTQ2ktX0R1YndYWER5YXdkT0syUFJtWWJZLTAxd2JSNGx0MXJSUDFwRUwtRnNHVGpsdFRsYWVnUWhzRVp1dFk2LWc?oc=5",
+        "title": "Polskie wojsko poderwało myśliwce. Jest alert RCB",
+        "official": false,
+        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
+        "guide": {
+          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
+          "label": "Alert RCB i aplikacja RSO"
+        }
+      },
+      {
+        "at": "2026-10-23T15:20:13.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRkkwUkZnc1FOTWxMUVV4WFVocm1seWgzd0lvOFFuT0JHeG14SDI1Z2JIeFhGWHR5OHNSR1Q5VGdGNEd5ZWhZSE5sQ2Q2cGlheWtNLUtUVFVQcjNJWk5GaWxzWE1WZjVEckVyTGhPU3JjSFBna2pOMm1fYW01d3BMUVRIWDl1MGxTODhEMW9xN3l2NlN2eHFzRGdWb1FETDZPSm1zdU53?oc=5",
+        "title": "USA ogłosiły rozejm w ukraińskim mieście. Jest komentarz Kremla",
+        "official": false,
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+      },
+      {
         "at": "2026-10-23T12:03:14.000Z",
         "cat": "security",
         "sev": 2,
@@ -22,20 +74,6 @@
         "title": "Podatności w oprogramowaniu CGM CLININET",
         "official": true,
         "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
-      },
-      {
-        "at": "2026-10-23T10:22:00.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "RMF24",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVE5obkU1cVpIYzI3Yzk3X0pmUER3MUhzalhMTXUzYy1ENnEzVEdCOS11blp6ZEZqME5tTUs2OXRZcU9Kb2dTOHJONkNTdFpraDBXNlRQZVhXZlE0d3oyeDdDRi1UUnlwbk9McVUyZk15d2hObUZramFRWmNheDdWVi1iLVFJQUJ3Q00tZHdldU4tdWNVTVJ4Y2VKT1BMNXM?oc=5",
-        "title": "Rosyjski atak powietrzny na Ukrainie. Alert RCB",
-        "official": false,
-        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
-        "guide": {
-          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
-          "label": "Alert RCB i aplikacja RSO"
-        }
       },
       {
         "at": "2026-10-23T10:13:50.000Z",
@@ -60,20 +98,6 @@
         "title": "Alert RCB dla woj. lubelskiego odwołany. \"Brak zagrożenia na terenie Polski\"",
         "official": false,
         "forYou": "Zagrożenie minęło. Sprawdź, czy w domu wszystko jest w porządku, i uzupełnij to, czego użyłeś z zapasu.",
-        "guide": {
-          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
-          "label": "Alert RCB i aplikacja RSO"
-        }
-      },
-      {
-        "at": "2026-10-23T10:12:52.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Polskie Radio 24",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQYXNwcXJnVkhWSDJ3MGllZ2NJVmh3ektBYUtEc3lqSXJMSGNvMV9TbERxa2ZrYXZnaTRJLWhUUHJ4YWFGQmJlU0oyS1Etd1FSWXJ2Z3RsbS1kNktDMkI1ME9DSDAzVTRERFNCNDlQeDRUM2dfcTFzZkRwQV9SN2pRaXZkeVFzOElhNFdTVjJqcUIzSXk3cC1IZkFjT1B3TXVSNjFnbXFBRjlZZw?oc=5",
-        "title": "Pilny alert RCB. \"Operuje polskie lotnictwo. Oczekuj dalszych komunikatów\"",
-        "official": false,
-        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
         "guide": {
           "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
           "label": "Alert RCB i aplikacja RSO"
@@ -210,33 +234,9 @@
         "title": "Podatność w oprogramowaniu MTW CleanShot X",
         "official": true,
         "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
-      },
-      {
-        "at": "2026-10-22T09:55:38.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "WP Wiadomości",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWlZCbXhjeHM5ckhlUmR2S0NfblJaRm13bFU1VUNHcHVScGIzSjdSUkdIWk1KSDFSUUhXZzJ3WTFOeHZtR0tlck9OcjMwS2p1X1JIeDh1RFh1ZjdlLVlHeTFrM1ZlaXdubHgtamNmajhCVG1qU3NHU3VJQXFsX0pRdjBQVlJQT0twTGlBNURXUllydXUyUGNFT1p3?oc=5",
-        "title": "Ukraina wykorzystała Polskę? \"Nie udostępniamy naszej przestrzeni\"",
-        "official": false,
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-10-22T09:54:40.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Gov.pl",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNb29IRjNnX1FnVmVObFdIc0tITXhXWURDdHY0OUlZakk5ajRGcGp1OHJiMWpfNHlnRTRKRFdJX0lMOU83VEt3Ymt6UzJQVXhhcUtJWThHZW5mOVJLSTlQcjROSlJieEdWVUhveXJLQzM4Rm5IYUJ6NklsT0kzUHZ0bktyVXlKaFRYUE1rdA?oc=5",
-        "title": "Próbna ewakuacja w szkole podstawowej",
-        "official": true,
-        "forYou": "Przypomnij dziecku zasady: słuchaj nauczyciela, uciekaj od zagrożenia albo schowaj się w sali i wycisz telefon. Nie dzwoń do dziecka i nie jedź od razu pod szkołę, czekaj na komunikat szkoły lub policji.",
-        "guide": {
-          "href": "/pl/poradniki/bezpieczenstwo-dziecka-w-szkole/",
-          "label": "Bezpieczeństwo dziecka w szkole"
-        }
       }
     ],
-    "updatedAt": "2026-10-23T15:22:02.696Z"
+    "updatedAt": "2026-10-23T16:23:05.559Z"
   },
   "en": {
     "sample": false,
@@ -250,6 +250,16 @@
         "title": "Importation of Ebola cases to Kenya and Nigeria: ECDC assesses the threat",
         "official": true,
         "forYou": "Usually no action. Check your first-aid kit and expiry dates."
+      },
+      {
+        "at": "2026-10-23T13:25:01.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "EnergyNow.com",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRHM5Z0w3dFFfNEtpem9naS1GakppY2drNmxqQ2xWRDB3b1hmMHBDWUZZc2ZKY2ZJR2RKejd4YW9CMTYxMzFqX01ZcmNXZG9WMVVKaXFIVlY2WVpBWUpMQnZMOEJaM2xtRW9IMnEzelgwQmQ4djVuYTA1MmVZWVB0a01IeWhuNkJnMnR3TA?oc=5",
+        "title": "Cuba’s National Electric Grid Collapses, Reason Unknown",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       },
       {
         "at": "2026-10-23T13:13:05.000Z",
@@ -430,18 +440,8 @@
         "title": "Russian strikes hit Kyiv after Witkoff meets Putin",
         "official": false,
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-22T19:10:26.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Howl.link",
-        "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE1iY0w2S1lUeEpqOE40MUxseUdQUVlMRTZlYl96Q3JNVGFudlVUUnVWMWI0MGNLODg2ZHJj?oc=5",
-        "title": "North Korea hit by widespread internet blackout as state websites go dark",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       }
     ],
-    "updatedAt": "2026-10-23T15:24:11.041Z"
+    "updatedAt": "2026-10-23T16:23:53.217Z"
   }
 }
