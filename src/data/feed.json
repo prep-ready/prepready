@@ -4,6 +4,40 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-10-23T10:55:00.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "CERT Polska",
+        "url": "https://cert.pl/posts/2026/10/CVE-2025-30043/",
+        "title": "Podatności w oprogramowaniu CGM CLININET",
+        "official": true,
+        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
+      },
+      {
+        "at": "2026-10-23T06:25:28.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Rzeczpospolita",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSkJkMzB0akVjLTNNbC1ldFlBYzBWdWFhYjlycUlXYkYzX2hpZVJBMGxKSHJMR21QSk84Ykc1OGVKb3dNdVBqT3ZGMkdXSzAtSnNQY3FPZHRmNUh4NWZQVVZJVXkxb0hiNml3anFkT0FsWmt1VFFCNHlkRVZYVm9aN3BNa2FaZnhpYkVwMk9xWXhxX1NoWFpFRWRPOVdYQ2NhZGJZ?oc=5",
+        "title": "Stała baza wojsk USA w Polsce za 15 mld zł? Są cztery lokalizacje",
+        "official": false,
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+      },
+      {
+        "at": "2026-10-23T06:15:50.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Polskie Radio 24",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWVBDckoyRG9VN2VrMFlCd0pFSUd5T0l5MUpxN3FGQ28xNGo5eThkSFhuQjU5RlNXaGRHSTR2NWhPV2V5cUg3ODdfQk14eGJ4NjFWNEcxZV90MmFxUU1wMkJiRVNya1hzbkkwa29WYU1IS3FieFNmUG5LTjYwVmc0N0MzNVlCdWplYmo5R0NMQUE?oc=5",
+        "title": "Alert RCB w Małopolsce. Wiemy, w jakich godzinach zawyją syreny",
+        "official": false,
+        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
+        "guide": {
+          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
+          "label": "Alert RCB i aplikacja RSO"
+        }
+      },
+      {
         "at": "2026-10-23T05:42:00.000Z",
         "cat": "security",
         "sev": 2,
@@ -144,20 +178,6 @@
         "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
       },
       {
-        "at": "2026-10-22T07:27:54.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Polskie Radio 24",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMGRSSlNpb2xadjlVUmxyOEgxNGM1NG1ESjBpa0RwVUZOaHdwbkExakh0OTAxUTBRaXBWZlBUREFoVnJtMkF2WlRBX25uSEVHWnZsT3d6cDZCS3MzNWh1Q2VkMUpWbl9nYjlwWnVfcTJFRkJPNXlXbXp4VHNlYldpdzFoV1o5NTFiSEVvNA?oc=5",
-        "title": "Dlaczego wyją syreny w Małopolsce? Wysłano alert RCB",
-        "official": false,
-        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
-        "guide": {
-          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
-          "label": "Alert RCB i aplikacja RSO"
-        }
-      },
-      {
         "at": "2026-10-22T07:15:56.000Z",
         "cat": "security",
         "sev": 2,
@@ -226,41 +246,53 @@
           "href": "/pl/mapa-schronow/",
           "label": "Mapa schronów"
         }
-      },
-      {
-        "at": "2026-10-22T01:21:37.181Z",
-        "cat": "energy",
-        "sev": 3,
-        "source": "PSE",
-        "url": "https://www.pse.pl/",
-        "title": "PSE: dziś zalecane oszczędzanie energii",
-        "official": true,
-        "forYou": "Ogranicz zużycie prądu w godzinach szczytu, naładuj powerbanki i latarki.",
-        "guide": {
-          "href": "/pl/poradniki/blackout-jak-sie-przygotowac/",
-          "label": "Jak przygotować się na blackout"
-        }
-      },
-      {
-        "at": "2026-10-21T21:02:21.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Gov.pl",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAxMWZHYXAyeHkyT0JxRmtoVVpwSjFaaEZTNk1Gc1RTbzFjY0RpSkJOR1MzMUg1ODBrSjRwbTVYc0VXcjhaS2F4OTdJLVRzTmY3OHFCM0pJUGpBc3FGSzJwcFVBaU9MS1pPUjYwck9aSm9oQzhW?oc=5",
-        "title": "Alert RCB - zagrożenie z powietrza (21.10)",
-        "official": true,
-        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
-        "guide": {
-          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
-          "label": "Alert RCB i aplikacja RSO"
-        }
       }
     ],
-    "updatedAt": "2026-10-23T06:17:07.075Z"
+    "updatedAt": "2026-10-23T07:32:19.998Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-23T07:25:29.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "IntelliNews",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQZWdsRWRjSGFxWmlWVHJMTE1sNFl1Z29kSWpKbmxiRWY2YWFpVXQ1V1RZUmcyNHFrZDF0eTRVZUZXUTdmMXZJYkhfNXZhQk1hZjJEZ0xPVkktazJrdkpYOFpoTEs5U0VjQnEwTndkNUZ2MEtROEFFSUhvWWgtanQ3YXFuT09vVFJpNkRBOGgxREJINkhnQ2RJN2ZyX25PenpBNGgtSFVnTldsVlBqU0FGSDk2eTZUR3p5RGFBVEdFeUVOMUQ5ek5FRnFEQzIxTEpDWnlVTGlJUGw2V1c5X0E5bFFEWjVUWUhtZGVMSWZ3?oc=5",
+        "title": "Missile War Monitor: Russian strike on Ukraine's Lozova market kills two, DTEK power plant stops generating",
+        "official": false,
+        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+      },
+      {
+        "at": "2026-10-23T06:53:35.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Odessa Journal",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbFJEYkEzeUNaSEtmNmpGMzB3RjlwNXZ4RGkyMS04R0szY1V3OW5UM1F4aHY5MzFGRy1vUTB2VnN2amZKR0JQUkpHZDVSR1R3R2N6ZlVEcTNjcHhaeU5pdUVFb2FzUzBrRnYtQUVUVUthSzJ1NlgzQWZEQjdXaHJHX2tXdmdybkZFTmsyWU9yTDNiV3VrSXFJSThKSzdOUWd3QmJ0MVo2cFQ3ZDloMnc?oc=5",
+        "title": "Russia Loses 1,830 Troops and 2,067 Drones in One Day - Oj",
+        "official": false,
+        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+      },
+      {
+        "at": "2026-10-23T06:49:25.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Odessa Journal",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVmFVWlc4UmxpRHlQZDJjRGg2LXFrcUNVVDEwWEFzQU5KeWVsdUlEOC1wZE5nMEFNbGp6S1oteUV3NVZZc3hiR1JIdlNFQnBUUTdOV3dlaTExalRGdmtzUDBISUItWE9nRUppVFQxWTNiUjMtUjNDVGZiQ1VCOUR2b1d5SUdzUHozVmJUOWhrU0ZEN0pnVWtZU1BiRjI1QTVESlRkVklB?oc=5",
+        "title": "Main",
+        "official": false,
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
+      {
+        "at": "2026-10-23T06:41:54.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Laodong.vn",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdEtKYjdITWVrWXU4N1FHdG5WY1dQYm8xd1RWMUVuTHdrcVFudmZNQXg2ZVoyX2hodmdGb2lMZElkZ1ZHYm9tbjdPTV9ZV1JjSWcxX3dSYWc1TzF6akt6TFFrejFJeW9LMmROR0NRSWJEZDlwbEVJaTl6WkcwTU51a0dKamhENWlRQm5idDlwbmgtZWVqM19hVm5sZkw5UHlkTXkzTnhvYURzVzkwczRJaEp1RlgtZXZnb3RGT3ZlYXRoX0VR?oc=5",
+        "title": "What businesses need to do to protect energy infrastructure from cyberattack risks",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
       {
         "at": "2026-10-23T04:25:29.000Z",
         "cat": "energy",
@@ -300,16 +332,6 @@
         "title": "Caribbean Blackout Forces Embassies to Aid Stranded Tourists",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-22T21:05:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Japan Today",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOdUFUVExTT3poUmRUN2FoeThPdXMxTGREUXJ3QkJwbFVDR2ZweUdtMDFSN1FsZmhIZUZHdlAzNkpGemFHSE1pNVpLbGJyV1oxRDcxRXNZRGlOSTBLQnp2YTNRRG9rS2s0cUxqQ3g0U0JNRGFKekpTWHdYWkxOcERJa3p4RFAxZURzZkdROTJVVHRCZGc1TVpRNFdGQkI1Vl9Gc3lPVWtuYzJ5SE9QM2tqUWlreVJySk5KNDhvRGhmU1lwckU4WDhleWhqZUotTEV3?oc=5",
-        "title": "Russian missiles pound Kyiv as Moscow says over 800 Ukrainian drones downed",
-        "official": false,
-        "forYou": "The threat has passed. Check your home and restock anything you used."
       },
       {
         "at": "2026-10-22T20:38:40.000Z",
@@ -422,16 +444,6 @@
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       },
       {
-        "at": "2026-10-22T14:19:29.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Odessa Journal",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTTdkWjZqLWZZYkR5bVRVWHd5SWFSR2tkTFRaQ0ZDZk1ITGlobkhxSVJQbDNBQUtDcGF3VDEyMTV4TnJmdE52OHQySWc5VENNR3JBY0JBR3lXcXlDY2lRN0hXYUJBQS1hckhjTEtNUzBNODFfRXJ4RGhNNjBoSy1MRmlfTQ?oc=5",
-        "title": "Russian missile strike destroys JYSK store in Kyiv",
-        "official": false,
-        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
-      },
-      {
         "at": "2026-10-22T13:46:33.000Z",
         "cat": "security",
         "sev": 2,
@@ -440,28 +452,8 @@
         "title": "Two killed in Houthi attack on airport in eastern Saudi Arabia, authorities say",
         "official": false,
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-22T13:17:56.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Outlook India",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdGF4TWl0Qzh3NGVMZ3ZFUEZCcGRhc0JvaHdoZzNSUjl2dGg4Sk53TlY1aURJZzBrX2pqTXhxSDVUSUN1SmRjbHNNTlZYWmNKTVBrVkowLW9FaHBKZjQ5TTQwMWdYZnp5R1ZEb3BCRWJPLWNadDJTTU0zWjh2dUUtXzBYa1RYam5UYjJzSG5yLVgzVnlNQTkwTG9jb3hwWTF5S1NiY1VzLVBOTi1mYkxEalY0MzFQbUc2RGIw0gHIAUFVX3lxTE9uWUh1d2NxdlNIdHg2UHpSb2xpamxndUk3NHNDNDRaN1BTcWtSTVhRVTBaYmg0X1JHM1lRSmJqSUs5M0E2alNYeVpVMU5zRy11d1B4UW1YaW4xQjZPdklWWlBraEptZzl2WVc4cW9QejJZWjlOSEs4OGZ5Z2hLdkZTdDUxRm1RYzR4MWYwRHR2TExnR0JOOHhadV9qM09vbjJkcERDQ3BhNmZhWDQ5OC1ZbkpzY2thYTg2enRQNFhKSHRSMHlqa1NT?oc=5",
-        "title": "In Photos: Craters And Damaged Homes Mark Aftermath Of Russian Attack On Kyiv",
-        "official": false,
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-22T13:16:19.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The Jerusalem Post",
-        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE85dEFKOXZIQVhWVThGbHNfb0dEOVhnajVlQzVESVB5MDlrN2xtY2xIeGQySGZob25XRk9xaUllaDFFbEtGTk9nMk42WGtNMGlldGdkRGg2VzA0aUNEdzYw?oc=5",
-        "title": "Russia hit Kyiv with missiles carrying cluster warheads, Zelensky says",
-        "official": false,
-        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
       }
     ],
-    "updatedAt": "2026-10-23T06:18:55.613Z"
+    "updatedAt": "2026-10-23T07:34:27.652Z"
   }
 }
