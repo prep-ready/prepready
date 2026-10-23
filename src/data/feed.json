@@ -4,6 +4,34 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-10-23T04:01:40.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQS21xRWJNcDZ5ZHFwLUdRc1g1bVhaYlZDU3lLdnh4QWUwZXQwd1FjMXF4UUVVVmFab2N4WE5NX3RpR1BBaHBDa2pkNVRObnpXbkVOTFMwWklONXdhTmgtTEljR05rZVd4QkFFdG5RX2VnYTA4TFBYY3N0WTFrM1I2elpnOWlXRUttamZiSUVzU0FLajR4OFVlTnp2MDJrMW8yajRkWWVZcVQwRlJjSVJhVHdrTEc0aXRUYVRqaWMwVkY?oc=5",
+        "title": "Alert RCB przy granicy. Putin zabrał głos po rozmowie z Witkoffem. Podsumowanie nocy",
+        "official": false,
+        "forYou": "Informacja o sprzęcie wojskowym. Nie wymaga działań z Twojej strony.",
+        "guide": {
+          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
+          "label": "Alert RCB i aplikacja RSO"
+        }
+      },
+      {
+        "at": "2026-10-23T03:31:00.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "PolsatNews.pl",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZlhDT1lXS3RmLU1hbm5HZXFhdmFqV1pVY1ByTjdkVERTZ1o0TVBmcE83OHNVTlZxVF9OVTFqbEZHT1M4RERUWEpRZFBRWm1SVHNEMmhrSnBLY0ZhUnBZVGh5LTNXREp4ZGxFcnkwZVZYX2ZLTnZrVF9tNG1TN2llbDJkU0c4cWw3NkJVLUlibjB4SjhvR3ZpQ1AwS2hzRXBDRktycHh1c2lRUQ?oc=5",
+        "title": "Polska poderwała myśliwce. Alert RCB dla dwóch województw",
+        "official": false,
+        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
+        "guide": {
+          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
+          "label": "Alert RCB i aplikacja RSO"
+        }
+      },
+      {
         "at": "2026-10-23T03:09:00.000Z",
         "cat": "safety",
         "sev": 2,
@@ -230,37 +258,23 @@
         "title": "Wydrza. Obiekt wojsk NATO spadł na Podkarpaciu. Żandarmeria wydała komunikat",
         "official": false,
         "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-10-21T17:45:22.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Wiadomości Onet",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNYlVyUVA5RWhjS21mWXFhVDVYSnhWd2czcXRGaE1jY2h3TG9WT01DbG1nVC1KM1BtcWpJVjVmMWlyLVNFSUpqNXNIOXJXclQ5UDZmN3RtZVd2Y0QxMGxqZmMyQWhhbHFCQ2ptYksybEhqRUh4WU5UV081Nk9WQVhJMjFJLTFsWXJNM0JNSEJvZFBUODhfQ2hzNlF6QUR0b0ZTdFV2eHJWR00zVHZ1VklJSjB4cEk?oc=5",
-        "title": "Rosja szykuje nową falę ataków w krajach NATO? Amerykański wywiad alarmuje",
-        "official": false,
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-10-21T16:40:05.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Portal Samorządowy",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWXhxZ2w5bUZzc3kycnNrX2dHOUZuX1lQUEJvYW5rRWZrdmpyb0pvOWc3UU5jS3dYNF9JMGJJY1Fwel9RSFZrRVFnWmlZcFFjeTJ1VjdkcVllRUp3WERhajhtbFJvSHY0SndRWjU4OUJadDRKZmF1cXIyaEU0N08ydHIwMzlHal9sX29sV2ZQYkEzLUI5QVRMbXBkUnhvUTVEWWpqdFFDcWJxTl9uZVhOZ0JPbXREWDNieDVJbmNhRQ?oc=5",
-        "title": "Alert RCB na Wschodzie Polski. Wojsko włącza pełną gotowość",
-        "official": false,
-        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
-        "guide": {
-          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
-          "label": "Alert RCB i aplikacja RSO"
-        }
       }
     ],
-    "updatedAt": "2026-10-23T03:18:54.947Z"
+    "updatedAt": "2026-10-23T04:19:30.362Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-23T01:24:47.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Arabian Business",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeGVzSjhrbUhOTTctX0ViTkJTRnFEZnkwNTJQR3gySTJRQlk3aXNwenJ2Qk1DejVYcF84dmF4WDFPd2xKRzEwazEtOEdOb05OOFhJaXZQVTd3R2lDRHdGbTgtM1JSSEMxeFN5OTlLc0tLNE55MHlHRDZNU3lOVFBDaTJwQQ?oc=5",
+        "title": "Iran war live: Saudi-led coalition denies Houthi claims of threats against Yemeni tribal gatherings",
+        "official": false,
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
       {
         "at": "2026-10-23T01:18:45.000Z",
         "cat": "cyber",
@@ -450,18 +464,8 @@
         "title": "Russia and Iran are making copycats of China’s Great Firewall",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-22T10:49:28.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "SOCRadar",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1xMGp5UXVCNGFKWXpvRDBGS0wwZVNOYmZvTE1sSkdvQ3hyX2RTVHBqU25PRUFuV1dkZFRqcExGQ0t6aFJxWWw3Z3ZFYmtrVFhpOFZYeVk3cDkzLXNwd0ktWjZpajBTMDVPSXhyc3ZhMzg5V01iODVTZ0pGbw?oc=5",
-        "title": "emperador Ransomware Group Profile",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
       }
     ],
-    "updatedAt": "2026-10-23T03:20:57.389Z"
+    "updatedAt": "2026-10-23T04:21:37.897Z"
   }
 }
