@@ -256,11 +256,21 @@
         "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
       }
     ],
-    "updatedAt": "2026-10-22T23:13:35.995Z"
+    "updatedAt": "2026-10-23T00:10:08.475Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-22T21:05:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Japan Today",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOdUFUVExTT3poUmRUN2FoeThPdXMxTGREUXJ3QkJwbFVDR2ZweUdtMDFSN1FsZmhIZUZHdlAzNkpGemFHSE1pNVpLbGJyV1oxRDcxRXNZRGlOSTBLQnp2YTNRRG9rS2s0cUxqQ3g0U0JNRGFKekpTWHdYWkxOcERJa3p4RFAxZURzZkdROTJVVHRCZGc1TVpRNFdGQkI1Vl9Gc3lPVWtuYzJ5SE9QM2tqUWlreVJySk5KNDhvRGhmU1lwckU4WDhleWhqZUotTEV3?oc=5",
+        "title": "Russian missiles pound Kyiv as Moscow says over 800 Ukrainian drones downed",
+        "official": false,
+        "forYou": "The threat has passed. Check your home and restock anything you used."
+      },
       {
         "at": "2026-10-22T20:38:40.000Z",
         "cat": "cyber",
@@ -290,6 +300,16 @@
         "title": "Russian strikes hit Kyiv after Witkoff meets Putin",
         "official": false,
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
+      {
+        "at": "2026-10-22T19:10:26.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Howl.link",
+        "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE1iY0w2S1lUeEpqOE40MUxseUdQUVlMRTZlYl96Q3JNVGFudlVUUnVWMWI0MGNLODg2ZHJj?oc=5",
+        "title": "North Korea hit by widespread internet blackout as state websites go dark",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       },
       {
         "at": "2026-10-22T18:34:04.000Z",
@@ -440,28 +460,8 @@
         "title": "Qilin and INC Exploit Palo Alto VPN Flaw in Ransomware Attacks",
         "official": false,
         "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-22T10:11:47.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "NBC News",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOOEdGTWtjTl9xZ0UwUDlueUFBSG5PaXNRZW1oN0o4ZXF6Q1pjbEhrb2RmWkdVVUJTeEQ3ODQ0R1hoSFNjbTFVSEN0aEQ1SF9DeExXSmRubWNLcXhvWG4wSGs5Q0pKM1BjZWd2SExwNUprNWdzeFNBR2hLRjYxVnFCN2stOGh4WmYyb2JZZzZsNVVUdzRENFIxeXFDZVZVRm9Zd0N5N19IY3ZmYzYzbjA4?oc=5",
-        "title": "Russia pounds Kyiv with missiles and drones, hours after agreeing to peace talks",
-        "official": false,
-        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
-      },
-      {
-        "at": "2026-10-22T09:59:31.000Z",
-        "cat": "health",
-        "sev": 1,
-        "source": "ECDC",
-        "url": "https://www.ecdc.europa.eu/en/news-events/respiratory-infections-season",
-        "title": "Respiratory infections season",
-        "official": true,
-        "forYou": "Usually no action. Check your first-aid kit and expiry dates."
       }
     ],
-    "updatedAt": "2026-10-22T23:15:04.934Z"
+    "updatedAt": "2026-10-23T00:11:50.864Z"
   }
 }
