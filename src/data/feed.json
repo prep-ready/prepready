@@ -236,11 +236,21 @@
         }
       }
     ],
-    "updatedAt": "2026-10-23T14:24:11.957Z"
+    "updatedAt": "2026-10-23T15:22:02.696Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-23T14:42:20.000Z",
+        "cat": "health",
+        "sev": 2,
+        "source": "ECDC",
+        "url": "https://www.ecdc.europa.eu/en/news-events/importation-ebola-cases-kenya-and-nigeria-ecdc-assesses-threat",
+        "title": "Importation of Ebola cases to Kenya and Nigeria: ECDC assesses the threat",
+        "official": true,
+        "forYou": "Usually no action. Check your first-aid kit and expiry dates."
+      },
       {
         "at": "2026-10-23T13:13:05.000Z",
         "cat": "energy",
@@ -248,6 +258,16 @@
         "source": "The Mercury",
         "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOdG5RVTZwTndyTXk1Q2VaSXBWWjJXeFUyMG03VGg0Qmx1M1VNcG9UdXJ2STdOTXVoWGdLTTVoaWdLZk1IY2RKLTllZFp4QUxCWU5rcjJPbU93ekJ5QXdsSHBoUnlqb2Q5ZGRJV1paM293a0dtU0Nlb0RSa21EYmFxS1F3Qi1UY3hpeFF2emViN1ZPSU9SQWNiQW84YzNjZkpCcExKUXNPTkE3UENUb2V6aS1fS3BsTGR5anV5V1RuS2REYXhqMlJLb0JHSHFFVElvNkRaVlJzSHRfUjRhcWZNRnl4SzZZUkNybW96dDAzWV92bWhtV0xCOEFZZjAwVXhiWjhqbGpqREU?oc=5",
         "title": "‘When I got rid of it, my grades shot up’: Aussie boy’s move to get school off social media",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
+      {
+        "at": "2026-10-23T11:52:07.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Sur in English",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNZzV2Vi1qVHBQV1dlN20zMmRBUHNGR1hLTk1mNGVZRlFiV29kUzBRazZ3ZDlFT2JfWFBzQmhLSGZaMkpZMEhlVVpnSWdxeWdmUkw1LW5ONUNwUEF1ZDh2SVlkX0ZwOHgzS1dvMXdMN2VPSFNITHYweE5UaHplemloRlB6amRuQk1SMHZ0Yw?oc=5",
+        "title": "Spain's competition regulator denounces Red Eléctrica for coordination failures following 2025 nationwide blackout",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       },
@@ -420,28 +440,8 @@
         "title": "North Korea hit by widespread internet blackout as state websites go dark",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-22T18:34:04.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "The420.in",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE03Nm83bHVUUzBBeDNXMzRQZkxYdmlVQmdTb1RHX2VNVzlyNkQxTDAxdnZjT2hVTS1nMncxVlVVUWVXd0tVclpkQWtkWjVyZEYtbzVtZnpDSkFka2xsYVJ5cUZ6Ym9zXzVGS2VlM3AxVGNKaXF1QkJiNW00Vk9obFk?oc=5",
-        "title": "Russia-Aligned Hackers Use Decentralised Network in Ukraine Cyberattack",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-22T18:03:30.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The Kyiv Independent",
-        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQbTdFSzllekZHa05sQ3gwTzVURW5qZC10dVl4NE9HbFdwTTNaMi1ldkxGTWswRnZlM18yU2Z6ZmdUMlYwQ19oQnItMlRHX1Q1cFNyMDFaVm1XZTduaHA2azEwY0ZicTgtUjgtLWhjNVpISlduekFXbXg4SkJoZGJkV1l3T3huakZldUtPSURCU3J6dUxTSnVJQnRkTlRHNERLOHJfZ01IcVBhNVA0MmM2WHdObDE5NTFtNHJmZ1d3dktFbWZValNSUFo3RUxMYjBBTzNmTnZIZDI?oc=5",
-        "title": "Ukraine war latest: Ukrainian troops infiltrate Russian rear near Kupiansk through 15 kilometers of gas pipelines",
-        "official": false,
-        "forYou": "Report suspicious activity near railways, power lines or military sites to emergency services. Do not photograph military installations."
       }
     ],
-    "updatedAt": "2026-10-23T14:25:37.850Z"
+    "updatedAt": "2026-10-23T15:24:11.041Z"
   }
 }
