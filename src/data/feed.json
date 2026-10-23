@@ -248,7 +248,7 @@
         }
       }
     ],
-    "updatedAt": "2026-10-23T07:32:19.998Z"
+    "updatedAt": "2026-10-23T08:22:10.282Z"
   },
   "en": {
     "sample": false,
@@ -258,7 +258,7 @@
         "cat": "security",
         "sev": 2,
         "source": "IntelliNews",
-        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQZWdsRWRjSGFxWmlWVHJMTE1sNFl1Z29kSWpKbmxiRWY2YWFpVXQ1V1RZUmcyNHFrZDF0eTRVZUZXUTdmMXZJYkhfNXZhQk1hZjJEZ0xPVkktazJrdkpYOFpoTEs5U0VjQnEwTndkNUZ2MEtROEFFSUhvWWgtanQ3YXFuT09vVFJpNkRBOGgxREJINkhnQ2RJN2ZyX25PenpBNGgtSFVnTldsVlBqU0FGSDk2eTZUR3p5RGFBVEdFeUVOMUQ5ek5FRnFEQzIxTEpDWnlVTGlJUGw2V1c5X0E5bFFEWjVUWUhtZGVMSWZ3?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQRHpsbVNMRXYzUzJCb2ZDTDBjcnpxOEtHQm9sMU1xWUpCNXJ1b09udXoxcTBON3JqSnU0OHIzNHlCb3pUM2pLSlpURVUxNjNkcldacFVKcFNOUGppVVNWT2lQQ1pSbmZ6bk4zYkZINEcxdkw4U01EOHNUSnJqWFVvWmpSWl9EckxDQmZzVEQ4WTlJTFlpbXFmNUJselF5QzExSE05UktGRGxHMjdWaHRXMl9tZmhvLU43ZWVkbnhWMFIxcXZtSk5kUjVSdFFfSEtXcHFKNk5tODJvT2VocFNxODNNMjQ2UTdHakMweg?oc=5",
         "title": "Missile War Monitor: Russian strike on Ukraine's Lozova market kills two, DTEK power plant stops generating",
         "official": false,
         "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
@@ -454,6 +454,6 @@
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       }
     ],
-    "updatedAt": "2026-10-23T07:34:27.652Z"
+    "updatedAt": "2026-10-23T08:23:29.052Z"
   }
 }
