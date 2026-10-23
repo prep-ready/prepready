@@ -4,6 +4,20 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-10-23T18:25:00.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Radio Zet",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObjJoWmxtRzF6X0JyMG1jdGFBWkNNYTFaRE9BcWVkRmI5ZHhnZWRRLVlCbXIydG5RMmpRY0pQdHUwNndnTkJfQlRDRGFfNFQ3dng1N2VrVmxYYUY2RVl3aGY0ZEJIWDR0U3NMRkgwTzR6cjdRNXU3R1FHZk9UeS1uTGVFRjNqRjBfSW05bnpHQ2ZMTXNzMzAtZS1UNnB4M21mSXp3OWNCSQ?oc=5",
+        "title": "Kolejny alert RCB dla woj. lubelskiego. „Oczekuj dalszych komunikatów”",
+        "official": false,
+        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
+        "guide": {
+          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
+          "label": "Alert RCB i aplikacja RSO"
+        }
+      },
+      {
         "at": "2026-10-23T17:55:49.000Z",
         "cat": "safety",
         "sev": 2,
@@ -18,12 +32,12 @@
         }
       },
       {
-        "at": "2026-10-23T16:24:08.000Z",
+        "at": "2026-10-23T17:54:51.000Z",
         "cat": "safety",
-        "sev": 2,
-        "source": "Radio Zet",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUS1ZY2lkdWx4cmR1X2EwYW1ZOVEwa3lVRTJndFpLVnU4QkpwdFNSclhJdmxZX1JFd2JZd181d01QZndEaG54RDREWUNEUGNQZnRBQmtGTE5kaVhKYy10MjZXcFQtMTVrX25YSmtxZFhvUlRaanlZU18zTmd5ZGpnS2hlS0V6VnpMVmJuVmJoYjZsNWVqeVhPNmV0RjRIeXpZSVE?oc=5",
-        "title": "Alert RCB dla kilkunastu powiatów. „Oczekuj dalszych komunikatów”",
+        "sev": 3,
+        "source": "Polskie Radio 24",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNREJ5WVVUMktvenhFSncwbFVCdzFpNEkxcHhGZmU1LW5ScEZNR3RIbTRmYTJFUW1qYUtWR0tpanQybnMyc0RXdGpXYmpOUS1xeHpjWHpkc1QyT09kMENBMmZWZk5nYnVSNk5QYmFUVjVCczBWVzdxU1JqQUE4MGktWG9SbE9RTHlOZmdkM3FTdFU0bUlHYzkxMmxJcFowOFdqcXhUU2prRGZNQjZmM1E?oc=5",
+        "title": "Nowy alert RCB dla Lubelszczyzny. \"Rosyjski atak powietrzny na terenie Ukrainy\"",
         "official": false,
         "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
         "guide": {
@@ -38,34 +52,6 @@
         "source": "RMF24",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVkFfb3F4NW5XWkZQNE1kOGt1aWVOX0d3c1l1QjRPNGFKSWdldFd4TU45YlZ2T2dudmJjQXMxZUQ4TW9XQ2FmQ1hSM3VuU0FFZUk3MWFraXJ2b1VPdGtoMTQ5VHJxMDlRWHJOTTh3Z2RtemFHMmh0WXBHdlA2MTM5eEZLeDhzRGhnRHVQcVhWVkpQUDNUWlVlTy1Ja2VaeGFiVXpmMWJSVzMwd2lzRWtiUmtLVVM?oc=5",
         "title": "Alert RCB dla części Lubelszczyzny. „W przestrzeni RP operuje polskie lotnictwo”",
-        "official": false,
-        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
-        "guide": {
-          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
-          "label": "Alert RCB i aplikacja RSO"
-        }
-      },
-      {
-        "at": "2026-10-23T16:04:27.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Polskie Radio 24",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRmVVckxkckl4aVNvOWpoQkdlU3pSeTdFNVh4VUlxUkV2RDFncVNfaU96NWloZEk1eTB4LVlvOUVTMk9BVVFhMmwzRElIZW9sekFLVlBRU2dDTWpsTEVsalktX00wamdleEhzYm5zRElmTkE4Q3IweXAwdXFhdzZWZzlNT1E4dEFCVzZIcUo2enVPN1ZiQ3puVjYwMndienF6dFZURmNzVQ?oc=5",
-        "title": "Alert RCB dla Lubelszczyzny odwołany. Jest nowy komunikat",
-        "official": false,
-        "forYou": "Zagrożenie minęło. Sprawdź, czy w domu wszystko jest w porządku, i uzupełnij to, czego użyłeś z zapasu.",
-        "guide": {
-          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
-          "label": "Alert RCB i aplikacja RSO"
-        }
-      },
-      {
-        "at": "2026-10-23T15:59:20.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "TVN24",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQckJMa3pzWjU4LVJHMXJHT3J0dU9zektCZ1VaN01oN0FodjdhUWxKX0RnWFJpelhZM2lXN2pDUjY2c2hTbnRlQlFKUnZfckF3U2l6TGFUY2ZodDhqajZkLTVuZ3pFM2NUMm5JLVpLWkNZNUdyTHhmUVBfUzl1S055V2VLalpfZnN0TERsOGozaw?oc=5",
-        "title": "Rosyjski atak na Ukrainę. Alert RCB dla Lubelszczyzny",
         "official": false,
         "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
         "guide": {
@@ -238,13 +224,33 @@
         "title": "Nożownik z Warszawy schwytany, premier reaguje na tekst WP [SKRÓT DNIA]",
         "official": false,
         "forYou": "Jeśli jesteś w pobliżu: uciekaj, a jeśli nie możesz, ukryj się i wycisz telefon. Dzwoń pod 112, gdy będzie to bezpieczne. Unikaj okolicy i nie powielaj niesprawdzonych nagrań."
+      },
+      {
+        "at": "2026-10-22T13:55:00.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "CERT Polska",
+        "url": "https://cert.pl/posts/2026/10/CVE-2026-16477/",
+        "title": "Podatność w oprogramowaniu MTW CleanShot X",
+        "official": true,
+        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
       }
     ],
-    "updatedAt": "2026-10-23T19:23:04.874Z"
+    "updatedAt": "2026-10-23T20:11:18.462Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-23T18:15:50.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "UA.NEWS",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQSW5qWnFLR1VIWnVFcERwbWN4QTc1T3FoUmlQV25DS2xKWGdxdU1PSnRNY3ptZjZtUE5ZSl9tc1VNN1dzRS1VRjVHOWNsQ0VHdU1HZzg4dUZ2ajRwYjhKc1IyaHA5Sy1oODQ5Q0RIdjRxRklnX2JGaGZhVThub25OMDFtMVY0ZF8yTUNSREp0Q19GYjg?oc=5",
+        "title": "A workshop at the Proton plant in Orel was destroyed following a missile strike",
+        "official": false,
+        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+      },
       {
         "at": "2026-10-23T17:50:00.000Z",
         "cat": "cyber",
@@ -264,16 +270,6 @@
         "title": "2025 Blackout: Spain, Morocco to Inspect Undersea Power Cable",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-23T16:59:07.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "UNITED24 Media",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVTVwV2VLdWNZSi1JV01KaENOYVZ6UHNoV19EN0Z1N0RuX2ZkWkRueU1hTnk5dmhsdG1hWFgtRGlSUks2eWtZU2RkSlBXaFltZVpLWVJkSjQ2SWtySHU0a211VlgwUzRRczBzMGk1WERJVm9OWk5fUGNPcEt5b1FFMEdfcFFPUkM2SXM5UEFwOTRrTkRRcEwtNTJYZkc3RmNsb2doelRnWVFVSmtlWTBWQURscDQ?oc=5",
-        "title": "Missile Strike Hits Russian Defense Electronics Plant in Orel, Video",
-        "official": false,
-        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
       },
       {
         "at": "2026-10-23T16:36:52.000Z",
@@ -446,6 +442,6 @@
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       }
     ],
-    "updatedAt": "2026-10-23T19:23:59.924Z"
+    "updatedAt": "2026-10-23T20:13:02.088Z"
   }
 }
