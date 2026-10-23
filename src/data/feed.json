@@ -23,9 +23,9 @@
         "sev": 2,
         "source": "WP Wiadomości",
         "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQLTdjdmROekRDd1RhQmw4OUZxS2FYdUhTSGdNX2o3cnVTcFNySVdlcGxCLXV5UTBrOGVMbGRxeHZDcjMzNThkbXZLWUw4bkF5N0I0M3dmZEsxbXoxaThaa2czVVkzT2dNSG5MTFd6MGtnQ3N3YVRRNWZrRTNncnZTTUZJWm9uYURyZzFoeTdidmQ?oc=5",
-        "title": "Kolejny alert RCB. Poderwano polskie myśliwce",
+        "title": "Polska znów poderwała myśliwce. Alert RCB odwołany",
         "official": false,
-        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
+        "forYou": "Zagrożenie minęło. Sprawdź, czy w domu wszystko jest w porządku, i uzupełnij to, czego użyłeś z zapasu.",
         "guide": {
           "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
           "label": "Alert RCB i aplikacja RSO"
@@ -111,20 +111,6 @@
         "guide": {
           "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
           "label": "Alert RCB i aplikacja RSO"
-        }
-      },
-      {
-        "at": "2026-10-23T10:08:00.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "TVP Info",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMmVoa1U5TWNkcGJfOUZtcE1mbjRCNlZIVGVRS1o3b0t1TDczanBpa0lwNzgzN01NS2kyMEtaMnRFZ3dtLWlMNkNkR1FmeTFWdVBQR0FrYlM4OE9vcGRzdEh2WWQtOEc3MjJlNmY3YWtjVWl2cWwyOENMRzktOWl3Nl9Ka3NqTUlvZm5tYVdjbndXLW84VzNPYUVBQkR2X1J2RHJ3V1dFc1NsbVp4N2o3NnVPR2VKQ1E?oc=5",
-        "title": "Rosyjski atak na Ukrainę. Polska poderwała myśliwce",
-        "official": false,
-        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112.",
-        "guide": {
-          "href": "/pl/mapa-schronow/",
-          "label": "Mapa schronów"
         }
       },
       {
@@ -236,11 +222,21 @@
         "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
       }
     ],
-    "updatedAt": "2026-10-23T20:11:18.462Z"
+    "updatedAt": "2026-10-23T21:17:06.880Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-23T18:42:39.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "SOCRadar",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZFMzQWJfTnNYcnZPdVdFYVVQNUc2NkZvWnliSXZmdDlvV3lHWkQ0UTh4SXdDb19zb290T0hJeVRVTGVvS28zN044RDR3XzlFNWJOZUMzdTRGXzU5cDRnUk9TTUZjaDdYLXJpYV8tbHdHN2ZINGY0amFIbTY4U2lOQnZQWk96MWkxMUlTdzBJanhWQmtaRTc5VVVuQmI5NVBX?oc=5",
+        "title": "Penco Products Ransomware Attack by Thegentlemen",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
       {
         "at": "2026-10-23T18:15:50.000Z",
         "cat": "security",
@@ -430,18 +426,8 @@
         "title": "Sri Lanka asks PV system owners to disconnect after nationwide blackout",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-23T01:24:47.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Arabian Business",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeGVzSjhrbUhOTTctX0ViTkJTRnFEZnkwNTJQR3gySTJRQlk3aXNwenJ2Qk1DejVYcF84dmF4WDFPd2xKRzEwazEtOEdOb05OOFhJaXZQVTd3R2lDRHdGbTgtM1JSSEMxeFN5OTlLc0tLNE55MHlHRDZNU3lOVFBDaTJwQQ?oc=5",
-        "title": "Iran war live: Saudi-led coalition denies Houthi claims of threats against Yemeni tribal gatherings",
-        "official": false,
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       }
     ],
-    "updatedAt": "2026-10-23T20:13:02.088Z"
+    "updatedAt": "2026-10-23T21:18:53.539Z"
   }
 }
