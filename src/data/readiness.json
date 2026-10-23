@@ -2,9 +2,9 @@
   "_comment": "Aktualizuje scripts/update-data.mjs codziennie. pl = Polska, en = świat. Składowe z mode=manual ustawiasz ręcznie.",
   "pl": {
     "sample": false,
-    "updatedAt": "2026-10-23T21:17:06.876Z",
-    "score": 15,
-    "delta7": -9,
+    "updatedAt": "2026-10-23T22:16:05.640Z",
+    "score": 26,
+    "delta7": 2,
     "ago30": 29,
     "history": [
       29,
@@ -35,14 +35,14 @@
       36,
       33,
       23,
-      15
+      26
     ],
     "components": [
       {
         "id": "conflict",
         "name": "Konflikt w regionie",
         "weight": 30,
-        "value": 5,
+        "value": 43,
         "sources": "GDELT · Google News",
         "trend": [
           15,
@@ -52,7 +52,7 @@
           63,
           63,
           23,
-          5
+          43
         ],
         "mode": "auto",
         "raw": [
@@ -72,7 +72,7 @@
           100,
           100,
           100,
-          71
+          83
         ],
         "stale": false
       },
@@ -231,7 +231,7 @@
   },
   "en": {
     "sample": false,
-    "updatedAt": "2026-10-23T21:18:53.538Z",
+    "updatedAt": "2026-10-23T22:17:54.486Z",
     "score": 44,
     "delta7": 7,
     "ago30": 35,
@@ -271,7 +271,7 @@
         "id": "conflict",
         "name": "Global conflict",
         "weight": 30,
-        "value": 48,
+        "value": 49,
         "sources": "GDELT · Google News",
         "trend": [
           45,
@@ -281,7 +281,7 @@
           43,
           48,
           61,
-          48
+          49
         ],
         "mode": "auto",
         "raw": [
@@ -305,7 +305,7 @@
           44,
           53,
           50,
-          53
+          54
         ],
         "stale": false
       },

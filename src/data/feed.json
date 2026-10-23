@@ -222,11 +222,31 @@
         "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
       }
     ],
-    "updatedAt": "2026-10-23T21:17:06.880Z"
+    "updatedAt": "2026-10-23T22:16:05.644Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-23T21:17:23.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "SC Media",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbTZjY2xNTUc0aXQxcThXbXRKVTcybzBNTmRIOFVBclJfMTdvZ3FRRFdjbGw2MFIyeXZsN2xfamtjUWVudVZDTzV1bUtoLVVENkkwUDJKY1B0NFUwTS1sa2ptSnUzUndnMnB5ZEhob2JrZmY5V1lCQVVZOHBuRkIyeDVBMkhEMng2VFFPNE1RdkU1eWREZlFFTjU4V1hjc0p2blJsMTloWFo2ZmFjSGZReDVZM3F5c0ct?oc=5",
+        "title": "Russian hackers collaborate on destructive cyberattack against Ukrainian logistics firm",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
+      {
+        "at": "2026-10-23T19:36:58.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The National",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbGlZSGtHQXg4UjIzanpId3ViZ1RxS25adzVXLUM0cU9KdUwzSDJsOTduTENaN201SjVFd09IZGJUTmpRMDcwYWJZc1BBTGpXWDRuNTBSbWhZWWU3LUxOdkc4QlNTeXhmVUdEcTB6czBvQ3NwMkFMelZTbEY2NHFLRi1LRkU0RTk2WGRhblhjY0VQQQ?oc=5",
+        "title": "Middle East latest: Saudi-led coalition intercepts wave of overnight attacks",
+        "official": false,
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
       {
         "at": "2026-10-23T18:42:39.000Z",
         "cat": "cyber",
@@ -406,28 +426,8 @@
         "title": "Main",
         "official": false,
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-23T06:41:54.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "Laodong.vn",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdEtKYjdITWVrWXU4N1FHdG5WY1dQYm8xd1RWMUVuTHdrcVFudmZNQXg2ZVoyX2hodmdGb2lMZElkZ1ZHYm9tbjdPTV9ZV1JjSWcxX3dSYWc1TzF6akt6TFFrejFJeW9LMmROR0NRSWJEZDlwbEVJaTl6WkcwTU51a0dKamhENWlRQm5idDlwbmgtZWVqM19hVm5sZkw5UHlkTXkzTnhvYURzVzkwczRJaEp1RlgtZXZnb3RGT3ZlYXRoX0VR?oc=5",
-        "title": "What businesses need to do to protect energy infrastructure from cyberattack risks",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-23T04:25:29.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "pv magazine India",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRVZvNWtHOXE4Z3ZBX3NWM3BWYjJRWVdYaTFjalJZRklTbUttVmdibndWWlJ4cHM3V0dVS1hIak5iS3hLSWRzNFptd0RXWVBDMXdqLVVqbDAwcDVoNndqSk1SM2tSX2pHaTJpVHV2Wk5kcmtaUndpalhveXFWNS1hZnFiSlJCVzRnclJ4MFlyellvdmtTYWp5eGtyRXZXbjhKdW1nT0RxX3FNbHpfdlVkYlBLLXNiUEN4VGg0?oc=5",
-        "title": "Sri Lanka asks PV system owners to disconnect after nationwide blackout",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       }
     ],
-    "updatedAt": "2026-10-23T21:18:53.539Z"
+    "updatedAt": "2026-10-23T22:17:54.488Z"
   }
 }
