@@ -222,7 +222,7 @@
         "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
       }
     ],
-    "updatedAt": "2026-10-23T22:16:05.644Z"
+    "updatedAt": "2026-10-23T23:12:25.334Z"
   },
   "en": {
     "sample": false,
@@ -266,6 +266,16 @@
         "title": "A workshop at the Proton plant in Orel was destroyed following a missile strike",
         "official": false,
         "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+      },
+      {
+        "at": "2026-10-23T18:01:53.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "ABC News & Headlines – Australian Broadcasting Corporation",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNaHNQaUdSdUhlYVZnTUVJeThPSVhfVmJodzQ4ekQ2MmtXYnhqcXVET3E1RE5CVmdyT0xORWt1N0htd2xyX1NxSnJHNkZCTEo5NXZQT3pZZ25oRlNsWjY5ZEFielBEb1hWM3lJcndZOGxNZk5qQnBIcDlwV1lscm5IX0dfdzFHdm1mMi1zMA?oc=5",
+        "title": "Plan for nationwide host blackout as Airbnb bans guest check-out chores",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       },
       {
         "at": "2026-10-23T17:50:00.000Z",
@@ -416,18 +426,8 @@
         "title": "Main",
         "official": false,
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-23T06:47:02.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Odessa Journal",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTGlFZXNOaEZxcF9hQWg4MDFWbTdiRGk2Ql8zM2xGODVlc2ltbDlKa1MxOGJiQnNUSXJaOUFPdk56MXRFcWdaZjZ0U1hfTFhVN3VpOTE2VHZrTmhkVzhZTkM5Tk5OR0ZEclVHaHlCYXF4SUo2ZVQzR04zdFktT0dhWUNlMnZGNDUxT1JXNTJIckVoRVViaVVv?oc=5",
-        "title": "Main",
-        "official": false,
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       }
     ],
-    "updatedAt": "2026-10-23T22:17:54.488Z"
+    "updatedAt": "2026-10-23T23:14:11.202Z"
   }
 }

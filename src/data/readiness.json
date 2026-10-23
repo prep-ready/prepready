@@ -2,7 +2,7 @@
   "_comment": "Aktualizuje scripts/update-data.mjs codziennie. pl = Polska, en = świat. Składowe z mode=manual ustawiasz ręcznie.",
   "pl": {
     "sample": false,
-    "updatedAt": "2026-10-23T22:16:05.640Z",
+    "updatedAt": "2026-10-23T23:12:25.331Z",
     "score": 26,
     "delta7": 2,
     "ago30": 29,
@@ -42,7 +42,7 @@
         "id": "conflict",
         "name": "Konflikt w regionie",
         "weight": 30,
-        "value": 43,
+        "value": 42,
         "sources": "GDELT · Google News",
         "trend": [
           15,
@@ -52,7 +52,7 @@
           63,
           63,
           23,
-          43
+          42
         ],
         "mode": "auto",
         "raw": [
@@ -72,7 +72,7 @@
           100,
           100,
           100,
-          83
+          81
         ],
         "stale": false
       },
@@ -231,9 +231,9 @@
   },
   "en": {
     "sample": false,
-    "updatedAt": "2026-10-23T22:17:54.486Z",
-    "score": 44,
-    "delta7": 7,
+    "updatedAt": "2026-10-23T23:14:11.201Z",
+    "score": 43,
+    "delta7": 6,
     "ago30": 35,
     "history": [
       35,
@@ -264,14 +264,14 @@
       40,
       41,
       46,
-      44
+      43
     ],
     "components": [
       {
         "id": "conflict",
         "name": "Global conflict",
         "weight": 30,
-        "value": 49,
+        "value": 48,
         "sources": "GDELT · Google News",
         "trend": [
           45,
@@ -281,7 +281,7 @@
           43,
           48,
           61,
-          49
+          48
         ],
         "mode": "auto",
         "raw": [
@@ -305,7 +305,7 @@
           44,
           53,
           50,
-          54
+          52
         ],
         "stale": false
       },
@@ -331,7 +331,7 @@
         "id": "energy",
         "name": "Power & grid",
         "weight": 15,
-        "value": 31,
+        "value": 30,
         "sources": "Google News",
         "trend": [
           35,
@@ -341,7 +341,7 @@
           32,
           29,
           34,
-          31
+          30
         ],
         "mode": "auto",
         "raw": [
@@ -373,7 +373,7 @@
           51,
           48,
           54,
-          52
+          50
         ],
         "stale": false
       },
