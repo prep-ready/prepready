@@ -4,6 +4,20 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-10-23T17:55:49.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "WP Wiadomości",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQLTdjdmROekRDd1RhQmw4OUZxS2FYdUhTSGdNX2o3cnVTcFNySVdlcGxCLXV5UTBrOGVMbGRxeHZDcjMzNThkbXZLWUw4bkF5N0I0M3dmZEsxbXoxaThaa2czVVkzT2dNSG5MTFd6MGtnQ3N3YVRRNWZrRTNncnZTTUZJWm9uYURyZzFoeTdidmQ?oc=5",
+        "title": "Kolejny alert RCB. Poderwano polskie myśliwce",
+        "official": false,
+        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
+        "guide": {
+          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
+          "label": "Alert RCB i aplikacja RSO"
+        }
+      },
+      {
         "at": "2026-10-23T16:24:08.000Z",
         "cat": "safety",
         "sev": 2,
@@ -65,13 +79,9 @@
         "sev": 2,
         "source": "WP Wiadomości",
         "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPN2JIazBBTkRfd090ejQwNnpKZVVtNlRzcm8xREJuendscUpqWVZuWWZRM2hvVzhyR0J0YzFCS3E3MVluZzB3WTVid3lsSmU1YzlSLWdTQ2ktX0R1YndYWER5YXdkT0syUFJtWWJZLTAxd2JSNGx0MXJSUDFwRUwtRnNHVGpsdFRsYWVnUWhzRVp1dFk2LWc?oc=5",
-        "title": "Polskie wojsko poderwało myśliwce. Jest alert RCB",
+        "title": "Koniec alertu RCB na Lubelszczyźnie",
         "official": false,
-        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
-        "guide": {
-          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
-          "label": "Alert RCB i aplikacja RSO"
-        }
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
       },
       {
         "at": "2026-10-23T15:20:13.000Z",
@@ -228,23 +238,23 @@
         "title": "Nożownik z Warszawy schwytany, premier reaguje na tekst WP [SKRÓT DNIA]",
         "official": false,
         "forYou": "Jeśli jesteś w pobliżu: uciekaj, a jeśli nie możesz, ukryj się i wycisz telefon. Dzwoń pod 112, gdy będzie to bezpieczne. Unikaj okolicy i nie powielaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-10-22T15:32:22.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "Wiadomości Onet",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQX3dUOGpLVUFDWVdyVHY1UUVRZWlnUTFUNlVWMHBpR0FVZ3lmcXd5ZzBteU1wY21mazE4V3Z6MEVXNmJGQUlTQ3p0SjV6TjdQQ1VYOHQ0dXdEZ2JqWERxWFRTb2xSemk3dzFPWUJvNTZpc2lwbWNock1xankzZ3hKbnRFazZOcFotckdKdWpqcTJxbWtHWUQ1LU5SYzdhR2g0SFF3VkRQUmd6dw?oc=5",
-        "title": "Nożownik z Warszawy zatrzymany na Woli. \"Był agresywny\"",
-        "official": false,
-        "forYou": "Jeśli jesteś w pobliżu: uciekaj, a jeśli nie możesz, ukryj się i wycisz telefon. Dzwoń pod 112, gdy będzie to bezpieczne. Unikaj okolicy i nie powielaj niesprawdzonych nagrań."
       }
     ],
-    "updatedAt": "2026-10-23T17:18:42.306Z"
+    "updatedAt": "2026-10-23T18:13:07.842Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-23T17:50:00.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "The Hacker News",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9RdS16cTVMVVc1bWUweEI5OHJ5aDUwUFhnMG4xMW0xUHNEYTVQcjYwdWZQNERYWG03YkVuNXhva2pYY1dtcl9fczZDYi1XTl9VcmJQU0F5cXJ2bzEyYTNrbWJEeFVVWlMwQjFjM0YtWURDM0VZdG9JbXViZ1ZKdw?oc=5",
+        "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
       {
         "at": "2026-10-23T16:59:27.000Z",
         "cat": "energy",
@@ -304,6 +314,16 @@
         "title": "‘When I got rid of it, my grades shot up’: Aussie boy’s move to get school off social media",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
+      {
+        "at": "2026-10-23T12:06:03.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Arabian Business",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeGVzSjhrbUhOTTctX0ViTkJTRnFEZnkwNTJQR3gySTJRQlk3aXNwenJ2Qk1DejVYcF84dmF4WDFPd2xKRzEwazEtOEdOb05OOFhJaXZQVTd3R2lDRHdGbTgtM1JSSEMxeFN5OTlLc0tLNE55MHlHRDZNU3lOVFBDaTJwQQ?oc=5",
+        "title": "Iran war live: US senators fume at Trump as staggering cost of conflict revealed",
+        "official": false,
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       },
       {
         "at": "2026-10-23T11:52:07.000Z",
@@ -424,28 +444,8 @@
         "title": "Iran war live: Saudi-led coalition denies Houthi claims of threats against Yemeni tribal gatherings",
         "official": false,
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-23T01:18:45.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "RTO Insider",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdGhETVlMSmluRVpmOENmeUo2TWVlcjBFdFY3bDlUTmR4UzdUVTBZclZhaHBwRUdfYjVLZkl6MjJZYUlnRFFienhmVUFua3ZPU2pObVdoQkxjY1NXTHZXSE9mX2toS1h4WldQc1QyUHlhbEFMcUNHVmVIREhMUWFfOTNvRDE4M2JKWm9STzNPVmo?oc=5",
-        "title": "Ransomware Group Targeting Infrastructure, CISA Warns",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-23T01:03:24.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "www.thetraveler.org",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcUtNUUtfWUgtWmE0YmNuMERBZnZ1N0drNURsTUNPTlVLX1VkSkpQTnhzd3pXcmlSdXZJZngzWDUzOG5naG1BbVNVdm5Vc1pVRzhSUUduWENlaTFPN2xxbU9GcllwV1I2LVlzd3JWd244MW95OWR1RV9UODNmTV9QQUl3cl9Vai1fc0FXRm5vRHJnUFU?oc=5",
-        "title": "Caribbean Blackout Forces Embassies to Aid Stranded Tourists",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       }
     ],
-    "updatedAt": "2026-10-23T17:20:49.716Z"
+    "updatedAt": "2026-10-23T18:15:19.244Z"
   }
 }
