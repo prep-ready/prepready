@@ -4,6 +4,34 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-10-23T03:09:00.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "RMF24",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMndpWTVxUTd2TUlCRElrZTMyZVp1MXlDdDd5MWE2ZUtrWnItVlZjYTFPcEpiaWR1VGRsbkl0b1dBY19wZHYwSG5OZVdFbDhnMnhMU29WUndvWmpseWdHLWhTcGFCdzhoa2RCaXlKUWl2LVgzT1VGYWd5VzlBc0EwWnNpNlIwdkN2ZXpGcWpUODM0S2JJb0ZyRDNfZDJYYW5mZm5ZRVpPS29GYTg?oc=5",
+        "title": "Alert RCB, „w przestrzeni RP operuje polskie lotnictwo”. Zachodnia Ukraina pod ostrzałem",
+        "official": false,
+        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
+        "guide": {
+          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
+          "label": "Alert RCB i aplikacja RSO"
+        }
+      },
+      {
+        "at": "2026-10-23T02:32:45.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNbWxVWHhPUjNEdzNYRklUcUFlTlE0X2hqLWVUYjN0Q3o1WmdKN0dON243WVVNZ3NwTWZsOTlhRFZtVGVIazlQYmcwUDQzYjN3c2hHQnJ2ay00bk1Ja0ozLXNGVk51SnhYTjRCS3FxME5KNUtfOUZ4UXFSUWx5QXNlTXpDVnhEbmluTzNna0VNQWkzVTN4?oc=5",
+        "title": "Rosja atakuje przy granicy z Polską. Jest alert RCB",
+        "official": false,
+        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
+        "guide": {
+          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
+          "label": "Alert RCB i aplikacja RSO"
+        }
+      },
+      {
         "at": "2026-10-22T18:03:19.000Z",
         "cat": "safety",
         "sev": 3,
@@ -180,20 +208,6 @@
         }
       },
       {
-        "at": "2026-10-21T19:19:16.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "Wiadomości Onet",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdHI5eFREdHQ2alZId2dVaXZhYWdRM2tHeFE2VVhRQWpsTUV6bWNnMEpDS2tsY0FKUkp0MERfRVpwdlNnMVVXSWcwYVE0dVA3U1pvUWs5a3ZjX21BVFM5ZkZweU5QeWt4SE5fUUdwcW5yUm1QRC1DNFRUa29kNkpEUlA5UmYtRlQ0REg1UHVpOUZ1SEVJTl9zaGZ3?oc=5",
-        "title": "Alert RCB na Lubelszczyźnie. Rosja znów atakuje Ukrainę",
-        "official": false,
-        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
-        "guide": {
-          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
-          "label": "Alert RCB i aplikacja RSO"
-        }
-      },
-      {
         "at": "2026-10-21T19:16:43.000Z",
         "cat": "safety",
         "sev": 2,
@@ -240,23 +254,9 @@
           "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
           "label": "Alert RCB i aplikacja RSO"
         }
-      },
-      {
-        "at": "2026-10-21T13:27:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Rzeczpospolita",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQXVYeWJ2T0p0R3ZfcTUzWkZoY2M1ZnJXay0xWmRhYnJlWEt5clFLbUdkNDBqTU1TbHZ2d0ppM01FR09mYWJUTmp3NUJiWDFvZ3psdFJaY0lWSEgxZlVvMXp2dGdWM1A5dDRXTFBUSktRblhHWWtMTzM0ZEZsdXlzUzRPcWg2dThmZ0FUajN2SFRsdmVoYlF2UWpfQW9lVnBtUFBMTkRPelpqT1Voc2xyWWlfYTh3Q05q?oc=5",
-        "title": "Dron na niezamieszkałej posesji w Lubaczowie. „Nikomu nic się nie stało”",
-        "official": false,
-        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112.",
-        "guide": {
-          "href": "/pl/mapa-schronow/",
-          "label": "Mapa schronów"
-        }
       }
     ],
-    "updatedAt": "2026-10-23T02:17:44.078Z"
+    "updatedAt": "2026-10-23T03:18:54.947Z"
   },
   "en": {
     "sample": false,
@@ -462,6 +462,6 @@
         "forYou": "Update your devices and don’t tap links in alert-style messages."
       }
     ],
-    "updatedAt": "2026-10-23T02:19:48.705Z"
+    "updatedAt": "2026-10-23T03:20:57.389Z"
   }
 }
