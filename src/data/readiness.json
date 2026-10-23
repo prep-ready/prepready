@@ -2,7 +2,7 @@
   "_comment": "Aktualizuje scripts/update-data.mjs codziennie. pl = Polska, en = świat. Składowe z mode=manual ustawiasz ręcznie.",
   "pl": {
     "sample": false,
-    "updatedAt": "2026-10-23T13:27:30.343Z",
+    "updatedAt": "2026-10-23T14:24:11.953Z",
     "score": 29,
     "delta7": 5,
     "ago30": 29,
@@ -72,7 +72,7 @@
           100,
           100,
           100,
-          94
+          93
         ],
         "stale": false
       },
@@ -231,9 +231,9 @@
   },
   "en": {
     "sample": false,
-    "updatedAt": "2026-10-23T13:29:38.210Z",
-    "score": 35,
-    "delta7": -2,
+    "updatedAt": "2026-10-23T14:25:37.849Z",
+    "score": 43,
+    "delta7": 6,
     "ago30": 35,
     "history": [
       35,
@@ -264,7 +264,7 @@
       40,
       41,
       46,
-      35
+      43
     ],
     "components": [
       {
@@ -331,7 +331,7 @@
         "id": "energy",
         "name": "Power & grid",
         "weight": 15,
-        "value": 27,
+        "value": 31,
         "sources": "Google News",
         "trend": [
           35,
@@ -341,7 +341,7 @@
           32,
           29,
           34,
-          27
+          31
         ],
         "mode": "auto",
         "raw": [
@@ -373,7 +373,7 @@
           51,
           48,
           54,
-          47
+          52
         ],
         "stale": false
       },
@@ -421,7 +421,7 @@
         "id": "cyber",
         "name": "Cyber & infrastructure",
         "weight": 15,
-        "value": 5,
+        "value": 56,
         "sources": "GDELT · Google News",
         "trend": [
           5,
@@ -431,7 +431,7 @@
           34,
           42,
           36,
-          5
+          56
         ],
         "mode": "auto",
         "raw": [
