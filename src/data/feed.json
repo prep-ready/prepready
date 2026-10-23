@@ -4,14 +4,42 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-10-23T16:24:08.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Radio Zet",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUS1ZY2lkdWx4cmR1X2EwYW1ZOVEwa3lVRTJndFpLVnU4QkpwdFNSclhJdmxZX1JFd2JZd181d01QZndEaG54RDREWUNEUGNQZnRBQmtGTE5kaVhKYy10MjZXcFQtMTVrX25YSmtxZFhvUlRaanlZU18zTmd5ZGpnS2hlS0V6VnpMVmJuVmJoYjZsNWVqeVhPNmV0RjRIeXpZSVE?oc=5",
+        "title": "Alert RCB dla kilkunastu powiatów. „Oczekuj dalszych komunikatów”",
+        "official": false,
+        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
+        "guide": {
+          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
+          "label": "Alert RCB i aplikacja RSO"
+        }
+      },
+      {
+        "at": "2026-10-23T16:09:00.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "RMF24",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVkFfb3F4NW5XWkZQNE1kOGt1aWVOX0d3c1l1QjRPNGFKSWdldFd4TU45YlZ2T2dudmJjQXMxZUQ4TW9XQ2FmQ1hSM3VuU0FFZUk3MWFraXJ2b1VPdGtoMTQ5VHJxMDlRWHJOTTh3Z2RtemFHMmh0WXBHdlA2MTM5eEZLeDhzRGhnRHVQcVhWVkpQUDNUWlVlTy1Ja2VaeGFiVXpmMWJSVzMwd2lzRWtiUmtLVVM?oc=5",
+        "title": "Alert RCB dla części Lubelszczyzny. „W przestrzeni RP operuje polskie lotnictwo”",
+        "official": false,
+        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
+        "guide": {
+          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
+          "label": "Alert RCB i aplikacja RSO"
+        }
+      },
+      {
         "at": "2026-10-23T16:04:27.000Z",
         "cat": "safety",
         "sev": 2,
         "source": "Polskie Radio 24",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRmVVckxkckl4aVNvOWpoQkdlU3pSeTdFNVh4VUlxUkV2RDFncVNfaU96NWloZEk1eTB4LVlvOUVTMk9BVVFhMmwzRElIZW9sekFLVlBRU2dDTWpsTEVsalktX00wamdleEhzYm5zRElmTkE4Q3IweXAwdXFhdzZWZzlNT1E4dEFCVzZIcUo2enVPN1ZiQ3puVjYwMndienF6dFZURmNzVQ?oc=5",
-        "title": "Alert RCB dla Lubelszczyzny. W przestrzeni powietrznej operuje lotnictwo",
+        "title": "Alert RCB dla Lubelszczyzny odwołany. Jest nowy komunikat",
         "official": false,
-        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
+        "forYou": "Zagrożenie minęło. Sprawdź, czy w domu wszystko jest w porządku, i uzupełnij to, czego użyłeś z zapasu.",
         "guide": {
           "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
           "label": "Alert RCB i aplikacja RSO"
@@ -51,7 +79,7 @@
         "sev": 2,
         "source": "Wiadomości Onet",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRkkwUkZnc1FOTWxMUVV4WFVocm1seWgzd0lvOFFuT0JHeG14SDI1Z2JIeFhGWHR5OHNSR1Q5VGdGNEd5ZWhZSE5sQ2Q2cGlheWtNLUtUVFVQcjNJWk5GaWxzWE1WZjVEckVyTGhPU3JjSFBna2pOMm1fYW01d3BMUVRIWDl1MGxTODhEMW9xN3l2NlN2eHFzRGdWb1FETDZPSm1zdU53?oc=5",
-        "title": "USA ogłosiły rozejm w ukraińskim mieście. Jest komentarz Kremla",
+        "title": "Rzecznik Kremla o rozejmie w ukraińskim mieście. \"Wojsko zgadza się\"",
         "official": false,
         "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
       },
@@ -84,20 +112,6 @@
         "title": "Telefony znów dzwonią. Pilny alert RCB dla 18 powiatów",
         "official": false,
         "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
-        "guide": {
-          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
-          "label": "Alert RCB i aplikacja RSO"
-        }
-      },
-      {
-        "at": "2026-10-23T10:12:52.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Polskie Radio 24",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQYXNwcXJnVkhWSDJ3MGllZ2NJVmh3ektBYUtEc3lqSXJMSGNvMV9TbERxa2ZrYXZnaTRJLWhUUHJ4YWFGQmJlU0oyS1Etd1FSWXJ2Z3RsbS1kNktDMkI1ME9DSDAzVTRERFNCNDlQeDRUM2dfcTFzZkRwQV9SN2pRaXZkeVFzOElhNFdTVjJqcUIzSXk3cC1IZkFjT1B3TXVSNjFnbXFBRjlZZw?oc=5",
-        "title": "Alert RCB dla woj. lubelskiego odwołany. \"Brak zagrożenia na terenie Polski\"",
-        "official": false,
-        "forYou": "Zagrożenie minęło. Sprawdź, czy w domu wszystko jest w porządku, i uzupełnij to, czego użyłeś z zapasu.",
         "guide": {
           "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
           "label": "Alert RCB i aplikacja RSO"
@@ -224,23 +238,43 @@
         "title": "Nożownik z Warszawy zatrzymany na Woli. \"Był agresywny\"",
         "official": false,
         "forYou": "Jeśli jesteś w pobliżu: uciekaj, a jeśli nie możesz, ukryj się i wycisz telefon. Dzwoń pod 112, gdy będzie to bezpieczne. Unikaj okolicy i nie powielaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-10-22T13:55:00.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "CERT Polska",
-        "url": "https://cert.pl/posts/2026/10/CVE-2026-16477/",
-        "title": "Podatność w oprogramowaniu MTW CleanShot X",
-        "official": true,
-        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
       }
     ],
-    "updatedAt": "2026-10-23T16:23:05.559Z"
+    "updatedAt": "2026-10-23T17:18:42.306Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-23T16:59:27.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Morocco World News",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWGduS3FKdTdBMmRGTFZlRzc2b0M3V1otY3FLaklWTDlRVEM0dGtLei1MMi1zLVdubzZLQ3hta2RhT0tmdHZ6dWMwbTlQVXpBdDJWT3BzSnp5SUM4ZTNIZmRVYWZzTFVLeW5tZ0NscXFsdkRiSVY4czV2MzlQWnozT2ZnQjktOHVIWldQVUUwdnFTMXFwZm1wXzFqMDlyOVZBejZnX3RxWFFrdGRn?oc=5",
+        "title": "2025 Blackout: Spain, Morocco to Inspect Undersea Power Cable",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
+      {
+        "at": "2026-10-23T16:59:07.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "UNITED24 Media",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVTVwV2VLdWNZSi1JV01KaENOYVZ6UHNoV19EN0Z1N0RuX2ZkWkRueU1hTnk5dmhsdG1hWFgtRGlSUks2eWtZU2RkSlBXaFltZVpLWVJkSjQ2SWtySHU0a211VlgwUzRRczBzMGk1WERJVm9OWk5fUGNPcEt5b1FFMEdfcFFPUkM2SXM5UEFwOTRrTkRRcEwtNTJYZkc3RmNsb2doelRnWVFVSmtlWTBWQURscDQ?oc=5",
+        "title": "Missile Strike Hits Russian Defense Electronics Plant in Orel, Video",
+        "official": false,
+        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+      },
+      {
+        "at": "2026-10-23T16:36:52.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "SOCRadar",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOX0JyQjV0d3dMM3hhbkpBTXRLLWl3NnhWbHVQSnE2cXlXdFJBVVFEcmdVc3R2U0Q5SjI1NnB6dEpXNnhpSFNoTVFWV2VxWUJzVzI4cHlIdE52SmtHQ2lwMHZhakpvVkVvNm5UVDVIQU8yLTlEdGlFdEpQUDRjdzF4anZSbHVSSnF3aF9IR29BdU5DTU1MS0E?oc=5",
+        "title": "lidoway.com Ransomware Attack by Lockbit",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
       {
         "at": "2026-10-23T14:42:20.000Z",
         "cat": "health",
@@ -300,16 +334,6 @@
         "title": "Trends In Healthcare Data Breach Statistics",
         "official": false,
         "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-23T09:15:38.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "IntelliNews",
-        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPbmFWOWY0SWJJMVV1WW4zLVJ5cE5IMFFGdDNVaFJXbWlFSjdVYmdORnZDZTNvS2lQcnBtQ1l6bjlVZzJyYVAyMmNnVjl6OWhsdzBnWkhlczJIRElMdjhlRUkzcDIzLUFnSlF2dm1hZGxJNFFKSThobmkxOEoxZXUyV0ZObWlOUm5vMFdSR3pZZjRhZ1Z1RVhhdkQ1ZENxQkdBVFJOWUgxd2Jkb3QwU0c3T2EwcXMyRC1xWTV1RTR0SGkwQjZuWjRnNDVZZUhrUllSd2pSdUR0a0Q?oc=5",
-        "title": "Missile War Monitor: Russian strike on Ukraine's Lozova market kills two, DTEK power plant stops generating",
-        "official": false,
-        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
       },
       {
         "at": "2026-10-23T08:44:00.000Z",
@@ -420,28 +444,8 @@
         "title": "Caribbean Blackout Forces Embassies to Aid Stranded Tourists",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-22T20:10:24.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The Jerusalem Post",
-        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE85dEFKOXZIQVhWVThGbHNfb0dEOVhnajVlQzVESVB5MDlrN2xtY2xIeGQySGZob25XRk9xaUllaDFFbEtGTk9nMk42WGtNMGlldGdkRGg2VzA0aUNEdzYw?oc=5",
-        "title": "Donald Trump asks Elon Musk to lift Ukraine Starlink restrictions, WSJ reports",
-        "official": false,
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-22T19:55:28.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWmJwWHBSdTZDQ3F5dGxvRFM2UkY3NDRWX2RCN0hWMnNWeDUtN0twVzlQUjdfTzBpWmR0d0lEYzlKODVoYllyaV9LLUZaeVg3RnFaQ1FuV2ZTdnlXUkYtQ0xYS0NsYW9Tb0lsQVI2NGNXNjV2WW95NkIwYW9xUXg4ZnJ0MGl6OV9fNE5zWU5LYS16eG1NOVJN0gGcAUFVX3lxTFAwQWVoRUJLMUZmdVpINHhTcHY3MncwcG9ucVkzNy1INXYzUlBweE5TaHk2RXJpLU5IUzg0a0JTaU1wOEczS1JQV2tsbnczX192Rm9qYTlqU0dET0U4WlVGRWpYczVNZUt5a0d1U3ZmY1Zwa2xMQUVhMVNZa1FwdDFJTjBQcHQ5bGNJQlJ3YjVUU083QVZQRFBTT2VQbw?oc=5",
-        "title": "Russian strikes hit Kyiv after Witkoff meets Putin",
-        "official": false,
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       }
     ],
-    "updatedAt": "2026-10-23T16:23:53.217Z"
+    "updatedAt": "2026-10-23T17:20:49.716Z"
   }
 }
