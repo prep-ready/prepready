@@ -4,6 +4,16 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-10-23T12:03:14.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Portal Samorządowy",
+        "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPek5WY3d1VW8xSXhDaUtsbWxFdmRETndORDVBaFNscExhY2gtWDRESnhVZTRYRTBET3lmYld1TVMtYWJrX2EyLVZVNXBDT1hxdnNRaWROT1E2VHFCTS1CZmFPMVNsOEVnTmowdm5YVHo4Z1luclZ4bDZRMXBrYXR1MjVoMktoT3JWekppZGZrX3liN29kQjU3dG9ZNERqamg1UmtJcEUxOGEzT25IN2h1NFMzQXVLTFp0Z2VWNGw3V0tDdEJsV3ZScFFtQm51ZUI5TDJRMnl0VlpRYV93Q19meVhpY053WkR5Y0ZnbFY3QVBxZDRBR0lSQ0Uxa1FGdVE?oc=5",
+        "title": "RCB: bez zagrożenia; wojsko w standardowej działalności; lotniska w Lublinie i Rzeszowie pracują (aktl.3)",
+        "official": false,
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+      },
+      {
         "at": "2026-10-23T10:55:00.000Z",
         "cat": "cyber",
         "sev": 2,
@@ -14,12 +24,40 @@
         "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
       },
       {
+        "at": "2026-10-23T10:22:00.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "RMF24",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVE5obkU1cVpIYzI3Yzk3X0pmUER3MUhzalhMTXUzYy1ENnEzVEdCOS11blp6ZEZqME5tTUs2OXRZcU9Kb2dTOHJONkNTdFpraDBXNlRQZVhXZlE0d3oyeDdDRi1UUnlwbk9McVUyZk15d2hObUZramFRWmNheDdWVi1iLVFJQUJ3Q00tZHdldU4tdWNVTVJ4Y2VKT1BMNXM?oc=5",
+        "title": "Rosyjski atak powietrzny na Ukrainie. Alert RCB",
+        "official": false,
+        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
+        "guide": {
+          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
+          "label": "Alert RCB i aplikacja RSO"
+        }
+      },
+      {
         "at": "2026-10-23T10:13:50.000Z",
         "cat": "safety",
         "sev": 2,
         "source": "WP Wiadomości",
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZTFTSHQzR2NvNXJzdnMyTzc2ZWtETnlXMkZMNU00TmFCeTBGdEEzcWtHSW1pVjg3Rkp5MFd1MkN1NTZ1cC1vb0RIU0JCNWJHRUc3cUZSaGVDOUZfcE9ZeTItYkxyeloxZkoyUjVlZklVeG1sdUR5LVZDcnIySDhIQmliWUVJMTg2dmN0c3dlSWJJQ1NtbzNtYkJGZnU?oc=5",
         "title": "Telefony znów dzwonią. Pilny alert RCB dla 18 powiatów",
+        "official": false,
+        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
+        "guide": {
+          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
+          "label": "Alert RCB i aplikacja RSO"
+        }
+      },
+      {
+        "at": "2026-10-23T10:12:52.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Polskie Radio 24",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQYXNwcXJnVkhWSDJ3MGllZ2NJVmh3ektBYUtEc3lqSXJMSGNvMV9TbERxa2ZrYXZnaTRJLWhUUHJ4YWFGQmJlU0oyS1Etd1FSWXJ2Z3RsbS1kNktDMkI1ME9DSDAzVTRERFNCNDlQeDRUM2dfcTFzZkRwQV9SN2pRaXZkeVFzOElhNFdTVjJqcUIzSXk3cC1IZkFjT1B3TXVSNjFnbXFBRjlZZw?oc=5",
+        "title": "Pilny alert RCB. \"Operuje polskie lotnictwo. Oczekuj dalszych komunikatów\"",
         "official": false,
         "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
         "guide": {
@@ -50,20 +88,6 @@
         "title": "Polski czołg K2PL coraz mniej polski. Wojsko zdecydowało",
         "official": false,
         "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-10-23T07:36:00.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "RMF24",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSEJQXzlUblVWN05oTlQ1NGJFLWdtQ3NfWms3SUxzQTBLU2l6Z2p0SzVjSDNsS3h5OHlkUXk0MHhLTzRNNmFDQkZwTXJTY3RKRGFtVGVqUWt0a0d5ZTJ3SV9GbEl1OW5wdHVFOUNLVTQwYWdTWTItZFJUU2lGRDgwYUxHeXNCZnh4dzZab2pUY3I5NmppY0loZzdTTFNGakFaRFR5cmZ1TmxiV3M?oc=5",
-        "title": "Alert RCB odwołany, zakończyły się działania polskiego lotnictwa. To była kolejna noc ataków na Ukrainę",
-        "official": false,
-        "forYou": "Zagrożenie minęło. Sprawdź, czy w domu wszystko jest w porządku, i uzupełnij to, czego użyłeś z zapasu.",
-        "guide": {
-          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
-          "label": "Alert RCB i aplikacja RSO"
-        }
       },
       {
         "at": "2026-10-23T06:25:28.000Z",
@@ -210,41 +234,43 @@
           "href": "/pl/mapa-schronow/",
           "label": "Mapa schronów"
         }
-      },
-      {
-        "at": "2026-10-22T06:56:31.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "WP Wiadomości",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWWhkYVkxTndZYXZTenBjYmJucWVGVFVwTXQzNG5RVGpXbFVBblhpd0tVSTlVMzNVekFra1NKX2JCSzN3QS05Z1Q2Z0p0NHJXVzNVNlh3Q292bExaMG51VmNDdHhtV2sxV3AtTXo1TWxwYjNCTGllM1BTZC1EcElkTFVSUkktdDZORmFvU3FYNXVhQl9xTTNJc05mSU1HR1ZwRUNLN3NMaTNuREMwNXc?oc=5",
-        "title": "Dron z Lubaczowa przebadany. Żandarmeria Wojskowa ujawnia szczegóły",
-        "official": false,
-        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112.",
-        "guide": {
-          "href": "/pl/mapa-schronow/",
-          "label": "Mapa schronów"
-        }
-      },
-      {
-        "at": "2026-10-22T06:53:20.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Polskie Radio 24",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPb2dEd1gyczl5QVhOVTN6XzdKTUxWWkJGWk5yQTIwTWJnOWdIZXN4Wm1iSG1zRWI4UTdubENPS3ljN3AyYTJnQmEyMTBIa0pwdG56di1kZE5ncHF1UDFoNTFab01nb1VLVDBBaTdEbU1MNzVLSW1RRTdGRVI2MVVQX19RZHE3TnhpRWpHX21CcTN6ZWZuRXlqOXFLVklqWEZ5SmNFNElYX0RSY2JtcDdZbQ?oc=5",
-        "title": "Dron spadł w Lubaczowie. Sprawdzono promieniowanie i próbki chemiczne, są wyniki",
-        "official": false,
-        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112.",
-        "guide": {
-          "href": "/pl/mapa-schronow/",
-          "label": "Mapa schronów"
-        }
       }
     ],
-    "updatedAt": "2026-10-23T11:17:27.036Z"
+    "updatedAt": "2026-10-23T12:12:57.280Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-23T11:15:55.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Planet Biometrics",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQYXpRSFlvaENiRldxNmtFVlpXdnBmWFlBdlN1WW9BN1UwZ2RDNVhpamxuVXNuTVdaX1FqNWE4dmNhTXdiNDBFbUxDTEJfRWJhTEgzTDRzM1FHSGhEVFAwUm9uQnREWXc5eXlkZHNoMWlCNktQbmFsaHRYLVdLZFhEeGZkaGRWSXpTdlloQ0dGWnprQnc?oc=5",
+        "title": "SafePay: #StopRansomware campaign of joint cybersecurity advisory",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
+      {
+        "at": "2026-10-23T09:15:38.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "IntelliNews",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPbmFWOWY0SWJJMVV1WW4zLVJ5cE5IMFFGdDNVaFJXbWlFSjdVYmdORnZDZTNvS2lQcnBtQ1l6bjlVZzJyYVAyMmNnVjl6OWhsdzBnWkhlczJIRElMdjhlRUkzcDIzLUFnSlF2dm1hZGxJNFFKSThobmkxOEoxZXUyV0ZObWlOUm5vMFdSR3pZZjRhZ1Z1RVhhdkQ1ZENxQkdBVFJOWUgxd2Jkb3QwU0c3T2EwcXMyRC1xWTV1RTR0SGkwQjZuWjRnNDVZZUhrUllSd2pSdUR0a0Q?oc=5",
+        "title": "Missile War Monitor: Russian strike on Ukraine's Lozova market kills two, DTEK power plant stops generating",
+        "official": false,
+        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+      },
+      {
+        "at": "2026-10-23T08:44:00.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "The Daily Jagran",
+        "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQNnlDOFpBSTh2RkVFUnJPWTk3Q2hYdndUSDZwcWZqSUtRT1ozT1kyNkJQcy05S21RdUN1Wi13UGpuUnFBRHI0TXVKaHkwZzdxVnF6UWJfdlRSS3F0N3BfM2pPV2Q5RlJ6cUJzUUVOUzNqUnJ1VElpdmpXdEkwWXlOQUpmOW1vRGI0VTd0dElzTzJVNnkzT180eG1VVlhrWTZYVmxuZXZ0TlQ1T1RmYzFtZzN5OVZoVEZiX2FKUmNwQ0xKcERnN2h5X2JQOUU2b01jVHN4TFU1YmtuSFIySVhlTlJsVXBxODVZX1VMNHk1Y3hnYV9sNEg4bG9JcGFBbXBHNGZsWUgyaXdaYVNLdnZz0gGWAkFVX3lxTFB5dnZDRjRURFMzcVlxUEx6QWhhb19NeVJ3Z3dDZkwxZldBS3hHMWJvdU1xSnpXQmNILWctYnhLQVVmRmNINzRtMXRiMWQ4enRacUdOU2ZrUG95enNGTFFxNEdjaDRZNUsxWUlDZkJmS2ZNSWV0MWZRWWVWaFVDOTJCdGtCRzk1QUw3TXlDNE42S2lscmNFaDlHb0Q3c0J3UVhsR3VjdW5EcEU3ZUhKVWVUb0xUbThwU19VVG9TQU5oNVpNVWhrTDNXamN2M3VJUFhrWlJYaFZRLVlISjZzTzNjbnlJdGZJNlhmVEVoMlkzTHVTU0NIdHRWamRoRFk3NlF5LWdQOUw0MHgwM3lFLUVEdk9TT3d3?oc=5",
+        "title": "Gurugram Power Outage: Supply Returns After Day-Long Blackout; But Severe Low Voltage, Water Shortage Adds To Woes | Check Affected Areas",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
       {
         "at": "2026-10-23T08:00:13.000Z",
         "cat": "security",
@@ -264,16 +290,6 @@
         "title": "Japan AI Cyberattack Simulations Planned as PHP Flaws Spread",
         "official": false,
         "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-23T07:25:29.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "IntelliNews",
-        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQRHpsbVNMRXYzUzJCb2ZDTDBjcnpxOEtHQm9sMU1xWUpCNXJ1b09udXoxcTBON3JqSnU0OHIzNHlCb3pUM2pLSlpURVUxNjNkcldacFVKcFNOUGppVVNWT2lQQ1pSbmZ6bk4zYkZINEcxdkw4U01EOHNUSnJqWFVvWmpSWl9EckxDQmZzVEQ4WTlJTFlpbXFmNUJselF5QzExSE05UktGRGxHMjdWaHRXMl9tZmhvLU43ZWVkbnhWMFIxcXZtSk5kUjVSdFFfSEtXcHFKNk5tODJvT2VocFNxODNNMjQ2UTdHakMweg?oc=5",
-        "title": "Missile War Monitor: Russian strike on Ukraine's Lozova market kills two, DTEK power plant stops generating",
-        "official": false,
-        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
       },
       {
         "at": "2026-10-23T06:53:35.000Z",
@@ -314,16 +330,6 @@
         "title": "What businesses need to do to protect energy infrastructure from cyberattack risks",
         "official": false,
         "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-23T05:13:25.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "India Today",
-        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPWEZYSlZZZG5WYmlNVERKdUw2TV9vZE9aUkJTUDR6NFNWUFRyellKdldVMEtYRGRielI3dXRBcDhROWx6bzdyMEFoVDUwZUdPTDZjTnpmV09UZGs2QmxJd1BwRjNSajg0N1JObmw3aDQ5MFNsbkhCMlZsbG96U0RwTlFVNHl1RW9DV0sxQ05EOGNZN1ItN2VMb3l3eXBOcGI2RWw0YzRyc2U1TFJmUGlrWF9mWW5ZNzBnY1B6d0FhR2U3YkE2Z053NnZsMm11VC1PU3lEb3NuR0xNUmZUeURmNWxUVWJualHSAewBQVVfeXFMUDJKekRFdkZpMURvRkQ1U3lpOWdlU1V2eXQwRjEyYUp1cThqNTBxSVhiR3N2VW9kdEZkbVZDbFNkYWVzWm9jNW9ZRk5KQ3pjRVdZTERQMjNYc3QwVEN5aTdhT1dXOXdLeWRGZ3owUm9HVm51WFZQWGFOX1E3X2tsOVRSRERMT1lKVWV3dDdqQ1d5emhyZzlzTE5vWXc3OTNLd3lNU0JjNUYwU0xVMnNBMVl5WXpsOEN3dnhuSWplbjdwUUhuc0JCbUVEb09DdTRaZHo0TGhfRWtUMjA1WFBEYnNmQXBZaEpJVVBUMmE?oc=5",
-        "title": "Gurugram Power Outage: Electricity Staff Strike Enters Day 2, State Challenges Privatisation - India Today",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       },
       {
         "at": "2026-10-23T04:25:29.000Z",
@@ -434,18 +440,8 @@
         "title": "Something Strange Is Happening to Putin: His New Ukraine War Strategy Is To Strike the Innocent Even Though He Talks Peace",
         "official": false,
         "forYou": "No action needed. Keep your basic supplies ready; situations can change quickly."
-      },
-      {
-        "at": "2026-10-22T14:33:40.000Z",
-        "cat": "disaster",
-        "sev": 4,
-        "source": "GDACS",
-        "url": "https://www.gdacs.org/report.aspx?eventid=1573141&episodeid=1741837&eventtype=EQ",
-        "title": "Earthquake in China (Red alert)",
-        "official": true,
-        "forYou": "If you have family in the area, check in. Review your own evacuation plan."
       }
     ],
-    "updatedAt": "2026-10-23T11:19:41.250Z"
+    "updatedAt": "2026-10-23T12:15:04.721Z"
   }
 }
