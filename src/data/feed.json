@@ -91,17 +91,13 @@
       },
       {
         "at": "2026-10-23T02:32:45.000Z",
-        "cat": "safety",
-        "sev": 3,
+        "cat": "security",
+        "sev": 2,
         "source": "Wiadomości Onet",
         "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNbWxVWHhPUjNEdzNYRklUcUFlTlE0X2hqLWVUYjN0Q3o1WmdKN0dON243WVVNZ3NwTWZsOTlhRFZtVGVIazlQYmcwUDQzYjN3c2hHQnJ2ay00bk1Ja0ozLXNGVk51SnhYTjRCS3FxME5KNUtfOUZ4UXFSUWx5QXNlTXpDVnhEbmluTzNna0VNQWkzVTN4?oc=5",
-        "title": "Rosja atakuje przy granicy z Polską. Jest alert RCB",
+        "title": "Rosja atakuje przy granicy z Polską. Są alerty RCB",
         "official": false,
-        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
-        "guide": {
-          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
-          "label": "Alert RCB i aplikacja RSO"
-        }
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
       },
       {
         "at": "2026-10-22T19:48:47.000Z",
@@ -248,11 +244,21 @@
         }
       }
     ],
-    "updatedAt": "2026-10-23T08:22:10.282Z"
+    "updatedAt": "2026-10-23T09:19:53.509Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-23T07:43:08.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "The Cyber Express",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ONkFvaHZXeUhOek16NVZuV1lZVkFSMFVkUGd2WTdkUG1ycUNjYjRnZHd4SzgyNWdpd05mV2ZHc3RmNzEyTm1sSWNWdWVQTHVEOGJlLWctWWdvWHVOVGZqXzY3RV9JbF9vd1ZNSU1n0gFuQVVfeXFMTk42QW9odld5SE56TXo1Vm5XWVlWQVIwVWRQZ3ZZN2RQbXJxQ2NiNGdkd3hLODI1Z2l3TmZXZkdzdGY3MTJObWxJY1Z1ZVBMdUQ4YmUtZy1ZZ29YdU5UZmpfNjdFX0lsX293Vk1JTWc?oc=5",
+        "title": "Japan AI Cyberattack Simulations Planned as PHP Flaws Spread",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
       {
         "at": "2026-10-23T07:25:29.000Z",
         "cat": "security",
@@ -442,18 +448,8 @@
         "title": "Main",
         "official": false,
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-22T13:46:33.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "BBC",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5yZ2dTanNHRmFaRmNxVWRFLXoxMF9wUU9hYW1udXV5ZkUta1R5SVVRWVp1eHhfUU5admNaQ0JWN1VZZTRrVm9hZGpVcEgzMGxCNm9GZXNtZkpINnM?oc=5",
-        "title": "Two killed in Houthi attack on airport in eastern Saudi Arabia, authorities say",
-        "official": false,
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       }
     ],
-    "updatedAt": "2026-10-23T08:23:29.052Z"
+    "updatedAt": "2026-10-23T09:21:37.325Z"
   }
 }
