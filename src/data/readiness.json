@@ -2,9 +2,9 @@
   "_comment": "Aktualizuje scripts/update-data.mjs codziennie. pl = Polska, en = świat. Składowe z mode=manual ustawiasz ręcznie.",
   "pl": {
     "sample": false,
-    "updatedAt": "2026-10-23T04:19:30.359Z",
-    "score": 32,
-    "delta7": 8,
+    "updatedAt": "2026-10-23T05:17:33.843Z",
+    "score": 30,
+    "delta7": 6,
     "ago30": 29,
     "history": [
       29,
@@ -35,7 +35,7 @@
       36,
       33,
       23,
-      32
+      30
     ],
     "components": [
       {
@@ -158,7 +158,7 @@
         "id": "cyber",
         "name": "Cyber i łączność",
         "weight": 15,
-        "value": 20,
+        "value": 8,
         "sources": "GDELT · Google News · CERT",
         "trend": [
           28,
@@ -168,7 +168,7 @@
           5,
           5,
           19,
-          20
+          8
         ],
         "mode": "auto",
         "raw": [
@@ -192,7 +192,7 @@
           26,
           27,
           33,
-          34
+          26
         ],
         "stale": false
       }
@@ -231,7 +231,7 @@
   },
   "en": {
     "sample": false,
-    "updatedAt": "2026-10-23T04:21:37.897Z",
+    "updatedAt": "2026-10-23T05:19:05.930Z",
     "score": 40,
     "delta7": 3,
     "ago30": 35,
@@ -271,7 +271,7 @@
         "id": "conflict",
         "name": "Global conflict",
         "weight": 30,
-        "value": 46,
+        "value": 44,
         "sources": "GDELT · Google News",
         "trend": [
           45,
@@ -281,7 +281,7 @@
           43,
           48,
           61,
-          46
+          44
         ],
         "mode": "auto",
         "raw": [
@@ -421,7 +421,7 @@
         "id": "cyber",
         "name": "Cyber & infrastructure",
         "weight": 15,
-        "value": 36,
+        "value": 35,
         "sources": "GDELT · Google News",
         "trend": [
           5,
@@ -431,7 +431,7 @@
           34,
           42,
           36,
-          36
+          35
         ],
         "mode": "auto",
         "raw": [
@@ -448,7 +448,7 @@
           58,
           53,
           26,
-          54
+          53
         ],
         "stale": false
       }

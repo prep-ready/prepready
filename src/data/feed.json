@@ -23,7 +23,7 @@
         "sev": 2,
         "source": "PolsatNews.pl",
         "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZlhDT1lXS3RmLU1hbm5HZXFhdmFqV1pVY1ByTjdkVERTZ1o0TVBmcE83OHNVTlZxVF9OVTFqbEZHT1M4RERUWEpRZFBRWm1SVHNEMmhrSnBLY0ZhUnBZVGh5LTNXREp4ZGxFcnkwZVZYX2ZLTnZrVF9tNG1TN2llbDJkU0c4cWw3NkJVLUlibjB4SjhvR3ZpQ1AwS2hzRXBDRktycHh1c2lRUQ?oc=5",
-        "title": "Polska poderwała myśliwce. Alert RCB dla dwóch województw",
+        "title": "Alert RCB dla dwóch województw. Poderwano myśliwce",
         "official": false,
         "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
         "guide": {
@@ -58,6 +58,16 @@
           "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
           "label": "Alert RCB i aplikacja RSO"
         }
+      },
+      {
+        "at": "2026-10-22T19:48:47.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbjV0Tll3N3l3aEFOSldkTGt3MllpdGZIRlhPY1czY2VEVGROTTdzQTJJQWFGZGhRVW4tTDNGaGhFYlV6ZGFuMzZYWlZhTmtab3cwQzFCUDJQZEhvNHJ5TVBIVDFJV1lnM251Sm90SGJ1ckRjbEFFNTBOcFljTjBoN29URVM3N3hjV21rVWFNa0R1SFhDU3VlZnpVWU9UTTYtb2RGX0NpUEFlWGZsVFE?oc=5",
+        "title": "Maria Zacharowa kpi z Polski i Litwy. \"Z niecierpliwością czekamy\"",
+        "official": false,
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
       },
       {
         "at": "2026-10-22T18:03:19.000Z",
@@ -248,23 +258,23 @@
           "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
           "label": "Alert RCB i aplikacja RSO"
         }
-      },
-      {
-        "at": "2026-10-21T18:35:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "PolsatNews.pl",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVWVoZ3B6aHRfN1M3X2hILVUtRkdxQTl1RzJNcWFWYjRkWXNKRm9WcDlITmRzWW9VeTRUc1RPNURaX2k1LUIyVjR3TDJHOVlVSmc5Q1k1dmpKUUlvRF9XNEo4dHA1X3kyMzkwd0Z1elpBX2Z3NVdQN0lKdTNBWko1X3JORzRZM2VBcVBIVlBQNE1vM2k5cjEwQmpvWVRmMXIxZEFkV0FJUmhBbHpuSzJNTXh3dzhjOWc?oc=5",
-        "title": "Wydrza. Obiekt wojsk NATO spadł na Podkarpaciu. Żandarmeria wydała komunikat",
-        "official": false,
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
       }
     ],
-    "updatedAt": "2026-10-23T04:19:30.362Z"
+    "updatedAt": "2026-10-23T05:17:33.846Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-23T04:25:29.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "pv magazine India",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRVZvNWtHOXE4Z3ZBX3NWM3BWYjJRWVdYaTFjalJZRklTbUttVmdibndWWlJ4cHM3V0dVS1hIak5iS3hLSWRzNFptd0RXWVBDMXdqLVVqbDAwcDVoNndqSk1SM2tSX2pHaTJpVHV2Wk5kcmtaUndpalhveXFWNS1hZnFiSlJCVzRnclJ4MFlyellvdmtTYWp5eGtyRXZXbjhKdW1nT0RxX3FNbHpfdlVkYlBLLXNiUEN4VGg0?oc=5",
+        "title": "Sri Lanka asks PV system owners to disconnect after nationwide blackout",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
       {
         "at": "2026-10-23T01:24:47.000Z",
         "cat": "security",
@@ -454,18 +464,8 @@
         "title": "Russia hit Kyiv with missiles carrying cluster warheads, Zelensky says",
         "official": false,
         "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
-      },
-      {
-        "at": "2026-10-22T12:30:00.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "The Hill",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRGJhRzdtM3ZXMnRmV2FfLUdiMnBqYmFXZEptSXRUX1ctcV9OYjRFS3o2ZFBGNmZvYWM1TmJ5Skx6VWhVb01lamZab292VkxUWlpjbmM5bmMtaDllbEJmVVpaNUVxaGViRnV2dEthSlo4ZkUyUXBWWjNuY0NaV0tyanFZME1Xa2JD0gGIAUFVX3lxTFBEYmFHN20zdlcydGZXYV8tR2IycGpiYVdkSm1JdFRfVy1xX05iNEVLejZkUEY2Zm9hYzVOYnlKTHpVaFVvTWVqZlpvb3ZWTFRaWmNuYzluYy1oOWVsQmZVWlo1RXFoZWJGdXZ0S2FKWjhmRTJRcFZaM25jQ1pXS3JqcVkwTVdrYkM?oc=5",
-        "title": "Russia and Iran are making copycats of China’s Great Firewall",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       }
     ],
-    "updatedAt": "2026-10-23T04:21:37.897Z"
+    "updatedAt": "2026-10-23T05:19:05.930Z"
   }
 }
