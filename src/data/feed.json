@@ -34,6 +34,16 @@
         "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
       },
       {
+        "at": "2026-10-22T09:55:38.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "WP Wiadomości",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWlZCbXhjeHM5ckhlUmR2S0NfblJaRm13bFU1VUNHcHVScGIzSjdSUkdIWk1KSDFSUUhXZzJ3WTFOeHZtR0tlck9OcjMwS2p1X1JIeDh1RFh1ZjdlLVlHeTFrM1ZlaXdubHgtamNmajhCVG1qU3NHU3VJQXFsX0pRdjBQVlJQT0twTGlBNURXUllydXUyUGNFT1p3?oc=5",
+        "title": "Ukraina wykorzystała Polskę? \"Nie udostępniamy naszej przestrzeni\"",
+        "official": false,
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+      },
+      {
         "at": "2026-10-22T09:54:40.000Z",
         "cat": "safety",
         "sev": 2,
@@ -244,23 +254,33 @@
           "href": "/pl/mapa-schronow/",
           "label": "Mapa schronów"
         }
-      },
-      {
-        "at": "2026-10-21T11:58:06.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Wiadomości Onet",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOV19kSWI5SHBwd2xTc1Y4Zlp2eWZ4SG5aLVZoVHE1bkRYaERJU0ZWSjBYZUNzS1lLZ0h6ZVlTZGY4cU5vZkhVTjlibzBPeUF5eFRqZ2pRckIyRFVjWFJPdHQxMDlvaWpTSVZ6X1NEbHZiV3BJaHR0VTczSFlmdG1ZNE9tLUttSjRkd1VTaml0TUNsbGlyUkxJSW9rQnhSeHpjcDJFUkpGMWZNcThYbXd6VQ?oc=5",
-        "title": "\"To nie będzie ostatni atak\". WSJ o tajnej kampanii Kremla przeciwko NATO",
-        "official": false,
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
       }
     ],
-    "updatedAt": "2026-10-23T00:10:08.475Z"
+    "updatedAt": "2026-10-23T01:27:40.656Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-23T01:18:45.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "RTO Insider",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdGhETVlMSmluRVpmOENmeUo2TWVlcjBFdFY3bDlUTmR4UzdUVTBZclZhaHBwRUdfYjVLZkl6MjJZYUlnRFFienhmVUFua3ZPU2pObVdoQkxjY1NXTHZXSE9mX2toS1h4WldQc1QyUHlhbEFMcUNHVmVIREhMUWFfOTNvRDE4M2JKWm9STzNPVmo?oc=5",
+        "title": "Ransomware Group Targeting Infrastructure, CISA Warns",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
+      {
+        "at": "2026-10-23T01:03:24.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "www.thetraveler.org",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcUtNUUtfWUgtWmE0YmNuMERBZnZ1N0drNURsTUNPTlVLX1VkSkpQTnhzd3pXcmlSdXZJZngzWDUzOG5naG1BbVNVdm5Vc1pVRzhSUUduWENlaTFPN2xxbU9GcllwV1I2LVlzd3JWd244MW95OWR1RV9UODNmTV9QQUl3cl9Vai1fc0FXRm5vRHJnUFU?oc=5",
+        "title": "Caribbean Blackout Forces Embassies to Aid Stranded Tourists",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
       {
         "at": "2026-10-22T21:05:00.000Z",
         "cat": "security",
@@ -440,28 +460,8 @@
         "title": "emperador Ransomware Group Profile",
         "official": false,
         "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-22T10:38:06.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "Inventiva",
-        "url": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxPUU1FODByazdOWXp3OUp6SUhBZ2V3ZGJIdUxId0dyZXcwXzRvYVNKZ2RJd1NUMkdEaFdCNk5rR2MxSUE2dmtFenBPQ3Nra21zbDk5eFY4WGlOY1RWMmdNME1MNTZIYXl0dzJMQk1RR0poai1WWTYweVhrWkp5UUJPRVFsWU1MbU9taUo0WFNveTZXRExRNzlyVndnTEd1YUg5NHI1aWt0R2diNEhac0xuTC1Td0RrSWVpTHY1TVFCLWlnbXdGcGlGSjc1UmZvOGNhQkJQU2F0Z2REQXNGb2YyUFpQTFZpWjl0Z2cwaVRaQl9NbkpnMnNxRklCMmZqR0p2YUkxZjhTR2dYdmZ0VG4taEVaWXdqREJkdFNlOV93c1hzZEx6UkZPZnk0Y2tMS19wSFpuTF9SY3JwR0FIUEdDdFN3eXh2aVhDb21MUVZrWmRsOTg?oc=5",
-        "title": "Cyberattack Hits Hundreds of French Supermarkets, Overheating Fridges and Sparking Fires. Could The Next Cyberattack Disrupt An Entire Supply Chain, From Phones To Traffic Lights And Hospital Equipment?",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-22T10:15:31.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "Hackread",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNdm9tYnBpajZfck92ejFtRU5WaWZpS1AxcDBfWWRUMjdxXy0tN1pjeFd3NVZyZGVNTEpuTVY1T3hpdVBHcEJYRnExTW44UUtPYUlrQnJ2b0ktR3pyVEV6VmNTazNGS282Vkh6WFZXSkdxV0lhV2tBWGRVUzV1bDhXRkotMA?oc=5",
-        "title": "Qilin and INC Exploit Palo Alto VPN Flaw in Ransomware Attacks",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
       }
     ],
-    "updatedAt": "2026-10-23T00:11:50.864Z"
+    "updatedAt": "2026-10-23T01:29:33.170Z"
   }
 }
