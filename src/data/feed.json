@@ -28,6 +28,20 @@
         }
       },
       {
+        "at": "2026-10-23T10:08:00.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "TVP Info",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMmVoa1U5TWNkcGJfOUZtcE1mbjRCNlZIVGVRS1o3b0t1TDczanBpa0lwNzgzN01NS2kyMEtaMnRFZ3dtLWlMNkNkR1FmeTFWdVBQR0FrYlM4OE9vcGRzdEh2WWQtOEc3MjJlNmY3YWtjVWl2cWwyOENMRzktOWl3Nl9Ka3NqTUlvZm5tYVdjbndXLW84VzNPYUVBQkR2X1J2RHJ3V1dFc1NsbVp4N2o3NnVPR2VKQ1E?oc=5",
+        "title": "Rosyjski atak na Ukrainę. Polska poderwała myśliwce",
+        "official": false,
+        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112.",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
+      },
+      {
         "at": "2026-10-23T10:01:06.000Z",
         "cat": "security",
         "sev": 2,
@@ -36,6 +50,20 @@
         "title": "Polski czołg K2PL coraz mniej polski. Wojsko zdecydowało",
         "official": false,
         "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+      },
+      {
+        "at": "2026-10-23T07:36:00.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "RMF24",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSEJQXzlUblVWN05oTlQ1NGJFLWdtQ3NfWms3SUxzQTBLU2l6Z2p0SzVjSDNsS3h5OHlkUXk0MHhLTzRNNmFDQkZwTXJTY3RKRGFtVGVqUWt0a0d5ZTJ3SV9GbEl1OW5wdHVFOUNLVTQwYWdTWTItZFJUU2lGRDgwYUxHeXNCZnh4dzZab2pUY3I5NmppY0loZzdTTFNGakFaRFR5cmZ1TmxiV3M?oc=5",
+        "title": "Alert RCB odwołany, zakończyły się działania polskiego lotnictwa. To była kolejna noc ataków na Ukrainę",
+        "official": false,
+        "forYou": "Zagrożenie minęło. Sprawdź, czy w domu wszystko jest w porządku, i uzupełnij to, czego użyłeś z zapasu.",
+        "guide": {
+          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
+          "label": "Alert RCB i aplikacja RSO"
+        }
       },
       {
         "at": "2026-10-23T06:25:28.000Z",
@@ -80,34 +108,6 @@
         "title": "Alert RCB przy granicy. Putin zabrał głos po rozmowie z Witkoffem. Podsumowanie nocy",
         "official": false,
         "forYou": "Informacja o sprzęcie wojskowym. Nie wymaga działań z Twojej strony.",
-        "guide": {
-          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
-          "label": "Alert RCB i aplikacja RSO"
-        }
-      },
-      {
-        "at": "2026-10-23T03:31:00.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "PolsatNews.pl",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZlhDT1lXS3RmLU1hbm5HZXFhdmFqV1pVY1ByTjdkVERTZ1o0TVBmcE83OHNVTlZxVF9OVTFqbEZHT1M4RERUWEpRZFBRWm1SVHNEMmhrSnBLY0ZhUnBZVGh5LTNXREp4ZGxFcnkwZVZYX2ZLTnZrVF9tNG1TN2llbDJkU0c4cWw3NkJVLUlibjB4SjhvR3ZpQ1AwS2hzRXBDRktycHh1c2lRUQ?oc=5",
-        "title": "Polska poderwała myśliwce. Alert RCB dla dwóch województw",
-        "official": false,
-        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
-        "guide": {
-          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
-          "label": "Alert RCB i aplikacja RSO"
-        }
-      },
-      {
-        "at": "2026-10-23T03:09:00.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "RMF24",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMndpWTVxUTd2TUlCRElrZTMyZVp1MXlDdDd5MWE2ZUtrWnItVlZjYTFPcEpiaWR1VGRsbkl0b1dBY19wZHYwSG5OZVdFbDhnMnhMU29WUndvWmpseWdHLWhTcGFCdzhoa2RCaXlKUWl2LVgzT1VGYWd5VzlBc0EwWnNpNlIwdkN2ZXpGcWpUODM0S2JJb0ZyRDNfZDJYYW5mZm5ZRVpPS29GYTg?oc=5",
-        "title": "Alert RCB, „w przestrzeni RP operuje polskie lotnictwo”. Zachodnia Ukraina pod ostrzałem",
-        "official": false,
-        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
         "guide": {
           "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
           "label": "Alert RCB i aplikacja RSO"
@@ -240,7 +240,7 @@
         }
       }
     ],
-    "updatedAt": "2026-10-23T10:18:31.801Z"
+    "updatedAt": "2026-10-23T11:17:27.036Z"
   },
   "en": {
     "sample": false,
@@ -291,6 +291,16 @@
         "sev": 2,
         "source": "Odessa Journal",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVmFVWlc4UmxpRHlQZDJjRGg2LXFrcUNVVDEwWEFzQU5KeWVsdUlEOC1wZE5nMEFNbGp6S1oteUV3NVZZc3hiR1JIdlNFQnBUUTdOV3dlaTExalRGdmtzUDBISUItWE9nRUppVFQxWTNiUjMtUjNDVGZiQ1VCOUR2b1d5SUdzUHozVmJUOWhrU0ZEN0pnVWtZU1BiRjI1QTVESlRkVklB?oc=5",
+        "title": "Main",
+        "official": false,
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
+      {
+        "at": "2026-10-23T06:47:02.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Odessa Journal",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTGlFZXNOaEZxcF9hQWg4MDFWbTdiRGk2Ql8zM2xGODVlc2ltbDlKa1MxOGJiQnNUSXJaOUFPdk56MXRFcWdaZjZ0U1hfTFhVN3VpOTE2VHZrTmhkVzhZTkM5Tk5OR0ZEclVHaHlCYXF4SUo2ZVQzR04zdFktT0dhWUNlMnZGNDUxT1JXNTJIckVoRVViaVVv?oc=5",
         "title": "Main",
         "official": false,
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
@@ -434,18 +444,8 @@
         "title": "Earthquake in China (Red alert)",
         "official": true,
         "forYou": "If you have family in the area, check in. Review your own evacuation plan."
-      },
-      {
-        "at": "2026-10-22T14:33:40.000Z",
-        "cat": "disaster",
-        "sev": 3,
-        "source": "GDACS",
-        "url": "https://www.gdacs.org/report.aspx?eventid=1573141&episodeid=1741837&eventtype=EQ",
-        "title": "Earthquake in China (Orange alert)",
-        "official": true,
-        "forYou": "If you have family in the area, check in. Review your own evacuation plan."
       }
     ],
-    "updatedAt": "2026-10-23T10:20:13.682Z"
+    "updatedAt": "2026-10-23T11:19:41.250Z"
   }
 }
