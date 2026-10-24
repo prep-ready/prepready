@@ -232,13 +232,13 @@
         "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
       }
     ],
-    "updatedAt": "2026-10-24T22:09:27.213Z"
+    "updatedAt": "2026-10-24T23:08:31.784Z"
   },
   "en": {
     "sample": false,
     "items": [
       {
-        "at": "2026-10-24T21:29:53.000Z",
+        "at": "2026-10-24T21:45:30.000Z",
         "cat": "cyber",
         "sev": 2,
         "source": "The Business Standard",
@@ -246,6 +246,16 @@
         "title": "Cenbank takes website offline over global cyberattack concerns",
         "official": false,
         "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
+      {
+        "at": "2026-10-24T21:40:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Media",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPX3dIS2tvV0J5Q3lhM1NXWTV4T2s5dUdDQjNnUGw5VzJXXzBYN29wR3hwQ0huUUpDR1Z2Q005VkF3eHd4TFJNcVp0UWsySVhrOWhKSGxkY2ZIaFZpYy1QWDRtUlBqSVBRWWNDTE1UWE1rQlFBTXFfQTg4UmNCdnEzSF9aV2NyeDlyc3Q4Z1NTTGtFQ004NVFj?oc=5",
+        "title": "Ukraine gets better at striking targets deep inside Russia, Bloomberg reports - RBC-Ukraine",
+        "official": false,
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       },
       {
         "at": "2026-10-24T19:14:38.000Z",
@@ -426,18 +436,8 @@
         "title": "Exposed infrastructure reveals AI-driven ransomware intrusions by INC and The Gentlemen affiliates",
         "official": false,
         "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-24T02:37:05.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Ada Derana",
-        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE16Yy1GOFVjOEx6Mkd3TG95MzZreTJicVQ1dWFhSmpPSHJMd0hjS2xhX0JzOWdxcVJsUk9nNi1oX1ZmNHlDUGMw?oc=5",
-        "title": "Sacks suspected to contain narcotics recovered from Talalla Beach",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       }
     ],
-    "updatedAt": "2026-10-24T22:10:51.539Z"
+    "updatedAt": "2026-10-24T23:10:17.752Z"
   }
 }
