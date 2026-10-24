@@ -232,11 +232,21 @@
         "forYou": "Jeśli jesteś w pobliżu: uciekaj, a jeśli nie możesz, ukryj się i wycisz telefon. Dzwoń pod 112, gdy będzie to bezpieczne. Unikaj okolicy i nie powielaj niesprawdzonych nagrań."
       }
     ],
-    "updatedAt": "2026-10-24T11:13:33.331Z"
+    "updatedAt": "2026-10-24T12:11:57.438Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-24T11:39:02.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "IntelliNews",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZDRVQmdWTDlBaWRVUmRIMWdDNXF3OGtGdG85MXRVRXBOa1JSeF9idnZwaFJjb3JhWVVyZWstWjlLdk1HRHdHY29VNkt5LUh1YnI0T08yTkwtaVVOOFZQSzFvMW9ldjhfU3N2cURKMzg1QWZNaU9Rb3R3TDdrYXIwNlBTR2hycTItUjFqaFZRV1lZQkU2YmtuY0xwR0p2aGdGY3llaDEwSWtVb1NqUlk0bGJpUTAtQVVTM1JGNVRtNU5idEJpWGpabkNWaUY?oc=5",
+        "title": "Missile War Monitor: Oryol missile strike injures eight; channels name Proton plant",
+        "official": false,
+        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+      },
       {
         "at": "2026-10-24T10:57:00.000Z",
         "cat": "security",
@@ -254,6 +264,26 @@
         "source": "The National",
         "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTngtWlZKb2lHN2huS0pfMUtPZi1SYm0tOHRhMVpRV3ZpbW5ydGZfUVJ2SGtLTGZTR2ZQS1RpZEtzeDhQcUYwOVdyUGZoc1dlQVpUbTdJbGp1UTU4aFplZkJFX0pGMm1JSmVaOVpTN3BVbHZURkpUXzN1b3IyQ05TZ1VkYlp5dlJYTE9aRGZETQ?oc=5",
         "title": "Middle East latest: Trump warns of 'another little Epic Fury' amid fears of renewed conflict",
+        "official": false,
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
+      {
+        "at": "2026-10-24T10:44:00.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Інтент",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPa2tkVE56UW1iX09GM3RuNTdqSHNqeExJY25lZ3BwYUwwRl9VLXZFRWhyVXJfN3B4UDRETHEzNk9rNldrcE40RXBMSzdURk1XYTlZR2JwWmVHUW5oZ1R5LWV2YnVQSVNqaGlaaUNCNllReHpYeGZPZVVYdTZBYzNIdllNa3FHYmdlYmFSWl9WeE5OSHZMRVBMdnk0dkdXZEdadnZYS2ln?oc=5",
+        "title": "A blackout in Crimea brought maritime and urban transportation to a halt",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
+      {
+        "at": "2026-10-24T10:09:56.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Dawn",
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4wWU1XcTJjVkhydDJ6REhTa1RGZHp5eHJhYXVpQlRoNndhUjBOamFNWlRERkdMYk53LWc4LVhDbktnSXZ3RkJyWmtEMEgycjRFNmJN?oc=5",
+        "title": "Live Updates: War returns to Iran with Israel, US strikes",
         "official": false,
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       },
@@ -286,26 +316,6 @@
         "title": "Sri Lanka to set up joint wildlife-military center to protect elephants",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-24T06:46:08.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Dawn",
-        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4wWU1XcTJjVkhydDJ6REhTa1RGZHp5eHJhYXVpQlRoNndhUjBOamFNWlRERkdMYk53LWc4LVhDbktnSXZ3RkJyWmtEMEgycjRFNmJN?oc=5",
-        "title": "Live Updates: War returns to Iran with Israel, US strikes",
-        "official": false,
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-24T05:54:06.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "АНТИКОР",
-        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOMmdsQ3dQTGtjUnFtSzJZak02YnBva3JobjZTdjZKbTF4clRxV3ZLSnFZeV9VNG85OVNuQkUxWWJGOFdEbWNHWVlvTV9DWno1NEdQeWJ4OWpWVUhiVWNjZm5QNkhWMzllRFdBZUotZ0pweG9LdTFCQlhaSVBQM3hKMUE0Ulk4X2JxQ3JHQ0dIVDA4Sl9LRUtMb3BGeWJrUkJDQmlpSW55ai15MVFMTUNVdzYxSHdVSTVveXJuMEpOT0J4UC1qd0trOXFHZU9vWUVfUzgzNjJmRFdFVUFaNVE?oc=5",
-        "title": "Missile strike on the Proton plant in Orel destroyed the production workshop: reports of dead workers",
-        "official": false,
-        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
       },
       {
         "at": "2026-10-24T05:33:38.000Z",
@@ -426,18 +436,8 @@
         "title": "Cuba’s National Electric Grid Collapses, Reason Unknown",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-23T13:13:05.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "The Mercury",
-        "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOdG5RVTZwTndyTXk1Q2VaSXBWWjJXeFUyMG03VGg0Qmx1M1VNcG9UdXJ2STdOTXVoWGdLTTVoaWdLZk1IY2RKLTllZFp4QUxCWU5rcjJPbU93ekJ5QXdsSHBoUnlqb2Q5ZGRJV1paM293a0dtU0Nlb0RSa21EYmFxS1F3Qi1UY3hpeFF2emViN1ZPSU9SQWNiQW84YzNjZkpCcExKUXNPTkE3UENUb2V6aS1fS3BsTGR5anV5V1RuS2REYXhqMlJLb0JHSHFFVElvNkRaVlJzSHRfUjRhcWZNRnl4SzZZUkNybW96dDAzWV92bWhtV0xCOEFZZjAwVXhiWjhqbGpqREU?oc=5",
-        "title": "‘When I got rid of it, my grades shot up’: Aussie boy’s move to get school off social media",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       }
     ],
-    "updatedAt": "2026-10-24T11:15:17.055Z"
+    "updatedAt": "2026-10-24T12:13:39.679Z"
   }
 }
