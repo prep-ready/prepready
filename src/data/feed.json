@@ -54,30 +54,12 @@
       {
         "at": "2026-10-23T17:54:51.000Z",
         "cat": "safety",
-        "sev": 3,
+        "sev": 2,
         "source": "Polskie Radio 24",
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNREJ5WVVUMktvenhFSncwbFVCdzFpNEkxcHhGZmU1LW5ScEZNR3RIbTRmYTJFUW1qYUtWR0tpanQybnMyc0RXdGpXYmpOUS1xeHpjWHpkc1QyT09kMENBMmZWZk5nYnVSNk5QYmFUVjVCczBWVzdxU1JqQUE4MGktWG9SbE9RTHlOZmdkM3FTdFU0bUlHYzkxMmxJcFowOFdqcXhUU2prRGZNQjZmM1E?oc=5",
-        "title": "Nowy alert RCB dla Lubelszczyzny. \"Rosyjski atak powietrzny na terenie Ukrainy\"",
+        "title": "RCB odwołuje alert w woj. lubelskim. \"Nie ma zagrożenia na terenie Polski\"",
         "official": false,
-        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
-        "guide": {
-          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
-          "label": "Alert RCB i aplikacja RSO"
-        }
-      },
-      {
-        "at": "2026-10-23T16:09:00.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "RMF24",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVkFfb3F4NW5XWkZQNE1kOGt1aWVOX0d3c1l1QjRPNGFKSWdldFd4TU45YlZ2T2dudmJjQXMxZUQ4TW9XQ2FmQ1hSM3VuU0FFZUk3MWFraXJ2b1VPdGtoMTQ5VHJxMDlRWHJOTTh3Z2RtemFHMmh0WXBHdlA2MTM5eEZLeDhzRGhnRHVQcVhWVkpQUDNUWlVlTy1Ja2VaeGFiVXpmMWJSVzMwd2lzRWtiUmtLVVM?oc=5",
-        "title": "Alert RCB dla części Lubelszczyzny. „W przestrzeni RP operuje polskie lotnictwo”",
-        "official": false,
-        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
-        "guide": {
-          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
-          "label": "Alert RCB i aplikacja RSO"
-        }
+        "forYou": "Zagrożenie minęło. Sprawdź, czy w domu wszystko jest w porządku, i uzupełnij to, czego użyłeś z zapasu."
       },
       {
         "at": "2026-10-23T15:57:36.000Z",
@@ -230,9 +212,19 @@
         "title": "Nożownik z Warszawy schwytany, premier reaguje na tekst WP [SKRÓT DNIA]",
         "official": false,
         "forYou": "Jeśli jesteś w pobliżu: uciekaj, a jeśli nie możesz, ukryj się i wycisz telefon. Dzwoń pod 112, gdy będzie to bezpieczne. Unikaj okolicy i nie powielaj niesprawdzonych nagrań."
+      },
+      {
+        "at": "2026-10-22T13:55:00.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "CERT Polska",
+        "url": "https://cert.pl/posts/2026/10/CVE-2026-16477/",
+        "title": "Podatność w oprogramowaniu MTW CleanShot X",
+        "official": true,
+        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
       }
     ],
-    "updatedAt": "2026-10-24T14:10:55.390Z"
+    "updatedAt": "2026-10-24T15:11:42.806Z"
   },
   "en": {
     "sample": false,
@@ -438,6 +430,6 @@
         "forYou": "Update your devices and don’t tap links in alert-style messages."
       }
     ],
-    "updatedAt": "2026-10-24T14:13:02.509Z"
+    "updatedAt": "2026-10-24T15:13:53.286Z"
   }
 }
