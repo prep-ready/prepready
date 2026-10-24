@@ -232,11 +232,31 @@
         "forYou": "Jeśli jesteś w pobliżu: uciekaj, a jeśli nie możesz, ukryj się i wycisz telefon. Dzwoń pod 112, gdy będzie to bezpieczne. Unikaj okolicy i nie powielaj niesprawdzonych nagrań."
       }
     ],
-    "updatedAt": "2026-10-24T10:14:11.172Z"
+    "updatedAt": "2026-10-24T11:13:33.331Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-24T10:57:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "UNITED24 Media",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZEZ0blVnbXBFTy1KWUtIVlBCWmp2blJWUk9HOU5CRkRQVnh2Sy1ULU5FSjkxeTBaOXBWZ2lkTGtmNmM5aDB5Q3ZGSHMyLWpoQVJ2T212TmRqbG5CbTR2clpGLXdETjBFYVdoYjdScFVTVGpiLTNDZHVUMzFHNnJHM1I4ckkycS0yYU9kSThvQUIxbEVUOEF3ZU8xc1ktb3NWQ0dHVHZKQWhHRFhiMFE1OHdhVnlndjB3aHp3QVNva0dGMkt4cE1WNnNpQnA2R1hWdXpQWnFUSDlVZmRSVzVR?oc=5",
+        "title": "Russia’s Missile Industry Takes a Double Hit as Ukraine Strikes Two Key Plants and Military Aircraft",
+        "official": false,
+        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+      },
+      {
+        "at": "2026-10-24T10:48:37.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The National",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTngtWlZKb2lHN2huS0pfMUtPZi1SYm0tOHRhMVpRV3ZpbW5ydGZfUVJ2SGtLTGZTR2ZQS1RpZEtzeDhQcUYwOVdyUGZoc1dlQVpUbTdJbGp1UTU4aFplZkJFX0pGMm1JSmVaOVpTN3BVbHZURkpUXzN1b3IyQ05TZ1VkYlp5dlJYTE9aRGZETQ?oc=5",
+        "title": "Middle East latest: Trump warns of 'another little Epic Fury' amid fears of renewed conflict",
+        "official": false,
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
       {
         "at": "2026-10-24T09:32:35.000Z",
         "cat": "energy",
@@ -296,16 +316,6 @@
         "title": "Sri Lanka Orders Rooftop Solar Disconnection Following Nationwide Blackout Amid Grid Stability Concerns",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-24T04:48:37.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The National",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTngtWlZKb2lHN2huS0pfMUtPZi1SYm0tOHRhMVpRV3ZpbW5ydGZfUVJ2SGtLTGZTR2ZQS1RpZEtzeDhQcUYwOVdyUGZoc1dlQVpUbTdJbGp1UTU4aFplZkJFX0pGMm1JSmVaOVpTN3BVbHZURkpUXzN1b3IyQ05TZ1VkYlp5dlJYTE9aRGZETQ?oc=5",
-        "title": "Middle East latest: Trump warns of 'another little Epic Fury' amid fears of renewed conflict",
-        "official": false,
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       },
       {
         "at": "2026-10-24T04:35:06.000Z",
@@ -426,18 +436,8 @@
         "title": "‘When I got rid of it, my grades shot up’: Aussie boy’s move to get school off social media",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-23T12:06:03.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Arabian Business",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeGVzSjhrbUhOTTctX0ViTkJTRnFEZnkwNTJQR3gySTJRQlk3aXNwenJ2Qk1DejVYcF84dmF4WDFPd2xKRzEwazEtOEdOb05OOFhJaXZQVTd3R2lDRHdGbTgtM1JSSEMxeFN5OTlLc0tLNE55MHlHRDZNU3lOVFBDaTJwQQ?oc=5",
-        "title": "Iran war live: US senators fume at Trump as staggering cost of conflict revealed",
-        "official": false,
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       }
     ],
-    "updatedAt": "2026-10-24T10:16:15.707Z"
+    "updatedAt": "2026-10-24T11:15:17.055Z"
   }
 }
