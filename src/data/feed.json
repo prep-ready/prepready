@@ -232,17 +232,27 @@
         "forYou": "Jeśli jesteś w pobliżu: uciekaj, a jeśli nie możesz, ukryj się i wycisz telefon. Dzwoń pod 112, gdy będzie to bezpieczne. Unikaj okolicy i nie powielaj niesprawdzonych nagrań."
       }
     ],
-    "updatedAt": "2026-10-24T12:11:57.438Z"
+    "updatedAt": "2026-10-24T13:21:45.809Z"
   },
   "en": {
     "sample": false,
     "items": [
       {
+        "at": "2026-10-24T12:54:34.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Ada Derana",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBldmdsR3JqT1QxdC1ZWDlUWVV5RlQwX0RqMmNPMkFfVWMybTVnVVJLQ1lySjhITk9NWVdqY3BHUnZ4cFEtM2xR?oc=5",
+        "title": "Reports claiming President was admitted to private hospital are false: President’s Office",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
+      {
         "at": "2026-10-24T11:39:02.000Z",
         "cat": "security",
         "sev": 2,
         "source": "IntelliNews",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZDRVQmdWTDlBaWRVUmRIMWdDNXF3OGtGdG85MXRVRXBOa1JSeF9idnZwaFJjb3JhWVVyZWstWjlLdk1HRHdHY29VNkt5LUh1YnI0T08yTkwtaVVOOFZQSzFvMW9ldjhfU3N2cURKMzg1QWZNaU9Rb3R3TDdrYXIwNlBTR2hycTItUjFqaFZRV1lZQkU2YmtuY0xwR0p2aGdGY3llaDEwSWtVb1NqUlk0bGJpUTAtQVVTM1JGNVRtNU5idEJpWGpabkNWaUY?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNWGc1RTRsNUpqOWk5ZFRqSkc3ZC0tbEV0Mm5rbWEyX0Y2TXNYQmZaRWNJTEJrdnNpeTVsWVhUSWx6VWJCdTU0dFFNczF2SXRKVmxJNUhLR1dtQkY2MTN2S0dCbDRFUmRBZHIxNlM0SDBqMUhURXVBc0c4bWZ5bnhudnQ3SDRPUXVtVUlNWDFiV1FDQVdheEE5SjZRVEpOTE5fQzFDMko5QXZaVzZZaWttemtJU05ZcnA1VUJMNWliSXRQNHV0YVlGYkN6WQ?oc=5",
         "title": "Missile War Monitor: Oryol missile strike injures eight; channels name Proton plant",
         "official": false,
         "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
@@ -426,18 +436,8 @@
         "title": "Importation of Ebola cases to Kenya and Nigeria: ECDC assesses the threat",
         "official": true,
         "forYou": "Usually no action. Check your first-aid kit and expiry dates."
-      },
-      {
-        "at": "2026-10-23T13:25:01.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "EnergyNow.com",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRHM5Z0w3dFFfNEtpem9naS1GakppY2drNmxqQ2xWRDB3b1hmMHBDWUZZc2ZKY2ZJR2RKejd4YW9CMTYxMzFqX01ZcmNXZG9WMVVKaXFIVlY2WVpBWUpMQnZMOEJaM2xtRW9IMnEzelgwQmQ4djVuYTA1MmVZWVB0a01IeWhuNkJnMnR3TA?oc=5",
-        "title": "Cuba’s National Electric Grid Collapses, Reason Unknown",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       }
     ],
-    "updatedAt": "2026-10-24T12:13:39.679Z"
+    "updatedAt": "2026-10-24T13:23:09.494Z"
   }
 }
