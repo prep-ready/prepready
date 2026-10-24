@@ -222,7 +222,7 @@
         "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
       }
     ],
-    "updatedAt": "2026-10-24T04:16:41.848Z"
+    "updatedAt": "2026-10-24T05:14:50.661Z"
   },
   "en": {
     "sample": false,
@@ -248,6 +248,16 @@
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       },
       {
+        "at": "2026-10-24T01:39:30.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The National",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbGlZSGtHQXg4UjIzanpId3ViZ1RxS25adzVXLUM0cU9KdUwzSDJsOTduTENaN201SjVFd09IZGJUTmpRMDcwYWJZc1BBTGpXWDRuNTBSbWhZWWU3LUxOdkc4QlNTeXhmVUdEcTB6czBvQ3NwMkFMelZTbEY2NHFLRi1LRkU0RTk2WGRhblhjY0VQQQ?oc=5",
+        "title": "Middle East latest: Saudi-led coalition intercepts wave of overnight attacks",
+        "official": false,
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
+      {
         "at": "2026-10-23T21:17:23.000Z",
         "cat": "cyber",
         "sev": 2,
@@ -264,16 +274,6 @@
         "source": "KMVU FOX 26 Medford",
         "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQZ2Jva19FdDM5aE1Bclh6N0hndGZxMl92MkVPR2RyQlhPZHBoTjBHQ1FETVdKUTBacTRncGNscEZQVXBBaE1nOXhWUDNGR1JjMllWVnE4N293NUFoQUNBcDV1MmpPUGttT09PdU1vb0xUSWtyOGRjWW1KQjQ2YnBmcjdsWnBHazdCQnVGTkF2VEV0NTVnNklna3dmNEtoR2QtbzBreE1CdVlKSXdRZGQwWHVETzNLMGtWV1NoTDhWUklfNFJQU1ZFU1JWR1M2MlV4VzFfR0lDLVJESE1TT1BTQjBPeUFFRFRpcWdsSE1R?oc=5",
         "title": "Melania Trump says she brokered truce in war-torn Ukrainian city",
-        "official": false,
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-23T19:36:58.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The National",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbGlZSGtHQXg4UjIzanpId3ViZ1RxS25adzVXLUM0cU9KdUwzSDJsOTduTENaN201SjVFd09IZGJUTmpRMDcwYWJZc1BBTGpXWDRuNTBSbWhZWWU3LUxOdkc4QlNTeXhmVUdEcTB6czBvQ3NwMkFMelZTbEY2NHFLRi1LRkU0RTk2WGRhblhjY0VQQQ?oc=5",
-        "title": "Middle East latest: Saudi-led coalition intercepts wave of overnight attacks",
         "official": false,
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       },
@@ -428,6 +428,6 @@
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       }
     ],
-    "updatedAt": "2026-10-24T04:18:54.181Z"
+    "updatedAt": "2026-10-24T05:17:03.678Z"
   }
 }
