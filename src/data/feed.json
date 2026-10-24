@@ -232,11 +232,21 @@
         "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
       }
     ],
-    "updatedAt": "2026-10-24T20:06:29.378Z"
+    "updatedAt": "2026-10-24T21:08:50.045Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-24T19:14:38.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Ada Derana",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE44NzFycDR4eHMzblpDSWJBNmkzb2llYlJCMGJBNnZCNlRkZ3VqMHd1VGc1bVFISkRManAwVV9OenpKNUZrRHMw?oc=5",
+        "title": "Major General Sampath Fernando appointed Chief of Staff of Sri Lanka Army",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
       {
         "at": "2026-10-24T18:45:01.000Z",
         "cat": "energy",
@@ -426,18 +436,8 @@
         "title": "Middle East latest: Saudi-led coalition intercepts wave of overnight attacks",
         "official": false,
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-23T21:17:23.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "SC Media",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbTZjY2xNTUc0aXQxcThXbXRKVTcybzBNTmRIOFVBclJfMTdvZ3FRRFdjbGw2MFIyeXZsN2xfamtjUWVudVZDTzV1bUtoLVVENkkwUDJKY1B0NFUwTS1sa2ptSnUzUndnMnB5ZEhob2JrZmY5V1lCQVVZOHBuRkIyeDVBMkhEMng2VFFPNE1RdkU1eWREZlFFTjU4V1hjc0p2blJsMTloWFo2ZmFjSGZReDVZM3F5c0ct?oc=5",
-        "title": "Russian hackers collaborate on destructive cyberattack against Ukrainian logistics firm",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
       }
     ],
-    "updatedAt": "2026-10-24T20:07:31.847Z"
+    "updatedAt": "2026-10-24T21:11:04.510Z"
   }
 }
