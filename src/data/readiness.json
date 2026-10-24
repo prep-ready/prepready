@@ -2,7 +2,7 @@
   "_comment": "Aktualizuje scripts/update-data.mjs codziennie. pl = Polska, en = świat. Składowe z mode=manual ustawiasz ręcznie.",
   "pl": {
     "sample": false,
-    "updatedAt": "2026-10-24T16:12:03.391Z",
+    "updatedAt": "2026-10-24T17:12:40.151Z",
     "score": 26,
     "delta7": -3,
     "ago30": 29,
@@ -235,9 +235,9 @@
   },
   "en": {
     "sample": false,
-    "updatedAt": "2026-10-24T16:14:20.568Z",
-    "score": 40,
-    "delta7": 0,
+    "updatedAt": "2026-10-24T17:14:44.889Z",
+    "score": 39,
+    "delta7": -1,
     "ago30": 35,
     "history": [
       35,
@@ -269,14 +269,14 @@
       41,
       46,
       43,
-      40
+      39
     ],
     "components": [
       {
         "id": "conflict",
         "name": "Global conflict",
         "weight": 30,
-        "value": 46,
+        "value": 48,
         "sources": "GDELT · Google News",
         "trend": [
           36,
@@ -286,7 +286,7 @@
           48,
           61,
           48,
-          46
+          48
         ],
         "mode": "auto",
         "raw": [
@@ -310,7 +310,7 @@
           44,
           53,
           50,
-          52
+          53
         ],
         "stale": false
       },
@@ -336,7 +336,7 @@
         "id": "energy",
         "name": "Power & grid",
         "weight": 15,
-        "value": 32,
+        "value": 31,
         "sources": "Google News",
         "trend": [
           35,
@@ -346,7 +346,7 @@
           29,
           34,
           30,
-          32
+          31
         ],
         "mode": "auto",
         "raw": [
@@ -379,7 +379,7 @@
           48,
           54,
           50,
-          53
+          52
         ],
         "stale": false
       },
@@ -427,7 +427,7 @@
         "id": "cyber",
         "name": "Cyber & infrastructure",
         "weight": 15,
-        "value": 45,
+        "value": 32,
         "sources": "GDELT · Google News",
         "trend": [
           34,
@@ -437,7 +437,7 @@
           42,
           36,
           58,
-          45
+          32
         ],
         "mode": "auto",
         "raw": [

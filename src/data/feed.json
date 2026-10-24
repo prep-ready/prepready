@@ -4,6 +4,16 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-10-24T15:47:00.000Z",
+        "cat": "health",
+        "sev": 1,
+        "source": "TVP Info",
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQalg0SGdsUTc5RDlwOGlnN19leVFpN3Nfc3cxZ1VFOVRtbjlieU5rZjltVGZuR1R4bXFaVnpIa2F5b2xWUlFCXzVDQVFUbXY2N1RKQmRGbkltNmJIZzQ4QzlrWjRXaFoyMWRUSjlVb2t5OGpkZ1VUUzFvTTJSSFQtYURZZFhRYTNvRlhRU1pGcUEzdTk4OGlKclJRZ2EwV2F0ZDl0Nk1uWnhpX1JDUElLWm1HMmw3ajZ3TjhnWl9iSjJpdGRjNUlBYW9ua2tDSDUwWlhwR3dUMWxUbGkyUXo2ODJTOEVTTUhkeF9nSg?oc=5",
+        "title": "Epidemia eboli. Ruszyły testy nowej szczepionki",
+        "official": false,
+        "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
+      },
+      {
         "at": "2026-10-24T11:42:00.000Z",
         "cat": "weather",
         "sev": 3,
@@ -212,23 +222,23 @@
         "title": "Nożownik z Warszawy schwytany, premier reaguje na tekst WP [SKRÓT DNIA]",
         "official": false,
         "forYou": "Jeśli jesteś w pobliżu: uciekaj, a jeśli nie możesz, ukryj się i wycisz telefon. Dzwoń pod 112, gdy będzie to bezpieczne. Unikaj okolicy i nie powielaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-10-22T13:55:00.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "CERT Polska",
-        "url": "https://cert.pl/posts/2026/10/CVE-2026-16477/",
-        "title": "Podatność w oprogramowaniu MTW CleanShot X",
-        "official": true,
-        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
       }
     ],
-    "updatedAt": "2026-10-24T16:12:03.395Z"
+    "updatedAt": "2026-10-24T17:12:40.156Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-24T16:48:37.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The National",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTngtWlZKb2lHN2huS0pfMUtPZi1SYm0tOHRhMVpRV3ZpbW5ydGZfUVJ2SGtLTGZTR2ZQS1RpZEtzeDhQcUYwOVdyUGZoc1dlQVpUbTdJbGp1UTU4aFplZkJFX0pGMm1JSmVaOVpTN3BVbHZURkpUXzN1b3IyQ05TZ1VkYlp5dlJYTE9aRGZETQ?oc=5",
+        "title": "Middle East latest: Trump warns of 'another little Epic Fury' amid fears of renewed conflict",
+        "official": false,
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
       {
         "at": "2026-10-24T15:22:27.000Z",
         "cat": "energy",
@@ -278,16 +288,6 @@
         "title": "Russia’s Missile Industry Takes a Double Hit as Ukraine Strikes Two Key Plants and Military Aircraft",
         "official": false,
         "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
-      },
-      {
-        "at": "2026-10-24T10:48:37.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The National",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTngtWlZKb2lHN2huS0pfMUtPZi1SYm0tOHRhMVpRV3ZpbW5ydGZfUVJ2SGtLTGZTR2ZQS1RpZEtzeDhQcUYwOVdyUGZoc1dlQVpUbTdJbGp1UTU4aFplZkJFX0pGMm1JSmVaOVpTN3BVbHZURkpUXzN1b3IyQ05TZ1VkYlp5dlJYTE9aRGZETQ?oc=5",
-        "title": "Middle East latest: Trump warns of 'another little Epic Fury' amid fears of renewed conflict",
-        "official": false,
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       },
       {
         "at": "2026-10-24T10:44:00.000Z",
@@ -430,6 +430,6 @@
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       }
     ],
-    "updatedAt": "2026-10-24T16:14:20.569Z"
+    "updatedAt": "2026-10-24T17:14:44.890Z"
   }
 }
