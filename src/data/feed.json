@@ -4,6 +4,20 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-10-24T17:20:20.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "TVN24",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTUo2ZXNLRl9ITzJHSXY3MnF2RjctRFFwZGxSQjdOeEZjRjJ2WTN0SGRoc0t6azJRU0k2MG14LUg0eTJ4bTlJMTktY09OZFE1cHpQMXlUQkhWWXgxTmVMNkRLVnU4ZXBGNVFpdGh0enY2WG9KblBxcTFZLXpGci1hY0tOYUlZekhHaXJuRkowZlp3cnNncTBpQ3EwdjJUSnNOVUZ0VFI2YlJ0c3M?oc=5",
+        "title": "Alert RCB. \"Zabezpiecz rzeczy, które może porwać wiatr\"",
+        "official": false,
+        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
+        "guide": {
+          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
+          "label": "Alert RCB i aplikacja RSO"
+        }
+      },
+      {
         "at": "2026-10-24T15:47:00.000Z",
         "cat": "health",
         "sev": 1,
@@ -212,25 +226,15 @@
         "title": "Maria Zacharowa kpi z Polski i Litwy. \"Z niecierpliwością czekamy\"",
         "official": false,
         "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-10-22T18:03:19.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "WP Wiadomości",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWXBOUks1a1NXMUVsaV9QVnFZdElFS1Bnd1A0Vi1PSUdzNWQwRjIxcVgxeUtUSTVtLTdrUjhZSV8wU21KX0duc0gzbWpBdXpCY0ZPX0pTVkl2b091N1B1M1Z3WkhNdktTUDVtYTV3UG5lNzA3c2xUalJWOFJYc0Q3ejJ0czV5Mm1hcnB5UFUyWndwWFZObzZMRjBMNDJGZTE2VU5NQkRVYVhlOTQydGZaeA?oc=5",
-        "title": "Nożownik z Warszawy schwytany, premier reaguje na tekst WP [SKRÓT DNIA]",
-        "official": false,
-        "forYou": "Jeśli jesteś w pobliżu: uciekaj, a jeśli nie możesz, ukryj się i wycisz telefon. Dzwoń pod 112, gdy będzie to bezpieczne. Unikaj okolicy i nie powielaj niesprawdzonych nagrań."
       }
     ],
-    "updatedAt": "2026-10-24T17:12:40.156Z"
+    "updatedAt": "2026-10-24T18:08:04.922Z"
   },
   "en": {
     "sample": false,
     "items": [
       {
-        "at": "2026-10-24T16:48:37.000Z",
+        "at": "2026-10-24T17:30:11.000Z",
         "cat": "security",
         "sev": 2,
         "source": "The National",
@@ -430,6 +434,6 @@
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       }
     ],
-    "updatedAt": "2026-10-24T17:14:44.890Z"
+    "updatedAt": "2026-10-24T18:09:51.172Z"
   }
 }
