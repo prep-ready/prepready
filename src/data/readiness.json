@@ -2,7 +2,7 @@
   "_comment": "Aktualizuje scripts/update-data.mjs codziennie. pl = Polska, en = świat. Składowe z mode=manual ustawiasz ręcznie.",
   "pl": {
     "sample": false,
-    "updatedAt": "2026-10-24T18:08:04.918Z",
+    "updatedAt": "2026-10-24T19:15:01.028Z",
     "score": 26,
     "delta7": -3,
     "ago30": 29,
@@ -235,9 +235,9 @@
   },
   "en": {
     "sample": false,
-    "updatedAt": "2026-10-24T18:09:51.171Z",
-    "score": 41,
-    "delta7": 1,
+    "updatedAt": "2026-10-24T19:17:06.672Z",
+    "score": 39,
+    "delta7": -1,
     "ago30": 35,
     "history": [
       35,
@@ -269,14 +269,14 @@
       41,
       46,
       43,
-      41
+      39
     ],
     "components": [
       {
         "id": "conflict",
         "name": "Global conflict",
         "weight": 30,
-        "value": 47,
+        "value": 48,
         "sources": "GDELT · Google News",
         "trend": [
           36,
@@ -286,7 +286,7 @@
           48,
           61,
           48,
-          47
+          48
         ],
         "mode": "auto",
         "raw": [
@@ -310,7 +310,7 @@
           44,
           53,
           50,
-          51
+          52
         ],
         "stale": false
       },
@@ -427,7 +427,7 @@
         "id": "cyber",
         "name": "Cyber & infrastructure",
         "weight": 15,
-        "value": 44,
+        "value": 33,
         "sources": "GDELT · Google News",
         "trend": [
           34,
@@ -437,7 +437,7 @@
           42,
           36,
           58,
-          44
+          33
         ],
         "mode": "auto",
         "raw": [
@@ -454,7 +454,7 @@
           58,
           53,
           26,
-          50
+          51
         ],
         "stale": false
       }
