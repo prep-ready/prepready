@@ -232,11 +232,21 @@
         "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
       }
     ],
-    "updatedAt": "2026-10-24T21:08:50.045Z"
+    "updatedAt": "2026-10-24T22:09:27.213Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-24T21:29:53.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "The Business Standard",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPaWw1MVBVN3pkNVM3N3EwNlk1dFlWNjdFU1MzQTBOcm5DRW5GQ1FhX1hYMGIxMzJlT1BNTnB5NWlXYndHbTJBRGxuWHJIUGtxa3NGNW1HMHl2dGtkQ044aVpnUEhYV0s0ZkQybGJxaTB3QVVKTjJkSFRqc1FNM01QUXd4YXlTT3dUZEhhWFNUQTRjRGJZYnRIeVVpNmZjYjktZWtJM3Z3THBfajl4OHRISGxMV2NJdEN2cFE?oc=5",
+        "title": "Cenbank takes website offline over global cyberattack concerns",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
       {
         "at": "2026-10-24T19:14:38.000Z",
         "cat": "energy",
@@ -426,18 +436,8 @@
         "title": "Sacks suspected to contain narcotics recovered from Talalla Beach",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-24T01:39:30.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The National",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbGlZSGtHQXg4UjIzanpId3ViZ1RxS25adzVXLUM0cU9KdUwzSDJsOTduTENaN201SjVFd09IZGJUTmpRMDcwYWJZc1BBTGpXWDRuNTBSbWhZWWU3LUxOdkc4QlNTeXhmVUdEcTB6czBvQ3NwMkFMelZTbEY2NHFLRi1LRkU0RTk2WGRhblhjY0VQQQ?oc=5",
-        "title": "Middle East latest: Saudi-led coalition intercepts wave of overnight attacks",
-        "official": false,
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       }
     ],
-    "updatedAt": "2026-10-24T21:11:04.510Z"
+    "updatedAt": "2026-10-24T22:10:51.539Z"
   }
 }
