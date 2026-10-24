@@ -232,11 +232,21 @@
         "forYou": "Jeśli jesteś w pobliżu: uciekaj, a jeśli nie możesz, ukryj się i wycisz telefon. Dzwoń pod 112, gdy będzie to bezpieczne. Unikaj okolicy i nie powielaj niesprawdzonych nagrań."
       }
     ],
-    "updatedAt": "2026-10-24T13:21:45.809Z"
+    "updatedAt": "2026-10-24T14:10:55.390Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-24T14:00:58.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Peoples Gazette Nigeria",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQVUNhdVlGNmxUMXBpeWZabHlpYjBIaXBvVlFLNmZZeTBKZko1MEx5RThXUmZyMUpnTDhjemY0WlBIc1MyZEs2aU5wYnBYQ0pSb1EtSWw5ZWNVSFg3dzV4R2JCZ2lOY2R4VlZsUW5HdkZQY2lVSzNyT21hbjN1WlNoYQ?oc=5",
+        "title": "Makurdi residents fault JED over prolonged blackout",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
       {
         "at": "2026-10-24T12:54:34.000Z",
         "cat": "energy",
@@ -426,18 +436,8 @@
         "title": "lidoway.com Ransomware Attack by Lockbit",
         "official": false,
         "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-23T14:42:20.000Z",
-        "cat": "health",
-        "sev": 2,
-        "source": "ECDC",
-        "url": "https://www.ecdc.europa.eu/en/news-events/importation-ebola-cases-kenya-and-nigeria-ecdc-assesses-threat",
-        "title": "Importation of Ebola cases to Kenya and Nigeria: ECDC assesses the threat",
-        "official": true,
-        "forYou": "Usually no action. Check your first-aid kit and expiry dates."
       }
     ],
-    "updatedAt": "2026-10-24T13:23:09.494Z"
+    "updatedAt": "2026-10-24T14:13:02.509Z"
   }
 }
