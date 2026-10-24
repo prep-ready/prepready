@@ -2,7 +2,7 @@
   "_comment": "Aktualizuje scripts/update-data.mjs codziennie. pl = Polska, en = świat. Składowe z mode=manual ustawiasz ręcznie.",
   "pl": {
     "sample": false,
-    "updatedAt": "2026-10-24T02:17:13.291Z",
+    "updatedAt": "2026-10-24T03:15:20.089Z",
     "score": 25,
     "delta7": -4,
     "ago30": 29,
@@ -235,9 +235,9 @@
   },
   "en": {
     "sample": false,
-    "updatedAt": "2026-10-24T02:19:19.782Z",
-    "score": 40,
-    "delta7": 0,
+    "updatedAt": "2026-10-24T03:17:28.209Z",
+    "score": 41,
+    "delta7": 1,
     "ago30": 35,
     "history": [
       35,
@@ -269,7 +269,7 @@
       41,
       46,
       43,
-      40
+      41
     ],
     "components": [
       {
@@ -310,7 +310,7 @@
           44,
           53,
           50,
-          52
+          53
         ],
         "stale": false
       },
@@ -427,7 +427,7 @@
         "id": "cyber",
         "name": "Cyber & infrastructure",
         "weight": 15,
-        "value": 34,
+        "value": 41,
         "sources": "GDELT · Google News",
         "trend": [
           34,
@@ -437,7 +437,7 @@
           42,
           36,
           58,
-          34
+          41
         ],
         "mode": "auto",
         "raw": [

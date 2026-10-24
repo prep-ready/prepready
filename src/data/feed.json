@@ -222,11 +222,21 @@
         "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
       }
     ],
-    "updatedAt": "2026-10-24T02:17:13.294Z"
+    "updatedAt": "2026-10-24T03:15:20.093Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-24T02:37:05.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Ada Derana",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE16Yy1GOFVjOEx6Mkd3TG95MzZreTJicVQ1dWFhSmpPSHJMd0hjS2xhX0JzOWdxcVJsUk9nNi1oX1ZmNHlDUGMw?oc=5",
+        "title": "Sacks suspected to contain narcotics recovered from Talalla Beach",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
       {
         "at": "2026-10-24T01:39:44.000Z",
         "cat": "energy",
@@ -246,6 +256,16 @@
         "title": "Russian hackers collaborate on destructive cyberattack against Ukrainian logistics firm",
         "official": false,
         "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
+      {
+        "at": "2026-10-23T20:51:15.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "KMVU FOX 26 Medford",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQZ2Jva19FdDM5aE1Bclh6N0hndGZxMl92MkVPR2RyQlhPZHBoTjBHQ1FETVdKUTBacTRncGNscEZQVXBBaE1nOXhWUDNGR1JjMllWVnE4N293NUFoQUNBcDV1MmpPUGttT09PdU1vb0xUSWtyOGRjWW1KQjQ2YnBmcjdsWnBHazdCQnVGTkF2VEV0NTVnNklna3dmNEtoR2QtbzBreE1CdVlKSXdRZGQwWHVETzNLMGtWV1NoTDhWUklfNFJQU1ZFU1JWR1M2MlV4VzFfR0lDLVJESE1TT1BTQjBPeUFFRFRpcWdsSE1R?oc=5",
+        "title": "Melania Trump says she brokered truce in war-torn Ukrainian city",
+        "official": false,
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       },
       {
         "at": "2026-10-23T19:36:58.000Z",
@@ -406,28 +426,8 @@
         "title": "PHOTOS: Ukraine at War: October 2026",
         "official": false,
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-23T07:43:08.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "The Cyber Express",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ONkFvaHZXeUhOek16NVZuV1lZVkFSMFVkUGd2WTdkUG1ycUNjYjRnZHd4SzgyNWdpd05mV2ZHc3RmNzEyTm1sSWNWdWVQTHVEOGJlLWctWWdvWHVOVGZqXzY3RV9JbF9vd1ZNSU1n0gFuQVVfeXFMTk42QW9odld5SE56TXo1Vm5XWVlWQVIwVWRQZ3ZZN2RQbXJxQ2NiNGdkd3hLODI1Z2l3TmZXZkdzdGY3MTJObWxJY1Z1ZVBMdUQ4YmUtZy1ZZ29YdU5UZmpfNjdFX0lsX293Vk1JTWc?oc=5",
-        "title": "Japan AI Cyberattack Simulations Planned as PHP Flaws Spread",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-23T06:53:35.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Odessa Journal",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbFJEYkEzeUNaSEtmNmpGMzB3RjlwNXZ4RGkyMS04R0szY1V3OW5UM1F4aHY5MzFGRy1vUTB2VnN2amZKR0JQUkpHZDVSR1R3R2N6ZlVEcTNjcHhaeU5pdUVFb2FzUzBrRnYtQUVUVUthSzJ1NlgzQWZEQjdXaHJHX2tXdmdybkZFTmsyWU9yTDNiV3VrSXFJSThKSzdOUWd3QmJ0MVo2cFQ3ZDloMnc?oc=5",
-        "title": "Russia Loses 1,830 Troops and 2,067 Drones in One Day - Oj",
-        "official": false,
-        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
       }
     ],
-    "updatedAt": "2026-10-24T02:19:19.783Z"
+    "updatedAt": "2026-10-24T03:17:28.209Z"
   }
 }
