@@ -224,11 +224,21 @@
         "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
       }
     ],
-    "updatedAt": "2026-10-24T15:11:42.806Z"
+    "updatedAt": "2026-10-24T16:12:03.395Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-24T15:22:27.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Ada Derana",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE52bXBhc2ZzYmtNUXZSc0FNQjlKVVN2MkFRS2F6b29HbDlYX084aU5mLUo5bnZMNllFNzhvS0p2eHg1TElsZlc0?oc=5",
+        "title": "French police arrest 135 people, seize weapons: minister",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
       {
         "at": "2026-10-24T14:00:58.000Z",
         "cat": "energy",
@@ -418,18 +428,8 @@
         "title": "2025 Blackout: Spain, Morocco to Inspect Undersea Power Cable",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-23T16:36:52.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "SOCRadar",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOX0JyQjV0d3dMM3hhbkpBTXRLLWl3NnhWbHVQSnE2cXlXdFJBVVFEcmdVc3R2U0Q5SjI1NnB6dEpXNnhpSFNoTVFWV2VxWUJzVzI4cHlIdE52SmtHQ2lwMHZhakpvVkVvNm5UVDVIQU8yLTlEdGlFdEpQUDRjdzF4anZSbHVSSnF3aF9IR29BdU5DTU1MS0E?oc=5",
-        "title": "lidoway.com Ransomware Attack by Lockbit",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
       }
     ],
-    "updatedAt": "2026-10-24T15:13:53.286Z"
+    "updatedAt": "2026-10-24T16:14:20.569Z"
   }
 }
