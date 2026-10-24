@@ -222,7 +222,7 @@
         "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
       }
     ],
-    "updatedAt": "2026-10-23T23:12:25.334Z"
+    "updatedAt": "2026-10-24T00:08:43.003Z"
   },
   "en": {
     "sample": false,
@@ -268,7 +268,7 @@
         "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
       },
       {
-        "at": "2026-10-23T18:01:53.000Z",
+        "at": "2026-10-23T18:00:00.000Z",
         "cat": "energy",
         "sev": 2,
         "source": "ABC News & Headlines – Australian Broadcasting Corporation",
@@ -428,6 +428,6 @@
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       }
     ],
-    "updatedAt": "2026-10-23T23:14:11.202Z"
+    "updatedAt": "2026-10-24T00:09:50.428Z"
   }
 }
