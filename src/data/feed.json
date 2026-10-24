@@ -222,11 +222,31 @@
         "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
       }
     ],
-    "updatedAt": "2026-10-24T06:13:05.178Z"
+    "updatedAt": "2026-10-24T07:25:58.792Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-24T07:04:00.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "The Star",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZXBtR0I4SW9SSjBJR284V1c5dXJyckxJdXhXemdiMlFCUjNzejNlQi1YUWtobHA4M3RCM09UOWFXa0lqUkZJVlplbmlVVUs5VkVEYlFHQll3VG1PRm9rLVVQSjRfY0o5clhRS2dBS0FkSjRrQ3A4Z3NPMVZGckJIcUQ0NjRnRHozbkpDZk40OXhFREtXUkV6dWRQQ3NUZnJhdU9vSUs0ejJOQ2Y3eTlyWWNkNTNiNnE1SWJR?oc=5",
+        "title": "Sri Lanka to set up joint wildlife-military center to protect elephants",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
+      {
+        "at": "2026-10-24T05:54:06.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "АНТИКОР",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOMmdsQ3dQTGtjUnFtSzJZak02YnBva3JobjZTdjZKbTF4clRxV3ZLSnFZeV9VNG85OVNuQkUxWWJGOFdEbWNHWVlvTV9DWno1NEdQeWJ4OWpWVUhiVWNjZm5QNkhWMzllRFdBZUotZ0pweG9LdTFCQlhaSVBQM3hKMUE0Ulk4X2JxQ3JHQ0dIVDA4Sl9LRUtMb3BGeWJrUkJDQmlpSW55ai15MVFMTUNVdzYxSHdVSTVveXJuMEpOT0J4UC1qd0trOXFHZU9vWUVfUzgzNjJmRFdFVUFaNVE?oc=5",
+        "title": "Missile strike on the Proton plant in Orel destroyed the production workshop: reports of dead workers",
+        "official": false,
+        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+      },
       {
         "at": "2026-10-24T05:33:38.000Z",
         "cat": "energy",
@@ -318,16 +338,6 @@
         "forYou": "Update your devices and don’t tap links in alert-style messages."
       },
       {
-        "at": "2026-10-23T18:15:50.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "UA.NEWS",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQSW5qWnFLR1VIWnVFcERwbWN4QTc1T3FoUmlQV25DS2xKWGdxdU1PSnRNY3ptZjZtUE5ZSl9tc1VNN1dzRS1VRjVHOWNsQ0VHdU1HZzg4dUZ2ajRwYjhKc1IyaHA5Sy1oODQ5Q0RIdjRxRklnX2JGaGZhVThub25OMDFtMVY0ZF8yTUNSREp0Q19GYjg?oc=5",
-        "title": "A workshop at the Proton plant in Orel was destroyed following a missile strike",
-        "official": false,
-        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
-      },
-      {
         "at": "2026-10-23T18:00:00.000Z",
         "cat": "energy",
         "sev": 2,
@@ -416,18 +426,8 @@
         "title": "Trends In Healthcare Data Breach Statistics",
         "official": false,
         "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-23T08:44:00.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "The Daily Jagran",
-        "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQNnlDOFpBSTh2RkVFUnJPWTk3Q2hYdndUSDZwcWZqSUtRT1ozT1kyNkJQcy05S21RdUN1Wi13UGpuUnFBRHI0TXVKaHkwZzdxVnF6UWJfdlRSS3F0N3BfM2pPV2Q5RlJ6cUJzUUVOUzNqUnJ1VElpdmpXdEkwWXlOQUpmOW1vRGI0VTd0dElzTzJVNnkzT180eG1VVlhrWTZYVmxuZXZ0TlQ1T1RmYzFtZzN5OVZoVEZiX2FKUmNwQ0xKcERnN2h5X2JQOUU2b01jVHN4TFU1YmtuSFIySVhlTlJsVXBxODVZX1VMNHk1Y3hnYV9sNEg4bG9JcGFBbXBHNGZsWUgyaXdaYVNLdnZz0gGWAkFVX3lxTFB5dnZDRjRURFMzcVlxUEx6QWhhb19NeVJ3Z3dDZkwxZldBS3hHMWJvdU1xSnpXQmNILWctYnhLQVVmRmNINzRtMXRiMWQ4enRacUdOU2ZrUG95enNGTFFxNEdjaDRZNUsxWUlDZkJmS2ZNSWV0MWZRWWVWaFVDOTJCdGtCRzk1QUw3TXlDNE42S2lscmNFaDlHb0Q3c0J3UVhsR3VjdW5EcEU3ZUhKVWVUb0xUbThwU19VVG9TQU5oNVpNVWhrTDNXamN2M3VJUFhrWlJYaFZRLVlISjZzTzNjbnlJdGZJNlhmVEVoMlkzTHVTU0NIdHRWamRoRFk3NlF5LWdQOUw0MHgwM3lFLUVEdk9TT3d3?oc=5",
-        "title": "Gurugram Power Outage: Supply Returns After Day-Long Blackout; But Severe Low Voltage, Water Shortage Adds To Woes | Check Affected Areas",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       }
     ],
-    "updatedAt": "2026-10-24T06:14:52.066Z"
+    "updatedAt": "2026-10-24T07:28:05.499Z"
   }
 }
