@@ -222,11 +222,21 @@
         "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
       }
     ],
-    "updatedAt": "2026-10-24T01:29:01.816Z"
+    "updatedAt": "2026-10-24T02:17:13.294Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-24T01:39:44.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Kyiv Post",
+        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5kcmxmVWJpZnllUTI0cWF1MktYZU1wSFRyOU9VRlNjS2VlNE9PRUt0aWxfN3FjeWhvbjI1MVJGU2pZUVR3VVVhR2hhWQ?oc=5",
+        "title": "Massive Blackout Hits Russian-Occupied Crimea After Drone Attacks",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
       {
         "at": "2026-10-23T21:17:23.000Z",
         "cat": "cyber",
@@ -416,18 +426,8 @@
         "title": "Russia Loses 1,830 Troops and 2,067 Drones in One Day - Oj",
         "official": false,
         "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
-      },
-      {
-        "at": "2026-10-23T06:49:25.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Odessa Journal",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVmFVWlc4UmxpRHlQZDJjRGg2LXFrcUNVVDEwWEFzQU5KeWVsdUlEOC1wZE5nMEFNbGp6S1oteUV3NVZZc3hiR1JIdlNFQnBUUTdOV3dlaTExalRGdmtzUDBISUItWE9nRUppVFQxWTNiUjMtUjNDVGZiQ1VCOUR2b1d5SUdzUHozVmJUOWhrU0ZEN0pnVWtZU1BiRjI1QTVESlRkVklB?oc=5",
-        "title": "Main",
-        "official": false,
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       }
     ],
-    "updatedAt": "2026-10-24T01:31:05.889Z"
+    "updatedAt": "2026-10-24T02:19:19.783Z"
   }
 }
