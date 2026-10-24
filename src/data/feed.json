@@ -222,11 +222,41 @@
         "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
       }
     ],
-    "updatedAt": "2026-10-24T05:14:50.661Z"
+    "updatedAt": "2026-10-24T06:13:05.178Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-24T05:33:38.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "SolarQuarter",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOMjFGb0JIMmh4OUtsSnlodUdVYjZHemdORHlsZXAwbWV3d3ZVZGszQmpxa0FndERBT2NKMGIwZ3ZDVXI1MXFpRWQ5ck1VSEZ4bE8zWTZlclM4cEdLSDNGLWY3bGRHd2dzXy0xWG5kX2EwRThFZG5aaFlaelVjNVVpbUNCSEs4czlIMTVsd2tZTTBsd2JkRUwwR0RsSnZjWm1CTHFJU0M5d2FWZ3lfWERzV3F5UmppU2RsejVWWWs5enZRVlpOVGh0eFJuN1AzRE45LXhIRjI4UQ?oc=5",
+        "title": "Sri Lanka Orders Rooftop Solar Disconnection Following Nationwide Blackout Amid Grid Stability Concerns",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
+      {
+        "at": "2026-10-24T04:48:37.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The National",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTngtWlZKb2lHN2huS0pfMUtPZi1SYm0tOHRhMVpRV3ZpbW5ydGZfUVJ2SGtLTGZTR2ZQS1RpZEtzeDhQcUYwOVdyUGZoc1dlQVpUbTdJbGp1UTU4aFplZkJFX0pGMm1JSmVaOVpTN3BVbHZURkpUXzN1b3IyQ05TZ1VkYlp5dlJYTE9aRGZETQ?oc=5",
+        "title": "Middle East latest: Trump warns of 'another little Epic Fury' amid fears of renewed conflict",
+        "official": false,
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
+      {
+        "at": "2026-10-24T04:35:06.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "news.lavx.hu",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPQ0Y3SEYyRjRVYmhQVjZxOFJJQ1dlSE51VUVlakhXeHVwMWZlMVB6aE9EQ0h1RzFHMzJTa3pOcXhSY1N4RFdGSTd2ZnJzVUk0OWRma2pMWUZzZllIZmtTbVJqRTRIMm5PTm90d0kxalRDRGRETUt2RG5YaUYyYzhzVTJYQUJHeWZWWXdUVzhUMnFkdEdfV1NLUW1ySGNxT2RtY3BON0RMeERCVGd4QzloTE1ITXpoOXZUY2szTUNCeUhHamV3QWc?oc=5",
+        "title": "Exposed infrastructure reveals AI-driven ransomware intrusions by INC and The Gentlemen affiliates",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
       {
         "at": "2026-10-24T02:37:05.000Z",
         "cat": "energy",
@@ -308,16 +338,6 @@
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       },
       {
-        "at": "2026-10-23T17:50:00.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "The Hacker News",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9RdS16cTVMVVc1bWUweEI5OHJ5aDUwUFhnMG4xMW0xUHNEYTVQcjYwdWZQNERYWG03YkVuNXhva2pYY1dtcl9fczZDYi1XTl9VcmJQU0F5cXJ2bzEyYTNrbWJEeFVVWlMwQjFjM0YtWURDM0VZdG9JbXViZ1ZKdw?oc=5",
-        "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
         "at": "2026-10-23T16:59:27.000Z",
         "cat": "energy",
         "sev": 2,
@@ -378,16 +398,6 @@
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       },
       {
-        "at": "2026-10-23T11:52:07.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Sur in English",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNZzV2Vi1qVHBQV1dlN20zMmRBUHNGR1hLTk1mNGVZRlFiV29kUzBRazZ3ZDlFT2JfWFBzQmhLSGZaMkpZMEhlVVpnSWdxeWdmUkw1LW5ONUNwUEF1ZDh2SVlkX0ZwOHgzS1dvMXdMN2VPSFNITHYweE5UaHplemloRlB6amRuQk1SMHZ0Yw?oc=5",
-        "title": "Spain's competition regulator denounces Red Eléctrica for coordination failures following 2025 nationwide blackout",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
         "at": "2026-10-23T11:15:55.000Z",
         "cat": "cyber",
         "sev": 2,
@@ -416,18 +426,8 @@
         "title": "Gurugram Power Outage: Supply Returns After Day-Long Blackout; But Severe Low Voltage, Water Shortage Adds To Woes | Check Affected Areas",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-23T08:00:13.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "National Review",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9SaU5fQmJGbmYtc0sxNm1tUXRJMUVNN3BhV3pKQmxkZlJnNjBPSGVvUlZ2ZjJEQlB1cTR1cnJEUnBLUkVYdnFYX25LNnZyMnpUby14endHbnJKWXo4eWRYaWlqQklReFIyeU5LN2xuY0tDRWZY?oc=5",
-        "title": "PHOTOS: Ukraine at War: October 2026",
-        "official": false,
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       }
     ],
-    "updatedAt": "2026-10-24T05:17:03.678Z"
+    "updatedAt": "2026-10-24T06:14:52.066Z"
   }
 }
