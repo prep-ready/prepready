@@ -222,11 +222,31 @@
         "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
       }
     ],
-    "updatedAt": "2026-10-24T08:12:46.946Z"
+    "updatedAt": "2026-10-24T09:14:59.919Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-24T08:27:23.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "UNITED24 Media",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNT3l3dW94Q3lvcklaVl9uZXgyV21jQlcxRHFMYkVuREttNTYwOXBXU2otZm5EdTVPcE1HZVhXMnFxdWVaT2VzOUNKVmFxeV9oM0pCcGlGSFpGZm84a0h0ZHBRYVFqdU92aU9PeTR2MVNId045eHR4Yms3SVkxSERXek5XYU1ydmFua0cxNVFDanllOGtSYjYxbnlJakxYenVKR1pxb3RQTE01ZGhldk5vQmVEeU91azRyNnZzTGRCR3lyVFItczVvM2s0cjhXaW40ME5lTlZ2SQ?oc=5",
+        "title": "Russian Chemical Giant Linked to Missile Fuel Production Goes Up in Flames After Drone Strike",
+        "official": false,
+        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+      },
+      {
+        "at": "2026-10-24T08:19:20.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Мілітарний",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5hY21lTTJhdG9NS3ZWV2lqZ1ZBcjdNVzhiTk5kbFFfSHUtaFJ6OUVYS1dJZnRMaEpjblNjVW9iVV93bWxSQnF4Q2ZMUUh2ajI3OEw1UE1Pd2g4NXpLMVZ6VF93S2lEMG5YNkt3U0pVUlhybC1nUVg1c3FSWTUzdw?oc=5",
+        "title": "Large-Scale Blackout Occurred in Crimea Following Drone Attack on Energy Facilities",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
       {
         "at": "2026-10-24T07:04:00.000Z",
         "cat": "energy",
@@ -238,14 +258,14 @@
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       },
       {
-        "at": "2026-10-24T05:54:06.000Z",
+        "at": "2026-10-24T06:46:08.000Z",
         "cat": "security",
         "sev": 2,
-        "source": "АНТИКОР",
-        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOMmdsQ3dQTGtjUnFtSzJZak02YnBva3JobjZTdjZKbTF4clRxV3ZLSnFZeV9VNG85OVNuQkUxWWJGOFdEbWNHWVlvTV9DWno1NEdQeWJ4OWpWVUhiVWNjZm5QNkhWMzllRFdBZUotZ0pweG9LdTFCQlhaSVBQM3hKMUE0Ulk4X2JxQ3JHQ0dIVDA4Sl9LRUtMb3BGeWJrUkJDQmlpSW55ai15MVFMTUNVdzYxSHdVSTVveXJuMEpOT0J4UC1qd0trOXFHZU9vWUVfUzgzNjJmRFdFVUFaNVE?oc=5",
-        "title": "Missile strike on the Proton plant in Orel destroyed the production workshop: reports of dead workers",
+        "source": "Dawn",
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4wWU1XcTJjVkhydDJ6REhTa1RGZHp5eHJhYXVpQlRoNndhUjBOamFNWlRERkdMYk53LWc4LVhDbktnSXZ3RkJyWmtEMEgycjRFNmJN?oc=5",
+        "title": "Live Updates: War returns to Iran with Israel, US strikes",
         "official": false,
-        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       },
       {
         "at": "2026-10-24T05:33:38.000Z",
@@ -284,16 +304,6 @@
         "source": "Ada Derana",
         "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE16Yy1GOFVjOEx6Mkd3TG95MzZreTJicVQ1dWFhSmpPSHJMd0hjS2xhX0JzOWdxcVJsUk9nNi1oX1ZmNHlDUGMw?oc=5",
         "title": "Sacks suspected to contain narcotics recovered from Talalla Beach",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-24T01:39:44.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Kyiv Post",
-        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5kcmxmVWJpZnllUTI0cWF1MktYZU1wSFRyOU9VRlNjS2VlNE9PRUt0aWxfN3FjeWhvbjI1MVJGU2pZUVR3VVVhR2hhWQ?oc=5",
-        "title": "Massive Blackout Hits Russian-Occupied Crimea After Drone Attacks",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       },
@@ -416,18 +426,8 @@
         "title": "SafePay: #StopRansomware campaign of joint cybersecurity advisory",
         "official": false,
         "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-23T09:52:45.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "The HIPAA Journal",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9PMzZZbVJzWV9lV0JPWXBJOW9BSmI2eElLWHNxWVAtTkhyNnoydUdqTDRnNzE0X056UTE2WW9nakR1UTkxR0ZzX3pMVmdqb2Vjb095eHpIM1Bva0UtTXphRnh5bkpuaDBNQWNvamd5Z2E?oc=5",
-        "title": "Trends In Healthcare Data Breach Statistics",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
       }
     ],
-    "updatedAt": "2026-10-24T08:14:11.120Z"
+    "updatedAt": "2026-10-24T09:17:10.481Z"
   }
 }
