@@ -4,6 +4,26 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-10-24T11:42:00.000Z",
+        "cat": "weather",
+        "sev": 3,
+        "source": "IMGW",
+        "url": "https://meteo.imgw.pl/",
+        "title": "IMGW: 8 ostrzeżeń meteo, najwyższy stopień 2: Silny wiatr",
+        "official": true,
+        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
+      },
+      {
+        "at": "2026-10-24T09:20:32.000Z",
+        "cat": "health",
+        "sev": 1,
+        "source": "Polskie Radio 24",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSzdWY3locXFuRzBlUS0tOFZZT2VwaHVpQUN3ckJIYWxzSVdqTUwySEk3RnNWbGtBQ09uVko0azN5TWFNR2xvclo4b2FYY2lUakNmamU2a1o4SWpiVUtFV0xGWTVkeGJIZU9UYjc5UXJNYzVKOFQwUFVyNnV5UkRpV1JZVWJQUlk2NU04Q2V3SFRVT2ZTMUhCM19lYnBQZjlf?oc=5",
+        "title": "Wirus Shamonda u człowieka. Pacjent nie żyje, GIS ocenia ryzyko epidemii",
+        "official": false,
+        "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
+      },
+      {
         "at": "2026-10-23T18:25:00.000Z",
         "cat": "safety",
         "sev": 2,
@@ -210,32 +230,22 @@
         "title": "Nożownik z Warszawy schwytany, premier reaguje na tekst WP [SKRÓT DNIA]",
         "official": false,
         "forYou": "Jeśli jesteś w pobliżu: uciekaj, a jeśli nie możesz, ukryj się i wycisz telefon. Dzwoń pod 112, gdy będzie to bezpieczne. Unikaj okolicy i nie powielaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-10-22T13:55:00.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "CERT Polska",
-        "url": "https://cert.pl/posts/2026/10/CVE-2026-16477/",
-        "title": "Podatność w oprogramowaniu MTW CleanShot X",
-        "official": true,
-        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
       }
     ],
-    "updatedAt": "2026-10-24T09:14:59.919Z"
+    "updatedAt": "2026-10-24T10:14:11.172Z"
   },
   "en": {
     "sample": false,
     "items": [
       {
-        "at": "2026-10-24T08:27:23.000Z",
-        "cat": "security",
+        "at": "2026-10-24T09:32:35.000Z",
+        "cat": "energy",
         "sev": 2,
         "source": "UNITED24 Media",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNT3l3dW94Q3lvcklaVl9uZXgyV21jQlcxRHFMYkVuREttNTYwOXBXU2otZm5EdTVPcE1HZVhXMnFxdWVaT2VzOUNKVmFxeV9oM0pCcGlGSFpGZm84a0h0ZHBRYVFqdU92aU9PeTR2MVNId045eHR4Yms3SVkxSERXek5XYU1ydmFua0cxNVFDanllOGtSYjYxbnlJakxYenVKR1pxb3RQTE01ZGhldk5vQmVEeU91azRyNnZzTGRCR3lyVFItczVvM2s0cjhXaW40ME5lTlZ2SQ?oc=5",
-        "title": "Russian Chemical Giant Linked to Missile Fuel Production Goes Up in Flames After Drone Strike",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMG1EcUV0S2pxckVNRWVXNkxKb3ppNFBrMFVPaGl6UzB5MkVDQllHOVBKTEN6NHZiR1ZhdTdrcXVRY0V0bFc1RUZ6NWxESVh3d3hnU2dhcEFOTXpFQkgwajVWMDhvRnEwakF4emtWSFZ6NnZnVnVMOW5acmJFTFl2VFZPX0kzaWFfWndTZVZyZ2gzWGlNQzc1NDZkRUhrc293ZzdwSkFFNGkyZVlsR2F0ZGZjaVVnb2VhQ2xvLW9CbkNCUnc?oc=5",
+        "title": "Russian-Occupied Crimea Goes Dark After Drone Strikes Hit Power Infrastructure",
         "official": false,
-        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       },
       {
         "at": "2026-10-24T08:19:20.000Z",
@@ -266,6 +276,16 @@
         "title": "Live Updates: War returns to Iran with Israel, US strikes",
         "official": false,
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
+      {
+        "at": "2026-10-24T05:54:06.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "АНТИКОР",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOMmdsQ3dQTGtjUnFtSzJZak02YnBva3JobjZTdjZKbTF4clRxV3ZLSnFZeV9VNG85OVNuQkUxWWJGOFdEbWNHWVlvTV9DWno1NEdQeWJ4OWpWVUhiVWNjZm5QNkhWMzllRFdBZUotZ0pweG9LdTFCQlhaSVBQM3hKMUE0Ulk4X2JxQ3JHQ0dIVDA4Sl9LRUtMb3BGeWJrUkJDQmlpSW55ai15MVFMTUNVdzYxSHdVSTVveXJuMEpOT0J4UC1qd0trOXFHZU9vWUVfUzgzNjJmRFdFVUFaNVE?oc=5",
+        "title": "Missile strike on the Proton plant in Orel destroyed the production workshop: reports of dead workers",
+        "official": false,
+        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
       },
       {
         "at": "2026-10-24T05:33:38.000Z",
@@ -416,18 +436,8 @@
         "title": "Iran war live: US senators fume at Trump as staggering cost of conflict revealed",
         "official": false,
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-23T11:15:55.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "Planet Biometrics",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQYXpRSFlvaENiRldxNmtFVlpXdnBmWFlBdlN1WW9BN1UwZ2RDNVhpamxuVXNuTVdaX1FqNWE4dmNhTXdiNDBFbUxDTEJfRWJhTEgzTDRzM1FHSGhEVFAwUm9uQnREWXc5eXlkZHNoMWlCNktQbmFsaHRYLVdLZFhEeGZkaGRWSXpTdlloQ0dGWnprQnc?oc=5",
-        "title": "SafePay: #StopRansomware campaign of joint cybersecurity advisory",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
       }
     ],
-    "updatedAt": "2026-10-24T09:17:10.481Z"
+    "updatedAt": "2026-10-24T10:16:15.707Z"
   }
 }
