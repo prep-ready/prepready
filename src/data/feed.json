@@ -18,6 +18,20 @@
         }
       },
       {
+        "at": "2026-10-24T17:31:00.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "PolsatNews.pl",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVU9SczZWYTV3Tm01RGlyTVZKZ0lPaHlMLUVHM0V4aEdkWUhGRl9kODRPeXhWclo0UFBrVUpvRTRiM1l4Z0stbWpyalJCV0JmYWM0bkRoSS1lSDREQWpzS2dHMVl4VDMyd2w1eEFvZTBOVkYwQmEzSk1zeEZXUHVQYWxWX3l5QW5RZDN2N1VwdmpEdnRDZ2hURkdEcktxanBZdEdDNW1SR0pqQ0xUOUVzVQ?oc=5",
+        "title": "Pilny alert RCB. Mieszkańcy sześciu obszarów ostrzeżeni przed potężnym wiatrem",
+        "official": false,
+        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
+        "guide": {
+          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
+          "label": "Alert RCB i aplikacja RSO"
+        }
+      },
+      {
         "at": "2026-10-24T17:20:20.000Z",
         "cat": "safety",
         "sev": 2,
@@ -216,23 +230,9 @@
         "title": "W polskiej armii kończy się epoka. Wszystko dzięki programowi Kleszcz",
         "official": false,
         "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-10-23T04:01:40.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Wiadomości Onet",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQS21xRWJNcDZ5ZHFwLUdRc1g1bVhaYlZDU3lLdnh4QWUwZXQwd1FjMXF4UUVVVmFab2N4WE5NX3RpR1BBaHBDa2pkNVRObnpXbkVOTFMwWklONXdhTmgtTEljR05rZVd4QkFFdG5RX2VnYTA4TFBYY3N0WTFrM1I2elpnOWlXRUttamZiSUVzU0FLajR4OFVlTnp2MDJrMW8yajRkWWVZcVQwRlJjSVJhVHdrTEc0aXRUYVRqaWMwVkY?oc=5",
-        "title": "Alert RCB przy granicy. Putin zabrał głos po rozmowie z Witkoffem. Podsumowanie nocy",
-        "official": false,
-        "forYou": "Informacja o sprzęcie wojskowym. Nie wymaga działań z Twojej strony.",
-        "guide": {
-          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
-          "label": "Alert RCB i aplikacja RSO"
-        }
       }
     ],
-    "updatedAt": "2026-10-24T19:15:01.032Z"
+    "updatedAt": "2026-10-24T20:06:29.378Z"
   },
   "en": {
     "sample": false,
@@ -268,6 +268,16 @@
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       },
       {
+        "at": "2026-10-24T14:53:18.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Gulf News",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWXdCaTY0ejZRTEpxZFA3YXZkZkxNU3FVWTZ3Qk9jS255bThleDVTX3pmUkZPWXJKTDRMTk04YXpxWUFlMDBTMGM5dHBfUlNCd1hENUlrZ2FIR1lPdEgwdndZNy1aWDRmTmw5RUZBTnpqQ1ZyY2FOT0NQZXpoc0Q1WGpYOF9tYXpNRUJKS0daaUNoS3E0aWgwUUd6UVNQb3FyNDM4U2x2SE5XTkJGQUHSAb4BQVVfeXFMTUIzaFdEbW1xTzlhOVVCYWRUdVI3OEh3UVM4Rm92d3QyT05XSWVITTlqWlQ3QnJTeENYbWNGN1RpdVJtTThQUEhCUFJERnN3MGJ6U19WSEkxTFNHM0cwRU14c0dxbDlna3dwRGg4OGhzd1drNVpmN3IxOFBjUExPekc5aGI0ZV85enpYOTY4U1Y2czJsQVdvZnktVGR2QmYtVnc5bjBOZElKQThYTm1Za2kxcVZlNXRHN3BWaFdGUQ?oc=5",
+        "title": "US-Israel-Iran war: What UAE residents need to know today, October 24, 2026",
+        "official": false,
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
+      {
         "at": "2026-10-24T14:00:58.000Z",
         "cat": "energy",
         "sev": 2,
@@ -276,6 +286,26 @@
         "title": "Makurdi residents fault JED over prolonged blackout",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
+      {
+        "at": "2026-10-24T13:05:00.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Головне в Україні",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPazZMeVloNndJUm9SanVMM3l5U0NVT0k0TVRlNVRkWGpDa01VRWJNY194ZlBVeEpyTTlGYzlUU0k0Z25nMHJBUjNMZEV6TW5keU9qdmtrdmZyOWtOQTZnVEhtM2RJMnRESUU2VThNT243aFk0bkNJNHo4eUNGVnhkUWJoa3ZGT3VWaVM4dUFaV1pMdWcxWG93WHpFaEd4UdIBowFBVV95cUxQZXVoSGdETTFrOW1jZWZhMk9qbUVUNEdfX01EcmtRSGVMZnlnMkV2ODcwOWgtR3RjaEVHSTNZMmhmLTctWWFJS1ZjUWZ4Tkl3NkF2QnQzSHFVOWpIUUZSR1Bub1puNnczak0tUi1pLTZFa1NxaWxUSjN1R250TklTWWhlMzA2aWhNMDF5LXFLSjVsR0FoVGRPc3VFd2hEWUdmMW9N?oc=5",
+        "title": "Widespread blackout hits Russian-occupied territories of Ukraine",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
+      {
+        "at": "2026-10-24T12:58:19.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "SOCRadar",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcnBfajdBQ3R3SllYS1NMQnFicXk5YkFBejVlLTJoOGl4TjVucWh3WVJpS1MwNlUwZzBkOXBlR0F4TG9lUzR1Ny14dnYwY2dmRXRpcHloZXI3QWgwT2VCbnZidDFPVVBFNXhfai1OYkJ1TWdiNnRvOFExMVZibE93YkdwM25rUzFkWjg0Q09scTRrTkVFQWYwcm9CZjdDeHBnYThQV0ZvQkFqQVRTRENPa0wyOGZvNl9DZDA1Zg?oc=5",
+        "title": "MINESURSI DRC: Teach... Ransomware Attack by Kazu",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
       },
       {
         "at": "2026-10-24T12:54:34.000Z",
@@ -406,38 +436,8 @@
         "title": "Russian hackers collaborate on destructive cyberattack against Ukrainian logistics firm",
         "official": false,
         "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-23T20:51:15.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "KMVU FOX 26 Medford",
-        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQZ2Jva19FdDM5aE1Bclh6N0hndGZxMl92MkVPR2RyQlhPZHBoTjBHQ1FETVdKUTBacTRncGNscEZQVXBBaE1nOXhWUDNGR1JjMllWVnE4N293NUFoQUNBcDV1MmpPUGttT09PdU1vb0xUSWtyOGRjWW1KQjQ2YnBmcjdsWnBHazdCQnVGTkF2VEV0NTVnNklna3dmNEtoR2QtbzBreE1CdVlKSXdRZGQwWHVETzNLMGtWV1NoTDhWUklfNFJQU1ZFU1JWR1M2MlV4VzFfR0lDLVJESE1TT1BTQjBPeUFFRFRpcWdsSE1R?oc=5",
-        "title": "Melania Trump says she brokered truce in war-torn Ukrainian city",
-        "official": false,
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-23T18:42:39.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "SOCRadar",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZFMzQWJfTnNYcnZPdVdFYVVQNUc2NkZvWnliSXZmdDlvV3lHWkQ0UTh4SXdDb19zb290T0hJeVRVTGVvS28zN044RDR3XzlFNWJOZUMzdTRGXzU5cDRnUk9TTUZjaDdYLXJpYV8tbHdHN2ZINGY0amFIbTY4U2lOQnZQWk96MWkxMUlTdzBJanhWQmtaRTc5VVVuQmI5NVBX?oc=5",
-        "title": "Penco Products Ransomware Attack by Thegentlemen",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-23T18:00:00.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "ABC News & Headlines – Australian Broadcasting Corporation",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNaHNQaUdSdUhlYVZnTUVJeThPSVhfVmJodzQ4ekQ2MmtXYnhqcXVET3E1RE5CVmdyT0xORWt1N0htd2xyX1NxSnJHNkZCTEo5NXZQT3pZZ25oRlNsWjY5ZEFielBEb1hWM3lJcndZOGxNZk5qQnBIcDlwV1lscm5IX0dfdzFHdm1mMi1zMA?oc=5",
-        "title": "Plan for nationwide host blackout as Airbnb bans guest check-out chores",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       }
     ],
-    "updatedAt": "2026-10-24T19:17:06.673Z"
+    "updatedAt": "2026-10-24T20:07:31.847Z"
   }
 }
