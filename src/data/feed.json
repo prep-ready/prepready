@@ -222,7 +222,7 @@
         "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
       }
     ],
-    "updatedAt": "2026-10-24T07:25:58.792Z"
+    "updatedAt": "2026-10-24T08:12:46.946Z"
   },
   "en": {
     "sample": false,
@@ -428,6 +428,6 @@
         "forYou": "Update your devices and don’t tap links in alert-style messages."
       }
     ],
-    "updatedAt": "2026-10-24T07:28:05.499Z"
+    "updatedAt": "2026-10-24T08:14:11.120Z"
   }
 }
