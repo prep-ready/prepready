@@ -232,11 +232,21 @@
         "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
       }
     ],
-    "updatedAt": "2026-10-25T03:14:50.818Z"
+    "updatedAt": "2026-10-25T04:18:40.703Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-25T04:01:16.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "LEADERSHIP Newspapers",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVVNMeU9jWVMxc21hYW1GUXNOVmtSalBCdm5ZcDl0ZEFWX2dudFByeFdCQzh4eWxuNTdXdnQteWVJY3FtUW84d3R1X25qeE1fYlBoY2d3Tlk5TU5UZVpsbGN6T3RJMGlzLXZLbTNQa2Zyckt2VzFkTm5nSEtGY0pBTlNwWnFHMFJxZm43djRSdHo?oc=5",
+        "title": "Aondoakaa, Residents Seek Restoration Of Electricity After Attack",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
       {
         "at": "2026-10-25T02:32:09.000Z",
         "cat": "energy",
@@ -426,18 +436,8 @@
         "title": "Russian-Occupied Crimea Goes Dark After Drone Strikes Hit Power Infrastructure",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-24T07:04:00.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "The Star",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZXBtR0I4SW9SSjBJR284V1c5dXJyckxJdXhXemdiMlFCUjNzejNlQi1YUWtobHA4M3RCM09UOWFXa0lqUkZJVlplbmlVVUs5VkVEYlFHQll3VG1PRm9rLVVQSjRfY0o5clhRS2dBS0FkSjRrQ3A4Z3NPMVZGckJIcUQ0NjRnRHozbkpDZk40OXhFREtXUkV6dWRQQ3NUZnJhdU9vSUs0ejJOQ2Y3eTlyWWNkNTNiNnE1SWJR?oc=5",
-        "title": "Sri Lanka to set up joint wildlife-military center to protect elephants",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       }
     ],
-    "updatedAt": "2026-10-25T03:16:12.928Z"
+    "updatedAt": "2026-10-25T04:20:48.798Z"
   }
 }

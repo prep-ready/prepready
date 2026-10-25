@@ -2,7 +2,7 @@
   "_comment": "Aktualizuje scripts/update-data.mjs codziennie. pl = Polska, en = świat. Składowe z mode=manual ustawiasz ręcznie.",
   "pl": {
     "sample": false,
-    "updatedAt": "2026-10-25T03:14:50.814Z",
+    "updatedAt": "2026-10-25T04:18:40.701Z",
     "score": 21,
     "delta7": -10,
     "ago30": 37,
@@ -197,7 +197,7 @@
           33,
           25,
           16,
-          15
+          13
         ],
         "stale": false
       }
@@ -237,9 +237,9 @@
   },
   "en": {
     "sample": false,
-    "updatedAt": "2026-10-25T03:16:12.927Z",
-    "score": 39,
-    "delta7": 4,
+    "updatedAt": "2026-10-25T04:20:48.798Z",
+    "score": 29,
+    "delta7": -6,
     "ago30": 35,
     "history": [
       35,
@@ -271,14 +271,14 @@
       46,
       43,
       39,
-      39
+      29
     ],
     "components": [
       {
         "id": "conflict",
         "name": "Global conflict",
         "weight": 30,
-        "value": 46,
+        "value": 16,
         "sources": "GDELT · Google News",
         "trend": [
           39,
@@ -288,7 +288,7 @@
           61,
           48,
           47,
-          46
+          16
         ],
         "mode": "auto",
         "raw": [
@@ -313,7 +313,7 @@
           53,
           50,
           52,
-          50
+          25
         ],
         "stale": false
       },
@@ -339,7 +339,7 @@
         "id": "energy",
         "name": "Power & grid",
         "weight": 15,
-        "value": 33,
+        "value": 32,
         "sources": "Google News",
         "trend": [
           5,
@@ -349,7 +349,7 @@
           34,
           30,
           35,
-          33
+          32
         ],
         "mode": "auto",
         "raw": [
@@ -382,7 +382,7 @@
           54,
           50,
           57,
-          54
+          53
         ],
         "stale": false
       },
