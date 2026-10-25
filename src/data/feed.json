@@ -232,17 +232,37 @@
         "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
       }
     ],
-    "updatedAt": "2026-10-25T09:13:39.766Z"
+    "updatedAt": "2026-10-25T10:12:22.122Z"
   },
   "en": {
     "sample": false,
     "items": [
       {
+        "at": "2026-10-25T09:52:08.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The National",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNnVfUnYtWklMbWF4TjRLaWdIdHpPZ0h0TThQUzRsT2JNdlIxNjFLdEFQb0sxa21kMXFnLTVSUndXOUstVHR6T2kyMjJpQnd3RHFOSWdTVExKd2ZGYV82MDdpc19uOENyLWhaNlZyVEhuVU5nM3pJdTNJd0hYY3FTc0VMUmxxX3lZV2I0WUZjcw?oc=5",
+        "title": "Middle East latest: Saudi-led coalition downs Houthi missile launched towards Riyadh",
+        "official": false,
+        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+      },
+      {
+        "at": "2026-10-25T09:23:36.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Ada Derana",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5RZ3JDUUxmcXVFWFhKNnJjQUI5YTV3OUFubXNOWVB1V0Zqb3hWUXdWVWJFcmpnSkNaaExCRVIwTXFXTzB2Zk44?oc=5",
+        "title": "Several injured after bus collides with train in Habaraduwa",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
+      {
         "at": "2026-10-25T09:10:51.000Z",
         "cat": "security",
         "sev": 2,
         "source": "IntelliNews",
-        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNcnRzWEZ4VkVrN3VLbEhfZzBmMTJGVklhWGhQUGNoM1hsbU15OHNKbkIwNFhHQXh5enB6Z1dsQXczb3pCTWE4aVFjeldDUW9Vc2QyWHJpS1lMNXZVa01OM3p2LW1kbTVzQTYyNkpBUklMb3hYYTQxRjlLV291UDBLb0E0bzhzV3k0ZGVlUzJ2YkVJWjNMUGZSLTluM1Z3aExQamx1Sk1nZHhVX1Y2b2puay1oRktDcnlJM1dab2ZhZWc2OGpweGhRUDc2NXR2YmxVN2pzWW9OdTF3NVFuR3VCWnB1cnk?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNTVF5OGREQkVUb201WVR4OW9Ndlo0clRabFBDRWZPVVBWVTV2c3ZHQVdnZGNXQVdZZ3BCVFNYVEE0VGJ5UTd3Zl9ZMHBnWjQxTlRBb2lqNkY4Nm9mYXV2aHpFcXR0U0dfcF8zQ0xvbkxVMl9LdFpqU0ExOF9LNldpZUNKbFlLNEo0aDBtcEt0eWgwbUZqakc1MzJlVVdaUVFaVjI1Q2ZrdGZOZGhJRFY4S2lzWjhGRV9GY2R4YmJnc3pFdEdNTjVic3d0alpyT1lHNUIzUGdWVkV6Q1Y3SUxtcEdn?oc=5",
         "title": "Missile War Monitor: Oryol strike toll rises to three as Kyiv claims hit on Proton-Electrotex plant",
         "official": false,
         "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
@@ -256,16 +276,6 @@
         "title": "Audit report reveals delays in cabinet-approved procurement of 200 electric buses for SLTB",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-25T06:33:45.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNejJVeno4cmRWUWhlWHZNR2NoWF8xZ19jNnVXTS12b01LRFhpbFdpMUZCTXdJSVk3WFFhSy11dHZlekhOaUxxZTNOR1VObXdtZkQtRVpRZGhQbElmV2dJbzNWSzJpTHlrV0drQ0EtZ2hXVXJmTUZZUklOQlV4NmdoMHV4OUp5MGtXVzdTb19WZzVWTVFaNzNma1J1cWTSAaIBQVVfeXFMTTVxZm9xZlhCcDJhb0p2cV9GeHl2eWFHM28xak5sT2J3cFBiNW5hdk1WamVxdXBiQzd2UmIxcnd0VTNNU3U2MUNZVW1xTmIwMGRsTndWZnZENlR4WlpvZXJUQ2N2LU9LMWRpSURFX091Wkxfd2xFMFM0Yl9uV0xNQTg1cEpZUjE3TG13c1lKU2NIVlFmT2J6b2I4QzNLTDBMVEtR?oc=5",
-        "title": "Houthis launch attacks on Saudi Arabia and Yemen’s Aden",
-        "official": false,
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       },
       {
         "at": "2026-10-25T06:29:28.000Z",
@@ -426,18 +436,8 @@
         "title": "Large-scale blackout reported in annexed Autonomous Republic of Crimea - occupation authorities",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-24T14:00:58.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Peoples Gazette Nigeria",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQVUNhdVlGNmxUMXBpeWZabHlpYjBIaXBvVlFLNmZZeTBKZko1MEx5RThXUmZyMUpnTDhjemY0WlBIc1MyZEs2aU5wYnBYQ0pSb1EtSWw5ZWNVSFg3dzV4R2JCZ2lOY2R4VlZsUW5HdkZQY2lVSzNyT21hbjN1WlNoYQ?oc=5",
-        "title": "Makurdi residents fault JED over prolonged blackout",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       }
     ],
-    "updatedAt": "2026-10-25T09:15:47.223Z"
+    "updatedAt": "2026-10-25T10:14:33.803Z"
   }
 }
