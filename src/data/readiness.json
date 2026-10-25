@@ -2,7 +2,7 @@
   "_comment": "Aktualizuje scripts/update-data.mjs codziennie. pl = Polska, en = świat. Składowe z mode=manual ustawiasz ręcznie.",
   "pl": {
     "sample": false,
-    "updatedAt": "2026-10-25T00:05:06.246Z",
+    "updatedAt": "2026-10-25T01:24:31.636Z",
     "score": 26,
     "delta7": -5,
     "ago30": 37,
@@ -121,7 +121,7 @@
         "id": "weather",
         "name": "Pogoda i żywioły",
         "weight": 15,
-        "value": 60,
+        "value": 57,
         "sources": "IMGW · GDACS",
         "trend": [
           33,
@@ -131,7 +131,7 @@
           13,
           13,
           60,
-          60
+          57
         ],
         "mode": "auto",
         "raw": [],
@@ -237,7 +237,7 @@
   },
   "en": {
     "sample": false,
-    "updatedAt": "2026-10-25T00:07:09.959Z",
+    "updatedAt": "2026-10-25T01:26:17.607Z",
     "score": 39,
     "delta7": 4,
     "ago30": 35,
@@ -278,7 +278,7 @@
         "id": "conflict",
         "name": "Global conflict",
         "weight": 30,
-        "value": 47,
+        "value": 46,
         "sources": "GDELT · Google News",
         "trend": [
           39,
@@ -288,7 +288,7 @@
           61,
           48,
           47,
-          47
+          46
         ],
         "mode": "auto",
         "raw": [
@@ -382,7 +382,7 @@
           54,
           50,
           57,
-          56
+          55
         ],
         "stale": false
       },
@@ -404,7 +404,7 @@
         ],
         "mode": "auto",
         "raw": [],
-        "stale": false
+        "stale": true
       },
       {
         "id": "health",
@@ -430,7 +430,7 @@
         "id": "cyber",
         "name": "Cyber & infrastructure",
         "weight": 15,
-        "value": 34,
+        "value": 35,
         "sources": "GDELT · Google News",
         "trend": [
           26,
@@ -440,7 +440,7 @@
           36,
           58,
           34,
-          34
+          35
         ],
         "mode": "auto",
         "raw": [
@@ -458,7 +458,7 @@
           53,
           26,
           52,
-          52
+          53
         ],
         "stale": false
       }

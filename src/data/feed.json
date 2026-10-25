@@ -232,11 +232,21 @@
         "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
       }
     ],
-    "updatedAt": "2026-10-25T00:05:06.251Z"
+    "updatedAt": "2026-10-25T01:24:31.640Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-25T00:47:48.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Ada Derana",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE4tX0M0Q3ZONkxIbmtiSUxjakF5X2ltYWxwVmtKbW5vSUgxNzJZbUZlRzA2X0NEY3ZSeXI2VTllR285dExuT0tz?oc=5",
+        "title": "Yemen's Houthis renew warning against using Riyadh airport",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
       {
         "at": "2026-10-24T21:45:30.000Z",
         "cat": "cyber",
@@ -426,18 +436,8 @@
         "title": "Sri Lanka Orders Rooftop Solar Disconnection Following Nationwide Blackout Amid Grid Stability Concerns",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-24T04:35:06.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "news.lavx.hu",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPQ0Y3SEYyRjRVYmhQVjZxOFJJQ1dlSE51VUVlakhXeHVwMWZlMVB6aE9EQ0h1RzFHMzJTa3pOcXhSY1N4RFdGSTd2ZnJzVUk0OWRma2pMWUZzZllIZmtTbVJqRTRIMm5PTm90d0kxalRDRGRETUt2RG5YaUYyYzhzVTJYQUJHeWZWWXdUVzhUMnFkdEdfV1NLUW1ySGNxT2RtY3BON0RMeERCVGd4QzloTE1ITXpoOXZUY2szTUNCeUhHamV3QWc?oc=5",
-        "title": "Exposed infrastructure reveals AI-driven ransomware intrusions by INC and The Gentlemen affiliates",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
       }
     ],
-    "updatedAt": "2026-10-25T00:07:09.960Z"
+    "updatedAt": "2026-10-25T01:26:17.608Z"
   }
 }
