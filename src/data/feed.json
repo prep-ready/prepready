@@ -214,7 +214,7 @@
         "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
       }
     ],
-    "updatedAt": "2026-10-25T11:11:58.047Z"
+    "updatedAt": "2026-10-25T12:10:48.137Z"
   },
   "en": {
     "sample": false,
@@ -246,6 +246,16 @@
         "source": "Ada Derana",
         "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5RZ3JDUUxmcXVFWFhKNnJjQUI5YTV3OUFubXNOWVB1V0Zqb3hWUXdWVWJFcmpnSkNaaExCRVIwTXFXTzB2Zk44?oc=5",
         "title": "Several injured after bus collides with train in Habaraduwa",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
+      {
+        "at": "2026-10-25T09:17:39.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Ada Derana",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5XTWRVMjhOQUJBRU9pcXBtdjFucGpldjNDWjc1T3k4RDhvR3RrdWh5MUg1YlR6NUJ5Ulp2d241YU5BT0lPYXRR?oc=5",
+        "title": "Iranian army says it shot down US drone over Bandar Abbas, Tasnim reports",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       },
@@ -408,18 +418,8 @@
         "title": "French police arrest 135 people, seize weapons: minister",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-24T14:53:18.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Gulf News",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWXdCaTY0ejZRTEpxZFA3YXZkZkxNU3FVWTZ3Qk9jS255bThleDVTX3pmUkZPWXJKTDRMTk04YXpxWUFlMDBTMGM5dHBfUlNCd1hENUlrZ2FIR1lPdEgwdndZNy1aWDRmTmw5RUZBTnpqQ1ZyY2FOT0NQZXpoc0Q1WGpYOF9tYXpNRUJKS0daaUNoS3E0aWgwUUd6UVNQb3FyNDM4U2x2SE5XTkJGQUHSAb4BQVVfeXFMTUIzaFdEbW1xTzlhOVVCYWRUdVI3OEh3UVM4Rm92d3QyT05XSWVITTlqWlQ3QnJTeENYbWNGN1RpdVJtTThQUEhCUFJERnN3MGJ6U19WSEkxTFNHM0cwRU14c0dxbDlna3dwRGg4OGhzd1drNVpmN3IxOFBjUExPekc5aGI0ZV85enpYOTY4U1Y2czJsQVdvZnktVGR2QmYtVnc5bjBOZElKQThYTm1Za2kxcVZlNXRHN3BWaFdGUQ?oc=5",
-        "title": "US-Israel-Iran war: What UAE residents need to know today, October 24, 2026",
-        "official": false,
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       }
     ],
-    "updatedAt": "2026-10-25T11:13:46.588Z"
+    "updatedAt": "2026-10-25T12:12:55.738Z"
   }
 }
