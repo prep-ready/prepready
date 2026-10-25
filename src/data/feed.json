@@ -4,6 +4,20 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-10-25T13:37:25.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZWRnNjg0VE5nSGN1UURGVWdzX3VWOGlxVV93YWFzMUYxRzg4b3c4WGc1ZFltamtMRy1XaFJHZnFtWndGX1pUTndDbDd5cTVEQXpfbllsMXM2aGh0ZUgtYjN5UFBTMVZyWnNjT2Vob3hJVGVkQmszcjFiam9tWTJWSy01c19pVmMwaWpHTWJPV2lvMWZqLVF4MEoxZWpXMER0VU15LUlUNGZJN3o3bHc?oc=5",
+        "title": "Ołeszki są odcięte od świata. Ukraińskie drony zrzuciły jedzenie dla dzieci",
+        "official": false,
+        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112.",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
+      },
+      {
         "at": "2026-10-25T09:02:18.000Z",
         "cat": "safety",
         "sev": 2,
@@ -84,6 +98,16 @@
         "title": "Transformacja polskiej armii. Gen. Górowski: zmieniaj się albo po prostu giń",
         "official": false,
         "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+      },
+      {
+        "at": "2026-10-24T11:42:00.000Z",
+        "cat": "weather",
+        "sev": 3,
+        "source": "IMGW",
+        "url": "https://meteo.imgw.pl/",
+        "title": "IMGW: 12 ostrzeżeń meteo, najwyższy stopień 2: Silny wiatr",
+        "official": true,
+        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
       },
       {
         "at": "2026-10-24T11:42:00.000Z",
@@ -202,29 +226,9 @@
         "title": "Rzecznik Kremla o rozejmie w ukraińskim mieście. \"Wojsko zgadza się\"",
         "official": false,
         "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-10-23T12:03:14.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Portal Samorządowy",
-        "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPek5WY3d1VW8xSXhDaUtsbWxFdmRETndORDVBaFNscExhY2gtWDRESnhVZTRYRTBET3lmYld1TVMtYWJrX2EyLVZVNXBDT1hxdnNRaWROT1E2VHFCTS1CZmFPMVNsOEVnTmowdm5YVHo4Z1luclZ4bDZRMXBrYXR1MjVoMktoT3JWekppZGZrX3liN29kQjU3dG9ZNERqamg1UmtJcEUxOGEzT25IN2h1NFMzQXVLTFp0Z2VWNGw3V0tDdEJsV3ZScFFtQm51ZUI5TDJRMnl0VlpRYV93Q19meVhpY053WkR5Y0ZnbFY3QVBxZDRBR0lSQ0Uxa1FGdVE?oc=5",
-        "title": "RCB: bez zagrożenia; wojsko w standardowej działalności; lotniska w Lublinie i Rzeszowie pracują (aktl.3)",
-        "official": false,
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-10-23T10:55:00.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "CERT Polska",
-        "url": "https://cert.pl/posts/2026/10/CVE-2025-30043/",
-        "title": "Podatności w oprogramowaniu CGM CLININET",
-        "official": true,
-        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
       }
     ],
-    "updatedAt": "2026-10-25T13:22:18.123Z"
+    "updatedAt": "2026-10-25T14:11:02.624Z"
   },
   "en": {
     "sample": false,
@@ -430,6 +434,6 @@
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       }
     ],
-    "updatedAt": "2026-10-25T13:24:27.619Z"
+    "updatedAt": "2026-10-25T14:12:25.989Z"
   }
 }
