@@ -232,11 +232,21 @@
         "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
       }
     ],
-    "updatedAt": "2026-10-25T02:14:15.739Z"
+    "updatedAt": "2026-10-25T03:14:50.818Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-25T02:32:09.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Ada Derana",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5RTVZURGNjdzhPUVZ6Q1lSb0E1SjJnTTFhb1VPMV9IeVhIUUxwY1EtNXg1RE03LW1CcGg0Q182WWJiNjBxOTVB?oc=5",
+        "title": "Tourist arrivals in 2026 surpass 1.8 million",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
       {
         "at": "2026-10-25T00:47:48.000Z",
         "cat": "energy",
@@ -426,18 +436,8 @@
         "title": "Sri Lanka to set up joint wildlife-military center to protect elephants",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-24T05:33:38.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "SolarQuarter",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOMjFGb0JIMmh4OUtsSnlodUdVYjZHemdORHlsZXAwbWV3d3ZVZGszQmpxa0FndERBT2NKMGIwZ3ZDVXI1MXFpRWQ5ck1VSEZ4bE8zWTZlclM4cEdLSDNGLWY3bGRHd2dzXy0xWG5kX2EwRThFZG5aaFlaelVjNVVpbUNCSEs4czlIMTVsd2tZTTBsd2JkRUwwR0RsSnZjWm1CTHFJU0M5d2FWZ3lfWERzV3F5UmppU2RsejVWWWs5enZRVlpOVGh0eFJuN1AzRE45LXhIRjI4UQ?oc=5",
-        "title": "Sri Lanka Orders Rooftop Solar Disconnection Following Nationwide Blackout Amid Grid Stability Concerns",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       }
     ],
-    "updatedAt": "2026-10-25T02:16:22.004Z"
+    "updatedAt": "2026-10-25T03:16:12.928Z"
   }
 }

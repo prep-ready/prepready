@@ -2,7 +2,7 @@
   "_comment": "Aktualizuje scripts/update-data.mjs codziennie. pl = Polska, en = świat. Składowe z mode=manual ustawiasz ręcznie.",
   "pl": {
     "sample": false,
-    "updatedAt": "2026-10-25T02:14:15.735Z",
+    "updatedAt": "2026-10-25T03:14:50.814Z",
     "score": 21,
     "delta7": -10,
     "ago30": 37,
@@ -237,9 +237,9 @@
   },
   "en": {
     "sample": false,
-    "updatedAt": "2026-10-25T02:16:22.003Z",
-    "score": 34,
-    "delta7": -1,
+    "updatedAt": "2026-10-25T03:16:12.927Z",
+    "score": 39,
+    "delta7": 4,
     "ago30": 35,
     "history": [
       35,
@@ -271,7 +271,7 @@
       46,
       43,
       39,
-      34
+      39
     ],
     "components": [
       {
@@ -339,7 +339,7 @@
         "id": "energy",
         "name": "Power & grid",
         "weight": 15,
-        "value": 5,
+        "value": 33,
         "sources": "Google News",
         "trend": [
           5,
@@ -349,7 +349,7 @@
           34,
           30,
           35,
-          5
+          33
         ],
         "mode": "auto",
         "raw": [
@@ -382,7 +382,7 @@
           54,
           50,
           57,
-          22
+          54
         ],
         "stale": false
       },
