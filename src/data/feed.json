@@ -232,7 +232,7 @@
         "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
       }
     ],
-    "updatedAt": "2026-10-25T01:24:31.640Z"
+    "updatedAt": "2026-10-25T02:14:15.739Z"
   },
   "en": {
     "sample": false,
@@ -316,6 +316,16 @@
         "title": "US-Israel-Iran war: What UAE residents need to know today, October 24, 2026",
         "official": false,
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
+      {
+        "at": "2026-10-24T14:47:42.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Ukrainian news",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNR3JVVURjZHh6bGdLRGtrN2I2OWxLc1g5ZklUTlozUEp1V0RiZmRXNWxTZEZ1M1MtbWJmcGpady16T0pBS3lTODUyd0FFVkZnT0dURVZWcC0wZXFyRzNKMVdoUEw4c1NFcVQ0clhRdE02TnNRa0RnaXU1QUFOaDNUaFYxMVFVNFdLMlphNlJzWGRwY24wZHF2ZU9qeVhxOFR5U1J6U1FQRmNFbm1nVnZBaWRzZ0VhQVAxRGhhTUVNWGZZX0g3ZzF2Ukk2ZFdWcmfSAc8BQVVfeXFMTUdyVVVEY2R4emxnS0RrazdiNjlsS3NYOWZJVE5aM1BKdVdEYmZkVzVsU2RGdTNTLW1iZnBqWnctek9KQUt5Uzg1MndBRVZGZ09HVEVWVnAtMGVxckczSjFXaFBMOHNTRXFUNHJYUXRNNk5zUWtEZ2l1NUFBTmgzVGhWMTFRVTRXSzJaYTZSc1hkcGNuMGRxdmVPanlYcThUeVNSelNRUEZjRW5tZ1Z2QWlkc2dFYUFQMURoYU1FTVhmWV9IN2cxdlJJNmRXVnJn?oc=5",
+        "title": "Large-scale blackout reported in annexed Autonomous Republic of Crimea - occupation authorities",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       },
       {
         "at": "2026-10-24T14:00:58.000Z",
@@ -408,16 +418,6 @@
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       },
       {
-        "at": "2026-10-24T08:19:20.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Мілітарний",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5hY21lTTJhdG9NS3ZWV2lqZ1ZBcjdNVzhiTk5kbFFfSHUtaFJ6OUVYS1dJZnRMaEpjblNjVW9iVV93bWxSQnF4Q2ZMUUh2ajI3OEw1UE1Pd2g4NXpLMVZ6VF93S2lEMG5YNkt3U0pVUlhybC1nUVg1c3FSWTUzdw?oc=5",
-        "title": "Large-Scale Blackout Occurred in Crimea Following Drone Attack on Energy Facilities",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
         "at": "2026-10-24T07:04:00.000Z",
         "cat": "energy",
         "sev": 2,
@@ -438,6 +438,6 @@
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       }
     ],
-    "updatedAt": "2026-10-25T01:26:17.608Z"
+    "updatedAt": "2026-10-25T02:16:22.004Z"
   }
 }
