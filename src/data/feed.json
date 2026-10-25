@@ -9,13 +9,23 @@
         "sev": 2,
         "source": "Polskie Radio 24",
         "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbDBnTERfdENuTHdLQ3FpOC1UNzV1LWFtM2FPZ2VMNU5GM0I0a2g2WFZUV0FQUUFGSFBidlRtMUZRcTctM2xEMWszUzRLUl8tc2YyZjVoUFZnOGJubnNEUGlGeEN5dnN1LU5XVDFyZGVEMkw1UDBjdkVrUklpS0pHOW5DY0NsWGFxT3gxelFyQW5QWGF4OGhJ?oc=5",
-        "title": "Ewakuacja na Lotnisku Chopina w Warszawie. Ważny komunikat dla pasażerów",
+        "title": "Ewakuacja na Lotnisku Chopina. Ważny komunikat dla pasażerów",
         "official": false,
         "forYou": "Słuchaj poleceń służb, weź plecak ewakuacyjny, dokumenty i leki. Nie wracaj, dopóki służby nie odwołają ewakuacji.",
         "guide": {
           "href": "/pl/poradniki/plan-ewakuacji-rodziny/",
           "label": "Plan ewakuacji rodziny"
         }
+      },
+      {
+        "at": "2026-10-25T13:53:00.000Z",
+        "cat": "weather",
+        "sev": 2,
+        "source": "IMGW",
+        "url": "https://meteo.imgw.pl/",
+        "title": "IMGW: 2 ostrzeżeń meteo, najwyższy stopień 1: Silny wiatr",
+        "official": true,
+        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
       },
       {
         "at": "2026-10-25T13:37:25.000Z",
@@ -216,27 +226,33 @@
           "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
           "label": "Alert RCB i aplikacja RSO"
         }
-      },
-      {
-        "at": "2026-10-23T17:55:49.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "WP Wiadomości",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQLTdjdmROekRDd1RhQmw4OUZxS2FYdUhTSGdNX2o3cnVTcFNySVdlcGxCLXV5UTBrOGVMbGRxeHZDcjMzNThkbXZLWUw4bkF5N0I0M3dmZEsxbXoxaThaa2czVVkzT2dNSG5MTFd6MGtnQ3N3YVRRNWZrRTNncnZTTUZJWm9uYURyZzFoeTdidmQ?oc=5",
-        "title": "Polska znów poderwała myśliwce. Alert RCB odwołany",
-        "official": false,
-        "forYou": "Zagrożenie minęło. Sprawdź, czy w domu wszystko jest w porządku, i uzupełnij to, czego użyłeś z zapasu.",
-        "guide": {
-          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
-          "label": "Alert RCB i aplikacja RSO"
-        }
       }
     ],
-    "updatedAt": "2026-10-25T20:02:33.174Z"
+    "updatedAt": "2026-10-25T22:52:06.866Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-25T22:23:00.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Quotidiano Sportivo",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPMjcwTHN0SExkbDVMSEd3VnNXTk9xV1ktWmM5aEFyd1JTWXItU0xIdS1IVnZmVTVXLVEyOUZGbWZwSks3YXVTakduRU81SHV6bWpXNFREYUxxSnEzc1pSaF9aempKelEwNi1yU21CcjdyOFdzNEtxSGF5Sk1JN0NKX3NOYjVtSmc4UU1jYg?oc=5",
+        "title": "Perugia: Three clues could prove it. After Pesaro and Vado, another blackout.",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
+      {
+        "at": "2026-10-25T20:55:49.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "The Business Standard",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPaWw1MVBVN3pkNVM3N3EwNlk1dFlWNjdFU1MzQTBOcm5DRW5GQ1FhX1hYMGIxMzJlT1BNTnB5NWlXYndHbTJBRGxuWHJIUGtxa3NGNW1HMHl2dGtkQ044aVpnUEhYV0s0ZkQybGJxaTB3QVVKTjJkSFRqc1FNM01QUXd4YXlTT3dUZEhhWFNUQTRjRGJZYnRIeVVpNmZjYjktZWtJM3Z3THBfajl4OHRISGxMV2NJdEN2cFE?oc=5",
+        "title": "Cenbank takes website offline over global cyberattack concerns",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
       {
         "at": "2026-10-25T19:27:15.000Z",
         "cat": "security",
@@ -276,6 +292,16 @@
         "title": "Train services between Rambukkana-Peradeniya, Gampola suspended on Oct. 24 and 25",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
+      {
+        "at": "2026-10-25T15:58:15.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Gulf News",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxON3Y0YTZqRTJPS09hV0djbGh5UEg4QW5ueGNDZHNuNDJaVmxjY1Q5cGJraDl4MzNoYkZHWTBtMW9yRFRIckRpbFdIclBlNHZ1enFTLU9ERG1DOGNZQzdmMVZkeFNSMEVIRV9VQlFkb2NtZmdhMTcxcFdJZGdMeXk1RzNKcmpWSTM2WWcxOXl0dTNLcEpmSUxONDU4NmY3RVlXYTN0RVBJR05Udm5Sc3JfWGJJdndncU5FRXZ0NjQyYTFRV1hjNERyMkdZLXZzdk9mS3fSAeIBQVVfeXFMTmkxYzA1WTU0RU52X2RVSHY2Z2xUWXJ3Z1cyRU9abFVXc05ybUJQUmVBYnFQMF9TMmJwWGF3MDlBZjB1aElqT2R6VXZydW1mY3JfNHNkSmpWTzVpSm1XdE9SVjZHSllSRTVSeFBzeEs2WDBtQmFGaEh4VXFkc3BsUzRZUnhiM01oSjVWYkc5SjBsODdEWGM1QVNoTnVBUVNaNnp1SkNycnlJX2ZTakJGdnNVcmdSZG1IS0dJTm5LNy13TUwxTm5xV2JtQ01kWkhYaG9zUzJwQ1VHWW00NzZCdEt6Zw?oc=5",
+        "title": "UAE residents’ update: Trump rules out Iran strike; injuries reported in Houthi attack on Saudi Arabia",
+        "official": false,
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       },
       {
         "at": "2026-10-25T14:44:08.000Z",
@@ -406,38 +432,8 @@
         "title": "TG-iPASS portal fails ransomware attack test",
         "official": false,
         "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-25T02:32:09.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Ada Derana",
-        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5RTVZURGNjdzhPUVZ6Q1lSb0E1SjJnTTFhb1VPMV9IeVhIUUxwY1EtNXg1RE03LW1CcGg0Q182WWJiNjBxOTVB?oc=5",
-        "title": "Tourist arrivals in 2026 surpass 1.8 million",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-25T00:47:48.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Ada Derana",
-        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE4tX0M0Q3ZONkxIbmtiSUxjakF5X2ltYWxwVmtKbW5vSUgxNzJZbUZlRzA2X0NEY3ZSeXI2VTllR285dExuT0tz?oc=5",
-        "title": "Yemen's Houthis renew warning against using Riyadh airport",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-24T22:30:25.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The Sun",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdklrSExhZXpEd0NkT2s2a1lZcUxfcGwxX3A3RXROVy1iSURIMTBtTXNBbXRIdl9WbHF5WmU4ZC15cVA5N0dnRDdaQ2Z0TVhUNFdyUzZTRGN1WHY3ZVVNTVBWWEM3bktjR1pMWTdLbDJxcTc4Uk9iNDdHb3Z4V2lBUjZ0dXVPeHRaTk1rLVV3bw?oc=5",
-        "title": "Ukraine lands hit on Putin's factory producing parts for ballistic warheads",
-        "official": false,
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       }
     ],
-    "updatedAt": "2026-10-25T20:04:36.942Z"
+    "updatedAt": "2026-10-25T22:54:19.637Z"
   }
 }
