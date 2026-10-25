@@ -100,6 +100,16 @@
         "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
       },
       {
+        "at": "2026-10-24T09:15:25.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Rzeczpospolita",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNUlRCZjFSdWtZN2s4WG40ZjNaTVdzS21HaUc4OGQzTXNDeENsZWI5UWgtVHZFak5ySWtrOEFmQkhMbXFNTFhtUXdua21TLVVxVG9DdXpqX214LWJOaDNYY2hkQmtTX0cxa21ZU0ptYUx6RGltWkQzVlVIU3BTclZQcUU0NWNQckxIYlltdW1ZSQ?oc=5",
+        "title": "Wiemy, dlaczego w USA zginęło dwóch żołnierzy GROM",
+        "official": false,
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+      },
+      {
         "at": "2026-10-24T06:02:00.000Z",
         "cat": "security",
         "sev": 2,
@@ -220,23 +230,23 @@
         "title": "Generalskie Łapówki. Konto na TikToku atakuje polskich dowódców",
         "official": false,
         "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-10-23T06:25:28.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Rzeczpospolita",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSkJkMzB0akVjLTNNbC1ldFlBYzBWdWFhYjlycUlXYkYzX2hpZVJBMGxKSHJMR21QSk84Ykc1OGVKb3dNdVBqT3ZGMkdXSzAtSnNQY3FPZHRmNUh4NWZQVVZJVXkxb0hiNml3anFkT0FsWmt1VFFCNHlkRVZYVm9aN3BNa2FaZnhpYkVwMk9xWXhxX1NoWFpFRWRPOVdYQ2NhZGJZ?oc=5",
-        "title": "Stała baza wojsk USA w Polsce za 15 mld zł? Są cztery lokalizacje",
-        "official": false,
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
       }
     ],
-    "updatedAt": "2026-10-25T04:18:40.703Z"
+    "updatedAt": "2026-10-25T05:16:25.296Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-25T04:04:13.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The National",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNnVfUnYtWklMbWF4TjRLaWdIdHpPZ0h0TThQUzRsT2JNdlIxNjFLdEFQb0sxa21kMXFnLTVSUndXOUstVHR6T2kyMjJpQnd3RHFOSWdTVExKd2ZGYV82MDdpc19uOENyLWhaNlZyVEhuVU5nM3pJdTNJd0hYY3FTc0VMUmxxX3lZV2I0WUZjcw?oc=5",
+        "title": "Middle East latest: Saudi-led coalition downs Houthi missile launched towards Riyadh",
+        "official": false,
+        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+      },
       {
         "at": "2026-10-25T04:01:16.000Z",
         "cat": "energy",
@@ -426,18 +436,8 @@
         "title": "Live Updates: War returns to Iran with Israel, US strikes",
         "official": false,
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-24T09:32:35.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "UNITED24 Media",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMG1EcUV0S2pxckVNRWVXNkxKb3ppNFBrMFVPaGl6UzB5MkVDQllHOVBKTEN6NHZiR1ZhdTdrcXVRY0V0bFc1RUZ6NWxESVh3d3hnU2dhcEFOTXpFQkgwajVWMDhvRnEwakF4emtWSFZ6NnZnVnVMOW5acmJFTFl2VFZPX0kzaWFfWndTZVZyZ2gzWGlNQzc1NDZkRUhrc293ZzdwSkFFNGkyZVlsR2F0ZGZjaVVnb2VhQ2xvLW9CbkNCUnc?oc=5",
-        "title": "Russian-Occupied Crimea Goes Dark After Drone Strikes Hit Power Infrastructure",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       }
     ],
-    "updatedAt": "2026-10-25T04:20:48.798Z"
+    "updatedAt": "2026-10-25T05:18:10.949Z"
   }
 }
