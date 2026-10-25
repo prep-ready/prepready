@@ -232,11 +232,21 @@
         "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
       }
     ],
-    "updatedAt": "2026-10-25T06:15:04.856Z"
+    "updatedAt": "2026-10-25T07:25:38.099Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-25T04:53:44.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Ada Derana",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9Qa3lJVmx2eGpKMWxKeHQwTkE4WnljNEY1VTRGUUpQQm9rQVYyakJBLWxpZkhCVXlRNzUzbm1aV28wZklfSldZ?oc=5",
+        "title": "Series of explosions rock Saudi Arabia’s Riyadh",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
       {
         "at": "2026-10-25T04:04:13.000Z",
         "cat": "security",
@@ -258,6 +268,16 @@
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       },
       {
+        "at": "2026-10-25T02:48:00.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "The New Indian Express",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcUJDSnBoRmNjdk04WEJxZXVEWUNRVlZVSjhLaHBXcUpNWFM2aS1SaTZIdWZfNUY2bC0xSXhvZGs4a20xcWlCaVFTREpsU0drdngzRVA4UHp0Q0t6dGVTVldkWHNxVmFHNGh5X0NHcldwWWIxcDBsQVQ5WjNrdkJhYXhTZ2Z3LVZtSG9uYVhjZXFDNWVYWkw0UW9zbnhncGxVdTgxVXpQV2hsMGJFUFYya1ZkbXh4ZzDSAbcBQVVfeXFMTXFCQ0pwaEZjY3ZNOFhCcWV1RFlDUVZWVUo4S2hwV3FKTVhTNmktUmk2SHVmXzVGNmwtMUl4b2RrOGttMXFpQmlRU0RKbFNHa3Z4M0VQOFB6dENLenRlU1ZXZFhzcVZhRzRoeV9DR3JXcFliMXAwbEFUOVoza3ZCYWF4U2dmdy1WbUhvbmFYY2VxQzVlWFpMNFFvc254Z3BsVXU4MVV6UFdobDBiRVBWMmtWZG14eGcw?oc=5",
+        "title": "TG-iPASS portal fails ransomware attack test",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
+      {
         "at": "2026-10-25T02:32:09.000Z",
         "cat": "energy",
         "sev": 2,
@@ -276,6 +296,16 @@
         "title": "Yemen's Houthis renew warning against using Riyadh airport",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
+      {
+        "at": "2026-10-24T22:30:25.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The Sun",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdklrSExhZXpEd0NkT2s2a1lZcUxfcGwxX3A3RXROVy1iSURIMTBtTXNBbXRIdl9WbHF5WmU4ZC15cVA5N0dnRDdaQ2Z0TVhUNFdyUzZTRGN1WHY3ZVVNTVBWWEM3bktjR1pMWTdLbDJxcTc4Uk9iNDdHb3Z4V2lBUjZ0dXVPeHRaTk1rLVV3bw?oc=5",
+        "title": "Ukraine lands hit on Putin's factory producing parts for ballistic warheads",
+        "official": false,
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       },
       {
         "at": "2026-10-24T21:45:30.000Z",
@@ -406,38 +436,8 @@
         "title": "Missile War Monitor: Oryol missile strike injures eight; channels name Proton plant",
         "official": false,
         "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
-      },
-      {
-        "at": "2026-10-24T10:57:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "UNITED24 Media",
-        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZEZ0blVnbXBFTy1KWUtIVlBCWmp2blJWUk9HOU5CRkRQVnh2Sy1ULU5FSjkxeTBaOXBWZ2lkTGtmNmM5aDB5Q3ZGSHMyLWpoQVJ2T212TmRqbG5CbTR2clpGLXdETjBFYVdoYjdScFVTVGpiLTNDZHVUMzFHNnJHM1I4ckkycS0yYU9kSThvQUIxbEVUOEF3ZU8xc1ktb3NWQ0dHVHZKQWhHRFhiMFE1OHdhVnlndjB3aHp3QVNva0dGMkt4cE1WNnNpQnA2R1hWdXpQWnFUSDlVZmRSVzVR?oc=5",
-        "title": "Russia’s Missile Industry Takes a Double Hit as Ukraine Strikes Two Key Plants and Military Aircraft",
-        "official": false,
-        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
-      },
-      {
-        "at": "2026-10-24T10:44:00.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Інтент",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPa2tkVE56UW1iX09GM3RuNTdqSHNqeExJY25lZ3BwYUwwRl9VLXZFRWhyVXJfN3B4UDRETHEzNk9rNldrcE40RXBMSzdURk1XYTlZR2JwWmVHUW5oZ1R5LWV2YnVQSVNqaGlaaUNCNllReHpYeGZPZVVYdTZBYzNIdllNa3FHYmdlYmFSWl9WeE5OSHZMRVBMdnk0dkdXZEdadnZYS2ln?oc=5",
-        "title": "A blackout in Crimea brought maritime and urban transportation to a halt",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-24T10:09:56.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Dawn",
-        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4wWU1XcTJjVkhydDJ6REhTa1RGZHp5eHJhYXVpQlRoNndhUjBOamFNWlRERkdMYk53LWc4LVhDbktnSXZ3RkJyWmtEMEgycjRFNmJN?oc=5",
-        "title": "Live Updates: War returns to Iran with Israel, US strikes",
-        "official": false,
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       }
     ],
-    "updatedAt": "2026-10-25T06:19:19.599Z"
+    "updatedAt": "2026-10-25T07:27:09.525Z"
   }
 }
