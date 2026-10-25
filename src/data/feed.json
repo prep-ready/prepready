@@ -76,6 +76,26 @@
         "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
       },
       {
+        "at": "2026-10-24T12:13:58.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Polskie Radio 24",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdTBYVkpYNWtkM1VxejQxeHRQeWZiUkJtOTBoLTdEcHlCMkI0Uy1wUHlZRnJLeV94Sk9ZNk5KZFlRTEI1WWU3b0R5SWtrRDFGRkNpelRkd0Y0cjBvcllyTVRaZlQ0VzBOdFJRZW9Del9qMGs0VzlpNlhzeUJjWXNXakRzTmRfVkRHdFVkSnBoNFhfbkJ2WEVYODFzS0JHcWRDb3I5S3lfY20yUQ?oc=5",
+        "title": "Transformacja polskiej armii. Gen. Górowski: zmieniaj się albo po prostu giń",
+        "official": false,
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+      },
+      {
+        "at": "2026-10-24T11:42:00.000Z",
+        "cat": "weather",
+        "sev": 3,
+        "source": "IMGW",
+        "url": "https://meteo.imgw.pl/",
+        "title": "IMGW: 13 ostrzeżeń meteo, najwyższy stopień 2: Silny wiatr",
+        "official": true,
+        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
+      },
+      {
         "at": "2026-10-24T11:42:00.000Z",
         "cat": "weather",
         "sev": 3,
@@ -202,23 +222,23 @@
         "title": "Podatności w oprogramowaniu CGM CLININET",
         "official": true,
         "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
-      },
-      {
-        "at": "2026-10-22T13:55:00.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "CERT Polska",
-        "url": "https://cert.pl/posts/2026/10/CVE-2026-16477/",
-        "title": "Podatność w oprogramowaniu MTW CleanShot X",
-        "official": true,
-        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
       }
     ],
-    "updatedAt": "2026-10-25T12:10:48.137Z"
+    "updatedAt": "2026-10-25T13:22:18.123Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-25T12:09:50.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "The Financial Express",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPdTFYN2h3WFItU0tSNE42ZHRYTjhHOFlGVjFRd2ItdDdpLUFTMHdyWWdYbkJRVU5URWlUQ1JOd2k3dzZrV2IzYVN3dkd1SEZDVzRKRVMtaEJtZUVPeGFBcWdJblh0NVpVWFJPUjJrY1VhTy1rWVktZ1Zsak9RYTltVmd3czdKYmNNSDEzTW9za0czaVcwUl9QQVdCaEpkQ05sOXBTQUw2djdfNm02OUNxbk8tYUFaWExZT3RiM09xQ3JZMGlHYWxpWmcyVXBuc3pWQVpjNlRNQ0c4ekllVndjS0REd9IB6gFBVV95cUxQSDNYNmhaRmdFRWxMLVlaY19vM05kMm8zblRXQXVOX0ZLUC1ZNWV4X1dVUTVyUERRVTNsc3NwUlFWS0owaU01anZzNmROWjgzQ1FvbF9kQnd1aGNuVGl1WFB2d2FHSFRyZGxwM0xSWUJVNjBFTUduOGxWdXFQMTYwZmdNbzBCM3pQNDB6Z0xoWEdGenRNQzlobkNOUW1fSzNFNVM5bUUtLVBEUXV5dGxCOHQzQUV0WWNFZFZ4LVYxcmVBLXd4bm5GTFJGWUxQYV9OeWlLelNINnlJdGltWG14V2EwREJjOGhnWXc?oc=5",
+        "title": "Cyberattacks fuel demand for cover, but penetration remains low",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
       {
         "at": "2026-10-25T10:26:39.000Z",
         "cat": "security",
@@ -408,18 +428,8 @@
         "title": "Middle East latest: Trump warns of 'another little Epic Fury' amid fears of renewed conflict",
         "official": false,
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-24T15:22:27.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Ada Derana",
-        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE52bXBhc2ZzYmtNUXZSc0FNQjlKVVN2MkFRS2F6b29HbDlYX084aU5mLUo5bnZMNllFNzhvS0p2eHg1TElsZlc0?oc=5",
-        "title": "French police arrest 135 people, seize weapons: minister",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       }
     ],
-    "updatedAt": "2026-10-25T12:12:55.738Z"
+    "updatedAt": "2026-10-25T13:24:27.619Z"
   }
 }
