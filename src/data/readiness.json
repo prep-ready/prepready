@@ -2,12 +2,11 @@
   "_comment": "Aktualizuje scripts/update-data.mjs codziennie. pl = Polska, en = świat. Składowe z mode=manual ustawiasz ręcznie.",
   "pl": {
     "sample": false,
-    "updatedAt": "2026-10-24T23:08:31.781Z",
-    "score": 21,
-    "delta7": -8,
-    "ago30": 29,
+    "updatedAt": "2026-10-25T00:05:06.246Z",
+    "score": 26,
+    "delta7": -5,
+    "ago30": 37,
     "history": [
-      29,
       37,
       32,
       37,
@@ -36,24 +35,25 @@
       33,
       23,
       26,
-      21
+      21,
+      26
     ],
     "components": [
       {
         "id": "conflict",
         "name": "Konflikt w regionie",
         "weight": 30,
-        "value": 5,
+        "value": 22,
         "sources": "GDELT · Google News",
         "trend": [
-          27,
           46,
           63,
           63,
           63,
           23,
           42,
-          5
+          5,
+          22
         ],
         "mode": "auto",
         "raw": [
@@ -74,7 +74,8 @@
           100,
           100,
           81,
-          53
+          53,
+          52
         ],
         "stale": false
       },
@@ -124,12 +125,12 @@
         "sources": "IMGW · GDACS",
         "trend": [
           33,
-          33,
           13,
           33,
           13,
           13,
           13,
+          60,
           60
         ],
         "mode": "auto",
@@ -148,7 +149,7 @@
           27,
           27,
           27,
-          27,
+          12,
           12,
           12
         ],
@@ -163,13 +164,13 @@
         "value": 5,
         "sources": "GDELT · Google News · CERT",
         "trend": [
-          30,
           5,
           5,
           5,
           5,
           19,
           7,
+          5,
           5
         ],
         "mode": "auto",
@@ -195,13 +196,13 @@
           27,
           33,
           25,
-          16
+          16,
+          15
         ],
         "stale": false
       }
     ],
     "historyDates": [
-      "2026-09-25",
       "2026-09-26",
       "2026-09-27",
       "2026-09-28",
@@ -230,17 +231,17 @@
       "2026-10-21",
       "2026-10-22",
       "2026-10-23",
-      "2026-10-24"
+      "2026-10-24",
+      "2026-10-25"
     ]
   },
   "en": {
     "sample": false,
-    "updatedAt": "2026-10-24T23:10:17.751Z",
+    "updatedAt": "2026-10-25T00:07:09.959Z",
     "score": 39,
-    "delta7": -1,
+    "delta7": 4,
     "ago30": 35,
     "history": [
-      35,
       35,
       32,
       35,
@@ -269,6 +270,7 @@
       41,
       46,
       43,
+      39,
       39
     ],
     "components": [
@@ -279,13 +281,13 @@
         "value": 47,
         "sources": "GDELT · Google News",
         "trend": [
-          36,
           39,
           40,
           43,
           48,
           61,
           48,
+          47,
           47
         ],
         "mode": "auto",
@@ -310,7 +312,8 @@
           44,
           53,
           50,
-          52
+          52,
+          51
         ],
         "stale": false
       },
@@ -336,21 +339,20 @@
         "id": "energy",
         "name": "Power & grid",
         "weight": 15,
-        "value": 35,
+        "value": 34,
         "sources": "Google News",
         "trend": [
-          35,
           5,
           15,
           32,
           29,
           34,
           30,
-          35
+          35,
+          34
         ],
         "mode": "auto",
         "raw": [
-          45,
           46,
           44,
           38,
@@ -379,7 +381,8 @@
           48,
           54,
           50,
-          57
+          57,
+          56
         ],
         "stale": false
       },
@@ -387,17 +390,17 @@
         "id": "weather",
         "name": "Disasters & weather",
         "weight": 15,
-        "value": 47,
+        "value": 46,
         "sources": "GDACS",
         "trend": [
-          72,
           72,
           66,
           61,
           56,
           60,
           53,
-          47
+          47,
+          46
         ],
         "mode": "auto",
         "raw": [],
@@ -430,13 +433,13 @@
         "value": 34,
         "sources": "GDELT · Google News",
         "trend": [
-          34,
           26,
           32,
           34,
           42,
           36,
           58,
+          34,
           34
         ],
         "mode": "auto",
@@ -454,13 +457,13 @@
           58,
           53,
           26,
+          52,
           52
         ],
         "stale": false
       }
     ],
     "historyDates": [
-      "2026-09-25",
       "2026-09-26",
       "2026-09-27",
       "2026-09-28",
@@ -489,7 +492,8 @@
       "2026-10-21",
       "2026-10-22",
       "2026-10-23",
-      "2026-10-24"
+      "2026-10-24",
+      "2026-10-25"
     ]
   },
   "doomsdayClock": {
