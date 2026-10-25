@@ -51,6 +51,16 @@
         "sev": 3,
         "source": "IMGW",
         "url": "https://meteo.imgw.pl/",
+        "title": "IMGW: 5 ostrzeżeń meteo, najwyższy stopień 2: Silny wiatr",
+        "official": true,
+        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
+      },
+      {
+        "at": "2026-10-25T08:36:00.000Z",
+        "cat": "weather",
+        "sev": 3,
+        "source": "IMGW",
+        "url": "https://meteo.imgw.pl/",
         "title": "IMGW: 8 ostrzeżeń meteo, najwyższy stopień 2: Silny wiatr",
         "official": true,
         "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
@@ -220,32 +230,52 @@
           "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
           "label": "Alert RCB i aplikacja RSO"
         }
-      },
-      {
-        "at": "2026-10-23T17:54:51.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Polskie Radio 24",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNREJ5WVVUMktvenhFSncwbFVCdzFpNEkxcHhGZmU1LW5ScEZNR3RIbTRmYTJFUW1qYUtWR0tpanQybnMyc0RXdGpXYmpOUS1xeHpjWHpkc1QyT09kMENBMmZWZk5nYnVSNk5QYmFUVjVCczBWVzdxU1JqQUE4MGktWG9SbE9RTHlOZmdkM3FTdFU0bUlHYzkxMmxJcFowOFdqcXhUU2prRGZNQjZmM1E?oc=5",
-        "title": "RCB odwołuje alert w woj. lubelskim. \"Nie ma zagrożenia na terenie Polski\"",
-        "official": false,
-        "forYou": "Zagrożenie minęło. Sprawdź, czy w domu wszystko jest w porządku, i uzupełnij to, czego użyłeś z zapasu."
       }
     ],
-    "updatedAt": "2026-10-25T17:13:17.354Z"
+    "updatedAt": "2026-10-25T20:02:33.174Z"
   },
   "en": {
     "sample": false,
     "items": [
       {
-        "at": "2026-10-25T15:52:08.000Z",
+        "at": "2026-10-25T19:27:15.000Z",
         "cat": "security",
         "sev": 2,
         "source": "The National",
         "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNnVfUnYtWklMbWF4TjRLaWdIdHpPZ0h0TThQUzRsT2JNdlIxNjFLdEFQb0sxa21kMXFnLTVSUndXOUstVHR6T2kyMjJpQnd3RHFOSWdTVExKd2ZGYV82MDdpc19uOENyLWhaNlZyVEhuVU5nM3pJdTNJd0hYY3FTc0VMUmxxX3lZV2I0WUZjcw?oc=5",
-        "title": "Middle East latest: Saudi Arabia intercepts barrage of Houthi missiles and drones",
+        "title": "Middle East latest: US tells staff not to use Saudi airports without 'special authorisation'",
         "official": false,
-        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
+      {
+        "at": "2026-10-25T17:36:20.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "OfficeChai",
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOZFdpN3otMW42M1EtbDJFbURWS3BOdFpIN213NlNNUHVOX2Q2dmd6VDV0WFB6dWpiV3VVbDd1RTZDRFpEdklNa2FaOUdwUlVYeUF6ZXNKY21mT245emNXYjR3cS1qLWprZzh1YS1GaWZaOE5kZHNraTJpNzNXaUFoWkhsUGJXNUtOTnQ2di1QQTNVRzF5NHJLQU5KZWZvQkdMOEVUdlp0bHNiZ0p4ZzJGWjNjaEJjSWw3R3hObHpBYTZoZ0hHZmJ5REZzT1p3N3ZfdHppVGdaRU1Za3ZEczdzNlh4Sm9oNFNza0xmSzU2aXFJV1oxUTVlMA?oc=5",
+        "title": "The Internet Is Breaking Down, Says Japan's GMO Internet Group CEO After Hackers Hijack Its Cloud Servers To Run Unauthorized FX Trades",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
+      {
+        "at": "2026-10-25T17:05:03.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The Jerusalem Post",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9CeVBKZWd6VHJ4QjdOdFdSTzNVT2NDQUlsaUpfLXdvbjB6RndMSG4wUFZEbUk2R0M1MVRfOXBNTTU0NU1XRnNpVWxCaUlqUWVEd3B6ZTktX1VENnI2Q2E2cTN5RkxiN1BWVlE?oc=5",
+        "title": "Tehran warns of nuclear options and infrastructure strikes if US attacks Iran",
+        "official": false,
+        "forYou": "If authorities warn of radiation, go inside, close windows and follow official instructions. Take iodine tablets only if told to."
+      },
+      {
+        "at": "2026-10-25T16:39:55.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Ada Derana",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFA1YkJEWEtUdWJXOWpkUzNuYUp5SGlKcWtMTjR6WWhzanpWd1NHajRRRXhNTmtacG5yTTYyODJwS0d1WDlMaFRn?oc=5",
+        "title": "Train services between Rambukkana-Peradeniya, Gampola suspended on Oct. 24 and 25",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       },
       {
         "at": "2026-10-25T14:44:08.000Z",
@@ -406,38 +436,8 @@
         "title": "Ukraine lands hit on Putin's factory producing parts for ballistic warheads",
         "official": false,
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-24T21:45:30.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "The Business Standard",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPaWw1MVBVN3pkNVM3N3EwNlk1dFlWNjdFU1MzQTBOcm5DRW5GQ1FhX1hYMGIxMzJlT1BNTnB5NWlXYndHbTJBRGxuWHJIUGtxa3NGNW1HMHl2dGtkQ044aVpnUEhYV0s0ZkQybGJxaTB3QVVKTjJkSFRqc1FNM01QUXd4YXlTT3dUZEhhWFNUQTRjRGJZYnRIeVVpNmZjYjktZWtJM3Z3THBfajl4OHRISGxMV2NJdEN2cFE?oc=5",
-        "title": "Cenbank takes website offline over global cyberattack concerns",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-24T21:40:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Media",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPX3dIS2tvV0J5Q3lhM1NXWTV4T2s5dUdDQjNnUGw5VzJXXzBYN29wR3hwQ0huUUpDR1Z2Q005VkF3eHd4TFJNcVp0UWsySVhrOWhKSGxkY2ZIaFZpYy1QWDRtUlBqSVBRWWNDTE1UWE1rQlFBTXFfQTg4UmNCdnEzSF9aV2NyeDlyc3Q4Z1NTTGtFQ004NVFj?oc=5",
-        "title": "Ukraine gets better at striking targets deep inside Russia, Bloomberg reports - RBC-Ukraine",
-        "official": false,
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-24T19:14:38.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Ada Derana",
-        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE44NzFycDR4eHMzblpDSWJBNmkzb2llYlJCMGJBNnZCNlRkZ3VqMHd1VGc1bVFISkRManAwVV9OenpKNUZrRHMw?oc=5",
-        "title": "Major General Sampath Fernando appointed Chief of Staff of Sri Lanka Army",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       }
     ],
-    "updatedAt": "2026-10-25T17:15:04.339Z"
+    "updatedAt": "2026-10-25T20:04:36.942Z"
   }
 }
