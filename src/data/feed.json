@@ -105,6 +105,16 @@
         "sev": 3,
         "source": "IMGW",
         "url": "https://meteo.imgw.pl/",
+        "title": "IMGW: 11 ostrzeżeń meteo, najwyższy stopień 2: Silny wiatr",
+        "official": true,
+        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
+      },
+      {
+        "at": "2026-10-24T11:42:00.000Z",
+        "cat": "weather",
+        "sev": 3,
+        "source": "IMGW",
+        "url": "https://meteo.imgw.pl/",
         "title": "IMGW: 12 ostrzeżeń meteo, najwyższy stopień 2: Silny wiatr",
         "official": true,
         "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
@@ -116,16 +126,6 @@
         "source": "IMGW",
         "url": "https://meteo.imgw.pl/",
         "title": "IMGW: 13 ostrzeżeń meteo, najwyższy stopień 2: Silny wiatr",
-        "official": true,
-        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
-      },
-      {
-        "at": "2026-10-24T11:42:00.000Z",
-        "cat": "weather",
-        "sev": 3,
-        "source": "IMGW",
-        "url": "https://meteo.imgw.pl/",
-        "title": "IMGW: 11 ostrzeżeń meteo, najwyższy stopień 2: Silny wiatr",
         "official": true,
         "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
       },
@@ -228,11 +228,31 @@
         "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
       }
     ],
-    "updatedAt": "2026-10-25T14:11:02.624Z"
+    "updatedAt": "2026-10-25T15:11:36.155Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-25T14:44:08.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "UNITED24 Media",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNUk9CQXRUbDBSVWVSUjdWUEZDWUcySkNnencwMTZQMTdFRWs3VVlKbnAzOTFjZmU4ckZZZjloNnNzeUdkbk5aX1ZNeWRXNlJ5b0N6djE5eUd5bDZ0SWItZHh1bzh2M3lmUmJfVmRLRTBGNE40WGVhYlJ6Y1JYUHFXOHNGUW5OU3hTcHlIUkoxZ255dVF1UG1JM1p4ZEtDQ2FTcF9wM0V0RmpGdHlOdzRRaGNOV3BNM1VJUlU3NVg1LUVqcTg?oc=5",
+        "title": "Missiles Reportedly Hit Russian Factory Powering Iskander and Kinzhal Missiles",
+        "official": false,
+        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+      },
+      {
+        "at": "2026-10-25T13:23:16.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The National",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNnVfUnYtWklMbWF4TjRLaWdIdHpPZ0h0TThQUzRsT2JNdlIxNjFLdEFQb0sxa21kMXFnLTVSUndXOUstVHR6T2kyMjJpQnd3RHFOSWdTVExKd2ZGYV82MDdpc19uOENyLWhaNlZyVEhuVU5nM3pJdTNJd0hYY3FTc0VMUmxxX3lZV2I0WUZjcw?oc=5",
+        "title": "Middle East latest: Saudi Arabia intercepts barrage of Houthi missiles and drones",
+        "official": false,
+        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+      },
       {
         "at": "2026-10-25T12:09:50.000Z",
         "cat": "cyber",
@@ -242,26 +262,6 @@
         "title": "Cyberattacks fuel demand for cover, but penetration remains low",
         "official": false,
         "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-25T10:26:39.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "UNITED24 Media",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPTEZDY0R0dkFnbFVEbXBwM3J6YURYQlphczdORWdhZUZRY05raFRQd0t4aDdmdUkzOUpyTlJYOWJHb3V1T3B5M1NTUUZJdGRBS1BEWnpkSkJpcTVKcnNEaXlkbHhRZHdZR1UxcXNGRDlERXFuU1NsRzdDeVdlSGhkODV5U3JfSVVQRldNTEdXQmZQSG55SW5zaEI5MG55VmNrV2hMUFBEVExnQkRxYkx0d0VrbzJfa21ES1RLMXd6azNxNE5rRm9nckl3?oc=5",
-        "title": "Drones Strike Russia’s Titanium Giant Supplying Su-34 Fighters and Iskander Missiles",
-        "official": false,
-        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
-      },
-      {
-        "at": "2026-10-25T10:22:42.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The National",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNnVfUnYtWklMbWF4TjRLaWdIdHpPZ0h0TThQUzRsT2JNdlIxNjFLdEFQb0sxa21kMXFnLTVSUndXOUstVHR6T2kyMjJpQnd3RHFOSWdTVExKd2ZGYV82MDdpc19uOENyLWhaNlZyVEhuVU5nM3pJdTNJd0hYY3FTc0VMUmxxX3lZV2I0WUZjcw?oc=5",
-        "title": "Middle East latest: Saudi-led coalition downs Houthi missile launched towards Riyadh",
-        "official": false,
-        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
       },
       {
         "at": "2026-10-25T09:23:36.000Z",
@@ -280,6 +280,16 @@
         "source": "Ada Derana",
         "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5XTWRVMjhOQUJBRU9pcXBtdjFucGpldjNDWjc1T3k4RDhvR3RrdWh5MUg1YlR6NUJ5Ulp2d241YU5BT0lPYXRR?oc=5",
         "title": "Iranian army says it shot down US drone over Bandar Abbas, Tasnim reports",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
+      {
+        "at": "2026-10-25T09:17:15.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Yeni Şafak English",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQLW5zX1RYaUl0ajhGYWZkQWFXZnZRU0FEcEZpQXM5allGODVwcUxQbDFQWVE2UEstQnRmRHdRalhEYVdXaHdndVFyeVY4clRGYzlfUWF6VVFBSTlCR2t5cUNXQ05acjRhdlNiMkNWRXg0Q2NrYi12Vk53QjBNb2xwc0t4SmU2TFZMa292WGJXSnEtM3h1WGxYX1c5SkRXRkptY29IcENHOGs?oc=5",
+        "title": "France readies social media blackout for Yellow Vest protests",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       },
@@ -422,18 +432,8 @@
         "title": "Why does Sri Lanka’s power grid keep failing?",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-24T17:30:11.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The National",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTngtWlZKb2lHN2huS0pfMUtPZi1SYm0tOHRhMVpRV3ZpbW5ydGZfUVJ2SGtLTGZTR2ZQS1RpZEtzeDhQcUYwOVdyUGZoc1dlQVpUbTdJbGp1UTU4aFplZkJFX0pGMm1JSmVaOVpTN3BVbHZURkpUXzN1b3IyQ05TZ1VkYlp5dlJYTE9aRGZETQ?oc=5",
-        "title": "Middle East latest: Trump warns of 'another little Epic Fury' amid fears of renewed conflict",
-        "official": false,
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       }
     ],
-    "updatedAt": "2026-10-25T14:12:25.989Z"
+    "updatedAt": "2026-10-25T15:13:21.582Z"
   }
 }
