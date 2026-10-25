@@ -4,12 +4,12 @@
     "sample": false,
     "items": [
       {
-        "at": "2026-10-25T08:42:00.000Z",
+        "at": "2026-10-25T09:02:18.000Z",
         "cat": "safety",
         "sev": 2,
-        "source": "TVN24",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTUo2ZXNLRl9ITzJHSXY3MnF2RjctRFFwZGxSQjdOeEZjRjJ2WTN0SGRoc0t6azJRU0k2MG14LUg0eTJ4bTlJMTktY09OZFE1cHpQMXlUQkhWWXgxTmVMNkRLVnU4ZXBGNVFpdGh0enY2WG9KblBxcTFZLXpGci1hY0tOYUlZekhHaXJuRkowZlp3cnNncTBpQ3EwdjJUSnNOVUZ0VFI2YlJ0c3M?oc=5",
-        "title": "Silny wiatr, jest alert RCB. \"Zachowaj ostrożność\"",
+        "source": "Polskie Radio 24",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbFo4czVWLVpGV3FPU3U1dGg3RnhmTmgxV3FXRG5qMWdZeE53OGxRcDZfUGUzQ0ZRZHNyNUEybzB4U1V5YVUwS3QyU0VJX2hmcXpmRWZSMHNISG1iQ2Jfd1dlVThmUVREeVBCWVduY00tanVONG9rLS1uNjhqX2hHSXlqZERpZDVIdUlz?oc=5",
+        "title": "Alert RCB przed silnym wiatrem. \"Zachowaj ostrożność, zabezpiecz rzeczy\"",
         "official": false,
         "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
         "guide": {
@@ -58,34 +58,6 @@
         "source": "Polskie Radio 24",
         "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSVVmSUJ1U3VpcXd0SjUtQ0VSeWF1TjR2dGR0REdwclBjUmJvS2NyYjRXYUhXYThRTGdrSEwtVFB4Z0NpbkhYWGhoZGowMzhOWE9yQnowdUtwU3RucHZwWWdzc2xsLVZBXzJYV3NiMjhWRlBOYnZSUG1WWmFDZmpCSGtCR1ZKT1FUbFEyZXBENF96N3B2VG5qNWhTWHk3Y01JUlE?oc=5",
         "title": "Alert RCB i ostrzeżenia IMGW. Wiatr nawet do 90 km/h",
-        "official": false,
-        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
-        "guide": {
-          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
-          "label": "Alert RCB i aplikacja RSO"
-        }
-      },
-      {
-        "at": "2026-10-24T17:31:00.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "PolsatNews.pl",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVU9SczZWYTV3Tm01RGlyTVZKZ0lPaHlMLUVHM0V4aEdkWUhGRl9kODRPeXhWclo0UFBrVUpvRTRiM1l4Z0stbWpyalJCV0JmYWM0bkRoSS1lSDREQWpzS2dHMVl4VDMyd2w1eEFvZTBOVkYwQmEzSk1zeEZXUHVQYWxWX3l5QW5RZDN2N1VwdmpEdnRDZ2hURkdEcktxanBZdEdDNW1SR0pqQ0xUOUVzVQ?oc=5",
-        "title": "Pilny alert RCB. Mieszkańcy sześciu obszarów ostrzeżeni przed potężnym wiatrem",
-        "official": false,
-        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
-        "guide": {
-          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
-          "label": "Alert RCB i aplikacja RSO"
-        }
-      },
-      {
-        "at": "2026-10-24T17:20:20.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "TVN24",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTUo2ZXNLRl9ITzJHSXY3MnF2RjctRFFwZGxSQjdOeEZjRjJ2WTN0SGRoc0t6azJRU0k2MG14LUg0eTJ4bTlJMTktY09OZFE1cHpQMXlUQkhWWXgxTmVMNkRLVnU4ZXBGNVFpdGh0enY2WG9KblBxcTFZLXpGci1hY0tOYUlZekhHaXJuRkowZlp3cnNncTBpQ3EwdjJUSnNOVUZ0VFI2YlJ0c3M?oc=5",
-        "title": "Alert RCB. \"Zabezpiecz rzeczy, które może porwać wiatr\"",
         "official": false,
         "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
         "guide": {
@@ -230,15 +202,35 @@
         "title": "Podatności w oprogramowaniu CGM CLININET",
         "official": true,
         "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
+      },
+      {
+        "at": "2026-10-22T13:55:00.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "CERT Polska",
+        "url": "https://cert.pl/posts/2026/10/CVE-2026-16477/",
+        "title": "Podatność w oprogramowaniu MTW CleanShot X",
+        "official": true,
+        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
       }
     ],
-    "updatedAt": "2026-10-25T10:12:22.122Z"
+    "updatedAt": "2026-10-25T11:11:58.047Z"
   },
   "en": {
     "sample": false,
     "items": [
       {
-        "at": "2026-10-25T09:52:08.000Z",
+        "at": "2026-10-25T10:26:39.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "UNITED24 Media",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPTEZDY0R0dkFnbFVEbXBwM3J6YURYQlphczdORWdhZUZRY05raFRQd0t4aDdmdUkzOUpyTlJYOWJHb3V1T3B5M1NTUUZJdGRBS1BEWnpkSkJpcTVKcnNEaXlkbHhRZHdZR1UxcXNGRDlERXFuU1NsRzdDeVdlSGhkODV5U3JfSVVQRldNTEdXQmZQSG55SW5zaEI5MG55VmNrV2hMUFBEVExnQkRxYkx0d0VrbzJfa21ES1RLMXd6azNxNE5rRm9nckl3?oc=5",
+        "title": "Drones Strike Russia’s Titanium Giant Supplying Su-34 Fighters and Iskander Missiles",
+        "official": false,
+        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+      },
+      {
+        "at": "2026-10-25T10:22:42.000Z",
         "cat": "security",
         "sev": 2,
         "source": "The National",
@@ -426,18 +418,8 @@
         "title": "US-Israel-Iran war: What UAE residents need to know today, October 24, 2026",
         "official": false,
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-24T14:47:42.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Ukrainian news",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNR3JVVURjZHh6bGdLRGtrN2I2OWxLc1g5ZklUTlozUEp1V0RiZmRXNWxTZEZ1M1MtbWJmcGpady16T0pBS3lTODUyd0FFVkZnT0dURVZWcC0wZXFyRzNKMVdoUEw4c1NFcVQ0clhRdE02TnNRa0RnaXU1QUFOaDNUaFYxMVFVNFdLMlphNlJzWGRwY24wZHF2ZU9qeVhxOFR5U1J6U1FQRmNFbm1nVnZBaWRzZ0VhQVAxRGhhTUVNWGZZX0g3ZzF2Ukk2ZFdWcmfSAc8BQVVfeXFMTUdyVVVEY2R4emxnS0RrazdiNjlsS3NYOWZJVE5aM1BKdVdEYmZkVzVsU2RGdTNTLW1iZnBqWnctek9KQUt5Uzg1MndBRVZGZ09HVEVWVnAtMGVxckczSjFXaFBMOHNTRXFUNHJYUXRNNk5zUWtEZ2l1NUFBTmgzVGhWMTFRVTRXSzJaYTZSc1hkcGNuMGRxdmVPanlYcThUeVNSelNRUEZjRW5tZ1Z2QWlkc2dFYUFQMURoYU1FTVhmWV9IN2cxdlJJNmRXVnJn?oc=5",
-        "title": "Large-scale blackout reported in annexed Autonomous Republic of Crimea - occupation authorities",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       }
     ],
-    "updatedAt": "2026-10-25T10:14:33.803Z"
+    "updatedAt": "2026-10-25T11:13:46.588Z"
   }
 }
