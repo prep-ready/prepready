@@ -4,6 +4,20 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-10-25T08:42:00.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "TVN24",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTUo2ZXNLRl9ITzJHSXY3MnF2RjctRFFwZGxSQjdOeEZjRjJ2WTN0SGRoc0t6azJRU0k2MG14LUg0eTJ4bTlJMTktY09OZFE1cHpQMXlUQkhWWXgxTmVMNkRLVnU4ZXBGNVFpdGh0enY2WG9KblBxcTFZLXpGci1hY0tOYUlZekhHaXJuRkowZlp3cnNncTBpQ3EwdjJUSnNOVUZ0VFI2YlJ0c3M?oc=5",
+        "title": "Silny wiatr, jest alert RCB. \"Zachowaj ostrożność\"",
+        "official": false,
+        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
+        "guide": {
+          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
+          "label": "Alert RCB i aplikacja RSO"
+        }
+      },
+      {
         "at": "2026-10-25T08:05:00.000Z",
         "cat": "health",
         "sev": 1,
@@ -216,27 +230,33 @@
         "title": "Podatności w oprogramowaniu CGM CLININET",
         "official": true,
         "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
-      },
-      {
-        "at": "2026-10-23T10:13:50.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "WP Wiadomości",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZTFTSHQzR2NvNXJzdnMyTzc2ZWtETnlXMkZMNU00TmFCeTBGdEEzcWtHSW1pVjg3Rkp5MFd1MkN1NTZ1cC1vb0RIU0JCNWJHRUc3cUZSaGVDOUZfcE9ZeTItYkxyeloxZkoyUjVlZklVeG1sdUR5LVZDcnIySDhIQmliWUVJMTg2dmN0c3dlSWJJQ1NtbzNtYkJGZnU?oc=5",
-        "title": "Telefony znów dzwonią. Pilny alert RCB dla 18 powiatów",
-        "official": false,
-        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
-        "guide": {
-          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
-          "label": "Alert RCB i aplikacja RSO"
-        }
       }
     ],
-    "updatedAt": "2026-10-25T08:11:13.132Z"
+    "updatedAt": "2026-10-25T09:13:39.766Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-25T09:10:51.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "IntelliNews",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNcnRzWEZ4VkVrN3VLbEhfZzBmMTJGVklhWGhQUGNoM1hsbU15OHNKbkIwNFhHQXh5enB6Z1dsQXczb3pCTWE4aVFjeldDUW9Vc2QyWHJpS1lMNXZVa01OM3p2LW1kbTVzQTYyNkpBUklMb3hYYTQxRjlLV291UDBLb0E0bzhzV3k0ZGVlUzJ2YkVJWjNMUGZSLTluM1Z3aExQamx1Sk1nZHhVX1Y2b2puay1oRktDcnlJM1dab2ZhZWc2OGpweGhRUDc2NXR2YmxVN2pzWW9OdTF3NVFuR3VCWnB1cnk?oc=5",
+        "title": "Missile War Monitor: Oryol strike toll rises to three as Kyiv claims hit on Proton-Electrotex plant",
+        "official": false,
+        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+      },
+      {
+        "at": "2026-10-25T07:43:02.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Ada Derana",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE02UTZNa2tZT1ludHprUEZBUGhoQnBKOWxCNTIyXzYxbmFxS2M0WWJKb3dKV0k2OWM3Z3p4djNaYzlqRy1hYTRn?oc=5",
+        "title": "Audit report reveals delays in cabinet-approved procurement of 200 electric buses for SLTB",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
       {
         "at": "2026-10-25T06:33:45.000Z",
         "cat": "security",
@@ -256,6 +276,16 @@
         "title": "69th IPA World Congress in Colombo…",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
+      {
+        "at": "2026-10-25T06:17:20.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Prothom Alo English",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ydGk1TGdQQVE5VzNET0FrdVRqbkpYQm9IQjdtT01fTTFpbUF2cF9fLTVkekI3bzh6UkFTQkJJaVQtYS1YdDM2WXg0aFJXaHJybnJBQlBUWS1aUWPSAWhBVV95cUxPd0dLSHZNM05XMXZOeFUwNVBjT0cyOGdNLXE1QzB6bGFycTkwX0RUMVFjSndYQXAyaUF2bjZTM1lXYWxEaFdZRFdHcXFYakRlZlRiRHFBcWlVVmVRLTR2SnpHXzZBQ2RVbQ?oc=5",
+        "title": "Cybersecurity threat spreads worldwide, affecting Bangladesh too",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
       },
       {
         "at": "2026-10-25T04:53:44.000Z",
@@ -406,38 +436,8 @@
         "title": "Makurdi residents fault JED over prolonged blackout",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-24T13:05:00.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Головне в Україні",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPazZMeVloNndJUm9SanVMM3l5U0NVT0k0TVRlNVRkWGpDa01VRWJNY194ZlBVeEpyTTlGYzlUU0k0Z25nMHJBUjNMZEV6TW5keU9qdmtrdmZyOWtOQTZnVEhtM2RJMnRESUU2VThNT243aFk0bkNJNHo4eUNGVnhkUWJoa3ZGT3VWaVM4dUFaV1pMdWcxWG93WHpFaEd4UdIBowFBVV95cUxQZXVoSGdETTFrOW1jZWZhMk9qbUVUNEdfX01EcmtRSGVMZnlnMkV2ODcwOWgtR3RjaEVHSTNZMmhmLTctWWFJS1ZjUWZ4Tkl3NkF2QnQzSHFVOWpIUUZSR1Bub1puNnczak0tUi1pLTZFa1NxaWxUSjN1R250TklTWWhlMzA2aWhNMDF5LXFLSjVsR0FoVGRPc3VFd2hEWUdmMW9N?oc=5",
-        "title": "Widespread blackout hits Russian-occupied territories of Ukraine",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-24T12:58:19.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "SOCRadar",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcnBfajdBQ3R3SllYS1NMQnFicXk5YkFBejVlLTJoOGl4TjVucWh3WVJpS1MwNlUwZzBkOXBlR0F4TG9lUzR1Ny14dnYwY2dmRXRpcHloZXI3QWgwT2VCbnZidDFPVVBFNXhfai1OYkJ1TWdiNnRvOFExMVZibE93YkdwM25rUzFkWjg0Q09scTRrTkVFQWYwcm9CZjdDeHBnYThQV0ZvQkFqQVRTRENPa0wyOGZvNl9DZDA1Zg?oc=5",
-        "title": "MINESURSI DRC: Teach... Ransomware Attack by Kazu",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-24T12:54:34.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Ada Derana",
-        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBldmdsR3JqT1QxdC1ZWDlUWVV5RlQwX0RqMmNPMkFfVWMybTVnVVJLQ1lySjhITk9NWVdqY3BHUnZ4cFEtM2xR?oc=5",
-        "title": "Reports claiming President was admitted to private hospital are false: President’s Office",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       }
     ],
-    "updatedAt": "2026-10-25T08:13:22.652Z"
+    "updatedAt": "2026-10-25T09:15:47.223Z"
   }
 }
