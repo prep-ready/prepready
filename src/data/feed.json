@@ -4,6 +4,20 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-10-25T14:48:36.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Polskie Radio 24",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbDBnTERfdENuTHdLQ3FpOC1UNzV1LWFtM2FPZ2VMNU5GM0I0a2g2WFZUV0FQUUFGSFBidlRtMUZRcTctM2xEMWszUzRLUl8tc2YyZjVoUFZnOGJubnNEUGlGeEN5dnN1LU5XVDFyZGVEMkw1UDBjdkVrUklpS0pHOW5DY0NsWGFxT3gxelFyQW5QWGF4OGhJ?oc=5",
+        "title": "Ewakuacja na Lotnisku Chopina w Warszawie. Ważny komunikat dla pasażerów",
+        "official": false,
+        "forYou": "Słuchaj poleceń służb, weź plecak ewakuacyjny, dokumenty i leki. Nie wracaj, dopóki służby nie odwołają ewakuacji.",
+        "guide": {
+          "href": "/pl/poradniki/plan-ewakuacji-rodziny/",
+          "label": "Plan ewakuacji rodziny"
+        }
+      },
+      {
         "at": "2026-10-25T13:37:25.000Z",
         "cat": "security",
         "sev": 2,
@@ -40,6 +54,16 @@
         "title": "GIS wydał komunikat w sprawie pierwszego przypadku wykrycia wirusa Shamonda u człowieka",
         "official": false,
         "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
+      },
+      {
+        "at": "2026-10-25T07:59:29.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMDVBbTl1Ti1qVHR1Rk84MDhvOGFfVmc4U09nWktETEdESlZ6S25PS3lQaXNPaDJ5ZnhIMEFxWXpZTE0wRkctR1l5VXBZVVA1SmtDcDR3NWZ6QTJIOHhaX0g5cGxFeHhfY2tHMXZLSGk2MWFYZ3JKeHRweUVhbTBqVjVkTFI0RkhfazZTYXhQR2N2LU9VUTR3?oc=5",
+        "title": "Polskie uzbrojenie trafi do Wietnamu? Jest zapowiedź. \"W grudniu konkretne kontrakty\"",
+        "official": false,
+        "forYou": "Informacja o sprzęcie wojskowym. Nie wymaga działań z Twojej strony."
       },
       {
         "at": "2026-10-24T23:10:36.000Z",
@@ -206,33 +230,23 @@
         "title": "RCB odwołuje alert w woj. lubelskim. \"Nie ma zagrożenia na terenie Polski\"",
         "official": false,
         "forYou": "Zagrożenie minęło. Sprawdź, czy w domu wszystko jest w porządku, i uzupełnij to, czego użyłeś z zapasu."
-      },
-      {
-        "at": "2026-10-23T15:57:36.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "WP Wiadomości",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPN2JIazBBTkRfd090ejQwNnpKZVVtNlRzcm8xREJuendscUpqWVZuWWZRM2hvVzhyR0J0YzFCS3E3MVluZzB3WTVid3lsSmU1YzlSLWdTQ2ktX0R1YndYWER5YXdkT0syUFJtWWJZLTAxd2JSNGx0MXJSUDFwRUwtRnNHVGpsdFRsYWVnUWhzRVp1dFk2LWc?oc=5",
-        "title": "Koniec alertu RCB na Lubelszczyźnie",
-        "official": false,
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-10-23T15:20:13.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Wiadomości Onet",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRkkwUkZnc1FOTWxMUVV4WFVocm1seWgzd0lvOFFuT0JHeG14SDI1Z2JIeFhGWHR5OHNSR1Q5VGdGNEd5ZWhZSE5sQ2Q2cGlheWtNLUtUVFVQcjNJWk5GaWxzWE1WZjVEckVyTGhPU3JjSFBna2pOMm1fYW01d3BMUVRIWDl1MGxTODhEMW9xN3l2NlN2eHFzRGdWb1FETDZPSm1zdU53?oc=5",
-        "title": "Rzecznik Kremla o rozejmie w ukraińskim mieście. \"Wojsko zgadza się\"",
-        "official": false,
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
       }
     ],
-    "updatedAt": "2026-10-25T15:11:36.155Z"
+    "updatedAt": "2026-10-25T16:12:18.924Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-25T15:52:08.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The National",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNnVfUnYtWklMbWF4TjRLaWdIdHpPZ0h0TThQUzRsT2JNdlIxNjFLdEFQb0sxa21kMXFnLTVSUndXOUstVHR6T2kyMjJpQnd3RHFOSWdTVExKd2ZGYV82MDdpc19uOENyLWhaNlZyVEhuVU5nM3pJdTNJd0hYY3FTc0VMUmxxX3lZV2I0WUZjcw?oc=5",
+        "title": "Middle East latest: Saudi Arabia intercepts barrage of Houthi missiles and drones",
+        "official": false,
+        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+      },
       {
         "at": "2026-10-25T14:44:08.000Z",
         "cat": "security",
@@ -240,16 +254,6 @@
         "source": "UNITED24 Media",
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNUk9CQXRUbDBSVWVSUjdWUEZDWUcySkNnencwMTZQMTdFRWs3VVlKbnAzOTFjZmU4ckZZZjloNnNzeUdkbk5aX1ZNeWRXNlJ5b0N6djE5eUd5bDZ0SWItZHh1bzh2M3lmUmJfVmRLRTBGNE40WGVhYlJ6Y1JYUHFXOHNGUW5OU3hTcHlIUkoxZ255dVF1UG1JM1p4ZEtDQ2FTcF9wM0V0RmpGdHlOdzRRaGNOV3BNM1VJUlU3NVg1LUVqcTg?oc=5",
         "title": "Missiles Reportedly Hit Russian Factory Powering Iskander and Kinzhal Missiles",
-        "official": false,
-        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
-      },
-      {
-        "at": "2026-10-25T13:23:16.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The National",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNnVfUnYtWklMbWF4TjRLaWdIdHpPZ0h0TThQUzRsT2JNdlIxNjFLdEFQb0sxa21kMXFnLTVSUndXOUstVHR6T2kyMjJpQnd3RHFOSWdTVExKd2ZGYV82MDdpc19uOENyLWhaNlZyVEhuVU5nM3pJdTNJd0hYY3FTc0VMUmxxX3lZV2I0WUZjcw?oc=5",
-        "title": "Middle East latest: Saudi Arabia intercepts barrage of Houthi missiles and drones",
         "official": false,
         "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
       },
@@ -434,6 +438,6 @@
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       }
     ],
-    "updatedAt": "2026-10-25T15:13:21.582Z"
+    "updatedAt": "2026-10-25T16:13:44.691Z"
   }
 }
