@@ -46,6 +46,16 @@
         }
       },
       {
+        "at": "2026-10-25T08:36:00.000Z",
+        "cat": "weather",
+        "sev": 3,
+        "source": "IMGW",
+        "url": "https://meteo.imgw.pl/",
+        "title": "IMGW: 8 ostrzeżeń meteo, najwyższy stopień 2: Silny wiatr",
+        "official": true,
+        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
+      },
+      {
         "at": "2026-10-25T08:05:00.000Z",
         "cat": "health",
         "sev": 1,
@@ -154,16 +164,6 @@
         "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
       },
       {
-        "at": "2026-10-24T11:42:00.000Z",
-        "cat": "weather",
-        "sev": 3,
-        "source": "IMGW",
-        "url": "https://meteo.imgw.pl/",
-        "title": "IMGW: 8 ostrzeżeń meteo, najwyższy stopień 2: Silny wiatr",
-        "official": true,
-        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
-      },
-      {
         "at": "2026-10-24T09:20:32.000Z",
         "cat": "health",
         "sev": 1,
@@ -232,7 +232,7 @@
         "forYou": "Zagrożenie minęło. Sprawdź, czy w domu wszystko jest w porządku, i uzupełnij to, czego użyłeś z zapasu."
       }
     ],
-    "updatedAt": "2026-10-25T16:12:18.924Z"
+    "updatedAt": "2026-10-25T17:13:17.354Z"
   },
   "en": {
     "sample": false,
@@ -256,6 +256,16 @@
         "title": "Missiles Reportedly Hit Russian Factory Powering Iskander and Kinzhal Missiles",
         "official": false,
         "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+      },
+      {
+        "at": "2026-10-25T12:50:05.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Інтент",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOcFFiejVhai1PQ1k0aTBjWnhKbHhBQmNRQ1BWY0lZYnhXU1R6OFp5MGVhdGhINFRxek12T2ZoazZua2Z3VmhhQmJtMElDSnQxNzVzaDRBZXBkZkYwa2xoeEkyenpRYUlJdHdjazc1NC1scDlXN1ZTMko5SThja3pJMmNnNG5PMlU0VGd4ZGZpVkFFQTBrYlFvTmFHLW11Nm9SOFdwZXpXR0dHOWp5X0pKNTdGaUZqbXFTMDV0ekw2ZGVXa0k?oc=5",
+        "title": "Blackout in Crimea: Sevastopol Resumes Power Outage Schedules",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       },
       {
         "at": "2026-10-25T12:09:50.000Z",
@@ -426,18 +436,8 @@
         "title": "Major General Sampath Fernando appointed Chief of Staff of Sri Lanka Army",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-24T18:45:01.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "The Morning",
-        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1fQ3d0VURXdUVNc0pWUl9XZzhvVF9ZZUZLcUt3LVlHQTl5UXBmRHQzNU9iNVZ1RDloazJmVVhOd1lGTUMtTkNVemRDU2ZTZDI5aGRtNlRuR1lWbVN2ZTN6ZTNWYXJaUQ?oc=5",
-        "title": "Why does Sri Lanka’s power grid keep failing?",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       }
     ],
-    "updatedAt": "2026-10-25T16:13:44.691Z"
+    "updatedAt": "2026-10-25T17:15:04.339Z"
   }
 }
