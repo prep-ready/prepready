@@ -4,6 +4,16 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-10-25T08:05:00.000Z",
+        "cat": "health",
+        "sev": 1,
+        "source": "RMF24",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaWQzUkhXanJXeHlnWEtTbDRsUkVadG11X3VOcHZxMlp3bFg3aDYxTEVDU192bzE1Qm91QzhLc0VxSVZrRUp1aEFYT0FVeEN2Y2pYSDB3YnZhZ0pmdEhra3BrOGFfWEowa2ZlVG44bWVqMGpJMVVMR1Jlam1yZ2s0M0E0OUNqZ3E4MzBkbDhRQk5FSjZKcDVMbFh3YlYxZWdnbVBvUld6bVZ5YmE4cG1SQXpR?oc=5",
+        "title": "GIS wydał komunikat w sprawie pierwszego przypadku wykrycia wirusa Shamonda u człowieka",
+        "official": false,
+        "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
+      },
+      {
         "at": "2026-10-24T23:10:36.000Z",
         "cat": "security",
         "sev": 2,
@@ -78,6 +88,16 @@
         "title": "Epidemia eboli. Ruszyły testy nowej szczepionki",
         "official": false,
         "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
+      },
+      {
+        "at": "2026-10-24T11:42:00.000Z",
+        "cat": "weather",
+        "sev": 3,
+        "source": "IMGW",
+        "url": "https://meteo.imgw.pl/",
+        "title": "IMGW: 11 ostrzeżeń meteo, najwyższy stopień 2: Silny wiatr",
+        "official": true,
+        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
       },
       {
         "at": "2026-10-24T11:42:00.000Z",
@@ -210,33 +230,33 @@
           "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
           "label": "Alert RCB i aplikacja RSO"
         }
-      },
-      {
-        "at": "2026-10-23T10:01:06.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Wiadomości Onet",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcmR0ckc2OUh4NE1MOWRObkRLQWIydWlkcFItZllBQzZ0NDlualV6OHpnWmt1WWlZRG8wZ0VoSlRNVVlBNG5ReGQ3el9DQzBkdUhmdlBFaEV0M3dfd1U1ZjVGZmNHM3RJQmNYLWpybGRKR2ZEOGRIaU1zT0xLV3h6ek9kdk1lcjR5LWFBQWg5aDhNb2xLa25rTTlaZ3E?oc=5",
-        "title": "Polski czołg K2PL coraz mniej polski. Wojsko zdecydowało",
-        "official": false,
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-10-23T08:42:19.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Onet",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOaE1oZWV1YVJKLXh2amwxeTl5aHkyNGhTeGtYNFpiTm9laEc5bGhTQmhKanRGU0VmbUhWSzZkNk84M2R5enlmTC1zZTZCamFIQWx3QWhiOXJaQkg5bmhBZ1g0UGxLc3RWODVmY3o5QkF1NmQ1QUQzbjdlbUpjdk5pODVZMmxyZmlVVjBpRWRsS29FaktBMXR5T3JoUXlvZFplUzV5UThZUEtDU2pKSHU2SFdzY1BzNlZxQVhYV2xZOA?oc=5",
-        "title": "Generalskie Łapówki. Konto na TikToku atakuje polskich dowódców",
-        "official": false,
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
       }
     ],
-    "updatedAt": "2026-10-25T07:25:38.099Z"
+    "updatedAt": "2026-10-25T08:11:13.132Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-25T06:33:45.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNejJVeno4cmRWUWhlWHZNR2NoWF8xZ19jNnVXTS12b01LRFhpbFdpMUZCTXdJSVk3WFFhSy11dHZlekhOaUxxZTNOR1VObXdtZkQtRVpRZGhQbElmV2dJbzNWSzJpTHlrV0drQ0EtZ2hXVXJmTUZZUklOQlV4NmdoMHV4OUp5MGtXVzdTb19WZzVWTVFaNzNma1J1cWTSAaIBQVVfeXFMTTVxZm9xZlhCcDJhb0p2cV9GeHl2eWFHM28xak5sT2J3cFBiNW5hdk1WamVxdXBiQzd2UmIxcnd0VTNNU3U2MUNZVW1xTmIwMGRsTndWZnZENlR4WlpvZXJUQ2N2LU9LMWRpSURFX091Wkxfd2xFMFM0Yl9uV0xNQTg1cEpZUjE3TG13c1lKU2NIVlFmT2J6b2I4QzNLTDBMVEtR?oc=5",
+        "title": "Houthis launch attacks on Saudi Arabia and Yemen’s Aden",
+        "official": false,
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
+      {
+        "at": "2026-10-25T06:29:28.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Ada Derana",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9WWjJBcC03SDNVMzRCTGNvSEdXRDBueE5ZWV9pWTJ2N0xINWZuZ0R3cDdoWW1uZk9xdDlrOS1XZVNWSDdqUXZ5czZvblBuYVR6a3JNY1pZM1c2X1M4cWtSaXlLTUk1LXdBYWRyaTBKTUVfa3k3QUZvSjR6QzBFQQ?oc=5",
+        "title": "69th IPA World Congress in Colombo…",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
       {
         "at": "2026-10-25T04:53:44.000Z",
         "cat": "energy",
@@ -246,16 +266,6 @@
         "title": "Series of explosions rock Saudi Arabia’s Riyadh",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-25T04:04:13.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The National",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNnVfUnYtWklMbWF4TjRLaWdIdHpPZ0h0TThQUzRsT2JNdlIxNjFLdEFQb0sxa21kMXFnLTVSUndXOUstVHR6T2kyMjJpQnd3RHFOSWdTVExKd2ZGYV82MDdpc19uOENyLWhaNlZyVEhuVU5nM3pJdTNJd0hYY3FTc0VMUmxxX3lZV2I0WUZjcw?oc=5",
-        "title": "Middle East latest: Saudi-led coalition downs Houthi missile launched towards Riyadh",
-        "official": false,
-        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
       },
       {
         "at": "2026-10-25T04:01:16.000Z",
@@ -426,18 +436,8 @@
         "title": "Reports claiming President was admitted to private hospital are false: President’s Office",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-24T11:39:02.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "IntelliNews",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNWGc1RTRsNUpqOWk5ZFRqSkc3ZC0tbEV0Mm5rbWEyX0Y2TXNYQmZaRWNJTEJrdnNpeTVsWVhUSWx6VWJCdTU0dFFNczF2SXRKVmxJNUhLR1dtQkY2MTN2S0dCbDRFUmRBZHIxNlM0SDBqMUhURXVBc0c4bWZ5bnhudnQ3SDRPUXVtVUlNWDFiV1FDQVdheEE5SjZRVEpOTE5fQzFDMko5QXZaVzZZaWttemtJU05ZcnA1VUJMNWliSXRQNHV0YVlGYkN6WQ?oc=5",
-        "title": "Missile War Monitor: Oryol missile strike injures eight; channels name Proton plant",
-        "official": false,
-        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
       }
     ],
-    "updatedAt": "2026-10-25T07:27:09.525Z"
+    "updatedAt": "2026-10-25T08:13:22.652Z"
   }
 }
