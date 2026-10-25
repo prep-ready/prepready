@@ -2,7 +2,7 @@
   "_comment": "Aktualizuje scripts/update-data.mjs codziennie. pl = Polska, en = świat. Składowe z mode=manual ustawiasz ręcznie.",
   "pl": {
     "sample": false,
-    "updatedAt": "2026-10-25T05:16:25.294Z",
+    "updatedAt": "2026-10-25T06:15:04.852Z",
     "score": 26,
     "delta7": -5,
     "ago30": 37,
@@ -77,7 +77,7 @@
           53,
           52
         ],
-        "stale": false
+        "stale": true
       },
       {
         "id": "nuclear",
@@ -237,7 +237,7 @@
   },
   "en": {
     "sample": false,
-    "updatedAt": "2026-10-25T05:18:10.948Z",
+    "updatedAt": "2026-10-25T06:19:19.596Z",
     "score": 39,
     "delta7": 4,
     "ago30": 35,
@@ -315,7 +315,7 @@
           52,
           25
         ],
-        "stale": false
+        "stale": true
       },
       {
         "id": "nuclear",
@@ -384,7 +384,7 @@
           57,
           55
         ],
-        "stale": false
+        "stale": true
       },
       {
         "id": "weather",
@@ -460,7 +460,7 @@
           52,
           50
         ],
-        "stale": false
+        "stale": true
       }
     ],
     "historyDates": [
