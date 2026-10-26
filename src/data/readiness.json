@@ -2,9 +2,9 @@
   "_comment": "Aktualizuje scripts/update-data.mjs codziennie. pl = Polska, en = świat. Składowe z mode=manual ustawiasz ręcznie.",
   "pl": {
     "sample": false,
-    "updatedAt": "2026-10-26T15:32:43.455Z",
-    "score": 14,
-    "delta7": -19,
+    "updatedAt": "2026-10-26T20:47:45.112Z",
+    "score": 22,
+    "delta7": -11,
     "ago30": 32,
     "history": [
       32,
@@ -36,14 +36,14 @@
       26,
       21,
       17,
-      14
+      22
     ],
     "components": [
       {
         "id": "conflict",
         "name": "Konflikt w regionie",
         "weight": 30,
-        "value": 5,
+        "value": 31,
         "sources": "GDELT · Google News",
         "trend": [
           63,
@@ -53,7 +53,7 @@
           42,
           5,
           5,
-          5
+          31
         ],
         "mode": "auto",
         "raw": [
@@ -75,7 +75,7 @@
           100,
           81,
           53,
-          31
+          63
         ],
         "stale": false
       },
@@ -238,9 +238,9 @@
   },
   "en": {
     "sample": false,
-    "updatedAt": "2026-10-26T15:34:13.649Z",
-    "score": 43,
-    "delta7": 6,
+    "updatedAt": "2026-10-26T20:49:51.770Z",
+    "score": 39,
+    "delta7": 2,
     "ago30": 32,
     "history": [
       32,
@@ -272,14 +272,14 @@
       43,
       39,
       40,
-      43
+      39
     ],
     "components": [
       {
         "id": "conflict",
         "name": "Global conflict",
         "weight": 30,
-        "value": 51,
+        "value": 42,
         "sources": "GDELT · Google News",
         "trend": [
           40,
@@ -289,7 +289,7 @@
           48,
           47,
           49,
-          51
+          42
         ],
         "mode": "auto",
         "raw": [
@@ -314,7 +314,7 @@
           53,
           50,
           52,
-          41
+          46
         ],
         "stale": false
       },
@@ -340,7 +340,7 @@
         "id": "energy",
         "name": "Power & grid",
         "weight": 15,
-        "value": 33,
+        "value": 30,
         "sources": "Google News",
         "trend": [
           15,
@@ -350,7 +350,7 @@
           30,
           35,
           33,
-          33
+          30
         ],
         "mode": "auto",
         "raw": [
@@ -383,7 +383,7 @@
           50,
           57,
           54,
-          54
+          51
         ],
         "stale": false
       },
@@ -411,7 +411,7 @@
         "id": "health",
         "name": "Public health",
         "weight": 10,
-        "value": 28,
+        "value": 20,
         "sources": "ECDC",
         "trend": [
           28,
@@ -421,7 +421,7 @@
           28,
           28,
           28,
-          28
+          20
         ],
         "mode": "auto",
         "raw": [],
