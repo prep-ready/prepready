@@ -2,12 +2,11 @@
   "_comment": "Aktualizuje scripts/update-data.mjs codziennie. pl = Polska, en = świat. Składowe z mode=manual ustawiasz ręcznie.",
   "pl": {
     "sample": false,
-    "updatedAt": "2026-10-25T22:52:06.862Z",
+    "updatedAt": "2026-10-26T01:49:54.390Z",
     "score": 17,
-    "delta7": -14,
-    "ago30": 37,
+    "delta7": -16,
+    "ago30": 32,
     "history": [
-      37,
       32,
       37,
       28,
@@ -36,6 +35,7 @@
       23,
       26,
       21,
+      17,
       17
     ],
     "components": [
@@ -46,12 +46,12 @@
         "value": 5,
         "sources": "GDELT · Google News",
         "trend": [
-          46,
           63,
           63,
           63,
           23,
           42,
+          5,
           5,
           5
         ],
@@ -124,13 +124,13 @@
         "value": 33,
         "sources": "IMGW · GDACS",
         "trend": [
-          33,
           13,
           33,
           13,
           13,
           13,
           60,
+          33,
           33
         ],
         "mode": "auto",
@@ -148,7 +148,7 @@
           27,
           27,
           27,
-          27,
+          12,
           12,
           12,
           12
@@ -167,9 +167,9 @@
           5,
           5,
           5,
-          5,
           19,
           7,
+          5,
           5,
           5
         ],
@@ -197,13 +197,13 @@
           33,
           25,
           16,
+          5,
           5
         ],
         "stale": false
       }
     ],
     "historyDates": [
-      "2026-09-26",
       "2026-09-27",
       "2026-09-28",
       "2026-09-29",
@@ -232,17 +232,17 @@
       "2026-10-22",
       "2026-10-23",
       "2026-10-24",
-      "2026-10-25"
+      "2026-10-25",
+      "2026-10-26"
     ]
   },
   "en": {
     "sample": false,
-    "updatedAt": "2026-10-25T22:54:19.636Z",
-    "score": 40,
-    "delta7": 5,
-    "ago30": 35,
+    "updatedAt": "2026-10-26T01:50:41.158Z",
+    "score": 39,
+    "delta7": 2,
+    "ago30": 32,
     "history": [
-      35,
       32,
       35,
       33,
@@ -271,7 +271,8 @@
       46,
       43,
       39,
-      40
+      40,
+      39
     ],
     "components": [
       {
@@ -281,13 +282,13 @@
         "value": 49,
         "sources": "GDELT · Google News",
         "trend": [
-          39,
           40,
           43,
           48,
           61,
           48,
           47,
+          49,
           49
         ],
         "mode": "auto",
@@ -339,21 +340,20 @@
         "id": "energy",
         "name": "Power & grid",
         "weight": 15,
-        "value": 33,
+        "value": 34,
         "sources": "Google News",
         "trend": [
-          5,
           15,
           32,
           29,
           34,
           30,
           35,
-          33
+          33,
+          34
         ],
         "mode": "auto",
         "raw": [
-          46,
           44,
           38,
           40,
@@ -382,7 +382,8 @@
           54,
           50,
           57,
-          54
+          54,
+          56
         ],
         "stale": false
       },
@@ -390,17 +391,17 @@
         "id": "weather",
         "name": "Disasters & weather",
         "weight": 15,
-        "value": 46,
+        "value": 45,
         "sources": "GDACS",
         "trend": [
-          72,
           66,
           61,
           56,
           60,
           53,
           47,
-          46
+          46,
+          45
         ],
         "mode": "auto",
         "raw": [],
@@ -430,17 +431,17 @@
         "id": "cyber",
         "name": "Cyber & infrastructure",
         "weight": 15,
-        "value": 36,
+        "value": 27,
         "sources": "GDELT · Google News",
         "trend": [
-          26,
           32,
           34,
           42,
           36,
           58,
           34,
-          36
+          36,
+          27
         ],
         "mode": "auto",
         "raw": [
@@ -464,7 +465,6 @@
       }
     ],
     "historyDates": [
-      "2026-09-26",
       "2026-09-27",
       "2026-09-28",
       "2026-09-29",
@@ -493,7 +493,8 @@
       "2026-10-22",
       "2026-10-23",
       "2026-10-24",
-      "2026-10-25"
+      "2026-10-25",
+      "2026-10-26"
     ]
   },
   "doomsdayClock": {

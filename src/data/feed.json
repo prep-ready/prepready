@@ -228,11 +228,41 @@
         }
       }
     ],
-    "updatedAt": "2026-10-25T22:52:06.866Z"
+    "updatedAt": "2026-10-26T01:49:54.394Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-26T01:29:51.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The National",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNnVfUnYtWklMbWF4TjRLaWdIdHpPZ0h0TThQUzRsT2JNdlIxNjFLdEFQb0sxa21kMXFnLTVSUndXOUstVHR6T2kyMjJpQnd3RHFOSWdTVExKd2ZGYV82MDdpc19uOENyLWhaNlZyVEhuVU5nM3pJdTNJd0hYY3FTc0VMUmxxX3lZV2I0WUZjcw?oc=5",
+        "title": "Middle East latest: US tells staff not to use Saudi airports without 'special authorisation'",
+        "official": false,
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
+      {
+        "at": "2026-10-26T01:03:03.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "GovInsider",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZWhzRElrQmlLckNfREItZTgydlFsSjVLTjAyU3hHLUszZ0ZIVGFCbkxoRWozSlRXNUlnWDdSOThSYkVpcGNOVGY1VDF6UWNKVkd3eWVoemVpS3NqM1JUVGFPTEhOeHVoQmtSTTdxUEFpOWZFTkNKdUJsNUFLM0VHNURIR3ZfQVhkNlVqeXMtd19NUlE?oc=5",
+        "title": "Why hospital cyber resilience is a joint decision",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
+      {
+        "at": "2026-10-25T22:52:47.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "EnergyNow.com",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUmRjOW5iTlYxTE5NSkNHZlRTZXJRWXBZTEJMZ0FyNFItWWtPV3pmWUdnVTF0M2JzMmxOTmMyMU5MMG1nM3VJcnk2OS1OMXBrS3IxbTBvVVZVb1N0S2F6M1ZSS09kT18yOWZvZUh1MEdWSzlhTWw2TlAxWmpHcGZOZEN0U0haVUNBWHBPeS1ZNzVzYmlBZkMxTmFkb25vbERIeUx1eDBSeHNoUkVSUjVkc1dZeG8yYUZRbFJoTA?oc=5",
+        "title": "Fujairah Oil Zone Hit by Fire After Drone Attack as UAE Says it Intercepted Iran Missiles",
+        "official": false,
+        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+      },
       {
         "at": "2026-10-25T22:23:00.000Z",
         "cat": "energy",
@@ -252,16 +282,6 @@
         "title": "Cenbank takes website offline over global cyberattack concerns",
         "official": false,
         "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-25T19:27:15.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The National",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNnVfUnYtWklMbWF4TjRLaWdIdHpPZ0h0TThQUzRsT2JNdlIxNjFLdEFQb0sxa21kMXFnLTVSUndXOUstVHR6T2kyMjJpQnd3RHFOSWdTVExKd2ZGYV82MDdpc19uOENyLWhaNlZyVEhuVU5nM3pJdTNJd0hYY3FTc0VMUmxxX3lZV2I0WUZjcw?oc=5",
-        "title": "Middle East latest: US tells staff not to use Saudi airports without 'special authorisation'",
-        "official": false,
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       },
       {
         "at": "2026-10-25T17:36:20.000Z",
@@ -412,28 +432,8 @@
         "title": "Series of explosions rock Saudi Arabia’s Riyadh",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-25T04:01:16.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "LEADERSHIP Newspapers",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVVNMeU9jWVMxc21hYW1GUXNOVmtSalBCdm5ZcDl0ZEFWX2dudFByeFdCQzh4eWxuNTdXdnQteWVJY3FtUW84d3R1X25qeE1fYlBoY2d3Tlk5TU5UZVpsbGN6T3RJMGlzLXZLbTNQa2Zyckt2VzFkTm5nSEtGY0pBTlNwWnFHMFJxZm43djRSdHo?oc=5",
-        "title": "Aondoakaa, Residents Seek Restoration Of Electricity After Attack",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-25T02:48:00.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "The New Indian Express",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcUJDSnBoRmNjdk04WEJxZXVEWUNRVlZVSjhLaHBXcUpNWFM2aS1SaTZIdWZfNUY2bC0xSXhvZGs4a20xcWlCaVFTREpsU0drdngzRVA4UHp0Q0t6dGVTVldkWHNxVmFHNGh5X0NHcldwWWIxcDBsQVQ5WjNrdkJhYXhTZ2Z3LVZtSG9uYVhjZXFDNWVYWkw0UW9zbnhncGxVdTgxVXpQV2hsMGJFUFYya1ZkbXh4ZzDSAbcBQVVfeXFMTXFCQ0pwaEZjY3ZNOFhCcWV1RFlDUVZWVUo4S2hwV3FKTVhTNmktUmk2SHVmXzVGNmwtMUl4b2RrOGttMXFpQmlRU0RKbFNHa3Z4M0VQOFB6dENLenRlU1ZXZFhzcVZhRzRoeV9DR3JXcFliMXAwbEFUOVoza3ZCYWF4U2dmdy1WbUhvbmFYY2VxQzVlWFpMNFFvc254Z3BsVXU4MVV6UFdobDBiRVBWMmtWZG14eGcw?oc=5",
-        "title": "TG-iPASS portal fails ransomware attack test",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
       }
     ],
-    "updatedAt": "2026-10-25T22:54:19.637Z"
+    "updatedAt": "2026-10-26T01:50:41.159Z"
   }
 }
