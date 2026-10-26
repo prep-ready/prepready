@@ -1,0 +1,60 @@
+---
+import Base from '../layouts/Base.astro';
+import GuideCards from '../components/GuideCards.astro';
+import { clusters, routes, t, fmtDate, type Lang } from '../i18n/ui';
+import { articles, hrefOf } from '../lib/articles';
+import { hubs, hubHref, hubExists } from '../data/hubs';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const list = await articles(lang);
+const topicLinks = (Object.keys(hubs) as (keyof typeof hubs)[])
+  .map((c) => ({ c, n: list.filter((a) => a.data.cluster === c).length }))
+  .filter(({ c, n }) => hubExists(c, lang, n));
+const meta = {
+  pl: { title: 'Poradniki na czas kryzysu', desc: 'Praktyczne poradniki: plecak ewakuacyjny, blackout, woda i żywność, schron, ewakuacja i pierwsza pomoc. Oparte na źródłach urzędowych.' },
+  en: { title: 'Crisis preparedness guides', desc: 'Practical guides: go-bags, blackouts, water and food, shelter, evacuation and first aid. Based on official sources.' },
+}[lang];
+---
+<Base lang={lang} title={meta.title} description={meta.desc} alternates={{ pl: routes.guides.pl, en: routes.guides.en }} current="guides">
+  <div class="wrap page-head">
+    <div class="eyebrow">{t(lang, 'g.eyebrow')}</div>
+    <h1>{meta.title}</h1>
+    <p>{meta.desc}</p>
+  </div>
+  <div class="wrap">
+    <h2 class="sub">{lang === 'pl' ? 'Tematy' : 'Topics'}</h2>
+    <p class="intro">{lang === 'pl'
+      ? 'Poradniki są podzielone na sześć tematów. Jeśli zaczynasz od zera, przejdź je w tej kolejności: najpierw plecak ewakuacyjny i zapas wody, potem plan na blackout i miejsce ukrycia. Każdy tekst ma listę źródeł i datę ostatniego przeglądu.'
+      : 'Our guides are grouped into six topics. If you are starting from scratch, take them in this order: a go-bag and a water supply first, then a blackout plan and a place to shelter. Every guide lists its sources and its last review date.'}</p>
+    <GuideCards lang={lang} />
+    <ul class="topics">
+      {topicLinks.map(({ c, n }) => <li><a href={hubHref(c, lang)}>{clusters[c][lang]}</a> <span>{n}</span></li>)}
+    </ul>
+  </div>
+  <section class="block" style="margin-top:40px">
+    <div class="wrap">
+      <h2 style="margin-bottom:16px">{lang === 'pl' ? 'Wszystkie teksty' : 'All articles'}</h2>
+      <ul class="all">
+        {list.map((a) => (
+          <li>
+            <a href={hrefOf(a)}>{a.data.title}</a>
+            <span>{clusters[a.data.cluster][lang]} · {a.data.readingMinutes} {t(lang, 'g.min')} · {fmtDate(a.data.reviewed, lang)}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+</Base>
+<style>
+  .topics{list-style:none;padding:0;margin:20px 0 0;display:flex;flex-wrap:wrap;gap:8px 22px}
+  .topics a{color:var(--action);font-weight:700;text-decoration:none}
+  .topics a:hover{text-decoration:underline}
+  .topics span{font-family:var(--mono);font-size:12px;color:var(--muted)}
+  .intro{font-family:var(--body);font-weight:var(--body-w);font-size:15px;line-height:1.65;color:var(--ink-2);max-width:66ch;margin:0 0 18px}
+  .sub{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600;margin-bottom:14px}
+  .all{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+  .all li{display:flex;justify-content:space-between;gap:16px;padding:14px 0;border-bottom:1px solid var(--line);flex-wrap:wrap}
+  .all a{font-weight:700;font-size:17px;text-decoration:none}
+  .all a:hover{color:var(--action)}
+  .all span{font-family:var(--mono);font-size:12px;color:var(--muted)}
+</style>
