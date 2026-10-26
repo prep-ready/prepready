@@ -4,12 +4,56 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-10-26T06:44:28.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "CyberDefence24",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTzRhQVl2UXFmeFhFNnNWR3hsSWVRWmVIZGoyWFZwTEl6VHhEbkdaSl9XQUFXd1lrdFZqVXdjN2R0cmhtNkNYVEhqeHRFbU80WTNHSHBvZXlfZHoxcjBtal9VUmRqWG9YRTlMTnlfZkxSMUwwRERvQ1hRa2dxWGQ5TFphd1ZVZXplRmFsWmFHVmJDUkNLWkZUZ0NySWRIckFOSjQ0R0pHQ0xHaHMyTHc?oc=5",
+        "title": "System z „Bezpiecznego Podlasia” wzmocni polskie wojsko",
+        "official": false,
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+      },
+      {
+        "at": "2026-10-26T06:20:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Bankier.pl",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQUkFWS3hidktiRFNMOWVQTmtTN05PMmxNRmF5RDJMVFZTUENsLVZpMV9UREw4VWctbHFWTHRlczZTT1R1ZnUzU1AyWnEyX1Rldm5JZmhSamZlVVRUTzFfcHl2NktKX21VVGJxeTNVUHBBclBTWGtON0ZqTy00ajdfYTM4eTZPamVJWEtUcjdMVWx0R3B1V0oxc3hYQlAzU3hzWHcwUXZDZmlrZHRpWUVXN25sZ0kxNzhTMzZmNERueVdxT1U?oc=5",
+        "title": "Gamedev zwietrzył złoty interes w MON. Wojsko otwiera się na cywilną technologię",
+        "official": false,
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+      },
+      {
+        "at": "2026-10-26T06:00:13.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZDlKeHI5VkpxLXMyaXJmWkVXN1Y3Yi1WdU9YN1k1Mm9HRGVBTFRObDc5cktMQzlWZ2RGSWVfRlJQZHMyRmhVQlRnbVpyZEEtM0s2SFFsV2ZiT29jQkRfMGczd2F5Qm1RRWxlQXhYaUkyTnZ0UjNqaHUtckJtMmRHenE2ZjN1MnV2LVF2a2hVRS15R3p0cDlfaU16dHk4d3ZzRWNEaTl4czI?oc=5",
+        "title": "Polsce brakuje pilotów F-16. Wojsko szybko ich nie znajdzie",
+        "official": false,
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+      },
+      {
         "at": "2026-10-25T14:48:36.000Z",
         "cat": "safety",
         "sev": 2,
         "source": "Polskie Radio 24",
         "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbDBnTERfdENuTHdLQ3FpOC1UNzV1LWFtM2FPZ2VMNU5GM0I0a2g2WFZUV0FQUUFGSFBidlRtMUZRcTctM2xEMWszUzRLUl8tc2YyZjVoUFZnOGJubnNEUGlGeEN5dnN1LU5XVDFyZGVEMkw1UDBjdkVrUklpS0pHOW5DY0NsWGFxT3gxelFyQW5QWGF4OGhJ?oc=5",
         "title": "Ewakuacja na Lotnisku Chopina. Ważny komunikat dla pasażerów",
+        "official": false,
+        "forYou": "Słuchaj poleceń służb, weź plecak ewakuacyjny, dokumenty i leki. Nie wracaj, dopóki służby nie odwołają ewakuacji.",
+        "guide": {
+          "href": "/pl/poradniki/plan-ewakuacji-rodziny/",
+          "label": "Plan ewakuacji rodziny"
+        }
+      },
+      {
+        "at": "2026-10-25T14:09:48.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Radio Zet",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRGNMaTlTWW5Ia3RXYlNERDJJeUtMMlZyeWpGSnFPSWpqT0RTaHpndFFiYzVmQmpaR3pBcHVmS0NlZ2FKMmdMelpDOFBEZEduLXUxa2ZxR29CU29na3I1QjZqZTlZRFFVN2dNYkdXMXJWVC1ybHFRU19OUWhCRDFHQ2VybUF4T05PdWVIVG0wWmRQaEY3b1lZRS12MHp4a3p2bE1VYk52SjNWSzB4LWMyYmlZQQ?oc=5",
+        "title": "Ewakuacja na lotnisku Okęcie w Warszawie. Utrudnienia w kursowaniu autobusów",
         "official": false,
         "forYou": "Słuchaj poleceń służb, weź plecak ewakuacyjny, dokumenty i leki. Nie wracaj, dopóki służby nie odwołają ewakuacji.",
         "guide": {
@@ -182,57 +226,43 @@
         "title": "IMGW: 13 ostrzeżeń meteo, najwyższy stopień 2: Silny wiatr",
         "official": true,
         "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
-      },
-      {
-        "at": "2026-10-24T09:20:32.000Z",
-        "cat": "health",
-        "sev": 1,
-        "source": "Polskie Radio 24",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSzdWY3locXFuRzBlUS0tOFZZT2VwaHVpQUN3ckJIYWxzSVdqTUwySEk3RnNWbGtBQ09uVko0azN5TWFNR2xvclo4b2FYY2lUakNmamU2a1o4SWpiVUtFV0xGWTVkeGJIZU9UYjc5UXJNYzVKOFQwUFVyNnV5UkRpV1JZVWJQUlk2NU04Q2V3SFRVT2ZTMUhCM19lYnBQZjlf?oc=5",
-        "title": "Wirus Shamonda u człowieka. Pacjent nie żyje, GIS ocenia ryzyko epidemii",
-        "official": false,
-        "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
-      },
-      {
-        "at": "2026-10-24T09:15:25.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Rzeczpospolita",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNUlRCZjFSdWtZN2s4WG40ZjNaTVdzS21HaUc4OGQzTXNDeENsZWI5UWgtVHZFak5ySWtrOEFmQkhMbXFNTFhtUXdua21TLVVxVG9DdXpqX214LWJOaDNYY2hkQmtTX0cxa21ZU0ptYUx6RGltWkQzVlVIU3BTclZQcUU0NWNQckxIYlltdW1ZSQ?oc=5",
-        "title": "Wiemy, dlaczego w USA zginęło dwóch żołnierzy GROM",
-        "official": false,
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-10-24T06:02:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Rzeczpospolita",
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQRWJWWkx4REZDTV9KRzJPRU1yTEhWZjlCQld2Z0tadm5lUG9mY3JLQTJOWkVDYlhmdi03TWhFTU5BaGF0RTBJSG0yYzg0SVlBbjF2cTdsZUE0amdtSm8zYUU1MkNERDFvZnQ5andlTDRsOXRfdmIyVTQxSjZUS1BESk0weDBMWmFveFNjZUMyZmhXdjBLNGFVN1A0eHYzZUl6UWM4a1lCcEhBaXNIXzhVZ1BVRkdSOFpUNF95dWxQUlVhdVc1TmF2QUxPN0ZLRFZycUJQUHVn?oc=5",
-        "title": "Wspólna taktyka zatrzymanych w Polsce. Podejrzani o sabotaż wyciągają kartę niepoczytalności",
-        "official": false,
-        "forYou": "Zgłaszaj podejrzane osoby i przedmioty przy torach, liniach energetycznych i obiektach wojskowych pod 112. Nie rób zdjęć instalacji wojskowych."
-      },
-      {
-        "at": "2026-10-23T18:25:00.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Radio Zet",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObjJoWmxtRzF6X0JyMG1jdGFBWkNNYTFaRE9BcWVkRmI5ZHhnZWRRLVlCbXIydG5RMmpRY0pQdHUwNndnTkJfQlRDRGFfNFQ3dng1N2VrVmxYYUY2RVl3aGY0ZEJIWDR0U3NMRkgwTzR6cjdRNXU3R1FHZk9UeS1uTGVFRjNqRjBfSW05bnpHQ2ZMTXNzMzAtZS1UNnB4M21mSXp3OWNCSQ?oc=5",
-        "title": "Kolejny alert RCB dla woj. lubelskiego. „Oczekuj dalszych komunikatów”",
-        "official": false,
-        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
-        "guide": {
-          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
-          "label": "Alert RCB i aplikacja RSO"
-        }
       }
     ],
-    "updatedAt": "2026-10-26T01:49:54.394Z"
+    "updatedAt": "2026-10-26T08:10:48.483Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-26T07:49:06.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Odessa Journal",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQa3ZJdWlQdWpOemlWRHI2TEU4UzlsN2ZxT3BFc21XYnY4dmJWY0c4NU43NFozWl9Ka3pIM0FGampOSnVFMktpZWhaQlVRUS05N1ZuS0pGVXItMy1zbndYME8wTFRybERqWjlIdU9nSDRJR3RfbXpnZXRWVHZVZFl3TFcyNjRCMHVRV3B4QlBSbjlkV1BNZjVlNVZwVHZFOXJJYkVSZlNfU2NxQQ?oc=5",
+        "title": "Ukraine Strikes Russian Military Battery Plant in Yelets - Oj",
+        "official": false,
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
+      {
+        "at": "2026-10-26T07:46:06.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Munsif News 24x7",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNN013VFRtdHFqbGtyNnc0V2ZSaGp6NnF4ZnBrd2NMZEtGcktUZzBrelIxZUROMDMwc3lpUm16NEw3TDV4Zzc4X2Z5TUlxdEl2NVRpaGxEVHFjclBjakROSVNHZUdlRmVabjNNNWJjSDQxa3NBdWNyRnBHUkJtZDA0NDhUeDdERUpTZUo0QkVKUWRrTy1uaUlma3J3?oc=5",
+        "title": "Ransomware Attack Hits TG-iPASS Portal, Industrial Approvals Disrupted",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
+      {
+        "at": "2026-10-26T02:33:01.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "energynews.pro",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOQTU1eVZZUWFwSUFVTlVxZlFaVVJTN0ZmamxYOE9vcW0wTUdhTXFEMFhhbEhjMVhaRGVEUTNVdlRRNnplS1dfaTRNTWFqSjZMYkNtSkxCTl9DQ240dGoteFRoS0M0eGNzTktsdFdTaWtZZDJMLVBtREpjNjdmZnFrcThfUHhYZ0FNdEdXbU9uS0syWGQw?oc=5",
+        "title": "Indonesia Cuts Gas Exports to Singapore After the Batam Blackout",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
       {
         "at": "2026-10-26T01:29:51.000Z",
         "cat": "security",
@@ -252,6 +282,36 @@
         "title": "Why hospital cyber resilience is a joint decision",
         "official": false,
         "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
+      {
+        "at": "2026-10-26T00:00:05.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The Jerusalem Post",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBCblZ2MkV3NDdVMUlhVVlyRnYzRnFIN2tDUWdtTW80UHJIRnA0OWo3RU9DRmdjTkVpYWJreWVpLVI3bjRCMnEzSjI1VVZGYkdUYkVYS0dHNlI3N2tfdHFYcFBnNGtoNUhUV3ZIa1NJbEtKUFJnZC03XzRxY19vM0k?oc=5",
+        "title": "Live Updates: Latest from Israel, Iran, and the Middle East",
+        "official": false,
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
+      {
+        "at": "2026-10-26T00:00:00.000Z",
+        "cat": "disaster",
+        "sev": 4,
+        "source": "GDACS",
+        "url": "https://www.gdacs.org/report.aspx?eventid=1001345&episodeid=2&eventtype=TC",
+        "title": "Tropical Cyclone ARNAB-26 (Red alert)",
+        "official": true,
+        "forYou": "If you have family in the area, check in. Review your own evacuation plan."
+      },
+      {
+        "at": "2026-10-25T22:53:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Interesting Engineering",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQREdBUC1lNnhjVFRSQ3VZOEEwRFFzNW1KaFc4T0JIaVJhdm9vcVFUa0JPU3pieVREZUtkMy1ENDRxVEwzVkFzNVVfbkR4TXAtWnBYQzladkM2S0k4OEZ4SlFQSVVSWEVjNFZxemJNSXlIcWh6aTI5ekJrRzdKWUFJdEJYUjBXTXZlX21GdXRQempYdUt1?oc=5",
+        "title": "Submarine torpedo strike sends frigate to bottom of sea, proves naval warfare efficacy",
+        "official": false,
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       },
       {
         "at": "2026-10-25T22:52:47.000Z",
@@ -372,68 +432,8 @@
         "title": "Iranian army says it shot down US drone over Bandar Abbas, Tasnim reports",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-25T09:17:15.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Yeni Şafak English",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQLW5zX1RYaUl0ajhGYWZkQWFXZnZRU0FEcEZpQXM5allGODVwcUxQbDFQWVE2UEstQnRmRHdRalhEYVdXaHdndVFyeVY4clRGYzlfUWF6VVFBSTlCR2t5cUNXQ05acjRhdlNiMkNWRXg0Q2NrYi12Vk53QjBNb2xwc0t4SmU2TFZMa292WGJXSnEtM3h1WGxYX1c5SkRXRkptY29IcENHOGs?oc=5",
-        "title": "France readies social media blackout for Yellow Vest protests",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-25T09:10:51.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "IntelliNews",
-        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNTVF5OGREQkVUb201WVR4OW9Ndlo0clRabFBDRWZPVVBWVTV2c3ZHQVdnZGNXQVdZZ3BCVFNYVEE0VGJ5UTd3Zl9ZMHBnWjQxTlRBb2lqNkY4Nm9mYXV2aHpFcXR0U0dfcF8zQ0xvbkxVMl9LdFpqU0ExOF9LNldpZUNKbFlLNEo0aDBtcEt0eWgwbUZqakc1MzJlVVdaUVFaVjI1Q2ZrdGZOZGhJRFY4S2lzWjhGRV9GY2R4YmJnc3pFdEdNTjVic3d0alpyT1lHNUIzUGdWVkV6Q1Y3SUxtcEdn?oc=5",
-        "title": "Missile War Monitor: Oryol strike toll rises to three as Kyiv claims hit on Proton-Electrotex plant",
-        "official": false,
-        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
-      },
-      {
-        "at": "2026-10-25T07:43:02.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Ada Derana",
-        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE02UTZNa2tZT1ludHprUEZBUGhoQnBKOWxCNTIyXzYxbmFxS2M0WWJKb3dKV0k2OWM3Z3p4djNaYzlqRy1hYTRn?oc=5",
-        "title": "Audit report reveals delays in cabinet-approved procurement of 200 electric buses for SLTB",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-25T06:29:28.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Ada Derana",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9WWjJBcC03SDNVMzRCTGNvSEdXRDBueE5ZWV9pWTJ2N0xINWZuZ0R3cDdoWW1uZk9xdDlrOS1XZVNWSDdqUXZ5czZvblBuYVR6a3JNY1pZM1c2X1M4cWtSaXlLTUk1LXdBYWRyaTBKTUVfa3k3QUZvSjR6QzBFQQ?oc=5",
-        "title": "69th IPA World Congress in Colombo…",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-25T06:17:20.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "Prothom Alo English",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ydGk1TGdQQVE5VzNET0FrdVRqbkpYQm9IQjdtT01fTTFpbUF2cF9fLTVkekI3bzh6UkFTQkJJaVQtYS1YdDM2WXg0aFJXaHJybnJBQlBUWS1aUWPSAWhBVV95cUxPd0dLSHZNM05XMXZOeFUwNVBjT0cyOGdNLXE1QzB6bGFycTkwX0RUMVFjSndYQXAyaUF2bjZTM1lXYWxEaFdZRFdHcXFYakRlZlRiRHFBcWlVVmVRLTR2SnpHXzZBQ2RVbQ?oc=5",
-        "title": "Cybersecurity threat spreads worldwide, affecting Bangladesh too",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-25T04:53:44.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Ada Derana",
-        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9Qa3lJVmx2eGpKMWxKeHQwTkE4WnljNEY1VTRGUUpQQm9rQVYyakJBLWxpZkhCVXlRNzUzbm1aV28wZklfSldZ?oc=5",
-        "title": "Series of explosions rock Saudi Arabia’s Riyadh",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       }
     ],
-    "updatedAt": "2026-10-26T01:50:41.159Z"
+    "updatedAt": "2026-10-26T08:12:11.527Z"
   }
 }
