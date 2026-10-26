@@ -4,6 +4,84 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-10-19T12:00:00.000Z",
+        "cat": "supply",
+        "sev": 3,
+        "source": "Komisja Europejska",
+        "url": "https://energy.ec.europa.eu/data-and-analysis/weekly-oil-bulletin_en",
+        "title": "Ceny paliw w Polsce wzrosły w tydzień o 5%: Pb95 6.87 zł, ON 7.88 zł",
+        "official": true,
+        "forYou": "Nie rób zakupów w panice. Uzupełniaj zapas stopniowo, a bak tankuj, gdy spadnie do połowy.",
+        "guide": {
+          "href": "/pl/poradniki/zapas-wody-i-jedzenia/",
+          "label": "Zapas na kryzys"
+        }
+      },
+      {
+        "at": "2026-10-26T14:46:53.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNN3F3dVFTb2s5VU9XbUJrM3l3WUpnNTRfcUx4SGlOQUJSd3c2VVJmbjl0T05jQjZKQThzT0lFZHl2NGVZSW1PcHhOX1hyOXZtSDU1UFRtckk0QUQzMERXUTlXMEJiV2oyTF94Zk1xcmFodHZabmphT3dDN0FCWUZwYjhKM1NHb2ZZeVg5TWV0Nkl6WElZY0Vpem13TnBZMkZvWG51cGhqWFVWV0N1a1o5Nw?oc=5",
+        "title": "Uczeń rozpylił gaz. Ponad 900 osób ewakuowanych ze szkoły we Wrocławiu",
+        "official": false,
+        "forYou": "Przypomnij dziecku zasady: słuchaj nauczyciela, uciekaj od zagrożenia albo schowaj się w sali i wycisz telefon. Nie dzwoń do dziecka i nie jedź od razu pod szkołę, czekaj na komunikat szkoły lub policji.",
+        "guide": {
+          "href": "/pl/poradniki/bezpieczenstwo-dziecka-w-szkole/",
+          "label": "Bezpieczeństwo dziecka w szkole"
+        }
+      },
+      {
+        "at": "2026-10-26T13:56:45.000Z",
+        "cat": "health",
+        "sev": 1,
+        "source": "bielskobiala.wyborcza.pl",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMlZEeTA5MjdyU3BLX0R2ZmN5a005NUpCc0JNQl90ajNXTkxUbjhIaDdjY1pmTmZIOXh4MEdEdkx6cVdjSXloNlMxRF9EZzZIamdwSk5Jb1o4TmNjOW5IU1BqVUctSGI4dUVnZjdqcGhNUVVZNFR1S1BQektnZERlbXJ2U3duRjJhRWdoaFR5WmhuaFFrdTQxVE91OWhoQmJGSHVQd0hUUThZejFjT080MVRzSDFpeFgxWFJGYnA2c01CUXc?oc=5",
+        "title": "Sanepid potwierdza wzrost zakażeń w Bielsku-Białej. Padły kontrowersyjne słowa",
+        "official": false,
+        "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
+      },
+      {
+        "at": "2026-10-26T13:55:00.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "CERT Polska",
+        "url": "https://cert.pl/posts/2026/10/CVE-2026-77052/",
+        "title": "Podatności w produktach boneIO",
+        "official": true,
+        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
+      },
+      {
+        "at": "2026-10-26T12:20:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Rynek Zdrowia",
+        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNc1Uyd1ZjYXdrd1BtZEwxTXpoTlV1RjZoZzhzSUUxenJBWmpfVzNyb1ZWUl9WMXNxLTBBc0QzcG9MNGY2OVc4U2h0eGp1WVlKMGRwTXU4UHhVUTJKQkJrckR2UU5EdGlaTjMtSWFBM3pTVWtRS21SSTY2NHBRcUhmLWRyUXJ2Wm1jX0E4cnlPbEU4cm8yazJhTm9JX1ZWMkFZeHVfcFBxT1VrOW5HTzV6Qm96VFpRMlp5SlBIVHA0aXNNNEs4ZWtndF9uX3RNR1dZLUUzRjlSY01QSi1KMkd1WWpIS0Rta1dIQmctM3c4eXE?oc=5",
+        "title": "Zacznie się 1 lutego. Wojsko wysyła karty z trzema różnymi kolorami, które decydują do przydziale",
+        "official": false,
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+      },
+      {
+        "at": "2026-10-26T11:30:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Defence24",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPS0ozNU4xZW40MjdEYUdjUF9qS1FIRXA5MmJqY0FKcWRVNkUzeVE1dmlkSEE2eEgxVm1KVnhlTG1BVlFUNENCNXN6Tlk3SWUzYThHakpSRU5hdXkzOWFVeVRaREVySm1FTHFLcGc4TlkzdTI0ZUkydG8yV1I4UzA4MEk2YVJGY0Z0VUNtaEp2SlFxd2VT?oc=5",
+        "title": "Polska przygotowuje się do wojny. Kluczowa ustawa na ostatniej prostej",
+        "official": false,
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+      },
+      {
+        "at": "2026-10-26T10:11:06.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxORUJxQjRmd1FsV3VqWEdmcy1FWERDUS01T212cUdXZ2FudDJHLWxmUm0xM19Za0hxYjlSOEt3eklvNVNYU3FVY0NJMVRWYThFLU84Y0htYWR2U1NGNkNQeHRUeWlISkFRNDlLYjVSaHpDZ3oxQlh5aXFDT2NRMC1hc3pkRWhJVDV1cGYwdTJURVA?oc=5",
+        "title": "USA planują duży atak na Iran. \"Gotowi w 96 godz.\"",
+        "official": false,
+        "forYou": "Jeśli jesteś w pobliżu: uciekaj, a jeśli nie możesz, ukryj się i wycisz telefon. Dzwoń pod 112, gdy będzie to bezpieczne. Unikaj okolicy i nie powielaj niesprawdzonych nagrań."
+      },
+      {
         "at": "2026-10-26T06:44:28.000Z",
         "cat": "security",
         "sev": 2,
@@ -162,86 +240,62 @@
           "href": "/pl/mapa-schronow/",
           "label": "Mapa schronów"
         }
-      },
-      {
-        "at": "2026-10-24T18:52:53.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Polskie Radio 24",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSVVmSUJ1U3VpcXd0SjUtQ0VSeWF1TjR2dGR0REdwclBjUmJvS2NyYjRXYUhXYThRTGdrSEwtVFB4Z0NpbkhYWGhoZGowMzhOWE9yQnowdUtwU3RucHZwWWdzc2xsLVZBXzJYV3NiMjhWRlBOYnZSUG1WWmFDZmpCSGtCR1ZKT1FUbFEyZXBENF96N3B2VG5qNWhTWHk3Y01JUlE?oc=5",
-        "title": "Alert RCB i ostrzeżenia IMGW. Wiatr nawet do 90 km/h",
-        "official": false,
-        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
-        "guide": {
-          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
-          "label": "Alert RCB i aplikacja RSO"
-        }
-      },
-      {
-        "at": "2026-10-24T15:47:00.000Z",
-        "cat": "health",
-        "sev": 1,
-        "source": "TVP Info",
-        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQalg0SGdsUTc5RDlwOGlnN19leVFpN3Nfc3cxZ1VFOVRtbjlieU5rZjltVGZuR1R4bXFaVnpIa2F5b2xWUlFCXzVDQVFUbXY2N1RKQmRGbkltNmJIZzQ4QzlrWjRXaFoyMWRUSjlVb2t5OGpkZ1VUUzFvTTJSSFQtYURZZFhRYTNvRlhRU1pGcUEzdTk4OGlKclJRZ2EwV2F0ZDl0Nk1uWnhpX1JDUElLWm1HMmw3ajZ3TjhnWl9iSjJpdGRjNUlBYW9ua2tDSDUwWlhwR3dUMWxUbGkyUXo2ODJTOEVTTUhkeF9nSg?oc=5",
-        "title": "Epidemia eboli. Ruszyły testy nowej szczepionki",
-        "official": false,
-        "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
-      },
-      {
-        "at": "2026-10-24T12:13:58.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Polskie Radio 24",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdTBYVkpYNWtkM1VxejQxeHRQeWZiUkJtOTBoLTdEcHlCMkI0Uy1wUHlZRnJLeV94Sk9ZNk5KZFlRTEI1WWU3b0R5SWtrRDFGRkNpelRkd0Y0cjBvcllyTVRaZlQ0VzBOdFJRZW9Del9qMGs0VzlpNlhzeUJjWXNXakRzTmRfVkRHdFVkSnBoNFhfbkJ2WEVYODFzS0JHcWRDb3I5S3lfY20yUQ?oc=5",
-        "title": "Transformacja polskiej armii. Gen. Górowski: zmieniaj się albo po prostu giń",
-        "official": false,
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-10-24T11:42:00.000Z",
-        "cat": "weather",
-        "sev": 3,
-        "source": "IMGW",
-        "url": "https://meteo.imgw.pl/",
-        "title": "IMGW: 11 ostrzeżeń meteo, najwyższy stopień 2: Silny wiatr",
-        "official": true,
-        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
-      },
-      {
-        "at": "2026-10-24T11:42:00.000Z",
-        "cat": "weather",
-        "sev": 3,
-        "source": "IMGW",
-        "url": "https://meteo.imgw.pl/",
-        "title": "IMGW: 12 ostrzeżeń meteo, najwyższy stopień 2: Silny wiatr",
-        "official": true,
-        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
-      },
-      {
-        "at": "2026-10-24T11:42:00.000Z",
-        "cat": "weather",
-        "sev": 3,
-        "source": "IMGW",
-        "url": "https://meteo.imgw.pl/",
-        "title": "IMGW: 13 ostrzeżeń meteo, najwyższy stopień 2: Silny wiatr",
-        "official": true,
-        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
       }
     ],
-    "updatedAt": "2026-10-26T08:10:48.483Z"
+    "updatedAt": "2026-10-26T15:32:43.459Z"
   },
   "en": {
     "sample": false,
     "items": [
       {
-        "at": "2026-10-26T07:49:06.000Z",
+        "at": "2026-10-26T15:00:00.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Security Boulevard",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVVMxdDZxOFA4MXhDcnBQYk9vRVJqZFNvelpBVEJWdkZRNmI5d3hOYk9KQmFUUTQ4LUUyR0FrLUc3ZV9lWFA0Wm1aWnA0cWZxTk9WczVPVmxYSWY3eWx3NEVGWmIxXzlKR0FPcTMzOXNydXZKb1ZpbmhyQzhfTXgteE80VQ?oc=5",
+        "title": "Daily OT Security News: October 26, 2026",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
+      {
+        "at": "2026-10-26T13:34:33.000Z",
         "cat": "security",
         "sev": 2,
-        "source": "Odessa Journal",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQa3ZJdWlQdWpOemlWRHI2TEU4UzlsN2ZxT3BFc21XYnY4dmJWY0c4NU43NFozWl9Ka3pIM0FGampOSnVFMktpZWhaQlVRUS05N1ZuS0pGVXItMy1zbndYME8wTFRybERqWjlIdU9nSDRJR3RfbXpnZXRWVHZVZFl3TFcyNjRCMHVRV3B4QlBSbjlkV1BNZjVlNVZwVHZFOXJJYkVSZlNfU2NxQQ?oc=5",
-        "title": "Ukraine Strikes Russian Military Battery Plant in Yelets - Oj",
+        "source": "The National",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMUJsM2R4ODZmeV9taEQzSnl2UDNKTVB2dldvLUFKeU5DenV1bk9RelNDT2NuWGhpZWpzVUd3VFFONjE0eEVrdnY1VDU2RnVHd3Q5Uk8xNlhHOWxHYjJLaDBuWWlZZXdUMmpZOWU5YU1YMUE1MGl1bFVzY1hBTVZrRXJBQmJZeFFDSzZGNjBMS051UnpMVzhjNA?oc=5",
+        "title": "Middle East latest: Egypt's parliament approves military support for Saudi Arabia",
         "official": false,
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
+      {
+        "at": "2026-10-26T13:22:11.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Інтент",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUld4dXRHU0tDd0k5U3RlU2c5RkZ2bjRjZVFJbWFOanlwaDlLTUd4Q1pTWkN4bzNTTkVwaG9wNjlIRFlYU0NISEZ5b3lSQlJhWERzOTk0d0FWT2hWTmxWaVYyZENoWlFWT2lNN0NSRFYzOHVzekhsTzh6T2V0dW9rVEJXc2wwb2VkdGhHWkN6WDNpQjQxZTZFMVBGZVBhRjZfa0lIcFZ1dGs2RWhJbGJPWXlxVWZaa05NVmc?oc=5",
+        "title": "The Russian Federation's naval base in Crimea was compared to an empty auto repair shop",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
+      {
+        "at": "2026-10-26T12:53:49.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "SFG Media",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE02Z1I5MmcxZV8tMEdma1VDRUVaeGdWaGZIQUp6RDEyY2J1c25iM0loTVNlVXZhMGdwMnVQcUY0VWJCb1IxZ0ZPQUFvWE9Uc2RNcW5jX3oxb1JoNHItNzJ0NmZHNnp0WGpHci1OeXpKc2tIQWdVdXB1SlpYcw?oc=5",
+        "title": "Houthis Launch Missile Strike on Saudi-Run Military Training Camp in Yemen: At Least 75 Killed, More Than 200 Wounded",
+        "official": false,
+        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+      },
+      {
+        "at": "2026-10-26T12:34:17.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Прямий",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQVJfTXVEaFJjWDhZZFpfNGMxYjdhNElVcmRVUDRzZC1pVGJzQXNQT0NybmtWdUFHVXFYdml4UlZ2T2xhQnllSmhpNGFvNlBDSmE1aFdQaWlMUGd5ME5xTFFyRnFOZ1JjSlNSMmtydTJIb1FIc0w3Rk1ER1BWMlp1d3U3S3JMWlVaMkZwb29XVWZSYW5DbnUzaTdXRUZnV1ZsLXd6X1Fn?oc=5",
+        "title": "The Armed Forces of Ukraine struck a factory in the Russian Federation that produces batteries for missiles",
+        "official": false,
+        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
       },
       {
         "at": "2026-10-26T07:46:06.000Z",
@@ -264,16 +318,6 @@
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       },
       {
-        "at": "2026-10-26T01:29:51.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The National",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNnVfUnYtWklMbWF4TjRLaWdIdHpPZ0h0TThQUzRsT2JNdlIxNjFLdEFQb0sxa21kMXFnLTVSUndXOUstVHR6T2kyMjJpQnd3RHFOSWdTVExKd2ZGYV82MDdpc19uOENyLWhaNlZyVEhuVU5nM3pJdTNJd0hYY3FTc0VMUmxxX3lZV2I0WUZjcw?oc=5",
-        "title": "Middle East latest: US tells staff not to use Saudi airports without 'special authorisation'",
-        "official": false,
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
         "at": "2026-10-26T01:03:03.000Z",
         "cat": "cyber",
         "sev": 2,
@@ -292,6 +336,16 @@
         "title": "Live Updates: Latest from Israel, Iran, and the Middle East",
         "official": false,
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
+      {
+        "at": "2026-10-26T00:00:00.000Z",
+        "cat": "disaster",
+        "sev": 4,
+        "source": "GDACS",
+        "url": "https://www.gdacs.org/report.aspx?eventid=1001345&episodeid=3&eventtype=TC",
+        "title": "Tropical Cyclone ARNAB-26 (Red alert)",
+        "official": true,
+        "forYou": "If you have family in the area, check in. Review your own evacuation plan."
       },
       {
         "at": "2026-10-26T00:00:00.000Z",
@@ -374,26 +428,6 @@
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       },
       {
-        "at": "2026-10-25T15:58:15.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Gulf News",
-        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxON3Y0YTZqRTJPS09hV0djbGh5UEg4QW5ueGNDZHNuNDJaVmxjY1Q5cGJraDl4MzNoYkZHWTBtMW9yRFRIckRpbFdIclBlNHZ1enFTLU9ERG1DOGNZQzdmMVZkeFNSMEVIRV9VQlFkb2NtZmdhMTcxcFdJZGdMeXk1RzNKcmpWSTM2WWcxOXl0dTNLcEpmSUxONDU4NmY3RVlXYTN0RVBJR05Udm5Sc3JfWGJJdndncU5FRXZ0NjQyYTFRV1hjNERyMkdZLXZzdk9mS3fSAeIBQVVfeXFMTmkxYzA1WTU0RU52X2RVSHY2Z2xUWXJ3Z1cyRU9abFVXc05ybUJQUmVBYnFQMF9TMmJwWGF3MDlBZjB1aElqT2R6VXZydW1mY3JfNHNkSmpWTzVpSm1XdE9SVjZHSllSRTVSeFBzeEs2WDBtQmFGaEh4VXFkc3BsUzRZUnhiM01oSjVWYkc5SjBsODdEWGM1QVNoTnVBUVNaNnp1SkNycnlJX2ZTakJGdnNVcmdSZG1IS0dJTm5LNy13TUwxTm5xV2JtQ01kWkhYaG9zUzJwQ1VHWW00NzZCdEt6Zw?oc=5",
-        "title": "UAE residents’ update: Trump rules out Iran strike; injuries reported in Houthi attack on Saudi Arabia",
-        "official": false,
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-25T14:44:08.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "UNITED24 Media",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNUk9CQXRUbDBSVWVSUjdWUEZDWUcySkNnencwMTZQMTdFRWs3VVlKbnAzOTFjZmU4ckZZZjloNnNzeUdkbk5aX1ZNeWRXNlJ5b0N6djE5eUd5bDZ0SWItZHh1bzh2M3lmUmJfVmRLRTBGNE40WGVhYlJ6Y1JYUHFXOHNGUW5OU3hTcHlIUkoxZ255dVF1UG1JM1p4ZEtDQ2FTcF9wM0V0RmpGdHlOdzRRaGNOV3BNM1VJUlU3NVg1LUVqcTg?oc=5",
-        "title": "Missiles Reportedly Hit Russian Factory Powering Iskander and Kinzhal Missiles",
-        "official": false,
-        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
-      },
-      {
         "at": "2026-10-25T12:50:05.000Z",
         "cat": "energy",
         "sev": 2,
@@ -412,28 +446,8 @@
         "title": "Cyberattacks fuel demand for cover, but penetration remains low",
         "official": false,
         "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-25T09:23:36.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Ada Derana",
-        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5RZ3JDUUxmcXVFWFhKNnJjQUI5YTV3OUFubXNOWVB1V0Zqb3hWUXdWVWJFcmpnSkNaaExCRVIwTXFXTzB2Zk44?oc=5",
-        "title": "Several injured after bus collides with train in Habaraduwa",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-25T09:17:39.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Ada Derana",
-        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5XTWRVMjhOQUJBRU9pcXBtdjFucGpldjNDWjc1T3k4RDhvR3RrdWh5MUg1YlR6NUJ5Ulp2d241YU5BT0lPYXRR?oc=5",
-        "title": "Iranian army says it shot down US drone over Bandar Abbas, Tasnim reports",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       }
     ],
-    "updatedAt": "2026-10-26T08:12:11.527Z"
+    "updatedAt": "2026-10-26T15:34:13.650Z"
   }
 }
