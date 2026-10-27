@@ -2,9 +2,9 @@
   "_comment": "Aktualizuje scripts/update-data.mjs codziennie. pl = Polska, en = świat. Składowe z mode=manual ustawiasz ręcznie.",
   "pl": {
     "sample": false,
-    "updatedAt": "2026-10-27T05:42:09.468Z",
-    "score": 22,
-    "delta7": -14,
+    "updatedAt": "2026-10-27T11:06:24.323Z",
+    "score": 17,
+    "delta7": -19,
     "ago30": 37,
     "history": [
       37,
@@ -36,14 +36,14 @@
       21,
       17,
       22,
-      22
+      17
     ],
     "components": [
       {
         "id": "conflict",
         "name": "Konflikt w regionie",
         "weight": 30,
-        "value": 30,
+        "value": 5,
         "sources": "GDELT · Google News",
         "trend": [
           63,
@@ -53,7 +53,7 @@
           5,
           5,
           31,
-          30
+          5
         ],
         "mode": "auto",
         "raw": [
@@ -121,7 +121,7 @@
         "id": "weather",
         "name": "Pogoda i żywioły",
         "weight": 15,
-        "value": 13,
+        "value": 33,
         "sources": "IMGW · GDACS",
         "trend": [
           33,
@@ -131,7 +131,7 @@
           60,
           33,
           13,
-          13
+          33
         ],
         "mode": "auto",
         "raw": [],
@@ -239,7 +239,7 @@
   },
   "en": {
     "sample": false,
-    "updatedAt": "2026-10-27T05:43:23.188Z",
+    "updatedAt": "2026-10-27T11:08:10.830Z",
     "score": 40,
     "delta7": 0,
     "ago30": 35,
@@ -342,7 +342,7 @@
         "id": "energy",
         "name": "Power & grid",
         "weight": 15,
-        "value": 28,
+        "value": 29,
         "sources": "Google News",
         "trend": [
           32,
@@ -352,7 +352,7 @@
           35,
           33,
           30,
-          28
+          29
         ],
         "mode": "auto",
         "raw": [
@@ -385,7 +385,7 @@
           57,
           54,
           51,
-          52
+          53
         ],
         "stale": false
       },
@@ -433,7 +433,7 @@
         "id": "cyber",
         "name": "Cyber & infrastructure",
         "weight": 15,
-        "value": 33,
+        "value": 32,
         "sources": "GDELT · Google News",
         "trend": [
           34,
@@ -443,7 +443,7 @@
           34,
           36,
           36,
-          33
+          32
         ],
         "mode": "auto",
         "raw": [
@@ -462,7 +462,7 @@
           26,
           52,
           54,
-          51
+          49
         ],
         "stale": false
       }
