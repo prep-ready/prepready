@@ -2,7 +2,7 @@
   "_comment": "Aktualizuje scripts/update-data.mjs codziennie. pl = Polska, en = świat. Składowe z mode=manual ustawiasz ręcznie.",
   "pl": {
     "sample": false,
-    "updatedAt": "2026-10-27T16:54:55.159Z",
+    "updatedAt": "2026-10-27T21:32:37.978Z",
     "score": 17,
     "delta7": -19,
     "ago30": 37,
@@ -239,7 +239,7 @@
   },
   "en": {
     "sample": false,
-    "updatedAt": "2026-10-27T16:55:55.345Z",
+    "updatedAt": "2026-10-27T21:34:02.782Z",
     "score": 38,
     "delta7": -2,
     "ago30": 35,
@@ -385,7 +385,7 @@
           57,
           54,
           51,
-          25
+          26
         ],
         "stale": false
       },

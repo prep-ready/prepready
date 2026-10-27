@@ -18,6 +18,30 @@
         }
       },
       {
+        "at": "2026-10-27T19:30:01.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Defence24",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVHVVTEkwLWhTSHl2M3oyQUxtLXZxc0UydlNrWmRKWnhyaFZWY3lFZVlrZEZwY3plWjFpOUVSQVIwZEpkMkt2QnhuUExleHRVd3hMUE84Mm9HdTN5MEhudWZQV21nYlRXQTdkZDVObHNOY2FEOG94X3ZPVjhPRjdiZWlyRHlXZFZ2ZWMxOHZjVzd6cmFjR3d1d2tQYmE1M09qTFI4ZW5ycGZEUkU?oc=5",
+        "title": "Wojsko wysłane na granicę z Rosją. Sąsiad Polski reaguje pod Królewcem",
+        "official": false,
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+      },
+      {
+        "at": "2026-10-27T17:00:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Rzeczpospolita",
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQbzFtRWxmQkNkYWliaWJ6dVd4V1drMHNRTjRwNEZHMTBKYWplc2g0c0pLX0k1bTR3VGlfZm1XOUE0aGZtZ09vY0pTN1hFWEJ4cEcwSHV5cVhlZVZncTVQOTJzSFcwOXluLWpEelh1QjNGdHhUeUw1STBqNXBVVVMwMUtJUGpRNlUwenRrRUpGQVBUWmFuZVp0bjdzNHhqejBNNVhpaEo4cHFkSGJaX1JJaU8tXzFQU3BqNU44ZDRUVUQyTDBWQzFPaERVRW8zRUtTbExUQkJaa2pwdnhKbDNmcDIzOFpzazRV?oc=5",
+        "title": "Kto odpowiada za dramat z wyszkoleniem pilotów? Znany polityk bije się w piersi",
+        "official": false,
+        "forYou": "Przypomnij dziecku zasady: słuchaj nauczyciela, uciekaj od zagrożenia albo schowaj się w sali i wycisz telefon. Nie dzwoń do dziecka i nie jedź od razu pod szkołę, czekaj na komunikat szkoły lub policji.",
+        "guide": {
+          "href": "/pl/poradniki/bezpieczenstwo-dziecka-w-szkole/",
+          "label": "Bezpieczeństwo dziecka w szkole"
+        }
+      },
+      {
         "at": "2026-10-27T14:52:00.000Z",
         "cat": "security",
         "sev": 2,
@@ -216,35 +240,25 @@
           "href": "/pl/poradniki/plan-ewakuacji-rodziny/",
           "label": "Plan ewakuacji rodziny"
         }
-      },
-      {
-        "at": "2026-10-26T12:20:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Rynek Zdrowia",
-        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNc1Uyd1ZjYXdrd1BtZEwxTXpoTlV1RjZoZzhzSUUxenJBWmpfVzNyb1ZWUl9WMXNxLTBBc0QzcG9MNGY2OVc4U2h0eGp1WVlKMGRwTXU4UHhVUTJKQkJrckR2UU5EdGlaTjMtSWFBM3pTVWtRS21SSTY2NHBRcUhmLWRyUXJ2Wm1jX0E4cnlPbEU4cm8yazJhTm9JX1ZWMkFZeHVfcFBxT1VrOW5HTzV6Qm96VFpRMlp5SlBIVHA0aXNNNEs4ZWtndF9uX3RNR1dZLUUzRjlSY01QSi1KMkd1WWpIS0Rta1dIQmctM3c4eXE?oc=5",
-        "title": "Zacznie się 1 lutego. Wojsko wysyła karty z trzema różnymi kolorami, które decydują do przydziale",
-        "official": false,
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-10-26T11:30:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Defence24",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPS0ozNU4xZW40MjdEYUdjUF9qS1FIRXA5MmJqY0FKcWRVNkUzeVE1dmlkSEE2eEgxVm1KVnhlTG1BVlFUNENCNXN6Tlk3SWUzYThHakpSRU5hdXkzOWFVeVRaREVySm1FTHFLcGc4TlkzdTI0ZUkydG8yV1I4UzA4MEk2YVJGY0Z0VUNtaEp2SlFxd2VT?oc=5",
-        "title": "Polska przygotowuje się do wojny. Kluczowa ustawa na ostatniej prostej",
-        "official": false,
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
       }
     ],
-    "updatedAt": "2026-10-27T16:54:55.161Z"
+    "updatedAt": "2026-10-27T21:32:37.982Z"
   },
   "en": {
     "sample": false,
     "items": [
       {
-        "at": "2026-10-27T16:52:53.000Z",
+        "at": "2026-10-27T21:11:15.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQb2xMY1ZNOGZMdGFLZGV6Ui1rTTZmODJnOGprdHhzRlJXcmkwbndqd2libFRWeF9jSkowZXE5SF9EYmhoZ3pwekhNZWUxYmtRRE5wSHRSMXRUd0JyWkNnTi1HeWdJUjZHRXRtZDJKaVZZN1BrQzNnamdCWVZGVXJFTXlCWTFfLTFZSnpMeVB1RHRwa2pMYUxZT2I3c05WTDdoNXVuVHdsTDgzYkRINVFXbFR5a29jUEnSAbwBQVVfeXFMUHduZGtfYlZfU2EyYm9WQmNMaFFZT2lyR3R4Z2JtOEN5NHUwZzhMTWpkSWx6TVVwOWJVbzdiM2plZTR3NUpvSkhQVlFGNVBtNEdvWWNaOTRaOUF3Z25sXy0wcEFMZ2F3MzNjMzY5aXl2bXJ4a0xEZjMzWjB3TE8tekVtWmJ6azk3bE1ndnRRdzJackdzUFdOY0R2NHlPZk00c0d5c1kxZXZpVEREWDkxUEpsTS10VHIxQXFmcEc?oc=5",
+        "title": "Kremlin downplays rare Putin call from leaders of Finland and Norway",
+        "official": false,
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
+      {
+        "at": "2026-10-27T19:55:30.000Z",
         "cat": "security",
         "sev": 2,
         "source": "The National",
@@ -252,6 +266,36 @@
         "title": "Middle East latest: Saudi Arabia reports missile interception damage in Riyadh as Houthis claim more attacks",
         "official": false,
         "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+      },
+      {
+        "at": "2026-10-27T19:17:33.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Latest news from Azerbaijan",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQanpGeDVPanVHTVdkZ1MyV1VXNE1kNWR4OXlaUy1tRFI2YzZjdUc2MXl0NFBoX050SGhrQ1pWVjNOYU05SmFBby1mWmNJUFNNNE5yLWhieGwwVmYzZ3Rxc2JEU0tvaU5iRUg3MV8tcS12QS1SUnUyVGY2SXprZTd0VTVTMzM5ekJyb1M0ZlZGQmQxTzd4bEpXb2dWWQ?oc=5",
+        "title": "Footage shows damage to Kyiv university after Russian missile strike - VIDEO",
+        "official": false,
+        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+      },
+      {
+        "at": "2026-10-27T18:38:15.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "CyberScoop",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZTZ6RG5TNEM2azU1c0RJMnZ4YXdQQi1Lb29jdWxzSHhQT3BXaGM4X1lNSU51aE1aU2laRVlCY0RvTjNZLTVUYmh0YWhxSDJ2YTN0aUJTVV9TbVlWVDYzNWlzS2E2bkdTWmJJSUkwU1YxbDJMVEtFT2VoTkNYSjZoa0xSbzFpcU1aX0E?oc=5",
+        "title": "Prolific Hive and Nefilim ransomware affiliate sentenced to 70 months in prison",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
+      {
+        "at": "2026-10-27T18:26:12.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Pluang",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdVcxMjBCZ1hLdXRBUVJ6UnJjWG5ZMm5uTXZfcmhVVW5feFlMZlIzV2h0ZnhEN190aERTYlJXb1oxVExIYWp5RkhjNENxa2h3QldzTUJCTmJSUWU5Vk1kRGFSb0ZOaktsMmw3aUZYZ3otai1jalhGYnFEVnRIQTEybVBrVVNZalZqUjV5Y3N0X1JkOGZaTzU2QVIwanJZeERhYllGT2V1UWQ3QUdoWTRxTDZn?oc=5",
+        "title": "Bitcoin transactions in Iran dropped 80% during...",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       },
       {
         "at": "2026-10-27T15:29:38.000Z",
@@ -322,16 +366,6 @@
         "title": "What happens when security tools go dark before the ransomware",
         "official": false,
         "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-27T10:00:39.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "EA WorldView",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE05REVIblF3clJVYWdvejVRdVFGMV81bTNUbFp2eXJ0YTE4TUlzNVN4UnZVMHNyU2RXaDQ1X1JiWHZlRkdzMjdBM19kak9oMzV5c1hkM0JKVk5sdTkzMTF2dmZfbHJxZVdSY0NBcS1mbVg0SzJvUHo3TlpHX20?oc=5",
-        "title": "Ukraine War, Day 1,706: Woman Killed, 12 Injured by Russian Missile Strikes on Kyiv",
-        "official": false,
-        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
       },
       {
         "at": "2026-10-27T04:50:01.000Z",
@@ -412,38 +446,8 @@
         "title": "The Russian Federation's naval base in Crimea was compared to an empty auto repair shop",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-26T07:46:06.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "Munsif News 24x7",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNN013VFRtdHFqbGtyNnc0V2ZSaGp6NnF4ZnBrd2NMZEtGcktUZzBrelIxZUROMDMwc3lpUm16NEw3TDV4Zzc4X2Z5TUlxdEl2NVRpaGxEVHFjclBjakROSVNHZUdlRmVabjNNNWJjSDQxa3NBdWNyRnBHUkJtZDA0NDhUeDdERUpTZUo0QkVKUWRrTy1uaUlma3J3?oc=5",
-        "title": "Ransomware Attack Hits TG-iPASS Portal, Industrial Approvals Disrupted",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-26T02:33:01.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "energynews.pro",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOQTU1eVZZUWFwSUFVTlVxZlFaVVJTN0ZmamxYOE9vcW0wTUdhTXFEMFhhbEhjMVhaRGVEUTNVdlRRNnplS1dfaTRNTWFqSjZMYkNtSkxCTl9DQ240dGoteFRoS0M0eGNzTktsdFdTaWtZZDJMLVBtREpjNjdmZnFrcThfUHhYZ0FNdEdXbU9uS0syWGQw?oc=5",
-        "title": "Indonesia Cuts Gas Exports to Singapore After the Batam Blackout",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-26T01:03:03.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "GovInsider",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZWhzRElrQmlLckNfREItZTgydlFsSjVLTjAyU3hHLUszZ0ZIVGFCbkxoRWozSlRXNUlnWDdSOThSYkVpcGNOVGY1VDF6UWNKVkd3eWVoemVpS3NqM1JUVGFPTEhOeHVoQmtSTTdxUEFpOWZFTkNKdUJsNUFLM0VHNURIR3ZfQVhkNlVqeXMtd19NUlE?oc=5",
-        "title": "Why hospital cyber resilience is a joint decision",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
       }
     ],
-    "updatedAt": "2026-10-27T16:55:55.345Z"
+    "updatedAt": "2026-10-27T21:34:02.783Z"
   }
 }
