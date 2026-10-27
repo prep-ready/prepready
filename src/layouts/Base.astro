@@ -4,6 +4,10 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import Analytics from '../components/Analytics.astro';
 import type { Lang } from '../i18n/ui';
+// Fonty z nagłówków i tekstu: preload skraca czas do wyświetlenia największego elementu (LCP).
+import archivoLatin from '@fontsource-variable/archivo/files/archivo-latin-wdth-normal.woff2?url';
+import archivoLatinExt from '@fontsource-variable/archivo/files/archivo-latin-ext-wdth-normal.woff2?url';
+import publicSansLatin from '@fontsource-variable/public-sans/files/public-sans-latin-wght-normal.woff2?url';
 
 interface Props {
   lang: Lang;
@@ -35,6 +39,9 @@ if (!ld.some((o: any) => o['@type'] === 'WebSite')) ld.unshift({
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <link rel="preload" href={archivoLatin} as="font" type="font/woff2" crossorigin />
+  {lang === 'pl' && <link rel="preload" href={archivoLatinExt} as="font" type="font/woff2" crossorigin />}
+  <link rel="preload" href={publicSansLatin} as="font" type="font/woff2" crossorigin />
   <title>{fullTitle}</title>
   <meta name="description" content={description} />
   <meta name="google-site-verification" content="DEQNLS1FFWylPMmvLuL7WCaw5fb-DDakhQBT31PPQIs" />
