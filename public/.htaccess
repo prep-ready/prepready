@@ -61,6 +61,10 @@ RewriteRule ^(?!pl/|en/|pl$|en$)([a-z0-9-]+)/?$ - [G,L]
 <FilesMatch "\.(css|js|woff2|svg|png|jpg|webp|avif)$">
 Header set Cache-Control "public, max-age=31536000, immutable"
 </FilesMatch>
+# HTML: krótki cache na CDN Hostingera (strona przebudowuje się co godzinę), potem odświeżanie w tle
+<FilesMatch "\.(html|xml|txt)$">
+Header set Cache-Control "public, max-age=300, stale-while-revalidate=3600"
+</FilesMatch>
 Header always set X-Content-Type-Options "nosniff"
 Header always set Referrer-Policy "strict-origin-when-cross-origin"
 </IfModule>
