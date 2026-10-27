@@ -6,7 +6,8 @@ import sitemap from '@astrojs/sitemap';
 export default defineConfig({
   site: 'https://prepready.pro',
   trailingSlash: 'always',
-  build: { format: 'directory' },
+  // CSS wklejony w HTML: bez osobnego, blokującego żądania (szybszy LCP przy wolnym łączu).
+  build: { format: 'directory', inlineStylesheets: 'always' },
   i18n: {
     defaultLocale: 'pl',
     locales: ['pl', 'en'],
