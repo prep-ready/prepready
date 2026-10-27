@@ -9,6 +9,8 @@ import { routes, guideBase } from '../i18n/ui';
 import { community } from '../data/community';
 import { readFileSync } from 'node:fs';
 import { cities, type City } from '../data/cities';
+// Podsumowanie miast z bazy PSP (scripts/shelters.mjs). W repozytorium jest kopia, workflow odświeża ją przed buildem.
+import cityData from '../data/city-shelters.json';
 
 // Dane startowe generuje workflow (scripts/shelters.mjs) przed budowaniem. Bez nich strona i tak działa —
 // czyta dane w przeglądarce z /schrony/live/ albo /schrony/dane/.
@@ -17,16 +19,31 @@ try { idx = JSON.parse(readFileSync('public/schrony/dane/index.json', 'utf8')); 
 
 interface Props { city?: City }
 const { city } = Astro.props;
+type CityStats = { total: number; avail: number[]; areas: [string, number][]; streets: [string, number][]; open24: string[] };
+const allStats = (cityData as { cities: Record<string, CityStats> }).cities;
+const st: CityStats | undefined = city ? allStats[city.slug] : undefined;
+const fmt = (n: number) => n.toLocaleString('pl-PL');
+// Odmiana: 1 miejsce, 2–4 miejsca, 5+ miejsc (12–14 też „miejsc”).
+const pl = (n: number, one: string, few: string, many: string) => n === 1 ? one : (n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? few : many;
+const natShare = 23; // udział punktów całodobowych w całej bazie PSP (19 120 z 81 967, stan 2026-03-10)
+const share24 = st ? Math.round((st.avail[0] / st.total) * 100) : 0; // 0 przy <0,5%, patrz tekst niżej
+const rank = st ? Object.values(allStats).filter((x) => x.total > st.total).length + 1 : 0;
+const rankedCount = Object.keys(allStats).length;
 const here = city ? `${routes.shelters.pl}${city.slug}/` : routes.shelters.pl;
 
 const title = city
-  ? `Schrony ${city.loc}: mapa i najbliższy schron`
+  ? (st ? `Schrony ${city.loc}: ${fmt(st.total)} ${pl(st.total, 'miejsce', 'miejsca', 'miejsc')} na mapie, najbliższy schron` : `Schrony ${city.loc}: mapa i najbliższy schron`)
   : 'Najbliższy schron: mapa schronów w Polsce';
-const desc = city
+const desc = city && st
+  ? `${fmt(st.total)} ${pl(st.total, 'schron i miejsce', 'schrony i miejsca', 'schronów i miejsc')} ukrycia ${city.loc} w bazie PSP, ${fmt(st.avail[0])} całodobowo. Wpisz adres i zobacz najbliższy punkt, odległość i trasę pieszo.`
+  : city
   ? `Gdzie jest najbliższy schron ${city.loc}? Wpisz adres i zobacz na mapie schrony i miejsca ukrycia z bazy PSP: odległość, czas dojścia pieszo i dostępność 24h.`
   : 'Gdzie jest najbliższy schron? Wpisz adres i zobacz na mapie schrony i miejsca ukrycia z bazy Państwowej Straży Pożarnej: odległość, czas dojścia, dostępność 24h.';
 const total = idx.total ? idx.total.toLocaleString('pl-PL') : 'ponad 80 tys.';
 const faq: [string, string][] = [
+  ...(city && st ? [
+    [`Ile jest schronów ${city.loc}?`, `W bazie Państwowej Straży Pożarnej ${city.loc} jest ${fmt(st.total)} ${pl(st.total, 'punkt', 'punkty', 'punktów')} schronienia. ${fmt(st.avail[0])} jest ${pl(st.avail[0], 'dostępny', 'dostępne', 'dostępnych')} całodobowo, ${fmt(st.avail[1])} w określonych godzinach, a ${fmt(st.avail[2])} udostępnia zarządca na żądanie, po ogłoszeniu alarmu. To ${rank}. wynik wśród ${rankedCount} największych miast w naszym zestawieniu.`],
+  ] as [string, string][] : []),
   ...(city ? [
     [`Gdzie są schrony ${city.loc}?`, `Schrony i miejsca doraźnego schronienia ${city.loc} to głównie piwnice bloków i budynków publicznych, garaże podziemne, przejścia podziemne i masywne budynki wskazane przez Państwową Straż Pożarną. Wpisz swój adres na mapie powyżej, a pokażemy 10 najbliższych punktów z odległością i trasą pieszo.`],
     [`Jak sprawdzić, czy w moim bloku ${city.loc} jest schron?`, 'Wpisz adres bloku na mapie. Jeśli budynek jest w bazie PSP, pojawi się na liście jako punkt o odległości kilku metrów. Możesz też zapytać zarządcę budynku (spółdzielnię, wspólnotę) albo urząd miasta, wydział zarządzania kryzysowego.'],
@@ -96,6 +113,34 @@ if (city) jsonLd.push({ '@context': 'https://schema.org', '@type': 'BreadcrumbLi
     </div>
   </div>
 
+  {city && st && (
+    <section class="block" aria-labelledby="sh-stats-h">
+      <div class="wrap">
+        <div class="eyebrow">Dane PSP · {city.name}</div>
+        <h2 id="sh-stats-h">Schrony {city.loc} w liczbach</h2>
+        <dl class="stats">
+          <div><dt>Wszystkie punkty</dt><dd class="mono">{fmt(st.total)}</dd></div>
+          <div><dt>Całodobowo</dt><dd class="mono">{fmt(st.avail[0])}</dd></div>
+          <div><dt>W określonych godzinach</dt><dd class="mono">{fmt(st.avail[1])}</dd></div>
+          <div><dt>Na żądanie</dt><dd class="mono">{fmt(st.avail[2])}</dd></div>
+        </dl>
+        <div class="prose-lite">
+          <p>{city.name} ma w bazie Państwowej Straży Pożarnej {fmt(st.total)} {pl(st.total, 'punkt', 'punkty', 'punktów')} schronienia, co daje {rank}. miejsce wśród {rankedCount} miast z naszej listy. Całą dobę {st.avail[0] === 0 ? 'nie jest dostępny żaden z nich' : share24 < 1 ? 'dostępnych jest mniej niż 1% z nich' : `dostępnych jest ${share24}% z nich`}, {share24 > natShare + 2 ? 'więcej niż' : share24 < natShare - 2 ? 'mniej niż' : 'mniej więcej tyle, ile wynosi'} średnia dla całej Polski ({natShare}%). {st.avail[2] > st.avail[0] ? <>Większość punktów {city.loc} otwiera zarządca dopiero po ogłoszeniu alarmu, dlatego warto już teraz sprawdzić, kto ma klucze do piwnicy w Twoim bloku.</> : <>Większość punktów {city.loc} jest dostępna bez czekania na zarządcę, co przy krótkim czasie ostrzeżenia ma duże znaczenie.</>}</p>
+          {st.areas.length > 2 && <p>Najwięcej punktów jest w częściach miasta: {st.areas.slice(0, 6).map(([a, n], i) => <>{i ? ', ' : ''}{a} ({fmt(n)})</>)}.</p>}
+          {st.streets.length > 2 && <p>Ulice z największą liczbą wskazanych miejsc to {st.streets.slice(0, 5).map(([a, n], i) => <>{i ? ', ' : ''}{a} ({n})</>)}. Zwykle są to duże osiedla z piwnicami i garażami podziemnymi.</p>}
+        </div>
+        {st.open24.length > 0 && (
+          <>
+            <h3 class="h3">Przykładowe punkty całodobowe {city.loc}</h3>
+            <ul class="addr">
+              {st.open24.map((a) => <li>{a}</li>)}
+            </ul>
+            <p class="small">Wybrane adresy z bazy PSP, maksymalnie dwa z jednej ulicy. Pełną listę z odległością od Twojego adresu pokazuje mapa powyżej. Przed alarmem sprawdź punkt na miejscu, zarządca mógł go zmienić.</p>
+          </>
+        )}
+      </div>
+    </section>
+  )}
   <section class="block">
     <div class="wrap">
       <div class="eyebrow">Po usłyszeniu syreny</div>
@@ -327,6 +372,13 @@ if (city) jsonLd.push({ '@context': 'https://schema.org', '@type': 'BreadcrumbLi
   .mapbox{overflow:hidden}
   .page-head .eyebrow a{color:inherit}
   .prose-lite{max-width:820px}
+  .stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:16px 0 20px}
+  .stats div{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:14px 16px}
+  .stats dt{font-size:13px;color:var(--muted)}
+  .stats dd{margin:4px 0 0;font-size:26px;font-weight:600;color:var(--ink)}
+  .h3{font-size:18px;margin:22px 0 10px}
+  .addr{list-style:none;padding:0;margin:0 0 10px;display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:6px 18px;font-family:var(--body);font-size:14.5px;color:var(--ink-2)}
+  .addr li{border-bottom:1px solid var(--line);padding:6px 0}
   .prose-lite p,.how li{font-size:16px;line-height:1.6;color:var(--ink-2)}
   .how{display:grid;gap:10px;padding-left:20px}
   .prose-lite a{color:var(--action)}
@@ -381,6 +433,7 @@ if (city) jsonLd.push({ '@context': 'https://schema.org', '@type': 'BreadcrumbLi
     .layout{grid-template-columns:1fr}
     .list{max-height:none}
     .steps3,.two{grid-template-columns:1fr}
+    .stats{grid-template-columns:repeat(2,minmax(0,1fr))}
   }
   @media (max-width:560px){ #sh-map{height:58vh;min-height:320px} .search .btn{flex:1 1 auto;justify-content:center} }
 </style>

@@ -1,0 +1,1688 @@
+{
+ "sourceDate": "2026-03-10",
+ "cities": {
+  "warszawa": {
+   "total": 7704,
+   "avail": [
+    107,
+    1125,
+    6472
+   ],
+   "areas": [
+    [
+     "Mokotów",
+     970
+    ],
+    [
+     "Praga-Południe",
+     759
+    ],
+    [
+     "Białołęka",
+     744
+    ],
+    [
+     "Śródmieście",
+     593
+    ],
+    [
+     "Bielany",
+     491
+    ],
+    [
+     "Wola",
+     475
+    ],
+    [
+     "Bemowo",
+     460
+    ],
+    [
+     "Targówek",
+     355
+    ],
+    [
+     "Wilanów",
+     319
+    ],
+    [
+     "Włochy",
+     299
+    ],
+    [
+     "Praga-Północ",
+     298
+    ],
+    [
+     "Ochota",
+     239
+    ]
+   ],
+   "streets": [
+    [
+     "al. Jerozolimskie",
+     63
+    ],
+    [
+     "ul. Jana Kazimierza",
+     52
+    ],
+    [
+     "ul. Marywilska",
+     51
+    ],
+    [
+     "ul. Głębocka",
+     49
+    ],
+    [
+     "ul. Skarbka z Gór",
+     48
+    ],
+    [
+     "ul. Jagiellońska",
+     46
+    ],
+    [
+     "ul. Puławska",
+     43
+    ],
+    [
+     "ul. Włodarzewska",
+     43
+    ],
+    [
+     "al. Rzeczypospolitej",
+     41
+    ],
+    [
+     "ul. Grochowska",
+     41
+    ]
+   ],
+   "open24": [
+    "al. \"Solidarności\" 10 (Praga-Północ)",
+    "al. \"Solidarności\" 67 (Praga-Północ)",
+    "al. Jerozolimskie 142 (Ochota)",
+    "al. Jerozolimskie 144 (Ochota)",
+    "al. Krakowska 279 (Włochy)",
+    "al. Wyścigowa 2 (Służewiec)",
+    "ul. Bacewiczówny Grażyny 8 (Ursynów)",
+    "ul. Belgradzka 42 (Ursynów)",
+    "ul. Bitwy Warszawskiej 1920 r. (Ochota)",
+    "ul. Byczyńska 23 (Praga-Południe)",
+    "ul. Czorsztyńska 4 (Wola)",
+    "ul. Drwęcka 12 (Praga-Południe)",
+    "ul. Drwęcka 8 (Praga-Południe)",
+    "ul. Franciszka Raszei 6 (Bemowo)",
+    "ul. Giełdowa 5 (Wola)",
+    "ul. Górczewska 89 (Wola)",
+    "ul. Grójecka 97 (Ochota)",
+    "ul. Grzybowska 12/14 (Śródmieście)",
+    "ul. Grzybowska 78",
+    "ul. Habicha Edwarda 26 (Ursus)",
+    "ul. Habicha Edwarda 6 (Ursus)",
+    "ul. Herbu Oksza 10 (Ursus)",
+    "ul. Herbu Oksza 11 (Ursus)",
+    "ul. Hoża 43/49 (Śródmieście)"
+   ]
+  },
+  "krakow": {
+   "total": 3001,
+   "avail": [
+    1134,
+    140,
+    1727
+   ],
+   "areas": [
+    [
+     "Zastów",
+     3
+    ]
+   ],
+   "streets": [
+    [
+     "ul. Mariana Domagały",
+     36
+    ],
+    [
+     "ul. Obozowa",
+     31
+    ],
+    [
+     "ul. Eliasza Radzikowskiego",
+     30
+    ],
+    [
+     "ul. Reduta",
+     29
+    ],
+    [
+     "ul. Mogilska",
+     28
+    ],
+    [
+     "os. Szkolne",
+     27
+    ],
+    [
+     "ul. płk. Francesco Nullo",
+     26
+    ],
+    [
+     "ul. Sołtysowska",
+     26
+    ],
+    [
+     "ul. Grzegórzecka",
+     24
+    ],
+    [
+     "ul. Rydlówka",
+     24
+    ]
+   ],
+   "open24": [
+    "al. Kasztanowa 18A",
+    "al. Kasztanowa 65",
+    "al. Kijowska 10",
+    "al. Kijowska 11",
+    "al. Marszałka Ferdinanda Focha 33",
+    "al. Modrzewiowa 20B",
+    "os. Avia 1",
+    "os. Avia 2",
+    "os. Centrum D 9",
+    "os. Dywizjonu 303 4c",
+    "os. Dywizjonu 303 62",
+    "os. Handlowe 8",
+    "os. Kolorowe 11a",
+    "os. Kolorowe 25A",
+    "os. Na Skarpie 15",
+    "os. Na Skarpie 16",
+    "os. Na Stoku 10D",
+    "os. Na Stoku 10E",
+    "os. Ogrodowe 14",
+    "os. Ogrodowe 15",
+    "os. Zielone 3",
+    "os. Złota Podkowa 11",
+    "os. Złota Podkowa 6",
+    "pl. gen. Władysława Sikorskiego 4"
+   ]
+  },
+  "lodz": {
+   "total": 1631,
+   "avail": [
+    475,
+    305,
+    851
+   ],
+   "areas": [
+    [
+     "Widzew",
+     95
+    ],
+    [
+     "Bałuty",
+     32
+    ],
+    [
+     "Górna",
+     17
+    ],
+    [
+     "Śródmieście",
+     10
+    ],
+    [
+     "Polesie",
+     6
+    ]
+   ],
+   "streets": [
+    [
+     "ul. Romanowska",
+     67
+    ],
+    [
+     "ul. Pomorska",
+     29
+    ],
+    [
+     "ul. Rojna",
+     28
+    ],
+    [
+     "ul. Piotrkowska",
+     27
+    ],
+    [
+     "ul. Pienista",
+     24
+    ],
+    [
+     "al. Marszałka Józefa Piłsudskiego",
+     19
+    ],
+    [
+     "ul. Tylna",
+     19
+    ],
+    [
+     "ul. Wierzbowa",
+     18
+    ],
+    [
+     "ul. Telefoniczna",
+     16
+    ],
+    [
+     "ul. Prezydenta Gabriela Narutowicza",
+     15
+    ]
+   ],
+   "open24": [
+    "al. Adama Mickiewicza 5",
+    "al. Hetmańska 20",
+    "al. Hetmańska 22",
+    "al. Maja 1 42",
+    "al. Maja 1 42/44",
+    "al. Marszałka Edwarda Śmigłego-Rydza 20",
+    "al. Marszałka Józefa Piłsudskiego 11A",
+    "al. Marszałka Józefa Piłsudskiego 6",
+    "al. Pierwszej Dywizji 24",
+    "al. Piłsudskiego marsz. Józefa 3",
+    "al. Piłsudskiego marsz. Józefa 5",
+    "al. Politechniki 3B",
+    "al. Politechniki 7",
+    "al. Unii Lubelskiej 2",
+    "pl. Gen. Jana Henryka Dąbrowskiego 3",
+    "pl. Sałacińskiego Bronisława 1",
+    "ul. Adwentowicza Karola 17",
+    "ul. AlejaAdama Mickiewicza 5",
+    "ul. AlejaTadeusza Kościuszki 16",
+    "ul. Andrzeja Niemojewskiego 2",
+    "ul. Antoniego Mackiewicza 5",
+    "ul. Antoniego Wiwulskiego 13",
+    "ul. Augustów 1",
+    "ul. Bartoka Beli 43"
+   ]
+  },
+  "wroclaw": {
+   "total": 1475,
+   "avail": [
+    23,
+    7,
+    1445
+   ],
+   "areas": [],
+   "streets": [
+    [
+     "ul. gen. Stanisława Maczka",
+     36
+    ],
+    [
+     "ul. Tęczowa",
+     31
+    ],
+    [
+     "ul. Semaforowa",
+     20
+    ],
+    [
+     "ul. marsz. Józefa Piłsudskiego",
+     19
+    ],
+    [
+     "ul. Grabiszyńska",
+     17
+    ],
+    [
+     "ul. Opoczyńska",
+     16
+    ],
+    [
+     "al. gen. Józefa Hallera",
+     15
+    ],
+    [
+     "ul. Brzezińska",
+     15
+    ],
+    [
+     "ul. Opolska",
+     14
+    ],
+    [
+     "ul. Kolejowa",
+     13
+    ]
+   ],
+   "open24": [
+    "pl. Dominikański 3",
+    "pl. Powstańców Warszawy 50",
+    "ul. Rynek 19",
+    "ul. Świdnicka 10"
+   ]
+  },
+  "poznan": {
+   "total": 1410,
+   "avail": [
+    338,
+    52,
+    1020
+   ],
+   "areas": [
+    [
+     "Stare Miasto",
+     7
+    ]
+   ],
+   "streets": [
+    [
+     "ul. Stefana Batorego",
+     48
+    ],
+    [
+     "ul. Błażeja",
+     32
+    ],
+    [
+     "ul. Stare Żegrze",
+     31
+    ],
+    [
+     "ul. Jagiellońskie",
+     26
+    ],
+    [
+     "ul. Piastowskie",
+     23
+    ],
+    [
+     "ul. Katowicka",
+     21
+    ],
+    [
+     "ul. Folwarczna",
+     18
+    ],
+    [
+     "ul. Milczańska",
+     18
+    ],
+    [
+     "ul. Grunwaldzka",
+     17
+    ],
+    [
+     "ul. Armii Krajowej",
+     16
+    ]
+   ],
+   "open24": [
+    "pl. Wolności 20",
+    "ul. abpa Walentego Dymka 194",
+    "ul. abpa Walentego Dymka 200",
+    "ul. Andrzeja Sobczaka 1",
+    "ul. Antoniego Kosińskiego 21",
+    "ul. Armii Krajowej 68",
+    "ul. Armii Krajowej 69",
+    "ul. Bernata ks. Zdzisława 10",
+    "ul. Bernata ks. Zdzisława 4 (Nowe Miasto)",
+    "ul. Bliźniąt 14a",
+    "ul. Błażeja 11",
+    "ul. Błażeja 11A",
+    "ul. Bolesława Chrobrego 122",
+    "ul. Bolesława Chrobrego 27",
+    "ul. Bolesława Krzywoustego 48",
+    "ul. Bolesława Śmiałego 36",
+    "ul. Bolesława Śmiałego 38",
+    "ul. Boranta 15A",
+    "ul. Bratumiły 2",
+    "ul. Bratumiły 8",
+    "ul. Bukowska 156",
+    "ul. Bukowska 70",
+    "ul. Chartowo 27",
+    "ul. Chociebora 1"
+   ]
+  },
+  "gdansk": {
+   "total": 1100,
+   "avail": [
+    19,
+    87,
+    994
+   ],
+   "areas": [],
+   "streets": [
+    [
+     "al. Grunwaldzka",
+     35
+    ],
+    [
+     "ul. Anny Jagiellonki",
+     33
+    ],
+    [
+     "ul. Kazimierza Wielkiego",
+     28
+    ],
+    [
+     "ul. Wawelska",
+     20
+    ],
+    [
+     "ul. Myśliwska",
+     17
+    ],
+    [
+     "ul. Częstochowska",
+     16
+    ],
+    [
+     "ul. Okrąg",
+     16
+    ],
+    [
+     "ul. Niepołomicka",
+     15
+    ],
+    [
+     "ul. Obrońców Wybrzeża",
+     15
+    ],
+    [
+     "ul. Śląska",
+     15
+    ]
+   ],
+   "open24": [
+    "al. Grunwaldzka 103A",
+    "al. Zwycięstwa 12",
+    "al. Zwycięstwa 27",
+    "ul. Azymutalna 11",
+    "ul. Chmielna 10",
+    "ul. Dębinki 7",
+    "ul. Juliusza Słowackiego 220",
+    "ul. Mariana Smoluchowskiego 16",
+    "ul. Mariana Smoluchowskiego 17",
+    "ul. Piastowska 1",
+    "ul. Podwale Grodzkie 2",
+    "ul. Polanki 117",
+    "ul. Polanki 119",
+    "ul. Targ Rybny 1",
+    "ul. Toruńska 12"
+   ]
+  },
+  "szczecin": {
+   "total": 1000,
+   "avail": [
+    31,
+    14,
+    955
+   ],
+   "areas": [],
+   "streets": [
+    [
+     "ul. Małe Błonia",
+     24
+    ],
+    [
+     "ul. Łucznicza",
+     22
+    ],
+    [
+     "os. Kasztanowe",
+     19
+    ],
+    [
+     "ul. Gen. Zygmunta Sadowskiego",
+     19
+    ],
+    [
+     "ul. Policka",
+     18
+    ],
+    [
+     "ul. Zagłoby",
+     18
+    ],
+    [
+     "ul. Flaminga",
+     16
+    ],
+    [
+     "ul. Janusza Kusocińskiego",
+     16
+    ],
+    [
+     "ul. Czcibora",
+     15
+    ],
+    [
+     "ul. Duńska",
+     15
+    ]
+   ],
+   "open24": [
+    "ul. Arkońska 4",
+    "ul. Czesława 2",
+    "ul. Gierczak Emilii 34",
+    "ul. Gierczak Emilii 35",
+    "ul. Kazimierza Królewicza 2",
+    "ul. Łubinowa 10",
+    "ul. Łubinowa 6",
+    "ul. Odzieżowa 1",
+    "ul. Odzieżowa 2",
+    "ul. Ofiar Oświęcimia 2",
+    "ul. Otwocka 24",
+    "ul. Otwocka 25",
+    "ul. Racibora Księcia 60",
+    "ul. Raginisa Majora Władysława 15",
+    "ul. Raginisa Majora Władysława 3",
+    "ul. Rapackiego Mariana 8",
+    "ul. Walecznych 7",
+    "ul. Walecznych 8"
+   ]
+  },
+  "bydgoszcz": {
+   "total": 438,
+   "avail": [
+    89,
+    39,
+    310
+   ],
+   "areas": [],
+   "streets": [
+    [
+     "ul. Fordońska",
+     20
+    ],
+    [
+     "ul. Józefa Sułkowskiego",
+     14
+    ],
+    [
+     "ul. Karolewska",
+     11
+    ],
+    [
+     "ul. Glinki",
+     10
+    ],
+    [
+     "ul. Toruńska",
+     9
+    ],
+    [
+     "ul. Ignacego Paderewskiego",
+     8
+    ],
+    [
+     "ul. Jagiellońska",
+     8
+    ],
+    [
+     "ul. Jana Karola Chodkiewicza",
+     7
+    ],
+    [
+     "ul. Ks. Zygmunta Trybowskiego",
+     7
+    ],
+    [
+     "ul. Powstańców Warszawy",
+     7
+    ]
+   ],
+   "open24": [
+    "al. Powstańców Wielkopolskich 7",
+    "pl. Kościeleckich 3",
+    "ul. Andrzeja Szwalbego 6",
+    "ul. Antoniego Chołoniewskiego 13",
+    "ul. Antoniego Chołoniewskiego 51",
+    "ul. Bohaterów Kragujewca 6",
+    "ul. Ceramiczna 5",
+    "ul. Chodkiewicza Jana Karola 9",
+    "ul. Dąbrowa 17C",
+    "ul. Dworcowa 81",
+    "ul. Dworcowa 89",
+    "ul. Fordońska 19",
+    "ul. Fordońska 2",
+    "ul. Gajowa 16",
+    "ul. Gajowa 16a",
+    "ul. Garbary 22",
+    "ul. Gnieźnieńska 3",
+    "ul. Grodzka 36",
+    "ul. Horodelska 19",
+    "ul. Horodelska 21",
+    "ul. Ignacego Paderewskiego 23",
+    "ul. Ignacego Paderewskiego 32",
+    "ul. Ikara 6",
+    "ul. Inowrocławska 11"
+   ]
+  },
+  "lublin": {
+   "total": 1616,
+   "avail": [
+    101,
+    80,
+    1435
+   ],
+   "areas": [
+    [
+     "Tatary",
+     7
+    ],
+    [
+     "Bronowice",
+     6
+    ],
+    [
+     "Czuby",
+     4
+    ],
+    [
+     "Wieniawa",
+     4
+    ],
+    [
+     "Śródmieście",
+     3
+    ]
+   ],
+   "streets": [
+    [
+     "ul. Krakowskie Przedmieście",
+     32
+    ],
+    [
+     "ul. Kryształowa",
+     32
+    ],
+    [
+     "ul. Nałęczowska",
+     31
+    ],
+    [
+     "ul. Koncertowa",
+     26
+    ],
+    [
+     "ul. Koralowa",
+     26
+    ],
+    [
+     "ul. Onyksowa",
+     26
+    ],
+    [
+     "ul. Relaksowa",
+     26
+    ],
+    [
+     "ul. Gęsia",
+     25
+    ],
+    [
+     "ul. Zygmunta Augusta",
+     24
+    ],
+    [
+     "ul. Jantarowa",
+     22
+    ]
+   ],
+   "open24": [
+    "pl. im. Marii Curie-Skłodowskiej 4",
+    "ul. Dra Kazimierza Jaczewskiego 6",
+    "ul. Dra Kazimierza Jaczewskiego 8",
+    "ul. Jagodowa 9c",
+    "ul. Kasztelańska 29",
+    "ul. Kasztelańska 62",
+    "ul. Kredowa 3 (Śródmieście)",
+    "ul. Kredowa 5",
+    "ul. Laurowa 10",
+    "ul. Limbowa 5",
+    "ul. Lipowa 31",
+    "ul. Ludwika Hirszfelda 4",
+    "ul. Mariana Langiewicza 24",
+    "ul. Marii Curie-Skłodowskiej 42",
+    "ul. Nadbystrzycka 105",
+    "ul. Nadbystrzycka 189b",
+    "ul. Nowy Świat 15",
+    "ul. Nowy Świat 5a",
+    "ul. Obrońców Pokoju 19",
+    "ul. Obrońców Pokoju 1a",
+    "ul. Ochotnicza 10",
+    "ul. Ochotnicza 8",
+    "ul. Ogrodowa 3",
+    "ul. Ogrodowa 5"
+   ]
+  },
+  "bialystok": {
+   "total": 642,
+   "avail": [
+    322,
+    10,
+    310
+   ],
+   "areas": [],
+   "streets": [
+    [
+     "al. Józefa Piłsudskiego",
+     20
+    ],
+    [
+     "ul. Atłasowa",
+     16
+    ],
+    [
+     "ul. Gajowa",
+     12
+    ],
+    [
+     "ul. Jerzego Waszyngtona",
+     12
+    ],
+    [
+     "ul. Bitwy Białostockiej",
+     11
+    ],
+    [
+     "ul. Sienkiewicza",
+     11
+    ],
+    [
+     "ul. Sybiraków",
+     11
+    ],
+    [
+     "ul. Warszawska",
+     11
+    ],
+    [
+     "ul. Lipowa",
+     10
+    ],
+    [
+     "ul. Wrocławska",
+     10
+    ]
+   ],
+   "open24": [
+    "al. Jana Pawła II 56B",
+    "al. Jana Pawła II 57",
+    "al. Józefa Piłsudskiego 12",
+    "al. Józefa Piłsudskiego 15",
+    "al. Konstytucji 3-go Maja 22",
+    "al. Konstytucji 3-go Maja 22A",
+    "al. Solidarności 11",
+    "al. Solidarności 13",
+    "ul. Al. 1000-lecia Państwa Polskiego 52",
+    "ul. Antoniukowska 56A",
+    "ul. Armii Krajowej 15",
+    "ul. Artura Grottgera 1",
+    "ul. Atłasowa 1",
+    "ul. Atłasowa 11",
+    "ul. Bacieczki 219",
+    "ul. Bacieczki 221",
+    "ul. Białostoczek 28",
+    "ul. Bitwy Białostockiej 23",
+    "ul. Bitwy Białostockiej 25",
+    "ul. Blokowa 14",
+    "ul. Blokowa 16",
+    "ul. Botaniczna 9A",
+    "ul. Brukowa 28A",
+    "ul. Brukowa 28B"
+   ]
+  },
+  "katowice": {
+   "total": 278,
+   "avail": [
+    172,
+    48,
+    58
+   ],
+   "areas": [],
+   "streets": [
+    [
+     "ul. Francuska",
+     16
+    ],
+    [
+     "ul. Chorzowska",
+     11
+    ],
+    [
+     "ul. Braci Mniejszych",
+     8
+    ],
+    [
+     "ul. Sokolska",
+     7
+    ],
+    [
+     "ul. Bażantów",
+     6
+    ],
+    [
+     "ul. Sierpnia",
+     6
+    ],
+    [
+     "al. Wojciecha Korfantego",
+     5
+    ],
+    [
+     "ul. Johna Baildona",
+     5
+    ],
+    [
+     "ul. Kępowa",
+     5
+    ],
+    [
+     "ul. Rzepakowa",
+     5
+    ]
+   ],
+   "open24": [
+    "al. Walentego Roździeńskiego 1",
+    "al. Walentego Roździeńskiego 182",
+    "al. Wojciecha Korfantego 35",
+    "al. Wojciecha Korfantego 79",
+    "pl. Marii i Lecha Kaczyńskich 2",
+    "pl. Plac Grunwaldzki 8/10",
+    "pl. Plac Gwarków 1",
+    "pl. Plac Rady Europy 1",
+    "ul. Andrzeja 16",
+    "ul. Andrzeja 21",
+    "ul. Bankowa 11",
+    "ul. Bażantów 16",
+    "ul. Bażantów 2",
+    "ul. Bogucicka 3a",
+    "ul. Bohaterów Monte Cassino 2",
+    "ul. Braci Mniejszych 1",
+    "ul. Braci Mniejszych 2",
+    "ul. Bukszpanowa 26",
+    "ul. Bytkowska 1",
+    "ul. Bytkowska 103B",
+    "ul. Ceglana 59",
+    "ul. Ceglana 65",
+    "ul. Chorzowska 1",
+    "ul. Chorzowska 107"
+   ]
+  },
+  "gdynia": {
+   "total": 926,
+   "avail": [
+    726,
+    39,
+    161
+   ],
+   "areas": [
+    [
+     "Oksywie",
+     13
+    ],
+    [
+     "Redłowo",
+     12
+    ],
+    [
+     "Śródmieście",
+     8
+    ],
+    [
+     "Dąbrowa",
+     5
+    ],
+    [
+     "Działki Leśne",
+     4
+    ],
+    [
+     "Grabówek",
+     3
+    ]
+   ],
+   "streets": [
+    [
+     "ul. Morska",
+     21
+    ],
+    [
+     "ul. Stanisława Filipkowskiego",
+     21
+    ],
+    [
+     "ul. Świętojańska",
+     21
+    ],
+    [
+     "ul. Strzelców",
+     20
+    ],
+    [
+     "ul. Leśna",
+     19
+    ],
+    [
+     "ul. Rdestowa",
+     19
+    ],
+    [
+     "ul. Antoniego Abrahama",
+     16
+    ],
+    [
+     "ul. Australijska",
+     15
+    ],
+    [
+     "ul. Janki Bryla",
+     13
+    ],
+    [
+     "ul. Chylońska",
+     12
+    ]
+   ],
+   "open24": [
+    "al. Marszałka Piłsudskiego 1",
+    "al. Marszałka Piłsudskiego 40",
+    "al. Zwycięstwa 96/98",
+    "pl. Dworcowy 1",
+    "pl. Konstytucji 1",
+    "pl. Konstytucji 5",
+    "ul. adm. J. Unruga 106",
+    "ul. Aleksandra Fredry 3",
+    "ul. Andaluzyjska 38",
+    "ul. Andaluzyjska 44",
+    "ul. Antoniego Abrahama 10",
+    "ul. Antoniego Abrahama 13",
+    "ul. Architektów 55",
+    "ul. Arendta Dickmana 38",
+    "ul. Argentyńska 1",
+    "ul. Argentyńska 2",
+    "ul. Armii Krajowej 11",
+    "ul. Armii Krajowej 21",
+    "ul. Artura Grottgera 23",
+    "ul. Artura Grottgera 6",
+    "ul. Augustyna Krauzego 10",
+    "ul. Augustyna Krauzego 12",
+    "ul. Australijska 1",
+    "ul. Australijska 10"
+   ]
+  },
+  "czestochowa": {
+   "total": 464,
+   "avail": [
+    15,
+    7,
+    442
+   ],
+   "areas": [],
+   "streets": [
+    [
+     "al. Pokoju",
+     18
+    ],
+    [
+     "ul. Poleska",
+     18
+    ],
+    [
+     "ul. Karola Szymanowskiego",
+     15
+    ],
+    [
+     "ul. Małopolska",
+     13
+    ],
+    [
+     "ul. Bialska",
+     12
+    ],
+    [
+     "al. Najświętszej Maryi Panny",
+     11
+    ],
+    [
+     "ul. Marszałka Ferdynanda Focha",
+     11
+    ],
+    [
+     "ul. Bolesława Limanowskiego",
+     10
+    ],
+    [
+     "ul. Filomatów",
+     9
+    ],
+    [
+     "ul. Mikołaja Kopernika",
+     9
+    ]
+   ],
+   "open24": [
+    "al. Armii Krajowej 19",
+    "al. Armii Krajowej 19A",
+    "al. Niepodległości 20/22",
+    "ul. Akademicka 5",
+    "ul. Dąbrowskiego gen. Jana Henryka 69",
+    "ul. Dąbrowskiego gen. Jana Henryka 76/78",
+    "ul. Dekabrystów 26/30",
+    "ul. Dominika Zbierskiego 2/4",
+    "ul. Kiedrzyńska 134A",
+    "ul. Lipowa 51",
+    "ul. Skrzetuskiego 123",
+    "ul. Sowińskiego gen. Józefa 40/46",
+    "ul. Wojciecha Korfantego 37A"
+   ]
+  },
+  "radom": {
+   "total": 232,
+   "avail": [
+    184,
+    4,
+    44
+   ],
+   "areas": [],
+   "streets": [
+    [
+     "ul. Kusocińskiego Janusza",
+     12
+    ],
+    [
+     "ul. Żeromskiego Stefana",
+     12
+    ],
+    [
+     "ul. Maratońska",
+     10
+    ],
+    [
+     "ul. Listopadowa",
+     9
+    ],
+    [
+     "ul. Olsztyńska",
+     6
+    ],
+    [
+     "ul. Rapackiego Adama",
+     6
+    ],
+    [
+     "ul. Stasieckiego hm kpt Eugeniusza",
+     6
+    ],
+    [
+     "ul. Struga Andrzeja",
+     6
+    ],
+    [
+     "ul. Warsztatowa",
+     6
+    ],
+    [
+     "ul. Bema gen. Józefa",
+     5
+    ]
+   ],
+   "open24": [
+    "al. Józefa Grzecznarowskiego 2A",
+    "ul. Aleksandrowicza Juliana 5",
+    "ul. Beliny-Prażmowskiego Władysława 2",
+    "ul. Bema gen. Józefa 1",
+    "ul. Bema gen. Józefa 13",
+    "ul. Biała 6",
+    "ul. Bolesława Chrobrego 13",
+    "ul. Bolesława Chrobrego 26",
+    "ul. Curie-Skłodowskiej Marii 12",
+    "ul. Curie-Skłodowskiej Marii 12A",
+    "ul. Czachowskiego Dionizego 102",
+    "ul. Czachowskiego Dionizego 102 A",
+    "ul. Czarnieckiego Stefana 69",
+    "ul. Daszyńskiego Ignacego 10",
+    "ul. Dąbkowskiego Witolda 7",
+    "ul. Dębowa 54",
+    "ul. Dębowa 54 A",
+    "ul. Filtrowa 9",
+    "ul. Gabriela Narutowicza 1B",
+    "ul. gen. Józefa Bema 2",
+    "ul. gen. Józefa Bema 5",
+    "ul. Grochowa 9",
+    "ul. Grodzka 2",
+    "ul. Grodzka 4"
+   ]
+  },
+  "rzeszow": {
+   "total": 904,
+   "avail": [
+    291,
+    73,
+    540
+   ],
+   "areas": [],
+   "streets": [
+    [
+     "ul. Hetmańska",
+     30
+    ],
+    [
+     "ul. Lwowska",
+     27
+    ],
+    [
+     "ul. Graniczna",
+     19
+    ],
+    [
+     "ul. Lubelska",
+     17
+    ],
+    [
+     "ul. Jana Twardowskiego",
+     16
+    ],
+    [
+     "ul. Ignacego Paderewskiego",
+     14
+    ],
+    [
+     "ul. ks. Józefa Jałowego",
+     14
+    ],
+    [
+     "ul. Architektów",
+     13
+    ],
+    [
+     "ul. Cegielniana",
+     13
+    ],
+    [
+     "ul. Eugeniusza Kwiatkowskiego",
+     13
+    ]
+   ],
+   "open24": [
+    "pl. Dworcowy 1",
+    "ul. Adama Asnyka 5",
+    "ul. Adama Mickiewicza 29",
+    "ul. Adama Mickiewicza 31",
+    "ul. Adama Stanisława Naruszewicza 7",
+    "ul. Aleksandra Fredry 9",
+    "ul. Aleksandra Zelwerowicza 20c",
+    "ul. Aleksandra Zelwerowicza 20d",
+    "ul. Artura Grottgera 4",
+    "ul. Bałtycka 31f",
+    "ul. bp. Józefa Sebastiana Pelczara 1",
+    "ul. bp. Józefa Sebastiana Pelczara 2",
+    "ul. Bronisława Czecha 12",
+    "ul. Bronisława Czecha 14",
+    "ul. Cegielniana 10",
+    "ul. Cegielniana 16a",
+    "ul. Cicha 3",
+    "ul. Cicha 4",
+    "ul. Czudecka 1",
+    "ul. Czudecka 10",
+    "ul. Dominikańska 1",
+    "ul. Eugeniusza Kwiatkowskiego 2b",
+    "ul. Eugeniusza Kwiatkowskiego 46",
+    "ul. Fryderyka Szopena 14"
+   ]
+  },
+  "torun": {
+   "total": 429,
+   "avail": [
+    5,
+    0,
+    424
+   ],
+   "areas": [],
+   "streets": [
+    [
+     "ul. Jana Michała Hubego",
+     20
+    ],
+    [
+     "ul. Strzałowa",
+     18
+    ],
+    [
+     "ul. Żwirki i Wigury",
+     11
+    ],
+    [
+     "ul. Strobanda Henryka",
+     10
+    ],
+    [
+     "ul. Świętopełka",
+     10
+    ],
+    [
+     "ul. Adama Freytaga",
+     9
+    ],
+    [
+     "ul. Łukasza Watzenrodego",
+     9
+    ],
+    [
+     "ul. Jana III Sobieskiego",
+     8
+    ],
+    [
+     "ul. Juliana Fałata",
+     8
+    ],
+    [
+     "ul. Koniuchy",
+     8
+    ]
+   ],
+   "open24": [
+    "ul. Kujawska 1",
+    "ul. Most gen. Elżbiety Zawackiej 0",
+    "ul. Szosa Lubicka 158",
+    "ul. Wały gen. Władysława Sikorskiego 1-13",
+    "ul. Żółkiewskiego 15"
+   ]
+  },
+  "kielce": {
+   "total": 706,
+   "avail": [
+    380,
+    77,
+    249
+   ],
+   "areas": [],
+   "streets": [
+    [
+     "ul. Warszawska",
+     27
+    ],
+    [
+     "ul. Klonowa",
+     24
+    ],
+    [
+     "ul. Wojska Polskiego",
+     19
+    ],
+    [
+     "ul. Henryka Sienkiewicza",
+     15
+    ],
+    [
+     "ul. Zagnańska",
+     15
+    ],
+    [
+     "ul. Księdza Piotra Ściegiennego",
+     14
+    ],
+    [
+     "ul. Stefana Okrzei",
+     13
+    ],
+    [
+     "ul. Ignacego Paderewskiego",
+     12
+    ],
+    [
+     "ul. Chęcińska",
+     10
+    ],
+    [
+     "ul. Księdza Hugona Kołłątaja",
+     10
+    ]
+   ],
+   "open24": [
+    "al. Solidarności 22",
+    "al. Solidarności 32a",
+    "al. Szajnowicza-Iwanowa Jerzego 20",
+    "al. Szajnowicza-Iwanowa Jerzego 27",
+    "os. Na Stoku 23",
+    "os. Na Stoku 46",
+    "ul. alejaIX Wieków Kielc 14",
+    "ul. alejaIX Wieków Kielc 4",
+    "ul. alejaJerzego Szajnowicza-Iwanowa 13A",
+    "ul. alejaJerzego Szajnowicza-Iwanowa 13B",
+    "ul. Andersa Generała Władysława 11",
+    "ul. Andersa Generała Władysława 9",
+    "ul. Artylerzystów 4",
+    "ul. Artylerzystów 6",
+    "ul. Batalionów Chłopskich 71",
+    "ul. Bąkowa 10B",
+    "ul. Bąkowa 10C",
+    "ul. Biskupa Adama Naruszewicza 16",
+    "ul. Biskupa Czesława Kaczmarka 6",
+    "ul. Bohaterów Warszawy 17",
+    "ul. Bohaterów Warszawy 6",
+    "ul. Chęcińska 16B",
+    "ul. Chęcińska 16D",
+    "ul. Częstochowska 23"
+   ]
+  },
+  "olsztyn": {
+   "total": 566,
+   "avail": [
+    1,
+    0,
+    565
+   ],
+   "areas": [],
+   "streets": [
+    [
+     "ul. Jarocka",
+     18
+    ],
+    [
+     "ul. Barcza Franciszka",
+     17
+    ],
+    [
+     "ul. Wincentego Pstrowskiego",
+     17
+    ],
+    [
+     "ul. Bałtycka",
+     14
+    ],
+    [
+     "ul. Żołnierska",
+     12
+    ],
+    [
+     "ul. Biskupa Tomasza Wilczyńskiego",
+     11
+    ],
+    [
+     "ul. Jagiellońska",
+     11
+    ],
+    [
+     "ul. Mazowiecka",
+     11
+    ],
+    [
+     "ul. Niepodległości",
+     11
+    ],
+    [
+     "ul. Pomorska",
+     11
+    ]
+   ],
+   "open24": [
+    "ul. Piastowska 7"
+   ]
+  },
+  "opole": {
+   "total": 235,
+   "avail": [
+    7,
+    19,
+    209
+   ],
+   "areas": [],
+   "streets": [
+    [
+     "ul. Tarnopolska",
+     24
+    ],
+    [
+     "ul. Krzemieniecka",
+     14
+    ],
+    [
+     "ul. Przylesie",
+     9
+    ],
+    [
+     "ul. Tęczowa",
+     9
+    ],
+    [
+     "ul. Koszalińska",
+     8
+    ],
+    [
+     "ul. Prószkowska",
+     8
+    ],
+    [
+     "al. Przyjaźni",
+     7
+    ],
+    [
+     "ul. Chmielowicka",
+     7
+    ],
+    [
+     "ul. Nowowiejskiego Feliksa",
+     7
+    ],
+    [
+     "ul. Ozimska",
+     7
+    ]
+   ],
+   "open24": [
+    "al. Wincentego Witosa 26",
+    "ul. Chocimska 5",
+    "ul. Katowicka 66a",
+    "ul. Krakowska 48",
+    "ul. Książąt Opolskich 18",
+    "ul. Stefana Żeromskiego 6",
+    "ul. Torowa 3"
+   ]
+  },
+  "zielona-gora": {
+   "total": 724,
+   "avail": [
+    2,
+    8,
+    714
+   ],
+   "areas": [],
+   "streets": [
+    [
+     "ul. Kupiecka",
+     51
+    ],
+    [
+     "ul. Jedności",
+     40
+    ],
+    [
+     "ul. Sikorskiego Generała Władysława",
+     27
+    ],
+    [
+     "ul. Osiedle Pomorskie",
+     23
+    ],
+    [
+     "ul. Ptasia",
+     23
+    ],
+    [
+     "ul. Podgórna",
+     20
+    ],
+    [
+     "ul. Wyspiańskiego Stanisława",
+     19
+    ],
+    [
+     "ul. Dąbrowskiego Generała Jarosława",
+     17
+    ],
+    [
+     "ul. Stefana Batorego",
+     17
+    ],
+    [
+     "ul. Powstańców Warszawy",
+     16
+    ]
+   ],
+   "open24": [
+    "ul. Obywatelska 43G",
+    "ul. Obywatelska 45A"
+   ]
+  },
+  "gorzow-wielkopolski": {
+   "total": 497,
+   "avail": [
+    180,
+    17,
+    300
+   ],
+   "areas": [],
+   "streets": [
+    [
+     "ul. Ogińskiego Michała Kleofasa",
+     26
+    ],
+    [
+     "ul. Wróblewskiego Walerego",
+     25
+    ],
+    [
+     "ul. Słoneczna",
+     18
+    ],
+    [
+     "ul. Obrońców Pokoju",
+     17
+    ],
+    [
+     "ul. Kazimierza Wielkiego",
+     16
+    ],
+    [
+     "ul. Sczanieckiej Emilii",
+     14
+    ],
+    [
+     "ul. Szwoleżerów",
+     12
+    ],
+    [
+     "ul. Batalionu Zośka",
+     11
+    ],
+    [
+     "ul. Gwiaździsta",
+     11
+    ],
+    [
+     "ul. Komisji Edukacji Narodowej",
+     11
+    ]
+   ],
+   "open24": [
+    "ul. Batalionu Zośka 7",
+    "ul. Bohaterów Westerplatte 1",
+    "ul. Bohaterów Westerplatte 19",
+    "ul. Czartoryskiego Księcia Adama 16",
+    "ul. Czartoryskiego Księcia Adama 20",
+    "ul. Dekerta Jana 12",
+    "ul. Dekerta Jana 45",
+    "ul. Dembowskiego Edwarda 1",
+    "ul. Dembowskiego Edwarda 2",
+    "ul. Dmowskiego Romana 14",
+    "ul. Dmowskiego Romana 2",
+    "ul. Dowbora-Muśnickiego gen. Józefa 12",
+    "ul. Dowbora-Muśnickiego gen. Józefa 14",
+    "ul. Dowgielewiczowej Ireny 15-21",
+    "ul. Dowgielewiczowej Ireny 23-29",
+    "ul. Dywizjonu 303 10",
+    "ul. Dywizjonu 303 11",
+    "ul. Kazimierza Wielkiego 102",
+    "ul. Kazimierza Wielkiego 108",
+    "ul. Kilińskiego Jana 1",
+    "ul. Kilińskiego Jana 14",
+    "ul. Komisji Edukacji Narodowej 6B",
+    "ul. Kościuszki Tadeusza 11 a-e",
+    "ul. Kościuszki Tadeusza 2 a-c"
+   ]
+  },
+  "tarnow": {
+   "total": 149,
+   "avail": [
+    16,
+    27,
+    106
+   ],
+   "areas": [],
+   "streets": [
+    [
+     "ul. Generała Tadeusza Bora-Komorowskiego",
+     10
+    ],
+    [
+     "ul. Arcybiskupa Jerzego Ablewicza",
+     7
+    ],
+    [
+     "ul. Kasztanowa",
+     7
+    ],
+    [
+     "ul. Lwowska",
+     7
+    ],
+    [
+     "ul. Eugeniusza Kwiatkowskiego",
+     5
+    ],
+    [
+     "ul. Józefa Piłsudskiego",
+     4
+    ],
+    [
+     "ul. Nowy Świat",
+     4
+    ],
+    [
+     "ul. Sportowa",
+     4
+    ],
+    [
+     "ul. Starodąbrowska",
+     4
+    ],
+    [
+     "ul. Bora-Komorowskiego Generała Tadeusza",
+     3
+    ]
+   ],
+   "open24": [
+    "pl. Dworcowy 3",
+    "ul. Artura Grottgera 25",
+    "ul. Bóżnic 5A",
+    "ul. Henryka Wieniawskiego 12A",
+    "ul. Henryka Wieniawskiego 12B",
+    "ul. Mickiewicza Adama 13",
+    "ul. Nadbrzeżna Dolna 7",
+    "ul. Pszenna 3",
+    "ul. Sanguszków 28A",
+    "ul. Sportowa 7",
+    "ul. Sportowa 7A",
+    "ul. Wilsona 56",
+    "ul. Wilsona 58",
+    "ul. Zarzyckiego Ferdynanda 9-15"
+   ]
+  }
+ }
+}

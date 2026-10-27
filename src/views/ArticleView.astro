@@ -5,6 +5,7 @@ import Community from '../components/Community.astro';
 import { clusters, routes, t, fmtDate, type Lang } from '../i18n/ui';
 import { hrefOf, translationOf, articles, slugOf, type Article } from '../lib/articles';
 import { guideBase } from '../i18n/ui';
+import { hubHref, hubExists } from '../data/hubs';
 
 interface Props { entry: Article }
 const { entry } = Astro.props;
@@ -17,7 +18,9 @@ const here = hrefOf(entry);
 const alternates = { [lang]: here, ...(tr ? { [tr.data.lang]: hrefOf(tr) } : {}) } as Partial<Record<Lang, string>>;
 const url = new URL(here, Astro.site).href;
 // Powiązane: ten sam temat + stałe linki do najważniejszych narzędzi (linkowanie wewnętrzne)
-const same = (await articles(lang)).filter((a) => a.id !== entry.id && a.data.cluster === d.cluster).slice(0, 3);
+const all = await articles(lang);
+const same = all.filter((a) => a.id !== entry.id && a.data.cluster === d.cluster).slice(0, 5);
+const hub = hubExists(d.cluster, lang, all.filter((a) => a.data.cluster === d.cluster).length) ? hubHref(d.cluster, lang) : null;
 const keyLinks = lang === 'pl'
   ? [
       { href: routes.shelters.pl, label: 'Mapa schronów: gdzie jest najbliższy schron' },
@@ -36,7 +39,8 @@ const jsonLd: object[] = [
     '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
       { '@type': 'ListItem', position: 1, name: 'PrepReady', item: new URL(routes.home[lang], Astro.site).href },
       { '@type': 'ListItem', position: 2, name: t(lang, 'nav.guides'), item: new URL(routes.guides[lang], Astro.site).href },
-      { '@type': 'ListItem', position: 3, name: d.title, item: url },
+      ...(hub ? [{ '@type': 'ListItem', position: 3, name: clusters[d.cluster][lang], item: new URL(hub, Astro.site).href }] : []),
+      { '@type': 'ListItem', position: hub ? 4 : 3, name: d.title, item: url },
     ],
   },
 ];
@@ -49,7 +53,7 @@ if (d.faq.length) jsonLd.push({
   <article class="wrap art">
     <header class="ahead">
       <nav class="crumbs" aria-label="breadcrumb">
-        <a href={routes.guides[lang]}>{t(lang, 'nav.guides')}</a> <span aria-hidden="true">/</span> <span>{clusters[d.cluster][lang]}</span>
+        <a href={routes.guides[lang]}>{t(lang, 'nav.guides')}</a> <span aria-hidden="true">/</span> {hub ? <a href={hub}>{clusters[d.cluster][lang]}</a> : <span>{clusters[d.cluster][lang]}</span>}
       </nav>
       <h1>{d.title}</h1>
       <p class="dek">{d.description}</p>
@@ -90,6 +94,7 @@ if (d.faq.length) jsonLd.push({
           <ul>
             {same.map((a) => <li><a href={hrefOf(a)}>{a.data.title}</a></li>)}
             {keyLinks.map((l) => <li><a href={l.href}>{l.label}</a></li>)}
+            {hub && <li><a href={hub}>{lang === 'pl' ? `Wszystkie poradniki: ${clusters[d.cluster].pl}` : `All guides: ${clusters[d.cluster].en}`} →</a></li>}
           </ul>
         </nav>
 

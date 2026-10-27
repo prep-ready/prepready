@@ -1,0 +1,13 @@
+---
+import V from '../../../../views/HubView.astro';
+import { hubs, hubExists } from '../../../../data/hubs';
+import { articles } from '../../../../lib/articles';
+export async function getStaticPaths() {
+  const list = await articles('pl');
+  return (Object.keys(hubs) as (keyof typeof hubs)[])
+    .filter((c) => hubExists(c, 'pl', list.filter((a) => a.data.cluster === c).length))
+    .map((cluster) => ({ params: { topic: hubs[cluster].pl.slug }, props: { cluster } }));
+}
+const { cluster } = Astro.props;
+---
+<V lang="pl" cluster={cluster} />
