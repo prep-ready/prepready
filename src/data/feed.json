@@ -18,6 +18,40 @@
         }
       },
       {
+        "at": "2026-10-27T14:52:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "TVP Info",
+        "url": "https://news.google.com/rss/articles/CBMivAJBVV95cUxOZ2x0eDZHQTV5TC1OMEVhZnpiSU9oSVVaOHF6aDlHMHhwNmFuQW1IMTBzd0ZlMVUwdjlTOWlXV2czOUdvSGFubURoMTFxZ01VVHgxbTBCVWlkdG5VUjBadlkzWm1MWERTRllOTUZnUDN4ZVlsN0w1cHBJR0lpcDJ2d3dneTZDeE5VdXF2aFdkXzRrWHJOZUUzMUxIdjVQU0dNUHRnVW8wQVVsbnl0QlZRZlFPWnlsT0x4bWR4TzNxZEpvN2xDMWRtdDdaaVdiRWpPNlMtaUc5TVEyUWh6YllIU3BRV19MN0NxVzFmc05acTBfb2FxamctWmVieEVBUGtGdVlFU21wZUJ1N0VqSXFYT0NFcUE1OVprXzBGZm1mWXJDWkZ1amRKbFBaU0tfY2pXWFlDOVR6dWlzR1Rx?oc=5",
+        "title": "Polska pokonała Niemcy i Holandię. Ważna decyzja w sprawie Patriotów",
+        "official": false,
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+      },
+      {
+        "at": "2026-10-27T13:37:54.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Polskie Radio 24",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZTdVckdabmFfekJXNEpJUUU4MlVERVB5VDB5YWtVNkc1VGhtS1d2NmdHOWxiVjFCNXpfSVR6Unh4OTNQVlpzTjB2VXRCQWx5MVhqSFZ1bExRenVqZE0ySEphdGpHVGlnZWxYTG1zaFB5NkRGXzJVMk1uRXRYQ045UEJYR25aYlZsWm55S1Bzd0tZZndoMUhBYlpNLWZ4NmJ5RXc?oc=5",
+        "title": "Dron spadł do Bałtyku. Żandarmeria ostrzega: może dotrzeć do wybrzeża",
+        "official": false,
+        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112.",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
+      },
+      {
+        "at": "2026-10-27T11:55:00.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "CERT Polska",
+        "url": "https://cert.pl/posts/2026/10/CVE-2026-105987/",
+        "title": "Podatność w oprogramowaniu KGS Software tia Viewer",
+        "official": true,
+        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
+      },
+      {
         "at": "2026-10-27T11:22:00.000Z",
         "cat": "weather",
         "sev": 2,
@@ -202,43 +236,73 @@
         "title": "Polska przygotowuje się do wojny. Kluczowa ustawa na ostatniej prostej",
         "official": false,
         "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-10-26T10:41:18.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Polskie Radio 24",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUmhFYi14NUZTNkRFZWx0OThJbHNkRzNOSjJuZ3dzMUwyb2luWjQzNEhNQjN2el9OcG0tLXNOSW5qU3pZSDgzYjFSSGJzd1R1anhOQzFya1Z0ZTBwRGM3QmNyTzdJOEZZOEpNeV9pbzRRTkd0TE9KZk1UdEQzdFJVdGlVUTlNbWpBVlVLeDJHTWNncnVpaU5scGtTSi1SYXBzcDVpM1FvcENiUkstYWtj?oc=5",
-        "title": "Jak przygotować się na zagrożenie? Ekspert wskazuje, co trzeba zrobić już teraz",
-        "official": false,
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-10-26T10:11:06.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Wiadomości Onet",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxORUJxQjRmd1FsV3VqWEdmcy1FWERDUS01T212cUdXZ2FudDJHLWxmUm0xM19Za0hxYjlSOEt3eklvNVNYU3FVY0NJMVRWYThFLU84Y0htYWR2U1NGNkNQeHRUeWlISkFRNDlLYjVSaHpDZ3oxQlh5aXFDT2NRMC1hc3pkRWhJVDV1cGYwdTJURVA?oc=5",
-        "title": "USA planują duży atak na Iran. \"Gotowi w 96 godz.\"",
-        "official": false,
-        "forYou": "Jeśli jesteś w pobliżu: uciekaj, a jeśli nie możesz, ukryj się i wycisz telefon. Dzwoń pod 112, gdy będzie to bezpieczne. Unikaj okolicy i nie powielaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-10-26T06:44:28.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "CyberDefence24",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTzRhQVl2UXFmeFhFNnNWR3hsSWVRWmVIZGoyWFZwTEl6VHhEbkdaSl9XQUFXd1lrdFZqVXdjN2R0cmhtNkNYVEhqeHRFbU80WTNHSHBvZXlfZHoxcjBtal9VUmRqWG9YRTlMTnlfZkxSMUwwRERvQ1hRa2dxWGQ5TFphd1ZVZXplRmFsWmFHVmJDUkNLWkZUZ0NySWRIckFOSjQ0R0pHQ0xHaHMyTHc?oc=5",
-        "title": "System z „Bezpiecznego Podlasia” wzmocni polskie wojsko",
-        "official": false,
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
       }
     ],
-    "updatedAt": "2026-10-27T11:06:24.326Z"
+    "updatedAt": "2026-10-27T16:54:55.161Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-27T16:52:53.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The National",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdmN6SzJtQ0JYM2gwc3RFSmQ5V3lFTFVfbk04VEdnUXJDcVRZTE90aDVfSUhvVzFUOExCT0FNd2h5MFFjMlltY3dwd2JUc3ZtM1R6RXRXdldlMUZBSnZrR1pteE4yeGd2Vi1saWwySzh3MTJFQWpsNGFNQ1NQWFRPMmtkMkE4Uko4LUZaZTdUMWFQOWFqRXhSZ0k1ZWVPcmhpc1FXZ0FaYVBxRWFuTkNydzF3?oc=5",
+        "title": "Middle East latest: Saudi Arabia reports missile interception damage in Riyadh as Houthis claim more attacks",
+        "official": false,
+        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+      },
+      {
+        "at": "2026-10-27T15:29:38.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Los Angeles Times",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOSGJQYkdpX3lfdU5ZQVVhcEpWMUpUT0VJNExSMlZJZU0wXzVvb2l0d0N3elIxMUZ2NjZ5RklrT1J3SUJXZlJ2REhZcGVGck1RNHl4VkNQbWtvLW5lazZqQllVbGN1cEhaTW9WdXVoX2p6aDdvZkJqS1RwZFBnWGp4UEJBSjluaVBDeHBqVUVLd091V3c2dnVLSFRzNE1LaG15U3MxY1pwZzVPQk1QZS1wNVVlNDBEcXFvcEMwdkR5NmJSdUlQOTZwYkpYN08zNWZ5X1RVZ2sxT3cwa1pET3c?oc=5",
+        "title": "Russia committed war crimes in Ukraine by attacking its energy grid, U.N.-backed inquiry says",
+        "official": false,
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
+      {
+        "at": "2026-10-27T15:04:04.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "The Record from Recorded Future News",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPUV9sc3JkSmlSUHc4cDN3Nzg4ZzhCSjdRdEZsdjBKeUk3NHctakdRbjNVOENPaXcyV2JwSF9xdW1vZGM0VE5oNDc5d2xRQlF0MWEyd0VacXZQNVdGeHpJalpidEYtLS1wdldPb2NIWWMtSnNtclhSV1BYc0FITkVNX1JkZUZ2bUU?oc=5",
+        "title": "University of New Mexico hospital diverts ambulances after cyberattack",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
+      {
+        "at": "2026-10-27T14:46:56.000Z",
+        "cat": "health",
+        "sev": 1,
+        "source": "ECDC",
+        "url": "https://www.ecdc.europa.eu/en/news-events/ecdc-deploy-experts-ebola-cases-emerge-kenya-and-nigeria",
+        "title": "ECDC to deploy experts as Ebola cases emerge in Kenya and Nigeria",
+        "official": true,
+        "forYou": "Usually no action. Check your first-aid kit and expiry dates."
+      },
+      {
+        "at": "2026-10-27T14:10:39.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQb2xMY1ZNOGZMdGFLZGV6Ui1rTTZmODJnOGprdHhzRlJXcmkwbndqd2libFRWeF9jSkowZXE5SF9EYmhoZ3pwekhNZWUxYmtRRE5wSHRSMXRUd0JyWkNnTi1HeWdJUjZHRXRtZDJKaVZZN1BrQzNnamdCWVZGVXJFTXlCWTFfLTFZSnpMeVB1RHRwa2pMYUxZT2I3c05WTDdoNXVuVHdsTDgzYkRINVFXbFR5a29jUEnSAbwBQVVfeXFMUHduZGtfYlZfU2EyYm9WQmNMaFFZT2lyR3R4Z2JtOEN5NHUwZzhMTWpkSWx6TVVwOWJVbzdiM2plZTR3NUpvSkhQVlFGNVBtNEdvWWNaOTRaOUF3Z25sXy0wcEFMZ2F3MzNjMzY5aXl2bXJ4a0xEZjMzWjB3TE8tekVtWmJ6azk3bE1ndnRRdzJackdzUFdOY0R2NHlPZk00c0d5c1kxZXZpVEREWDkxUEpsTS10VHIxQXFmcEc?oc=5",
+        "title": "Russia targets Kyiv as Finnish, Norwegian leaders hold rare call with Putin",
+        "official": false,
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
+      {
+        "at": "2026-10-27T13:42:03.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "EnergyNow.com",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRHM5Z0w3dFFfNEtpem9naS1GakppY2drNmxqQ2xWRDB3b1hmMHBDWUZZc2ZKY2ZJR2RKejd4YW9CMTYxMzFqX01ZcmNXZG9WMVVKaXFIVlY2WVpBWUpMQnZMOEJaM2xtRW9IMnEzelgwQmQ4djVuYTA1MmVZWVB0a01IeWhuNkJnMnR3TA?oc=5",
+        "title": "Cuba’s National Electric Grid Collapses, Reason Unknown",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
       {
         "at": "2026-10-27T10:26:41.000Z",
         "cat": "energy",
@@ -270,26 +334,6 @@
         "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
       },
       {
-        "at": "2026-10-27T09:51:44.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Odessa Journal",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUVlaZ2hpMGVhRHBqZXA1OWk2UHo5dkdJX05ROVVoMkFibmU0VnppTmdpU21NVE1NNUxFbXNseXdiNVBiTEI5X1duMXpMdHozQTVDaDluQnlNNUIwWVBjS2taeHZrczBvdjBWQmNoUGE2TlIyQjU1UkxqNmxtN2ZkNmo2VG1felFkWmJvNF9GWThqbm8x?oc=5",
-        "title": "Russian Missile Attack Damages Kyiv's Pivdennyi Bridge and Metro Infrastructure - Oj",
-        "official": false,
-        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
-      },
-      {
-        "at": "2026-10-27T05:00:25.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The National",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYXpXeGJySlQxeV9XYjNxYnlSSUVtSEZibERTbTVKcG1seloyZXYyc3JvbEtUT0JtamQ1N2YtbEYxZWR4MW1CTDJrbDUyYzVhOVFocDk1RURYWl82TFZFWmxNRW1UT1EtVE1INjR1bkNrbWhZN1lPSWZtclU0VFA3SXQtdU9Kay11UWI5YzZJaUU3R3MtSnBHdg?oc=5",
-        "title": "Middle East latest: Saudi Arabia intercepts missiles and drones after Tehran meeting",
-        "official": false,
-        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
-      },
-      {
         "at": "2026-10-27T04:50:01.000Z",
         "cat": "cyber",
         "sev": 2,
@@ -310,32 +354,12 @@
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       },
       {
-        "at": "2026-10-26T22:55:06.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "New Haven Register",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOQ0I0dXBjSjlKSWYwc3JMckJWdGNrZVg5azNYQjJWalFLN1JVV3g3ZW5YdE0wR1JyaV9FenYyNzJGRUQzamEzbW5selJpRmtkcGRFSDZvZFF1SjhIektyWkEyQjlyVnhVeDJmbklaN0ZMM2o2dkFMMllRbUN6ZmFFeTllTVBSTTlVb1MzSVp6SDViTVl4QTNNelBiLW5LaGFOS2c?oc=5",
-        "title": "Russia committed war crimes in Ukraine by attacking its energy grid, UN-backed inquiry says",
-        "official": false,
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
         "at": "2026-10-26T21:50:00.000Z",
         "cat": "cyber",
         "sev": 2,
         "source": "WRDW",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaG9UNzgzNVhSbVhOR1I1QmVSUUliejdSUjBhaDdFQUFDRDdmUHVjanBnZzZrT0FPQ0ViX3pDNHJzZUY0TnZQLXJBc0c4dG5ON1BRUzNoWW4tbW1INEZ4RTFoU054NjBPcWxYNUVENm16X3Q1Q1dZZkFWY2VHc3hxLWpmY2ZGdzhjSGZDbUtWRWh6enZ5c2NQTHN1b0VQSWp2UzNQZ3F30gGmAUFVX3lxTE5ob1Q3ODM1WFJtWE5HUjVCZVJRSWJ6N1JSMGFoN0VBQUNEN2ZQdWNqcGdnNmtPQU9DRWJfekM0cnNlRjROdlAtckFzRzh0bk43UFFTM2hZbi1tbUg0RnhFMWhTTng2ME9xbFg1RUQ2bXpfdDVDV1lmQVZjZUdzeHEtamZjZkZ3OGNIZkNtS1ZFaHp6dnlzY1BMc3VvRVBJanZTM1BncXc?oc=5",
         "title": "S.C. launches cybersecurity pilot program for rural hospitals",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-26T20:29:04.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "Yahoo! Finance Canada",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPeWJ0LW0zNVozbmpaZGRvekNTTE5yMzc4eFhJbjBkbDlPVXpYS3dOeE83NXlzMzBsSTNuZl95UTJmWDZUV2wtdlllbVFjRzBLVW5RSlJodVpKcWhSNVh1ZXFoNUtPRERkcFdBZ0M5Tmg0cjVSa2JQaDFXV21NRU5kMTFNQ3JvU3R1ZmNzdWxKR2VZdw?oc=5",
-        "title": "A cybersecurity issue forces a major New Mexico hospital to divert patients and close clinics",
         "official": false,
         "forYou": "Update your devices and don’t tap links in alert-style messages."
       },
@@ -418,28 +442,8 @@
         "title": "Why hospital cyber resilience is a joint decision",
         "official": false,
         "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-26T00:00:05.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The Jerusalem Post",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBCblZ2MkV3NDdVMUlhVVlyRnYzRnFIN2tDUWdtTW80UHJIRnA0OWo3RU9DRmdjTkVpYWJreWVpLVI3bjRCMnEzSjI1VVZGYkdUYkVYS0dHNlI3N2tfdHFYcFBnNGtoNUhUV3ZIa1NJbEtKUFJnZC03XzRxY19vM0k?oc=5",
-        "title": "Live Updates: Latest from Israel, Iran, and the Middle East",
-        "official": false,
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-26T00:00:00.000Z",
-        "cat": "disaster",
-        "sev": 4,
-        "source": "GDACS",
-        "url": "https://www.gdacs.org/report.aspx?eventid=1001345&episodeid=6&eventtype=TC",
-        "title": "Tropical Cyclone ARNAB-26 (Red alert)",
-        "official": true,
-        "forYou": "If you have family in the area, check in. Review your own evacuation plan."
       }
     ],
-    "updatedAt": "2026-10-27T11:08:10.831Z"
+    "updatedAt": "2026-10-27T16:55:55.345Z"
   }
 }
