@@ -18,6 +18,20 @@
         }
       },
       {
+        "at": "2026-10-27T00:45:43.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Gov.pl",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE53dE10dzVKUTM2Slg1bWNaMTlQV3o4ME8xbHBONFl4Szhsd3VsY1MyZUNWTjRKMDQyTk9GOWF2UElENkZGcW51R2U0cDcwd1RJM2lndHZta1daVWRYeFh3RkJR?oc=5",
+        "title": "Próbna ewakuacja - Państwowa Szkoła Muzyczna I stopnia im. B. Zielińskiego w Wągrowcu",
+        "official": true,
+        "forYou": "Przypomnij dziecku zasady: słuchaj nauczyciela, uciekaj od zagrożenia albo schowaj się w sali i wycisz telefon. Nie dzwoń do dziecka i nie jedź od razu pod szkołę, czekaj na komunikat szkoły lub policji.",
+        "guide": {
+          "href": "/pl/poradniki/bezpieczenstwo-dziecka-w-szkole/",
+          "label": "Bezpieczeństwo dziecka w szkole"
+        }
+      },
+      {
         "at": "2026-10-27T00:07:55.315Z",
         "cat": "energy",
         "sev": 3,
@@ -230,27 +244,63 @@
           "href": "/pl/mapa-schronow/",
           "label": "Mapa schronów"
         }
-      },
-      {
-        "at": "2026-10-25T09:02:18.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Polskie Radio 24",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbFo4czVWLVpGV3FPU3U1dGg3RnhmTmgxV3FXRG5qMWdZeE53OGxRcDZfUGUzQ0ZRZHNyNUEybzB4U1V5YVUwS3QyU0VJX2hmcXpmRWZSMHNISG1iQ2Jfd1dlVThmUVREeVBCWVduY00tanVONG9rLS1uNjhqX2hHSXlqZERpZDVIdUlz?oc=5",
-        "title": "Alert RCB przed silnym wiatrem. \"Zachowaj ostrożność, zabezpiecz rzeczy\"",
-        "official": false,
-        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
-        "guide": {
-          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
-          "label": "Alert RCB i aplikacja RSO"
-        }
       }
     ],
-    "updatedAt": "2026-10-27T00:08:58.482Z"
+    "updatedAt": "2026-10-27T05:42:09.473Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-27T05:18:16.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Media",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBJcTlZNU9IaGg2YmhPRHprTTNOenVyYzdKNHh3UjRuMi1pOHBuNGlpbld6QzgwSHR5bElONm5GVDZWQU1YdFhUVGdkYXFvSml1a1F5X205NGoyRnhmTVlHc083aHk2ZU5GV1Br?oc=5",
+        "title": "Russian Missile Strike Hits Kyiv University and Medical Centers - www.businesstimes-bd.com",
+        "official": false,
+        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+      },
+      {
+        "at": "2026-10-27T05:00:25.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The National",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYXpXeGJySlQxeV9XYjNxYnlSSUVtSEZibERTbTVKcG1seloyZXYyc3JvbEtUT0JtamQ1N2YtbEYxZWR4MW1CTDJrbDUyYzVhOVFocDk1RURYWl82TFZFWmxNRW1UT1EtVE1INjR1bkNrbWhZN1lPSWZtclU0VFA3SXQtdU9Kay11UWI5YzZJaUU3R3MtSnBHdg?oc=5",
+        "title": "Middle East latest: Saudi Arabia intercepts missiles and drones after Tehran meeting",
+        "official": false,
+        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+      },
+      {
+        "at": "2026-10-27T04:50:01.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Escudo Digital",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdjFnYW1WclpEQTVkcVpGZVhlV2trckh4ZWVLZFZtdTBoSFlxQVh5aDZNMHAyYVdHWXRxR0kwUFg4ZldBMkhWa1ZKNklLcVNQTGozLTlCeWtsVG9xb2NwZUNNcGNjR2FKRHJpOWtqLVpody1XUlUzaTFSRWRYN0M0S083VnphX001Wm5BOTlYeEFDMjVMbkJrMDd4LXFKek93UW5V?oc=5",
+        "title": "US, UK, and Germany target SafePay ransomware group",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
+      {
+        "at": "2026-10-27T04:00:53.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Voice of America English News",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBjQU43TWd5RF85LXM1ZDZfUG9jLTRmdEZpSmtTS3hKT1VlTEJnVGRfa3NjclNRaTVyWDB0WnFtczhIM1pBdW9ILXIwZGNrbFR2TWhTVXVsUjJFWnVlbTk3YU1ZYmpobklzbXo1QkVfM0VkRmtkRDVNRDJDNEMwLXfSAYIBQVVfeXFMT2JfcTk2cTdMa0tUT0NsTUFTSmRBRHZiTlZiQTBBQWw0M2xicFpoOGpQcjR0Z3ZQQktHLVo3eEl4elVOakdIWGFmMjFvVmJId0lYbHhHaUxjc3RULUozZGJRRUxsRGhPUGUyUko4aktnMUdfR0FWYWhoRXdsOFAxNW5nUQ?oc=5",
+        "title": "Exposing the Cuban Regime's Lies - VOA",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
+      {
+        "at": "2026-10-27T03:47:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdjZTTXg2eDNMTTdoVUJxdmFaaXVvb0hFdXBQaHJycnhNTU5jM0xtZ0k2VmlEdUIxSWcwZFd5OWRxaEdpTVBMSE9yNU5WTGE0M1RzMjYtS0FOWll6M0U3VHlqcXRLMUw4ZmxiNWc1T0NBS0F3SWkwV1E5X0VDUVEzSzRGVHVZQ3VUOUl4bzlQVXFucl91azBLeXA0RWdNSWNTd1NFRmZKRFl5VHhZ?oc=5",
+        "title": "Ukraine war briefing: Russia strikes Kyiv hours before truce begins in war-ravaged city Oleshky",
+        "official": false,
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
       {
         "at": "2026-10-26T22:55:06.000Z",
         "cat": "security",
@@ -262,16 +312,6 @@
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       },
       {
-        "at": "2026-10-26T21:55:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "shelter.in.ua",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPR2c1M2ZydU1fR2VaUGZzeHJoeHhVcUNGSzJPajNvOGpibWh5c05kaW9Ob3NTelJxckpLOWxBNmY1UmdMSzdfTE9EU19vWUpHQ2FCdTYtWV9mc0pHZGtxNm9ZS1VmWlZqZmYzdVZKOGxjQUpJNUpPbXkwS2c5MTN4STdBSzBnZi1DVmc?oc=5",
-        "title": "Zelenskyy Responded to Russia's Missile Strike on Kyiv",
-        "official": false,
-        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
-      },
-      {
         "at": "2026-10-26T21:50:00.000Z",
         "cat": "cyber",
         "sev": 2,
@@ -280,16 +320,6 @@
         "title": "S.C. launches cybersecurity pilot program for rural hospitals",
         "official": false,
         "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-26T21:39:05.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "UNITED24 Media",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOdGJzVWttZ3hkNVRmaHJIZUlZNl9VZ194Yi1NeUIwWGdrQ21FWjBtODNsQ1RZZGVmNlQyN0U5QjNCaUVMc0hib2x2MkhGM25SQ2U3UjhfVjltQmZFTG9nd3BHMkNXalg2UTk3U29LVTRPRHdpLU5VVTAzT1lYYm9nWHZockZEVFNpU3lqZ2RYSHBQRXZVZzQ5RVJFWURLTnRwdmk0ZnRmc01NNU14LXVWY1lfTThJc2J3bUVDVVVJRmpLZ0E2LVpsSDB3?oc=5",
-        "title": "Russian Ballistic Missiles Hit Kyiv University Campus, Killing One and Injuring Nine",
-        "official": false,
-        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
       },
       {
         "at": "2026-10-26T20:29:04.000Z",
@@ -310,16 +340,6 @@
         "title": "Granma Plunged Into Darkness After Major Power Failure",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-26T19:51:34.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Latest news from Azerbaijan",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPNjB6Rmw2cXZxY2lmYzRPOTMtX0NaMkJNSlVNNHkxbzIta1NERWU4bk8xTXowR01VRXdfdnZSR0F6bkl3Yk1qM09YdndKb3FfTk5MdWZ2M2E4YU1QWHJWNGxQZW1xR3ZHcmpuemo1el9iYTNodVdHcHNKVDZOZmpDSGhXU1NQdFAxNFo0c2QzdnlMbWZ6NC14VUxCQ20xQkMzRTJraWlhRQ?oc=5",
-        "title": "Ukraine-Russia war LIVE : Ukraine reports strike on key Russian military supply plant",
-        "official": false,
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       },
       {
         "at": "2026-10-26T19:18:00.000Z",
@@ -360,16 +380,6 @@
         "title": "Daily OT Security News: October 26, 2026",
         "official": false,
         "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-26T13:34:33.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The National",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMUJsM2R4ODZmeV9taEQzSnl2UDNKTVB2dldvLUFKeU5DenV1bk9RelNDT2NuWGhpZWpzVUd3VFFONjE0eEVrdnY1VDU2RnVHd3Q5Uk8xNlhHOWxHYjJLaDBuWWlZZXdUMmpZOWU5YU1YMUE1MGl1bFVzY1hBTVZrRXJBQmJZeFFDSzZGNjBMS051UnpMVzhjNA?oc=5",
-        "title": "Middle East latest: Egypt's parliament approves military support for Saudi Arabia",
-        "official": false,
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       },
       {
         "at": "2026-10-26T13:22:11.000Z",
@@ -436,22 +446,12 @@
         "cat": "disaster",
         "sev": 4,
         "source": "GDACS",
-        "url": "https://www.gdacs.org/report.aspx?eventid=1001345&episodeid=4&eventtype=TC",
-        "title": "Tropical Cyclone ARNAB-26 (Red alert)",
-        "official": true,
-        "forYou": "If you have family in the area, check in. Review your own evacuation plan."
-      },
-      {
-        "at": "2026-10-26T00:00:00.000Z",
-        "cat": "disaster",
-        "sev": 4,
-        "source": "GDACS",
-        "url": "https://www.gdacs.org/report.aspx?eventid=1001345&episodeid=3&eventtype=TC",
+        "url": "https://www.gdacs.org/report.aspx?eventid=1001345&episodeid=5&eventtype=TC",
         "title": "Tropical Cyclone ARNAB-26 (Red alert)",
         "official": true,
         "forYou": "If you have family in the area, check in. Review your own evacuation plan."
       }
     ],
-    "updatedAt": "2026-10-27T00:11:10.070Z"
+    "updatedAt": "2026-10-27T05:43:23.189Z"
   }
 }
