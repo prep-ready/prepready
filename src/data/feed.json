@@ -242,13 +242,33 @@
         }
       }
     ],
-    "updatedAt": "2026-10-27T21:32:37.982Z"
+    "updatedAt": "2026-10-28T00:48:40.731Z"
   },
   "en": {
     "sample": false,
     "items": [
       {
-        "at": "2026-10-27T21:11:15.000Z",
+        "at": "2026-10-27T22:57:39.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "SC Media",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRElveHpqS1JFcWlNdUtlVDVsV200VmNZN1pZQ0JPNVdINnFDRHBPUkZKeXlFc1Nadkk0MEQ1YlgzemphV1JWQTNGcTZBa3hjRWZ0RE1nVGhHM19qZG53bXEtdVNvZjZoV3hWSnRaeTFoQ3lzVWNfTlo3RGx6T3Vqa05Kd2k2MG5zcG5fNG9vNkh1eGRIbm9LLXhaNFl1Zw?oc=5",
+        "title": "China-linked Warlock ransomware group targets global infrastructure",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
+      {
+        "at": "2026-10-27T22:56:32.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The National",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdmN6SzJtQ0JYM2gwc3RFSmQ5V3lFTFVfbk04VEdnUXJDcVRZTE90aDVfSUhvVzFUOExCT0FNd2h5MFFjMlltY3dwd2JUc3ZtM1R6RXRXdldlMUZBSnZrR1pteE4yeGd2Vi1saWwySzh3MTJFQWpsNGFNQ1NQWFRPMmtkMkE4Uko4LUZaZTdUMWFQOWFqRXhSZ0k1ZWVPcmhpc1FXZ0FaYVBxRWFuTkNydzF3?oc=5",
+        "title": "Middle East latest: Saudi Arabia reports missile interception damage in Riyadh as Houthis claim more attacks",
+        "official": false,
+        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+      },
+      {
+        "at": "2026-10-27T21:11:27.000Z",
         "cat": "security",
         "sev": 2,
         "source": "Al Jazeera",
@@ -258,14 +278,14 @@
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       },
       {
-        "at": "2026-10-27T19:55:30.000Z",
-        "cat": "security",
+        "at": "2026-10-27T20:41:31.000Z",
+        "cat": "energy",
         "sev": 2,
-        "source": "The National",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdmN6SzJtQ0JYM2gwc3RFSmQ5V3lFTFVfbk04VEdnUXJDcVRZTE90aDVfSUhvVzFUOExCT0FNd2h5MFFjMlltY3dwd2JUc3ZtM1R6RXRXdldlMUZBSnZrR1pteE4yeGd2Vi1saWwySzh3MTJFQWpsNGFNQ1NQWFRPMmtkMkE4Uko4LUZaZTdUMWFQOWFqRXhSZ0k1ZWVPcmhpc1FXZ0FaYVBxRWFuTkNydzF3?oc=5",
-        "title": "Middle East latest: Saudi Arabia reports missile interception damage in Riyadh as Houthis claim more attacks",
+        "source": "شبكة عاين",
+        "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBwbHljYm9xTHFkYjdneWNRQ3RTZzZRQmRYOHRRRDVuNEN0S2JSR1NYUWJMOEJlaW9YamY5QWVPVFhhRkxFQW5Ycw?oc=5",
+        "title": "Ayin Network",
         "official": false,
-        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       },
       {
         "at": "2026-10-27T19:17:33.000Z",
@@ -368,16 +388,6 @@
         "forYou": "Update your devices and don’t tap links in alert-style messages."
       },
       {
-        "at": "2026-10-27T04:50:01.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "Escudo Digital",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdjFnYW1WclpEQTVkcVpGZVhlV2trckh4ZWVLZFZtdTBoSFlxQVh5aDZNMHAyYVdHWXRxR0kwUFg4ZldBMkhWa1ZKNklLcVNQTGozLTlCeWtsVG9xb2NwZUNNcGNjR2FKRHJpOWtqLVpody1XUlUzaTFSRWRYN0M0S083VnphX001Wm5BOTlYeEFDMjVMbkJrMDd4LXFKek93UW5V?oc=5",
-        "title": "US, UK, and Germany target SafePay ransomware group",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
         "at": "2026-10-27T04:00:53.000Z",
         "cat": "energy",
         "sev": 2,
@@ -436,18 +446,8 @@
         "title": "Daily OT Security News: October 26, 2026",
         "official": false,
         "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-26T13:22:11.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Інтент",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUld4dXRHU0tDd0k5U3RlU2c5RkZ2bjRjZVFJbWFOanlwaDlLTUd4Q1pTWkN4bzNTTkVwaG9wNjlIRFlYU0NISEZ5b3lSQlJhWERzOTk0d0FWT2hWTmxWaVYyZENoWlFWT2lNN0NSRFYzOHVzekhsTzh6T2V0dW9rVEJXc2wwb2VkdGhHWkN6WDNpQjQxZTZFMVBGZVBhRjZfa0lIcFZ1dGs2RWhJbGJPWXlxVWZaa05NVmc?oc=5",
-        "title": "The Russian Federation's naval base in Crimea was compared to an empty auto repair shop",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       }
     ],
-    "updatedAt": "2026-10-27T21:34:02.783Z"
+    "updatedAt": "2026-10-28T00:49:46.229Z"
   }
 }
