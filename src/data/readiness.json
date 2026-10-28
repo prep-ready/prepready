@@ -2,9 +2,9 @@
   "_comment": "Aktualizuje scripts/update-data.mjs codziennie. pl = Polska, en = świat. Składowe z mode=manual ustawiasz ręcznie.",
   "pl": {
     "sample": false,
-    "updatedAt": "2026-10-28T06:26:18.741Z",
-    "score": 25,
-    "delta7": -8,
+    "updatedAt": "2026-10-28T13:37:39.440Z",
+    "score": 21,
+    "delta7": -12,
     "ago30": 28,
     "history": [
       28,
@@ -36,14 +36,14 @@
       17,
       22,
       17,
-      25
+      21
     ],
     "components": [
       {
         "id": "conflict",
         "name": "Konflikt w regionie",
         "weight": 30,
-        "value": 40,
+        "value": 5,
         "sources": "GDELT · Google News",
         "trend": [
           63,
@@ -53,7 +53,7 @@
           5,
           31,
           5,
-          40
+          5
         ],
         "mode": "auto",
         "raw": [
@@ -78,7 +78,7 @@
           30,
           59
         ],
-        "stale": true
+        "stale": false
       },
       {
         "id": "nuclear",
@@ -122,7 +122,7 @@
         "id": "weather",
         "name": "Pogoda i żywioły",
         "weight": 15,
-        "value": 13,
+        "value": 33,
         "sources": "IMGW · GDACS",
         "trend": [
           13,
@@ -132,7 +132,7 @@
           33,
           13,
           33,
-          13
+          33
         ],
         "mode": "auto",
         "raw": [],
@@ -162,7 +162,7 @@
         "id": "cyber",
         "name": "Cyber i łączność",
         "weight": 15,
-        "value": 5,
+        "value": 30,
         "sources": "GDELT · Google News · CERT",
         "trend": [
           5,
@@ -172,7 +172,7 @@
           5,
           5,
           5,
-          5
+          30
         ],
         "mode": "auto",
         "raw": [
@@ -201,7 +201,7 @@
           5,
           12,
           20,
-          20
+          39
         ],
         "stale": false
       }
@@ -241,9 +241,9 @@
   },
   "en": {
     "sample": false,
-    "updatedAt": "2026-10-28T06:30:30.510Z",
-    "score": 41,
-    "delta7": 0,
+    "updatedAt": "2026-10-28T13:39:40.403Z",
+    "score": 26,
+    "delta7": -15,
     "ago30": 33,
     "history": [
       33,
@@ -275,14 +275,14 @@
       40,
       39,
       38,
-      41
+      26
     ],
     "components": [
       {
         "id": "conflict",
         "name": "Global conflict",
         "weight": 30,
-        "value": 49,
+        "value": 6,
         "sources": "GDELT · Google News",
         "trend": [
           48,
@@ -292,7 +292,7 @@
           49,
           42,
           49,
-          49
+          6
         ],
         "mode": "auto",
         "raw": [
@@ -318,9 +318,9 @@
           50,
           52,
           46,
-          17
+          20
         ],
-        "stale": true
+        "stale": false
       },
       {
         "id": "nuclear",
@@ -344,7 +344,7 @@
         "id": "energy",
         "name": "Power & grid",
         "weight": 15,
-        "value": 26,
+        "value": 28,
         "sources": "Google News",
         "trend": [
           29,
@@ -354,7 +354,7 @@
           33,
           30,
           5,
-          26
+          28
         ],
         "mode": "auto",
         "raw": [
@@ -387,15 +387,15 @@
           54,
           51,
           26,
-          49
+          52
         ],
-        "stale": true
+        "stale": false
       },
       {
         "id": "weather",
         "name": "Disasters & weather",
         "weight": 15,
-        "value": 60,
+        "value": 46,
         "sources": "GDACS",
         "trend": [
           56,
@@ -405,7 +405,7 @@
           46,
           60,
           60,
-          60
+          46
         ],
         "mode": "auto",
         "raw": [],
@@ -435,7 +435,7 @@
         "id": "cyber",
         "name": "Cyber & infrastructure",
         "weight": 15,
-        "value": 41,
+        "value": 37,
         "sources": "GDELT · Google News",
         "trend": [
           42,
@@ -445,7 +445,7 @@
           36,
           36,
           42,
-          41
+          37
         ],
         "mode": "auto",
         "raw": [
@@ -464,9 +464,9 @@
           26,
           52,
           54,
-          49
+          56
         ],
-        "stale": true
+        "stale": false
       }
     ],
     "historyDates": [
