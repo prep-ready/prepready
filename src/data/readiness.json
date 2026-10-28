@@ -2,9 +2,9 @@
   "_comment": "Aktualizuje scripts/update-data.mjs codziennie. pl = Polska, en = świat. Składowe z mode=manual ustawiasz ręcznie.",
   "pl": {
     "sample": false,
-    "updatedAt": "2026-10-28T00:48:40.727Z",
-    "score": 28,
-    "delta7": -5,
+    "updatedAt": "2026-10-28T06:26:18.741Z",
+    "score": 25,
+    "delta7": -8,
     "ago30": 28,
     "history": [
       28,
@@ -36,7 +36,7 @@
       17,
       22,
       17,
-      28
+      25
     ],
     "components": [
       {
@@ -78,7 +78,7 @@
           30,
           59
         ],
-        "stale": false
+        "stale": true
       },
       {
         "id": "nuclear",
@@ -122,7 +122,7 @@
         "id": "weather",
         "name": "Pogoda i żywioły",
         "weight": 15,
-        "value": 33,
+        "value": 13,
         "sources": "IMGW · GDACS",
         "trend": [
           13,
@@ -132,7 +132,7 @@
           33,
           13,
           33,
-          33
+          13
         ],
         "mode": "auto",
         "raw": [],
@@ -241,7 +241,7 @@
   },
   "en": {
     "sample": false,
-    "updatedAt": "2026-10-28T00:49:46.228Z",
+    "updatedAt": "2026-10-28T06:30:30.510Z",
     "score": 41,
     "delta7": 0,
     "ago30": 33,
@@ -320,7 +320,7 @@
           46,
           17
         ],
-        "stale": false
+        "stale": true
       },
       {
         "id": "nuclear",
@@ -389,7 +389,7 @@
           26,
           49
         ],
-        "stale": false
+        "stale": true
       },
       {
         "id": "weather",
@@ -466,7 +466,7 @@
           54,
           49
         ],
-        "stale": false
+        "stale": true
       }
     ],
     "historyDates": [
