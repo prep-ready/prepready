@@ -71,6 +71,16 @@
         "sev": 2,
         "source": "IMGW",
         "url": "https://meteo.imgw.pl/",
+        "title": "IMGW: 3 ostrzeżeń meteo, najwyższy stopień 1: Gęsta mgła",
+        "official": true,
+        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
+      },
+      {
+        "at": "2026-10-28T11:23:00.000Z",
+        "cat": "weather",
+        "sev": 2,
+        "source": "IMGW",
+        "url": "https://meteo.imgw.pl/",
         "title": "IMGW: 2 ostrzeżeń meteo, najwyższy stopień 1: Gęsta mgła",
         "official": true,
         "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
@@ -91,9 +101,13 @@
         "sev": 3,
         "source": "TVP Info",
         "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNX3VzSkpJSTRQanNpZGJ0dzFYNlZZOHNKLWZoWTRWb0tVREtYa0tHNGVnUGJUUS1UdlZPNXVzOFB5V0FGekRPN1FwdjBacnJwMG91S01VNXdaZG1mZ3dlMW1VUDFrTm1fNWhPQ3EzNTFIWmJNdXdWSWVzZFh4aW5LVHNMYi1ZNWs4bWVkM3JkT2kwN0NCbnFkNHpNaEV5NzJiYUxkM243T1pMMEQweVhkQnNKdkhzT1k?oc=5",
-        "title": "Rosyjski atak na Ukrainę. RCB wydało alert",
+        "title": "Rosyjski atak na Ukrainę. Poderwano myśliwce",
         "official": false,
-        "forYou": "Jeśli jesteś w pobliżu: uciekaj, a jeśli nie możesz, ukryj się i wycisz telefon. Dzwoń pod 112, gdy będzie to bezpieczne. Unikaj okolicy i nie powielaj niesprawdzonych nagrań."
+        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112.",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
       },
       {
         "at": "2026-10-28T09:27:00.000Z",
@@ -101,12 +115,22 @@
         "sev": 3,
         "source": "TVP Info",
         "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNX3VzSkpJSTRQanNpZGJ0dzFYNlZZOHNKLWZoWTRWb0tVREtYa0tHNGVnUGJUUS1UdlZPNXVzOFB5V0FGekRPN1FwdjBacnJwMG91S01VNXdaZG1mZ3dlMW1VUDFrTm1fNWhPQ3EzNTFIWmJNdXdWSWVzZFh4aW5LVHNMYi1ZNWs4bWVkM3JkT2kwN0NCbnFkNHpNaEV5NzJiYUxkM243T1pMMEQweVhkQnNKdkhzT1k?oc=5",
-        "title": "Rosyjski atak na Ukrainę. Poderwano myśliwce",
+        "title": "Rosyjski atak na Ukrainę. RCB wydało alert",
         "official": false,
-        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112.",
+        "forYou": "Jeśli jesteś w pobliżu: uciekaj, a jeśli nie możesz, ukryj się i wycisz telefon. Dzwoń pod 112, gdy będzie to bezpieczne. Unikaj okolicy i nie powielaj niesprawdzonych nagrań."
+      },
+      {
+        "at": "2026-10-28T09:22:40.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "TVN24",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcHVFU21XRDAxMW1SVng3d1pTYmV4MkFUM0Z6SlpGOGpZVTRDRmduU3BPUVZuRDEzamlSMmlMSWtobWM1UDlxcDlUREhsX1hSYWp0M0YxRjRVczNaeGphYlE2N3FwUENab01fZWdoRDA4ZzF0Ri1oa2YyZ0syVHJGVGRLdTdjc2xuZFYzY1VlNHkzT2FwWFFndzhfWFV5WTZvRWJ6ZjUyZXg?oc=5",
+        "title": "Rosja atakuje Ukrainę. Jest alert RCB dla części województwa lubelskiego",
+        "official": false,
+        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
         "guide": {
-          "href": "/pl/mapa-schronow/",
-          "label": "Mapa schronów"
+          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
+          "label": "Alert RCB i aplikacja RSO"
         }
       },
       {
@@ -118,20 +142,6 @@
         "title": "Atak Rosji na Ukrainę. Odwołano alert RCB",
         "official": false,
         "forYou": "Zagrożenie minęło. Sprawdź, czy w domu wszystko jest w porządku, i uzupełnij to, czego użyłeś z zapasu.",
-        "guide": {
-          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
-          "label": "Alert RCB i aplikacja RSO"
-        }
-      },
-      {
-        "at": "2026-10-28T09:22:40.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "TVN24",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcHVFU21XRDAxMW1SVng3d1pTYmV4MkFUM0Z6SlpGOGpZVTRDRmduU3BPUVZuRDEzamlSMmlMSWtobWM1UDlxcDlUREhsX1hSYWp0M0YxRjRVczNaeGphYlE2N3FwUENab01fZWdoRDA4ZzF0Ri1oa2YyZ0syVHJGVGRLdTdjc2xuZFYzY1VlNHkzT2FwWFFndzhfWFV5WTZvRWJ6ZjUyZXg?oc=5",
-        "title": "Rosja atakuje Ukrainę. Jest alert RCB dla części województwa lubelskiego",
-        "official": false,
-        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
         "guide": {
           "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
           "label": "Alert RCB i aplikacja RSO"
@@ -224,23 +234,23 @@
         "title": "Podatności we wtyczce twofactor_gauthenticator dla Roundcube",
         "official": true,
         "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
-      },
-      {
-        "at": "2026-10-27T10:38:48.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Wiadomości Onet",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcG1NdWNBVkxyZjM5Z2x4bGFZY1BQdlhHLVA0UFpxWVloSWlFY1RkY0lIV19WbVFvMjNOTzdVa0xwSzA3WDlaNjV0TjBVSW4wSVBIX2J3QVRtY0lRWVhQbWFwYTlDZmdmVUVIeFRyT0NuQ1JyUWZTa1V3N0d2VU0yUUFlM1pHTTk4NkxaQ3Q3RVFKZE9hOFhUa0VqTDhHenFLdFVYU1hZMDJ1aURSNS1RUHhOeml5QQ?oc=5",
-        "title": "Polacy strzelają z \"Piorunów\". Wojsko pokazało zdjęcia z ćwiczeń nad Bałtykiem",
-        "official": false,
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
       }
     ],
-    "updatedAt": "2026-10-28T19:11:00.024Z"
+    "updatedAt": "2026-10-28T23:38:48.105Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-28T20:21:48.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Ahram Online",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcEIwX1RmR2FwNHM5Q0VmUHVNWVpNLWZ4a0IzY05KWEhWbFZ6bkpnYlFqY2JwZXM4eVpKX1hZaUYxZ19Ub0piNXlKNUpMNVdxbUxiOXVYZ1hlcjdxWTQwZUd0Q3RkUkZrR0xNZmM5Y0hxYWZNWi1VY2t2TVVEcFBKc1J0NGxjaS01NVByNmNZMnU3LTJzdGlES3NKdVY5cEs4S3JfYlhkakVuVzhxZGhBcmNTeHh1ZVpBOFFNSjZmVlR0NjN3SVE?oc=5",
+        "title": "UN defies Trump administration pressure, condemns Cuba embargo - International - World",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
       {
         "at": "2026-10-28T18:31:59.000Z",
         "cat": "cyber",
@@ -430,18 +440,8 @@
         "title": "Russia targets Kyiv as Finnish, Norwegian leaders hold rare call with Putin",
         "official": false,
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-27T13:42:03.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "EnergyNow.com",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRHM5Z0w3dFFfNEtpem9naS1GakppY2drNmxqQ2xWRDB3b1hmMHBDWUZZc2ZKY2ZJR2RKejd4YW9CMTYxMzFqX01ZcmNXZG9WMVVKaXFIVlY2WVpBWUpMQnZMOEJaM2xtRW9IMnEzelgwQmQ4djVuYTA1MmVZWVB0a01IeWhuNkJnMnR3TA?oc=5",
-        "title": "Cuba’s National Electric Grid Collapses, Reason Unknown",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       }
     ],
-    "updatedAt": "2026-10-28T19:13:04.631Z"
+    "updatedAt": "2026-10-28T23:39:35.928Z"
   }
 }
