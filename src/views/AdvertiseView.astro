@@ -1,0 +1,326 @@
+---
+/**
+ * Strona „Reklama i współpraca” (cennik banerów, artykułów sponsorowanych itd.).
+ * Celowo NIE ma jej w menu ani w stopce: link wysyłamy partnerom w mailach.
+ * Ceny edytujesz w obiekcie C poniżej (pl i en osobno).
+ */
+import Base from '../layouts/Base.astro';
+import type { Lang } from '../i18n/ui';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const pl = lang === 'pl';
+
+type Item = { name: string; price: string; unit: string; desc: string; spec?: string; tag?: string };
+type Pack = { name: string; price: string; old?: string; items: string[]; tag?: string };
+
+const C = pl ? {
+  title: 'Reklama na PrepReady: cennik dla partnerów',
+  desc: 'Banery, artykuły sponsorowane, testy sprzętu i promocja w newsletterze oraz na Telegramie. Dotrzyj do osób, które właśnie przygotowują dom i rodzinę na kryzys.',
+  eyebrow: 'Dla reklamodawców',
+  intro: 'PrepReady czytają osoby, które właśnie kompletują plecak ewakuacyjny, zapasy, sprzęt na blackout albo szukają schronu. To moment decyzji zakupowej, dlatego reklama u nas trafia do ludzi z konkretną potrzebą, a nie do przypadkowych odbiorców.',
+  ctaTop: 'Zapytaj o termin', ctaPrice: 'Zobacz cennik',
+  why: [
+    ['Tematyczny ruch', 'Poradniki o schronach, wodzie, zasilaniu, apteczkach i ewakuacji. Każdy baner pokazujemy obok treści, która pasuje do produktu.'],
+    ['Polska i świat', 'Osobne wersje PL i EN. Kampanię możesz kierować na jedną albo obie.'],
+    ['Kilka kanałów naraz', 'Strona, newsletter, grupy na Telegramie i kanał YouTube. Łączymy je w pakiety.'],
+    ['Uczciwe oznaczenia', 'Każda reklama i treść sponsorowana jest oznaczona. Dzięki temu czytelnicy nam ufają, a Twoja marka na tym zyskuje.'],
+  ],
+  secBanners: 'Banery reklamowe', secBannersLead: 'Ceny za 30 dni emisji. Baner przygotowujesz Ty albo zrobimy go za Ciebie (opcja dodatkowa).',
+  banners: [
+    { name: 'Baner główny', price: '690 zł', unit: '/ 30 dni', desc: 'Strona główna PL, pierwszy ekran pod indeksem gotowości. Najbardziej widoczne miejsce w serwisie.', spec: '970×250 · mobile 300×250', tag: 'Najwięcej wyświetleń' },
+    { name: 'Baner w poradnikach', price: '490 zł', unit: '/ 30 dni', desc: 'W treści wszystkich poradników, po pierwszych akapitach. Rotacja maks. 2 reklamodawców.', spec: '728×90 · mobile 300×250' },
+    { name: 'Baner na mapie schronów', price: '590 zł', unit: '/ 30 dni', desc: 'Interaktywna mapa schronów i strony miast. Idealne miejsce dla producentów schronów, piwniczek i kontenerów.', spec: '728×90 · mobile 300×250' },
+    { name: 'Baner w temacie', price: '290 zł', unit: '/ 30 dni', desc: 'Wyłączność w jednym temacie, np. Woda, Zasilanie, Apteczka, Ewakuacja. Tylko jeden reklamodawca na temat.', spec: '728×90 · mobile 300×250' },
+    { name: 'Wyróżniony kod rabatowy', price: '190 zł', unit: '/ 30 dni', desc: 'Twój kod na górze sekcji z kodami rabatowymi i w ogłoszeniu na Telegramie.', spec: 'logo + opis do 200 znaków' },
+  ] as Item[],
+  secContent: 'Artykuły sponsorowane i testy', secContentLead: 'Treść zostaje na stronie na stałe. Opłata jednorazowa.',
+  content: [
+    { name: 'Artykuł sponsorowany', price: '990 zł', unit: 'jednorazowo', desc: 'Tekst do 6 000 znaków przygotowany przez naszą redakcję albo przez Ciebie (po redakcji). Do 2 linków, zdjęcia, udostępnienie na Telegramie.', spec: 'oznaczenie „Artykuł sponsorowany”, linki rel="sponsored"' },
+    { name: 'Test produktu', price: '1 490 zł', unit: '+ egzemplarz', desc: 'Rzetelny test z własnymi zdjęciami i pomiarami. Produkt, który przejdzie test, trafia do rankingów i checklist.', spec: 'producent nie zatwierdza tekstu przed publikacją', tag: 'Polecane' },
+    { name: 'Miejsce w poradniku', price: '390 zł', unit: 'jednorazowo', desc: 'Dodanie Twojego produktu z linkiem do istniejącego, pasującego poradnika.', spec: 'tylko produkty pasujące do tematu' },
+  ] as Item[],
+  secOther: 'Newsletter, Telegram i wideo',
+  other: [
+    { name: 'Wpis w newsletterze', price: '290 zł', unit: '/ wydanie', desc: 'Blok z grafiką i linkiem w piątkowym raporcie PrepReady.' },
+    { name: 'Post na Telegramie', price: '190 zł', unit: '/ post', desc: 'Post z linkiem i kodem rabatowym w grupie PL lub EN, przypięty na 24 h.' },
+    { name: 'Film na YouTube', price: 'wycena', unit: 'indywidualna', desc: 'Unboxing, test, poradnik krok po kroku albo pełny film o montażu. Możliwe rozliczenie z kodu afiliacyjnego.' },
+  ] as Item[],
+  secPacks: 'Pakiety',
+  packs: [
+    { name: 'Start', price: '1 290 zł', old: '1 670 zł', items: ['Artykuł sponsorowany', 'Baner w poradnikach przez 30 dni', 'Post na Telegramie'] },
+    { name: 'Partner', price: '2 490 zł', old: '3 160 zł', items: ['Test produktu', 'Baner w poradnikach przez 30 dni', 'Wyróżniony kod rabatowy przez 30 dni', 'Wpis w newsletterze', 'Post na Telegramie'], tag: 'Najczęściej wybierany' },
+    { name: 'Premium', price: '4 490 zł', old: '5 890 zł', items: ['Test produktu i artykuł sponsorowany', 'Baner główny przez 30 dni', 'Baner w temacie przez 30 dni', '2 wpisy w newsletterze', '2 posty na Telegramie'] },
+  ] as Pack[],
+  terms: 'Zasady',
+  termsList: [
+    'Ceny netto. Przy kampanii na 3 miesiące rabat 10%, na 6 miesięcy 20%.',
+    'Projekt banera przez nas: 150 zł. Kampanie w wersji angielskiej rozliczamy według <a href="/en/advertise/">cennika EN</a>.',
+    'Każda reklama i treść sponsorowana jest wyraźnie oznaczona, a linki mają atrybut rel="sponsored".',
+    'Przyjmujemy tylko reklamy związane z bezpieczeństwem, przygotowaniem na kryzys, outdoorem i domem. Nie publikujemy reklam politycznych, hazardu ani produktów wprowadzających w błąd.',
+    'Termin emisji ustalamy po akceptacji materiałów. Zastrzegamy sobie prawo odmowy reklamy niezgodnej z profilem serwisu.',
+  ],
+  formTitle: 'Zarezerwuj miejsce', formLead: 'Napisz, co Cię interesuje. Odpowiadamy w ciągu 3 dni roboczych z wolnymi terminami.',
+  f: { company: 'Firma', name: 'Imię i nazwisko', email: 'E-mail służbowy', site: 'Strona www (opcjonalnie)', format: 'Co Cię interesuje', msg: 'Wiadomość', msgPh: 'Np. produkt, termin startu, budżet, wersja PL czy EN.', consent: 'Zgadzam się na kontakt w sprawie reklamy. Dane służą tylko do odpowiedzi na to zgłoszenie.', send: 'Wyślij zapytanie', sending: 'Wysyłanie…', ok: 'Dziękujemy! Zapytanie dotarło. Odezwiemy się w ciągu 3 dni roboczych.', err: 'Nie udało się wysłać. Sprawdź pola i spróbuj ponownie za chwilę.' },
+  formats: ['Pakiet Start', 'Pakiet Partner', 'Pakiet Premium', 'Baner', 'Artykuł sponsorowany', 'Test produktu', 'Newsletter lub Telegram', 'Film na YouTube', 'Inne'],
+  prefix: 'Reklama',
+} : {
+  title: 'Advertise on PrepReady: partner rate card',
+  desc: 'Banners, sponsored articles, gear tests, newsletter and Telegram placements. Reach people who are preparing their home and family for a crisis right now.',
+  eyebrow: 'For advertisers',
+  intro: 'PrepReady readers are building go-bags, stocking supplies, preparing for blackouts or looking for shelter. That is the moment they decide what to buy, so ads here reach people with a real need, not random traffic.',
+  ctaTop: 'Ask for dates', ctaPrice: 'See rates',
+  why: [
+    ['Topic-matched traffic', 'Guides on shelters, water, power, first aid and evacuation. Every banner sits next to content that fits the product.'],
+    ['Poland and global', 'Separate PL and EN editions. Run a campaign on one or both.'],
+    ['Several channels', 'Website, newsletter, Telegram groups and YouTube, combined into packages.'],
+    ['Honest labelling', 'Every ad and sponsored piece is labelled. Readers trust us for it, and your brand benefits.'],
+  ],
+  secBanners: 'Display banners', secBannersLead: 'Prices per 30 days. Supply your own creative or we design it for you (add-on).',
+  banners: [
+    { name: 'Hero banner', price: '€169', unit: '/ 30 days', desc: 'Home page, first screen below the readiness index. The most visible spot on the site.', spec: '970×250 · mobile 300×250', tag: 'Most impressions' },
+    { name: 'In-guide banner', price: '€119', unit: '/ 30 days', desc: 'Inside every guide, after the opening paragraphs. Max. 2 advertisers in rotation.', spec: '728×90 · mobile 300×250' },
+    { name: 'Topic banner', price: '€69', unit: '/ 30 days', desc: 'Exclusive placement in one topic, e.g. Water, Power, First aid, Evacuation. One advertiser per topic.', spec: '728×90 · mobile 300×250' },
+    { name: 'Featured discount code', price: '€45', unit: '/ 30 days', desc: 'Your code at the top of the deals section and announced on Telegram.', spec: 'logo + up to 200 characters' },
+  ] as Item[],
+  secContent: 'Sponsored articles and tests', secContentLead: 'Content stays on the site permanently. One-off fee.',
+  content: [
+    { name: 'Sponsored article', price: '€239', unit: 'one-off', desc: 'Up to 6,000 characters, written by our editors or by you (edited by us). Up to 2 links, images, shared on Telegram.', spec: 'labelled "Sponsored", links rel="sponsored"' },
+    { name: 'Product test', price: '€359', unit: '+ test unit', desc: 'An honest test with our own photos and measurements. Products that pass go into rankings and checklists.', spec: 'makers do not approve the text before publication', tag: 'Recommended' },
+    { name: 'Placement in a guide', price: '€95', unit: 'one-off', desc: 'Your product with a link added to an existing, relevant guide.', spec: 'relevant products only' },
+  ] as Item[],
+  secOther: 'Newsletter, Telegram and video',
+  other: [
+    { name: 'Newsletter slot', price: '€69', unit: '/ issue', desc: 'An image block with a link in the PrepReady Friday report.' },
+    { name: 'Telegram post', price: '€45', unit: '/ post', desc: 'A post with a link and discount code in the EN or PL group, pinned for 24 h.' },
+    { name: 'YouTube video', price: 'quote', unit: 'on request', desc: 'Unboxing, test, step-by-step guide or a full installation film. Affiliate-code deals possible.' },
+  ] as Item[],
+  secPacks: 'Packages',
+  packs: [
+    { name: 'Start', price: '€309', old: '€403', items: ['Sponsored article', 'In-guide banner for 30 days', 'Telegram post'] },
+    { name: 'Partner', price: '€599', old: '€757', items: ['Product test', 'In-guide banner for 30 days', 'Featured discount code for 30 days', 'Newsletter slot', 'Telegram post'], tag: 'Most popular' },
+    { name: 'Premium', price: '€1,079', old: '€1,412', items: ['Product test and sponsored article', 'Hero banner for 30 days', 'Topic banner for 30 days', '2 newsletter slots', '2 Telegram posts'] },
+  ] as Pack[],
+  terms: 'Terms',
+  termsList: [
+    'Prices exclude VAT. 10% off 3-month campaigns, 20% off 6-month campaigns.',
+    'Banner design by us: €35.',
+    'Every ad and sponsored piece is clearly labelled and links carry rel="sponsored".',
+    'We only accept ads related to safety, crisis preparedness, outdoor and home. No political ads, gambling or misleading products.',
+    'Dates are confirmed once materials are approved. We may decline ads that do not fit the site.',
+  ],
+  formTitle: 'Book a placement', formLead: 'Tell us what you are interested in. We reply within 3 working days with available dates.',
+  f: { company: 'Company', name: 'Full name', email: 'Work email', site: 'Website (optional)', format: 'Interested in', msg: 'Message', msgPh: 'E.g. product, start date, budget, PL or EN edition.', consent: 'I agree to be contacted about advertising. Data is used only to reply to this enquiry.', send: 'Send enquiry', sending: 'Sending…', ok: 'Thank you! Your enquiry has arrived. We will reply within 3 working days.', err: 'Could not send. Check the fields and try again in a moment.' },
+  formats: ['Start package', 'Partner package', 'Premium package', 'Banner', 'Sponsored article', 'Product test', 'Newsletter or Telegram', 'YouTube video', 'Other'],
+  prefix: 'Ads',
+};
+const alternates = { pl: '/pl/reklama/', en: '/en/advertise/' };
+---
+<Base lang={lang} title={C.title} description={C.desc} alternates={alternates}>
+  <div class="wrap page-head">
+    <p class="eyebrow">{C.eyebrow}</p>
+    <h1>{C.title}</h1>
+    <p>{C.intro}</p>
+    <div class="cta-row">
+      <a class="btn primary" href="#rezerwacja">{C.ctaTop}</a>
+      <a class="btn ghost" href="#cennik">{C.ctaPrice}</a>
+    </div>
+  </div>
+
+  <section class="wrap why">
+    {C.why.map(([h, p], i) => (
+      <div class="why-item">
+        <span class="mono num">0{i + 1}</span>
+        <h3>{h}</h3>
+        <p>{p}</p>
+      </div>
+    ))}
+  </section>
+
+  <section class="block" id="cennik">
+    <div class="wrap">
+      <div class="sec-head"><div><h2>{C.secBanners}</h2><p class="lead">{C.secBannersLead}</p></div></div>
+      <div class="cards">
+        {C.banners.map((it) => (
+          <article class:list={['card panel', { hot: it.tag }]}>
+            {it.tag && <span class="tag mono">{it.tag}</span>}
+            <h3>{it.name}</h3>
+            <p class="price"><span class="amount">{it.price}</span> <span class="unit mono">{it.unit}</span></p>
+            <p class="desc">{it.desc}</p>
+            {it.spec && <p class="spec mono">{it.spec}</p>}
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="wrap">
+      <div class="sec-head"><div><h2>{C.secContent}</h2><p class="lead">{C.secContentLead}</p></div></div>
+      <div class="cards">
+        {C.content.map((it) => (
+          <article class:list={['card panel', { hot: it.tag }]}>
+            {it.tag && <span class="tag mono">{it.tag}</span>}
+            <h3>{it.name}</h3>
+            <p class="price"><span class="amount">{it.price}</span> <span class="unit mono">{it.unit}</span></p>
+            <p class="desc">{it.desc}</p>
+            {it.spec && <p class="spec mono">{it.spec}</p>}
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="wrap">
+      <div class="sec-head"><div><h2>{C.secOther}</h2></div></div>
+      <div class="table panel">
+        {C.other.map((it) => (
+          <div class="trow">
+            <div><h3>{it.name}</h3><p class="desc">{it.desc}</p></div>
+            <p class="price"><span class="amount">{it.price}</span> <span class="unit mono">{it.unit}</span></p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="wrap">
+      <div class="sec-head"><div><h2>{C.secPacks}</h2></div></div>
+      <div class="cards packs">
+        {C.packs.map((p) => (
+          <article class:list={['card panel pack', { featured: p.tag }]}>
+            {p.tag && <span class="tag mono">{p.tag}</span>}
+            <h3>{p.name}</h3>
+            <p class="price"><span class="amount">{p.price}</span> {p.old && <s class="unit mono">{p.old}</s>}</p>
+            <ul>{p.items.map((x) => <li>{x}</li>)}</ul>
+            <a class:list={['btn', p.tag ? 'primary' : 'ghost']} href="#rezerwacja" data-pick={p.name}>{C.ctaTop}</a>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="wrap grid">
+      <div class="prose">
+        <h2>{C.terms}</h2>
+        <ul>{C.termsList.map((t) => <li set:html={t} />)}</ul>
+      </div>
+      <form class="pform panel" id="rezerwacja" method="post" action="/contact.php" data-ok={C.f.ok} data-err={C.f.err} data-sending={C.f.sending} data-prefix={C.prefix} novalidate>
+        <div class="fhead"><h2>{C.formTitle}</h2><p>{C.formLead}</p></div>
+        <input type="hidden" name="lang" value={lang} />
+        <input type="hidden" name="t" value="" />
+        <input type="hidden" name="category" value="" />
+        <div class="hp" aria-hidden="true"><label for="ad-website">Website</label><input id="ad-website" name="website_url" tabindex="-1" autocomplete="off" /></div>
+        <div class="row2">
+          <label class="f"><span>{C.f.company}</span><input name="company" required autocomplete="organization" /></label>
+          <label class="f"><span>{C.f.name}</span><input name="name" required autocomplete="name" /></label>
+        </div>
+        <div class="row2">
+          <label class="f"><span>{C.f.email}</span><input name="email" type="email" required autocomplete="email" /></label>
+          <label class="f"><span>{C.f.site}</span><input name="site" type="url" placeholder="https://" autocomplete="url" /></label>
+        </div>
+        <label class="f"><span>{C.f.format}</span>
+          <select name="format" id="ad-format">{C.formats.map((c) => <option>{c}</option>)}</select>
+        </label>
+        <label class="f"><span>{C.f.msg}</span><textarea name="message" rows="5" required placeholder={C.f.msgPh}></textarea></label>
+        <label class="check"><input type="checkbox" name="consent" value="1" required /><span>{C.f.consent}</span></label>
+        <div class="actions">
+          <button class="btn primary" type="submit">{C.f.send}</button>
+          <p class="status" role="status" aria-live="polite"></p>
+        </div>
+      </form>
+    </div>
+  </section>
+</Base>
+
+<script>
+  const f = document.getElementById('rezerwacja') as HTMLFormElement | null;
+  if (f) {
+    (f.elements.namedItem('t') as HTMLInputElement).value = String(Date.now());
+    const sel = f.querySelector('#ad-format') as HTMLSelectElement;
+    // Klik „Zapytaj o termin” przy pakiecie ustawia go w formularzu
+    document.querySelectorAll<HTMLAnchorElement>('a[data-pick]').forEach((a) => a.addEventListener('click', () => {
+      const name = a.dataset.pick!.toLowerCase();
+      const opt = [...sel.options].find((o) => o.text.toLowerCase().includes(name));
+      if (opt) sel.value = opt.value;
+    }));
+    const status = f.querySelector('.status') as HTMLElement;
+    const btn = f.querySelector('button[type=submit]') as HTMLButtonElement;
+    f.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      if (!f.checkValidity()) { f.reportValidity(); return; }
+      (f.elements.namedItem('category') as HTMLInputElement).value = `${f.dataset.prefix}: ${sel.value}`;
+      const label = btn.textContent;
+      btn.disabled = true; btn.textContent = f.dataset.sending!;
+      status.className = 'status';
+      try {
+        const r = await fetch(f.action, { method: 'POST', body: new FormData(f) });
+        const j = await r.json().catch(() => ({ ok: false }));
+        if (!j.ok) throw new Error();
+        f.querySelectorAll('.row2, .f, .check, .actions button').forEach((el) => ((el as HTMLElement).hidden = true));
+        status.textContent = f.dataset.ok!; status.classList.add('ok');
+      } catch {
+        status.textContent = f.dataset.err!; status.classList.add('err');
+        btn.disabled = false; btn.textContent = label;
+      }
+    });
+  }
+</script>
+
+<style>
+  .cta-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}
+  .why{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px;padding-bottom:40px}
+  .why-item .num{color:var(--signal);font-size:12px;letter-spacing:.08em}
+  .why-item h3{margin:6px 0 6px}
+  .why-item p{font-family:var(--body);font-weight:var(--body-w);color:var(--ink-2);font-size:14.5px;line-height:1.6}
+
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px}
+  .card{position:relative;padding:20px;display:flex;flex-direction:column;gap:10px}
+  .card.hot,.card.featured{border-color:var(--signal)}
+  .tag{align-self:flex-start;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--signal);border:1px solid var(--signal);border-radius:4px;padding:1px 6px}
+  .price{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+  .amount{font-family:var(--display);font-size:28px;font-weight:800;font-stretch:85%;color:var(--ink);letter-spacing:-.01em}
+  .unit{font-size:12px;color:var(--muted)}
+  s.unit{text-decoration-thickness:1px}
+  .desc{font-family:var(--body);font-weight:var(--body-w);font-size:14.5px;line-height:1.6;color:var(--ink-2)}
+  .spec{font-size:11.5px;color:var(--muted);margin-top:auto;padding-top:10px;border-top:1px solid var(--line)}
+
+  .table{padding:4px 20px}
+  .trow{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:24px;align-items:center;padding:16px 0;border-bottom:1px solid var(--line)}
+  .trow:last-child{border-bottom:0}
+  .trow h3{margin-bottom:4px}
+  .trow .price{justify-content:flex-end;text-align:right}
+
+  .pack ul{margin:4px 0 8px;padding-left:1.1em;font-family:var(--body);font-weight:var(--body-w);font-size:14.5px;line-height:1.7;color:var(--ink-2)}
+  .pack li::marker{color:var(--signal)}
+  .pack .btn{margin-top:auto;justify-content:center}
+
+  .grid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:48px;align-items:start;padding-bottom:24px}
+  .grid .prose :global(h2:first-child){margin-top:0}
+
+  .pform{padding:24px;display:flex;flex-direction:column;gap:14px;scroll-margin-top:90px}
+  .fhead p{font-family:var(--body);font-weight:var(--body-w);color:var(--muted);margin-top:6px}
+  .row2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  .f{display:flex;flex-direction:column;gap:6px;font-size:13px;font-weight:600;color:var(--ink-2)}
+  .f input,.f select,.f textarea{font:inherit;font-family:var(--body);font-weight:400;font-size:15px;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:10px 12px;width:100%}
+  .f textarea{resize:vertical}
+  .check{display:flex;gap:10px;align-items:flex-start;font-family:var(--body);font-size:13px;color:var(--muted);line-height:1.5}
+  .check input{margin-top:3px}
+  .actions{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+  .status{font-size:14px}
+  .status.ok{color:var(--l1)} .status.err{color:var(--l5)}
+  .hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+
+  @media (max-width:900px){
+    .why{grid-template-columns:1fr 1fr}
+    .grid{grid-template-columns:1fr;gap:28px}
+  }
+  @media (max-width:560px){
+    .why{grid-template-columns:1fr}
+    .row2{grid-template-columns:1fr}
+    .trow{grid-template-columns:1fr;gap:6px}
+    .trow .price{justify-content:flex-start}
+  }
+</style>
