@@ -27,9 +27,15 @@
         "pb95": 6.88,
         "on": 7.89,
         "lpg": 3.55
+      },
+      {
+        "date": "2026-10-26",
+        "pb95": 6.47,
+        "on": 7.85,
+        "lpg": 3.58
       }
     ],
     "source": "Komisja Europejska, Weekly Oil Bulletin (ceny z podatkami, przeliczone kursem NBP)"
   },
-  "updatedAt": "2026-10-28T13:39:41.597Z"
+  "updatedAt": "2026-10-28T19:13:05.808Z"
 }

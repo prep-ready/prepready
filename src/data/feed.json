@@ -4,17 +4,55 @@
     "sample": false,
     "items": [
       {
-        "at": "2026-10-19T12:00:00.000Z",
-        "cat": "supply",
-        "sev": 3,
-        "source": "Komisja Europejska",
-        "url": "https://energy.ec.europa.eu/data-and-analysis/weekly-oil-bulletin_en",
-        "title": "Ceny paliw w Polsce wzrosły w tydzień o 5%: Pb95 6.88 zł, ON 7.89 zł",
-        "official": true,
-        "forYou": "Nie rób zakupów w panice. Uzupełniaj zapas stopniowo, a bak tankuj, gdy spadnie do połowy.",
+        "at": "2026-10-28T17:02:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Rzeczpospolita",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeC1YdkZpN0JVUVBKRmMwLVhSeVoyaEQydTRrd3pRajVORHlOcWlxSFlIaFlrYUd3QWlOYURTRHRERUR1R2toRGZseExJSVlvZlF5eEJTbXFsbzg1UnFvMWZvclhuNGhyM0t0eTM3OTdIbE4zQTMyMkhoTkNXMWhUUUZhTEo5V1hDWndGSFlxZWZTQ2UzU2x1TUdnM3RPQ2F6dEZENmJXX1FfMVJYaE9yVWtRd18?oc=5",
+        "title": "Polska armia będzie potrzebować prawie 200 pilotów. Tyle można zarobić latając F-16",
+        "official": false,
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+      },
+      {
+        "at": "2026-10-28T15:47:06.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT2djQnlUQVRpOWdpYTAwNk9SNkRxSHZLM3QzaGhmTWRrM0R5S2x5WjgzLVFEODY5bzdDTjg3dnFLc21QWUlzbG51bjB0NUd4dHdWLW9CNnFrQ19JWllyekZEVks5dWJrRldEQmItaldjQWsxSmJfbzV6U1paN3dqSkpFR21FQVowR2RqdTJFOWw4dk5lVVg4OVJNNnZfTGpXNHVVTzRiOGt6UkhSVVU5N2hBc2xJUi1SZ01DUWdB?oc=5",
+        "title": "Tajna ewakuacja Flavio Bolsonaro. Miał włoski paszport i odrzutowiec",
+        "official": false,
+        "forYou": "Słuchaj poleceń służb, weź plecak ewakuacyjny, dokumenty i leki. Nie wracaj, dopóki służby nie odwołają ewakuacji.",
         "guide": {
-          "href": "/pl/poradniki/zapas-wody-i-jedzenia/",
-          "label": "Zapas na kryzys"
+          "href": "/pl/poradniki/plan-ewakuacji-rodziny/",
+          "label": "Plan ewakuacji rodziny"
+        }
+      },
+      {
+        "at": "2026-10-28T15:18:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Radio Zet",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZUlMS01wcE9TUVlrVXRBaVlnT2lWQUlLM2V6ZVFpdWN6QTNLelFhYnE2V2JyajNKcmVuRmx3R3VYVERoODRfU0c0MTJydDZwekpwR1UtZURMNkE2MEhzOE9XakR2VkhkNlg1MVRpc01rLWhPbnlCaXRCT01LSHd3QV9XWXpfT3l5UzJaTUxpMjBYUFNNc050U1lEX0t0cjZ6T1F5Vw?oc=5",
+        "title": "Dron znaleziony na słupie energtycznym. Akcja służb pod Elblągiem",
+        "official": false,
+        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112.",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
+      },
+      {
+        "at": "2026-10-28T14:37:07.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "TOK FM",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUHFfTEdBNlh3OG0xX0E0U0xjZDdKbm1hbHNkUHkwWTA5c0FkMUVOdmpUWVlSaHlkNnJZb3FHUGwwbXNFNXVNNTZUM3p5anpueHhnckk2aUVNaTJlYkQyNEFJSGI1ZjhlTzdDZTlMR05hTWZuV1gtX3liQkVYYTBqSTJfQlZIMmdVUDN0M0pQWm51bmUzVHQwWGsyMV91VHFLeDBxZXdwenkxNVRlcFVVZjBRdlEycUxMRVVmaWRYOWRJSERUckxlYw?oc=5",
+        "title": "Centrum serwisowania rakiet Patriot za 1 mld zł. \"Z perspektywy inwestycji zbrojeniowych to są orzeszki\"",
+        "official": false,
+        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112.",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
         }
       },
       {
@@ -46,6 +84,16 @@
         "title": "Podatność w oprogramowaniu Wing FTP Server",
         "official": true,
         "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
+      },
+      {
+        "at": "2026-10-28T09:27:00.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "TVP Info",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNX3VzSkpJSTRQanNpZGJ0dzFYNlZZOHNKLWZoWTRWb0tVREtYa0tHNGVnUGJUUS1UdlZPNXVzOFB5V0FGekRPN1FwdjBacnJwMG91S01VNXdaZG1mZ3dlMW1VUDFrTm1fNWhPQ3EzNTFIWmJNdXdWSWVzZFh4aW5LVHNMYi1ZNWs4bWVkM3JkT2kwN0NCbnFkNHpNaEV5NzJiYUxkM243T1pMMEQweVhkQnNKdkhzT1k?oc=5",
+        "title": "Rosyjski atak na Ukrainę. RCB wydało alert",
+        "official": false,
+        "forYou": "Jeśli jesteś w pobliżu: uciekaj, a jeśli nie możesz, ukryj się i wycisz telefon. Dzwoń pod 112, gdy będzie to bezpieczne. Unikaj okolicy i nie powielaj niesprawdzonych nagrań."
       },
       {
         "at": "2026-10-28T09:27:00.000Z",
@@ -186,71 +234,43 @@
         "title": "Polacy strzelają z \"Piorunów\". Wojsko pokazało zdjęcia z ćwiczeń nad Bałtykiem",
         "official": false,
         "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-10-27T07:09:35.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Polskie Radio 24",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNMGl1YUJCelV0clpmTS11QTNZMDFzVEc4eEhBLU03SlJVYXFNVmxQY21SdzMtQzY5QnBVVXBUTm5oazN0R3IxLWJNNE0wZVF3WEdxaDFJWEVPVFhBZFhwQ1NQRUtXU2VjaW85TXBOTGxtREgwNHZ6dzdOcGE1a3lYZl83U1c0alM1YmFjTnI0bzY3bDUyZTRwM25B?oc=5",
-        "title": "Tragiczny pożar bloku w Lublinie. \"W środku natrafiono na ciało\"",
-        "official": false,
-        "forYou": "Unikaj miejsca zdarzenia i stosuj się do poleceń służb. Numer alarmowy: 112."
-      },
-      {
-        "at": "2026-10-27T07:06:55.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "WP Wiadomości",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRGlrTjdLSGhUQ3hBM2FCT3hLRWtmZy1xeWhldldObzhBOEtGVGtiM09CUlozdk5BcUVUV012bUVhbC1fYmN1dDlpb2ItcnpXcFZ0cXFEZEU5bHc1VXJUNUN6QlozZVFiUldoN0VUVktXNk80djUyWHpoX0owOWt6cW9EQ1ZIeTh4ZFlQMkdxWjh2LVFUOHFMb1lZT0JJM2tOcVJYQV9sWQ?oc=5",
-        "title": "Uroczyste powitanie Tuska. Czerwony dywan i wojsko w Wietnamie",
-        "official": false,
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-10-27T04:01:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Wiadomości Onet",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZkdjWE9RT29aUlNReG80dFpmUUZodGtGcXh2ekQ5TzUycERHX1BwaHdTVHh6dUtyM2xNV1dQUlVSZWhhRllkQ0hoTFllczVpaFdzVVVfR3J4Vk95V2xCZlh4OHVLN21ybl9vTnJJNlFYdThiU1AyLTdTNVZZcWs5U0NEaGI2ZWhPaHpMSVBoQ0lQZDQ2NkM5dzlqTlBxQ3lNVFVnLUwwbzVZUnI5bXk1ZVBxU281LWxmTFU4TjFXb3FhZC10?oc=5",
-        "title": "Alarm w wojskowej rekrutacji. Po awarii serwerów odchodzą kluczowi oficerowie",
-        "official": false,
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-10-27T00:45:43.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Gov.pl",
-        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE53dE10dzVKUTM2Slg1bWNaMTlQV3o4ME8xbHBONFl4Szhsd3VsY1MyZUNWTjRKMDQyTk9GOWF2UElENkZGcW51R2U0cDcwd1RJM2lndHZta1daVWRYeFh3RkJR?oc=5",
-        "title": "Próbna ewakuacja - Państwowa Szkoła Muzyczna I stopnia im. B. Zielińskiego w Wągrowcu",
-        "official": true,
-        "forYou": "Przypomnij dziecku zasady: słuchaj nauczyciela, uciekaj od zagrożenia albo schowaj się w sali i wycisz telefon. Nie dzwoń do dziecka i nie jedź od razu pod szkołę, czekaj na komunikat szkoły lub policji.",
-        "guide": {
-          "href": "/pl/poradniki/bezpieczenstwo-dziecka-w-szkole/",
-          "label": "Bezpieczeństwo dziecka w szkole"
-        }
-      },
-      {
-        "at": "2026-10-27T00:07:55.315Z",
-        "cat": "energy",
-        "sev": 3,
-        "source": "PSE",
-        "url": "https://www.pse.pl/",
-        "title": "PSE: dziś zalecane oszczędzanie energii",
-        "official": true,
-        "forYou": "Ogranicz zużycie prądu w godzinach szczytu, naładuj powerbanki i latarki.",
-        "guide": {
-          "href": "/pl/poradniki/blackout-jak-sie-przygotowac/",
-          "label": "Jak przygotować się na blackout"
-        }
       }
     ],
-    "updatedAt": "2026-10-28T13:37:39.444Z"
+    "updatedAt": "2026-10-28T19:11:00.024Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-28T18:31:59.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "The Virgin Islands Consortium",
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPU1RIMlIzWm44QTdnc0RUclV0eEVkWHNEZkxxT0t2SlM2WWhoQTFidEwyUUpSWF9OT2drSEs3aldHVXh2WUJ1eVZaRUhEaHpDT1gxeXkzZGtpT3BNVnVRVkJPOGc5Q29xMXpJOWE4ZXJMYzdrQ1Q1YjBKNkFCX2R4NnlnMkE0cHJ4Uk5wdHhad05zUXhhSHdBc0tSOFhrU3ljTmc4UGdkLVU5VmRheERxM0gxTlU1QzhJZlNGVnR4dzZtdElCR05USUVDRDF0djl5RGtzTmM2cm0zN1Jha0dCZUU2X283X2tHVmMtNA?oc=5",
+        "title": "JFL Blames Financial Pressures and Cyberattack for Payment Problems Following $6.36 Million Court Judgment",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
+      {
+        "at": "2026-10-28T17:55:22.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The Sunday Guardian",
+        "url": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxPMDlVZnZ5T0duNW5TakwzbzJoVHFyQ0NmT1FNcXdaVy1SZjZJTXNRQjhqTGZiTGdrVnBSSHdxaXIyYW1yeTFUNTZRWkF3VnJyNlNhYmNjVnFKX2R3Q0hDUUF0NUU5cHpWUy1ld2pTTnpfUGJ1OVBteVhzaElTMmZLQUdBZEtzWFo3NXhjaW1PZndBTEhuaHFoQVdGZ2NrTVFBaW1hYy1lcXlZNDV1cm1ZLVpXUkdES2VNZk5QbzVfREJwcXBiR1N3QU5IaF9JZFVGYzVMLWpNd0Z4YUtqc3NaRW1seVlpU2hDWXN1WWFSbWc1T01JQ2hCekVSaGVnQ0JzV1hZaFRWUFVHMlYweWZJYjV2bl85RGVsaGJzcXlhMTNzaU1ROVNEa2txWlJpbU83TWVqOF9PZkg1RkwyRlFLeFB4UW9TM0ZVRlhwMGhURnBkMDQ0cDRDNm1iUdIB4AJBVV95cUxNTG1IR1hKUDJvZjZQTVZMMGtoTVdZaDlsYXMxczA2dWRwYUh2cU5Eb3JpUFlwR1J6WVlwQXFtREFlQjZONW52LUxFcXZzX3ROWXJlakhveFRFTFZsTE10amd2cXNLOVVIVW9OMTRxYm9Qd1dSSHNKZmd5NnZrTF9Sbm1Wbm9qMThLU3haSGc2ZUFOWTFlNHBqR0FGd2JHMy03TU12cTNuaDJaOXZwZFVYb2RqdUp1UUw0V3lXcUZLVU1hejFzNXp1TGo3QTZVTmprV2VNVFdHdkVFQ29SSXBVamJ5UnJ4WU5vWVdzMHNXeVRZWDJjN3JEOU1zNEd3cnpSdkhtWkZuZmYzekZNWXpjSnc2a0dkZGRTWE1ESXBFdTdTZmwtZG9PZFU4aHdnNnlydndLZlRUWmh5SlF1dHB1LU9qemRzN2hfclJWTlk2YVBpV0hPbkFvcUZUN1dCYXQ0?oc=5",
+        "title": "US-Israel-Iran War Latest Live News: Yemen Condemns Houthi Missile Strike on Aden International Airport; Forces Report 239 Houthi Fighters Killed in 24 Hours as ‘Dawn of Yemen’ Offensive Intensifies",
+        "official": false,
+        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+      },
+      {
+        "at": "2026-10-28T17:12:29.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "24/7 Wall St.",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNM0lhbk5RLUNkRG5scGNvcFpzUnhQRWRQSVphSllxT2hqblBXQy1FYlRvRkRhazZDTV90NDBQandtZmZxUVVrb3dMMXRiT1BKaW5WMXIwMDRnenFRU3NNZG1CSzdLZVFuMzdNak1QRDJiek4zWkQ5cWM3X0RVa2hEaDh3MA?oc=5",
+        "title": "AI Could Turn Off Our Electricity",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
       {
         "at": "2026-10-28T13:20:40.000Z",
         "cat": "energy",
@@ -278,6 +298,16 @@
         "source": "The National",
         "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1lem9tb1QwUDdzdGVId2ZLZXBTc0tsTGs1aTdHS29mRjR1di1IOThPYVFLQUp6MFdoN3VBZF9GWWZzQVp4RmpRQTFucmhOMEF6eUZpdXpCa05SQjlkVVdhbFJOVnFBMDVXaFg0WDBfZi1nQmsyYnVCdXhFQmVRdw?oc=5",
         "title": "Middle East latest: Qatari mediators present Iran with deal to end war, official says",
+        "official": false,
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
+      {
+        "at": "2026-10-28T11:38:17.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Arabian Business",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeGVzSjhrbUhOTTctX0ViTkJTRnFEZnkwNTJQR3gySTJRQlk3aXNwenJ2Qk1DejVYcF84dmF4WDFPd2xKRzEwazEtOEdOb05OOFhJaXZQVTd3R2lDRHdGbTgtM1JSSEMxeFN5OTlLc0tLNE55MHlHRDZNU3lOVFBDaTJwQQ?oc=5",
+        "title": "Iran war live: UAE’s Gargash issues call for calm amid escalation fears",
         "official": false,
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       },
@@ -320,16 +350,6 @@
         "title": "China-linked Warlock ransomware group targets global infrastructure",
         "official": false,
         "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-27T22:56:32.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The National",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdmN6SzJtQ0JYM2gwc3RFSmQ5V3lFTFVfbk04VEdnUXJDcVRZTE90aDVfSUhvVzFUOExCT0FNd2h5MFFjMlltY3dwd2JUc3ZtM1R6RXRXdldlMUZBSnZrR1pteE4yeGd2Vi1saWwySzh3MTJFQWpsNGFNQ1NQWFRPMmtkMkE4Uko4LUZaZTdUMWFQOWFqRXhSZ0k1ZWVPcmhpc1FXZ0FaYVBxRWFuTkNydzF3?oc=5",
-        "title": "Middle East latest: Saudi Arabia reports missile interception damage in Riyadh as Houthis claim more attacks",
-        "official": false,
-        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
       },
       {
         "at": "2026-10-27T21:11:27.000Z",
@@ -420,38 +440,8 @@
         "title": "Cuba’s National Electric Grid Collapses, Reason Unknown",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-27T10:26:41.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Sudan Tribune",
-        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE8yMVZaRzVoWjlpRzhRaDNjWkRHcHpmNGxtbFhzdTdscXhLa1pLUWE2dTBPSzVNbXlMVlVoYVJnOW80MGhoNXNQNExDUkdBcFVS?oc=5",
-        "title": "Drone strike on Omdurman power station causes Khartoum blackout",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-27T10:03:15.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "CyberScoop",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVWtjUHRDV3BkdjYzZHdkR2lNM3VvbGNHdWxsNmpLaFA4WEp5VlZSX3hkQzFrN2tjU3lSVm9jQ00zOHpEREVKcmZXSUFLczFPTjJubzNPdHFKS1JyNEkwZ3daUXY2TTc1a1ZVVWw5cGtjSW5YemdLaktQcjRYcURhTTNCczg?oc=5",
-        "title": "What happens when security tools go dark before the ransomware",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-27T04:00:53.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Voice of America English News",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBjQU43TWd5RF85LXM1ZDZfUG9jLTRmdEZpSmtTS3hKT1VlTEJnVGRfa3NjclNRaTVyWDB0WnFtczhIM1pBdW9ILXIwZGNrbFR2TWhTVXVsUjJFWnVlbTk3YU1ZYmpobklzbXo1QkVfM0VkRmtkRDVNRDJDNEMwLXfSAYIBQVVfeXFMT2JfcTk2cTdMa0tUT0NsTUFTSmRBRHZiTlZiQTBBQWw0M2xicFpoOGpQcjR0Z3ZQQktHLVo3eEl4elVOakdIWGFmMjFvVmJId0lYbHhHaUxjc3RULUozZGJRRUxsRGhPUGUyUko4aktnMUdfR0FWYWhoRXdsOFAxNW5nUQ?oc=5",
-        "title": "Exposing the Cuban Regime's Lies - VOA",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       }
     ],
-    "updatedAt": "2026-10-28T13:39:40.404Z"
+    "updatedAt": "2026-10-28T19:13:04.631Z"
   }
 }
