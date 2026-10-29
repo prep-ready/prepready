@@ -2,9 +2,9 @@
   "_comment": "Aktualizuje scripts/update-data.mjs codziennie. pl = Polska, en = świat. Składowe z mode=manual ustawiasz ręcznie.",
   "pl": {
     "sample": false,
-    "updatedAt": "2026-10-29T02:57:45.186Z",
-    "score": 27,
-    "delta7": 4,
+    "updatedAt": "2026-10-29T10:30:09.681Z",
+    "score": 26,
+    "delta7": 3,
     "ago30": 36,
     "history": [
       36,
@@ -36,14 +36,14 @@
       22,
       17,
       17,
-      27
+      26
     ],
     "components": [
       {
         "id": "conflict",
         "name": "Konflikt w regionie",
         "weight": 30,
-        "value": 23,
+        "value": 39,
         "sources": "GDELT · Google News",
         "trend": [
           23,
@@ -53,7 +53,7 @@
           31,
           5,
           5,
-          23
+          39
         ],
         "mode": "auto",
         "raw": [
@@ -77,7 +77,7 @@
           53,
           30,
           58,
-          40
+          57
         ],
         "stale": false
       },
@@ -103,7 +103,7 @@
         "id": "energy",
         "name": "Energia",
         "weight": 15,
-        "value": 55,
+        "value": 25,
         "sources": "PSE",
         "trend": [
           25,
@@ -113,7 +113,7 @@
           25,
           25,
           25,
-          55
+          25
         ],
         "mode": "auto",
         "raw": [],
@@ -123,7 +123,7 @@
         "id": "weather",
         "name": "Pogoda i żywioły",
         "weight": 15,
-        "value": 34,
+        "value": 13,
         "sources": "IMGW · GDACS",
         "trend": [
           13,
@@ -133,7 +133,7 @@
           13,
           33,
           34,
-          34
+          13
         ],
         "mode": "auto",
         "raw": [],
@@ -143,7 +143,7 @@
         "id": "health",
         "name": "Zdrowie publiczne",
         "weight": 10,
-        "value": 12,
+        "value": 27,
         "sources": "ECDC",
         "trend": [
           27,
@@ -153,7 +153,7 @@
           12,
           12,
           12,
-          12
+          27
         ],
         "mode": "auto",
         "raw": [],
@@ -242,9 +242,9 @@
   },
   "en": {
     "sample": false,
-    "updatedAt": "2026-10-29T02:59:36.629Z",
-    "score": 37,
-    "delta7": -9,
+    "updatedAt": "2026-10-29T10:32:13.357Z",
+    "score": 24,
+    "delta7": -22,
     "ago30": 30,
     "history": [
       30,
@@ -276,14 +276,14 @@
       39,
       38,
       38,
-      37
+      24
     ],
     "components": [
       {
         "id": "conflict",
         "name": "Global conflict",
         "weight": 30,
-        "value": 48,
+        "value": 8,
         "sources": "GDELT · Google News",
         "trend": [
           61,
@@ -293,7 +293,7 @@
           42,
           49,
           49,
-          48
+          8
         ],
         "mode": "auto",
         "raw": [
@@ -319,7 +319,7 @@
           50,
           52,
           46,
-          41
+          21
         ],
         "stale": false
       },
@@ -345,7 +345,7 @@
         "id": "energy",
         "name": "Power & grid",
         "weight": 15,
-        "value": 21,
+        "value": 5,
         "sources": "Google News",
         "trend": [
           34,
@@ -355,7 +355,7 @@
           30,
           5,
           25,
-          21
+          5
         ],
         "mode": "auto",
         "raw": [
@@ -388,7 +388,7 @@
           51,
           26,
           48,
-          44
+          27
         ],
         "stale": false
       },
@@ -416,7 +416,7 @@
         "id": "health",
         "name": "Public health",
         "weight": 10,
-        "value": 20,
+        "value": 28,
         "sources": "ECDC",
         "trend": [
           28,
@@ -426,7 +426,7 @@
           20,
           20,
           20,
-          20
+          28
         ],
         "mode": "auto",
         "raw": [],
@@ -436,7 +436,7 @@
         "id": "cyber",
         "name": "Cyber & infrastructure",
         "weight": 15,
-        "value": 39,
+        "value": 38,
         "sources": "GDELT · Google News",
         "trend": [
           36,
@@ -446,7 +446,7 @@
           36,
           42,
           41,
-          39
+          38
         ],
         "mode": "auto",
         "raw": [
@@ -466,7 +466,7 @@
           52,
           54,
           29,
-          58
+          57
         ],
         "stale": false
       }

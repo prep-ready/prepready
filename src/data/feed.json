@@ -4,6 +4,44 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-10-29T08:20:58.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Polskie Radio 24",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxORy1iVksxejVkN1Y5LWdOb3o5OXBfVjVPeUlJTTYtbkgzWElDaDloNUVFMzVJUE5DM0IxcjI2NXlIMUJERnZSVUJVaWx4OGZCVUYxa09wckFuSV9fVEJuM0dFQlVRZnJ5X1lHd3dSYlk0MEZwLVRYRjliR1dpcGNTX0FIcmRwdHdscHo0?oc=5",
+        "title": "Syreny alarmowe na Podkarpaciu. Mieszkańcy dostali SMS od RCB",
+        "official": false,
+        "forYou": "Unikaj miejsca zdarzenia i stosuj się do poleceń służb. Numer alarmowy: 112.",
+        "guide": {
+          "href": "/pl/poradniki/syreny-alarmowe/",
+          "label": "Sygnały syren alarmowych"
+        }
+      },
+      {
+        "at": "2026-10-29T06:25:11.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Polskie Radio 24",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdlNaaU9ZYThLYzBVX3U3TFVRb0VMTnU0V2N3ZzhTUk1GRFQ1Q2FIWHBEZHhBVWVYTVktZ3BfYkRRYW9RLUlhbGE2a3E1eVBqckZrV3cxbEc4OWpMcHZ4dkliZVJMX1VtSlVteWpCdDVvV3JjOWE4aThtN21EN1N4WmlZSVllWDBGeEdnVTBscXE4MUNCb1JGWnNiUzZLVnFmUnNPbWx3?oc=5",
+        "title": "Najpierw Rosja, potem Białoruś. Tak ma wyglądać ewakuacja Ukraińców z Ołeszek",
+        "official": false,
+        "forYou": "Słuchaj poleceń służb, weź plecak ewakuacyjny, dokumenty i leki. Nie wracaj, dopóki służby nie odwołają ewakuacji.",
+        "guide": {
+          "href": "/pl/poradniki/plan-ewakuacji-rodziny/",
+          "label": "Plan ewakuacji rodziny"
+        }
+      },
+      {
+        "at": "2026-10-29T03:31:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Rzeczpospolita",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBuZC1GaG9HSDBIUENvYXlhM0dDbXJuWndTS3ktNS0xZEd6QXkzUEJDc0tTV0MxSG1zNENGS2dYWUt5c0EtcExhR0NNMzNlbmhxXzE5ek52MktLZTg1MlJmM1RTWWMyd2tHbjFNb3RSRWxLVXRGZFQydDNn?oc=5",
+        "title": "Przekazaliśmy Ukrainie 10 pocisków do Patriotów. Teraz dojdą dwa kolejne MiG-29",
+        "official": false,
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+      },
+      {
         "at": "2026-10-29T02:57:03.341Z",
         "cat": "energy",
         "sev": 3,
@@ -204,47 +242,63 @@
           "href": "/pl/poradniki/bezpieczenstwo-dziecka-w-szkole/",
           "label": "Bezpieczeństwo dziecka w szkole"
         }
-      },
-      {
-        "at": "2026-10-27T14:52:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "TVP Info",
-        "url": "https://news.google.com/rss/articles/CBMivAJBVV95cUxOZ2x0eDZHQTV5TC1OMEVhZnpiSU9oSVVaOHF6aDlHMHhwNmFuQW1IMTBzd0ZlMVUwdjlTOWlXV2czOUdvSGFubURoMTFxZ01VVHgxbTBCVWlkdG5VUjBadlkzWm1MWERTRllOTUZnUDN4ZVlsN0w1cHBJR0lpcDJ2d3dneTZDeE5VdXF2aFdkXzRrWHJOZUUzMUxIdjVQU0dNUHRnVW8wQVVsbnl0QlZRZlFPWnlsT0x4bWR4TzNxZEpvN2xDMWRtdDdaaVdiRWpPNlMtaUc5TVEyUWh6YllIU3BRV19MN0NxVzFmc05acTBfb2FxamctWmVieEVBUGtGdVlFU21wZUJ1N0VqSXFYT0NFcUE1OVprXzBGZm1mWXJDWkZ1amRKbFBaU0tfY2pXWFlDOVR6dWlzR1Rx?oc=5",
-        "title": "Polska pokonała Niemcy i Holandię. Ważna decyzja w sprawie Patriotów",
-        "official": false,
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-10-27T13:37:54.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Polskie Radio 24",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZTdVckdabmFfekJXNEpJUUU4MlVERVB5VDB5YWtVNkc1VGhtS1d2NmdHOWxiVjFCNXpfSVR6Unh4OTNQVlpzTjB2VXRCQWx5MVhqSFZ1bExRenVqZE0ySEphdGpHVGlnZWxYTG1zaFB5NkRGXzJVMk1uRXRYQ045UEJYR25aYlZsWm55S1Bzd0tZZndoMUhBYlpNLWZ4NmJ5RXc?oc=5",
-        "title": "Dron spadł do Bałtyku. Żandarmeria ostrzega: może dotrzeć do wybrzeża",
-        "official": false,
-        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112.",
-        "guide": {
-          "href": "/pl/mapa-schronow/",
-          "label": "Mapa schronów"
-        }
-      },
-      {
-        "at": "2026-10-27T11:55:00.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "CERT Polska",
-        "url": "https://cert.pl/posts/2026/10/CVE-2026-105987/",
-        "title": "Podatność w oprogramowaniu KGS Software tia Viewer",
-        "official": true,
-        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
       }
     ],
-    "updatedAt": "2026-10-29T02:57:45.189Z"
+    "updatedAt": "2026-10-29T10:30:09.685Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-29T08:57:39.000Z",
+        "cat": "health",
+        "sev": 2,
+        "source": "ECDC",
+        "url": "https://www.ecdc.europa.eu/en/news-events/first-public-health-emergency-preparedness-assessments-across-europe-show-both",
+        "title": "First public health emergency preparedness assessments across Europe show both commitment and recurring challenges",
+        "official": true,
+        "forYou": "Usually no action. Check your first-aid kit and expiry dates."
+      },
+      {
+        "at": "2026-10-29T08:56:50.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "The Cyber Express",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1jWGhRbFBscGhFUTh1a0Z4SkVsWEJYbTNoR1dLTUtGSURFWnVtY3pWdFRTZkR3dEpQU09RSG5YazFVemtXYUFOQThacU95Q1BkZkw5ZTRVeUNRSjNRNHAzV2FnbERQRWFCSzFZenRkQnRUd2lzX2k4cdIBeEFVX3lxTE1jWGhRbFBscGhFUTh1a0Z4SkVsWEJYbTNoR1dLTUtGSURFWnVtY3pWdFRTZkR3dEpQU09RSG5YazFVemtXYUFOQThacU95Q1BkZkw5ZTRVeUNRSjNRNHAzV2FnbERQRWFCSzFZenRkQnRUd2lzX2k4cQ?oc=5",
+        "title": "Ukrainian Ransomware Affiliate Sentenced to 70 Months",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
+      {
+        "at": "2026-10-29T08:16:11.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNTENYVFdnSUZIT0JQeUFlUHA4R0hldnV2aGlscjhOblppeVdka2VmdDFHcTNhYWp5MWhKM1BnMmNNYnRib2djRVNzU1BzenhsbzhpMWItQUtjaFVMRFYycTE0dFQwdE51b0tacGc0ajdiTnBHU3BwMU5WbTVKcEFPaDJJNFpLXzVFeHAyYUJpNzVHQUkwbDI2QzFNV2o0XzFOdWd5UFF3ak45OWYyZnhVTzRFblhwa09QWThKR3p0Y2diRFYwaDFnYldBaG52djZjekpXbkZDUQ?oc=5",
+        "title": "Destinus' monthly output tops Europe's pre-war annual cruise missile production",
+        "official": false,
+        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+      },
+      {
+        "at": "2026-10-29T08:11:34.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The National",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMUttdjlFX1NnTi01X2NGcy0ycl9wa1R5R0JTcnZXUFNtS0xEMWNPbk5wZjZsblhieXBhc25nN2NGaW15MlJDdWdLUVdabGFNaFM5S1ZSRkp1em45RnFvekxWUUNZTERwa21zMW5jZ1hZenNJek4xZXctMmhnMW1TcGoyTmV2Vkh1b1RRb1dKTE5oR0R1ek1BeG53?oc=5",
+        "title": "Middle East latest: Oil prices decline on fresh diplomatic efforts in Iran war",
+        "official": false,
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
+      {
+        "at": "2026-10-29T04:34:48.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Arabian Business",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeGVzSjhrbUhOTTctX0ViTkJTRnFEZnkwNTJQR3gySTJRQlk3aXNwenJ2Qk1DejVYcF84dmF4WDFPd2xKRzEwazEtOEdOb05OOFhJaXZQVTd3R2lDRHdGbTgtM1JSSEMxeFN5OTlLc0tLNE55MHlHRDZNU3lOVFBDaTJwQQ?oc=5",
+        "title": "Iran war live: Trump says Vance reached out to Tehran with medical offer",
+        "official": false,
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
       {
         "at": "2026-10-29T00:47:37.000Z",
         "cat": "cyber",
@@ -262,6 +316,16 @@
         "source": "Ahram Online",
         "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcEIwX1RmR2FwNHM5Q0VmUHVNWVpNLWZ4a0IzY05KWEhWbFZ6bkpnYlFqY2JwZXM4eVpKX1hZaUYxZ19Ub0piNXlKNUpMNVdxbUxiOXVYZ1hlcjdxWTQwZUd0Q3RkUkZrR0xNZmM5Y0hxYWZNWi1VY2t2TVVEcFBKc1J0NGxjaS01NVByNmNZMnU3LTJzdGlES3NKdVY5cEs4S3JfYlhkakVuVzhxZGhBcmNTeHh1ZVpBOFFNSjZmVlR0NjN3SVE?oc=5",
         "title": "UN defies Trump administration pressure, condemns Cuba embargo - International - World",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
+      {
+        "at": "2026-10-28T19:27:36.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "EnergyNow.com",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRHM5Z0w3dFFfNEtpem9naS1GakppY2drNmxqQ2xWRDB3b1hmMHBDWUZZc2ZKY2ZJR2RKejd4YW9CMTYxMzFqX01ZcmNXZG9WMVVKaXFIVlY2WVpBWUpMQnZMOEJaM2xtRW9IMnEzelgwQmQ4djVuYTA1MmVZWVB0a01IeWhuNkJnMnR3TA?oc=5",
+        "title": "Cuba’s National Electric Grid Collapses, Reason Unknown",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       },
@@ -384,68 +448,8 @@
         "title": "Kremlin downplays rare Putin call from leaders of Finland and Norway",
         "official": false,
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-27T20:41:31.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "شبكة عاين",
-        "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBwbHljYm9xTHFkYjdneWNRQ3RTZzZRQmRYOHRRRDVuNEN0S2JSR1NYUWJMOEJlaW9YamY5QWVPVFhhRkxFQW5Ycw?oc=5",
-        "title": "Ayin Network",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-27T19:17:33.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Latest news from Azerbaijan",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQanpGeDVPanVHTVdkZ1MyV1VXNE1kNWR4OXlaUy1tRFI2YzZjdUc2MXl0NFBoX050SGhrQ1pWVjNOYU05SmFBby1mWmNJUFNNNE5yLWhieGwwVmYzZ3Rxc2JEU0tvaU5iRUg3MV8tcS12QS1SUnUyVGY2SXprZTd0VTVTMzM5ekJyb1M0ZlZGQmQxTzd4bEpXb2dWWQ?oc=5",
-        "title": "Footage shows damage to Kyiv university after Russian missile strike - VIDEO",
-        "official": false,
-        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
-      },
-      {
-        "at": "2026-10-27T18:38:15.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "CyberScoop",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZTZ6RG5TNEM2azU1c0RJMnZ4YXdQQi1Lb29jdWxzSHhQT3BXaGM4X1lNSU51aE1aU2laRVlCY0RvTjNZLTVUYmh0YWhxSDJ2YTN0aUJTVV9TbVlWVDYzNWlzS2E2bkdTWmJJSUkwU1YxbDJMVEtFT2VoTkNYSjZoa0xSbzFpcU1aX0E?oc=5",
-        "title": "Prolific Hive and Nefilim ransomware affiliate sentenced to 70 months in prison",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-27T18:26:12.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Pluang",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdVcxMjBCZ1hLdXRBUVJ6UnJjWG5ZMm5uTXZfcmhVVW5feFlMZlIzV2h0ZnhEN190aERTYlJXb1oxVExIYWp5RkhjNENxa2h3QldzTUJCTmJSUWU5Vk1kRGFSb0ZOaktsMmw3aUZYZ3otai1jalhGYnFEVnRIQTEybVBrVVNZalZqUjV5Y3N0X1JkOGZaTzU2QVIwanJZeERhYllGT2V1UWQ3QUdoWTRxTDZn?oc=5",
-        "title": "Bitcoin transactions in Iran dropped 80% during...",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-27T15:29:38.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Los Angeles Times",
-        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOSGJQYkdpX3lfdU5ZQVVhcEpWMUpUT0VJNExSMlZJZU0wXzVvb2l0d0N3elIxMUZ2NjZ5RklrT1J3SUJXZlJ2REhZcGVGck1RNHl4VkNQbWtvLW5lazZqQllVbGN1cEhaTW9WdXVoX2p6aDdvZkJqS1RwZFBnWGp4UEJBSjluaVBDeHBqVUVLd091V3c2dnVLSFRzNE1LaG15U3MxY1pwZzVPQk1QZS1wNVVlNDBEcXFvcEMwdkR5NmJSdUlQOTZwYkpYN08zNWZ5X1RVZ2sxT3cwa1pET3c?oc=5",
-        "title": "Russia committed war crimes in Ukraine by attacking its energy grid, U.N.-backed inquiry says",
-        "official": false,
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-27T14:46:56.000Z",
-        "cat": "health",
-        "sev": 1,
-        "source": "ECDC",
-        "url": "https://www.ecdc.europa.eu/en/news-events/ecdc-deploy-experts-ebola-cases-emerge-kenya-and-nigeria",
-        "title": "ECDC to deploy experts as Ebola cases emerge in Kenya and Nigeria",
-        "official": true,
-        "forYou": "Usually no action. Check your first-aid kit and expiry dates."
       }
     ],
-    "updatedAt": "2026-10-29T02:59:36.630Z"
+    "updatedAt": "2026-10-29T10:32:13.358Z"
   }
 }
