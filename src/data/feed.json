@@ -4,6 +4,30 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-10-29T02:57:03.341Z",
+        "cat": "energy",
+        "sev": 3,
+        "source": "PSE",
+        "url": "https://www.pse.pl/",
+        "title": "PSE: dziś zalecane oszczędzanie energii",
+        "official": true,
+        "forYou": "Ogranicz zużycie prądu w godzinach szczytu, naładuj powerbanki i latarki.",
+        "guide": {
+          "href": "/pl/poradniki/blackout-jak-sie-przygotowac/",
+          "label": "Jak przygotować się na blackout"
+        }
+      },
+      {
+        "at": "2026-10-29T00:39:06.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "TVP Info",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQenVZTTRjaTlqTTZsZnE2ZTcxYnQweE5vWThfRFFRdjFZaFFma294dHdmdEpLbWZmVV9fVU44QmZiemxiSkI1SUV2d1Q4ZDVaWkdxS1JkZVJ4TDZiVDBrMXl4c2xudDlYNWRQUUVLN1RFSGNhWTEwXzQ3Z3R3dTdUNkt3elVyREl5UGVxdU1XV0lfUkNac0I0UTdSbmJWR0Z2ekhMTkRjclZGSk1IWGtCLVlVTlhOdG8?oc=5",
+        "title": "Rosyjski atak na Ukrainę. RCB wysłało ostrzeżenie",
+        "official": false,
+        "forYou": "Jeśli jesteś w pobliżu: uciekaj, a jeśli nie możesz, ukryj się i wycisz telefon. Dzwoń pod 112, gdy będzie to bezpieczne. Unikaj okolicy i nie powielaj niesprawdzonych nagrań."
+      },
+      {
         "at": "2026-10-28T17:02:00.000Z",
         "cat": "security",
         "sev": 2,
@@ -124,10 +148,10 @@
         "cat": "safety",
         "sev": 3,
         "source": "TVN24",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcHVFU21XRDAxMW1SVng3d1pTYmV4MkFUM0Z6SlpGOGpZVTRDRmduU3BPUVZuRDEzamlSMmlMSWtobWM1UDlxcDlUREhsX1hSYWp0M0YxRjRVczNaeGphYlE2N3FwUENab01fZWdoRDA4ZzF0Ri1oa2YyZ0syVHJGVGRLdTdjc2xuZFYzY1VlNHkzT2FwWFFndzhfWFV5WTZvRWJ6ZjUyZXg?oc=5",
-        "title": "Rosja atakuje Ukrainę. Jest alert RCB dla części województwa lubelskiego",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdEVmTXZNWDdwSWhUdGpEa3FwQlEySjNBTW8ycFh2ZXFWd1VzZzB1NDNFUUEwRXdoaHpZaWRDYXhDbUs3OGNrRWkwWkRPb19CTlN0OTFSMUwzdmpMQW5CTG42ZEtzQjlFVTUwSkxYeHktb05McUhpSXRDczhLb01UMGZtektpc1NqUmRvOXFQY29oSExrakF6SXdtWmVEU2pBSUYwNWlYN1V5dUV5Q3c?oc=5",
+        "title": "Atak Rosji na Ukrainę. Odwołano alert RCB",
         "official": false,
-        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
+        "forYou": "Zagrożenie minęło. Sprawdź, czy w domu wszystko jest w porządku, i uzupełnij to, czego użyłeś z zapasu.",
         "guide": {
           "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
           "label": "Alert RCB i aplikacja RSO"
@@ -138,10 +162,10 @@
         "cat": "safety",
         "sev": 3,
         "source": "TVN24",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdEVmTXZNWDdwSWhUdGpEa3FwQlEySjNBTW8ycFh2ZXFWd1VzZzB1NDNFUUEwRXdoaHpZaWRDYXhDbUs3OGNrRWkwWkRPb19CTlN0OTFSMUwzdmpMQW5CTG42ZEtzQjlFVTUwSkxYeHktb05McUhpSXRDczhLb01UMGZtektpc1NqUmRvOXFQY29oSExrakF6SXdtWmVEU2pBSUYwNWlYN1V5dUV5Q3c?oc=5",
-        "title": "Atak Rosji na Ukrainę. Odwołano alert RCB",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcHVFU21XRDAxMW1SVng3d1pTYmV4MkFUM0Z6SlpGOGpZVTRDRmduU3BPUVZuRDEzamlSMmlMSWtobWM1UDlxcDlUREhsX1hSYWp0M0YxRjRVczNaeGphYlE2N3FwUENab01fZWdoRDA4ZzF0Ri1oa2YyZ0syVHJGVGRLdTdjc2xuZFYzY1VlNHkzT2FwWFFndzhfWFV5WTZvRWJ6ZjUyZXg?oc=5",
+        "title": "Rosja atakuje Ukrainę. Jest alert RCB dla części województwa lubelskiego",
         "official": false,
-        "forYou": "Zagrożenie minęło. Sprawdź, czy w domu wszystko jest w porządku, i uzupełnij to, czego użyłeś z zapasu.",
+        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
         "guide": {
           "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
           "label": "Alert RCB i aplikacja RSO"
@@ -214,33 +238,23 @@
         "title": "Podatność w oprogramowaniu KGS Software tia Viewer",
         "official": true,
         "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
-      },
-      {
-        "at": "2026-10-27T11:22:00.000Z",
-        "cat": "weather",
-        "sev": 2,
-        "source": "IMGW",
-        "url": "https://meteo.imgw.pl/",
-        "title": "IMGW: 1 ostrzeżeń meteo, najwyższy stopień 1: Gęsta mgła",
-        "official": true,
-        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
-      },
-      {
-        "at": "2026-10-27T10:55:00.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "CERT Polska",
-        "url": "https://cert.pl/posts/2026/10/CVE-2026-107145/",
-        "title": "Podatności we wtyczce twofactor_gauthenticator dla Roundcube",
-        "official": true,
-        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
       }
     ],
-    "updatedAt": "2026-10-28T23:38:48.105Z"
+    "updatedAt": "2026-10-29T02:57:45.189Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-29T00:47:37.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "news.lavx.hu",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZ0RGZDhxWXVfNkotTnVfMUlTUnh4Uk5XU0FUbGh3a2NxNGdiV3RKYmtHcGZUSEMtVHVXNUVHZ3ZuX0JSUEtBcnMxYVljXzBXS21OMUIxS1M0RnlQbzE5Um84WUxxQ0FpaFFQRm95N0Q0clF5NHRQcVpHOHR2Z2p1VGNIX01qU05lN3p3cGlWSzZ1MG51cVAtQWRJTDlWYndK?oc=5",
+        "title": "123 Reg discloses AI cyberattack on customer data, suspects China nexus",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
       {
         "at": "2026-10-28T20:21:48.000Z",
         "cat": "energy",
@@ -430,18 +444,8 @@
         "title": "ECDC to deploy experts as Ebola cases emerge in Kenya and Nigeria",
         "official": true,
         "forYou": "Usually no action. Check your first-aid kit and expiry dates."
-      },
-      {
-        "at": "2026-10-27T14:10:39.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQb2xMY1ZNOGZMdGFLZGV6Ui1rTTZmODJnOGprdHhzRlJXcmkwbndqd2libFRWeF9jSkowZXE5SF9EYmhoZ3pwekhNZWUxYmtRRE5wSHRSMXRUd0JyWkNnTi1HeWdJUjZHRXRtZDJKaVZZN1BrQzNnamdCWVZGVXJFTXlCWTFfLTFZSnpMeVB1RHRwa2pMYUxZT2I3c05WTDdoNXVuVHdsTDgzYkRINVFXbFR5a29jUEnSAbwBQVVfeXFMUHduZGtfYlZfU2EyYm9WQmNMaFFZT2lyR3R4Z2JtOEN5NHUwZzhMTWpkSWx6TVVwOWJVbzdiM2plZTR3NUpvSkhQVlFGNVBtNEdvWWNaOTRaOUF3Z25sXy0wcEFMZ2F3MzNjMzY5aXl2bXJ4a0xEZjMzWjB3TE8tekVtWmJ6azk3bE1ndnRRdzJackdzUFdOY0R2NHlPZk00c0d5c1kxZXZpVEREWDkxUEpsTS10VHIxQXFmcEc?oc=5",
-        "title": "Russia targets Kyiv as Finnish, Norwegian leaders hold rare call with Putin",
-        "official": false,
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       }
     ],
-    "updatedAt": "2026-10-28T23:39:35.928Z"
+    "updatedAt": "2026-10-29T02:59:36.630Z"
   }
 }
