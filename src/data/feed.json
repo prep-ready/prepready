@@ -4,6 +4,74 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-10-29T15:34:39.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Polskie Radio 24",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQWEI5bnVqQ0tNSVpzdFI2eVVnRWVPYzA3eGVyV1JyZGY4VGFvOV9MT3diZDBQdHBucnpkeWJwSXlQUlFSOHhoaDBjWmtoTjlWaXJocVJZTTBaRUxuNVBwYnhtR0RoUExfTHJRdjVOQTZxWW1hX0J1aU5aazlUNVpZUmJiTHhqQ3BKcHpqU2NjQUFCLUp0RWhsRA?oc=5",
+        "title": "Obowiązkowa służba wojskowa dla wszystkich. Sąsiad Polski podjął przełomową decyzję",
+        "official": false,
+        "forYou": "Unikaj miejsca zdarzenia i stosuj się do poleceń służb. Numer alarmowy: 112."
+      },
+      {
+        "at": "2026-10-29T15:18:51.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "WP Wiadomości",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQckplZWFNLWtfYWRXRmNJTEVaNVVhOTZ1VTNHNHlKaDRDa05hQndQNGxuOVFIam8zUmg4b3FzWWRYSVpDQ0lvblVjV0FrRUVfejRIZEFPM0p2dzVoNHBQeFd1MzhLY256U3RhOHFZR19NQWpWcHF0dlBGMGFrSEY3RmRmZUtGVUJDaGlUQjMwWk5iQ1lLUlVIMkF6TVNwZFUtcGVj?oc=5",
+        "title": "Dron uderzył w cywilów w Dnieprze. Polski MSZ potępia Rosję",
+        "official": false,
+        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112.",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
+      },
+      {
+        "at": "2026-10-29T14:55:00.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "CERT Polska",
+        "url": "https://cert.pl/posts/2026/10/CVE-2026-66911/",
+        "title": "Podatności w oprogramowaniu Zimbra Collaboration",
+        "official": true,
+        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
+      },
+      {
+        "at": "2026-10-29T14:48:11.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "WP Wiadomości",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWE5CT2xjQ3ZOUndSSXRGR2U1cm5UbnloTlQyS1NqTUhoSkxkVENqY3YyOFIzQVhJRWtKb3pQR3NSZmMtWm5xTzZCVld3MzhZOFhucnZtbjJHUXhkQU9PbzFYYXJPMFk3OHRKYVJkRlVmRVBMemUwLXNTQnZ4cVpNNFdRQ2lieEJfb1gtQVAyVE1jN1REZzNWWDNLa29MVk5lNDJJbkVDWFc?oc=5",
+        "title": "Dramatyczne nagranie z Dniepru. Rosyjski dron uderzył w dworzec",
+        "official": false,
+        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112.",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
+      },
+      {
+        "at": "2026-10-29T11:52:00.000Z",
+        "cat": "weather",
+        "sev": 2,
+        "source": "IMGW",
+        "url": "https://meteo.imgw.pl/",
+        "title": "IMGW: 1 ostrzeżeń meteo, najwyższy stopień 1: Gęsta mgła",
+        "official": true,
+        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
+      },
+      {
+        "at": "2026-10-29T10:55:00.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "CERT Polska",
+        "url": "https://cert.pl/posts/2026/10/CVE-2026-93570/",
+        "title": "Podatności w oprogramowaniu Szafir",
+        "official": true,
+        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
+      },
+      {
         "at": "2026-10-29T08:20:58.000Z",
         "cat": "safety",
         "sev": 2,
@@ -15,6 +83,20 @@
         "guide": {
           "href": "/pl/poradniki/syreny-alarmowe/",
           "label": "Sygnały syren alarmowych"
+        }
+      },
+      {
+        "at": "2026-10-29T07:16:49.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Gov.pl",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4zNmVRMy1fOXJoSENXeldITXhMX29QNmxYdGZsemlqVlpJaW1LNmtxYVpRUzZyTmttLVg2cl90bHFfUGlsNi01Vjk1R3pGT2tva01wRzFaWWNGbFZGSjI0cGsxQWJaSFo0ZjU0bXRZaVFRekFqSlJRa1dFOA?oc=5",
+        "title": "Alert RCB - trening systemu alarmowania (29.10)",
+        "official": true,
+        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
+        "guide": {
+          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
+          "label": "Alert RCB i aplikacja RSO"
         }
       },
       {
@@ -30,6 +112,16 @@
           "href": "/pl/poradniki/plan-ewakuacji-rodziny/",
           "label": "Plan ewakuacji rodziny"
         }
+      },
+      {
+        "at": "2026-10-29T05:36:00.000Z",
+        "cat": "health",
+        "sev": 1,
+        "source": "Rynek Zdrowia",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNGR3eFFiOTlwd042NUNqNEtTWmdlS1k2bzRaWEtNTHNiRUFrQ1JIYW03ajh4NnBCY2RocVZ2UzA5ejZZSmJzS2k2YXJiSUtKVVpkSnRPamtFTGdSS2lvSkdJSnRPUXQtdjZOd1ppQkRXRGFnS1FKM0NYeTltdHNjeklxS0JMRHZBWFJ1UHFoZ0dfWWNSb0JHMnAtTFA3RDZwSGNaaGpvb3g?oc=5",
+        "title": "Narkotyki w żelkach. GIS pilnie wycofuje produkt",
+        "official": false,
+        "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
       },
       {
         "at": "2026-10-29T03:31:00.000Z",
@@ -146,109 +238,43 @@
         "title": "IMGW: 2 ostrzeżeń meteo, najwyższy stopień 1: Gęsta mgła",
         "official": true,
         "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
-      },
-      {
-        "at": "2026-10-28T10:55:00.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "CERT Polska",
-        "url": "https://cert.pl/posts/2026/10/CVE-2026-105420/",
-        "title": "Podatność w oprogramowaniu Wing FTP Server",
-        "official": true,
-        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
-      },
-      {
-        "at": "2026-10-28T09:27:00.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "TVP Info",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNX3VzSkpJSTRQanNpZGJ0dzFYNlZZOHNKLWZoWTRWb0tVREtYa0tHNGVnUGJUUS1UdlZPNXVzOFB5V0FGekRPN1FwdjBacnJwMG91S01VNXdaZG1mZ3dlMW1VUDFrTm1fNWhPQ3EzNTFIWmJNdXdWSWVzZFh4aW5LVHNMYi1ZNWs4bWVkM3JkT2kwN0NCbnFkNHpNaEV5NzJiYUxkM243T1pMMEQweVhkQnNKdkhzT1k?oc=5",
-        "title": "Rosyjski atak na Ukrainę. Poderwano myśliwce",
-        "official": false,
-        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112.",
-        "guide": {
-          "href": "/pl/mapa-schronow/",
-          "label": "Mapa schronów"
-        }
-      },
-      {
-        "at": "2026-10-28T09:27:00.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "TVP Info",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNX3VzSkpJSTRQanNpZGJ0dzFYNlZZOHNKLWZoWTRWb0tVREtYa0tHNGVnUGJUUS1UdlZPNXVzOFB5V0FGekRPN1FwdjBacnJwMG91S01VNXdaZG1mZ3dlMW1VUDFrTm1fNWhPQ3EzNTFIWmJNdXdWSWVzZFh4aW5LVHNMYi1ZNWs4bWVkM3JkT2kwN0NCbnFkNHpNaEV5NzJiYUxkM243T1pMMEQweVhkQnNKdkhzT1k?oc=5",
-        "title": "Rosyjski atak na Ukrainę. RCB wydało alert",
-        "official": false,
-        "forYou": "Jeśli jesteś w pobliżu: uciekaj, a jeśli nie możesz, ukryj się i wycisz telefon. Dzwoń pod 112, gdy będzie to bezpieczne. Unikaj okolicy i nie powielaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-10-28T09:22:40.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "TVN24",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdEVmTXZNWDdwSWhUdGpEa3FwQlEySjNBTW8ycFh2ZXFWd1VzZzB1NDNFUUEwRXdoaHpZaWRDYXhDbUs3OGNrRWkwWkRPb19CTlN0OTFSMUwzdmpMQW5CTG42ZEtzQjlFVTUwSkxYeHktb05McUhpSXRDczhLb01UMGZtektpc1NqUmRvOXFQY29oSExrakF6SXdtWmVEU2pBSUYwNWlYN1V5dUV5Q3c?oc=5",
-        "title": "Atak Rosji na Ukrainę. Odwołano alert RCB",
-        "official": false,
-        "forYou": "Zagrożenie minęło. Sprawdź, czy w domu wszystko jest w porządku, i uzupełnij to, czego użyłeś z zapasu.",
-        "guide": {
-          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
-          "label": "Alert RCB i aplikacja RSO"
-        }
-      },
-      {
-        "at": "2026-10-28T09:22:40.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "TVN24",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcHVFU21XRDAxMW1SVng3d1pTYmV4MkFUM0Z6SlpGOGpZVTRDRmduU3BPUVZuRDEzamlSMmlMSWtobWM1UDlxcDlUREhsX1hSYWp0M0YxRjRVczNaeGphYlE2N3FwUENab01fZWdoRDA4ZzF0Ri1oa2YyZ0syVHJGVGRLdTdjc2xuZFYzY1VlNHkzT2FwWFFndzhfWFV5WTZvRWJ6ZjUyZXg?oc=5",
-        "title": "Rosja atakuje Ukrainę. Jest alert RCB dla części województwa lubelskiego",
-        "official": false,
-        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
-        "guide": {
-          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
-          "label": "Alert RCB i aplikacja RSO"
-        }
-      },
-      {
-        "at": "2026-10-28T07:18:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "PolsatNews.pl",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNdEotTGpBdnRySWhVTnVaNTV0Z25FUzVhNWhSYXZSbVBKSnlQVjY4NFNHT3hFWEs0ZVZCSlMzeHJIeUlxX0hQOFg3VS1UdFZDd2VSbVZmeWdlbC0tb1lBV0NweHlKbS12VjhhZThPeFBQemNlZWpmWW1heWdkYk0zYm94LUZlRzMyTjgwZVVpUXE5c2ZZRXVVLXJrTGZPRDJQb3cw?oc=5",
-        "title": "Sabotażysta pracował dla Rosji. Ukrainiec zatrzymany w Polsce",
-        "official": false,
-        "forYou": "Zgłaszaj podejrzane osoby i przedmioty przy torach, liniach energetycznych i obiektach wojskowych pod 112. Nie rób zdjęć instalacji wojskowych."
-      },
-      {
-        "at": "2026-10-27T19:30:01.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Defence24",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVHVVTEkwLWhTSHl2M3oyQUxtLXZxc0UydlNrWmRKWnhyaFZWY3lFZVlrZEZwY3plWjFpOUVSQVIwZEpkMkt2QnhuUExleHRVd3hMUE84Mm9HdTN5MEhudWZQV21nYlRXQTdkZDVObHNOY2FEOG94X3ZPVjhPRjdiZWlyRHlXZFZ2ZWMxOHZjVzd6cmFjR3d1d2tQYmE1M09qTFI4ZW5ycGZEUkU?oc=5",
-        "title": "Wojsko wysłane na granicę z Rosją. Sąsiad Polski reaguje pod Królewcem",
-        "official": false,
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-10-27T17:00:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Rzeczpospolita",
-        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQbzFtRWxmQkNkYWliaWJ6dVd4V1drMHNRTjRwNEZHMTBKYWplc2g0c0pLX0k1bTR3VGlfZm1XOUE0aGZtZ09vY0pTN1hFWEJ4cEcwSHV5cVhlZVZncTVQOTJzSFcwOXluLWpEelh1QjNGdHhUeUw1STBqNXBVVVMwMUtJUGpRNlUwenRrRUpGQVBUWmFuZVp0bjdzNHhqejBNNVhpaEo4cHFkSGJaX1JJaU8tXzFQU3BqNU44ZDRUVUQyTDBWQzFPaERVRW8zRUtTbExUQkJaa2pwdnhKbDNmcDIzOFpzazRV?oc=5",
-        "title": "Kto odpowiada za dramat z wyszkoleniem pilotów? Znany polityk bije się w piersi",
-        "official": false,
-        "forYou": "Przypomnij dziecku zasady: słuchaj nauczyciela, uciekaj od zagrożenia albo schowaj się w sali i wycisz telefon. Nie dzwoń do dziecka i nie jedź od razu pod szkołę, czekaj na komunikat szkoły lub policji.",
-        "guide": {
-          "href": "/pl/poradniki/bezpieczenstwo-dziecka-w-szkole/",
-          "label": "Bezpieczeństwo dziecka w szkole"
-        }
       }
     ],
-    "updatedAt": "2026-10-29T10:30:09.685Z"
+    "updatedAt": "2026-10-29T17:07:49.251Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-29T15:24:00.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "The Columbus Dispatch",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNdmtZYkRIc1dYNDNaeENXa0gtbS12a24yOTVTdThJeVNBS0J3elRlQ2tJRk5wUnJJRHl6cDQ0Tk5oX2MxMVVLdDkxMjN5a1pEaUZ6SjdTQ0RJZUVqWngwNkZnQkxtY2dURUl3VjlMSS1mbWxkSGJBSzdla2d6LTFzOGhodTRYcUNBTGQ0Y1RyRDRkWHQwNElGSmxXbjJnRHN2Zlh2S3U2YlBmUkx0ZTZSRVdtZmlqSjc4WVVqWnZNOVpSOFRaXzVWbm9MYnVSdw?oc=5",
+        "title": "Hundreds lose power in downtown Columbus after car hits utility pole",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
+      {
+        "at": "2026-10-29T14:45:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Media",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOY3NLS05PckVsTkV2c3lDeVl4UzhINUxMWHhZWEtXdmVqbTRkQUtTcDdaaTRXT0ZJU0w0SnlVcE5WZmZueVFMYU1uSEhld0wxQk5XWjVqU0tXOWVsYldaWG40TWJJT2puUXRrMVZZTXQ0OFRzbGFWQ0tTSi05Wkp4MmtYckdSUm1LbV9sV0tDb1lhUQ?oc=5",
+        "title": "Six injured in Russian missile strike on Ukraine's Lozova - RBC-Ukraine",
+        "official": false,
+        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+      },
+      {
+        "at": "2026-10-29T13:39:13.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "The Record from Recorded Future News",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0yRGFUTXlqaEhkWkFzdGxZQ0NQeTV1YUtQbGZvSTZJcDhMcHpuVWFZZDk2azZHMzcxaHRUWkRSTjVLMHRWRTd0NU92VGhPNENiUWQ3Y0dteTJfUEZlSGd5NS1FdXVtZw?oc=5",
+        "title": "University of New Mexico restores hospital systems, urges no contact with hackers",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
       {
         "at": "2026-10-29T08:57:39.000Z",
         "cat": "health",
@@ -414,42 +440,12 @@
         "cat": "health",
         "sev": 1,
         "source": "ECDC",
-        "url": "https://www.ecdc.europa.eu/en/news-events/cold-season-nears-immunisation-newborns-against-universal-rsv-could-significantly",
-        "title": "As the cold season nears, immunisation of newborns against universal RSV could significantly reduce infant hospitalisations across Europe",
+        "url": "https://www.ecdc.europa.eu/en/news-events/cold-season-nears-universal-immunisation-newborns-against-rsv-could-significantly",
+        "title": "As the cold season nears, universal immunisation of newborns against RSV could significantly reduce infant hospitalisations across Europe",
         "official": true,
         "forYou": "Usually no action. Check your first-aid kit and expiry dates."
-      },
-      {
-        "at": "2026-10-28T05:04:48.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Arabian Business",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeGVzSjhrbUhOTTctX0ViTkJTRnFEZnkwNTJQR3gySTJRQlk3aXNwenJ2Qk1DejVYcF84dmF4WDFPd2xKRzEwazEtOEdOb05OOFhJaXZQVTd3R2lDRHdGbTgtM1JSSEMxeFN5OTlLc0tLNE55MHlHRDZNU3lOVFBDaTJwQQ?oc=5",
-        "title": "Iran war live: Trump says conflict will ‘properly’ end ‘whenever he wants’",
-        "official": false,
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-27T22:57:39.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "SC Media",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRElveHpqS1JFcWlNdUtlVDVsV200VmNZN1pZQ0JPNVdINnFDRHBPUkZKeXlFc1Nadkk0MEQ1YlgzemphV1JWQTNGcTZBa3hjRWZ0RE1nVGhHM19qZG53bXEtdVNvZjZoV3hWSnRaeTFoQ3lzVWNfTlo3RGx6T3Vqa05Kd2k2MG5zcG5fNG9vNkh1eGRIbm9LLXhaNFl1Zw?oc=5",
-        "title": "China-linked Warlock ransomware group targets global infrastructure",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-27T21:11:27.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQb2xMY1ZNOGZMdGFLZGV6Ui1rTTZmODJnOGprdHhzRlJXcmkwbndqd2libFRWeF9jSkowZXE5SF9EYmhoZ3pwekhNZWUxYmtRRE5wSHRSMXRUd0JyWkNnTi1HeWdJUjZHRXRtZDJKaVZZN1BrQzNnamdCWVZGVXJFTXlCWTFfLTFZSnpMeVB1RHRwa2pMYUxZT2I3c05WTDdoNXVuVHdsTDgzYkRINVFXbFR5a29jUEnSAbwBQVVfeXFMUHduZGtfYlZfU2EyYm9WQmNMaFFZT2lyR3R4Z2JtOEN5NHUwZzhMTWpkSWx6TVVwOWJVbzdiM2plZTR3NUpvSkhQVlFGNVBtNEdvWWNaOTRaOUF3Z25sXy0wcEFMZ2F3MzNjMzY5aXl2bXJ4a0xEZjMzWjB3TE8tekVtWmJ6azk3bE1ndnRRdzJackdzUFdOY0R2NHlPZk00c0d5c1kxZXZpVEREWDkxUEpsTS10VHIxQXFmcEc?oc=5",
-        "title": "Kremlin downplays rare Putin call from leaders of Finland and Norway",
-        "official": false,
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       }
     ],
-    "updatedAt": "2026-10-29T10:32:13.358Z"
+    "updatedAt": "2026-10-29T17:09:14.299Z"
   }
 }
