@@ -4,6 +4,20 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-10-29T20:55:30.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOT0lLczdicjZidGxMTmVzcmNOTDRrbTlJenJBZEt5RDBHWWxEdU5YZF84ZlZ2bnBRSzNMY05KcmZVaEM1REpReTFoUFA3VHhkQXZnSXViQ2JSV1piLUlRTkRZY0hsbWh1RGwtQy1tSjBqRjdmb3FManZnSHB0Qi1Hdm83a0VFM2JIaXJYbVZrX1UybldHWnFDdURZSVRTc3pkVjRMV3BHRVRnOVZIQUNRMDNHeEhYdw?oc=5",
+        "title": "Rozejm w okolicach Chersonia. Drogi są rozminowane, w piątek rusza ewakuacja",
+        "official": false,
+        "forYou": "Słuchaj poleceń służb, weź plecak ewakuacyjny, dokumenty i leki. Nie wracaj, dopóki służby nie odwołają ewakuacji.",
+        "guide": {
+          "href": "/pl/poradniki/plan-ewakuacji-rodziny/",
+          "label": "Plan ewakuacji rodziny"
+        }
+      },
+      {
         "at": "2026-10-29T15:34:39.000Z",
         "cat": "safety",
         "sev": 2,
@@ -50,6 +64,16 @@
           "href": "/pl/mapa-schronow/",
           "label": "Mapa schronów"
         }
+      },
+      {
+        "at": "2026-10-29T11:52:00.000Z",
+        "cat": "weather",
+        "sev": 2,
+        "source": "IMGW",
+        "url": "https://meteo.imgw.pl/",
+        "title": "IMGW: 2 ostrzeżeń meteo, najwyższy stopień 1: Gęsta mgła",
+        "official": true,
+        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
       },
       {
         "at": "2026-10-29T11:52:00.000Z",
@@ -122,6 +146,16 @@
         "title": "Narkotyki w żelkach. GIS pilnie wycofuje produkt",
         "official": false,
         "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
+      },
+      {
+        "at": "2026-10-29T05:31:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "PolsatNews.pl",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOc1R6QVYtZmdRT3p5RE5sazZZXzAwZVVjbTZPX0o2SWs5Y2xDNWNtQkFKMEJVR3hGcUJQSXhabC1KeFVUTDlUWG9URW5KMkgxUW9zUEdvcjlvQ1NFV05wYnZOUm15YnF1SWNBbjhmWFFGakFNTDdOLXR5b1V4OGVGTWR2MW1tVlRCZEFkYnNONnEybGVUUW9ybFZjWTR6bTE5Z0JhY3VOSQ?oc=5",
+        "title": "Polska przekaże MiG-i Ukrainie. Jest potwierdzenie z MON",
+        "official": false,
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
       },
       {
         "at": "2026-10-29T03:31:00.000Z",
@@ -208,43 +242,43 @@
           "href": "/pl/mapa-schronow/",
           "label": "Mapa schronów"
         }
-      },
-      {
-        "at": "2026-10-28T12:41:28.000Z",
-        "cat": "health",
-        "sev": 1,
-        "source": "Rzeczpospolita",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNbnVtaDd2eWJVUWRiNWd4Sm1lVlBJS2k3azI4ZTVsYUx6Q0NYdlJ3TUQ4akZNYlJZcVNEczk5SEpNUkQ2NWZEY2VzRDFXbk1KRVdlVHV4X0tsOVo2ZFVYV0Y5RE5mUERFdDk2eWM4SVRGNU85SWtXMFRvWm9hdFZfcHN5cDBZUGVRaXh6VXlCYXVYSjVkbnItMERsblBvY1BxZ1hWVll6MlNnUm1sY3hOUy1sZkhDTi02azBJbHRKbkxZLW1y?oc=5",
-        "title": "„Career grief” uderza w tożsamość. To nowa epidemia wśród wyczerpanych pracowników",
-        "official": false,
-        "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
-      },
-      {
-        "at": "2026-10-28T11:23:00.000Z",
-        "cat": "weather",
-        "sev": 2,
-        "source": "IMGW",
-        "url": "https://meteo.imgw.pl/",
-        "title": "IMGW: 3 ostrzeżeń meteo, najwyższy stopień 1: Gęsta mgła",
-        "official": true,
-        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
-      },
-      {
-        "at": "2026-10-28T11:23:00.000Z",
-        "cat": "weather",
-        "sev": 2,
-        "source": "IMGW",
-        "url": "https://meteo.imgw.pl/",
-        "title": "IMGW: 2 ostrzeżeń meteo, najwyższy stopień 1: Gęsta mgła",
-        "official": true,
-        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
       }
     ],
-    "updatedAt": "2026-10-29T17:07:49.251Z"
+    "updatedAt": "2026-10-29T22:04:38.263Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-29T20:35:39.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Dexerto",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQUjd0LWw0ZUxhSG5YOTNHczJQSVVCMjNuYnhUUlV0LTI5cWdycWIzYVVqXzZaNGxGMmg4TGJDS190c09mVTZoUnZPNWFobzNHUjJ6OE9BR1pyR2JiTGhRTHJCREJWNXQweUpZRlAzaFlFZmY1bUxNaFNoUXhhN3pCQkVnanp1TXVsRHdCOF9hRWxYOUpTbU5Xc1o1NUZ0ekRTeGVzMk9lcjdjdndzUk9leHpmb2Z1RWJMZkFVak5kdTIzZkFWRUlv?oc=5",
+        "title": "Hackers insist they have “morals” after hospital cyberattack and offer victims $2,500",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
+      {
+        "at": "2026-10-29T19:39:50.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Daily Independent",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOQVZoMXAzMWJGUVR5d05IZHkxRjRZb1dQaWZVczJGd2wwTHVSbEtOTmRabUFhWk5SUDU5V2diT0lzeElaTnhJZFRzWm1UczNBdktkNXRzQ3pzbHBBMmlvRmxzeDkwWkpzLXNhZjF2TXVGeHBkNjdDLTF4QmNsUUNsRXNOZ0N2VDVFYUtPbGNWdEhRcE5Hb2lXOGxONWNlZ3ZHMWp1LVZlMEp3TjVDeHIyak1hWXVjWlNjdkxVaFdfNA?oc=5",
+        "title": "Malik Sikandar Condemns Alleged Blackout of Fazlur Rehman’s Assembly Speech",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
+      {
+        "at": "2026-10-29T17:41:54.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Odessa Journal",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUWkwaGtmZ1BDczFYaTM5OE9jYUdWRUZFUjZWNDNwZEk2R21zakNLay1LejBnZ19EdnlzYnQySk9KWlo5WndRODhITUhlTEYxbWk0dm1pcUgwRWZTRFlUdV9fdGdxSHBsc0NvczRieUFPMUwydXhoWDFkcHdmbFRCT3k2aHFhX3lldHNRSHRJS0IyZ25YSzlaN3Y3ZjlPQk4x?oc=5",
+        "title": "Ukrainian Navy Destroys Two Russian Su-34 Fighter-Bombers with Neptune Missiles - Oj",
+        "official": false,
+        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+      },
       {
         "at": "2026-10-29T15:24:00.000Z",
         "cat": "energy",
@@ -254,16 +288,6 @@
         "title": "Hundreds lose power in downtown Columbus after car hits utility pole",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-29T14:45:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Media",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOY3NLS05PckVsTkV2c3lDeVl4UzhINUxMWHhZWEtXdmVqbTRkQUtTcDdaaTRXT0ZJU0w0SnlVcE5WZmZueVFMYU1uSEhld0wxQk5XWjVqU0tXOWVsYldaWG40TWJJT2puUXRrMVZZTXQ0OFRzbGFWQ0tTSi05Wkp4MmtYckdSUm1LbV9sV0tDb1lhUQ?oc=5",
-        "title": "Six injured in Russian missile strike on Ukraine's Lozova - RBC-Ukraine",
-        "official": false,
-        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
       },
       {
         "at": "2026-10-29T13:39:13.000Z",
@@ -424,28 +448,8 @@
         "title": "Iran war live: UAE’s Gargash issues call for calm amid escalation fears",
         "official": false,
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-28T10:32:07.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The Jerusalem Post",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9MeGxMWXcyX3piREtnVDJPOGF3OTdFQmVoUHNxZlM0ODA5bk45aGdoNDhvVUVZc21XVlJ1VEthSktfRnVtWm84NVRFdTVSNHl4VWxqemlIM2NJYy13T0dET212V3ZpTnBySFNjZERR?oc=5",
-        "title": "US deploys Patriot system in Israel amid preparations for Iran strikes",
-        "official": false,
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-28T09:02:07.000Z",
-        "cat": "health",
-        "sev": 1,
-        "source": "ECDC",
-        "url": "https://www.ecdc.europa.eu/en/news-events/cold-season-nears-universal-immunisation-newborns-against-rsv-could-significantly",
-        "title": "As the cold season nears, universal immunisation of newborns against RSV could significantly reduce infant hospitalisations across Europe",
-        "official": true,
-        "forYou": "Usually no action. Check your first-aid kit and expiry dates."
       }
     ],
-    "updatedAt": "2026-10-29T17:09:14.299Z"
+    "updatedAt": "2026-10-29T22:06:48.040Z"
   }
 }
