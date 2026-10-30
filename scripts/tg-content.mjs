@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 /**
  * Treści z bloga do grup Telegram (raz dziennie, .github/workflows/tg-content.yml).
+ *  - 📰 Nowy tekst z Aktualności → temat Alerty/Alerts (max 1 dziennie, z ostatnich 3 dni)
  *  - 🆕 Nowy poradnik → temat Porady/Tips (max 1 dziennie; kolejka, jeśli wyszło kilka naraz)
  *  - 💡 Porada dnia z FAQ poradników → Porady/Tips (w dni bez nowego poradnika; rotacja bez powtórek)
  *  - 🧰 Środa: poradnik zakupowy → Sprzęt/Gear
@@ -29,13 +30,13 @@ const pick = (arr, n) => arr[((n % arr.length) + arr.length) % arr.length];
 
 const CFG = {
   pl: {
-    token: process.env.TG_BOT_PL_TOKEN, chat: '@prepreadyPL', topic: { tips: 4, gear: 6, talk: 7 },
-    t: { new: '🆕 <b>Nowy poradnik</b>', tip: '💡 <b>Porada dnia</b>', more: '📖 Więcej', gear: '🧰 <b>Sprzęt na kryzys</b>', tool: '🛠 <b>Narzędzie PrepReady</b>', talk: '💬 <b>Pytanie tygodnia</b>', talkEnd: 'Napiszcie w komentarzu 👇 Wasze doświadczenia pomagają innym.' },
+    token: process.env.TG_BOT_PL_TOKEN, chat: '@prepreadyPL', topic: { alerts: 3, tips: 4, gear: 6, talk: 7 },
+    t: { news: '📰 <b>Aktualności</b>', new: '🆕 <b>Nowy poradnik</b>', tip: '💡 <b>Porada dnia</b>', more: '📖 Więcej', gear: '🧰 <b>Sprzęt na kryzys</b>', tool: '🛠 <b>Narzędzie PrepReady</b>', talk: '💬 <b>Pytanie tygodnia</b>', talkEnd: 'Napiszcie w komentarzu 👇 Wasze doświadczenia pomagają innym.' },
     tools: [
       ['🗺 Mapa schronów', 'Wpisz adres i sprawdź najbliższe schrony i miejsca ukrycia z bazy PSP — z odległością i trasą pieszo. Sprawdź dom, pracę i szkołę dzieci.', 'https://prepready.pro/pl/mapa-schronow/'],
       ['✅ Checklista plecaka 72h', 'Zaznaczaj, co już masz w plecaku ewakuacyjnym. Postęp zapisuje się w przeglądarce, a przy brakach podpowiadamy sprawdzony sprzęt.', 'https://prepready.pro/pl/checklisty/plecak-72h/'],
       ['📊 Indeks gotowości', 'Codzienna ocena, jak bardzo trzeba się dziś przygotować w Polsce — z jawną metodologią i źródłami.', 'https://prepready.pro/pl/indeks/'],
-      ['📰 Wiadomości kryzysowe', 'Codzienny przegląd ostrzeżeń i komunikatów z polskich źródeł urzędowych — bez paniki, z kontekstem.', 'https://prepready.pro/pl/wiadomosci/'],
+      ['📰 Aktualności', 'Codziennie jeden tekst o tym, co dzieje się w Polsce, plus komunikaty z polskich źródeł urzędowych. Bez paniki, z kontekstem.', 'https://prepready.pro/pl/aktualnosci/'],
     ],
     talk: [
       'Co macie już w plecaku ewakuacyjnym, a czego wciąż brakuje?',
@@ -53,8 +54,8 @@ const CFG = {
     ],
   },
   en: {
-    token: process.env.TG_BOT_EN_TOKEN, chat: '@prepready_global', topic: { tips: 3, gear: 5, talk: 6 },
-    t: { new: '🆕 <b>New guide</b>', tip: '💡 <b>Tip of the day</b>', more: '📖 Read more', gear: '🧰 <b>Emergency gear</b>', tool: '🛠 <b>PrepReady tool</b>', talk: '💬 <b>Question of the week</b>', talkEnd: 'Share in the comments 👇 Your experience helps others.' },
+    token: process.env.TG_BOT_EN_TOKEN, chat: '@prepready_global', topic: { alerts: 2, tips: 3, gear: 5, talk: 6 },
+    t: { news: '📰 <b>News</b>', new: '🆕 <b>New guide</b>', tip: '💡 <b>Tip of the day</b>', more: '📖 Read more', gear: '🧰 <b>Emergency gear</b>', tool: '🛠 <b>PrepReady tool</b>', talk: '💬 <b>Question of the week</b>', talkEnd: 'Share in the comments 👇 Your experience helps others.' },
     tools: [
       ['✅ 72-hour go-bag checklist', 'Tick off what is already in your go-bag. Progress is saved in your browser, and we suggest tested gear for the gaps.', 'https://prepready.pro/en/checklists/72-hour-bag/'],
       ['📊 Global Readiness Index', 'A daily read on how much preparation the world situation calls for — with open methodology and sources.', 'https://prepready.pro/en/readiness-index/'],
@@ -96,6 +97,11 @@ for (const [lang, c] of Object.entries(CFG)) {
   const key = (a) => `${lang}:${a.slug}`;
   const recent = (a) => today - new Date(a.pubDate + 'T00:00:00Z') <= 14 * 864e5;
   if (!Object.keys(state.announced).some((k) => k.startsWith(lang + ':'))) for (const a of list) if (!recent(a)) state.announced[key(a)] = 1;
+
+  // 0. Nowy tekst z Aktualności (z ostatnich 3 dni, jeszcze nieogłoszony)
+  const news = (feed.news?.[lang] ?? []).filter((n) => today - new Date(n.pubDate + 'T00:00:00Z') <= 3 * 864e5 && !state.announced[`${lang}:news:${n.slug}`]);
+  const nw = news.sort((a, b) => b.pubDate.localeCompare(a.pubDate))[0];
+  if (nw && c.topic.alerts && (await send(c, c.topic.alerts, `${c.t.news}\n\n<b>${esc(nw.title)}</b>\n${esc(nw.description)}\n\n👉 ${nw.url}`))) state.announced[`${lang}:news:${nw.slug}`] = Date.now();
 
   // 1. Nowy poradnik (najstarszy nieogłoszony z ostatnich 14 dni)
   const fresh = list.filter((a) => recent(a) && !state.announced[key(a)]).sort((a, b) => a.pubDate.localeCompare(b.pubDate))[0];
