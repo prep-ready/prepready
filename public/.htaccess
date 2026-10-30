@@ -22,6 +22,9 @@ RewriteRule ^$ - [G,L]
 # Strona główna -> wersja polska
 RewriteRule ^$ /pl/ [R=301,L]
 
+# Dział Wiadomości przemianowany na Aktualności (29.10.2026)
+RewriteRule ^pl/wiadomosci/?$ /pl/aktualnosci/ [R=301,L]
+
 # /pl i /en bez ukośnika -> z ukośnikiem
 RewriteRule ^(pl|en)$ /$1/ [R=301,L]
 
