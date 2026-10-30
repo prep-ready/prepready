@@ -27,4 +27,30 @@ const articles = defineCollection({
   }),
 });
 
-export const collections = { articles };
+/**
+ * Aktualności: codzienne teksty o tym, co dzieje się w Polsce (tematy z Google Trends i komunikatów służb).
+ * Plik: src/content/news/pl/<rrrr-mm-dd>-<slug>.md → adres /pl/aktualnosci/<slug>/ (data z nazwy pliku jest odcinana).
+ */
+const news = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/news' }),
+  schema: z.object({
+    title: z.string().max(110),
+    description: z.string().max(170),
+    lang: z.enum(['pl', 'en']),
+    pubDate: z.coerce.date(),
+    updated: z.coerce.date().optional(),
+    author: z.string().default('Redakcja PrepReady'),
+    readingMinutes: z.number().int().positive(),
+    /** Fraza z Google Trends, od której zaczął się temat (do statystyk i linkowania). */
+    trend: z.string().optional(),
+    region: z.string().optional(),
+    tags: z.array(z.string()).default([]),
+    /** Poradniki PrepReady powiązane z tematem: slugi z src/content/articles/<lang>/. */
+    related: z.array(z.string()).default([]),
+    draft: z.boolean().default(false),
+    sources: z.array(z.object({ name: z.string(), url: z.string().url() })).min(1),
+    faq: z.array(z.object({ q: z.string(), a: z.string() })).default([]),
+  }),
+});
+
+export const collections = { articles, news };
