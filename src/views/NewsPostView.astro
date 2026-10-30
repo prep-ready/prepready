@@ -1,0 +1,134 @@
+---
+/** Pojedynczy tekst z działu Aktualności (NewsArticle). */
+import Base from '../layouts/Base.astro';
+import { render } from 'astro:content';
+import Community from '../components/Community.astro';
+import { routes, t, fmtDate, guideBase, type Lang } from '../i18n/ui';
+import { newsHref, newsPosts, type NewsPost } from '../lib/news';
+import { articles, hrefOf } from '../lib/articles';
+
+interface Props { entry: NewsPost }
+const { entry } = Astro.props;
+const d = entry.data;
+const lang = d.lang as Lang;
+const { Content, headings } = await render(entry);
+const toc = headings.filter((h) => h.depth === 2);
+const here = newsHref(entry);
+const url = new URL(here, Astro.site).href;
+const modified = d.updated ?? d.pubDate;
+
+// Powiązane poradniki (z frontmattera) + 3 ostatnie aktualności
+const guides = (await articles(lang)).filter((a) => d.related.includes(a.id.split('/').pop()!));
+const latest = (await newsPosts(lang)).filter((p) => p.id !== entry.id).slice(0, 3);
+const L = lang === 'pl'
+  ? { section: 'Aktualności', guides: 'Poradniki do tego tematu', latest: 'Inne aktualności', published: 'Opublikowano', updated: 'Aktualizacja', toc: 'W tym tekście', note: 'Tekst opisuje sytuację na dzień publikacji. W sytuacji zagrożenia stosuj się do komunikatów RCB, RSO i służb, a w nagłych przypadkach dzwoń pod 112.' }
+  : { section: 'News', guides: 'Related guides', latest: 'More news', published: 'Published', updated: 'Updated', toc: 'In this article', note: 'This article reflects the situation on the day of publication. In an emergency follow official alerts and call 112.' };
+
+const jsonLd: object[] = [
+  {
+    '@context': 'https://schema.org', '@type': 'NewsArticle', headline: d.title, description: d.description, inLanguage: lang,
+    datePublished: d.pubDate.toISOString(), dateModified: modified.toISOString(), mainEntityOfPage: url,
+    image: [new URL(lang === 'pl' ? '/og-default.jpg' : '/og-default-en.jpg', Astro.site).href],
+    ...(d.region ? { contentLocation: { '@type': 'Place', name: d.region } } : {}),
+    ...(d.tags.length ? { keywords: d.tags.join(', ') } : {}),
+    author: { '@type': 'Organization', name: d.author, url: new URL(routes.about[lang], Astro.site).href },
+    publisher: { '@type': 'Organization', name: 'PrepReady', url: Astro.site?.href, logo: { '@type': 'ImageObject', url: new URL('/favicon.svg', Astro.site).href } },
+    citation: d.sources.map((s) => s.url),
+  },
+  {
+    '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'PrepReady', item: new URL(routes.home[lang], Astro.site).href },
+      { '@type': 'ListItem', position: 2, name: L.section, item: new URL(routes.news[lang], Astro.site).href },
+      { '@type': 'ListItem', position: 3, name: d.title, item: url },
+    ],
+  },
+];
+if (d.faq.length) jsonLd.push({
+  '@context': 'https://schema.org', '@type': 'FAQPage',
+  mainEntity: d.faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+});
+---
+<Base lang={lang} title={d.title} description={d.description} alternates={{ [lang]: here }} current="news" ogType="article" jsonLd={jsonLd} noindex={d.draft}>
+  <article class="wrap art">
+    <header class="ahead">
+      <nav class="crumbs" aria-label="breadcrumb">
+        <a href={routes.news[lang]}>{L.section}</a>{d.region && <> <span aria-hidden="true">/</span> <span>{d.region}</span></>}
+      </nav>
+      <h1>{d.title}</h1>
+      <p class="dek">{d.description}</p>
+      <dl class="byline">
+        <div><dt>{t(lang, 'art.by')}</dt><dd>{d.author}</dd></div>
+        <div><dt>{L.published}</dt><dd><time datetime={d.pubDate.toISOString()}>{fmtDate(d.pubDate, lang)}</time></dd></div>
+        {d.updated && <div><dt>{L.updated}</dt><dd><time datetime={d.updated.toISOString()}>{fmtDate(d.updated, lang)}</time></dd></div>}
+        <div><dt>⏱</dt><dd>{d.readingMinutes} {t(lang, 'g.min')}</dd></div>
+      </dl>
+    </header>
+
+    <div class="layout">
+      {toc.length > 2 && (
+        <aside class="toc">
+          <div class="eyebrow">{L.toc}</div>
+          <ol>{toc.map((h) => <li><a href={`#${h.slug}`}>{h.text}</a></li>)}</ol>
+        </aside>
+      )}
+      <div class={toc.length > 2 ? 'prose' : 'prose solo'}>
+        <Content />
+
+        {d.faq.length > 0 && (
+          <section class="faq">
+            <h2 id="faq">{t(lang, 'art.faq')}</h2>
+            {d.faq.map((f) => <details><summary>{f.q}</summary><p>{f.a}</p></details>)}
+          </section>
+        )}
+
+        <section class="sources">
+          <h2 id="zrodla">{t(lang, 'art.sources')}</h2>
+          <ol>{d.sources.map((s) => <li><a href={s.url} rel="noopener" target="_blank">{s.name}</a></li>)}</ol>
+        </section>
+
+        {(guides.length > 0 || latest.length > 0) && (
+          <nav class="related" aria-label={L.guides}>
+            {guides.length > 0 && <Fragment><h2>{L.guides}</h2><ul>{guides.map((a) => <li><a href={hrefOf(a)}>{a.data.title}</a></li>)}</ul></Fragment>}
+            {latest.length > 0 && <Fragment><h2>{L.latest}</h2><ul>{latest.map((p) => <li><a href={newsHref(p)}>{p.data.title}</a></li>)}</ul></Fragment>}
+          </nav>
+        )}
+
+        <div style="margin-top:28px"><Community lang={lang} /></div>
+        <p class="disclaimer">{L.note}</p>
+      </div>
+    </div>
+  </article>
+</Base>
+
+<style>
+  .art{padding-block:36px 20px}
+  .ahead{max-width:820px}
+  .crumbs{font-family:var(--mono);font-size:12px;color:var(--muted)}
+  .crumbs a{color:var(--action);text-decoration:none}
+  h1{font-size:clamp(30px,4vw,44px);font-weight:780;font-stretch:78%;letter-spacing:-.01em;margin-top:12px}
+  .dek{font-family:var(--body);font-weight:var(--body-w);font-size:17px;color:var(--ink-2);margin-top:14px;max-width:62ch}
+  .byline{display:flex;flex-wrap:wrap;gap:8px 24px;margin:22px 0 0;padding-block:14px;border-block:1px solid var(--line);font-size:13px}
+  .byline div{display:flex;gap:6px}
+  dt{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);padding-top:2px}
+  dd{margin:0;font-weight:600}
+  .layout{display:grid;grid-template-columns:220px minmax(0,1fr);gap:48px;margin-top:32px}
+  .layout > *{min-width:0}
+  .prose.solo{grid-column:1 / -1;max-width:760px}
+  .prose :global(table){display:block;overflow-x:auto;max-width:100%}
+  .toc{position:sticky;top:90px;align-self:start}
+  .toc ol{list-style:none;padding:0;margin:10px 0 0;display:grid;gap:8px;font-size:14px;border-left:2px solid var(--line)}
+  .toc a{text-decoration:none;color:var(--ink-2);display:block;padding-left:12px}
+  .toc a:hover{color:var(--action)}
+  .faq details{border-bottom:1px solid var(--line);padding:12px 0}
+  .faq summary{font-family:var(--display);font-weight:600;cursor:pointer;font-size:16px;color:var(--ink)}
+  .faq details p{margin:8px 0 0}
+  .sources ol{font-size:15px}
+  .related{margin-top:32px;padding:18px 20px;border:1px solid var(--line);border-radius:10px}
+  .related h2{font-size:18px;margin:0 0 8px}
+  .related h2 + ul{margin-bottom:14px}
+  .related ul{margin:0;padding-left:18px;display:grid;gap:6px;font-size:16px}
+  .related ul:last-child{margin-bottom:0}
+  .related a{color:var(--action)}
+  .disclaimer{margin-top:32px;padding:14px 16px;background:var(--surface-2);border-radius:8px;font-size:14px;color:var(--ink-2)}
+  @media (max-width:900px){ .layout{grid-template-columns:1fr;gap:16px} .toc{position:static} .prose{font-size:17px} }
+</style>

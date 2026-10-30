@@ -11,12 +11,14 @@ import { guideBase } from '../i18n/ui';
 import { gearTest } from '../data/site';
 import { routes, t, type Lang } from '../i18n/ui';
 import { articles as allArticles, hrefOf } from '../lib/articles';
+import { newsPosts, newsHref } from '../lib/news';
+import { fmtDate } from '../i18n/ui';
 
 interface Props { lang: Lang; section: 'news' | 'checklist' | 'gear' }
 const { lang, section } = Astro.props;
 const M = {
   news: {
-    pl: { title: 'Wiadomości kryzysowe: co to znaczy dla Ciebie', desc: 'Najważniejsze komunikaty z IMGW, RCB, PSE, CERT Polska i agencji prasowych, z krótką wskazówką, co zrobić.' },
+    pl: { title: 'Aktualności: co dzieje się w Polsce i co to znaczy dla Ciebie', desc: 'Codziennie jeden tekst o temacie, którego szukają dziś Polacy, oraz komunikaty IMGW, RCB, PSE i CERT Polska z krótką wskazówką, co zrobić.' },
     en: { title: 'Crisis news: what it means for you', desc: 'Key updates from official agencies and wire services, each with a short note on what to do.' },
   },
   checklist: {
@@ -29,6 +31,7 @@ const M = {
   },
 }[section][lang];
 const buying = section === 'gear' ? (await allArticles(lang)).filter((a) => a.data.translationKey.startsWith('buy-')) : [];
+const posts = section === 'news' ? await newsPosts(lang) : [];
 const sample = section === 'news' ? feed[lang].sample : section === 'gear' ? gearTest.sample : false;
 ---
 <Base lang={lang} title={M.title} description={M.desc} alternates={{ pl: routes[section].pl, en: routes[section].en }} current={section}>
@@ -37,7 +40,23 @@ const sample = section === 'news' ? feed[lang].sample : section === 'gear' ? gea
     <p>{M.desc}</p>
   </div>
   <div class="wrap">
-    {section === 'news' && <div class="two"><div><h2 class="sub">{lang === 'pl' ? 'Najnowsze' : 'Latest'}</h2><NewsFeed lang={lang} /></div><Newsletter lang={lang} /></div>}
+    {section === 'news' && posts.length > 0 && (
+      <section class="posts" aria-labelledby="posts-h">
+        <h2 class="sub" id="posts-h">{lang === 'pl' ? 'Z redakcji' : 'From the newsroom'}</h2>
+        <ol class="post-list">
+          {posts.map((p, i) => (
+            <li class={i === 0 ? 'lead' : ''}>
+              <a href={newsHref(p)}>
+                <time datetime={p.data.pubDate.toISOString()}>{fmtDate(p.data.pubDate, lang)}{p.data.region ? ` · ${p.data.region}` : ''}</time>
+                <strong>{p.data.title}</strong>
+                <span>{p.data.description}</span>
+              </a>
+            </li>
+          ))}
+        </ol>
+      </section>
+    )}
+    {section === 'news' && <div class="two"><div><h2 class="sub">{lang === 'pl' ? 'Komunikaty służb, na bieżąco' : 'Latest'}</h2><NewsFeed lang={lang} /></div><Newsletter lang={lang} /></div>}
     {section === 'checklist' && <Fragment><Checklist lang={lang} /><p class="cl-more">{lang === 'pl'
       ? <Fragment>Nie wiesz, po co dana rzecz i ile jej spakować? Przeczytaj <a href={`${guideBase.pl}plecak-ewakuacyjny/`}>co spakować do plecaka ewakuacyjnego</a>. Wolisz kupić gotowy zestaw? Zobacz <a href={`${guideBase.pl}gotowy-plecak-ewakuacyjny/`}>porównanie gotowych plecaków ewakuacyjnych</a>.</Fragment>
       : <Fragment>Not sure why an item matters or how much to pack? Read the <a href={`${guideBase.en}go-bag-checklist/`}>go-bag guide</a>.</Fragment>}</p></Fragment>}
@@ -71,6 +90,15 @@ const sample = section === 'news' ? feed[lang].sample : section === 'gear' ? gea
 </Base>
 <style>
   .stack{display:grid;gap:24px}
+  .posts{margin-bottom:36px}
+  .post-list{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
+  .post-list a{display:block;height:100%;border:1px solid var(--line);background:var(--surface);border-radius:var(--radius);padding:16px 18px;text-decoration:none;color:var(--ink)}
+  .post-list a:hover{border-color:var(--signal)}
+  .post-list .lead{grid-column:1 / -1}
+  .post-list .lead strong{font-size:clamp(20px,2.4vw,26px)}
+  .post-list time{display:block;font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:8px}
+  .post-list strong{display:block;font-size:17px;line-height:1.3;margin-bottom:6px}
+  .post-list span{display:block;font-family:var(--body);font-weight:var(--body-w);font-size:14.5px;color:var(--ink-2);line-height:1.5}
   .buy-list{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
   .buy-list a{display:block;height:100%;border:1px solid var(--line);background:var(--surface);border-radius:var(--radius);padding:14px 16px;text-decoration:none;color:var(--ink)}
   .buy-list a:hover{border-color:var(--signal)}
