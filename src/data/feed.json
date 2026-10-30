@@ -4,6 +4,16 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-10-30T17:58:35.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Radio Zet",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbXl3bjNmVUdPM3UzcjM4Q3lBS19PN0F6VE9RUjl5bGdleEpDdndlZUlmSDl4X2ZjSmtHa1V3R2dCMGlqMTc2TVBXVVc3bDd0NzhkSXpia3p2VnpKaGU1NC1xbXRHZnpudnBGVmtJdTNER0FrR2x0LVl4TE9PZU1lOVE0OFg1Uk4yaGdXRTFYM2ZvRy1ZN2tOd1NCTzNyRDlZbWc?oc=5",
+        "title": "Trzy osoby zatrzymane przed siedzibą TK. Jest komunikat policji",
+        "official": false,
+        "forYou": "Unikaj miejsca zdarzenia i stosuj się do poleceń służb. Numer alarmowy: 112."
+      },
+      {
         "at": "2026-10-30T15:16:02.000Z",
         "cat": "safety",
         "sev": 2,
@@ -220,27 +230,53 @@
         "title": "Podatności w oprogramowaniu Szafir",
         "official": true,
         "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
-      },
-      {
-        "at": "2026-10-29T08:20:58.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Polskie Radio 24",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxORy1iVksxejVkN1Y5LWdOb3o5OXBfVjVPeUlJTTYtbkgzWElDaDloNUVFMzVJUE5DM0IxcjI2NXlIMUJERnZSVUJVaWx4OGZCVUYxa09wckFuSV9fVEJuM0dFQlVRZnJ5X1lHd3dSYlk0MEZwLVRYRjliR1dpcGNTX0FIcmRwdHdscHo0?oc=5",
-        "title": "Syreny alarmowe na Podkarpaciu. Mieszkańcy dostali SMS od RCB",
-        "official": false,
-        "forYou": "Unikaj miejsca zdarzenia i stosuj się do poleceń służb. Numer alarmowy: 112.",
-        "guide": {
-          "href": "/pl/poradniki/syreny-alarmowe/",
-          "label": "Sygnały syren alarmowych"
-        }
       }
     ],
-    "updatedAt": "2026-10-30T16:18:48.301Z"
+    "updatedAt": "2026-10-30T21:09:45.353Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-30T19:35:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Media",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOeExXcjYweFRYRDVyMFpkRGozamx4Tk9sM2RuVE1yZWFZZTVHUlRZNlNob0RzTDBmNnd3TFBRZGpWa0NORmdrZDdYM0s2MjIzYkZ5UGJmM3JtZUFhcFI0RFhiRUpJekpzMG16MFVUSU1VSk5yTUFlXzhYQWIwWWJRZk5KRFV5ckJjeml3Ni13am4wZw?oc=5",
+        "title": "Satellite images show Russia's Marinovka airfield hit by Ukraine's Neptunes - RBC-Ukraine",
+        "official": false,
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
+      {
+        "at": "2026-10-30T19:05:22.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Planet Biometrics",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQYXpRSFlvaENiRldxNmtFVlpXdnBmWFlBdlN1WW9BN1UwZ2RDNVhpamxuVXNuTVdaX1FqNWE4dmNhTXdiNDBFbUxDTEJfRWJhTEgzTDRzM1FHSGhEVFAwUm9uQnREWXc5eXlkZHNoMWlCNktQbmFsaHRYLVdLZFhEeGZkaGRWSXpTdlloQ0dGWnprQnc?oc=5",
+        "title": "SafePay: #StopRansomware campaign of joint cybersecurity advisory",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
+      {
+        "at": "2026-10-30T18:24:54.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "EnergyNow.com",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRHM5Z0w3dFFfNEtpem9naS1GakppY2drNmxqQ2xWRDB3b1hmMHBDWUZZc2ZKY2ZJR2RKejd4YW9CMTYxMzFqX01ZcmNXZG9WMVVKaXFIVlY2WVpBWUpMQnZMOEJaM2xtRW9IMnEzelgwQmQ4djVuYTA1MmVZWVB0a01IeWhuNkJnMnR3TA?oc=5",
+        "title": "Cuba’s National Electric Grid Collapses, Reason Unknown",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
+      {
+        "at": "2026-10-30T16:21:22.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The Economic Times",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVnZucndCQmJxVVVUem81d0FmUXdNaHY1c0ZkNEYxcUJGdUJ4VFMtSk1qVjdZM0MwTnYxQ0tmVm55MEh1ZzZOTEJ6VW1aOHkxeWk1d19xSFBDTjIwZ1BDZHlocXNweXNxUlZoenh3eUdFSVFDVXE5ZEFVakVjWG94VGlVaEtQaGZSd2JXcFRTSnBfdW82dERFQWNwcTFSMEprTGVpZFBWbjJPdmxQRDdQc2Vmd05MSTN6TjFIcHpnYk1yeG5MVmYySNIBzgFBVV95cUxQOW5VZkxWNkh3dUhaZzVUNXpQVy1VLVlsMDlBNjcyRGhJdDdrLTJIUkYyUV9nMVoxT25NRTlqZEFRT0wxeG1LcG1DdUtaLTlxbVIwRy1ESUJDWE1mRjhtc2lkS3BYenBsbjlZNXliV1o2MFVWRWY2ZG9kVnIydi04bXJGV2VnaUFUUW4yc2g0bm15ZEJBQnk5Ung0bkFZR25FdENISm5BTDZhRFlDdml0OEZ5NWhSWFJZX0RVOG0wVkE1RllyOUJFXzl6M0lYdw?oc=5",
+        "title": "'Missile shield at Mar-a-Lago, mass burial drills': Is Trump ready?",
+        "official": false,
+        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+      },
       {
         "at": "2026-10-30T15:28:58.000Z",
         "cat": "security",
@@ -352,16 +388,6 @@
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       },
       {
-        "at": "2026-10-29T17:41:54.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Odessa Journal",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUWkwaGtmZ1BDczFYaTM5OE9jYUdWRUZFUjZWNDNwZEk2R21zakNLay1LejBnZ19EdnlzYnQySk9KWlo5WndRODhITUhlTEYxbWk0dm1pcUgwRWZTRFlUdV9fdGdxSHBsc0NvczRieUFPMUwydXhoWDFkcHdmbFRCT3k2aHFhX3lldHNRSHRJS0IyZ25YSzlaN3Y3ZjlPQk4x?oc=5",
-        "title": "Ukrainian Navy Destroys Two Russian Su-34 Fighter-Bombers with Neptune Missiles - Oj",
-        "official": false,
-        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
-      },
-      {
         "at": "2026-10-29T15:24:00.000Z",
         "cat": "energy",
         "sev": 2,
@@ -410,38 +436,8 @@
         "title": "Destinus' monthly output tops Europe's pre-war annual cruise missile production",
         "official": false,
         "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
-      },
-      {
-        "at": "2026-10-29T08:11:34.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The National",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMUttdjlFX1NnTi01X2NGcy0ycl9wa1R5R0JTcnZXUFNtS0xEMWNPbk5wZjZsblhieXBhc25nN2NGaW15MlJDdWdLUVdabGFNaFM5S1ZSRkp1em45RnFvekxWUUNZTERwa21zMW5jZ1hZenNJek4xZXctMmhnMW1TcGoyTmV2Vkh1b1RRb1dKTE5oR0R1ek1BeG53?oc=5",
-        "title": "Middle East latest: Oil prices decline on fresh diplomatic efforts in Iran war",
-        "official": false,
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-29T04:34:48.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Arabian Business",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeGVzSjhrbUhOTTctX0ViTkJTRnFEZnkwNTJQR3gySTJRQlk3aXNwenJ2Qk1DejVYcF84dmF4WDFPd2xKRzEwazEtOEdOb05OOFhJaXZQVTd3R2lDRHdGbTgtM1JSSEMxeFN5OTlLc0tLNE55MHlHRDZNU3lOVFBDaTJwQQ?oc=5",
-        "title": "Iran war live: Trump says Vance reached out to Tehran with medical offer",
-        "official": false,
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-29T00:47:37.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "news.lavx.hu",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZ0RGZDhxWXVfNkotTnVfMUlTUnh4Uk5XU0FUbGh3a2NxNGdiV3RKYmtHcGZUSEMtVHVXNUVHZ3ZuX0JSUEtBcnMxYVljXzBXS21OMUIxS1M0RnlQbzE5Um84WUxxQ0FpaFFQRm95N0Q0clF5NHRQcVpHOHR2Z2p1VGNIX01qU05lN3p3cGlWSzZ1MG51cVAtQWRJTDlWYndK?oc=5",
-        "title": "123 Reg discloses AI cyberattack on customer data, suspects China nexus",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
       }
     ],
-    "updatedAt": "2026-10-30T16:20:56.107Z"
+    "updatedAt": "2026-10-30T21:11:54.318Z"
   }
 }
