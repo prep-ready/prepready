@@ -4,6 +4,40 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-10-30T07:34:40.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "Warszawa.Wyborcza.pl",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVGtTMnZsSDNNc3hVekdGMHVFUEhsek45eE9nYmpKUmhYM0E1djlHVWxrNlFUXzg0M2JObUh0RDZmcVJZZWFHV2duYWpxVFg0dnU1RnRLQzdlbmJoeS1CcUcwQXc5cFBIbzNhOWZrRk12SHQ2WXNWVHpMSWtoMXRfVzNrekZhWG5Ncmt2amUzbURIeWNXY2ZDOUNJVUVfOU1IOWp5SWNEanJySEZrMHNWWDE2WDllRnJaQTdN?oc=5",
+        "title": "Nożownik z autobusu zatrzymany w lesie. Zaatakował Ukraińców",
+        "official": false,
+        "forYou": "Jeśli jesteś w pobliżu: uciekaj, a jeśli nie możesz, ukryj się i wycisz telefon. Dzwoń pod 112, gdy będzie to bezpieczne. Unikaj okolicy i nie powielaj niesprawdzonych nagrań."
+      },
+      {
+        "at": "2026-10-30T07:27:53.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "OKO.press",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdEF4N3lGN1JObEJYbEMyaHNBNDNxZnRsaEFmR0lyYXRTM2drRTl2RmROMzlyS0RVeExIcHFGd2NKZDNKSTgxbmM4dXR5REJyZ0pvaHg4SmtBcTlmYWRSY19tQ1BVX3o3NmZuSGRPdk15UDh0eS1HUE8ycTdzVXZFTHl0VnlvYUlYc01zX3lYZlhvb19wMHRYX1pVdERRQ1Y1d2kzZE44VWc1Tm1SQjllVFF4QmhmYzBqU21pM0JCRWk?oc=5",
+        "title": "Drogi do Oleszek zostały rozminowane. Dziś powinna odbyć się ewakuacja mieszkańców",
+        "official": false,
+        "forYou": "Słuchaj poleceń służb, weź plecak ewakuacyjny, dokumenty i leki. Nie wracaj, dopóki służby nie odwołają ewakuacji.",
+        "guide": {
+          "href": "/pl/poradniki/plan-ewakuacji-rodziny/",
+          "label": "Plan ewakuacji rodziny"
+        }
+      },
+      {
+        "at": "2026-10-30T07:24:49.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Rzeczpospolita",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSm93M3FPYVIzeFlWZEdIaVlDQlNTOG40a0tnZFVzT19jOUtKT0tFYjZfamhyWmxNc2xNOVBUMm9Xb0hJQmdVS01pVVFvbE5VMGtSbGN5c1F0NGk1WXRhVEpHUHdGRi1XLVZZaUROWElySUpCeGFGbVV3U1BHNWp1VUZjMlNQajg1LXhOaFlHQ0F0SEYxblh0b3g1MTlvWWJ6ejVKVDl1S0hFZHpBb1E?oc=5",
+        "title": "Jak działała polsko-białoruska grupa, która napadała na tiry i rabowała papierosy",
+        "official": false,
+        "forYou": "Unikaj miejsca zdarzenia i stosuj się do poleceń służb. Numer alarmowy: 112."
+      },
+      {
         "at": "2026-10-30T02:11:42.846Z",
         "cat": "energy",
         "sev": 3,
@@ -15,20 +49,6 @@
         "guide": {
           "href": "/pl/poradniki/blackout-jak-sie-przygotowac/",
           "label": "Jak przygotować się na blackout"
-        }
-      },
-      {
-        "at": "2026-10-29T20:55:30.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Wiadomości Onet",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOT0lLczdicjZidGxMTmVzcmNOTDRrbTlJenJBZEt5RDBHWWxEdU5YZF84ZlZ2bnBRSzNMY05KcmZVaEM1REpReTFoUFA3VHhkQXZnSXViQ2JSV1piLUlRTkRZY0hsbWh1RGwtQy1tSjBqRjdmb3FManZnSHB0Qi1Hdm83a0VFM2JIaXJYbVZrX1UybldHWnFDdURZSVRTc3pkVjRMV3BHRVRnOVZIQUNRMDNHeEhYdw?oc=5",
-        "title": "Rozejm w okolicach Chersonia. Drogi są rozminowane, w piątek rusza ewakuacja",
-        "official": false,
-        "forYou": "Słuchaj poleceń służb, weź plecak ewakuacyjny, dokumenty i leki. Nie wracaj, dopóki służby nie odwołają ewakuacji.",
-        "guide": {
-          "href": "/pl/poradniki/plan-ewakuacji-rodziny/",
-          "label": "Plan ewakuacji rodziny"
         }
       },
       {
@@ -190,6 +210,16 @@
         }
       },
       {
+        "at": "2026-10-29T06:01:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Portal Samorządowy",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTTI3SkdvRkZyWXhWbENzNnl2eTNNWkQ1WG1ONHZjUk9xUFpkX1NZdzVobU5JOXZGX3lleWg3ZFhxVjF0SFNEaVdhTHdZbmRwSEMyb0lYellRN0RReEJ0cUlFb1FoZ1NfcmZWcHAzcGJHOEFfM0laMDRNNjNmSFBfN3BjQTQ4dHYxNlpmLUxaSFFFYS16bmJIQzBIbWVmb0NzTmpDOXJxMm1ja0lTZG5uTDh0TFdOOUdFZkhtcHJ4Nzc1NG8?oc=5",
+        "title": "Polska odda Ukrainie samoloty MiG-29. Jest potwierdzenie z MON",
+        "official": false,
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+      },
+      {
         "at": "2026-10-29T05:36:00.000Z",
         "cat": "health",
         "sev": 1,
@@ -200,16 +230,6 @@
         "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
       },
       {
-        "at": "2026-10-29T05:31:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "PolsatNews.pl",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOc1R6QVYtZmdRT3p5RE5sazZZXzAwZVVjbTZPX0o2SWs5Y2xDNWNtQkFKMEJVR3hGcUJQSXhabC1KeFVUTDlUWG9URW5KMkgxUW9zUEdvcjlvQ1NFV05wYnZOUm15YnF1SWNBbjhmWFFGakFNTDdOLXR5b1V4OGVGTWR2MW1tVlRCZEFkYnNONnEybGVUUW9ybFZjWTR6bTE5Z0JhY3VOSQ?oc=5",
-        "title": "Polska przekaże MiG-i Ukrainie. Jest potwierdzenie z MON",
-        "official": false,
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
-      },
-      {
         "at": "2026-10-29T03:31:00.000Z",
         "cat": "security",
         "sev": 2,
@@ -218,33 +238,53 @@
         "title": "Przekazaliśmy Ukrainie 10 pocisków do Patriotów. Teraz dojdą dwa kolejne MiG-29",
         "official": false,
         "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-10-29T00:39:06.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "TVP Info",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQenVZTTRjaTlqTTZsZnE2ZTcxYnQweE5vWThfRFFRdjFZaFFma294dHdmdEpLbWZmVV9fVU44QmZiemxiSkI1SUV2d1Q4ZDVaWkdxS1JkZVJ4TDZiVDBrMXl4c2xudDlYNWRQUUVLN1RFSGNhWTEwXzQ3Z3R3dTdUNkt3elVyREl5UGVxdU1XV0lfUkNac0I0UTdSbmJWR0Z2ekhMTkRjclZGSk1IWGtCLVlVTlhOdG8?oc=5",
-        "title": "Rosyjski atak na Ukrainę. RCB wysłało ostrzeżenie",
-        "official": false,
-        "forYou": "Jeśli jesteś w pobliżu: uciekaj, a jeśli nie możesz, ukryj się i wycisz telefon. Dzwoń pod 112, gdy będzie to bezpieczne. Unikaj okolicy i nie powielaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-10-28T17:02:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Rzeczpospolita",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeC1YdkZpN0JVUVBKRmMwLVhSeVoyaEQydTRrd3pRajVORHlOcWlxSFlIaFlrYUd3QWlOYURTRHRERUR1R2toRGZseExJSVlvZlF5eEJTbXFsbzg1UnFvMWZvclhuNGhyM0t0eTM3OTdIbE4zQTMyMkhoTkNXMWhUUUZhTEo5V1hDWndGSFlxZWZTQ2UzU2x1TUdnM3RPQ2F6dEZENmJXX1FfMVJYaE9yVWtRd18?oc=5",
-        "title": "Polska armia będzie potrzebować prawie 200 pilotów. Tyle można zarobić latając F-16",
-        "official": false,
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
       }
     ],
-    "updatedAt": "2026-10-30T02:12:48.114Z"
+    "updatedAt": "2026-10-30T09:05:48.904Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-30T08:03:45.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Latest news from Azerbaijan",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdUJPQWM1Y0ttc1ZRQ0FueEtQVkZEdmtGU3BHczVLWlpVUWJfdVFYRERaVk4tbWFYZDBFaElybjdoWmdjd0ZlN0t4UU5CQU5zU0Z2Q0xkR0hadmk1aTBJTnZlMzFjbzQ0ZXFwN0Z0bk41c1QyaTZFS240YWMtLUJMNmY1M1RXQm1Zdlh5S3pPYkYtWEZQcXFLSG5OQVU?oc=5",
+        "title": "Russia-Ukraine war latest: Key developments, deadly strikes, Oleshky ceasefire",
+        "official": false,
+        "forYou": "No action needed. Keep your basic supplies ready; situations can change quickly."
+      },
+      {
+        "at": "2026-10-30T05:48:18.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Cybersecurity Insiders",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPWE1uekp0NWxmUDNDdTg2UWUxSUNTdEdINTQtcjJJQjlXWW5vem9rallxQVhQdWF4RDUxeG1ONjhBd2IxbG5DaFJOSlB5NW9EclFOSGFfMk5oREU5TGlvZUI3Z3RfMEppYkxsLU8yQkh6c1hQZmhrYWpiUEotaFNBb0F4QTJSaFI5Rk1udTUxc09XcGZBTDkyeTNsN2NOdThRMEctdjJoYVJycDY1S1RkZElMZ1lNWElwSzNiQThMM1R4VVRDSG1qOEM2bEkwMklx?oc=5",
+        "title": "Investigation launched into suspected Cyberattack on Refrigeration Systems at US Military Bases",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
+      {
+        "at": "2026-10-30T04:55:00.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Wigan Today",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOOEo2WUxaUkoxdVBuNUx4U2JwMTBiUHhjaVlIYktOTzBiY2ZveVFLc01wX2p0ay1YNHprejVUdTZUaTU1ZEVXdmFNc1pEMVFFUWdETjVuQnBaZ05ONHVKb0F0R2RMckhlLWljX3VLZTF5YTJidHNaNm5uR1I3NzgyQlJaSF8?oc=5",
+        "title": "An internet outage could affect payments, banking, comms and access to key data",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
+      {
+        "at": "2026-10-30T02:21:22.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Arabian Business",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeGVzSjhrbUhOTTctX0ViTkJTRnFEZnkwNTJQR3gySTJRQlk3aXNwenJ2Qk1DejVYcF84dmF4WDFPd2xKRzEwazEtOEdOb05OOFhJaXZQVTd3R2lDRHdGbTgtM1JSSEMxeFN5OTlLc0tLNE55MHlHRDZNU3lOVFBDaTJwQQ?oc=5",
+        "title": "Iran war live: Saudi Arabia intercepts two Houthi missiles over Riyadh as falling debris injures resident",
+        "official": false,
+        "forYou": "The threat has passed. Check your home and restock anything you used."
+      },
       {
         "at": "2026-10-30T00:59:33.000Z",
         "cat": "security",
@@ -274,16 +314,6 @@
         "title": "Hackers insist they have “morals” after hospital cyberattack and offer victims $2,500",
         "official": false,
         "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-29T19:42:55.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The Kyiv Independent",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPRXdlbGx2X0VJRkc4MG9sbEFCNV92M3c4Q1VqSGFORTV6cDBRZlM5UXRFYUE0WnF1dGhiWHdTZW5BUUJud3NUbVdmQTJNZk90dVVHUk9HamhEd0tJWGR0a1dlVjlBQ0kxR1E0WWNiVW85OTRET3Z1bUVhNEZ6VUx0R0NJRFRfcVVWNFgydXpoa3ZCVy1RaC1wcEVmQVlVZzd0MUJLdWNYbXVGV242Tk11aFZZOE5DczlfV3FQZTlB?oc=5",
-        "title": "Ukraine war latest: 'Russia's mass murder' — Deadly Russian strikes on Dnipro, Chernihiv, Kremenchuk",
-        "official": false,
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       },
       {
         "at": "2026-10-29T19:39:50.000Z",
@@ -414,38 +444,8 @@
         "title": "JFL Blames Financial Pressures and Cyberattack for Payment Problems Following $6.36 Million Court Judgment",
         "official": false,
         "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-28T17:55:22.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The Sunday Guardian",
-        "url": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxPMDlVZnZ5T0duNW5TakwzbzJoVHFyQ0NmT1FNcXdaVy1SZjZJTXNRQjhqTGZiTGdrVnBSSHdxaXIyYW1yeTFUNTZRWkF3VnJyNlNhYmNjVnFKX2R3Q0hDUUF0NUU5cHpWUy1ld2pTTnpfUGJ1OVBteVhzaElTMmZLQUdBZEtzWFo3NXhjaW1PZndBTEhuaHFoQVdGZ2NrTVFBaW1hYy1lcXlZNDV1cm1ZLVpXUkdES2VNZk5QbzVfREJwcXBiR1N3QU5IaF9JZFVGYzVMLWpNd0Z4YUtqc3NaRW1seVlpU2hDWXN1WWFSbWc1T01JQ2hCekVSaGVnQ0JzV1hZaFRWUFVHMlYweWZJYjV2bl85RGVsaGJzcXlhMTNzaU1ROVNEa2txWlJpbU83TWVqOF9PZkg1RkwyRlFLeFB4UW9TM0ZVRlhwMGhURnBkMDQ0cDRDNm1iUdIB4AJBVV95cUxNTG1IR1hKUDJvZjZQTVZMMGtoTVdZaDlsYXMxczA2dWRwYUh2cU5Eb3JpUFlwR1J6WVlwQXFtREFlQjZONW52LUxFcXZzX3ROWXJlakhveFRFTFZsTE10amd2cXNLOVVIVW9OMTRxYm9Qd1dSSHNKZmd5NnZrTF9Sbm1Wbm9qMThLU3haSGc2ZUFOWTFlNHBqR0FGd2JHMy03TU12cTNuaDJaOXZwZFVYb2RqdUp1UUw0V3lXcUZLVU1hejFzNXp1TGo3QTZVTmprV2VNVFdHdkVFQ29SSXBVamJ5UnJ4WU5vWVdzMHNXeVRZWDJjN3JEOU1zNEd3cnpSdkhtWkZuZmYzekZNWXpjSnc2a0dkZGRTWE1ESXBFdTdTZmwtZG9PZFU4aHdnNnlydndLZlRUWmh5SlF1dHB1LU9qemRzN2hfclJWTlk2YVBpV0hPbkFvcUZUN1dCYXQ0?oc=5",
-        "title": "US-Israel-Iran War Latest Live News: Yemen Condemns Houthi Missile Strike on Aden International Airport; Forces Report 239 Houthi Fighters Killed in 24 Hours as ‘Dawn of Yemen’ Offensive Intensifies",
-        "official": false,
-        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
-      },
-      {
-        "at": "2026-10-28T17:12:29.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "24/7 Wall St.",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNM0lhbk5RLUNkRG5scGNvcFpzUnhQRWRQSVphSllxT2hqblBXQy1FYlRvRkRhazZDTV90NDBQandtZmZxUVVrb3dMMXRiT1BKaW5WMXIwMDRnenFRU3NNZG1CSzdLZVFuMzdNak1QRDJiek4zWkQ5cWM3X0RVa2hEaDh3MA?oc=5",
-        "title": "AI Could Turn Off Our Electricity",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-28T13:20:40.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Ukrainian news",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOekpMNk9EZnUxLUx5bExjN3FOUDNGcmlaS0pBS18xd2VTVS11eGFXYlVKRTN4YnBXY1lkNzQ5YlB1NWdIcmh0bU1rZlk4YnpKNVNuOS0xclNFaEJHaUFaVWVMVTZYSF9mRWNVTFZJZkthMDdCQWZPcXBFZ0V0cjNmTE1ZRDdWS1Z5cDN1UnF3QmUtalJlbzg1MU00bjdfeFV0WENoUG9UZHJROHlTalFZZGE2NW5nRW1NRmc3NEdINy1xSGJqRzROStIBzgFBVV95cUxQMFNsdXhmejJkZW1ITllYb0h0SGRyNW5CcHdwUm9JZHVsV2ZHdExPVG9WN295czhQODR2eUg2S3JGOXREa3lGb3VvWlVta3Ntckl1WU9yUHVjcjFQbnRRTkprQmdvdnFQRXl2d0hnSndHdlYyYXF0dUQtRWZxenlVSXZQWHYzUEZ1d2lybjlHVWI5RUVOZmIzbUc4VGxMakw1NEttRTJSRldhQjd3czJmUnNlRkhtTDl0UFdpZmVwSkdJLVNtaENzN3RFbzZpZw?oc=5",
-        "title": "Due to new optical system on russian UAVs, Ukraine may resume light-masking - Serhii \"Flash\"",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       }
     ],
-    "updatedAt": "2026-10-30T02:14:33.205Z"
+    "updatedAt": "2026-10-30T09:07:15.715Z"
   }
 }

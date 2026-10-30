@@ -2,9 +2,9 @@
   "_comment": "Aktualizuje scripts/update-data.mjs codziennie. pl = Polska, en = świat. Składowe z mode=manual ustawiasz ręcznie.",
   "pl": {
     "sample": false,
-    "updatedAt": "2026-10-30T02:12:48.110Z",
-    "score": 35,
-    "delta7": 9,
+    "updatedAt": "2026-10-30T09:05:48.900Z",
+    "score": 30,
+    "delta7": 4,
     "ago30": 41,
     "history": [
       41,
@@ -36,14 +36,14 @@
       17,
       17,
       28,
-      35
+      30
     ],
     "components": [
       {
         "id": "conflict",
         "name": "Konflikt w regionie",
         "weight": 30,
-        "value": 37,
+        "value": 36,
         "sources": "GDELT · Google News",
         "trend": [
           42,
@@ -53,7 +53,7 @@
           5,
           5,
           37,
-          37
+          36
         ],
         "mode": "auto",
         "raw": [
@@ -78,7 +78,7 @@
           30,
           58,
           55,
-          55
+          54
         ],
         "stale": false
       },
@@ -104,7 +104,7 @@
         "id": "energy",
         "name": "Energia",
         "weight": 15,
-        "value": 55,
+        "value": 25,
         "sources": "PSE",
         "trend": [
           25,
@@ -114,7 +114,7 @@
           25,
           25,
           25,
-          55
+          25
         ],
         "mode": "auto",
         "raw": [],
@@ -164,7 +164,7 @@
         "id": "cyber",
         "name": "Cyber i łączność",
         "weight": 15,
-        "value": 18,
+        "value": 20,
         "sources": "GDELT · Google News · CERT",
         "trend": [
           7,
@@ -174,7 +174,7 @@
           5,
           5,
           5,
-          18
+          20
         ],
         "mode": "auto",
         "raw": [
@@ -204,7 +204,7 @@
           12,
           20,
           39,
-          30
+          31
         ],
         "stale": false
       }
@@ -244,9 +244,9 @@
   },
   "en": {
     "sample": false,
-    "updatedAt": "2026-10-30T02:14:33.205Z",
-    "score": 27,
-    "delta7": -16,
+    "updatedAt": "2026-10-30T09:07:15.714Z",
+    "score": 39,
+    "delta7": -4,
     "ago30": 31,
     "history": [
       31,
@@ -278,14 +278,14 @@
       38,
       38,
       39,
-      27
+      39
     ],
     "components": [
       {
         "id": "conflict",
         "name": "Global conflict",
         "weight": 30,
-        "value": 19,
+        "value": 48,
         "sources": "GDELT · Google News",
         "trend": [
           48,
@@ -295,7 +295,7 @@
           49,
           49,
           48,
-          19
+          48
         ],
         "mode": "auto",
         "raw": [
@@ -348,7 +348,7 @@
         "id": "energy",
         "name": "Power & grid",
         "weight": 15,
-        "value": 5,
+        "value": 26,
         "sources": "Google News",
         "trend": [
           30,
@@ -358,7 +358,7 @@
           5,
           25,
           26,
-          5
+          26
         ],
         "mode": "auto",
         "raw": [
@@ -391,7 +391,7 @@
           26,
           48,
           49,
-          27
+          49
         ],
         "stale": false
       },
