@@ -5,7 +5,7 @@ export const langs: Lang[] = ['pl', 'en'];
 export const routes = {
   home:     { pl: '/pl/',                    en: '/en/' },
   index:    { pl: '/pl/indeks/',             en: '/en/readiness-index/' },
-  news:     { pl: '/pl/wiadomosci/',         en: '/en/news/' },
+  news:     { pl: '/pl/aktualnosci/',         en: '/en/news/' },
   guides:   { pl: '/pl/poradniki/',          en: '/en/guides/' },
   checklist:{ pl: '/pl/checklisty/plecak-72h/', en: '/en/checklists/72-hour-bag/' },
   gear:     { pl: '/pl/sprzet/',             en: '/en/gear/' },
@@ -43,7 +43,7 @@ export const clusterDesc = {
 export const ui = {
   pl: {
     'site.tagline': 'Spokojne, oparte na danych przygotowanie na kryzys.',
-    'nav.index': 'Indeks', 'nav.news': 'Wiadomości', 'nav.guides': 'Poradniki', 'nav.checklist': 'Checklisty', 'nav.gear': 'Sprzęt', 'nav.shelters': 'Mapa schronów',
+    'nav.index': 'Indeks', 'nav.news': 'Aktualności', 'nav.guides': 'Poradniki', 'nav.checklist': 'Checklisty', 'nav.gear': 'Sprzęt', 'nav.shelters': 'Mapa schronów',
     'nav.menu': 'Menu',
     'cta.start': 'Zacznij od plecaka 72h',
     'sample': 'Dane przykładowe',
@@ -61,9 +61,9 @@ export const ui = {
     'news.eyebrow': 'Feed · Polska · źródła urzędowe i media, codziennie',
     'news.title': 'Co się dzieje i co to znaczy dla Ciebie',
     'news.forYou': 'Dla Ciebie',
-    'news.official': 'źródło urzędowe', 'news.media': 'doniesienia medialne, niezweryfikowane', 'strip.news': 'Wiadomości',
+    'news.official': 'źródło urzędowe', 'news.media': 'doniesienia medialne, niezweryfikowane', 'strip.news': 'Aktualności',
     'news.all': 'Wszystko', 'news.weather': 'Pogoda i żywioły', 'news.energy': 'Energia', 'news.security': 'Bezpieczeństwo', 'news.health': 'Zdrowie',
-    'news.more': 'Wszystkie wiadomości →',
+    'news.more': 'Wszystkie aktualności →',
     'sev.1': 'info', 'sev.2': 'uwaga', 'sev.3': 'ważne', 'sev.4': 'pilne',
     'nl.eyebrow': 'Newsletter · co piątek', 'nl.title': 'Raport gotowości w 3 minuty',
     'nl.body': 'Zmiana indeksu, 3 najważniejsze wydarzenia tygodnia i jedno zadanie do zrobienia w domu. Alert tylko przy skoku o 10+ pkt.',
