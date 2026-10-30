@@ -1,0 +1,9 @@
+---
+import V from '../../../views/NewsPostView.astro';
+import { newsPosts, newsSlug } from '../../../lib/news';
+export async function getStaticPaths() {
+  return (await newsPosts('pl')).map((entry) => ({ params: { slug: newsSlug(entry) }, props: { entry } }));
+}
+const { entry } = Astro.props;
+---
+<V entry={entry} />
