@@ -4,6 +4,74 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-10-30T15:16:02.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Radio Zet",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWDk3UjZKQjZXZUpmWnhYRkFETEpCMnB2aU9TMGJXZEF6QU1BUUgxQ1NJVnduUV9QdzZ4aElHMUVaNVM5cFJSSS12SDlQSFZlRjlteGpZUkpnbnktZ1V6UFZvQmg4dmY2dm1VX3dxTjE4MHpJUlh4S3Y5anp5d0I1SUp5M3VrUDRSNVNLVThQV2RiR0NmZHBYSmZpZ0tLU000cUZv?oc=5",
+        "title": "Kłęby dymu wychodziły z okna. Strażacy wyciągnęli kobietę z płonącego mieszkania",
+        "official": false,
+        "forYou": "Unikaj miejsca zdarzenia i stosuj się do poleceń służb. Numer alarmowy: 112."
+      },
+      {
+        "at": "2026-10-30T14:22:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "RMF24",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObU52Qm5qX3c2MHlYYzM0OGY0R2Q2LUJidFdYS0xxQnBta21rUjIwRVlyMkd6ZFNXeXJYVHc0SjNnVkdRS1VGRG9EcXh4Nm1WVXI1dGVuTkFIOXAwbk1kT3RlcmhXeC1Cb0UzaXlQV01uLTdwaE5aMVlQNnY4QW5nOUU4aW5sYXdESTk0Tm9xcVlBVE9yVnljelBTUjdUWk9KMmFUNF8xQTFTMTMza2YxZFNB?oc=5",
+        "title": "„Największy i najdroższy” dron dla polskiej armii. Wiemy, kiedy przybędzie",
+        "official": false,
+        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112.",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
+      },
+      {
+        "at": "2026-10-30T13:55:00.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "CERT Polska",
+        "url": "https://cert.pl/posts/2026/10/CVE-2026-105454/",
+        "title": "Podatności w oprogramowaniu Request Tracker oraz RT for Incident Response",
+        "official": true,
+        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
+      },
+      {
+        "at": "2026-10-30T13:19:09.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "Polskie Radio 24",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORHhfNGlrRUZDbVo4dWJSaU5jSmVDVllPNkhFR0dGeWdmSWxJTEt4ZmU0UWZaTmVnU3JBbm9yeV9vTjNWNGVTQVZRQkxyYUlPcjRRT2R6bzNDbHVjX3NnTVRXWmVNc2swejN5eGZfX3YyWkRjcGdNRWJINzRZN1daRmdwX05VR3lhZWlWZ3JwZkhHd1k?oc=5",
+        "title": "Przyszedł do apteki z nożem. Gdy farmaceutki chciały mu pomóc, zaatakował",
+        "official": false,
+        "forYou": "Unikaj miejsca zdarzenia i stosuj się do poleceń służb. Numer alarmowy: 112."
+      },
+      {
+        "at": "2026-10-30T12:07:11.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Polskie Radio 24",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQLTlXX216MW1laDYtZ0p1S05URFVYYjFyUlljWXhabXNJOS13N251QnpuTGM3eXJWVnRzOF9vdHFDd3RZWnRTTDVRODhURmlkLTVvSlk4cnBadjBSTnpVcFVPTzdmTXNWMWZ2c3oyZGRZUk9zWWxWLVl0d19wbUQ2Y1JDY1lwaE92cloxWWFFVGdRWGZfWl9jX2l5RFRjWTdPcXQ3U1R5TnpfZw?oc=5",
+        "title": "Dlaczego ewakuacja Ołeszek prowadzi przez Rosję? Ekspert wskazuje powody",
+        "official": false,
+        "forYou": "Słuchaj poleceń służb, weź plecak ewakuacyjny, dokumenty i leki. Nie wracaj, dopóki służby nie odwołają ewakuacji.",
+        "guide": {
+          "href": "/pl/poradniki/plan-ewakuacji-rodziny/",
+          "label": "Plan ewakuacji rodziny"
+        }
+      },
+      {
+        "at": "2026-10-30T11:55:00.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "CERT Polska",
+        "url": "https://cert.pl/posts/2026/10/CVE-2026-110970/",
+        "title": "Podatności w oprogramowaniu Płatnik",
+        "official": true,
+        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
+      },
+      {
         "at": "2026-10-30T07:34:40.000Z",
         "cat": "safety",
         "sev": 3,
@@ -166,87 +234,35 @@
           "href": "/pl/poradniki/syreny-alarmowe/",
           "label": "Sygnały syren alarmowych"
         }
-      },
-      {
-        "at": "2026-10-29T07:16:49.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Gov.pl",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4zNmVRMy1fOXJoSENXeldITXhMX29QNmxYdGZsemlqVlpJaW1LNmtxYVpRUzZyTmttLVg2cl90bHFfUGlsNi01Vjk1R3pGT2tva01wRzFaWWNGbFZGSjI0cGsxQWJaSFo0ZjU0bXRZaVFRekFqSlJRa1dFOA?oc=5",
-        "title": "Alert RCB - trening systemu alarmowania (29.10)",
-        "official": true,
-        "forYou": "Przeczytaj całą treść Alertu RCB i zrób to, co zalecają służby. Jeśli dotyczy Twojego województwa, sprawdź najbliższy schron na mapie PrepReady.",
-        "guide": {
-          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
-          "label": "Alert RCB i aplikacja RSO"
-        }
-      },
-      {
-        "at": "2026-10-29T06:45:18.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Wiadomości Onet",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcjFDeUVWRE15eTQtMG9TQmlPX1RfS2ZqWWxrRFZ2RW9XTUoxTngtZGRRcFhHc05ZYkhlV1pqek5YMmVwbmFERFQxaWZGQkRPSkl1MDdkUnJqM1NuMGZUR2tHVzA3Ny1SdGVQcEVFS2hCdzdJQmpFN2ZVR3R4dTlKamFYR3dSdlQ2bGpBb2pEbFhSWlZpX1NIbkVsYlJBYkZtZGp5dllFT1BETHVZZGotVUI0OFNqSE9Z?oc=5",
-        "title": "Ukraina dostanie kolejne polskie myśliwce. Jest decyzja",
-        "official": false,
-        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112.",
-        "guide": {
-          "href": "/pl/mapa-schronow/",
-          "label": "Mapa schronów"
-        }
-      },
-      {
-        "at": "2026-10-29T06:25:11.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Polskie Radio 24",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdlNaaU9ZYThLYzBVX3U3TFVRb0VMTnU0V2N3ZzhTUk1GRFQ1Q2FIWHBEZHhBVWVYTVktZ3BfYkRRYW9RLUlhbGE2a3E1eVBqckZrV3cxbEc4OWpMcHZ4dkliZVJMX1VtSlVteWpCdDVvV3JjOWE4aThtN21EN1N4WmlZSVllWDBGeEdnVTBscXE4MUNCb1JGWnNiUzZLVnFmUnNPbWx3?oc=5",
-        "title": "Najpierw Rosja, potem Białoruś. Tak ma wyglądać ewakuacja Ukraińców z Ołeszek",
-        "official": false,
-        "forYou": "Słuchaj poleceń służb, weź plecak ewakuacyjny, dokumenty i leki. Nie wracaj, dopóki służby nie odwołają ewakuacji.",
-        "guide": {
-          "href": "/pl/poradniki/plan-ewakuacji-rodziny/",
-          "label": "Plan ewakuacji rodziny"
-        }
-      },
-      {
-        "at": "2026-10-29T06:01:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Portal Samorządowy",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTTI3SkdvRkZyWXhWbENzNnl2eTNNWkQ1WG1ONHZjUk9xUFpkX1NZdzVobU5JOXZGX3lleWg3ZFhxVjF0SFNEaVdhTHdZbmRwSEMyb0lYellRN0RReEJ0cUlFb1FoZ1NfcmZWcHAzcGJHOEFfM0laMDRNNjNmSFBfN3BjQTQ4dHYxNlpmLUxaSFFFYS16bmJIQzBIbWVmb0NzTmpDOXJxMm1ja0lTZG5uTDh0TFdOOUdFZkhtcHJ4Nzc1NG8?oc=5",
-        "title": "Polska odda Ukrainie samoloty MiG-29. Jest potwierdzenie z MON",
-        "official": false,
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-10-29T05:36:00.000Z",
-        "cat": "health",
-        "sev": 1,
-        "source": "Rynek Zdrowia",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNGR3eFFiOTlwd042NUNqNEtTWmdlS1k2bzRaWEtNTHNiRUFrQ1JIYW03ajh4NnBCY2RocVZ2UzA5ejZZSmJzS2k2YXJiSUtKVVpkSnRPamtFTGdSS2lvSkdJSnRPUXQtdjZOd1ppQkRXRGFnS1FKM0NYeTltdHNjeklxS0JMRHZBWFJ1UHFoZ0dfWWNSb0JHMnAtTFA3RDZwSGNaaGpvb3g?oc=5",
-        "title": "Narkotyki w żelkach. GIS pilnie wycofuje produkt",
-        "official": false,
-        "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
-      },
-      {
-        "at": "2026-10-29T03:31:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Rzeczpospolita",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBuZC1GaG9HSDBIUENvYXlhM0dDbXJuWndTS3ktNS0xZEd6QXkzUEJDc0tTV0MxSG1zNENGS2dYWUt5c0EtcExhR0NNMzNlbmhxXzE5ek52MktLZTg1MlJmM1RTWWMyd2tHbjFNb3RSRWxLVXRGZFQydDNn?oc=5",
-        "title": "Przekazaliśmy Ukrainie 10 pocisków do Patriotów. Teraz dojdą dwa kolejne MiG-29",
-        "official": false,
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
       }
     ],
-    "updatedAt": "2026-10-30T09:05:48.904Z"
+    "updatedAt": "2026-10-30T16:18:48.301Z"
   },
   "en": {
     "sample": false,
     "items": [
       {
-        "at": "2026-10-30T08:03:45.000Z",
+        "at": "2026-10-30T15:28:58.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNanJCUjZhRks2bGFTc0ZOM2RHN3p4RHNKZUtvV1NXbklHbTdneXV0REQ3alR2ZmYzZzVuWldBOXFLYTBTSEJCRE9FbHRuSUtXWGRpSW95dENra19UVFd5ajJrT1RVWmgzeTZsbTNUZzlNQmJMZjhOWXpsSWxCQUxXS3A4OEtmSHJFR0ZfcU9mcUM1R203bUQtXzR2M0lOekV1MDAtZHNNS1pwa0JLekhnYVpR0gG3AUFVX3lxTE5IWXFSbWVBZDRxdmJkOXBfODRqd2Q3dWcxYk9KZkR6UWJUMU43OFNuaF9NU3l2MHlQR1BLR2s4akRtdllsSms3SGRIMXIyRHcwZDZIRklsZnlFb01wX1pDY1pwSW54Q0tpX29VbmpiY3hxby1FeXBfaV84YXU1VUJkUEdNUm5keTVXbDBmdkRMWkMwZE9YTWdDRGZET2VrQUt5TDFiTnFLRmhaMUQ0YkE1Y3RFTm5qTQ?oc=5",
+        "title": "‘Need a Plan B’: Yemenis in Aden prepare for another war as missiles fall",
+        "official": false,
+        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+      },
+      {
+        "at": "2026-10-30T14:36:27.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "FOX 13 News Utah",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQbUJTbFl1ZHhsSzU2MFNvd1ZodTNSOGF6VXBwa0xKbkRGb1hsZE5pMHhaa0hjck5VZkhYbHNkOU8zT3VKcUZGSDktUF8tcHhOajd0YW5PSGNoajhwejg2LTZwd1VfcXB3dm0xeUlYdWFrX05PaURBMkdyckZ1ZlhXOQ?oc=5",
+        "title": "Stormy Halloween Weekend; Heavy Rain Likely",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
+      {
+        "at": "2026-10-30T13:41:15.000Z",
         "cat": "security",
         "sev": 2,
         "source": "Latest news from Azerbaijan",
@@ -254,6 +270,16 @@
         "title": "Russia-Ukraine war latest: Key developments, deadly strikes, Oleshky ceasefire",
         "official": false,
         "forYou": "No action needed. Keep your basic supplies ready; situations can change quickly."
+      },
+      {
+        "at": "2026-10-30T09:49:14.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "SolarQuarter",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbVVmTDRLQ25Wb2lQT2hvTG0tcEswNVZZb3hycFR5dS03V2xWVkp4cGx3ZFltaTg3QU1PSkpoeFNuVm9GczNKR1lya3paWWhFLThzcmpFUkdXaGU1WHV5NjM0aU1YcmxxcERNdi1rMkdSNG1WOUx3VW9jSGhPenpjZlJUckhCTVpBUjNsdzJXYzN6dVMxVTdiM283Mzg1SmZnZ3lUbVpQSGVzT2poZzZCUF9hd0hrbzhUaXpHX29n?oc=5",
+        "title": "Cyberattack Forces 103 MW Huatacondo Solar Farm And Battery Storage Offline In Chile",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
       },
       {
         "at": "2026-10-30T05:48:18.000Z",
@@ -414,38 +440,8 @@
         "title": "123 Reg discloses AI cyberattack on customer data, suspects China nexus",
         "official": false,
         "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-28T20:21:48.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Ahram Online",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcEIwX1RmR2FwNHM5Q0VmUHVNWVpNLWZ4a0IzY05KWEhWbFZ6bkpnYlFqY2JwZXM4eVpKX1hZaUYxZ19Ub0piNXlKNUpMNVdxbUxiOXVYZ1hlcjdxWTQwZUd0Q3RkUkZrR0xNZmM5Y0hxYWZNWi1VY2t2TVVEcFBKc1J0NGxjaS01NVByNmNZMnU3LTJzdGlES3NKdVY5cEs4S3JfYlhkakVuVzhxZGhBcmNTeHh1ZVpBOFFNSjZmVlR0NjN3SVE?oc=5",
-        "title": "UN defies Trump administration pressure, condemns Cuba embargo - International - World",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-28T19:27:36.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "EnergyNow.com",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRHM5Z0w3dFFfNEtpem9naS1GakppY2drNmxqQ2xWRDB3b1hmMHBDWUZZc2ZKY2ZJR2RKejd4YW9CMTYxMzFqX01ZcmNXZG9WMVVKaXFIVlY2WVpBWUpMQnZMOEJaM2xtRW9IMnEzelgwQmQ4djVuYTA1MmVZWVB0a01IeWhuNkJnMnR3TA?oc=5",
-        "title": "Cuba’s National Electric Grid Collapses, Reason Unknown",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-28T18:31:59.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "The Virgin Islands Consortium",
-        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPU1RIMlIzWm44QTdnc0RUclV0eEVkWHNEZkxxT0t2SlM2WWhoQTFidEwyUUpSWF9OT2drSEs3aldHVXh2WUJ1eVZaRUhEaHpDT1gxeXkzZGtpT3BNVnVRVkJPOGc5Q29xMXpJOWE4ZXJMYzdrQ1Q1YjBKNkFCX2R4NnlnMkE0cHJ4Uk5wdHhad05zUXhhSHdBc0tSOFhrU3ljTmc4UGdkLVU5VmRheERxM0gxTlU1QzhJZlNGVnR4dzZtdElCR05USUVDRDF0djl5RGtzTmM2cm0zN1Jha0dCZUU2X283X2tHVmMtNA?oc=5",
-        "title": "JFL Blames Financial Pressures and Cyberattack for Payment Problems Following $6.36 Million Court Judgment",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
       }
     ],
-    "updatedAt": "2026-10-30T09:07:15.715Z"
+    "updatedAt": "2026-10-30T16:20:56.107Z"
   }
 }
