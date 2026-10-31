@@ -9,7 +9,7 @@
         "sev": 2,
         "source": "Wiadomości Onet",
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVmVMOXNzY3JHUEFUc2NqeHdyZ29kQnNVYlZ2UGlmdklDMDBhMUNOMV9md200alpQTTdLM2FObWUzYkNGcDdUejh2aERNU1JNdVVZZzhXRno5WlcxSUxQeW4wbV9uMU1vRFE1YW9pc056Y2ZxSWNGdnhNNk5TWGViZUo4NXN6aVNQYVVnYm1Iak9Hb283dk9KTE9HRkNGQXdBUncwXzlMM1BWd3FCbTlqamtyYUo3Q1ln?oc=5",
-        "title": "Zakończyła się ewakuacja z Ołeszek. Zełenski dziękuje Melanii Trump",
+        "title": "Zakończyła się ewakuacja z Ołeszek. Wołodymyr Zełenski dziękuje Melanii Trump",
         "official": false,
         "forYou": "Zagrożenie minęło. Sprawdź, czy w domu wszystko jest w porządku, i uzupełnij to, czego użyłeś z zapasu.",
         "guide": {
@@ -36,6 +36,16 @@
         "title": "IMGW: 1 ostrzeżeń meteo, najwyższy stopień 1: Gęsta mgła",
         "official": true,
         "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
+      },
+      {
+        "at": "2026-10-31T11:01:00.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Rzeczpospolita",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPVXQxaUttRUpLSWRXZ2xDeGVrZWRDQmdNVDYwbTNuUFF0dmQxbXBUSXFuR3hSQTFmbFZ0N05YRWRZeE1YOENNZ1JzZEdtSHJITFZjekVNLVpMUEVER3NmN0w4ZHZfbXotSmNxbWo3NGdLUlVIOHBWYzR3OXVWOWg0eWxpR1Q1X0Z6MzJCNUlTQURzYThwUXpFSEFpTUxRb1JuSTdxZDVFSllZdHN3cGE5eng2Y2hTZXM?oc=5",
+        "title": "Pierwsi Ukraińcy z Ołeszek trafili na Białoruś. Na lotnisku urządzono im miasteczko namiotowe",
+        "official": false,
+        "forYou": "Unikaj miejsca zdarzenia i stosuj się do poleceń służb. Numer alarmowy: 112."
       },
       {
         "at": "2026-10-31T10:19:41.000Z",
@@ -212,19 +222,9 @@
           "href": "/pl/poradniki/plan-ewakuacji-rodziny/",
           "label": "Plan ewakuacji rodziny"
         }
-      },
-      {
-        "at": "2026-10-30T07:24:49.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Rzeczpospolita",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSm93M3FPYVIzeFlWZEdIaVlDQlNTOG40a0tnZFVzT19jOUtKT0tFYjZfamhyWmxNc2xNOVBUMm9Xb0hJQmdVS01pVVFvbE5VMGtSbGN5c1F0NGk1WXRhVEpHUHdGRi1XLVZZaUROWElySUpCeGFGbVV3U1BHNWp1VUZjMlNQajg1LXhOaFlHQ0F0SEYxblh0b3g1MTlvWWJ6ejVKVDl1S0hFZHpBb1E?oc=5",
-        "title": "Jak działała polsko-białoruska grupa, która napadała na tiry i rabowała papierosy",
-        "official": false,
-        "forYou": "Unikaj miejsca zdarzenia i stosuj się do poleceń służb. Numer alarmowy: 112."
       }
     ],
-    "updatedAt": "2026-10-31T18:51:17.511Z"
+    "updatedAt": "2026-10-31T22:53:20.682Z"
   },
   "en": {
     "sample": false,
@@ -278,6 +278,16 @@
         "title": "US approves sale of 500 Patriot missiles to Ukraine",
         "official": false,
         "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+      },
+      {
+        "at": "2026-10-31T12:01:57.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Arabian Business",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeGVzSjhrbUhOTTctX0ViTkJTRnFEZnkwNTJQR3gySTJRQlk3aXNwenJ2Qk1DejVYcF84dmF4WDFPd2xKRzEwazEtOEdOb05OOFhJaXZQVTd3R2lDRHdGbTgtM1JSSEMxeFN5OTlLc0tLNE55MHlHRDZNU3lOVFBDaTJwQQ?oc=5",
+        "title": "Iran war live: Iran’s Supreme Leader orders army to deliver ‘immediate response’ if US attacks",
+        "official": false,
+        "forYou": "Defence procurement news. No action needed."
       },
       {
         "at": "2026-10-31T09:04:33.000Z",
@@ -418,18 +428,8 @@
         "title": "An internet outage could affect payments, banking, comms and access to key data",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-30T02:21:22.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Arabian Business",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeGVzSjhrbUhOTTctX0ViTkJTRnFEZnkwNTJQR3gySTJRQlk3aXNwenJ2Qk1DejVYcF84dmF4WDFPd2xKRzEwazEtOEdOb05OOFhJaXZQVTd3R2lDRHdGbTgtM1JSSEMxeFN5OTlLc0tLNE55MHlHRDZNU3lOVFBDaTJwQQ?oc=5",
-        "title": "Iran war live: Saudi Arabia intercepts two Houthi missiles over Riyadh as falling debris injures resident",
-        "official": false,
-        "forYou": "The threat has passed. Check your home and restock anything you used."
       }
     ],
-    "updatedAt": "2026-10-31T18:52:53.773Z"
+    "updatedAt": "2026-10-31T22:54:30.529Z"
   }
 }
