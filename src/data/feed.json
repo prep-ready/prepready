@@ -4,6 +4,16 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-10-30T23:38:03.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWDUzbU1KTl9VaHlVU2plc2ZYS2RTQlZXSHhNNEY1cGFKZTR6SXVZU3BkUDZzeXlVek0xWFJ4MW1TbjlhcW84aTNLcGYtcUtja0JqcmxCOTYzbkNiUUl4UE91d2dYT0RJOG41ZUF3bWw2ZmREeS05WlQyUFZqYjMzcml5bXExSVVaSHNWLVRMazFLblh4OE5NQnhxczQtWmRWYUtxZTBfWmw?oc=5",
+        "title": "Gotowość mobilizacyjna od 2 do 8 listopada. Jest komunikat policji",
+        "official": false,
+        "forYou": "Sprawdź, czy Twoje dane w urzędzie i WKU są aktualne. Informacje o wezwaniach podaje tylko wojsko i gov.pl."
+      },
+      {
         "at": "2026-10-30T17:58:35.000Z",
         "cat": "safety",
         "sev": 2,
@@ -220,23 +230,33 @@
         "title": "IMGW: 1 ostrzeżeń meteo, najwyższy stopień 1: Gęsta mgła",
         "official": true,
         "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
-      },
-      {
-        "at": "2026-10-29T10:55:00.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "CERT Polska",
-        "url": "https://cert.pl/posts/2026/10/CVE-2026-93570/",
-        "title": "Podatności w oprogramowaniu Szafir",
-        "official": true,
-        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
       }
     ],
-    "updatedAt": "2026-10-30T21:09:45.353Z"
+    "updatedAt": "2026-10-31T01:07:36.733Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-30T23:23:16.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "SC Media",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQ3lPdDFDaTYwX0dfZGxmTWFZR2hDdUJpSm5qbGViRk1LMGE4UndEeVctZ2wwU0FiMlZ5U1NpZE91VlRGVDhoOUF5LWRWdl9WdWpxa2loZ0g1NFpxMV8wck9QU2tRUnRjZ1ZlRHo1clFJWGRMT2tpRGpZakNsQWhTMFdwaGk1eHJ2S3pTX0FXc1JreWFOVVd3d3MxRVlhRjJGYThUaHpKTXdXdw?oc=5",
+        "title": "Moldova investigates massive cyberattack on national identity infrastructure",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
+      {
+        "at": "2026-10-30T21:16:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "news.sbs.co.kr",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBJalc3bXRCNnZaYm9IYU9HVm9NUjN3cGduOHJHa0tIQUh1TlRJci05OUp1RW1VWHdxcENoamNtc1VrTVBnSGJ4bkdzNjdBT0JMYlBvTEJhV3JscVlucTkyR29UMm9kUQ?oc=5",
+        "title": "Houthis Strike Presidential Palace and Airport in Aden with Missiles as Civil War Intensifies",
+        "official": false,
+        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+      },
       {
         "at": "2026-10-30T19:35:00.000Z",
         "cat": "security",
@@ -256,6 +276,16 @@
         "title": "SafePay: #StopRansomware campaign of joint cybersecurity advisory",
         "official": false,
         "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
+      {
+        "at": "2026-10-30T18:56:15.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Latest news from Azerbaijan",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdUJPQWM1Y0ttc1ZRQ0FueEtQVkZEdmtGU3BHczVLWlpVUWJfdVFYRERaVk4tbWFYZDBFaElybjdoWmdjd0ZlN0t4UU5CQU5zU0Z2Q0xkR0hadmk1aTBJTnZlMzFjbzQ0ZXFwN0Z0bk41c1QyaTZFS240YWMtLUJMNmY1M1RXQm1Zdlh5S3pPYkYtWEZQcXFLSG5OQVU?oc=5",
+        "title": "Russia-Ukraine war latest: Key developments, deadly strikes, Oleshky ceasefire",
+        "official": false,
+        "forYou": "No action needed. Keep your basic supplies ready; situations can change quickly."
       },
       {
         "at": "2026-10-30T18:24:54.000Z",
@@ -296,16 +326,6 @@
         "title": "Stormy Halloween Weekend; Heavy Rain Likely",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-30T13:41:15.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Latest news from Azerbaijan",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdUJPQWM1Y0ttc1ZRQ0FueEtQVkZEdmtGU3BHczVLWlpVUWJfdVFYRERaVk4tbWFYZDBFaElybjdoWmdjd0ZlN0t4UU5CQU5zU0Z2Q0xkR0hadmk1aTBJTnZlMzFjbzQ0ZXFwN0Z0bk41c1QyaTZFS240YWMtLUJMNmY1M1RXQm1Zdlh5S3pPYkYtWEZQcXFLSG5OQVU?oc=5",
-        "title": "Russia-Ukraine war latest: Key developments, deadly strikes, Oleshky ceasefire",
-        "official": false,
-        "forYou": "No action needed. Keep your basic supplies ready; situations can change quickly."
       },
       {
         "at": "2026-10-30T09:49:14.000Z",
@@ -416,28 +436,8 @@
         "title": "First public health emergency preparedness assessments across Europe show both commitment and recurring challenges",
         "official": true,
         "forYou": "Usually no action. Check your first-aid kit and expiry dates."
-      },
-      {
-        "at": "2026-10-29T08:56:50.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "The Cyber Express",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1jWGhRbFBscGhFUTh1a0Z4SkVsWEJYbTNoR1dLTUtGSURFWnVtY3pWdFRTZkR3dEpQU09RSG5YazFVemtXYUFOQThacU95Q1BkZkw5ZTRVeUNRSjNRNHAzV2FnbERQRWFCSzFZenRkQnRUd2lzX2k4cdIBeEFVX3lxTE1jWGhRbFBscGhFUTh1a0Z4SkVsWEJYbTNoR1dLTUtGSURFWnVtY3pWdFRTZkR3dEpQU09RSG5YazFVemtXYUFOQThacU95Q1BkZkw5ZTRVeUNRSjNRNHAzV2FnbERQRWFCSzFZenRkQnRUd2lzX2k4cQ?oc=5",
-        "title": "Ukrainian Ransomware Affiliate Sentenced to 70 Months",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-29T08:16:11.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNTENYVFdnSUZIT0JQeUFlUHA4R0hldnV2aGlscjhOblppeVdka2VmdDFHcTNhYWp5MWhKM1BnMmNNYnRib2djRVNzU1BzenhsbzhpMWItQUtjaFVMRFYycTE0dFQwdE51b0tacGc0ajdiTnBHU3BwMU5WbTVKcEFPaDJJNFpLXzVFeHAyYUJpNzVHQUkwbDI2QzFNV2o0XzFOdWd5UFF3ak45OWYyZnhVTzRFblhwa09QWThKR3p0Y2diRFYwaDFnYldBaG52djZjekpXbkZDUQ?oc=5",
-        "title": "Destinus' monthly output tops Europe's pre-war annual cruise missile production",
-        "official": false,
-        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
       }
     ],
-    "updatedAt": "2026-10-30T21:11:54.318Z"
+    "updatedAt": "2026-10-31T01:09:43.694Z"
   }
 }
