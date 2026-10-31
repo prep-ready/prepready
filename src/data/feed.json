@@ -4,6 +4,60 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-10-31T11:38:00.000Z",
+        "cat": "weather",
+        "sev": 2,
+        "source": "IMGW",
+        "url": "https://meteo.imgw.pl/",
+        "title": "IMGW: 1 ostrzeżeń meteo, najwyższy stopień 1: Gęsta mgła",
+        "official": true,
+        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
+      },
+      {
+        "at": "2026-10-31T10:19:41.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "TVN24",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOallaanVCWndjLVAteWRNOHYtUFUtR3hsbExTU3pEVGkxWjVsUC1nM3JJTVRadWJIQkhQOE8xRWV5b1psOVgxTEpiZExManR0Z05rRWsweTFDbjNvcVNJcUZuaEtvWU1yWHQzOEpGX1dRckdqbGNtU1MwYVFrSF9QZG80TU1EcGZkX2RoNS1LNXRDcG1JdXlHM1VYdUgtVE1uTV9F?oc=5",
+        "title": "Ewakuacja Ołeszek. Samoloty wylądowały",
+        "official": false,
+        "forYou": "Słuchaj poleceń służb, weź plecak ewakuacyjny, dokumenty i leki. Nie wracaj, dopóki służby nie odwołają ewakuacji.",
+        "guide": {
+          "href": "/pl/poradniki/plan-ewakuacji-rodziny/",
+          "label": "Plan ewakuacji rodziny"
+        }
+      },
+      {
+        "at": "2026-10-31T10:18:00.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "PolsatNews.pl",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZHJGVXdzNVBKeHlZS2ZnUnA1MEdXUHNUZFQxWVFvVU96OWw4ekhxTW1PZkVZREVYdmZ5MGVLdklqam14c2ptd2pERkxPbC1vR2ZDb2lVYUZFc0JNbW9IeGdoOVo4OGZnaHVYZTRPNGFZbU9xZEJQUFJSY0VtTnRGWEpldW5BNkdOZHdfQ1c5aDd2Z1JkOFM4VkhWR0dfbE1maHh6RUxqMVhKOXdUbTc1OHRnUEhIbGY2TVl1TXNn?oc=5",
+        "title": "Mężczyzna z nożem przed Trybunałem Konstytucyjnym. \"Ludzie zaczęli krzyczeć\"",
+        "official": false,
+        "forYou": "Unikaj miejsca zdarzenia i stosuj się do poleceń służb. Numer alarmowy: 112."
+      },
+      {
+        "at": "2026-10-31T10:02:00.000Z",
+        "cat": "health",
+        "sev": 1,
+        "source": "Rynek Zdrowia",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxORWVhbGlPWVBfNFQzSE1oMVNHMnJ4eVdkZW9mSmdPV240enk4TnR2OUdlbmVFdU1nV1pQaG9uVmN0TUhDWFdWZEJOX1RFcHBHQTlPbGJUV3B0QUctbmtaZ3h6N0NhQWU5WGRPb0N0SFlrWDNSakFUenB1ak9yZi1BUFNMXzYwR283NXhmT2lwSDh6eDNrUDJrTy1UQVpGSlR6LUVPODNVdDhqbm80VjlEYXl6VDFLSnZNMF9Hc3FWMmxTS2RXcFE1RUNSVEw4NzZ6dEMyZFVlcjgwQTBwaG4wb0Q0SUQtUQ?oc=5",
+        "title": "GIS: od urodzenia do śmierci. Będą szybciej identyfikować osoby, które nie zgłosiły się na szczepienie",
+        "official": false,
+        "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
+      },
+      {
+        "at": "2026-10-31T09:53:21.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Polskie Radio 24",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSGdnYWxfY3hrcm5WOHdJU2NjMVpMeEFTYlFkZWdTMDhrQnBpR0x6MFNuNUY1RFZ6dVBITUdKeGRLc3p5NEtaR3JLTlg2elBpOGhFd0VCZEtFZHg5ekpSVllEOFNqbVVoUDIyS2YwMVFTTXlibTFrYUwwdTV3SmZOVVBKdW51T200WFRyX2dPS3l3cGdhTzRrbDVlOG1lX0ExM0E?oc=5",
+        "title": "Oczy świata zwrócone na Ołeszki. Pierwsi Ukraińcy dotarli do Homla",
+        "official": false,
+        "forYou": "Unikaj miejsca zdarzenia i stosuj się do poleceń służb. Numer alarmowy: 112."
+      },
+      {
         "at": "2026-10-30T23:38:03.000Z",
         "cat": "safety",
         "sev": 2,
@@ -172,71 +226,53 @@
         "title": "Obowiązkowa służba wojskowa dla wszystkich. Sąsiad Polski podjął przełomową decyzję",
         "official": false,
         "forYou": "Unikaj miejsca zdarzenia i stosuj się do poleceń służb. Numer alarmowy: 112."
-      },
-      {
-        "at": "2026-10-29T15:18:51.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "WP Wiadomości",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQckplZWFNLWtfYWRXRmNJTEVaNVVhOTZ1VTNHNHlKaDRDa05hQndQNGxuOVFIam8zUmg4b3FzWWRYSVpDQ0lvblVjV0FrRUVfejRIZEFPM0p2dzVoNHBQeFd1MzhLY256U3RhOHFZR19NQWpWcHF0dlBGMGFrSEY3RmRmZUtGVUJDaGlUQjMwWk5iQ1lLUlVIMkF6TVNwZFUtcGVj?oc=5",
-        "title": "Dron uderzył w cywilów w Dnieprze. Polski MSZ potępia Rosję",
-        "official": false,
-        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112.",
-        "guide": {
-          "href": "/pl/mapa-schronow/",
-          "label": "Mapa schronów"
-        }
-      },
-      {
-        "at": "2026-10-29T14:55:00.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "CERT Polska",
-        "url": "https://cert.pl/posts/2026/10/CVE-2026-66911/",
-        "title": "Podatności w oprogramowaniu Zimbra Collaboration",
-        "official": true,
-        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
-      },
-      {
-        "at": "2026-10-29T14:48:11.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "WP Wiadomości",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWE5CT2xjQ3ZOUndSSXRGR2U1cm5UbnloTlQyS1NqTUhoSkxkVENqY3YyOFIzQVhJRWtKb3pQR3NSZmMtWm5xTzZCVld3MzhZOFhucnZtbjJHUXhkQU9PbzFYYXJPMFk3OHRKYVJkRlVmRVBMemUwLXNTQnZ4cVpNNFdRQ2lieEJfb1gtQVAyVE1jN1REZzNWWDNLa29MVk5lNDJJbkVDWFc?oc=5",
-        "title": "Dramatyczne nagranie z Dniepru. Rosyjski dron uderzył w dworzec",
-        "official": false,
-        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112.",
-        "guide": {
-          "href": "/pl/mapa-schronow/",
-          "label": "Mapa schronów"
-        }
-      },
-      {
-        "at": "2026-10-29T11:52:00.000Z",
-        "cat": "weather",
-        "sev": 2,
-        "source": "IMGW",
-        "url": "https://meteo.imgw.pl/",
-        "title": "IMGW: 2 ostrzeżeń meteo, najwyższy stopień 1: Gęsta mgła",
-        "official": true,
-        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
-      },
-      {
-        "at": "2026-10-29T11:52:00.000Z",
-        "cat": "weather",
-        "sev": 2,
-        "source": "IMGW",
-        "url": "https://meteo.imgw.pl/",
-        "title": "IMGW: 1 ostrzeżeń meteo, najwyższy stopień 1: Gęsta mgła",
-        "official": true,
-        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
       }
     ],
-    "updatedAt": "2026-10-31T07:34:08.287Z"
+    "updatedAt": "2026-10-31T13:55:59.683Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-31T13:30:33.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Spotmedia.ro",
+        "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxQZEpVQl83ekdPV0RYdTAyQ084Qm9kRFg5eGs2dlByeFFtZ0ZxSUdNbUY4T1Nmd3lsUEVZV3ozZlEtWFo3Uk5BOVJtRS1lbmhraUpDS2pGV2FvNElPMkVTblRWOXdKR0RiQVNRaGw1UGxJUkZtWTdBY0hnVV92aWRwSTBTdHZtSnlCV01zT3JENmJxVTBwR3Y2WkNHdU5mT0IxUWdISC1Dc3RvUWJ3UVdmQTBHTXExM1lxVHotMWRWRnhRRVVLNW44Y0hnNEtHdWlXSlhQMHNzMGJVQzM2cUVxdkoyMjdtdlNlUE9wd3BESm55UTliS05LY2RVc0NITVR4OHN5SHlISFllYVJWYjNCcnZTcnVVRmJMdWlTaW5EdGk0UlZXZjd5T3lyNA?oc=5",
+        "title": "Day 1711 Coalition of the Willing meets in Berlin. Patriot systems delayed until after 2030. Civilians rescued from occupied territory. Another Russian refinery burns (Video)",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
+      {
+        "at": "2026-10-31T09:04:33.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "IntelliNews",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPRFhhWWFyWmRGZ2FoX3I0VDBvcm05MnY2ZGlKNllCcU5mOTFFQi1ybThHaXo0b2d5SWNROUlaemU5eGoyZmpONFI5MEg1RDBDSGdQbER4Qmg0Y2JoSGdabkloWjNyb00tV1RJYTIyVzBwbU5ZTzBFRHBuTUU4dWh1cVRjU25fUjlta2tYbDVlb0lTSGdMVVYwSlVyZG5tVmxtdlVLZGQ5SUhtcjBWQi1ObzdjWGV2VnNUdWJ0b2hTaE9ibDNMMi1QQW5LS2ppNVRNMm9RLVBiNm1YZw?oc=5",
+        "title": "Missile War Monitor: Ukraine resumes refinery strikes, Novak says, as Russian strike blacks out parts of Kyiv",
+        "official": false,
+        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+      },
+      {
+        "at": "2026-10-31T08:36:46.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Aaj English TV",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTVZhYlhqTUtyQ2w1S1JocC1XY2tXU1ZDaG1uMllFMnBNeFlZTmVXYjFSaGdRZngtN2NSd2FyeDdCWG4zS3JGZ3l3cWo5QXNFb0RKLXMya3RGZl9HQ2t1Ql9oTWo1ckZ1NUxiN3VpLVNZbFo1WnItaXAtS21qS3U2ckd0dmlPTlVxeHBBczdrUWhEZ0h5Q2YwY1gtNFdVSW8?oc=5",
+        "title": "Egypt fears escalation in Iran war would be more destructive",
+        "official": false,
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
+      {
+        "at": "2026-10-31T08:32:01.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "ABC News & Headlines – Australian Broadcasting Corporation",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMFJzY2U2Zk9RZE52VnN0Y0VTWEVRdkZuSkQxQXVONEZIa0RSMUpiSUZaR054X0ZUWWNQaXdDaEtwejM3VmthNjBqYnliRTJmSDVPNl9qUFlzVEs2NTJpcVRSWFV5STd1TjItaWtGWUxNclFjNkhHU25UT1JEUHp0SHJNY3htUVJXbHRjVWg1QWllOXhuYkhNOGt6b2tGRF9pcTdzdzJjVUdvdw?oc=5",
+        "title": "US approves $3 billion Patriot missile sale to Ukraine",
+        "official": false,
+        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+      },
       {
         "at": "2026-10-31T07:10:50.000Z",
         "cat": "cyber",
@@ -256,16 +292,6 @@
         "title": "Initial Investigation Report Submitted on Nationwide Power Outage",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-31T04:55:22.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZ1cyTlB6THpTdDl0WkItSDNsNDdnSjhfV00wRENpb1FEZzRXWXhfZ01CaWQ5bF9CY1pMQUJ5aHNKekJPUzRWbTNYVjNaSTAtd1RyVGRMSXd0MnRpX21VTlVrMkJOR3JWaWJvbEQ5TkVWZmxMVTF2V1hxTy05bDZPUXlHWmRDQjJzMVFKSmUwMGdBOVQyQ1NKS3RR0gGfAUFVX3lxTFBZWDhWYTAzUlFWVGFFVDZZU2IxZ0Rld3ZJZHEtazdrUjJlOWhtbmdLOEpRS1BlMFdtV0t6SGhkWUZtbDhUdTh4ZlNVc2tEZ3U5SXZHSUEyY0xKTENGWXBYX0xRa0hiMXA2eTdqbXJjaGpFUnFrZmpQMWtiZ2lDVTFRbTBxelA3dVBBU2FVTEhxRkJNTEtJWlhGOXBBMmxsTQ?oc=5",
-        "title": "US greenlights $2.1bn Patriot missile sale to Ukraine",
-        "official": false,
-        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
       },
       {
         "at": "2026-10-30T23:23:16.000Z",
@@ -306,16 +332,6 @@
         "title": "SafePay: #StopRansomware campaign of joint cybersecurity advisory",
         "official": false,
         "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-30T18:56:15.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Latest news from Azerbaijan",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdUJPQWM1Y0ttc1ZRQ0FueEtQVkZEdmtGU3BHczVLWlpVUWJfdVFYRERaVk4tbWFYZDBFaElybjdoWmdjd0ZlN0t4UU5CQU5zU0Z2Q0xkR0hadmk1aTBJTnZlMzFjbzQ0ZXFwN0Z0bk41c1QyaTZFS240YWMtLUJMNmY1M1RXQm1Zdlh5S3pPYkYtWEZQcXFLSG5OQVU?oc=5",
-        "title": "Russia-Ukraine war latest: Key developments, deadly strikes, Oleshky ceasefire",
-        "official": false,
-        "forYou": "No action needed. Keep your basic supplies ready; situations can change quickly."
       },
       {
         "at": "2026-10-30T18:24:54.000Z",
@@ -416,28 +432,8 @@
         "title": "Power Outage Hits Santa Clara Amid Cuba's Ongoing Energy Crisis",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-29T19:39:50.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Daily Independent",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOQVZoMXAzMWJGUVR5d05IZHkxRjRZb1dQaWZVczJGd2wwTHVSbEtOTmRabUFhWk5SUDU5V2diT0lzeElaTnhJZFRzWm1UczNBdktkNXRzQ3pzbHBBMmlvRmxzeDkwWkpzLXNhZjF2TXVGeHBkNjdDLTF4QmNsUUNsRXNOZ0N2VDVFYUtPbGNWdEhRcE5Hb2lXOGxONWNlZ3ZHMWp1LVZlMEp3TjVDeHIyak1hWXVjWlNjdkxVaFdfNA?oc=5",
-        "title": "Malik Sikandar Condemns Alleged Blackout of Fazlur Rehman’s Assembly Speech",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-29T15:24:00.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "The Columbus Dispatch",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNdmtZYkRIc1dYNDNaeENXa0gtbS12a24yOTVTdThJeVNBS0J3elRlQ2tJRk5wUnJJRHl6cDQ0Tk5oX2MxMVVLdDkxMjN5a1pEaUZ6SjdTQ0RJZUVqWngwNkZnQkxtY2dURUl3VjlMSS1mbWxkSGJBSzdla2d6LTFzOGhodTRYcUNBTGQ0Y1RyRDRkWHQwNElGSmxXbjJnRHN2Zlh2S3U2YlBmUkx0ZTZSRVdtZmlqSjc4WVVqWnZNOVpSOFRaXzVWbm9MYnVSdw?oc=5",
-        "title": "Hundreds lose power in downtown Columbus after car hits utility pole",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       }
     ],
-    "updatedAt": "2026-10-31T07:34:51.147Z"
+    "updatedAt": "2026-10-31T13:57:53.430Z"
   }
 }
