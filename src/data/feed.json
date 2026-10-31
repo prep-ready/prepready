@@ -232,11 +232,41 @@
         "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
       }
     ],
-    "updatedAt": "2026-10-31T01:07:36.733Z"
+    "updatedAt": "2026-10-31T07:34:08.287Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-10-31T07:10:50.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Pasquale Pillitteri",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQT2JvWmgyUVJocGRsdVFkNmRJOWJzdEhkS2pual95cUUwZDdBVjI5VHFTdy1yM21rLVAxVW9iY0JQSENmcVlLcE5XTy1ZOFVqRjRfZTBuQklucUFvN3dTbm5LMmdHbUxsYUpjaUJhRGc4bnN5QmxzODBnSDdPSlB6RmtwQ2JjZHJQSUJkVGZYT1p1dUdDenlJQVB2S0dvLUt4Znc?oc=5",
+        "title": "UNM hospital cyberattack, BYOD hackers apologize and offer patients $2,500",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
+      {
+        "at": "2026-10-31T06:07:56.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Newsfirst",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQS0RDRWJRUjJaTVpfYlNtWFJIUkxQOXhKUTRZV25UUDZfbFdxSjFZa29HX3NrcmlHVVl1WmI1VWtHT3BuV081SS1tQzY5Wm9EYWtGaWkwUkxlVGhhQUtueVZhTEdUQnctcUNLaGx2dS1KeUlkSVFVUmpsUktfc3pQZHBER0U4YXZRRmNkZDZhOWI2MWt4NFd3Vmh0Z3VPWVlzVzRhNGJJLXA?oc=5",
+        "title": "Initial Investigation Report Submitted on Nationwide Power Outage",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
+      {
+        "at": "2026-10-31T04:55:22.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZ1cyTlB6THpTdDl0WkItSDNsNDdnSjhfV00wRENpb1FEZzRXWXhfZ01CaWQ5bF9CY1pMQUJ5aHNKekJPUzRWbTNYVjNaSTAtd1RyVGRMSXd0MnRpX21VTlVrMkJOR3JWaWJvbEQ5TkVWZmxMVTF2V1hxTy05bDZPUXlHWmRDQjJzMVFKSmUwMGdBOVQyQ1NKS3RR0gGfAUFVX3lxTFBZWDhWYTAzUlFWVGFFVDZZU2IxZ0Rld3ZJZHEtazdrUjJlOWhtbmdLOEpRS1BlMFdtV0t6SGhkWUZtbDhUdTh4ZlNVc2tEZ3U5SXZHSUEyY0xKTENGWXBYX0xRa0hiMXA2eTdqbXJjaGpFUnFrZmpQMWtiZ2lDVTFRbTBxelA3dVBBU2FVTEhxRkJNTEtJWlhGOXBBMmxsTQ?oc=5",
+        "title": "US greenlights $2.1bn Patriot missile sale to Ukraine",
+        "official": false,
+        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+      },
       {
         "at": "2026-10-30T23:23:16.000Z",
         "cat": "cyber",
@@ -388,16 +418,6 @@
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       },
       {
-        "at": "2026-10-29T20:35:39.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "Dexerto",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQUjd0LWw0ZUxhSG5YOTNHczJQSVVCMjNuYnhUUlV0LTI5cWdycWIzYVVqXzZaNGxGMmg4TGJDS190c09mVTZoUnZPNWFobzNHUjJ6OE9BR1pyR2JiTGhRTHJCREJWNXQweUpZRlAzaFlFZmY1bUxNaFNoUXhhN3pCQkVnanp1TXVsRHdCOF9hRWxYOUpTbU5Xc1o1NUZ0ekRTeGVzMk9lcjdjdndzUk9leHpmb2Z1RWJMZkFVak5kdTIzZkFWRUlv?oc=5",
-        "title": "Hackers insist they have “morals” after hospital cyberattack and offer victims $2,500",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
         "at": "2026-10-29T19:39:50.000Z",
         "cat": "energy",
         "sev": 2,
@@ -416,28 +436,8 @@
         "title": "Hundreds lose power in downtown Columbus after car hits utility pole",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-29T13:39:13.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "The Record from Recorded Future News",
-        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0yRGFUTXlqaEhkWkFzdGxZQ0NQeTV1YUtQbGZvSTZJcDhMcHpuVWFZZDk2azZHMzcxaHRUWkRSTjVLMHRWRTd0NU92VGhPNENiUWQ3Y0dteTJfUEZlSGd5NS1FdXVtZw?oc=5",
-        "title": "University of New Mexico restores hospital systems, urges no contact with hackers",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-29T08:57:39.000Z",
-        "cat": "health",
-        "sev": 2,
-        "source": "ECDC",
-        "url": "https://www.ecdc.europa.eu/en/news-events/first-public-health-emergency-preparedness-assessments-across-europe-show-both",
-        "title": "First public health emergency preparedness assessments across Europe show both commitment and recurring challenges",
-        "official": true,
-        "forYou": "Usually no action. Check your first-aid kit and expiry dates."
       }
     ],
-    "updatedAt": "2026-10-31T01:09:43.694Z"
+    "updatedAt": "2026-10-31T07:34:51.147Z"
   }
 }
