@@ -4,6 +4,26 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-11-01T20:46:31.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNE83Y05OWDlWNDFWVmlaYTN6SGE2dXZtT0FkWnR1NmRFa2hpWkY2U3BEel9qaDdESE4xQzBTV1NmUkZFVU9DeVZFRzNOZUtuTDZSMG94TWhTeW9HTzIxWHkweENoS2c4Z3ZBVTFmcEVNSHcyTHpmbUszcjdrbnhldGdHSXZNT2VNVUVoLU0wQThROERqZERqMmhYZE00eUNrZk91Vk5MQkxpa3BRNl9KOQ?oc=5",
+        "title": "Groźny incydent na Łotwie. \"Niezidentyfikowany obiekt\"",
+        "official": false,
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+      },
+      {
+        "at": "2026-11-01T12:09:09.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Defence24",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNFhHRnFSSHpjdllkaUhxRDZOaVBkdjJKWHk2SERibWQwU1hGYU5uRElWMmIwYzI3aVhUSmMwRm9PV0ZnVGhjNnFtS1JJRUtTU0VJeHFnZzF2QWtmRWVreHJhbk5GVXpaWk1UTkduMDgyODFSaWtDamN1U3lRVU1YdDlPTFFWMTNQUFAzeUNTZ0NQRGtISHV3VGFBZnU?oc=5",
+        "title": "Wojsko wydaje karty mobilizacyjne. Nowe informacje o wezwaniach",
+        "official": false,
+        "forYou": "Sprawdź, czy Twoje dane w urzędzie i WKU są aktualne. Informacje o wezwaniach podaje tylko wojsko i gov.pl."
+      },
+      {
         "at": "2026-11-01T07:40:00.000Z",
         "cat": "safety",
         "sev": 2,
@@ -16,6 +36,16 @@
           "href": "/pl/poradniki/plan-ewakuacji-rodziny/",
           "label": "Plan ewakuacji rodziny"
         }
+      },
+      {
+        "at": "2026-11-01T05:00:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Defence24",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQckhfdk5LV0hCalJpQjZaV2JDWnpZOTFaRVM1M2p5cHZCQmNTS21fN1V1RmEtTVRTSWRrdGZxUEhycW9IRlFLZEdGN29NLUNQbnBsMEk3SjlvZGxYOUpORy04UGcxS2tMcjcxcml3d2pUcGdtN2p4b3B0dnF6dVNlUWY1c1lHb1NRdE9xZ1M4a25GX1R2MGJuSTRXU01EOEQ1RDMxb2FSTkgzVG5hdjNmMmhaSG0?oc=5",
+        "title": "Zaapelowali do krajów bałtyckich w sprawie Rosji. Reakcja polskiego szefa MON",
+        "official": false,
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
       },
       {
         "at": "2026-10-31T18:13:41.000Z",
@@ -40,6 +70,16 @@
         "title": "Choruje 19 proc. Polaków. Główny Inspektor Sanitarny proponuje nietypową \"szczepionkę\"",
         "official": false,
         "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
+      },
+      {
+        "at": "2026-10-31T14:28:09.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "TVN24",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQLWtjckhXV3BxV0VuUnZxWUtQUEZEOFBuM0dmV3c4SkpEVXh1SDFSX3ZrY2ZOMmVhYWNydkY2WVhxTUFIdjUxbVFYd2czZ0c3bWNxOXBXeEIyOENPN1NwejFJSkxMVVF6QWF3cGstanJUSTNEbFh6WW5XMDlXTDRyNGpJSzdpaVh0emhzc1dSeU9qbWkzZVg0WEc3LWRaQ1hmZGQyS2sxZlhramRsellCb1pReks3b1BlX1N0cGtMWENuT2dvajBMamk0UUY?oc=5",
+        "title": "Mężczyzna z nożem na szkolnym boisku. \"Siał postrach wśród dzieci\"",
+        "official": false,
+        "forYou": "Unikaj miejsca zdarzenia i stosuj się do poleceń służb. Numer alarmowy: 112."
       },
       {
         "at": "2026-10-31T11:38:00.000Z",
@@ -178,66 +218,42 @@
           "href": "/pl/mapa-schronow/",
           "label": "Mapa schronów"
         }
-      },
-      {
-        "at": "2026-10-30T13:55:00.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "CERT Polska",
-        "url": "https://cert.pl/posts/2026/10/CVE-2026-105454/",
-        "title": "Podatności w oprogramowaniu Request Tracker oraz RT for Incident Response",
-        "official": true,
-        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
-      },
-      {
-        "at": "2026-10-30T13:19:09.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "Polskie Radio 24",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORHhfNGlrRUZDbVo4dWJSaU5jSmVDVllPNkhFR0dGeWdmSWxJTEt4ZmU0UWZaTmVnU3JBbm9yeV9vTjNWNGVTQVZRQkxyYUlPcjRRT2R6bzNDbHVjX3NnTVRXWmVNc2swejN5eGZfX3YyWkRjcGdNRWJINzRZN1daRmdwX05VR3lhZWlWZ3JwZkhHd1k?oc=5",
-        "title": "Przyszedł do apteki z nożem. Gdy farmaceutki chciały mu pomóc, zaatakował",
-        "official": false,
-        "forYou": "Unikaj miejsca zdarzenia i stosuj się do poleceń służb. Numer alarmowy: 112."
-      },
-      {
-        "at": "2026-10-30T12:07:11.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Polskie Radio 24",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQLTlXX216MW1laDYtZ0p1S05URFVYYjFyUlljWXhabXNJOS13N251QnpuTGM3eXJWVnRzOF9vdHFDd3RZWnRTTDVRODhURmlkLTVvSlk4cnBadjBSTnpVcFVPTzdmTXNWMWZ2c3oyZGRZUk9zWWxWLVl0d19wbUQ2Y1JDY1lwaE92cloxWWFFVGdRWGZfWl9jX2l5RFRjWTdPcXQ3U1R5TnpfZw?oc=5",
-        "title": "Dlaczego ewakuacja Ołeszek prowadzi przez Rosję? Ekspert wskazuje powody",
-        "official": false,
-        "forYou": "Słuchaj poleceń służb, weź plecak ewakuacyjny, dokumenty i leki. Nie wracaj, dopóki służby nie odwołają ewakuacji.",
-        "guide": {
-          "href": "/pl/poradniki/plan-ewakuacji-rodziny/",
-          "label": "Plan ewakuacji rodziny"
-        }
-      },
-      {
-        "at": "2026-10-30T11:55:00.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "CERT Polska",
-        "url": "https://cert.pl/posts/2026/10/CVE-2026-110970/",
-        "title": "Podatności w oprogramowaniu Płatnik",
-        "official": true,
-        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
       }
     ],
-    "updatedAt": "2026-11-01T16:57:42.673Z"
+    "updatedAt": "2026-11-01T21:25:13.371Z"
   },
   "en": {
     "sample": false,
     "items": [
       {
-        "at": "2026-11-01T15:19:53.000Z",
+        "at": "2026-11-01T19:00:32.000Z",
         "cat": "energy",
         "sev": 2,
-        "source": "شبكة تواصل الإخبارية",
-        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE13eTlnX3EzYkxhTW5mcWZ4NkhkUFBMZmFQejdwMXdfRjlCS2daTEd1dlZpNUlkQjk0aC1tQmdIRFBselhpRGdzcUhOZFNNN3dUWExV?oc=5",
-        "title": "‘Your excuses cannot light single home’ – Atiku knocks Tinubu over blackout",
+        "source": "Real Broadcasting Network",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQeUVsS1E2UW5VZ2d5UlB5NEdoUWlIOGF0ZTA4X2lScVpxMjNvb3lqRngwY1VnVWdCUElXU3RTd09MdVBZMUhFWlo0RmpmaVBoQTUzd1pyQml3VTRGT0t3dWFXeWFIbkwzZnNnNGU2ZUl2X1MzMzhSNFlzeUQ2VmxUYU5KQk8xQjJGQ25rQnR4anlzcUpLZVd2Q1o2QlQwdDBWbFVxWjc4V0pHRWxEaTY3YUJMSktEUHpLcllsRjRFdUhBdw?oc=5",
+        "title": "Atiku Criticises Tinubu Over Persistent Blackout, Says Government’s Excuses Cannot Light Homes",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
+      {
+        "at": "2026-11-01T18:30:41.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Media",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTjNxbWJoU09TdklwOUtnUnhUZ2cxRkxDVDI0WGEwTU5la0l2VXNZSzQ2TVJocnF3Um9teHV0MV9sV0pMcUUwczZzYUdTT195SUdFQUxLVjNvbmVSOHplNDlVdzVERTJDT1kxYVhkRU5EVG1FM3pWVGk3WWJXdmQ4elNrU051VXRFQXpkc21fOGhFVmh3ZjhIWlA0MA?oc=5",
+        "title": "Hackers breach Russian State Statistics Service and seize real data on war casualties - RBC-Ukraine",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
+      {
+        "at": "2026-11-01T16:51:43.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The Jerusalem Post",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5hNEl0U1dTYjV6dVU0c0RrTUtpeUpFYTZkeklLTEk4SDdERXFzZERKOE5RN1ktQXVYa3VlWk92UFlzUFRPSEtnTE93VHc2R1cydmU1TDNXcFdZNFNqZDVaR1VETFJDNGVEclE?oc=5",
+        "title": "US, Israeli targets, timelines, priorities for a potential third Iran war",
+        "official": false,
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       },
       {
         "at": "2026-11-01T14:57:41.000Z",
@@ -308,6 +324,16 @@
         "title": "The Maspalomas electrical shield: how the Ceisa cement plant's remuneration works against the risk of blackouts",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
+      {
+        "at": "2026-11-01T00:00:00.000Z",
+        "cat": "disaster",
+        "sev": 4,
+        "source": "GDACS",
+        "url": "https://www.gdacs.org/report.aspx?eventid=1001346&episodeid=4&eventtype=TC",
+        "title": "Tropical Cyclone MURASU-26 (Red alert)",
+        "official": true,
+        "forYou": "If you have family in the area, check in. Review your own evacuation plan."
       },
       {
         "at": "2026-11-01T00:00:00.000Z",
@@ -398,38 +424,8 @@
         "title": "Iran war live: Iran’s Supreme Leader orders army to deliver ‘immediate response’ if US attacks",
         "official": false,
         "forYou": "Defence procurement news. No action needed."
-      },
-      {
-        "at": "2026-10-31T09:04:33.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "IntelliNews",
-        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPRFhhWWFyWmRGZ2FoX3I0VDBvcm05MnY2ZGlKNllCcU5mOTFFQi1ybThHaXo0b2d5SWNROUlaemU5eGoyZmpONFI5MEg1RDBDSGdQbER4Qmg0Y2JoSGdabkloWjNyb00tV1RJYTIyVzBwbU5ZTzBFRHBuTUU4dWh1cVRjU25fUjlta2tYbDVlb0lTSGdMVVYwSlVyZG5tVmxtdlVLZGQ5SUhtcjBWQi1ObzdjWGV2VnNUdWJ0b2hTaE9ibDNMMi1QQW5LS2ppNVRNMm9RLVBiNm1YZw?oc=5",
-        "title": "Missile War Monitor: Ukraine resumes refinery strikes, Novak says, as Russian strike blacks out parts of Kyiv",
-        "official": false,
-        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
-      },
-      {
-        "at": "2026-10-31T08:36:46.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Aaj English TV",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTVZhYlhqTUtyQ2w1S1JocC1XY2tXU1ZDaG1uMllFMnBNeFlZTmVXYjFSaGdRZngtN2NSd2FyeDdCWG4zS3JGZ3l3cWo5QXNFb0RKLXMya3RGZl9HQ2t1Ql9oTWo1ckZ1NUxiN3VpLVNZbFo1WnItaXAtS21qS3U2ckd0dmlPTlVxeHBBczdrUWhEZ0h5Q2YwY1gtNFdVSW8?oc=5",
-        "title": "Egypt fears escalation in Iran war would be more destructive",
-        "official": false,
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-31T06:07:56.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Newsfirst",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQS0RDRWJRUjJaTVpfYlNtWFJIUkxQOXhKUTRZV25UUDZfbFdxSjFZa29HX3NrcmlHVVl1WmI1VWtHT3BuV081SS1tQzY5Wm9EYWtGaWkwUkxlVGhhQUtueVZhTEdUQnctcUNLaGx2dS1KeUlkSVFVUmpsUktfc3pQZHBER0U4YXZRRmNkZDZhOWI2MWt4NFd3Vmh0Z3VPWVlzVzRhNGJJLXA?oc=5",
-        "title": "Initial Investigation Report Submitted on Nationwide Power Outage",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       }
     ],
-    "updatedAt": "2026-11-01T16:59:44.334Z"
+    "updatedAt": "2026-11-01T21:26:52.314Z"
   }
 }
