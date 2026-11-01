@@ -2,7 +2,7 @@
   "_comment": "Aktualizuje scripts/update-data.mjs codziennie. pl = Polska, en = świat. Składowe z mode=manual ustawiasz ręcznie.",
   "pl": {
     "sample": false,
-    "updatedAt": "2026-11-01T09:48:55.193Z",
+    "updatedAt": "2026-11-01T16:57:42.670Z",
     "score": 16,
     "delta7": -1,
     "ago30": 21,
@@ -80,7 +80,7 @@
           55,
           47,
           54,
-          24
+          26
         ],
         "stale": false
       },
@@ -248,9 +248,9 @@
   },
   "en": {
     "sample": false,
-    "updatedAt": "2026-11-01T09:50:15.033Z",
-    "score": 35,
-    "delta7": -5,
+    "updatedAt": "2026-11-01T16:59:44.333Z",
+    "score": 39,
+    "delta7": -1,
     "ago30": 30,
     "history": [
       30,
@@ -282,14 +282,14 @@
       39,
       35,
       25,
-      35
+      39
     ],
     "components": [
       {
         "id": "conflict",
         "name": "Global conflict",
         "weight": 30,
-        "value": 47,
+        "value": 42,
         "sources": "GDELT · Google News",
         "trend": [
           49,
@@ -299,7 +299,7 @@
           48,
           48,
           16,
-          47
+          42
         ],
         "mode": "auto",
         "raw": [
@@ -327,7 +327,7 @@
           46,
           21,
           48,
-          25
+          46
         ],
         "stale": false
       },
@@ -353,7 +353,7 @@
         "id": "energy",
         "name": "Power & grid",
         "weight": 15,
-        "value": 24,
+        "value": 22,
         "sources": "Google News",
         "trend": [
           33,
@@ -363,7 +363,7 @@
           26,
           5,
           5,
-          24
+          22
         ],
         "mode": "auto",
         "raw": [
@@ -396,7 +396,7 @@
           49,
           27,
           23,
-          47
+          45
         ],
         "stale": false
       },
@@ -444,7 +444,7 @@
         "id": "cyber",
         "name": "Cyber & infrastructure",
         "weight": 15,
-        "value": 10,
+        "value": 46,
         "sources": "GDELT · Google News",
         "trend": [
           36,
@@ -454,7 +454,7 @@
           40,
           38,
           41,
-          10
+          46
         ],
         "mode": "auto",
         "raw": [

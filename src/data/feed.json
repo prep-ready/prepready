@@ -224,11 +224,31 @@
         "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
       }
     ],
-    "updatedAt": "2026-11-01T09:48:55.195Z"
+    "updatedAt": "2026-11-01T16:57:42.673Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-01T15:19:53.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "شبكة تواصل الإخبارية",
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE13eTlnX3EzYkxhTW5mcWZ4NkhkUFBMZmFQejdwMXdfRjlCS2daTEd1dlZpNUlkQjk0aC1tQmdIRFBselhpRGdzcUhOZFNNN3dUWExV?oc=5",
+        "title": "‘Your excuses cannot light single home’ – Atiku knocks Tinubu over blackout",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
+      {
+        "at": "2026-11-01T14:57:41.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Українські Національні Новини (УНН)",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZy1nYXVpM2dpZjdCaUk2V1djM0F4d2tBazdWYjdCd055VmdqYmxxb0llSTVsX2JJQXhWdU0yZGdVRUVWNlhxVDNDM3F5ZjNfRVJtUTVNR0p1ZVZJMEJwNk5wSDdLVkhFOHk0MU9Sc1BBdGxZVUdSRFRMbzBUZ3FxZ0tFd0d4NXMtcjh0NTBKSWZtTlRjUEFjcHIwYy3SAZwBQVVfeXFMUGctZ2F1aTNnaWY3QmlJNldXYzNBeHdrQWs3VmI3QndOeVZnamJscW9JZUk1bF9iSUF4VnVNMmRnVUVFVjZYcVQzQzNxeWYzX0VSbVE1TUdKdWVWSTBCcDZOcEg3S1ZIRTh5NDFPUnNQQXRsWVVHUkRUTG8wVGdxcWdLRXdHeDVzLXI4dDUwSklmbU5UY1BBY3ByMGMt?oc=5",
+        "title": "Rosstat suffered a large-scale cyberattack: databases and servers destroyed",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
       {
         "at": "2026-11-01T09:24:29.000Z",
         "cat": "energy",
@@ -246,6 +266,16 @@
         "source": "Breaking News, Latest News and Videos",
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZHhhMjFLbWxjZG1TOFh3d2d5SWE2azZqOG5MT2o5blgwOHJmNExXN242V0M4bzdCSEpPcE9DZnNyYXZVRkF2S3ZsUkt0S1lfZ19WaDRKU1NZSjQtbTZLWW5VMDJrQ2ZtTXFYQjlscHRBelBDZlFFWTVyT3ZSQU5Sd1ZhcnpLaGJzeldZc0ctVzhMQURrX0JfZ25SNC1tbmhSLWhuNUxMcThXbGlo0gGyAUFVX3lxTE9wQVFOc01tMjRpYndlY0RrSVFmQjhkNmJkUllnckh6T1Y2aXpwLUxoMkZhTUJ0Mnp0M0JwLW9kNXRtdmpRcWJqYkxoOHJCaktRbDVGYllGenFCZDJyazFXaUl6Vk9aM0VGQWtYOFdWVUNJUEFQMHFvMUNSb1FrODBpdkRETEZvdDlSTGlkMlIyOWhEUy05REQzck1zQUxYUnN6RTlNeDRVZ0pYYk1sdWtWMlE?oc=5",
         "title": "Trump contradicts US intelligence on Iran, doesn't address regime change as before - ABC News",
+        "official": false,
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
+      {
+        "at": "2026-11-01T08:07:39.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Radio Free Europe/Radio Liberty",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9OeTc1VE5lcEx0QzNhVlh6TnBVZUhfdi1MR0xZQnJOLWo2U3dHb09ucVhPNXctSTFXNTF6R3EwZEJXSl96SF9zS2FPUWFwcHpHeFVMaGtUckZiaGIydHc1SFMwT3U1R1h5WnMtY2RGUkdtYm1jV2VUMWFB?oc=5",
+        "title": "Trump Renews Iran Threat, Says US Still Needs To 'Take Care' Of 1 Or 2 Targets",
         "official": false,
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       },
@@ -278,6 +308,16 @@
         "title": "The Maspalomas electrical shield: how the Ceisa cement plant's remuneration works against the risk of blackouts",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
+      {
+        "at": "2026-11-01T00:00:00.000Z",
+        "cat": "disaster",
+        "sev": 4,
+        "source": "GDACS",
+        "url": "https://www.gdacs.org/report.aspx?eventid=1001346&episodeid=3&eventtype=TC",
+        "title": "Tropical Cyclone MURASU-26 (Red alert)",
+        "official": true,
+        "forYou": "If you have family in the area, check in. Review your own evacuation plan."
       },
       {
         "at": "2026-11-01T00:00:00.000Z",
@@ -388,48 +428,8 @@
         "title": "Initial Investigation Report Submitted on Nationwide Power Outage",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-30T23:23:16.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "SC Media",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQ3lPdDFDaTYwX0dfZGxmTWFZR2hDdUJpSm5qbGViRk1LMGE4UndEeVctZ2wwU0FiMlZ5U1NpZE91VlRGVDhoOUF5LWRWdl9WdWpxa2loZ0g1NFpxMV8wck9QU2tRUnRjZ1ZlRHo1clFJWGRMT2tpRGpZakNsQWhTMFdwaGk1eHJ2S3pTX0FXc1JreWFOVVd3d3MxRVlhRjJGYThUaHpKTXdXdw?oc=5",
-        "title": "Moldova investigates massive cyberattack on national identity infrastructure",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-30T21:16:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "news.sbs.co.kr",
-        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBJalc3bXRCNnZaYm9IYU9HVm9NUjN3cGduOHJHa0tIQUh1TlRJci05OUp1RW1VWHdxcENoamNtc1VrTVBnSGJ4bkdzNjdBT0JMYlBvTEJhV3JscVlucTkyR29UMm9kUQ?oc=5",
-        "title": "Houthis Strike Presidential Palace and Airport in Aden with Missiles as Civil War Intensifies",
-        "official": false,
-        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
-      },
-      {
-        "at": "2026-10-30T19:35:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Media",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOeExXcjYweFRYRDVyMFpkRGozamx4Tk9sM2RuVE1yZWFZZTVHUlRZNlNob0RzTDBmNnd3TFBRZGpWa0NORmdrZDdYM0s2MjIzYkZ5UGJmM3JtZUFhcFI0RFhiRUpJekpzMG16MFVUSU1VSk5yTUFlXzhYQWIwWWJRZk5KRFV5ckJjeml3Ni13am4wZw?oc=5",
-        "title": "Satellite images show Russia's Marinovka airfield hit by Ukraine's Neptunes - RBC-Ukraine",
-        "official": false,
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-30T19:05:22.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "Planet Biometrics",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQYXpRSFlvaENiRldxNmtFVlpXdnBmWFlBdlN1WW9BN1UwZ2RDNVhpamxuVXNuTVdaX1FqNWE4dmNhTXdiNDBFbUxDTEJfRWJhTEgzTDRzM1FHSGhEVFAwUm9uQnREWXc5eXlkZHNoMWlCNktQbmFsaHRYLVdLZFhEeGZkaGRWSXpTdlloQ0dGWnprQnc?oc=5",
-        "title": "SafePay: #StopRansomware campaign of joint cybersecurity advisory",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
       }
     ],
-    "updatedAt": "2026-11-01T09:50:15.033Z"
+    "updatedAt": "2026-11-01T16:59:44.334Z"
   }
 }
