@@ -112,6 +112,20 @@
         "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
       },
       {
+        "at": "2026-10-31T07:47:42.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Polskie Radio 24",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQM1pPTDdweEQ1YjM4ZkQxZElHclNGRS11b1BmYWZBY21fZk9Nd3laLVlmZi1qdjVNY3RzZWlHcV8tWGdiRmlxYm9hdDczdVlJd3huS2RpbTV6cHU3RHBsUmItUl9ZdmRYRjB4d1VxSllRRUxzWVNSRlhqWGdhNzFwYzJaY2d0RjBudW0w?oc=5",
+        "title": "Ewakuacja Ołeszek. Część mieszkańców trafiła na Krym",
+        "official": false,
+        "forYou": "Słuchaj poleceń służb, weź plecak ewakuacyjny, dokumenty i leki. Nie wracaj, dopóki służby nie odwołają ewakuacji.",
+        "guide": {
+          "href": "/pl/poradniki/plan-ewakuacji-rodziny/",
+          "label": "Plan ewakuacji rodziny"
+        }
+      },
+      {
         "at": "2026-10-30T23:38:03.000Z",
         "cat": "safety",
         "sev": 2,
@@ -140,6 +154,16 @@
         "title": "Kłęby dymu wychodziły z okna. Strażacy wyciągnęli kobietę z płonącego mieszkania",
         "official": false,
         "forYou": "Unikaj miejsca zdarzenia i stosuj się do poleceń służb. Numer alarmowy: 112."
+      },
+      {
+        "at": "2026-10-30T14:45:01.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Defence24",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWmQxX2YwWVd0WC14U0pfOXVUYi0zVERnQ3BsSU8yU1VLbXJBUzQtbVBTd1cxZzlReEJWS3diN1hVRFAxSTZBdHM3MmVGMXZsQXRqSUh6TER4UzhKbThBTVRvUWZZZUtTbmZOWW9NVVdZMFJ5c0ZKMmxDZldaX0xhMGRWQnlhdmM1VC1UWGhvbDllSTZtZ3JpMjdDMXJSeTNmWVdFLTlGNU9Fa3l6?oc=5",
+        "title": "Ulepszone Kraby trafiają do wojska. Wzmocnią 11. Dywizję Kawalerii Pancernej",
+        "official": false,
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
       },
       {
         "at": "2026-10-30T14:22:00.000Z",
@@ -198,37 +222,23 @@
         "title": "Podatności w oprogramowaniu Płatnik",
         "official": true,
         "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
-      },
-      {
-        "at": "2026-10-30T07:34:40.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "Warszawa.Wyborcza.pl",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVGtTMnZsSDNNc3hVekdGMHVFUEhsek45eE9nYmpKUmhYM0E1djlHVWxrNlFUXzg0M2JObUh0RDZmcVJZZWFHV2duYWpxVFg0dnU1RnRLQzdlbmJoeS1CcUcwQXc5cFBIbzNhOWZrRk12SHQ2WXNWVHpMSWtoMXRfVzNrekZhWG5Ncmt2amUzbURIeWNXY2ZDOUNJVUVfOU1IOWp5SWNEanJySEZrMHNWWDE2WDllRnJaQTdN?oc=5",
-        "title": "Nożownik z autobusu zatrzymany w lesie. Zaatakował Ukraińców",
-        "official": false,
-        "forYou": "Jeśli jesteś w pobliżu: uciekaj, a jeśli nie możesz, ukryj się i wycisz telefon. Dzwoń pod 112, gdy będzie to bezpieczne. Unikaj okolicy i nie powielaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-10-30T07:27:53.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "OKO.press",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdEF4N3lGN1JObEJYbEMyaHNBNDNxZnRsaEFmR0lyYXRTM2drRTl2RmROMzlyS0RVeExIcHFGd2NKZDNKSTgxbmM4dXR5REJyZ0pvaHg4SmtBcTlmYWRSY19tQ1BVX3o3NmZuSGRPdk15UDh0eS1HUE8ycTdzVXZFTHl0VnlvYUlYc01zX3lYZlhvb19wMHRYX1pVdERRQ1Y1d2kzZE44VWc1Tm1SQjllVFF4QmhmYzBqU21pM0JCRWk?oc=5",
-        "title": "Drogi do Oleszek zostały rozminowane. Dziś powinna odbyć się ewakuacja mieszkańców",
-        "official": false,
-        "forYou": "Słuchaj poleceń służb, weź plecak ewakuacyjny, dokumenty i leki. Nie wracaj, dopóki służby nie odwołają ewakuacji.",
-        "guide": {
-          "href": "/pl/poradniki/plan-ewakuacji-rodziny/",
-          "label": "Plan ewakuacji rodziny"
-        }
       }
     ],
-    "updatedAt": "2026-10-31T22:53:20.682Z"
+    "updatedAt": "2026-11-01T02:41:31.444Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-01T00:27:43.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Maspalomas 24h",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZkNQZVU4dGFoandEY2NQZ2trVUJWMEZqVmVPQXd3S2trTHhMV2R1bTc2YlZFbDVjNmpJX0s2dkg0c3pxUzR2dXZPUTZ0NGN3eFZTekI1V1hQWXp3Y0lVUUpoelRxUlo3M0pOTGo4d3NPU1dNYlhjZUFuYzQ0NG5YZ04xX3ljUUFQQ2IweERJdXhpWFhmMEY2Vg?oc=5",
+        "title": "The Maspalomas electrical shield: how the Ceisa cement plant's remuneration works against the risk of blackouts",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
       {
         "at": "2026-10-31T16:59:56.000Z",
         "cat": "cyber",
@@ -238,6 +248,16 @@
         "title": "Hackers Apologize After Cyberattack Disrupts Critical Healthcare Equipment at Hospital",
         "official": false,
         "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
+      {
+        "at": "2026-10-31T16:52:14.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Breaking News, Latest News and Videos",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdFpESHlsUDhvV1BNVzFHQzlsRmRnY21OdFlaVFZpUmNmcGdZeHFGWXFSa3M0OFIyY1VRVmdiaERTOFZMS0dsTjdzZGtJaDgzSHNMSUx5NHQ0eEhVZ21QN2VEQ1hReF9iTXlNZ3hhRjROTWFBclA1SFk5YXJIU0pqTFpPVXhEMkFUMDI2Z0tlNHA2empobHN0b0Y4MNIBoAFBVV95cUxPaERoY3BuYjFOcHBDUnFyOVJYX0NCTmJwSVpTREpiQ01VWnJMZWZpYTBHM3Bqd2c0bU9GNWw5R080cVJtbDNNWHRteTFoTUJLMUdJelZjMV9OazVPRlZMMEs4TjExbk9LZEQxejlpTHBseHRHWkFHWllFZGlIOGxXeEhreWg5MUF6SjBPTjJqVHFEWkpUZ0JtMHoweVc2VzBm?oc=5",
+        "title": "Iran targeted US air defenses then hit aircraft and buildings on Mideast bases, AP analysis finds - ABC News",
+        "official": false,
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       },
       {
         "at": "2026-10-31T16:09:11.000Z",
@@ -408,28 +428,8 @@
         "title": "Cyberattack Forces 103 MW Huatacondo Solar Farm And Battery Storage Offline In Chile",
         "official": false,
         "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-30T05:48:18.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "Cybersecurity Insiders",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPWE1uekp0NWxmUDNDdTg2UWUxSUNTdEdINTQtcjJJQjlXWW5vem9rallxQVhQdWF4RDUxeG1ONjhBd2IxbG5DaFJOSlB5NW9EclFOSGFfMk5oREU5TGlvZUI3Z3RfMEppYkxsLU8yQkh6c1hQZmhrYWpiUEotaFNBb0F4QTJSaFI5Rk1udTUxc09XcGZBTDkyeTNsN2NOdThRMEctdjJoYVJycDY1S1RkZElMZ1lNWElwSzNiQThMM1R4VVRDSG1qOEM2bEkwMklx?oc=5",
-        "title": "Investigation launched into suspected Cyberattack on Refrigeration Systems at US Military Bases",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-30T04:55:00.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Wigan Today",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOOEo2WUxaUkoxdVBuNUx4U2JwMTBiUHhjaVlIYktOTzBiY2ZveVFLc01wX2p0ay1YNHprejVUdTZUaTU1ZEVXdmFNc1pEMVFFUWdETjVuQnBaZ05ONHVKb0F0R2RMckhlLWljX3VLZTF5YTJidHNaNm5uR1I3NzgyQlJaSF8?oc=5",
-        "title": "An internet outage could affect payments, banking, comms and access to key data",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       }
     ],
-    "updatedAt": "2026-10-31T22:54:30.529Z"
+    "updatedAt": "2026-11-01T02:43:15.945Z"
   }
 }
