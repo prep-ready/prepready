@@ -4,6 +4,20 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-11-01T07:40:00.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "WP Wiadomości",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNNUtFNU1Vbkt2X2V2YjI2N3NhdjMyRkkwR1NxWUVHRE9NZHFialA5VTBycW43QlJFNjZlVVVqVHpuMmJBc0NOQVQxVWlOamt3NVBNcFJhajFYVHB2V3lhZmhlQlU2SmVKbW96ZTFYa0hIQndzbjhCSzR4TzZLSnBPRHFVTVRHR0p3WFpOZWVUOWFhUW9pNTBzZG1nc3hGVzl6WFNF?oc=5",
+        "title": "Ewakuacja mieszkańców Ołeszek. \"Wyrwaliśmy się z rąk śmierci\"",
+        "official": false,
+        "forYou": "Słuchaj poleceń służb, weź plecak ewakuacyjny, dokumenty i leki. Nie wracaj, dopóki służby nie odwołają ewakuacji.",
+        "guide": {
+          "href": "/pl/poradniki/plan-ewakuacji-rodziny/",
+          "label": "Plan ewakuacji rodziny"
+        }
+      },
+      {
         "at": "2026-10-31T18:13:41.000Z",
         "cat": "safety",
         "sev": 2,
@@ -112,20 +126,6 @@
         "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
       },
       {
-        "at": "2026-10-31T07:47:42.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Polskie Radio 24",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQM1pPTDdweEQ1YjM4ZkQxZElHclNGRS11b1BmYWZBY21fZk9Nd3laLVlmZi1qdjVNY3RzZWlHcV8tWGdiRmlxYm9hdDczdVlJd3huS2RpbTV6cHU3RHBsUmItUl9ZdmRYRjB4d1VxSllRRUxzWVNSRlhqWGdhNzFwYzJaY2d0RjBudW0w?oc=5",
-        "title": "Ewakuacja Ołeszek. Część mieszkańców trafiła na Krym",
-        "official": false,
-        "forYou": "Słuchaj poleceń służb, weź plecak ewakuacyjny, dokumenty i leki. Nie wracaj, dopóki służby nie odwołają ewakuacji.",
-        "guide": {
-          "href": "/pl/poradniki/plan-ewakuacji-rodziny/",
-          "label": "Plan ewakuacji rodziny"
-        }
-      },
-      {
         "at": "2026-10-30T23:38:03.000Z",
         "cat": "safety",
         "sev": 2,
@@ -224,11 +224,51 @@
         "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
       }
     ],
-    "updatedAt": "2026-11-01T02:41:31.444Z"
+    "updatedAt": "2026-11-01T09:48:55.195Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-01T09:24:29.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "The Indian Express",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQTHFLbVh3clRvY1FzTHdmYkhBc3VIeHhyZE4yN3NYYzBCY0ZHWG5NdWFoREp3WHFlX2RGVHFJSVdId3MwV0hxWk9fQl9lOVBUeks2MTEtNkZlR0hTbjdpRjRJV2ZOSEZRNjcyelZUanRmY2VhM3IwVFkyOFJhQUQ3N1NlejZXZlFqczQ4bnl3MU5BdWpyNmRUNjZxd183M0E2N0o5SldKNWw2YUh3ZVJSMVdzbDJULUlNZzF5LThnQ01QZVFlUUNMNUhIMUc0cTlf0gHXAUFVX3lxTE5RU19vUkNTOVhldVc5LXdQelFFRC13Y1RVb3dmNHJwSkhtbXJQTXRqNHlNR1E0TExuU2NOQXBkZVJod1NBalRNY3FvN0t1QUZ0Sko5c042RklJeEhuZHZPYVhCQVhzTk9xYTM2LVgyQkR4LVB5WXgwbFNVb0ptckR5YmtEZGptN1FNX2ZVUzBDVUEzNmJ6cExCeW5YeEJQcWJXd0QtLXh3cFFVcG9wUWNXaDlPV0NVc1RVN3E5eHFkbWhoQ3F0amRCaVhNZEhTdm9GdnZTSmdJ?oc=5",
+        "title": "Why Sri Lanka’s recent blackout has lessons for India’s rooftop solar push",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
+      {
+        "at": "2026-11-01T08:56:11.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Breaking News, Latest News and Videos",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZHhhMjFLbWxjZG1TOFh3d2d5SWE2azZqOG5MT2o5blgwOHJmNExXN242V0M4bzdCSEpPcE9DZnNyYXZVRkF2S3ZsUkt0S1lfZ19WaDRKU1NZSjQtbTZLWW5VMDJrQ2ZtTXFYQjlscHRBelBDZlFFWTVyT3ZSQU5Sd1ZhcnpLaGJzeldZc0ctVzhMQURrX0JfZ25SNC1tbmhSLWhuNUxMcThXbGlo0gGyAUFVX3lxTE9wQVFOc01tMjRpYndlY0RrSVFmQjhkNmJkUllnckh6T1Y2aXpwLUxoMkZhTUJ0Mnp0M0JwLW9kNXRtdmpRcWJqYkxoOHJCaktRbDVGYllGenFCZDJyazFXaUl6Vk9aM0VGQWtYOFdWVUNJUEFQMHFvMUNSb1FrODBpdkRETEZvdDlSTGlkMlIyOWhEUy05REQzck1zQUxYUnN6RTlNeDRVZ0pYYk1sdWtWMlE?oc=5",
+        "title": "Trump contradicts US intelligence on Iran, doesn't address regime change as before - ABC News",
+        "official": false,
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
+      {
+        "at": "2026-11-01T05:33:13.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The National",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVzF0OTFEeDd6NkxQYjVkWnpCRmQ1cEtKaVJZNWdaaDFySGVQOHY4cklQUXhQSUMxNjRXRFpjcFZhTFBud0ZyQmp4SlM5OGxqY3YtNzRTdGczNXVDRnpKRWJrN1A1TnZaY0pEVEkxRUJCZWtaS1dYT3llWnZIZGswajFiWXZveGhnUFpFZg?oc=5",
+        "title": "Middle East latest: Attacks on ships transiting Hormuz in October highest since start of war",
+        "official": false,
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
+      {
+        "at": "2026-11-01T02:49:14.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "OnlineKhabar English News",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQVnFjWllMTGdxcElzWXFWR0xvc0FkNjQ3ZmRqZUtNODEyZzVvcG9Md0FYbFFEZmhzRFprZ2NqNlZ0MmVzZUtLbjJTYXYtTkFRZHVWZEJqSjFuTnlicHdnN3VDOXNuX1hQZ0E1V1dYX0lMSENqZkpEdkFvNWVWUzdpckg5cy1NNHM?oc=5",
+        "title": "NEPSE’s cybersecurity report offers only superficial solutions after ransomware attack",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
       {
         "at": "2026-11-01T00:27:43.000Z",
         "cat": "energy",
@@ -238,6 +278,16 @@
         "title": "The Maspalomas electrical shield: how the Ceisa cement plant's remuneration works against the risk of blackouts",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
+      {
+        "at": "2026-11-01T00:00:00.000Z",
+        "cat": "disaster",
+        "sev": 4,
+        "source": "GDACS",
+        "url": "https://www.gdacs.org/report.aspx?eventid=1001346&episodeid=2&eventtype=TC",
+        "title": "Tropical Cyclone FOUR-26 (Red alert)",
+        "official": true,
+        "forYou": "If you have family in the area, check in. Review your own evacuation plan."
       },
       {
         "at": "2026-10-31T16:59:56.000Z",
@@ -378,58 +428,8 @@
         "title": "SafePay: #StopRansomware campaign of joint cybersecurity advisory",
         "official": false,
         "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-30T18:24:54.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "EnergyNow.com",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRHM5Z0w3dFFfNEtpem9naS1GakppY2drNmxqQ2xWRDB3b1hmMHBDWUZZc2ZKY2ZJR2RKejd4YW9CMTYxMzFqX01ZcmNXZG9WMVVKaXFIVlY2WVpBWUpMQnZMOEJaM2xtRW9IMnEzelgwQmQ4djVuYTA1MmVZWVB0a01IeWhuNkJnMnR3TA?oc=5",
-        "title": "Cuba’s National Electric Grid Collapses, Reason Unknown",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-30T16:21:22.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The Economic Times",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVnZucndCQmJxVVVUem81d0FmUXdNaHY1c0ZkNEYxcUJGdUJ4VFMtSk1qVjdZM0MwTnYxQ0tmVm55MEh1ZzZOTEJ6VW1aOHkxeWk1d19xSFBDTjIwZ1BDZHlocXNweXNxUlZoenh3eUdFSVFDVXE5ZEFVakVjWG94VGlVaEtQaGZSd2JXcFRTSnBfdW82dERFQWNwcTFSMEprTGVpZFBWbjJPdmxQRDdQc2Vmd05MSTN6TjFIcHpnYk1yeG5MVmYySNIBzgFBVV95cUxQOW5VZkxWNkh3dUhaZzVUNXpQVy1VLVlsMDlBNjcyRGhJdDdrLTJIUkYyUV9nMVoxT25NRTlqZEFRT0wxeG1LcG1DdUtaLTlxbVIwRy1ESUJDWE1mRjhtc2lkS3BYenBsbjlZNXliV1o2MFVWRWY2ZG9kVnIydi04bXJGV2VnaUFUUW4yc2g0bm15ZEJBQnk5Ung0bkFZR25FdENISm5BTDZhRFlDdml0OEZ5NWhSWFJZX0RVOG0wVkE1RllyOUJFXzl6M0lYdw?oc=5",
-        "title": "'Missile shield at Mar-a-Lago, mass burial drills': Is Trump ready?",
-        "official": false,
-        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
-      },
-      {
-        "at": "2026-10-30T15:28:58.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNanJCUjZhRks2bGFTc0ZOM2RHN3p4RHNKZUtvV1NXbklHbTdneXV0REQ3alR2ZmYzZzVuWldBOXFLYTBTSEJCRE9FbHRuSUtXWGRpSW95dENra19UVFd5ajJrT1RVWmgzeTZsbTNUZzlNQmJMZjhOWXpsSWxCQUxXS3A4OEtmSHJFR0ZfcU9mcUM1R203bUQtXzR2M0lOekV1MDAtZHNNS1pwa0JLekhnYVpR0gG3AUFVX3lxTE5IWXFSbWVBZDRxdmJkOXBfODRqd2Q3dWcxYk9KZkR6UWJUMU43OFNuaF9NU3l2MHlQR1BLR2s4akRtdllsSms3SGRIMXIyRHcwZDZIRklsZnlFb01wX1pDY1pwSW54Q0tpX29VbmpiY3hxby1FeXBfaV84YXU1VUJkUEdNUm5keTVXbDBmdkRMWkMwZE9YTWdDRGZET2VrQUt5TDFiTnFLRmhaMUQ0YkE1Y3RFTm5qTQ?oc=5",
-        "title": "‘Need a Plan B’: Yemenis in Aden prepare for another war as missiles fall",
-        "official": false,
-        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
-      },
-      {
-        "at": "2026-10-30T14:36:27.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "FOX 13 News Utah",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQbUJTbFl1ZHhsSzU2MFNvd1ZodTNSOGF6VXBwa0xKbkRGb1hsZE5pMHhaa0hjck5VZkhYbHNkOU8zT3VKcUZGSDktUF8tcHhOajd0YW5PSGNoajhwejg2LTZwd1VfcXB3dm0xeUlYdWFrX05PaURBMkdyckZ1ZlhXOQ?oc=5",
-        "title": "Stormy Halloween Weekend; Heavy Rain Likely",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-30T09:49:14.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "SolarQuarter",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbVVmTDRLQ25Wb2lQT2hvTG0tcEswNVZZb3hycFR5dS03V2xWVkp4cGx3ZFltaTg3QU1PSkpoeFNuVm9GczNKR1lya3paWWhFLThzcmpFUkdXaGU1WHV5NjM0aU1YcmxxcERNdi1rMkdSNG1WOUx3VW9jSGhPenpjZlJUckhCTVpBUjNsdzJXYzN6dVMxVTdiM283Mzg1SmZnZ3lUbVpQSGVzT2poZzZCUF9hd0hrbzhUaXpHX29n?oc=5",
-        "title": "Cyberattack Forces 103 MW Huatacondo Solar Farm And Battery Storage Offline In Chile",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
       }
     ],
-    "updatedAt": "2026-11-01T02:43:15.945Z"
+    "updatedAt": "2026-11-01T09:50:15.033Z"
   }
 }
