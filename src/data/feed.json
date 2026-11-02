@@ -4,6 +4,88 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-11-02T15:19:04.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "TVN24",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNWkY0TF85TzkxRTh3c2UxUVNSa0dQQUd2bU84LU9JYXo1RlZCamlYME9YNmgtYzYyZGE3d2NjTE5rd0wtckcxb3Npb19vbU5iREl0ZFh6cXc5XzlsVUY4cjZVa0l2Q0RCZnY4NXc1Wk8zRlY1N1NhUVdyWUNQRUkxa1JIdVhfLVZ5S1JEcTRXem9KZw?oc=5",
+        "title": "Kolejny cyklon zbliża się do Indii. Trwa ewakuacja ludzi",
+        "official": false,
+        "forYou": "Słuchaj poleceń służb, weź plecak ewakuacyjny, dokumenty i leki. Nie wracaj, dopóki służby nie odwołają ewakuacji.",
+        "guide": {
+          "href": "/pl/poradniki/plan-ewakuacji-rodziny/",
+          "label": "Plan ewakuacji rodziny"
+        }
+      },
+      {
+        "at": "2026-11-02T14:42:29.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "Polskie Radio 24",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdWQxRjRSbW5Ka0hNOFoxVG9JcnBnT3RZVXVIZWFWU2stR1FHLVFzaWZTd1dWbk9pcUEwN0VZNXhmdm1uUjBfaVgwWENtVElTU3U2cVZ5UUotZWtxSVAxeXZOZTJSbHdSS0dCWHM0VXFrNWdxenM3WmkzWEVramNzb3JrRnlhcGF5bzRFXzI5aw?oc=5",
+        "title": "Alarm bombowy w samolocie Wizz Air. Poderwano myśliwiec",
+        "official": false,
+        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112.",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
+      },
+      {
+        "at": "2026-11-02T14:19:37.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "WP Wiadomości",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUGlrQUxyTkZjN09yUVNxVjl5UWxzam1yMkJoX2hZRk9XYlNERkdwOGZwYldlVXQ0WVN4UHA0VnBZLTBYd3pub3lfeldBUXNjNjlPMHZzN2RUR3ZXcWgyTDA1REUxSmczclBsall1OENGeFhMWU5HVWJHVmgwWGNUaXRoT1VRazVsQ1FDbXNNbmFsVVlVbEtpN2prdU9DOVEyUWFxMVFXNW95NmJIdlpmVy1qSmFzcmNCZnlZeFVRcw?oc=5",
+        "title": "Wojsko ostrzegło przed niebezpiecznym zjawiskiem. Komunikat został usunięty",
+        "official": false,
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+      },
+      {
+        "at": "2026-11-02T13:56:07.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Business Insider Polska",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMkUxTEN3cWhpY0RQT0R1aWtMREZXZHlrNjBSZVhNa1lzVU4wU2IybEMzMGY4NVpZTTJveEFvbG1Qdk82WGxXZV9FTVZxVEwwdG5sclhZQXRxWEQxcHVPdnF6TEh1LWdsNlB1MVlMZ2V5U0VuMDkySGhJY1NrSUV2SzUxYmplWDA3cFRjTGZ2cTY4NFlVenR4ZFJOaGoxUHN3Ymxpc21MNzRRWjc0UEtMRTdNYWlsQ1U5bVZQWTk2R0g4Zmtnam1qejNKODI?oc=5",
+        "title": "Rosjanie zmodyfikowali drona Gerbera 2. Ma zasięg 1,2 tys. km",
+        "official": false,
+        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112.",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
+      },
+      {
+        "at": "2026-11-02T11:13:00.000Z",
+        "cat": "weather",
+        "sev": 2,
+        "source": "IMGW",
+        "url": "https://meteo.imgw.pl/",
+        "title": "IMGW: 1 ostrzeżeń meteo, najwyższy stopień 1: Intensywne opady śniegu",
+        "official": true,
+        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
+      },
+      {
+        "at": "2026-11-02T10:54:28.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Rzeczpospolita",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNRUpENmdWNjU5RkkzQ2lpbWNHZE5HVWNITXVKSTRPQzNSR3Q3c2dXM2tlTk5sT3VaMXEyazRMaW5JZDRSbzZZM1ZvSjR6Z0kxempzOE93UzlXanBxV05TOVNxWkJ1LTdaV0ZGblNTNWt5Z3hXNFg0VnJPWTdaal9iMmNEWV85ajRFd0l4NV9UdDhFaFN0QlR0TTYwbmg0MjRJbV9iTVZZNVZqVlhCcmItNEhud2JmNVgzQk1XUURQS0pOekQ4T3V1SzVpbVotTjJVLU4tQTBvSkhMX2dHWDVV?oc=5",
+        "title": "Fatalne wyniki testów polskiej broni dla czołgów. Zero trafień na 1500 m",
+        "official": false,
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+      },
+      {
+        "at": "2026-11-02T07:27:00.000Z",
+        "cat": "health",
+        "sev": 1,
+        "source": "Rynek Zdrowia",
+        "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPTnJBQzdXSGJaWVdiYUFhYXZEeWtVOG1lNDd2THAzaURSc3pfRWNpaE5jNFJOMGE0dE56NWdIRFdjR1QwenRQMW13WWJ4Mm1QQVhKSDd0eTFNbFNvdlZObTNUNFp6LVFaRkVqNEtUS1BDZUlDWV92bEoxSkdVSHhFT1AyUmhfWlJ0aU5uVTR4ZHBfNlRCdVdDd21MWjloc2dkcjNOdzZqOVhIWlhYQ3ZLQnpvc21oSnI4OW50Sk0tNTVwaUo4MnVKZlR4SjRUelZxYWY0RHB4UU9wNUl1Xzc5UWMzbFNxWjdhd01kZ0M2SXZhMUZ5YzVPUDRjZmktRzVBNmJNa2tIa2lUMDVr?oc=5",
+        "title": "Napędza epidemię otyłości w Polsce. Znany lekarz bije na alarm i ostrzega przed jedzeniem",
+        "official": false,
+        "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
+      },
+      {
         "at": "2026-11-02T05:53:13.000Z",
         "cat": "security",
         "sev": 2,
@@ -144,87 +226,63 @@
         "title": "IMGW: 1 ostrzeżeń meteo, najwyższy stopień 1: Gęsta mgła",
         "official": true,
         "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
-      },
-      {
-        "at": "2026-10-31T11:01:00.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Rzeczpospolita",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPVXQxaUttRUpLSWRXZ2xDeGVrZWRDQmdNVDYwbTNuUFF0dmQxbXBUSXFuR3hSQTFmbFZ0N05YRWRZeE1YOENNZ1JzZEdtSHJITFZjekVNLVpMUEVER3NmN0w4ZHZfbXotSmNxbWo3NGdLUlVIOHBWYzR3OXVWOWg0eWxpR1Q1X0Z6MzJCNUlTQURzYThwUXpFSEFpTUxRb1JuSTdxZDVFSllZdHN3cGE5eng2Y2hTZXM?oc=5",
-        "title": "Pierwsi Ukraińcy z Ołeszek trafili na Białoruś. Na lotnisku urządzono im miasteczko namiotowe",
-        "official": false,
-        "forYou": "Unikaj miejsca zdarzenia i stosuj się do poleceń służb. Numer alarmowy: 112."
-      },
-      {
-        "at": "2026-10-31T10:19:41.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "TVN24",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOallaanVCWndjLVAteWRNOHYtUFUtR3hsbExTU3pEVGkxWjVsUC1nM3JJTVRadWJIQkhQOE8xRWV5b1psOVgxTEpiZExManR0Z05rRWsweTFDbjNvcVNJcUZuaEtvWU1yWHQzOEpGX1dRckdqbGNtU1MwYVFrSF9QZG80TU1EcGZkX2RoNS1LNXRDcG1JdXlHM1VYdUgtVE1uTV9F?oc=5",
-        "title": "Miesiącami byli odcięci od pomocy. Udało się ich ewakuować",
-        "official": false,
-        "forYou": "Unikaj miejsca zdarzenia i stosuj się do poleceń służb. Numer alarmowy: 112."
-      },
-      {
-        "at": "2026-10-31T10:19:41.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "TVN24",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOallaanVCWndjLVAteWRNOHYtUFUtR3hsbExTU3pEVGkxWjVsUC1nM3JJTVRadWJIQkhQOE8xRWV5b1psOVgxTEpiZExManR0Z05rRWsweTFDbjNvcVNJcUZuaEtvWU1yWHQzOEpGX1dRckdqbGNtU1MwYVFrSF9QZG80TU1EcGZkX2RoNS1LNXRDcG1JdXlHM1VYdUgtVE1uTV9F?oc=5",
-        "title": "Ewakuacja Ołeszek. Samoloty wylądowały",
-        "official": false,
-        "forYou": "Słuchaj poleceń służb, weź plecak ewakuacyjny, dokumenty i leki. Nie wracaj, dopóki służby nie odwołają ewakuacji.",
-        "guide": {
-          "href": "/pl/poradniki/plan-ewakuacji-rodziny/",
-          "label": "Plan ewakuacji rodziny"
-        }
-      },
-      {
-        "at": "2026-10-31T10:18:00.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "PolsatNews.pl",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZHJGVXdzNVBKeHlZS2ZnUnA1MEdXUHNUZFQxWVFvVU96OWw4ekhxTW1PZkVZREVYdmZ5MGVLdklqam14c2ptd2pERkxPbC1vR2ZDb2lVYUZFc0JNbW9IeGdoOVo4OGZnaHVYZTRPNGFZbU9xZEJQUFJSY0VtTnRGWEpldW5BNkdOZHdfQ1c5aDd2Z1JkOFM4VkhWR0dfbE1maHh6RUxqMVhKOXdUbTc1OHRnUEhIbGY2TVl1TXNn?oc=5",
-        "title": "Mężczyzna z nożem przed Trybunałem Konstytucyjnym. \"Ludzie zaczęli krzyczeć\"",
-        "official": false,
-        "forYou": "Unikaj miejsca zdarzenia i stosuj się do poleceń służb. Numer alarmowy: 112."
-      },
-      {
-        "at": "2026-10-31T10:02:00.000Z",
-        "cat": "health",
-        "sev": 1,
-        "source": "Rynek Zdrowia",
-        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxORWVhbGlPWVBfNFQzSE1oMVNHMnJ4eVdkZW9mSmdPV240enk4TnR2OUdlbmVFdU1nV1pQaG9uVmN0TUhDWFdWZEJOX1RFcHBHQTlPbGJUV3B0QUctbmtaZ3h6N0NhQWU5WGRPb0N0SFlrWDNSakFUenB1ak9yZi1BUFNMXzYwR283NXhmT2lwSDh6eDNrUDJrTy1UQVpGSlR6LUVPODNVdDhqbm80VjlEYXl6VDFLSnZNMF9Hc3FWMmxTS2RXcFE1RUNSVEw4NzZ6dEMyZFVlcjgwQTBwaG4wb0Q0SUQtUQ?oc=5",
-        "title": "GIS: od urodzenia do śmierci. Będą szybciej identyfikować osoby, które nie zgłosiły się na szczepienie",
-        "official": false,
-        "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
-      },
-      {
-        "at": "2026-10-31T09:53:21.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Polskie Radio 24",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSGdnYWxfY3hrcm5WOHdJU2NjMVpMeEFTYlFkZWdTMDhrQnBpR0x6MFNuNUY1RFZ6dVBITUdKeGRLc3p5NEtaR3JLTlg2elBpOGhFd0VCZEtFZHg5ekpSVllEOFNqbVVoUDIyS2YwMVFTTXlibTFrYUwwdTV3SmZOVVBKdW51T200WFRyX2dPS3l3cGdhTzRrbDVlOG1lX0ExM0E?oc=5",
-        "title": "Oczy świata zwrócone na Ołeszki. Pierwsi Ukraińcy dotarli do Homla",
-        "official": false,
-        "forYou": "Unikaj miejsca zdarzenia i stosuj się do poleceń służb. Numer alarmowy: 112."
-      },
-      {
-        "at": "2026-10-31T08:25:10.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Rzeczpospolita",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONVJXT0dIS2otTFZ4SGdzT1hVVGlSbWprMlQxX2xDUGRWUXMzV1FUckpCazlsZDR3QWxCQUN5TDUzYi1BRWRxbzZjT3hzMmpLd0wzS0JYTVRvX1Nhakh6bld3QTZ0cHJ1OF9qbGJUWlNXeHBYMUprUFdCOXNIY3ZlcUR4Nk9fenhGb1N3LW9FSTcyVnhFeXFWd0Q3TWNNZWVueXMyZk1ieHFxVTRReVJDLWRJZW40UQ?oc=5",
-        "title": "Polski żołnierz sam może kupić sobie wyposażenie. MON powie tylko, od kogo",
-        "official": false,
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
       }
     ],
-    "updatedAt": "2026-11-02T08:24:51.285Z"
+    "updatedAt": "2026-11-02T18:53:31.005Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-02T18:25:53.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Campus Technology",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPYnhkRmNJMjk4YXAzR2R0M1RseHdIMFYtXzBSTXdCMldoSGZrdFpFMm14a2Mwc1dCSjhXRVJfcWRBYTFDRExGeUxoekYzeWhBNmNJZnFDS054VnRsSGlGeUFIUG9UdGp6SDZfeVRVYjV3YjZyTDhCRVlSWGZDVXpCa0NFZjdHNEpwcjNDQ004LUFLekxzU2dQLVU4LW5IUi1KR1dkZUF2TmMtbVU?oc=5",
+        "title": "Global Ransomware Attacks Rise 23% in Q3",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
+      {
+        "at": "2026-11-02T16:51:17.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The National",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQT2RZbUR3bEtVUzBna1hJbGUwNHBnLXRJQkhtZDRDLXkyNkFlYzFHTU1ndUh0T1J5RHQ4aEpjWVhfT3F1cUVkS2dqc2NIdXFIaTdDSk1BbXJtNmR2eDNMa3M2TEpEbXR4VEtyYmYyS3pDeW50SGhicmNha2NDc0xvTXFGUnJ0UTd3RWZQNA?oc=5",
+        "title": "Iran war latest: Tehran holding intensive talks with mediators, foreign minister says",
+        "official": false,
+        "forYou": "No action needed. Keep your basic supplies ready; situations can change quickly."
+      },
+      {
+        "at": "2026-11-02T15:05:10.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Insider Paper",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRXlGbUpyZjRNcHowYmx1eDZkMkNQVUlIQzlxdkh3cV9sS191VVBOeXlHSjVRNTktQ0lMQmFPSmhHeV9XM2lVNUNlQkItTjQ4a280ZFVCQ25hWEVvRDlnR0RrTTBvaWdsbUhFUDV2Zkl3eEJDakt2YWZUMl9HSUdTT1R2VDBCLWVtUTNhY2VTRURIVkVGa3N5Nm5qMHRuUnAxN3pPNg?oc=5",
+        "title": "Iran security chief discusses Mideast war with Russian president: state media",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
+      {
+        "at": "2026-11-02T13:57:26.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "UNITED24 Media",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPemZwNzd2VFhYTjM2Ym5uZWdlOWx4aDMwZEtSR1IyNjZEZm5kcDNSUU1NTWJBUm1NaWdNeUVMZ2NtaTlOSUNnekQyZ1BKMG9YOF9oSkdaZGlHczRUM2JuenpRVThqSDZralhuX21TNXhvUXNqQkoxODYyaEJKMC1UeVp5N0loMThDX1NnSkUzeHI3Z2hhZTRYaUJJTXpDZERsdVFOdV9mcC1SQ0xvWjFuYXprcjVNUWx4cWUtcVBtRVNpOGs0RV94b3RCYw?oc=5",
+        "title": "Russia Unleashes Over 8,000 Drones and 230 Missiles Against Ukraine in Just One Month",
+        "official": false,
+        "forYou": "The threat has passed. Check your home and restock anything you used."
+      },
+      {
+        "at": "2026-11-02T13:53:54.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Arabian Business",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeGVzSjhrbUhOTTctX0ViTkJTRnFEZnkwNTJQR3gySTJRQlk3aXNwenJ2Qk1DejVYcF84dmF4WDFPd2xKRzEwazEtOEdOb05OOFhJaXZQVTd3R2lDRHdGbTgtM1JSSEMxeFN5OTlLc0tLNE55MHlHRDZNU3lOVFBDaTJwQQ?oc=5",
+        "title": "Iran war live: UAE will be better prepared if US launches new war on Iran, says Energy Minister",
+        "official": false,
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
       {
         "at": "2026-11-02T07:47:54.000Z",
         "cat": "security",
@@ -306,16 +364,6 @@
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       },
       {
-        "at": "2026-11-01T16:21:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The Independent",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNekJFSmtadHFBVkMyWmJBaUlhNnM0WUgyUGh2eWI1SmlTQzd5YUNScm9ORXpwVnBSbXNJZi1iX3M5aFNBRE1yZWFabzJ6UVlHeXRKbmlOMFVDcFpubHJXampIUGhKT2ZiS3V6S1h2cVo1dEZ6RFFJTGlROTNjWjYxSGNRay1yX3JrUGtKOU00MmxtV05oeHQ3ZkZheDVtc0g0THBLQTU2YTFzc00?oc=5",
-        "title": "Russia suffers ‘deadliest month of war’ as Kyiv hits missile plant and oil refinery",
-        "official": false,
-        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
-      },
-      {
         "at": "2026-11-01T14:57:41.000Z",
         "cat": "cyber",
         "sev": 2,
@@ -384,48 +432,8 @@
         "title": "NEPSE’s cybersecurity report offers only superficial solutions after ransomware attack",
         "official": false,
         "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-11-01T00:27:43.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Maspalomas 24h",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZkNQZVU4dGFoandEY2NQZ2trVUJWMEZqVmVPQXd3S2trTHhMV2R1bTc2YlZFbDVjNmpJX0s2dkg0c3pxUzR2dXZPUTZ0NGN3eFZTekI1V1hQWXp3Y0lVUUpoelRxUlo3M0pOTGo4d3NPU1dNYlhjZUFuYzQ0NG5YZ04xX3ljUUFQQ2IweERJdXhpWFhmMEY2Vg?oc=5",
-        "title": "The Maspalomas electrical shield: how the Ceisa cement plant's remuneration works against the risk of blackouts",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-11-01T00:00:00.000Z",
-        "cat": "disaster",
-        "sev": 4,
-        "source": "GDACS",
-        "url": "https://www.gdacs.org/report.aspx?eventid=1001346&episodeid=6&eventtype=TC",
-        "title": "Tropical Cyclone MURASU-26 (Red alert)",
-        "official": true,
-        "forYou": "If you have family in the area, check in. Review your own evacuation plan."
-      },
-      {
-        "at": "2026-11-01T00:00:00.000Z",
-        "cat": "disaster",
-        "sev": 4,
-        "source": "GDACS",
-        "url": "https://www.gdacs.org/report.aspx?eventid=1001346&episodeid=4&eventtype=TC",
-        "title": "Tropical Cyclone MURASU-26 (Red alert)",
-        "official": true,
-        "forYou": "If you have family in the area, check in. Review your own evacuation plan."
-      },
-      {
-        "at": "2026-11-01T00:00:00.000Z",
-        "cat": "disaster",
-        "sev": 4,
-        "source": "GDACS",
-        "url": "https://www.gdacs.org/report.aspx?eventid=1001346&episodeid=3&eventtype=TC",
-        "title": "Tropical Cyclone MURASU-26 (Red alert)",
-        "official": true,
-        "forYou": "If you have family in the area, check in. Review your own evacuation plan."
       }
     ],
-    "updatedAt": "2026-11-02T08:26:11.882Z"
+    "updatedAt": "2026-11-02T18:54:51.021Z"
   }
 }
