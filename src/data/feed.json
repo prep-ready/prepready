@@ -220,11 +220,31 @@
         }
       }
     ],
-    "updatedAt": "2026-11-01T21:25:13.371Z"
+    "updatedAt": "2026-11-02T01:06:00.515Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-01T22:42:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "New York Post",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbFRlLUEzdjNGQlBzZi1BeTVuWVpMMWZEME13N215dVRudkZSSHJXbnZFUHhZaHFzeFcxbC1aUWdiM3ZWSmw5UF92eThyYkVCN2cxMGx3eTNUbW0zOXd5bmlaeWR2V3d4Q3pDMGRITnhfUUdPTElEdkpFVnVwSTR2WmJZbmJrMDlDbGJrWkNWcGgyOTBwenFrWElRSHUwaVNBQTFFRXNJd2J2LXRLS0ZpV3gyRHh1MEda?oc=5",
+        "title": "Iran’s boosted weapons capabilities have caused up to $15B in US base damage: report",
+        "official": false,
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
+      {
+        "at": "2026-11-01T20:41:02.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "KPLC 7 News",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUXl4TnlTR3Q2MUJyd0IxdDNjeGVNYzFBWFMwbTdDWXpHS0Uzb3liSFlLMW5WaFNhX1lCaEUyOGhpbmhOU2JLd3JGMGpZYVJVUExLdkR6anZ1ek9QMHRfSVo0VnUwSEJGLVZkYTgtV2k1QnNEQnRLZ3pDZzJVVFlDWWV5dm5rNnJnQml3OEs0OVZTbWxncnRUSlZXdHJNSWROZ0FMUEMtNFdZWk42TkQ5NzhB0gGyAUFVX3lxTFBReXhOeVNHdDYxQnJ3QjF0M2N4ZU1jMUFYUzBtN0NZekdLRTNveWJIWUsxblZoU2FfWUJoRTI4aGluaE5TYkt3ckYwallhUlVQTEt2RHpqdnV6T1AwdF9JWjRWdTBIQkYtVmRhOC1XaTVCc0RCdEtnekNnMlVUWUNZZXl2bms2cmdCaXc4SzQ5VlNtbGdydFRKVld0ck1JZE5nQUxQQy00V1laTjZORDk3OEE?oc=5",
+        "title": "Nearly 6 million Bodum French press coffee makers under recall",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
       {
         "at": "2026-11-01T19:00:32.000Z",
         "cat": "energy",
@@ -256,6 +276,16 @@
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       },
       {
+        "at": "2026-11-01T16:21:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The Independent",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNekJFSmtadHFBVkMyWmJBaUlhNnM0WUgyUGh2eWI1SmlTQzd5YUNScm9ORXpwVnBSbXNJZi1iX3M5aFNBRE1yZWFabzJ6UVlHeXRKbmlOMFVDcFpubHJXampIUGhKT2ZiS3V6S1h2cVo1dEZ6RFFJTGlROTNjWjYxSGNRay1yX3JrUGtKOU00MmxtV05oeHQ3ZkZheDVtc0g0THBLQTU2YTFzc00?oc=5",
+        "title": "Russia suffers ‘deadliest month of war’ as Kyiv hits missile plant and oil refinery",
+        "official": false,
+        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+      },
+      {
         "at": "2026-11-01T14:57:41.000Z",
         "cat": "cyber",
         "sev": 2,
@@ -282,6 +312,16 @@
         "source": "Breaking News, Latest News and Videos",
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZHhhMjFLbWxjZG1TOFh3d2d5SWE2azZqOG5MT2o5blgwOHJmNExXN242V0M4bzdCSEpPcE9DZnNyYXZVRkF2S3ZsUkt0S1lfZ19WaDRKU1NZSjQtbTZLWW5VMDJrQ2ZtTXFYQjlscHRBelBDZlFFWTVyT3ZSQU5Sd1ZhcnpLaGJzeldZc0ctVzhMQURrX0JfZ25SNC1tbmhSLWhuNUxMcThXbGlo0gGyAUFVX3lxTE9wQVFOc01tMjRpYndlY0RrSVFmQjhkNmJkUllnckh6T1Y2aXpwLUxoMkZhTUJ0Mnp0M0JwLW9kNXRtdmpRcWJqYkxoOHJCaktRbDVGYllGenFCZDJyazFXaUl6Vk9aM0VGQWtYOFdWVUNJUEFQMHFvMUNSb1FrODBpdkRETEZvdDlSTGlkMlIyOWhEUy05REQzck1zQUxYUnN6RTlNeDRVZ0pYYk1sdWtWMlE?oc=5",
         "title": "Trump contradicts US intelligence on Iran, doesn't address regime change as before - ABC News",
+        "official": false,
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
+      {
+        "at": "2026-11-01T08:07:39.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Radio Free Europe/Radio Liberty",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9OeTc1VE5lcEx0QzNhVlh6TnBVZUhfdi1MR0xZQnJOLWo2U3dHb09ucVhPNXctSTFXNTF6R3EwZEJXSl96SF9zS2FPUWFwcHpHeFVMaGtUckZiaGIydHc1SFMwT3U1R1h5WnMtY2RGUkdtYm1jV2VUMWFB?oc=5",
+        "title": "Pakistan-Bound Cargo Vessel Targeted Near Hormuz Strait",
         "official": false,
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
       },
@@ -384,48 +424,8 @@
         "title": "Walana raids Department of Motor Traffic",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-31T14:16:44.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Kyiv Post",
-        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE80SkIwZG9uNGdOV2hZSFU3bkJuR2pkUmZWVG1WT2hnNTRqUHFzS1NNWDhtNzR4SVA0d3hFWmdjYnc2dXVqeWNUdEtBZUg4Vk0?oc=5",
-        "title": "Russia’s War Against Ukraine Is More Than a Violation of International Law",
-        "official": false,
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-31T13:30:33.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Spotmedia.ro",
-        "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxQZEpVQl83ekdPV0RYdTAyQ084Qm9kRFg5eGs2dlByeFFtZ0ZxSUdNbUY4T1Nmd3lsUEVZV3ozZlEtWFo3Uk5BOVJtRS1lbmhraUpDS2pGV2FvNElPMkVTblRWOXdKR0RiQVNRaGw1UGxJUkZtWTdBY0hnVV92aWRwSTBTdHZtSnlCV01zT3JENmJxVTBwR3Y2WkNHdU5mT0IxUWdISC1Dc3RvUWJ3UVdmQTBHTXExM1lxVHotMWRWRnhRRVVLNW44Y0hnNEtHdWlXSlhQMHNzMGJVQzM2cUVxdkoyMjdtdlNlUE9wd3BESm55UTliS05LY2RVc0NITVR4OHN5SHlISFllYVJWYjNCcnZTcnVVRmJMdWlTaW5EdGk0UlZXZjd5T3lyNA?oc=5",
-        "title": "Day 1711 Coalition of the Willing meets in Berlin. Patriot systems delayed until after 2030. Civilians rescued from occupied territory. Another Russian refinery burns (Video)",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-10-31T12:21:25.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "BBC",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5PNHJSbm1sZDVnWnkwVlhKWG5pcVRXWnNXeW1qUEZTemJvZ3hoN3Q4MjRhUW5USTRndUU4aHlJSjBhUVpvZm9Md0huODJhQWZzUUpOVnVZM3NyREU?oc=5",
-        "title": "US approves sale of 500 Patriot missiles to Ukraine",
-        "official": false,
-        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
-      },
-      {
-        "at": "2026-10-31T12:01:57.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Arabian Business",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeGVzSjhrbUhOTTctX0ViTkJTRnFEZnkwNTJQR3gySTJRQlk3aXNwenJ2Qk1DejVYcF84dmF4WDFPd2xKRzEwazEtOEdOb05OOFhJaXZQVTd3R2lDRHdGbTgtM1JSSEMxeFN5OTlLc0tLNE55MHlHRDZNU3lOVFBDaTJwQQ?oc=5",
-        "title": "Iran war live: Iran’s Supreme Leader orders army to deliver ‘immediate response’ if US attacks",
-        "official": false,
-        "forYou": "Defence procurement news. No action needed."
       }
     ],
-    "updatedAt": "2026-11-01T21:26:52.314Z"
+    "updatedAt": "2026-11-02T01:07:23.488Z"
   }
 }
