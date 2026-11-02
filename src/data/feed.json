@@ -4,6 +4,40 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-11-02T05:53:13.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Polskie Radio 24",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPSVM1QnZnVm1wZlp1bVBteDE4SE40NHBoa0dyeUNrUFk0RFVJZkhvY3VQWFczNXFSM2poa212UHgtVXJfTm80b3FEZmtuN0owYjI5ZS1oSFhzZDBOZHRISTZfODBfb2ZvamswX1ZEbS1zNmQtdV95bGpxNUhxNmtuX0NUNHp1OWVFMktOQWZjc21iOVhxemJHMkp4Mm1qQzJ1VUE?oc=5",
+        "title": "Ukraińcy dostali fałszywe alerty. Wojsko: system ostrzegania zhakowany",
+        "official": false,
+        "forYou": "Sprawdzaj informacje w źródłach urzędowych (gov.pl, RCB, policja) zanim je udostępnisz."
+      },
+      {
+        "at": "2026-11-02T03:32:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Rzeczpospolita",
+        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQcURGbm9QdnFPdUZRRmh6QzdUNU1sdGpmQ3ptUmkyZXhzNzBLRC10Sy1ydmEzY2FwS1Z2OXZra3hPR1VxUUgtTklDTDRJenZfZHBBQmNGSklOQVdQUnphSUw1d3FTanYzVTkxclJhZUpkYkl6WVpJdUFRNldxVm4tcl84d05Xa19xd2YwZE0xaHVCa0o3dUY3c0Z5MjZQWlVtbmtSWm5qenN6SnBaUnNaeWN5TG5naXpQU19kWlZDQUcwZHAwMTVPcm9zTFFkY1RwZHQ1NFF6b2RZX09aNGJDSWFVYzRYMWZKc0VqQXVjV3ZyakIxV2Nz?oc=5",
+        "title": "„W strategii brakuje strategii”. Były dowódca operacyjny o bezpieczeństwie Polski",
+        "official": false,
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+      },
+      {
+        "at": "2026-11-02T01:46:09.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "WP Wiadomości",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZDc2SWFEX0pFZkdqZHJaazViRFBETEVrSEFjV0FRNnBiMkwwaUNqWEVYNWlhNmktMmJRU1ljTnlUMHBHSWsteGxRRl9MM2VnVjFkVVN1cjFYQ296U0lvc013bGNDc21NSXhOUzl3T1dtMHRCOUMxSTV4NWp4OHNQWEFnVW9RVXJqSVdCLS1XY2hCdmdDaW0tZkJGMVRYSDRjSkR5eG9FMkM4MER2Wmc?oc=5",
+        "title": "Przestrzeń powietrzna Łotwy naruszona. Armia zaapelowała do mieszkańców",
+        "official": false,
+        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112.",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
+      },
+      {
         "at": "2026-11-01T20:46:31.000Z",
         "cat": "security",
         "sev": 2,
@@ -12,6 +46,26 @@
         "title": "Groźny incydent na Łotwie. \"Niezidentyfikowany obiekt\"",
         "official": false,
         "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+      },
+      {
+        "at": "2026-11-01T19:07:20.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Polskie Radio 24",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZC02ai1FdWEtZG5xVFZ1clYzam5wWlVBU1JSdlFXRXZ0NXYwZjItT1l6MU1JWXR0aF91TzB2NHR6QnlOdHdJOHhLZVlKN3Fob0VxY2RNZXF4cDVmX3djR2xnOVBfQTE5Q2tHOEY2OVlQLUZ2U0NRY05RTElvZjktMl9aek8yTXdIc1Fva0l5VkFtSHZwNGxmSUgyalhlV1FKUmlvNlpkcDRVYm8?oc=5",
+        "title": "Ostatnie godziny rozejmu w Ołeszkach. Pilny komunikat ukraińskiej armii",
+        "official": false,
+        "forYou": "Unikaj miejsca zdarzenia i stosuj się do poleceń służb. Numer alarmowy: 112."
+      },
+      {
+        "at": "2026-11-01T16:29:35.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Rzeczpospolita",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOV3gwb1hvQ3lkUF82NE03VkcxWlB1YVJjRXNoU240VzhfbXJLOUVfQzZMcEo5cmNmTWZnWHI5OHpDaVkxSjhBNGtlcDhQYTc0VEJsX09LQ0ZiaU85dUtDZzhWNXE4VWxrQktaSkFkN0pDWkUtUEs0VXRXdE8tdThUbjNoZzJqNVFpRkpPYmVQOXBBaFZvbXR2YldYb2ppeHZHd2puenF4eG85RjhZYkFGQTZ1Q1F0UQ?oc=5",
+        "title": "„Panuje cisza, ale jest przerażająca“. Ukraińcy czekają na koniec rozejmu",
+        "official": false,
+        "forYou": "Unikaj miejsca zdarzenia i stosuj się do poleceń służb. Numer alarmowy: 112."
       },
       {
         "at": "2026-11-01T12:09:09.000Z",
@@ -164,67 +218,43 @@
         "title": "Polski żołnierz sam może kupić sobie wyposażenie. MON powie tylko, od kogo",
         "official": false,
         "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-10-30T23:38:03.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Wiadomości Onet",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWDUzbU1KTl9VaHlVU2plc2ZYS2RTQlZXSHhNNEY1cGFKZTR6SXVZU3BkUDZzeXlVek0xWFJ4MW1TbjlhcW84aTNLcGYtcUtja0JqcmxCOTYzbkNiUUl4UE91d2dYT0RJOG41ZUF3bWw2ZmREeS05WlQyUFZqYjMzcml5bXExSVVaSHNWLVRMazFLblh4OE5NQnhxczQtWmRWYUtxZTBfWmw?oc=5",
-        "title": "Gotowość mobilizacyjna od 2 do 8 listopada. Jest komunikat policji",
-        "official": false,
-        "forYou": "Sprawdź, czy Twoje dane w urzędzie i WKU są aktualne. Informacje o wezwaniach podaje tylko wojsko i gov.pl."
-      },
-      {
-        "at": "2026-10-30T17:58:35.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Radio Zet",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbXl3bjNmVUdPM3UzcjM4Q3lBS19PN0F6VE9RUjl5bGdleEpDdndlZUlmSDl4X2ZjSmtHa1V3R2dCMGlqMTc2TVBXVVc3bDd0NzhkSXpia3p2VnpKaGU1NC1xbXRHZnpudnBGVmtJdTNER0FrR2x0LVl4TE9PZU1lOVE0OFg1Uk4yaGdXRTFYM2ZvRy1ZN2tOd1NCTzNyRDlZbWc?oc=5",
-        "title": "Trzy osoby zatrzymane przed siedzibą TK. Jest komunikat policji",
-        "official": false,
-        "forYou": "Unikaj miejsca zdarzenia i stosuj się do poleceń służb. Numer alarmowy: 112."
-      },
-      {
-        "at": "2026-10-30T15:16:02.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Radio Zet",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWDk3UjZKQjZXZUpmWnhYRkFETEpCMnB2aU9TMGJXZEF6QU1BUUgxQ1NJVnduUV9QdzZ4aElHMUVaNVM5cFJSSS12SDlQSFZlRjlteGpZUkpnbnktZ1V6UFZvQmg4dmY2dm1VX3dxTjE4MHpJUlh4S3Y5anp5d0I1SUp5M3VrUDRSNVNLVThQV2RiR0NmZHBYSmZpZ0tLU000cUZv?oc=5",
-        "title": "Kłęby dymu wychodziły z okna. Strażacy wyciągnęli kobietę z płonącego mieszkania",
-        "official": false,
-        "forYou": "Unikaj miejsca zdarzenia i stosuj się do poleceń służb. Numer alarmowy: 112."
-      },
-      {
-        "at": "2026-10-30T14:45:01.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Defence24",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWmQxX2YwWVd0WC14U0pfOXVUYi0zVERnQ3BsSU8yU1VLbXJBUzQtbVBTd1cxZzlReEJWS3diN1hVRFAxSTZBdHM3MmVGMXZsQXRqSUh6TER4UzhKbThBTVRvUWZZZUtTbmZOWW9NVVdZMFJ5c0ZKMmxDZldaX0xhMGRWQnlhdmM1VC1UWGhvbDllSTZtZ3JpMjdDMXJSeTNmWVdFLTlGNU9Fa3l6?oc=5",
-        "title": "Ulepszone Kraby trafiają do wojska. Wzmocnią 11. Dywizję Kawalerii Pancernej",
-        "official": false,
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-10-30T14:22:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "RMF24",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObU52Qm5qX3c2MHlYYzM0OGY0R2Q2LUJidFdYS0xxQnBta21rUjIwRVlyMkd6ZFNXeXJYVHc0SjNnVkdRS1VGRG9EcXh4Nm1WVXI1dGVuTkFIOXAwbk1kT3RlcmhXeC1Cb0UzaXlQV01uLTdwaE5aMVlQNnY4QW5nOUU4aW5sYXdESTk0Tm9xcVlBVE9yVnljelBTUjdUWk9KMmFUNF8xQTFTMTMza2YxZFNB?oc=5",
-        "title": "„Największy i najdroższy” dron dla polskiej armii. Wiemy, kiedy przybędzie",
-        "official": false,
-        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112.",
-        "guide": {
-          "href": "/pl/mapa-schronow/",
-          "label": "Mapa schronów"
-        }
       }
     ],
-    "updatedAt": "2026-11-02T01:06:00.515Z"
+    "updatedAt": "2026-11-02T08:24:51.285Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-02T07:47:54.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The National",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQT2RZbUR3bEtVUzBna1hJbGUwNHBnLXRJQkhtZDRDLXkyNkFlYzFHTU1ndUh0T1J5RHQ4aEpjWVhfT3F1cUVkS2dqc2NIdXFIaTdDSk1BbXJtNmR2eDNMa3M2TEpEbXR4VEtyYmYyS3pDeW50SGhicmNha2NDc0xvTXFGUnJ0UTd3RWZQNA?oc=5",
+        "title": "Iran war latest: Oil prices slide more than 3% as Trump signals more time for Iran diplomacy",
+        "official": false,
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
+      {
+        "at": "2026-11-02T07:46:58.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Latest news from Azerbaijan",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcWZNaEhDNTUzQnM0bHItQUlLX1ZxT3h6N3hqWGJLV3p3T2o2NHRnZTZGcDg4bG5OOEE5N0pFNHVHWGNTSHljNS1nVVY5ajNkTVpWV1R3RXFuLS1tYlhjRzNJbmNvYUVyNF9xWDhlYkZGMWNSU3Q5bUxFakRtcFVyaHBKQmo2ekJM?oc=5",
+        "title": "Eastern Sudan hit by widespread blackout after drone strikes",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
+      {
+        "at": "2026-11-02T07:09:13.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "streamlinefeed.co.ke",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNLS1XUUo3WThvc3NzdzZHcWVaVGN5WXZqWDFralAxZnVPVzFBa1BiWGVieHFOTDI5bnZsbU14MXZ5X2dsS0VzblNNMnRwTk5KQmxpakpoR05aMnBNTmdMa3FTZW04MlM0MThyZWZTX21kNDNqWkxQdjg4a1kzZldXZFRUd0xfQ2tKLUM3cVdzVzN1ZUZIb1Z0OTczaFh6dGpGYUYzT2pnZEVodmZVV0dGV3daTQ?oc=5",
+        "title": "Cyberattack on Ukrainian and Russian Warning Apps Triggers False Nuclear Alarms",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
       {
         "at": "2026-11-01T22:42:00.000Z",
         "cat": "security",
@@ -370,6 +400,16 @@
         "cat": "disaster",
         "sev": 4,
         "source": "GDACS",
+        "url": "https://www.gdacs.org/report.aspx?eventid=1001346&episodeid=6&eventtype=TC",
+        "title": "Tropical Cyclone MURASU-26 (Red alert)",
+        "official": true,
+        "forYou": "If you have family in the area, check in. Review your own evacuation plan."
+      },
+      {
+        "at": "2026-11-01T00:00:00.000Z",
+        "cat": "disaster",
+        "sev": 4,
+        "source": "GDACS",
         "url": "https://www.gdacs.org/report.aspx?eventid=1001346&episodeid=4&eventtype=TC",
         "title": "Tropical Cyclone MURASU-26 (Red alert)",
         "official": true,
@@ -384,48 +424,8 @@
         "title": "Tropical Cyclone MURASU-26 (Red alert)",
         "official": true,
         "forYou": "If you have family in the area, check in. Review your own evacuation plan."
-      },
-      {
-        "at": "2026-11-01T00:00:00.000Z",
-        "cat": "disaster",
-        "sev": 4,
-        "source": "GDACS",
-        "url": "https://www.gdacs.org/report.aspx?eventid=1001346&episodeid=2&eventtype=TC",
-        "title": "Tropical Cyclone FOUR-26 (Red alert)",
-        "official": true,
-        "forYou": "If you have family in the area, check in. Review your own evacuation plan."
-      },
-      {
-        "at": "2026-10-31T16:59:56.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "Hypefresh Magazine, Inc.",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQnM3MUFpM0Zya2hrWXR1bWdYaG5FQ0hhZzJUWXVXY0dKMUhaSUl3V2M0aF9NVUtDTDJndzRQN05NT3BUNjNVVFdjYUVFc1NQNzEwRUl2cTRRekZZQWZfMDJ4amVmR25Odi1MLUZBcUszQVRtLUZCamMzSGJnbVNCdG01cDQwWS0wQjVucDhOT1lKREZtenBjZS1icFhlVmN1M0tNWDBLY2Fzb0kzS0U3OGdNTQ?oc=5",
-        "title": "Hackers Apologize After Cyberattack Disrupts Critical Healthcare Equipment at Hospital",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
-      },
-      {
-        "at": "2026-10-31T16:52:14.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Breaking News, Latest News and Videos",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdFpESHlsUDhvV1BNVzFHQzlsRmRnY21OdFlaVFZpUmNmcGdZeHFGWXFSa3M0OFIyY1VRVmdiaERTOFZMS0dsTjdzZGtJaDgzSHNMSUx5NHQ0eEhVZ21QN2VEQ1hReF9iTXlNZ3hhRjROTWFBclA1SFk5YXJIU0pqTFpPVXhEMkFUMDI2Z0tlNHA2empobHN0b0Y4MNIBoAFBVV95cUxPaERoY3BuYjFOcHBDUnFyOVJYX0NCTmJwSVpTREpiQ01VWnJMZWZpYTBHM3Bqd2c0bU9GNWw5R080cVJtbDNNWHRteTFoTUJLMUdJelZjMV9OazVPRlZMMEs4TjExbk9LZEQxejlpTHBseHRHWkFHWllFZGlIOGxXeEhreWg5MUF6SjBPTjJqVHFEWkpUZ0JtMHoweVc2VzBm?oc=5",
-        "title": "Iran targeted US air defenses then hit aircraft and buildings on Mideast bases, AP analysis finds - ABC News",
-        "official": false,
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-10-31T16:09:11.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Sri Lanka Mirror",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE11dG5nSmg1dFoyQXd0WGZ6ajdBTGZaQTlObEFaTnJXTlBUVFpRb0tfSXFNcnZFRUVwWWhOZTY2ZGJ6enRWTmZUZ29DYjBhZEs5SEpiRnVUeU9teGE5ZWktS05aemFYaHRTUXVBMWZDbDVVRVhiMUdVRFM4NDJRdw?oc=5",
-        "title": "Walana raids Department of Motor Traffic",
-        "official": false,
-        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
       }
     ],
-    "updatedAt": "2026-11-02T01:07:23.488Z"
+    "updatedAt": "2026-11-02T08:26:11.882Z"
   }
 }
