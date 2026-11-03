@@ -13,6 +13,7 @@
 import { readFile, writeFile } from 'node:fs/promises';
 
 const DRY = !!process.env.TG_DRY;
+const ONLY_DEALS = !!process.env.TG_ONLY_DEALS;            // tylko nowe kody rabatowe, bez reszty treści
 const today = process.env.TG_DATE ? new Date(process.env.TG_DATE + 'T10:00:00Z') : new Date();
 const day = Math.floor(today.getTime() / 864e5);          // numer dnia — do rotacji
 const week = Math.floor((day + 3) / 7);                    // numer tygodnia
@@ -102,6 +103,14 @@ for (const [lang, c] of Object.entries(CFG)) {
   const news = (feed.news?.[lang] ?? []).filter((n) => today - new Date(n.pubDate + 'T00:00:00Z') <= 3 * 864e5 && !state.announced[`${lang}:news:${n.slug}`]);
   const nw = news.sort((a, b) => b.pubDate.localeCompare(a.pubDate))[0];
   if (nw && c.topic.alerts && (await send(c, c.topic.alerts, `${c.t.news}\n\n<b>${esc(nw.title)}</b>\n${esc(nw.description)}\n\n👉 ${nw.url}`))) state.announced[`${lang}:news:${nw.slug}`] = Date.now();
+
+  // 0b. Nowe kody rabatowe od partnerów (src/data/deals.ts, pole tg) → Sprzęt/Gear, raz na kod i język
+  for (const d of feed.deals ?? []) {
+    const k = `${lang}:deal:${d.code}`;
+    if (!d.tg?.[lang] || state.announced[k] || new Date(d.until + 'T23:59:59Z') < today) continue;
+    if (await send(c, c.topic.gear, d.tg[lang], false)) state.announced[k] = Date.now();
+  }
+  if (ONLY_DEALS) continue;
 
   // 1. Nowy poradnik (najstarszy nieogłoszony z ostatnich 14 dni)
   const fresh = list.filter((a) => recent(a) && !state.announced[key(a)]).sort((a, b) => a.pubDate.localeCompare(b.pubDate))[0];
