@@ -4,11 +4,41 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-11-03T01:24:18.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "WP Wiadomości",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNGhlbDhQVGc1V203M3VVc1hrNERDcXJZa3NSaW9kLVJPLXRBWWpmaFlZcnJxZF9yQm9fOWlqejlmQUpPZjEyUkdGc3BYMUViMXR0TUJlSmtRMjRJTzl1VUtkQXdpWjFtVTVyQ0dQODBkSlMyb0o5bEhPU0Q1UzhRYkwzcmRRZndIbHp3cXNZTWxaLUhIS3dfbU8tS3VjQTNaVE92SFBpU0FySk5QT1BF?oc=5",
+        "title": "Sztab Generalny usunął post o protestach. Rzecznik odpowiada krytykom",
+        "official": false,
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
+      },
+      {
+        "at": "2026-11-02T15:41:34.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Polskie Radio 24",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPLXZ4bnNZSGhEbXZXV19aR0tWdFcxRWJ0akFReEJUMHRXMTZNZXNpcGIzZGFQTXRZLThuaVJ1WnU0SHhzeTJpSUNWMEdacEVucXh5VmVaNGZjeVhCMzNVX1Z4MW5pd1dsLXFiNFhTU290SkJUaWMtR252S0lCV0JaOHozOUpaTjNkcTlQb01fTkNpWU51UjZ3MnhzTFhJUmdoSWZhMw?oc=5",
+        "title": "Putin chce nowego porządku w Europie. Ekspert: kontrola byłych demoludów",
+        "official": false,
+        "forYou": "Unikaj miejsca zdarzenia i stosuj się do poleceń służb. Numer alarmowy: 112."
+      },
+      {
+        "at": "2026-11-02T15:38:11.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Polskie Radio 24",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZXRvN2V1SS1XdU5HUjV1ZXgwY3dhNi1kb0dHNHF5VFdTSEZFNVE5TVpZbFhYT0lGbk9NS2FSOXBrVDRJX0ZNOEFmc0lmWjZyVXRUb2VfcldCWGE1LVdrMmU1WTlHMjIzcVlPVWVIOGJhQmtqS3QwVlktb1prX2NpcA?oc=5",
+        "title": "Kolejny ambasador rezygnuje. Sikorski \"przychylił się do prośby\"",
+        "official": false,
+        "forYou": "Unikaj miejsca zdarzenia i stosuj się do poleceń służb. Numer alarmowy: 112."
+      },
+      {
         "at": "2026-11-02T15:19:04.000Z",
         "cat": "safety",
         "sev": 2,
         "source": "TVN24",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNWkY0TF85TzkxRTh3c2UxUVNSa0dQQUd2bU84LU9JYXo1RlZCamlYME9YNmgtYzYyZGE3d2NjTE5rd0wtckcxb3Npb19vbU5iREl0ZFh6cXc5XzlsVUY4cjZVa0l2Q0RCZnY4NXc1Wk8zRlY1N1NhUVdyWUNQRUkxa1JIdVhfLVZ5S1JEcTRXem9KZw?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNemlmU2xTQTJUWjNaMDQxT0VhVXB3QmlzMDVEVHBEYzd4M2ExMkFwVmNPS01YYVZodnZMYmxyOE1mN1FwcUdWaG5lWUctc2pfMVRzdmtBbW5BQWg4OG4tbElIUWdFOElOUDRmYWZZYVM3RmtYV0VCVHFGWGwwWnJkTkRTUkxVN0FTSGVnTW9vaFc0QzZKckVxbWxHUWNoUQ?oc=5",
         "title": "Kolejny cyklon zbliża się do Indii. Trwa ewakuacja ludzi",
         "official": false,
         "forYou": "Słuchaj poleceń służb, weź plecak ewakuacyjny, dokumenty i leki. Nie wracaj, dopóki służby nie odwołają ewakuacji.",
@@ -16,6 +46,16 @@
           "href": "/pl/poradniki/plan-ewakuacji-rodziny/",
           "label": "Plan ewakuacji rodziny"
         }
+      },
+      {
+        "at": "2026-11-02T15:07:26.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNN2Y2aDY5d3oyRmphb3A4X1NabDhoSnlIc3FwcGxYY1JtYkhqOGlJODRJQ2pfeDhhQWFuMTd6RzlZRjN4bUpoWFF1YS1KeWhRbF96Zmp2ekhsdGg5WmlPbEVNQkdaWkVWbU5BaWRZN292N3hmS0RSV1NzMkZYaVY3QWVoWUUxbHJiTXJ0THhrMEE4TlVtTHZTdHUzZldOU1ZSUzg1YS1Dbi1ET0k?oc=5",
+        "title": "Zero trafień na 1500 m. Dotkliwa porażka polskiej broni dla czołgów",
+        "official": false,
+        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
       },
       {
         "at": "2026-11-02T14:42:29.000Z",
@@ -64,16 +104,6 @@
         "title": "IMGW: 1 ostrzeżeń meteo, najwyższy stopień 1: Intensywne opady śniegu",
         "official": true,
         "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
-      },
-      {
-        "at": "2026-11-02T10:54:28.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Rzeczpospolita",
-        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNRUpENmdWNjU5RkkzQ2lpbWNHZE5HVWNITXVKSTRPQzNSR3Q3c2dXM2tlTk5sT3VaMXEyazRMaW5JZDRSbzZZM1ZvSjR6Z0kxempzOE93UzlXanBxV05TOVNxWkJ1LTdaV0ZGblNTNWt5Z3hXNFg0VnJPWTdaal9iMmNEWV85ajRFd0l4NV9UdDhFaFN0QlR0TTYwbmg0MjRJbV9iTVZZNVZqVlhCcmItNEhud2JmNVgzQk1XUURQS0pOekQ4T3V1SzVpbVotTjJVLU4tQTBvSkhMX2dHWDVV?oc=5",
-        "title": "Fatalne wyniki testów polskiej broni dla czołgów. Zero trafień na 1500 m",
-        "official": false,
-        "forYou": "Poznaj sygnały syren i sprawdź najbliższe miejsce ukrycia. Nie udostępniaj niesprawdzonych nagrań."
       },
       {
         "at": "2026-11-02T07:27:00.000Z",
@@ -196,43 +226,63 @@
           "href": "/pl/poradniki/plan-ewakuacji-rodziny/",
           "label": "Plan ewakuacji rodziny"
         }
-      },
-      {
-        "at": "2026-10-31T14:33:00.000Z",
-        "cat": "health",
-        "sev": 1,
-        "source": "Rynek Zdrowia",
-        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxORHhvMGNKUmJ3ZklvV20yYVJCendCQnNPRmN1YmlwRFBwUDFhOEJSRXhDTUpSaE4zSWQ4TDBsSUFYMlVFQ0FrdE04ZHFnaDcyV3RPQV9Eb2lCSUNQUkF1cXplYS1nUWlXdjhNRnN2dHNNRGVuSXV4aDBXS2x3Qjd6OEY4dzcxb1RVaWNkUXZyZm1mLU1HLUFJWnFxNHFtdEF0SHV0UDBhaEgxY3FCTVJzeldoQjB3aFk3emo2cFUyS2tRaDZ2ZDRzU3dwQlBFOGExV2NhaHNRbk5QLVpw?oc=5",
-        "title": "Choruje 19 proc. Polaków. Główny Inspektor Sanitarny proponuje nietypową \"szczepionkę\"",
-        "official": false,
-        "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
-      },
-      {
-        "at": "2026-10-31T14:28:09.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "TVN24",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQLWtjckhXV3BxV0VuUnZxWUtQUEZEOFBuM0dmV3c4SkpEVXh1SDFSX3ZrY2ZOMmVhYWNydkY2WVhxTUFIdjUxbVFYd2czZ0c3bWNxOXBXeEIyOENPN1NwejFJSkxMVVF6QWF3cGstanJUSTNEbFh6WW5XMDlXTDRyNGpJSzdpaVh0emhzc1dSeU9qbWkzZVg0WEc3LWRaQ1hmZGQyS2sxZlhramRsellCb1pReks3b1BlX1N0cGtMWENuT2dvajBMamk0UUY?oc=5",
-        "title": "Mężczyzna z nożem na szkolnym boisku. \"Siał postrach wśród dzieci\"",
-        "official": false,
-        "forYou": "Unikaj miejsca zdarzenia i stosuj się do poleceń służb. Numer alarmowy: 112."
-      },
-      {
-        "at": "2026-10-31T11:38:00.000Z",
-        "cat": "weather",
-        "sev": 2,
-        "source": "IMGW",
-        "url": "https://meteo.imgw.pl/",
-        "title": "IMGW: 1 ostrzeżeń meteo, najwyższy stopień 1: Gęsta mgła",
-        "official": true,
-        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
       }
     ],
-    "updatedAt": "2026-11-02T18:53:31.005Z"
+    "updatedAt": "2026-11-03T01:52:55.174Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-03T01:05:48.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "National Review",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAyeXBoQ255eEUzZWpJTmhoYWotLV9DSWpDbFdhdnE5UlE4UElMNzdhMFcxZjJpZkd1RUk2dDVCNFpNVlZiU213SWhVU2U5Skt0WmRfM1NuMWlNMms4UjNZVW8tbGhlanPSAWxBVV95cUxQeVR3bjhwUEl1NmZjV096UktzUVM4WWJRZGlMeG9WcVFxN3dhXy1GOEVEMEJGWWFBUVpTV2I0R0Vxd1NIeV83UnRZbEU0QmZQOV9KSmplekZWaENNWllyM0hYSkw0bG1PSk85dXE?oc=5",
+        "title": "A Warmer Cold War",
+        "official": false,
+        "forYou": "Update your devices and don’t tap links in alert-style messages."
+      },
+      {
+        "at": "2026-11-03T01:00:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The Times of India",
+        "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQVzJiamVHOEVjX3Y3bUE0c05FMk9QV0VLSWRKeHV2UUtEYmhHOEM4VnVOMEF2T0FQZEIxdUdPSnU4WjJOLTZ2QjUyVmdtV3dsUU9ma2tFdW5IbnAwaHZDYlBxb1BzcEFuN0xneHhSaFR6Y1BHOHc4R0VLV2pSd1RrMUM5a2NVZFg1R1pHV1huaWtjWERmdWlqdTk0emtHRWZ5LTNtVDcyRnRmcnBOeEp6VFNtQ3pONU54YUxERXc3N05tVVR0aC1mVW14QTR5OXY0bDE2bnhSdnZvU3VkZXpDSVJnVnkzdGdiZUxjb3NDcF9uYzZ6aEVhVmtLaFNNSEpCZ051QVFMRdIBjAJBVV95cUxOWDUzblRNU2tEUktFTzhnZEstS2JQcDhodndxUFF4Rmk5dklBTmJTbWlPZmJXdGpQYVB5OWE4ZlBmMHM2Sk5BanM4bEVKXzJLU2N3S3F4VnY3UFZtOWREeVhEYUhUZWgzdkE0dlZzWkNBZUR1YmlvNEVuODJVMUNCdWJ1NDhDQzQ2aHV2Y2V2LUpzZ1FSQlFqZ045RXg4X0FENE5tQW53bXpKa0E0TU96X0NEbTU3UmljWFlnUkUxbFpDQWRiOENqRk9GbXlTQ2lGeVJLTGNKU3BtVmlSNlk0ZDl5VmNyaHQwVnMyVU0xSDZmVG9EaUtreDJnN0FLbFVpWWlZTmstYURDeFZM?oc=5",
+        "title": "Russia Claims Strike On Ukraine's Neptune Missile Depot Near Odessa, Military Cargo Ship Also Hit",
+        "official": false,
+        "forYou": "If authorities issue an air threat alert where you are, go to a basement or a windowless inner room and follow official alerts. Do not touch debris; report it to emergency services."
+      },
+      {
+        "at": "2026-11-02T22:15:29.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "KPLC 7 News",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUjJOUWtyZktKelFCeUNjOUhESFhHNE5QQTZlN0F5aUtleFNLUmNSZFRMZEphNWh2czQ2QVpxOVNzdEh6a0g0T3JCTUpBMUZub3FINjRQSzUyRFFNQVVrX0Q5S1JqRUZqUlp4RWdfWlZlNDhPcHJPaExEN21PeXNMSHMyVXJjemk4VEhQdXhwSjI1cURUeFJsX2xuRk5xOURuU3fSAaIBQVVfeXFMT1IyTlFrcmZLSnpRQnlDYzlIREhYRzROUEE2ZTdBeWlLZXhTS1JjUmRUTGRKYTVodnM0NkFacTlTc3RIemtINE9yQk1KQTFGbm9xSDY0UEs1MkRRTUFVa19EOUtSakVGalJaeEVnX1pWZTQ4T3ByT2hMRDdtT3lzTEhzMlVyY3ppOFRIUHV4cEoyNXFEVHhSbF9sbkZOcTlEblN3?oc=5",
+        "title": "SWLA brings local flavors and tourism to Chicago showcase",
+        "official": false,
+        "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
+      },
+      {
+        "at": "2026-11-02T20:33:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The New Voice of Ukraine",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMGZHWFprVG5OMWJHREVCMk9Yblpyb2REdGt3N3BaS2VHYi1RbHdsVGJLQ1VSU3FQZmxyNVl3cFpQNHlwTHdoaDljTFNkLTEycUl4YWdFRlVLTFMtWGxVNmxuZERod3NLUmRmOXBuN2lTaUFrS0VyZWQ5X0lBSG1YU19YTGpqajg1cjBRdXlfZTJMd2QzWkNEazlnSkUwZGxjX1dj0gGfAUFVX3lxTE1kWFdySnNjZXZQWTdTWEY5b2NlNkl4aFJvRXF5dVBUWDdXNXBvUUl2SzlqeHN5VVBNcnVWQUxac0pmZndyUlhDYnhJSW1JX29Oc1RSUUJuc2pnbDFFa3luOC0tRHlMQmFzZk1wOWhNRVBnTXZXVXc4RS03ZElOSXBSQ25MQWhNUE1rc2F2TG41d1czcEdFczQ1R3NDWG9wTQ?oc=5",
+        "title": "Over 30 Ukrainian journalists urge Western media not to ignore Russia's war",
+        "official": false,
+        "forYou": "The threat has passed. Check your home and restock anything you used."
+      },
+      {
+        "at": "2026-11-02T18:44:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "WSJ",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONGprSkphSVBVaURoYUtYbXJZdGRRRWFRZEF4dzFtcXJlaW45aGFzTTkyS1VtMmR3eFVrT0p1M1dOWkx6VnlnZld3U2c4WkVnVjV3amQwdFhWQUdsTHRKUW1NeHQ2S0RBd2M2b0xaS2FvUlNTY3hDNW1kYkdwUVBYTjlVUGVOeW11RnFocWtuZkN4T2xlYWlpbjI2WF82Q0dlT2tPSkJwQUk0SDgyLWU2dy1tc0JvX3FnZGVCUnF3dmZEUQ?oc=5",
+        "title": "America’s Gulf Allies Prepare for New Round of Strikes on Iran—and the Blowback",
+        "official": false,
+        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
+      },
       {
         "at": "2026-11-02T18:25:53.000Z",
         "cat": "cyber",
@@ -262,16 +312,6 @@
         "title": "Iran security chief discusses Mideast war with Russian president: state media",
         "official": false,
         "forYou": "Keep power banks and torches charged; have a plan for heat and light without mains power."
-      },
-      {
-        "at": "2026-11-02T13:57:26.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "UNITED24 Media",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPemZwNzd2VFhYTjM2Ym5uZWdlOWx4aDMwZEtSR1IyNjZEZm5kcDNSUU1NTWJBUm1NaWdNeUVMZ2NtaTlOSUNnekQyZ1BKMG9YOF9oSkdaZGlHczRUM2JuenpRVThqSDZralhuX21TNXhvUXNqQkoxODYyaEJKMC1UeVp5N0loMThDX1NnSkUzeHI3Z2hhZTRYaUJJTXpDZERsdVFOdV9mcC1SQ0xvWjFuYXprcjVNUWx4cWUtcVBtRVNpOGs0RV94b3RCYw?oc=5",
-        "title": "Russia Unleashes Over 8,000 Drones and 230 Missiles Against Ukraine in Just One Month",
-        "official": false,
-        "forYou": "The threat has passed. Check your home and restock anything you used."
       },
       {
         "at": "2026-11-02T13:53:54.000Z",
@@ -392,48 +432,8 @@
         "title": "Trump contradicts US intelligence on Iran, doesn't address regime change as before - ABC News",
         "official": false,
         "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-11-01T08:07:39.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Radio Free Europe/Radio Liberty",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9OeTc1VE5lcEx0QzNhVlh6TnBVZUhfdi1MR0xZQnJOLWo2U3dHb09ucVhPNXctSTFXNTF6R3EwZEJXSl96SF9zS2FPUWFwcHpHeFVMaGtUckZiaGIydHc1SFMwT3U1R1h5WnMtY2RGUkdtYm1jV2VUMWFB?oc=5",
-        "title": "Pakistan-Bound Cargo Vessel Targeted Near Hormuz Strait",
-        "official": false,
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-11-01T08:07:39.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Radio Free Europe/Radio Liberty",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9OeTc1VE5lcEx0QzNhVlh6TnBVZUhfdi1MR0xZQnJOLWo2U3dHb09ucVhPNXctSTFXNTF6R3EwZEJXSl96SF9zS2FPUWFwcHpHeFVMaGtUckZiaGIydHc1SFMwT3U1R1h5WnMtY2RGUkdtYm1jV2VUMWFB?oc=5",
-        "title": "Trump Renews Iran Threat, Says US Still Needs To 'Take Care' Of 1 Or 2 Targets",
-        "official": false,
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-11-01T05:33:13.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The National",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVzF0OTFEeDd6NkxQYjVkWnpCRmQ1cEtKaVJZNWdaaDFySGVQOHY4cklQUXhQSUMxNjRXRFpjcFZhTFBud0ZyQmp4SlM5OGxqY3YtNzRTdGczNXVDRnpKRWJrN1A1TnZaY0pEVEkxRUJCZWtaS1dYT3llWnZIZGswajFiWXZveGhnUFpFZg?oc=5",
-        "title": "Middle East latest: Attacks on ships transiting Hormuz in October highest since start of war",
-        "official": false,
-        "forYou": "Know your local alert signals and nearest shelter. Don’t share unverified footage."
-      },
-      {
-        "at": "2026-11-01T02:49:14.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "OnlineKhabar English News",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQVnFjWllMTGdxcElzWXFWR0xvc0FkNjQ3ZmRqZUtNODEyZzVvcG9Md0FYbFFEZmhzRFprZ2NqNlZ0MmVzZUtLbjJTYXYtTkFRZHVWZEJqSjFuTnlicHdnN3VDOXNuX1hQZ0E1V1dYX0lMSENqZkpEdkFvNWVWUzdpckg5cy1NNHM?oc=5",
-        "title": "NEPSE’s cybersecurity report offers only superficial solutions after ransomware attack",
-        "official": false,
-        "forYou": "Update your devices and don’t tap links in alert-style messages."
       }
     ],
-    "updatedAt": "2026-11-02T18:54:51.021Z"
+    "updatedAt": "2026-11-03T01:54:49.261Z"
   }
 }

@@ -2,12 +2,11 @@
   "_comment": "Aktualizuje scripts/update-data.mjs codziennie. pl = Polska, en = świat. Składowe z mode=manual ustawiasz ręcznie.",
   "pl": {
     "sample": false,
-    "updatedAt": "2026-11-02T18:53:31.001Z",
-    "score": 25,
-    "delta7": 3,
-    "ago30": 40,
+    "updatedAt": "2026-11-03T01:52:55.170Z",
+    "score": 30,
+    "delta7": 13,
+    "ago30": 35,
     "history": [
-      40,
       35,
       35,
       31,
@@ -36,24 +35,25 @@
       23,
       25,
       28,
-      25
+      25,
+      30
     ],
     "components": [
       {
         "id": "conflict",
         "name": "Konflikt w regionie",
         "weight": 30,
-        "value": 5,
+        "value": 41,
         "sources": "GDELT · Google News",
         "trend": [
-          31,
           5,
           5,
           37,
           30,
           5,
           33,
-          5
+          5,
+          41
         ],
         "mode": "auto",
         "raw": [
@@ -81,7 +81,8 @@
           47,
           54,
           50,
-          55
+          55,
+          60
         ],
         "stale": false
       },
@@ -130,13 +131,13 @@
         "value": 33,
         "sources": "IMGW · GDACS",
         "trend": [
-          13,
           33,
           34,
           33,
           13,
           33,
           13,
+          33,
           33
         ],
         "mode": "auto",
@@ -152,7 +153,7 @@
         "trend": [
           12,
           12,
-          12,
+          27,
           27,
           27,
           27,
@@ -167,17 +168,17 @@
         "id": "cyber",
         "name": "Cyber i łączność",
         "weight": 15,
-        "value": 49,
+        "value": 5,
         "sources": "GDELT · Google News · CERT",
         "trend": [
           5,
           5,
           5,
           5,
-          5,
           46,
           32,
-          49
+          49,
+          5
         ],
         "mode": "auto",
         "raw": [
@@ -215,7 +216,6 @@
       }
     ],
     "historyDates": [
-      "2026-10-04",
       "2026-10-05",
       "2026-10-06",
       "2026-10-07",
@@ -244,17 +244,17 @@
       "2026-10-30",
       "2026-10-31",
       "2026-11-01",
-      "2026-11-02"
+      "2026-11-02",
+      "2026-11-03"
     ]
   },
   "en": {
     "sample": false,
-    "updatedAt": "2026-11-02T18:54:51.020Z",
-    "score": 35,
-    "delta7": -4,
-    "ago30": 35,
+    "updatedAt": "2026-11-03T01:54:49.260Z",
+    "score": 22,
+    "delta7": -16,
+    "ago30": 29,
     "history": [
-      35,
       29,
       35,
       36,
@@ -283,24 +283,25 @@
       35,
       25,
       40,
-      35
+      35,
+      22
     ],
     "components": [
       {
         "id": "conflict",
         "name": "Global conflict",
         "weight": 30,
-        "value": 42,
+        "value": 13,
         "sources": "GDELT · Google News",
         "trend": [
-          42,
           49,
           49,
           48,
           48,
           16,
           47,
-          42
+          42,
+          13
         ],
         "mode": "auto",
         "raw": [
@@ -329,7 +330,8 @@
           21,
           48,
           46,
-          45
+          45,
+          23
         ],
         "stale": false
       },
@@ -355,21 +357,20 @@
         "id": "energy",
         "name": "Power & grid",
         "weight": 15,
-        "value": 5,
+        "value": 20,
         "sources": "Google News",
         "trend": [
-          30,
           5,
           25,
           26,
           5,
           5,
           23,
-          5
+          5,
+          20
         ],
         "mode": "auto",
         "raw": [
-          20,
           16,
           43,
           48,
@@ -398,7 +399,8 @@
           27,
           23,
           46,
-          19
+          19,
+          43
         ],
         "stale": false
       },
@@ -410,12 +412,12 @@
         "sources": "GDACS",
         "trend": [
           60,
-          60,
           45,
           45,
           45,
           44,
           59,
+          50,
           50
         ],
         "mode": "auto",
@@ -431,8 +433,8 @@
         "trend": [
           20,
           20,
-          20,
           28,
+          20,
           20,
           20,
           20,
@@ -446,17 +448,17 @@
         "id": "cyber",
         "name": "Cyber & infrastructure",
         "weight": 15,
-        "value": 46,
+        "value": 5,
         "sources": "GDELT · Google News",
         "trend": [
-          36,
           42,
           41,
           40,
           38,
           41,
           40,
-          46
+          46,
+          5
         ],
         "mode": "auto",
         "raw": [
@@ -477,13 +479,13 @@
           54,
           29,
           57,
-          28
+          28,
+          11
         ],
         "stale": false
       }
     ],
     "historyDates": [
-      "2026-10-04",
       "2026-10-05",
       "2026-10-06",
       "2026-10-07",
@@ -512,7 +514,8 @@
       "2026-10-30",
       "2026-10-31",
       "2026-11-01",
-      "2026-11-02"
+      "2026-11-02",
+      "2026-11-03"
     ]
   },
   "doomsdayClock": {
