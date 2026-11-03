@@ -106,7 +106,7 @@ for (const [lang, c] of Object.entries(CFG)) {
 
   // 0b. Nowe kody rabatowe od partnerów (src/data/deals.ts, pole tg) → Sprzęt/Gear, raz na kod i język
   for (const d of feed.deals ?? []) {
-    const k = `${lang}:deal:${d.code}`;
+    const k = `${lang}:deal:${d.code}${d.tgRev ? `:v${d.tgRev}` : ''}`;   // tgRev: podbij, żeby wysłać poprawioną wersję ogłoszenia
     if (!d.tg?.[lang] || state.announced[k] || new Date(d.until + 'T23:59:59Z') < today) continue;
     if (await send(c, c.topic.gear, d.tg[lang], false)) state.announced[k] = Date.now();
   }

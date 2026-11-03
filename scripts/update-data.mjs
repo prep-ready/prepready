@@ -186,8 +186,12 @@ const nearDup = () => { const kept = []; return (i) => { if (i.official) return 
 const relevant = (i) => !RELEVANT[i.cat] || RELEVANT[i.cat].test(i.title);
 
 const OFFICIAL = /^(Komisja Europejska|NBP|IMGW|PSE|CERT Polska|GDACS|ECDC|RCB|Policja|gov\.pl|policja\.pl|Rządowe Centrum Bezpieczeństwa|Ministerstwo|MON|MSWiA|Dowództwo Operacyjne|Straż Graniczna|PSP)/i;
-const item = (lang, cat, sev, source, url, title, at = new Date()) =>
-  ({ at: new Date(at).toISOString(), cat, sev, source, url, title, official: OFFICIAL.test(source) || /\.gov\.pl|policja\.pl|wojsko-polskie\.pl/.test(url), forYou: tipFor(lang, cat, title), guide: guideFor(lang, title) });
+/** Rada „Dla Ciebie” tylko przy komunikatach urzędowych (RCB, IMGW, policja…). Przy doniesieniach medialnych sam nagłówek + źródło. */
+const forYouFor = (lang, i) => (i.official ? tipFor(lang, i.cat, i.title) : '');
+const item = (lang, cat, sev, source, url, title, at = new Date()) => {
+  const official = OFFICIAL.test(source) || /\.gov\.pl|policja\.pl|wojsko-polskie\.pl/.test(url);
+  return { at: new Date(at).toISOString(), cat, sev, source, url, title, official, forYou: forYouFor(lang, { official, cat, title }), guide: guideFor(lang, title) };
+};
 
 // ── Regiony ─────────────────────────────────────────────────
 const REGIONS = {
@@ -344,7 +348,7 @@ for (const region of ['pl', 'en']) {
     const used = {};
     const fresh = feed.filter((i) => region !== 'pl' || (qualityPl(i) && relevant(i)))
       .filter((i) => (CAP[i.cat] === undefined || i.official ? true : (used[i.cat] = (used[i.cat] ?? 0) + 1) <= CAP[i.cat]));
-    F.items = [...fresh, ...(F.sample ? [] : F.items).map((i) => ({ ...i, forYou: tipFor(region, i.cat, i.title), guide: guideFor(region, i.title) }))]
+    F.items = [...fresh, ...(F.sample ? [] : F.items).map((i) => ({ ...i, forYou: forYouFor(region, i), guide: guideFor(region, i.title) }))]
       .filter((i) => region !== 'pl' || (qualityPl(i) && relevant(i)))
       .filter((i) => (seen.has(i.url + i.title) ? false : seen.add(i.url + i.title)))
       .filter((i) => Date.now() - new Date(i.at) < 14 * DAY)
