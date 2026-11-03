@@ -28,6 +28,6 @@ export const GET: APIRoute = async ({ site }) => {
   }
   out.deals = deals
     .filter((d) => d.tg && new Date(d.until + 'T23:59:59') >= new Date())
-    .map((d) => ({ code: d.code, brand: d.brand, until: d.until, tg: d.tg }));
+    .map((d) => ({ code: d.code, brand: d.brand, until: d.until, tg: d.tg, tgRev: d.tgRev }));
   return new Response(JSON.stringify(out), { headers: { 'Content-Type': 'application/json; charset=utf-8' } });
 };
