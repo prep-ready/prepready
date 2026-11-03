@@ -52,6 +52,8 @@ To torba, którą bierzesz w 5 minut, gdy trzeba opuścić dom: z powodu pożaru
 | Narzędzia | Multitool lub nóż, zapalniczka, worki foliowe, drukowana mapa okolicy | – |
 | Osobiste | Zdjęcie bliskich, drobna pamiątka, zabawka dla dziecka | – |
 
+Latarkę do plecaka wybierz czołową, żeby mieć wolne ręce. My pakujemy do naszego plecaka 72h <a class="aff" href="https://vayox.pl/produkt/va0361/" rel="sponsored nofollow noopener" target="_blank">Vayox VA0361 TwinBeam</a>: 600 lm, światło skupione do marszu, rozproszone do obozowiska i czerwone na noc, ładowanie przez USB-C, a gdy powerbank się wyczerpie, działa też na baterie AAA. Z kodem **PREP5** kupisz ją 5% taniej.
+
 Do plecaka pasują tylko rozchodzone, wygodne buty. W nowych po kilku kilometrach zrobisz sobie otarcia. Jeśli nie masz butów trekkingowych, przejrzyj ofertę <a class="aff" href="https://webep1.com/go/4f039ef6d6" rel="sponsored nofollow noopener" target="_blank">damskich</a> i <a class="aff" href="https://webep1.com/go/10a3b143d6" rel="sponsored nofollow noopener" target="_blank">męskich butów trekkingowych w Tramp4</a> i kup je z wyprzedzeniem, żeby zdążyć je rozchodzić.
 
 <p class="aff-note">Linki oznaczone ↗ są partnerskie: jeśli coś kupisz, możemy dostać prowizję. Cena się dla Ciebie nie zmienia, a sklep nie ma wpływu na treść poradnika.</p>
