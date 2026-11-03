@@ -2,6 +2,7 @@
 import type { APIRoute } from 'astro';
 import { articles, hrefOf } from '../lib/articles';
 import { newsPosts, newsHref, newsSlug } from '../lib/news';
+import { deals } from '../data/deals';
 
 export const GET: APIRoute = async ({ site }) => {
   const out: Record<string, any> = { news: {} };
@@ -25,5 +26,8 @@ export const GET: APIRoute = async ({ site }) => {
       pubDate: p.data.pubDate.toISOString().slice(0, 10),
     }));
   }
+  out.deals = deals
+    .filter((d) => d.tg && new Date(d.until + 'T23:59:59') >= new Date())
+    .map((d) => ({ code: d.code, brand: d.brand, until: d.until, tg: d.tg }));
   return new Response(JSON.stringify(out), { headers: { 'Content-Type': 'application/json; charset=utf-8' } });
 };
