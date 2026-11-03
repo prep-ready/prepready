@@ -32,7 +32,7 @@ const when = (iso: string) => {
             {x.official !== undefined && <span class={x.official ? 'src off' : 'src'}>{x.official ? t(lang, 'news.official') : t(lang, 'news.media')}</span>}
           </div>
           <h3>{x.title}</h3>
-          <p class="so"><b>{t(lang, 'news.forYou')}</b> · {x.forYou}{x.guide && <> <a class="guide" href={x.guide.href}>{x.guide.label} →</a></>}</p>
+          {x.forYou && <p class="so"><b>{t(lang, 'news.forYou')}</b> · {x.forYou}{x.guide && <> <a class="guide" href={x.guide.href}>{x.guide.label} →</a></>}</p>}
         </div>
       </article>
     ))}
