@@ -11,6 +11,10 @@ on:
         description: 'Tylko podgląd (nic nie wysyła)'
         type: boolean
         default: true
+      only_deals:
+        description: 'Wyślij tylko nowe kody rabatowe (bez porady dnia itd.)'
+        type: boolean
+        default: false
 
 concurrency:
   group: tg-content
@@ -36,6 +40,7 @@ jobs:
           TG_BOT_PL_TOKEN: ${{ secrets.TG_BOT_PL_TOKEN }}
           TG_BOT_EN_TOKEN: ${{ secrets.TG_BOT_EN_TOKEN }}
           TG_DRY: ${{ (github.event_name == 'workflow_dispatch' && inputs.dry) && '1' || '' }}
+          TG_ONLY_DEALS: ${{ (github.event_name == 'workflow_dispatch' && inputs.only_deals) && '1' || '' }}
         run: node scripts/tg-content.mjs
       - name: Dzienny indeks w tematach Alerty (PL i EN)
         if: github.event_name == 'schedule'
