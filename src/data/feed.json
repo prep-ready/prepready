@@ -4,6 +4,26 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-11-04T11:46:00.000Z",
+        "cat": "weather",
+        "sev": 2,
+        "source": "IMGW",
+        "url": "https://meteo.imgw.pl/",
+        "title": "IMGW: 2 ostrzeżeń meteo, najwyższy stopień 1: Gęsta mgła",
+        "official": true,
+        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
+      },
+      {
+        "at": "2026-11-04T05:30:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Defence24",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObnVILUdtMjNGLTlWQ2YwQzlpc1VCaDdNdFhsLWl1UlVXbWRIMkVjZldfQjM1dnp4MzRXQUY0aldsa1duVUFvREtpaWozLXZNNi04UmFtWWd1Wk1maTZxZUlRZE1wS001bk5QMUpBalNxa09vWHJiRW4zdDIyMDlLMC1ya0lEck5QRENtUmFtQkdRb1lNc2dPcEttb091Szl5OXNRTE9FTl9KZVpoRlR6REpwUEJ6U0Iw?oc=5",
+        "title": "Przeciwlotnicze Newy przed kolejnymi latami służby. Wojsko planuje wieloletni serwis",
+        "official": false,
+        "forYou": ""
+      },
+      {
         "at": "2026-11-03T19:13:00.000Z",
         "cat": "safety",
         "sev": 3,
@@ -33,7 +53,7 @@
         "sev": 3,
         "source": "Wiadomości Onet",
         "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUDd4cTc4M2tsa1lIVVpCenhjNzd4d2d4QU5mNHJaOThSUWptQzZCb0VlNTllR09YdHFsVWhlMDl6akZqalhwalZkV3FudktwVF93RzMtZ0RkUjZ6MlJxZ1lqaGJzU1lPN0t2ZHVsdHJ4b1RoQTJsQ0pOQnVNRF92emxkWUg2eWVQOC04dA?oc=5",
-        "title": "Kolejny atak Rosji na Ukrainę. Nowy alert RCB",
+        "title": "Nowy alert RCB. Atak Rosji w zachodniej Ukrainie",
         "official": false,
         "forYou": "",
         "guide": {
@@ -76,6 +96,16 @@
         "source": "Rynek Zdrowia",
         "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNdlh5aV8xeXcxR3BLMTNnZzVqdHotZXdnZmRKcWdWRlprMFQwVFJqbGRIZnNpcmNId0g4ZldRa0lKQmFObWFoQ29VODh1UGdTUEZTTHdpRkl3VkRNWXNUOU9fTmI0ZHVSVm0ycFhHay1UMFd2MGdCV1ljSlZIRVlvak9NV25UbXI1Y3l5YzlrRE5JQUZ3QV9GZFd4MU01Nk44MkVaSUpnSGdXeHU3eHRiUlFXelRnZ2htREw4SmlsYm1qX1pQN1ZpOFFLNnlBdUxldldDSWhIOC11UFFjV0FieTdjd2k?oc=5",
         "title": "Lodówki zamiast chłodzić, zaczynają grzać. GIS ostrzega przed nowym rodzajem cyberataków",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-03T15:30:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Defence24",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSEpwenFPMjVsVkFwTld6dUZlSVRIQi1UWm5HTG9odUdnZEc3ZUJUU3Zpc1FDRWZBdFJwZkJ0WGdNMDk3ck5pMGU1OEFJcnRnTkkwT3RuTEo5alhqVFFHanIwRWhtRm9sWGZhRmo4OUxpbmtxTWZHOGp3Z2psSWI1cGpwaVpIVFk3QVZ4ZWtXWG8?oc=5",
+        "title": "Kosmiczny skok Polski. 12 satelitów do końca 2027 roku",
         "official": false,
         "forYou": ""
       },
@@ -208,54 +238,60 @@
           "href": "/pl/poradniki/plan-ewakuacji-rodziny/",
           "label": "Plan ewakuacji rodziny"
         }
-      },
-      {
-        "at": "2026-11-02T15:07:26.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Wiadomości Onet",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNN2Y2aDY5d3oyRmphb3A4X1NabDhoSnlIc3FwcGxYY1JtYkhqOGlJODRJQ2pfeDhhQWFuMTd6RzlZRjN4bUpoWFF1YS1KeWhRbF96Zmp2ekhsdGg5WmlPbEVNQkdaWkVWbU5BaWRZN292N3hmS0RSV1NzMkZYaVY3QWVoWUUxbHJiTXJ0THhrMEE4TlVtTHZTdHUzZldOU1ZSUzg1YS1Dbi1ET0k?oc=5",
-        "title": "Zero trafień na 1500 m. Dotkliwa porażka polskiej broni dla czołgów",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-02T14:19:37.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "WP Wiadomości",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUGlrQUxyTkZjN09yUVNxVjl5UWxzam1yMkJoX2hZRk9XYlNERkdwOGZwYldlVXQ0WVN4UHA0VnBZLTBYd3pub3lfeldBUXNjNjlPMHZzN2RUR3ZXcWgyTDA1REUxSmczclBsall1OENGeFhMWU5HVWJHVmgwWGNUaXRoT1VRazVsQ1FDbXNNbmFsVVlVbEtpN2prdU9DOVEyUWFxMVFXNW95NmJIdlpmVy1qSmFzcmNCZnlZeFVRcw?oc=5",
-        "title": "Wojsko ostrzegło przed niebezpiecznym zjawiskiem. Komunikat został usunięty",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-02T13:56:07.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Business Insider Polska",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMkUxTEN3cWhpY0RQT0R1aWtMREZXZHlrNjBSZVhNa1lzVU4wU2IybEMzMGY4NVpZTTJveEFvbG1Qdk82WGxXZV9FTVZxVEwwdG5sclhZQXRxWEQxcHVPdnF6TEh1LWdsNlB1MVlMZ2V5U0VuMDkySGhJY1NrSUV2SzUxYmplWDA3cFRjTGZ2cTY4NFlVenR4ZFJOaGoxUHN3Ymxpc21MNzRRWjc0UEtMRTdNYWlsQ1U5bVZQWTk2R0g4Zmtnam1qejNKODI?oc=5",
-        "title": "Rosjanie zmodyfikowali drona Gerbera 2. Ma zasięg 1,2 tys. km",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/mapa-schronow/",
-          "label": "Mapa schronów"
-        }
       }
     ],
-    "updatedAt": "2026-11-04T03:24:18.595Z"
+    "updatedAt": "2026-11-04T11:39:14.105Z"
   },
   "en": {
     "sample": false,
     "items": [
       {
-        "at": "2026-11-04T01:59:46.000Z",
+        "at": "2026-11-04T10:37:24.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Sur in English",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVzNYSXNPVmNySGRNYk1acG94cHJtdXRKRWZucE5JVEFrRHJNWGxyQ2wzemVOZ1Ixam1La3B5VldaVTMtakJNQUdBTVVzb3Q0VUhYWldmMnY3NndQWWdtOVlKSG5XUGNDMk5XR3hndURSQ3dTMU9KVkRnTHg3cFctZk5rN3QyMzdv?oc=5",
+        "title": "Spain's blackout shield and funding gap erode its advantage in renewable energy compared with France and Germany",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-04T10:04:17.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "AOL.com",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdlFxSFI4OERCMU41dFhqanQ4Z1d0MFVqMVlmQXJURDFZUl9RSGU0c3doaTV3dzVkaURhQUFhcko0cExJcnp4WkhycU1IdEN2MmptRi1Lby1nclVuaUk2bEIxTUpZbkRXYkpwWkEyTXpIRkEwVDd5ZGlJcy1kbm03ZkRybjJBQQ?oc=5",
+        "title": "Iranian MP tells Euronews Tehran's missiles will strike Europe if US uses its bases there",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-04T08:09:23.000Z",
         "cat": "security",
         "sev": 2,
         "source": "Britannica",
         "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5",
         "title": "2026 Iran war | Oil, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-04T07:48:11.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The National",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQV0lvOVlUWjlLSHFIbXdUand3WVJ4clFOdDRxRExxdVI5Z2Y1Z2laTGItMTRtQjJNNW5GM3VrcmY3WFhlS19NQTc0WUVTUXVvcEZKS1VlV2dUQm4wWkNfTzAxYWZxVURXQzRONFBaTy1kMUxmRVk0cFByZnVkME5pcHl5NGN1TWdZRGtSUTV3?oc=5",
+        "title": "Iran war latest: Trump says no immediate Iran strike plan but US 'locked and loaded'",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-04T03:23:32.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "NewsBreak: Local News & Alerts",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQc25ERmpweTdDcUdQX2ozZVhEUk5NVXd5Y1pBZFo4VFRTeFl6TGcyTkd2T2V1aTVhRDRWRkhFNUVrVWZFSC1sN0VmMTFZNFJiS1Z3WUtXTlhaSlExU2Z3YkxIMGNYV1pNSDREdGsxR2sxRTRpb3JSbUx2T1psT2FMS3ZTaGpvWEhsSWFFQ2lvb2NEQl9pR2RoREI4NzI1MmlrZndyTGxmTGtFYlhKRXJyRE9PSENPbzQ?oc=5",
+        "title": "Santiam hospital hit with $5 million suit over alleged ransomware attack",
         "official": false,
         "forYou": ""
       },
@@ -276,16 +312,6 @@
         "source": "Geomechanics.io",
         "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRWFPeFBwenVxYWhVR1p2ZGhpUjhtRkcxY3RIRXZPLVZRUGlKaGVWU0FPcWM0ZUZOTW9SQWxjUzV5akh5dVRUMmg1aS02dHlGb043b01DREtaUnFSWUMtNjZsV3hiZDBpQ3RvYkNtek0zaWVETXJQUnNUSWlPd2xjbzRTajhTOE9hdWFmOWFBaVpvZmZWYlhNWWh0TFJqNlNhTGR6X1VGV0xuUmotdVNia1ZhV1hCUQ?oc=5",
         "title": "AI ransomware risk to UK critical infrastructure: key actions for engineers",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-03T21:08:37.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "The Lund Report",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVHg5TU4yZlVsSGcyd1hJdHEwVThKei1SRGd1NWkzdXJnTmFjNWRGYXc2NTJnRW43cDNvTk4wWjlvTlJlendLcVRvWUtfRDQxZjUzaGlnSmc4ZXFsREo4MnBDd1N6djJLU2JuVGR6Q2ZfYjlDUVlSTlFzZWU0SlEzVVp6SHVCUEhJeGRpc1c3UUVnRXFHOGhxQlA3QU44RUdDOW9hR0ZiNA?oc=5",
-        "title": "Santiam hospital hit with $5 million suit over alleged ransomware attack",
         "official": false,
         "forYou": ""
       },
@@ -418,38 +444,8 @@
         "title": "Iran war latest: Tehran holding intensive talks with mediators, foreign minister says",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-02T15:05:10.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Insider Paper",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRXlGbUpyZjRNcHowYmx1eDZkMkNQVUlIQzlxdkh3cV9sS191VVBOeXlHSjVRNTktQ0lMQmFPSmhHeV9XM2lVNUNlQkItTjQ4a280ZFVCQ25hWEVvRDlnR0RrTTBvaWdsbUhFUDV2Zkl3eEJDakt2YWZUMl9HSUdTT1R2VDBCLWVtUTNhY2VTRURIVkVGa3N5Nm5qMHRuUnAxN3pPNg?oc=5",
-        "title": "Iran security chief discusses Mideast war with Russian president: state media",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-02T13:53:54.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Arabian Business",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeGVzSjhrbUhOTTctX0ViTkJTRnFEZnkwNTJQR3gySTJRQlk3aXNwenJ2Qk1DejVYcF84dmF4WDFPd2xKRzEwazEtOEdOb05OOFhJaXZQVTd3R2lDRHdGbTgtM1JSSEMxeFN5OTlLc0tLNE55MHlHRDZNU3lOVFBDaTJwQQ?oc=5",
-        "title": "Iran war live: UAE will be better prepared if US launches new war on Iran, says Energy Minister",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-02T07:47:54.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The National",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQT2RZbUR3bEtVUzBna1hJbGUwNHBnLXRJQkhtZDRDLXkyNkFlYzFHTU1ndUh0T1J5RHQ4aEpjWVhfT3F1cUVkS2dqc2NIdXFIaTdDSk1BbXJtNmR2eDNMa3M2TEpEbXR4VEtyYmYyS3pDeW50SGhicmNha2NDc0xvTXFGUnJ0UTd3RWZQNA?oc=5",
-        "title": "Iran war latest: Oil prices slide more than 3% as Trump signals more time for Iran diplomacy",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-04T03:25:41.489Z"
+    "updatedAt": "2026-11-04T11:40:11.777Z"
   }
 }
