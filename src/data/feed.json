@@ -28,6 +28,20 @@
         "forYou": ""
       },
       {
+        "at": "2026-11-03T18:43:35.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUDd4cTc4M2tsa1lIVVpCenhjNzd4d2d4QU5mNHJaOThSUWptQzZCb0VlNTllR09YdHFsVWhlMDl6akZqalhwalZkV3FudktwVF93RzMtZ0RkUjZ6MlJxZ1lqaGJzU1lPN0t2ZHVsdHJ4b1RoQTJsQ0pOQnVNRF92emxkWUg2eWVQOC04dA?oc=5",
+        "title": "Kolejny atak Rosji na Ukrainę. Nowy alert RCB",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
+          "label": "Alert RCB i aplikacja RSO"
+        }
+      },
+      {
         "at": "2026-11-03T18:38:36.000Z",
         "cat": "safety",
         "sev": 2,
@@ -228,23 +242,43 @@
           "href": "/pl/mapa-schronow/",
           "label": "Mapa schronów"
         }
-      },
-      {
-        "at": "2026-11-02T11:13:00.000Z",
-        "cat": "weather",
-        "sev": 2,
-        "source": "IMGW",
-        "url": "https://meteo.imgw.pl/",
-        "title": "IMGW: 1 ostrzeżeń meteo, najwyższy stopień 1: Intensywne opady śniegu",
-        "official": true,
-        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
       }
     ],
-    "updatedAt": "2026-11-03T23:44:55.717Z"
+    "updatedAt": "2026-11-04T03:24:18.595Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-04T01:59:46.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Britannica",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5",
+        "title": "2026 Iran war | Oil, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-04T01:34:00.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "The New Voice of Ukraine",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRDNhRVhWUUhvajhfdmlvV3NXTW9sMFJvTlZ4YW9OMUgxLXBPSFgxSERYQkI5SzVXSnFWZXl5ZjdJWHVJWDBWblJUdVRZbjRXTU80NkhST2RkSDhaRTN4TnZBNjd1b0NQeGUxOUp6bXdNclNZMjY5eUZEdXcwR3k1Yl80Nl9rOXFudHh0UVc0c2HSAYwBQVVfeXFMTUk1dXhkZHFEVWMyZE5NaHdkVzF6UWFycW9xUW5VdVlHV0FBWmJtSVFHSXd1SmtHYl82c3JJX3NEeVNvS2xCaXNraUdRWVBnbHJTdDJxZEItc3V4X09TYklhQ2hXclZ4ZnRvZjNEMXFRRnVlS1NqeDRPU1VXWW5CSTQ3ZC0tZzJBUHFEMmQ?oc=5",
+        "title": "Russia aims to fracture Ukraine’s power grid, isolating Kyiv, Dnipro, Odesa",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-04T00:23:06.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Geomechanics.io",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRWFPeFBwenVxYWhVR1p2ZGhpUjhtRkcxY3RIRXZPLVZRUGlKaGVWU0FPcWM0ZUZOTW9SQWxjUzV5akh5dVRUMmg1aS02dHlGb043b01DREtaUnFSWUMtNjZsV3hiZDBpQ3RvYkNtek0zaWVETXJQUnNUSWlPd2xjbzRTajhTOE9hdWFmOWFBaVpvZmZWYlhNWWh0TFJqNlNhTGR6X1VGV0xuUmotdVNia1ZhV1hCUQ?oc=5",
+        "title": "AI ransomware risk to UK critical infrastructure: key actions for engineers",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-03T21:08:37.000Z",
         "cat": "cyber",
@@ -252,16 +286,6 @@
         "source": "The Lund Report",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVHg5TU4yZlVsSGcyd1hJdHEwVThKei1SRGd1NWkzdXJnTmFjNWRGYXc2NTJnRW43cDNvTk4wWjlvTlJlendLcVRvWUtfRDQxZjUzaGlnSmc4ZXFsREo4MnBDd1N6djJLU2JuVGR6Q2ZfYjlDUVlSTlFzZWU0SlEzVVp6SHVCUEhJeGRpc1c3UUVnRXFHOGhxQlA3QU44RUdDOW9hR0ZiNA?oc=5",
         "title": "Santiam hospital hit with $5 million suit over alleged ransomware attack",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-03T19:58:48.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Britannica",
-        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5",
-        "title": "2026 Iran war | Oil, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict",
         "official": false,
         "forYou": ""
       },
@@ -292,26 +316,6 @@
         "source": "New York Post",
         "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQnZ6MWRuZXBxZEpRcTdROEotZnNqeGVHdTRpOXZURGdsT3p1UExSc1hLeFg4QS1BMFdCdkloOEEyMjUtaGppaW1xUHI2cTVmUHI0dlZ1RVhkRVRQVTNUZlBoRHRrNlVaSmQybXdBX0huRmRJUlcyd25zWjhibmtmX185XzNuclNldW93WmJabmFONTA1OHJtb2dGV0doTFpmZXNRQ0xYV3BHRU0?oc=5",
         "title": "31 dead, dozens missing after Russian strike on Ukrainian aid site",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-03T16:52:30.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPT1JqejhVRHgzVnBpcmZNcW42MzBsQzY0Nl9udzExRUhsM1BoSS1vNkxXcmVyUHFHZkpTcFc0YkdEWFlSSnk5U2hlQWYzYnJfWVZITGZVU1YzWUxCX1JXT2ExQnNPN1pteUhZSUM5MVNEel80cFVKM0ktVkJXYUJ3cFhsc09lS0Rha3dudGJZNm43RmNBMWtXMEtQTW84OEZWemVmWXlXb1E5Y3lmN0lzZkJn0gG3AUFVX3lxTE9ycXhtYmluM2c4UmI5UlU0OWlJU0ZnYW5fd1oyX0dzM1JVcGV3bm5nZWptS0E5aXVyRFlXYmxnLWRrY25FQWdhbkNfaW92WjkyZ0lwV285MzRUVzFKQ1pWa1dsMy1fS19tcWZpNkFwY1VISlVJa3dxaUFycl9PaHhWVlh5U3VpNEM3Rm1iNkQyNWRVSTNiZ0ZBQXBpX25JVE4xMUxCdHhPTUQ4bWlQNGI0SmlMaXpYQQ?oc=5",
-        "title": "At least 73 injured as Russia bombs Ukrainian hospital and power plants",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-03T16:09:19.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "Yahoo",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSU42eFZqVjlvdG5Da0RnUTljZ0dmdG9wVDk3V1JZa21mdU9RMUNkTlpuLWljRXNpZFhPVjV4M2RuRlExSm9Zd01nNzlkM0tfOEdxRHZuVDlFSFV1ZlpSS1hXcS1BZTFZVDk4a281V3NFUFpNNW9DU3JlWkJHTzd2SmFocmsxV3N0dFFOWGMzTQ?oc=5",
-        "title": "UK Says AI-Powered Ransomware Attack on Critical Infrastructure 'Highly Likely' by 2028",
         "official": false,
         "forYou": ""
       },
@@ -446,6 +450,6 @@
         "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-03T23:46:59.900Z"
+    "updatedAt": "2026-11-04T03:25:41.489Z"
   }
 }
