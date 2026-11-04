@@ -4,6 +4,30 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-11-04T17:44:01.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Defence24",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSGtUby0wanNndW5aS29lM0RHMndTMEdGQ0ZCN2hKVWp4VkRsZDJvc25SUHRUaFdYMnBlWFZOX3MyS3JpYjRRM2tWa1lfZmYtTEJGMmhtanZsa3pCT3JNUG80QUw2TEU0dTJ6YkF4dE1kT2JZOXppb1ZwSmZsWTlQTEU0cjFBM2dMQkpPRC1kTktZZw?oc=5",
+        "title": "Prezes WB: Cała rakieta do Homara-K będzie robiona w Polsce",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
+      },
+      {
+        "at": "2026-11-04T12:02:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Rzeczpospolita",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeHhEQmItUVlLTXNvRzE1dURlUmVNZTRzLWZtYWlMd29kQ2pDZmxlZkVSQ2RMZ19jVGo4VV85Q0g0NnM3YjBUN1kzNnMtem83a29kbTBLOTltTHR6Yml2ZUdrbEhEVjFwaWRlcXhsT1h2SFlzRnNnSE52alhMODJ5dGpIcDFwdC1ocHd4bVFmd21hNk93eUd6U0hSaUtWZ1dFSEVqdkphaTAya25MMGhjb1U3LWk1REU?oc=5",
+        "title": "Dziwne ruchy przy granicy z Rosją. Mamy odpowiedź wojska. Ustalenia „Rz\"",
+        "official": false,
+        "forYou": ""
+      },
+      {
         "at": "2026-11-04T11:46:00.000Z",
         "cat": "weather",
         "sev": 2,
@@ -14,6 +38,16 @@
         "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
       },
       {
+        "at": "2026-11-04T10:38:05.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Rzeczpospolita",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMy1lMENnTlU0b3lvNVlGbzdEb082OTg0Zmt6TlhldzJSR1ZtMG9Qa2x0VWphWlJZb0JPSVU1Z3UzR2p1V1RzanpoSU45a3NHOVFMQklHRVk5bmsyZC01OHluQWNVOEp0WnFDSDF6a29KVXhTVExMRWFCYjVWcS1aNnFrczFFRnVhV1lkYzNhRHI5c0FEMXVBeEFjU1Q3VkNhcmpOUG1OSVpmdk1iRUJqcU1Zc3B6Znc?oc=5",
+        "title": "GROM na granicy pod dowództwem policji? Gen. Polko: Nie mają pojęcia o ich taktyce",
+        "official": false,
+        "forYou": ""
+      },
+      {
         "at": "2026-11-04T05:30:00.000Z",
         "cat": "security",
         "sev": 2,
@@ -22,6 +56,20 @@
         "title": "Przeciwlotnicze Newy przed kolejnymi latami służby. Wojsko planuje wieloletni serwis",
         "official": false,
         "forYou": ""
+      },
+      {
+        "at": "2026-11-04T04:39:00.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "Warszawa.Wyborcza.pl",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRzcxNTVUYzY1YTBRSzd0YlFnS2RwWnVSV3k1TzNMLTZfcU5LSG1fcm5DcGtPV3F6UzRNWWg0OG1VeFpWQXpUTWxSZ1VydVNfeDN2R3pjWVYxcGJmcm4xendudURIbVotSUVEYVRKb1pLQ3I5VGE1UTZPRkdFblFuU3dHTy1sbkQtU0x1NzVlUC1zMEtnbDdaT3BxWDIwT3R1MGVWdi0xeWlNVHBBQTlhVzFPT2cxdlc2VEhV?oc=5",
+        "title": "Nóż podrzucony do szafki i umawianie się na ''ustawkę''. Rodzice alarmują o przemocy w szkole w Brwinowie",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/poradniki/bezpieczenstwo-dziecka-w-szkole/",
+          "label": "Bezpieczeństwo dziecka w szkole"
+        }
       },
       {
         "at": "2026-11-03T19:13:00.000Z",
@@ -182,69 +230,75 @@
         }
       },
       {
-        "at": "2026-11-03T04:53:00.000Z",
-        "cat": "security",
+        "at": "2026-11-03T08:20:37.000Z",
+        "cat": "safety",
         "sev": 2,
-        "source": "PolsatNews.pl",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOWnk5TEZwWTlIMEhKV2RFNU1UQVNnWDdxVUpHZnFNQlVULXRjTTV3QmlBa0hyVG5aMWFDMVl1S1l6c0V6aUEtUVBzQUNmeXI2Mmt4RjZNVEc2eVRyeUdaVExwbEpsRFFlNlRDV3BFRTg4ZDRmMTRaNkQ3MHgwbFRFZG05QVN3dXJFUEJNaWJZNTdxWGpzQUtLNUF1LTIzZUMxV2hra21RVnhKNXBsb1ZpaEVrMURNVWM?oc=5",
-        "title": "Alarm w krajach wschodniej flanki NATO. Polska poderwała myśliwce, Łotwa szuka drona",
+        "source": "Radio Zet",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxORG9veGRBRjVXMzA5OU9VMnpPeGVtRnlHbzJoeXRoMzNyRUYtTjA3alRwa0VCZEYyY0dSWEtKdG9OSV9ybk1FT0YtUDB0ODhKU0RRUG9ndG9kNC1fR05oaENuQ1BXXzNhZjJxMUFzVFlRUHhGSzQxZ01CdWQ1OS1hRVNhc252cmRXcjk1Y2J6di1GVjlVd0lKTXZaV1ZKVkdEU2diaV9LWWxBYmVRWmZkYlNvSzllblI1bFJ6Rg?oc=5",
+        "title": "Wypadek cysterny z chemikaliami. Ewakuacja w Strzelnie, zawieszono lekcje w szkołach",
         "official": false,
         "forYou": "",
         "guide": {
-          "href": "/pl/mapa-schronow/",
-          "label": "Mapa schronów"
-        }
-      },
-      {
-        "at": "2026-11-03T01:24:18.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "WP Wiadomości",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNGhlbDhQVGc1V203M3VVc1hrNERDcXJZa3NSaW9kLVJPLXRBWWpmaFlZcnJxZF9yQm9fOWlqejlmQUpPZjEyUkdGc3BYMUViMXR0TUJlSmtRMjRJTzl1VUtkQXdpWjFtVTVyQ0dQODBkSlMyb0o5bEhPU0Q1UzhRYkwzcmRRZndIbHp3cXNZTWxaLUhIS3dfbU8tS3VjQTNaVE92SFBpU0FySk5QT1BF?oc=5",
-        "title": "Sztab Generalny usunął post o protestach. Rzecznik odpowiada krytykom",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-02T15:41:34.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Polskie Radio 24",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPLXZ4bnNZSGhEbXZXV19aR0tWdFcxRWJ0akFReEJUMHRXMTZNZXNpcGIzZGFQTXRZLThuaVJ1WnU0SHhzeTJpSUNWMEdacEVucXh5VmVaNGZjeVhCMzNVX1Z4MW5pd1dsLXFiNFhTU290SkJUaWMtR252S0lCV0JaOHozOUpaTjNkcTlQb01fTkNpWU51UjZ3MnhzTFhJUmdoSWZhMw?oc=5",
-        "title": "Putin chce nowego porządku w Europie. Ekspert: kontrola byłych demoludów",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-02T15:38:11.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Polskie Radio 24",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZXRvN2V1SS1XdU5HUjV1ZXgwY3dhNi1kb0dHNHF5VFdTSEZFNVE5TVpZbFhYT0lGbk9NS2FSOXBrVDRJX0ZNOEFmc0lmWjZyVXRUb2VfcldCWGE1LVdrMmU1WTlHMjIzcVlPVWVIOGJhQmtqS3QwVlktb1prX2NpcA?oc=5",
-        "title": "Kolejny ambasador rezygnuje. Sikorski \"przychylił się do prośby\"",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-02T15:19:04.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "TVN24",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNemlmU2xTQTJUWjNaMDQxT0VhVXB3QmlzMDVEVHBEYzd4M2ExMkFwVmNPS01YYVZodnZMYmxyOE1mN1FwcUdWaG5lWUctc2pfMVRzdmtBbW5BQWg4OG4tbElIUWdFOElOUDRmYWZZYVM3RmtYV0VCVHFGWGwwWnJkTkRTUkxVN0FTSGVnTW9vaFc0QzZKckVxbWxHUWNoUQ?oc=5",
-        "title": "Kolejny cyklon zbliża się do Indii. Trwa ewakuacja ludzi",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/poradniki/plan-ewakuacji-rodziny/",
-          "label": "Plan ewakuacji rodziny"
+          "href": "/pl/poradniki/bezpieczenstwo-dziecka-w-szkole/",
+          "label": "Bezpieczeństwo dziecka w szkole"
         }
       }
     ],
-    "updatedAt": "2026-11-04T11:39:14.105Z"
+    "updatedAt": "2026-11-04T18:55:19.849Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-04T17:58:17.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "UA.NEWS",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPaUw1dWREaU8tZ0NQaVpJb0pDVXVvQUpuUzNaOXpIdWtteWhsTExMY3hHT1U1Mm1GUGJDcjB2WTA4OUlSVnEzTnZIRU9EZ05wT2VEc3l5TWNhMnlqUVFKY3htbUlSaS1JQXhyUUdrTUVwRThPcGNOU2dKaXNWS25WS2o3T0dEYXR2MVY3elhPYnR3U0JES19nSzVzTXhKZWxvYUZpR2dzRzZ0c0JsLWJv?oc=5",
+        "title": "Video: School breaks have been extended in occupied Crimea due to a widespread blackout",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-04T15:43:45.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Planet Biometrics",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRFlHdlY0MHBCaFZUTVlwZGJEejRrYWkwanlDRG9QLTBuRDNUdHVaRTNyN295TV81M01HSmRvYnNGTGtLMGFvR0YzMkFJYlN3ZllfZ3l6ZWtoSnd2MzNzUGR6SHJEYmpxRllMRUZ5YlRFVnpXbTBub25aSDBwVG5FTWgzWEc4UXkwV3d2c3ZQYlE3TFQwQWhEQ0lMZlNqVzI4Mmc?oc=5",
+        "title": "NCSC warns UK critical infrastructure faces imminent AI ransomware threats",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-04T14:57:59.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The Sunday Guardian",
+        "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxOUmpHSVlFeGlud1lFX3RJMk1lemRTZDAzMGxidHNFUzZ5cUtYdkgxV2xiUmxpT0NLd19pSnhKS2Z0a2ptTUlJQTFRZndtQjJ5SnhDeEFiOUJmaWxzWldrQVdnQlI3LThmYW54Um1kS2tNcXdzUGo5aVZPcFNmX0E4NWpoMExFZFVmSy1SekFJWmo0RUZFRGxGd3BpcW9iNnZkd2pmdnRwc1A1a01VNjFBOXBLS1NpcFJyaXR3S0FRT0thaEF0cThOU3lQVUE0aWQxMFFuMEUteGo3VThvc1pqTW82QWc5Mk9VZno2NVk2N0lCZWhuRVpZVVNjWHk4R2t5NDZ2T3lveVgyQ09RWGZCdDFPVDl4STBRZkRYNVlrOGVNOEtjcmtmMFRZelI1aE1vYl9sTTFB0gG7AkFVX3lxTE4tbzBKT3dKUmptTE53TGVxWHRBRWNOZ3RaN3ppX0xUSWIzQUIxclVpTUpfUVB0R2xKS2RIaGFqV3I3d0g4dUVPbVFqLTN5Y0syOE9WaFJoTWxVV0tGV1NJM1M3QnJOOGNjWmxsYzRCNklmMElhSWJHOUdTRWtQOXNTTGhyNXJTX3lnOEpmRzlHelRGV2QtS0xFeFY5UDVlWjFsWGNQbXYzeWVuYkhya1RYSTlRWmlQSjE3djhDM2NUUF9XOGJhY2pPc0hJVkZ1b1dsVm52UzU1aEJxdFNNd2tmTGFfY0txTm1xY3pRc3JFblNMUDduQldSeWZFcWtlbHBBV1dMTER1WW5SaVdYOVA0c1hZZ29GMDlxSktkN3NvRzhHSUxGcS0tbENJLWRQQW5KMWp3UDJWVXdzOA?oc=5",
+        "title": "US-Israel-Iran War Latest Live News: ‘I’ll Be Working for De-escalation’, Says UK PM as Houthis Claim Ballistic Missile Strike on Riyadh’s King Khalid International Airport",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-04T11:57:51.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Radio Free Europe/Radio Liberty",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9OeTc1VE5lcEx0QzNhVlh6TnBVZUhfdi1MR0xZQnJOLWo2U3dHb09ucVhPNXctSTFXNTF6R3EwZEJXSl96SF9zS2FPUWFwcHpHeFVMaGtUckZiaGIydHc1SFMwT3U1R1h5WnMtY2RGUkdtYm1jV2VUMWFB?oc=5",
+        "title": "Trump Says Iran Wants A Deal 'And It Could Happen'",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-04T11:40:25.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Arabian Business",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeGVzSjhrbUhOTTctX0ViTkJTRnFEZnkwNTJQR3gySTJRQlk3aXNwenJ2Qk1DejVYcF84dmF4WDFPd2xKRzEwazEtOEdOb05OOFhJaXZQVTd3R2lDRHdGbTgtM1JSSEMxeFN5OTlLc0tLNE55MHlHRDZNU3lOVFBDaTJwQQ?oc=5",
+        "title": "Iran war live: Khamenei says US midterms change nothing in conflict",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-04T10:37:24.000Z",
         "cat": "energy",
@@ -302,16 +356,6 @@
         "source": "The New Voice of Ukraine",
         "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRDNhRVhWUUhvajhfdmlvV3NXTW9sMFJvTlZ4YW9OMUgxLXBPSFgxSERYQkI5SzVXSnFWZXl5ZjdJWHVJWDBWblJUdVRZbjRXTU80NkhST2RkSDhaRTN4TnZBNjd1b0NQeGUxOUp6bXdNclNZMjY5eUZEdXcwR3k1Yl80Nl9rOXFudHh0UVc0c2HSAYwBQVVfeXFMTUk1dXhkZHFEVWMyZE5NaHdkVzF6UWFycW9xUW5VdVlHV0FBWmJtSVFHSXd1SmtHYl82c3JJX3NEeVNvS2xCaXNraUdRWVBnbHJTdDJxZEItc3V4X09TYklhQ2hXclZ4ZnRvZjNEMXFRRnVlS1NqeDRPU1VXWW5CSTQ3ZC0tZzJBUHFEMmQ?oc=5",
         "title": "Russia aims to fracture Ukraine’s power grid, isolating Kyiv, Dnipro, Odesa",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-04T00:23:06.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "Geomechanics.io",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRWFPeFBwenVxYWhVR1p2ZGhpUjhtRkcxY3RIRXZPLVZRUGlKaGVWU0FPcWM0ZUZOTW9SQWxjUzV5akh5dVRUMmg1aS02dHlGb043b01DREtaUnFSWUMtNjZsV3hiZDBpQ3RvYkNtek0zaWVETXJQUnNUSWlPd2xjbzRTajhTOE9hdWFmOWFBaVpvZmZWYlhNWWh0TFJqNlNhTGR6X1VGV0xuUmotdVNia1ZhV1hCUQ?oc=5",
-        "title": "AI ransomware risk to UK critical infrastructure: key actions for engineers",
         "official": false,
         "forYou": ""
       },
@@ -404,48 +448,8 @@
         "title": "SWLA brings local flavors and tourism to Chicago showcase",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-02T20:33:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The New Voice of Ukraine",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMGZHWFprVG5OMWJHREVCMk9Yblpyb2REdGt3N3BaS2VHYi1RbHdsVGJLQ1VSU3FQZmxyNVl3cFpQNHlwTHdoaDljTFNkLTEycUl4YWdFRlVLTFMtWGxVNmxuZERod3NLUmRmOXBuN2lTaUFrS0VyZWQ5X0lBSG1YU19YTGpqajg1cjBRdXlfZTJMd2QzWkNEazlnSkUwZGxjX1dj0gGfAUFVX3lxTE1kWFdySnNjZXZQWTdTWEY5b2NlNkl4aFJvRXF5dVBUWDdXNXBvUUl2SzlqeHN5VVBNcnVWQUxac0pmZndyUlhDYnhJSW1JX29Oc1RSUUJuc2pnbDFFa3luOC0tRHlMQmFzZk1wOWhNRVBnTXZXVXc4RS03ZElOSXBSQ25MQWhNUE1rc2F2TG41d1czcEdFczQ1R3NDWG9wTQ?oc=5",
-        "title": "Over 30 Ukrainian journalists urge Western media not to ignore Russia's war",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-02T18:44:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "WSJ",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONGprSkphSVBVaURoYUtYbXJZdGRRRWFRZEF4dzFtcXJlaW45aGFzTTkyS1VtMmR3eFVrT0p1M1dOWkx6VnlnZld3U2c4WkVnVjV3amQwdFhWQUdsTHRKUW1NeHQ2S0RBd2M2b0xaS2FvUlNTY3hDNW1kYkdwUVBYTjlVUGVOeW11RnFocWtuZkN4T2xlYWlpbjI2WF82Q0dlT2tPSkJwQUk0SDgyLWU2dy1tc0JvX3FnZGVCUnF3dmZEUQ?oc=5",
-        "title": "America’s Gulf Allies Prepare for New Round of Strikes on Iran—and the Blowback",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-02T18:25:53.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "Campus Technology",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPYnhkRmNJMjk4YXAzR2R0M1RseHdIMFYtXzBSTXdCMldoSGZrdFpFMm14a2Mwc1dCSjhXRVJfcWRBYTFDRExGeUxoekYzeWhBNmNJZnFDS054VnRsSGlGeUFIUG9UdGp6SDZfeVRVYjV3YjZyTDhCRVlSWGZDVXpCa0NFZjdHNEpwcjNDQ004LUFLekxzU2dQLVU4LW5IUi1KR1dkZUF2TmMtbVU?oc=5",
-        "title": "Global Ransomware Attacks Rise 23% in Q3",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-02T16:51:17.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The National",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQT2RZbUR3bEtVUzBna1hJbGUwNHBnLXRJQkhtZDRDLXkyNkFlYzFHTU1ndUh0T1J5RHQ4aEpjWVhfT3F1cUVkS2dqc2NIdXFIaTdDSk1BbXJtNmR2eDNMa3M2TEpEbXR4VEtyYmYyS3pDeW50SGhicmNha2NDc0xvTXFGUnJ0UTd3RWZQNA?oc=5",
-        "title": "Iran war latest: Tehran holding intensive talks with mediators, foreign minister says",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-04T11:40:11.777Z"
+    "updatedAt": "2026-11-04T18:57:21.682Z"
   }
 }
