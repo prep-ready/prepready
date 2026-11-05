@@ -4,6 +4,40 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-11-05T13:24:03.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Policja Mazowiecka",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPcmdtbFNWbFRGaFVWb0s2N3VZTmYxVHdRSWNFbENHS0d6eVg0WWlNX25mNGR3SmJzelVzc200bFMwV3BRUEZMMklZcUFTNGRrQ044SjlmRXBLSHQzdks5V1hiaC1FaTBYNXdYUjQ0VndSQnhYS2l5ZEFQUldPREdUUW9feWRBYW1ndHJSa1VVTnFpSUNWX19hTVJuTnV0d1pBWHVnaE5MTWlXSUFQLVpiQ0UxeGZMdjdGUFlESEdOdmMwTXlObzdGbzRMQ1lzS2ZyMklQOHU1RHRHQQ?oc=5",
+        "title": "„Życie to nie gra, masz je tylko jedno” – spotkanie uczniów i rodziców z policjantkami",
+        "official": true,
+        "forYou": "Przypomnij dziecku zasady: słuchaj nauczyciela, uciekaj od zagrożenia albo schowaj się w sali i wycisz telefon. Nie dzwoń do dziecka i nie jedź od razu pod szkołę, czekaj na komunikat szkoły lub policji.",
+        "guide": {
+          "href": "/pl/poradniki/bezpieczenstwo-dziecka-w-szkole/",
+          "label": "Bezpieczeństwo dziecka w szkole"
+        }
+      },
+      {
+        "at": "2026-11-05T11:28:00.000Z",
+        "cat": "weather",
+        "sev": 2,
+        "source": "IMGW",
+        "url": "https://meteo.imgw.pl/",
+        "title": "IMGW: 2 ostrzeżeń meteo, najwyższy stopień 1: Gęsta mgła",
+        "official": true,
+        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
+      },
+      {
+        "at": "2026-11-05T10:19:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Rzeczpospolita",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPTnNnS21ZdWtFNTkzTlFkcUxYOWwwemxORlhnR3dzWU5LdlFPYkVCODV6YjZBMzNhNlRnd1ZpazZnSUIzSi1qdDRjZndrcTZ0SDJlSWxWNWp4X0FrdEZ2eU1Nci1fSHJuSWpESm51S1NSTEY3WThISjRaN2tkM0NscV9uZ1NQbjM5NklrV0oxOWVucGJ0S3NCWTFWTHdaQmZHUEYySzl2T2dPUmZGOTBpdE8tNVdqNFJoSDhiSkhlalBaZkZWejAxaFFwX0JlWXE1YVk1S0syOTlZNEI0a0pZ?oc=5",
+        "title": "Miliardy złotych na ochronę polskiego nieba. Amerykańskie spory opóźniły dostawy",
+        "official": false,
+        "forYou": ""
+      },
+      {
         "at": "2026-11-05T00:33:49.864Z",
         "cat": "energy",
         "sev": 3,
@@ -60,16 +94,6 @@
         "title": "Dziwne ruchy przy granicy z Rosją. Mamy odpowiedź wojska. Ustalenia „Rz\"",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-04T11:46:00.000Z",
-        "cat": "weather",
-        "sev": 2,
-        "source": "IMGW",
-        "url": "https://meteo.imgw.pl/",
-        "title": "IMGW: 2 ostrzeżeń meteo, najwyższy stopień 1: Gęsta mgła",
-        "official": true,
-        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
       },
       {
         "at": "2026-11-04T10:38:05.000Z",
@@ -218,40 +242,70 @@
           "href": "/pl/mapa-schronow/",
           "label": "Mapa schronów"
         }
-      },
-      {
-        "at": "2026-11-03T10:11:05.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Rzeczpospolita",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOV3c1azhOdENXbTNXT25KXy1hN1hxcnlSbWVkWDNER1RQc0ZSUV91eV81SFBtMWJDU0llczJYSldLWlg2bkZ6eDJYXy1RZEVETUczUnFqV0FheVRDNDc5Sy1LN0wyRDV4ZnkxVTZIOUswbGRKX2FCbmllNWszQm96WFE5TlZsNEItZTNwd0FPTWhBdkVoR2FBU01qRG5TSHgxMDNXeUxHQktlMmdzZVN4RFVTUWoydktNWmw3R1R2RV94VkZJWEF3UzZrODc2LWs?oc=5",
-        "title": "Żołnierze z 11 państw koalicji chętnych będą ćwiczyć w Polsce. Manewry już w listopadzie",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-03T10:02:48.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Rzeczpospolita",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbWlUUjRGVEE3Q2pJa3ZuQXNYTmxzcG8wam9yTXlKZFZPTDBjMXk0N05JVWFvaVZlbktja0JkMXl6WTFSVksxY29SeDlaZmpVTXBXTEpfaU1HUU5fOGZFLVozbVlCcThkYS14V3NaWU1SN1FWTVVKUy0xTU9aNFZaMHROdWNMSTFaN2F4a3RTcklqQ1dLSVp6ZDJQamEtemw4UWhyZEVMdE9ocDF2OUFNbnBIMA?oc=5",
-        "title": "Lotnisko w Modlinie zamknięte do odwołania. Alarm po lądowaniu samolotu z Londynu",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-05T07:29:10.966Z"
+    "updatedAt": "2026-11-05T15:51:14.889Z"
   },
   "en": {
     "sample": false,
     "items": [
       {
-        "at": "2026-11-05T04:31:34.000Z",
+        "at": "2026-11-05T10:40:08.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Daily FT",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQUnhyU0Z1djh0MlRZcC1jb0JMeFptdzREbV9DY08wSjJmcGFqT3VZQ0dmbFVoZmFjUFZad0xmOXc2TEREQ3dCX2dJVWdWUFl2dUN2NzRZNjdEdjJadGhWUkhTRTNua3FRTHlpbmcxVW5QR2VSQmp4ajVKaUdnMEhjLUs0N0J0Yl90RlVRc3dFMTh6SkdzbDk0S3lHTFBrQUVfZzBlZ2lCMi1GN2lPZDNEcXp3Rld5SEJiMm5SVWFTaDlZa0Zsb1gtM1JRZ3Z4a0ljMHdpcW5VS3BnNFAyM2c?oc=5",
+        "title": "When the Grid Went Dark; Rethinking Power System Resilience after Sri Lanka’s October 17 2026 Blackout",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-05T09:56:14.000Z",
         "cat": "security",
         "sev": 2,
         "source": "The National",
         "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQa3prTFlUbjIxSUVNV3VDVHNEb1Nkb0ZqSDVTZkJwMng0YmQ2dFhmVDNYdlB4WGlQU1NMU3J5VWg3a1NTcjBoTm9oZ2piVXlKc29ZSTNzcHRHUHFNVmxzRDhRS2ZXUXI2RW1nU1hGZnI5U0RKeXR6NDJ5T2k2a1gtbXRCSFY1VUdJY1NUaXU5V2YzWE0?oc=5",
-        "title": "Iran war latest: IRGC claims two tankers and tugboat caught fire in Strait of Hormuz",
+        "title": "Iran war latest: Third tanker catches fire in Strait of Hormuz, Iranian Navy says",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-05T09:51:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The New Voice of Ukraine",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOeXFNdkEwSC11Y2tCS2MxbDEtR3BBNVQxLUx1YzlzYUpjY1pucDYyeXpNMDNUYXpRY1NwWVJvRzVHRnQ5NEV3ZTVlX1BuTlBDd2pNNHhkTWRZeUFLNnRQbW9PX3RnWW5OYzRrb3p2V0wxNEpPSjB1QW00Zi1Bc3k3LWl3ZDRUaXkzZHhRNG9hVUthNEoycFBtQ3Ewd2hUaWZobHBlTTMyallHYjlzcUg4a3FZYk1IQUNJUWpB0gG7AUFVX3lxTE55cU12QTBILXVja0JLYzFsMS1HcEE1VDEtTHVjOXNhSmNjWm5wNjJ5ek0wM1RhelFjU3BZUm9HNUdGdDk0RXdlNWVfUG5OUEN3ak00eGRNZFl5QUs2dFBtb09fdGdZbk5jNGtvenZXTDE0Sk9KMHVBbTRmLUFzeTctaXdkNFRpeTNkeFE0b2FVS2E0SjJwUG1DcTB3aFRpZmhscGVNMzJqWUdiOXNxSDhrcVliTUhBQ0lRakE?oc=5",
+        "title": "Pyongyang trials new air defense system and cruise missile strike capability",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-05T08:21:05.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Business Upturn",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSUhwWWlCZ3laQU9rbVZiWUVlSXVWWlFkcW5JeG82aE5meTl1bDA1Ti1ITjFpYnhuM2FqVWRuSTRUUkNzZzhYY0l1WVBKSzlHTTVBYjY4amFRZFVxN1JILTVONmQwMWNVU2NQQlZvb2hhYVN5VjIyUUFQeVBSOHpUSVhQdkdYSnY1WTBTSTdqZnJvSDE2WjZvQWVIRWk5aDBtUmFzV05zcGxkVFRVVGlBMjFzaFNaRER4Vk0tZw?oc=5",
+        "title": "French Blood Service Cyberattack Shows AI Risks Extend to Critical Infrastructure",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-05T07:51:55.000Z",
+        "cat": "health",
+        "sev": 1,
+        "source": "ECDC",
+        "url": "https://www.ecdc.europa.eu/en/news-events/preparedness-response-eu-reference-laboratories-public-health-action",
+        "title": "From preparedness to response: EU Reference Laboratories for Public Health in action",
+        "official": true,
+        "forYou": "Usually no action. Check your first-aid kit and expiry dates."
+      },
+      {
+        "at": "2026-11-05T05:01:28.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Arabian Business",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeGVzSjhrbUhOTTctX0ViTkJTRnFEZnkwNTJQR3gySTJRQlk3aXNwenJ2Qk1DejVYcF84dmF4WDFPd2xKRzEwazEtOEdOb05OOFhJaXZQVTd3R2lDRHdGbTgtM1JSSEMxeFN5OTlLc0tLNE55MHlHRDZNU3lOVFBDaTJwQQ?oc=5",
+        "title": "Iran war live: US targets three networks to cut off arms shipments to Tehran",
         "official": false,
         "forYou": ""
       },
@@ -394,58 +448,8 @@
         "title": "Santiam hospital hit with $5 million suit over alleged ransomware attack",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-04T01:34:00.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "The New Voice of Ukraine",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRDNhRVhWUUhvajhfdmlvV3NXTW9sMFJvTlZ4YW9OMUgxLXBPSFgxSERYQkI5SzVXSnFWZXl5ZjdJWHVJWDBWblJUdVRZbjRXTU80NkhST2RkSDhaRTN4TnZBNjd1b0NQeGUxOUp6bXdNclNZMjY5eUZEdXcwR3k1Yl80Nl9rOXFudHh0UVc0c2HSAYwBQVVfeXFMTUk1dXhkZHFEVWMyZE5NaHdkVzF6UWFycW9xUW5VdVlHV0FBWmJtSVFHSXd1SmtHYl82c3JJX3NEeVNvS2xCaXNraUdRWVBnbHJTdDJxZEItc3V4X09TYklhQ2hXclZ4ZnRvZjNEMXFRRnVlS1NqeDRPU1VXWW5CSTQ3ZC0tZzJBUHFEMmQ?oc=5",
-        "title": "Russia aims to fracture Ukraine’s power grid, isolating Kyiv, Dnipro, Odesa",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-03T19:52:00.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "AL.com",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWWR4cmhRd0tyNUlnRlZBWlJmSGNrQ0J6RzZ3Qlo2ZEpsSEZ1MjJXazBnQmpNVEd4OThXQ0RPdGljQ2U1WjRHbU1VZTNBODFQaXRrak9hbXJPWFNZeVVfMTF0ckhWSGV1Q2R1bkdkTzJXc0JNNHpUM2ljWHVDdWRKczFVSldsWFQzQmxBaGpJaVN4cG83bFNlWmJ6YUtkdGhFZ2hIM0lVQXBUOTc2NnIzRzY0eUhWQUHSAcsBQVVfeXFMTXR0MVdtRnE0M1BYOUgyS3NwYWg3Z0x6bFEzZENVaWNFTFFQdGo2aGpJWlRIZnJaVUZHUUV6ZlNhTWVpVkR6QnZBYWc2SmpaME5KcE02MWhSMWRqNVZJTjRSbWZJQk1TMVpWcDdFR3hPbTB0MHhoVm9kZlhDQmtHSWFGbHdGTHJ0cGpva1ZMSGk2SHpNRUo4b2VnOFc5T0d5SGMtdjlQRTRZSll0X2k3LUxqQVQ2MHRwTm5qWjlzV3NSUG1PQ2UxVktjNDg?oc=5",
-        "title": "13,000+ without power in Madison County, voting machines running on battery backup",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-03T19:22:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRUxWRV9INUFTNjJQdi1qT2t2TzdtTWFqSjlQZkpiUDM0VWk0UzFiY1g1cXJDNmJfV2lYVGloc211UnNJNlZGdjFkVEQ4amlxN3NmQXlhRjBjR05Dd3BOdm8zQlBvV1V1YS1OUWdlcXpNSjMzTHBNR3MxT3BtTWJVVjBxN1ZfSnNBS0N3bXhUcGlmMUk?oc=5",
-        "title": "U.S. Military Strikes Iran’s Qeshm Island in What U.S. Officials Call a Defensive Measure",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-03T17:26:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "New York Post",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQnZ6MWRuZXBxZEpRcTdROEotZnNqeGVHdTRpOXZURGdsT3p1UExSc1hLeFg4QS1BMFdCdkloOEEyMjUtaGppaW1xUHI2cTVmUHI0dlZ1RVhkRVRQVTNUZlBoRHRrNlVaSmQybXdBX0huRmRJUlcyd25zWjhibmtmX185XzNuclNldW93WmJabmFONTA1OHJtb2dGV0doTFpmZXNRQ0xYV3BHRU0?oc=5",
-        "title": "31 dead, dozens missing after Russian strike on Ukrainian aid site",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-03T12:36:46.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "The Libya Observer",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPb0FLdGRwa1EzdDRiTmFWcjlYWDdwWS01aTVJTTNjTmtOdXJLRjYyb0JoZ3pKaHRvaVNDN00yVi1XTnRKMkRlVjNhWl9tNE51RzRqa2VRNmNtMjFCd3pSaXIxdFhhNmRQRnpSVXZMN0phQlNYdG1zSTI5SmYwblZPcUpJYUVRZ3BrcVdvbHZn?oc=5",
-        "title": "GECOL reports completion of 1,571 grid improvement projects",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-05T07:30:46.550Z"
+    "updatedAt": "2026-11-05T15:52:15.352Z"
   }
 }
