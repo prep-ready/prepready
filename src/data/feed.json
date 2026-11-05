@@ -4,6 +4,20 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-11-05T22:00:00.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "Portal Samorządowy",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZW5OYk5HU3l3eFU1T1JLZF9FUDhCOUNwMDZHZmJlNG1DT0paRUFiSUZTMEVYaUVnVDRVLTNNWlZZQmJmaWpyc2UtN09BVWExa2NkbTdGa3JoVkVwRnNjOWVKb3FXMEVTVXZIekNpMmpCamNHSDFZY2k4Ml9ucHZ2QkZhQ1NiZ2haVUEwNndyMWp0aTZpbVFDZjYwRG5FWEYwMlc1ak9JdUVKSTluNGJpRUJpSnRXS1ZpUVJvX3dZaF9VdXl4NWUyM1o4LW5Ndw?oc=5",
+        "title": "Szkoły dostały instrukcje. Uczniowie i nauczyciele będą ćwiczyć reakcje na ataki",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/poradniki/bezpieczenstwo-dziecka-w-szkole/",
+          "label": "Bezpieczeństwo dziecka w szkole"
+        }
+      },
+      {
         "at": "2026-11-05T13:24:03.000Z",
         "cat": "safety",
         "sev": 2,
@@ -228,27 +242,63 @@
           "href": "/pl/poradniki/plan-ewakuacji-rodziny/",
           "label": "Plan ewakuacji rodziny"
         }
-      },
-      {
-        "at": "2026-11-03T10:51:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Rzeczpospolita",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVjVITzZobkNxbVhlajJxT1M4b0lXSi03alhSTmJZd2MyajNHV1RORTVxbDRfUXpHY2hEak83VV84c1gzY3hIbFR3VzNLVVVHeXVZU0EtUjZlOUhMRnJTQVo4THlISlNyYXJsT3h5cTM3d3A1UERWZG9vRHBRQUFmcEtXd3VYMWZhRXFtRVVQem92N3pIcFd3eVRSTkVmTkFCMlc4NkQwb3ZDUEM5R0pCOUpuNFhDTnlhX0ZmdHhtb3JKWkVI?oc=5",
-        "title": "Polska po dwóch tygodniach nic nie wie o „dronie-widmo”. „Zgodnie z harmonogramem”",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/mapa-schronow/",
-          "label": "Mapa schronów"
-        }
       }
     ],
-    "updatedAt": "2026-11-05T15:51:14.889Z"
+    "updatedAt": "2026-11-05T22:23:46.541Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-05T19:35:00.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Fox 10 News",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxObHo1SmtZMkdoV2pFQ09WQzk3a3VMa3FyUjJwbGpQYlRZc003SzVWdFg1akFZZl8wNEhCQldBTjJ4N3RPR3BFSmJNOENqczVxV0lBUlZoeXhvN3p1WlBVNXV5ZTA1VFFFQVpBRXh5M0VNMnZ3cHp0cnA5Tm5rdjV2U0c0NXFzQ3IzNm93RTlZNHk0bHpfcEVuMTNib3dTOF9YblFTbHJ0OFcxYkZHVWRCb2NhMzlXSnJlWFE00gHPAUFVX3lxTFBrUGpBc2Ziek9fR1MwUVZlbmRUWlQwX2RkS1NkemR5d2kyRGtXcnQ3di0yUF82LU41VEo5bVJ1NTZJU2V0ZU92LUdCVndKck85UXNING5uUmxoWU9kT2NQalFmeTVpVW8xX2hFRDhOQzRzSUQ3d3NERGpxWm9Dd1ljWld0V3lfWmpVSXRqekNFWko2b2p1Ujh3UWFaTnNmMXAxS1NZSWR3MG5acVk3c0h2SnhMWDR1bkhDazQ2bHFUTkw5VUhZUkFoNk9mNnNYOA?oc=5",
+        "title": "Is a 90-day blackout coming? What the U.S. military’s new readiness initiative actually means",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-05T18:01:14.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "WFIW",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPNjV1VUFfZFoyaWp5RTRtTGI2Sm40MWRFWW80Qk92a05MaEZ5V2ZEMGRzN0RqRnFUMGQwd1pPamJVNk9GZnVUU2FSS0RVckRvZkVHSHpPUllGMkl1d1NsRktQWTV3SXM3ZW1fYlhHaHh5YUJWZTNZRkp5bVVWdUhSckUxbkROajN6Q2ZRaTRLb2QybDNKVGxBX0J2cmpLY05VSVBueWd4b19aRllSaDJXZ2Vud1JFdmlDLXdLcE9semxGUDRoMUtqN09CcXA?oc=5",
+        "title": "FAIRFIELD MEMORIAL HOSPITAL PARTICIPATES IN STATEWIDE CYBERATTACK EMERGENCY PREPAREDNESS DRILL",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-05T17:04:01.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The National",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQa3prTFlUbjIxSUVNV3VDVHNEb1Nkb0ZqSDVTZkJwMng0YmQ2dFhmVDNYdlB4WGlQU1NMU3J5VWg3a1NTcjBoTm9oZ2piVXlKc29ZSTNzcHRHUHFNVmxzRDhRS2ZXUXI2RW1nU1hGZnI5U0RKeXR6NDJ5T2k2a1gtbXRCSFY1VUdJY1NUaXU5V2YzWE0?oc=5",
+        "title": "Iran war latest: Iran claims series of Hormuz explosions as talks intensify",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-05T15:48:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Українська правда",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAwS0luTUY4cWRnSmFjR3VwVnlfa3hWZW5JUXpmanJNcUlLQmJ5MlpXUlJOWFIyTWlwSW1OVUtvQnpObHk5WkVtU1FqbkVtRjRZWDJXbDd3MDcwd1J6REdlVnRBSEpzalhhbWVLWllPWGvSAXBBVV95cUxQMEtJbk1GOHFkZ0phY0d1cFZ5X2t4VmVuSVF6ZmpyTXFJS0JieTJaV1JSTlhSMk1pcEltTlVLb0J6Tmx5OVpFbVNRam5FbUY0WVgyV2w3dzA3MHdSekRHZVZ0QUhKc2pYYW1lS1pZT1hr?oc=5",
+        "title": "Three more Russian commanders served with notices of suspicion over Okhmatdyt missile strike",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-05T10:40:53.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Arabian Business",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeGVzSjhrbUhOTTctX0ViTkJTRnFEZnkwNTJQR3gySTJRQlk3aXNwenJ2Qk1DejVYcF84dmF4WDFPd2xKRzEwazEtOEdOb05OOFhJaXZQVTd3R2lDRHdGbTgtM1JSSEMxeFN5OTlLc0tLNE55MHlHRDZNU3lOVFBDaTJwQQ?oc=5",
+        "title": "Iran war live: Madinah-bound Houthi drone intercepted by Saudi-led coalition",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-05T10:40:08.000Z",
         "cat": "energy",
@@ -398,58 +448,8 @@
         "title": "Iran war live: Khamenei says US midterms change nothing in conflict",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-04T10:37:24.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Sur in English",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVzNYSXNPVmNySGRNYk1acG94cHJtdXRKRWZucE5JVEFrRHJNWGxyQ2wzemVOZ1Ixam1La3B5VldaVTMtakJNQUdBTVVzb3Q0VUhYWldmMnY3NndQWWdtOVlKSG5XUGNDMk5XR3hndURSQ3dTMU9KVkRnTHg3cFctZk5rN3QyMzdv?oc=5",
-        "title": "Spain's blackout shield and funding gap erode its advantage in renewable energy compared with France and Germany",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-04T10:04:17.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "AOL.com",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdlFxSFI4OERCMU41dFhqanQ4Z1d0MFVqMVlmQXJURDFZUl9RSGU0c3doaTV3dzVkaURhQUFhcko0cExJcnp4WkhycU1IdEN2MmptRi1Lby1nclVuaUk2bEIxTUpZbkRXYkpwWkEyTXpIRkEwVDd5ZGlJcy1kbm03ZkRybjJBQQ?oc=5",
-        "title": "Iranian MP tells Euronews Tehran's missiles will strike Europe if US uses its bases there",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-04T08:09:23.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Britannica",
-        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5",
-        "title": "2026 Iran war | Oil, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-04T07:48:11.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The National",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQV0lvOVlUWjlLSHFIbXdUand3WVJ4clFOdDRxRExxdVI5Z2Y1Z2laTGItMTRtQjJNNW5GM3VrcmY3WFhlS19NQTc0WUVTUXVvcEZKS1VlV2dUQm4wWkNfTzAxYWZxVURXQzRONFBaTy1kMUxmRVk0cFByZnVkME5pcHl5NGN1TWdZRGtSUTV3?oc=5",
-        "title": "Iran war latest: Trump says no immediate Iran strike plan but US 'locked and loaded'",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-04T03:23:32.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "NewsBreak: Local News & Alerts",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQc25ERmpweTdDcUdQX2ozZVhEUk5NVXd5Y1pBZFo4VFRTeFl6TGcyTkd2T2V1aTVhRDRWRkhFNUVrVWZFSC1sN0VmMTFZNFJiS1Z3WUtXTlhaSlExU2Z3YkxIMGNYV1pNSDREdGsxR2sxRTRpb3JSbUx2T1psT2FMS3ZTaGpvWEhsSWFFQ2lvb2NEQl9pR2RoREI4NzI1MmlrZndyTGxmTGtFYlhKRXJyRE9PSENPbzQ?oc=5",
-        "title": "Santiam hospital hit with $5 million suit over alleged ransomware attack",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-05T15:52:15.352Z"
+    "updatedAt": "2026-11-05T22:25:52.073Z"
   }
 }
