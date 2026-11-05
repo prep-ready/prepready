@@ -4,6 +4,30 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-11-05T00:33:49.864Z",
+        "cat": "energy",
+        "sev": 3,
+        "source": "PSE",
+        "url": "https://www.pse.pl/",
+        "title": "PSE: dziś zalecane oszczędzanie energii",
+        "official": true,
+        "forYou": "Ogranicz zużycie prądu w godzinach szczytu, naładuj powerbanki i latarki.",
+        "guide": {
+          "href": "/pl/poradniki/blackout-jak-sie-przygotowac/",
+          "label": "Jak przygotować się na blackout"
+        }
+      },
+      {
+        "at": "2026-11-04T20:30:22.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Radio Zet",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPX3FyZ1oyUXdEMDVxTmRTTF80XzZwUEdiWDZ6NEg5QmU3YVdxZS1wZ2VOR1R6Q01vdF84UGhOa2wzMkNJUjhxU0NTWHhPYkptR1paN2pWT3RtVzhZVmRaMWVlbmo3M3RvR1FRZktoN044enkzSWR5eTkxLUhaaEFFYTN0R3FIQ1Z1aFZ5b1YxZWZGZ2FxSHM0QmVpQ2FuTjVwX21Gcm4yR0ZRYVlNLVllNE1NdnRjTDh2?oc=5",
+        "title": "Co ze stałą bazą wojsko USA po wyborach połówkowych? Eksperci kreślą scenariusze",
+        "official": false,
+        "forYou": ""
+      },
+      {
         "at": "2026-11-04T17:44:01.000Z",
         "cat": "security",
         "sev": 2,
@@ -16,6 +40,16 @@
           "href": "/pl/mapa-schronow/",
           "label": "Mapa schronów"
         }
+      },
+      {
+        "at": "2026-11-04T14:49:27.000Z",
+        "cat": "health",
+        "sev": 1,
+        "source": "Radio Zet",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcHNnUlZfbUxiR3BwamZuc2tEUW04bmR5cDlTQ2ZlZEEtVXY3OWctN0RQRzlmc0hOSGFZU0I5aGxPcDJsVXJ5cWFVcEltekoxZ2RsY3JvOU1uY2FuYkpIUHVZejFCYV94dXc1YjNaS3FHRHJaQVFPX25BTGh2a0xDajFVeXVHcXhfbXNGQlNTMTRQXzVfR2d4UzV3QUtwV1Nzc3l5VW15N002eVJDSVpPQU8zUVBhbG1VSExv?oc=5",
+        "title": "Trzy wirusy w natarciu, najszybciej łapią je dzieci. Szef GIS o nowej fali zakażeń",
+        "official": false,
+        "forYou": ""
       },
       {
         "at": "2026-11-04T12:02:00.000Z",
@@ -204,51 +238,43 @@
         "title": "Lotnisko w Modlinie zamknięte do odwołania. Alarm po lądowaniu samolotu z Londynu",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-03T09:00:00.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "CERT Polska",
-        "url": "https://cert.pl/posts/2026/11/bug-bounty/",
-        "title": "CERT Polska uruchamia program bug bounty dla administracji publicznej",
-        "official": true,
-        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
-      },
-      {
-        "at": "2026-11-03T08:37:00.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "TVP Info",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUm1lU1pDOHJvOXlVRlZWWUVXN2NJMjlBRTdTT0tHdjh0VGVkb0JyWmQ4ZnlhWjZxZ2o1dEhEdGI2eVJxdngzU2hzT1F4eXFYc2EwM21WNmdyZFA5TlRFNDRSS29vYVctNGYxc3dDcjFoZlVDSFdrcWI3RVY1Y2hORGJxTGZleU9aUVNDdlBHenJTemE5M3VyZEhCZEZTQTJVcWFoaHZMNA?oc=5",
-        "title": "Ćwiczebny alert RCB. Zawyją syreny alarmowe",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
-          "label": "Alert RCB i aplikacja RSO"
-        }
-      },
-      {
-        "at": "2026-11-03T08:20:37.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Radio Zet",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxORG9veGRBRjVXMzA5OU9VMnpPeGVtRnlHbzJoeXRoMzNyRUYtTjA3alRwa0VCZEYyY0dSWEtKdG9OSV9ybk1FT0YtUDB0ODhKU0RRUG9ndG9kNC1fR05oaENuQ1BXXzNhZjJxMUFzVFlRUHhGSzQxZ01CdWQ1OS1hRVNhc252cmRXcjk1Y2J6di1GVjlVd0lKTXZaV1ZKVkdEU2diaV9LWWxBYmVRWmZkYlNvSzllblI1bFJ6Rg?oc=5",
-        "title": "Wypadek cysterny z chemikaliami. Ewakuacja w Strzelnie, zawieszono lekcje w szkołach",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/poradniki/bezpieczenstwo-dziecka-w-szkole/",
-          "label": "Bezpieczeństwo dziecka w szkole"
-        }
       }
     ],
-    "updatedAt": "2026-11-04T18:55:19.849Z"
+    "updatedAt": "2026-11-05T00:35:00.600Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-04T23:38:04.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The National",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZUJpWFN1Mk9MR1J5dGYzd0xld25oanpjSXJvcS1jQWhVY2tBUi1iY2Q5Z3RUZW9Ia0hkcURmMHhoM3VvU1ZrMnRzcHM3S093cVNGQzdvR3NoRERIMmkxUWpuYnJaODBHU1pfTFNjNGk2WTdVNFRrVU5jUFJza19TUS1Mb3JWQTk0M0E?oc=5",
+        "title": "Iran war latest: Iranian general warns of Red Sea attacks if fighting resumes",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-04T22:35:00.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "BigGo Finance",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5CUk16SEJnd3NGYkxkbjhkLUIyOXlrV29hVFJGUENvbVBENUtlUlk5dUl5OU14MnpTZHBRYmduR0NVa1R5YnZfc3lkWTI3UlIybmlwWE1kY3M5a1I0TFZqNGlDS1J6T1JadmJHYU1QQnhiVXhvRlE?oc=5",
+        "title": "UK Intelligence Agency Warns AI-Powered Ransomware Will Hit Critical Infrastructure by 2028",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-04T21:34:22.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "https://houseofsaud.com/",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1XQ29nRzJYem5SU3ZVMVkzdkFYaWs1Z05zR28yRERYbVhkMmNoYjBZdkRJYTZLaXdhcFNqc3BmbUlMR00tSUJrM2JkVURIbEdTbGNEdUFsVm53OGRfV0hPNUgwdw?oc=5",
+        "title": "Khamenei Warns of Wider War as Trump Says He Would Strike Iran Again",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-04T17:58:17.000Z",
         "cat": "energy",
@@ -260,12 +286,12 @@
         "forYou": ""
       },
       {
-        "at": "2026-11-04T15:43:45.000Z",
-        "cat": "cyber",
+        "at": "2026-11-04T16:31:42.000Z",
+        "cat": "security",
         "sev": 2,
-        "source": "Planet Biometrics",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRFlHdlY0MHBCaFZUTVlwZGJEejRrYWkwanlDRG9QLTBuRDNUdHVaRTNyN295TV81M01HSmRvYnNGTGtLMGFvR0YzMkFJYlN3ZllfZ3l6ZWtoSnd2MzNzUGR6SHJEYmpxRllMRUZ5YlRFVnpXbTBub25aSDBwVG5FTWgzWEc4UXkwV3d2c3ZQYlE3TFQwQWhEQ0lMZlNqVzI4Mmc?oc=5",
-        "title": "NCSC warns UK critical infrastructure faces imminent AI ransomware threats",
+        "source": "Dagens.com",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVXdXM05QcDNlZWhFVEMzYTZUd295ZzhzUllRS2lqYlNDMWV6TEN2MTFHTmwzSXZlVlVRQkRLSHFmVXBFUXozbDFXUl9ldHBkYTZZZVJPZHlSSVIweWdvcFRnNHhNczRRS2hnclBpcnBuQ0tzU0szSEt5S1JJU3VUV21qblpYZnUwcHRXMk9vdS1tY29GS3RDT0JHeTZtLXc?oc=5",
+        "title": "Ukraine intercepts over 8,000 Russian missiles and drones during October",
         "official": false,
         "forYou": ""
       },
@@ -400,32 +426,12 @@
         "forYou": ""
       },
       {
-        "at": "2026-11-03T09:11:22.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "BigGo Finance",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5ldkNsS3pUUmd0cWE3SUJkb2pybUpYZHBma0JsdHA5ZlFMN3ZZekhvaHFMdlBhdEJLZmNGR3RHRVZtMVQ2TUt4UUZ0RFNTN0huakFxcGdmTVN6TF9Kb0JZMmhob21DdUdaR3pVOEVIZG05VHdSb2c?oc=5",
-        "title": "UK Cyber Agency Warns AI-Powered Ransomware Could Cripple Power and Water Systems by 2028",
-        "official": false,
-        "forYou": ""
-      },
-      {
         "at": "2026-11-03T09:00:54.000Z",
         "cat": "energy",
         "sev": 2,
         "source": "eNCA",
         "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRFI5Q19KQlhsbk5NcFdQcWFhSi0wd3F1dG5YZkF5MUJTWjNZWGpZb1RIS211allZSXRnV1F0NFd6Z2M1elVXSkRIT0pOU3E5LUMtOWtTejNmTUpkZDVwREJFUDRyb1luVFpCUTJGTzRpQmxlb29nTTlsYUExaUFYZEFSQWhmWGtQXzN2V2xNWXFjb1dJTlN3aGwxUFBkbl9CalE?oc=5",
         "title": "Power outage interrupts water supply in Ekurhuleni, Tshwane metros",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-03T08:40:17.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "UNITED24 Media",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQQzhoMWNoS2ZWNURDdnhEbUtRWFl4MzZKTDRUbnRXQnczNE5hZU14RDFqZnlhdHhIR3ctZ1hZeDhfb0FPNW1CRzNpNDRhSFdUeGZMVFlYLWI4TklTcWlWTlNwbUJfMTBtR05tMjZoRzJjX1BpY3hLeFVpOHZ5cE9xU0FlUGw2ZVNLWVZwcVYxS2NRdWdndl9ReFZCdnlTTW9GcUNldko0YW9GV05DenlWbzBzZU10S0wwWmdjMUduS0lhbzd4Z1E?oc=5",
-        "title": "Russia Hits Kharkiv Hospital, Wounding 73, During 289-Drone and 59-Missile Barrage",
         "official": false,
         "forYou": ""
       },
@@ -438,18 +444,8 @@
         "title": "A Warmer Cold War",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-02T22:15:29.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "KPLC 7 News",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUjJOUWtyZktKelFCeUNjOUhESFhHNE5QQTZlN0F5aUtleFNLUmNSZFRMZEphNWh2czQ2QVpxOVNzdEh6a0g0T3JCTUpBMUZub3FINjRQSzUyRFFNQVVrX0Q5S1JqRUZqUlp4RWdfWlZlNDhPcHJPaExEN21PeXNMSHMyVXJjemk4VEhQdXhwSjI1cURUeFJsX2xuRk5xOURuU3fSAaIBQVVfeXFMT1IyTlFrcmZLSnpRQnlDYzlIREhYRzROUEE2ZTdBeWlLZXhTS1JjUmRUTGRKYTVodnM0NkFacTlTc3RIemtINE9yQk1KQTFGbm9xSDY0UEs1MkRRTUFVa19EOUtSakVGalJaeEVnX1pWZTQ4T3ByT2hMRDdtT3lzTEhzMlVyY3ppOFRIUHV4cEoyNXFEVHhSbF9sbkZOcTlEblN3?oc=5",
-        "title": "SWLA brings local flavors and tourism to Chicago showcase",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-04T18:57:21.682Z"
+    "updatedAt": "2026-11-05T00:37:07.633Z"
   }
 }
