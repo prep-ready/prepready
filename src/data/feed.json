@@ -240,11 +240,31 @@
         "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-05T00:35:00.600Z"
+    "updatedAt": "2026-11-05T07:29:10.966Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-05T04:31:34.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The National",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQa3prTFlUbjIxSUVNV3VDVHNEb1Nkb0ZqSDVTZkJwMng0YmQ2dFhmVDNYdlB4WGlQU1NMU3J5VWg3a1NTcjBoTm9oZ2piVXlKc29ZSTNzcHRHUHFNVmxzRDhRS2ZXUXI2RW1nU1hGZnI5U0RKeXR6NDJ5T2k2a1gtbXRCSFY1VUdJY1NUaXU5V2YzWE0?oc=5",
+        "title": "Iran war latest: IRGC claims two tankers and tugboat caught fire in Strait of Hormuz",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-05T00:26:34.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Techerati",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbTgyREtwbE9EMmxIMmtnSHo1RUhLY0ExdHM1X1J3YjlPVm9QSmxES09NZk1lMUgxb0RPTlNLR1lORmRvb2h2ZlJ0VzN0V0U1SmhPWnUxbDdWLVhVUDhoQjNnSzZCYlhta085STk3ejZnX05KTUZyQkpvRmJkQjgwZ19QYTJrZkVzVUl3MEZMUXotakNTbTZ6ZklsbXRQRmtuWDNZengxWkFJR0E?oc=5",
+        "title": "NCSC warns AI could intensify ransomware threat by 2028",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-04T23:38:04.000Z",
         "cat": "security",
@@ -424,28 +444,8 @@
         "title": "GECOL reports completion of 1,571 grid improvement projects",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-03T09:00:54.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "eNCA",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRFI5Q19KQlhsbk5NcFdQcWFhSi0wd3F1dG5YZkF5MUJTWjNZWGpZb1RIS211allZSXRnV1F0NFd6Z2M1elVXSkRIT0pOU3E5LUMtOWtTejNmTUpkZDVwREJFUDRyb1luVFpCUTJGTzRpQmxlb29nTTlsYUExaUFYZEFSQWhmWGtQXzN2V2xNWXFjb1dJTlN3aGwxUFBkbl9CalE?oc=5",
-        "title": "Power outage interrupts water supply in Ekurhuleni, Tshwane metros",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-03T01:05:48.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "National Review",
-        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAyeXBoQ255eEUzZWpJTmhoYWotLV9DSWpDbFdhdnE5UlE4UElMNzdhMFcxZjJpZkd1RUk2dDVCNFpNVlZiU213SWhVU2U5Skt0WmRfM1NuMWlNMms4UjNZVW8tbGhlanPSAWxBVV95cUxQeVR3bjhwUEl1NmZjV096UktzUVM4WWJRZGlMeG9WcVFxN3dhXy1GOEVEMEJGWWFBUVpTV2I0R0Vxd1NIeV83UnRZbEU0QmZQOV9KSmplekZWaENNWllyM0hYSkw0bG1PSk85dXE?oc=5",
-        "title": "A Warmer Cold War",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-05T00:37:07.633Z"
+    "updatedAt": "2026-11-05T07:30:46.550Z"
   }
 }
