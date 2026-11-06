@@ -4,6 +4,30 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-11-06T11:43:00.000Z",
+        "cat": "weather",
+        "sev": 2,
+        "source": "IMGW",
+        "url": "https://meteo.imgw.pl/",
+        "title": "IMGW: 1 ostrzeżeń meteo, najwyższy stopień 1: Gęsta mgła",
+        "official": true,
+        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
+      },
+      {
+        "at": "2026-11-06T07:43:15.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Polskie Radio 24",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNd3hpTktUSVJjNWV2R2Nsc3RMc29oWS03dl9waDZhSC1kaUw4R3g1ZC1VNW04M0pTS1ZfTEZNMjh5VHhCb0ZMRmduYnlGVzQySnU2M1JpVXEydzdFR2VleXhlNC1WVVpVQm9kWFFZTXFQNU5UT0ZJUmhiaEQxWjE3MUFtVWVjdw?oc=5",
+        "title": "Mieszkańcy pow. krakowskiego dostali alert RCB. \"Zachowaj spokój\"",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
+          "label": "Alert RCB i aplikacja RSO"
+        }
+      },
+      {
         "at": "2026-11-06T02:52:59.291Z",
         "cat": "energy",
         "sev": 3,
@@ -29,6 +53,20 @@
         "guide": {
           "href": "/pl/poradniki/bezpieczenstwo-dziecka-w-szkole/",
           "label": "Bezpieczeństwo dziecka w szkole"
+        }
+      },
+      {
+        "at": "2026-11-05T15:16:50.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "WP Wiadomości",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVnczM1RVMVpQRmQ2Qmx4OFBld1ZiT2MzZWxiaWg4Q21hSzZMbGZDcm5fQkstOUNJZjl5VU1zdl9fR2k4SFdMNG81eTZqNm94d29HbGh6M2JVX1ZiYW5uZy1hLWFkNUJyVEY3bE9Rc3JxdDE0dmxCTXBfTmlIcTJHNElsa1EzcUsyOVAyRy02d3ZnNFlPX2NFb1dXcGNhanlN?oc=5",
+        "title": "Samolot LOT-u zatrzymany przed startem. Jest nagranie z ewakuacji",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/poradniki/plan-ewakuacji-rodziny/",
+          "label": "Plan ewakuacji rodziny"
         }
       },
       {
@@ -208,47 +246,53 @@
           "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
           "label": "Alert RCB i aplikacja RSO"
         }
-      },
-      {
-        "at": "2026-11-03T15:41:00.000Z",
-        "cat": "health",
-        "sev": 1,
-        "source": "Rynek Zdrowia",
-        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNdlh5aV8xeXcxR3BLMTNnZzVqdHotZXdnZmRKcWdWRlprMFQwVFJqbGRIZnNpcmNId0g4ZldRa0lKQmFObWFoQ29VODh1UGdTUEZTTHdpRkl3VkRNWXNUOU9fTmI0ZHVSVm0ycFhHay1UMFd2MGdCV1ljSlZIRVlvak9NV25UbXI1Y3l5YzlrRE5JQUZ3QV9GZFd4MU01Nk44MkVaSUpnSGdXeHU3eHRiUlFXelRnZ2htREw4SmlsYm1qX1pQN1ZpOFFLNnlBdUxldldDSWhIOC11UFFjV0FieTdjd2k?oc=5",
-        "title": "Lodówki zamiast chłodzić, zaczynają grzać. GIS ostrzega przed nowym rodzajem cyberataków",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-03T15:30:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Defence24",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSEpwenFPMjVsVkFwTld6dUZlSVRIQi1UWm5HTG9odUdnZEc3ZUJUU3Zpc1FDRWZBdFJwZkJ0WGdNMDk3ck5pMGU1OEFJcnRnTkkwT3RuTEo5alhqVFFHanIwRWhtRm9sWGZhRmo4OUxpbmtxTWZHOGp3Z2psSWI1cGpwaVpIVFk3QVZ4ZWtXWG8?oc=5",
-        "title": "Kosmiczny skok Polski. 12 satelitów do końca 2027 roku",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-03T13:57:56.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Radio Zet",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUlBuUkdaN2ZtbkFnaUpPS0gwMFdFUl9hN3p2Q1phVTdZWWYxYkJESTZpSlVCNm1vVmpROEZOS2hNejFhM1FtM2hkTUJWaW11VGR2c3FlbHN5b0oxemxOYUxHckl5UHlIQ0ptNDF0V05QYzhoZ1Bhb19PT1pGZkRZMjhUZm5WMXRuS20xOTdJTVFqT2NyTDNNSzV3?oc=5",
-        "title": "Ewakuacja w MSZ? Rzecznik resortu reaguje. „Odpowiem krótko”",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/poradniki/plan-ewakuacji-rodziny/",
-          "label": "Plan ewakuacji rodziny"
-        }
       }
     ],
-    "updatedAt": "2026-11-06T02:53:20.551Z"
+    "updatedAt": "2026-11-06T11:37:48.550Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-06T10:38:14.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The National",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaFNGVjU3UzU0cjFEQUhzeDVsZGJsRUsxeTVNUHNRbldqRWtZVFhiejFqNEZFMEs3T2luRkhkVXNmRkx4RVMyR2hjOUEzMXIyZU9Pak9KOU9WcVJCWEFnQUd2MVZhUWxIaWtwOHczMHRkaWwtZC1ua3VWU0R0ZEhIXzdBUENXN3NlT2pkYlJzdWg?oc=5",
+        "title": "Iran war latest: Tehran reportedly sent nuclear proposal to the US via Qatar",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-06T10:18:06.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "cedarnews.net",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNODhldE11VnhsUFNWdnJDdzVOWTNrYko3b3FUNlVaeUt2OURsNVRDcDJCSV85QVlmTWJKdDF2V3BBYVZ3b205TERHYnQxRU1wRE9uZ0huYVFXdVVSMWUxdGNhcDZ2cENpVUdqeDNvck80OEw5MXlrNjREc0JpUmtVZk1rendnYzc0WVFVR050T29hUjc3?oc=5",
+        "title": "Prague power outage disrupts trams, traffic lights and Parliament",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-06T07:55:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Irish Examiner",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1QdlJvOUFSRkxFdm5qYzBMdTM2UWtWOVlMelB5ekhheXc1dXVSSnlIYnY2TUFhbGJqd2hMb1k4TU1YaEZ5MXVBcWhvT0JCWm1CY2NCdlFWdHVnYTZ2clYxY3JUenE?oc=5",
+        "title": "Russia agreed to supply Iran with 90 helicopter missile launchers",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-06T05:32:59.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Britannica",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5",
+        "title": "2026 Iran war | Oil, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-05T19:35:00.000Z",
         "cat": "energy",
@@ -408,48 +452,8 @@
         "title": "Video: School breaks have been extended in occupied Crimea due to a widespread blackout",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-04T16:31:42.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Dagens.com",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVXdXM05QcDNlZWhFVEMzYTZUd295ZzhzUllRS2lqYlNDMWV6TEN2MTFHTmwzSXZlVlVRQkRLSHFmVXBFUXozbDFXUl9ldHBkYTZZZVJPZHlSSVIweWdvcFRnNHhNczRRS2hnclBpcnBuQ0tzU0szSEt5S1JJU3VUV21qblpYZnUwcHRXMk9vdS1tY29GS3RDT0JHeTZtLXc?oc=5",
-        "title": "Ukraine intercepts over 8,000 Russian missiles and drones during October",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-04T14:57:59.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The Sunday Guardian",
-        "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxOUmpHSVlFeGlud1lFX3RJMk1lemRTZDAzMGxidHNFUzZ5cUtYdkgxV2xiUmxpT0NLd19pSnhKS2Z0a2ptTUlJQTFRZndtQjJ5SnhDeEFiOUJmaWxzWldrQVdnQlI3LThmYW54Um1kS2tNcXdzUGo5aVZPcFNmX0E4NWpoMExFZFVmSy1SekFJWmo0RUZFRGxGd3BpcW9iNnZkd2pmdnRwc1A1a01VNjFBOXBLS1NpcFJyaXR3S0FRT0thaEF0cThOU3lQVUE0aWQxMFFuMEUteGo3VThvc1pqTW82QWc5Mk9VZno2NVk2N0lCZWhuRVpZVVNjWHk4R2t5NDZ2T3lveVgyQ09RWGZCdDFPVDl4STBRZkRYNVlrOGVNOEtjcmtmMFRZelI1aE1vYl9sTTFB0gG7AkFVX3lxTE4tbzBKT3dKUmptTE53TGVxWHRBRWNOZ3RaN3ppX0xUSWIzQUIxclVpTUpfUVB0R2xKS2RIaGFqV3I3d0g4dUVPbVFqLTN5Y0syOE9WaFJoTWxVV0tGV1NJM1M3QnJOOGNjWmxsYzRCNklmMElhSWJHOUdTRWtQOXNTTGhyNXJTX3lnOEpmRzlHelRGV2QtS0xFeFY5UDVlWjFsWGNQbXYzeWVuYkhya1RYSTlRWmlQSjE3djhDM2NUUF9XOGJhY2pPc0hJVkZ1b1dsVm52UzU1aEJxdFNNd2tmTGFfY0txTm1xY3pRc3JFblNMUDduQldSeWZFcWtlbHBBV1dMTER1WW5SaVdYOVA0c1hZZ29GMDlxSktkN3NvRzhHSUxGcS0tbENJLWRQQW5KMWp3UDJWVXdzOA?oc=5",
-        "title": "US-Israel-Iran War Latest Live News: ‘I’ll Be Working for De-escalation’, Says UK PM as Houthis Claim Ballistic Missile Strike on Riyadh’s King Khalid International Airport",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-04T11:57:51.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Radio Free Europe/Radio Liberty",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9OeTc1VE5lcEx0QzNhVlh6TnBVZUhfdi1MR0xZQnJOLWo2U3dHb09ucVhPNXctSTFXNTF6R3EwZEJXSl96SF9zS2FPUWFwcHpHeFVMaGtUckZiaGIydHc1SFMwT3U1R1h5WnMtY2RGUkdtYm1jV2VUMWFB?oc=5",
-        "title": "Trump Says Iran Wants A Deal 'And It Could Happen'",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-04T11:40:25.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Arabian Business",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeGVzSjhrbUhOTTctX0ViTkJTRnFEZnkwNTJQR3gySTJRQlk3aXNwenJ2Qk1DejVYcF84dmF4WDFPd2xKRzEwazEtOEdOb05OOFhJaXZQVTd3R2lDRHdGbTgtM1JSSEMxeFN5OTlLc0tLNE55MHlHRDZNU3lOVFBDaTJwQQ?oc=5",
-        "title": "Iran war live: Khamenei says US midterms change nothing in conflict",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-06T02:55:23.621Z"
+    "updatedAt": "2026-11-06T11:39:58.515Z"
   }
 }
