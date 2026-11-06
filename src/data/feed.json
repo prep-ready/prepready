@@ -14,12 +14,22 @@
         "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
       },
       {
+        "at": "2026-11-06T10:55:00.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "CERT Polska",
+        "url": "https://cert.pl/posts/2026/11/CVE-2026-113618/",
+        "title": "Podatność w bibliotece KAMSOFT ZSIREP CLIENT",
+        "official": true,
+        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
+      },
+      {
         "at": "2026-11-06T07:43:15.000Z",
         "cat": "safety",
         "sev": 2,
         "source": "Polskie Radio 24",
         "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNd3hpTktUSVJjNWV2R2Nsc3RMc29oWS03dl9waDZhSC1kaUw4R3g1ZC1VNW04M0pTS1ZfTEZNMjh5VHhCb0ZMRmduYnlGVzQySnU2M1JpVXEydzdFR2VleXhlNC1WVVpVQm9kWFFZTXFQNU5UT0ZJUmhiaEQxWjE3MUFtVWVjdw?oc=5",
-        "title": "Mieszkańcy pow. krakowskiego dostali alert RCB. \"Zachowaj spokój\"",
+        "title": "Alert RCB dla pow. krakowskiego. \"Zachowaj spokój\"",
         "official": false,
         "forYou": "",
         "guide": {
@@ -232,27 +242,43 @@
           "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
           "label": "Alert RCB i aplikacja RSO"
         }
-      },
-      {
-        "at": "2026-11-03T18:37:17.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Polskie Radio 24",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVGp3M0NJM3NYRFBnUDZUaElZXzFCOWNndXY2UnFUb3VRVE1ZRVpEQ0l1SndVSlEyajRuYjYxR2NxeDlCc3pkbVZMcC10NWJXcEwyTVFCMkRibEg2bmFyZE1raWstNXdaNnY2dllrWEFNUVN0ZGViZTNVWUJJX0F3Y3hLQjduUlF6?oc=5",
-        "title": "Alert RCB odwołany. \"Nie zaobserwowano naruszenia przestrzeni powietrznej\"",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
-          "label": "Alert RCB i aplikacja RSO"
-        }
       }
     ],
-    "updatedAt": "2026-11-06T11:37:48.550Z"
+    "updatedAt": "2026-11-06T18:33:32.564Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-06T16:28:01.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "cedarnews.net",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNODhldE11VnhsUFNWdnJDdzVOWTNrYko3b3FUNlVaeUt2OURsNVRDcDJCSV85QVlmTWJKdDF2V3BBYVZ3b205TERHYnQxRU1wRE9uZ0huYVFXdVVSMWUxdGNhcDZ2cENpVUdqeDNvck80OEw5MXlrNjREc0JpUmtVZk1rendnYzc0WVFVR050T29hUjc3?oc=5",
+        "title": "Prague power outage disrupts trams, traffic lights and Parliament",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-06T15:20:35.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Pokde.Net",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBRNnh5WnBreUdPWG5NVlMwWUNhMUpjTnltaENLNTh2aVp6NWJJT0V3N0E4Unh2VHdZVTRzSDdhNVdLUzlOV25EbllMeVlZaUVSNXVtcmQzN1BZdS1JeGFNbkNFOFlfeENmZHp3RmFDRzhIR3JW?oc=5",
+        "title": "Bank Rakyat Under Suspected Cyberattack By Threat Actor \"Marlanwg\", Website Briefly Defaced",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-06T11:25:08.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Audacy",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcUczbDRHNjkxZXlYek8zSExyNDBDaGlHNUVESF9Ia1JRb1U4bWw3X2hRVGhTaWd2QXQ1SmhJTjlsaVRjZXAzMmpFS05tY2VuT3ROcW9DbVl3MDlhZ3Bka08zdXVwRlotNTFSSG92ZXhjOGttbzM3Z0w1b3Y0Rm9fQUFBeE53QzgyeVpIX0Q1aVNJUQ?oc=5",
+        "title": "russia-ukraine-war-zelenkyy-no-warning-missile-strike: Latest Updates",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-06T10:38:14.000Z",
         "cat": "security",
@@ -260,16 +286,6 @@
         "source": "The National",
         "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaFNGVjU3UzU0cjFEQUhzeDVsZGJsRUsxeTVNUHNRbldqRWtZVFhiejFqNEZFMEs3T2luRkhkVXNmRkx4RVMyR2hjOUEzMXIyZU9Pak9KOU9WcVJCWEFnQUd2MVZhUWxIaWtwOHczMHRkaWwtZC1ua3VWU0R0ZEhIXzdBUENXN3NlT2pkYlJzdWg?oc=5",
         "title": "Iran war latest: Tehran reportedly sent nuclear proposal to the US via Qatar",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-06T10:18:06.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "cedarnews.net",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNODhldE11VnhsUFNWdnJDdzVOWTNrYko3b3FUNlVaeUt2OURsNVRDcDJCSV85QVlmTWJKdDF2V3BBYVZ3b205TERHYnQxRU1wRE9uZ0huYVFXdVVSMWUxdGNhcDZ2cENpVUdqeDNvck80OEw5MXlrNjREc0JpUmtVZk1rendnYzc0WVFVR050T29hUjc3?oc=5",
-        "title": "Prague power outage disrupts trams, traffic lights and Parliament",
         "official": false,
         "forYou": ""
       },
@@ -320,16 +336,6 @@
         "source": "The National",
         "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQa3prTFlUbjIxSUVNV3VDVHNEb1Nkb0ZqSDVTZkJwMng0YmQ2dFhmVDNYdlB4WGlQU1NMU3J5VWg3a1NTcjBoTm9oZ2piVXlKc29ZSTNzcHRHUHFNVmxzRDhRS2ZXUXI2RW1nU1hGZnI5U0RKeXR6NDJ5T2k2a1gtbXRCSFY1VUdJY1NUaXU5V2YzWE0?oc=5",
         "title": "Iran war latest: Iran claims series of Hormuz explosions as talks intensify",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-05T15:48:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Українська правда",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAwS0luTUY4cWRnSmFjR3VwVnlfa3hWZW5JUXpmanJNcUlLQmJ5MlpXUlJOWFIyTWlwSW1OVUtvQnpObHk5WkVtU1FqbkVtRjRZWDJXbDd3MDcwd1J6REdlVnRBSEpzalhhbWVLWllPWGvSAXBBVV95cUxQMEtJbk1GOHFkZ0phY0d1cFZ5X2t4VmVuSVF6ZmpyTXFJS0JieTJaV1JSTlhSMk1pcEltTlVLb0J6Tmx5OVpFbVNRam5FbUY0WVgyV2w3dzA3MHdSekRHZVZ0QUhKc2pYYW1lS1pZT1hr?oc=5",
-        "title": "Three more Russian commanders served with notices of suspicion over Okhmatdyt missile strike",
         "official": false,
         "forYou": ""
       },
@@ -442,18 +448,8 @@
         "title": "Khamenei Warns of Wider War as Trump Says He Would Strike Iran Again",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-04T17:58:17.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "UA.NEWS",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPaUw1dWREaU8tZ0NQaVpJb0pDVXVvQUpuUzNaOXpIdWtteWhsTExMY3hHT1U1Mm1GUGJDcjB2WTA4OUlSVnEzTnZIRU9EZ05wT2VEc3l5TWNhMnlqUVFKY3htbUlSaS1JQXhyUUdrTUVwRThPcGNOU2dKaXNWS25WS2o3T0dEYXR2MVY3elhPYnR3U0JES19nSzVzTXhKZWxvYUZpR2dzRzZ0c0JsLWJv?oc=5",
-        "title": "Video: School breaks have been extended in occupied Crimea due to a widespread blackout",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-06T11:39:58.515Z"
+    "updatedAt": "2026-11-06T18:34:33.074Z"
   }
 }
