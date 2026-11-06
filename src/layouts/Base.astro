@@ -3,6 +3,7 @@ import '../styles/global.css';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import Analytics from '../components/Analytics.astro';
+import TgBar from '../components/TgBar.astro';
 import type { Lang } from '../i18n/ui';
 // Fonty z nagłówków i tekstu: preload skraca czas do wyświetlenia największego elementu (LCP).
 import archivoLatin from '@fontsource-variable/archivo/files/archivo-latin-wdth-normal.woff2?url';
@@ -81,5 +82,6 @@ if (!ld.some((o: any) => o['@type'] === 'WebSite')) ld.unshift({
   </main>
 <Analytics lang={lang} />
   <Footer lang={lang} />
+  <TgBar lang={lang} />
 </body>
 </html>
