@@ -4,6 +4,20 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-11-06T02:52:59.291Z",
+        "cat": "energy",
+        "sev": 3,
+        "source": "PSE",
+        "url": "https://www.pse.pl/",
+        "title": "PSE: dziś zalecane oszczędzanie energii",
+        "official": true,
+        "forYou": "Ogranicz zużycie prądu w godzinach szczytu, naładuj powerbanki i latarki.",
+        "guide": {
+          "href": "/pl/poradniki/blackout-jak-sie-przygotowac/",
+          "label": "Jak przygotować się na blackout"
+        }
+      },
+      {
         "at": "2026-11-05T22:00:00.000Z",
         "cat": "safety",
         "sev": 3,
@@ -50,20 +64,6 @@
         "title": "Miliardy złotych na ochronę polskiego nieba. Amerykańskie spory opóźniły dostawy",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-05T00:33:49.864Z",
-        "cat": "energy",
-        "sev": 3,
-        "source": "PSE",
-        "url": "https://www.pse.pl/",
-        "title": "PSE: dziś zalecane oszczędzanie energii",
-        "official": true,
-        "forYou": "Ogranicz zużycie prądu w godzinach szczytu, naładuj powerbanki i latarki.",
-        "guide": {
-          "href": "/pl/poradniki/blackout-jak-sie-przygotowac/",
-          "label": "Jak przygotować się na blackout"
-        }
       },
       {
         "at": "2026-11-04T20:30:22.000Z",
@@ -244,7 +244,7 @@
         }
       }
     ],
-    "updatedAt": "2026-11-05T22:23:46.541Z"
+    "updatedAt": "2026-11-06T02:53:20.551Z"
   },
   "en": {
     "sample": false,
@@ -253,8 +253,8 @@
         "at": "2026-11-05T19:35:00.000Z",
         "cat": "energy",
         "sev": 2,
-        "source": "Fox 10 News",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxObHo1SmtZMkdoV2pFQ09WQzk3a3VMa3FyUjJwbGpQYlRZc003SzVWdFg1akFZZl8wNEhCQldBTjJ4N3RPR3BFSmJNOENqczVxV0lBUlZoeXhvN3p1WlBVNXV5ZTA1VFFFQVpBRXh5M0VNMnZ3cHp0cnA5Tm5rdjV2U0c0NXFzQ3IzNm93RTlZNHk0bHpfcEVuMTNib3dTOF9YblFTbHJ0OFcxYkZHVWRCb2NhMzlXSnJlWFE00gHPAUFVX3lxTFBrUGpBc2Ziek9fR1MwUVZlbmRUWlQwX2RkS1NkemR5d2kyRGtXcnQ3di0yUF82LU41VEo5bVJ1NTZJU2V0ZU92LUdCVndKck85UXNING5uUmxoWU9kT2NQalFmeTVpVW8xX2hFRDhOQzRzSUQ3d3NERGpxWm9Dd1ljWld0V3lfWmpVSXRqekNFWko2b2p1Ujh3UWFaTnNmMXAxS1NZSWR3MG5acVk3c0h2SnhMWDR1bkhDazQ2bHFUTkw5VUhZUkFoNk9mNnNYOA?oc=5",
+        "source": "KPTV",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOaTRrdzdjalpvUVFRT2RvNFY4MVh2T3NBenQxN0I4M0NieDF4ZGpwOHE4Wm9pYnNpX1ZMY3k4WHp6bEo1Yk1IWF91U1FNS1BBcG53R1J5ZXU5NGFzbU9tZUEtOXVQR0t0dGdReWx1ZGRTWXNZUE9qVm93Q1FsS0VUN3hhZ2FkSXRVUTQzd1Z0SzliemVkSzA1NzhDRnROZEY4dXpzTGRlMGtkUkVXT19DUC0xRGtxU0XSAcsBQVVfeXFMTlFGdlVzOXpKLTFoVW5SNGFrZ2N5V3pJdlJYZkc2UUFTMWJHejBxeUpLQUE3OURFMmRTX3VrT3BqZDZYb3FEMEtpbmlLUWozcjFuekp3Rm9iVVQ0LVY2QXZlTl9WM18wOVd0bXpXc25UdXppOG5rOUJfbjdsUHVrZE1ua2psVTBwNDlwcWNGZHFwaWI5LW1JVHNSRHdFb3hFVTl5eExGdlk5bEpiNGo4MFgyMmdvWUZYaHpMYnFlRmpZcXZSU1JuYUJlUDg?oc=5",
         "title": "Is a 90-day blackout coming? What the U.S. military’s new readiness initiative actually means",
         "official": false,
         "forYou": ""
@@ -270,7 +270,7 @@
         "forYou": ""
       },
       {
-        "at": "2026-11-05T17:04:01.000Z",
+        "at": "2026-11-05T16:52:51.000Z",
         "cat": "security",
         "sev": 2,
         "source": "The National",
@@ -450,6 +450,6 @@
         "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-05T22:25:52.073Z"
+    "updatedAt": "2026-11-06T02:55:23.621Z"
   }
 }
