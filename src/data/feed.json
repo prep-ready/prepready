@@ -4,6 +4,20 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-11-06T15:25:54.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "TOK FM",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZlJrZnZ3dGM3eFRLbWQ1WWY5ajA4SFM5Wi1jLUJBdGx1andMa2liQTVqT1R5YWJyYkVweUUtX2ZfM3pkSWdpVXpxT3h5TDNkNWRpMGpLM0J6M1Y0dzZBaHVxN3U4NzdYM3d2dHZOVkxUV2pqLWMxdUd1dGk5S3lFQWdITnlfMl84QllPblFaSktLNW5iaWZkZ3BOb1QyWU04?oc=5",
+        "title": "Tak Rosja miesza nie tylko w Polsce. \"Żadna rakieta nie leci tak szybko\"",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
+      },
+      {
         "at": "2026-11-06T11:43:00.000Z",
         "cat": "weather",
         "sev": 2,
@@ -29,7 +43,7 @@
         "sev": 2,
         "source": "Polskie Radio 24",
         "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNd3hpTktUSVJjNWV2R2Nsc3RMc29oWS03dl9waDZhSC1kaUw4R3g1ZC1VNW04M0pTS1ZfTEZNMjh5VHhCb0ZMRmduYnlGVzQySnU2M1JpVXEydzdFR2VleXhlNC1WVVpVQm9kWFFZTXFQNU5UT0ZJUmhiaEQxWjE3MUFtVWVjdw?oc=5",
-        "title": "Alert RCB dla pow. krakowskiego. \"Zachowaj spokój\"",
+        "title": "Mieszkańcy pow. krakowskiego dostali alert RCB. \"Zachowaj spokój\"",
         "official": false,
         "forYou": "",
         "guide": {
@@ -228,34 +242,40 @@
           "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
           "label": "Alert RCB i aplikacja RSO"
         }
-      },
-      {
-        "at": "2026-11-03T18:38:36.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "TVN24",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSl9TV1B1TTIxR0tSRzFKUXRzbDdTRDNESnk1amVTcEdRZzVqczhnYTRHdFFpa2tJbEpKX3BsQlNLXzR5bFQzQVBDVlZDaXhOU0E4NVlaMHJ1UkFReFdyTU9wUnpGeG5VUUg3ejN6S21CT1hWMjFrYzg0cHVvZjUwRWRXUW1JdGU3M0NWV1g1djIyVnMxMXBaUkwyYkM2Mjc4elE?oc=5",
-        "title": "Odwołany alert RCB dla części województwa lubelskiego. \"Brak zagrożenia\"",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
-          "label": "Alert RCB i aplikacja RSO"
-        }
       }
     ],
-    "updatedAt": "2026-11-06T18:33:32.564Z"
+    "updatedAt": "2026-11-06T23:34:54.167Z"
   },
   "en": {
     "sample": false,
     "items": [
       {
-        "at": "2026-11-06T16:28:01.000Z",
+        "at": "2026-11-06T22:28:01.000Z",
         "cat": "energy",
         "sev": 2,
         "source": "cedarnews.net",
         "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNODhldE11VnhsUFNWdnJDdzVOWTNrYko3b3FUNlVaeUt2OURsNVRDcDJCSV85QVlmTWJKdDF2V3BBYVZ3b205TERHYnQxRU1wRE9uZ0huYVFXdVVSMWUxdGNhcDZ2cENpVUdqeDNvck80OEw5MXlrNjREc0JpUmtVZk1rendnYzc0WVFVR050T29hUjc3?oc=5",
         "title": "Prague power outage disrupts trams, traffic lights and Parliament",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-06T22:20:25.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "The Express Tribune",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE54R3VPZ0gwLUJKaTJXQi12d3cxNVNFekxKNXEtTGNHeDN1WmlGZ0ZKTFNwRUd1eTY4amxUTUw1bDdiU2xVLVpKcHNVbWlaMUg3UEd3UDZpbDFQQzNNd0I0X1h3YlhhZ2FodkFjRDFwcjNUdTA5aG5DeVU5YzXSAYQBQVVfeXFMTjdzSkxKQ3I4Zk8xak9Ka0R4WE9FaFlUTmY1dnkwb250di05dHQzZU9IX043VUpqZTlWNlJwUWhDMmtJR0RDc21YTDQzUkdXV0ZvQWdybXI3Q3VNSEU5UktSdmk5Q1FPd19MTGZEZlhXMHdHZ1dzZlVOZnpUcTIyOWdWSEpL?oc=5",
+        "title": "AI tools increase cyberattack risks",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-06T21:14:07.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The National",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaFNGVjU3UzU0cjFEQUhzeDVsZGJsRUsxeTVNUHNRbldqRWtZVFhiejFqNEZFMEs3T2luRkhkVXNmRkx4RVMyR2hjOUEzMXIyZU9Pak9KOU9WcVJCWEFnQUd2MVZhUWxIaWtwOHczMHRkaWwtZC1ua3VWU0R0ZEhIXzdBUENXN3NlT2pkYlJzdWg?oc=5",
+        "title": "Iran war latest: UN maritime agency condemns Houthi attacks on international shipping",
         "official": false,
         "forYou": ""
       },
@@ -428,28 +448,8 @@
         "title": "Iran war latest: Iranian general warns of Red Sea attacks if fighting resumes",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-04T22:35:00.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "BigGo Finance",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5CUk16SEJnd3NGYkxkbjhkLUIyOXlrV29hVFJGUENvbVBENUtlUlk5dUl5OU14MnpTZHBRYmduR0NVa1R5YnZfc3lkWTI3UlIybmlwWE1kY3M5a1I0TFZqNGlDS1J6T1JadmJHYU1QQnhiVXhvRlE?oc=5",
-        "title": "UK Intelligence Agency Warns AI-Powered Ransomware Will Hit Critical Infrastructure by 2028",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-04T21:34:22.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "https://houseofsaud.com/",
-        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1XQ29nRzJYem5SU3ZVMVkzdkFYaWs1Z05zR28yRERYbVhkMmNoYjBZdkRJYTZLaXdhcFNqc3BmbUlMR00tSUJrM2JkVURIbEdTbGNEdUFsVm53OGRfV0hPNUgwdw?oc=5",
-        "title": "Khamenei Warns of Wider War as Trump Says He Would Strike Iran Again",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-06T18:34:33.074Z"
+    "updatedAt": "2026-11-06T23:37:05.360Z"
   }
 }
