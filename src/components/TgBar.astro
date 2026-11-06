@@ -1,0 +1,49 @@
+---
+// Przyklejony pasek „Dołącz do grupy na Telegramie” — tylko na telefonie, pojawia się po przewinięciu,
+// po zamknięciu znika na 7 dni (jak na BProud).
+import { community } from '../data/community';
+import type { Lang } from '../i18n/ui';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const pl = lang === 'pl';
+const gr = community.tg[lang];
+---
+{gr && (
+  <div class="prtg" id="prTgBar" hidden>
+    <a class="prtg__link" href={gr} target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M21.9 4.3 18.7 19.4c-.2 1-.9 1.3-1.7.8l-4.8-3.5-2.3 2.2c-.3.3-.5.5-1 .5l.3-4.9 8.9-8c.4-.3-.1-.5-.6-.2L6.5 13.2l-4.7-1.5c-1-.3-1-1 .2-1.5l18.4-7.1c.9-.3 1.6.2 1.5 1.2z"/></svg>
+      <span class="prtg__txt">{pl ? <><b>Alerty i kody</b> na Telegramie</> : <><b>Alerts &amp; codes</b> on Telegram</>}</span>
+      <span class="prtg__go">{pl ? 'Dołącz' : 'Join'}</span>
+    </a>
+    <button class="prtg__x" type="button" aria-label={pl ? 'Zamknij' : 'Close'}>&times;</button>
+  </div>
+)}
+<script is:inline>
+(function(){
+  var bar=document.getElementById('prTgBar'); if(!bar) return;
+  var KEY='prTgBarClosed', shown=false;
+  try{ var t=+localStorage.getItem(KEY); if(t && Date.now()-t < 7*864e5) return; }catch(e){}
+  function onScroll(){
+    if(shown) return;
+    var h=document.documentElement.scrollHeight-window.innerHeight;
+    if(window.scrollY > Math.min(600, h*0.3)){ bar.hidden=false; shown=true; window.removeEventListener('scroll',onScroll); }
+  }
+  window.addEventListener('scroll',onScroll,{passive:true});
+  bar.querySelector('.prtg__x').addEventListener('click',function(){
+    bar.hidden=true; try{ localStorage.setItem(KEY, Date.now()); }catch(e){}
+  });
+})();
+</script>
+<style>
+  .prtg{display:none}
+  /* nie zasłaniaj banera cookies — pasek pokazuje się dopiero po decyzji */
+  :global(body:has(#pr-consent:not([hidden]))) .prtg{display:none!important}
+  @media (max-width:768px){
+    .prtg:not([hidden]){display:flex;position:fixed;left:10px;right:10px;bottom:calc(12px + env(safe-area-inset-bottom));z-index:9990;align-items:center;gap:6px;padding:6px 6px 6px 14px;border-radius:var(--radius);background:#121619;border:1px solid #F2702A;box-shadow:0 8px 24px rgba(0,0,0,.35)}
+    .prtg__link{flex:1;display:flex;align-items:center;gap:8px;color:#fff;text-decoration:none;font-size:14px;min-width:0}
+    .prtg__link svg{color:#229ED9;flex:0 0 auto}
+    .prtg__txt{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .prtg__go{margin-left:auto;padding:8px 14px;border-radius:7px;background:#C94A06;color:#fff;font-weight:600;font-size:13px}
+    .prtg__x{background:none;border:0;color:rgba(255,255,255,.6);font-size:22px;line-height:1;padding:4px 8px;cursor:pointer}
+  }
+</style>
