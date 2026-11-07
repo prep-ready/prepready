@@ -116,6 +116,39 @@ function textures() {
   return { cordura, web, velcro };
 }
 
+
+/**
+ * Kamuflaż bez rozciągania: wzór rzutujemy z trzech osi (triplanar) według położenia w modelu, a nie według UV.
+ * UV brył i pasków mają różną skalę na każdej ścianie (przód 0,88 × 1,3, bok 0,4 × 1,3 dostają ten sam kafelek 0..1),
+ * przez co plamy były rozciągnięte na bokach, ściśnięte na klapie i urwane na krawędziach.
+ * `scale` = ile kafelków wzoru na 1 jednostkę sceny (≈ 38 cm). Działa tylko, gdy materiał ma `map`.
+ */
+function triplanar(m: MeshStandardMaterial, scale: number) {
+  m.onBeforeCompile = (sh) => {
+    sh.uniforms.triScale = { value: scale };
+    sh.vertexShader = sh.vertexShader
+      .replace('#include <common>', '#include <common>\nvarying vec3 vTriP;\nvarying vec3 vTriN;')
+      .replace('#include <begin_vertex>', `#include <begin_vertex>
+        vec4 triP = vec4(position, 1.0);
+        vec3 triN = normal;
+        #ifdef USE_INSTANCING
+          triP = instanceMatrix * triP;
+          triN = mat3(instanceMatrix) * triN;
+        #endif
+        vTriP = triP.xyz; vTriN = triN;`);
+    sh.fragmentShader = sh.fragmentShader
+      .replace('#include <common>', '#include <common>\nvarying vec3 vTriP;\nvarying vec3 vTriN;\nuniform float triScale;')
+      .replace('#include <map_fragment>', `#ifdef USE_MAP
+        vec3 triW = pow(abs(normalize(vTriN)), vec3(6.0));
+        triW /= (triW.x + triW.y + triW.z);
+        vec3 triQ = vTriP * triScale;
+        vec4 triC = texture2D(map, triQ.zy) * triW.x + texture2D(map, triQ.xz + 0.37) * triW.y + texture2D(map, triQ.xy) * triW.z;
+        diffuseColor *= triC;
+      #endif`);
+  };
+  m.customProgramCacheKey = () => `tri${scale}`;
+}
+
 /* ───────────────────────── Miękkie bryły (SDF) ───────────────────────── */
 
 interface SoftSpec { hw: number; hh: number; hd: number; rTop: number; rBot: number; rEdge: number; bulge: number; taper?: number }
@@ -298,6 +331,9 @@ interface Built {
   zip: { pts: ZipPt[]; pulls: Mesh[]; at: number[]; dir: number[]; gaps: Mesh[]; mouth: Mesh; body: Soft };
 }
 
+/** Kafelki wzoru kamuflażu na 1 jednostkę sceny: przód plecaka (0,88 j.) ≈ 1,4 kafelka, plama ≈ 6–12 cm */
+const CAMO_SCALE = 1.6;
+
 function buildProcedural(): Built {
   const tx = textures();
   const mFabric = new MeshStandardMaterial({ color: COL.fabric, roughness: 0.86, metalness: 0, bumpMap: tx.cordura, bumpScale: 1.4, vertexColors: true });
@@ -306,6 +342,8 @@ function buildProcedural(): Built {
   const mWeb = new MeshStandardMaterial({ color: COL.web, roughness: 0.82, bumpMap: tx.web, bumpScale: 0.7, side: DoubleSide });
   const mTack = new MeshStandardMaterial({ color: COL.tack, roughness: 0.9 });
   const mVelcro = new MeshStandardMaterial({ color: COL.velcro, roughness: 0.97, bumpMap: tx.velcro, bumpScale: 2.5 });
+  // kamuflaż: jedna skala wzoru na całym plecaku, paskach i rzepie (patrz triplanar)
+  for (const mm of [mFabric, mBack, mWeb, mVelcro]) triplanar(mm, CAMO_SCALE);
   const mPipe = new MeshStandardMaterial({ color: COL.pipe, roughness: 0.7 });
   const mBuckle = new MeshStandardMaterial({ color: COL.buckle, roughness: 0.5, metalness: 0.05 });
   const mAccent = new MeshStandardMaterial({ color: COL.accent, roughness: 0.6 });
@@ -1443,10 +1481,11 @@ export function mountBag(o: BagOptions): BagHandle {
       const keyC = c.id || c.palette.join();
       let t = camoCache.get(keyC);
       if (!t) {
-        const cv = camoCanvas(c.palette, c.pattern, 256);
-        const body = new CanvasTexture(cv); body.colorSpace = SRGBColorSpace; body.wrapS = body.wrapT = RepeatWrapping; body.repeat.set(1.3, 1.3);
-        body.anisotropy = 4;
-        const web = body.clone(); web.repeat.set(0.16, 0.35); web.needsUpdate = true;
+        const cv = camoCanvas(c.palette, c.pattern, 512);
+        // skalę wzoru ustala triplanar (CAMO_SCALE), więc repeat zostaje 1 i ten sam kafelek idzie na korpus, paski i rzep
+        const body = new CanvasTexture(cv); body.colorSpace = SRGBColorSpace; body.wrapS = body.wrapT = RepeatWrapping;
+        body.anisotropy = 8;
+        const web = body;
         t = { body, web };
         camoCache.set(keyC, t);
       }
