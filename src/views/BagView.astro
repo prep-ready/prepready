@@ -1,0 +1,698 @@
+---
+/**
+ * Strona „Plecak ewakuacyjny PrepReady” (/pl/plecak-ewakuacyjny/): model 3D, wybór wersji, lista rzeczy i zgłoszenie.
+ * Zawartość plecaków edytujesz w src/data/plecak.ts. Model 3D: src/lib/bag3d.ts (plik GLB wrzuć do public/models/).
+ * Formularz wysyła przez /contact.php, tak samo jak formularze „Dla producentów” i „Reklama”.
+ */
+import Base from '../layouts/Base.astro';
+import { bagCategories, bagItems, bagVersions, itemsFor, levelOrder, rzeczy } from '../data/plecak';
+import { routes, guideBase } from '../i18n/ui';
+
+const path = '/pl/plecak-ewakuacyjny/';
+const pageUrl = new URL(path, Astro.site).href;
+const title = 'Plecak ewakuacyjny PrepReady: 4 wersje, co jest w środku';
+const description = 'Wybierz plecak ewakuacyjny: Podstawowy, Rozszerzony, Pro albo własny. Zobacz w 3D każdą rzecz z krótkim wyjaśnieniem i zapytaj o dostępność.';
+
+const levelName: Record<string, string> = { basic: 'Podstawowy', extended: 'Rozszerzony', pro: 'Pro' };
+const basic = itemsFor('basic');
+const counts = Object.fromEntries(bagVersions.map((v) => [v.id, v.id === 'custom' ? basic.length : itemsFor(v.id).length]));
+const catCount = (cat: string) => basic.filter((i) => i.cat === cat).length;
+const MODEL_URL = '/models/plecak-ewakuacyjny.glb';
+// Pasek „Co już mamy w plecaku testowym”: rzeczy z wpisanym partnerem
+const kit = bagItems.filter((i) => i.partner).map((i) => ({ brand: i.partner!, what: i.model ? `${i.name} ${i.model}` : i.name, cat: i.cat }));
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'PrepReady', item: new URL(routes.home.pl, Astro.site).href },
+      { '@type': 'ListItem', position: 2, name: 'Plecak ewakuacyjny', item: pageUrl },
+    ],
+  },
+  ...bagVersions.filter((v) => v.id !== 'custom').map((v) => ({
+    '@context': 'https://schema.org', '@type': 'ItemList', inLanguage: 'pl',
+    name: `Plecak ewakuacyjny ${v.name}: zawartość`, description: v.desc, url: `${pageUrl}?wersja=${v.id}`,
+    numberOfItems: itemsFor(v.id).length, itemListOrder: 'https://schema.org/ItemListUnordered',
+    itemListElement: itemsFor(v.id).map((i, n) => ({ '@type': 'ListItem', position: n + 1, name: i.name, description: i.why })),
+  })),
+];
+---
+<Base lang="pl" title={title} description={description} alternates={{ pl: path }} jsonLd={jsonLd}>
+  <div class="bag-page" data-bag data-model={MODEL_URL}>
+    <section class="wrap hero">
+      <div class="h-head">
+        <p class="eyebrow">Plecak ewakuacyjny PrepReady · kompletujemy</p>
+        <h1>Plecak ewakuacyjny: wybierz wersję i zobacz, co jest w środku</h1>
+        <p class="lead">Składamy plecaki ewakuacyjne w trzech wersjach, a czwartą możesz ułożyć sam. Obróć plecak, wybierz wersję i sprawdź każdą rzecz z krótkim wyjaśnieniem, po co jest. Pierwsze zestawy kompletujemy teraz.</p>
+      </div>
+
+      <div class="stage panel" id="bag-stage">
+        <canvas class="gl" aria-hidden="true"></canvas>
+        <div class="hs-layer" aria-hidden="true">
+          {bagCategories.map((c) => (
+            <button class="hs" type="button" tabindex="-1" data-cat={c.id}><i></i><span>{c.short} <b>{catCount(c.id)}</b></span></button>
+          ))}
+        </div>
+        <div class="hs-card" role="dialog" aria-labelledby="hc-t" hidden>
+          <div class="hc-head">
+            <p class="hc-t" id="hc-t"></p>
+            <span class="hc-n"></span>
+            <button class="hc-x" type="button" aria-label="Zamknij">&times;</button>
+          </div>
+          <ul class="hc-list"></ul>
+          <a class="hc-more" href="#zawartosc">Zobacz na liście</a>
+        </div>
+        <div class="fallback">
+          <p class="eyebrow">Zawartość według kategorii</p>
+          <ul>
+            {bagCategories.map((c) => <li data-cat={c.id}><span>{c.name}</span><b>{catCount(c.id)}</b></li>)}
+          </ul>
+        </div>
+        <p class="hint">Przeciągnij, aby obrócić<span class="hint-2">. Kliknij punkt, aby zobaczyć rzeczy</span></p>
+      </div>
+
+      <div class="h-pick">
+        <p class="eyebrow" id="ver-label">Wersja plecaka</p>
+        <div class="vers" role="group" aria-labelledby="ver-label">
+          {bagVersions.map((v, i) => (
+            <button class="ver" type="button" data-ver={v.id} aria-pressed={i === 0 ? 'true' : 'false'}>
+              <span class="vn">{v.name}</span>
+              <span class="vc" data-count={v.id}>{v.id === 'custom' ? 'do wyboru' : `${counts[v.id]} ${rzeczy(counts[v.id])}`}</span>
+              <span class="vd">{v.desc}</span>
+            </button>
+          ))}
+        </div>
+        <p class="ver-desc" aria-live="polite">{bagVersions[0].desc}</p>
+        <div class="cta-row">
+          <a class="btn primary" href="#zgloszenie">Zapytaj o plecak</a>
+          <a class="btn ghost" href="#zawartosc">Lista rzeczy</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap kit" aria-labelledby="kit-h">
+      <p class="eyebrow" id="kit-h">Co już mamy w plecaku testowym</p>
+      <ul class="kit-list">
+        {kit.map((k) => (
+          <li><button class="kit-chip" type="button" data-show={k.cat}><b>{k.brand}</b><span>{k.what}</span></button></li>
+        ))}
+      </ul>
+      <p class="kit-note">Pozostały sprzęt właśnie dobieramy i testujemy.</p>
+    </section>
+
+    <section class="block" id="zawartosc" aria-labelledby="list-h">
+      <div class="wrap">
+        <div class="sec-head">
+          <div>
+            <p class="eyebrow">Zawartość</p>
+            <h2 id="list-h">Co jest w środku: <span data-vname>Podstawowy</span> <span class="hcount" data-total>{basic.length} {rzeczy(basic.length)}</span></h2>
+            <p class="lead">Przy każdej rzeczy piszemy jednym zdaniem, po co jest. Marka przy rzeczy oznacza, że ten egzemplarz jest już w naszym plecaku testowym. Pozostały sprzęt właśnie dobieramy.</p>
+          </div>
+        </div>
+
+        <div class="custom-bar" hidden>
+          <span class="cb-label">Zacznij od:</span>
+          {levelOrder.map((l) => <button class="chip" type="button" data-preset={l}>{levelName[l]}</button>)}
+          <button class="chip" type="button" data-preset="none">Wyczyść</button>
+          <span class="cb-count" aria-live="polite"></span>
+        </div>
+
+        <div class="cats" data-mode="basic">
+          {bagCategories.map((c) => {
+            const items = bagItems.filter((i) => i.cat === c.id);
+            return (
+              <section class="cat" id={`kat-${c.id}`} data-cat={c.id} aria-labelledby={`kat-${c.id}-h`}>
+                <header>
+                  <h3 id={`kat-${c.id}-h`}>{c.name}</h3>
+                  <span class="cc" data-cc>{catCount(c.id)}</span>
+                  <button class="cat-show" type="button" data-show={c.id} aria-label={`Pokaż kategorię ${c.name} na plecaku 3D`}><i aria-hidden="true"></i>Na plecaku</button>
+                </header>
+                <ul>
+                  {items.map((i) => (
+                    <li data-id={i.id} data-level={i.level} hidden={i.level !== 'basic'}>
+                      <input type="checkbox" id={`it-${i.id}`} value={i.id} />
+                      <label for={`it-${i.id}`}>
+                        <span class="in">{i.name}</span>
+                        <span class="iw">{i.why}</span>
+                        {(i.partner || i.level !== 'basic') && (
+                          <span class="tags">
+                            {i.partner && <span class="tag brand"><span class="sr-only">W naszym plecaku testowym: </span>{i.partner}</span>}
+                            {i.level !== 'basic' && <span class="tag lvl">od wersji {levelName[i.level]}</span>}
+                          </span>
+                        )}
+                      </label>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            );
+          })}
+        </div>
+
+        <p class="more">Pakujesz się sam? Odhaczaj rzeczy w <a href={routes.checklist.pl}>checkliście plecaka 72h</a> i przeczytaj, <a href={`${guideBase.pl}plecak-ewakuacyjny/`}>co spakować do plecaka ewakuacyjnego</a>. Gotowe zestawy dostępne w sklepach porównujemy w zestawieniu <a href={`${guideBase.pl}gotowy-plecak-ewakuacyjny/`}>gotowych plecaków ewakuacyjnych</a>.</p>
+      </div>
+    </section>
+
+    <section class="block" aria-labelledby="note-h">
+      <div class="wrap">
+        <div class="sec-head"><div><h2 id="note-h">Tego nie spakujemy za Ciebie</h2></div></div>
+        <div class="notes">
+          <div class="note">
+            <span class="num">01</span>
+            <h3>Jodek potasu</h3>
+            <p>Jodku potasu nie ma w naszych plecakach. W Polsce tabletki rozdaje państwo w punktach wyznaczonych przez gminy, a przyjmuje się je wyłącznie na polecenie władz, ogłoszone w komunikatach RCB, radiu i telewizji. Szczegóły w poradniku <a href={`${guideBase.pl}jodek-potasu-tabletki/`}>jodek potasu: kiedy brać</a>.</p>
+          </div>
+          <div class="note">
+            <span class="num">02</span>
+            <h3>Twoje leki</h3>
+            <p>Dołóż leki na receptę, które przyjmujesz na stałe, na co najmniej 7 dni, razem z rozpiską dawek. Jeśli nosisz okulary lub soczewki, spakuj zapasową parę.</p>
+          </div>
+          <div class="note">
+            <span class="num">03</span>
+            <h3>Kopie dokumentów</h3>
+            <p>Do wodoodpornego etui włóż kopie dowodu, paszportu, aktów i polis oraz gotówkę w drobnych nominałach. Zdjęcia dokumentów zapisz też w telefonie.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="block" aria-labelledby="form-h">
+      <div class="wrap fgrid">
+        <div class="prose">
+          <h2 id="form-h">Zapytaj o plecak</h2>
+          <p>Kompletujemy teraz pierwsze plecaki. Wybierz wersję albo ułóż własną listę, zostaw imię i e-mail, a odpiszemy z informacją o dostępności.</p>
+          <p>Zgłoszenie do niczego nie zobowiązuje. Twoje dane służą tylko do odpowiedzi na nie.</p>
+        </div>
+        <form class="pform panel" id="zgloszenie" method="post" action="/contact.php" novalidate
+          data-ok="Dziękujemy! Zgłoszenie dotarło. Odpiszemy na podany e-mail z informacją o dostępności plecaka."
+          data-err="Nie udało się wysłać. Sprawdź pola i spróbuj ponownie za chwilę."
+          data-sending="Wysyłanie…">
+          <input type="hidden" name="lang" value="pl" />
+          <input type="hidden" name="t" value="" />
+          <input type="hidden" name="company" value="" />
+          <input type="hidden" name="category" value="" />
+          <input type="hidden" name="message" value="" />
+          <div class="hp" aria-hidden="true"><label for="bg-website">Website</label><input id="bg-website" name="website_url" tabindex="-1" autocomplete="off" /></div>
+          <label class="f"><span>Wersja plecaka</span>
+            <select id="bg-version" name="version">
+              {bagVersions.map((v) => <option value={v.id}>{v.name}</option>)}
+            </select>
+          </label>
+          <div class="sel-box" aria-live="polite">
+            <p class="sel-sum"></p>
+            <p class="sel-items"></p>
+          </div>
+          <div class="row2">
+            <label class="f"><span>Imię</span><input name="name" required autocomplete="given-name" /></label>
+            <label class="f"><span>E-mail</span><input name="email" type="email" required autocomplete="email" inputmode="email" /></label>
+          </div>
+          <label class="f"><span>Uwagi (opcjonalnie)</span><textarea id="bg-note" rows="4" placeholder="Np. ile plecaków, dla kogo (dziecko, senior), czego potrzebujesz więcej."></textarea></label>
+          <label class="check"><input type="checkbox" name="consent" value="1" required /><span>Zgadzam się na kontakt w sprawie plecaka. Dane służą tylko do odpowiedzi na to zgłoszenie.</span></label>
+          <div class="actions">
+            <button class="btn primary" type="submit">Wyślij zgłoszenie</button>
+            <p class="status" role="status" aria-live="polite"></p>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <div class="sbar" data-sbar>
+      <p class="sb-t"><span class="sb-v" data-sb-v>Podstawowy</span><span class="sb-c" data-sb-c>{basic.length} {rzeczy(basic.length)}</span></p>
+      <a class="btn primary" href="#zgloszenie">Zapytaj o plecak</a>
+    </div>
+  </div>
+</Base>
+
+<script>
+  import { bagCategories, bagItems, bagVersions, itemsFor, rzeczy, type BagVersionId } from '../data/plecak';
+
+  const root = document.querySelector<HTMLElement>('[data-bag]');
+  if (root) {
+    const KEY = 'pr-plecak-wlasny';
+    const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const byId = new Map(bagItems.map((i) => [i.id, i]));
+    const catById = new Map(bagCategories.map((c) => [c.id, c]));
+    const verName = (v: BagVersionId) => bagVersions.find((x) => x.id === v)!.name;
+    let version: BagVersionId = 'basic';
+    let custom = new Set<string>(itemsFor('basic').map((i) => i.id));
+    try {
+      const saved = JSON.parse(localStorage.getItem(KEY) || 'null');
+      if (Array.isArray(saved)) custom = new Set(saved.filter((id: string) => byId.has(id)));
+    } catch {}
+    const q = new URLSearchParams(location.search).get('wersja');
+    if (q && bagVersions.some((v) => v.id === q)) version = q as BagVersionId;
+
+    const stage = root.querySelector<HTMLElement>('#bag-stage')!;
+    const verBtns = [...root.querySelectorAll<HTMLButtonElement>('.ver')];
+    const verDesc = root.querySelector<HTMLElement>('.ver-desc')!;
+    const cats = root.querySelector<HTMLElement>('.cats')!;
+    const rows = [...root.querySelectorAll<HTMLLIElement>('.cats li')];
+    const groups = [...root.querySelectorAll<HTMLElement>('.cat')];
+    const bar = root.querySelector<HTMLElement>('.custom-bar')!;
+    const barCount = bar.querySelector<HTMLElement>('.cb-count')!;
+    const vname = root.querySelector<HTMLElement>('[data-vname]')!;
+    const total = root.querySelector<HTMLElement>('[data-total]')!;
+    const customCount = root.querySelector<HTMLElement>('[data-count="custom"]')!;
+    const hotspots = [...stage.querySelectorAll<HTMLElement>('.hs')];
+    const fallbackRows = [...stage.querySelectorAll<HTMLElement>('.fallback li')];
+    const card = stage.querySelector<HTMLElement>('.hs-card')!;
+    const form = root.querySelector<HTMLFormElement>('#zgloszenie')!;
+    const sel = form.querySelector<HTMLSelectElement>('#bg-version')!;
+    const selBox = form.querySelector<HTMLElement>('.sel-box')!;
+    const selSum = form.querySelector<HTMLElement>('.sel-sum')!;
+    const selItems = form.querySelector<HTMLElement>('.sel-items')!;
+    const sbar = root.querySelector<HTMLElement>('[data-sbar]')!;
+    const sbV = sbar.querySelector<HTMLElement>('[data-sb-v]')!;
+    const sbC = sbar.querySelector<HTMLElement>('[data-sb-c]')!;
+    let bag: import('../lib/bag3d').BagHandle | null = null;
+    let picked: string | null = null;
+
+    const selected = (): string[] => (version === 'custom' ? bagItems.filter((i) => custom.has(i.id)).map((i) => i.id) : itemsFor(version).map((i) => i.id));
+
+    /** Licznik „przewijający się” do nowej wartości */
+    const tween = (el: HTMLElement, to: number, fmt: (n: number) => string, animate: boolean) => {
+      const from = el.dataset.n === undefined ? to : Number(el.dataset.n);
+      el.dataset.n = String(to);
+      const token = String(Math.random());
+      el.dataset.tk = token;
+      if (!animate || reduce || from === to) { el.textContent = fmt(to); return; }
+      el.classList.remove('bump'); void el.offsetWidth; el.classList.add('bump');
+      const t0 = performance.now(), dur = 420;
+      const step = (now: number) => {
+        if (el.dataset.tk !== token) return;
+        const k = Math.min(1, (now - t0) / dur);
+        el.textContent = fmt(Math.round(from + (to - from) * (1 - Math.pow(1 - k, 3))));
+        if (k < 1) requestAnimationFrame(step);
+      };
+      requestAnimationFrame(step);
+    };
+    const nR = (n: number) => `${n} ${rzeczy(n)}`;
+
+    /** Pokazanie / schowanie elementu listy z krótką animacją */
+    const show = (el: HTMLElement, on: boolean, animate: boolean, delay = 0) => {
+      if (on) {
+        const was = el.hidden || el.classList.contains('leave');
+        el.hidden = false; el.classList.remove('leave');
+        if (was && animate && !reduce) { el.style.setProperty('--d', `${delay}ms`); el.classList.remove('enter'); void el.offsetWidth; el.classList.add('enter'); }
+      } else if (!el.hidden) {
+        if (animate && !reduce) {
+          el.classList.remove('enter'); el.classList.add('leave');
+          window.setTimeout(() => { if (el.classList.contains('leave')) { el.hidden = true; el.classList.remove('leave'); } }, 200);
+        } else el.hidden = true;
+      }
+    };
+
+    const fillCard = () => {
+      if (!picked) return;
+      const c = catById.get(picked)!;
+      const ids = new Set(selected());
+      const items = bagItems.filter((i) => i.cat === picked && ids.has(i.id));
+      card.querySelector('.hc-t')!.textContent = c.name;
+      card.querySelector('.hc-n')!.textContent = nR(items.length);
+      const ul = card.querySelector('.hc-list')!;
+      // Bez przewijania w karcie: na telefonie najwyżej 4 rzeczy, reszta na liście
+      const max = stage.clientWidth < 560 ? 4 : 7;
+      const more = Math.max(0, items.length - max);
+      ul.replaceChildren(...items.slice(0, max).map((i) => {
+        const li = document.createElement('li');
+        const n = document.createElement('span'); n.className = 'hn'; n.textContent = i.name;
+        const w = document.createElement('span'); w.className = 'hw'; w.textContent = i.why;
+        li.append(n, w);
+        if (i.partner) { const t = document.createElement('span'); t.className = 'tag brand'; t.textContent = i.partner; n.append(' ', t); }
+        return li;
+      }));
+      const link = card.querySelector<HTMLAnchorElement>('.hc-more')!;
+      link.href = `#kat-${picked}`;
+      link.textContent = more ? `Jeszcze ${nR(more)}: zobacz całą listę` : 'Zobacz na liście';
+    };
+
+    /** Wybór kategorii: karta przy punkcie na modelu i wyróżnienie na liście */
+    const pick = (id: string | null, focus = false) => {
+      picked = id;
+      groups.forEach((g) => g.classList.toggle('sel', g.dataset.cat === id));
+      hotspots.forEach((h) => h.classList.toggle('sel', h.dataset.cat === id));
+      root.querySelectorAll<HTMLElement>('[data-show]').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.show === id)));
+      card.hidden = !id;
+      if (id) fillCard();
+      bag?.select(id);
+      if (id && focus) bag?.focus(id);
+    };
+
+    let first = true;
+    const render = () => {
+      const animate = !first;
+      first = false;
+      const ids = new Set(selected());
+      const isCustom = version === 'custom';
+      verBtns.forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.ver === version)));
+      verDesc.textContent = bagVersions.find((v) => v.id === version)!.desc;
+      cats.dataset.mode = version;
+      bar.hidden = !isCustom;
+      let k = 0;
+      rows.forEach((li) => {
+        const on = ids.has(li.dataset.id!);
+        show(li, isCustom || on, animate, Math.min(240, (k += on ? 18 : 0)));
+        li.classList.toggle('off', isCustom && !on);
+        li.querySelector('input')!.checked = on;
+      });
+      const perCat = new Map<string, number>();
+      ids.forEach((id) => { const c = byId.get(id)!.cat; perCat.set(c, (perCat.get(c) || 0) + 1); });
+      groups.forEach((g) => {
+        const n = perCat.get(g.dataset.cat!) || 0;
+        tween(g.querySelector<HTMLElement>('[data-cc]')!, n, String, animate);
+        show(g, isCustom || n > 0, animate);
+      });
+      hotspots.forEach((h) => tween(h.querySelector('b')!, perCat.get(h.dataset.cat!) || 0, String, animate));
+      fallbackRows.forEach((r) => { const n = perCat.get(r.dataset.cat!) || 0; r.hidden = n === 0; r.querySelector('b')!.textContent = String(n); });
+      vname.textContent = verName(version);
+      tween(total, ids.size, nR, animate);
+      customCount.textContent = isCustom ? nR(custom.size) : 'do wyboru';
+      barCount.textContent = `Wybrano ${custom.size} z ${bagItems.length}`;
+      sbV.textContent = verName(version);
+      tween(sbC, ids.size, nR, animate);
+      sel.value = version;
+      // Podsumowanie w formularzu, aktualizowane na żywo
+      const names = bagItems.filter((i) => ids.has(i.id)).map((i) => i.name);
+      if (isCustom && !ids.size) {
+        selSum.textContent = 'Twoja lista jest pusta. Zaznacz rzeczy wyżej, w sekcji „Co jest w środku”.';
+        selItems.textContent = '';
+      } else {
+        selSum.textContent = isCustom ? `Twoja lista: ${nR(ids.size)}` : `${verName(version)}: ${nR(ids.size)}`;
+        const shown = names.slice(0, 10).join(', ');
+        selItems.textContent = names.length > 10 ? `${shown} i jeszcze ${names.length - 10}.` : `${shown}.`;
+        if (isCustom) selItems.textContent += ' Listę zmienisz wyżej, w sekcji „Co jest w środku”.';
+      }
+      if (animate && !reduce) { selBox.classList.remove('flash'); void selBox.offsetWidth; selBox.classList.add('flash'); }
+      bag?.setActive(new Set([...perCat.keys()]));
+      bag?.setExtras({ roll: ids.has('spiwor'), solar: ids.has('solar') });
+      if (picked) { if (perCat.get(picked)) fillCard(); else pick(null); }
+    };
+
+    const setVersion = (v: BagVersionId) => {
+      version = v;
+      render();
+      try {
+        const u = new URL(location.href);
+        v === 'basic' ? u.searchParams.delete('wersja') : u.searchParams.set('wersja', v);
+        history.replaceState(null, '', u);
+      } catch {}
+    };
+    const saveCustom = () => { try { localStorage.setItem(KEY, JSON.stringify([...custom])); } catch {} };
+
+    verBtns.forEach((b) => b.addEventListener('click', () => setVersion(b.dataset.ver as BagVersionId)));
+    sel.addEventListener('change', () => setVersion(sel.value as BagVersionId));
+    rows.forEach((li) => li.querySelector('input')!.addEventListener('change', (e) => {
+      if (version !== 'custom') return;
+      (e.target as HTMLInputElement).checked ? custom.add(li.dataset.id!) : custom.delete(li.dataset.id!);
+      saveCustom(); render();
+    }));
+    bar.querySelectorAll<HTMLButtonElement>('[data-preset]').forEach((b) => b.addEventListener('click', () => {
+      const p = b.dataset.preset!;
+      custom = new Set(p === 'none' ? [] : itemsFor(p as BagVersionId).map((i) => i.id));
+      saveCustom(); render();
+    }));
+
+    // Punkt na modelu: karta z rzeczami tej kategorii, plecak obraca się do punktu
+    hotspots.forEach((h) => h.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const id = h.dataset.cat!;
+      pick(picked === id ? null : id, true);
+    }));
+    card.querySelector('.hc-x')!.addEventListener('click', () => pick(null));
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && picked) pick(null); });
+    // Kategoria na liście lub chip partnera: obrót plecaka do tego miejsca
+    const inView = (el: HTMLElement) => { const r = el.getBoundingClientRect(); return r.top >= 40 && r.bottom <= innerHeight; };
+    root.querySelectorAll<HTMLButtonElement>('[data-show]').forEach((b) => b.addEventListener('click', () => {
+      const id = b.dataset.show!;
+      if (!stage.classList.contains('gl-on')) {
+        const g = document.getElementById(`kat-${id}`);
+        g?.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' });
+        return;
+      }
+      if (!inView(stage)) stage.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'center' });
+      pick(id, true);
+    }));
+
+    // Model 3D: tylko gdy przeglądarka obsługuje WebGL. Inaczej zostaje lekka lista kategorii.
+    const canvas = stage.querySelector<HTMLCanvasElement>('canvas.gl')!;
+    // Klik w tło (bez przeciągania) zamyka kartę
+    let down: [number, number] | null = null;
+    canvas.addEventListener('pointerdown', (e) => (down = [e.clientX, e.clientY]));
+    canvas.addEventListener('pointerup', (e) => {
+      if (down && Math.hypot(e.clientX - down[0], e.clientY - down[1]) < 5 && picked) pick(null);
+      down = null;
+    });
+    const hasGL = (() => { try { const c = document.createElement('canvas'); return !!(c.getContext('webgl2') || c.getContext('webgl')); } catch { return false; } })();
+    if (hasGL) {
+      import('../lib/bag3d').then(({ mountBag }) => {
+        bag = mountBag({
+          canvas, stage, hotspots, card,
+          defs: bagCategories.map((c) => ({ id: c.id, anchor: c.anchor, normal: c.normal })),
+          modelUrl: root.dataset.model,
+          reducedMotion: reduce,
+        });
+        (stage as any).bag = bag;
+        stage.classList.add('gl-on');
+        root.classList.add('has-gl');
+        render();
+      }).catch(() => stage.classList.remove('gl-on'));
+    }
+
+    // Przyklejony pasek na telefonie: widoczny, gdy przyciski z hero i formularz są poza ekranem
+    const heroCta = root.querySelector('.cta-row')!;
+    let sbQueued = false;
+    const updateBar = () => {
+      sbQueued = false;
+      const c = heroCta.getBoundingClientRect(), f = form.getBoundingClientRect();
+      // pokazujemy, gdy przyciski z hero są już nad ekranem, a formularza jeszcze nie widać
+      sbar.classList.toggle('show', c.bottom < 0 && f.top > innerHeight);
+    };
+    addEventListener('scroll', () => { if (!sbQueued) { sbQueued = true; requestAnimationFrame(updateBar); } }, { passive: true });
+    addEventListener('resize', updateBar);
+    updateBar();
+
+    // Formularz: ten sam mechanizm co „Dla producentów” (/contact.php)
+    (form.elements.namedItem('t') as HTMLInputElement).value = String(Date.now());
+    const status = form.querySelector<HTMLElement>('.status')!;
+    const btn = form.querySelector<HTMLButtonElement>('button[type=submit]')!;
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      if (!form.checkValidity()) { form.reportValidity(); return; }
+      const ids = selected();
+      if (!ids.length) { status.textContent = 'Zaznacz co najmniej jedną rzecz na liście albo wybierz gotową wersję.'; status.className = 'status err'; return; }
+      const note = (form.querySelector('#bg-note') as HTMLTextAreaElement).value.trim();
+      const name = verName(version);
+      const set = (k: string, v: string) => ((form.elements.namedItem(k) as HTMLInputElement).value = v);
+      set('company', `Plecak ewakuacyjny · ${name}`);
+      set('category', `Plecak: ${name}`);
+      set('message', [
+        `Zgłoszenie ze strony plecaka ewakuacyjnego.`,
+        `Wersja: ${name} (${nR(ids.length)})`,
+        '',
+        ...ids.map((id) => `- ${byId.get(id)!.name}`),
+        '',
+        `Uwagi: ${note || 'brak'}`,
+      ].join('\n'));
+      const label = btn.textContent;
+      btn.disabled = true; btn.textContent = form.dataset.sending!;
+      status.className = 'status';
+      try {
+        const r = await fetch(form.action, { method: 'POST', body: new FormData(form) });
+        const j = await r.json().catch(() => ({ ok: false }));
+        if (!j.ok) throw new Error();
+        form.querySelectorAll<HTMLElement>('.row2, .f, .check, .sel-box, .actions button').forEach((el) => (el.hidden = true));
+        status.textContent = form.dataset.ok!; status.classList.add('ok');
+      } catch {
+        status.textContent = form.dataset.err!; status.classList.add('err');
+        btn.disabled = false; btn.textContent = label;
+      }
+    });
+
+    render();
+  }
+</script>
+
+<style>
+  /* ── Hero ── */
+  .hero{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);grid-template-areas:"head stage" "pick stage";column-gap:40px;row-gap:24px;padding-block:40px 48px;align-items:start}
+  .h-head{grid-area:head}
+  .h-head h1{font-size:clamp(28px,3.8vw,42px);font-weight:780;font-stretch:80%;letter-spacing:-.01em;margin-top:8px}
+  .h-head .lead{font-family:var(--body);font-weight:var(--body-w);font-size:16px;line-height:1.6;color:var(--ink-2);max-width:56ch;margin-top:12px}
+  .h-pick{grid-area:pick}
+  .stage{grid-area:stage;position:relative;height:clamp(420px,46vw,600px);overflow:hidden;background:var(--surface);
+    background-image:linear-gradient(color-mix(in srgb,var(--line) 55%,transparent) 1px,transparent 1px),linear-gradient(90deg,color-mix(in srgb,var(--line) 55%,transparent) 1px,transparent 1px);background-size:40px 40px;background-position:center}
+  .gl{position:absolute;inset:0;width:100%;height:100%;display:block;cursor:grab;z-index:1}
+  .stage.dragging .gl{cursor:grabbing}
+  .hs-layer{position:absolute;inset:0;z-index:2;pointer-events:none}
+  .hs{position:absolute;left:0;top:0;width:0;height:0;padding:0;border:0;background:none;opacity:0;visibility:hidden;transition:opacity .25s,visibility .25s;pointer-events:none}
+  .hs.on{opacity:1;visibility:visible;pointer-events:auto}
+  .hs i{position:absolute;left:-6px;top:-6px;width:12px;height:12px;border-radius:50%;background:var(--signal-bright);box-shadow:0 0 0 3px color-mix(in srgb,var(--surface) 85%,transparent)}
+  .hs span{position:absolute;top:-11px;left:12px;white-space:nowrap;font-family:var(--mono);font-size:11px;line-height:1;letter-spacing:.04em;text-transform:uppercase;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:4px;padding:5px 7px}
+  .hs.l span{left:auto;right:12px}
+  .hs b{color:var(--signal);font-weight:600;margin-left:2px}
+  .hs:hover span{border-color:var(--ink)}
+  .stage:not(.gl-on) .hs-layer,.stage:not(.gl-on) .hint,.stage:not(.gl-on) .gl{display:none}
+  .stage.gl-on .fallback{display:none}
+  .fallback{position:relative;z-index:1;padding:24px;height:100%;overflow:auto}
+  .fallback ul{list-style:none;margin:12px 0 0;padding:0;border-top:1px solid var(--line)}
+  .fallback li{display:flex;justify-content:space-between;gap:12px;padding:11px 0;border-bottom:1px solid var(--line);font-weight:600}
+  .fallback b{font-family:var(--mono);color:var(--signal)}
+  .hint{position:absolute;left:16px;bottom:12px;z-index:2;font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);pointer-events:none}
+
+  .vers{display:grid;gap:8px;margin-top:10px}
+  .ver{display:grid;grid-template-columns:1fr auto;gap:2px 12px;text-align:left;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:8px;padding:10px 14px}
+  .ver:hover{border-color:var(--ink-2)}
+  .ver[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+  .vn{font-weight:750;font-size:17px;font-stretch:88%}
+  .vc{font-family:var(--mono);font-size:12px;color:var(--muted);align-self:center}
+  .vd{grid-column:1 / -1;font-family:var(--body);font-weight:var(--body-w);font-size:13.5px;line-height:1.45;color:var(--muted)}
+  .ver[aria-pressed="true"] .vc,.ver[aria-pressed="true"] .vd{color:color-mix(in srgb,var(--bg) 72%,transparent)}
+  .ver[aria-pressed="true"] .vc{color:var(--signal-bright)}
+  .ver-desc{display:none}
+  .cta-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+
+  /* ── Lista ── */
+  .hcount{font-family:var(--mono);font-size:13px;font-weight:400;letter-spacing:0;color:var(--muted);vertical-align:middle;margin-left:6px;white-space:nowrap}
+  .custom-bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:0 0 18px}
+  .custom-bar[hidden]{display:none}
+  .cb-label{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-right:4px}
+  .cb-count{font-family:var(--mono);font-size:12px;color:var(--ink-2);margin-left:auto}
+  .cats{columns:3 300px;column-gap:16px}
+  .cat{break-inside:avoid;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);margin:0 0 16px;scroll-margin-top:90px;transition:border-color .4s}
+  .cat[hidden]{display:none}
+  .cat.flash{border-color:var(--signal)}
+  .cat header{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:14px 16px 10px;border-bottom:1px solid var(--line)}
+  .cat h3{font-size:17px}
+  .cc{font-family:var(--mono);font-size:12px;color:var(--signal)}
+  .cat ul{list-style:none;margin:0;padding:0}
+  .cat li{display:grid;grid-template-columns:1fr;padding:12px 16px;border-bottom:1px solid var(--line)}
+  .cat li:last-child{border-bottom:0}
+  .cat li[hidden]{display:none}
+  .cat input{display:none;width:18px;height:18px;margin:2px 0 0;accent-color:var(--olive)}
+  .cats[data-mode="custom"] li{grid-template-columns:22px 1fr;gap:10px}
+  .cats[data-mode="custom"] input{display:block}
+  .cats[data-mode="custom"] label{cursor:pointer}
+  .cats[data-mode="custom"] li.off .in{color:var(--muted)}
+  .cats[data-mode="basic"] .tag.lvl{display:none}
+  .in{display:block;font-weight:650;font-size:15px;line-height:1.35}
+  .iw{display:block;font-family:var(--body);font-weight:var(--body-w);font-size:14px;line-height:1.5;color:var(--ink-2);margin-top:3px}
+  .tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:7px}
+  .tag{font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;border-radius:4px;padding:1px 6px;white-space:nowrap}
+  .tag.brand{color:var(--signal);border:1px solid var(--signal)}
+  .tag.lvl{color:var(--muted);border:1px dashed var(--line)}
+  .more{margin-top:8px;font-family:var(--body);font-weight:var(--body-w);font-size:15px;line-height:1.6;color:var(--ink-2);max-width:80ch}
+  .more a{color:var(--action)}
+
+  /* ── Uwagi ── */
+  .notes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}
+  .note .num{font-family:var(--mono);font-size:12px;letter-spacing:.08em;color:var(--signal)}
+  .note h3{margin:6px 0}
+  .note p{font-family:var(--body);font-weight:var(--body-w);font-size:14.5px;line-height:1.6;color:var(--ink-2)}
+  .note a{color:var(--action)}
+
+  /* ── Formularz (jak na stronie „Reklama”) ── */
+  .fgrid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:48px;align-items:start;padding-bottom:24px}
+  .fgrid .prose :global(h2:first-child){margin-top:0}
+  .fgrid .prose h2{font-size:clamp(24px,3vw,32px);font-weight:800}
+  .pform{padding:24px;display:flex;flex-direction:column;gap:14px;scroll-margin-top:90px}
+  .row2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  .f{display:flex;flex-direction:column;gap:6px;font-size:13px;font-weight:600;color:var(--ink-2)}
+  .f input,.f select,.f textarea{font:inherit;font-family:var(--body);font-weight:400;font-size:16px;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:10px 12px;width:100%;min-width:0}
+  .f textarea{resize:vertical;line-height:1.5}
+  .f input:focus,.f select:focus,.f textarea:focus{outline:2px solid var(--action);outline-offset:0;border-color:transparent}
+  .check{display:flex;gap:10px;align-items:flex-start;font-family:var(--body);font-size:13px;color:var(--muted);line-height:1.5}
+  .check input{margin-top:3px;accent-color:var(--olive)}
+  .actions{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+  .status{font-family:var(--body);font-size:14px}
+  .status.ok{color:var(--l1);font-size:15px} .status.err{color:var(--l5)}
+  button[disabled]{opacity:.6;cursor:wait}
+  .hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+  [hidden]{display:none!important}
+
+  /* ── Wybrany punkt i karta na modelu ── */
+  .hs.sel i{background:var(--ink);box-shadow:0 0 0 3px var(--signal-bright),0 0 0 7px color-mix(in srgb,var(--signal-bright) 25%,transparent)}
+  .hs.sel span{opacity:0}
+  .hs b.bump,.cc.bump,.hcount.bump,.sb-c.bump{animation:bump .42s ease}
+  @keyframes bump{40%{color:var(--signal-bright)}}
+  .hs-card{position:absolute;left:0;top:0;z-index:3;width:min(300px,calc(100% - 16px));overflow:hidden;background:var(--surface);border:1px solid var(--ink);border-radius:8px;box-shadow:0 10px 30px rgba(18,22,25,.16);opacity:0;visibility:hidden;transition:opacity .2s,visibility .2s}
+  .hs-card.on{opacity:1;visibility:visible}
+  .hc-head{display:flex;align-items:baseline;gap:8px;padding:10px 8px 8px 14px;border-bottom:1px solid var(--line);background:var(--surface)}
+  .hc-t{font-weight:750;font-size:15px;font-stretch:88%;line-height:1.2}
+  .hc-n{font-family:var(--mono);font-size:11px;color:var(--signal);white-space:nowrap}
+  .hc-x{margin-left:auto;border:0;background:none;color:var(--muted);font-size:20px;line-height:1;padding:0 6px;cursor:pointer}
+  .hc-x:hover{color:var(--ink)}
+  .hc-list{list-style:none;margin:0;padding:4px 0}
+  .hc-list :global(li){padding:7px 14px}
+  .hc-list :global(li + li){border-top:1px solid color-mix(in srgb,var(--line) 70%,transparent)}
+  .hc-list :global(.hn){display:block;font-weight:650;font-size:13.5px;line-height:1.3}
+  .hc-list :global(.tag){font-family:var(--mono);letter-spacing:.08em;text-transform:uppercase;border-radius:4px;white-space:nowrap;color:var(--signal);border:1px solid var(--signal);font-size:9.5px;padding:0 5px;margin-left:2px;vertical-align:1px}
+  .hc-list :global(.hw){display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-family:var(--body);font-weight:var(--body-w);font-size:12.5px;line-height:1.4;color:var(--ink-2);margin-top:2px}
+  .hc-more{display:block;padding:8px 14px 11px;border-top:1px solid var(--line);font-weight:700;font-size:13px;color:var(--action);text-decoration:none}
+  .hc-more:hover{text-decoration:underline}
+
+  /* ── Pasek „Co już mamy w plecaku testowym” ── */
+  .kit{display:flex;flex-wrap:wrap;align-items:center;gap:10px 18px;padding-block:18px 26px}
+  .kit-list{display:flex;flex-wrap:wrap;gap:8px;list-style:none;margin:0;padding:0}
+  .kit-chip{display:inline-flex;align-items:baseline;gap:8px;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:6px 14px;font-size:13.5px;font-weight:600;cursor:pointer;text-align:left}
+  .kit-chip b{font-family:var(--mono);font-size:10.5px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--signal)}
+  .kit-chip:hover,.kit-chip[aria-pressed="true"]{border-color:var(--ink)}
+  .kit-note{font-family:var(--body);font-weight:var(--body-w);font-size:13px;color:var(--muted)}
+
+  /* ── Kategoria: przycisk „Na plecaku” i wyróżnienie ── */
+  .cat header{flex-wrap:wrap}
+  .cat-show{display:none;align-items:center;gap:6px;margin-left:auto;border:1px solid var(--line);background:none;color:var(--ink-2);border-radius:999px;padding:3px 10px 3px 8px;font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;white-space:nowrap}
+  .cat-show i{width:8px;height:8px;border-radius:50%;background:var(--signal-bright)}
+  .cat-show:hover,.cat-show[aria-pressed="true"]{border-color:var(--ink);color:var(--ink)}
+  .has-gl .cat-show{display:inline-flex}
+  .cat header .cc{order:0}
+  .cat.sel{border-color:var(--signal);box-shadow:0 0 0 1px var(--signal)}
+
+  /* ── Animacje listy przy zmianie wersji ── */
+  @media (prefers-reduced-motion:no-preference){
+    .cat li.enter,.cat.enter{animation:in .38s ease both,glow 1.6s ease both;animation-delay:var(--d,0ms),var(--d,0ms)}
+    .cat.enter{animation:in .38s ease both}
+    .cat li.leave,.cat.leave{animation:out .2s ease forwards}
+    .sel-box.flash{animation:glow 1.2s ease}
+  }
+  @keyframes in{from{opacity:0;transform:translateY(-6px)}}
+  @keyframes out{to{opacity:0;transform:translateY(-4px)}}
+  @keyframes glow{from{background:color-mix(in srgb,var(--signal-bright) 14%,transparent)}to{background:transparent}}
+
+  /* ── Podsumowanie w formularzu ── */
+  .sel-box{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:10px 0;margin-top:-4px}
+  .sel-box .sel-sum{margin:0;font-family:var(--mono);font-size:12px;letter-spacing:.04em;color:var(--ink)}
+  .sel-items{margin-top:4px;font-family:var(--body);font-weight:var(--body-w);font-size:13px;line-height:1.5;color:var(--muted)}
+  .sel-items:empty{display:none}
+
+  /* ── Przyklejony pasek (telefon) ── */
+  .sbar{display:none}
+
+  @media (max-width:900px){
+    .sbar{display:flex;align-items:center;gap:12px;position:fixed;left:0;right:0;bottom:0;z-index:40;padding:10px 16px calc(10px + env(safe-area-inset-bottom));background:var(--surface);border-top:1px solid var(--line);box-shadow:0 -6px 20px rgba(18,22,25,.08);transform:translateY(110%);transition:transform .25s ease;visibility:hidden}
+    .sbar.show{transform:none;visibility:visible}
+    .sbar .btn{margin-left:auto;white-space:nowrap}
+    .sb-t{display:flex;flex-direction:column;line-height:1.25;min-width:0}
+    .sb-v{font-weight:750;font-size:15px;font-stretch:88%}
+    .sb-c{font-family:var(--mono);font-size:11.5px;color:var(--signal)}
+    :global(body:has(.sbar.show)) :global(.prtg){display:none!important}
+    :global(body:has(#pr-consent:not([hidden]))) .sbar{display:none}
+    .kit{padding-block:6px 22px}
+    .hero{grid-template-columns:minmax(0,1fr);grid-template-areas:"head" "stage" "pick";padding-top:28px}
+    .stage{height:clamp(400px,118vw,540px)}
+    .vers{grid-template-columns:repeat(2,minmax(0,1fr))}
+    .vd{display:none}
+    .ver{padding:10px 12px;grid-template-columns:minmax(0,1fr)}
+    .vc{align-self:start}
+    .ver-desc{display:block;font-family:var(--body);font-weight:var(--body-w);font-size:14px;line-height:1.5;color:var(--ink-2);margin-top:10px;min-height:3em}
+    .notes{grid-template-columns:1fr;gap:20px}
+    .fgrid{grid-template-columns:1fr;gap:20px}
+  }
+  @media (max-width:560px){
+    .hint-2{display:none}
+    .hs-card.dock{left:8px;right:8px;top:auto;bottom:8px;width:auto;transform:none}
+    .hs-card.dock .hc-list :global(.hw){-webkit-line-clamp:1}
+    .hs-card.dock .hc-list :global(li){padding:6px 14px}
+    .row2{grid-template-columns:1fr}
+    .hs span{font-size:10px;padding:4px 6px}
+    .cta-row .btn{flex:1 1 auto;justify-content:center}
+  }
+</style>

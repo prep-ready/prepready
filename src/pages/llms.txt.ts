@@ -31,6 +31,7 @@ Każdy poradnik ma listę źródeł, datę przeglądu i sekcję FAQ. Treści mo�
 
 - [Mapa schronów: gdzie jest najbliższy schron](${abs(routes.shelters.pl)}): wpisz adres i zobacz najbliższe schrony, ukrycia i miejsca doraźnego schronienia z bazy KG PSP (dane.gov.pl), z odległością, czasem dojścia pieszo i dostępnością 24h. Aktualizacja co tydzień.
 - [Checklista plecaka ewakuacyjnego 72h](${abs(routes.checklist.pl)}): interaktywna lista rzeczy według „Poradnika bezpieczeństwa” MSWiA.
+- [Plecak ewakuacyjny PrepReady](${abs('/pl/plecak-ewakuacyjny/')}): model 3D i pełna zawartość plecaka w wersjach Podstawowy, Rozszerzony i Pro oraz lista do ułożenia własnego zestawu, z krótkim wyjaśnieniem każdej rzeczy.
 - [Indeks gotowości dla Polski](${abs(routes.index.pl)}): codzienna ocena poziomu zagrożenia z jawną metodologią.
 - [Wiadomości kryzysowe](${abs(routes.news.pl)}): codzienny przegląd ostrzeżeń i komunikatów z polskich źródeł urzędowych.
 

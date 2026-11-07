@@ -58,7 +58,7 @@ const sample = section === 'news' ? feed[lang].sample : section === 'gear' ? gea
     )}
     {section === 'news' && <div class="two"><div><h2 class="sub">{lang === 'pl' ? 'Komunikaty służb, na bieżąco' : 'Latest'}</h2><NewsFeed lang={lang} /></div><Newsletter lang={lang} /></div>}
     {section === 'checklist' && <Fragment><Checklist lang={lang} /><p class="cl-more">{lang === 'pl'
-      ? <Fragment>Nie wiesz, po co dana rzecz i ile jej spakować? Przeczytaj <a href={`${guideBase.pl}plecak-ewakuacyjny/`}>co spakować do plecaka ewakuacyjnego</a>. Wolisz kupić gotowy zestaw? Zobacz <a href={`${guideBase.pl}gotowy-plecak-ewakuacyjny/`}>porównanie gotowych plecaków ewakuacyjnych</a>.</Fragment>
+      ? <Fragment>Nie wiesz, po co dana rzecz i ile jej spakować? Przeczytaj <a href={`${guideBase.pl}plecak-ewakuacyjny/`}>co spakować do plecaka ewakuacyjnego</a>. Wolisz kupić gotowy zestaw? Zobacz <a href={`${guideBase.pl}gotowy-plecak-ewakuacyjny/`}>porównanie gotowych plecaków ewakuacyjnych</a> albo <a href="/pl/plecak-ewakuacyjny/">plecak ewakuacyjny PrepReady w 4 wersjach</a>.</Fragment>
       : <Fragment>Not sure why an item matters or how much to pack? Read the <a href={`${guideBase.en}go-bag-checklist/`}>go-bag guide</a>.</Fragment>}</p></Fragment>}
     {section === 'gear' && <div class="stack">{buying.length > 0 && <section class="buying"><h2 class="sub">{lang === 'pl' ? 'Poradniki zakupowe' : 'Buying guides'}</h2><ul class="buy-list">{buying.map((a) => <li><a href={hrefOf(a)}><strong>{a.data.title}</strong><span>{a.data.description}</span></a></li>)}</ul></section>}<Deals lang={lang} showEmpty /><GearTable lang={lang} />
       <div class="prose method">{lang === 'pl' ? (
