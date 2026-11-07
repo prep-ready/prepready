@@ -4,17 +4,7 @@
     "sample": false,
     "items": [
       {
-        "at": "2026-11-07T11:28:00.000Z",
-        "cat": "weather",
-        "sev": 2,
-        "source": "IMGW",
-        "url": "https://meteo.imgw.pl/",
-        "title": "IMGW: 1 ostrzeżeń meteo, najwyższy stopień 1: Gęsta mgła",
-        "official": true,
-        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
-      },
-      {
-        "at": "2026-11-07T10:44:06.544Z",
+        "at": "2026-11-07T16:40:38.724Z",
         "cat": "energy",
         "sev": 3,
         "source": "PSE",
@@ -26,6 +16,56 @@
           "href": "/pl/poradniki/blackout-jak-sie-przygotowac/",
           "label": "Jak przygotować się na blackout"
         }
+      },
+      {
+        "at": "2026-11-07T15:56:00.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "PolsatNews.pl",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQeWhFaXZjbFlIeHY3djV2emlGRXI4T0FyR0ZZUktwakVUdnp3WkNRV1lmNUhEYzhLRjVnSHRKUGJVZzZJWUNja29jUjBmVEFtTTUwN2dIa19DRXNzY0g2YVF4TnV6eE9iby1QODROQW5qVC0wZGhpRG9nNU0xWG9xZTVZazlUTjFLYldVWnNCOVpfWmlyYmpCZEV5b1dxQzh2c2ZTSnlBWVJyV2ZJT3FKQzQxdw?oc=5",
+        "title": "\"Strzelał z samochodu w ludzi na rynku\". Świadek o tragedii w Krakowie",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-07T15:53:22.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "Money.pl",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdmE1Z0dpTHlNMnFURW00MzVUdzJXUkhMNEFtNW9MSHgyLUJabVlGYUhfNGdVQXI4cU5fSDRCN0tFVUdSbXJCVlp5OWxzMDd0S2lzVENUYUc5RFBqYXdCcGhBZTFjcUhpS2F2UkJBSUxtcldqMXV2WWdUbVI4NDdxUm9qTWlDRlpQVEpCM2kyTlZXU0dhWWJqVndpYXZVMWljQmhXZHdGU0ExM0dCVzd1ZWs2alB5azU4?oc=5",
+        "title": "Strzelanina w Krakowie. W Polsce jest już ponad milion sztuk broni",
+        "official": true,
+        "forYou": "Jeśli jesteś w pobliżu: uciekaj, a jeśli nie możesz, ukryj się i wycisz telefon. Dzwoń pod 112, gdy będzie to bezpieczne. Unikaj okolicy i nie powielaj niesprawdzonych nagrań."
+      },
+      {
+        "at": "2026-11-07T15:45:18.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbWM5Q29GSjRXVi1kVE5fNFdKMm1yeXNkcWlpcXRubXo3SURhUTI3RU5MNjItTjFHM0ViUmxKMG8zUTQ4cFFtdV8ybzJjclN5c1Jucm4wRjJmTkFfSVJDazBrUzdDSEpEdGNLWXNqV1pCbEt3SHl1TWVWUnpWQWgzdnVzTTItT09UeXJxS1FTODFFcFpHSU9NNzVOU1VTMDR5Y2xV?oc=5",
+        "title": "Strzelanina w Krakowie. Prezydent Karol Nawrocki zabrał głos",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-07T15:23:26.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "WP Wiadomości",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNcmpjYWJaZjRFYUhUYVZPYll0M1hqQ2VLOXNNNDQ2aTBmNWR2MmtGYW9MeVZyOTI1MTRpV3lfdTdWNXpBU2VGTzRGX0M0ZG03RUNzdzhKUjlWakNsSU14amFMQTFfNFp0R2I0SHlrRnp4bzE1YWVmU2xIRFpNLWQ3SXFmOENsazl6SGN6bDdzaFltU29mbFE?oc=5",
+        "title": "Strzelanina w Krakowie. Nie żyje pięć osób",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-07T11:28:00.000Z",
+        "cat": "weather",
+        "sev": 2,
+        "source": "IMGW",
+        "url": "https://meteo.imgw.pl/",
+        "title": "IMGW: 1 ostrzeżeń meteo, najwyższy stopień 1: Gęsta mgła",
+        "official": true,
+        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
       },
       {
         "at": "2026-11-07T09:20:59.000Z",
@@ -194,60 +234,50 @@
           "href": "/pl/mapa-schronow/",
           "label": "Mapa schronów"
         }
-      },
-      {
-        "at": "2026-11-04T14:49:27.000Z",
-        "cat": "health",
-        "sev": 1,
-        "source": "Radio Zet",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcHNnUlZfbUxiR3BwamZuc2tEUW04bmR5cDlTQ2ZlZEEtVXY3OWctN0RQRzlmc0hOSGFZU0I5aGxPcDJsVXJ5cWFVcEltekoxZ2RsY3JvOU1uY2FuYkpIUHVZejFCYV94dXc1YjNaS3FHRHJaQVFPX25BTGh2a0xDajFVeXVHcXhfbXNGQlNTMTRQXzVfR2d4UzV3QUtwV1Nzc3l5VW15N002eVJDSVpPQU8zUVBhbG1VSExv?oc=5",
-        "title": "Trzy wirusy w natarciu, najszybciej łapią je dzieci. Szef GIS o nowej fali zakażeń",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-04T12:02:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Rzeczpospolita",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeHhEQmItUVlLTXNvRzE1dURlUmVNZTRzLWZtYWlMd29kQ2pDZmxlZkVSQ2RMZ19jVGo4VV85Q0g0NnM3YjBUN1kzNnMtem83a29kbTBLOTltTHR6Yml2ZUdrbEhEVjFwaWRlcXhsT1h2SFlzRnNnSE52alhMODJ5dGpIcDFwdC1ocHd4bVFmd21hNk93eUd6U0hSaUtWZ1dFSEVqdkphaTAya25MMGhjb1U3LWk1REU?oc=5",
-        "title": "Dziwne ruchy przy granicy z Rosją. Mamy odpowiedź wojska. Ustalenia „Rz\"",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-04T10:38:05.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Rzeczpospolita",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMy1lMENnTlU0b3lvNVlGbzdEb082OTg0Zmt6TlhldzJSR1ZtMG9Qa2x0VWphWlJZb0JPSVU1Z3UzR2p1V1RzanpoSU45a3NHOVFMQklHRVk5bmsyZC01OHluQWNVOEp0WnFDSDF6a29KVXhTVExMRWFCYjVWcS1aNnFrczFFRnVhV1lkYzNhRHI5c0FEMXVBeEFjU1Q3VkNhcmpOUG1OSVpmdk1iRUJqcU1Zc3B6Znc?oc=5",
-        "title": "GROM na granicy pod dowództwem policji? Gen. Polko: Nie mają pojęcia o ich taktyce",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-04T05:30:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Defence24",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObnVILUdtMjNGLTlWQ2YwQzlpc1VCaDdNdFhsLWl1UlVXbWRIMkVjZldfQjM1dnp4MzRXQUY0aldsa1duVUFvREtpaWozLXZNNi04UmFtWWd1Wk1maTZxZUlRZE1wS001bk5QMUpBalNxa09vWHJiRW4zdDIyMDlLMC1ya0lEck5QRENtUmFtQkdRb1lNc2dPcEttb091Szl5OXNRTE9FTl9KZVpoRlR6REpwUEJ6U0Iw?oc=5",
-        "title": "Przeciwlotnicze Newy przed kolejnymi latami służby. Wojsko planuje wieloletni serwis",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-07T10:44:29.964Z"
+    "updatedAt": "2026-11-07T16:41:42.843Z"
   },
   "en": {
     "sample": false,
     "items": [
       {
-        "at": "2026-11-07T10:20:56.000Z",
+        "at": "2026-11-07T15:29:51.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "FinanceFeeds",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPREtkaXpQQThZVzEzWDZWb2JaYkpGVlNxbGN1SjlOV0dCTFZLSEE1TU9hTWk1Y0x1RzByaGxqQThzSmRaTjQ0c1VUQVBkMGFtM2dlSnI4NjRUNklxR3VvX3I1MnhjZTFFVEhNR2VUa1RyVjkwMks5NlZfSG1zRUdVMEY4SnZoTFNBbUQtcDFaUHJPdWp3VjJiQjBOZXJmMGhjYVE?oc=5",
+        "title": "Gnosis Pay Discloses Customer Data Breach Following November 3 Cyberattack",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-07T14:58:25.000Z",
         "cat": "security",
         "sev": 2,
-        "source": "UNITED24 Media",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOMlIwVnB5VVQxek14OTFhdzBEMzY2UFdXTmg0X1lpQjZMTkF4anI1UkdDNF9yVExGbHpUb0ZaV0l1ZnJpb3dMWjE0ZDZPaEx2M05PeFBVcGtFMFQ4UGpoUzJkUTJhZ21kS0FoM3lGQzlzdVhwMk54RC01Z2RCTGMzOHF5bzdTMTlpd3FRMDdjX3ZTYnpRSldmcUY3c2NmNWgxU3A5R0N4SGVnV09aYV9EZGlpVWZMTEVqYUN5V2tzcw?oc=5",
-        "title": "Ukraine’s Neptunes Go After the Electronics Behind Russia’s Iskander Missiles",
+        "source": "Rocky Mount Telegram",
+        "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNd1FlZ2hfVzN1NlMwenVvN0Y2dXE4aUFuRDhzaTB0enZHa2VWeGdaU3k3b1VGbUYtZkhaNXpqZmF5OWpxTzVBOXNpZFVfeWxueEh1cy1pTTUtaDE0ajdTa0I2MGlnZnUzbHBYSzhGQXpoUmo4VDg5TFZocFM4d29VenpaSkNRc1E5VzMyakNCby01MnN5aUszaF9JQ21lYlRMNjd5V2ozMTRJMlA1WmU0MUdOMW0ydFRYazJBZXFqZzlncjRwVmRHZXBCcnRMNWVwUXEtSmhobmp3UGRQWVh3ay1ERzRfdnhLUms3VXd6TUVkQW1fdktWN3lQcHV0QWw0OFFYc0RPVmFpdw?oc=5",
+        "title": "Drone and missile attacks wound 9 as Ukraine prepares for talks with Russia and the US",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-07T14:31:10.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The Jerusalem Post",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5EQ3hBa3JORVJTTllMNFlWcDI2M2EwQVowc05SZVhzNWNMT3ltcndlcFVJQjRGMzYzNFh0dlZlb0pqMTludzVQTFFxVXhvdGQyYTVsclBkbWQ3dzEwajllQ0VscWVZMTdVU0E?oc=5",
+        "title": "US hits anti-arcraft device on Iran's Queshm Island in minor strikes, Donald Trump says",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-07T13:22:08.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "LADbible",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQjh3OENvQ0tqSXgxQ3BhRzU4bVBEdmFWSDFGV19EeEVCMTkzaEVWaUJmcFdRQndJcWNKZFhZQWFtUE5rVnBOUVlubktYQjk1bTFlbF9uWGU3TWROOHpTXzZ1RnE1V051aTMxTE9FQW5PeExxelY3TlhXaW94clFHYTNTSUl3VEVZT0JYbWRYX1QxNnB2Tmc?oc=5",
+        "title": "UK ‘black sky event’ warning as expert explains item every household should have",
         "official": false,
         "forYou": ""
       },
@@ -410,38 +440,8 @@
         "title": "Iran war live: Madinah-bound Houthi drone intercepted by Saudi-led coalition",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-05T10:40:08.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Daily FT",
-        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQUnhyU0Z1djh0MlRZcC1jb0JMeFptdzREbV9DY08wSjJmcGFqT3VZQ0dmbFVoZmFjUFZad0xmOXc2TEREQ3dCX2dJVWdWUFl2dUN2NzRZNjdEdjJadGhWUkhTRTNua3FRTHlpbmcxVW5QR2VSQmp4ajVKaUdnMEhjLUs0N0J0Yl90RlVRc3dFMTh6SkdzbDk0S3lHTFBrQUVfZzBlZ2lCMi1GN2lPZDNEcXp3Rld5SEJiMm5SVWFTaDlZa0Zsb1gtM1JRZ3Z4a0ljMHdpcW5VS3BnNFAyM2c?oc=5",
-        "title": "When the Grid Went Dark; Rethinking Power System Resilience after Sri Lanka’s October 17 2026 Blackout",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-05T09:56:14.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The National",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQa3prTFlUbjIxSUVNV3VDVHNEb1Nkb0ZqSDVTZkJwMng0YmQ2dFhmVDNYdlB4WGlQU1NMU3J5VWg3a1NTcjBoTm9oZ2piVXlKc29ZSTNzcHRHUHFNVmxzRDhRS2ZXUXI2RW1nU1hGZnI5U0RKeXR6NDJ5T2k2a1gtbXRCSFY1VUdJY1NUaXU5V2YzWE0?oc=5",
-        "title": "Iran war latest: Third tanker catches fire in Strait of Hormuz, Iranian Navy says",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-05T09:51:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The New Voice of Ukraine",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOeXFNdkEwSC11Y2tCS2MxbDEtR3BBNVQxLUx1YzlzYUpjY1pucDYyeXpNMDNUYXpRY1NwWVJvRzVHRnQ5NEV3ZTVlX1BuTlBDd2pNNHhkTWRZeUFLNnRQbW9PX3RnWW5OYzRrb3p2V0wxNEpPSjB1QW00Zi1Bc3k3LWl3ZDRUaXkzZHhRNG9hVUthNEoycFBtQ3Ewd2hUaWZobHBlTTMyallHYjlzcUg4a3FZYk1IQUNJUWpB0gG7AUFVX3lxTE55cU12QTBILXVja0JLYzFsMS1HcEE1VDEtTHVjOXNhSmNjWm5wNjJ5ek0wM1RhelFjU3BZUm9HNUdGdDk0RXdlNWVfUG5OUEN3ak00eGRNZFl5QUs2dFBtb09fdGdZbk5jNGtvenZXTDE0Sk9KMHVBbTRmLUFzeTctaXdkNFRpeTNkeFE0b2FVS2E0SjJwUG1DcTB3aFRpZmhscGVNMzJqWUdiOXNxSDhrcVliTUhBQ0lRakE?oc=5",
-        "title": "Pyongyang trials new air defense system and cruise missile strike capability",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-07T10:46:33.339Z"
+    "updatedAt": "2026-11-07T16:43:24.988Z"
   }
 }
