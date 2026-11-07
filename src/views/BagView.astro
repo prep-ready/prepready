@@ -916,8 +916,9 @@ const jsonLd = [
   /* saszetka */
   .cat{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);scroll-margin-top:90px;transition:border-color .4s,box-shadow .4s;overflow:hidden}
   .cat header{display:flex;align-items:center;gap:12px;padding:12px 16px;border-bottom:1px solid var(--line)}
-  .cat-dot{width:14px;height:14px;border-radius:4px;flex:none;background:var(--c,var(--muted));box-shadow:inset 0 0 0 1px rgba(0,0,0,.25)}
-  .cat:not([style]) .cat-dot{background:none;box-shadow:inset 0 0 0 2px var(--muted)}
+  /* kropka koloru saszetki (okrągła, żeby nie myliła się z polem wyboru) */
+  .cat-dot{width:12px;height:12px;border-radius:50%;flex:none;background:var(--c,var(--muted));box-shadow:inset 0 0 0 1px rgba(0,0,0,.25)}
+  .cat:not([style]) .cat-dot{display:none}
   .ch-t{flex:1;min-width:0}
   .cat h3{font-size:17px;line-height:1.25}
   .ch-p{margin-top:2px;font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
