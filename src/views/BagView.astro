@@ -70,16 +70,20 @@ const jsonLd = [
         </div>
         <div class="hs-card" role="dialog" aria-labelledby="hc-t" hidden>
           <div class="hc-head">
+            <i class="hc-dot" aria-hidden="true"></i>
             <div class="hc-tt">
               <p class="hc-t" id="hc-t"></p>
-              <p class="hc-p"><i class="dot"></i><span></span></p>
+              <p class="hc-p"><span class="hc-n"></span><span class="hc-s"></span></p>
             </div>
-            <span class="hc-n"></span>
             <button class="hc-x" type="button" aria-label="Zamknij">&times;</button>
           </div>
-          <p class="hc-note" hidden></p>
-          <ul class="hc-list"></ul>
-          <a class="hc-more" href="#zawartosc">Zobacz na liście</a>
+          <div class="hc-body">
+            <ul class="hc-list" aria-label="W plecaku"></ul>
+            <p class="hc-empty" hidden>Saszetka jest pusta. Dodaj coś poniżej.</p>
+            <button class="hc-add" type="button" aria-expanded="false" hidden><span class="hc-add-l"></span></button>
+            <ul class="hc-list hc-out" aria-label="Możesz dodać" hidden></ul>
+          </div>
+          <a class="hc-more" href="#zawartosc">Szczegóły i produkty na liście</a>
         </div>
         <div class="fallback">
           <p class="eyebrow">Saszetki w plecaku</p>
@@ -162,9 +166,10 @@ const jsonLd = [
                   <header>
                     <i class="cat-dot" aria-hidden="true"></i>
                     <div class="ch-t">
-                      <h3 id={`kat-${c.id}-h`}>{c.name} <span class="cc" data-cc>{catCount(c.id)}</span></h3>
+                      <h3 id={`kat-${c.id}-h`}>{c.name} <span class="ctop" data-ctop hidden>najdroższa</span></h3>
                       <p class="ch-p">{c.pouch ? pouchName(c) : 'Bez saszetki'}</p>
                     </div>
+                    <p class="csum"><b data-csum></b><span data-cc-l><span class="cc" data-cc>{catCount(c.id)}</span> <span data-cc-w>{rzeczy(catCount(c.id))}</span></span></p>
                     <button class="cat-show" type="button" data-show={c.id} aria-label={`Pokaż ${c.pouch ? pouchName(c).toLowerCase() : 'plecak'} w modelu 3D`}>{c.pouch ? 'Pokaż w 3D' : 'Pokaż plecak'}</button>
                   </header>
                   {c.note && <p class="cat-note">{c.note}</p>}
@@ -229,14 +234,15 @@ const jsonLd = [
               </div>
 
               <div class="psum panel" aria-live="polite">
-                <p class="ps-h"><b data-ps-n>{pouches.length} {saszetek(pouches.length)}</b><span data-ps-sub></span></p>
+                <p class="ps-h"><b>Koszt saszetek</b><span data-ps-sub></span></p>
                 <ul class="ps-list">
                   {pouches.map((c) => (
                     <li data-cat={c.id} title="">
-                      <a href={`#saszetka-${c.id}`}>
-                        <i class="dot" style={`--c:${c.pouch!.hex}`}></i>
+                      <a href={`#saszetka-${c.id}`} style={`--c:${c.pouch!.hex}`}>
+                        <i class="dot"></i>
                         <span class="ps-c">{c.name}</span>
                         <span class="ps-k" data-ps-k></span>
+                        <span class="ps-bar" aria-hidden="true"><i data-ps-bar></i></span>
                       </a>
                       <span class="ps-i" data-ps-i hidden></span>
                     </li>
@@ -352,7 +358,7 @@ const jsonLd = [
 
 <script>
   import {
-    bagCategories, bagItems, bagVersions, levelOrder, levelLoc, rzeczy, saszetek, zl, pouchName, bagModel,
+    bagCategories, bagItems, bagVersions, levelOrder, levelLoc, rzeczy, saszetek, zl, pouchName, bagModel, withoutReplaced,
     type BagLevel, type BagVersionId,
   } from '../data/plecak';
 
@@ -391,10 +397,15 @@ const jsonLd = [
       const k = q.get('kolor');
       if (k && colorById.has(k)) color = k;
     }
-    const inBase = (id: string) => lvl(byId.get(id)!.level) <= lvl(base);
-    const inKit = (id: string) => (inBase(id) && !rem.has(id)) || add.has(id);
+    // Zamienniki: lepsza wersja rzeczy (np. duży powerbank) zastępuje słabszą, w zestawie jest tylko jedna
+    const replacers = new Map<string, string[]>();
+    bagItems.forEach((i) => { if (i.replaces) replacers.set(i.replaces, [...(replacers.get(i.replaces) || []), i.id]); });
+    const inLevel = (id: string) => lvl(byId.get(id)!.level) <= lvl(base);
+    const inBase = (id: string) => inLevel(id) && !(replacers.get(id) || []).some(inLevel);
+    const rawIn = (id: string) => (inBase(id) && !rem.has(id)) || add.has(id);
     const isCustom = () => customFlag || add.size > 0 || rem.size > 0;
-    const kitItems = () => bagItems.filter((i) => inKit(i.id));
+    const kitItems = () => withoutReplaced(bagItems.filter((i) => rawIn(i.id)));
+    const inKit = (id: string) => kitItems().some((i) => i.id === id);
     const verLabel = () => (isCustom() ? `Własny (na bazie ${verById.get(base)!.gen})` : verById.get(base)!.name);
     const priceOf = (id: string): number | null => {
       if (id === 'plecak') return colorById.get(color)?.cena ?? byId.get(id)!.produkt?.cena ?? null;
@@ -445,39 +456,54 @@ const jsonLd = [
     const nS = (n: number) => `${n} ${saszetek(n)}`;
     const zlR = (n: number) => zl(Math.round(n));
 
-    /* ── Karta przy punkcie na modelu ── */
+    /* ── Karta przy punkcie na modelu: rzeczy z tej saszetki, zaznaczasz je od razu tutaj ── */
+    let cardAddOpen = false;
+    const sumOf = (list: { id: string }[]) => list.reduce((t, i) => t + (priceOf(i.id) ?? 0), 0);
+    const cardRow = (id: string, on: boolean) => {
+      const it = byId.get(id)!;
+      const li = document.createElement('li');
+      const lab = document.createElement('label'); lab.className = 'hc-it';
+      const inp = document.createElement('input'); inp.type = 'checkbox'; inp.checked = on; inp.dataset.id = id;
+      inp.setAttribute('aria-label', `W plecaku: ${it.name}`);
+      const ck = document.createElement('span'); ck.className = 'hc-ck'; ck.setAttribute('aria-hidden', 'true');
+      const n = document.createElement('span'); n.className = 'hn'; n.textContent = it.name;
+      lab.append(inp, ck, n);
+      const pr = priceOf(id);
+      const p = document.createElement('span'); p.className = pr == null ? 'hp na' : 'hp'; p.textContent = pr == null ? 'wkrótce' : zl(pr);
+      lab.append(p);
+      li.append(lab);
+      return li;
+    };
     const fillCard = () => {
       if (!picked) return;
       const c = catById.get(picked)!;
-      const items = kitItems().filter((i) => i.cat === picked);
-      $('.hc-t', card).textContent = c.name;
-      const hp = $('.hc-p', card);
-      hp.hidden = !c.pouch;
-      if (c.pouch) { hp.style.setProperty('--c', c.pouch.hex); $('span', hp).textContent = pouchName(c); }
-      $('.hc-n', card).textContent = nR(items.length);
-      const note = $('.hc-note', card);
-      note.hidden = !c.note; note.textContent = c.note || '';
-      const ul = $('.hc-list', card);
-      // Bez przewijania w karcie: na telefonie najwyżej 3 rzeczy, reszta na liście
-      const isOpen = stage.classList.contains('is-open');
-      const max = stage.clientWidth < 560 ? (isOpen ? 2 : 3) : isOpen ? 4 : 6;
-      const more = Math.max(0, items.length - max);
-      ul.replaceChildren(...items.slice(0, max).map((i) => {
-        const li = document.createElement('li');
-        const top = document.createElement('span'); top.className = 'hn';
-        const n = document.createElement('a'); n.href = `#rzecz-${i.id}`; n.textContent = i.name;
-        top.append(n);
-        const pr = priceOf(i.id);
-        if (pr != null) { const p = document.createElement('span'); p.className = 'hp'; p.textContent = zl(pr); top.append(p); }
-        const w = document.createElement('span'); w.className = 'hw';
-        w.textContent = i.outside ? `Na zewnątrz: ${i.outside}. ${i.why}` : i.why;
-        li.append(top, w);
-        return li;
-      }));
+      const kit = kitItems();
+      const inCat = kit.filter((i) => i.cat === picked);
+      const outCat = bagItems.filter((i) => i.cat === picked && !inCat.some((k) => k.id === i.id));
+      card.style.setProperty('--c', c.pouch?.hex || 'var(--muted)');
+      $('.hc-t', card).textContent = c.pouch ? `${c.name}` : 'Plecak';
+      $('.hc-n', card).textContent = c.pouch ? `${pouchName(c)} · ${nR(inCat.length)}` : nR(inCat.length);
+      $('.hc-s', card).textContent = inCat.length ? zlR(sumOf(inCat)) : '';
+      $('.hc-list', card).replaceChildren(...inCat.map((i) => cardRow(i.id, true)));
+      $('.hc-empty', card).hidden = inCat.length > 0;
+      const addBtn = $<HTMLButtonElement>('.hc-add', card), out = $('.hc-out', card);
+      addBtn.hidden = !outCat.length;
+      addBtn.setAttribute('aria-expanded', String(cardAddOpen && outCat.length > 0));
+      $('.hc-add-l', addBtn).textContent = `Możesz dodać (${outCat.length})`;
+      out.hidden = !(cardAddOpen && outCat.length);
+      out.replaceChildren(...outCat.map((i) => cardRow(i.id, false)));
       const link = $<HTMLAnchorElement>('.hc-more', card);
       link.href = c.pouch ? `#saszetka-${picked}` : `#kat-${picked}`;
-      link.textContent = more ? `Jeszcze ${nR(more)}: zobacz całą listę` : 'Zobacz na liście';
     };
+    card.addEventListener('change', (e) => {
+      const inp = e.target as HTMLInputElement;
+      if (!inp.dataset.id) return;
+      const id = inp.dataset.id;
+      toggleItem(id, inp.checked);
+      bag?.select(picked); // karta zmieniła wysokość: przelicz jej miejsce przy punkcie
+      card.querySelector<HTMLInputElement>(`input[data-id="${id}"]`)?.focus({ preventScroll: true });
+    });
+    $('.hc-add', card).addEventListener('click', () => { cardAddOpen = !cardAddOpen; fillCard(); bag?.select(picked); $<HTMLButtonElement>('.hc-add', card).focus(); });
 
     const setOpenUi = (on: boolean) => {
       openBtn.setAttribute('aria-pressed', String(on));
@@ -518,7 +544,7 @@ const jsonLd = [
       $('[data-reset]', bar).textContent = `Przywróć wersję ${verById.get(base)!.name}`;
 
       // Rzeczy: w plecaku albo w grupie „Możesz dodać” swojej saszetki
-      const perCat = new Map<string, number>(), inside = new Map<string, string[]>();
+      const perCat = new Map<string, number>(), inside = new Map<string, string[]>(), costCat = new Map<string, number>();
       rows.forEach((li) => {
         const id = li.dataset.id!, it = byId.get(id)!;
         const on = kitSet.has(id);
@@ -531,14 +557,21 @@ const jsonLd = [
         li.classList.toggle('on', on);
         li.querySelector('input')!.checked = on;
         const note = $('[data-lvl]', li);
+        const swap = (replacers.get(id) || []).find((x) => kitSet.has(x));
         if (on) note.textContent = add.has(id) && !inBase(id) ? `Dodane przez Ciebie, w standardzie w wersji ${levelLoc[it.level]}` : '';
+        else if (swap) note.textContent = `Zastąpione przez: ${byId.get(swap)!.name}`;
+        else if (it.replaces && kitSet.has(it.replaces)) note.textContent = `Lepsza wersja, zastąpi: ${byId.get(it.replaces)!.name}`;
         else note.textContent = inBase(id) ? `W standardzie w tej wersji, usunięte przez Ciebie` : `W standardzie w wersji ${levelLoc[it.level]}`;
         note.hidden = !note.textContent;
         if (on) {
           perCat.set(it.cat, (perCat.get(it.cat) || 0) + 1);
+          costCat.set(it.cat, (costCat.get(it.cat) || 0) + (priceOf(id) ?? 0));
           if (!it.outside && catById.get(it.cat)!.pouch) inside.set(it.cat, [...(inside.get(it.cat) || []), it.name]);
         }
       });
+      // najdroższa saszetka (bez samego plecaka)
+      let topPouch = '', topCost = 0;
+      costCat.forEach((v, k) => { if (catById.get(k)!.pouch && v > topCost) { topCost = v; topPouch = k; } });
       // kolejność jak w danych
       groups.forEach((g) => {
         for (const ul of [$('[data-in]', g), $('[data-out]', g)]) {
@@ -549,6 +582,9 @@ const jsonLd = [
         const n = perCat.get(g.dataset.cat!) || 0;
         const out = $('[data-out]', g).children.length;
         tween($('[data-cc]', g), n, String, animate);
+        $('[data-cc-w]', g).textContent = rzeczy(n);
+        tween($('[data-csum]', g), Math.round(costCat.get(g.dataset.cat!) || 0), (v) => (v ? zl(v) : ''), animate);
+        $('[data-ctop]', g).hidden = g.dataset.cat !== topPouch;
         $('[data-empty]', g).hidden = n > 0;
         const det = $<HTMLDetailsElement>('[data-add]', g);
         det.hidden = out === 0;
@@ -558,15 +594,22 @@ const jsonLd = [
       // Podsumowanie saszetek na górze listy
       const nP = inside.size;
       const nIn = [...inside.values()].reduce((s, a) => s + a.length, 0);
-      $('[data-ps-n]').textContent = `${nS(nP)} w plecaku`;
-      $('[data-ps-sub]').textContent = `, w nich ${nR(nIn)}`;
+      $('[data-ps-sub]').textContent = ` · ${nS(nP)}, ${nR(nIn)}`;
       $$('.ps-list li').forEach((li) => {
         const list = inside.get(li.dataset.cat!) || [];
+        const cost = costCat.get(li.dataset.cat!) || 0;
         li.hidden = !list.length;
-        $('[data-ps-k]', li).textContent = nR(list.length);
+        li.classList.toggle('top', li.dataset.cat === topPouch);
+        $('[data-ps-k]', li).textContent = zlR(cost);
+        $<HTMLElement>('[data-ps-bar]', li).style.width = `${topCost ? Math.max(4, (cost / topCost) * 100) : 0}%`;
         $('[data-ps-i]', li).textContent = list.join(', ');
         li.title = list.join(', ');
       });
+      // lista saszetek od najdroższej
+      const psUl = $('.ps-list');
+      const psLis = [...psUl.children] as HTMLElement[];
+      const psSorted = [...psLis].sort((x, y) => (costCat.get(y.dataset.cat!) || 0) - (costCat.get(x.dataset.cat!) || 0));
+      if (psSorted.some((x, i) => x !== psLis[i])) psUl.append(...psSorted);
       const outs = kit.filter((i) => i.outside);
       const psOut = $('[data-ps-out]');
       psOut.hidden = !outs.length;
@@ -608,12 +651,15 @@ const jsonLd = [
 
       const active = new Set<string>(['plecak']);
       inside.forEach((_v, k) => active.add(k));
+      // otwarta karta trzyma swoją saszetkę na modelu, nawet pustą: można w niej od razu coś dodać
+      if (picked) active.add(picked);
       bag?.setActive(active);
       bag?.setExtras({
         roll: kitSet.has('spiwor') || kitSet.has('tarp'), solar: kitSet.has('solar'), headlamp: kitSet.has('czolowka'),
         bottles: kitSet.has('woda'), batteries: kitSet.has('akumulatory'), tourniquet: kitSet.has('apteczka-pro'),
+        items: [...kitSet],
       });
-      if (picked) { if (active.has(picked) || perCat.get(picked)) fillCard(); else pick(null); }
+      if (picked) fillCard();
     };
 
     const save = () => {
@@ -635,9 +681,18 @@ const jsonLd = [
       else { base = v; add.clear(); rem.clear(); customFlag = false; }
       render(); save();
     };
-    const toggleItem = (id: string, on: boolean) => {
+    const setIn = (id: string, on: boolean) => {
       if (on) { inBase(id) ? rem.delete(id) : add.add(id); }
       else { inBase(id) ? rem.add(id) : add.delete(id); }
+    };
+    const toggleItem = (id: string, on: boolean) => {
+      setIn(id, on);
+      if (on) {
+        // zamiennik wypiera słabszą wersję i odwrotnie
+        const r = byId.get(id)!.replaces;
+        if (r && rawIn(r)) setIn(r, false);
+        (replacers.get(id) || []).forEach((x) => { if (rawIn(x)) setIn(x, false); });
+      }
       render(); save();
     };
 
@@ -922,7 +977,12 @@ const jsonLd = [
   .ch-t{flex:1;min-width:0}
   .cat h3{font-size:17px;line-height:1.25}
   .ch-p{margin-top:2px;font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
-  .cc{font-family:var(--mono);font-size:12px;font-weight:500;color:var(--signal);margin-left:4px}
+  .cc{font-variant-numeric:tabular-nums}
+  /* podsumowanie saszetki w nagłówku: koszt i liczba rzeczy */
+  .csum{display:flex;flex-direction:column;align-items:flex-end;gap:1px;margin:0 4px 0 auto;text-align:right;white-space:nowrap}
+  .csum b{font-family:var(--mono);font-size:15px;font-weight:700;font-variant-numeric:tabular-nums;color:var(--ink)}
+  .csum > span{font-family:var(--mono);font-size:11px;color:var(--muted)}
+  .ctop{display:inline-block;vertical-align:3px;margin-left:6px;font-family:var(--mono);font-size:10px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--signal);border:1px solid currentColor;border-radius:4px;padding:1px 5px}
   .cat-note{padding:10px 16px 0;font-family:var(--body);font-weight:var(--body-w);font-size:13px;line-height:1.45;color:var(--muted)}
   .cat ul{list-style:none;margin:0;padding:0}
   .empty{padding:12px 16px;font-family:var(--body);font-weight:var(--body-w);font-size:14px;color:var(--muted)}
@@ -990,10 +1050,14 @@ const jsonLd = [
   .ps-h span{color:var(--muted);font-family:var(--body);font-weight:var(--body-w)}
   .ps-list{list-style:none;margin:8px 0 0;padding:0}
   .ps-list li{border-top:1px solid var(--line)}
-  .ps-list a{display:flex;align-items:center;gap:9px;min-height:36px;text-decoration:none;color:var(--ink)}
+  .ps-list a{display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;column-gap:9px;padding:8px 0 7px;text-decoration:none;color:var(--ink)}
+  .ps-bar{grid-column:2 / -1;height:4px;margin-top:5px;border-radius:2px;background:color-mix(in srgb,var(--line) 70%,transparent);overflow:hidden}
+  .ps-bar i{display:block;height:100%;border-radius:2px;background:var(--c);transition:width .4s ease}
+  .ps-list li.top .ps-k{color:var(--signal)}
+  .ps-list .dot{background:var(--c)}
   .ps-list a:hover .ps-c{text-decoration:underline}
   .ps-c{font-size:14px;font-weight:600}
-  .ps-k{margin-left:auto;font-family:var(--mono);font-size:11.5px;color:var(--signal);white-space:nowrap}
+  .ps-k{font-family:var(--mono);font-size:12.5px;font-weight:600;font-variant-numeric:tabular-nums;color:var(--ink);white-space:nowrap}
   .ps-out{margin-top:8px;padding-top:8px;border-top:1px solid var(--line);font-family:var(--body);font-weight:var(--body-w);font-size:13px;line-height:1.5;color:var(--ink-2)}
   .more{margin-top:22px;font-family:var(--body);font-weight:var(--body-w);font-size:15px;line-height:1.6;color:var(--ink-2);max-width:80ch}
   .more a{color:var(--action)}
@@ -1052,25 +1116,41 @@ const jsonLd = [
   .hs.sel.c span{border-color:var(--signal);color:var(--signal)}
   .hs b.bump,.cc.bump,.hcount.bump,.sb-c.bump,[data-t-items].bump,[data-t-pouches].bump,[data-t-sum].bump{animation:bump .42s ease}
   @keyframes bump{40%{color:var(--signal-bright)}}
-  .hs-card{position:absolute;left:0;top:0;z-index:5;width:min(310px,calc(100% - 16px));overflow:hidden;background:var(--surface);border:1px solid var(--ink);border-radius:8px;box-shadow:0 10px 30px rgba(18,22,25,.16);opacity:0;visibility:hidden;transition:opacity .2s,visibility .2s}
+  .hs-card{position:absolute;left:0;top:0;z-index:5;width:min(320px,calc(100% - 16px));display:flex;flex-direction:column;max-height:calc(100% - 16px);overflow:hidden;background:var(--surface);border:1px solid var(--line);border-top:3px solid var(--c,var(--ink));border-radius:10px;box-shadow:0 14px 36px rgba(18,22,25,.22);opacity:0;visibility:hidden;transition:opacity .2s,visibility .2s}
   .hs-card.on{opacity:1;visibility:visible}
-  .hc-head{display:flex;align-items:flex-start;gap:8px;padding:10px 8px 8px 14px;border-bottom:1px solid var(--line);background:var(--surface)}
+  .hc-head{display:flex;align-items:center;gap:10px;padding:12px 8px 10px 14px;border-bottom:1px solid var(--line)}
+  .hc-dot{width:12px;height:12px;border-radius:50%;flex:none;background:var(--c,var(--muted));box-shadow:inset 0 0 0 1px rgba(0,0,0,.25)}
   .hc-tt{min-width:0;flex:1}
-  .hc-t{font-weight:750;font-size:15px;font-stretch:88%;line-height:1.2}
-  .hc-p{display:flex;align-items:center;gap:6px;margin-top:3px;font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
-  .hc-n{font-family:var(--mono);font-size:11px;color:var(--signal);white-space:nowrap;margin-top:3px}
-  .hc-x{margin-left:auto;border:0;background:none;color:var(--muted);font-size:20px;line-height:1;padding:0 6px;cursor:pointer}
-  .hc-x:hover{color:var(--ink)}
-  .hc-note{padding:8px 14px 0;font-family:var(--body);font-weight:var(--body-w);font-size:12px;line-height:1.4;color:var(--muted)}
+  .hc-t{font-weight:750;font-size:16px;font-stretch:88%;line-height:1.2}
+  .hc-p{display:flex;flex-wrap:wrap;gap:4px 10px;margin-top:2px;font-family:var(--mono);font-size:11px;color:var(--muted)}
+  .hc-s{color:var(--ink);font-weight:600;font-variant-numeric:tabular-nums}
+  .hc-x{flex:none;display:grid;place-items:center;width:36px;height:36px;border:0;border-radius:8px;background:none;color:var(--muted);font-size:22px;line-height:1;cursor:pointer}
+  .hc-x:hover{color:var(--ink);background:var(--surface-2)}
+  .hc-x:focus-visible{outline:2px solid var(--action);outline-offset:-2px}
+  .hc-body{overflow:auto;overscroll-behavior:contain;min-height:0}
   .hc-list{list-style:none;margin:0;padding:4px 0}
-  .hc-list :global(li){padding:7px 14px}
-  .hc-list :global(li + li){border-top:1px solid color-mix(in srgb,var(--line) 70%,transparent)}
-  .hc-list :global(.hn){display:flex;align-items:baseline;gap:8px;font-weight:650;font-size:13.5px;line-height:1.3}
-  .hc-list :global(.hn a){color:var(--ink);text-decoration:none}
-  .hc-list :global(.hn a:hover){text-decoration:underline}
-  .hc-list :global(.hp){margin-left:auto;font-family:var(--mono);font-size:11.5px;font-weight:600;white-space:nowrap}
-  .hc-list :global(.hw){display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-family:var(--body);font-weight:var(--body-w);font-size:12.5px;line-height:1.4;color:var(--ink-2);margin-top:2px}
-  .hc-more{display:block;padding:8px 14px 11px;border-top:1px solid var(--line);font-weight:700;font-size:13px;color:var(--action);text-decoration:none}
+  .hc-list :global(.hc-it){display:flex;align-items:center;gap:10px;min-height:40px;padding:4px 14px;cursor:pointer;position:relative}
+  .hc-list :global(.hc-it:hover){background:color-mix(in srgb,var(--surface-2) 60%,transparent)}
+  .hc-list :global(.hc-it input){position:absolute;opacity:0;width:1px;height:1px}
+  .hc-list :global(.hc-ck){flex:none;display:grid;place-items:center;width:20px;height:20px;border:2px solid color-mix(in srgb,var(--ink) 40%,transparent);border-radius:5px;background:var(--bg)}
+  .hc-list :global(.hc-ck::after){content:"";width:5px;height:9px;margin-top:-2px;border:solid var(--bg);border-width:0 2px 2px 0;transform:rotate(45deg) scale(0)}
+  .hc-list :global(.hc-it input:checked + .hc-ck){background:var(--olive);border-color:var(--olive)}
+  .hc-list :global(.hc-it input:checked + .hc-ck::after){transform:rotate(45deg) scale(1)}
+  .hc-list :global(.hc-it input:focus-visible + .hc-ck){outline:2px solid var(--action);outline-offset:2px}
+  .hc-list :global(.hn){flex:1;min-width:0;font-weight:600;font-size:14px;line-height:1.3;color:var(--ink)}
+  .hc-list :global(.hp){font-family:var(--mono);font-size:12px;font-weight:600;font-variant-numeric:tabular-nums;white-space:nowrap;color:var(--ink)}
+  .hc-list :global(.hp.na){font-weight:400;color:var(--muted)}
+  .hc-out{padding-top:0;background:color-mix(in srgb,var(--surface-2) 40%,transparent)}
+  .hc-out :global(.hn){color:var(--ink-2);font-weight:500}
+  .hc-out :global(.hc-ck){border-style:dashed}
+  .hc-empty{padding:12px 14px 6px;font-family:var(--body);font-weight:var(--body-w);font-size:13px;color:var(--muted)}
+  .hc-add{display:flex;align-items:center;gap:8px;width:100%;min-height:40px;padding:0 14px;border:0;border-top:1px solid var(--line);background:none;color:var(--ink-2);font-weight:700;font-size:13px;text-align:left;cursor:pointer}
+  .hc-add::before{content:"+";display:inline-grid;place-items:center;width:20px;height:20px;border:1px dashed color-mix(in srgb,var(--ink) 40%,transparent);border-radius:5px;font-size:14px;color:var(--ink)}
+  .hc-add[aria-expanded="true"]::before{content:"−";border-style:solid}
+  .hc-add:hover{color:var(--ink)}
+  .hc-add:focus-visible{outline:2px solid var(--action);outline-offset:-2px}
+  .hc-more{display:block;padding:10px 14px;border-top:1px solid var(--line);font-weight:700;font-size:13px;color:var(--action);text-decoration:none}
+  .hc-more::after{content:" →"}
   .hc-more:hover{text-decoration:underline}
 
   /* ── Pasek „Co już mamy w plecaku testowym” ── */
@@ -1139,9 +1219,7 @@ const jsonLd = [
   @media (max-width:560px){
     .hint-2{display:none}
     .hs-card.dock{left:8px;right:8px;top:auto;bottom:8px;width:auto;transform:none}
-    .hs-card.dock .hc-list :global(.hw){-webkit-line-clamp:1}
-    .hs-card.dock .hc-list :global(li){padding:6px 14px}
-    .hs-card.dock .hc-note{display:none}
+    .hs-card.dock{max-height:58%}
     .row2{grid-template-columns:1fr}
     .hs span{font-size:10px;padding:4px 6px}
     .stage.is-open .hs.c span{font-size:9.5px;padding:3px 5px;top:-28px}
