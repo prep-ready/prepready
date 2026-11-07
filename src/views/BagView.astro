@@ -120,7 +120,7 @@ const jsonLd = [
         </div>
 
         <div class="cta-row">
-          <a class="btn primary" href="#zgloszenie">Zapytaj o plecak</a>
+          <a class="btn primary" href="#zgloszenie">Zamów plecak</a>
           <a class="btn ghost" href="#zawartosc">Lista rzeczy</a>
         </div>
       </div>
@@ -229,7 +229,8 @@ const jsonLd = [
                   <p><b data-t-pouches>{pouches.length}</b> <span data-t-pouches-l>{saszetek(pouches.length)}</span></p>
                 </div>
                 <p class="t-l">Szacunkowo <b data-t-sum>{zl(basicPrice)}</b><span class="t-miss" data-t-miss></span></p>
-                <a class="btn primary t-btn" href="#zgloszenie">Zapytaj o ten zestaw</a>
+                <a class="btn primary t-btn" href="#zgloszenie">Zamów ten zestaw</a>
+                <p class="t-time">Kompletowanie do 10 dni. Zamówienia hurtowe wyceniamy indywidualnie.</p>
                 <p class="t-note">{cenyDate ? `Ceny przykładowych produktów z dnia ${cenyDate}, mogą się zmienić. Dokładną wycenę wyślemy mailem.` : 'Ceny przykładowych produktów właśnie uzupełniamy i mogą się zmienić. Dokładną wycenę wyślemy mailem.'}</p>
               </div>
 
@@ -324,41 +325,100 @@ const jsonLd = [
     <section class="block" aria-labelledby="form-h">
       <div class="wrap fgrid">
         <div class="prose">
-          <h2 id="form-h">Zapytaj o plecak</h2>
-          <p>Kompletujemy teraz pierwsze plecaki. Wybierz wersję albo ułóż własną listę, zostaw imię i e-mail, a odpiszemy z wyceną i informacją o dostępności.</p>
-          <p class="lead-time">Ze względu na dużą liczbę zgłoszeń skompletowanie plecaka może potrwać do 10 dni. Potrzebujesz kilku sztuk albo zamówienia hurtowego? Napisz o tym w uwagach: cenę ustalimy indywidualnie, a termin dopasujemy do wielkości zamówienia.</p>
-          <p>Zgłoszenie do niczego nie zobowiązuje. Twoje dane służą tylko do odpowiedzi na nie.</p>
+          <h2 id="form-h">Zamów plecak</h2>
+          <p>Wybierz wersję albo ułóż własną listę, podaj ilość i dane kontaktowe. Odpiszemy mailem z dokładną wyceną, kosztem wysyłki i terminem.</p>
+          <ol class="steps">
+            <li><b>Wysyłasz zamówienie</b><span>z tej strony, bez zakładania konta</span></li>
+            <li><b>Dostajesz wycenę mailem</b><span>cena zestawu, wysyłka i termin</span></li>
+            <li><b>Kompletujemy i wysyłamy</b><span>po akceptacji wyceny, do 10 dni</span></li>
+          </ol>
+          <div class="info-box">
+            <p><b>Czas kompletowania: do 10 dni.</b> Mamy teraz dużo zamówień, każdy plecak składamy i sprawdzamy ręcznie.</p>
+            <p><b>Zamówienia hurtowe</b> (kilka sztuk i więcej, dla firm, szkół, gmin): prosimy o zapytanie indywidualne. Cenę ustalimy indywidualnie, a termin dopasujemy do wielkości zamówienia. Wpisz ilość w formularzu i opisz potrzeby w uwagach.</p>
+          </div>
+          <p class="fine">Wysłanie formularza do niczego nie zobowiązuje, wiążąca jest dopiero zaakceptowana wycena. Twoje dane służą tylko do realizacji zamówienia.</p>
         </div>
-        <form class="pform panel" id="zgloszenie" method="post" action="/contact.php" novalidate
-          data-ok="Dziękujemy! Zgłoszenie dotarło. Odpiszemy na podany e-mail z wyceną i informacją o dostępności plecaka."
-          data-err="Nie udało się wysłać. Sprawdź pola i spróbuj ponownie za chwilę."
+        <form class="pform panel" id="zgloszenie" method="post" action="/contact.php" novalidate aria-labelledby="form-h"
           data-sending="Wysyłanie…">
           <input type="hidden" name="lang" value="pl" />
           <input type="hidden" name="t" value="" />
           <input type="hidden" name="company" value="" />
           <input type="hidden" name="category" value="" />
           <input type="hidden" name="message" value="" />
+          <input type="hidden" name="kind" value="order" />
           <div class="hp" aria-hidden="true"><label for="bg-website">Website</label><input id="bg-website" name="website_url" tabindex="-1" autocomplete="off" /></div>
-          <label class="f"><span>Wersja plecaka</span>
-            <select id="bg-version" name="version">
-              {bagVersions.map((v) => <option value={v.id}>{v.name}</option>)}
-            </select>
-          </label>
-          <div class="sel-box" aria-live="polite">
-            <p class="sel-sum"></p>
-            <ul class="sel-items"></ul>
-            <p class="sel-total"></p>
-            <p class="sel-edit">Listę zmienisz wyżej, w sekcji <a href="#zawartosc">W plecaku</a>.</p>
+
+          <div class="err-sum" role="alert" tabindex="-1" hidden>
+            <p class="es-t">Popraw zaznaczone pola:</p>
+            <ul></ul>
           </div>
-          <div class="row2">
-            <label class="f"><span>Imię</span><input name="name" required autocomplete="given-name" /></label>
-            <label class="f"><span>E-mail</span><input name="email" type="email" required autocomplete="email" inputmode="email" /></label>
-          </div>
-          <label class="f"><span>Uwagi (opcjonalnie)</span><textarea id="bg-note" rows="4" placeholder="Np. ile plecaków, dla kogo (dziecko, senior), czego potrzebujesz więcej."></textarea></label>
-          <label class="check"><input type="checkbox" name="consent" value="1" required /><span>Zgadzam się na kontakt w sprawie plecaka. Dane służą tylko do odpowiedzi na to zgłoszenie.</span></label>
+
+          <fieldset class="fs">
+            <legend>1. Twój zestaw</legend>
+            <label class="f"><span>Wersja plecaka</span>
+              <select id="bg-version" name="version">
+                {bagVersions.map((v) => <option value={v.id}>{v.name}</option>)}
+              </select>
+            </label>
+            <div class="sel-box" aria-live="polite">
+              <p class="sel-sum"></p>
+              <details class="sel-det">
+                <summary><span class="sel-det-l">Pokaż listę rzeczy</span></summary>
+                <ul class="sel-items"></ul>
+              </details>
+              <p class="sel-total"></p>
+              <p class="sel-edit">Listę zmienisz wyżej, w sekcji <a href="#zawartosc">W plecaku</a>.</p>
+            </div>
+            <div class="qty-row">
+              <label class="f qty" for="bg-qty"><span>Ilość plecaków</span></label>
+              <div class="stepper">
+                <button type="button" class="st-b" data-step="-1" aria-label="Mniej plecaków">−</button>
+                <input id="bg-qty" name="qty" type="number" inputmode="numeric" min="1" max="999" value="1" aria-describedby="qty-h" />
+                <button type="button" class="st-b" data-step="1" aria-label="Więcej plecaków">+</button>
+              </div>
+              <p class="help" id="qty-h" data-qty-h>Przy większej liczbie sztuk cenę i termin ustalimy indywidualnie.</p>
+            </div>
+          </fieldset>
+
+          <fieldset class="fs">
+            <legend>2. Kontakt</legend>
+            <div class="row2">
+              <label class="f" for="bg-name"><span>Imię <i class="req" aria-hidden="true">*</i></span>
+                <input id="bg-name" name="name" required autocomplete="name" aria-describedby="bg-name-e" />
+                <span class="ferr" id="bg-name-e" hidden></span>
+              </label>
+              <label class="f" for="bg-email"><span>E-mail <i class="req" aria-hidden="true">*</i></span>
+                <input id="bg-email" name="email" type="email" required autocomplete="email" inputmode="email" aria-describedby="bg-email-e" />
+                <span class="ferr" id="bg-email-e" hidden></span>
+              </label>
+            </div>
+            <div class="row2">
+              <label class="f" for="bg-phone"><span>Telefon <em>(opcjonalnie)</em></span>
+                <input id="bg-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" />
+              </label>
+              <label class="f" for="bg-city"><span>Miasto i kod pocztowy <em>(do wyceny wysyłki)</em></span>
+                <input id="bg-city" name="city" autocomplete="address-level2" />
+              </label>
+            </div>
+            <label class="f" for="bg-note"><span>Uwagi <em>(opcjonalnie)</em></span>
+              <textarea id="bg-note" rows="3" placeholder="Np. dla kogo (dziecko, senior), rozmiar, czego potrzebujesz więcej."></textarea>
+            </label>
+          </fieldset>
+
+          <label class="check" for="bg-consent"><input id="bg-consent" type="checkbox" name="consent" value="1" required aria-describedby="bg-consent-e" /><span>Zgadzam się na kontakt w sprawie zamówienia. Dane służą tylko do jego realizacji. <i class="req" aria-hidden="true">*</i></span></label>
+          <span class="ferr" id="bg-consent-e" hidden></span>
+
           <div class="actions">
-            <button class="btn primary" type="submit">Wyślij zgłoszenie</button>
-            <p class="status" role="status" aria-live="polite"></p>
+            <button class="btn primary big" type="submit">Wyślij zamówienie</button>
+            <p class="req-note"><i class="req" aria-hidden="true">*</i> pole wymagane</p>
+          </div>
+          <p class="status" role="status" aria-live="polite"></p>
+
+          <div class="done" tabindex="-1" hidden>
+            <p class="done-t">Zamówienie dotarło</p>
+            <p class="done-s"></p>
+            <p>Odpiszemy na <b class="done-mail"></b> z wyceną, kosztem wysyłki i terminem. Sprawdź też folder spam.</p>
+            <p class="done-time">Kompletowanie trwa do 10 dni od akceptacji wyceny.</p>
           </div>
         </form>
       </div>
@@ -366,7 +426,7 @@ const jsonLd = [
 
     <div class="sbar" data-sbar>
       <p class="sb-t"><span class="sb-v" data-sb-v>Podstawowy</span><span class="sb-c" data-sb-c>{basic.length} {rzeczy(basic.length)}</span></p>
-      <a class="btn primary" href="#zgloszenie">Zapytaj o plecak</a>
+      <a class="btn primary" href="#zgloszenie">Zamów plecak</a>
     </div>
   </div>
 </Base>
@@ -661,7 +721,9 @@ const jsonLd = [
         li.append(n, p);
         return li;
       }));
-      $('.sel-total', selBox).textContent = kit.length ? `Szacunkowo: ${zlR(sum)}${miss ? ` + ${nR(miss)} z ceną wkrótce` : ''}` : '';
+      const nQ = Math.max(1, Math.round(Number(($('#bg-qty', form) as HTMLInputElement).value) || 1));
+      $('.sel-total', selBox).textContent = kit.length ? `Szacunkowo: ${zlR(sum)}${nQ > 1 ? ` × ${nQ} szt. = ${zlR(sum * nQ)}` : ''}${miss ? ` + ${nR(miss)} z ceną wkrótce` : ''}` : '';
+      $('.sel-det-l', selBox).textContent = `Pokaż listę rzeczy (${kit.length})`;
       if (animate && !reduce) { selBox.classList.remove('flash'); void selBox.offsetWidth; selBox.classList.add('flash'); }
 
       const active = new Set<string>(['plecak']);
@@ -845,16 +907,68 @@ const jsonLd = [
     addEventListener('scroll', () => { if (!sbQueued) { sbQueued = true; requestAnimationFrame(updateBar); } }, { passive: true });
     addEventListener('resize', updateBar);
 
-    // Formularz: ten sam mechanizm co „Dla producentów” (/contact.php)
+    // Formularz zamówienia: wysyła przez /contact.php (ten sam mechanizm co „Dla producentów”)
     (form.elements.namedItem('t') as HTMLInputElement).value = String(Date.now());
     const status = $('.status', form);
     const btn = $<HTMLButtonElement>('button[type=submit]', form);
+    const qty = $<HTMLInputElement>('#bg-qty', form);
+    const errSum = $('.err-sum', form);
+    const qtyVal = () => Math.max(1, Math.min(999, Math.round(Number(qty.value) || 1)));
+    const BULK = 5;
+    const updQty = () => {
+      const n = qtyVal();
+      $('[data-qty-h]', form).textContent = n >= BULK
+        ? 'Zamówienie hurtowe: cenę i termin ustalimy indywidualnie, opisz potrzeby w uwagach.'
+        : 'Przy większej liczbie sztuk cenę i termin ustalimy indywidualnie.';
+      $('[data-qty-h]', form).classList.toggle('bulk', n >= BULK);
+      render();
+    };
+    $$<HTMLButtonElement>('.st-b', form).forEach((b) => b.addEventListener('click', () => { qty.value = String(Math.max(1, Math.min(999, qtyVal() + Number(b.dataset.step)))); updQty(); }));
+    qty.addEventListener('change', () => { qty.value = String(qtyVal()); updQty(); });
+
+    // Walidacja: komunikat pod polem po wyjściu z pola, podsumowanie błędów na górze po próbie wysłania
+    const fields: [HTMLInputElement, () => string][] = [
+      [$<HTMLInputElement>('#bg-name', form), () => ($<HTMLInputElement>('#bg-name', form).value.trim() ? '' : 'Wpisz imię, żebyśmy wiedzieli, jak się do Ciebie zwracać.')],
+      [$<HTMLInputElement>('#bg-email', form), () => {
+        const v = $<HTMLInputElement>('#bg-email', form).value.trim();
+        return !v ? 'Wpisz e-mail: na niego wyślemy wycenę.' : /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v) ? '' : 'Ten e-mail wygląda na niepełny. Sprawdź, czy ma @ i domenę, np. jan@poczta.pl.';
+      }],
+      [$<HTMLInputElement>('#bg-consent', form), () => ($<HTMLInputElement>('#bg-consent', form).checked ? '' : 'Zaznacz zgodę na kontakt, bez niej nie odpiszemy z wyceną.')],
+    ];
+    const errEl = (inp: HTMLInputElement) => document.getElementById(inp.getAttribute('aria-describedby')!.split(' ')[0])!;
+    const check = (inp: HTMLInputElement, msg: string) => {
+      const e = errEl(inp);
+      e.textContent = msg; e.hidden = !msg;
+      inp.setAttribute('aria-invalid', String(!!msg));
+      inp.closest('.f, .check')?.classList.toggle('bad', !!msg);
+      return !msg;
+    };
+    fields.forEach(([inp, fn]) => {
+      inp.addEventListener(inp.type === 'checkbox' ? 'change' : 'blur', () => { if (inp.value || inp.type === 'checkbox' || inp.getAttribute('aria-invalid') === 'true') check(inp, fn()); });
+      inp.addEventListener('input', () => { if (inp.getAttribute('aria-invalid') === 'true') check(inp, fn()); });
+    });
+
     form.addEventListener('submit', async (e) => {
       e.preventDefault();
-      if (!form.checkValidity()) { form.reportValidity(); return; }
+      status.textContent = ''; status.className = 'status';
+      const bad = fields.map(([inp, fn]) => [inp, fn()] as const).filter(([inp, msg]) => !check(inp, msg));
       const kit = kitItems();
-      if (!kit.length) { status.textContent = 'Dodaj co najmniej jedną rzecz na liście albo wybierz gotową wersję.'; status.className = 'status err'; return; }
+      if (!kit.length) bad.push([null as any, 'Lista rzeczy jest pusta. Wybierz wersję albo dodaj rzeczy w sekcji „W plecaku”.']);
+      if (bad.length) {
+        $('ul', errSum).replaceChildren(...bad.map(([inp, msg]) => {
+          const li = document.createElement('li');
+          if (inp) { const a = document.createElement('a'); a.href = `#${inp.id}`; a.textContent = msg; a.addEventListener('click', (ev) => { ev.preventDefault(); inp.focus(); }); li.append(a); }
+          else li.textContent = msg;
+          return li;
+        }));
+        errSum.hidden = false; errSum.focus();
+        return;
+      }
+      errSum.hidden = true;
       const note = ($('#bg-note', form) as HTMLTextAreaElement).value.trim();
+      const phone = $<HTMLInputElement>('#bg-phone', form).value.trim();
+      const city = $<HTMLInputElement>('#bg-city', form).value.trim();
+      const n = qtyVal();
       const name = verLabel();
       const c = colorById.get(color)!;
       let sum = 0, miss = 0;
@@ -865,32 +979,49 @@ const jsonLd = [
         return `- ${i.name}${prod ? ` (${prod})` : ''}: ${p == null ? 'cena wkrótce' : zl(p)}`;
       });
       const set = (k: string, v: string) => ((form.elements.namedItem(k) as HTMLInputElement).value = v);
-      set('company', `Plecak ewakuacyjny · ${name}`);
+      set('company', `Zamówienie plecaka · ${name} × ${n}${n >= BULK ? ' (hurt)' : ''}`);
       set('category', `Plecak: ${name}`);
       set('message', [
-        `Zgłoszenie ze strony plecaka ewakuacyjnego.`,
+        `ZAMÓWIENIE ze strony plecaka ewakuacyjnego${n >= BULK ? ' · HURTOWE, wycena indywidualna' : ''}.`,
         `Wersja: ${name} (${nR(kit.length)})`,
         `Kolor plecaka: ${c.name}`,
+        `Ilość: ${n} szt.`,
+        `Telefon: ${phone || 'nie podano'}`,
+        `Miasto / kod: ${city || 'nie podano'}`,
         `Link do zestawu: ${location.href.split('#')[0]}`,
         '',
         ...lines,
         '',
-        `Szacunkowo: ${zl(Math.round(sum))}${miss ? ` + ${nR(miss)} bez ceny` : ''}`,
+        `Szacunkowo za 1 szt.: ${zl(Math.round(sum))}${miss ? ` + ${nR(miss)} bez ceny` : ''}`,
+        n > 1 ? `Szacunkowo za ${n} szt.: ${zl(Math.round(sum * n))}` : '',
         '',
         `Uwagi: ${note || 'brak'}`,
-      ].join('\n').replace(/ /g, ' '));
+      ].filter((l, i, a) => l !== '' || a[i - 1] !== '').join('\n').replace(/ /g, ' '));
       const label = btn.textContent;
-      btn.disabled = true; btn.textContent = form.dataset.sending!;
-      status.className = 'status';
+      btn.disabled = true; btn.setAttribute('aria-busy', 'true'); btn.textContent = form.dataset.sending!;
       try {
-        const r = await fetch(form.action, { method: 'POST', body: new FormData(form) });
+        const ctrl = new AbortController();
+        const to = window.setTimeout(() => ctrl.abort(), 20000);
+        const r = await fetch(form.action, { method: 'POST', body: new FormData(form), signal: ctrl.signal });
+        clearTimeout(to);
         const j = await r.json().catch(() => ({ ok: false }));
-        if (!j.ok) throw new Error();
-        $$('.row2, .f, .check, .sel-box, .actions button', form).forEach((el) => (el.hidden = true));
-        status.textContent = form.dataset.ok!; status.classList.add('ok');
-      } catch {
-        status.textContent = form.dataset.err!; status.classList.add('err');
-        btn.disabled = false; btn.textContent = label;
+        if (!j.ok) throw new Error(j.error || 'send');
+        $$('fieldset, .check, .actions, #bg-consent-e', form).forEach((el) => (el.hidden = true));
+        const done = $('.done', form);
+        $('.done-s', done).textContent = `${name}, ${n} szt. · kolor ${c.name} · szacunkowo ${zlR(sum * n)}${miss ? '+' : ''}`;
+        $('.done-mail', done).textContent = $<HTMLInputElement>('#bg-email', form).value.trim();
+        done.hidden = false;
+        form.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' });
+        done.focus({ preventScroll: true });
+      } catch (err) {
+        const code = (err as Error).message;
+        status.textContent = code === 'rate'
+          ? 'Wysłano już kilka zgłoszeń z tego urządzenia. Spróbuj ponownie za godzinę albo napisz do nas na Telegramie.'
+          : code === 'fields'
+            ? 'Brakuje danych w formularzu. Sprawdź imię, e-mail i zgodę, potem wyślij ponownie.'
+            : 'Nie udało się wysłać zamówienia. Twoje dane są nadal w formularzu: spróbuj ponownie za chwilę.';
+        status.className = 'status err';
+        btn.disabled = false; btn.removeAttribute('aria-busy'); btn.textContent = label;
       }
     });
 
@@ -953,7 +1084,7 @@ const jsonLd = [
   .vc{font-family:var(--mono);font-size:12px;color:var(--muted);align-self:center}
   .vd{grid-column:1 / -1;font-family:var(--body);font-weight:var(--body-w);font-size:13.5px;line-height:1.45;color:var(--muted)}
   .ver[aria-pressed="true"] .vc,.ver[aria-pressed="true"] .vd{color:color-mix(in srgb,var(--bg) 72%,transparent)}
-  .ver[aria-pressed="true"] .vc{color:var(--signal-bright)}
+  .ver[aria-pressed="true"] .vc{color:color-mix(in srgb,var(--bg) 85%,transparent)}
   .ver-desc{display:none}
   .cta-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
 
@@ -1028,7 +1159,7 @@ const jsonLd = [
   .prod .pu::after{content:" ↗";font-size:.85em;margin-left:2px}
   .prod .pu:hover{text-decoration:underline}
   .prod .ph{font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--signal);border:1px solid currentColor;border-radius:4px;padding:0 5px;white-space:nowrap}
-  .slot{margin-left:auto;font-size:12px;color:var(--muted);white-space:nowrap}
+  .slot{display:inline-flex;align-items:center;min-height:28px;margin-left:auto;font-size:12.5px;color:var(--muted);white-space:nowrap}
   .slot:hover{color:var(--ink)}
 
   /* „Możesz dodać”: zwinięte, rzeczy przygaszone, dopóki ich nie zaznaczysz */
@@ -1109,7 +1240,54 @@ const jsonLd = [
   .fgrid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:48px;align-items:start;padding-bottom:24px}
   .fgrid .prose :global(h2:first-child){margin-top:0}
   .fgrid .prose h2{font-size:clamp(24px,3vw,32px);font-weight:800}
-  .lead-time{color:var(--ink)}
+  /* ── Zamówienie: kroki, ramka z czasem kompletowania, pola, błędy, potwierdzenie ── */
+  .steps{list-style:none;counter-reset:st;margin:18px 0 0;padding:0;display:grid;gap:12px}
+  .steps li{counter-increment:st;display:grid;grid-template-columns:32px minmax(0,1fr);column-gap:12px;align-items:start}
+  .steps li::before{content:counter(st);grid-row:span 2;display:grid;place-items:center;width:32px;height:32px;border-radius:50%;border:1px solid var(--line);background:var(--surface);font-family:var(--mono);font-size:13px;font-weight:600;color:var(--ink)}
+  .steps b{font-size:15px;line-height:1.3}
+  .steps span{font-family:var(--body);font-weight:var(--body-w);font-size:14px;line-height:1.45;color:var(--muted)}
+  .info-box{margin-top:20px;padding:16px 18px;border:1px solid var(--line);border-radius:var(--radius);background:var(--surface)}
+  .info-box p{font-family:var(--body);font-weight:var(--body-w);font-size:14.5px;line-height:1.55;color:var(--ink-2);margin:0}
+  .info-box p + p{margin-top:10px;padding-top:10px;border-top:1px solid var(--line)}
+  .info-box b{font-family:var(--display);font-weight:700;color:var(--ink)}
+  .fine{font-size:13.5px;color:var(--muted)}
+  .fs{border:0;margin:0;padding:0;display:flex;flex-direction:column;gap:14px;min-width:0}
+  .fs + .fs{padding-top:18px;border-top:1px solid var(--line)}
+  .fs legend{padding:0;margin-bottom:12px;font-family:var(--mono);font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-2)}
+  .f em{font-style:normal;font-weight:400;color:var(--muted)}
+  .req{font-style:normal;color:var(--signal);font-weight:700}
+  .req-note{font-family:var(--body);font-size:12.5px;color:var(--muted)}
+  .f input,.f select{min-height:46px}
+  .f.bad input{border-color:var(--l5);box-shadow:0 0 0 1px var(--l5)}
+  .check.bad span{color:var(--l5)}
+  .ferr{display:block;font-family:var(--body);font-size:13px;font-weight:500;line-height:1.4;color:var(--l5)}
+  .err-sum{padding:12px 14px;border:1px solid var(--l5);border-radius:8px;background:color-mix(in srgb,var(--l5) 8%,var(--surface))}
+  .err-sum:focus{outline:2px solid var(--l5);outline-offset:2px}
+  .es-t{font-weight:700;font-size:14px;color:var(--ink)}
+  .err-sum ul{margin:6px 0 0;padding-left:18px;font-size:14px;line-height:1.5}
+  .err-sum a{color:var(--l5)}
+  .qty-row{display:grid;grid-template-columns:auto 1fr;align-items:center;gap:6px 14px}
+  .qty-row .help{grid-column:1 / -1}
+  .stepper{display:inline-flex;align-items:stretch;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:var(--bg);justify-self:start}
+  .st-b{width:46px;min-height:46px;border:0;background:var(--surface);color:var(--ink);font-size:20px;font-weight:600;cursor:pointer}
+  .st-b:hover{background:var(--surface-2)}
+  .st-b:focus-visible{outline:2px solid var(--action);outline-offset:-2px}
+  .stepper input{width:64px;border:0;border-inline:1px solid var(--line);background:var(--bg);color:var(--ink);text-align:center;font-family:var(--mono);font-size:16px;font-weight:600;-moz-appearance:textfield}
+  .stepper input::-webkit-inner-spin-button,.stepper input::-webkit-outer-spin-button{-webkit-appearance:none;margin:0}
+  .stepper input:focus{outline:2px solid var(--action);outline-offset:-2px}
+  .help{font-family:var(--body);font-weight:var(--body-w);font-size:13px;line-height:1.45;color:var(--muted);margin:0}
+  .help.bulk{color:var(--ink);font-weight:600}
+  .sel-det summary{cursor:pointer;display:inline-flex;align-items:center;min-height:32px;font-size:13.5px;font-weight:700;color:var(--action)}
+  .sel-det summary:focus-visible{outline:2px solid var(--action);outline-offset:2px}
+  .btn.big{min-height:50px;padding:12px 22px;font-size:16px}
+  .done{padding:20px;border:1px solid var(--line);border-radius:var(--radius);background:color-mix(in srgb,var(--l1) 8%,var(--surface))}
+  .done:focus{outline:2px solid var(--l1);outline-offset:2px}
+  .done-t{font-family:var(--display);font-weight:800;font-size:22px;color:var(--ink)}
+  .done-t::before{content:"✓";display:inline-grid;place-items:center;width:28px;height:28px;margin-right:10px;border-radius:50%;background:var(--l1);color:#fff;font-size:15px;vertical-align:3px}
+  .done p{font-family:var(--body);font-size:15px;line-height:1.55;color:var(--ink-2);margin:8px 0 0}
+  .done-s{font-family:var(--mono)!important;font-size:13px!important;color:var(--ink)!important}
+  .done-time{font-weight:600;color:var(--ink)!important}
+  .t-time{font-family:var(--body);font-weight:var(--body-w);font-size:12.5px;line-height:1.45;color:var(--ink-2)}
   .pform{padding:24px;display:flex;flex-direction:column;gap:14px;scroll-margin-top:90px}
   .row2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
   .f{display:flex;flex-direction:column;gap:6px;font-size:13px;font-weight:600;color:var(--ink-2)}
@@ -1172,7 +1350,7 @@ const jsonLd = [
   .kit{display:flex;flex-wrap:wrap;align-items:center;gap:10px 18px;padding-block:18px 26px}
   .kit-list{display:flex;flex-wrap:wrap;gap:8px;list-style:none;margin:0;padding:0}
   .kit-chip{display:inline-flex;align-items:baseline;gap:8px;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:6px 14px;font-size:13.5px;font-weight:600;cursor:pointer;text-align:left}
-  .kit-chip b{font-family:var(--mono);font-size:10.5px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--signal)}
+  .kit-chip b{font-family:var(--mono);font-size:10.5px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:color-mix(in srgb,var(--signal) 80%,var(--ink))}
   .kit-chip:hover,.kit-chip[aria-pressed="true"]{border-color:var(--ink)}
   .kit-note{font-family:var(--body);font-weight:var(--body-w);font-size:13px;color:var(--muted)}
 
@@ -1194,7 +1372,7 @@ const jsonLd = [
   /* ── Podsumowanie w formularzu ── */
   .sel-box{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:10px 0;margin-top:-4px}
   .sel-box .sel-sum{margin:0;font-family:var(--mono);font-size:12px;letter-spacing:.04em;color:var(--ink)}
-  .sel-items{list-style:none;margin:8px 0 0;padding:0 6px 0 0;max-height:220px;overflow:auto;font-family:var(--body);font-weight:var(--body-w);font-size:13px;line-height:1.4;color:var(--ink-2)}
+  .sel-items{list-style:none;margin:8px 0 0;padding:0;font-family:var(--body);font-weight:var(--body-w);font-size:13px;line-height:1.4;color:var(--ink-2)}
   .sel-items :global(li){display:flex;justify-content:space-between;gap:12px;padding:3px 0;border-bottom:1px dotted var(--line)}
   .sel-items :global(li span:last-child){font-family:var(--mono);font-size:12px;white-space:nowrap;color:var(--ink)}
   .sel-items :global(li span.na){color:var(--muted)}
@@ -1244,7 +1422,11 @@ const jsonLd = [
     .it{padding:14px 14px 6px}
     .prod{padding:0 14px 14px 52px}
     .slot{margin-left:0}
-    .cat header{flex-wrap:wrap}
+    /* nagłówek saszetki na telefonie: kropka | nazwa | koszt, przycisk 3D pod nazwą */
+    .cat header{display:grid;grid-template-columns:auto minmax(0,1fr) auto;column-gap:10px;row-gap:6px}
+    .cat header .csum{margin:0;grid-column:3;grid-row:1}
+    .cat header .cat-show{grid-column:2;grid-row:2;justify-self:start}
+    .qty-row{grid-template-columns:1fr}
     .specs div{grid-template-columns:110px minmax(0,1fr)}
     .a-cols{grid-template-columns:1fr}
     .open-btn{right:10px;bottom:10px;padding:8px 12px 8px 10px;font-size:13px}
