@@ -134,11 +134,16 @@ const jsonLd = [
 
     <section class="block" id="zawartosc" aria-labelledby="list-h">
       <div class="wrap">
-        <div class="sec-head">
+        <div class="sec-head l-head">
           <div>
             <p class="eyebrow">Zawartość</p>
             <h2 id="list-h">W plecaku: <span data-vname>Podstawowy</span> <span class="hcount" data-total>{basic.length} {rzeczy(basic.length)}</span></h2>
-            <p class="lead">To lista tego, co jest w wybranej wersji. Odznacz, czego nie potrzebujesz, albo dodaj rzeczy z grup „Możesz dodać”.</p>
+            <p class="lead">Zaznacz, co ma być w plecaku. Wybierz gotową wersję albo dopasuj ją: odznacz zbędne rzeczy, a dodatkowe znajdziesz pod każdą saszetką.</p>
+          </div>
+          <div class="seg" role="group" aria-label="Wersja plecaka">
+            {bagVersions.map((v, i) => (
+              <button class="seg-b" type="button" data-ver={v.id} aria-pressed={i === 0 ? 'true' : 'false'}>{v.id === 'custom' ? 'Własny' : v.name}</button>
+            ))}
           </div>
         </div>
 
@@ -148,92 +153,99 @@ const jsonLd = [
           <button class="chip" type="button" data-clear>Wyczyść wszystko</button>
         </div>
 
-        <div class="psum panel" aria-live="polite">
-          <p class="ps-h"><b data-ps-n>{pouches.length} {saszetek(pouches.length)}</b><span data-ps-sub></span></p>
-          <ul class="ps-list">
-            {pouches.map((c) => (
-              <li data-cat={c.id}>
-                <a href={`#saszetka-${c.id}`}>
-                  <i class="dot" style={`--c:${c.pouch!.hex}`}></i>
-                  <span class="ps-n">{c.pouch!.colorName}</span>
-                  <span class="ps-c">{c.name}</span>
-                  <span class="ps-k" data-ps-k></span>
-                </a>
-                <span class="ps-i" data-ps-i></span>
-              </li>
-            ))}
-          </ul>
-          <p class="ps-out" data-ps-out></p>
-        </div>
-
-        <div class="cats" data-mode="basic">
-          {bagCategories.map((c) => {
-            const items = bagItems.filter((i) => i.cat === c.id);
-            return (
-              <section class="cat" id={c.pouch ? `saszetka-${c.id}` : `kat-${c.id}`} data-cat={c.id} aria-labelledby={`kat-${c.id}-h`} style={c.pouch ? `--c:${c.pouch.hex}` : undefined}>
-                <header>
-                  <div class="ch-t">
-                    <p class="ch-p">{c.pouch ? <Fragment><i class="dot" title={c.note}></i>{pouchName(c)}</Fragment> : 'Bez saszetki'}</p>
-                    <h3 id={`kat-${c.id}-h`}>{c.name} <span class="cc" data-cc>{catCount(c.id)}</span></h3>
-                  </div>
-                  <button class="cat-show" type="button" data-show={c.id} aria-label={`Pokaż ${c.pouch ? pouchName(c).toLowerCase() : 'plecak'} w modelu 3D`}><i aria-hidden="true"></i>{c.pouch ? 'Pokaż w plecaku' : 'Pokaż plecak'}</button>
-                </header>
-                {c.note && <p class="cat-note">{c.note}</p>}
-                <ul class="in-list" data-in></ul>
-                <p class="empty" data-empty hidden>Ta saszetka jest pusta. Dodaj coś poniżej albo zostaw ją w domu.</p>
-                <details class="can-add" data-add>
-                  <summary><span data-add-l>Możesz dodać</span></summary>
-                  <ul class="out-list" data-out>
-                    {items.map((i) => {
-                      const p = i.produkt;
-                      return (
-                        <li id={`rzecz-${i.id}`} data-id={i.id} data-level={i.level} data-cat={i.cat}>
-                          <div class="it-top">
-                            <span class="in">{i.name}</span>
-                            <label class="tgl"><input type="checkbox" value={i.id} /><span class="sw-t" aria-hidden="true"></span><span class="tgl-l">W plecaku</span></label>
-                            <button class="add" type="button" aria-label={`Dodaj: ${i.name}`}>+ Dodaj</button>
-                          </div>
-                          <p class="iw">{i.why}</p>
-                          <p class="lvl" data-lvl></p>
-                          <p class="where">
-                            {i.outside
-                              ? <Fragment><i class="dot out" style={c.pouch ? `--c:${c.pouch.hex}` : undefined}></i>Na zewnątrz: {i.outside}</Fragment>
-                              : c.pouch ? <Fragment><i class="dot"></i>{pouchName(c)}</Fragment> : <Fragment>Wisport, w plecaku testowym</Fragment>}
-                          </p>
-                          <p class="prod" data-prod>
-                            {p ? (
-                              <Fragment>
-                                <span class="pl">Przykład:</span> <span class="pn">{!p.nazwa.toLowerCase().includes(p.marka.split(/[ /(]/)[0].toLowerCase()) && <Fragment><b data-pm>{p.marka}</b> </Fragment>}<span data-pn>{p.nazwa}</span></span>
-                                <span class="pp" data-pp>{p.cena != null ? zl(p.cena) : 'cena wkrótce'}</span>
-                                {p.uwaga && <span class="ph">{p.uwaga}</span>}
-                                {p.url && <a class="pu" data-pu href={p.url} rel="sponsored noopener" target="_blank">Zobacz produkt<span class="sr-only"> (nowa karta)</span></a>}
-                                {p.dodatkowe?.map((u, k) => <a class="pu" href={u} rel="sponsored noopener" target="_blank">{p.dodatkowe!.length > 1 ? `część ${k + 2}` : 'druga część'}<span class="sr-only"> (nowa karta)</span></a>)}
-                              </Fragment>
-                            ) : (
-                              <Fragment><span class="pl">Przykładowy produkt i cena:</span> <span class="pp">wkrótce</span></Fragment>
-                            )}
-                          </p>
-                          {!p?.partner && <p class="slot">Miejsce dla producenta: <a href={REKLAMA}>zostań partnerem</a></p>}
-                        </li>
-                      );
-                    })}
-                  </ul>
-                </details>
-              </section>
-            );
-          })}
-        </div>
-
-        <div class="total panel" aria-live="polite">
-          <div class="t-stats">
-            <p><b data-t-items>{basic.length}</b> <span data-t-items-l>{rzeczy(basic.length)}</span></p>
-            <p><b data-t-pouches>{pouches.length}</b> <span data-t-pouches-l>{saszetek(pouches.length)}</span></p>
+        <div class="cfg">
+          <div class="cats" data-mode="basic">
+            {bagCategories.map((c) => {
+              const items = bagItems.filter((i) => i.cat === c.id);
+              return (
+                <section class="cat" id={c.pouch ? `saszetka-${c.id}` : `kat-${c.id}`} data-cat={c.id} aria-labelledby={`kat-${c.id}-h`} style={c.pouch ? `--c:${c.pouch.hex}` : undefined}>
+                  <header>
+                    <i class="cat-dot" aria-hidden="true"></i>
+                    <div class="ch-t">
+                      <h3 id={`kat-${c.id}-h`}>{c.name} <span class="cc" data-cc>{catCount(c.id)}</span></h3>
+                      <p class="ch-p">{c.pouch ? pouchName(c) : 'Bez saszetki'}</p>
+                    </div>
+                    <button class="cat-show" type="button" data-show={c.id} aria-label={`Pokaż ${c.pouch ? pouchName(c).toLowerCase() : 'plecak'} w modelu 3D`}>{c.pouch ? 'Pokaż w 3D' : 'Pokaż plecak'}</button>
+                  </header>
+                  {c.note && <p class="cat-note">{c.note}</p>}
+                  <ul class="in-list" data-in></ul>
+                  <p class="empty" data-empty hidden>Ta saszetka jest pusta. Dodaj coś poniżej albo zostaw ją w domu.</p>
+                  <details class="can-add" data-add>
+                    <summary><span data-add-l>Możesz dodać</span></summary>
+                    <ul class="out-list" data-out>
+                      {items.map((i) => {
+                        const p = i.produkt;
+                        const showBrand = p && !p.nazwa.toLowerCase().includes(p.marka.split(/[ /(]/)[0].toLowerCase());
+                        return (
+                          <li id={`rzecz-${i.id}`} data-id={i.id} data-level={i.level} data-cat={i.cat}>
+                            <label class="it">
+                              <input type="checkbox" value={i.id} aria-label={`W plecaku: ${i.name}`} />
+                              <span class="ck" aria-hidden="true"></span>
+                              <span class="it-b">
+                                <span class="it-h">
+                                  <span class="in">{i.name}</span>
+                                  <span class={`ip${p?.cena == null ? ' na' : ''}`} data-pp>{p?.cena != null ? zl(p.cena) : 'cena wkrótce'}</span>
+                                </span>
+                                <span class="iw">{i.why}</span>
+                                <span class="lvl" data-lvl></span>
+                                {i.outside && <span class="where"><i class="dot out"></i>Na zewnątrz: {i.outside}</span>}
+                              </span>
+                            </label>
+                            <p class="prod" data-prod>
+                              {p ? (
+                                <Fragment>
+                                  <span class="pn">{showBrand && <Fragment><b data-pm>{p.marka}</b> </Fragment>}<span data-pn>{p.nazwa}</span></span>
+                                  {p.uwaga && <span class="ph">{p.uwaga}</span>}
+                                  {p.url && <a class="pu" data-pu href={p.url} rel="sponsored noopener" target="_blank">Zobacz<span class="sr-only"> produkt: {p.nazwa} (nowa karta)</span></a>}
+                                  {p.dodatkowe?.map((u, k) => <a class="pu" href={u} rel="sponsored noopener" target="_blank">{p.dodatkowe!.length > 1 ? `część ${k + 2}` : 'druga część'}<span class="sr-only"> (nowa karta)</span></a>)}
+                                </Fragment>
+                              ) : (
+                                <span class="pn na">Przykładowy produkt wkrótce</span>
+                              )}
+                              {!p?.partner && <a class="slot" href={REKLAMA}>Miejsce dla producenta</a>}
+                            </p>
+                          </li>
+                        );
+                      })}
+                    </ul>
+                  </details>
+                </section>
+              );
+            })}
           </div>
-          <div class="t-cost">
-            <p class="t-l">Szacunkowy koszt zestawu: <b data-t-sum>{zl(basicPrice)}</b><span class="t-miss" data-t-miss></span></p>
-            <p class="t-note">{cenyDate ? `Ceny przykładowych produktów z dnia ${cenyDate}, mogą się zmienić. Dokładną wycenę wyślemy mailem.` : 'Ceny przykładowych produktów właśnie uzupełniamy i mogą się zmienić. Dokładną wycenę wyślemy mailem.'}</p>
-          </div>
-          <a class="btn primary" href="#zgloszenie">Zapytaj o ten zestaw</a>
+
+          <aside class="side" aria-label="Podsumowanie zestawu">
+            <div class="side-in">
+              <div class="total panel" aria-live="polite">
+                <p class="eyebrow">Twój zestaw</p>
+                <p class="t-v" data-t-v>Podstawowy</p>
+                <div class="t-stats">
+                  <p><b data-t-items>{basic.length}</b> <span data-t-items-l>{rzeczy(basic.length)}</span></p>
+                  <p><b data-t-pouches>{pouches.length}</b> <span data-t-pouches-l>{saszetek(pouches.length)}</span></p>
+                </div>
+                <p class="t-l">Szacunkowo <b data-t-sum>{zl(basicPrice)}</b><span class="t-miss" data-t-miss></span></p>
+                <a class="btn primary t-btn" href="#zgloszenie">Zapytaj o ten zestaw</a>
+                <p class="t-note">{cenyDate ? `Ceny przykładowych produktów z dnia ${cenyDate}, mogą się zmienić. Dokładną wycenę wyślemy mailem.` : 'Ceny przykładowych produktów właśnie uzupełniamy i mogą się zmienić. Dokładną wycenę wyślemy mailem.'}</p>
+              </div>
+
+              <div class="psum panel" aria-live="polite">
+                <p class="ps-h"><b data-ps-n>{pouches.length} {saszetek(pouches.length)}</b><span data-ps-sub></span></p>
+                <ul class="ps-list">
+                  {pouches.map((c) => (
+                    <li data-cat={c.id} title="">
+                      <a href={`#saszetka-${c.id}`}>
+                        <i class="dot" style={`--c:${c.pouch!.hex}`}></i>
+                        <span class="ps-c">{c.name}</span>
+                        <span class="ps-k" data-ps-k></span>
+                      </a>
+                      <span class="ps-i" data-ps-i hidden></span>
+                    </li>
+                  ))}
+                </ul>
+                <p class="ps-out" data-ps-out></p>
+              </div>
+            </div>
+          </aside>
         </div>
 
         <p class="more">Pakujesz się sam? Odhaczaj rzeczy w <a href={routes.checklist.pl}>checkliście plecaka 72h</a> i przeczytaj, <a href={`${guideBase.pl}plecak-ewakuacyjny/`}>co spakować do plecaka ewakuacyjnego</a>. Gotowe zestawy dostępne w sklepach porównujemy w zestawieniu <a href={`${guideBase.pl}gotowy-plecak-ewakuacyjny/`}>gotowych plecaków ewakuacyjnych</a>.</p>
@@ -392,7 +404,7 @@ const jsonLd = [
     const $ = <T extends HTMLElement = HTMLElement>(s: string, el: ParentNode = root) => el.querySelector<T>(s)!;
     const $$ = <T extends HTMLElement = HTMLElement>(s: string, el: ParentNode = root) => [...el.querySelectorAll<T>(s)];
     const stage = $('#bag-stage');
-    const verBtns = $$<HTMLButtonElement>('.ver');
+    const verBtns = $$<HTMLButtonElement>('[data-ver]');
     const verDesc = $('.ver-desc');
     const cats = $('.cats');
     const rows = $$<HTMLLIElement>('.cats li[data-id]');
@@ -553,6 +565,7 @@ const jsonLd = [
         li.hidden = !list.length;
         $('[data-ps-k]', li).textContent = nR(list.length);
         $('[data-ps-i]', li).textContent = list.join(', ');
+        li.title = list.join(', ');
       });
       const outs = kit.filter((i) => i.outside);
       const psOut = $('[data-ps-out]');
@@ -575,6 +588,7 @@ const jsonLd = [
       tween($('[data-t-sum]'), Math.round(sum), zlR, animate);
       $('[data-t-miss]').textContent = miss ? ` + ${nR(miss)} z ceną wkrótce` : '';
       $('[data-sb-v]', sbar).textContent = label;
+      $('[data-t-v]').textContent = label;
       $('[data-sb-c]', sbar).textContent = `${nR(kit.length)} · ok. ${zlR(sum)}${miss ? '+' : ''}`;
 
       // Podsumowanie w formularzu, aktualizowane na żywo
@@ -630,10 +644,12 @@ const jsonLd = [
     verBtns.forEach((b) => b.addEventListener('click', () => setVersion(b.dataset.ver as BagVersionId)));
     sel.addEventListener('change', () => setVersion(sel.value as BagVersionId));
     rows.forEach((li) => {
-      li.querySelector('input')!.addEventListener('change', (e) => toggleItem(li.dataset.id!, (e.target as HTMLInputElement).checked));
-      $('.add', li).addEventListener('click', () => {
-        toggleItem(li.dataset.id!, true);
-        li.classList.add('hl'); window.setTimeout(() => li.classList.remove('hl'), 1600);
+      li.querySelector('input')!.addEventListener('change', (e) => {
+        const on = (e.target as HTMLInputElement).checked;
+        toggleItem(li.dataset.id!, on);
+        if (on) { li.classList.add('hl'); window.setTimeout(() => li.classList.remove('hl'), 1600); }
+        // fokus zostaje na przełączniku, także gdy rzecz przeskoczy do listy „W plecaku” lub „Możesz dodać”
+        li.querySelector('input')!.focus({ preventScroll: true });
       });
     });
     $('[data-reset]', bar).addEventListener('click', () => setVersion(base));
@@ -880,93 +896,105 @@ const jsonLd = [
   .sw[aria-checked="true"]{outline:2px solid var(--ink);outline-offset:2px}
   .col-note{margin-top:8px;font-family:var(--mono);font-size:11.5px;color:var(--muted);min-height:1.5em}
 
-  /* ── Lista ── */
+  /* ── Lista: konfigurator (lista saszetek + przyklejone podsumowanie) ── */
   .hcount{font-family:var(--mono);font-size:13px;font-weight:400;letter-spacing:0;color:var(--muted);vertical-align:middle;margin-left:6px;white-space:nowrap}
+  .l-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:16px 32px}
+  .l-head .lead{max-width:60ch}
+  /* przełącznik wersji przy liście: nie trzeba wracać na górę strony */
+  .seg{display:inline-flex;flex-wrap:wrap;gap:4px;padding:4px;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+  .seg-b{min-height:40px;padding:0 14px;border:0;border-radius:7px;background:none;color:var(--ink-2);font-weight:700;font-size:14px;cursor:pointer;transition:background .15s,color .15s}
+  .seg-b:hover{color:var(--ink);background:var(--surface-2)}
+  .seg-b[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+  .seg-b:focus-visible{outline:2px solid var(--action);outline-offset:2px}
   .custom-bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:0 0 18px}
   .custom-bar[hidden]{display:none}
   .cb-label{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-2);margin-right:6px}
 
-  .psum{padding:16px 18px;margin-bottom:18px}
-  .ps-h{font-size:15px}
-  .ps-h b{font-weight:750}
-  .ps-h span{color:var(--muted);font-family:var(--body);font-weight:var(--body-w)}
-  .ps-list{list-style:none;margin:10px 0 0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 28px}
-  .ps-list li{padding:8px 0;border-top:1px solid var(--line);min-width:0}
-  .ps-list a{display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink)}
-  .ps-list a:hover .ps-c{text-decoration:underline}
-  .ps-n{font-weight:700;font-size:14px}
-  .ps-c{font-size:14px;color:var(--ink-2)}
-  .ps-k{margin-left:auto;font-family:var(--mono);font-size:11.5px;color:var(--signal);white-space:nowrap}
-  .ps-i{display:block;margin:2px 0 0 18px;font-family:var(--body);font-weight:var(--body-w);font-size:13px;line-height:1.45;color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-  .ps-out{margin-top:10px;padding-top:10px;border-top:1px solid var(--line);font-family:var(--body);font-weight:var(--body-w);font-size:13.5px;line-height:1.5;color:var(--ink-2)}
+  .cfg{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:28px;align-items:start;margin-top:22px}
+  .cats{display:flex;flex-direction:column;gap:14px;min-width:0}
 
-  .cats{columns:3 320px;column-gap:16px}
-  .cat{break-inside:avoid;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);margin:0 0 16px;scroll-margin-top:90px;transition:border-color .4s}
-  .cat header{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;padding:12px 16px 10px;border-bottom:1px solid var(--line);flex-wrap:wrap}
-  .ch-p{display:flex;align-items:center;gap:7px;font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
-  .cat h3{font-size:17px;margin-top:3px}
+  /* saszetka */
+  .cat{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);scroll-margin-top:90px;transition:border-color .4s,box-shadow .4s;overflow:hidden}
+  .cat header{display:flex;align-items:center;gap:12px;padding:12px 16px;border-bottom:1px solid var(--line)}
+  .cat-dot{width:14px;height:14px;border-radius:4px;flex:none;background:var(--c,var(--muted));box-shadow:inset 0 0 0 1px rgba(0,0,0,.25)}
+  .cat:not([style]) .cat-dot{background:none;box-shadow:inset 0 0 0 2px var(--muted)}
+  .ch-t{flex:1;min-width:0}
+  .cat h3{font-size:17px;line-height:1.25}
+  .ch-p{margin-top:2px;font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
   .cc{font-family:var(--mono);font-size:12px;font-weight:500;color:var(--signal);margin-left:4px}
-  .cat-note{padding:8px 16px 0;font-family:var(--body);font-weight:var(--body-w);font-size:12.5px;line-height:1.45;color:var(--muted)}
+  .cat-note{padding:10px 16px 0;font-family:var(--body);font-weight:var(--body-w);font-size:13px;line-height:1.45;color:var(--muted)}
   .cat ul{list-style:none;margin:0;padding:0}
-  .in-list li{padding:12px 16px;border-bottom:1px solid var(--line)}
-  .in-list li:last-child{border-bottom:0}
-  .empty{padding:12px 16px;font-family:var(--body);font-weight:var(--body-w);font-size:13.5px;color:var(--muted)}
-  .cat li{scroll-margin-top:100px}
-  .it-top{display:flex;align-items:flex-start;gap:10px}
-  .in{flex:1;min-width:0;font-weight:650;font-size:15px;line-height:1.35}
-  .iw{font-family:var(--body);font-weight:var(--body-w);font-size:14px;line-height:1.5;color:var(--ink-2);margin-top:3px}
-  .lvl{margin-top:5px;font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--olive)}
-  .where{display:flex;align-items:center;gap:7px;margin-top:7px;font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
-  .prod{display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 10px;margin-top:7px;font-size:13px;line-height:1.4;color:var(--ink-2)}
-  .prod .pl{color:var(--muted);font-family:var(--body);font-weight:var(--body-w)}
+  .empty{padding:12px 16px;font-family:var(--body);font-weight:var(--body-w);font-size:14px;color:var(--muted)}
+  .cat li{scroll-margin-top:100px;border-top:1px solid var(--line)}
+  .in-list li:first-child{border-top:0}
+
+  /* rzecz: cały wiersz to jeden duży przełącznik (pole ≥ 44 px), linki do produktu osobno pod spodem */
+  .it{display:flex;gap:14px;align-items:flex-start;padding:14px 16px 6px;cursor:pointer;position:relative}
+  .it input{position:absolute;opacity:0;width:1px;height:1px}
+  .ck{flex:none;display:grid;place-items:center;width:24px;height:24px;margin-top:1px;border:2px solid color-mix(in srgb,var(--ink) 40%,transparent);border-radius:6px;background:var(--bg);transition:background .15s,border-color .15s}
+  .ck::after{content:"";width:6px;height:11px;margin-top:-3px;border:solid var(--bg);border-width:0 2.5px 2.5px 0;transform:rotate(45deg) scale(0);transition:transform .15s}
+  .it:hover .ck{border-color:var(--ink)}
+  .it input:checked + .ck{background:var(--olive);border-color:var(--olive)}
+  .it input:checked + .ck::after{transform:rotate(45deg) scale(1)}
+  .it input:focus-visible + .ck{outline:2px solid var(--action);outline-offset:3px}
+  .it-b{flex:1;min-width:0;display:flex;flex-direction:column;gap:3px}
+  .it-h{display:flex;align-items:baseline;gap:12px}
+  .in{flex:1;min-width:0;font-weight:650;font-size:15.5px;line-height:1.35;color:var(--ink)}
+  .ip{font-family:var(--mono);font-variant-numeric:tabular-nums;font-size:13.5px;font-weight:600;color:var(--ink);white-space:nowrap}
+  .ip.na{font-weight:400;font-size:12px;color:var(--muted)}
+  .iw{font-family:var(--body);font-weight:var(--body-w);font-size:14px;line-height:1.5;color:var(--ink-2)}
+  .lvl{font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--olive)}
+  .where{display:flex;align-items:center;gap:7px;font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+  .prod{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 12px;margin:0;padding:0 16px 14px 54px;font-size:13px;line-height:1.45;color:var(--muted)}
   .prod .pn{font-family:var(--body);font-weight:var(--body-w)}
-  .prod .pn b{font-family:var(--display);font-weight:700;color:var(--ink)}
-  .prod .pp{font-family:var(--mono);font-size:12.5px;font-weight:600;color:var(--ink);white-space:nowrap}
-  .prod .pu{font-weight:700;color:var(--action);text-decoration:none;white-space:nowrap}
-  .prod .pu::after{content:" ↗";font-size:.85em}
+  .prod .pn b{font-family:var(--display);font-weight:700;color:var(--ink-2)}
+  .prod .pu{display:inline-flex;align-items:center;min-height:24px;font-weight:700;color:var(--action);text-decoration:none;white-space:nowrap}
+  .prod .pu::after{content:" ↗";font-size:.85em;margin-left:2px}
   .prod .pu:hover{text-decoration:underline}
   .prod .ph{font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--signal);border:1px solid currentColor;border-radius:4px;padding:0 5px;white-space:nowrap}
-  .slot{margin-top:5px;font-family:var(--body);font-weight:var(--body-w);font-size:12px;color:var(--muted)}
-  .slot a{color:var(--muted)}
-  .slot a:hover{color:var(--ink)}
+  .slot{margin-left:auto;font-size:12px;color:var(--muted);white-space:nowrap}
+  .slot:hover{color:var(--ink)}
 
-  /* przełącznik „W plecaku” i przycisk „+ Dodaj” */
-  .tgl{display:inline-flex;align-items:center;gap:7px;flex:none;cursor:pointer;font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-2);margin-top:2px;white-space:nowrap}
-  .tgl input{position:absolute;opacity:0;width:1px;height:1px}
-  .sw-t{position:relative;width:28px;height:16px;border-radius:999px;background:var(--line);transition:background .2s}
-  .sw-t::after{content:"";position:absolute;left:2px;top:2px;width:12px;height:12px;border-radius:50%;background:var(--surface);box-shadow:0 1px 2px rgba(0,0,0,.25);transition:transform .2s}
-  .tgl input:checked + .sw-t{background:var(--olive)}
-  .tgl input:checked + .sw-t::after{transform:translateX(12px)}
-  .tgl input:focus-visible + .sw-t{outline:2px solid var(--action);outline-offset:2px}
-  .add{display:none;flex:none;border:1px solid var(--ink);background:var(--surface);color:var(--ink);border-radius:6px;padding:4px 10px;font-weight:700;font-size:12.5px;white-space:nowrap}
-  .add:hover{background:var(--ink);color:var(--bg)}
-  .out-list .tgl{display:none}
-  .out-list .add{display:inline-block}
-
+  /* „Możesz dodać”: zwinięte, rzeczy przygaszone, dopóki ich nie zaznaczysz */
   .can-add{border-top:1px solid var(--line)}
-  .can-add summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:8px;padding:10px 16px;font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-2)}
+  .can-add summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:10px;min-height:46px;padding:0 16px;font-weight:700;font-size:14px;color:var(--ink-2)}
   .can-add summary::-webkit-details-marker{display:none}
-  .can-add summary::before{content:"+";display:inline-grid;place-items:center;width:16px;height:16px;border:1px solid var(--line);border-radius:4px;font-size:12px;line-height:1;color:var(--ink)}
-  .can-add[open] summary::before{content:"−"}
-  .can-add summary:hover{color:var(--ink)}
+  .can-add summary::before{content:"+";display:inline-grid;place-items:center;width:24px;height:24px;border:1px dashed color-mix(in srgb,var(--ink) 40%,transparent);border-radius:6px;font-size:15px;line-height:1;color:var(--ink)}
+  .can-add[open] summary::before{content:"−";border-style:solid}
+  .can-add summary:hover{color:var(--ink);background:color-mix(in srgb,var(--surface-2) 50%,transparent)}
+  .can-add summary:focus-visible{outline:2px solid var(--action);outline-offset:-2px}
   .out-list{background:color-mix(in srgb,var(--surface-2) 45%,var(--surface))}
-  .out-list li{padding:11px 16px;border-top:1px solid var(--line)}
-  .out-list .in{font-weight:600;color:var(--ink-2)}
+  .out-list .ck{border-style:dashed}
+  .out-list .in{color:var(--ink-2)}
   .out-list .iw{font-size:13.5px}
 
   .cat.sel{border-color:var(--signal);box-shadow:0 0 0 1px var(--signal)}
-  .cat li.hl,.cat li.target{background:color-mix(in srgb,var(--signal-bright) 10%,transparent);box-shadow:inset 0 0 0 1px var(--signal)}
+  .cat li.hl,.cat li.target{background:color-mix(in srgb,var(--signal-bright) 10%,transparent);box-shadow:inset 3px 0 0 var(--signal)}
 
-  /* ── Suma ── */
-  .total{display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;gap:16px 28px;padding:18px 20px;margin:4px 0 22px}
+  /* podsumowanie: przyklejone obok listy, zawsze widać sumę i przycisk */
+  .side-in{position:sticky;top:84px;display:flex;flex-direction:column;gap:14px;max-height:calc(100vh - 100px);overflow:auto;overscroll-behavior:contain}
+  .total{padding:18px 20px;display:flex;flex-direction:column;gap:10px}
+  .t-v{font-weight:780;font-size:20px;font-stretch:88%;line-height:1.2}
   .t-stats{display:flex;gap:22px}
   .t-stats p{font-family:var(--mono);font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
-  .t-stats b{display:block;font-family:var(--display);font-size:26px;font-weight:780;font-stretch:88%;color:var(--ink);letter-spacing:0;text-transform:none;line-height:1.1}
-  .t-l{font-size:16px;font-weight:650}
-  .t-l b{font-weight:800;font-size:20px;white-space:nowrap}
-  .t-miss{font-family:var(--mono);font-size:12px;font-weight:400;color:var(--muted)}
-  .t-note{margin-top:3px;font-family:var(--body);font-weight:var(--body-w);font-size:13px;line-height:1.45;color:var(--muted)}
-  .more{margin-top:8px;font-family:var(--body);font-weight:var(--body-w);font-size:15px;line-height:1.6;color:var(--ink-2);max-width:80ch}
+  .t-stats b{display:block;font-family:var(--display);font-size:26px;font-weight:780;font-stretch:88%;color:var(--ink);letter-spacing:0;text-transform:none;line-height:1.1;font-variant-numeric:tabular-nums}
+  .t-l{font-size:15px;font-weight:650;padding-top:10px;border-top:1px solid var(--line)}
+  .t-l b{display:block;font-weight:800;font-size:26px;font-variant-numeric:tabular-nums;white-space:nowrap}
+  .t-miss{display:block;font-family:var(--mono);font-size:12px;font-weight:400;color:var(--muted)}
+  .t-btn{justify-content:center;width:100%}
+  .t-note{font-family:var(--body);font-weight:var(--body-w);font-size:12.5px;line-height:1.45;color:var(--muted)}
+  .psum{padding:14px 16px}
+  .ps-h{font-size:14px}
+  .ps-h b{font-weight:750}
+  .ps-h span{color:var(--muted);font-family:var(--body);font-weight:var(--body-w)}
+  .ps-list{list-style:none;margin:8px 0 0;padding:0}
+  .ps-list li{border-top:1px solid var(--line)}
+  .ps-list a{display:flex;align-items:center;gap:9px;min-height:36px;text-decoration:none;color:var(--ink)}
+  .ps-list a:hover .ps-c{text-decoration:underline}
+  .ps-c{font-size:14px;font-weight:600}
+  .ps-k{margin-left:auto;font-family:var(--mono);font-size:11.5px;color:var(--signal);white-space:nowrap}
+  .ps-out{margin-top:8px;padding-top:8px;border-top:1px solid var(--line);font-family:var(--body);font-weight:var(--body-w);font-size:13px;line-height:1.5;color:var(--ink-2)}
+  .more{margin-top:22px;font-family:var(--body);font-weight:var(--body-w);font-size:15px;line-height:1.6;color:var(--ink-2);max-width:80ch}
   .more a{color:var(--action)}
 
   /* ── O plecaku ── */
@@ -1103,8 +1131,9 @@ const jsonLd = [
     .notes{grid-template-columns:1fr;gap:20px}
     .fgrid{grid-template-columns:1fr;gap:20px}
     .a-grid{grid-template-columns:1fr;gap:24px}
-    .total{grid-template-columns:1fr}
-    .total .btn{justify-self:start}
+    .cfg{grid-template-columns:minmax(0,1fr)}
+    .side-in{position:static;max-height:none;overflow:visible}
+    .l-head{align-items:flex-start}
   }
   @media (max-width:560px){
     .hint-2{display:none}
@@ -1117,7 +1146,11 @@ const jsonLd = [
     .stage.is-open .hs.c span{font-size:9.5px;padding:3px 5px;top:-28px}
     .stage.is-open .hs.c b{display:none}
     .cta-row .btn{flex:1 1 auto;justify-content:center}
-    .ps-list{grid-template-columns:1fr}
+    .seg{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));width:100%}
+    .it{padding:14px 14px 6px}
+    .prod{padding:0 14px 14px 52px}
+    .slot{margin-left:0}
+    .cat header{flex-wrap:wrap}
     .specs div{grid-template-columns:110px minmax(0,1fr)}
     .a-cols{grid-template-columns:1fr}
     .open-btn{right:10px;bottom:10px;padding:8px 12px 8px 10px;font-size:13px}
