@@ -1,25 +1,41 @@
 ---
 /**
- * Strona „Plecak ewakuacyjny PrepReady” (/pl/plecak-ewakuacyjny/): model 3D, wybór wersji, lista rzeczy i zgłoszenie.
- * Zawartość plecaków edytujesz w src/data/plecak.ts. Model 3D: src/lib/bag3d.ts (plik GLB wrzuć do public/models/).
+ * Strona „Plecak ewakuacyjny PrepReady” (/pl/plecak-ewakuacyjny/): model 3D z saszetkami, wybór wersji i koloru,
+ * edytowalna lista rzeczy z przykładowymi produktami i cenami, opis plecaka i zgłoszenie.
+ * Zawartość, produkty i warianty plecaka edytujesz w src/data/plecak.ts. Model 3D: src/lib/bag3d.ts.
  * Formularz wysyła przez /contact.php, tak samo jak formularze „Dla producentów” i „Reklama”.
+ *
+ * Linki (np. do maili do producentów):
+ *   /pl/plecak-ewakuacyjny/?wersja=rozszerzony#rzecz-elektrolity   przewija do rzeczy, wyróżnia ją i otwiera jej saszetkę na modelu
+ *   /pl/plecak-ewakuacyjny/#saszetka-woda                           cała saszetka
+ *   ?wersja=podstawowy|rozszerzony|pro, &kolor=<id koloru>, własny zestaw: ?wersja=wlasny&baza=podstawowy&dodaj=filtr,pmr&usun=gwizdek
  */
 import Base from '../layouts/Base.astro';
-import { bagCategories, bagItems, bagVersions, itemsFor, levelOrder, rzeczy } from '../data/plecak';
+import {
+  bagCategories, bagItems, bagVersions, itemsFor, levelOrder, levelLoc, rzeczy, saszetek, zl, cenyZDnia, pouchName, bagModel,
+} from '../data/plecak';
 import { routes, guideBase } from '../i18n/ui';
 
 const path = '/pl/plecak-ewakuacyjny/';
 const pageUrl = new URL(path, Astro.site).href;
 const title = 'Plecak ewakuacyjny PrepReady: 4 wersje, co jest w środku';
-const description = 'Wybierz plecak ewakuacyjny: Podstawowy, Rozszerzony, Pro albo własny. Zobacz w 3D każdą rzecz z krótkim wyjaśnieniem i zapytaj o dostępność.';
+const description = 'Plecak ewakuacyjny w 3D: kolorowe saszetki na wodę, jedzenie, apteczkę i resztę, przykładowe produkty z cenami i zestaw, który ułożysz sam. Podstawowy, Rozszerzony, Pro albo własny.';
 
-const levelName: Record<string, string> = { basic: 'Podstawowy', extended: 'Rozszerzony', pro: 'Pro' };
 const basic = itemsFor('basic');
 const counts = Object.fromEntries(bagVersions.map((v) => [v.id, v.id === 'custom' ? basic.length : itemsFor(v.id).length]));
 const catCount = (cat: string) => basic.filter((i) => i.cat === cat).length;
+const pouches = bagCategories.filter((c) => c.pouch);
 const MODEL_URL = '/models/plecak-ewakuacyjny.glb';
+const REKLAMA = '/pl/reklama/';
+const cenyDate = cenyZDnia();
+const defColor = bagModel.colors.find((c) => c.id === bagModel.defaultColor)!;
 // Pasek „Co już mamy w plecaku testowym”: rzeczy z wpisanym partnerem
 const kit = bagItems.filter((i) => i.partner).map((i) => ({ brand: i.partner!, what: i.model ? `${i.name} ${i.model}` : i.name, cat: i.cat }));
+const catById = new Map(bagCategories.map((c) => [c.id, c]));
+const swatchBg = (c: (typeof bagModel.colors)[number]) => c.palette
+  ? `background:linear-gradient(135deg,${c.palette.map((h, i, a) => `${h} ${(i / a.length) * 100}% ${((i + 1) / a.length) * 100}%`).join(',')})`
+  : `background:${c.hex}`;
+const basicPrice = basic.reduce((s, i) => s + (i.produkt?.cena ?? 0), 0);
 
 const jsonLd = [
   {
@@ -30,9 +46,9 @@ const jsonLd = [
   },
   ...bagVersions.filter((v) => v.id !== 'custom').map((v) => ({
     '@context': 'https://schema.org', '@type': 'ItemList', inLanguage: 'pl',
-    name: `Plecak ewakuacyjny ${v.name}: zawartość`, description: v.desc, url: `${pageUrl}?wersja=${v.id}`,
+    name: `Plecak ewakuacyjny ${v.name}: zawartość`, description: v.desc, url: `${pageUrl}?wersja=${v.slug}`,
     numberOfItems: itemsFor(v.id).length, itemListOrder: 'https://schema.org/ItemListUnordered',
-    itemListElement: itemsFor(v.id).map((i, n) => ({ '@type': 'ListItem', position: n + 1, name: i.name, description: i.why })),
+    itemListElement: itemsFor(v.id).map((i, n) => ({ '@type': 'ListItem', position: n + 1, name: i.name, description: i.why, url: `${pageUrl}?wersja=${v.slug}#rzecz-${i.id}` })),
   })),
 ];
 ---
@@ -42,32 +58,37 @@ const jsonLd = [
       <div class="h-head">
         <p class="eyebrow">Plecak ewakuacyjny PrepReady · kompletujemy</p>
         <h1>Plecak ewakuacyjny: wybierz wersję i zobacz, co jest w środku</h1>
-        <p class="lead">Składamy plecaki ewakuacyjne w trzech wersjach, a czwartą możesz ułożyć sam. Obróć plecak, wybierz wersję i sprawdź każdą rzecz z krótkim wyjaśnieniem, po co jest. Pierwsze zestawy kompletujemy teraz.</p>
+        <p class="lead">Wszystko pakujemy w kolorowe saszetki: niebieska to woda, zielona z białym krzyżem to apteczka, żółta to światło i prąd. Otwórz plecak, wybierz wersję i sprawdź każdą rzecz z przykładowym produktem i ceną. Pierwsze zestawy kompletujemy teraz.</p>
       </div>
 
       <div class="stage panel" id="bag-stage">
         <canvas class="gl" aria-hidden="true"></canvas>
         <div class="hs-layer" aria-hidden="true">
           {bagCategories.map((c) => (
-            <button class="hs" type="button" tabindex="-1" data-cat={c.id}><i></i><span>{c.short} <b>{catCount(c.id)}</b></span></button>
+            <button class="hs" type="button" tabindex="-1" data-cat={c.id} style={c.pouch ? `--c:${c.pouch.hex}` : undefined}><i></i><span>{c.short} <b>{catCount(c.id)}</b></span></button>
           ))}
         </div>
         <div class="hs-card" role="dialog" aria-labelledby="hc-t" hidden>
           <div class="hc-head">
-            <p class="hc-t" id="hc-t"></p>
+            <div class="hc-tt">
+              <p class="hc-t" id="hc-t"></p>
+              <p class="hc-p"><i class="dot"></i><span></span></p>
+            </div>
             <span class="hc-n"></span>
             <button class="hc-x" type="button" aria-label="Zamknij">&times;</button>
           </div>
+          <p class="hc-note" hidden></p>
           <ul class="hc-list"></ul>
           <a class="hc-more" href="#zawartosc">Zobacz na liście</a>
         </div>
         <div class="fallback">
-          <p class="eyebrow">Zawartość według kategorii</p>
+          <p class="eyebrow">Saszetki w plecaku</p>
           <ul>
-            {bagCategories.map((c) => <li data-cat={c.id}><span>{c.name}</span><b>{catCount(c.id)}</b></li>)}
+            {bagCategories.map((c) => <li data-cat={c.id}><span>{c.pouch && <i class="dot" style={`--c:${c.pouch.hex}`}></i>}{c.pouch ? `${c.pouch.colorName}: ${c.name}` : c.name}</span><b>{catCount(c.id)}</b></li>)}
           </ul>
         </div>
-        <p class="hint">Przeciągnij, aby obrócić<span class="hint-2">. Kliknij punkt, aby zobaczyć rzeczy</span></p>
+        <button class="open-btn" type="button" aria-pressed="false" data-open hidden><span class="ob-i" aria-hidden="true"></span><span data-open-l>Otwórz plecak</span></button>
+        <p class="hint">Przeciągnij, aby obrócić<span class="hint-2">. Kliknij punkt albo saszetkę</span></p>
       </div>
 
       <div class="h-pick">
@@ -82,6 +103,18 @@ const jsonLd = [
           ))}
         </div>
         <p class="ver-desc" aria-live="polite">{bagVersions[0].desc}</p>
+
+        <div class="colors">
+          <p class="eyebrow" id="col-label">Kolor plecaka: <span class="col-name" data-col-name>{defColor.name}</span></p>
+          <div class="sw-row" role="radiogroup" aria-labelledby="col-label">
+            {bagModel.colors.map((c) => (
+              <button class="sw" type="button" role="radio" aria-checked={c.id === defColor.id ? 'true' : 'false'} data-color={c.id}
+                aria-label={c.name} title={c.desc ? `${c.name}: ${c.desc}` : c.name} style={swatchBg(c)}></button>
+            ))}
+          </div>
+          <p class="col-note" data-col-note>{defColor.cena ? `${zl(defColor.cena)} u producenta · ` : ''}ten kolor mamy w plecaku testowym</p>
+        </div>
+
         <div class="cta-row">
           <a class="btn primary" href="#zgloszenie">Zapytaj o plecak</a>
           <a class="btn ghost" href="#zawartosc">Lista rzeczy</a>
@@ -104,51 +137,131 @@ const jsonLd = [
         <div class="sec-head">
           <div>
             <p class="eyebrow">Zawartość</p>
-            <h2 id="list-h">Co jest w środku: <span data-vname>Podstawowy</span> <span class="hcount" data-total>{basic.length} {rzeczy(basic.length)}</span></h2>
-            <p class="lead">Przy każdej rzeczy piszemy jednym zdaniem, po co jest. Marka przy rzeczy oznacza, że ten egzemplarz jest już w naszym plecaku testowym. Pozostały sprzęt właśnie dobieramy.</p>
+            <h2 id="list-h">W plecaku: <span data-vname>Podstawowy</span> <span class="hcount" data-total>{basic.length} {rzeczy(basic.length)}</span></h2>
+            <p class="lead">To lista tego, co jest w wybranej wersji. Odznacz, czego nie potrzebujesz, albo dodaj rzeczy z grup „Możesz dodać”.</p>
           </div>
         </div>
 
         <div class="custom-bar" hidden>
-          <span class="cb-label">Zacznij od:</span>
-          {levelOrder.map((l) => <button class="chip" type="button" data-preset={l}>{levelName[l]}</button>)}
-          <button class="chip" type="button" data-preset="none">Wyczyść</button>
-          <span class="cb-count" aria-live="polite"></span>
+          <span class="cb-label" data-cb-label>Własny zestaw na bazie wersji Podstawowej</span>
+          <button class="chip" type="button" data-reset>Przywróć wersję</button>
+          <button class="chip" type="button" data-clear>Wyczyść wszystko</button>
+        </div>
+
+        <div class="psum panel" aria-live="polite">
+          <p class="ps-h"><b data-ps-n>{pouches.length} {saszetek(pouches.length)}</b><span data-ps-sub></span></p>
+          <ul class="ps-list">
+            {pouches.map((c) => (
+              <li data-cat={c.id}>
+                <a href={`#saszetka-${c.id}`}>
+                  <i class="dot" style={`--c:${c.pouch!.hex}`}></i>
+                  <span class="ps-n">{c.pouch!.colorName}</span>
+                  <span class="ps-c">{c.name}</span>
+                  <span class="ps-k" data-ps-k></span>
+                </a>
+                <span class="ps-i" data-ps-i></span>
+              </li>
+            ))}
+          </ul>
+          <p class="ps-out" data-ps-out></p>
         </div>
 
         <div class="cats" data-mode="basic">
           {bagCategories.map((c) => {
             const items = bagItems.filter((i) => i.cat === c.id);
             return (
-              <section class="cat" id={`kat-${c.id}`} data-cat={c.id} aria-labelledby={`kat-${c.id}-h`}>
+              <section class="cat" id={c.pouch ? `saszetka-${c.id}` : `kat-${c.id}`} data-cat={c.id} aria-labelledby={`kat-${c.id}-h`} style={c.pouch ? `--c:${c.pouch.hex}` : undefined}>
                 <header>
-                  <h3 id={`kat-${c.id}-h`}>{c.name}</h3>
-                  <span class="cc" data-cc>{catCount(c.id)}</span>
-                  <button class="cat-show" type="button" data-show={c.id} aria-label={`Pokaż kategorię ${c.name} na plecaku 3D`}><i aria-hidden="true"></i>Na plecaku</button>
+                  <div class="ch-t">
+                    <p class="ch-p">{c.pouch ? <Fragment><i class="dot" title={c.note}></i>{pouchName(c)}</Fragment> : 'Bez saszetki'}</p>
+                    <h3 id={`kat-${c.id}-h`}>{c.name} <span class="cc" data-cc>{catCount(c.id)}</span></h3>
+                  </div>
+                  <button class="cat-show" type="button" data-show={c.id} aria-label={`Pokaż ${c.pouch ? pouchName(c).toLowerCase() : 'plecak'} w modelu 3D`}><i aria-hidden="true"></i>{c.pouch ? 'Pokaż w plecaku' : 'Pokaż plecak'}</button>
                 </header>
-                <ul>
-                  {items.map((i) => (
-                    <li data-id={i.id} data-level={i.level} hidden={i.level !== 'basic'}>
-                      <input type="checkbox" id={`it-${i.id}`} value={i.id} />
-                      <label for={`it-${i.id}`}>
-                        <span class="in">{i.name}</span>
-                        <span class="iw">{i.why}</span>
-                        {(i.partner || i.level !== 'basic') && (
-                          <span class="tags">
-                            {i.partner && <span class="tag brand"><span class="sr-only">W naszym plecaku testowym: </span>{i.partner}</span>}
-                            {i.level !== 'basic' && <span class="tag lvl">od wersji {levelName[i.level]}</span>}
-                          </span>
-                        )}
-                      </label>
-                    </li>
-                  ))}
-                </ul>
+                {c.note && <p class="cat-note">{c.note}</p>}
+                <ul class="in-list" data-in></ul>
+                <p class="empty" data-empty hidden>Ta saszetka jest pusta. Dodaj coś poniżej albo zostaw ją w domu.</p>
+                <details class="can-add" data-add>
+                  <summary><span data-add-l>Możesz dodać</span></summary>
+                  <ul class="out-list" data-out>
+                    {items.map((i) => {
+                      const p = i.produkt;
+                      return (
+                        <li id={`rzecz-${i.id}`} data-id={i.id} data-level={i.level} data-cat={i.cat}>
+                          <div class="it-top">
+                            <span class="in">{i.name}</span>
+                            <label class="tgl"><input type="checkbox" value={i.id} /><span class="sw-t" aria-hidden="true"></span><span class="tgl-l">W plecaku</span></label>
+                            <button class="add" type="button" aria-label={`Dodaj: ${i.name}`}>+ Dodaj</button>
+                          </div>
+                          <p class="iw">{i.why}</p>
+                          <p class="lvl" data-lvl></p>
+                          <p class="where">
+                            {i.outside
+                              ? <Fragment><i class="dot out" style={c.pouch ? `--c:${c.pouch.hex}` : undefined}></i>Na zewnątrz: {i.outside}</Fragment>
+                              : c.pouch ? <Fragment><i class="dot"></i>{pouchName(c)}</Fragment> : <Fragment>Wisport, w plecaku testowym</Fragment>}
+                          </p>
+                          <p class="prod" data-prod>
+                            {p ? (
+                              <Fragment>
+                                <span class="pl">Przykład:</span> <span class="pn">{!p.nazwa.toLowerCase().includes(p.marka.split(/[ /(]/)[0].toLowerCase()) && <Fragment><b data-pm>{p.marka}</b> </Fragment>}<span data-pn>{p.nazwa}</span></span>
+                                <span class="pp" data-pp>{p.cena != null ? zl(p.cena) : 'cena wkrótce'}</span>
+                                {p.uwaga && <span class="ph">{p.uwaga}</span>}
+                                {p.url && <a class="pu" data-pu href={p.url} rel="sponsored noopener" target="_blank">Zobacz produkt<span class="sr-only"> (nowa karta)</span></a>}
+                                {p.dodatkowe?.map((u, k) => <a class="pu" href={u} rel="sponsored noopener" target="_blank">{p.dodatkowe!.length > 1 ? `część ${k + 2}` : 'druga część'}<span class="sr-only"> (nowa karta)</span></a>)}
+                              </Fragment>
+                            ) : (
+                              <Fragment><span class="pl">Przykładowy produkt i cena:</span> <span class="pp">wkrótce</span></Fragment>
+                            )}
+                          </p>
+                          {!p?.partner && <p class="slot">Miejsce dla producenta: <a href={REKLAMA}>zostań partnerem</a></p>}
+                        </li>
+                      );
+                    })}
+                  </ul>
+                </details>
               </section>
             );
           })}
         </div>
 
+        <div class="total panel" aria-live="polite">
+          <div class="t-stats">
+            <p><b data-t-items>{basic.length}</b> <span data-t-items-l>{rzeczy(basic.length)}</span></p>
+            <p><b data-t-pouches>{pouches.length}</b> <span data-t-pouches-l>{saszetek(pouches.length)}</span></p>
+          </div>
+          <div class="t-cost">
+            <p class="t-l">Szacunkowy koszt zestawu: <b data-t-sum>{zl(basicPrice)}</b><span class="t-miss" data-t-miss></span></p>
+            <p class="t-note">{cenyDate ? `Ceny przykładowych produktów z dnia ${cenyDate}, mogą się zmienić. Dokładną wycenę wyślemy mailem.` : 'Ceny przykładowych produktów właśnie uzupełniamy i mogą się zmienić. Dokładną wycenę wyślemy mailem.'}</p>
+          </div>
+          <a class="btn primary" href="#zgloszenie">Zapytaj o ten zestaw</a>
+        </div>
+
         <p class="more">Pakujesz się sam? Odhaczaj rzeczy w <a href={routes.checklist.pl}>checkliście plecaka 72h</a> i przeczytaj, <a href={`${guideBase.pl}plecak-ewakuacyjny/`}>co spakować do plecaka ewakuacyjnego</a>. Gotowe zestawy dostępne w sklepach porównujemy w zestawieniu <a href={`${guideBase.pl}gotowy-plecak-ewakuacyjny/`}>gotowych plecaków ewakuacyjnych</a>.</p>
+      </div>
+    </section>
+
+    <section class="block about" id="o-plecaku" aria-labelledby="about-h">
+      <div class="wrap a-grid">
+        <div>
+          <p class="eyebrow">O plecaku</p>
+          <h2 id="about-h">O plecaku: {bagModel.name}</h2>
+          <div class="a-text">
+            {bagModel.opis.map((p) => <p>{p}</p>)}
+          </div>
+          <p class="a-link"><a class="link-more" href={bagModel.url} rel="sponsored noopener" target="_blank">Strona plecaka u producenta<span class="sr-only"> (nowa karta)</span></a></p>
+        </div>
+        <div>
+          <dl class="specs">
+            {bagModel.specs.map(([k, v]) => <div><dt>{k}</dt><dd>{v}</dd></div>)}
+          </dl>
+          <p class="eyebrow a-col-h">Kolory ({bagModel.colors.length})</p>
+          <ul class="a-cols">
+            {bagModel.colors.map((c) => (
+              <li><button type="button" data-color={c.id} aria-pressed={c.id === defColor.id ? 'true' : 'false'}><i class="sw-s" style={swatchBg(c)}></i><span>{c.name}</span>{c.cena && <span class="a-p">{zl(c.cena)}</span>}</button></li>
+            ))}
+          </ul>
+          <p class="a-src">Opis i ceny według strony producenta ({bagModel.sprawdzono.split('-').reverse().join('.')}). Kolory na modelu są przybliżone, kamuflaże rysujemy w uproszczeniu.</p>
+        </div>
       </div>
     </section>
 
@@ -179,11 +292,12 @@ const jsonLd = [
       <div class="wrap fgrid">
         <div class="prose">
           <h2 id="form-h">Zapytaj o plecak</h2>
-          <p>Kompletujemy teraz pierwsze plecaki. Wybierz wersję albo ułóż własną listę, zostaw imię i e-mail, a odpiszemy z informacją o dostępności.</p>
+          <p>Kompletujemy teraz pierwsze plecaki. Wybierz wersję albo ułóż własną listę, zostaw imię i e-mail, a odpiszemy z wyceną i informacją o dostępności.</p>
+          <p class="lead-time">Ze względu na dużą liczbę zgłoszeń skompletowanie plecaka może potrwać do 10 dni. Potrzebujesz kilku sztuk albo zamówienia hurtowego? Napisz o tym w uwagach: cenę ustalimy indywidualnie, a termin dopasujemy do wielkości zamówienia.</p>
           <p>Zgłoszenie do niczego nie zobowiązuje. Twoje dane służą tylko do odpowiedzi na nie.</p>
         </div>
         <form class="pform panel" id="zgloszenie" method="post" action="/contact.php" novalidate
-          data-ok="Dziękujemy! Zgłoszenie dotarło. Odpiszemy na podany e-mail z informacją o dostępności plecaka."
+          data-ok="Dziękujemy! Zgłoszenie dotarło. Odpiszemy na podany e-mail z wyceną i informacją o dostępności plecaka."
           data-err="Nie udało się wysłać. Sprawdź pola i spróbuj ponownie za chwilę."
           data-sending="Wysyłanie…">
           <input type="hidden" name="lang" value="pl" />
@@ -199,7 +313,9 @@ const jsonLd = [
           </label>
           <div class="sel-box" aria-live="polite">
             <p class="sel-sum"></p>
-            <p class="sel-items"></p>
+            <ul class="sel-items"></ul>
+            <p class="sel-total"></p>
+            <p class="sel-edit">Listę zmienisz wyżej, w sekcji <a href="#zawartosc">W plecaku</a>.</p>
           </div>
           <div class="row2">
             <label class="f"><span>Imię</span><input name="name" required autocomplete="given-name" /></label>
@@ -223,50 +339,78 @@ const jsonLd = [
 </Base>
 
 <script>
-  import { bagCategories, bagItems, bagVersions, itemsFor, rzeczy, type BagVersionId } from '../data/plecak';
+  import {
+    bagCategories, bagItems, bagVersions, levelOrder, levelLoc, rzeczy, saszetek, zl, pouchName, bagModel,
+    type BagLevel, type BagVersionId,
+  } from '../data/plecak';
 
   const root = document.querySelector<HTMLElement>('[data-bag]');
   if (root) {
-    const KEY = 'pr-plecak-wlasny';
+    const KEY = 'pr-plecak-zestaw';
     const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
     const byId = new Map(bagItems.map((i) => [i.id, i]));
     const catById = new Map(bagCategories.map((c) => [c.id, c]));
-    const verName = (v: BagVersionId) => bagVersions.find((x) => x.id === v)!.name;
-    let version: BagVersionId = 'basic';
-    let custom = new Set<string>(itemsFor('basic').map((i) => i.id));
-    try {
-      const saved = JSON.parse(localStorage.getItem(KEY) || 'null');
-      if (Array.isArray(saved)) custom = new Set(saved.filter((id: string) => byId.has(id)));
-    } catch {}
-    const q = new URLSearchParams(location.search).get('wersja');
-    if (q && bagVersions.some((v) => v.id === q)) version = q as BagVersionId;
+    const verById = new Map(bagVersions.map((v) => [v.id, v]));
+    const slugToVer = new Map<string, BagVersionId>(bagVersions.flatMap((v) => [[v.slug, v.id], [v.id, v.id]] as [string, BagVersionId][]));
+    const colorById = new Map(bagModel.colors.map((c) => [c.id, c]));
+    const lvl = (l: BagLevel) => levelOrder.indexOf(l);
 
-    const stage = root.querySelector<HTMLElement>('#bag-stage')!;
-    const verBtns = [...root.querySelectorAll<HTMLButtonElement>('.ver')];
-    const verDesc = root.querySelector<HTMLElement>('.ver-desc')!;
-    const cats = root.querySelector<HTMLElement>('.cats')!;
-    const rows = [...root.querySelectorAll<HTMLLIElement>('.cats li')];
-    const groups = [...root.querySelectorAll<HTMLElement>('.cat')];
-    const bar = root.querySelector<HTMLElement>('.custom-bar')!;
-    const barCount = bar.querySelector<HTMLElement>('.cb-count')!;
-    const vname = root.querySelector<HTMLElement>('[data-vname]')!;
-    const total = root.querySelector<HTMLElement>('[data-total]')!;
-    const customCount = root.querySelector<HTMLElement>('[data-count="custom"]')!;
-    const hotspots = [...stage.querySelectorAll<HTMLElement>('.hs')];
-    const fallbackRows = [...stage.querySelectorAll<HTMLElement>('.fallback li')];
-    const card = stage.querySelector<HTMLElement>('.hs-card')!;
-    const form = root.querySelector<HTMLFormElement>('#zgloszenie')!;
-    const sel = form.querySelector<HTMLSelectElement>('#bg-version')!;
-    const selBox = form.querySelector<HTMLElement>('.sel-box')!;
-    const selSum = form.querySelector<HTMLElement>('.sel-sum')!;
-    const selItems = form.querySelector<HTMLElement>('.sel-items')!;
-    const sbar = root.querySelector<HTMLElement>('[data-sbar]')!;
-    const sbV = sbar.querySelector<HTMLElement>('[data-sb-v]')!;
-    const sbC = sbar.querySelector<HTMLElement>('[data-sb-c]')!;
+    /* ── Stan: wersja bazowa + rzeczy dodane i usunięte przez czytelnika ── */
+    let base: BagLevel = 'basic';
+    let add = new Set<string>(), rem = new Set<string>();
+    let customFlag = false;
+    let color = bagModel.defaultColor;
+    const ids = (s: string | null) => (s ? s.split(',').filter((x) => byId.has(x)) : []);
+    {
+      const q = new URLSearchParams(location.search);
+      const w = q.get('wersja');
+      const hasQ = !!(w || q.get('dodaj') || q.get('usun'));
+      if (hasQ) {
+        const v = slugToVer.get(w || '') || 'basic';
+        if (v === 'custom') { customFlag = true; const b = slugToVer.get(q.get('baza') || '') || 'basic'; base = b === 'custom' ? 'basic' : b; }
+        else base = v;
+        add = new Set(ids(q.get('dodaj'))); rem = new Set(ids(q.get('usun')));
+      } else {
+        try {
+          const s = JSON.parse(localStorage.getItem(KEY) || 'null');
+          if (s && levelOrder.includes(s.base)) { base = s.base; add = new Set(ids((s.add || []).join(','))); rem = new Set(ids((s.rem || []).join(','))); customFlag = !!s.custom; }
+        } catch {}
+      }
+      const k = q.get('kolor');
+      if (k && colorById.has(k)) color = k;
+    }
+    const inBase = (id: string) => lvl(byId.get(id)!.level) <= lvl(base);
+    const inKit = (id: string) => (inBase(id) && !rem.has(id)) || add.has(id);
+    const isCustom = () => customFlag || add.size > 0 || rem.size > 0;
+    const kitItems = () => bagItems.filter((i) => inKit(i.id));
+    const verLabel = () => (isCustom() ? `Własny (na bazie ${verById.get(base)!.gen})` : verById.get(base)!.name);
+    const priceOf = (id: string): number | null => {
+      if (id === 'plecak') return colorById.get(color)?.cena ?? byId.get(id)!.produkt?.cena ?? null;
+      return byId.get(id)!.produkt?.cena ?? null;
+    };
+
+    const $ = <T extends HTMLElement = HTMLElement>(s: string, el: ParentNode = root) => el.querySelector<T>(s)!;
+    const $$ = <T extends HTMLElement = HTMLElement>(s: string, el: ParentNode = root) => [...el.querySelectorAll<T>(s)];
+    const stage = $('#bag-stage');
+    const verBtns = $$<HTMLButtonElement>('.ver');
+    const verDesc = $('.ver-desc');
+    const cats = $('.cats');
+    const rows = $$<HTMLLIElement>('.cats li[data-id]');
+    const groups = $$('.cat');
+    const bar = $('.custom-bar');
+    const vname = $('[data-vname]');
+    const total = $('[data-total]');
+    const customCount = $('[data-count="custom"]');
+    const hotspots = $$('.hs', stage);
+    const fallbackRows = $$('.fallback li', stage);
+    const card = $('.hs-card', stage);
+    const openBtn = $<HTMLButtonElement>('[data-open]', stage);
+    const form = $<HTMLFormElement>('#zgloszenie');
+    const sel = $<HTMLSelectElement>('#bg-version', form);
+    const selBox = $('.sel-box', form);
+    const sbar = $('[data-sbar]');
     let bag: import('../lib/bag3d').BagHandle | null = null;
     let picked: string | null = null;
-
-    const selected = (): string[] => (version === 'custom' ? bagItems.filter((i) => custom.has(i.id)).map((i) => i.id) : itemsFor(version).map((i) => i.id));
 
     /** Licznik „przewijający się” do nowej wartości */
     const tween = (el: HTMLElement, to: number, fmt: (n: number) => string, animate: boolean) => {
@@ -286,132 +430,254 @@ const jsonLd = [
       requestAnimationFrame(step);
     };
     const nR = (n: number) => `${n} ${rzeczy(n)}`;
+    const nS = (n: number) => `${n} ${saszetek(n)}`;
+    const zlR = (n: number) => zl(Math.round(n));
 
-    /** Pokazanie / schowanie elementu listy z krótką animacją */
-    const show = (el: HTMLElement, on: boolean, animate: boolean, delay = 0) => {
-      if (on) {
-        const was = el.hidden || el.classList.contains('leave');
-        el.hidden = false; el.classList.remove('leave');
-        if (was && animate && !reduce) { el.style.setProperty('--d', `${delay}ms`); el.classList.remove('enter'); void el.offsetWidth; el.classList.add('enter'); }
-      } else if (!el.hidden) {
-        if (animate && !reduce) {
-          el.classList.remove('enter'); el.classList.add('leave');
-          window.setTimeout(() => { if (el.classList.contains('leave')) { el.hidden = true; el.classList.remove('leave'); } }, 200);
-        } else el.hidden = true;
-      }
-    };
-
+    /* ── Karta przy punkcie na modelu ── */
     const fillCard = () => {
       if (!picked) return;
       const c = catById.get(picked)!;
-      const ids = new Set(selected());
-      const items = bagItems.filter((i) => i.cat === picked && ids.has(i.id));
-      card.querySelector('.hc-t')!.textContent = c.name;
-      card.querySelector('.hc-n')!.textContent = nR(items.length);
-      const ul = card.querySelector('.hc-list')!;
-      // Bez przewijania w karcie: na telefonie najwyżej 4 rzeczy, reszta na liście
-      const max = stage.clientWidth < 560 ? 4 : 7;
+      const items = kitItems().filter((i) => i.cat === picked);
+      $('.hc-t', card).textContent = c.name;
+      const hp = $('.hc-p', card);
+      hp.hidden = !c.pouch;
+      if (c.pouch) { hp.style.setProperty('--c', c.pouch.hex); $('span', hp).textContent = pouchName(c); }
+      $('.hc-n', card).textContent = nR(items.length);
+      const note = $('.hc-note', card);
+      note.hidden = !c.note; note.textContent = c.note || '';
+      const ul = $('.hc-list', card);
+      // Bez przewijania w karcie: na telefonie najwyżej 3 rzeczy, reszta na liście
+      const isOpen = stage.classList.contains('is-open');
+      const max = stage.clientWidth < 560 ? (isOpen ? 2 : 3) : isOpen ? 4 : 6;
       const more = Math.max(0, items.length - max);
       ul.replaceChildren(...items.slice(0, max).map((i) => {
         const li = document.createElement('li');
-        const n = document.createElement('span'); n.className = 'hn'; n.textContent = i.name;
-        const w = document.createElement('span'); w.className = 'hw'; w.textContent = i.why;
-        li.append(n, w);
-        if (i.partner) { const t = document.createElement('span'); t.className = 'tag brand'; t.textContent = i.partner; n.append(' ', t); }
+        const top = document.createElement('span'); top.className = 'hn';
+        const n = document.createElement('a'); n.href = `#rzecz-${i.id}`; n.textContent = i.name;
+        top.append(n);
+        const pr = priceOf(i.id);
+        if (pr != null) { const p = document.createElement('span'); p.className = 'hp'; p.textContent = zl(pr); top.append(p); }
+        const w = document.createElement('span'); w.className = 'hw';
+        w.textContent = i.outside ? `Na zewnątrz: ${i.outside}. ${i.why}` : i.why;
+        li.append(top, w);
         return li;
       }));
-      const link = card.querySelector<HTMLAnchorElement>('.hc-more')!;
-      link.href = `#kat-${picked}`;
+      const link = $<HTMLAnchorElement>('.hc-more', card);
+      link.href = c.pouch ? `#saszetka-${picked}` : `#kat-${picked}`;
       link.textContent = more ? `Jeszcze ${nR(more)}: zobacz całą listę` : 'Zobacz na liście';
     };
 
-    /** Wybór kategorii: karta przy punkcie na modelu i wyróżnienie na liście */
+    const setOpenUi = (on: boolean) => {
+      openBtn.setAttribute('aria-pressed', String(on));
+      $('[data-open-l]', openBtn).textContent = on ? 'Zamknij plecak' : 'Otwórz plecak';
+      stage.classList.toggle('is-open', on);
+    };
+
+    /** Wybór saszetki: otwiera plecak i unosi saszetkę; karta przy punkcie i wyróżnienie na liście */
     const pick = (id: string | null, focus = false) => {
       picked = id;
       groups.forEach((g) => g.classList.toggle('sel', g.dataset.cat === id));
       hotspots.forEach((h) => h.classList.toggle('sel', h.dataset.cat === id));
-      root.querySelectorAll<HTMLElement>('[data-show]').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.show === id)));
+      $$('[data-show]').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.show === id)));
       card.hidden = !id;
       if (id) fillCard();
-      bag?.select(id);
-      if (id && focus) bag?.focus(id);
+      if (!bag) return;
+      const c = id ? catById.get(id) : null;
+      if (c?.pouch) { bag.open(true); setOpenUi(true); }
+      bag.select(id);
+      if (id && !c?.pouch && focus) { if (bag.isOpen()) { bag.open(false); setOpenUi(false); } bag.focus(id); }
     };
 
+    /* ── Rysowanie listy, liczników, podsumowań ── */
     let first = true;
     const render = () => {
       const animate = !first;
       first = false;
-      const ids = new Set(selected());
-      const isCustom = version === 'custom';
-      verBtns.forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.ver === version)));
-      verDesc.textContent = bagVersions.find((v) => v.id === version)!.desc;
-      cats.dataset.mode = version;
-      bar.hidden = !isCustom;
-      let k = 0;
+      const kit = kitItems();
+      const kitSet = new Set(kit.map((i) => i.id));
+      const custom = isCustom();
+      const label = verLabel();
+      const verPressed: BagVersionId = custom ? 'custom' : base;
+      verBtns.forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.ver === verPressed)));
+      verDesc.textContent = custom ? `${verById.get('custom')!.desc}` : verById.get(base)!.desc;
+      cats.dataset.mode = custom ? 'custom' : base;
+      bar.hidden = !custom;
+      $('[data-cb-label]', bar).textContent = `Własny zestaw na bazie wersji ${levelLoc[base]}`;
+      $('[data-reset]', bar).textContent = `Przywróć wersję ${verById.get(base)!.name}`;
+
+      // Rzeczy: w plecaku albo w grupie „Możesz dodać” swojej saszetki
+      const perCat = new Map<string, number>(), inside = new Map<string, string[]>();
       rows.forEach((li) => {
-        const on = ids.has(li.dataset.id!);
-        show(li, isCustom || on, animate, Math.min(240, (k += on ? 18 : 0)));
-        li.classList.toggle('off', isCustom && !on);
+        const id = li.dataset.id!, it = byId.get(id)!;
+        const on = kitSet.has(id);
+        const g = groups.find((x) => x.dataset.cat === it.cat)!;
+        const target = on ? $('[data-in]', g) : $('[data-out]', g);
+        if (li.parentElement !== target) {
+          target.append(li);
+          if (animate && !reduce) { li.classList.remove('enter'); void li.offsetWidth; li.classList.add('enter'); }
+        }
+        li.classList.toggle('on', on);
         li.querySelector('input')!.checked = on;
+        const note = $('[data-lvl]', li);
+        if (on) note.textContent = add.has(id) && !inBase(id) ? `Dodane przez Ciebie, w standardzie w wersji ${levelLoc[it.level]}` : '';
+        else note.textContent = inBase(id) ? `W standardzie w tej wersji, usunięte przez Ciebie` : `W standardzie w wersji ${levelLoc[it.level]}`;
+        note.hidden = !note.textContent;
+        if (on) {
+          perCat.set(it.cat, (perCat.get(it.cat) || 0) + 1);
+          if (!it.outside && catById.get(it.cat)!.pouch) inside.set(it.cat, [...(inside.get(it.cat) || []), it.name]);
+        }
       });
-      const perCat = new Map<string, number>();
-      ids.forEach((id) => { const c = byId.get(id)!.cat; perCat.set(c, (perCat.get(c) || 0) + 1); });
+      // kolejność jak w danych
       groups.forEach((g) => {
+        for (const ul of [$('[data-in]', g), $('[data-out]', g)]) {
+          const lis = [...ul.children] as HTMLElement[];
+          const sorted = [...lis].sort((a, b) => rows.indexOf(a as HTMLLIElement) - rows.indexOf(b as HTMLLIElement));
+          if (sorted.some((x, i) => x !== lis[i])) ul.append(...sorted);
+        }
         const n = perCat.get(g.dataset.cat!) || 0;
-        tween(g.querySelector<HTMLElement>('[data-cc]')!, n, String, animate);
-        show(g, isCustom || n > 0, animate);
+        const out = $('[data-out]', g).children.length;
+        tween($('[data-cc]', g), n, String, animate);
+        $('[data-empty]', g).hidden = n > 0;
+        const det = $<HTMLDetailsElement>('[data-add]', g);
+        det.hidden = out === 0;
+        $('[data-add-l]', det).textContent = `Możesz dodać (${out})`;
       });
+
+      // Podsumowanie saszetek na górze listy
+      const nP = inside.size;
+      const nIn = [...inside.values()].reduce((s, a) => s + a.length, 0);
+      $('[data-ps-n]').textContent = `${nS(nP)} w plecaku`;
+      $('[data-ps-sub]').textContent = `, w nich ${nR(nIn)}`;
+      $$('.ps-list li').forEach((li) => {
+        const list = inside.get(li.dataset.cat!) || [];
+        li.hidden = !list.length;
+        $('[data-ps-k]', li).textContent = nR(list.length);
+        $('[data-ps-i]', li).textContent = list.join(', ');
+      });
+      const outs = kit.filter((i) => i.outside);
+      const psOut = $('[data-ps-out]');
+      psOut.hidden = !outs.length;
+      psOut.textContent = outs.length ? `Na zewnątrz plecaka: ${outs.map((i) => `${i.name} (${i.outside})`).join(', ')}.` : '';
+
       hotspots.forEach((h) => tween(h.querySelector('b')!, perCat.get(h.dataset.cat!) || 0, String, animate));
       fallbackRows.forEach((r) => { const n = perCat.get(r.dataset.cat!) || 0; r.hidden = n === 0; r.querySelector('b')!.textContent = String(n); });
-      vname.textContent = verName(version);
-      tween(total, ids.size, nR, animate);
-      customCount.textContent = isCustom ? nR(custom.size) : 'do wyboru';
-      barCount.textContent = `Wybrano ${custom.size} z ${bagItems.length}`;
-      sbV.textContent = verName(version);
-      tween(sbC, ids.size, nR, animate);
-      sel.value = version;
+      vname.textContent = label;
+      tween(total, kit.length, nR, animate);
+      customCount.textContent = custom ? nR(kit.length) : 'do wyboru';
+
+      // Suma przykładowych cen
+      let sum = 0, miss = 0;
+      kit.forEach((i) => { const p = priceOf(i.id); p == null ? miss++ : (sum += p); });
+      tween($('[data-t-items]'), kit.length, String, animate);
+      $('[data-t-items-l]').textContent = rzeczy(kit.length);
+      tween($('[data-t-pouches]'), nP, String, animate);
+      $('[data-t-pouches-l]').textContent = saszetek(nP);
+      tween($('[data-t-sum]'), Math.round(sum), zlR, animate);
+      $('[data-t-miss]').textContent = miss ? ` + ${nR(miss)} z ceną wkrótce` : '';
+      $('[data-sb-v]', sbar).textContent = label;
+      $('[data-sb-c]', sbar).textContent = `${nR(kit.length)} · ok. ${zlR(sum)}${miss ? '+' : ''}`;
+
       // Podsumowanie w formularzu, aktualizowane na żywo
-      const names = bagItems.filter((i) => ids.has(i.id)).map((i) => i.name);
-      if (isCustom && !ids.size) {
-        selSum.textContent = 'Twoja lista jest pusta. Zaznacz rzeczy wyżej, w sekcji „Co jest w środku”.';
-        selItems.textContent = '';
-      } else {
-        selSum.textContent = isCustom ? `Twoja lista: ${nR(ids.size)}` : `${verName(version)}: ${nR(ids.size)}`;
-        const shown = names.slice(0, 10).join(', ');
-        selItems.textContent = names.length > 10 ? `${shown} i jeszcze ${names.length - 10}.` : `${shown}.`;
-        if (isCustom) selItems.textContent += ' Listę zmienisz wyżej, w sekcji „Co jest w środku”.';
-      }
+      sel.value = custom ? 'custom' : base;
+      const colName = colorById.get(color)?.name || '';
+      $('.sel-sum', selBox).textContent = kit.length ? `${label}: ${nR(kit.length)}, ${nS(nP)} · kolor: ${colName}` : 'Twoja lista jest pusta. Dodaj rzeczy wyżej, w sekcji „W plecaku”.';
+      $('.sel-items', selBox).replaceChildren(...kit.map((i) => {
+        const li = document.createElement('li');
+        const n = document.createElement('span'); n.textContent = i.name;
+        const p = document.createElement('span'); const pr = priceOf(i.id); p.textContent = pr == null ? 'cena wkrótce' : zl(pr);
+        if (pr == null) p.className = 'na';
+        li.append(n, p);
+        return li;
+      }));
+      $('.sel-total', selBox).textContent = kit.length ? `Szacunkowo: ${zlR(sum)}${miss ? ` + ${nR(miss)} z ceną wkrótce` : ''}` : '';
       if (animate && !reduce) { selBox.classList.remove('flash'); void selBox.offsetWidth; selBox.classList.add('flash'); }
-      bag?.setActive(new Set([...perCat.keys()]));
-      bag?.setExtras({ roll: ids.has('spiwor'), solar: ids.has('solar') });
-      if (picked) { if (perCat.get(picked)) fillCard(); else pick(null); }
+
+      const active = new Set<string>(['plecak']);
+      inside.forEach((_v, k) => active.add(k));
+      bag?.setActive(active);
+      bag?.setExtras({
+        roll: kitSet.has('spiwor') || kitSet.has('tarp'), solar: kitSet.has('solar'), headlamp: kitSet.has('czolowka'),
+        bottles: kitSet.has('woda'), batteries: kitSet.has('akumulatory'), tourniquet: kitSet.has('apteczka-pro'),
+      });
+      if (picked) { if (active.has(picked) || perCat.get(picked)) fillCard(); else pick(null); }
     };
 
-    const setVersion = (v: BagVersionId) => {
-      version = v;
-      render();
+    const save = () => {
+      try { localStorage.setItem(KEY, JSON.stringify({ base, add: [...add], rem: [...rem], custom: customFlag })); } catch {}
       try {
         const u = new URL(location.href);
-        v === 'basic' ? u.searchParams.delete('wersja') : u.searchParams.set('wersja', v);
-        history.replaceState(null, '', u);
+        for (const k of ['wersja', 'baza', 'dodaj', 'usun']) u.searchParams.delete(k);
+        if (isCustom()) {
+          u.searchParams.set('wersja', 'wlasny'); u.searchParams.set('baza', verById.get(base)!.slug);
+          if (add.size) u.searchParams.set('dodaj', [...add].join(','));
+          if (rem.size) u.searchParams.set('usun', [...rem].join(','));
+        } else if (base !== 'basic') u.searchParams.set('wersja', verById.get(base)!.slug);
+        color === bagModel.defaultColor ? u.searchParams.delete('kolor') : u.searchParams.set('kolor', color);
+        history.replaceState(null, '', u.toString().replace(/%2C/g, ','));
       } catch {}
     };
-    const saveCustom = () => { try { localStorage.setItem(KEY, JSON.stringify([...custom])); } catch {} };
+    const setVersion = (v: BagVersionId) => {
+      if (v === 'custom') customFlag = true;
+      else { base = v; add.clear(); rem.clear(); customFlag = false; }
+      render(); save();
+    };
+    const toggleItem = (id: string, on: boolean) => {
+      if (on) { inBase(id) ? rem.delete(id) : add.add(id); }
+      else { inBase(id) ? rem.add(id) : add.delete(id); }
+      render(); save();
+    };
 
     verBtns.forEach((b) => b.addEventListener('click', () => setVersion(b.dataset.ver as BagVersionId)));
     sel.addEventListener('change', () => setVersion(sel.value as BagVersionId));
-    rows.forEach((li) => li.querySelector('input')!.addEventListener('change', (e) => {
-      if (version !== 'custom') return;
-      (e.target as HTMLInputElement).checked ? custom.add(li.dataset.id!) : custom.delete(li.dataset.id!);
-      saveCustom(); render();
-    }));
-    bar.querySelectorAll<HTMLButtonElement>('[data-preset]').forEach((b) => b.addEventListener('click', () => {
-      const p = b.dataset.preset!;
-      custom = new Set(p === 'none' ? [] : itemsFor(p as BagVersionId).map((i) => i.id));
-      saveCustom(); render();
-    }));
+    rows.forEach((li) => {
+      li.querySelector('input')!.addEventListener('change', (e) => toggleItem(li.dataset.id!, (e.target as HTMLInputElement).checked));
+      $('.add', li).addEventListener('click', () => {
+        toggleItem(li.dataset.id!, true);
+        li.classList.add('hl'); window.setTimeout(() => li.classList.remove('hl'), 1600);
+      });
+    });
+    $('[data-reset]', bar).addEventListener('click', () => setVersion(base));
+    $('[data-clear]', bar).addEventListener('click', () => {
+      add.clear(); bagItems.forEach((i) => { if (inBase(i.id)) rem.add(i.id); }); customFlag = true;
+      render(); save();
+    });
 
-    // Punkt na modelu: karta z rzeczami tej kategorii, plecak obraca się do punktu
+    /* ── Kolor plecaka ── */
+    const colName = $('[data-col-name]'), colNote = $('[data-col-note]');
+    const plecakLi = rows.find((li) => li.dataset.id === 'plecak');
+    const setColor = (id: string, persist = true) => {
+      const c = colorById.get(id);
+      if (!c) return;
+      color = id;
+      $$('[data-color]').forEach((b) => b.setAttribute(b.getAttribute('role') === 'radio' ? 'aria-checked' : 'aria-pressed', String(b.dataset.color === id)));
+      colName.textContent = c.name;
+      const parts = [c.cena ? `${zl(c.cena)} u producenta` : '', c.palette ? 'wzór uproszczony' : ''];
+      parts.push(id === bagModel.defaultColor ? 'ten kolor mamy w plecaku testowym' : c.dostepny === false ? 'u producenta chwilowo niedostępny' : 'u producenta dostępny');
+      colNote.textContent = parts.filter(Boolean).join(' · ');
+      if (plecakLi) {
+        const pn = plecakLi.querySelector<HTMLElement>('[data-pn]'), pp = plecakLi.querySelector<HTMLElement>('[data-pp]'), pu = plecakLi.querySelector<HTMLAnchorElement>('[data-pu]');
+        if (pn) pn.textContent = `Wisport Whistler II 35, ${c.name}`;
+        if (pp && c.cena) pp.textContent = zl(c.cena);
+        if (pu && c.url) pu.href = c.url;
+      }
+      bag?.setColor({ id: c.id, hex: c.hex, palette: c.palette, pattern: c.pattern });
+      if (persist) { render(); save(); }
+    };
+    $$<HTMLButtonElement>('[data-color]').forEach((b) => b.addEventListener('click', () => setColor(b.dataset.color!)));
+    // Próbniki kamuflażu: prawdziwy wzór z tego samego generatora co na modelu (po załadowaniu modułu 3D)
+    const paintSwatches = (camo: (p: string[], pat: 'pantera' | 'multi', size?: number) => HTMLCanvasElement) => {
+      const cache = new Map<string, string>();
+      $$('[data-color]').forEach((b) => {
+        const c = colorById.get(b.dataset.color!);
+        if (!c?.palette || !c.pattern) return;
+        let url = cache.get(c.id);
+        if (!url) { url = camo(c.palette, c.pattern, 96).toDataURL(); cache.set(c.id, url); }
+        const el = b.querySelector<HTMLElement>('.sw-s') || b;
+        el.style.background = `url(${url}) center/cover`;
+      });
+    };
+
+    /* ── Model 3D i jego przyciski ── */
     hotspots.forEach((h) => h.addEventListener('click', (e) => {
       e.stopPropagation();
       const id = h.dataset.cat!;
@@ -419,43 +685,68 @@ const jsonLd = [
     }));
     card.querySelector('.hc-x')!.addEventListener('click', () => pick(null));
     document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && picked) pick(null); });
-    // Kategoria na liście lub chip partnera: obrót plecaka do tego miejsca
+    openBtn.addEventListener('click', () => {
+      if (!bag) return;
+      const on = !bag.isOpen();
+      if (!on) pick(null);
+      bag.open(on); setOpenUi(on);
+    });
+    // Saszetka na liście lub chip partnera: plecak otwiera się i pokazuje saszetkę
     const inView = (el: HTMLElement) => { const r = el.getBoundingClientRect(); return r.top >= 40 && r.bottom <= innerHeight; };
-    root.querySelectorAll<HTMLButtonElement>('[data-show]').forEach((b) => b.addEventListener('click', () => {
+    $$<HTMLButtonElement>('[data-show]').forEach((b) => b.addEventListener('click', () => {
       const id = b.dataset.show!;
       if (!stage.classList.contains('gl-on')) {
-        const g = document.getElementById(`kat-${id}`);
-        g?.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' });
+        const c = catById.get(id)!;
+        document.getElementById(c.pouch ? `saszetka-${id}` : `kat-${id}`)?.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' });
         return;
       }
       if (!inView(stage)) stage.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'center' });
       pick(id, true);
     }));
 
-    // Model 3D: tylko gdy przeglądarka obsługuje WebGL. Inaczej zostaje lekka lista kategorii.
     const canvas = stage.querySelector<HTMLCanvasElement>('canvas.gl')!;
-    // Klik w tło (bez przeciągania) zamyka kartę
-    let down: [number, number] | null = null;
-    canvas.addEventListener('pointerdown', (e) => (down = [e.clientX, e.clientY]));
-    canvas.addEventListener('pointerup', (e) => {
-      if (down && Math.hypot(e.clientX - down[0], e.clientY - down[1]) < 5 && picked) pick(null);
-      down = null;
-    });
     const hasGL = (() => { try { const c = document.createElement('canvas'); return !!(c.getContext('webgl2') || c.getContext('webgl')); } catch { return false; } })();
     if (hasGL) {
-      import('../lib/bag3d').then(({ mountBag }) => {
+      import('../lib/bag3d').then(({ mountBag, camoCanvas }) => {
         bag = mountBag({
           canvas, stage, hotspots, card,
-          defs: bagCategories.map((c) => ({ id: c.id, anchor: c.anchor, normal: c.normal })),
+          defs: bagCategories.map((c) => ({ id: c.id, anchor: c.anchor, normal: c.normal, pouch: c.pouch ? { hex: c.pouch.hex, cross: c.pouch.cross } : undefined })),
           modelUrl: root.dataset.model,
           reducedMotion: reduce,
+          onPick: (id) => { if (id) pick(id === picked ? null : id); else if (picked) pick(null); },
         });
         (stage as any).bag = bag;
         stage.classList.add('gl-on');
         root.classList.add('has-gl');
+        openBtn.hidden = false;
+        paintSwatches(camoCanvas);
+        setColor(color, false);
         render();
+        if (picked) pick(picked);
       }).catch(() => stage.classList.remove('gl-on'));
     }
+
+    /* ── Linki do rzeczy i saszetek: #rzecz-<id>, #saszetka-<id> ── */
+    const fromHash = (smooth: boolean) => {
+      const h = decodeURIComponent(location.hash.slice(1));
+      let m = /^rzecz-(.+)$/.exec(h);
+      if (m && byId.has(m[1])) {
+        const li = document.getElementById(h)!;
+        const det = li.closest('details');
+        if (det) det.open = true;
+        $$('.cats li.hl').forEach((x) => x !== li && x.classList.remove('hl'));
+        li.classList.remove('hl'); void li.offsetWidth; li.classList.add('hl', 'target');
+        li.scrollIntoView({ behavior: smooth && !reduce ? 'smooth' : 'auto', block: 'center' });
+        pick(byId.get(m[1])!.cat);
+        return;
+      }
+      m = /^saszetka-(.+)$/.exec(h);
+      if (m && catById.get(m[1])?.pouch) {
+        document.getElementById(h)?.scrollIntoView({ behavior: smooth && !reduce ? 'smooth' : 'auto', block: 'start' });
+        pick(m[1]);
+      }
+    };
+    addEventListener('hashchange', () => fromHash(true));
 
     // Przyklejony pasek na telefonie: widoczny, gdy przyciski z hero i formularz są poza ekranem
     const heroCta = root.querySelector('.cta-row')!;
@@ -463,35 +754,45 @@ const jsonLd = [
     const updateBar = () => {
       sbQueued = false;
       const c = heroCta.getBoundingClientRect(), f = form.getBoundingClientRect();
-      // pokazujemy, gdy przyciski z hero są już nad ekranem, a formularza jeszcze nie widać
       sbar.classList.toggle('show', c.bottom < 0 && f.top > innerHeight);
     };
     addEventListener('scroll', () => { if (!sbQueued) { sbQueued = true; requestAnimationFrame(updateBar); } }, { passive: true });
     addEventListener('resize', updateBar);
-    updateBar();
 
     // Formularz: ten sam mechanizm co „Dla producentów” (/contact.php)
     (form.elements.namedItem('t') as HTMLInputElement).value = String(Date.now());
-    const status = form.querySelector<HTMLElement>('.status')!;
-    const btn = form.querySelector<HTMLButtonElement>('button[type=submit]')!;
+    const status = $('.status', form);
+    const btn = $<HTMLButtonElement>('button[type=submit]', form);
     form.addEventListener('submit', async (e) => {
       e.preventDefault();
       if (!form.checkValidity()) { form.reportValidity(); return; }
-      const ids = selected();
-      if (!ids.length) { status.textContent = 'Zaznacz co najmniej jedną rzecz na liście albo wybierz gotową wersję.'; status.className = 'status err'; return; }
-      const note = (form.querySelector('#bg-note') as HTMLTextAreaElement).value.trim();
-      const name = verName(version);
+      const kit = kitItems();
+      if (!kit.length) { status.textContent = 'Dodaj co najmniej jedną rzecz na liście albo wybierz gotową wersję.'; status.className = 'status err'; return; }
+      const note = ($('#bg-note', form) as HTMLTextAreaElement).value.trim();
+      const name = verLabel();
+      const c = colorById.get(color)!;
+      let sum = 0, miss = 0;
+      const lines = kit.map((i) => {
+        const p = priceOf(i.id);
+        p == null ? miss++ : (sum += p);
+        const prod = i.id === 'plecak' ? `Wisport Whistler II 35, ${c.name}` : i.produkt ? `${i.produkt.marka} ${i.produkt.nazwa}` : '';
+        return `- ${i.name}${prod ? ` (${prod})` : ''}: ${p == null ? 'cena wkrótce' : zl(p)}`;
+      });
       const set = (k: string, v: string) => ((form.elements.namedItem(k) as HTMLInputElement).value = v);
       set('company', `Plecak ewakuacyjny · ${name}`);
       set('category', `Plecak: ${name}`);
       set('message', [
         `Zgłoszenie ze strony plecaka ewakuacyjnego.`,
-        `Wersja: ${name} (${nR(ids.length)})`,
+        `Wersja: ${name} (${nR(kit.length)})`,
+        `Kolor plecaka: ${c.name}`,
+        `Link do zestawu: ${location.href.split('#')[0]}`,
         '',
-        ...ids.map((id) => `- ${byId.get(id)!.name}`),
+        ...lines,
+        '',
+        `Szacunkowo: ${zl(Math.round(sum))}${miss ? ` + ${nR(miss)} bez ceny` : ''}`,
         '',
         `Uwagi: ${note || 'brak'}`,
-      ].join('\n'));
+      ].join('\n').replace(/ /g, ' '));
       const label = btn.textContent;
       btn.disabled = true; btn.textContent = form.dataset.sending!;
       status.className = 'status';
@@ -499,7 +800,7 @@ const jsonLd = [
         const r = await fetch(form.action, { method: 'POST', body: new FormData(form) });
         const j = await r.json().catch(() => ({ ok: false }));
         if (!j.ok) throw new Error();
-        form.querySelectorAll<HTMLElement>('.row2, .f, .check, .sel-box, .actions button').forEach((el) => (el.hidden = true));
+        $$('.row2, .f, .check, .sel-box, .actions button', form).forEach((el) => (el.hidden = true));
         status.textContent = form.dataset.ok!; status.classList.add('ok');
       } catch {
         status.textContent = form.dataset.err!; status.classList.add('err');
@@ -507,7 +808,10 @@ const jsonLd = [
       }
     });
 
+    setColor(color, false);
     render();
+    updateBar();
+    if (location.hash) requestAnimationFrame(() => fromHash(false));
   }
 </script>
 
@@ -518,25 +822,42 @@ const jsonLd = [
   .h-head h1{font-size:clamp(28px,3.8vw,42px);font-weight:780;font-stretch:80%;letter-spacing:-.01em;margin-top:8px}
   .h-head .lead{font-family:var(--body);font-weight:var(--body-w);font-size:16px;line-height:1.6;color:var(--ink-2);max-width:56ch;margin-top:12px}
   .h-pick{grid-area:pick}
-  .stage{grid-area:stage;position:relative;height:clamp(420px,46vw,600px);overflow:hidden;background:var(--surface);
+  .stage{grid-area:stage;position:relative;height:clamp(440px,48vw,640px);overflow:hidden;background:var(--surface);
     background-image:linear-gradient(color-mix(in srgb,var(--line) 55%,transparent) 1px,transparent 1px),linear-gradient(90deg,color-mix(in srgb,var(--line) 55%,transparent) 1px,transparent 1px);background-size:40px 40px;background-position:center}
   .gl{position:absolute;inset:0;width:100%;height:100%;display:block;cursor:grab;z-index:1}
   .stage.dragging .gl{cursor:grabbing}
   .hs-layer{position:absolute;inset:0;z-index:2;pointer-events:none}
   .hs{position:absolute;left:0;top:0;width:0;height:0;padding:0;border:0;background:none;opacity:0;visibility:hidden;transition:opacity .25s,visibility .25s;pointer-events:none}
   .hs.on{opacity:1;visibility:visible;pointer-events:auto}
-  .hs i{position:absolute;left:-6px;top:-6px;width:12px;height:12px;border-radius:50%;background:var(--signal-bright);box-shadow:0 0 0 3px color-mix(in srgb,var(--surface) 85%,transparent)}
+  .hs i{position:absolute;left:-6px;top:-6px;width:12px;height:12px;border-radius:50%;background:var(--c,var(--signal-bright));box-shadow:inset 0 0 0 1px rgba(0,0,0,.28),0 0 0 3px color-mix(in srgb,var(--surface) 85%,transparent)}
   .hs span{position:absolute;top:-11px;left:12px;white-space:nowrap;font-family:var(--mono);font-size:11px;line-height:1;letter-spacing:.04em;text-transform:uppercase;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:4px;padding:5px 7px}
   .hs.l span{left:auto;right:12px}
+  .hs.c span{left:0;top:-34px;transform:translateX(-50%)}
+  .hs.c i{width:10px;height:10px;left:-5px;top:-5px}
   .hs b{color:var(--signal);font-weight:600;margin-left:2px}
   .hs:hover span{border-color:var(--ink)}
-  .stage:not(.gl-on) .hs-layer,.stage:not(.gl-on) .hint,.stage:not(.gl-on) .gl{display:none}
+  .stage:not(.gl-on) .hs-layer,.stage:not(.gl-on) .hint,.stage:not(.gl-on) .gl,.stage:not(.gl-on) .open-btn{display:none}
   .stage.gl-on .fallback{display:none}
   .fallback{position:relative;z-index:1;padding:24px;height:100%;overflow:auto}
   .fallback ul{list-style:none;margin:12px 0 0;padding:0;border-top:1px solid var(--line)}
   .fallback li{display:flex;justify-content:space-between;gap:12px;padding:11px 0;border-bottom:1px solid var(--line);font-weight:600}
+  .fallback li span{display:inline-flex;align-items:center;gap:8px}
   .fallback b{font-family:var(--mono);color:var(--signal)}
+  .stage.is-open .hint{display:none}
   .hint{position:absolute;left:16px;bottom:12px;z-index:2;font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);pointer-events:none}
+  .open-btn{position:absolute;right:14px;bottom:14px;z-index:4;display:inline-flex;align-items:center;gap:9px;border:1px solid var(--ink);background:var(--ink);color:var(--bg);border-radius:6px;padding:9px 14px 9px 12px;font-weight:700;font-size:14px;line-height:1.2}
+  .open-btn:hover{background:var(--ink-2);border-color:var(--ink-2)}
+  .open-btn[aria-pressed="true"]{background:var(--surface);color:var(--ink)}
+  /* znaczek: zamek błyskawiczny (linia z ząbkami), po otwarciu rozsunięty */
+  .ob-i{position:relative;width:16px;height:12px}
+  .ob-i::before,.ob-i::after{content:"";position:absolute;top:5px;height:2px;width:8px;background:currentColor;transition:transform .3s}
+  .ob-i::before{left:0}
+  .ob-i::after{right:0}
+  .open-btn[aria-pressed="true"] .ob-i::before{transform:translateY(-3px) rotate(-18deg)}
+  .open-btn[aria-pressed="true"] .ob-i::after{transform:translateY(-3px) rotate(18deg)}
+
+  .dot{display:inline-block;width:10px;height:10px;border-radius:50%;background:var(--c,var(--muted));box-shadow:inset 0 0 0 1px rgba(0,0,0,.25);flex:none;vertical-align:-1px}
+  .dot.out{background:transparent;box-shadow:inset 0 0 0 2px var(--c,var(--muted))}
 
   .vers{display:grid;gap:8px;margin-top:10px}
   .ver{display:grid;grid-template-columns:1fr auto;gap:2px 12px;text-align:left;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:8px;padding:10px 14px}
@@ -550,37 +871,124 @@ const jsonLd = [
   .ver-desc{display:none}
   .cta-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
 
+  /* ── Kolor plecaka ── */
+  .colors{margin-top:20px}
+  .col-name{color:var(--ink);letter-spacing:.06em}
+  .sw-row{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+  .sw{width:32px;height:32px;border-radius:6px;border:1px solid color-mix(in srgb,var(--ink) 25%,transparent);padding:0;cursor:pointer}
+  .sw:hover{transform:translateY(-1px)}
+  .sw[aria-checked="true"]{outline:2px solid var(--ink);outline-offset:2px}
+  .col-note{margin-top:8px;font-family:var(--mono);font-size:11.5px;color:var(--muted);min-height:1.5em}
+
   /* ── Lista ── */
   .hcount{font-family:var(--mono);font-size:13px;font-weight:400;letter-spacing:0;color:var(--muted);vertical-align:middle;margin-left:6px;white-space:nowrap}
   .custom-bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:0 0 18px}
   .custom-bar[hidden]{display:none}
-  .cb-label{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-right:4px}
-  .cb-count{font-family:var(--mono);font-size:12px;color:var(--ink-2);margin-left:auto}
-  .cats{columns:3 300px;column-gap:16px}
+  .cb-label{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-2);margin-right:6px}
+
+  .psum{padding:16px 18px;margin-bottom:18px}
+  .ps-h{font-size:15px}
+  .ps-h b{font-weight:750}
+  .ps-h span{color:var(--muted);font-family:var(--body);font-weight:var(--body-w)}
+  .ps-list{list-style:none;margin:10px 0 0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 28px}
+  .ps-list li{padding:8px 0;border-top:1px solid var(--line);min-width:0}
+  .ps-list a{display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink)}
+  .ps-list a:hover .ps-c{text-decoration:underline}
+  .ps-n{font-weight:700;font-size:14px}
+  .ps-c{font-size:14px;color:var(--ink-2)}
+  .ps-k{margin-left:auto;font-family:var(--mono);font-size:11.5px;color:var(--signal);white-space:nowrap}
+  .ps-i{display:block;margin:2px 0 0 18px;font-family:var(--body);font-weight:var(--body-w);font-size:13px;line-height:1.45;color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .ps-out{margin-top:10px;padding-top:10px;border-top:1px solid var(--line);font-family:var(--body);font-weight:var(--body-w);font-size:13.5px;line-height:1.5;color:var(--ink-2)}
+
+  .cats{columns:3 320px;column-gap:16px}
   .cat{break-inside:avoid;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);margin:0 0 16px;scroll-margin-top:90px;transition:border-color .4s}
-  .cat[hidden]{display:none}
-  .cat.flash{border-color:var(--signal)}
-  .cat header{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:14px 16px 10px;border-bottom:1px solid var(--line)}
-  .cat h3{font-size:17px}
-  .cc{font-family:var(--mono);font-size:12px;color:var(--signal)}
+  .cat header{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;padding:12px 16px 10px;border-bottom:1px solid var(--line);flex-wrap:wrap}
+  .ch-p{display:flex;align-items:center;gap:7px;font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+  .cat h3{font-size:17px;margin-top:3px}
+  .cc{font-family:var(--mono);font-size:12px;font-weight:500;color:var(--signal);margin-left:4px}
+  .cat-note{padding:8px 16px 0;font-family:var(--body);font-weight:var(--body-w);font-size:12.5px;line-height:1.45;color:var(--muted)}
   .cat ul{list-style:none;margin:0;padding:0}
-  .cat li{display:grid;grid-template-columns:1fr;padding:12px 16px;border-bottom:1px solid var(--line)}
-  .cat li:last-child{border-bottom:0}
-  .cat li[hidden]{display:none}
-  .cat input{display:none;width:18px;height:18px;margin:2px 0 0;accent-color:var(--olive)}
-  .cats[data-mode="custom"] li{grid-template-columns:22px 1fr;gap:10px}
-  .cats[data-mode="custom"] input{display:block}
-  .cats[data-mode="custom"] label{cursor:pointer}
-  .cats[data-mode="custom"] li.off .in{color:var(--muted)}
-  .cats[data-mode="basic"] .tag.lvl{display:none}
-  .in{display:block;font-weight:650;font-size:15px;line-height:1.35}
-  .iw{display:block;font-family:var(--body);font-weight:var(--body-w);font-size:14px;line-height:1.5;color:var(--ink-2);margin-top:3px}
-  .tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:7px}
-  .tag{font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;border-radius:4px;padding:1px 6px;white-space:nowrap}
-  .tag.brand{color:var(--signal);border:1px solid var(--signal)}
-  .tag.lvl{color:var(--muted);border:1px dashed var(--line)}
+  .in-list li{padding:12px 16px;border-bottom:1px solid var(--line)}
+  .in-list li:last-child{border-bottom:0}
+  .empty{padding:12px 16px;font-family:var(--body);font-weight:var(--body-w);font-size:13.5px;color:var(--muted)}
+  .cat li{scroll-margin-top:100px}
+  .it-top{display:flex;align-items:flex-start;gap:10px}
+  .in{flex:1;min-width:0;font-weight:650;font-size:15px;line-height:1.35}
+  .iw{font-family:var(--body);font-weight:var(--body-w);font-size:14px;line-height:1.5;color:var(--ink-2);margin-top:3px}
+  .lvl{margin-top:5px;font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--olive)}
+  .where{display:flex;align-items:center;gap:7px;margin-top:7px;font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+  .prod{display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 10px;margin-top:7px;font-size:13px;line-height:1.4;color:var(--ink-2)}
+  .prod .pl{color:var(--muted);font-family:var(--body);font-weight:var(--body-w)}
+  .prod .pn{font-family:var(--body);font-weight:var(--body-w)}
+  .prod .pn b{font-family:var(--display);font-weight:700;color:var(--ink)}
+  .prod .pp{font-family:var(--mono);font-size:12.5px;font-weight:600;color:var(--ink);white-space:nowrap}
+  .prod .pu{font-weight:700;color:var(--action);text-decoration:none;white-space:nowrap}
+  .prod .pu::after{content:" ↗";font-size:.85em}
+  .prod .pu:hover{text-decoration:underline}
+  .prod .ph{font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--signal);border:1px solid currentColor;border-radius:4px;padding:0 5px;white-space:nowrap}
+  .slot{margin-top:5px;font-family:var(--body);font-weight:var(--body-w);font-size:12px;color:var(--muted)}
+  .slot a{color:var(--muted)}
+  .slot a:hover{color:var(--ink)}
+
+  /* przełącznik „W plecaku” i przycisk „+ Dodaj” */
+  .tgl{display:inline-flex;align-items:center;gap:7px;flex:none;cursor:pointer;font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-2);margin-top:2px;white-space:nowrap}
+  .tgl input{position:absolute;opacity:0;width:1px;height:1px}
+  .sw-t{position:relative;width:28px;height:16px;border-radius:999px;background:var(--line);transition:background .2s}
+  .sw-t::after{content:"";position:absolute;left:2px;top:2px;width:12px;height:12px;border-radius:50%;background:var(--surface);box-shadow:0 1px 2px rgba(0,0,0,.25);transition:transform .2s}
+  .tgl input:checked + .sw-t{background:var(--olive)}
+  .tgl input:checked + .sw-t::after{transform:translateX(12px)}
+  .tgl input:focus-visible + .sw-t{outline:2px solid var(--action);outline-offset:2px}
+  .add{display:none;flex:none;border:1px solid var(--ink);background:var(--surface);color:var(--ink);border-radius:6px;padding:4px 10px;font-weight:700;font-size:12.5px;white-space:nowrap}
+  .add:hover{background:var(--ink);color:var(--bg)}
+  .out-list .tgl{display:none}
+  .out-list .add{display:inline-block}
+
+  .can-add{border-top:1px solid var(--line)}
+  .can-add summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:8px;padding:10px 16px;font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-2)}
+  .can-add summary::-webkit-details-marker{display:none}
+  .can-add summary::before{content:"+";display:inline-grid;place-items:center;width:16px;height:16px;border:1px solid var(--line);border-radius:4px;font-size:12px;line-height:1;color:var(--ink)}
+  .can-add[open] summary::before{content:"−"}
+  .can-add summary:hover{color:var(--ink)}
+  .out-list{background:color-mix(in srgb,var(--surface-2) 45%,var(--surface))}
+  .out-list li{padding:11px 16px;border-top:1px solid var(--line)}
+  .out-list .in{font-weight:600;color:var(--ink-2)}
+  .out-list .iw{font-size:13.5px}
+
+  .cat.sel{border-color:var(--signal);box-shadow:0 0 0 1px var(--signal)}
+  .cat li.hl,.cat li.target{background:color-mix(in srgb,var(--signal-bright) 10%,transparent);box-shadow:inset 0 0 0 1px var(--signal)}
+
+  /* ── Suma ── */
+  .total{display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;gap:16px 28px;padding:18px 20px;margin:4px 0 22px}
+  .t-stats{display:flex;gap:22px}
+  .t-stats p{font-family:var(--mono);font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+  .t-stats b{display:block;font-family:var(--display);font-size:26px;font-weight:780;font-stretch:88%;color:var(--ink);letter-spacing:0;text-transform:none;line-height:1.1}
+  .t-l{font-size:16px;font-weight:650}
+  .t-l b{font-weight:800;font-size:20px;white-space:nowrap}
+  .t-miss{font-family:var(--mono);font-size:12px;font-weight:400;color:var(--muted)}
+  .t-note{margin-top:3px;font-family:var(--body);font-weight:var(--body-w);font-size:13px;line-height:1.45;color:var(--muted)}
   .more{margin-top:8px;font-family:var(--body);font-weight:var(--body-w);font-size:15px;line-height:1.6;color:var(--ink-2);max-width:80ch}
   .more a{color:var(--action)}
+
+  /* ── O plecaku ── */
+  .a-grid{display:grid;grid-template-columns:minmax(0,6fr) minmax(0,5fr);gap:48px;align-items:start}
+  .a-grid h2{margin-top:6px}
+  .a-text{margin-top:14px;font-family:var(--body);font-weight:var(--body-w);font-size:16px;line-height:1.7;color:var(--ink-2);max-width:62ch}
+  .a-text p + p{margin-top:12px}
+  .a-link{margin-top:14px}
+  .a-link a::after{content:" ↗";font-size:.85em}
+  .specs{margin:0;border-top:1px solid var(--line)}
+  .specs div{display:grid;grid-template-columns:150px minmax(0,1fr);gap:12px;padding:9px 0;border-bottom:1px solid var(--line)}
+  .specs dt{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);padding-top:2px}
+  .specs dd{margin:0;font-family:var(--body);font-weight:var(--body-w);font-size:14px;line-height:1.5;color:var(--ink)}
+  .a-col-h{margin-top:22px}
+  .a-cols{list-style:none;margin:8px 0 0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:4px 16px}
+  .a-cols button{display:flex;align-items:center;gap:9px;width:100%;border:0;background:none;padding:5px 0;text-align:left;font-size:13.5px;font-weight:600;color:var(--ink-2)}
+  .a-cols button:hover span:first-of-type{text-decoration:underline}
+  .a-cols button[aria-pressed="true"]{color:var(--ink)}
+  .a-cols button[aria-pressed="true"] .sw-s{outline:2px solid var(--ink);outline-offset:1px}
+  .sw-s{width:18px;height:18px;border-radius:4px;flex:none;border:1px solid color-mix(in srgb,var(--ink) 25%,transparent)}
+  .a-p{margin-left:auto;font-family:var(--mono);font-size:11.5px;font-weight:400;color:var(--muted);white-space:nowrap}
+  .a-src{margin-top:12px;font-family:var(--body);font-weight:var(--body-w);font-size:12.5px;line-height:1.5;color:var(--muted)}
 
   /* ── Uwagi ── */
   .notes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}
@@ -593,6 +1001,7 @@ const jsonLd = [
   .fgrid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:48px;align-items:start;padding-bottom:24px}
   .fgrid .prose :global(h2:first-child){margin-top:0}
   .fgrid .prose h2{font-size:clamp(24px,3vw,32px);font-weight:800}
+  .lead-time{color:var(--ink)}
   .pform{padding:24px;display:flex;flex-direction:column;gap:14px;scroll-margin-top:90px}
   .row2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
   .f{display:flex;flex-direction:column;gap:6px;font-size:13px;font-weight:600;color:var(--ink-2)}
@@ -609,22 +1018,28 @@ const jsonLd = [
   [hidden]{display:none!important}
 
   /* ── Wybrany punkt i karta na modelu ── */
-  .hs.sel i{background:var(--ink);box-shadow:0 0 0 3px var(--signal-bright),0 0 0 7px color-mix(in srgb,var(--signal-bright) 25%,transparent)}
-  .hs.sel span{opacity:0}
-  .hs b.bump,.cc.bump,.hcount.bump,.sb-c.bump{animation:bump .42s ease}
+  .hs.sel i{box-shadow:inset 0 0 0 1px rgba(0,0,0,.28),0 0 0 3px var(--signal-bright),0 0 0 7px color-mix(in srgb,var(--signal-bright) 25%,transparent)}
+  .hs.sel:not(.c) span{opacity:0}
+  .hs.sel.c span{border-color:var(--signal);color:var(--signal)}
+  .hs b.bump,.cc.bump,.hcount.bump,.sb-c.bump,[data-t-items].bump,[data-t-pouches].bump,[data-t-sum].bump{animation:bump .42s ease}
   @keyframes bump{40%{color:var(--signal-bright)}}
-  .hs-card{position:absolute;left:0;top:0;z-index:3;width:min(300px,calc(100% - 16px));overflow:hidden;background:var(--surface);border:1px solid var(--ink);border-radius:8px;box-shadow:0 10px 30px rgba(18,22,25,.16);opacity:0;visibility:hidden;transition:opacity .2s,visibility .2s}
+  .hs-card{position:absolute;left:0;top:0;z-index:5;width:min(310px,calc(100% - 16px));overflow:hidden;background:var(--surface);border:1px solid var(--ink);border-radius:8px;box-shadow:0 10px 30px rgba(18,22,25,.16);opacity:0;visibility:hidden;transition:opacity .2s,visibility .2s}
   .hs-card.on{opacity:1;visibility:visible}
-  .hc-head{display:flex;align-items:baseline;gap:8px;padding:10px 8px 8px 14px;border-bottom:1px solid var(--line);background:var(--surface)}
+  .hc-head{display:flex;align-items:flex-start;gap:8px;padding:10px 8px 8px 14px;border-bottom:1px solid var(--line);background:var(--surface)}
+  .hc-tt{min-width:0;flex:1}
   .hc-t{font-weight:750;font-size:15px;font-stretch:88%;line-height:1.2}
-  .hc-n{font-family:var(--mono);font-size:11px;color:var(--signal);white-space:nowrap}
+  .hc-p{display:flex;align-items:center;gap:6px;margin-top:3px;font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+  .hc-n{font-family:var(--mono);font-size:11px;color:var(--signal);white-space:nowrap;margin-top:3px}
   .hc-x{margin-left:auto;border:0;background:none;color:var(--muted);font-size:20px;line-height:1;padding:0 6px;cursor:pointer}
   .hc-x:hover{color:var(--ink)}
+  .hc-note{padding:8px 14px 0;font-family:var(--body);font-weight:var(--body-w);font-size:12px;line-height:1.4;color:var(--muted)}
   .hc-list{list-style:none;margin:0;padding:4px 0}
   .hc-list :global(li){padding:7px 14px}
   .hc-list :global(li + li){border-top:1px solid color-mix(in srgb,var(--line) 70%,transparent)}
-  .hc-list :global(.hn){display:block;font-weight:650;font-size:13.5px;line-height:1.3}
-  .hc-list :global(.tag){font-family:var(--mono);letter-spacing:.08em;text-transform:uppercase;border-radius:4px;white-space:nowrap;color:var(--signal);border:1px solid var(--signal);font-size:9.5px;padding:0 5px;margin-left:2px;vertical-align:1px}
+  .hc-list :global(.hn){display:flex;align-items:baseline;gap:8px;font-weight:650;font-size:13.5px;line-height:1.3}
+  .hc-list :global(.hn a){color:var(--ink);text-decoration:none}
+  .hc-list :global(.hn a:hover){text-decoration:underline}
+  .hc-list :global(.hp){margin-left:auto;font-family:var(--mono);font-size:11.5px;font-weight:600;white-space:nowrap}
   .hc-list :global(.hw){display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-family:var(--body);font-weight:var(--body-w);font-size:12.5px;line-height:1.4;color:var(--ink-2);margin-top:2px}
   .hc-more{display:block;padding:8px 14px 11px;border-top:1px solid var(--line);font-weight:700;font-size:13px;color:var(--action);text-decoration:none}
   .hc-more:hover{text-decoration:underline}
@@ -637,31 +1052,33 @@ const jsonLd = [
   .kit-chip:hover,.kit-chip[aria-pressed="true"]{border-color:var(--ink)}
   .kit-note{font-family:var(--body);font-weight:var(--body-w);font-size:13px;color:var(--muted)}
 
-  /* ── Kategoria: przycisk „Na plecaku” i wyróżnienie ── */
-  .cat header{flex-wrap:wrap}
-  .cat-show{display:none;align-items:center;gap:6px;margin-left:auto;border:1px solid var(--line);background:none;color:var(--ink-2);border-radius:999px;padding:3px 10px 3px 8px;font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;white-space:nowrap}
-  .cat-show i{width:8px;height:8px;border-radius:50%;background:var(--signal-bright)}
+  /* ── Saszetka: przycisk „Pokaż w plecaku” ── */
+  .cat-show{display:none;align-items:center;gap:6px;border:1px solid var(--line);background:none;color:var(--ink-2);border-radius:999px;padding:3px 10px 3px 8px;font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;white-space:nowrap;margin-top:2px}
+  .cat-show i{width:8px;height:8px;border-radius:50%;background:var(--c,var(--signal-bright));box-shadow:inset 0 0 0 1px rgba(0,0,0,.25)}
   .cat-show:hover,.cat-show[aria-pressed="true"]{border-color:var(--ink);color:var(--ink)}
   .has-gl .cat-show{display:inline-flex}
-  .cat header .cc{order:0}
-  .cat.sel{border-color:var(--signal);box-shadow:0 0 0 1px var(--signal)}
 
-  /* ── Animacje listy przy zmianie wersji ── */
+  /* ── Animacje listy ── */
   @media (prefers-reduced-motion:no-preference){
-    .cat li.enter,.cat.enter{animation:in .38s ease both,glow 1.6s ease both;animation-delay:var(--d,0ms),var(--d,0ms)}
-    .cat.enter{animation:in .38s ease both}
-    .cat li.leave,.cat.leave{animation:out .2s ease forwards}
+    .cat li.enter{animation:in .38s ease both,glow 1.6s ease both}
     .sel-box.flash{animation:glow 1.2s ease}
+    .cat li.hl{transition:background .6s}
   }
   @keyframes in{from{opacity:0;transform:translateY(-6px)}}
-  @keyframes out{to{opacity:0;transform:translateY(-4px)}}
   @keyframes glow{from{background:color-mix(in srgb,var(--signal-bright) 14%,transparent)}to{background:transparent}}
 
   /* ── Podsumowanie w formularzu ── */
   .sel-box{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:10px 0;margin-top:-4px}
   .sel-box .sel-sum{margin:0;font-family:var(--mono);font-size:12px;letter-spacing:.04em;color:var(--ink)}
-  .sel-items{margin-top:4px;font-family:var(--body);font-weight:var(--body-w);font-size:13px;line-height:1.5;color:var(--muted)}
+  .sel-items{list-style:none;margin:8px 0 0;padding:0 6px 0 0;max-height:220px;overflow:auto;font-family:var(--body);font-weight:var(--body-w);font-size:13px;line-height:1.4;color:var(--ink-2)}
+  .sel-items :global(li){display:flex;justify-content:space-between;gap:12px;padding:3px 0;border-bottom:1px dotted var(--line)}
+  .sel-items :global(li span:last-child){font-family:var(--mono);font-size:12px;white-space:nowrap;color:var(--ink)}
+  .sel-items :global(li span.na){color:var(--muted)}
   .sel-items:empty{display:none}
+  .sel-total{margin-top:8px;font-weight:750;font-size:15px}
+  .sel-total:empty{display:none}
+  .sel-edit{margin-top:4px;font-family:var(--body);font-weight:var(--body-w);font-size:12.5px;color:var(--muted)}
+  .sel-edit a{color:var(--action)}
 
   /* ── Przyklejony pasek (telefon) ── */
   .sbar{display:none}
@@ -671,13 +1088,13 @@ const jsonLd = [
     .sbar.show{transform:none;visibility:visible}
     .sbar .btn{margin-left:auto;white-space:nowrap}
     .sb-t{display:flex;flex-direction:column;line-height:1.25;min-width:0}
-    .sb-v{font-weight:750;font-size:15px;font-stretch:88%}
+    .sb-v{font-weight:750;font-size:15px;font-stretch:88%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
     .sb-c{font-family:var(--mono);font-size:11.5px;color:var(--signal)}
     :global(body:has(.sbar.show)) :global(.prtg){display:none!important}
     :global(body:has(#pr-consent:not([hidden]))) .sbar{display:none}
     .kit{padding-block:6px 22px}
     .hero{grid-template-columns:minmax(0,1fr);grid-template-areas:"head" "stage" "pick";padding-top:28px}
-    .stage{height:clamp(400px,118vw,540px)}
+    .stage{height:clamp(420px,122vw,560px)}
     .vers{grid-template-columns:repeat(2,minmax(0,1fr))}
     .vd{display:none}
     .ver{padding:10px 12px;grid-template-columns:minmax(0,1fr)}
@@ -685,14 +1102,24 @@ const jsonLd = [
     .ver-desc{display:block;font-family:var(--body);font-weight:var(--body-w);font-size:14px;line-height:1.5;color:var(--ink-2);margin-top:10px;min-height:3em}
     .notes{grid-template-columns:1fr;gap:20px}
     .fgrid{grid-template-columns:1fr;gap:20px}
+    .a-grid{grid-template-columns:1fr;gap:24px}
+    .total{grid-template-columns:1fr}
+    .total .btn{justify-self:start}
   }
   @media (max-width:560px){
     .hint-2{display:none}
     .hs-card.dock{left:8px;right:8px;top:auto;bottom:8px;width:auto;transform:none}
     .hs-card.dock .hc-list :global(.hw){-webkit-line-clamp:1}
     .hs-card.dock .hc-list :global(li){padding:6px 14px}
+    .hs-card.dock .hc-note{display:none}
     .row2{grid-template-columns:1fr}
     .hs span{font-size:10px;padding:4px 6px}
+    .stage.is-open .hs.c span{font-size:9.5px;padding:3px 5px;top:-28px}
+    .stage.is-open .hs.c b{display:none}
     .cta-row .btn{flex:1 1 auto;justify-content:center}
+    .ps-list{grid-template-columns:1fr}
+    .specs div{grid-template-columns:110px minmax(0,1fr)}
+    .a-cols{grid-template-columns:1fr}
+    .open-btn{right:10px;bottom:10px;padding:8px 12px 8px 10px;font-size:13px}
   }
 </style>
