@@ -872,6 +872,12 @@ function pouchContents(id: string, tx: ReturnType<typeof textures>): Group[] {
       out.push(thing(['jedzenie-3'], 0.09, 0.115, ...pack('#d96a1c')));
       out.push(thing(['jedzenie-5'], 0.09, 0.115, ...pack('#6b7a3a')));
       out.push(thing(['jedzenie-5'], 0.09, 0.115, ...pack('#6b7a3a')));
+      const spoonH = rbox(0.13, 0.012, 0.005, cm('#e2602b', 0.45), 0.003); spoonH.position.set(-0.015, 0, 0.003);
+      const bowl = new Mesh(new CircleGeometry(0.016, 18), cm('#e2602b', 0.45)); bowl.scale.set(1.4, 1, 1); bowl.position.set(0.07, 0, 0.006);
+      out.push(thing(['lyzka'], 0.16, 0.035, spoonH, bowl));
+      const gl = rbox(0.03, 0.08, 0.02, cm('#f3f0e6', 0.6), 0.008); gl.position.z = 0.01;
+      const glb = rbox(0.031, 0.02, 0.021, cm('#d83a3a', 0.5), 0.004); glb.position.set(0, 0.02, 0.01);
+      out.push(thing(['glukoza'], 0.035, 0.085, gl, glb));
       break;
     }
     case 'ogien': {
@@ -914,6 +920,13 @@ function pouchContents(id: string, tx: ReturnType<typeof textures>): Group[] {
       const wind = cyl(0.007, 0.065, mBlack, 10); wind.rotation.z = Math.PI / 2; wind.position.set(0, -0.01, 0.018);
       const tab = rbox(0.034, 0.024, 0.01, cm('#d1322a', 0.55)); tab.position.set(0, 0.065, 0.014);
       out.push(thing(['apteczka-pro'], 0.04, 0.155, strap, wind, tab));
+      const blister = (y: number) => { const m = rbox(0.07, 0.03, 0.004, cm('#c7cbcf', 0.25, 0.7), 0.002); m.position.set(0, y, 0.002); return m; };
+      out.push(thing(['leki-otc'], 0.075, 0.07, blister(0.018), blister(-0.018)));
+      const jar = cyl(0.02, 0.045, cm('#f4f2ea', 0.4), 18); jar.rotation.x = Math.PI / 2; jar.position.z = 0.0225;
+      const jcap = cyl(0.021, 0.008, cm('#e08a1e', 0.5), 18); jcap.rotation.x = Math.PI / 2; jcap.position.z = 0.047;
+      out.push(thing(['multiwitamina'], 0.045, 0.045, jar, jcap));
+      const ch = rbox(0.045, 0.03, 0.012, cm('#1c1d1f', 0.6), 0.003); ch.position.z = 0.006;
+      out.push(thing(['wegiel'], 0.05, 0.035, ch));
       break;
     }
     case 'swiatlo': {
@@ -959,6 +972,11 @@ function pouchContents(id: string, tx: ReturnType<typeof textures>): Group[] {
       out.push(thing(['chusteczki'], 0.14, 0.07, wipes, lid, gel));
       const bags = lying(cyl(0.022, 0.08, cm('#151618', 0.6), 18), 0, 0, 0.022);
       out.push(thing(['worki'], 0.085, 0.05, bags));
+      const tp = rbox(0.08, 0.06, 0.02, cm('#fbfbf8', 0.95), 0.01); tp.position.z = 0.01;
+      const brush = rbox(0.1, 0.01, 0.008, cm('#2f9fd8', 0.4), 0.003); brush.position.set(0, -0.042, 0.004);
+      out.push(thing(['higiena-podst'], 0.1, 0.1, tp, brush));
+      const pads = rbox(0.06, 0.045, 0.015, cm('#e9a6c3', 0.6), 0.006); pads.position.z = 0.0075;
+      out.push(thing(['intymne'], 0.065, 0.05, pads));
       break;
     }
     case 'ochrona': {
@@ -971,6 +989,8 @@ function pouchContents(id: string, tx: ReturnType<typeof textures>): Group[] {
       out.push(thing(['rekawice'], 0.09, 0.08, glove(-0.022), glove(0.022)));
       const th = rbox(0.1, 0.06, 0.02, cm('#4a4d52', 0.9), 0.008); th.position.z = 0.01;
       out.push(thing(['bielizna'], 0.105, 0.065, th));
+      const cap = rbox(0.08, 0.05, 0.02, new MeshStandardMaterial({ color: '#2d3033', roughness: 1, bumpMap: tx.velcro, bumpScale: 1.2 }), 0.012); cap.position.z = 0.01;
+      out.push(thing(['czapka'], 0.085, 0.055, cap));
       const lens = rbox(0.09, 0.03, 0.01, cm('#d8e2e6', 0.1, 0, { transparent: true, opacity: 0.6 }), 0.008); lens.position.z = 0.012;
       const fr = rbox(0.092, 0.006, 0.012, dark, 0.002); fr.position.set(0, 0.016, 0.012);
       out.push(thing(['okulary'], 0.095, 0.035, lens, fr));
