@@ -44,10 +44,13 @@ if ($company === '' || $name === '' || $message === '' || !filter_var($email, FI
   out(422, ['ok' => false, 'error' => 'fields']);
 }
 
-$subject = '=?UTF-8?B?' . base64_encode("PrepReady · Współpraca: $company") . '?=';
-$body = "Nowe zgłoszenie z formularza „Dla producentów” ($lang)\n\n"
-  . "Firma: $company\nOsoba: $name\nE-mail: $email\nStrona: $site\nKategoria: $category\n\nWiadomość:\n$message\n\n"
-  . '—' . "\nWysłano: " . date('Y-m-d H:i') . ' · IP: ' . ($_SERVER['REMOTE_ADDR'] ?? '') . "\n";
+// Zamówienie plecaka ewakuacyjnego (kind=order) dostaje własny temat, żeby łatwo je odróżnić od współpracy
+$isOrder  = $clean('kind', 10) === 'order';
+$subject = '=?UTF-8?B?' . base64_encode($isOrder ? "PrepReady · $company" : "PrepReady · Współpraca: $company") . '?=';
+$body = ($isOrder ? "Nowe ZAMÓWIENIE plecaka ewakuacyjnego ($lang)\n\n" : "Nowe zgłoszenie z formularza „Dla producentów” ($lang)\n\n")
+  . ($isOrder ? "Zamówienie: $company\nOsoba: $name\nE-mail: $email\n\n" . $message . "\n\n" . '—' . "\nWysłano: " . date('Y-m-d H:i') . ' · IP: ' . ($_SERVER['REMOTE_ADDR'] ?? '') . "\n" : '')
+  . ($isOrder ? '' : "Firma: $company\nOsoba: $name\nE-mail: $email\nStrona: $site\nKategoria: $category\n\nWiadomość:\n$message\n\n"
+  . '—' . "\nWysłano: " . date('Y-m-d H:i') . ' · IP: ' . ($_SERVER['REMOTE_ADDR'] ?? '') . "\n");
 
 $host = preg_replace('/^www\./', '', $_SERVER['HTTP_HOST'] ?? 'prepready.pro');
 $headers = implode("\r\n", [
