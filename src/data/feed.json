@@ -4,7 +4,17 @@
     "sample": false,
     "items": [
       {
-        "at": "2026-11-07T03:16:26.489Z",
+        "at": "2026-11-07T11:28:00.000Z",
+        "cat": "weather",
+        "sev": 2,
+        "source": "IMGW",
+        "url": "https://meteo.imgw.pl/",
+        "title": "IMGW: 1 ostrzeżeń meteo, najwyższy stopień 1: Gęsta mgła",
+        "official": true,
+        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
+      },
+      {
+        "at": "2026-11-07T10:44:06.544Z",
         "cat": "energy",
         "sev": 3,
         "source": "PSE",
@@ -16,6 +26,40 @@
           "href": "/pl/poradniki/blackout-jak-sie-przygotowac/",
           "label": "Jak przygotować się na blackout"
         }
+      },
+      {
+        "at": "2026-11-07T09:20:59.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Polskie Radio 24",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZWd6WHZzUlFROEJvT1N3VVRWc1hLYWhGZlFjOGhiSWhOUWNvMFdVMmJJa0JMcXMxa0UySmRBNzJXVjZPU1pRZFNNb3RBV2tGWGZ6OG5fRVlwLUJ4bWVKN3BISkFNVmQ5cC1Nb1l1VWVVVjRZUGZUZjhSUGJkNWU4SE5RTjZ0ZFl6aWdaeGpn?oc=5",
+        "title": "Ostrzeżenie RCB dla części Polski. \"Nie otwieraj okien\"",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-07T08:31:29.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "TVN24",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQazlDT2daYUxHQ194dE5Yb2h6N0pqN1liWWszZXhkdk1ZYm9DeTFWZlVQLUZkMkFZYW1mZmMzU00zY2tkQmlHMXFIbVZyUUpRZHo1Vk95VWZNN09FX0pWZWR6SmRIM2lVUERhcVFxaWZDaktNTkt4TDdLclBORzE0TS1KQ1hnenpRLWlHT2RDUmZsb0Z3VENBd200ZHBWSzllcUNUek9Bc2R3ZS1TM0x5bDExT3FXZ0xxRlRDb2lRclU?oc=5",
+        "title": "Alert RCB. Pierwszy taki w tym sezonie",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
+          "label": "Alert RCB i aplikacja RSO"
+        }
+      },
+      {
+        "at": "2026-11-06T16:39:57.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Rzeczpospolita",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVFFKNG01UzJXOTBvR19yb0NabVpNbExyaktXd2NfRmhsMnkwbjJPM2ViLVV4SGx6Mll1NGsxNFZGNEwtNVZnTmZOSk9ueUllMjllZENidkRMSHJpcHdYeDFuZkl5bFRLYXBRQUZMSFRja3B5WXVvdEozMU1USlBrWUxkWjAtb2JPYWxhX05xeDZPRnFrbU82ZUhxeUxoRnFUS3Q3U3NTUjEtU2RacWR4VkJKeTU5Zw?oc=5",
+        "title": "Ląd, powietrze i cyberprzestrzeń. Kosiniak-Kamysz: Wskazałem najlepszych",
+        "official": false,
+        "forYou": ""
       },
       {
         "at": "2026-11-06T15:25:54.000Z",
@@ -32,14 +76,14 @@
         }
       },
       {
-        "at": "2026-11-06T11:43:00.000Z",
-        "cat": "weather",
+        "at": "2026-11-06T13:18:56.000Z",
+        "cat": "security",
         "sev": 2,
-        "source": "IMGW",
-        "url": "https://meteo.imgw.pl/",
-        "title": "IMGW: 1 ostrzeżeń meteo, najwyższy stopień 1: Gęsta mgła",
-        "official": true,
-        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
+        "source": "Defence24",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPdFNTaUYtQ1lmeVhpU3R3QkM0RTBUMlFLek9LbTdPQ29pM0RzWWR4emxaaGg3UnprVl9fNHFvckxsSGNnTkJkRXZ2NkNyQ3ZmV1JGTVpjSjFqRUMtSnlySFJXd3BmemZuVzVOX1JEV0kyVG85Y2Rnc0paTy1FX3hsdExBV0FvRW1VTllTMw?oc=5",
+        "title": "Ile Rosomaków odebrało w tym roku wojsko? Nowe dane",
+        "official": false,
+        "forYou": ""
       },
       {
         "at": "2026-11-06T10:55:00.000Z",
@@ -190,65 +234,63 @@
         "title": "Przeciwlotnicze Newy przed kolejnymi latami służby. Wojsko planuje wieloletni serwis",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-04T04:39:00.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "Warszawa.Wyborcza.pl",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRzcxNTVUYzY1YTBRSzd0YlFnS2RwWnVSV3k1TzNMLTZfcU5LSG1fcm5DcGtPV3F6UzRNWWg0OG1VeFpWQXpUTWxSZ1VydVNfeDN2R3pjWVYxcGJmcm4xendudURIbVotSUVEYVRKb1pLQ3I5VGE1UTZPRkdFblFuU3dHTy1sbkQtU0x1NzVlUC1zMEtnbDdaT3BxWDIwT3R1MGVWdi0xeWlNVHBBQTlhVzFPT2cxdlc2VEhV?oc=5",
-        "title": "Nóż podrzucony do szafki i umawianie się na ''ustawkę''. Rodzice alarmują o przemocy w szkole w Brwinowie",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/poradniki/bezpieczenstwo-dziecka-w-szkole/",
-          "label": "Bezpieczeństwo dziecka w szkole"
-        }
-      },
-      {
-        "at": "2026-11-03T19:13:00.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "PolsatNews.pl",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNU0Fld1NaTUJtZHlFd3lIQmJkWlBhLWpBMXNhdEpmSWlOZWdwWVVrOFR3VmZuMmdTVXZQTTFVWkNQekRDZkJvak1nUXVjLVljN2tueENyRHZ3RHExX0lwVVItM0tWaUVPd2VUZEZGeTB4MWNXbHc5WVdPZEhpUjN3ekRMcmxxaWI2MkxXZFE5bDRlZGozY085Y0JJMmFlWVUw?oc=5",
-        "title": "Rosja atakuje Ukrainę. Alert RCB na wschodzie Polski",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
-          "label": "Alert RCB i aplikacja RSO"
-        }
-      },
-      {
-        "at": "2026-11-03T18:58:31.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Portal Samorządowy",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNNmwxc0x1ck0xazBaRDZJQ2tMaXBoc1lSZmdJa0F4QkNnWUZDYXAxSXBkSmZGUjFCMHZ2ci0zNXh0UUNxMExwdVhaemxKZnpjemtUUzFvSnBveTdLUHpXMkJ5dm84QmsxRi15U0FHWHNGVXZzTUtQSlhwUjRpREgzdjNuOFp6MUpqa08zc3VyNEFTdlBWRFc4VXhvcUxuNFpYeUhWS0lQNzk1cEN1UVNPNjRXVG1mVmozM3pMV251TlJiVTMtczB3SXZabmh1YVp5ZkFWRw?oc=5",
-        "title": "Zagrożenie na Wschodzie Polski. Wojsko uruchomiło system obrony powietrznej",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-03T18:43:35.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "Wiadomości Onet",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUDd4cTc4M2tsa1lIVVpCenhjNzd4d2d4QU5mNHJaOThSUWptQzZCb0VlNTllR09YdHFsVWhlMDl6akZqalhwalZkV3FudktwVF93RzMtZ0RkUjZ6MlJxZ1lqaGJzU1lPN0t2ZHVsdHJ4b1RoQTJsQ0pOQnVNRF92emxkWUg2eWVQOC04dA?oc=5",
-        "title": "Nowy alert RCB. Atak Rosji w zachodniej Ukrainie",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
-          "label": "Alert RCB i aplikacja RSO"
-        }
       }
     ],
-    "updatedAt": "2026-11-07T03:16:46.643Z"
+    "updatedAt": "2026-11-07T10:44:29.964Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-07T10:20:56.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "UNITED24 Media",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOMlIwVnB5VVQxek14OTFhdzBEMzY2UFdXTmg0X1lpQjZMTkF4anI1UkdDNF9yVExGbHpUb0ZaV0l1ZnJpb3dMWjE0ZDZPaEx2M05PeFBVcGtFMFQ4UGpoUzJkUTJhZ21kS0FoM3lGQzlzdVhwMk54RC01Z2RCTGMzOHF5bzdTMTlpd3FRMDdjX3ZTYnpRSldmcUY3c2NmNWgxU3A5R0N4SGVnV09aYV9EZGlpVWZMTEVqYUN5V2tzcw?oc=5",
+        "title": "Ukraine’s Neptunes Go After the Electronics Behind Russia’s Iskander Missiles",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-07T09:48:11.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The Sun",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSW5QdlZxUE54YmRTQ3FLX3NlUW1iOEk0c2lZMzZCU2NZekh2a0tqRktBM25yNVY5cGxTNDJ5UkwySnR4anJweVZSUkNxUlFSWjhOUWZtS19vMjdrcVVWbndkeUFkaUtwZDRLUk13Uy1RWjZzNkNNdnAzR1d1U3R0Z2hhS2I?oc=5",
+        "title": "Putin unleashes ballistic missile barrage on Kyiv as school & bridge blitzed",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-07T09:46:31.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "The Times of India",
+        "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQRi15OHZQcWZqODNvVUY3dGlSTHlKQ0JoVWg4a3B5NXlFUU04LVRjcUZ2eUFLUGxuaEZUWmpKMDVEc2pVZVJmeVNyRnVIWVJnT2Y0Sy04bXNnUmtqVXVJTjhOaldLbG5Jck16akE5bFU3aGF1aVdaUGl3QVJzc2lETW1meGFscndUNFJJNllyVUlXci16ekhZUU53NWZlNTVydl90UENUZW1ia2NURGM4Nk96Vnk4SnlzNy1hbGhWWDM5cHNZcFRuUEMwb1FkNm5pZWJMV3hyYXFnMVNBeDU4Q1Ata1RTalEydVkxMWtpU3EyMDFvRVNnOXprenROQdIBgwJBVV95cUxNV3R0dmVZaG5yTUllVUZTZE1qRENhZWhmNlgwbnpZU280OTY3NUNTaHRoa2JGSi1YcUg3ZmxFRlo4RVowa184R2w2bzN5N0ZtTjR3NFUwaVMtX09KMXVrbWNlcWpJV0hsV2xEUk8wc1A4MDNKYlFsUEJ5RFh5UHNKbWxCSjgxaGhsQzVHeW1aWlBhcjlqN180N2dHZWtjTXhfbk1OUHQ0Zkh0ZFRERHlSZVgyS280RG5NcnE4SS1ockw2cmxpcXBvOVU4MWJOWVV0ODJrbXJySGZ1dFk5N0VldFEycXVSNDZGTmVXVDFPSnNtWURvcmJselEyTF8zTElkMVVz?oc=5",
+        "title": "Putins Devastating Energy War On Kyiv; Ukraine Capital Paralysis Amid Widespread Blackout",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-07T08:52:34.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTkVTV3NVWmJXQXU5T1pKdWZEcVVtaDRraFV0UnNpWVhxdzlCWGlLUWZtQThXcHJuZ3hSYzgxNjNVVU10Q25pMHZCRS10Z2o3WkNfMWJnVG96bEFKQS1HbmlVc0pvYUxMVE5fNlAzZThVdV9lRU1MUnJyMzdHRzJpSXFNMXQxU2h0RTFFMi1TMGNzclBQd0xiWXJ2ZTZLbHNORGNCblNDMC01Y2ZsSjdRVVF4NVVwOFNRaVpFWQ?oc=5",
+        "title": "Russia’s Rosstat Struggles to Restore Systems After Major Cyberattack",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-07T08:51:56.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORWd2ZHNRRjNUZE56eU5kdTU3cl9ja2dwemEtRWYyaG9GcEVBU2RBS3N5a3g1dFY4blY4a1d0eEtQa0VwdTFtNGVZRGhkWW9fZURoZFlnS0dZUXBndnJMME5EUjloYmthMDlOcnltMUNVblF2eHRXNU53RWdLNEZuRWtZYzF3M0d6QlllRjBMMnJaUU5SdVJ0YVVWUXM3V0hKeVg0YXV4ONIBrAFBVV95cUxPSXZRVmV6bnNJWlA5Zm5mcHZNMEdFNjBGbXdGYWJsYnllQUxFM0pQZ2N6OTdpYUZ5NUFtSHhjaG15YTF3VVg4TFM2MTFZVE1nOGN1dngxOFZfOExmajNUMXFJYVRwR3VISFRiMWFBVWlHOE9pSjJtdkJZTHlHMGFFN0xkOVVRRVotTjgzOVBFVGhBbGxETTRVN2JXNHV2OXRYVjlSQ3ROdFRTeFFF?oc=5",
+        "title": "Will Trump strike nuclear sites again as Iran engages ‘cognitive warfare’?",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-07T00:10:24.000Z",
         "cat": "security",
@@ -316,16 +358,6 @@
         "source": "Pokde.Net",
         "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBRNnh5WnBreUdPWG5NVlMwWUNhMUpjTnltaENLNTh2aVp6NWJJT0V3N0E4Unh2VHdZVTRzSDdhNVdLUzlOV25EbllMeVlZaUVSNXVtcmQzN1BZdS1JeGFNbkNFOFlfeENmZHp3RmFDRzhIR3JW?oc=5",
         "title": "Bank Rakyat Under Suspected Cyberattack By Threat Actor \"Marlanwg\", Website Briefly Defaced",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-06T11:25:08.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Audacy",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcUczbDRHNjkxZXlYek8zSExyNDBDaGlHNUVESF9Ia1JRb1U4bWw3X2hRVGhTaWd2QXQ1SmhJTjlsaVRjZXAzMmpFS05tY2VuT3ROcW9DbVl3MDlhZ3Bka08zdXVwRlotNTFSSG92ZXhjOGttbzM3Z0w1b3Y0Rm9fQUFBeE53QzgyeVpIX0Q1aVNJUQ?oc=5",
-        "title": "russia-ukraine-war-zelenkyy-no-warning-missile-strike: Latest Updates",
         "official": false,
         "forYou": ""
       },
@@ -408,48 +440,8 @@
         "title": "Pyongyang trials new air defense system and cruise missile strike capability",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-05T08:21:05.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "Business Upturn",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSUhwWWlCZ3laQU9rbVZiWUVlSXVWWlFkcW5JeG82aE5meTl1bDA1Ti1ITjFpYnhuM2FqVWRuSTRUUkNzZzhYY0l1WVBKSzlHTTVBYjY4amFRZFVxN1JILTVONmQwMWNVU2NQQlZvb2hhYVN5VjIyUUFQeVBSOHpUSVhQdkdYSnY1WTBTSTdqZnJvSDE2WjZvQWVIRWk5aDBtUmFzV05zcGxkVFRVVGlBMjFzaFNaRER4Vk0tZw?oc=5",
-        "title": "French Blood Service Cyberattack Shows AI Risks Extend to Critical Infrastructure",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-05T07:51:55.000Z",
-        "cat": "health",
-        "sev": 1,
-        "source": "ECDC",
-        "url": "https://www.ecdc.europa.eu/en/news-events/preparedness-response-eu-reference-laboratories-public-health-action",
-        "title": "From preparedness to response: EU Reference Laboratories for Public Health in action",
-        "official": true,
-        "forYou": "Usually no action. Check your first-aid kit and expiry dates."
-      },
-      {
-        "at": "2026-11-05T05:01:28.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Arabian Business",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeGVzSjhrbUhOTTctX0ViTkJTRnFEZnkwNTJQR3gySTJRQlk3aXNwenJ2Qk1DejVYcF84dmF4WDFPd2xKRzEwazEtOEdOb05OOFhJaXZQVTd3R2lDRHdGbTgtM1JSSEMxeFN5OTlLc0tLNE55MHlHRDZNU3lOVFBDaTJwQQ?oc=5",
-        "title": "Iran war live: US targets three networks to cut off arms shipments to Tehran",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-05T00:26:34.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "Techerati",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbTgyREtwbE9EMmxIMmtnSHo1RUhLY0ExdHM1X1J3YjlPVm9QSmxES09NZk1lMUgxb0RPTlNLR1lORmRvb2h2ZlJ0VzN0V0U1SmhPWnUxbDdWLVhVUDhoQjNnSzZCYlhta085STk3ejZnX05KTUZyQkpvRmJkQjgwZ19QYTJrZkVzVUl3MEZMUXotakNTbTZ6ZklsbXRQRmtuWDNZengxWkFJR0E?oc=5",
-        "title": "NCSC warns AI could intensify ransomware threat by 2028",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-07T03:18:37.525Z"
+    "updatedAt": "2026-11-07T10:46:33.339Z"
   }
 }
