@@ -21,7 +21,7 @@ import {
   ACESFilmicToneMapping, Box3, BoxGeometry, BufferGeometry, CanvasTexture, CapsuleGeometry, Color, DirectionalLight,
   DoubleSide, Float32BufferAttribute, Raycaster, Group, HemisphereLight, InstancedMesh, Matrix4, Mesh, MeshBasicMaterial,
   MeshStandardMaterial, PerspectiveCamera, PlaneGeometry, PMREMGenerator, RepeatWrapping, Scene, Spherical,
-  SRGBColorSpace, Vector3, WebGLRenderer, CatmullRomCurve3, CylinderGeometry, CircleGeometry, BackSide, Vector2,
+  SRGBColorSpace, Vector3, WebGLRenderer, Plane, Matrix3, CatmullRomCurve3, CylinderGeometry, CircleGeometry, BackSide, Vector2,
   type Object3D, type Texture,
 } from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
@@ -42,6 +42,7 @@ export interface BagExtras {
   /** Butelki w niebieskiej saszetce */ bottles?: boolean;
   /** Akumulatory i ładowarka przy żółtej saszetce */ batteries?: boolean;
   /** Staza w apteczce (Pro) */ tourniquet?: boolean;
+  /** Id rzeczy w zestawie: decydują, co widać w otwartych saszetkach */ items?: string[];
 }
 export interface BagOptions {
   canvas: HTMLCanvasElement;
@@ -821,8 +822,193 @@ interface Pouch {
   /** Pozycja w układzie (bez uniesienia); w nim: inner (uniesienie) i rekwizyty obok */
   slot: Group; inner: Group; outline: Mesh; hits: Mesh[];
   cur: Vector3; goal: Vector3; p: number; a: number; aGoal: number; lift: number; order: number;
-  flap?: Group; kit?: Group; tq?: Group; bottles?: Group; batt?: Group;
+  flap?: Group; kit?: Group; tq?: Group; bottles?: Group; batt?: Group; things?: Group[];
   bottlesOn: number; battOn: number; tqOn: number; kitOpen: number;
+}
+
+/* ── Zawartość saszetek: proste bryły zamiast zdjęć, każda przypisana do rzeczy z listy (userData.items) ── */
+const contentMats = new Map<string, MeshStandardMaterial>();
+const cm = (hex: string, rough = 0.7, metal = 0, extra: Partial<{ transparent: boolean; opacity: number; emissive: string }> = {}) => {
+  const k = `${hex}|${rough}|${metal}|${JSON.stringify(extra)}`;
+  let m = contentMats.get(k);
+  if (!m) { m = new MeshStandardMaterial({ color: hex, roughness: rough, metalness: metal, ...extra }); contentMats.set(k, m); }
+  return m;
+};
+const rbox = (w: number, h: number, t: number, m: MeshStandardMaterial, r = 0.004) => new Mesh(new RoundedBoxGeometry(w, h, t, 1, Math.min(r, t * 0.45, w * 0.3, h * 0.3)), m);
+const cyl = (r: number, len: number, m: MeshStandardMaterial, seg = 16) => new Mesh(new CylinderGeometry(r, r, len, seg), m);
+/** Rzecz w saszetce: grupa leżąca na dnie (oś z = grubość), fw × fh to jej obrys w układzie, items = id rzeczy z listy */
+const thing = (items: string[], fw: number, fh: number, ...parts: Object3D[]) => {
+  const g = new Group();
+  g.add(...parts);
+  g.userData = { items, fw, fh };
+  return g;
+};
+/** Leżący walec (oś wzdłuż x) */
+const lying = (m: Mesh, x = 0, y = 0, z = 0) => { m.rotation.z = Math.PI / 2; m.position.set(x, y, z); return m; };
+
+function pouchContents(id: string, tx: ReturnType<typeof textures>): Group[] {
+  const out: Group[] = [];
+  const dark = cm('#1f2124', 0.5), steel = cm('#b8bcc0', 0.3, 0.75), white = cm('#f2f1ec', 0.85);
+  switch (id) {
+    case 'woda': {
+      // tabletki do uzdatniania (pudełko), słomka filtrująca, butelka z filtrem, tuba elektrolitów
+      const box = rbox(0.07, 0.05, 0.016, cm('#e9eef4', 0.6)); box.position.z = 0.008;
+      const band = rbox(0.072, 0.014, 0.017, cm('#1f63b5', 0.5)); band.position.z = 0.008;
+      out.push(thing(['woda'], 0.075, 0.055, box, band));
+      const straw = lying(cyl(0.014, 0.15, cm('#2c7fd1', 0.4), 18), 0, 0, 0.014);
+      const capS = lying(cyl(0.015, 0.02, cm('#1b3f6b', 0.5)), 0.08, 0, 0.014);
+      out.push(thing(['filtr'], 0.17, 0.035, straw, capS));
+      const flask = rbox(0.06, 0.13, 0.03, cm('#9cc4e4', 0.15, 0, { transparent: true, opacity: 0.85 }), 0.02); flask.position.z = 0.016;
+      const fcap = cyl(0.016, 0.02, cm('#3a4d63', 0.5)); fcap.position.set(0, 0.075, 0.016);
+      out.push(thing(['filtr-pro'], 0.065, 0.16, flask, fcap));
+      const tube = lying(cyl(0.013, 0.1, cm('#e8792a', 0.45)), 0, 0, 0.013);
+      out.push(thing(['elektrolity'], 0.11, 0.03, tube));
+      break;
+    }
+    case 'jedzenie': {
+      const pack = (col: string) => { const m = rbox(0.085, 0.11, 0.014, cm(col, 0.45, 0.35), 0.006); m.position.z = 0.007; const lab = rbox(0.06, 0.035, 0.002, white, 0.001); lab.position.set(0, 0.01, 0.015); return [m, lab]; };
+      out.push(thing(['jedzenie-3'], 0.09, 0.115, ...pack('#d96a1c')));
+      out.push(thing(['jedzenie-3'], 0.09, 0.115, ...pack('#c9c3b5')));
+      out.push(thing(['jedzenie-3'], 0.09, 0.115, ...pack('#d96a1c')));
+      out.push(thing(['jedzenie-5'], 0.09, 0.115, ...pack('#6b7a3a')));
+      out.push(thing(['jedzenie-5'], 0.09, 0.115, ...pack('#6b7a3a')));
+      break;
+    }
+    case 'ogien': {
+      const lighter = rbox(0.025, 0.07, 0.012, cm('#d23a2c', 0.35), 0.005); lighter.position.set(-0.025, 0, 0.006);
+      const rod = lying(cyl(0.006, 0.075, dark, 10), 0.018, 0.012, 0.007);
+      const handle = lying(cyl(0.01, 0.03, cm('#e0a020', 0.5), 12), 0.018, -0.016, 0.01);
+      out.push(thing(['ogien'], 0.08, 0.075, lighter, rod, handle));
+      const mt = rbox(0.11, 0.032, 0.018, cm('#2b2d30', 0.35, 0.4), 0.006); mt.position.z = 0.009;
+      const mtb = rbox(0.07, 0.006, 0.004, steel, 0.001); mtb.position.set(0.02, 0.012, 0.019);
+      out.push(thing(['multitool'], 0.115, 0.04, mt, mtb));
+      const tape = new Mesh(new CylinderGeometry(0.03, 0.03, 0.022, 24, 1, true), cm('#a9adb1', 0.45, 0.5)); tape.rotation.x = Math.PI / 2; tape.position.z = 0.011;
+      const core = new Mesh(new CylinderGeometry(0.018, 0.018, 0.022, 20, 1, true), cm('#8a6d4a', 0.9)); core.rotation.x = Math.PI / 2; core.position.z = 0.011;
+      const face = new Mesh(new CircleGeometry(0.03, 24), cm('#9ea2a6', 0.5, 0.4)); face.position.z = 0.0225;
+      out.push(thing(['tasma'], 0.065, 0.065, tape, core, face));
+      const can = cyl(0.033, 0.045, cm('#2363a8', 0.4, 0.3), 24); can.rotation.x = Math.PI / 2; can.position.z = 0.0225;
+      const valve = cyl(0.012, 0.012, steel); valve.rotation.x = Math.PI / 2; valve.position.z = 0.05;
+      out.push(thing(['kuchenka'], 0.07, 0.07, can, valve));
+      const blade = rbox(0.075, 0.018, 0.004, steel, 0.002); blade.position.set(0.04, 0, 0.004);
+      const kh = rbox(0.06, 0.022, 0.014, cm('#e2602b', 0.5), 0.007); kh.position.set(-0.03, 0, 0.007);
+      out.push(thing(['noz'], 0.14, 0.025, blade, kh));
+      break;
+    }
+    case 'apteczka': {
+      // bandaże, plastry, buteleczka (podstawowa lub rozszerzona); staza tylko w rozszerzonej
+      const mBand = new MeshStandardMaterial({ color: '#f4f3ee', roughness: 0.95, bumpMap: tx.cordura, bumpScale: 0.6 });
+      const rolls: Object3D[] = [];
+      for (const y of [0.025, -0.025]) {
+        rolls.push(lying(cyl(0.024, 0.07, mBand, 20), 0, y, 0.024));
+        rolls.push(lying(cyl(0.01, 0.072, cm('#d6d3c8', 1), 12), 0, y, 0.024));
+      }
+      out.push(thing(['apteczka', 'apteczka-pro'], 0.075, 0.1, ...rolls));
+      const plasters = rbox(0.08, 0.055, 0.012, cm('#d7ad80', 0.7)); plasters.position.z = 0.006;
+      const strip = rbox(0.065, 0.013, 0.002, cm('#f1e3d0', 0.8), 0.001); strip.position.z = 0.013;
+      out.push(thing(['apteczka', 'apteczka-pro'], 0.085, 0.06, plasters, strip));
+      const bottle = lying(cyl(0.017, 0.065, cm('#f2f2ee', 0.3), 18), 0, 0, 0.017);
+      const cap = lying(cyl(0.012, 0.02, cm('#c2352e', 0.5), 14), 0.042, 0, 0.017);
+      out.push(thing(['apteczka', 'apteczka-pro'], 0.09, 0.04, bottle, cap));
+      const mBlack = new MeshStandardMaterial({ color: '#17181a', roughness: 0.7, bumpMap: tx.web, bumpScale: 0.6 });
+      const strap = rbox(0.03, 0.15, 0.012, mBlack); strap.position.z = 0.006;
+      const wind = cyl(0.007, 0.065, mBlack, 10); wind.rotation.z = Math.PI / 2; wind.position.set(0, -0.01, 0.018);
+      const tab = rbox(0.034, 0.024, 0.01, cm('#d1322a', 0.55)); tab.position.set(0, 0.065, 0.014);
+      out.push(thing(['apteczka-pro'], 0.04, 0.155, strap, wind, tab));
+      break;
+    }
+    case 'swiatlo': {
+      const pb = (w: number, h: number) => { const m = rbox(w, h, 0.02, cm('#26292c', 0.45), 0.008); m.position.z = 0.01; const l = rbox(0.012, 0.004, 0.002, cm('#3fbf6a', 0.4, 0, { emissive: '#3fbf6a' }), 0.001); l.position.set(w * 0.3, h * 0.4, 0.021); return [m, l]; };
+      out.push(thing(['powerbank'], 0.07, 0.11, ...pb(0.065, 0.105)));
+      out.push(thing(['duzy-powerbank'], 0.085, 0.14, ...pb(0.08, 0.135)));
+      const coil = new Mesh(new CylinderGeometry(0.028, 0.028, 0.012, 20, 1, true), cm('#e9e9e6', 0.6)); coil.rotation.x = Math.PI / 2; coil.position.z = 0.006;
+      out.push(thing(['powerbank', 'duzy-powerbank', 'solar'], 0.06, 0.06, coil));
+      const fl = lying(cyl(0.015, 0.11, cm('#1d1f22', 0.35, 0.3), 18), 0, 0, 0.016);
+      const head = lying(cyl(0.02, 0.025, cm('#2a2c2f', 0.3, 0.4), 18), 0.065, 0, 0.02);
+      out.push(thing(['latarka'], 0.14, 0.045, fl, head));
+      break;
+    }
+    case 'lacznosc': {
+      const radio = rbox(0.12, 0.075, 0.03, cm('#2b2f33', 0.5), 0.008); radio.position.z = 0.015;
+      const grill = rbox(0.05, 0.045, 0.002, cm('#55595e', 0.6), 0.002); grill.position.set(-0.025, 0, 0.031);
+      const dial = cyl(0.012, 0.006, cm('#e2602b', 0.5), 16); dial.rotation.x = Math.PI / 2; dial.position.set(0.035, 0.008, 0.032);
+      const ant = lying(cyl(0.003, 0.11, steel, 8), 0.0, 0.043, 0.02);
+      out.push(thing(['radio'], 0.125, 0.09, radio, grill, dial, ant));
+      const doc = rbox(0.1, 0.07, 0.006, cm('#d7e3e6', 0.15, 0, { transparent: true, opacity: 0.7 }), 0.003); doc.position.z = 0.003;
+      const paper = rbox(0.08, 0.05, 0.002, cm('#efe9da', 0.9), 0.001); paper.position.z = 0.002;
+      out.push(thing(['etui'], 0.105, 0.075, paper, doc));
+      const nb = rbox(0.055, 0.085, 0.01, cm('#59613a', 0.8), 0.003); nb.position.z = 0.005;
+      const pen = lying(cyl(0.004, 0.08, cm('#2c2c2c', 0.6), 8), 0.0, -0.05, 0.004);
+      out.push(thing(['notes'], 0.085, 0.1, nb, pen));
+      const wh = rbox(0.045, 0.014, 0.012, cm('#f07a1a', 0.4), 0.005); wh.position.z = 0.006;
+      out.push(thing(['gwizdek'], 0.05, 0.02, wh));
+      const comp = rbox(0.05, 0.08, 0.006, cm('#d9dbd6', 0.2, 0, { transparent: true, opacity: 0.85 }), 0.004); comp.position.z = 0.003;
+      const dialc = cyl(0.016, 0.01, cm('#2b2f33', 0.4), 20); dialc.rotation.x = Math.PI / 2; dialc.position.set(0, 0.01, 0.009);
+      const map = rbox(0.07, 0.09, 0.008, cm('#e4dcc2', 0.85), 0.002); map.position.set(0.065, 0, 0.004);
+      out.push(thing(['mapa'], 0.13, 0.095, map, comp, dialc));
+      const wt = (col: string, x: number) => { const m = rbox(0.03, 0.07, 0.02, cm(col, 0.5), 0.008); m.position.set(x, 0, 0.01); const a2 = cyl(0.004, 0.02, dark, 8); a2.position.set(x - 0.008, 0.045, 0.01); return [m, a2]; };
+      out.push(thing(['pmr'], 0.075, 0.09, ...wt('#ec7a1c', -0.018), ...wt('#2f7fd0', 0.018)));
+      break;
+    }
+    case 'higiena': {
+      const mask = rbox(0.09, 0.05, 0.01, cm('#f4f4f0', 0.95), 0.012); mask.position.z = 0.005;
+      const mask2 = rbox(0.09, 0.05, 0.01, cm('#e9e9e4', 0.95), 0.012); mask2.position.set(0.006, -0.012, 0.012);
+      out.push(thing(['ffp2'], 0.1, 0.07, mask, mask2));
+      const wipes = rbox(0.1, 0.06, 0.02, cm('#3a8fd0', 0.55), 0.01); wipes.position.z = 0.01;
+      const lid = rbox(0.045, 0.02, 0.004, white, 0.003); lid.position.set(0, 0.008, 0.021);
+      const gel = rbox(0.03, 0.065, 0.016, cm('#bfe3f5', 0.2, 0, { transparent: true, opacity: 0.85 }), 0.008); gel.position.set(0.075, 0, 0.008);
+      out.push(thing(['chusteczki'], 0.14, 0.07, wipes, lid, gel));
+      const bags = lying(cyl(0.022, 0.08, cm('#151618', 0.6), 18), 0, 0, 0.022);
+      out.push(thing(['worki'], 0.085, 0.05, bags));
+      break;
+    }
+    case 'ochrona': {
+      const foil = rbox(0.1, 0.07, 0.012, cm('#c9cbc6', 0.25, 0.85), 0.005); foil.position.z = 0.006;
+      const foilG = rbox(0.1, 0.012, 0.0125, cm('#c8a640', 0.3, 0.8), 0.003); foilG.position.set(0, -0.02, 0.0065);
+      out.push(thing(['koc-nrc'], 0.105, 0.075, foil, foilG));
+      const poncho = rbox(0.11, 0.08, 0.025, new MeshStandardMaterial({ color: '#5a6338', roughness: 0.85, bumpMap: tx.cordura, bumpScale: 0.8 }), 0.01); poncho.position.z = 0.0125;
+      out.push(thing(['poncho'], 0.115, 0.085, poncho));
+      const glove = (x: number) => { const m = rbox(0.04, 0.075, 0.01, cm('#2f6db5', 0.7), 0.012); m.position.set(x, 0, 0.005); return m; };
+      out.push(thing(['rekawice'], 0.09, 0.08, glove(-0.022), glove(0.022)));
+      const th = rbox(0.1, 0.06, 0.02, cm('#4a4d52', 0.9), 0.008); th.position.z = 0.01;
+      out.push(thing(['bielizna'], 0.105, 0.065, th));
+      const lens = rbox(0.09, 0.03, 0.01, cm('#d8e2e6', 0.1, 0, { transparent: true, opacity: 0.6 }), 0.008); lens.position.z = 0.012;
+      const fr = rbox(0.092, 0.006, 0.012, dark, 0.002); fr.position.set(0, 0.016, 0.012);
+      out.push(thing(['okulary'], 0.095, 0.035, lens, fr));
+      break;
+    }
+  }
+  return out;
+}
+
+/** Układa widoczne rzeczy na dnie saszetki rzędami (od góry), wyśrodkowane; zwraca czy coś jest widoczne */
+function layoutContents(list: Group[], kit: Set<string>, w: number, h: number): boolean {
+  const vis = list.filter((g) => (g.userData.items as string[]).some((i) => kit.has(i)));
+  for (const g of list) g.visible = vis.includes(g);
+  if (!vis.length) return false;
+  const gap = 0.012, maxW = w * 0.88, maxH = h * 0.84;
+  const rows: { items: Group[]; w: number; h: number }[] = [];
+  let cur = { items: [] as Group[], w: 0, h: 0 };
+  for (const g of vis) {
+    const fw = g.userData.fw as number, fh = g.userData.fh as number;
+    if (cur.items.length && cur.w + gap + fw > maxW) { rows.push(cur); cur = { items: [], w: 0, h: 0 }; }
+    cur.w += (cur.items.length ? gap : 0) + fw; cur.h = Math.max(cur.h, fh); cur.items.push(g);
+  }
+  rows.push(cur);
+  const totalH = rows.reduce((t, r) => t + r.h, 0) + gap * (rows.length - 1);
+  // gdy się nie mieści, całość lekko zmniejszamy
+  const k = Math.min(1, maxH / totalH, maxW / Math.max(...rows.map((r) => r.w)));
+  let y = (totalH * k) / 2;
+  for (const r of rows) {
+    let x = (-r.w * k) / 2;
+    for (const g of r.items) {
+      const fw = (g.userData.fw as number) * k;
+      g.scale.setScalar(k);
+      g.position.set(x + fw / 2, y - (r.h * k) / 2, 0);
+      x += fw + gap * k;
+    }
+    y -= r.h * k + gap * k;
+  }
+  return true;
 }
 
 function buildPouch(id: string, hex: string, cross: boolean, tx: ReturnType<typeof textures>): Pouch {
@@ -837,69 +1023,51 @@ function buildPouch(id: string, hex: string, cross: boolean, tx: ReturnType<type
   const r = Math.min(d * 0.32, 0.035);
   const p: Pouch = { id, size: [w, h, d], slot, inner, outline: null as any, hits, cur: new Vector3(), goal: new Vector3(), p: 0, a: 1, aGoal: 1, lift: 0, order: 0, bottlesOn: 0, battOn: 0, tqOn: 0, kitOpen: 0 };
 
+  // Każda saszetka: korpus + przednia klapa na zawiasie u dołu (otwiera się, gdy saszetka jest wybrana), w środku jej rzeczy
+  const bd = d * 0.58, fd = d - bd;
+  const body = new Mesh(new RoundedBoxGeometry(w, h, bd, 3, r), mat);
+  body.position.z = -d / 2 + bd / 2;
+  inner.add(body); hits.push(body);
+  const front = -d / 2 + bd;
+  const pivot = new Group();
+  pivot.position.set(0, -h / 2, front);
+  const flap = new Mesh(new RoundedBoxGeometry(w, h, fd, 3, Math.min(r, fd * 0.45)), mat);
+  flap.position.set(0, h / 2, fd / 2);
+  pivot.add(flap); hits.push(flap);
+  // podszewka klapy (widać ją, gdy klapa leży otwarta)
+  const flapIn = new Mesh(new PlaneGeometry(w * 0.9, h * 0.86), new MeshStandardMaterial({ color: shade(hex, light ? 0.86 : 0.55), roughness: 0.95 }));
+  flapIn.rotation.y = Math.PI; flapIn.position.set(0, h / 2, -0.001);
+  pivot.add(flapIn);
   if (cross) {
-    // Apteczka: korpus + klapa na zawiasie u dołu, biały krzyż na klapie i z tyłu, w środku opatrunki
-    const bd = d * 0.58, fd = d - bd;
-    const body = new Mesh(new RoundedBoxGeometry(w, h, bd, 3, r), mat);
-    body.position.z = -d / 2 + bd / 2;
-    inner.add(body); hits.push(body);
-    const front = -d / 2 + bd;
-    const pivot = new Group();
-    pivot.position.set(0, -h / 2, front);
-    const flap = new Mesh(new RoundedBoxGeometry(w, h, fd, 3, Math.min(r, fd * 0.45)), mat);
-    flap.position.set(0, h / 2, fd / 2);
-    pivot.add(flap); hits.push(flap);
     const mWhite = new MeshStandardMaterial({ color: '#f6f6f2', roughness: 0.55 });
     const cs = h * 0.56, ct = cs / 3;
     const crossGeo = mergeGeometries([new BoxGeometry(ct, cs, 0.004), new BoxGeometry(cs, ct, 0.004)])!;
     const c1 = new Mesh(crossGeo, mWhite); c1.position.set(0, h / 2, fd + 0.002); pivot.add(c1);
     const c2 = new Mesh(crossGeo, mWhite); c2.position.set(0, 0, -d / 2 - 0.002); inner.add(c2);
-    // zamek dookoła szwu
-    const seam = new Mesh(new BoxGeometry(w + 0.004, 0.008, 0.01), mZip); seam.position.set(0, h / 2 - 0.004, front); inner.add(seam);
-    inner.add(pivot);
-    p.flap = pivot;
-    // Środek: jasne dno, bandaże, plastry, buteleczka; staza tylko w Pro
-    const kit = new Group();
-    const lining = new Mesh(new PlaneGeometry(w * 0.9, h * 0.86), new MeshStandardMaterial({ color: '#dfe3dc', roughness: 0.9 }));
-    lining.position.set(0, 0, front + 0.001);
-    kit.add(lining);
-    const mBand = new MeshStandardMaterial({ color: '#f4f3ee', roughness: 0.95, bumpMap: tx.cordura, bumpScale: 0.6 });
-    for (const [x, y] of [[-w * 0.3, h * 0.17], [-w * 0.3, -h * 0.17]]) {
-      const roll = new Mesh(new CylinderGeometry(0.03, 0.03, 0.075, 20), mBand);
-      roll.rotation.z = Math.PI / 2; roll.position.set(x, y, front + 0.031);
-      const edge = new Mesh(new CylinderGeometry(0.012, 0.012, 0.077, 12), new MeshStandardMaterial({ color: '#d6d3c8', roughness: 1 }));
-      edge.rotation.z = Math.PI / 2; edge.position.copy(roll.position);
-      kit.add(roll, edge);
-    }
-    const plasters = new Mesh(new RoundedBoxGeometry(0.085, 0.06, 0.014, 1, 0.004), new MeshStandardMaterial({ color: '#d7ad80', roughness: 0.7 }));
-    plasters.position.set(0.0, h * 0.2, front + 0.008);
-    const strip = new Mesh(new BoxGeometry(0.07, 0.014, 0.002), new MeshStandardMaterial({ color: '#f1e3d0', roughness: 0.8 }));
-    strip.position.set(0, h * 0.2, front + 0.016);
-    const bottle = new Mesh(new CylinderGeometry(0.019, 0.019, 0.075, 18), new MeshStandardMaterial({ color: '#f2f2ee', roughness: 0.3 }));
-    bottle.rotation.z = Math.PI / 2; bottle.position.set(0.0, -h * 0.18, front + 0.02);
-    const cap = new Mesh(new CylinderGeometry(0.013, 0.013, 0.022, 14), new MeshStandardMaterial({ color: '#c2352e', roughness: 0.5 }));
-    cap.rotation.z = Math.PI / 2; cap.position.set(0.048, -h * 0.18, front + 0.02);
-    kit.add(plasters, strip, bottle, cap);
-    const tq = new Group();
-    const mBlack = new MeshStandardMaterial({ color: '#17181a', roughness: 0.7, bumpMap: tx.web, bumpScale: 0.6 });
-    const strap = new Mesh(new RoundedBoxGeometry(0.034, h * 0.78, 0.012, 1, 0.004), mBlack); strap.position.set(0, 0, 0.006);
-    const wind = new Mesh(new CylinderGeometry(0.008, 0.008, 0.07, 10), mBlack); wind.rotation.z = Math.PI / 2; wind.position.set(0, -0.01, 0.02);
-    const tab = new Mesh(new RoundedBoxGeometry(0.036, 0.026, 0.01, 1, 0.003), new MeshStandardMaterial({ color: '#d1322a', roughness: 0.55 }));
-    tab.position.set(0, h * 0.39 - 0.01, 0.014);
-    tq.add(strap, wind, tab);
-    tq.position.set(w * 0.33, 0, front);
-    kit.add(tq);
-    kit.visible = false;
-    inner.add(kit);
-    p.kit = kit; p.tq = tq;
   } else {
-    const body = new Mesh(new RoundedBoxGeometry(w, h, d, 3, r), mat);
-    inner.add(body); hits.push(body);
-    // zamek na górze, uchwyt zamka i naszywka z rzepem z przodu
-    const zip = new Mesh(new BoxGeometry(w * 0.84, 0.008, 0.012), mZip); zip.position.set(0, h / 2 + 0.001, 0); inner.add(zip);
-    const pull = new Mesh(new RoundedBoxGeometry(0.016, 0.04, 0.006, 1, 0.002), mZip); pull.position.set(w * 0.4, h / 2 - 0.018, d / 2 + 0.004); inner.add(pull);
-    const patch = new Mesh(new RoundedBoxGeometry(w * 0.44, h * 0.3, 0.006, 1, 0.003), dark); patch.position.set(0, h * 0.06, d / 2 - 0.001); inner.add(patch);
+    // naszywka z rzepem i uchwyt zamka na klapie
+    const patch = new Mesh(new RoundedBoxGeometry(w * 0.44, h * 0.3, 0.006, 1, 0.003), dark); patch.position.set(0, h * 0.56, fd - 0.001); pivot.add(patch);
+    const pull = new Mesh(new RoundedBoxGeometry(0.016, 0.04, 0.006, 1, 0.002), mZip); pull.position.set(w * 0.4, h - 0.018, fd + 0.004); pivot.add(pull);
   }
+  // zamek dookoła szwu
+  const seam = new Mesh(new BoxGeometry(w + 0.004, 0.008, 0.01), mZip); seam.position.set(0, h / 2 - 0.004, front); inner.add(seam);
+  inner.add(pivot);
+  p.flap = pivot;
+  // Środek: jasne dno i rzeczy (układ zależy od zestawu, patrz layoutContents)
+  const kit = new Group();
+  const lum = new Color(hex).getHSL({ h: 0, s: 0, l: 0 }).l;
+  const lining = new Mesh(new PlaneGeometry(w * 0.92, h * 0.88), new MeshStandardMaterial({ color: light ? '#cfd0cb' : lum < 0.2 ? '#4a4e52' : shade(hex, 0.42), roughness: 0.95 }));
+  lining.position.set(0, 0, front + 0.001);
+  kit.add(lining);
+  const stuff = new Group();
+  stuff.position.z = front + 0.002;
+  const things = pouchContents(id, tx);
+  if (things.length) stuff.add(...things);
+  kit.add(stuff);
+  kit.visible = false;
+  inner.add(kit);
+  p.kit = kit; p.things = things;
+
   // Obrys wybranej saszetki
   const outline = new Mesh(new RoundedBoxGeometry(w, h, d, 2, r), new MeshBasicMaterial({ color: '#EA5A0C', side: BackSide }));
   outline.scale.setScalar(1.07);
@@ -919,7 +1087,7 @@ function buildPouch(id: string, hex: string, cross: boolean, tx: ReturnType<type
       const c = new Mesh(new CylinderGeometry(0.02, 0.02, 0.03, 16), mCap); c.position.y = 0.315;
       const lab = new Mesh(new CylinderGeometry(0.0445, 0.0445, 0.07, 22, 1, true), new MeshStandardMaterial({ color: '#2b6cb0', roughness: 0.6 })); lab.position.y = 0.14;
       b.add(bodyB, sh, c, lab);
-      b.position.set(x, -h / 2 + 0.02, 0);
+      b.position.set(x, -h / 2 + 0.02, -d / 2 + d * 0.29); // w tylnej części, żeby nie zasłaniały otwartej klapy
       bottles.add(b);
     }
     bottles.visible = false;
@@ -1073,34 +1241,11 @@ export function mountBag(o: BagOptions): BagHandle {
   let open = 0, openGoal = 0;
   const mouth = zip.mouth, mouthBase = mouth.userData.base as Float32Array;
   const topY = zip.body.hit([0, 0, -0.03], [0, 1, 0]).p.y;
+  /** Otwieranie: góra plecaka (klapa za zamkiem) odchyla się do tyłu na zawiasie, widać ciemne wnętrze */
+  let lid: Group | null = null;
+  const LID_ANGLE = 1.85;
   const updateZip = (e: number) => {
-    const travel = 24;
-    zip.pulls.forEach((m, k) => {
-      const f = zip.at[k] + zip.dir[k] * travel * e;
-      const i0 = Math.max(0, Math.min(zip.pts.length - 1, Math.floor(f))), i1 = Math.min(zip.pts.length - 1, i0 + 1), t = f - Math.floor(f);
-      const a = zip.pts[i0], b = zip.pts[i1];
-      const p = a.p.clone().lerp(b.p, t), n = a.n.clone().lerp(b.n, t).normalize(), tg = a.t.clone().lerp(b.t, t).normalize();
-      // uchwyt wisi „w dół” wzdłuż powierzchni, prostopadle do zamka
-      const down = new Vector3().crossVectors(n, tg).normalize();
-      if (down.y > 0) down.negate();
-      orient(m, p.addScaledVector(n, 0.004), down.negate(), n);
-    });
-    zip.gaps.forEach((m, k) => {
-      const segs = Math.round((Math.abs(zip.at[k] - Math.round((zip.at[0] + zip.at[1]) / 2)) + travel) * e);
-      m.geometry.setDrawRange(0, Math.min(m.userData.segs, segs) * 16 * 6);
-    });
-    mouth.visible = e > 0.01;
-    if (mouth.visible) {
-      const pos = mouth.geometry.attributes.position;
-      const ax = 0.3 * e, az = 0.12 * e;
-      for (let i = 0; i < pos.count; i++) {
-        const ux = mouthBase[i * 3], uz = mouthBase[i * 3 + 2];
-        const x = ux * ax, z = -0.03 + uz * az;
-        const y = zip.body.hit([x, 0.3, z], [0, 1, 0]).p.y + 0.005;
-        pos.setXYZ(i, x, y, z);
-      }
-      pos.needsUpdate = true;
-    }
+    if (lid) lid.rotation.x = -LID_ANGLE * e;
   };
 
   // Kotwice podpisów: punkt + kierunek w przestrzeni sceny
@@ -1118,6 +1263,71 @@ export function mountBag(o: BagOptions): BagHandle {
       if (h) a.p.copy(h.point).addScaledVector(a.n, 0.004);
     }
   }
+
+  /* ── Klapa: górę plecaka (nad LID_Y) przenosimy do osobnej grupy na zawiasie z tyłu; bryły, które przecinają
+     linię cięcia, rysujemy dwa razy z płaszczyznami przycinania (dół zostaje, góra jedzie z klapą) ── */
+  const clonePairs: [MeshStandardMaterial, MeshStandardMaterial][] = [];
+  const syncClip = (() => {
+    const LID_Y = 0.56, HINGE_Z = -0.16;
+    renderer.localClippingEnabled = true;
+    proc.remove(zip.mouth);
+    zip.gaps.forEach((m) => proc.remove(m));
+    const L = new Group();
+    L.position.set(0, LID_Y, HINGE_Z);
+    const lowLocal = new Plane(new Vector3(0, -1, 0), LID_Y), highLocal = new Plane(new Vector3(0, 1, 0), 0);
+    const clipLow = lowLocal.clone(), clipHigh = highLocal.clone();
+    const mats = new Map<string, MeshStandardMaterial>();
+    const clipped = (m: MeshStandardMaterial, high: boolean) => {
+      const k = `${m.uuid}|${high}`;
+      let c = mats.get(k);
+      if (!c) {
+        c = m.clone();
+        c.onBeforeCompile = m.onBeforeCompile; c.customProgramCacheKey = m.customProgramCacheKey;
+        c.clippingPlanes = [high ? clipHigh : clipLow];
+        mats.set(k, c); clonePairs.push([m, c]);
+      }
+      return c;
+    };
+    const skip = new Set<Object3D>([roll, solar, headlamp]);
+    const box = new Box3();
+    let bodyMesh: Mesh | null = null, bodyVol = 0;
+    for (const ch of [...proc.children]) {
+      if (skip.has(ch) || !(ch as Mesh).isMesh || (ch as InstancedMesh).isInstancedMesh) continue;
+      const m = ch as Mesh;
+      if (!m.geometry.boundingBox) m.geometry.computeBoundingBox();
+      box.copy(m.geometry.boundingBox!).applyMatrix4(m.matrix);
+      const mat = m.material as MeshStandardMaterial;
+      if (mat === built.mats.fabric) { const sz = box.getSize(new Vector3()); const v = sz.x * sz.y * sz.z; if (v > bodyVol) { bodyVol = v; bodyMesh = m; } }
+      if (box.min.y >= LID_Y - 0.002) { m.position.sub(L.position); L.add(m); continue; }
+      if (box.max.y <= LID_Y + 0.002) continue;
+      // tył (panel plecowy, szelki) zostaje w całości
+      if ((box.min.z + box.max.z) / 2 < -0.19) continue;
+      const top = new Mesh(m.geometry, clipped(mat, true));
+      top.matrix.copy(m.matrix); top.matrix.decompose(top.position, top.quaternion, top.scale);
+      top.position.sub(L.position);
+      L.add(top);
+      m.material = clipped(mat, false);
+    }
+    // wnętrze: ciemna podszewka (tył ścian korpusu) w dolnej części i pod klapą
+    if (bodyMesh) {
+      const lining = new MeshStandardMaterial({ color: '#202224', roughness: 1, side: BackSide });
+      const inLow = new Mesh(bodyMesh.geometry, lining.clone()); (inLow.material as MeshStandardMaterial).clippingPlanes = [clipLow];
+      proc.add(inLow);
+      const inHigh = new Mesh(bodyMesh.geometry, lining.clone()); (inHigh.material as MeshStandardMaterial).clippingPlanes = [clipHigh];
+      inHigh.position.sub(L.position);
+      L.add(inHigh);
+    }
+    // uchwyty zamka zostają na klapie w miejscu startowym
+    proc.add(L);
+    lid = L;
+    const nm = new Matrix3();
+    return () => {
+      proc.updateMatrixWorld();
+      clipLow.copy(lowLocal).applyMatrix4(proc.matrixWorld, nm.getNormalMatrix(proc.matrixWorld));
+      clipHigh.copy(highLocal).applyMatrix4(L.matrixWorld, nm.getNormalMatrix(L.matrixWorld));
+    };
+  })();
+  scene.onBeforeRender = () => syncClip();
 
   const controls = new OrbitControls(camera, o.canvas);
   controls.enableZoom = false;
@@ -1370,17 +1580,18 @@ export function mountBag(o: BagOptions): BagHandle {
       const lT = sel === pc.id ? 1 : 0;
       if (pc.lift !== lT) { pc.lift = instant ? lT : lT > pc.lift ? Math.min(1, pc.lift + dt / 280) : Math.max(0, pc.lift - dt / 280); moving = true; }
       const le = easeOutBack(pc.lift);
-      pc.inner.position.set(0, 0.07 * le, 0.09 * le);
-      pc.inner.scale.setScalar(1 + 0.07 * le);
+      // otwarta saszetka wysuwa się do przodu i rośnie, żeby było widać, co jest w środku
+      const oe = easeInOut(pc.kitOpen);
+      pc.inner.position.set(0, 0.07 * le - 0.04 * oe, 0.09 * le + 0.16 * oe);
+      pc.inner.scale.setScalar(1 + 0.07 * le + 0.3 * oe);
       pc.outline.visible = pc.lift > 0.05;
-      // apteczka: klapa się otwiera, gdy saszetka jest wybrana
+      // każda saszetka: klapa się otwiera, gdy saszetka jest wybrana, w środku widać jej rzeczy
       if (pc.flap) {
         const kT = sel === pc.id && pc.p > 0.98 ? 1 : 0;
         if (pc.kitOpen !== kT) { pc.kitOpen = instant ? kT : kT > pc.kitOpen ? Math.min(1, pc.kitOpen + dt / 520) : Math.max(0, pc.kitOpen - dt / 380); moving = true; }
         const ke = easeInOut(pc.kitOpen);
         pc.flap.rotation.x = 1.72 * ke;
         pc.kit!.visible = pc.kitOpen > 0.01;
-        pc.tq!.visible = props.tourniquet;
       }
       if (pc.bottles) {
         const bT = props.bottles ? 1 : 0;
@@ -1503,6 +1714,7 @@ export function mountBag(o: BagOptions): BagHandle {
       m.velcro.map = null; m.velcro.color.copy(shade(c.hex, 0.72));
     }
     for (const mm of [m.fabric, m.web, m.back, m.velcro]) mm.needsUpdate = true;
+    for (const [b, c] of clonePairs) { c.map = b.map; c.color.copy(b.color); c.needsUpdate = true; }
     redraw();
   };
 
@@ -1520,6 +1732,8 @@ export function mountBag(o: BagOptions): BagHandle {
     setExtras(x) {
       ex.roll.goal = x.roll ? 1 : 0; ex.solar.goal = x.solar ? 1 : 0; ex.lamp.goal = x.headlamp ? 1 : 0;
       props.bottles = !!x.bottles; props.batteries = !!x.batteries; props.tourniquet = !!x.tourniquet;
+      const kitIds = new Set(x.items || []);
+      for (const pc of pouches) if (pc.things) layoutContents(pc.things, kitIds, pc.size[0], pc.size[1]);
       if (o.reducedMotion || !running) { ex.roll.cur = ex.roll.goal; ex.solar.cur = ex.solar.goal; ex.lamp.cur = ex.lamp.goal; applyExtras(); redraw(); }
     },
     select(id) {
