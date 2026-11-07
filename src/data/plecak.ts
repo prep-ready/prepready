@@ -11,7 +11,9 @@
  * - `outside: true`: rzecz jest przypięta NA ZEWNĄTRZ plecaka (czołówka na szelce, śpiwór i plandeka pod spodem),
  * - `produkt`: przykładowy produkt z ceną. `cena: null` = „cena wkrótce”. `partner: true` = producent jest naszym partnerem
  *   (wtedy znika dopisek „Miejsce dla producenta”),
- * - `partner` (stare pole, marka): ten egzemplarz jest już w naszym plecaku testowym (pasek „Co już mamy”).
+ * - `partner` (stare pole, marka): ten egzemplarz jest już w naszym plecaku testowym (pasek „Co już mamy”),
+ * - `replaces`: id rzeczy, którą ta zastępuje (lepsza wersja tej samej rzeczy, np. duży powerbank zamiast małego).
+ *   Gdy obie są w zestawie, liczy się tylko ta lepsza; zaznaczenie jednej odznacza drugą.
  */
 
 export type BagLevel = 'basic' | 'extended' | 'pro';
@@ -74,6 +76,8 @@ export interface BagItem {
   model?: string;
   /** Przykładowy produkt z ceną */
   produkt?: BagProduct;
+  /** Zastępuje tę rzecz (id): w zestawie jest tylko jedna z nich */
+  replaces?: string;
 }
 
 export const bagVersions: { id: BagVersionId; slug: string; name: string; gen: string; desc: string }[] = [
@@ -127,8 +131,8 @@ export const bagItems: BagItem[] = [
   { id: 'elektrolity', cat: 'woda', level: 'extended', name: 'Elektrolity',
     why: 'Uzupełniają sole przy upale, dużym wysiłku i biegunce.',
     produkt: { nazwa: 'Plusssz tabletki musujące Elektrolity, 24 szt.', marka: 'Plusssz', cena: 13.99, url: 'https://www.rossmann.pl/Produkt/Elektrolity/Plusssz-tabletki-musujace-Elektrolity-suplement-diety-24-szt,264656,19073', sklep: 'Rossmann', sprawdzono: '2026-11-07' } },
-  { id: 'filtr-pro', cat: 'woda', level: 'pro', name: 'Filtr wysokowydajny',
-    why: 'Szybciej filtruje więcej wody, gdy korzysta z niego cała rodzina.',
+  { id: 'filtr-pro', cat: 'woda', level: 'pro', replaces: 'filtr', name: 'Filtr wysokowydajny',
+    why: 'Zamiast słomki: szybciej filtruje więcej wody, gdy korzysta z niego cała rodzina.',
     produkt: { nazwa: 'Butelka z filtrem Katadyn BeFree Filter AC 1 l, slate blue', marka: 'Katadyn', cena: 224.99, url: 'https://sportano.pl/p/614166/butelka-turystyczna-z-filtrem-katadyn-befree-filter-ac-1-l-slate-blue', sklep: 'Sportano', sprawdzono: '2026-11-07', uwaga: 'promocja' } },
 
   // ── Pomarańczowa: Jedzenie ────────────────────────────────
@@ -160,8 +164,8 @@ export const bagItems: BagItem[] = [
   { id: 'apteczka', cat: 'apteczka', level: 'basic', name: 'Apteczka podstawowa',
     why: 'Opatrunki, plastry, rękawiczki i środek do dezynfekcji na drobne urazy.',
     produkt: { nazwa: 'Apteczka wodoodporna Medaid Typ 200, 16 elementów, czarna', marka: 'Medaid', cena: 129, url: 'https://www.specshop.pl/product-pol-32505-Medaid-Apteczka-wodoodporna-Typ-200-16-elementow-Czarna.html', sklep: 'SpecShop.pl', sprawdzono: '2026-11-07' } },
-  { id: 'apteczka-pro', cat: 'apteczka', level: 'pro', name: 'Apteczka rozszerzona ze stazą taktyczną',
-    why: 'Na silne krwawienia i poważne rany, gdy pomoc dociera później.',
+  { id: 'apteczka-pro', cat: 'apteczka', level: 'pro', replaces: 'apteczka', name: 'Apteczka rozszerzona ze stazą taktyczną',
+    why: 'Zamiast podstawowej: opatrunki na poważne rany i staza na silne krwawienia, gdy pomoc dociera później.',
     produkt: { nazwa: 'Apteczka taktyczna IFAK - Indywidualny Pakiet Medyczny IPMED (czarny), z opaską zaciskową CAT', marka: 'AEDMAX', cena: 584, url: 'https://aedmax24.pl/pl/p/Apteczka-Taktyczna-IFAK-Indywidualny-Pakiet-Medyczny-IPMED-czarny/1125', sklep: 'aedmax24.pl', sprawdzono: '2026-11-07' } },
 
   // ── Żółta: Światło i zasilanie ────────────────────────────
@@ -178,9 +182,9 @@ export const bagItems: BagItem[] = [
   { id: 'latarka', cat: 'swiatlo', level: 'extended', name: 'Zapasowa latarka',
     why: 'Gdy czołówka się zgubi albo rozładuje, nie zostajesz po ciemku.',
     produkt: { nazwa: 'Latarka akumulatorowa VA0116 800 lm', marka: 'Vayox', cena: 45, url: 'https://vayox.pl/produkt/va0116/', sklep: 'vayox.pl', sprawdzono: '2026-11-07' } },
-  { id: 'duzy-powerbank', cat: 'swiatlo', level: 'pro', name: 'Duży powerbank',
-    why: 'Kilka pełnych ładowań telefonu i radia. Mały zostaje pod ręką w kieszeni.',
-    produkt: { nazwa: 'Powerbank VA0341 20000 mAh 20 W', marka: 'Vayox', cena: 84.9, url: 'https://vayox.pl/produkt/powerbank-va0341-20000mah-20w/', sklep: 'vayox.pl', sprawdzono: '2026-11-07' } },
+  { id: 'duzy-powerbank', cat: 'swiatlo', level: 'pro', replaces: 'powerbank', name: 'Duży powerbank z kablem',
+    why: 'Zamiast małego: kilka pełnych ładowań telefonu i radia, gdy prądu nie ma przez kilka dni.',
+    produkt: { nazwa: 'Powerbank VA0341 20000 mAh 20 W + kabel USB-C/USB-C 1 m VA0105', marka: 'Vayox', cena: 104.8, url: 'https://vayox.pl/produkt/powerbank-va0341-20000mah-20w/', sklep: 'vayox.pl', sprawdzono: '2026-11-07', dodatkowe: ['https://vayox.pl/produkt/kabel-usb-c-usb-c-bialy-1m-va0105-vayox/'] } },
   { id: 'solar', cat: 'swiatlo', level: 'pro', outside: 'na MOLLE kieszeni przedniej', name: 'Składany panel solarny',
     why: 'Doładuje powerbank w ciągu dnia, gdy prądu nie ma przez wiele dni. Kabel jedzie w żółtej saszetce.',
     produkt: { nazwa: 'Ładowarka solarna Sunen PowerNeed ES-5, składana, 18 W, 2× USB', marka: 'Sunen PowerNeed', cena: 287.98, url: 'https://www.morele.net/ladowarka-solarna-sunen-powerneed-es-5-5860627/', sklep: 'Morele.net', sprawdzono: '2026-11-07', uwaga: 'ostatnie sztuki' } },
@@ -240,11 +244,18 @@ export const bagItems: BagItem[] = [
     produkt: { nazwa: 'Okulary ochronne Bolle Safety COBRA, przezroczyste (COBPSI)', marka: 'Bolle Safety', cena: 49, url: 'https://www.specshop.pl/product-pol-12502-Bolle-Safety-Okulary-ochronne-COBRA-Przezroczysty-COBPSI.html', sklep: 'SpecShop.pl', sprawdzono: '2026-11-07' } },
 ];
 
+/** Zostawia tylko rzeczy, których nie zastępuje inna rzecz z tej samej listy (apteczka podstawowa znika przy rozszerzonej). */
+export function withoutReplaced<T extends BagItem>(list: T[]): T[] {
+  const ids = new Set(list.map((i) => i.id));
+  const gone = new Set(list.filter((i) => i.replaces && ids.has(i.replaces)).map((i) => i.replaces!));
+  return list.filter((i) => !gone.has(i.id));
+}
+
 /** Rzeczy w standardzie danej wersji (Własny = wybór czytelnika, więc tu pusta lista). */
 export function itemsFor(version: BagVersionId): BagItem[] {
   if (version === 'custom') return [];
   const max = levelOrder.indexOf(version);
-  return bagItems.filter((i) => levelOrder.indexOf(i.level) <= max);
+  return withoutReplaced(bagItems.filter((i) => levelOrder.indexOf(i.level) <= max));
 }
 
 /** Odmiana: 1 rzecz, 2 rzeczy, 5 rzeczy. */
