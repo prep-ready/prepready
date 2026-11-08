@@ -2,9 +2,9 @@
   "_comment": "Aktualizuje scripts/update-data.mjs codziennie. pl = Polska, en = świat. Składowe z mode=manual ustawiasz ręcznie.",
   "pl": {
     "sample": false,
-    "updatedAt": "2026-11-08T19:13:33.177Z",
-    "score": 30,
-    "delta7": 2,
+    "updatedAt": "2026-11-08T23:13:40.770Z",
+    "score": 31,
+    "delta7": 3,
     "ago30": 26,
     "history": [
       26,
@@ -36,14 +36,14 @@
       29,
       23,
       26,
-      30
+      31
     ],
     "components": [
       {
         "id": "conflict",
         "name": "Konflikt w regionie",
         "weight": 30,
-        "value": 42,
+        "value": 44,
         "sources": "GDELT · Google News",
         "trend": [
           33,
@@ -53,7 +53,7 @@
           13,
           20,
           13,
-          42
+          44
         ],
         "mode": "auto",
         "raw": [
@@ -254,9 +254,9 @@
   },
   "en": {
     "sample": false,
-    "updatedAt": "2026-11-08T19:14:54.678Z",
-    "score": 27,
-    "delta7": -13,
+    "updatedAt": "2026-11-08T23:14:38.796Z",
+    "score": 33,
+    "delta7": -7,
     "ago30": 39,
     "history": [
       39,
@@ -288,14 +288,14 @@
       19,
       24,
       26,
-      27
+      33
     ],
     "components": [
       {
         "id": "conflict",
         "name": "Global conflict",
         "weight": 30,
-        "value": 41,
+        "value": 42,
         "sources": "GDELT · Google News",
         "trend": [
           47,
@@ -305,7 +305,7 @@
           14,
           30,
           17,
-          41
+          42
         ],
         "mode": "auto",
         "raw": [
@@ -407,7 +407,7 @@
           17,
           10,
           12,
-          14
+          16
         ],
         "stale": false
       },
@@ -455,7 +455,7 @@
         "id": "cyber",
         "name": "Cyber & infrastructure",
         "weight": 15,
-        "value": 9,
+        "value": 44,
         "sources": "GDELT · Google News",
         "trend": [
           40,
@@ -465,7 +465,7 @@
           5,
           7,
           48,
-          9
+          44
         ],
         "mode": "auto",
         "raw": [

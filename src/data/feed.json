@@ -4,6 +4,16 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-11-08T20:18:43.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQjNnZ0dtdjFqeXRTZ21WdTRVZVZNMGYwRkhQMGg3TzVHOFhuS2F1YThDVFlpeVN4NzdsZFJnaXhodVA3UFhPbV9zU1VfQWpoMENLNTBQZ1Y4cmgwZWVkUVlFaU5Vd3VUOHpVQVFWRGptRXdHemJUTHk3a3BsVWIyYTFRVk5rY1BKcEd4SzVldGxLbV9sdDg0ZkM3dEotYlZ5LVdNQk1QZkFfZEd2WWM5THlR?oc=5",
+        "title": "\"Polska straciła ten status\". Szwedzki dziennik pisze o zamachu w Krakowie",
+        "official": false,
+        "forYou": ""
+      },
+      {
         "at": "2026-11-08T16:16:05.000Z",
         "cat": "safety",
         "sev": 2,
@@ -54,6 +64,16 @@
           "href": "/pl/mapa-schronow/",
           "label": "Mapa schronów"
         }
+      },
+      {
+        "at": "2026-11-08T13:08:29.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "TOK FM",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbVp1eFptOTJiNlhMeVpGVkhUVks3LTNReXBwZEM3ZUFZQm9TMmhlMnlwUDRCR0Y2VXZ4MzBkMEZJc3FuUmh3TjNfSHNXdGlyQkYyaHFaN2Zia2pyTGI4ZnZBM0thTTEyN2ZyaDYyOXNFOWd4akFmam80QU9Qc3RHNHJQODFkNkJMODVOaXRON2xoUnFsVmxXMnJpUXkwek5Vdy1sdDFWQk9fM19PeC1OQjc3Y0xvODlYRVZDbkRvYlJHOFJ6SUE?oc=5",
+        "title": "Strzelanina w Krakowie. \"To nie tak, że dwóch chirurgów z pełnymi brzuchami poszło ratować\"",
+        "official": false,
+        "forYou": ""
       },
       {
         "at": "2026-11-08T12:59:22.000Z",
@@ -198,33 +218,23 @@
         "title": "Nieoficjalne ustalenia. Wiemy, kim jest sprawca zamachu w Krakowie",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-07T16:00:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Rzeczpospolita",
-        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNYllrS3BNWW81cG1WUGZySXNMcGhhX1FVNkNpTHAzNWFfdTlfdWtkUWNzOFBHWGJpZllGcFNzZlA3TjAyRGJfZkpzMndwLU0tM21pV1dkaFh2QnJfSUVRM2EzbENuTG1SQ0xlOEZ1MFhvUHVlMTZoOVlNek80cU9oUzA5OXFJSUkwUTFOX2FCQ3VzVUNCNnJkZTR3c1VSbGNlckxmUklLTWZrWVpEUC1ENFpndTlpa21qNl9IZmVQdGNVUTVONEhlR3lUTWJZTk04dDdLMXJ3WHNIX1ZRZW0wck9n?oc=5",
-        "title": "Wojsko nie chce kupować obietnic, czyli jak polska firma przegrała ważny kontrakt",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-07T15:53:22.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "Money.pl",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdmE1Z0dpTHlNMnFURW00MzVUdzJXUkhMNEFtNW9MSHgyLUJabVlGYUhfNGdVQXI4cU5fSDRCN0tFVUdSbXJCVlp5OWxzMDd0S2lzVENUYUc5RFBqYXdCcGhBZTFjcUhpS2F2UkJBSUxtcldqMXV2WWdUbVI4NDdxUm9qTWlDRlpQVEpCM2kyTlZXU0dhWWJqVndpYXZVMWljQmhXZHdGU0ExM0dCVzd1ZWs2alB5azU4?oc=5",
-        "title": "Strzelanina w Krakowie. W Polsce jest już ponad milion sztuk broni",
-        "official": true,
-        "forYou": "Jeśli jesteś w pobliżu: uciekaj, a jeśli nie możesz, ukryj się i wycisz telefon. Dzwoń pod 112, gdy będzie to bezpieczne. Unikaj okolicy i nie powielaj niesprawdzonych nagrań."
       }
     ],
-    "updatedAt": "2026-11-08T19:13:33.182Z"
+    "updatedAt": "2026-11-08T23:13:40.774Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-08T21:37:36.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA3VFhjNFMxVXpNZWhoTnJhcEs4clhMM3BveHNLUkpSUGhubGF5VDdWemd5aTVWLVY1aWNoT1l2Tm5kTWczXzVCTUoyMjJXcGtFdXVzZjgxcHVrYzg?oc=5",
+        "title": "Aramco Tower hit in heart of Saudi capital as Houthis launch fresh strikes",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-08T19:01:45.000Z",
         "cat": "security",
@@ -242,6 +252,16 @@
         "source": "The Daily Telegraph",
         "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOeXhsR0dfY0x5Qjc5R1FBd1A0bVRpamVpU19la0hhTlJNcmVXLUZac0NwdlJzeUdFTDhMS2hqV3lqRmFGa1dxWGpTUER4MzFJX0NaeEw0eVBTckx3Szg5ZXRqQ3EwY2doeEVzenNsTmpqbmZaV2R4YTN4VXZ4RDRXTy1ubTVVMTlQTU4tOTB5N08wUkdwLTBaZmtySGZWdU9TVndRbHZUaFpXVWZoTXpyU2dsazBKZnkzaTlubG9tb3JOQjRFd0paYXQ5dEV6NGNhREdSMlcxeVlHZWJoNC1CZ0hYSzhPajR6aXNWY1AtTFp0N1FDdElXTk1Fa1Y5cFJS?oc=5",
         "title": "Millions of households: Snowy 2.0 delay sparks fresh blackout fear",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-08T15:53:09.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Tekedia",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQaEFKeTVZZlVmR0FvRWxEUlVCTHo4OENqaUtBb0hCRk5nUURwNExHdnJidDRqQXFZdDdMR2RtZ0xULWQ0djFRRXRSbnF4UmNCLVhKYnJzeHNWVkhzZjd2VWhwLTZLOEJkSVV1TU5IUVRmUzJQZFotbmVxb1YzTC0zWWR4M1RmOWZhaXhhQ0NNb1ZNVVcwVk1xaHZkd3FCZXV4V05Z?oc=5",
+        "title": "Cyberattack Targets Company Behind Austria-Italy Brenner Base Tunnel Project",
         "official": false,
         "forYou": ""
       },
@@ -302,16 +322,6 @@
         "source": "The Nation Newspaper",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdU5hT3UzZ3NxWnZMdFhPckRXdFdjcktYMnlNVExaRGRlZktxenBrcmNKYnpINFdZbzNCU0RQUEl5WTFta3RvSGF1VWNrbzdNUjRCbXpnU0R1QkhCUGVyc3I0a0dXbWI4WmIyUGU1VnZ4UHpqcndsZkRTcDVLMkJOclo4d2NNUUcySVlOa1NzNTF1UEdEWUcyRtIBngFBVV95cUxQMHdDWkFuYmlSLTNhYUx6b0ZHQkxTeWVsRG81dlQyYVcyUkgtMGhpaWV2RHpWTEdPVnI4SE1yZDc0TGw3d01BeUpZQnZuOUdlWE1scFV5SUdiNXBKbGNuQ3plVXJxWEFrVFZOVGd5SFhlRE5YRmpMMlo3X3U1d3pOSG1GUWJXaTEzOUpackIyU0loZE1CR1ZMZGtZOXFmZw?oc=5",
         "title": "Blackout: We’ll restore electricity supply within 72 hours – Tegbe",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-08T04:03:12.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "BBC",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE01Z21MaS1UMnZrUWRfSE8zM2x0NnVrVkRaYXJiQ1lMVWJJWjZtRGpLWm9rcFljaWVNVm9VRWExbUxOZUV3WUJQNEd0Sm5ZZXBFdnkwRldXTTN3OTA?oc=5",
-        "title": "Houthis say at least 33 killed in Saudi air strike",
         "official": false,
         "forYou": ""
       },
@@ -414,18 +424,8 @@
         "title": "Rosstat cyberattack delays major Russian economic reports through at least Nov. 13",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-07T09:48:11.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The Sun",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSW5QdlZxUE54YmRTQ3FLX3NlUW1iOEk0c2lZMzZCU2NZekh2a0tqRktBM25yNVY5cGxTNDJ5UkwySnR4anJweVZSUkNxUlFSWjhOUWZtS19vMjdrcVVWbndkeUFkaUtwZDRLUk13Uy1RWjZzNkNNdnAzR1d1U3R0Z2hhS2I?oc=5",
-        "title": "Putin unleashes ballistic missile barrage on Kyiv as school & bridge blitzed",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-08T19:14:54.679Z"
+    "updatedAt": "2026-11-08T23:14:38.797Z"
   }
 }
