@@ -4,12 +4,32 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-11-08T00:02:13.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOckdMOWcxblRMN3hveHhmUXg5Rk1OeW9qZTU5SXg5Y0N3N1R5emhoTXl0aFZFclI3ZXA2b0VOcHJuSndmSlNqX2M5SHVtUVUwNkI2WUZIQkNrazhubUZtMXNaN2RidXBGUnBDZUxaOS1VVEZZUWFULWNmVkhCQmt2bzhfOTloZ2F5MDQ4S0lIaTNPMG1VSDU1QzhNbmxTbzBoNmRDMGZldFlyQQ?oc=5",
+        "title": "Służby w mieszkaniu strzelca z Krakowa. Nowe informacje z Ostrowca Świętokrzyskiego",
+        "official": false,
+        "forYou": ""
+      },
+      {
         "at": "2026-11-07T23:38:30.000Z",
         "cat": "safety",
         "sev": 3,
         "source": "Wiadomości Onet",
         "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdEhoTldTcENpS0lZMk54VzhIcmowN1otcERLZTE2NWY0Q1pIX3o4MDlwTXAyX194ZUlLRWJxRUc0d3d3c1RjZU9ZTUs2N18xWG9JeGx1ekxKS2MxMzhMczY0ZUUycUIzYlg2MG5iVFI2S2ZuX3gzUG05TlB0WkVPU29WZzJJUkZCSGJMWkF2aEJKdmNSV1FfeUZn?oc=5",
         "title": "Świat śle kondolencje. Przywódcy reagują na atak w Krakowie",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-07T23:38:00.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "TVP Info",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPRmFYM255cUdzc3JodFVZaV8wak1wWmxkcWhGRFBCY0xDVDUyTC04dHAwU3ZSczNpT2pJZVotM3FXLXRMUWl0dEFyZEFmelFUaUN1Q2c2c3NXc0lIRmhKZkdBZkFrbjZUQVctTVpxZGNCM3hPZ0VKYU10aUFYVGZNejlMOGNOanNnc0lGb2Q0bElDdkI3M2VIYzgyckxENnNtLWFSR2g0clQxSi1oQ1gycjJmZjdwdDdmcHhXUA?oc=5",
+        "title": "Żałoba narodowa w całej Polsce po zamachu w Krakowie",
         "official": false,
         "forYou": ""
       },
@@ -198,41 +218,53 @@
           "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
           "label": "Alert RCB i aplikacja RSO"
         }
-      },
-      {
-        "at": "2026-11-05T22:00:00.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "Portal Samorządowy",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZW5OYk5HU3l3eFU1T1JLZF9FUDhCOUNwMDZHZmJlNG1DT0paRUFiSUZTMEVYaUVnVDRVLTNNWlZZQmJmaWpyc2UtN09BVWExa2NkbTdGa3JoVkVwRnNjOWVKb3FXMEVTVXZIekNpMmpCamNHSDFZY2k4Ml9ucHZ2QkZhQ1NiZ2haVUEwNndyMWp0aTZpbVFDZjYwRG5FWEYwMlc1ak9JdUVKSTluNGJpRUJpSnRXS1ZpUVJvX3dZaF9VdXl4NWUyM1o4LW5Ndw?oc=5",
-        "title": "Szkoły dostały instrukcje. Uczniowie i nauczyciele będą ćwiczyć reakcje na ataki",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/poradniki/bezpieczenstwo-dziecka-w-szkole/",
-          "label": "Bezpieczeństwo dziecka w szkole"
-        }
-      },
-      {
-        "at": "2026-11-05T15:16:50.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "WP Wiadomości",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVnczM1RVMVpQRmQ2Qmx4OFBld1ZiT2MzZWxiaWg4Q21hSzZMbGZDcm5fQkstOUNJZjl5VU1zdl9fR2k4SFdMNG81eTZqNm94d29HbGh6M2JVX1ZiYW5uZy1hLWFkNUJyVEY3bE9Rc3JxdDE0dmxCTXBfTmlIcTJHNElsa1EzcUsyOVAyRy02d3ZnNFlPX2NFb1dXcGNhanlN?oc=5",
-        "title": "Samolot LOT-u zatrzymany przed startem. Jest nagranie z ewakuacji",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/poradniki/plan-ewakuacji-rodziny/",
-          "label": "Plan ewakuacji rodziny"
-        }
       }
     ],
-    "updatedAt": "2026-11-08T00:02:33.694Z"
+    "updatedAt": "2026-11-08T06:46:33.468Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-08T04:48:10.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "The Nation Newspaper",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdU5hT3UzZ3NxWnZMdFhPckRXdFdjcktYMnlNVExaRGRlZktxenBrcmNKYnpINFdZbzNCU0RQUEl5WTFta3RvSGF1VWNrbzdNUjRCbXpnU0R1QkhCUGVyc3I0a0dXbWI4WmIyUGU1VnZ4UHpqcndsZkRTcDVLMkJOclo4d2NNUUcySVlOa1NzNTF1UEdEWUcyRtIBngFBVV95cUxQMHdDWkFuYmlSLTNhYUx6b0ZHQkxTeWVsRG81dlQyYVcyUkgtMGhpaWV2RHpWTEdPVnI4SE1yZDc0TGw3d01BeUpZQnZuOUdlWE1scFV5SUdiNXBKbGNuQ3plVXJxWEFrVFZOVGd5SFhlRE5YRmpMMlo3X3U1d3pOSG1GUWJXaTEzOUpackIyU0loZE1CR1ZMZGtZOXFmZw?oc=5",
+        "title": "Blackout: We’ll restore electricity supply within 72 hours – Tegbe",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-08T04:03:12.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE01Z21MaS1UMnZrUWRfSE8zM2x0NnVrVkRaYXJiQ1lMVWJJWjZtRGpLWm9rcFljaWVNVm9VRWExbUxOZUV3WUJQNEd0Sm5ZZXBFdnkwRldXTTN3OTA?oc=5",
+        "title": "Houthis say at least 33 killed in Saudi air strike",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-08T02:13:50.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Institute for the Study of War",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObGI2Y05zVlYxdTlfSjFmejdOZ3VDc0RIQzNjSmFuMUZMX05BY2NZLWd2a25mY05YUE1ZODFUdHliMjVKZ21zMFBXSkkyWmNKdElES1o3OF9INXdOY3o2NW82NEo3Y2R5bWNPSjRhejNQRVE2UjBFYVFWZUJLTU91RWNDNFBwNGlvb2xCOUlZcHQ4TVNZd2RzOU5kb3lETlVQNkVCdGp0QlZITFE?oc=5",
+        "title": "Russian Offensive Campaign Assessment, November 7, 2026",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-08T00:57:31.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "reflector.com",
+        "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPeXh3U0NSNl82VGtxRFAtQS02R3UxVmZ3YjBrWjZEdDdEaTFlb0ZSVDFaSEo0b3kybjZqaE1NS2JIX2Q4SGsxLTE0bTYyMVlWbUczYXUzNWU3eXAzdWxsV0g1Xzh1WkZOS1dxaG5ad2xONDBxNzRwWFRFNE1nZWlXd256c2xTX0FITW9CSDFxU2t6TDBoU1BSVE1CX0swT3pkR2xkSUVmZU5HaERkWWYyXzYzbDEwalpPMGVGVURlYV9nZlBaRU1Dc3VEem5ES2pDZ2UyYUdhd0hXRTJDTUZ0STMycm1KUmVEZ25OeTdEOFgtWnl2OVpiVE9vUEhGU1hfOTdIbVdvNA?oc=5",
+        "title": "Drone and missile attacks wound 9 in Ukraine as country prepares for talks with Russia and US",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-07T21:19:15.000Z",
         "cat": "energy",
@@ -244,32 +276,12 @@
         "forYou": ""
       },
       {
-        "at": "2026-11-07T19:26:58.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Times Now",
-        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQUTZMNlowS0VZYjNyQW43S3owb0x2MDhfLWtZZjNTZElZZ19MaXBlcW1HcEctNjNuTVMxZW5mTUVZbFh1dXI0bFRHbEYtRW5iX21jM1J4SDBFcTNKaWkyWU1TdXlRQ2VrZjZjYnY5eEVILWdFbzZpd1U5T1dhanlXS2pnWlRsSTQ1bXFKTHVhVXNJV050cmpMRU5Od054WlZOTTB3RlBuS05oZktMNGdFSmxMVXV3UzZ3bzJYX1VMYklPNzN6bVZDVm12My1qNXl2VnNOUDRrMjFKNHR6bG42VEJLMXpxZDNIY2tMNGhqNU1QeFVORjNN0gH8AUFVX3lxTE9oQllORFJHNmFoOXdYY0VRYWZZaTBjUFUyTWF3XzV5OEY2TDByUkhnMW1sb01BZmVXOFl4VHdORXlmTkZJRkwxSnUzMmJGMng1UEdoTjNkdmsyaUNYbnB4MjlseW9Ic1FJdU9Ya0hHMG44SFc1ZGdBY1JTYllEd2VRQS00ek9VSDhmWHlIdzE1WjJGRnY2SHdIY0JfcW0wR0hUYW5GVDNhc0ZDZFA5Wk9tNzcyOUpobUYxaG9RZTNJOExYRmhIbjM4WWQyODB5T1UxbHFPSGRQdnJ5MDd1djkyQlFCUTJfSzlrZzdUb1lpQ0dBY194b3doT1ZZUA?oc=5",
-        "title": "Saudi-Houthi War Erupts Again: 25 Dead in Yemen Strikes, Riyadh Oil Sites Targeted",
-        "official": false,
-        "forYou": ""
-      },
-      {
         "at": "2026-11-07T19:17:55.000Z",
         "cat": "security",
         "sev": 2,
         "source": "Iran International",
         "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1rUS05U0JMUUIxWWR4YjN1bm93S1c5aFlhZXkwWTNSczYxYlU3cXhsbzd6OGFDR3ZXQVhkZmRucUQtRTFlLUl5d0RpLV80b1dsSVE?oc=5",
         "title": "Iran says missiles no longer bound by range limits",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-07T18:10:08.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Yahoo News Canada",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5aMjNzWjFVYnJlc192MERaQ0VZZHNfUHM3ZU1xV0RzVWZ0NmZ0OHVhdUVXM05JMHN4dExXc3hZVDZaNEo3dE9WcFFDQUFvZVhlN3dGOVBDVks2d1c3cUdDTnBrTmJZMmhScjc5OUozTzIwN0ZmcXhTcg?oc=5",
-        "title": "Missiles target Kyiv and wound 9 as Ukraine prepares for talks with Russia and the US",
         "official": false,
         "forYou": ""
       },
@@ -324,6 +336,16 @@
         "forYou": ""
       },
       {
+        "at": "2026-11-07T12:20:00.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Briefs Finance",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNDI2N0oydlBnd3RrRmkwdmFLc0lsYXN5S3cwX0hHSmhWb3J0RTBvTFVUUWJiaXlWd3BnSUNzZzh0U3Bhcm4yN21rbWZwNHkwZllabnZDX0lUa0pxaS00Wi1JYTNIdXdHeWhmWFBUS2QyWFJrbkt2WHFmUzZyWUxMVnNoalVXUFBaRWR0Vmo5WmpOUQ?oc=5",
+        "title": "Rosstat cyberattack delays major Russian economic reports through at least Nov. 13",
+        "official": false,
+        "forYou": ""
+      },
+      {
         "at": "2026-11-07T09:48:11.000Z",
         "cat": "security",
         "sev": 2,
@@ -340,16 +362,6 @@
         "source": "The Times of India",
         "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQRi15OHZQcWZqODNvVUY3dGlSTHlKQ0JoVWg4a3B5NXlFUU04LVRjcUZ2eUFLUGxuaEZUWmpKMDVEc2pVZVJmeVNyRnVIWVJnT2Y0Sy04bXNnUmtqVXVJTjhOaldLbG5Jck16akE5bFU3aGF1aVdaUGl3QVJzc2lETW1meGFscndUNFJJNllyVUlXci16ekhZUU53NWZlNTVydl90UENUZW1ia2NURGM4Nk96Vnk4SnlzNy1hbGhWWDM5cHNZcFRuUEMwb1FkNm5pZWJMV3hyYXFnMVNBeDU4Q1Ata1RTalEydVkxMWtpU3EyMDFvRVNnOXprenROQdIBgwJBVV95cUxNV3R0dmVZaG5yTUllVUZTZE1qRENhZWhmNlgwbnpZU280OTY3NUNTaHRoa2JGSi1YcUg3ZmxFRlo4RVowa184R2w2bzN5N0ZtTjR3NFUwaVMtX09KMXVrbWNlcWpJV0hsV2xEUk8wc1A4MDNKYlFsUEJ5RFh5UHNKbWxCSjgxaGhsQzVHeW1aWlBhcjlqN180N2dHZWtjTXhfbk1OUHQ0Zkh0ZFRERHlSZVgyS280RG5NcnE4SS1ockw2cmxpcXBvOVU4MWJOWVV0ODJrbXJySGZ1dFk5N0VldFEycXVSNDZGTmVXVDFPSnNtWURvcmJselEyTF8zTElkMVVz?oc=5",
         "title": "Putins Devastating Energy War On Kyiv; Ukraine Capital Paralysis Amid Widespread Blackout",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-07T08:52:34.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTkVTV3NVWmJXQXU5T1pKdWZEcVVtaDRraFV0UnNpWVhxdzlCWGlLUWZtQThXcHJuZ3hSYzgxNjNVVU10Q25pMHZCRS10Z2o3WkNfMWJnVG96bEFKQS1HbmlVc0pvYUxMVE5fNlAzZThVdV9lRU1MUnJyMzdHRzJpSXFNMXQxU2h0RTFFMi1TMGNzclBQd0xiWXJ2ZTZLbHNORGNCblNDMC01Y2ZsSjdRVVF4NVVwOFNRaVpFWQ?oc=5",
-        "title": "Russia’s Rosstat Struggles to Restore Systems After Major Cyberattack",
         "official": false,
         "forYou": ""
       },
@@ -412,28 +424,8 @@
         "title": "Bank Rakyat Under Suspected Cyberattack By Threat Actor \"Marlanwg\", Website Briefly Defaced",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-06T10:38:14.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The National",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaFNGVjU3UzU0cjFEQUhzeDVsZGJsRUsxeTVNUHNRbldqRWtZVFhiejFqNEZFMEs3T2luRkhkVXNmRkx4RVMyR2hjOUEzMXIyZU9Pak9KOU9WcVJCWEFnQUd2MVZhUWxIaWtwOHczMHRkaWwtZC1ua3VWU0R0ZEhIXzdBUENXN3NlT2pkYlJzdWg?oc=5",
-        "title": "Iran war latest: Tehran reportedly sent nuclear proposal to the US via Qatar",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-06T07:55:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Irish Examiner",
-        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1QdlJvOUFSRkxFdm5qYzBMdTM2UWtWOVlMelB5ekhheXc1dXVSSnlIYnY2TUFhbGJqd2hMb1k4TU1YaEZ5MXVBcWhvT0JCWm1CY2NCdlFWdHVnYTZ2clYxY3JUenE?oc=5",
-        "title": "Russia agreed to supply Iran with 90 helicopter missile launchers",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-08T00:04:39.454Z"
+    "updatedAt": "2026-11-08T06:47:58.153Z"
   }
 }
