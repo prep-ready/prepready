@@ -4,6 +4,56 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-11-08T12:59:22.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "Polskie Radio 24",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTTRwWDZ6SUtGSjBWNGQwMDBvRnpsRncwTWZaZ3RtMkp5SnQxRmppWlotVUFPXzhjRzBDTGtPcGQ1alNpcV9naEhDeDUtaDh2U1FuSXloTDljOGVLcGczYUpfeDNBOENWTlNxYTE2TlhhQUt1czV3UnZZSVdSZHZtOFJjQWE3SnFVZzNjVTNXUTBXbWVLM0lILXhUcUhkd2hG?oc=5",
+        "title": "Strzelanina w Krakowie. Obaj ranni policjanci wybudzeni ze śpiączki",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-08T12:45:03.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Medonet",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQb3VzVVUtMW9RbEQ1cHdRdEZ2aVBtOW5VcksyWk1rUWV1ZVJCLVc0cFlpUmRBbUdXWkV5N3Z3WlhLREFlakpXSV96TnR5V1ExMmQyNExHVE9oa3hkYk9QdTlBbXNidUhvWmo3R19yRVhSdmtiaU9obUxtU3pBa1d3V3psSlFBcWFnZTk4QUEycHZQU2p5cXBaS2dTNFRxa3ZFMG9YbkFuNmV3MW82RnA0cA?oc=5",
+        "title": "Po tragedii łatwo wpaść w spiralę lęku. Ekspert mówi, jak uspokoić psychikę",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-08T12:38:11.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Defence24",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQRWpkNXdaMjhGVjFPNWV1VVlQNS1zSU9oUVJjUFAxUWtfY1lJSEtDbG1zdk1WQzZKRVpJVmxMal9rTThnNFhIdFRndXRFX0M2LVY3aEt6anVwcTNvSE9sbGJPQXZUUFZXYmJLT2R5NFBlODh6REo1R29iZ0g0TmNvY1FHYzI3SmZBNXNQUHpMTS1kX3pHYWk3Qm9uOWxvNzdKZ2VmMHRDRnpzSjNxUzBGNkR4aGhqdmxzdTloNlNKYjFTZw?oc=5",
+        "title": "Obrona wschodniej granicy. Wojsko buduje, przemysł oferuje wsparcie nowymi technologiami",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-08T12:11:00.000Z",
+        "cat": "weather",
+        "sev": 2,
+        "source": "IMGW",
+        "url": "https://meteo.imgw.pl/",
+        "title": "IMGW: 2 ostrzeżeń meteo, najwyższy stopień 1: Gęsta mgła",
+        "official": true,
+        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
+      },
+      {
+        "at": "2026-11-08T11:44:43.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "TVN24",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdXNnODdfZ2hnZ1VOWG9ZY3JIcG4wYVVXYnk1MGg1c1hrNlFBUENodGp4bXJrak5JUjhBLTNwZWxFeGFLZjJpMDFNT1Bfam1CTnNkWERiQUFWYXVzZDN4WmU5UldmMktqaFhKZ2RFNHlBRWxXYUpLd2tCaWo1ZUY0ekxLcERJeW5BZmNjNU9LNGh1YlRKellhUkNLUmlfU0RUQ19OcmtsTlB2a0IzVjhnS09JWQ?oc=5",
+        "title": "Warszawa. Atak nożownika w autobusie miejskim, policja szuka sprawcy | TVN Warszawa",
+        "official": false,
+        "forYou": ""
+      },
+      {
         "at": "2026-11-08T00:02:13.000Z",
         "cat": "safety",
         "sev": 3,
@@ -98,6 +148,16 @@
         "forYou": ""
       },
       {
+        "at": "2026-11-07T16:00:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Rzeczpospolita",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNYllrS3BNWW81cG1WUGZySXNMcGhhX1FVNkNpTHAzNWFfdTlfdWtkUWNzOFBHWGJpZllGcFNzZlA3TjAyRGJfZkpzMndwLU0tM21pV1dkaFh2QnJfSUVRM2EzbENuTG1SQ0xlOEZ1MFhvUHVlMTZoOVlNek80cU9oUzA5OXFJSUkwUTFOX2FCQ3VzVUNCNnJkZTR3c1VSbGNlckxmUklLTWZrWVpEUC1ENFpndTlpa21qNl9IZmVQdGNVUTVONEhlR3lUTWJZTk04dDdLMXJ3WHNIX1ZRZW0wck9n?oc=5",
+        "title": "Wojsko nie chce kupować obietnic, czyli jak polska firma przegrała ważny kontrakt",
+        "official": false,
+        "forYou": ""
+      },
+      {
         "at": "2026-11-07T15:53:22.000Z",
         "cat": "safety",
         "sev": 3,
@@ -146,85 +206,43 @@
         "title": "Ostrzeżenie RCB dla części Polski. \"Nie otwieraj okien\"",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-07T08:31:29.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "TVN24",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQazlDT2daYUxHQ194dE5Yb2h6N0pqN1liWWszZXhkdk1ZYm9DeTFWZlVQLUZkMkFZYW1mZmMzU00zY2tkQmlHMXFIbVZyUUpRZHo1Vk95VWZNN09FX0pWZWR6SmRIM2lVUERhcVFxaWZDaktNTkt4TDdLclBORzE0TS1KQ1hnenpRLWlHT2RDUmZsb0Z3VENBd200ZHBWSzllcUNUek9Bc2R3ZS1TM0x5bDExT3FXZ0xxRlRDb2lRclU?oc=5",
-        "title": "Alert RCB. Pierwszy taki w tym sezonie",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
-          "label": "Alert RCB i aplikacja RSO"
-        }
-      },
-      {
-        "at": "2026-11-06T16:39:57.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Rzeczpospolita",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVFFKNG01UzJXOTBvR19yb0NabVpNbExyaktXd2NfRmhsMnkwbjJPM2ViLVV4SGx6Mll1NGsxNFZGNEwtNVZnTmZOSk9ueUllMjllZENidkRMSHJpcHdYeDFuZkl5bFRLYXBRQUZMSFRja3B5WXVvdEozMU1USlBrWUxkWjAtb2JPYWxhX05xeDZPRnFrbU82ZUhxeUxoRnFUS3Q3U3NTUjEtU2RacWR4VkJKeTU5Zw?oc=5",
-        "title": "Ląd, powietrze i cyberprzestrzeń. Kosiniak-Kamysz: Wskazałem najlepszych",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-06T15:25:54.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "TOK FM",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZlJrZnZ3dGM3eFRLbWQ1WWY5ajA4SFM5Wi1jLUJBdGx1andMa2liQTVqT1R5YWJyYkVweUUtX2ZfM3pkSWdpVXpxT3h5TDNkNWRpMGpLM0J6M1Y0dzZBaHVxN3U4NzdYM3d2dHZOVkxUV2pqLWMxdUd1dGk5S3lFQWdITnlfMl84QllPblFaSktLNW5iaWZkZ3BOb1QyWU04?oc=5",
-        "title": "Tak Rosja miesza nie tylko w Polsce. \"Żadna rakieta nie leci tak szybko\"",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/mapa-schronow/",
-          "label": "Mapa schronów"
-        }
-      },
-      {
-        "at": "2026-11-06T13:18:56.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Defence24",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPdFNTaUYtQ1lmeVhpU3R3QkM0RTBUMlFLek9LbTdPQ29pM0RzWWR4emxaaGg3UnprVl9fNHFvckxsSGNnTkJkRXZ2NkNyQ3ZmV1JGTVpjSjFqRUMtSnlySFJXd3BmemZuVzVOX1JEV0kyVG85Y2Rnc0paTy1FX3hsdExBV0FvRW1VTllTMw?oc=5",
-        "title": "Ile Rosomaków odebrało w tym roku wojsko? Nowe dane",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-06T10:55:00.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "CERT Polska",
-        "url": "https://cert.pl/posts/2026/11/CVE-2026-113618/",
-        "title": "Podatność w bibliotece KAMSOFT ZSIREP CLIENT",
-        "official": true,
-        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
-      },
-      {
-        "at": "2026-11-06T07:43:15.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Polskie Radio 24",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNd3hpTktUSVJjNWV2R2Nsc3RMc29oWS03dl9waDZhSC1kaUw4R3g1ZC1VNW04M0pTS1ZfTEZNMjh5VHhCb0ZMRmduYnlGVzQySnU2M1JpVXEydzdFR2VleXhlNC1WVVpVQm9kWFFZTXFQNU5UT0ZJUmhiaEQxWjE3MUFtVWVjdw?oc=5",
-        "title": "Mieszkańcy pow. krakowskiego dostali alert RCB. \"Zachowaj spokój\"",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
-          "label": "Alert RCB i aplikacja RSO"
-        }
       }
     ],
-    "updatedAt": "2026-11-08T06:46:33.468Z"
+    "updatedAt": "2026-11-08T13:57:00.270Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-08T12:35:11.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "fish4news.co.uk",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRnBTUWJjLU80Y2JvWmdqT0ZKOE5qYV9XemtCNHMwWW5BdG9NWnZqV0s4anQwNUJ0SndXVUlHbzRfa2JXMTQwRWJ0QnFBVEpNbWs3M1RFY1lLS1RyTVJ3NzB0QzJvdGU2LUoyazE3Tm52Rl85ZzJNaUphdmQ4aTJZX0tPMGs?oc=5",
+        "title": "BBC’s ‘Black Sky’ Plan: How Emergency Radio Would Work During a National Blackout",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-08T09:30:09.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "The 420.in",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcUcxZU9BeXRZOVJ6a0pyNE03X2NuVmJNbzRlcFFPd0diVi1Pd0dqc3pkUWNyY1NKNjJzb2sxVzZDQ0JEeEFObFQ4a0djWVVqNXRCMDJjdzBnRmd2QjdDYjl4MnZvZk5RSlRhX0l4ZG1qM2pKNHhLU3pnREpubFQweUhfcnlteTYwakdXRUs3V2puMVRPd1lKOWl2Qk9GSmc?oc=5",
+        "title": "Japan Approves ¥10 Billion Cybersecurity Package After Major Data Breaches",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-08T08:52:11.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Latest news from Azerbaijan",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdlRjR0w2VmxDVDFwSERoZFRlSzNTUmxJbjJ2UnVwNzBJbExDczdEbW9YLXJ4V3IxeWZVMkhrdEF6cUtycjdoblMzZHdya1BIZzAyRm5kMEhZQXpnaGJLcURyM1dOWFNHbVBvbGl5ZW1OT1B3aUNKYV9QcjRrSHpzRllodXpRa3N6NTFvb1ZROA?oc=5",
+        "title": "Ukraine says it downed 137 Russian drones during overnight attack",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-08T04:48:10.000Z",
         "cat": "energy",
@@ -246,22 +264,22 @@
         "forYou": ""
       },
       {
+        "at": "2026-11-08T03:37:50.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Arabian Business",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeGVzSjhrbUhOTTctX0ViTkJTRnFEZnkwNTJQR3gySTJRQlk3aXNwenJ2Qk1DejVYcF84dmF4WDFPd2xKRzEwazEtOEdOb05OOFhJaXZQVTd3R2lDRHdGbTgtM1JSSEMxeFN5OTlLc0tLNE55MHlHRDZNU3lOVFBDaTJwQQ?oc=5",
+        "title": "Iran war live: UAE National Guard rescues 22 people after cargo ship fire in the Gulf of Oman",
+        "official": false,
+        "forYou": ""
+      },
+      {
         "at": "2026-11-08T02:13:50.000Z",
         "cat": "security",
         "sev": 2,
         "source": "Institute for the Study of War",
         "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObGI2Y05zVlYxdTlfSjFmejdOZ3VDc0RIQzNjSmFuMUZMX05BY2NZLWd2a25mY05YUE1ZODFUdHliMjVKZ21zMFBXSkkyWmNKdElES1o3OF9INXdOY3o2NW82NEo3Y2R5bWNPSjRhejNQRVE2UjBFYVFWZUJLTU91RWNDNFBwNGlvb2xCOUlZcHQ4TVNZd2RzOU5kb3lETlVQNkVCdGp0QlZITFE?oc=5",
         "title": "Russian Offensive Campaign Assessment, November 7, 2026",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-08T00:57:31.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "reflector.com",
-        "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPeXh3U0NSNl82VGtxRFAtQS02R3UxVmZ3YjBrWjZEdDdEaTFlb0ZSVDFaSEo0b3kybjZqaE1NS2JIX2Q4SGsxLTE0bTYyMVlWbUczYXUzNWU3eXAzdWxsV0g1Xzh1WkZOS1dxaG5ad2xONDBxNzRwWFRFNE1nZWlXd256c2xTX0FITW9CSDFxU2t6TDBoU1BSVE1CX0swT3pkR2xkSUVmZU5HaERkWWYyXzYzbDEwalpPMGVGVURlYV9nZlBaRU1Dc3VEem5ES2pDZ2UyYUdhd0hXRTJDTUZ0STMycm1KUmVEZ25OeTdEOFgtWnl2OVpiVE9vUEhGU1hfOTdIbVdvNA?oc=5",
-        "title": "Drone and missile attacks wound 9 in Ukraine as country prepares for talks with Russia and US",
         "official": false,
         "forYou": ""
       },
@@ -394,38 +412,8 @@
         "title": "Prague power outage disrupts trams, traffic lights and Parliament",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-06T22:20:25.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "The Express Tribune",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE54R3VPZ0gwLUJKaTJXQi12d3cxNVNFekxKNXEtTGNHeDN1WmlGZ0ZKTFNwRUd1eTY4amxUTUw1bDdiU2xVLVpKcHNVbWlaMUg3UEd3UDZpbDFQQzNNd0I0X1h3YlhhZ2FodkFjRDFwcjNUdTA5aG5DeVU5YzXSAYQBQVVfeXFMTjdzSkxKQ3I4Zk8xak9Ka0R4WE9FaFlUTmY1dnkwb250di05dHQzZU9IX043VUpqZTlWNlJwUWhDMmtJR0RDc21YTDQzUkdXV0ZvQWdybXI3Q3VNSEU5UktSdmk5Q1FPd19MTGZEZlhXMHdHZ1dzZlVOZnpUcTIyOWdWSEpL?oc=5",
-        "title": "AI tools increase cyberattack risks",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-06T21:14:07.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The National",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaFNGVjU3UzU0cjFEQUhzeDVsZGJsRUsxeTVNUHNRbldqRWtZVFhiejFqNEZFMEs3T2luRkhkVXNmRkx4RVMyR2hjOUEzMXIyZU9Pak9KOU9WcVJCWEFnQUd2MVZhUWxIaWtwOHczMHRkaWwtZC1ua3VWU0R0ZEhIXzdBUENXN3NlT2pkYlJzdWg?oc=5",
-        "title": "Iran war latest: UN maritime agency condemns Houthi attacks on international shipping",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-06T15:20:35.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "Pokde.Net",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBRNnh5WnBreUdPWG5NVlMwWUNhMUpjTnltaENLNTh2aVp6NWJJT0V3N0E4Unh2VHdZVTRzSDdhNVdLUzlOV25EbllMeVlZaUVSNXVtcmQzN1BZdS1JeGFNbkNFOFlfeENmZHp3RmFDRzhIR3JW?oc=5",
-        "title": "Bank Rakyat Under Suspected Cyberattack By Threat Actor \"Marlanwg\", Website Briefly Defaced",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-08T06:47:58.153Z"
+    "updatedAt": "2026-11-08T13:57:52.025Z"
   }
 }

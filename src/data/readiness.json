@@ -2,9 +2,9 @@
   "_comment": "Aktualizuje scripts/update-data.mjs codziennie. pl = Polska, en = świat. Składowe z mode=manual ustawiasz ręcznie.",
   "pl": {
     "sample": false,
-    "updatedAt": "2026-11-08T06:46:33.465Z",
-    "score": 21,
-    "delta7": -7,
+    "updatedAt": "2026-11-08T13:57:00.266Z",
+    "score": 20,
+    "delta7": -8,
     "ago30": 26,
     "history": [
       26,
@@ -36,7 +36,7 @@
       29,
       23,
       26,
-      21
+      20
     ],
     "components": [
       {
@@ -171,7 +171,7 @@
         "id": "cyber",
         "name": "Cyber i łączność",
         "weight": 15,
-        "value": 22,
+        "value": 16,
         "sources": "GDELT · Google News · CERT",
         "trend": [
           32,
@@ -181,7 +181,7 @@
           67,
           12,
           15,
-          22
+          16
         ],
         "mode": "auto",
         "raw": [
@@ -214,7 +214,7 @@
           31,
           50,
           28,
-          29
+          25
         ],
         "stale": false
       }
@@ -254,9 +254,9 @@
   },
   "en": {
     "sample": false,
-    "updatedAt": "2026-11-08T06:47:58.153Z",
-    "score": 25,
-    "delta7": -15,
+    "updatedAt": "2026-11-08T13:57:52.024Z",
+    "score": 33,
+    "delta7": -7,
     "ago30": 39,
     "history": [
       39,
@@ -288,14 +288,14 @@
       19,
       24,
       26,
-      25
+      33
     ],
     "components": [
       {
         "id": "conflict",
         "name": "Global conflict",
         "weight": 30,
-        "value": 13,
+        "value": 41,
         "sources": "GDELT · Google News",
         "trend": [
           47,
@@ -305,7 +305,7 @@
           14,
           30,
           17,
-          13
+          41
         ],
         "mode": "auto",
         "raw": [
@@ -407,7 +407,7 @@
           17,
           10,
           12,
-          12
+          14
         ],
         "stale": false
       },
@@ -455,7 +455,7 @@
         "id": "cyber",
         "name": "Cyber & infrastructure",
         "weight": 15,
-        "value": 47,
+        "value": 45,
         "sources": "GDELT · Google News",
         "trend": [
           40,
@@ -465,7 +465,7 @@
           5,
           7,
           48,
-          47
+          45
         ],
         "mode": "auto",
         "raw": [
