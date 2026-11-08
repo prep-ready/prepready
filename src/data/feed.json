@@ -4,6 +4,58 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-11-08T16:16:05.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWklHbHpHdng4QUVQRGVPWU5GM2p3TWMxVnNmU01DRVNxX0RIYWFvMDk0ZUJBdFVtekFSMTA2dTVOX2ZGQmlZbXllcTFINU1pT0JjUVJ4UXpHbFlkQ1ZKT1RFWk9vRHZNajZkLUZIQ240S3ZlM1RwSkRBdlJNeXhtMGhyX0llNDV1U091U2tJdW5zb1d2RlVuOUdfTXNNZ1cxTW1sY0pHdw?oc=5",
+        "title": "\"Polscy policjanci nie są szkoleni do zabijania\". Eksperci oceniają działanie policji",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/poradniki/bezpieczenstwo-dziecka-w-szkole/",
+          "label": "Bezpieczeństwo dziecka w szkole"
+        }
+      },
+      {
+        "at": "2026-11-08T16:00:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Rzeczpospolita",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQaUpVVzNKWkk3VnU5MXpORDZ5SkJTT3VrVERSOVBOQ003XzdrU2hVQTExdGtaUGg4RGQ3cXNfcWZtcXU2cGpGcVV5WTlWUktfYWVRVmMydlRib1h0X0ZyaGpLamVnVFRuQ0tEUHNJWU5QSncyOFUxX0QySWlZZElCTmxSc1U1QXE2dmFvOHZCX0VJVkFwOTlOajNsQXMtYnZNOUZacw?oc=5",
+        "title": "Kto nas obroni? Wojsko co roku szkoli 50 tys. ochotników. To za mało",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-08T15:01:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Rzeczpospolita",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQcktrUFg0djlQVG9aQ2lPUDZ2Z1M0V2ZLdjFCYUtGR1BkR0tPSlZDTll1dXZOQ1lEb0lLTXNadTBlT0ZHR2ZoRld0Q2ZlVXZzZ1JjZjI0YUlTdEJVdE5ibGpEV0Zsbzhqc1NpNWNGNlZ2U3JKbi03S0Vyd2ZNN096bW9WR3hUUVdCVlJGRW1DOWhoMVpCUXU0RHk5YVo2a3hqSVg4QmhaYk9ua1V2YzZxR2tDU0o5WlNxUHRJbjl1aFFrR3hHYTdjWHhvOGp1b3FMUnpLeWFiSW1MTzU4cmUtdnB5RW44eDJGNWc?oc=5",
+        "title": "Rakiety z czasów PRL nadal bronią polskiego nieba. Wojsko szuka dla nich serwisu",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
+      },
+      {
+        "at": "2026-11-08T14:25:56.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Defence24",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdFF0VDl6MC1WaWxJcHBPSEZkRExWTU82TEIzb3pic0Z2ak9NVzRmSmpqNXctSlZaZmZjdmdfVXV0cHhlWDlSajZNaHo3Rm1Xb201TlpudDNlS29NN1lmX3ZZdUJkS09BOGNuaUttSzhXc0x4a0E0VEhLbjlTWGEzM0FwUWhEcHdBVUhDd0Uxc2ZCT095cE04?oc=5",
+        "title": "Testy dronów dalekiego zasięgu nad Polską. Komunikat wojska",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
+      },
+      {
         "at": "2026-11-08T12:59:22.000Z",
         "cat": "safety",
         "sev": 3,
@@ -166,53 +218,43 @@
         "title": "Strzelanina w Krakowie. W Polsce jest już ponad milion sztuk broni",
         "official": true,
         "forYou": "Jeśli jesteś w pobliżu: uciekaj, a jeśli nie możesz, ukryj się i wycisz telefon. Dzwoń pod 112, gdy będzie to bezpieczne. Unikaj okolicy i nie powielaj niesprawdzonych nagrań."
-      },
-      {
-        "at": "2026-11-07T15:45:18.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "Wiadomości Onet",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbWM5Q29GSjRXVi1kVE5fNFdKMm1yeXNkcWlpcXRubXo3SURhUTI3RU5MNjItTjFHM0ViUmxKMG8zUTQ4cFFtdV8ybzJjclN5c1Jucm4wRjJmTkFfSVJDazBrUzdDSEpEdGNLWXNqV1pCbEt3SHl1TWVWUnpWQWgzdnVzTTItT09UeXJxS1FTODFFcFpHSU9NNzVOU1VTMDR5Y2xV?oc=5",
-        "title": "Strzelanina w Krakowie. Prezydent Karol Nawrocki zabrał głos",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-07T15:23:26.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "WP Wiadomości",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNcmpjYWJaZjRFYUhUYVZPYll0M1hqQ2VLOXNNNDQ2aTBmNWR2MmtGYW9MeVZyOTI1MTRpV3lfdTdWNXpBU2VGTzRGX0M0ZG03RUNzdzhKUjlWakNsSU14amFMQTFfNFp0R2I0SHlrRnp4bzE1YWVmU2xIRFpNLWQ3SXFmOENsazl6SGN6bDdzaFltU29mbFE?oc=5",
-        "title": "Strzelanina w Krakowie. Nie żyje pięć osób",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-07T11:28:00.000Z",
-        "cat": "weather",
-        "sev": 2,
-        "source": "IMGW",
-        "url": "https://meteo.imgw.pl/",
-        "title": "IMGW: 1 ostrzeżeń meteo, najwyższy stopień 1: Gęsta mgła",
-        "official": true,
-        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
-      },
-      {
-        "at": "2026-11-07T09:20:59.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Polskie Radio 24",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZWd6WHZzUlFROEJvT1N3VVRWc1hLYWhGZlFjOGhiSWhOUWNvMFdVMmJJa0JMcXMxa0UySmRBNzJXVjZPU1pRZFNNb3RBV2tGWGZ6OG5fRVlwLUJ4bWVKN3BISkFNVmQ5cC1Nb1l1VWVVVjRZUGZUZjhSUGJkNWU4SE5RTjZ0ZFl6aWdaeGpn?oc=5",
-        "title": "Ostrzeżenie RCB dla części Polski. \"Nie otwieraj okien\"",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-08T13:57:00.270Z"
+    "updatedAt": "2026-11-08T19:13:33.182Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-08T19:01:45.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Daily Beirut",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbUxqSXcxVGJTeXg0RjQ4OWhXb0FBU2RCTDBuU0FkWTVKSEJmemd2OUFTRFFLYTE3Q3UxTktoenZfOE5ObEJ0NTBrWmQ1NkdPdTRUZ21tUXBJNmNuVkkzY09nWXpJWml2LTZzUEdYOUNUdldmdjJTVzZqNHczR2QyZU5NRk4?oc=5",
+        "title": "Ukraine Space War: Samara Strike Targets Soyuz Missiles",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-08T18:04:26.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "The Daily Telegraph",
+        "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOeXhsR0dfY0x5Qjc5R1FBd1A0bVRpamVpU19la0hhTlJNcmVXLUZac0NwdlJzeUdFTDhMS2hqV3lqRmFGa1dxWGpTUER4MzFJX0NaeEw0eVBTckx3Szg5ZXRqQ3EwY2doeEVzenNsTmpqbmZaV2R4YTN4VXZ4RDRXTy1ubTVVMTlQTU4tOTB5N08wUkdwLTBaZmtySGZWdU9TVndRbHZUaFpXVWZoTXpyU2dsazBKZnkzaTlubG9tb3JOQjRFd0paYXQ5dEV6NGNhREdSMlcxeVlHZWJoNC1CZ0hYSzhPajR6aXNWY1AtTFp0N1FDdElXTk1Fa1Y5cFJS?oc=5",
+        "title": "Millions of households: Snowy 2.0 delay sparks fresh blackout fear",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-08T13:19:35.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOam9zc1FkUTVXSWFQS0FvbG5pRlRaTjVyRDNrU0pubVYtU1Q2SUM3T0NuVWltenY4VUNXRGh6LW1fLWRxcFVKWEhyY2ZlODZHdEV5UkJiNkhBOHpYUUY2U3FLNnM3RHpkS3o3Tm9jNnEzUEg1VGdCdmlHV0trMDdEX3p5UWp6XzJFTEtyWlBTUFhocldQcXlJeTg1N3d6d0FSMGk4WVdwZW16Q3Q4dlZTdDVoSm_SAboBQVVfeXFMTnlpdEw5V3RCT3NRU2pOUUdmSExLODRyNVY5US1jTnkyWG9POFRpM3JGMVFEb0ZpZ2ZieFBWd1Brd0kyQll0dlBtenRZQjVoQ2J6UDBQSFlCVDhfNU5obnpHM0lLYkpRVHJvUmt6YkRzc3loMnpiSnUtczlrOHdFTm5rNWVmdlJGbWt2RXhnbUxyaDBoRkN2dXBmM3R1T2JTczhaUEpiV3hZbmpVV1ZSSjh3ZUNQRXFNOVJn?oc=5",
+        "title": "Saudi Aramco building in Riyadh damaged in ‘attempted’ attack",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-08T12:35:11.000Z",
         "cat": "energy",
@@ -220,6 +262,16 @@
         "source": "fish4news.co.uk",
         "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRnBTUWJjLU80Y2JvWmdqT0ZKOE5qYV9XemtCNHMwWW5BdG9NWnZqV0s4anQwNUJ0SndXVUlHbzRfa2JXMTQwRWJ0QnFBVEpNbWs3M1RFY1lLS1RyTVJ3NzB0QzJvdGU2LUoyazE3Tm52Rl85ZzJNaUphdmQ4aTJZX0tPMGs?oc=5",
         "title": "BBC’s ‘Black Sky’ Plan: How Emergency Radio Would Work During a National Blackout",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-08T12:00:14.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Beinsure",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNOExFUzFBQ1dHLUlETVVmeE1xQ0hSM3JYbHJjRzRzN216aXU4N3dPSGNZLXJtMnEzXzVyVm5BeF93MFBlZlhOWTB1M3JiUjZ4Z3FJaGRLRU8tQWRnRURHbVpmRmpPMUJROE9qdUYwTzMyQ0ViRzJWMW1mTmhEVVI5RlJMSmVIbUR2N1E?oc=5",
+        "title": "University Hospitals (Ohio) cyberattack leaves MyChart offline for two weeks",
         "official": false,
         "forYou": ""
       },
@@ -234,7 +286,7 @@
         "forYou": ""
       },
       {
-        "at": "2026-11-08T08:52:11.000Z",
+        "at": "2026-11-08T08:53:32.000Z",
         "cat": "security",
         "sev": 2,
         "source": "Latest news from Azerbaijan",
@@ -372,48 +424,8 @@
         "title": "Putin unleashes ballistic missile barrage on Kyiv as school & bridge blitzed",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-07T09:46:31.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "The Times of India",
-        "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQRi15OHZQcWZqODNvVUY3dGlSTHlKQ0JoVWg4a3B5NXlFUU04LVRjcUZ2eUFLUGxuaEZUWmpKMDVEc2pVZVJmeVNyRnVIWVJnT2Y0Sy04bXNnUmtqVXVJTjhOaldLbG5Jck16akE5bFU3aGF1aVdaUGl3QVJzc2lETW1meGFscndUNFJJNllyVUlXci16ekhZUU53NWZlNTVydl90UENUZW1ia2NURGM4Nk96Vnk4SnlzNy1hbGhWWDM5cHNZcFRuUEMwb1FkNm5pZWJMV3hyYXFnMVNBeDU4Q1Ata1RTalEydVkxMWtpU3EyMDFvRVNnOXprenROQdIBgwJBVV95cUxNV3R0dmVZaG5yTUllVUZTZE1qRENhZWhmNlgwbnpZU280OTY3NUNTaHRoa2JGSi1YcUg3ZmxFRlo4RVowa184R2w2bzN5N0ZtTjR3NFUwaVMtX09KMXVrbWNlcWpJV0hsV2xEUk8wc1A4MDNKYlFsUEJ5RFh5UHNKbWxCSjgxaGhsQzVHeW1aWlBhcjlqN180N2dHZWtjTXhfbk1OUHQ0Zkh0ZFRERHlSZVgyS280RG5NcnE4SS1ockw2cmxpcXBvOVU4MWJOWVV0ODJrbXJySGZ1dFk5N0VldFEycXVSNDZGTmVXVDFPSnNtWURvcmJselEyTF8zTElkMVVz?oc=5",
-        "title": "Putins Devastating Energy War On Kyiv; Ukraine Capital Paralysis Amid Widespread Blackout",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-07T00:04:25.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "Media",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSmVXeFBrWXVDdnZXTlZNcTFISkpreHVEM2JoNWJac1VIVFBmWDlBMVRyZktnZkdDSjBxMFg4aEpQbC1xU0xMTmNhWlpfU0FtdEpjSGd5ZHFEWmVfX0hYWlR1emliSHJPZlFLekluOURiQnMzM0xsT0UtSlNoUlUxS193UXQzMjRtSll3WnZUT2tBejlyNEYzZmJQZWxVczlwVjM0RUc5QQ?oc=5",
-        "title": "Jacksonville Memorial tests cyberattack response in statewide hospital drill - Jacksonville Journal-Courier",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-06T23:23:20.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "NewsCord",
-        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNa2UzcGQ0SEZVM2hpUWg3Vm91RHFueFU2cXEyX2YwWkRLanRPT0pYSlI0aVlpcW8xQ05ucUJUZHJ1eTNFREdQRVhhS0tnTnkwMTNEblVCLVo5YmlSNWZDMzREYVRsTC1GRUZZd0tyRkJDdE5SWDZFTFB5VHlOcjE2Zl92VHZPNzZ1c1NkSlRXZDlPR2dKZHFFeVduNjNmNy1JTTJQUDlwZlBXeDdjWjAwRWdHQU5mUGwzY3pGeG1zMjRiOHdZWVRnYzV2d0dTSnNJX0VMV1I2aFJ0djZoTEQ2VE14eEQ?oc=5",
-        "title": "Trump Says Iran War Prevented Nuclear Weapon After Missiles Hit Qeshm Island: 5 outlets compared",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-06T22:28:01.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "cedarnews.net",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNODhldE11VnhsUFNWdnJDdzVOWTNrYko3b3FUNlVaeUt2OURsNVRDcDJCSV85QVlmTWJKdDF2V3BBYVZ3b205TERHYnQxRU1wRE9uZ0huYVFXdVVSMWUxdGNhcDZ2cENpVUdqeDNvck80OEw5MXlrNjREc0JpUmtVZk1rendnYzc0WVFVR050T29hUjc3?oc=5",
-        "title": "Prague power outage disrupts trams, traffic lights and Parliament",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-08T13:57:52.025Z"
+    "updatedAt": "2026-11-08T19:14:54.679Z"
   }
 }
