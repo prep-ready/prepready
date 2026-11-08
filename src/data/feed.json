@@ -4,6 +4,36 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-11-07T23:38:30.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdEhoTldTcENpS0lZMk54VzhIcmowN1otcERLZTE2NWY0Q1pIX3o4MDlwTXAyX194ZUlLRWJxRUc0d3d3c1RjZU9ZTUs2N18xWG9JeGx1ekxKS2MxMzhMczY0ZUUycUIzYlg2MG5iVFI2S2ZuX3gzUG05TlB0WkVPU29WZzJJUkZCSGJMWkF2aEJKdmNSV1FfeUZn?oc=5",
+        "title": "Świat śle kondolencje. Przywódcy reagują na atak w Krakowie",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-07T23:20:34.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMkNacHQtdWRac1h6QVVrS1lJUXNrVEZpMGVETU5McXJtTDQ1RzFEbDk3SHF0b2FjdWdZNWxWQlBfN1pzOWt6eFlmaXZycWVBTEtuaDJxTDk4ZEdhLXc0Yi13eXNDSk1RTm81SUprLTZDYUxJbWhyb1hTOHB5UTVWaUNUWmlYUi1RWS02REpaeDl3dGNySWhOdkltMDgtTDdKVDRnRDZQTHZ3SW1RTDBJUA?oc=5",
+        "title": "Rozpoczęła się żałoba narodowa. Ostatnia miała miejsce w ubiegłym roku",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-07T20:56:57.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "TVN24",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSzlMWE9xalMtQ1c3ZTdOUk5ac3Q1SU1pMS1vZm1UM3JBZHlZN0lwSU5ibWxqRlJEdUhFZkJ5c0xVYkdIbnBoVkZ3QU90ekxnOUtnTnVzQnpUU2QtdEF1cTFsZWpWMk9iUlpuOWtyR180cEFBV0FhVHBhXzI5cW9ZY19RSmhjaHUxTW44aGRhby1PWWNrYmJLRWQwUHlRQ250LUw4QzB5aw?oc=5",
+        "title": "W domu zamachowca są nieżywi ludzie, to członkowie rodziny sprawcy",
+        "official": false,
+        "forYou": ""
+      },
+      {
         "at": "2026-11-07T20:34:13.505Z",
         "cat": "energy",
         "sev": 3,
@@ -196,47 +226,23 @@
           "href": "/pl/poradniki/plan-ewakuacji-rodziny/",
           "label": "Plan ewakuacji rodziny"
         }
-      },
-      {
-        "at": "2026-11-05T13:24:03.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Policja Mazowiecka",
-        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPcmdtbFNWbFRGaFVWb0s2N3VZTmYxVHdRSWNFbENHS0d6eVg0WWlNX25mNGR3SmJzelVzc200bFMwV3BRUEZMMklZcUFTNGRrQ044SjlmRXBLSHQzdks5V1hiaC1FaTBYNXdYUjQ0VndSQnhYS2l5ZEFQUldPREdUUW9feWRBYW1ndHJSa1VVTnFpSUNWX19hTVJuTnV0d1pBWHVnaE5MTWlXSUFQLVpiQ0UxeGZMdjdGUFlESEdOdmMwTXlObzdGbzRMQ1lzS2ZyMklQOHU1RHRHQQ?oc=5",
-        "title": "„Życie to nie gra, masz je tylko jedno” – spotkanie uczniów i rodziców z policjantkami",
-        "official": true,
-        "forYou": "Przypomnij dziecku zasady: słuchaj nauczyciela, uciekaj od zagrożenia albo schowaj się w sali i wycisz telefon. Nie dzwoń do dziecka i nie jedź od razu pod szkołę, czekaj na komunikat szkoły lub policji.",
-        "guide": {
-          "href": "/pl/poradniki/bezpieczenstwo-dziecka-w-szkole/",
-          "label": "Bezpieczeństwo dziecka w szkole"
-        }
-      },
-      {
-        "at": "2026-11-05T11:28:00.000Z",
-        "cat": "weather",
-        "sev": 2,
-        "source": "IMGW",
-        "url": "https://meteo.imgw.pl/",
-        "title": "IMGW: 2 ostrzeżeń meteo, najwyższy stopień 1: Gęsta mgła",
-        "official": true,
-        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
-      },
-      {
-        "at": "2026-11-05T10:19:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Rzeczpospolita",
-        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPTnNnS21ZdWtFNTkzTlFkcUxYOWwwemxORlhnR3dzWU5LdlFPYkVCODV6YjZBMzNhNlRnd1ZpazZnSUIzSi1qdDRjZndrcTZ0SDJlSWxWNWp4X0FrdEZ2eU1Nci1fSHJuSWpESm51S1NSTEY3WThISjRaN2tkM0NscV9uZ1NQbjM5NklrV0oxOWVucGJ0S3NCWTFWTHdaQmZHUEYySzl2T2dPUmZGOTBpdE8tNVdqNFJoSDhiSkhlalBaZkZWejAxaFFwX0JlWXE1YVk1S0syOTlZNEI0a0pZ?oc=5",
-        "title": "Miliardy złotych na ochronę polskiego nieba. Amerykańskie spory opóźniły dostawy",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-07T20:35:19.859Z"
+    "updatedAt": "2026-11-08T00:02:33.694Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-07T21:19:15.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Castanet",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPeTN4Z3RONFB6bktVQVVPS3BSb1R4cS1HX2MtSFR1QnFfMGZWamdBbmpVZUJVcFhYdUI3a2R1bkQ0SU5FcmtMZ3BnZm9zb0N0blhxQzNOZW1salF2S1M4LWM2Q3FfTU41UmNlNGhqT2xMaWg3TGpMLUZjQlJseFprTERMLTlFVHlOdENmOTY2ZVRmWnhlRlFVVUJxRkZ2WVU3X0VjTnhTUjJHc1Q5?oc=5",
+        "title": "More than 3,000 West Kelowna home impacted by power outage",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-07T19:26:58.000Z",
         "cat": "security",
@@ -244,6 +250,16 @@
         "source": "Times Now",
         "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQUTZMNlowS0VZYjNyQW43S3owb0x2MDhfLWtZZjNTZElZZ19MaXBlcW1HcEctNjNuTVMxZW5mTUVZbFh1dXI0bFRHbEYtRW5iX21jM1J4SDBFcTNKaWkyWU1TdXlRQ2VrZjZjYnY5eEVILWdFbzZpd1U5T1dhanlXS2pnWlRsSTQ1bXFKTHVhVXNJV050cmpMRU5Od054WlZOTTB3RlBuS05oZktMNGdFSmxMVXV3UzZ3bzJYX1VMYklPNzN6bVZDVm12My1qNXl2VnNOUDRrMjFKNHR6bG42VEJLMXpxZDNIY2tMNGhqNU1QeFVORjNN0gH8AUFVX3lxTE9oQllORFJHNmFoOXdYY0VRYWZZaTBjUFUyTWF3XzV5OEY2TDByUkhnMW1sb01BZmVXOFl4VHdORXlmTkZJRkwxSnUzMmJGMng1UEdoTjNkdmsyaUNYbnB4MjlseW9Ic1FJdU9Ya0hHMG44SFc1ZGdBY1JTYllEd2VRQS00ek9VSDhmWHlIdzE1WjJGRnY2SHdIY0JfcW0wR0hUYW5GVDNhc0ZDZFA5Wk9tNzcyOUpobUYxaG9RZTNJOExYRmhIbjM4WWQyODB5T1UxbHFPSGRQdnJ5MDd1djkyQlFCUTJfSzlrZzdUb1lpQ0dBY194b3doT1ZZUA?oc=5",
         "title": "Saudi-Houthi War Erupts Again: 25 Dead in Yemen Strikes, Riyadh Oil Sites Targeted",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-07T19:17:55.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Iran International",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1rUS05U0JMUUIxWWR4YjN1bm93S1c5aFlhZXkwWTNSczYxYlU3cXhsbzd6OGFDR3ZXQVhkZmRucUQtRTFlLUl5d0RpLV80b1dsSVE?oc=5",
+        "title": "Iran says missiles no longer bound by range limits",
         "official": false,
         "forYou": ""
       },
@@ -416,28 +432,8 @@
         "title": "Russia agreed to supply Iran with 90 helicopter missile launchers",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-05T19:35:00.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "KPTV",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOaTRrdzdjalpvUVFRT2RvNFY4MVh2T3NBenQxN0I4M0NieDF4ZGpwOHE4Wm9pYnNpX1ZMY3k4WHp6bEo1Yk1IWF91U1FNS1BBcG53R1J5ZXU5NGFzbU9tZUEtOXVQR0t0dGdReWx1ZGRTWXNZUE9qVm93Q1FsS0VUN3hhZ2FkSXRVUTQzd1Z0SzliemVkSzA1NzhDRnROZEY4dXpzTGRlMGtkUkVXT19DUC0xRGtxU0XSAcsBQVVfeXFMTlFGdlVzOXpKLTFoVW5SNGFrZ2N5V3pJdlJYZkc2UUFTMWJHejBxeUpLQUE3OURFMmRTX3VrT3BqZDZYb3FEMEtpbmlLUWozcjFuekp3Rm9iVVQ0LVY2QXZlTl9WM18wOVd0bXpXc25UdXppOG5rOUJfbjdsUHVrZE1ua2psVTBwNDlwcWNGZHFwaWI5LW1JVHNSRHdFb3hFVTl5eExGdlk5bEpiNGo4MFgyMmdvWUZYaHpMYnFlRmpZcXZSU1JuYUJlUDg?oc=5",
-        "title": "Is a 90-day blackout coming? What the U.S. military’s new readiness initiative actually means",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-05T16:52:51.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The National",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQa3prTFlUbjIxSUVNV3VDVHNEb1Nkb0ZqSDVTZkJwMng0YmQ2dFhmVDNYdlB4WGlQU1NMU3J5VWg3a1NTcjBoTm9oZ2piVXlKc29ZSTNzcHRHUHFNVmxzRDhRS2ZXUXI2RW1nU1hGZnI5U0RKeXR6NDJ5T2k2a1gtbXRCSFY1VUdJY1NUaXU5V2YzWE0?oc=5",
-        "title": "Iran war latest: Iran claims series of Hormuz explosions as talks intensify",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-07T20:37:26.083Z"
+    "updatedAt": "2026-11-08T00:04:39.454Z"
   }
 }
