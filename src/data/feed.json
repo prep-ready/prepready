@@ -4,7 +4,17 @@
     "sample": false,
     "items": [
       {
-        "at": "2026-11-09T03:02:57.487Z",
+        "at": "2026-11-09T13:04:00.000Z",
+        "cat": "weather",
+        "sev": 2,
+        "source": "IMGW",
+        "url": "https://meteo.imgw.pl/",
+        "title": "IMGW: 6 ostrzeżeń meteo, najwyższy stopień 1: Opady marznące",
+        "official": true,
+        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
+      },
+      {
+        "at": "2026-11-09T12:12:57.374Z",
         "cat": "energy",
         "sev": 3,
         "source": "PSE",
@@ -16,6 +26,56 @@
           "href": "/pl/poradniki/blackout-jak-sie-przygotowac/",
           "label": "Jak przygotować się na blackout"
         }
+      },
+      {
+        "at": "2026-11-09T09:25:25.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Rzeczpospolita",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVGloQnlud1hmelhrXzFIVzJzendyY2JQcFkyLUNBMzBVNldxSnVzNnFTZ2wwaWUwbEs1aW9HYkxPaTBKdXNVTzQ0VVBJTkFYV3BFeUJVNXlOVzZxWGlvanpDajFUT1dWejJybll2aVptN2dGbUU0R0xiazdkZmUzVDBnM01aamNhM2Y1Z3phaWlRR2VEVEpLRkl0SHRDUmRnR1dQaWxaN2pyb0JKcmVURjNFT1M5LTNXcDJz?oc=5",
+        "title": "Kto poleci F-35? Wojsku brakuje pilotów, Dęblin ogranicza nabory",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-09T08:33:31.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Defence24",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQRWpkNXdaMjhGVjFPNWV1VVlQNS1zSU9oUVJjUFAxUWtfY1lJSEtDbG1zdk1WQzZKRVpJVmxMal9rTThnNFhIdFRndXRFX0M2LVY3aEt6anVwcTNvSE9sbGJPQXZUUFZXYmJLT2R5NFBlODh6REo1R29iZ0g0TmNvY1FHYzI3SmZBNXNQUHpMTS1kX3pHYWk3Qm9uOWxvNzdKZ2VmMHRDRnpzSjNxUzBGNkR4aGhqdmxzdTloNlNKYjFTZw?oc=5",
+        "title": "Obrona wschodniej granicy. Wojsko buduje, przemysł oferuje wsparcie nowymi technologiami",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-09T07:46:36.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Business Insider Polska",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOY2h2Y3RzSFVUWU5wQzFualpJOXBrVW96MzE4YVRjM0F0VUo0THVwc01rTW5EM0FkOGN1ZnN2M0gxdXlrM2JNSXdnaUthZ00takVXTGd5N3k3RF9tMmZyWGFLNFcwUERZaTMxNERBbWlYRFdpeURoN3ptclU3ZGgtdEFPajdZanozM3BxczVPOXFXWjBLZWlteVdjbDRNV1M2aGRaZ2RMU2JJUU1nTnZKZkRJaDIzdmk5Tnc?oc=5",
+        "title": "Rosyjskie ataki w Europie. Estończycy mówią o sponsorowaniu terroru",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-09T05:57:00.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "PolsatNews.pl",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRTV0dW13enEwWUprMWM5WGExZWl3SmVsUWRid3FVRVlka25pN0tjbnFBMlNEM2h3UFJub1UyYnJxZk5MMFFsUkdXOEVTX19jYlZaRHo5d1pLcFI3TkRkSGpuRkhWWHMwZXdBb0JRSE5yZ3pPblNNS0UtcTdnYTZaWHR6MHd2WFhXY3h2amhZakFpSV83bjBBN2I5N0tMUlFoblhxSkVNMA?oc=5",
+        "title": "Nie żyje sprawca strzelaniny w Krakowie. Zmarł w szpitalu",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-09T04:14:13.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "TVN24",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQUjgxNWp4RktHczFQa05kdEwtUkJrSV9nZC1tblFjckR2OU9mdjc0NjctTVpYbGZ1anNBSkhGakYyQ2U2WklMRFZUb2ZhelUxSWQxV3VmSFAxN0dUbkt6a0EzaFlMbHRLbnI1YnpsWGhxNnN2VHF5bjM1TXZZNmo1ODM2QVI3VmpjZ2g5YmIwSDRBenc?oc=5",
+        "title": "Rynek w Krakowie ponownie otwarty, policjanci wybudzeni ze śpiączki, zamachowiec nie żyje",
+        "official": false,
+        "forYou": ""
       },
       {
         "at": "2026-11-08T20:18:43.000Z",
@@ -100,32 +160,12 @@
         "forYou": ""
       },
       {
-        "at": "2026-11-08T12:59:22.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "Polskie Radio 24",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTTRwWDZ6SUtGSjBWNGQwMDBvRnpsRncwTWZaZ3RtMkp5SnQxRmppWlotVUFPXzhjRzBDTGtPcGQ1alNpcV9naEhDeDUtaDh2U1FuSXloTDljOGVLcGczYUpfeDNBOENWTlNxYTE2TlhhQUt1czV3UnZZSVdSZHZtOFJjQWE3SnFVZzNjVTNXUTBXbWVLM0lILXhUcUhkd2hG?oc=5",
-        "title": "Strzelanina w Krakowie. Obaj ranni policjanci wybudzeni ze śpiączki",
-        "official": false,
-        "forYou": ""
-      },
-      {
         "at": "2026-11-08T12:45:03.000Z",
         "cat": "safety",
         "sev": 2,
         "source": "Medonet",
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQb3VzVVUtMW9RbEQ1cHdRdEZ2aVBtOW5VcksyWk1rUWV1ZVJCLVc0cFlpUmRBbUdXWkV5N3Z3WlhLREFlakpXSV96TnR5V1ExMmQyNExHVE9oa3hkYk9QdTlBbXNidUhvWmo3R19yRVhSdmtiaU9obUxtU3pBa1d3V3psSlFBcWFnZTk4QUEycHZQU2p5cXBaS2dTNFRxa3ZFMG9YbkFuNmV3MW82RnA0cA?oc=5",
         "title": "Po tragedii łatwo wpaść w spiralę lęku. Ekspert mówi, jak uspokoić psychikę",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-08T12:38:11.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Defence24",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQRWpkNXdaMjhGVjFPNWV1VVlQNS1zSU9oUVJjUFAxUWtfY1lJSEtDbG1zdk1WQzZKRVpJVmxMal9rTThnNFhIdFRndXRFX0M2LVY3aEt6anVwcTNvSE9sbGJPQXZUUFZXYmJLT2R5NFBlODh6REo1R29iZ0g0TmNvY1FHYzI3SmZBNXNQUHpMTS1kX3pHYWk3Qm9uOWxvNzdKZ2VmMHRDRnpzSjNxUzBGNkR4aGhqdmxzdTloNlNKYjFTZw?oc=5",
-        "title": "Obrona wschodniej granicy. Wojsko buduje, przemysł oferuje wsparcie nowymi technologiami",
         "official": false,
         "forYou": ""
       },
@@ -178,53 +218,53 @@
         "title": "Rozpoczęła się żałoba narodowa. Ostatnia miała miejsce w ubiegłym roku",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-07T20:56:57.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "TVN24",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSzlMWE9xalMtQ1c3ZTdOUk5ac3Q1SU1pMS1vZm1UM3JBZHlZN0lwSU5ibWxqRlJEdUhFZkJ5c0xVYkdIbnBoVkZ3QU90ekxnOUtnTnVzQnpUU2QtdEF1cTFsZWpWMk9iUlpuOWtyR180cEFBV0FhVHBhXzI5cW9ZY19RSmhjaHUxTW44aGRhby1PWWNrYmJLRWQwUHlRQ250LUw4QzB5aw?oc=5",
-        "title": "W domu zamachowca są nieżywi ludzie, to członkowie rodziny sprawcy",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-07T19:34:00.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "Rynek Zdrowia",
-        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOdkJGcWhUU01yLTFIWUhLbkN2eUNlU21GTi1IRjdwWDFUbzBXYU1OTHpSWEx3eDR2clR3cTVXTVhzUjZhN01CdUJRWXlnbWxKWlUxd09JTC1renlNWENSNGkwcDdWeExLREl3b2VEejRyLTR1NmhOZktTQ3FjWmZQYmdZM2U3UXo0ZTBCVFZockhaSzYzU3U0VGw4bWJLREt4Q2tDOFNxbWttYkZWN05POEFUMlRtMmxnZWVXcC11SlJwSkVlZ0YwbVJHTUFJS19kYXZ0M2pOaEV3NFNMRXc?oc=5",
-        "title": "Strzelanina na Rynku Głównym w Krakowie. Śmierć poniosło 6 osób; kilkanaście jest rannych",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-07T18:49:09.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "Polskie Radio 24",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQeU8tQ3l0U0JQRUZFY1hCUE8wYTcxVkQtQTAzM1dEOVBtQmJ4c1V2Y1pfRE03YldxOFlGRzMyaGRJY0Y4MTVmR19HVGJkNlN4dVlQZHY3cXdRMTN4SDdITi14S1B6T0Q0TlVvNU50Nnl4WF9LUnFXWlBybDk5MFNQSjFXVWtUV2tXMUFXQUJ6LVcxYjNpTXdTdnhNUU52Q1NGdzd5ajg1WVJIcXl2X1BV?oc=5",
-        "title": "Sprawca strzelaniny w Krakowie. \"To 24-letni Michał O., jest tokarzem\"",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-07T17:39:37.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "WP Wiadomości",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxON195QjJtbXhzRWJPNi1RVk9fRWZybWgwQzAxMFVRcVQ4Zi1uMEg4enNOSkE4djEyMkNiLWd6ZnEyR19vQWtGNXp5RnJvRnRmeUZmV3lVLW9oNWlmTDVyUU5aeDB2MVJDWmdCbW9TR2pqQnBhQWM2TVJ5YnVkUVBlLWJMazNfUXJ5VWZ2LUcwSlY5elI4eHFNMElOSjloblBicG9TZmViV0pDMklHbWwzeUVVZXg?oc=5",
-        "title": "Nieoficjalne ustalenia. Wiemy, kim jest sprawca zamachu w Krakowie",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-09T03:04:11.537Z"
+    "updatedAt": "2026-11-09T12:14:05.068Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-09T11:36:57.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The National",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQRkdzMDFwVFNGNEFRbmVXNUZ4MG5RTDExMlVPcmIxek5OaEpFOFp2c0NVUEhzcWt5TWVVb3NhUDQ5SzJQZjhqaU41ZnVEMldQRGNNTk1CWm9pS2h6WmxHdlpKMHlqZ3BFaXBDaXdRTzIyNlNTY19FY0MxelZ6bEh3MjFB?oc=5",
+        "title": "Middle East latest: 'We need both': No choice between deterrence and diplomacy, says Dr Gargash",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-09T11:17:27.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "UNITED24 Media",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOZzV6QW1VVHY1UF9BM0xXRkN4aVBMaTRIWjJ2cnJIeXZ1QllDY3lUNXUyTVU0ZDBXT2VZbVZyaUp1MzZiRXppU2dkRmFhb2tYUEhURmdBLUNFdFpTWUV3MzNOTGdSTFhLYWJlNUVBSm1BSDFxYVFGOTJOZ2tKczI5bEFGQm5VdERMb1JmbGlDNEoxOGxnMUo1VEFrOXM3VXlKSEFuWmhPcjNjT3dxM01keUM2VHR2SE9PZ2ZkQzJrem55cEZoeXFadTZxZEpRTXhlZDRjMmFJLWlIQTBNNTlN?oc=5",
+        "title": "Russia’s Iskander-M Missile Production Takes a Hit as Ukraine Strikes Key Factory Near St. Petersburg",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-09T08:36:33.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Odessa Journal",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdDFBUjc1SHJqdndoeC12U1kzWUp2Q0ViNXZfTjl1MnU0Z1Z4ODBMQnVNenEzSWg4VF9oSjNvcUNkckNtM0tWZjhwUF9iX01IYWx3dUdKVHdMVnRUaFlWbVBaNTQyWWhLM0xsUGlvakcxSEUwWWdIdzFMeUdxRlhQbmRRX193R1NqaUhIWlRfS0hCcFk?oc=5",
+        "title": "Cyberattack Threatens Construction of Austria–Italy Brenner Base Tunnel - Oj",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-09T06:11:05.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "The Daily Telegraph",
+        "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOeXhsR0dfY0x5Qjc5R1FBd1A0bVRpamVpU19la0hhTlJNcmVXLUZac0NwdlJzeUdFTDhMS2hqV3lqRmFGa1dxWGpTUER4MzFJX0NaeEw0eVBTckx3Szg5ZXRqQ3EwY2doeEVzenNsTmpqbmZaV2R4YTN4VXZ4RDRXTy1ubTVVMTlQTU4tOTB5N08wUkdwLTBaZmtySGZWdU9TVndRbHZUaFpXVWZoTXpyU2dsazBKZnkzaTlubG9tb3JOQjRFd0paYXQ5dEV6NGNhREdSMlcxeVlHZWJoNC1CZ0hYSzhPajR6aXNWY1AtTFp0N1FDdElXTk1Fa1Y5cFJS?oc=5",
+        "title": "‘Absolutely certain’: Millions face rolling blackouts after Snowy 2.0 delay, Minns could step in",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-09T01:41:03.000Z",
         "cat": "energy",
@@ -252,36 +292,6 @@
         "source": "BBC",
         "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA3VFhjNFMxVXpNZWhoTnJhcEs4clhMM3BveHNLUkpSUGhubGF5VDdWemd5aTVWLVY1aWNoT1l2Tm5kTWczXzVCTUoyMjJXcGtFdXVzZjgxcHVrYzg?oc=5",
         "title": "Aramco Tower hit in heart of Saudi capital as Houthis launch fresh strikes",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-08T19:01:45.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Daily Beirut",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbUxqSXcxVGJTeXg0RjQ4OWhXb0FBU2RCTDBuU0FkWTVKSEJmemd2OUFTRFFLYTE3Q3UxTktoenZfOE5ObEJ0NTBrWmQ1NkdPdTRUZ21tUXBJNmNuVkkzY09nWXpJWml2LTZzUEdYOUNUdldmdjJTVzZqNHczR2QyZU5NRk4?oc=5",
-        "title": "Ukraine Space War: Samara Strike Targets Soyuz Missiles",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-08T18:04:26.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "The Daily Telegraph",
-        "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOeXhsR0dfY0x5Qjc5R1FBd1A0bVRpamVpU19la0hhTlJNcmVXLUZac0NwdlJzeUdFTDhMS2hqV3lqRmFGa1dxWGpTUER4MzFJX0NaeEw0eVBTckx3Szg5ZXRqQ3EwY2doeEVzenNsTmpqbmZaV2R4YTN4VXZ4RDRXTy1ubTVVMTlQTU4tOTB5N08wUkdwLTBaZmtySGZWdU9TVndRbHZUaFpXVWZoTXpyU2dsazBKZnkzaTlubG9tb3JOQjRFd0paYXQ5dEV6NGNhREdSMlcxeVlHZWJoNC1CZ0hYSzhPajR6aXNWY1AtTFp0N1FDdElXTk1Fa1Y5cFJS?oc=5",
-        "title": "Millions of households: Snowy 2.0 delay sparks fresh blackout fear",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-08T15:53:09.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "Tekedia",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQaEFKeTVZZlVmR0FvRWxEUlVCTHo4OENqaUtBb0hCRk5nUURwNExHdnJidDRqQXFZdDdMR2RtZ0xULWQ0djFRRXRSbnF4UmNCLVhKYnJzeHNWVkhzZjd2VWhwLTZLOEJkSVV1TU5IUVRmUzJQZFotbmVxb1YzTC0zWWR4M1RmOWZhaXhhQ0NNb1ZNVVcwVk1xaHZkd3FCZXV4V05Z?oc=5",
-        "title": "Cyberattack Targets Company Behind Austria-Italy Brenner Base Tunnel Project",
         "official": false,
         "forYou": ""
       },
@@ -414,18 +424,8 @@
         "title": "US hits anti-arcraft device on Iran's Queshm Island in minor strikes, Donald Trump says",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-07T13:22:08.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "LADbible",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQjh3OENvQ0tqSXgxQ3BhRzU4bVBEdmFWSDFGV19EeEVCMTkzaEVWaUJmcFdRQndJcWNKZFhZQWFtUE5rVnBOUVlubktYQjk1bTFlbF9uWGU3TWROOHpTXzZ1RnE1V051aTMxTE9FQW5PeExxelY3TlhXaW94clFHYTNTSUl3VEVZT0JYbWRYX1QxNnB2Tmc?oc=5",
-        "title": "UK ‘black sky event’ warning as expert explains item every household should have",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-09T03:05:59.500Z"
+    "updatedAt": "2026-11-09T12:16:17.739Z"
   }
 }
