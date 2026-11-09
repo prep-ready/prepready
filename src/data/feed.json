@@ -4,12 +4,36 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-11-09T03:02:57.487Z",
+        "cat": "energy",
+        "sev": 3,
+        "source": "PSE",
+        "url": "https://www.pse.pl/",
+        "title": "PSE: dziś zalecane oszczędzanie energii",
+        "official": true,
+        "forYou": "Ogranicz zużycie prądu w godzinach szczytu, naładuj powerbanki i latarki.",
+        "guide": {
+          "href": "/pl/poradniki/blackout-jak-sie-przygotowac/",
+          "label": "Jak przygotować się na blackout"
+        }
+      },
+      {
         "at": "2026-11-08T20:18:43.000Z",
         "cat": "safety",
         "sev": 2,
         "source": "Wiadomości Onet",
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQjNnZ0dtdjFqeXRTZ21WdTRVZVZNMGYwRkhQMGg3TzVHOFhuS2F1YThDVFlpeVN4NzdsZFJnaXhodVA3UFhPbV9zU1VfQWpoMENLNTBQZ1Y4cmgwZWVkUVlFaU5Vd3VUOHpVQVFWRGptRXdHemJUTHk3a3BsVWIyYTFRVk5rY1BKcEd4SzVldGxLbV9sdDg0ZkM3dEotYlZ5LVdNQk1QZkFfZEd2WWM5THlR?oc=5",
         "title": "\"Polska straciła ten status\". Szwedzki dziennik pisze o zamachu w Krakowie",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-08T19:36:03.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "TVN24",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdXNnODdfZ2hnZ1VOWG9ZY3JIcG4wYVVXYnk1MGg1c1hrNlFBUENodGp4bXJrak5JUjhBLTNwZWxFeGFLZjJpMDFNT1Bfam1CTnNkWERiQUFWYXVzZDN4WmU5UldmMktqaFhKZ2RFNHlBRWxXYUpLd2tCaWo1ZUY0ekxLcERJeW5BZmNjNU9LNGh1YlRKellhUkNLUmlfU0RUQ19OcmtsTlB2a0IzVjhnS09JWQ?oc=5",
+        "title": "Warszawa. Atak nożownika w autobusie miejskim, policja szuka sprawcy | TVN Warszawa",
         "official": false,
         "forYou": ""
       },
@@ -116,16 +140,6 @@
         "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
       },
       {
-        "at": "2026-11-08T11:44:43.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "TVN24",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdXNnODdfZ2hnZ1VOWG9ZY3JIcG4wYVVXYnk1MGg1c1hrNlFBUENodGp4bXJrak5JUjhBLTNwZWxFeGFLZjJpMDFNT1Bfam1CTnNkWERiQUFWYXVzZDN4WmU5UldmMktqaFhKZ2RFNHlBRWxXYUpLd2tCaWo1ZUY0ekxLcERJeW5BZmNjNU9LNGh1YlRKellhUkNLUmlfU0RUQ19OcmtsTlB2a0IzVjhnS09JWQ?oc=5",
-        "title": "Warszawa. Atak nożownika w autobusie miejskim, policja szuka sprawcy | TVN Warszawa",
-        "official": false,
-        "forYou": ""
-      },
-      {
         "at": "2026-11-08T00:02:13.000Z",
         "cat": "safety",
         "sev": 3,
@@ -176,20 +190,6 @@
         "forYou": ""
       },
       {
-        "at": "2026-11-07T20:34:13.505Z",
-        "cat": "energy",
-        "sev": 3,
-        "source": "PSE",
-        "url": "https://www.pse.pl/",
-        "title": "PSE: dziś zalecane oszczędzanie energii",
-        "official": true,
-        "forYou": "Ogranicz zużycie prądu w godzinach szczytu, naładuj powerbanki i latarki.",
-        "guide": {
-          "href": "/pl/poradniki/blackout-jak-sie-przygotowac/",
-          "label": "Jak przygotować się na blackout"
-        }
-      },
-      {
         "at": "2026-11-07T19:34:00.000Z",
         "cat": "safety",
         "sev": 3,
@@ -220,11 +220,31 @@
         "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-08T23:13:40.774Z"
+    "updatedAt": "2026-11-09T03:04:11.537Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-09T01:41:03.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Metro State University",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRzhMR2lEX0JMRThKdHFXMWhHaXNPZUxRME5kLUVaUTZzVHQ3Rnk0NlBWbVhBWWRFazRsVVoyVXZ5elJnTFFGSmVkRGxDMVhObnNDbkFBWGZhNkhmd3JBVS1OWW1fb1V0clR5Ul9lc0tDemkwWlhLYzktZ1lyVGtnbHhlVHp0dnVhaHZqb3RVMnRXVlBKaWFJclYxQWVwZG1reF84ekowMTk?oc=5",
+        "title": "Is a 90-Day Blackout Coming? What the Military Plan Actually Means -",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-09T00:36:45.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOam9zc1FkUTVXSWFQS0FvbG5pRlRaTjVyRDNrU0pubVYtU1Q2SUM3T0NuVWltenY4VUNXRGh6LW1fLWRxcFVKWEhyY2ZlODZHdEV5UkJiNkhBOHpYUUY2U3FLNnM3RHpkS3o3Tm9jNnEzUEg1VGdCdmlHV0trMDdEX3p5UWp6XzJFTEtyWlBTUFhocldQcXlJeTg1N3d6d0FSMGk4WVdwZW16Q3Q4dlZTdDVoSm_SAboBQVVfeXFMTnlpdEw5V3RCT3NRU2pOUUdmSExLODRyNVY5US1jTnkyWG9POFRpM3JGMVFEb0ZpZ2ZieFBWd1Brd0kyQll0dlBtenRZQjVoQ2J6UDBQSFlCVDhfNU5obnpHM0lLYkpRVHJvUmt6YkRzc3loMnpiSnUtczlrOHdFTm5rNWVmdlJGbWt2RXhnbUxyaDBoRkN2dXBmM3R1T2JTczhaUEpiV3hZbmpVV1ZSSjh3ZUNQRXFNOVJn?oc=5",
+        "title": "Saudi Aramco building in Riyadh damaged in ‘attempted’ attack",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-08T21:37:36.000Z",
         "cat": "security",
@@ -262,16 +282,6 @@
         "source": "Tekedia",
         "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQaEFKeTVZZlVmR0FvRWxEUlVCTHo4OENqaUtBb0hCRk5nUURwNExHdnJidDRqQXFZdDdMR2RtZ0xULWQ0djFRRXRSbnF4UmNCLVhKYnJzeHNWVkhzZjd2VWhwLTZLOEJkSVV1TU5IUVRmUzJQZFotbmVxb1YzTC0zWWR4M1RmOWZhaXhhQ0NNb1ZNVVcwVk1xaHZkd3FCZXV4V05Z?oc=5",
         "title": "Cyberattack Targets Company Behind Austria-Italy Brenner Base Tunnel Project",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-08T13:19:35.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOam9zc1FkUTVXSWFQS0FvbG5pRlRaTjVyRDNrU0pubVYtU1Q2SUM3T0NuVWltenY4VUNXRGh6LW1fLWRxcFVKWEhyY2ZlODZHdEV5UkJiNkhBOHpYUUY2U3FLNnM3RHpkS3o3Tm9jNnEzUEg1VGdCdmlHV0trMDdEX3p5UWp6XzJFTEtyWlBTUFhocldQcXlJeTg1N3d6d0FSMGk4WVdwZW16Q3Q4dlZTdDVoSm_SAboBQVVfeXFMTnlpdEw5V3RCT3NRU2pOUUdmSExLODRyNVY5US1jTnkyWG9POFRpM3JGMVFEb0ZpZ2ZieFBWd1Brd0kyQll0dlBtenRZQjVoQ2J6UDBQSFlCVDhfNU5obnpHM0lLYkpRVHJvUmt6YkRzc3loMnpiSnUtczlrOHdFTm5rNWVmdlJGbWt2RXhnbUxyaDBoRkN2dXBmM3R1T2JTczhaUEpiV3hZbmpVV1ZSSjh3ZUNQRXFNOVJn?oc=5",
-        "title": "Saudi Aramco building in Riyadh damaged in ‘attempted’ attack",
         "official": false,
         "forYou": ""
       },
@@ -414,18 +424,8 @@
         "title": "UK ‘black sky event’ warning as expert explains item every household should have",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-07T12:20:00.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "Briefs Finance",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNDI2N0oydlBnd3RrRmkwdmFLc0lsYXN5S3cwX0hHSmhWb3J0RTBvTFVUUWJiaXlWd3BnSUNzZzh0U3Bhcm4yN21rbWZwNHkwZllabnZDX0lUa0pxaS00Wi1JYTNIdXdHeWhmWFBUS2QyWFJrbkt2WHFmUzZyWUxMVnNoalVXUFBaRWR0Vmo5WmpOUQ?oc=5",
-        "title": "Rosstat cyberattack delays major Russian economic reports through at least Nov. 13",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-08T23:14:38.797Z"
+    "updatedAt": "2026-11-09T03:05:59.500Z"
   }
 }
