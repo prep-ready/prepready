@@ -4,6 +4,64 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-11-09T21:30:00.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "PolsatNews.pl",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMU55NjVLMHhTMWV3a0hEWENEMWRBbjRod3dEUndZbDU2SjJXcm5saTdzYl9nRy15OUxfSHpmX19uNXJWeVpReFRQSHJFSjB3bXFNdW9rdGhCeFhQQ0NXblVEcGhLdEwxc3FzNzFMNzhfbUxxdkN0UVdST1hRYTJpdHpWN3JVZy1oWnJzWnppX2JaU19xYlVxN3M5R1U4YjNha1E?oc=5",
+        "title": "Rosja atakuje Ukrainę. Alert RCB dla dwóch województw",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
+          "label": "Alert RCB i aplikacja RSO"
+        }
+      },
+      {
+        "at": "2026-11-09T21:19:27.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "TVN24",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdVN6MjRWbTBMcjJaVmctUVdDMHVrdWFHZlppQ0twdkIxUVJMbE1HX01VaERsdkhtdW8tWGlNcW55MV9OcTA0OWVJS0JmME0tLUVQQjZsNkt1dGZFNlk1VENvQlJ3YXltdjRZRkcwX3FXY1E1SlZPUmJxS09vazBiZFdhLUNKbFdYUGZ3TA?oc=5",
+        "title": "Alert RCB dla mieszkańców Lubelszczyzny i Podlasia",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
+          "label": "Alert RCB i aplikacja RSO"
+        }
+      },
+      {
+        "at": "2026-11-09T17:50:24.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Defence24",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNc3VjbWJVVjctQjE4UnNaQm1Mek5WQXFpYnhWd3ZSVXJ0ZFNVT3NPWDZXSUt5UHVkYVNldmZMazktLXdlbnFsa2g0SjNxN0FHMlo4Z1NITnVIemRWOTg3dXFQZzRpZmktWUVxU0RLdnZ0YlNWdHdfdUtXR3NaT2tGcHNfdmlLNkUtUGNYUVlTMVRhWDRwNU5xRW00SzFHLVJ6aGZNaGFhWFFoaHM?oc=5",
+        "title": "Polska wyśle okręt do cieśniny Ormuz? Wojsko analizuje przełomowy ruch",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-09T13:30:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Defence24",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPMEZvZDV3SUJfX3BjQ1Q4S25Qa1hucUNOVmdhaGVMZnpRSnNtcjRMcEt0Zm8wSGJuZVdKOHFVU1hUemN5Wi1XOGZqSFFBVnF0dTRHRmk2WTZjYzdvaXVVUUViNTZuRG9lX3dMWWM5Rk1WMEo1XzNybzZYdEktWnZqU1NWQmZaSk5OeXppS2E1UVBBS0ZJTFVpaWNIeU1iY0oyOC1jb1Fhc1FBTE9BSERMS3Zka1V6X3hsckRLR2RacXZMZFlsWWlqMXZ3MkZFY00wMUg0UnBfdUd0VEk?oc=5",
+        "title": "Od wyścigu technologii po „Poligon Innowatora”. Jak Wojsko Polskie skraca drogę innowacji na linię frontu [WYWIAD]",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-09T13:04:00.000Z",
+        "cat": "weather",
+        "sev": 2,
+        "source": "IMGW",
+        "url": "https://meteo.imgw.pl/",
+        "title": "IMGW: 8 ostrzeżeń meteo, najwyższy stopień 1: Opady marznące",
+        "official": true,
+        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
+      },
+      {
         "at": "2026-11-09T13:04:00.000Z",
         "cat": "weather",
         "sev": 2,
@@ -12,6 +70,20 @@
         "title": "IMGW: 6 ostrzeżeń meteo, najwyższy stopień 1: Opady marznące",
         "official": true,
         "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
+      },
+      {
+        "at": "2026-11-09T12:34:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "RMF24",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdUNnLWlTZGFxM2FRMlBNbGktaFpxYWZFNlpPY0Y4QkE0TjhNX1lGZXV4d3B3SV9RRVBmcmtjQ1ZHSTBITlZJN1NaeVVXNEtzcHdOcDlxTVprZ01KX3hYS1ZrbE5YeFpHQS1fQkNiaUJwbGtHSHJlMkN6cTJTb2FNeDVQanJITUxUZmdQZFFVUEdUN2kteVZzckVlaHYtbFZVSW4zQmFDd0V4OFYzSnk4Q1lB?oc=5",
+        "title": "SpaceX podejmuje wyzwanie. Statek Starship i rakieta Super Heavy mają wrócić w całości",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
       },
       {
         "at": "2026-11-09T12:12:57.374Z",
@@ -26,6 +98,16 @@
           "href": "/pl/poradniki/blackout-jak-sie-przygotowac/",
           "label": "Jak przygotować się na blackout"
         }
+      },
+      {
+        "at": "2026-11-09T10:55:00.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "CERT Polska",
+        "url": "https://cert.pl/posts/2026/11/CVE-2026-110468/",
+        "title": "Podatności w oprogramowaniu WidzialniCMS",
+        "official": true,
+        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
       },
       {
         "at": "2026-11-09T09:25:25.000Z",
@@ -148,83 +230,43 @@
           "href": "/pl/mapa-schronow/",
           "label": "Mapa schronów"
         }
-      },
-      {
-        "at": "2026-11-08T13:08:29.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "TOK FM",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbVp1eFptOTJiNlhMeVpGVkhUVks3LTNReXBwZEM3ZUFZQm9TMmhlMnlwUDRCR0Y2VXZ4MzBkMEZJc3FuUmh3TjNfSHNXdGlyQkYyaHFaN2Zia2pyTGI4ZnZBM0thTTEyN2ZyaDYyOXNFOWd4akFmam80QU9Qc3RHNHJQODFkNkJMODVOaXRON2xoUnFsVmxXMnJpUXkwek5Vdy1sdDFWQk9fM19PeC1OQjc3Y0xvODlYRVZDbkRvYlJHOFJ6SUE?oc=5",
-        "title": "Strzelanina w Krakowie. \"To nie tak, że dwóch chirurgów z pełnymi brzuchami poszło ratować\"",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-08T12:45:03.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Medonet",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQb3VzVVUtMW9RbEQ1cHdRdEZ2aVBtOW5VcksyWk1rUWV1ZVJCLVc0cFlpUmRBbUdXWkV5N3Z3WlhLREFlakpXSV96TnR5V1ExMmQyNExHVE9oa3hkYk9QdTlBbXNidUhvWmo3R19yRVhSdmtiaU9obUxtU3pBa1d3V3psSlFBcWFnZTk4QUEycHZQU2p5cXBaS2dTNFRxa3ZFMG9YbkFuNmV3MW82RnA0cA?oc=5",
-        "title": "Po tragedii łatwo wpaść w spiralę lęku. Ekspert mówi, jak uspokoić psychikę",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-08T12:11:00.000Z",
-        "cat": "weather",
-        "sev": 2,
-        "source": "IMGW",
-        "url": "https://meteo.imgw.pl/",
-        "title": "IMGW: 2 ostrzeżeń meteo, najwyższy stopień 1: Gęsta mgła",
-        "official": true,
-        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
-      },
-      {
-        "at": "2026-11-08T00:02:13.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "Wiadomości Onet",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOckdMOWcxblRMN3hveHhmUXg5Rk1OeW9qZTU5SXg5Y0N3N1R5emhoTXl0aFZFclI3ZXA2b0VOcHJuSndmSlNqX2M5SHVtUVUwNkI2WUZIQkNrazhubUZtMXNaN2RidXBGUnBDZUxaOS1VVEZZUWFULWNmVkhCQmt2bzhfOTloZ2F5MDQ4S0lIaTNPMG1VSDU1QzhNbmxTbzBoNmRDMGZldFlyQQ?oc=5",
-        "title": "Służby w mieszkaniu strzelca z Krakowa. Nowe informacje z Ostrowca Świętokrzyskiego",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-07T23:38:30.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "Wiadomości Onet",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdEhoTldTcENpS0lZMk54VzhIcmowN1otcERLZTE2NWY0Q1pIX3o4MDlwTXAyX194ZUlLRWJxRUc0d3d3c1RjZU9ZTUs2N18xWG9JeGx1ekxKS2MxMzhMczY0ZUUycUIzYlg2MG5iVFI2S2ZuX3gzUG05TlB0WkVPU29WZzJJUkZCSGJMWkF2aEJKdmNSV1FfeUZn?oc=5",
-        "title": "Świat śle kondolencje. Przywódcy reagują na atak w Krakowie",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-07T23:38:00.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "TVP Info",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPRmFYM255cUdzc3JodFVZaV8wak1wWmxkcWhGRFBCY0xDVDUyTC04dHAwU3ZSczNpT2pJZVotM3FXLXRMUWl0dEFyZEFmelFUaUN1Q2c2c3NXc0lIRmhKZkdBZkFrbjZUQVctTVpxZGNCM3hPZ0VKYU10aUFYVGZNejlMOGNOanNnc0lGb2Q0bElDdkI3M2VIYzgyckxENnNtLWFSR2g0clQxSi1oQ1gycjJmZjdwdDdmcHhXUA?oc=5",
-        "title": "Żałoba narodowa w całej Polsce po zamachu w Krakowie",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-07T23:20:34.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Wiadomości Onet",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMkNacHQtdWRac1h6QVVrS1lJUXNrVEZpMGVETU5McXJtTDQ1RzFEbDk3SHF0b2FjdWdZNWxWQlBfN1pzOWt6eFlmaXZycWVBTEtuaDJxTDk4ZEdhLXc0Yi13eXNDSk1RTm81SUprLTZDYUxJbWhyb1hTOHB5UTVWaUNUWmlYUi1RWS02REpaeDl3dGNySWhOdkltMDgtTDdKVDRnRDZQTHZ3SW1RTDBJUA?oc=5",
-        "title": "Rozpoczęła się żałoba narodowa. Ostatnia miała miejsce w ubiegłym roku",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-09T12:14:05.068Z"
+    "updatedAt": "2026-11-09T22:46:31.561Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-09T19:42:00.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "CircleID",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQVhpSUFtMFhGN19sU0FMM1dDZEQ3ek9uTGV3WHBqcW9zSmxGbmFHNVFNVi15Szc2OXdVR09pVUI4V0ZwcUlNVWxDdk11WS00Q0J4eWItWmpUQTRXbWI1dHBYbFFpR1FsSU5xY3I1dExHSnY0Tm83YU1QejJPWDN5dG92empHVC1kaU5BSC16TmdJRml3SUZIOEU2a0Y2RWlfcHNTcGtR?oc=5",
+        "title": "France Blames Iran’s Revolutionary Guards for Cyberattack on 700 Supermarkets",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-09T13:20:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The Times",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQLWlJdTN1VDNsUWg2NEtKOWtxcDJNc1R6ajNCQ3MzVFJOV1pJWldaNGlUekEwUjd0dUhsNGRvbXVNNk9UQm5xc2JEV1ZtOTdXRHA4WDJHRnRqN1hWSGhxSENRdHF5MWNPOXVEa2x6cnhWaG5tOG1JRGNmMHRPSE5rQXJtM2N0cHJuNGNZbmtnNFBQVVZ6SmhmaS16Rk41MnJha3hQWjA4VTdfbTZZdlg0U0MzMmlSdXdHZHBVMA?oc=5",
+        "title": "War pushes Ukraine into population crisis as deaths far outstrip births",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-09T12:32:57.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "The Jerusalem Post",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1ZQzJRdEpicEVOZUE2Nkd4ekl2Z1Fsb2hXbmNzZFBCZjZfZlphLUVHandNNGxFSzNOUTFkd0d1Qm9seXRFYWRzR3FHMmVUN3R2TjRlSjFXR3VScW5W?oc=5",
+        "title": "Widespread blackout caused by drone attack on Khor Mor gas field, exposing Iraqi vulnerabilities",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-09T11:36:57.000Z",
         "cat": "security",
@@ -394,38 +436,8 @@
         "title": "2026 Iran war | Oil, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-07T17:48:56.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Euro Weekly News",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPXzZLbDhKb1lIWUQ3T3BiSG1lTDRaVzVwT1dWbldhamxtcTdXb1Vka1JEc1h0bnU0dk1fTGNJUTl0ZTR6aWozNVkzSVFCeVhnZUlTaEVDcUdyZ1FmTXdpU2cyVWpkS2V5UTdYRDR4Wmd4cy1wNWRRQ0RhUnNiZ0xoZjBGRUp4QjZWZGZ1QTMzcEhKRHo2elNKV2c0X1prNkNBOE9MRlFzcFBHMTZYVmxydk1ZZkhPUDJr?oc=5",
-        "title": "UK blackout fears: Brits warned of power cut risks as cyberattack concerns grow",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-07T15:29:51.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "FinanceFeeds",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPREtkaXpQQThZVzEzWDZWb2JaYkpGVlNxbGN1SjlOV0dCTFZLSEE1TU9hTWk1Y0x1RzByaGxqQThzSmRaTjQ0c1VUQVBkMGFtM2dlSnI4NjRUNklxR3VvX3I1MnhjZTFFVEhNR2VUa1RyVjkwMks5NlZfSG1zRUdVMEY4SnZoTFNBbUQtcDFaUHJPdWp3VjJiQjBOZXJmMGhjYVE?oc=5",
-        "title": "Gnosis Pay Discloses Customer Data Breach Following November 3 Cyberattack",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-07T14:31:10.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The Jerusalem Post",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5EQ3hBa3JORVJTTllMNFlWcDI2M2EwQVowc05SZVhzNWNMT3ltcndlcFVJQjRGMzYzNFh0dlZlb0pqMTludzVQTFFxVXhvdGQyYTVsclBkbWQ3dzEwajllQ0VscWVZMTdVU0E?oc=5",
-        "title": "US hits anti-arcraft device on Iran's Queshm Island in minor strikes, Donald Trump says",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-09T12:16:17.739Z"
+    "updatedAt": "2026-11-09T22:48:13.985Z"
   }
 }
