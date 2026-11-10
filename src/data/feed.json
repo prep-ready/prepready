@@ -4,18 +4,52 @@
     "sample": false,
     "items": [
       {
-        "at": "2026-11-09T21:30:00.000Z",
+        "at": "2026-11-10T04:12:59.000Z",
         "cat": "safety",
-        "sev": 3,
-        "source": "PolsatNews.pl",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMU55NjVLMHhTMWV3a0hEWENEMWRBbjRod3dEUndZbDU2SjJXcm5saTdzYl9nRy15OUxfSHpmX19uNXJWeVpReFRQSHJFSjB3bXFNdW9rdGhCeFhQQ0NXblVEcGhLdEwxc3FzNzFMNzhfbUxxdkN0UVdST1hRYTJpdHpWN3JVZy1oWnJzWnppX2JaU19xYlVxN3M5R1U4YjNha1E?oc=5",
-        "title": "Rosja atakuje Ukrainę. Alert RCB dla dwóch województw",
+        "sev": 2,
+        "source": "Polskie Radio 24",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQ0x3d1FTbk5WNzRkdVJyVmxPWndCRDdkMUk2Nkd5V0tUNGV0UklqSEdnb0Q5ZndkdFNWbTB6d29mYmRLTTd2dzhkOHNHc015WXBLM3Q1Mm90cEFzUWR3OExUMlRuQ3dBVW1sX1NNZHJ0LUhwUE5fendlTTItMTdQX1huLUlxYU5DV3FLVGFyU1A0WFN4UWc?oc=5",
+        "title": "Pilny alert RCB dla mieszkańców dwóch województw. \"Brak zagrożenia\"",
         "official": false,
         "forYou": "",
         "guide": {
           "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
           "label": "Alert RCB i aplikacja RSO"
         }
+      },
+      {
+        "at": "2026-11-10T02:06:40.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Defence24",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdFF0VDl6MC1WaWxJcHBPSEZkRExWTU82TEIzb3pic0Z2ak9NVzRmSmpqNXctSlZaZmZjdmdfVXV0cHhlWDlSajZNaHo3Rm1Xb201TlpudDNlS29NN1lmX3ZZdUJkS09BOGNuaUttSzhXc0x4a0E0VEhLbjlTWGEzM0FwUWhEcHdBVUhDd0Uxc2ZCT095cE04?oc=5",
+        "title": "Testy dronów dalekiego zasięgu nad Polską. Komunikat wojska",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
+      },
+      {
+        "at": "2026-11-10T00:29:47.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Defence24",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQRWpkNXdaMjhGVjFPNWV1VVlQNS1zSU9oUVJjUFAxUWtfY1lJSEtDbG1zdk1WQzZKRVpJVmxMal9rTThnNFhIdFRndXRFX0M2LVY3aEt6anVwcTNvSE9sbGJPQXZUUFZXYmJLT2R5NFBlODh6REo1R29iZ0g0TmNvY1FHYzI3SmZBNXNQUHpMTS1kX3pHYWk3Qm9uOWxvNzdKZ2VmMHRDRnpzSjNxUzBGNkR4aGhqdmxzdTloNlNKYjFTZw?oc=5",
+        "title": "Obrona wschodniej granicy. Wojsko buduje, przemysł oferuje wsparcie nowymi technologiami",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-09T22:53:39.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "TVN24",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdXNnODdfZ2hnZ1VOWG9ZY3JIcG4wYVVXYnk1MGg1c1hrNlFBUENodGp4bXJrak5JUjhBLTNwZWxFeGFLZjJpMDFNT1Bfam1CTnNkWERiQUFWYXVzZDN4WmU5UldmMktqaFhKZ2RFNHlBRWxXYUpLd2tCaWo1ZUY0ekxLcERJeW5BZmNjNU9LNGh1YlRKellhUkNLUmlfU0RUQ19OcmtsTlB2a0IzVjhnS09JWQ?oc=5",
+        "title": "Warszawa. Atak nożownika w autobusie miejskim, policja szuka sprawcy | TVN Warszawa",
+        "official": false,
+        "forYou": ""
       },
       {
         "at": "2026-11-09T21:19:27.000Z",
@@ -57,7 +91,7 @@
         "sev": 2,
         "source": "IMGW",
         "url": "https://meteo.imgw.pl/",
-        "title": "IMGW: 8 ostrzeżeń meteo, najwyższy stopień 1: Opady marznące",
+        "title": "IMGW: 6 ostrzeżeń meteo, najwyższy stopień 1: Opady marznące",
         "official": true,
         "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
       },
@@ -67,7 +101,7 @@
         "sev": 2,
         "source": "IMGW",
         "url": "https://meteo.imgw.pl/",
-        "title": "IMGW: 6 ostrzeżeń meteo, najwyższy stopień 1: Opady marznące",
+        "title": "IMGW: 8 ostrzeżeń meteo, najwyższy stopień 1: Opady marznące",
         "official": true,
         "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
       },
@@ -120,16 +154,6 @@
         "forYou": ""
       },
       {
-        "at": "2026-11-09T08:33:31.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Defence24",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQRWpkNXdaMjhGVjFPNWV1VVlQNS1zSU9oUVJjUFAxUWtfY1lJSEtDbG1zdk1WQzZKRVpJVmxMal9rTThnNFhIdFRndXRFX0M2LVY3aEt6anVwcTNvSE9sbGJPQXZUUFZXYmJLT2R5NFBlODh6REo1R29iZ0g0TmNvY1FHYzI3SmZBNXNQUHpMTS1kX3pHYWk3Qm9uOWxvNzdKZ2VmMHRDRnpzSjNxUzBGNkR4aGhqdmxzdTloNlNKYjFTZw?oc=5",
-        "title": "Obrona wschodniej granicy. Wojsko buduje, przemysł oferuje wsparcie nowymi technologiami",
-        "official": false,
-        "forYou": ""
-      },
-      {
         "at": "2026-11-09T07:46:36.000Z",
         "cat": "security",
         "sev": 2,
@@ -170,16 +194,6 @@
         "forYou": ""
       },
       {
-        "at": "2026-11-08T19:36:03.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "TVN24",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdXNnODdfZ2hnZ1VOWG9ZY3JIcG4wYVVXYnk1MGg1c1hrNlFBUENodGp4bXJrak5JUjhBLTNwZWxFeGFLZjJpMDFNT1Bfam1CTnNkWERiQUFWYXVzZDN4WmU5UldmMktqaFhKZ2RFNHlBRWxXYUpLd2tCaWo1ZUY0ekxLcERJeW5BZmNjNU9LNGh1YlRKellhUkNLUmlfU0RUQ19OcmtsTlB2a0IzVjhnS09JWQ?oc=5",
-        "title": "Warszawa. Atak nożownika w autobusie miejskim, policja szuka sprawcy | TVN Warszawa",
-        "official": false,
-        "forYou": ""
-      },
-      {
         "at": "2026-11-08T16:16:05.000Z",
         "cat": "safety",
         "sev": 2,
@@ -216,27 +230,33 @@
           "href": "/pl/mapa-schronow/",
           "label": "Mapa schronów"
         }
-      },
-      {
-        "at": "2026-11-08T14:25:56.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Defence24",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdFF0VDl6MC1WaWxJcHBPSEZkRExWTU82TEIzb3pic0Z2ak9NVzRmSmpqNXctSlZaZmZjdmdfVXV0cHhlWDlSajZNaHo3Rm1Xb201TlpudDNlS29NN1lmX3ZZdUJkS09BOGNuaUttSzhXc0x4a0E0VEhLbjlTWGEzM0FwUWhEcHdBVUhDd0Uxc2ZCT095cE04?oc=5",
-        "title": "Testy dronów dalekiego zasięgu nad Polską. Komunikat wojska",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/mapa-schronow/",
-          "label": "Mapa schronów"
-        }
       }
     ],
-    "updatedAt": "2026-11-09T22:46:31.561Z"
+    "updatedAt": "2026-11-10T04:24:39.035Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-10T04:03:23.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "The Strategist | ASPI's analysis and commentary site",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSWRYWmhSOURXbGVQaWdHZVdDS3Y5Zm5DQU54Y191SkdlUlQ0b01aRHpEWlMxYkVTR3FURWZ3bzR5TXVwdVJ5VFRPWlFTcV9XLTdPQUtqMUJpVkFqSTlvYnB0MmxqWTRMZ2J6ZDZ1NXJHZ1VjZ2g0YVh6NDJXMkVaUGN1c0JwOFhUZjBpV0lmcEM4TWNVZ080WVFCcWZQdzFHb19NWA?oc=5",
+        "title": "The new ‘cold’ war: hacked fridges reveal infrastructure-security gaps",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-10T00:37:17.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Nacionale",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUjl3V3pCOUhIZndSd1BxLU41NVF1T0RYRVZGSlFqeDB6TVZVYTF0S3Mwb0d2dVk2aHRVWEFPQ2VvRWhEcXJBNHFtRjdmWTlacnRjVllHUW1fUGFOZEt3T3NpblBvRE1nbnFkUExhT2FPY3pRUm1XbjN3MkdydktvRVJtcl9XNFdrZlc0VnZlQU45N1FfSG9ZLUFhMl8wb013VFZGcXQ1X0lMUXU0N3NOQXVyaw?oc=5",
+        "title": "Has the UK ever had a national blackout? No, but the 2019 power cut hit more than a million customers",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-09T19:42:00.000Z",
         "cat": "cyber",
@@ -244,6 +264,16 @@
         "source": "CircleID",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQVhpSUFtMFhGN19sU0FMM1dDZEQ3ek9uTGV3WHBqcW9zSmxGbmFHNVFNVi15Szc2OXdVR09pVUI4V0ZwcUlNVWxDdk11WS00Q0J4eWItWmpUQTRXbWI1dHBYbFFpR1FsSU5xY3I1dExHSnY0Tm83YU1QejJPWDN5dG92empHVC1kaU5BSC16TmdJRml3SUZIOEU2a0Y2RWlfcHNTcGtR?oc=5",
         "title": "France Blames Iran’s Revolutionary Guards for Cyberattack on 700 Supermarkets",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-09T13:21:02.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The Kyiv Independent",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVm1aQVBPMUN6b1hfQnNFckxYck5GQS13Z1dZclB4LUpNMndSbGZ0U3c0RFl4ZTVuZ3JUT3ZGYlA2ZXRNMi10WURvYXpnbE52aklJSDY1cXhhcHRSb2JHMzBlbFZTQmEwZWhFNHJ2em5JZ1hnUzA5cEduMW9MV1ZNWnVyajloSE00MVBKckg5dU43UVd6bm4yTW9XQVBLYzdDQ19PdzBKRG5lQQ?oc=5",
+        "title": "Ukraine strikes St. Petersburg plant producing missile fuel, General Staff says",
         "official": false,
         "forYou": ""
       },
@@ -274,16 +304,6 @@
         "source": "The National",
         "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQRkdzMDFwVFNGNEFRbmVXNUZ4MG5RTDExMlVPcmIxek5OaEpFOFp2c0NVUEhzcWt5TWVVb3NhUDQ5SzJQZjhqaU41ZnVEMldQRGNNTk1CWm9pS2h6WmxHdlpKMHlqZ3BFaXBDaXdRTzIyNlNTY19FY0MxelZ6bEh3MjFB?oc=5",
         "title": "Middle East latest: 'We need both': No choice between deterrence and diplomacy, says Dr Gargash",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-09T11:17:27.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "UNITED24 Media",
-        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOZzV6QW1VVHY1UF9BM0xXRkN4aVBMaTRIWjJ2cnJIeXZ1QllDY3lUNXUyTVU0ZDBXT2VZbVZyaUp1MzZiRXppU2dkRmFhb2tYUEhURmdBLUNFdFpTWUV3MzNOTGdSTFhLYWJlNUVBSm1BSDFxYVFGOTJOZ2tKczI5bEFGQm5VdERMb1JmbGlDNEoxOGxnMUo1VEFrOXM3VXlKSEFuWmhPcjNjT3dxM01keUM2VHR2SE9PZ2ZkQzJrem55cEZoeXFadTZxZEpRTXhlZDRjMmFJLWlIQTBNNTlN?oc=5",
-        "title": "Russia’s Iskander-M Missile Production Takes a Hit as Ukraine Strikes Key Factory Near St. Petersburg",
         "official": false,
         "forYou": ""
       },
@@ -416,28 +436,8 @@
         "title": "More than 3,000 West Kelowna home impacted by power outage",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-07T19:17:55.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Iran International",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1rUS05U0JMUUIxWWR4YjN1bm93S1c5aFlhZXkwWTNSczYxYlU3cXhsbzd6OGFDR3ZXQVhkZmRucUQtRTFlLUl5d0RpLV80b1dsSVE?oc=5",
-        "title": "Iran says missiles no longer bound by range limits",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-07T18:07:28.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Britannica",
-        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5",
-        "title": "2026 Iran war | Oil, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-09T22:48:13.985Z"
+    "updatedAt": "2026-11-10T04:26:10.120Z"
   }
 }
