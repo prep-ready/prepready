@@ -1,16 +1,16 @@
 {
   "fx": {
     "eur": {
-      "value": 4.3873,
-      "date": "2026-11-09",
-      "prev": 4.3925,
-      "week": 4.3951
+      "value": 4.3895,
+      "date": "2026-11-10",
+      "prev": 4.3873,
+      "week": 4.3955
     },
     "usd": {
-      "value": 3.9199,
-      "date": "2026-11-09",
-      "prev": 3.9321,
-      "week": 3.9473
+      "value": 3.9099,
+      "date": "2026-11-10",
+      "prev": 3.9199,
+      "week": 3.9251
     },
     "source": "NBP"
   },
@@ -43,5 +43,5 @@
     ],
     "source": "Komisja Europejska, Weekly Oil Bulletin (ceny z podatkami, przeliczone kursem NBP)"
   },
-  "updatedAt": "2026-11-10T04:26:11.124Z"
+  "updatedAt": "2026-11-10T13:05:42.983Z"
 }
