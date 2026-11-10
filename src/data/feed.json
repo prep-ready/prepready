@@ -4,6 +4,36 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-11-10T15:47:13.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Defence24",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNc3VjbWJVVjctQjE4UnNaQm1Mek5WQXFpYnhWd3ZSVXJ0ZFNVT3NPWDZXSUt5UHVkYVNldmZMazktLXdlbnFsa2g0SjNxN0FHMlo4Z1NITnVIemRWOTg3dXFQZzRpZmktWUVxU0RLdnZ0YlNWdHdfdUtXR3NaT2tGcHNfdmlLNkUtUGNYUVlTMVRhWDRwNU5xRW00SzFHLVJ6aGZNaGFhWFFoaHM?oc=5",
+        "title": "Polska wyśle okręt do cieśniny Ormuz? Wojsko analizuje przełomowy ruch",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-10T15:07:58.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "TVN24",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdXNnODdfZ2hnZ1VOWG9ZY3JIcG4wYVVXYnk1MGg1c1hrNlFBUENodGp4bXJrak5JUjhBLTNwZWxFeGFLZjJpMDFNT1Bfam1CTnNkWERiQUFWYXVzZDN4WmU5UldmMktqaFhKZ2RFNHlBRWxXYUpLd2tCaWo1ZUY0ekxLcERJeW5BZmNjNU9LNGh1YlRKellhUkNLUmlfU0RUQ19OcmtsTlB2a0IzVjhnS09JWQ?oc=5",
+        "title": "Warszawa. Atak nożownika w autobusie miejskim, policja szuka sprawcy | TVN Warszawa",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-10T13:02:00.000Z",
+        "cat": "health",
+        "sev": 1,
+        "source": "Medonet",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTWM1SFZrSlZncExaZmhkdmlkUU83OW5iQTJJdUVPdGZrX1BiRWpXZUJsajJ5MnRIWFdhbmR2SWRKYmVlcEVTVXJqMUlmNWlLd2x4azRxYWxpQnZHR254clRia092dWxhUkxoTVBjNkFURWtXUVpwbzRJSGx4d0docl96ZXpicnBPd1pKN0MyYUdFaG43amNPV3c0M2gwc2dKSnB2aE5TWVEzckhBWkxXeXAxbGd0OWZQaHlLeXdOTQ?oc=5",
+        "title": "Epidemia HIV w Rosji, ponad 1,2 mln osób zakażonych w 27 regionach",
+        "official": false,
+        "forYou": ""
+      },
+      {
         "at": "2026-11-10T12:05:00.000Z",
         "cat": "weather",
         "sev": 2,
@@ -24,6 +54,20 @@
         "forYou": ""
       },
       {
+        "at": "2026-11-10T09:56:41.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "Radio Zet",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTTFCcTFKcEcyd3ZxU0ZxUEhBMG1QX2VGZ1R4OUJfeVgyMjBhMHlUUnl1S09ma3N5TkJBd090MTdBa1FWWGsySy1fOW81S3ZQT1VEcEpjX2g3Rkh2c0k3XzJSNkVvVDEwS0ZsZ25ZT1lTc1g0X1VIV05FenMtRkN4czU0RE15LU5YMzhPa0REWVFMYWpESkRjdHk0LXYzXzdZVENmUUVpazBvcUxOVWFV?oc=5",
+        "title": "Alert RCB dla Lubelszczyzny. Chodzi o rosyjski atak powietrzny na Ukrainę",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
+          "label": "Alert RCB i aplikacja RSO"
+        }
+      },
+      {
         "at": "2026-11-10T09:29:38.000Z",
         "cat": "safety",
         "sev": 2,
@@ -32,20 +76,6 @@
         "title": "RCB odwołało alert. \"Brak zagrożenia na terenie Polski\"",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-10T09:25:00.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "PolsatNews.pl",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNzd3em1wbGFaV2ZSeHQ2anQ3NnhtX3Y2NE5DcXBKRkRKVzROblhJSWwydFhOUFZMbTdncDJlN2NDbFc3SEZ2UXl2YXhOWDZ0TVhiZnRoV3VEeTRSaThLTXB5RjVGNWRrSXE2THMwYVpIaE9VTTBCN0NpS3U3UDJRSjBoN1k1aTVUY1lydHliQ0tndmp6VmU3SXVfV1lkOXI4a212YVdQUE12NnZQYXM4?oc=5",
-        "title": "Alert RCB dla województwa lubelskiego. Rosyjski atak na Ukrainę",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
-          "label": "Alert RCB i aplikacja RSO"
-        }
       },
       {
         "at": "2026-11-10T09:01:26.000Z",
@@ -76,6 +106,16 @@
         "title": "Na misję z kondomami, ale bez podpasek. Jak Wojsko Polskie rozumie równość płci",
         "official": false,
         "forYou": ""
+      },
+      {
+        "at": "2026-11-10T06:10:00.000Z",
+        "cat": "weather",
+        "sev": 2,
+        "source": "IMGW",
+        "url": "https://meteo.imgw.pl/",
+        "title": "IMGW: 2 ostrzeżeń meteo, najwyższy stopień 1: Opady śniegu",
+        "official": true,
+        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
       },
       {
         "at": "2026-11-10T04:12:59.000Z",
@@ -116,16 +156,6 @@
         "forYou": ""
       },
       {
-        "at": "2026-11-09T22:53:39.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "TVN24",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdXNnODdfZ2hnZ1VOWG9ZY3JIcG4wYVVXYnk1MGg1c1hrNlFBUENodGp4bXJrak5JUjhBLTNwZWxFeGFLZjJpMDFNT1Bfam1CTnNkWERiQUFWYXVzZDN4WmU5UldmMktqaFhKZ2RFNHlBRWxXYUpLd2tCaWo1ZUY0ekxLcERJeW5BZmNjNU9LNGh1YlRKellhUkNLUmlfU0RUQ19OcmtsTlB2a0IzVjhnS09JWQ?oc=5",
-        "title": "Warszawa. Atak nożownika w autobusie miejskim, policja szuka sprawcy | TVN Warszawa",
-        "official": false,
-        "forYou": ""
-      },
-      {
         "at": "2026-11-09T21:19:27.000Z",
         "cat": "safety",
         "sev": 2,
@@ -138,16 +168,6 @@
           "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
           "label": "Alert RCB i aplikacja RSO"
         }
-      },
-      {
-        "at": "2026-11-09T17:50:24.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Defence24",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNc3VjbWJVVjctQjE4UnNaQm1Mek5WQXFpYnhWd3ZSVXJ0ZFNVT3NPWDZXSUt5UHVkYVNldmZMazktLXdlbnFsa2g0SjNxN0FHMlo4Z1NITnVIemRWOTg3dXFQZzRpZmktWUVxU0RLdnZ0YlNWdHdfdUtXR3NaT2tGcHNfdmlLNkUtUGNYUVlTMVRhWDRwNU5xRW00SzFHLVJ6aGZNaGFhWFFoaHM?oc=5",
-        "title": "Polska wyśle okręt do cieśniny Ormuz? Wojsko analizuje przełomowy ruch",
-        "official": false,
-        "forYou": ""
       },
       {
         "at": "2026-11-09T13:30:00.000Z",
@@ -206,33 +226,43 @@
           "href": "/pl/poradniki/blackout-jak-sie-przygotowac/",
           "label": "Jak przygotować się na blackout"
         }
-      },
-      {
-        "at": "2026-11-09T10:55:00.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "CERT Polska",
-        "url": "https://cert.pl/posts/2026/11/CVE-2026-110468/",
-        "title": "Podatności w oprogramowaniu WidzialniCMS",
-        "official": true,
-        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
-      },
-      {
-        "at": "2026-11-09T09:25:25.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Rzeczpospolita",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVGloQnlud1hmelhrXzFIVzJzendyY2JQcFkyLUNBMzBVNldxSnVzNnFTZ2wwaWUwbEs1aW9HYkxPaTBKdXNVTzQ0VVBJTkFYV3BFeUJVNXlOVzZxWGlvanpDajFUT1dWejJybll2aVptN2dGbUU0R0xiazdkZmUzVDBnM01aamNhM2Y1Z3phaWlRR2VEVEpLRkl0SHRDUmRnR1dQaWxaN2pyb0JKcmVURjNFT1M5LTNXcDJz?oc=5",
-        "title": "Kto poleci F-35? Wojsku brakuje pilotów, Dęblin ogranicza nabory",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-10T13:04:16.445Z"
+    "updatedAt": "2026-11-10T20:39:51.582Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-10T16:29:45.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Latin Times",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOaHl3UXN3RG1FaXJ3eWZ2SEh6dlFYdm1VcDJ0N1p6ZFo5OUJMMmxIRUVYZWtvc3VUaGtnTGE3VnQ4aDhPWHdxTnlkVjVUSnpfYlpfWGVzUVF0X1EwUU9kM3hiOUVrYndFZlMtTFh4ZUg3OG9IdGZpNGNiVkM3NkRmSlcyMA?oc=5",
+        "title": "France says an Iranian IRGC cyber unit sabotaged refrigeration systems at 700 sites, destroying food inventories",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-10T15:58:57.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "LADbible",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZ3ZKMktfU2pLOVJzZFU4aHY2dnR0ckpXdW00RUVKdW9iRWEtdmlaMVJDNVIwMElXYV9uS1hFQWlqWFlMRXJtVnBwbjZ0SVBfbFN1MGgzb0hKeDJ3RDE1Q2hOamhWY3VxczNkVTM4WTZkV0tPc0plMW1XUlF2OVNPT1VOOGpWUDFBcEZTNGUxQzY3UDNseE1UMXhyR1pxQVB3ZzZMcXRpOS1XNGk5UmNN?oc=5",
+        "title": "US to test emergency broadcast system next week as UK unveils 'black sky event' plan",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-10T13:18:45.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "EnergyNow.com",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUmRjOW5iTlYxTE5NSkNHZlRTZXJRWXBZTEJMZ0FyNFItWWtPV3pmWUdnVTF0M2JzMmxOTmMyMU5MMG1nM3VJcnk2OS1OMXBrS3IxbTBvVVZVb1N0S2F6M1ZSS09kT18yOWZvZUh1MEdWSzlhTWw2TlAxWmpHcGZOZEN0U0haVUNBWHBPeS1ZNzVzYmlBZkMxTmFkb25vbERIeUx1eDBSeHNoUkVSUjVkc1dZeG8yYUZRbFJoTA?oc=5",
+        "title": "Fujairah Oil Zone Hit by Fire After Drone Attack as UAE Says it Intercepted Iran Missiles",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-10T12:03:30.000Z",
         "cat": "energy",
@@ -240,6 +270,16 @@
         "source": "Snopes",
         "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBVTFlMSlVIV1VKemxzVGVBbTd2UVgzdlNIbHRVNkxDSWdIeW1OemNRUlJrZ2UycnVjbUd1M1hJeDlCd20zRDFZbXJiZHkxQXdkNDNmZ1JPZGdDc09lQ0pGYUtrRGxGZ3c?oc=5",
         "title": "Are videos showing Trump announcing 90-day blackout real? Don't be fooled",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-10T10:24:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "New York Post",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQR095ZTRvSVZUbjJnbDRudFU4bVItb3BPX2J3MEV1OHdjMW1FZXl6S3ZlUmJ5YzM5cWhSWTJGZjJHc1hIZ2c1QXBsUmotVl9fWkRfa1F6bFVwMGp4c3lrRGh0SXBjWGdVckFVZmxvU3k5blVNcjJIUjlHSkpLWVlWZl9CN2xaR3d6enBrU01lRW9lZTN0cWgyQUQxdUdRWDNxZUUycjZQSGJwdWc?oc=5",
+        "title": "US-mediated talks on ending Russia-Ukraine war begin in Abu Dhabi",
         "official": false,
         "forYou": ""
       },
@@ -254,22 +294,22 @@
         "forYou": ""
       },
       {
+        "at": "2026-11-10T10:04:33.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Arabian Business",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeGVzSjhrbUhOTTctX0ViTkJTRnFEZnkwNTJQR3gySTJRQlk3aXNwenJ2Qk1DejVYcF84dmF4WDFPd2xKRzEwazEtOEdOb05OOFhJaXZQVTd3R2lDRHdGbTgtM1JSSEMxeFN5OTlLc0tLNE55MHlHRDZNU3lOVFBDaTJwQQ?oc=5",
+        "title": "Iran war live: GCC approves new military command HQ in Kuwait",
+        "official": false,
+        "forYou": ""
+      },
+      {
         "at": "2026-11-10T09:15:42.000Z",
         "cat": "security",
         "sev": 2,
         "source": "The Economic Times",
         "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNSVpjUFBibkh4bVYwUmFaU3hQWVVjMmotOGotSVZ6LXdvMVg2X0gtaWVKOThFR29ZZEtPVEVlRDdsWnBTMkxCa09zN3huY3JWc01lRk5hbUE4OHRlWG1hdEtacGtMRWtBVUF6QVZXbnNuVDJNaFFmTnRoNHpLSFc0S3dwNjB2V2U4RGRfYzZkNlJJTm5vbkhvdjdJM2NZZ3hQTHB6OG9faVVBOVFJaFR6cXBTQzVITTdoWlh3azFhdUwzcnY5dUk0bWNRY1hxX2ZZZHUwUlhnNXNDdE9CUENSWVdGRFFWc1Awc3JFQk8xcWtwYzdyRWJxOEJxdzRvd9IBgwJBVV95cUxOMnJrQXBZRmNmSVNVLVRFMlJZWjVISlRWY0dsWExFZ1MzbDhnUE16VnNEOXBKUm4tdUFnTDBzVEJlU2RXVlN4OFBlMXF0WDFQczFYOFRrMUhtYnBjenk3UWhzNWhIbzdXeXZMVjVrVjRhaWppcUN1ODItc2lCaXF3SUVMcHpmYXdnN2QwblNCZk54Qnk1Zm44bUZpa3ZjUW5mRHZ2aEItbUlTcHFHcXZJdU9TMWV5MnBCa0hUeDlQR0xsaTYwUjN6NnhBNXRLWVhGTFN0TDI3Y3htY1BnNHdTRWNRa1hYSlQtMkI0bFJLVXhOaHpsZ3FYamNJY0VUalZkcFZN?oc=5",
         "title": "Iran uses global climate talks to highlight impact of US strike on Minab school",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-10T07:46:32.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Latest news from Azerbaijan",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNOUpzd1NYSWk1TWNqOHVSVFV1Wm5SNDZiMF8xdW9jcFdpNllOQkM1eHNiMTZ3dDd5RHF5ZnRScmNwOWNYNXlTaEh4SUg2bExZUXZYdmJFYVlmblR4LWRaM3BnZ1RDSlFhVTdNUTVDM1FzTGRGYVl5bG5OcVB6Nk9nS0xPRkdobWlhNHNKM2o3QkU?oc=5",
-        "title": "Ukraine says it downed 135 Russian drones ahead of Abu Dhabi talks",
         "official": false,
         "forYou": ""
       },
@@ -392,48 +432,8 @@
         "title": "Aramco Tower hit in heart of Saudi capital as Houthis launch fresh strikes",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-08T12:35:11.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "fish4news.co.uk",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRnBTUWJjLU80Y2JvWmdqT0ZKOE5qYV9XemtCNHMwWW5BdG9NWnZqV0s4anQwNUJ0SndXVUlHbzRfa2JXMTQwRWJ0QnFBVEpNbWs3M1RFY1lLS1RyTVJ3NzB0QzJvdGU2LUoyazE3Tm52Rl85ZzJNaUphdmQ4aTJZX0tPMGs?oc=5",
-        "title": "BBC’s ‘Black Sky’ Plan: How Emergency Radio Would Work During a National Blackout",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-08T12:00:14.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "Beinsure",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNOExFUzFBQ1dHLUlETVVmeE1xQ0hSM3JYbHJjRzRzN216aXU4N3dPSGNZLXJtMnEzXzVyVm5BeF93MFBlZlhOWTB1M3JiUjZ4Z3FJaGRLRU8tQWRnRURHbVpmRmpPMUJROE9qdUYwTzMyQ0ViRzJWMW1mTmhEVVI5RlJMSmVIbUR2N1E?oc=5",
-        "title": "University Hospitals (Ohio) cyberattack leaves MyChart offline for two weeks",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-08T09:30:09.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "The 420.in",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcUcxZU9BeXRZOVJ6a0pyNE03X2NuVmJNbzRlcFFPd0diVi1Pd0dqc3pkUWNyY1NKNjJzb2sxVzZDQ0JEeEFObFQ4a0djWVVqNXRCMDJjdzBnRmd2QjdDYjl4MnZvZk5RSlRhX0l4ZG1qM2pKNHhLU3pnREpubFQweUhfcnlteTYwakdXRUs3V2puMVRPd1lKOWl2Qk9GSmc?oc=5",
-        "title": "Japan Approves ¥10 Billion Cybersecurity Package After Major Data Breaches",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-08T04:48:10.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "The Nation Newspaper",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdU5hT3UzZ3NxWnZMdFhPckRXdFdjcktYMnlNVExaRGRlZktxenBrcmNKYnpINFdZbzNCU0RQUEl5WTFta3RvSGF1VWNrbzdNUjRCbXpnU0R1QkhCUGVyc3I0a0dXbWI4WmIyUGU1VnZ4UHpqcndsZkRTcDVLMkJOclo4d2NNUUcySVlOa1NzNTF1UEdEWUcyRtIBngFBVV95cUxQMHdDWkFuYmlSLTNhYUx6b0ZHQkxTeWVsRG81dlQyYVcyUkgtMGhpaWV2RHpWTEdPVnI4SE1yZDc0TGw3d01BeUpZQnZuOUdlWE1scFV5SUdiNXBKbGNuQ3plVXJxWEFrVFZOVGd5SFhlRE5YRmpMMlo3X3U1d3pOSG1GUWJXaTEzOUpackIyU0loZE1CR1ZMZGtZOXFmZw?oc=5",
-        "title": "Blackout: We’ll restore electricity supply within 72 hours – Tegbe",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-10T13:05:41.801Z"
+    "updatedAt": "2026-11-10T20:41:58.023Z"
   }
 }
