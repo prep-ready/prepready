@@ -4,7 +4,7 @@
     "sample": false,
     "items": [
       {
-        "at": "2026-11-11T00:55:32.719Z",
+        "at": "2026-11-11T08:27:50.232Z",
         "cat": "energy",
         "sev": 3,
         "source": "PSE",
@@ -15,6 +15,34 @@
         "guide": {
           "href": "/pl/poradniki/blackout-jak-sie-przygotowac/",
           "label": "Jak przygotować się na blackout"
+        }
+      },
+      {
+        "at": "2026-11-11T05:26:13.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Polskie Radio 24",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOODFTdF9sYjM0Z1lHRTlhQzlqQmJHMmtobTBHbmppNC1wQkp0MmI2SGxRZmFoTjFyOTR1dnFnM0dBNVZ0WU4wbzMtRU42SmVRY2psVDQycjA4SjgyNUJ0VFFEU0M0M1IxbHBha1NMR2g3WGNBaGEwUERYOGptZzBubThjYkFvVDhSNDVwbk1NWDA4eFd3MjBUQUpUaU5MblpycXBzSXdaZ1FqcVJlbHN3dWpQMFNGRTg?oc=5",
+        "title": "Nieznany obiekt wleciał do Polski? Czerwone alerty na Litwie, poderwano myśliwce NATO",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
+      },
+      {
+        "at": "2026-11-11T05:11:02.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMDgwQVRZQXJocVVUWjJDYXB0X0cxZllBMXdjcE9Td0R2LVJNMS1oYWplbkhJNTdXcnRiSGZaSDVuR0JRdzhUMjVvb3cxSjY0T25wcE9CdHRjNFNoY1g5Njdldm1tMVZFR21yWkF5Q2tpNHlQNWpXa3N1MHJuNXVHdXY4WGNLWGxpZzhsM0QtSDU4ekFLblIyWmxwTGpjbV9fX21UdjBR?oc=5",
+        "title": "Do Polski miał wlecieć dron, wojsko zaprzecza. Podsumowanie nocy",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
         }
       },
       {
@@ -32,22 +60,22 @@
         }
       },
       {
+        "at": "2026-11-11T00:08:51.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "TVN24",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdXNnODdfZ2hnZ1VOWG9ZY3JIcG4wYVVXYnk1MGg1c1hrNlFBUENodGp4bXJrak5JUjhBLTNwZWxFeGFLZjJpMDFNT1Bfam1CTnNkWERiQUFWYXVzZDN4WmU5UldmMktqaFhKZ2RFNHlBRWxXYUpLd2tCaWo1ZUY0ekxLcERJeW5BZmNjNU9LNGh1YlRKellhUkNLUmlfU0RUQ19OcmtsTlB2a0IzVjhnS09JWQ?oc=5",
+        "title": "Warszawa. Atak nożownika w autobusie miejskim, policja szuka sprawcy | TVN Warszawa",
+        "official": false,
+        "forYou": ""
+      },
+      {
         "at": "2026-11-10T15:47:13.000Z",
         "cat": "security",
         "sev": 2,
         "source": "Defence24",
         "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNc3VjbWJVVjctQjE4UnNaQm1Mek5WQXFpYnhWd3ZSVXJ0ZFNVT3NPWDZXSUt5UHVkYVNldmZMazktLXdlbnFsa2g0SjNxN0FHMlo4Z1NITnVIemRWOTg3dXFQZzRpZmktWUVxU0RLdnZ0YlNWdHdfdUtXR3NaT2tGcHNfdmlLNkUtUGNYUVlTMVRhWDRwNU5xRW00SzFHLVJ6aGZNaGFhWFFoaHM?oc=5",
         "title": "Polska wyśle okręt do cieśniny Ormuz? Wojsko analizuje przełomowy ruch",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-10T15:07:58.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "TVN24",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdXNnODdfZ2hnZ1VOWG9ZY3JIcG4wYVVXYnk1MGg1c1hrNlFBUENodGp4bXJrak5JUjhBLTNwZWxFeGFLZjJpMDFNT1Bfam1CTnNkWERiQUFWYXVzZDN4WmU5UldmMktqaFhKZ2RFNHlBRWxXYUpLd2tCaWo1ZUY0ekxLcERJeW5BZmNjNU9LNGh1YlRKellhUkNLUmlfU0RUQ19OcmtsTlB2a0IzVjhnS09JWQ?oc=5",
-        "title": "Warszawa. Atak nożownika w autobusie miejskim, policja szuka sprawcy | TVN Warszawa",
         "official": false,
         "forYou": ""
       },
@@ -206,33 +234,53 @@
           "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
           "label": "Alert RCB i aplikacja RSO"
         }
-      },
-      {
-        "at": "2026-11-09T13:30:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Defence24",
-        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPMEZvZDV3SUJfX3BjQ1Q4S25Qa1hucUNOVmdhaGVMZnpRSnNtcjRMcEt0Zm8wSGJuZVdKOHFVU1hUemN5Wi1XOGZqSFFBVnF0dTRHRmk2WTZjYzdvaXVVUUViNTZuRG9lX3dMWWM5Rk1WMEo1XzNybzZYdEktWnZqU1NWQmZaSk5OeXppS2E1UVBBS0ZJTFVpaWNIeU1iY0oyOC1jb1Fhc1FBTE9BSERMS3Zka1V6X3hsckRLR2RacXZMZFlsWWlqMXZ3MkZFY00wMUg0UnBfdUd0VEk?oc=5",
-        "title": "Od wyścigu technologii po „Poligon Innowatora”. Jak Wojsko Polskie skraca drogę innowacji na linię frontu [WYWIAD]",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-09T13:04:00.000Z",
-        "cat": "weather",
-        "sev": 2,
-        "source": "IMGW",
-        "url": "https://meteo.imgw.pl/",
-        "title": "IMGW: 6 ostrzeżeń meteo, najwyższy stopień 1: Opady marznące",
-        "official": true,
-        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
       }
     ],
-    "updatedAt": "2026-11-11T00:56:40.334Z"
+    "updatedAt": "2026-11-11T08:28:53.979Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-11T08:26:18.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Odessa Journal",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQblJIdGc3aUhpa3gyaHNHbkh0ZEFleE8wbXBZM3ZNajFEb0ZkVHd1Wk4zS0FJcnBHYUpxLWZZRXZEMkVsb3VUc1pBWnc2Sl9rRGVfQlVFTTYwM2Z1MV9sX0RKcTlONkN2b1lHVi1odXpoN0ZlMDZISGpYVTN5SlA5bmd5dkNxLXNZMFdjbm1CeHhXZW1PYTI1TnFaOU8yWUo3NmZxNUd3?oc=5",
+        "title": "Two Russian Cruise Missiles Violate Moldova’s Airspace During Attack on Ukraine - Oj",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-11T07:08:57.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "UA.NEWS",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZzZVUHJna1pkb2cxcDBUdTlDc3NhSWlHMmpNeGV0Tk9SMVk3Z0lMNHl3SEpNWjVuMWV0bVdpSm9hU3F3WlZrVnVudnRycjFsemZsWk40TXlDcDFPMkwyMndoUnEwSkg1QXVaZDF2eEZsakI3Tm5iYXBYYy1ndlM2UEttVkRQRUY1UU1DcENwMHpwZkQtVTZIVQ?oc=5",
+        "title": "Russia launched a missile strike on Kharkiv; garages and cars were on fire",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-11T04:47:39.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Business Upturn",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPanUzcHdHV1F1Vy1VY2FFSHN0elpLVmNKd3ktc0VoUWtRSEQxZWZ5WVdXN1NsWkIzWk1kQndfNE5tVlRYVUdvdkpnS3hiXzBjcmRnRUNDT3Yya05OTFk3bkFTZm04MS1BWEtzd2Z3UDA3b2J0d1B0bW5LSUlRN0FGdzM5T2ZkZmxRNS1wQkxXdVNfVjNjMzctTQ?oc=5",
+        "title": "France blames Iran for supermarket freezer cyberattack",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-11T01:54:44.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "MEAWW News",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdGJSRGs5R3ZKcmFqT25ac2MzSmJhektteU5SUjNYUmxGdXRxTUhUTGswd08yaUhla3NXUldHQk1qYnhYbXNQV256ZER6ZHZyNTBhRnhzZHZmYmh4eVlWZTJzSHJlQ3JITU1GX3dJOEpJT3J0N05JSWNkSWdpSUNpLW5VVEp4aUxseVRWb3VQWXFrOUVp?oc=5",
+        "title": "Fact Check: Are videos showing Trump announcing 90-day blackout real?",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-10T23:28:39.000Z",
         "cat": "cyber",
@@ -294,32 +342,12 @@
         "forYou": ""
       },
       {
-        "at": "2026-11-10T12:03:30.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Snopes",
-        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBVTFlMSlVIV1VKemxzVGVBbTd2UVgzdlNIbHRVNkxDSWdIeW1OemNRUlJrZ2UycnVjbUd1M1hJeDlCd20zRDFZbXJiZHkxQXdkNDNmZ1JPZGdDc09lQ0pGYUtrRGxGZ3c?oc=5",
-        "title": "Are videos showing Trump announcing 90-day blackout real? Don't be fooled",
-        "official": false,
-        "forYou": ""
-      },
-      {
         "at": "2026-11-10T10:24:00.000Z",
         "cat": "security",
         "sev": 2,
         "source": "New York Post",
         "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQR095ZTRvSVZUbjJnbDRudFU4bVItb3BPX2J3MEV1OHdjMW1FZXl6S3ZlUmJ5YzM5cWhSWTJGZjJHc1hIZ2c1QXBsUmotVl9fWkRfa1F6bFVwMGp4c3lrRGh0SXBjWGdVckFVZmxvU3k5blVNcjJIUjlHSkpLWVlWZl9CN2xaR3d6enBrU01lRW9lZTN0cWgyQUQxdUdRWDNxZUUycjZQSGJwdWc?oc=5",
         "title": "US-mediated talks on ending Russia-Ukraine war begin in Abu Dhabi",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-10T10:05:19.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "Daily Times",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMTJrSDc4VDB6bW1vSUVjeDVDVmZ6QlhUQU05NnRnVk9rckxTZWNvUndPaldaNjJqc1NfZnJSSGM1dFhJay0wa0VfSUFpRkhQQmtZUUxSZ2FWNzlYdFNWVldRQ0xBQXk3NVp3MDN3dzVUVmdTU2M5SmwxU0tJaFBvb19ZZTF1VHljZUxVMmZSeVlxTTFQeWU0NHFrazRubm00bDR3dDczWHVoVFlnc3dqTWtqX3dpNDdGNnBXVw?oc=5",
-        "title": "France promises strong response to supermarket freezer cyberattack attributed to Iran",
         "official": false,
         "forYou": ""
       },
@@ -412,28 +440,8 @@
         "title": "Cyberattack Threatens Construction of Austria–Italy Brenner Base Tunnel - Oj",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-09T06:11:05.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "The Daily Telegraph",
-        "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOeXhsR0dfY0x5Qjc5R1FBd1A0bVRpamVpU19la0hhTlJNcmVXLUZac0NwdlJzeUdFTDhMS2hqV3lqRmFGa1dxWGpTUER4MzFJX0NaeEw0eVBTckx3Szg5ZXRqQ3EwY2doeEVzenNsTmpqbmZaV2R4YTN4VXZ4RDRXTy1ubTVVMTlQTU4tOTB5N08wUkdwLTBaZmtySGZWdU9TVndRbHZUaFpXVWZoTXpyU2dsazBKZnkzaTlubG9tb3JOQjRFd0paYXQ5dEV6NGNhREdSMlcxeVlHZWJoNC1CZ0hYSzhPajR6aXNWY1AtTFp0N1FDdElXTk1Fa1Y5cFJS?oc=5",
-        "title": "‘Absolutely certain’: Millions face rolling blackouts after Snowy 2.0 delay, Minns could step in",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-09T01:41:03.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Metro State University",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRzhMR2lEX0JMRThKdHFXMWhHaXNPZUxRME5kLUVaUTZzVHQ3Rnk0NlBWbVhBWWRFazRsVVoyVXZ5elJnTFFGSmVkRGxDMVhObnNDbkFBWGZhNkhmd3JBVS1OWW1fb1V0clR5Ul9lc0tDemkwWlhLYzktZ1lyVGtnbHhlVHp0dnVhaHZqb3RVMnRXVlBKaWFJclYxQWVwZG1reF84ekowMTk?oc=5",
-        "title": "Is a 90-Day Blackout Coming? What the Military Plan Actually Means -",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-11T00:58:40.242Z"
+    "updatedAt": "2026-11-11T08:30:12.787Z"
   }
 }
