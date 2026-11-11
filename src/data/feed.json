@@ -4,7 +4,21 @@
     "sample": false,
     "items": [
       {
-        "at": "2026-11-11T08:27:50.232Z",
+        "at": "2026-11-09T12:00:00.000Z",
+        "cat": "supply",
+        "sev": 3,
+        "source": "Komisja Europejska",
+        "url": "https://energy.ec.europa.eu/data-and-analysis/weekly-oil-bulletin_en",
+        "title": "Ceny paliw w Polsce wzrosły w tydzień o 6%: Pb95 6.08 zł, ON 7.70 zł",
+        "official": true,
+        "forYou": "Nie rób zakupów w panice. Uzupełniaj zapas stopniowo, a bak tankuj, gdy spadnie do połowy.",
+        "guide": {
+          "href": "/pl/poradniki/zapas-wody-i-jedzenia/",
+          "label": "Zapas na kryzys"
+        }
+      },
+      {
+        "at": "2026-11-11T16:39:29.474Z",
         "cat": "energy",
         "sev": 3,
         "source": "PSE",
@@ -18,18 +32,24 @@
         }
       },
       {
-        "at": "2026-11-11T05:26:13.000Z",
+        "at": "2026-11-11T11:24:00.000Z",
+        "cat": "health",
+        "sev": 1,
+        "source": "TVP Info",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPN2pUcDhpclh6LW5WVGRRNi1pVW9hcEdsLXRQWGhHZTJ1aTYxSTFqS1NTNXBabHJzbzVxTE1IOUNIS0N4T2NDWTdPd1loRHJjNzgtZFBDeDZLYXpXSEw4LUk3bFVKc2hlRmxRakJSZE4yRTd2VktEUTJaOURLbVVWSXgwVW9qRjM1Z2tBeHhFM2VLdHluRlFCV1BzcFY4N2RxWkx4NlEwUkNJNlRO?oc=5",
+        "title": "Rośnie liczba zachorowań na ebolę. „Najbardziej śmiercionośna epidemia”",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-11T09:21:15.000Z",
         "cat": "security",
         "sev": 2,
-        "source": "Polskie Radio 24",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOODFTdF9sYjM0Z1lHRTlhQzlqQmJHMmtobTBHbmppNC1wQkp0MmI2SGxRZmFoTjFyOTR1dnFnM0dBNVZ0WU4wbzMtRU42SmVRY2psVDQycjA4SjgyNUJ0VFFEU0M0M1IxbHBha1NMR2g3WGNBaGEwUERYOGptZzBubThjYkFvVDhSNDVwbk1NWDA4eFd3MjBUQUpUaU5MblpycXBzSXdaZ1FqcVJlbHN3dWpQMFNGRTg?oc=5",
-        "title": "Nieznany obiekt wleciał do Polski? Czerwone alerty na Litwie, poderwano myśliwce NATO",
+        "source": "Rzeczpospolita",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdFVfMkhfTklfRE1SQ3NlVVJ3SmtlRTBUNEJJUDVfYUJiUzV5a1JFbmg4NDAyMjJOM01sMFUxaDFOakwwWFA3WWVDc2MtbVlFMWNiYWR4YnRlYlphWUFjQ191UWxsUlZqRVFGZkVDcG9Vc1dOb1htT0ctVy1RbFdWaldZVVE1dFViaVg0d29rY1RUYzhUNzFYOWs0YzE3aXNBUm9vRGVtTDFpM2s?oc=5",
+        "title": "Nieznany obiekt miał przekroczyć granicę Polski. Wojsko sprawdza doniesienia",
         "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/mapa-schronow/",
-          "label": "Mapa schronów"
-        }
+        "forYou": ""
       },
       {
         "at": "2026-11-11T05:11:02.000Z",
@@ -220,27 +240,53 @@
         "title": "Obrona wschodniej granicy. Wojsko buduje, przemysł oferuje wsparcie nowymi technologiami",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-09T21:19:27.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "TVN24",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdVN6MjRWbTBMcjJaVmctUVdDMHVrdWFHZlppQ0twdkIxUVJMbE1HX01VaERsdkhtdW8tWGlNcW55MV9OcTA0OWVJS0JmME0tLUVQQjZsNkt1dGZFNlk1VENvQlJ3YXltdjRZRkcwX3FXY1E1SlZPUmJxS09vazBiZFdhLUNKbFdYUGZ3TA?oc=5",
-        "title": "Alert RCB dla mieszkańców Lubelszczyzny i Podlasia",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
-          "label": "Alert RCB i aplikacja RSO"
-        }
       }
     ],
-    "updatedAt": "2026-11-11T08:28:53.979Z"
+    "updatedAt": "2026-11-11T16:40:35.538Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-11T16:32:22.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "The Brussels Times",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWDN5VTJEUGVMcXY5QWowbEFubDJuSHdMZnh5S29ITndSR2hpR2t3MUc4VHdEZGpwbVRVX0pzal9iY0k5dldQU0dHSEVwaGxHQmxNUzlXQUNjelB6YmdVdWVuOWFlRDduQ2RCekJQdGVjR2NFcUJGXzNGaW1xM2plb0VjMnk1aWV3OU13WG1MSi10aG81YlE4b0J0RjVtTTdublUzZFhibmpxUk5CSmc?oc=5",
+        "title": "'Not a cyberattack': Network issues at Brussels hospital resolved",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-11T14:29:15.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "NationalWorld",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTzBSWmtvdEdXX2g2RTJSVmtlMFp0TksxVGVBeXZqYl95Qlk4SG5wSGFwOWl3TElhaEl4aXlnbkJ4MFFYNWtjZjFMN2V3NGtMemRFdlhnUjl4aWdieThVdjRGMWpwbnFELW1nYzhEUEo3czZiY2I5Vl9RQmhWRHdPVFRMLURLR3U2VTd6alNyd1hTdlBocGhHdQ?oc=5",
+        "title": "Inside mum’s £50 ‘doomsday box’ to survive a blackout – including chocolate",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-11T14:20:29.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Kyiv Post",
+        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE54YXd5MElESjduaWxub2RZcnNzeHl1VEZyU0dPT2JJcWZTZlNWc3pkbzBqWkRueHRSV1pZcDNBbm1YTDBNcXY3SWl0NA?oc=5",
+        "title": "France Fears Nuclear War as Germany Builds Long-Range Arsenal to Strike Deep Inside Russia",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-11T12:47:27.000Z",
+        "cat": "health",
+        "sev": 1,
+        "source": "ECDC",
+        "url": "https://www.ecdc.europa.eu/en/news-events/preparations-continue-rollout-new-public-health-surveillance-platform-nine-pilot",
+        "title": "Preparations continue for rollout of new public health surveillance platform in nine pilot countries",
+        "official": true,
+        "forYou": "Usually no action. Check your first-aid kit and expiry dates."
+      },
       {
         "at": "2026-11-11T08:26:18.000Z",
         "cat": "security",
@@ -400,48 +446,8 @@
         "title": "Ukraine strikes St. Petersburg plant producing missile fuel, General Staff says",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-09T13:20:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The Times",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQLWlJdTN1VDNsUWg2NEtKOWtxcDJNc1R6ajNCQ3MzVFJOV1pJWldaNGlUekEwUjd0dUhsNGRvbXVNNk9UQm5xc2JEV1ZtOTdXRHA4WDJHRnRqN1hWSGhxSENRdHF5MWNPOXVEa2x6cnhWaG5tOG1JRGNmMHRPSE5rQXJtM2N0cHJuNGNZbmtnNFBQVVZ6SmhmaS16Rk41MnJha3hQWjA4VTdfbTZZdlg0U0MzMmlSdXdHZHBVMA?oc=5",
-        "title": "War pushes Ukraine into population crisis as deaths far outstrip births",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-09T12:32:57.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "The Jerusalem Post",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1ZQzJRdEpicEVOZUE2Nkd4ekl2Z1Fsb2hXbmNzZFBCZjZfZlphLUVHandNNGxFSzNOUTFkd0d1Qm9seXRFYWRzR3FHMmVUN3R2TjRlSjFXR3VScW5W?oc=5",
-        "title": "Widespread blackout caused by drone attack on Khor Mor gas field, exposing Iraqi vulnerabilities",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-09T11:36:57.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The National",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQRkdzMDFwVFNGNEFRbmVXNUZ4MG5RTDExMlVPcmIxek5OaEpFOFp2c0NVUEhzcWt5TWVVb3NhUDQ5SzJQZjhqaU41ZnVEMldQRGNNTk1CWm9pS2h6WmxHdlpKMHlqZ3BFaXBDaXdRTzIyNlNTY19FY0MxelZ6bEh3MjFB?oc=5",
-        "title": "Middle East latest: 'We need both': No choice between deterrence and diplomacy, says Dr Gargash",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-09T08:36:33.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "Odessa Journal",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdDFBUjc1SHJqdndoeC12U1kzWUp2Q0ViNXZfTjl1MnU0Z1Z4ODBMQnVNenEzSWg4VF9oSjNvcUNkckNtM0tWZjhwUF9iX01IYWx3dUdKVHdMVnRUaFlWbVBaNTQyWWhLM0xsUGlvakcxSEUwWWdIdzFMeUdxRlhQbmRRX193R1NqaUhIWlRfS0hCcFk?oc=5",
-        "title": "Cyberattack Threatens Construction of Austria–Italy Brenner Base Tunnel - Oj",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-11T08:30:12.787Z"
+    "updatedAt": "2026-11-11T16:42:44.145Z"
   }
 }
