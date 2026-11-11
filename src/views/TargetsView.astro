@@ -1,0 +1,392 @@
+---
+/**
+ * Tarcze strzeleckie do druku (tylko PL: część prawna dotyczy Polski).
+ * Dane lekcji: src/data/tarcze.json (generowane razem z PDF-ami w public/tarcze/).
+ */
+import Base from '../layouts/Base.astro';
+import lessons from '../data/tarcze.json';
+import { routes } from '../i18n/ui';
+
+const meta = {
+  title: 'Tarcze strzeleckie do druku A4 (PDF)',
+  desc: 'Darmowe tarcze do wiatrówki, kuszy i procy w pięciu poziomach trudności. Z lekcjami krok po kroku, dystansami, zasadami bezpieczeństwa i progami medalowymi.',
+};
+const F = '/tarcze/';
+const kits = [
+  { id: 'W', slug: 'wiatrowka', name: 'Wiatrówka', sub: 'Karabinek i pistolet pneumatyczny', note: 'Do 17 J bez pozwolenia i rejestracji. Strzelasz na własnym terenie, z pewnym kulochwytem. Pistolet przechodzi tę samą ścieżkę z bliższego dystansu: W0 do W3 z 5 m, W5 i W6 z 7 m.' },
+  { id: 'K', slug: 'kusza', name: 'Kusza', sub: 'Tylko na strzelnicy', note: 'W Polsce kusza wymaga pozwolenia na broń i wolno z niej strzelać wyłącznie na strzelnicy. Tarcze K są wielopunktowe celowo: jeden bełt w jeden punkt, żeby bełty nie niszczyły się nawzajem.' },
+  { id: 'P', slug: 'proca', name: 'Proca', sub: 'Kulki gliniane lub stalowe', note: 'Bez formalności, ale z okularami ochronnymi i skrzynką łapiącą. Trafienie liczy się, gdy kulka przebije papier wewnątrz czarnego obrysu albo na nim. Papier naklej na karton.' },
+] as const;
+const byKit = (k: string) => lessons.filter((l) => l.kit === k);
+
+const rules = [
+  ['Zawsze jak załadowane', 'Każdy sprzęt traktujesz tak, jakby był gotowy do strzału.'],
+  ['Kierunek: kulochwyt', 'Lufa, bełt i widełki procy patrzą tylko w stronę tarczy. Nigdy na ludzi i zwierzęta.'],
+  ['Palec poza spustem', 'Dopóki przyrządy nie są na tarczy i nie zdecydujesz o strzale.'],
+  ['Wiesz, co jest za tarczą', 'I obok niej. Jeśli nie masz pewności, nie strzelasz.'],
+  ['Okulary dla wszystkich', 'Strzelec i widzowie. Rykoszet wraca w stronę stanowiska.'],
+  ['Ładujesz na linii', 'Do tarczy idziesz dopiero, gdy wszystko jest rozładowane i odłożone.'],
+  ['Jedna osoba prowadzi', 'Słowo STOP od kogokolwiek przerywa strzelanie natychmiast.'],
+  ['Dzieci z dorosłym', 'Stały nadzór przy boku. Alkohol i strzelanie się wykluczają.'],
+];
+const law = [
+  ['Wiatrówka do 17 J', 'Bez pozwolenia i bez rejestracji. Ustawa nie uznaje jej za broń pneumatyczną.', 'Na własnym terenie albo za zgodą właściciela. Pocisk nie może opuścić posesji.'],
+  ['Wiatrówka powyżej 17 J', 'Broń pneumatyczna. Rejestracja w komendzie powiatowej Policji w ciągu 5 dni od zakupu, od 18 lat, z orzeczeniem lekarskim i psychologicznym.', 'Na strzelnicy.'],
+  ['Kusza', 'Wymaga pozwolenia na broń (art. 4 ust. 1 pkt 4 lit. b ustawy o broni i amunicji).', 'Wyłącznie na strzelnicy.'],
+  ['Proca', 'Nie jest bronią w rozumieniu ustawy. Bez formalności.', 'Jak wiatrówka do 17 J: własny teren, pewny kulochwyt.'],
+];
+const steps = [
+  ['Postawa', 'Stopy na szerokość barków, ciało rozluźnione. Jeśli musisz napinać mięśnie, żeby trzymać cel, przestaw stopy.'],
+  ['Chwyt', 'Pewny, ale bez ściskania. Zawsze w tym samym miejscu i z tą samą siłą.'],
+  ['Celowanie', 'Wzrok ostry na muszce, tarcza lekko rozmyta. Muszka równo w szczerbince, pod czarnym polem.'],
+  ['Oddech', 'Wdech, wydech i strzał w naturalnej pauzie po wydechu. Nie dłużej niż 6 do 8 sekund.'],
+  ['Spust', 'Naciskasz płynnie, prosto do tyłu, samą opuszką palca. Strzał ma Cię lekko zaskoczyć.'],
+  ['Wytrzymanie', 'Po strzale zostań na celu jeszcze 2 sekundy. Oderwanie wzroku to najczęstsza przyczyna pudła.'],
+];
+const faq = [
+  ['Z jakiej odległości strzelać z wiatrówki do tarczy?', 'Standard to 10 m, tak jak w konkurencjach olimpijskich. Na początek, z pistoletu albo przy małej ilości miejsca, strzelaj z 5 m. Połowa dystansu oznacza dwa razy łatwiejszą tarczę. Stalowymi kulkami BB strzelaj z 5 m i tylko do miękkiego kulochwytu.'],
+  ['Czy na wiatrówkę trzeba mieć pozwolenie?', 'Na wiatrówkę o energii do 17 J nie trzeba pozwolenia ani rejestracji. Powyżej 17 J to broń pneumatyczna: trzeba ją zarejestrować na Policji w ciągu 5 dni od zakupu i mieć ukończone 18 lat.'],
+  ['Czy można strzelać z wiatrówki we własnym ogrodzie?', 'Z wiatrówki do 17 J tak, pod warunkiem że pocisk nie opuści posesji i nikomu nie zagrażasz. Potrzebujesz kulochwytu, płyty ochronnej za nim i strefy bez ludzi za tarczą. Za każdą szkodę odpowiada strzelający.'],
+  ['Czy kusza jest w Polsce legalna?', 'Kusza wymaga pozwolenia na broń, a strzelać z niej wolno tylko na strzelnicy. Dlatego nasze tarcze do kuszy są przeznaczone na strzelnicę, nie do ogrodu.'],
+  ['Jak wydrukować tarczę w prawidłowej skali?', 'W oknie drukowania ustaw skalę 100% albo „rozmiar rzeczywisty” i wyłącz dopasowanie do strony. Każda tarcza ma w stopce odcinek kontrolny: po wydruku ma mieć dokładnie 50 mm.'],
+  ['Jaki kulochwyt do wiatrówki zrobić w domu?', 'Sztywne pudło ciasno wypchane starymi ubraniami lub gazetami, a za nim płyta ze sklejki lub OSB co najmniej trzy razy większa od tarczy. Tarczę przyklej taśmą papierową, nie pinezkami, bo od twardych elementów śrut się odbija.'],
+  ['Jak liczyć punkty na tarczy?', 'Liczy się pierścień, którego dotyka przestrzelina. Otwór na linii daje wyższą wartość. Strzał poza ostatnim pierścieniem to 0 punktów.'],
+];
+const jsonLd = [
+  { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faq.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) },
+  { '@context': 'https://schema.org', '@type': 'DigitalDocument', name: 'System strzelecki PrepReady: tarcze treningowe A4', inLanguage: 'pl', encodingFormat: 'application/pdf', isAccessibleForFree: true,
+    url: new URL(F + 'prepready-tarcze-komplet.pdf', Astro.site).href, description: meta.desc, publisher: { '@type': 'Organization', name: 'PrepReady' } },
+];
+---
+<Base lang="pl" title={meta.title} description={meta.desc} alternates={{ pl: routes.targets.pl }} jsonLd={jsonLd}>
+  <div class="wrap page-head">
+    <div class="eyebrow">Do druku · A4 · PDF · za darmo</div>
+    <h1>Tarcze strzeleckie do druku</h1>
+    <p>17 tarcz do wiatrówki, kuszy i procy, ułożonych w lekcje od przystrzelania po strzelanie na czas. Wybierasz sprzęt, ustawiasz stanowisko i przechodzisz tarcze po kolei. Każda ma w nagłówku dystans, postawę, liczbę strzałów i progi na brąz, srebro i złoto.</p>
+    <div class="cta">
+      <a class="btn primary" href={F + 'prepready-tarcze-komplet.pdf'} download>Pobierz komplet (PDF, 24 strony)</a>
+      <a class="btn ghost" href={F + 'prepready-tarcze-przewodnik.pdf'} download>Sam przewodnik (7 stron)</a>
+    </div>
+    <ul class="facts mono">
+      <li><b>17</b> tarcz</li><li><b>5</b> poziomów</li><li><b>3</b> rodzaje sprzętu</li><li>skala <b>1:1</b></li>
+    </ul>
+  </div>
+
+  <section class="block" id="tarcze">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <div class="eyebrow">Krok 1</div>
+          <h2>Wybierz, czym strzelasz</h2>
+        </div>
+        <div class="chips" role="group" aria-label="Rodzaj sprzętu">
+          {kits.map((k, i) => <button class="chip" type="button" data-pick={k.id} aria-pressed={i === 0 ? 'true' : 'false'}>{k.name}</button>)}
+        </div>
+      </div>
+
+      {kits.map((k) => (
+        <div class="kit" data-kit={k.id} id={k.slug}>
+          <div class="kit-head">
+            <div>
+              <h3>{k.name} <span class="mono">{k.sub}</span></h3>
+              <p>{k.note}</p>
+            </div>
+            <a class="link-more" href={`${F}prepready-tarcze-${k.slug}.pdf`} download>Cały zestaw {k.name.toLowerCase()} (PDF, {byKit(k.id).length} tarcz) →</a>
+          </div>
+          <ol class="cards">
+            {byKit(k.id).map((l) => (
+              <li class="card panel">
+                <a class="thumb" href={`${F}tarcza-${l.code.toLowerCase()}.pdf`} aria-label={`Pobierz tarczę ${l.code} ${l.name} (PDF)`}>
+                  <img src={`${F}img/${l.code.toLowerCase()}.webp`} width="480" height="679" loading="lazy" decoding="async" alt={`Tarcza ${l.code} ${l.name}: ${k.name.toLowerCase()}, ${l.dist}`} />
+                </a>
+                <div class="body">
+                  <div class="top">
+                    <span class="code mono">{l.code}</span>
+                    <span class="lvl" aria-label={`Poziom ${l.level} z 5`}>{[1, 2, 3, 4, 5].map((n) => <i class={n <= l.level ? 'on' : ''}></i>)}</span>
+                  </div>
+                  <h4>{l.name}</h4>
+                  <p class="how">{l.how}</p>
+                  <dl>
+                    <div><dt>Dystans</dt><dd>{l.dist}</dd></div>
+                    <div><dt>Postawa</dt><dd>{l.pos}</dd></div>
+                    <div><dt>Strzały</dt><dd>{l.shots}</dd></div>
+                    <div><dt>Medale</dt><dd>{l.medal}</dd></div>
+                  </dl>
+                  <a class="dl" href={`${F}tarcza-${l.code.toLowerCase()}.pdf`} download>Pobierz PDF</a>
+                </div>
+              </li>
+            ))}
+          </ol>
+        </div>
+      ))}
+      <p class="fine">Brązowy medal otwiera następną tarczę, srebro i złoto są po to, żeby wracać. Progi ustaliliśmy dla sprzętu rekreacyjnego i służą nauce, nie klasyfikacji sportowej. Tarcze W2 i W4 mają wymiary zawodnicze (pistolet i karabin 10 m).</p>
+    </div>
+  </section>
+
+  <section class="block" id="bezpieczenstwo">
+    <div class="wrap">
+      <div class="eyebrow">Zanim załadujesz</div>
+      <h2>Osiem zasad, których się nie zawiesza</h2>
+      <p class="lead">Śrut, bełt i kulka lecą wielokrotnie dalej, niż stoi tarcza, i potrafią trwale uszkodzić oko. Te zasady obowiązują zawsze, także podczas zabawy.</p>
+      <ol class="rules">
+        {rules.map(([h, b], i) => <li><span class="n mono">{String(i + 1).padStart(2, '0')}</span><div><strong>{h}</strong><p>{b}</p></div></li>)}
+      </ol>
+    </div>
+  </section>
+
+  <section class="block" id="stanowisko">
+    <div class="wrap">
+      <div class="eyebrow">Krok 2</div>
+      <h2>Ustaw stanowisko</h2>
+      <div class="panel range">
+        <svg viewBox="0 0 720 200" role="img" aria-label="Schemat stanowiska z góry: widzowie za strzelcem, linia strzału, dystans do tarczy, kulochwyt, płyta ochronna i strefa bez ludzi za tarczą">
+          <path d="M88 100 L720 16 V184 Z" fill="var(--signal-bright)" opacity=".14" />
+          <line x1="112" y1="22" x2="112" y2="178" stroke="var(--ink)" stroke-width="2.5" />
+          <text x="120" y="32" class="lb">LINIA STRZAŁU</text>
+          <circle cx="88" cy="100" r="11" fill="var(--ink)" />
+          <text x="104" y="80" class="lb" text-anchor="end">STRZELEC</text>
+          <circle cx="40" cy="86" r="7" fill="none" stroke="var(--ink)" stroke-width="1.5" /><circle cx="40" cy="114" r="7" fill="none" stroke="var(--ink)" stroke-width="1.5" />
+          <text x="40" y="142" class="lb" text-anchor="middle">WIDZOWIE</text>
+          <text x="40" y="154" class="ls" text-anchor="middle">za strzelcem</text>
+          <line x1="112" y1="100" x2="510" y2="100" stroke="var(--ink)" stroke-width="1.2" stroke-dasharray="5 5" />
+          <path d="M112 164 H512 M112 158 V170 M512 158 V170" stroke="var(--ink)" stroke-width="1.2" fill="none" />
+          <text x="312" y="157" class="lb" text-anchor="middle">DYSTANS Z NAGŁÓWKA TARCZY</text>
+          <rect x="510" y="76" width="4" height="48" fill="var(--signal-bright)" />
+          <text x="504" y="68" class="lb sg" text-anchor="end">TARCZA</text>
+          <rect x="518" y="68" width="36" height="64" fill="var(--ink)" />
+          <text x="536" y="146" class="lb" text-anchor="middle">KULOCHWYT</text>
+          <rect x="564" y="32" width="7" height="136" fill="var(--muted)" />
+          <text x="556" y="30" class="lb mu" text-anchor="end">PŁYTA OCHRONNA</text>
+          <text x="556" y="42" class="ls" text-anchor="end">min. 3 × większa od tarczy</text>
+          <text x="584" y="98" class="lb sg">STREFA BEZ LUDZI</text>
+          <text x="584" y="110" class="ls">także po bokach</text>
+        </svg>
+      </div>
+      <div class="cols3">
+        <div>
+          <h3>Kulochwyt</h3>
+          <ul class="list">
+            <li><strong>Wiatrówka, śrut ołowiany.</strong> Metalowy kulochwyt albo sztywne pudło ciasno wypchane starymi ubraniami lub gazetami. Za nim płyta ze sklejki lub OSB.</li>
+            <li><strong>Stalowe kulki BB.</strong> Odbijają się od wszystkiego, co twarde. Tylko miękki kulochwyt i dystans 5 m.</li>
+            <li><strong>Proca.</strong> Skrzynka łapiąca: karton lub skrzynia z luźno zawieszoną grubą tkaniną w środku. W ogrodzie kulki gliniane zamiast stalowych.</li>
+            <li><strong>Kusza.</strong> Mata lub blok piankowy przeznaczony do kusz o prędkości Twojego bełtu, na strzelnicy.</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Tarcza</h3>
+          <ul class="list">
+            <li>Przyklej tarczę taśmą papierową do kartonu. Pinezki, spinacze i klamerki odbijają pociski.</li>
+            <li>Środek tarczy na wysokości lufy. Stojąc to około 1,4 m nad ziemią, tak jak na zawodach.</li>
+            <li>Nie strzelaj w stronę ściany, kamieni, drzew, metalu ani wody. To rykoszet.</li>
+            <li>Odmierz dystans taśmą i zaznacz linię strzału. Nikt jej nie przekracza, dopóki trwa strzelanie.</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Druk</h3>
+          <ul class="list">
+            <li>Skala 100% albo „rozmiar rzeczywisty”. Wyłącz dopasowanie do strony.</li>
+            <li>Zmierz odcinek kontrolny w stopce tarczy. Ma mieć dokładnie 50 mm.</li>
+            <li>Papier 120 do 160 g daje czyste przestrzeliny. Zwykły 80 g też działa.</li>
+            <li>Do wiatrówki weź śrut z płaską główką. Wycina równe otwory i łatwiej policzyć punkty.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="technika">
+    <div class="wrap">
+      <div class="eyebrow">Krok 3</div>
+      <h2>Sześć kroków każdego strzału</h2>
+      <p class="lead">Celność to powtarzalność. Każdy strzał ma wyglądać tak samo jak poprzedni, niezależnie od sprzętu.</p>
+      <ol class="steps">
+        {steps.map(([h, b], i) => <li class="panel"><span class="n mono">{i + 1}</span><strong>{h}</strong><p>{b}</p></li>)}
+      </ol>
+      <div class="cols3 tech">
+        <div>
+          <h3>Wiatrówka</h3>
+          <ul class="list">
+            <li><strong>Sprężynowa (łamana):</strong> trzymaj luźno i pozwól jej się cofnąć. Łoże opieraj na dłoni lub miękkim worku, nigdy lufą o twardą podpórkę.</li>
+            <li><strong>PCP i CO2:</strong> brak odrzutu, technika jak w karabinku sportowym.</li>
+            <li><strong>Pistolet:</strong> zacznij oburącz z 5 m. Wyprostowane ręce, wzrok na muszce.</li>
+            <li>Przetestuj 3 do 4 rodzajów śrutu na tarczy W1. Każda lufa lubi inny.</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Kusza</h3>
+          <ul class="list">
+            <li>Palce i kciuk ręki podtrzymującej zawsze poniżej szyny.</li>
+            <li>Nigdy nie strzelaj bez bełtu. Strzał „na sucho” niszczy łuczysko.</li>
+            <li>Naciągaj równo, sznurem naciągowym lub korbą. Krzywy naciąg to boczne trafienia.</li>
+            <li>Bełt zakładasz dopiero na linii, z kuszą skierowaną w tarczę. Rozładowujesz strzałem w tarczę.</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Proca</h3>
+          <ul class="list">
+            <li>Przed każdą sesją obejrzyj gumy przy widełkach i przy skórce. Pęknięcie oznacza wymianę.</li>
+            <li>Naciągaj do tego samego punktu przy policzku lub kąciku ust. To Twój celownik.</li>
+            <li>Widełki trzymaj zawsze pod tym samym kątem. Skórkę puszczaj czysto, bez szarpania.</li>
+            <li>Zacznij z 3 do 5 m. Dystans zawodniczy to 10 m.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="wyniki">
+    <div class="wrap two">
+      <div>
+        <div class="eyebrow">Wyniki</div>
+        <h2>Jak liczyć punkty i skupienie</h2>
+        <ul class="list big">
+          <li>Liczy się pierścień, którego dotyka przestrzelina. Otwór na linii daje wyższą wartość.</li>
+          <li><strong>Skupienie:</strong> zmierz odległość między zewnętrznymi krawędziami dwóch najdalszych przestrzelin i odejmij kaliber (śrut 4,5 mm).</li>
+          <li><strong>Korekta:</strong> poprawiaj przyrządy dopiero po serii 5 strzałów. Szczerbinkę przesuwasz w tę stronę, w którą chcesz przesunąć trafienia.</li>
+          <li>Ciasna grupa poza środkiem to wina przyrządów. Szeroka grupa to technika.</li>
+        </ul>
+      </div>
+      <div>
+        <div class="eyebrow">Mniej miejsca?</div>
+        <h2>Zmiana dystansu</h2>
+        <div class="tbl panel">
+          <table>
+            <thead><tr><th>Z nagłówka</th><th>Strzelasz z</th><th>Efekt</th></tr></thead>
+            <tbody>
+              <tr><td class="mono">10 m</td><td class="mono">5 m</td><td>tarcza dwa razy łatwiejsza</td></tr>
+              <tr><td class="mono">10 m</td><td class="mono">7 m</td><td>łatwiejsza o około 30%</td></tr>
+              <tr><td class="mono">10 m</td><td class="mono">15 m</td><td>trudniejsza o 50%</td></tr>
+              <tr><td class="mono">10 m</td><td class="mono">20 m</td><td>tarcza dwa razy trudniejsza</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="prawo">
+    <div class="wrap">
+      <div class="eyebrow">Polska · stan na listopad 2026</div>
+      <h2>Prawo w skrócie</h2>
+      <div class="tbl panel">
+        <table>
+          <thead><tr><th>Sprzęt</th><th>Formalności</th><th>Gdzie wolno strzelać</th></tr></thead>
+          <tbody>{law.map(([a, b, c]) => <tr><td><strong>{a}</strong></td><td>{b}</td><td>{c}</td></tr>)}</tbody>
+        </table>
+      </div>
+      <p class="fine">To skrót, nie porada prawna. Przed zakupem sprzętu sprawdź aktualne przepisy albo zapytaj w wydziale postępowań administracyjnych Policji. Podstawa: ustawa z 21 maja 1999 r. o broni i amunicji (Dz.U. 2024 poz. 485).</p>
+    </div>
+  </section>
+
+  <section class="block" id="faq">
+    <div class="wrap">
+      <div class="eyebrow">FAQ</div>
+      <h2>Najczęstsze pytania</h2>
+      <div class="faq">
+        {faq.map(([q, a]) => <details><summary>{q}</summary><p>{a}</p></details>)}
+      </div>
+      <p class="fine">Źródła wymiarów i zasad: przepisy ISSF dla tarcz 10 m (karabin 45,5 mm, pistolet 155,5 mm), World Crossbow Shooting Association (hala: 18 m, tarcza 40 cm), World Slingshot Association (dystans 10 m, cele 4 do 8 cm), wytyczne 4-H Shooting Sports dla strzelnic pneumatycznych, Ogólne zasady bezpieczeństwa PZSS.</p>
+    </div>
+  </section>
+</Base>
+
+<script is:inline>
+(function () {
+  var chips = document.querySelectorAll('[data-pick]'), kits = document.querySelectorAll('.kit[data-kit]');
+  if (!chips.length) return;
+  var bySlug = { wiatrowka: 'W', kusza: 'K', proca: 'P' };
+  function show(id, save) {
+    chips.forEach(function (c) { c.setAttribute('aria-pressed', c.dataset.pick === id ? 'true' : 'false'); });
+    kits.forEach(function (k) { k.hidden = k.dataset.kit !== id; });
+    if (save) { try { localStorage.setItem('pr-kit', id); } catch (e) {} }
+  }
+  var start = bySlug[location.hash.slice(1)];
+  if (!start) { try { start = localStorage.getItem('pr-kit'); } catch (e) {} }
+  show(start === 'K' || start === 'P' ? start : 'W', false);
+  chips.forEach(function (c) { c.addEventListener('click', function () { show(c.dataset.pick, true); }); });
+  window.addEventListener('hashchange', function () { var h = bySlug[location.hash.slice(1)]; if (h) show(h, false); });
+})();
+</script>
+
+<style>
+  h2{margin:4px 0 14px}
+  .cta{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+  .facts{list-style:none;margin:22px 0 0;padding:14px 0 0;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;gap:8px 28px;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+  .facts b{font-size:15px;color:var(--ink);font-weight:600;margin-right:4px}
+  .lead{font-family:var(--body);font-weight:var(--body-w);font-size:16px;line-height:1.6;color:var(--ink-2);max-width:66ch;margin-bottom:22px}
+  .fine{font-family:var(--body);font-weight:var(--body-w);font-size:13.5px;line-height:1.6;color:var(--muted);max-width:86ch;margin-top:18px}
+
+  .chips{display:flex;gap:8px;flex-wrap:wrap}
+  .chip{font-size:14px;padding:8px 16px}
+  .kit{scroll-margin-top:90px}
+  .kit + .kit{margin-top:44px}
+  .kit[hidden]{display:none}
+  .kit-head{display:flex;justify-content:space-between;align-items:end;gap:14px 28px;flex-wrap:wrap;margin-bottom:18px}
+  .kit-head h3{font-size:22px;font-weight:800;display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+  .kit-head h3 span{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:400}
+  .kit-head p{font-family:var(--body);font-weight:var(--body-w);font-size:15px;line-height:1.6;color:var(--ink-2);max-width:72ch;margin-top:6px}
+
+  .cards{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px}
+  .card{display:flex;flex-direction:column;overflow:hidden}
+  .thumb{display:block;background:#fff;border-bottom:1px solid var(--line);aspect-ratio:480/679}
+  .thumb img{display:block;width:100%;height:100%;object-fit:contain}
+  .body{padding:14px 16px 16px;display:flex;flex-direction:column;gap:8px;flex:1}
+  .top{display:flex;justify-content:space-between;align-items:center}
+  .code{font-size:13px;font-weight:600;color:var(--signal);letter-spacing:.06em}
+  .lvl{display:inline-flex;gap:3px}
+  .lvl i{width:9px;height:9px;border:1px solid var(--ink-2);display:block}
+  .lvl i.on{background:var(--ink);border-color:var(--ink)}
+  .card h4{font-size:19px;font-weight:780;font-stretch:84%}
+  .how{font-family:var(--body);font-weight:var(--body-w);font-size:13.5px;line-height:1.55;color:var(--ink-2)}
+  dl{margin:4px 0 0;display:grid;gap:0;border-top:1px solid var(--line)}
+  dl div{display:grid;grid-template-columns:74px 1fr;gap:8px;padding:6px 0;border-bottom:1px solid var(--line)}
+  dt{font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);padding-top:2px}
+  dd{margin:0;font-size:13.5px;font-weight:650}
+  .dl{margin-top:auto;padding-top:8px;font-weight:700;font-size:14px;color:var(--action);text-decoration:none}
+  .dl:hover{text-decoration:underline}
+
+  .rules{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 40px;border-top:1px solid var(--line)}
+  .rules li{display:grid;grid-template-columns:34px 1fr;gap:10px;padding:14px 0;border-bottom:1px solid var(--line)}
+  .rules .n{font-size:12px;color:var(--signal);padding-top:3px}
+  .rules strong{font-size:16px}
+  .rules p{font-family:var(--body);font-weight:var(--body-w);font-size:14.5px;line-height:1.55;color:var(--ink-2);margin-top:2px}
+
+  .range{padding:10px;margin-bottom:26px;overflow-x:auto}
+  .range svg{display:block;width:100%;min-width:620px;height:auto}
+  .lb{font-family:var(--mono);font-size:10px;letter-spacing:.06em;fill:var(--ink);font-weight:600}
+  .ls{font-family:var(--mono);font-size:9.5px;fill:var(--muted)}
+  .sg{fill:var(--signal)} .mu{fill:var(--muted)}
+  .cols3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}
+  .cols3 h3{margin-bottom:10px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+  .list{margin:0;padding-left:1.1em;font-family:var(--body);font-weight:var(--body-w);font-size:14.5px;line-height:1.6;color:var(--ink-2);display:grid;gap:8px}
+  .list li::marker{color:var(--signal)}
+  .list strong{color:var(--ink);font-weight:600}
+  .list.big{font-size:15.5px;max-width:60ch}
+
+  .steps{list-style:none;margin:0 0 30px;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+  .steps li{padding:14px 16px;display:grid;grid-template-columns:auto 1fr;gap:2px 10px;align-items:baseline}
+  .steps .n{font-size:12px;color:var(--signal)}
+  .steps strong{font-size:17px}
+  .steps p{grid-column:1/-1;font-family:var(--body);font-weight:var(--body-w);font-size:14px;line-height:1.55;color:var(--ink-2);margin-top:4px}
+
+  .two{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:36px}
+  .tbl{overflow-x:auto}
+  table{width:100%;border-collapse:collapse;min-width:420px}
+  th,td{text-align:left;padding:12px 16px;border-bottom:1px solid var(--line);font-size:14px;vertical-align:top}
+  td{font-family:var(--body);font-weight:var(--body-w);color:var(--ink-2)}
+  td strong{font-family:var(--display);color:var(--ink);font-weight:700;white-space:nowrap}
+  td.mono{font-family:var(--mono);color:var(--ink)}
+  th{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600}
+  tr:last-child td{border-bottom:0}
+
+  .faq{border-top:1px solid var(--line);max-width:860px}
+  .faq details{border-bottom:1px solid var(--line)}
+  .faq summary{cursor:pointer;padding:14px 0;font-weight:700;font-size:16.5px;list-style:none;display:flex;justify-content:space-between;gap:16px}
+  .faq summary::-webkit-details-marker{display:none}
+  .faq summary::after{content:"+";font-family:var(--mono);color:var(--signal);font-weight:400}
+  .faq details[open] summary::after{content:"−"}
+  .faq p{font-family:var(--body);font-weight:var(--body-w);font-size:15.5px;line-height:1.65;color:var(--ink-2);max-width:70ch;padding-bottom:16px}
+
+  @media (max-width:980px){ .cols3,.two{grid-template-columns:minmax(0,1fr)} .steps{grid-template-columns:repeat(2,minmax(0,1fr))} }
+  @media (max-width:620px){ .rules,.steps{grid-template-columns:1fr} .cards{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px} .body{padding:10px 12px 12px} .how{display:none} dl div{grid-template-columns:1fr;gap:0} .card h4{font-size:16px} }
+</style>
