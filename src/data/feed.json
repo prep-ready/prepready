@@ -18,6 +18,20 @@
         }
       },
       {
+        "at": "2026-11-11T19:06:03.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "WP Wiadomości",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQ05vM3RJTXhLTHJfX0tiNDdWWWgxNFhGV0txSlRqcGVDa2JNemlrekc2cnhfX1ZNc2pHM2R0eUI5dldfOVhnUmsxU0o3MDk3OGU2WVdaa0VkWDA2X1BRNWRiVktwRG50Y0h0aXJXalNWTFR3RlhDdDN1ajdQeHJGMFZEbWFvN2pZMmlEWXpncV96NWVaQXJtRUU2aDM1SUU5YjdZZExGajU?oc=5",
+        "title": "Ewakuacja wagonu w pociągu do Bielska-Białej. Pasażer miał broń",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/poradniki/plan-ewakuacji-rodziny/",
+          "label": "Plan ewakuacji rodziny"
+        }
+      },
+      {
         "at": "2026-11-11T16:39:29.474Z",
         "cat": "energy",
         "sev": 3,
@@ -230,23 +244,63 @@
           "href": "/pl/mapa-schronow/",
           "label": "Mapa schronów"
         }
-      },
-      {
-        "at": "2026-11-10T00:29:47.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Defence24",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQRWpkNXdaMjhGVjFPNWV1VVlQNS1zSU9oUVJjUFAxUWtfY1lJSEtDbG1zdk1WQzZKRVpJVmxMal9rTThnNFhIdFRndXRFX0M2LVY3aEt6anVwcTNvSE9sbGJPQXZUUFZXYmJLT2R5NFBlODh6REo1R29iZ0g0TmNvY1FHYzI3SmZBNXNQUHpMTS1kX3pHYWk3Qm9uOWxvNzdKZ2VmMHRDRnpzSjNxUzBGNkR4aGhqdmxzdTloNlNKYjFTZw?oc=5",
-        "title": "Obrona wschodniej granicy. Wojsko buduje, przemysł oferuje wsparcie nowymi technologiami",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-11T16:40:35.538Z"
+    "updatedAt": "2026-11-11T23:09:30.205Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-11T23:04:43.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Nigeria Communications Week",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNT0xJNk1sVEZTdjludVM3VE96VVpJZU4tM19zTHFJVHItSmlGYkxLaEZjNUFHZk53TmJkaFZyUHRFbE82aDNxd3llZXJlQzJQUUZmM0lHTEVxSGhEQ0F5Z2h2UGpHWXBvY01HT0d4a3JBZXFoSkJIcEZUTC1scTRRa2dEa2JnUVRsSjBzOHl1WExlYTMyc3lyV0NhdkhDSnA0SzlvMUZpQllaUVdnTTdpOTM5ZU9NZmRsOXhIcl9hME1RSWhhbWlYN2NsMjZ6QTVfVURmUEdBT3E0SGNSSWRRZTJwOA?oc=5",
+        "title": "Kaspersky Identifies Routine Admin Gaps Opened the Door to Ransomware in Virtualisation Cases",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-11T21:58:53.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Odessa Journal",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRTF0MWc2Zk9vUjRiaWxKWHdwMGZIRHpkVmhoUGJwLW5lcGpxc1cwUWR2RnZ4dVM2R1NTTzg2aE1FMjNFSzhlSHdmYWRBS0tiTzJxQlVseG5yZ19mOGZuSEQ3bWd2bS1jWTdGRlJCOVFoc1lONmMwTHFUX09UWGc3bHd5RzV5cUFfVjRxSWlsdXJwUTJ1M3I1U2pqNmNjYXo0UWdteW13c1JkNmJsbVE?oc=5",
+        "title": "Ukrainian Drones Strike Russian Oil Terminals and Missile Ship in Ust-Luga Operation - Oj",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-11T21:00:59.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Morocco News",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcTN2d3N6ZTJrM0U3aGFZbmhsWGlod0RiZGZCQW93VXVENktkMWtKWE9jUHd0OFdBY1NnZWhSRm5JWW42UnpsZ1VBT2RPZktIU3h0YTV2Qy1reEFGNFRLcWRnZzUyMWctVVp5V283dnE1cHNpa3JpYXdPZV9mMnJ1UXhIZF80QVIxbk5tOVRPVGk3WVgyRm9YSEZaOXdPVnBrdVBraGtZUTk2YktfakhLRjliaEpOX2dQdk5Cbg?oc=5",
+        "title": "Storm damages national power grid, triggers widespread electricity cuts in Casablanca - HESPRESS English",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-11T20:26:52.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Britannica",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5",
+        "title": "2026 Iran war | Oil, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-11T19:18:02.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Военное дело",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPYVFib1JzQkVUbElFSEsxcXVYY3dtVVpOWVdZdXRoSmtDQ0EyN1kwNGVjRE5CNk9lNFJGc3JJd1NoZHQ1OXNKYmZXS3RtU3VMbGY1WkpXd0tkQ0RzcFhuMWRHU25FVlZERUpDN3VCaUtUVjVLNlNBajd4ekFuT0podGFlY1Z6ZHctMG9FM0pKV2V3Q3c2Zi1VQlZB?oc=5",
+        "title": "France Fears Nuclear War Risk From German Missiles: FT",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-11T16:32:22.000Z",
         "cat": "cyber",
@@ -268,16 +322,6 @@
         "forYou": ""
       },
       {
-        "at": "2026-11-11T14:20:29.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Kyiv Post",
-        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE54YXd5MElESjduaWxub2RZcnNzeHl1VEZyU0dPT2JJcWZTZlNWc3pkbzBqWkRueHRSV1pZcDNBbm1YTDBNcXY3SWl0NA?oc=5",
-        "title": "France Fears Nuclear War as Germany Builds Long-Range Arsenal to Strike Deep Inside Russia",
-        "official": false,
-        "forYou": ""
-      },
-      {
         "at": "2026-11-11T12:47:27.000Z",
         "cat": "health",
         "sev": 1,
@@ -286,26 +330,6 @@
         "title": "Preparations continue for rollout of new public health surveillance platform in nine pilot countries",
         "official": true,
         "forYou": "Usually no action. Check your first-aid kit and expiry dates."
-      },
-      {
-        "at": "2026-11-11T08:26:18.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Odessa Journal",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQblJIdGc3aUhpa3gyaHNHbkh0ZEFleE8wbXBZM3ZNajFEb0ZkVHd1Wk4zS0FJcnBHYUpxLWZZRXZEMkVsb3VUc1pBWnc2Sl9rRGVfQlVFTTYwM2Z1MV9sX0RKcTlONkN2b1lHVi1odXpoN0ZlMDZISGpYVTN5SlA5bmd5dkNxLXNZMFdjbm1CeHhXZW1PYTI1TnFaOU8yWUo3NmZxNUd3?oc=5",
-        "title": "Two Russian Cruise Missiles Violate Moldova’s Airspace During Attack on Ukraine - Oj",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-11T07:08:57.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "UA.NEWS",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZzZVUHJna1pkb2cxcDBUdTlDc3NhSWlHMmpNeGV0Tk9SMVk3Z0lMNHl3SEpNWjVuMWV0bVdpSm9hU3F3WlZrVnVudnRycjFsemZsWk40TXlDcDFPMkwyMndoUnEwSkg1QXVaZDF2eEZsakI3Tm5iYXBYYy1ndlM2UEttVkRQRUY1UU1DcENwMHpwZkQtVTZIVQ?oc=5",
-        "title": "Russia launched a missile strike on Kharkiv; garages and cars were on fire",
-        "official": false,
-        "forYou": ""
       },
       {
         "at": "2026-11-11T04:47:39.000Z",
@@ -426,28 +450,8 @@
         "title": "The new ‘cold’ war: hacked fridges reveal infrastructure-security gaps",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-10T00:37:17.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Nacionale",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUjl3V3pCOUhIZndSd1BxLU41NVF1T0RYRVZGSlFqeDB6TVZVYTF0S3Mwb0d2dVk2aHRVWEFPQ2VvRWhEcXJBNHFtRjdmWTlacnRjVllHUW1fUGFOZEt3T3NpblBvRE1nbnFkUExhT2FPY3pRUm1XbjN3MkdydktvRVJtcl9XNFdrZlc0VnZlQU45N1FfSG9ZLUFhMl8wb013VFZGcXQ1X0lMUXU0N3NOQXVyaw?oc=5",
-        "title": "Has the UK ever had a national blackout? No, but the 2019 power cut hit more than a million customers",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-09T13:21:02.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The Kyiv Independent",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVm1aQVBPMUN6b1hfQnNFckxYck5GQS13Z1dZclB4LUpNMndSbGZ0U3c0RFl4ZTVuZ3JUT3ZGYlA2ZXRNMi10WURvYXpnbE52aklJSDY1cXhhcHRSb2JHMzBlbFZTQmEwZWhFNHJ2em5JZ1hnUzA5cEduMW9MV1ZNWnVyajloSE00MVBKckg5dU43UVd6bm4yTW9XQVBLYzdDQ19PdzBKRG5lQQ?oc=5",
-        "title": "Ukraine strikes St. Petersburg plant producing missile fuel, General Staff says",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-11T16:42:44.145Z"
+    "updatedAt": "2026-11-11T23:11:41.069Z"
   }
 }
