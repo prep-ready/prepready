@@ -4,6 +4,34 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-11-11T00:55:32.719Z",
+        "cat": "energy",
+        "sev": 3,
+        "source": "PSE",
+        "url": "https://www.pse.pl/",
+        "title": "PSE: dziś zalecane oszczędzanie energii",
+        "official": true,
+        "forYou": "Ogranicz zużycie prądu w godzinach szczytu, naładuj powerbanki i latarki.",
+        "guide": {
+          "href": "/pl/poradniki/blackout-jak-sie-przygotowac/",
+          "label": "Jak przygotować się na blackout"
+        }
+      },
+      {
+        "at": "2026-11-11T00:30:48.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "WP Wiadomości",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNT3pnQ1NZaHk1WU9ULUlTUkdWUHduYXV6b1JBYVBTLUotNXFTTEJMTWM3aXhWMGIwWkd5R29kdmhkc1Zkc0dpRGhia1BHQUxvZHZPNHRpU3VZTHZSWUhiaUxPZU5RRjlyaFFROV91Ynh3ZDVjN2NVRTA2cHM0bTliVG5SSmVjb0JXaDdfR0FHS0NrX3BsTW16RjN0NkJtV3U2eW0tZ2lQZ3k?oc=5",
+        "title": "Media: Dron przeleciał przez Litwę i przekroczył polską granicę",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
+      },
+      {
         "at": "2026-11-10T15:47:13.000Z",
         "cat": "security",
         "sev": 2,
@@ -32,6 +60,16 @@
         "title": "Epidemia HIV w Rosji, ponad 1,2 mln osób zakażonych w 27 regionach",
         "official": false,
         "forYou": ""
+      },
+      {
+        "at": "2026-11-10T12:05:00.000Z",
+        "cat": "weather",
+        "sev": 2,
+        "source": "IMGW",
+        "url": "https://meteo.imgw.pl/",
+        "title": "IMGW: 1 ostrzeżeń meteo, najwyższy stopień 1: Opady śniegu",
+        "official": true,
+        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
       },
       {
         "at": "2026-11-10T12:05:00.000Z",
@@ -188,51 +226,33 @@
         "title": "IMGW: 6 ostrzeżeń meteo, najwyższy stopień 1: Opady marznące",
         "official": true,
         "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
-      },
-      {
-        "at": "2026-11-09T13:04:00.000Z",
-        "cat": "weather",
-        "sev": 2,
-        "source": "IMGW",
-        "url": "https://meteo.imgw.pl/",
-        "title": "IMGW: 8 ostrzeżeń meteo, najwyższy stopień 1: Opady marznące",
-        "official": true,
-        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
-      },
-      {
-        "at": "2026-11-09T12:34:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "RMF24",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdUNnLWlTZGFxM2FRMlBNbGktaFpxYWZFNlpPY0Y4QkE0TjhNX1lGZXV4d3B3SV9RRVBmcmtjQ1ZHSTBITlZJN1NaeVVXNEtzcHdOcDlxTVprZ01KX3hYS1ZrbE5YeFpHQS1fQkNiaUJwbGtHSHJlMkN6cTJTb2FNeDVQanJITUxUZmdQZFFVUEdUN2kteVZzckVlaHYtbFZVSW4zQmFDd0V4OFYzSnk4Q1lB?oc=5",
-        "title": "SpaceX podejmuje wyzwanie. Statek Starship i rakieta Super Heavy mają wrócić w całości",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/mapa-schronow/",
-          "label": "Mapa schronów"
-        }
-      },
-      {
-        "at": "2026-11-09T12:12:57.374Z",
-        "cat": "energy",
-        "sev": 3,
-        "source": "PSE",
-        "url": "https://www.pse.pl/",
-        "title": "PSE: dziś zalecane oszczędzanie energii",
-        "official": true,
-        "forYou": "Ogranicz zużycie prądu w godzinach szczytu, naładuj powerbanki i latarki.",
-        "guide": {
-          "href": "/pl/poradniki/blackout-jak-sie-przygotowac/",
-          "label": "Jak przygotować się na blackout"
-        }
       }
     ],
-    "updatedAt": "2026-11-10T20:39:51.582Z"
+    "updatedAt": "2026-11-11T00:56:40.334Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-10T23:28:39.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "CEO Magazyn",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4xaXFEVnJENmJydHktdDNRZjhoa2hQVHgzSEpHQkE2QVpGaWw3b3M3bWFrc2NDNk4ydTE1YjlpOGVTd3ZDMk0yRU9SeFV2eG9OS1JCejBQRzdpbzhzaUxoeV9YQVg1R1VfQ0cwUVZn?oc=5",
+        "title": "Poland Halts ePUAP Cyberattack, Full Service Still Pending | CEO Magazine Poland",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-10T20:57:17.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "LADbible",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOclltSFI1b2k5WUxwWEJUbWxtcUJjeExEVWdvVlJGVGpMM3FvYUVJY21MZnI5UXotUlV2QmVXNXBYUm00aHg5VHUydUlrM05Pa1QxVl9QcGpMdXBZeWVaMUNRczNtaGNjUzJkUGwzNGZOd2poMk53Vk11QkZabHVIeUxtUGhTUGRNek5QWTlJb0REdGxnRlZMSjBPNW5pTndTUGJvampn?oc=5",
+        "title": "Expert explains what would actually happen if UK power cuts out in 'black sky event'",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-10T16:29:45.000Z",
         "cat": "cyber",
@@ -260,6 +280,16 @@
         "source": "EnergyNow.com",
         "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUmRjOW5iTlYxTE5NSkNHZlRTZXJRWXBZTEJMZ0FyNFItWWtPV3pmWUdnVTF0M2JzMmxOTmMyMU5MMG1nM3VJcnk2OS1OMXBrS3IxbTBvVVZVb1N0S2F6M1ZSS09kT18yOWZvZUh1MEdWSzlhTWw2TlAxWmpHcGZOZEN0U0haVUNBWHBPeS1ZNzVzYmlBZkMxTmFkb25vbERIeUx1eDBSeHNoUkVSUjVkc1dZeG8yYUZRbFJoTA?oc=5",
         "title": "Fujairah Oil Zone Hit by Fire After Drone Attack as UAE Says it Intercepted Iran Missiles",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-10T12:32:28.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRS10b2hUNXhtQ3BuektfU1IwTXdwZG43S0xUQnYtOUJNclJsM2szNi1QQ285M0NQdmFEVzB6WWxBbVNkNkJKcGt0TjE5YUlOWlFzeUxrQ2NoS19EY3ZqWmkzTHVjbkowanRLX2d0QzIyOHhSVW54OGtFdmROZUNuUVRmcnZBa2RYakpnZFp5VkhlcC0tX0lBUV9tV2FpaVdtRVRaU0lKVTNXNHZfclVpR252dU4?oc=5",
+        "title": "Iran Uses Global Climate Talks to Highlight Impact of US Strike",
         "official": false,
         "forYou": ""
       },
@@ -300,16 +330,6 @@
         "source": "Arabian Business",
         "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeGVzSjhrbUhOTTctX0ViTkJTRnFEZnkwNTJQR3gySTJRQlk3aXNwenJ2Qk1DejVYcF84dmF4WDFPd2xKRzEwazEtOEdOb05OOFhJaXZQVTd3R2lDRHdGbTgtM1JSSEMxeFN5OTlLc0tLNE55MHlHRDZNU3lOVFBDaTJwQQ?oc=5",
         "title": "Iran war live: GCC approves new military command HQ in Kuwait",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-10T09:15:42.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The Economic Times",
-        "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNSVpjUFBibkh4bVYwUmFaU3hQWVVjMmotOGotSVZ6LXdvMVg2X0gtaWVKOThFR29ZZEtPVEVlRDdsWnBTMkxCa09zN3huY3JWc01lRk5hbUE4OHRlWG1hdEtacGtMRWtBVUF6QVZXbnNuVDJNaFFmTnRoNHpLSFc0S3dwNjB2V2U4RGRfYzZkNlJJTm5vbkhvdjdJM2NZZ3hQTHB6OG9faVVBOVFJaFR6cXBTQzVITTdoWlh3azFhdUwzcnY5dUk0bWNRY1hxX2ZZZHUwUlhnNXNDdE9CUENSWVdGRFFWc1Awc3JFQk8xcWtwYzdyRWJxOEJxdzRvd9IBgwJBVV95cUxOMnJrQXBZRmNmSVNVLVRFMlJZWjVISlRWY0dsWExFZ1MzbDhnUE16VnNEOXBKUm4tdUFnTDBzVEJlU2RXVlN4OFBlMXF0WDFQczFYOFRrMUhtYnBjenk3UWhzNWhIbzdXeXZMVjVrVjRhaWppcUN1ODItc2lCaXF3SUVMcHpmYXdnN2QwblNCZk54Qnk1Zm44bUZpa3ZjUW5mRHZ2aEItbUlTcHFHcXZJdU9TMWV5MnBCa0hUeDlQR0xsaTYwUjN6NnhBNXRLWVhGTFN0TDI3Y3htY1BnNHdTRWNRa1hYSlQtMkI0bFJLVXhOaHpsZ3FYamNJY0VUalZkcFZN?oc=5",
-        "title": "Iran uses global climate talks to highlight impact of US strike on Minab school",
         "official": false,
         "forYou": ""
       },
@@ -412,28 +432,8 @@
         "title": "Is a 90-Day Blackout Coming? What the Military Plan Actually Means -",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-09T00:36:45.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOam9zc1FkUTVXSWFQS0FvbG5pRlRaTjVyRDNrU0pubVYtU1Q2SUM3T0NuVWltenY4VUNXRGh6LW1fLWRxcFVKWEhyY2ZlODZHdEV5UkJiNkhBOHpYUUY2U3FLNnM3RHpkS3o3Tm9jNnEzUEg1VGdCdmlHV0trMDdEX3p5UWp6XzJFTEtyWlBTUFhocldQcXlJeTg1N3d6d0FSMGk4WVdwZW16Q3Q4dlZTdDVoSm_SAboBQVVfeXFMTnlpdEw5V3RCT3NRU2pOUUdmSExLODRyNVY5US1jTnkyWG9POFRpM3JGMVFEb0ZpZ2ZieFBWd1Brd0kyQll0dlBtenRZQjVoQ2J6UDBQSFlCVDhfNU5obnpHM0lLYkpRVHJvUmt6YkRzc3loMnpiSnUtczlrOHdFTm5rNWVmdlJGbWt2RXhnbUxyaDBoRkN2dXBmM3R1T2JTczhaUEpiV3hZbmpVV1ZSSjh3ZUNQRXFNOVJn?oc=5",
-        "title": "Saudi Aramco building in Riyadh damaged in ‘attempted’ attack",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-08T21:37:36.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "BBC",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA3VFhjNFMxVXpNZWhoTnJhcEs4clhMM3BveHNLUkpSUGhubGF5VDdWemd5aTVWLVY1aWNoT1l2Tm5kTWczXzVCTUoyMjJXcGtFdXVzZjgxcHVrYzg?oc=5",
-        "title": "Aramco Tower hit in heart of Saudi capital as Houthis launch fresh strikes",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-10T20:41:58.023Z"
+    "updatedAt": "2026-11-11T00:58:40.242Z"
   }
 }
