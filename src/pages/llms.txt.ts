@@ -32,6 +32,7 @@ Każdy poradnik ma listę źródeł, datę przeglądu i sekcję FAQ. Treści mo�
 - [Mapa schronów: gdzie jest najbliższy schron](${abs(routes.shelters.pl)}): wpisz adres i zobacz najbliższe schrony, ukrycia i miejsca doraźnego schronienia z bazy KG PSP (dane.gov.pl), z odległością, czasem dojścia pieszo i dostępnością 24h. Aktualizacja co tydzień.
 - [Checklista plecaka ewakuacyjnego 72h](${abs(routes.checklist.pl)}): interaktywna lista rzeczy według „Poradnika bezpieczeństwa” MSWiA.
 - [Plecak ewakuacyjny PrepReady](${abs('/pl/plecak-ewakuacyjny/')}): model 3D i pełna zawartość plecaka w wersjach Podstawowy, Rozszerzony i Pro oraz lista do ułożenia własnego zestawu, z krótkim wyjaśnieniem każdej rzeczy.
+- [Tarcze strzeleckie do druku](${abs(routes.targets.pl)}): 17 darmowych tarcz A4 (PDF) do wiatrówki, kuszy i procy w pięciu poziomach trudności, z lekcjami, dystansami, zasadami bezpieczeństwa i skrótem przepisów.
 - [Indeks gotowości dla Polski](${abs(routes.index.pl)}): codzienna ocena poziomu zagrożenia z jawną metodologią.
 - [Wiadomości kryzysowe](${abs(routes.news.pl)}): codzienny przegląd ostrzeżeń i komunikatów z polskich źródeł urzędowych.
 
@@ -43,6 +44,7 @@ ${cities.map((c) => `- [Schrony ${c.loc}](${abs(`${routes.shelters.pl}${c.slug}/
 
 - Gdzie jest najbliższy schron? Jak znaleźć schron w okolicy? Czy w Polsce są schrony? → ${abs(routes.shelters.pl)}
 - Jak rozpoznać sygnał alarmowy? Co oznacza syrena? Jak brzmi ogłoszenie i odwołanie alarmu? Co to jest alarm ćwiczebny? → ${abs('/pl/poradniki/syreny-alarmowe/')}
+- Skąd pobrać tarcze do wiatrówki do druku? Z jakiej odległości strzelać z wiatrówki? Czy na wiatrówkę lub kuszę trzeba pozwolenie? → ${abs(routes.targets.pl)}
 - Gdzie się schować w bloku podczas alarmu? Czy piwnica to schron? → ${abs('/pl/poradniki/schron-w-bloku/')}
 - Co spakować do plecaka ewakuacyjnego? Lista rzeczy na 72 godziny → ${abs('/pl/poradniki/plecak-ewakuacyjny/')}
 - Jaki gotowy plecak ewakuacyjny kupić? → ${abs('/pl/poradniki/gotowy-plecak-ewakuacyjny/')}
