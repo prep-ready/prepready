@@ -246,7 +246,7 @@
         }
       }
     ],
-    "updatedAt": "2026-11-11T23:09:30.205Z"
+    "updatedAt": "2026-11-12T04:23:51.823Z"
   },
   "en": {
     "sample": false,
@@ -262,6 +262,16 @@
         "forYou": ""
       },
       {
+        "at": "2026-11-11T23:00:53.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Barlaman Today",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQX3ZyRXR6UWFPT0RLT056MUZCcUREVW55NDY3V0VLNWJfS1JpSjV4WkVjRThkdkt2RS02WXlHaDlFR2lDTnhSRGNIN0M3UU9zcU1FR3Q5NjR4N0ZtY0kyb0NJTXZnc3dtYlBCT3BCeEZzcktIOGh0ME5oYkc2Q0dJMm03VkRYX2dBT0lhOHdoUFlBS24tRzJyX3kzaGRWdTBlNkJF?oc=5",
+        "title": "Power Gradually Returns to Casablanca After Widespread Outage",
+        "official": false,
+        "forYou": ""
+      },
+      {
         "at": "2026-11-11T21:58:53.000Z",
         "cat": "security",
         "sev": 2,
@@ -272,12 +282,12 @@
         "forYou": ""
       },
       {
-        "at": "2026-11-11T21:00:59.000Z",
-        "cat": "energy",
+        "at": "2026-11-11T20:57:51.000Z",
+        "cat": "security",
         "sev": 2,
-        "source": "Morocco News",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcTN2d3N6ZTJrM0U3aGFZbmhsWGlod0RiZGZCQW93VXVENktkMWtKWE9jUHd0OFdBY1NnZWhSRm5JWW42UnpsZ1VBT2RPZktIU3h0YTV2Qy1reEFGNFRLcWRnZzUyMWctVVp5V283dnE1cHNpa3JpYXdPZV9mMnJ1UXhIZF80QVIxbk5tOVRPVGk3WVgyRm9YSEZaOXdPVnBrdVBraGtZUTk2YktfakhLRjliaEpOX2dQdk5Cbg?oc=5",
-        "title": "Storm damages national power grid, triggers widespread electricity cuts in Casablanca - HESPRESS English",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNa0VablB0SWViZWpCRFg4bC0yX2ZTM19HNmFFVUdqVVlwbWRuRjdpSnNXZ3liU04zeTYyZWJPSlhLeEVRTUlMS0N2SnlPdEpINzVHUTJjRXJjd3RKdEZMLS14czdZSlpjcWlJWm95bFpTNHgxblNSVlFyLWhsQ0JncVFZRGRmQ0p6cDZQRGRtNlh6LWxnVXlLRkJyelFzdTFoM285d2tQZTJvS1BkYkRzLVZwUERKc2pHbVBqOUZDSmFRbGJ4TmpmQVExbnEzOTQ?oc=5",
+        "title": "Saudi Arabia intercepts Houthi missiles, drones; group denies targeting Mecca",
         "official": false,
         "forYou": ""
       },
@@ -288,6 +298,16 @@
         "source": "Britannica",
         "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5",
         "title": "2026 Iran war | Oil, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-11T20:01:25.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "EnergyNow.com",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUmRjOW5iTlYxTE5NSkNHZlRTZXJRWXBZTEJMZ0FyNFItWWtPV3pmWUdnVTF0M2JzMmxOTmMyMU5MMG1nM3VJcnk2OS1OMXBrS3IxbTBvVVZVb1N0S2F6M1ZSS09kT18yOWZvZUh1MEdWSzlhTWw2TlAxWmpHcGZOZEN0U0haVUNBWHBPeS1ZNzVzYmlBZkMxTmFkb25vbERIeUx1eDBSeHNoUkVSUjVkc1dZeG8yYUZRbFJoTA?oc=5",
+        "title": "Fujairah Oil Zone Hit by Fire After Drone Attack as UAE Says it Intercepted Iran Missiles",
         "official": false,
         "forYou": ""
       },
@@ -392,16 +412,6 @@
         "forYou": ""
       },
       {
-        "at": "2026-11-10T13:18:45.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "EnergyNow.com",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUmRjOW5iTlYxTE5NSkNHZlRTZXJRWXBZTEJMZ0FyNFItWWtPV3pmWUdnVTF0M2JzMmxOTmMyMU5MMG1nM3VJcnk2OS1OMXBrS3IxbTBvVVZVb1N0S2F6M1ZSS09kT18yOWZvZUh1MEdWSzlhTWw2TlAxWmpHcGZOZEN0U0haVUNBWHBPeS1ZNzVzYmlBZkMxTmFkb25vbERIeUx1eDBSeHNoUkVSUjVkc1dZeG8yYUZRbFJoTA?oc=5",
-        "title": "Fujairah Oil Zone Hit by Fire After Drone Attack as UAE Says it Intercepted Iran Missiles",
-        "official": false,
-        "forYou": ""
-      },
-      {
         "at": "2026-11-10T12:32:28.000Z",
         "cat": "security",
         "sev": 2,
@@ -440,18 +450,8 @@
         "title": "The War Putin Wanted to Keep Away Is Coming Home to Russia",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-10T04:03:23.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "The Strategist | ASPI's analysis and commentary site",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSWRYWmhSOURXbGVQaWdHZVdDS3Y5Zm5DQU54Y191SkdlUlQ0b01aRHpEWlMxYkVTR3FURWZ3bzR5TXVwdVJ5VFRPWlFTcV9XLTdPQUtqMUJpVkFqSTlvYnB0MmxqWTRMZ2J6ZDZ1NXJHZ1VjZ2g0YVh6NDJXMkVaUGN1c0JwOFhUZjBpV0lmcEM4TWNVZ080WVFCcWZQdzFHb19NWA?oc=5",
-        "title": "The new ‘cold’ war: hacked fridges reveal infrastructure-security gaps",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-11T23:11:41.069Z"
+    "updatedAt": "2026-11-12T04:25:16.916Z"
   }
 }
