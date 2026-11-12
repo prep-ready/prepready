@@ -18,6 +18,36 @@
         }
       },
       {
+        "at": "2026-11-12T16:13:05.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Polska Zbrojna",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPU0NQSnQ3QW9TT0lBU3dQY016QURZLXk5M1hTYUstWEMtSVo0NFZ3c0ZTc1Z4ZVZlZ1R1M3d2QTZteW1sNW5lQzRhTE1zSXZqOXJ1YzFjc2tOQjhsdVVFV3JYNUw0TVZ5UWRPa19nLUJNVl9aNWNaQlduSENTeUZlX3V6dnFHUFJiS3VycUd1THJMc2xKWnFMTm53?oc=5",
+        "title": "Polska Zbrojna",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-12T14:43:03.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTDYwZmExaUt6YlY5NHR3TUhGTlZYdG8wWGgzUHJNUVZfdVROZmYxdmtXWF9lelVPdnB1MWpQN05zY3E4NlNpZ01qaTBlQzdUUEkyWlhGU3ZmWndTaXA4SVY1V09zVEVoWGtsdGtXaVB0cE5zbFA5RXZjLWZkRnFrNVBERDFoZUdHSHBQV1hVSjJ5NWxjU3BKZkZvTnNMYzdfUDMyUDFR?oc=5",
+        "title": "Strzelanina w Waszyngtonie. Co najmniej cztery osoby ranne",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-12T13:37:29.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "Polskie Radio 24",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbEhpV1FJNzVoWXREYXZlckZ4bXlGM3gybDN0MDFXTUJ5TU5aWTZTNFFhRGdXOXN0cDdXd0J0Qk9nM2puYzduRGdZZ2pOc3pPWThnSkI3ZHFXSTlZdnA4MXRLZm5IQlRQMHoyZG56cGpTaG9ISnY3ZFV4ck00RjlTSU8walBFVEVQSlB2OTg2ZGVXUVA4SzE2dWwtRVNWaldzbXJPbWpLQV9LMDR3MFE?oc=5",
+        "title": "Strzelanina w Krakowie. Napastnik otworzył ogień do policjantów na Bieżanowie",
+        "official": false,
+        "forYou": ""
+      },
+      {
         "at": "2026-11-12T12:53:00.000Z",
         "cat": "weather",
         "sev": 2,
@@ -214,43 +244,53 @@
           "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
           "label": "Alert RCB i aplikacja RSO"
         }
-      },
-      {
-        "at": "2026-11-10T09:29:38.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Polskie Radio 24",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMEJMejE5VWNHVV96SG5zQnVhYzU2LUp1dHBSRklUSDg2eWc4bVhFR1ZlU3gtNEl6cUtlc3Z5eTRubktZa05wdkp6c0l6SmpseE54U1RoSEZfM2g0TUd4MjYwMzN1LWc1bVlVNVk5akwxOVNOZ2RLNFozWWQ1Uk8xSFZSQUl5ODM2OGI5WDdrODZ2MXhuY3RodzhJQ1E1UQ?oc=5",
-        "title": "RCB odwołało alert. \"Brak zagrożenia na terenie Polski\"",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-10T09:01:26.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "TVN24",
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNYnBEMTE4NENNODdMWEtHeWQxdEFxX1U3QVM0ekcwbGJfT0hobXJoLUlmNFUxamZ3N3IySDFQUVl1NUNvaUgyQnJaV1ZrTzB2dEZLQWRjeXZZOGVLMGhNZHFteEh6VklnUldDWjdrNUhhemd4Wlo0X2lZZy1XcUlXZ1N5Q0N0S0g5eW13WjFrSVpjQ2dVdnl5dTRVWWJfa3pKMWotQVVXazBCb3N2LXdpQTFHTGxpM1FyRC1GOVlPZEF3c0RDeFJ5aVlza1dvemg3TzdvZFd3?oc=5",
-        "title": "Waldemar Żurek o nowych ustaleniach śledczych. \"Silny wątek prawicowego ekstremizmu\"",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-10T08:49:27.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Rzeczpospolita",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORUg3VUJFa2h2WmYzdlprbzNBOVVuYk5kcHdUdEF3Mlg2UHRmUVc2Yk1vTWYwQXZKcFVmcTVXWjZBRUdvNEpoOFZEMG9obFhIbFpheHlITGR5WjlEaW4tdDFzOUxMdFl1WW1peUZhLTVScXQyUy0xekVkbER0cEM2TFpCVXZKaDd4RThPRFFYM3BOdUQ2bnpyZThyemFLUEJVZ0Z5dGVLR2k4c003Um5RcmJfZC0tRUJ6dmc?oc=5",
-        "title": "Nawrocki zdecydował o awansach w armii. Jedno nazwisko budzi kontrowersje",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-12T13:20:48.116Z"
+    "updatedAt": "2026-11-12T21:10:20.410Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-12T20:00:35.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "tippinsights",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQT2NVdExXandnbE1EUnZGdDlmS01qT0o1UFFmTWFFeTZNNmlsOUE2NjRTWjZ0UmlXS1ZZbkRmWlRSTk54blRTR1p6aURQc2dvb0oyaC1TSTZJbURfWDBNcTRrUkswVmE3bGVPcU9BZ3AzNnVIMS1QU1RpMkFBYXpDdjZvU2RibC1Cc2ZoRS1HSnEweVExdHN4UzlkTXUzclhBaTVyX3FB?oc=5",
+        "title": "France Warns Germany's Missile Plans Could Risk Nuclear Escalation With Russia",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-12T19:34:43.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Yahoo! Finance Canada",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUDZveGVZbXZVQUNBZkgwcGswY1lKbnNyTkZTVTVYRTZJV010dXkxUUM4XzRmcEtPQXpUd3JaU19wOGlPUy1wZmh1aEk4VDBZc0tvcHp0ZFY5QzRYRkwzR3NTZ3RpblpfblM4Y0ZZbFJzMF9yc0Y3TFRRS2szRVVwR04yNHZJeTJQeG5EeA?oc=5",
+        "title": "Is Outlook down? Widespread outage hits Microsoft apps",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-12T17:10:46.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "CyberSecurityNews",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBzWllOYm1hYXdaeThEQUMyc3ZJWndwai1KWFYwTjhVS2NubzZRbTVsRW5lV2ZZYk1IX2N4cmp0YjFDdmFtRUVjbFJXLTB2azNYV2FnRUJuVTZqdHl1OW1UTlluZExyb2RNY3BFRUVkNXHSAXZBVV95cUxPM3RKWFB5Rk41eEtGYVVicTBDYVVVWlpjZWxnekpqSHpBOWNNSG5wc0p2TE1SUXNxUGp0MW9URG5HRHFjQnBLNW1ReG9GVFBGbXZidTVhZC1CaTJHRDNMVEFfTnhRWHVhZ0xzdEJLUS1ibVZDTEhB?oc=5",
+        "title": "Europol Takes Down 235 Servers and 257 Domains Linked to Gootloader, CastleRAT, and StealC Malware",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-12T13:02:46.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5lZE9XY0dSV3ZINVVlTVhzQkVhTmVDTmdpTS1pel9leHhEbTltYTQ3Y205RkJRTTRrVkNlN0wxUlRjdDdpN0ZGYnZvckNrTWJUYkpzUG1xVXc?oc=5",
+        "title": "'We've got to run': Inside ruined Ukraine power plant under constant drone threat",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-12T12:26:01.000Z",
         "cat": "security",
@@ -276,7 +316,7 @@
         "cat": "security",
         "sev": 2,
         "source": "The New Voice of Ukraine",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNU2JuNDhqejFqVjl6SUg4M2lwajc3ODI5QzB6TkZPci10WVhSQjlNZjVycldVS2QtaDlpLVdPd1ViaVh5MGJveDhMNHpXMDZFZklwMTBwU0JUZ1hIRnI5V09pcjEybXZaZXplUml0MDFuM3hQWlJYVnd4SGNGUlhYS3Z3cnVQSXNvRk1iVndCX1FmcGJoQmgxMzZ4MTBEV0FreHhHckdvSdIBnAFBVV95cUxPaUxSMFFKYm1aNG0yN2FMMHZTR2FlbGVTWmpTOXFYeWI4WVNzTGVuU3dvTndNbEx4VGpXcHdRcUJwYzZselhCOVlwamt1X2dEcDZYanpGelA3UEZXSzZsU0R2cXBIeXVxaW9yelFmRUpoWm1jaFBjeDAtNzFfTzdteGYxZUJOdHItOHdObmxPSm1lR0tHbnlUb2g2Y2M?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPaUxSMFFKYm1aNG0yN2FMMHZTR2FlbGVTWmpTOXFYeWI4WVNzTGVuU3dvTndNbEx4VGpXcHdRcUJwYzZselhCOVlwamt1X2dEcDZYanpGelA3UEZXSzZsU0R2cXBIeXVxaW9yelFmRUpoWm1jaFBjeDAtNzFfTzdteGYxZUJOdHItOHdObmxPSm1lR0tHbnlUb2g2Y2PSAZwBQVVfeXFMT2lMUjBRSmJtWjRtMjdhTDB2U0dhZWxlU1pqUzlxWHliOFlTc0xlblN3b053TWxMeFRqV3B3UXFCcGM2bHpYQjlZcGprdV9nRHA2WGp6RnpQN1BGV0s2bFNEdnFwSHl1cWlvcnpRZkVKaFptY2hQY3gwLTcxX083bXhmMWVCTnRyLTh3Tm5sT0ptZUdLR255VG9oNmNj?oc=5",
         "title": "Russian ballistic strike on Brovary sets chemical cargo truck ablaze, injures driver",
         "official": false,
         "forYou": ""
@@ -352,16 +392,6 @@
         "forYou": ""
       },
       {
-        "at": "2026-11-11T19:18:02.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Военное дело",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPYVFib1JzQkVUbElFSEsxcXVYY3dtVVpOWVdZdXRoSmtDQ0EyN1kwNGVjRE5CNk9lNFJGc3JJd1NoZHQ1OXNKYmZXS3RtU3VMbGY1WkpXd0tkQ0RzcFhuMWRHU25FVlZERUpDN3VCaUtUVjVLNlNBajd4ekFuT0podGFlY1Z6ZHctMG9FM0pKV2V3Q3c2Zi1VQlZB?oc=5",
-        "title": "France Fears Nuclear War Risk From German Missiles: FT",
-        "official": false,
-        "forYou": ""
-      },
-      {
         "at": "2026-11-11T16:32:22.000Z",
         "cat": "cyber",
         "sev": 2,
@@ -420,38 +450,8 @@
         "title": "Poland Halts ePUAP Cyberattack, Full Service Still Pending | CEO Magazine Poland",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-10T20:57:17.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "LADbible",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOclltSFI1b2k5WUxwWEJUbWxtcUJjeExEVWdvVlJGVGpMM3FvYUVJY21MZnI5UXotUlV2QmVXNXBYUm00aHg5VHUydUlrM05Pa1QxVl9QcGpMdXBZeWVaMUNRczNtaGNjUzJkUGwzNGZOd2poMk53Vk11QkZabHVIeUxtUGhTUGRNek5QWTlJb0REdGxnRlZMSjBPNW5pTndTUGJvampn?oc=5",
-        "title": "Expert explains what would actually happen if UK power cuts out in 'black sky event'",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-10T15:58:57.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "LADbible",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZ3ZKMktfU2pLOVJzZFU4aHY2dnR0ckpXdW00RUVKdW9iRWEtdmlaMVJDNVIwMElXYV9uS1hFQWlqWFlMRXJtVnBwbjZ0SVBfbFN1MGgzb0hKeDJ3RDE1Q2hOamhWY3VxczNkVTM4WTZkV0tPc0plMW1XUlF2OVNPT1VOOGpWUDFBcEZTNGUxQzY3UDNseE1UMXhyR1pxQVB3ZzZMcXRpOS1XNGk5UmNN?oc=5",
-        "title": "US to test emergency broadcast system next week as UK unveils 'black sky event' plan",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-10T12:32:28.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRS10b2hUNXhtQ3BuektfU1IwTXdwZG43S0xUQnYtOUJNclJsM2szNi1QQ285M0NQdmFEVzB6WWxBbVNkNkJKcGt0TjE5YUlOWlFzeUxrQ2NoS19EY3ZqWmkzTHVjbkowanRLX2d0QzIyOHhSVW54OGtFdmROZUNuUVRmcnZBa2RYakpnZFp5VkhlcC0tX0lBUV9tV2FpaVdtRVRaU0lKVTNXNHZfclVpR252dU4?oc=5",
-        "title": "Iran Uses Global Climate Talks to Highlight Impact of US Strike",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-12T13:23:03.652Z"
+    "updatedAt": "2026-11-12T21:12:03.366Z"
   }
 }
