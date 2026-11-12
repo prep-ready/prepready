@@ -16,6 +16,8 @@ export const routes = {
   shelters: { pl: '/pl/mapa-schronow/',      en: '' },
   /** Tylko PL — część prawna dotyczy Polski, PDF-y są po polsku. */
   targets:  { pl: '/pl/tarcze-strzeleckie/', en: '' },
+  /** Tylko PL — przepisy budowlane dotyczą Polski. */
+  shelterDiy: { pl: '/pl/schron/', en: '' },
 } as const;
 export type RouteKey = keyof typeof routes;
 
@@ -45,7 +47,7 @@ export const clusterDesc = {
 export const ui = {
   pl: {
     'site.tagline': 'Spokojne, oparte na danych przygotowanie na kryzys.',
-    'nav.index': 'Indeks', 'nav.news': 'Aktualności', 'nav.guides': 'Poradniki', 'nav.checklist': 'Checklisty', 'nav.gear': 'Sprzęt', 'nav.shelters': 'Mapa schronów', 'nav.targets': 'Tarcze do druku',
+    'nav.index': 'Indeks', 'nav.news': 'Aktualności', 'nav.guides': 'Poradniki', 'nav.checklist': 'Checklisty', 'nav.gear': 'Sprzęt', 'nav.shelters': 'Mapa schronów', 'nav.targets': 'Tarcze do druku', 'nav.shelterDiy': 'Schron DIY',
     'nav.menu': 'Menu',
     'cta.start': 'Zacznij od plecaka 72h',
     'sample': 'Dane przykładowe',
@@ -93,7 +95,7 @@ export const ui = {
   },
   en: {
     'site.tagline': 'Calm, data-driven crisis preparedness.',
-    'nav.index': 'Index', 'nav.news': 'News', 'nav.guides': 'Guides', 'nav.checklist': 'Checklists', 'nav.gear': 'Gear', 'nav.shelters': 'Shelter map', 'nav.targets': 'Printable targets',
+    'nav.index': 'Index', 'nav.news': 'News', 'nav.guides': 'Guides', 'nav.checklist': 'Checklists', 'nav.gear': 'Gear', 'nav.shelters': 'Shelter map', 'nav.targets': 'Printable targets', 'nav.shelterDiy': 'DIY shelter',
     'nav.menu': 'Menu',
     'cta.start': 'Start with a 72-hour kit',
     'sample': 'Sample data',

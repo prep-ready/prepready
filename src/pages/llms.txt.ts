@@ -33,6 +33,7 @@ Każdy poradnik ma listę źródeł, datę przeglądu i sekcję FAQ. Treści mo�
 - [Checklista plecaka ewakuacyjnego 72h](${abs(routes.checklist.pl)}): interaktywna lista rzeczy według „Poradnika bezpieczeństwa” MSWiA.
 - [Plecak ewakuacyjny PrepReady](${abs('/pl/plecak-ewakuacyjny/')}): model 3D i pełna zawartość plecaka w wersjach Podstawowy, Rozszerzony i Pro oraz lista do ułożenia własnego zestawu, z krótkim wyjaśnieniem każdej rzeczy.
 - [Tarcze strzeleckie do druku](${abs(routes.targets.pl)}): 17 darmowych tarcz A4 (PDF) do wiatrówki, kuszy i procy w pięciu poziomach trudności, z lekcjami, dystansami, zasadami bezpieczeństwa i skrótem przepisów.
+- [Schron DIY: projekty i kalkulator](${abs(routes.shelterDiy.pl)}): pięć projektów schronu do samodzielnej budowy (kontener 45 stóp, ziemianka z pustaków szalunkowych, prefabrykat, kryta szczelina, piwnica) z rzutami, przekrojami, poradami o izolacji i kalkulatorem wykopu i materiałów.
 - [Indeks gotowości dla Polski](${abs(routes.index.pl)}): codzienna ocena poziomu zagrożenia z jawną metodologią.
 - [Wiadomości kryzysowe](${abs(routes.news.pl)}): codzienny przegląd ostrzeżeń i komunikatów z polskich źródeł urzędowych.
 

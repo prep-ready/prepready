@@ -139,6 +139,8 @@ Rozporządzenie wymaga, by budowla ochronna z czasem ochrony dłuższym niż 48 
 
 ![Schron przydomowy: 6 rzeczy do sprawdzenia przed zakupem](/img/poradniki/schron-przydomowy-infografika.webp)
 
+Chcesz budować samodzielnie? Na stronie [Schron własnymi rękami](/pl/schron/) są projekty z rzutami i przekrojami oraz kalkulator wykopu i materiałów.
+
 ## Ile kosztuje schron przydomowy
 
 Ceny pochodzą z publikacji branżowych i podajemy je z datą, bo szybko się zmieniają. Traktuj je jako orientację, nie ofertę.

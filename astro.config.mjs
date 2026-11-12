@@ -13,7 +13,7 @@ export default defineConfig({
     locales: ['pl', 'en'],
     routing: { prefixDefaultLocale: true, redirectToDefaultLocale: false },
   },
-  redirects: { '/': '/pl/' },
+  redirects: { '/': '/pl/', '/schron': '/pl/schron/' },
   integrations: [
     sitemap({
       i18n: { defaultLocale: 'pl', locales: { pl: 'pl-PL', en: 'en-US' } },

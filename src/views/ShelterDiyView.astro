@@ -1,0 +1,757 @@
+---
+/**
+ * Schron DIY: projekty do samodzielnej budowy z rysunkami i kalkulatorem wykopu i materiałów (tylko PL: przepisy dotyczą Polski).
+ * Rysunki powstają w przeglądarce ze skryptu na dole pliku (funkcja D), kalkulator to funkcja calc.
+ */
+import Base from '../layouts/Base.astro';
+import { routes } from '../i18n/ui';
+
+const meta = {
+  title: 'Schron DIY: projekty, rysunki i kalkulator wykopu',
+  desc: 'Pięć projektów schronu do samodzielnej budowy: kontener 45 stóp, ziemianka z pustaków szalunkowych i trzy tańsze warianty. Rzuty, przekroje, izolacja i kalkulator materiałów.',
+};
+const jsonLd = { '@context': 'https://schema.org', '@type': 'TechArticle', headline: meta.title, description: meta.desc, inLanguage: 'pl', publisher: { '@type': 'Organization', name: 'PrepReady' } };
+---
+<Base lang="pl" title={meta.title} description={meta.desc} alternates={{ pl: routes.shelterDiy.pl }} ogType="article" jsonLd={jsonLd}>
+<div class="sdiy">
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs>
+<pattern id="h-rc" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="7" height="7" class="pb"/><line x1="1" y1="0" x2="1" y2="7" class="ph"/><line x1="3.4" y1="0" x2="3.4" y2="7" class="ph"/></pattern>
+<pattern id="h-conc" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" class="pb"/><line x1="1" y1="0" x2="1" y2="6" class="ph"/></pattern>
+<pattern id="h-block" width="16" height="10" patternUnits="userSpaceOnUse"><rect width="16" height="10" class="pb"/><path d="M0 .5H16M0 5.5H16M4 .5V5.5M12 5.5V10" class="ph"/></pattern>
+<pattern id="h-earth" width="18" height="18" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><rect width="18" height="18" class="pbe"/><path d="M2 0V18M5 0V18M8 0V18" class="ph"/></pattern>
+<pattern id="h-fill" width="11" height="11" patternUnits="userSpaceOnUse"><rect width="11" height="11" class="pb"/><circle cx="2.5" cy="2.5" r=".9" class="pd"/><circle cx="8" cy="8" r=".9" class="pd"/></pattern>
+<pattern id="h-gravel" width="9" height="9" patternUnits="userSpaceOnUse"><rect width="9" height="9" class="pb"/><circle cx="3" cy="3" r="2.1" class="ph"/><circle cx="7.2" cy="7.2" r="1.2" class="ph"/></pattern>
+<pattern id="h-ins" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" class="pbi"/><path d="M0 0L8 8M8 0L0 8" class="phi"/></pattern>
+<pattern id="h-wood" width="14" height="6" patternUnits="userSpaceOnUse"><rect width="14" height="6" class="pb"/><path d="M0 3Q3.5 .8 7 3T14 3" class="ph"/></pattern>
+</defs></svg>
+  <div class="wrap page-head">
+    <div class="eyebrow">Projekty do samodzielnej budowy · rzuty · przekroje · kalkulator</div>
+    <h1>Schron własnymi rękami</h1>
+    <p>Pięć koncepcji, które da się zbudować samodzielnie lub z lokalną ekipą: kontener 45 stóp, ziemianka-schron z pustaków szalunkowych i trzy tańsze warianty. Każda z rzutem, przekrojem i listą warstw. Na końcu kalkulator, który liczy wykop, beton, pustaki, izolację i wentylację dla Twoich wymiarów.</p>
+    <nav class="toc" aria-label="Spis treści">
+    <a href="#kontener">1. Kontener 45'</a>
+    <a href="#ziemianka">2. Ziemianka-schron</a>
+    <a href="#inne">3–5. Inne pomysły</a>
+    <a href="#izolacja">Izolacja</a>
+    <a href="#kalkulator">Kalkulator</a>
+    <a href="#zasady">Zanim zaczniesz</a>
+  </nav>
+  </div>
+  <div class="wrap">
+
+<section id="kontener">
+  <p class="eyebrow" style="margin:0">Projekt 1</p>
+  <h2>Kontener morski 45' High Cube</h2>
+  <div class="col">
+    <p>Kontener 45' HC ma na zewnątrz 13,72 × 2,44 × 2,90 m, w środku ok. 13,56 × 2,35 × 2,70 m. To 31,9 m² podłogi, czyli mieści się w limicie 35 m² dla zgłoszenia. W Polsce łatwiej kupić 40' HC (12,19 m); układ poniżej skrócisz wtedy o strefę magazynową, a kalkulator ma oba rozmiary.</p>
+    <div class="note"><b class="tag">Uwaga: nie zakopuj gołego kontenera</b><p>Kontener przenosi obciążenia przez cztery słupki narożne. Dach jest badany na ok. 300 kg, a ściany z blachy falistej nie są ścianami oporowymi. Pod ziemią blacha wyboczy się, a niezabezpieczona stal przerdzewieje. Dlatego projekt ma dwa uczciwe warianty: naziemny (A) oraz obsypany w samonośnej obudowie żelbetowej (B), w której ziemia w ogóle nie dotyka kontenera.</p></div>
+    <h3>Układ wnętrza</h3>
+    <p>Strefy idą od najbrudniejszej do najczystszej: wejście i śluza, technika, część dzienna, sypialnia, a na końcu magazyn z wyjściem awaryjnym po przeciwnej stronie niż wejście główne.</p>
+  </div>
+  <figure class="dw"><div class="dw-s" id="r1"></div>
+    <div class="tb"><span class="no">RYS. 1</span><span class="ti">Kontener 45' HC, rzut</span><span>wymiary w cm</span></div>
+    <ol class="lg">
+      <li>Śluza 150 cm: wieszaki na odzież wierzchnią, miejsce na plecaki 72h, drzwi stalowe z uszczelką</li>
+      <li>Strefa techniczna 200 cm: zbiornik wody 1000 l, akumulatory, urządzenie filtrowentylacyjne</li>
+      <li>Część dzienna 350 cm: blat kuchenny 180 cm, stół składany, regał</li>
+      <li>Sypialnia 400 cm: dwie prycze piętrowe 195 × 80 (4 miejsca), regał 40 cm, kotara zamiast ściany</li>
+      <li>Kabina WC 114 × 100: toaleta sucha lub chemiczna, własny wywiew</li>
+      <li>Magazyn żywności: regały 40 cm po obu stronach przejścia</li>
+      <li>Wyjście awaryjne: właz 60 × 80 w ścianie czołowej, obramowany ramą stalową</li>
+      <li>Czerpnia powietrza przez dach, przy urządzeniu filtrowentylacyjnym</li>
+      <li>Wyrzutnia powietrza z kabiny WC, po przeciwnej stronie niż czerpnia</li>
+    </ol>
+  </figure>
+  <div class="col">
+    <h3>Wariant A: naziemny, ocieplony od środka</h3>
+    <p>Najprostszy i w pełni do zrobienia samodzielnie. Kontener stoi na stopach betonowych pod narożami i w połowie długości, 20–30 cm nad terenem, żeby spód był wentylowany. Sprawdza się jako baza, magazyn zapasów i schronienie na czas blackoutu czy ewakuacji z miasta. Przed odłamkami i opadem promieniotwórczym chroni słabo: 2 mm stali to żadna osłona.</p>
+  </div>
+  <figure class="dw"><div class="dw-s" id="r2"></div>
+    <div class="tb"><span class="no">RYS. 2</span><span class="ti">Wariant A, przekrój poprzeczny</span><span>wymiary w cm</span></div>
+    <ol class="lg">
+      <li>Poszycie kontenera, stal Corten ok. 2 mm, po oczyszczeniu z rdzy i pomalowaniu</li>
+      <li>Pianka PUR zamkniętokomórkowa natryskiwana wprost na blachę: ściany 8 cm, sufit 10 cm, bez pustki powietrznej</li>
+      <li>Ruszt z instalacjami i okładzina (sklejka lub płyta g-k impregnowana) 3 cm</li>
+      <li>Podłoga: fabryczna sklejka 28 mm uszczelniona żywicą, XPS 5 cm, płyta OSB 22 mm</li>
+      <li>Stopa betonowa 50 × 50 cm do głębokości przemarzania (0,8–1,4 m zależnie od regionu)</li>
+      <li>Wentylowana pustka 25 cm pod kontenerem</li>
+    </ol>
+  </figure>
+  <div class="col">
+    <h3>Wariant B: obsypany, w obudowie żelbetowej</h3>
+    <p>Ochronę daje tu skrzynia żelbetowa: płyta denna, ściany z pustaków szalunkowych zalanych betonem i strop oparty wyłącznie na ścianach. Kontener stoi w środku z 10 cm luzu z każdej strony i jest suchym, gotowym wnętrzem. Na rysunku obiekt jest zagłębiony o ok. 2,3 m, a reszta przykryta nasypem, dzięki czemu wykop jest płytszy i dalej od wód gruntowych.</p>
+    <p>Uczciwie: skoro i tak powstaje żelbetowa skrzynia, kontener jest już tylko wykończeniem. Policz w kalkulatorze oba warianty. Często taniej wychodzi sam żelbet z projektu 2 w większym rozmiarze.</p>
+  </div>
+  <figure class="dw"><div class="dw-s" id="r3"></div>
+    <div class="tb"><span class="no">RYS. 3</span><span class="ti">Wariant B, przekrój poprzeczny</span><span>wymiary w cm</span></div>
+    <ol class="lg">
+      <li>Kontener 45' HC wstawiony dźwigiem przed wykonaniem stropu</li>
+      <li>Ściany z pustaków szalunkowych 25 cm, zbrojone i zalane betonem C20/25</li>
+      <li>Strop żelbetowy 22 cm z płyt prefabrykowanych albo na blasze trapezowej jako szalunku traconym</li>
+      <li>Płyta denna 25 cm na 10 cm chudego betonu</li>
+      <li>Hydroizolacja i XPS 10 cm na ścianach i stropie</li>
+      <li>Drenaż opaskowy w obsypce żwirowej, odprowadzony do studni chłonnej</li>
+      <li>Zasypka z gruntu przepuszczalnego, zagęszczana warstwami po 30 cm</li>
+      <li>Nasyp 60 cm nad izolacją stropu, skarpy 1:1,5, obsiany trawą</li>
+      <li>Szczelina 10 cm: kontener nie dotyka ścian ani stropu</li>
+      <li>Przewód wentylacyjny wyprowadzony ponad nasyp</li>
+    </ol>
+  </figure>
+  <div class="col">
+    <h3>Kolejność robót (wariant B)</h3>
+    <ol>
+      <li>Badanie gruntu, projekt, zgłoszenie. Sprawdź dojazd: 45' jedzie na naczepie i wymaga dźwigu.</li>
+      <li>Wykop ze skarpami, chudy beton, zbrojenie i betonowanie płyty dennej z wypuszczonymi prętami pod ściany.</li>
+      <li>Ściany z pustaków szalunkowych, zbrojenie pionowe i poziome, betonowanie warstwami do 1 m.</li>
+      <li>Wstawienie kontenera dźwigiem na podkładki. Wcześniej wytnij i obramuj otwory: drzwi, właz, przejścia wentylacji.</li>
+      <li>Strop oparty tylko na ścianach. Nad kontenerem nie da się rozszalować, stąd prefabrykaty albo szalunek tracony.</li>
+      <li>Hydroizolacja, XPS, mata drenażowa, drenaż, zasypka warstwami lekką zagęszczarką.</li>
+      <li>Nasyp, wyprowadzenie czerpni i wyrzutni, wykończenie wejścia i wyjścia awaryjnego.</li>
+    </ol>
+    <h3>Na co patrzeć przy zakupie kontenera</h3>
+    <ul>
+      <li>Klasa co najmniej „wind and watertight”, bez przegnitej blachy w dachu i przy dolnych ryglach.</li>
+      <li>Podłoga: fabryczna sklejka bywa nasączona środkami owadobójczymi. Uszczelnij ją żywicą epoksydową albo wymień.</li>
+      <li>Zapach chemii lub stęchlizny w środku dyskwalifikuje kontener na cele mieszkalne.</li>
+      <li>Każdy otwór w ścianie osłabia konstrukcję. Obramuj go ramą z profilu zamkniętego, przekrój dobierze konstruktor.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="ziemianka">
+  <p class="eyebrow" style="margin:0">Projekt 2</p>
+  <h2>Ziemianka-schron z pustaków szalunkowych</h2>
+  <div class="col">
+    <p>Komora 3 × 5 m (15 m²) z przedsionkiem i zejściem łamanym dwa razy pod kątem prostym. Na co dzień chłodna piwnica na zapasy, w razie zagrożenia ukrycie dla 4–6 osób. Ściany z pustaków szalunkowych 25 cm, strop i płyta żelbetowe po 20 cm, 80 cm ziemi na wierzchu.</p>
+    <div class="note"><b class="tag">Jakie „pustaki”</b><p>Pod ziemię nadają się pustaki szalunkowe betonowe (zbrojone i zalewane betonem) albo pełne bloczki betonowe z wieńcami. Pustaki ceramiczne, keramzytowe i beton komórkowy nie przeniosą parcia gruntu i chłoną wodę. Ściana z samych bloczków na zaprawie, bez zbrojenia, przy 2,2 m wysokości pod ziemią to proszenie się o pęknięcie.</p></div>
+  </div>
+  <figure class="dw"><div class="dw-s" id="r4"></div>
+    <div class="tb"><span class="no">RYS. 4</span><span class="ti">Ziemianka-schron, rzut</span><span>wymiary w cm</span></div>
+    <ol class="lg">
+      <li>Komora 500 × 300, wysokość 220</li>
+      <li>Przedsionek 150 × 275: śluza między dwojgiem drzwi, miejsce na skażoną odzież</li>
+      <li>Zejście 100 cm szerokości, 19 stopni 17,5 × 27 cm, przykryte klapą lub daszkiem</li>
+      <li>Drzwi zewnętrzne stalowe 90 cm, otwierane na zewnątrz</li>
+      <li>Drzwi wewnętrzne stalowe 90 cm z uszczelką</li>
+      <li>Wyjście awaryjne: szyb 80 × 80 z klamrami i włazem, poza strefą gruzu z domu</li>
+      <li>Urządzenie filtrowentylacyjne z czerpnią, napęd elektryczny i ręczny</li>
+      <li>Wywiew: z kabiny WC i z przedsionka</li>
+      <li>Dwie prycze piętrowe 200 × 80</li>
+      <li>Kabina WC 95 × 90 z kotarą; wzdłuż ściany regał 45 cm</li>
+    </ol>
+  </figure>
+  <div class="col">
+    <p>Dwa zakręty na wejściu to nie ozdoba. Fala uderzeniowa, odłamki i promieniowanie rozchodzą się po prostej, więc każdy zakręt pod kątem 90° wyraźnie je osłabia. Wyjście awaryjne i czerpnię umieść po przeciwnej stronie niż wejście, w odległości od domu większej niż połowa jego wysokości.</p>
+  </div>
+  <figure class="dw"><div class="dw-s" id="r5"></div>
+    <div class="tb"><span class="no">RYS. 5</span><span class="ti">Ziemianka-schron, przekrój poprzeczny</span><span>wymiary w cm</span></div>
+    <ol class="lg">
+      <li>Strop żelbetowy 20 cm ze spadkiem 2% wyrobionym warstwą wierzchnią</li>
+      <li>Ściana z pustaków szalunkowych 25 cm, zbrojona, zalana betonem C20/25</li>
+      <li>Płyta denna żelbetowa 20 cm</li>
+      <li>Chudy beton 10 cm, pod płytą folia budowlana</li>
+      <li>Hydroizolacja: dwie warstwy masy bitumiczno-polimerowej albo papa termozgrzewalna</li>
+      <li>XPS 10 cm na ścianach i stropie</li>
+      <li>Drenaż opaskowy Ø100 w obsypce żwirowej i geowłókninie</li>
+      <li>Zasypka przepuszczalna, zagęszczana warstwami po 30 cm</li>
+      <li>Nawiew: wylot 30 cm nad podłogą, czerpnia 1 m nad terenem</li>
+      <li>Wywiew: wlot pod stropem, wyrzutnia 1,5 m nad terenem</li>
+      <li>Grunt rodzimy, skarpa wykopu według rodzaju gruntu (tu 1:1)</li>
+    </ol>
+  </figure>
+  <div class="col">
+    <h3>Kolejność robót</h3>
+    <ol>
+      <li>Odwierty, projekt, zgłoszenie. Wytycz obiekt min. 4 m od granicy i z dala od drzew.</li>
+      <li>Wykop koparką ze skarpami, 80 cm przestrzeni roboczej wokół ścian. Humus odłóż osobno.</li>
+      <li>Chudy beton, folia, zbrojenie płyty, pręty startowe pod ściany, betonowanie.</li>
+      <li>Pustaki szalunkowe na sucho z przewiązaniem, zbrojenie, przepusty wentylacji i kabli, betonowanie.</li>
+      <li>Szalunek stropu na stemplach, zbrojenie dołem i górą, betonowanie w jednym cyklu. Stemple zostają 28 dni.</li>
+      <li>Hydroizolacja, XPS, mata drenażowa, drenaż. Próba szczelności wężem przed zasypaniem.</li>
+      <li>Zasypka warstwami, dopiero po związaniu stropu, równomiernie z obu stron.</li>
+      <li>Drzwi, wentylacja, instalacja 12/24 V, regały i prycze.</li>
+    </ol>
+    <p>Zestawienie materiałów dla tej komory wylicza <a href="#kalkulator">kalkulator</a> (ustawienie „Ziemianka 3 × 5”). Przedsionek i zejście policz jako drugą, mniejszą komorę.</p>
+  </div>
+</section>
+
+<section id="inne">
+  <p class="eyebrow" style="margin:0">Projekty 3–5</p>
+  <h2>Trzy prostsze pomysły</h2>
+  <div class="col">
+    <h3>3. Piwniczka z prefabrykatu betonowego</h3>
+    <p>Gotowy zbiornik lub piwniczka żelbetowa przyjeżdża na HDS i tego samego dnia stoi w wykopie na podsypce piaskowej. To najszybsza droga do suchej, podziemnej komory. Zamawiaj wersję z otworem drzwiowym i poproś producenta o dopuszczalną grubość przykrycia. Zwykły zbiornik na szambo ma strop liczony na ok. 0,5 m ziemi i ruch pieszy, nie na metr gruntu.</p>
+  </div>
+  <figure class="dw"><div class="dw-s" id="r7"></div>
+    <div class="tb"><span class="no">RYS. 6</span><span class="ti">Piwniczka prefabrykowana, przekrój</span><span>wymiary w cm</span></div>
+    <ol class="lg">
+      <li>Prefabrykat żelbetowy, ściany ok. 12 cm, przykładowo 240 × 230 w przekroju</li>
+      <li>Podsypka piaskowa 20 cm, zagęszczona i wypoziomowana</li>
+      <li>Przykrycie tyle, ile dopuszcza producent (tu 50 cm)</li>
+      <li>Dwa przewody wentylacyjne Ø110 na przeciwległych końcach</li>
+      <li>Zasypka piaskiem, bez gruzu i kamieni przy ścianach</li>
+    </ol>
+  </figure>
+  <div class="col">
+    <h3>4. Kryta szczelina (ukrycie doraźne)</h3>
+    <p>Rozwiązanie znane z obrony cywilnej: wąski rów o umocnionych ścianach, przykryty balami i ziemią. Dwie osoby z łopatami i piłą zrobią odcinek dla rodziny w dwa do czterech dni. Wejście prostopadle do rowu, na końcu drugie wyjście. Drewno impregnuj, a i tak licz się z wymianą po kilku sezonach.</p>
+  </div>
+  <figure class="dw"><div class="dw-s" id="r8"></div>
+    <div class="tb"><span class="no">RYS. 7</span><span class="ti">Kryta szczelina, przekrój i rzut</span><span>wymiary w cm</span></div>
+    <ol class="lg">
+      <li>Rów 100 cm szerokości, 200 cm głębokości</li>
+      <li>Ramy z krawędziaków 12 × 12 co 1 m, z rozporami dołem i górą</li>
+      <li>Opinka ścian z desek 32 mm za słupkami</li>
+      <li>Przykrycie: bale Ø18–20 cm lub krawędziaki, oparte po 70 cm poza krawędzią rowu, na nich folia</li>
+      <li>Nasyp 70 cm z gruntu z wykopu</li>
+      <li>Ławka wzdłuż ściany</li>
+      <li>Wejście ze schodkami, prostopadle do osi rowu</li>
+      <li>Wyjście zapasowe z klapą</li>
+    </ol>
+  </figure>
+  <div class="col">
+    <h3>5. Schronienie w piwnicy domu</h3>
+    <p>Najtańsze i zwykle najrozsądniejsze na początek. Wybierz pomieszczenie pod żelbetowym stropem, najlepiej narożne od strony zagłębionej w gruncie. Strop podeprzyj dodatkowo stemplami stalowymi na belkach, okienko zasłoń od zewnątrz workami z piaskiem, wstaw solidne drzwi. Stemple i worki nie zmieniają konstrukcji domu, więc nie wymagają formalności. Wykuwanie otworów w ścianach nośnych już tak.</p>
+  </div>
+  <figure class="dw"><div class="dw-s" id="r9"></div>
+    <div class="tb"><span class="no">RYS. 8</span><span class="ti">Schronienie w piwnicy, rzut</span><span>wymiary w cm</span></div>
+    <ol class="lg">
+      <li>Stemple stalowe regulowane, sześć sztuk w dwóch rzędach</li>
+      <li>Belki 12 × 12 pod stropem i podwaliny na posadzce, rozkładają nacisk</li>
+      <li>Okienko piwniczne osłonięte workami z piaskiem na szerokość min. 50 cm</li>
+      <li>Drzwi stalowe lub pełne drewniane, otwierane na zewnątrz pomieszczenia</li>
+      <li>Zapas wody: 3 l na osobę na dobę</li>
+      <li>Regał z żywnością, apteczką, radiem i latarkami</li>
+      <li>Prycza lub karimaty przy ścianie wewnętrznej</li>
+    </ol>
+  </figure>
+</section>
+
+<section id="izolacja">
+  <p class="eyebrow" style="margin:0">Izolacja</p>
+  <h2>Woda, ciepło i skropliny</h2>
+  <div class="col">
+    <p>Pod ziemią grunt ma przez cały rok 8–10 °C. Izolacja nie walczy więc z mrozem, tylko z wodą z zewnątrz i skroplinami od środka. Kolejność warstw jest zawsze ta sama: konstrukcja, hydroizolacja, termoizolacja odporna na wodę, warstwa drenująca, przepuszczalna zasypka.</p>
+  </div>
+  <figure class="dw"><div class="dw-s" id="r6"></div>
+    <div class="tb"><span class="no">RYS. 9</span><span class="ti">Ściana podziemna, układ warstw</span><span>wymiary w cm</span></div>
+    <ol class="lg">
+      <li>Wnętrze: beton zostaw surowy lub pomaluj farbą paroprzepuszczalną</li>
+      <li>Ściana żelbetowa lub z pustaków szalunkowych 25 cm</li>
+      <li>Hydroizolacja ciągła, wywinięta na płytę denną i strop</li>
+      <li>XPS 10 cm klejony punktowo, płyty na zakład</li>
+      <li>Mata drenażowa z geowłókniną, chroni izolację przy zasypywaniu</li>
+      <li>Zasypka żwirowo-piaskowa min. 30 cm, odprowadza wodę do drenażu</li>
+      <li>Grunt rodzimy</li>
+    </ol>
+  </figure>
+  <div class="tw"><table>
+    <thead><tr><th>Materiał</th><th class="n">λ W/(m·K)</th><th>Gdzie stosować</th><th>Gdzie nie</th></tr></thead>
+    <tbody>
+      <tr><td><strong>XPS</strong> (polistyren ekstrudowany)</td><td class="n">0,033–0,036</td><td>ściany i strop w gruncie, pod płytą (klasa 300 i wyżej)</td><td>przy otwartym ogniu bez osłony</td></tr>
+      <tr><td><strong>EPS hydro</strong> (styropian fundamentowy)</td><td class="n">0,033–0,038</td><td>ściany w gruncie do ok. 3 m, tańsza alternatywa XPS</td><td>pod ciężkim nasypem na stropie</td></tr>
+      <tr><td><strong>PUR natrysk</strong> zamkniętokomórkowy</td><td class="n">0,022–0,028</td><td>wnętrze kontenera, wprost na stal</td><td>w gruncie bez osłony mechanicznej</td></tr>
+      <tr><td><strong>Wełna mineralna</strong></td><td class="n">0,035–0,040</td><td>ścianki działowe wewnątrz, wygłuszenie</td><td>w gruncie i bezpośrednio na stali kontenera</td></tr>
+      <tr><td><strong>Szkło piankowe</strong></td><td class="n">0,040–0,050</td><td>pod płytą i przy wysokiej wodzie, nie chłonie wilgoci</td><td>tam, gdzie liczy się budżet</td></tr>
+    </tbody>
+  </table></div>
+  <div class="col">
+    <h3>Dziesięć porad praktycznych</h3>
+    <ol>
+      <li><strong>Ocieplaj od zewnątrz.</strong> Konstrukcja zostaje po ciepłej stronie, nie ma skroplin na ścianach, a masa betonu stabilizuje temperaturę.</li>
+      <li><strong>Hydroizolacja ma być wanną.</strong> Ciągła na ścianach, stropie i styku z płytą. Każdy przepust rury uszczelnij kołnierzem lub masą.</li>
+      <li><strong>Strop ze spadkiem 2%.</strong> Woda z nasypu ma spływać na boki do drenażu, a nie stać nad głową.</li>
+      <li><strong>Drenaż tylko z odpływem.</strong> Rura bez studni chłonnej albo wylotu zbiera wodę pod schronem zamiast ją odprowadzać. W glinie potrzebna jest pompa lub wariant z nasypem.</li>
+      <li><strong>W kontenerze żadnej pustki przy blasze.</strong> Stal skrapla wilgoć z oddechu. Pianka zamkniętokomórkowa natryskiwana bezpośrednio, minimum 5 cm, sama jest paroizolacją.</li>
+      <li><strong>Mostki termiczne kontenera</strong> to rama, słupki i rygle. Pokryj je pianką tak samo jak blachę, inaczej będą po nich ciekły krople.</li>
+      <li><strong>Latem wietrz nocą.</strong> Ciepłe, wilgotne powietrze dzienne skrapla się na ścianach o temperaturze 10 °C. Przy przechowywaniu zapasów przyda się osuszacz.</li>
+      <li><strong>Zdecyduj o funkcji.</strong> Warzywa lubią 4–8 °C i 85–95% wilgotności, ludzie, sprzęt i konserwy wolą sucho. Jedna komora nie spełni obu wymagań naraz.</li>
+      <li><strong>Wejście to największa dziura</strong> w izolacji i w osłonie. Drzwi stalowe ocieplone, przedsionek, zadaszone zejście z odwodnieniem liniowym u podnóża schodów.</li>
+      <li><strong>Żadnego spalania w środku.</strong> Agregat, kuchenka gazowa i piecyk zużywają tlen i wytwarzają czad. Ogrzewanie tylko elektryczne, agregat min. 6 m od czerpni.</li>
+    </ol>
+  </div>
+</section>
+
+<section id="kalkulator">
+  <p class="eyebrow" style="margin:0">Narzędzie</p>
+  <h2>Kalkulator wykopu i materiałów</h2>
+  <div class="col">
+    <p>Wpisz wymiary wewnętrzne komory i wybierz materiał. Kalkulator policzy wykop ze skarpami, beton, pustaki, izolację, drenaż, wentylację i obciążenie stropu, a rysunek przekroju zmieni się razem z liczbami. Wyniki są przedmiarem do wyceny i rozmowy z konstruktorem, nie obliczeniem nośności.</p>
+  </div>
+  <div class="calc">
+    <div class="presets"><small>Zacznij od:</small>
+      <button type="button" data-p="ziem" aria-pressed="true">Ziemianka 3 × 5</button>
+      <button type="button" data-p="k20" aria-pressed="false">Obudowa kontenera 20'</button>
+      <button type="button" data-p="k40" aria-pressed="false">Obudowa 40' HC</button>
+      <button type="button" data-p="k45" aria-pressed="false">Obudowa 45' HC</button>
+    </div>
+    <form class="fields" id="f" onsubmit="return false">
+      <label>Długość wewnątrz (m)<input id="cL" type="number" inputmode="decimal" min="1.5" max="20" step="0.05" value="5"></label>
+      <label>Szerokość wewnątrz (m)<input id="cB" type="number" inputmode="decimal" min="1.2" max="8" step="0.05" value="3"></label>
+      <label>Wysokość wewnątrz (m)<input id="cH" type="number" inputmode="decimal" min="1.8" max="3.5" step="0.05" value="2.2"></label>
+      <label>Materiał ścian<select id="cW">
+        <option value="sz25">Pustak szalunkowy 25 cm, zalewany</option>
+        <option value="sz30">Pustak szalunkowy 30 cm, zalewany</option>
+        <option value="mon25">Żelbet monolityczny 25 cm</option>
+        <option value="bl24">Bloczek betonowy, ściana 24 cm</option>
+        <option value="bl38">Bloczek betonowy, ściana 38 cm</option>
+      </select></label>
+      <label>Strop żelbetowy (cm)<input id="cS" type="number" inputmode="numeric" min="15" max="40" step="1" value="20"></label>
+      <label>Płyta denna (cm)<input id="cP" type="number" inputmode="numeric" min="15" max="40" step="1" value="20"></label>
+      <label>Ziemia nad stropem (cm)<input id="cC" type="number" inputmode="numeric" min="0" max="200" step="5" value="80"></label>
+      <label>Izolacja XPS (cm)<input id="cX" type="number" inputmode="numeric" min="0" max="20" step="1" value="10"></label>
+      <label>Posadowienie<select id="cM">
+        <option value="full">W całości pod ziemią</option>
+        <option value="mound">Strop na poziomie terenu, nasyp</option>
+      </select></label>
+      <label>Grunt (nachylenie skarpy)<select id="cG">
+        <option value="0.5">Spoisty zwarty: glina, ił (1:0,5)</option>
+        <option value="1" selected>Mało spoisty: piasek gliniasty (1:1)</option>
+        <option value="1.5">Sypki: piasek, żwir (1:1,5)</option>
+      </select></label>
+      <label>Przestrzeń robocza wokół (m)<input id="cR" type="number" inputmode="decimal" min="0.5" max="1.5" step="0.1" value="0.8"></label>
+      <label>Liczba osób<input id="cN" type="number" inputmode="numeric" min="1" max="30" step="1" value="4"></label>
+      <label>Zapas wody na (dni)<input id="cD" type="number" inputmode="numeric" min="1" max="60" step="1" value="7"></label>
+    </form>
+    <div class="flags" id="flags" aria-live="polite"></div>
+    <figure class="dw" style="margin:0 16px 16px"><div class="dw-s" id="rc"></div>
+      <div class="tb"><span class="no">RYS. K</span><span class="ti">Twój przekrój poprzeczny</span><span>wymiary w cm</span></div>
+    </figure>
+    <div class="res" id="res"></div>
+    <div class="calc-foot">
+      <button type="button" id="copy">Kopiuj zestawienie</button>
+      <span id="copymsg">Skopiujesz gotową listę do wyceny w hurtowni lub dla konstruktora.</span>
+    </div>
+    <div style="padding:0 16px 16px" id="copybox" hidden><textarea id="copyout" readonly aria-label="Zestawienie do skopiowania"></textarea></div>
+  </div>
+  <div class="col">
+    <h3>Jak liczy kalkulator</h3>
+    <ul>
+      <li>Wykop: bryła o dnie powiększonym o przestrzeń roboczą i skarpach o wybranym nachyleniu, wzór pryzmoidalny. Urobek do wywozu przeliczony współczynnikiem spulchnienia 1,25.</li>
+      <li>Pustak szalunkowy 50 × 25 cm w licu: 8 szt./m², beton wypełniający 0,14 m³/m² (25 cm) i 0,18 m³/m² (30 cm). Bloczek 38 × 24 × 12: 20 szt./m² przy ścianie 24 cm, 31 szt./m² przy 38 cm.</li>
+      <li>Stal wskaźnikowo: strop 110 kg/m³ betonu, płyta 80 kg/m³, ściany monolityczne 90 kg/m³, szalunkowe 12 kg/m². Rzeczywiste zbrojenie wynika z projektu.</li>
+      <li>Beton i elementy murowe z zapasem 5%. Otwór drzwiowy 90 × 200 odjęty od ścian.</li>
+      <li>Osłabienie promieniowania: warstwa połówkowa ok. 6 cm betonu i 9 cm ubitej ziemi. To szacunek dla stropu; o wyniku całego obiektu decyduje wejście.</li>
+      <li>Powietrze: 20 m³/h na osobę w trybie zwykłym, prędkość w przewodzie 3 m/s. Czas do 2% CO₂ przy 20 l CO₂ na osobę na godzinę.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="zasady">
+  <p class="eyebrow" style="margin:0">Na koniec, przed pierwszą łopatą</p>
+  <h2>Cztery rzeczy ważniejsze niż projekt</h2>
+  <div class="col">
+    <p>Rysunki poniżej to projekty koncepcyjne. Pokazują układ, warstwy i kolejność robót, a kalkulator liczy ilości. Nie zastępują obliczeń konstrukcji: grubości ścian, stropu i zbrojenie dobiera konstruktor z uprawnieniami dla Twojego gruntu i głębokości.</p>
+  </div>
+  <div class="rules">
+    <div><b>Grunt i woda</b><span>Zleć minimum dwa odwierty. Spód płyty powinien leżeć co najmniej 0,75 m nad najwyższym poziomem wód gruntowych, inaczej potrzebna jest pełna izolacja przeciwwodna albo wariant naziemny z nasypem.</span></div>
+    <div><b>Zgłoszenie</b><span>Wolno stojąca przydomowa budowla ochronna do 35 m² powierzchni użytkowej wymaga zgłoszenia w starostwie z projektem (opłata 155 zł, 21 dni na sprzeciw). Powyżej 35 m²: pozwolenie.</span></div>
+    <div><b>Konstruktor</b><span>Ziemia waży ok. 1,8 t/m³. 80 cm przykrycia to prawie 1,5 t na każdy metr kwadratowy stropu, a ściany dostają parcie z boku. Tego nie dobiera się na oko.</span></div>
+    <div><b>Bezpieczny wykop</b><span>Wykop głębszy niż 1 m musi mieć skarpy albo rozparcie. Nie wchodź do wąskiego wykopu o pionowych ścianach, urobek odkładaj min. 1 m od krawędzi.</span></div>
+  </div>
+  <h3>Który wariant dla kogo</h3>
+  <div class="tw"><table>
+    <thead><tr><th>Wariant</th><th>Dla kogo</th><th>Trudność</th><th>Czas robót</th><th>Co realnie daje</th></tr></thead>
+    <tbody>
+      <tr><td><strong>1. Kontener 45' w obudowie</strong></td><td>duża działka, dojazd dla dźwigu, 4–6 osób na dłużej</td><td>wysoka</td><td>2–4 miesiące</td><td>suche, gotowe wnętrze 31,9 m²; ochronę daje obudowa żelbetowa i nasyp, nie sam kontener</td></tr>
+      <tr><td><strong>2. Ziemianka-schron z pustaków szalunkowych</strong></td><td>większość działek z niskim poziomem wód</td><td>średnia</td><td>4–8 tygodni</td><td>odłamki, gruz, opad promieniotwórczy; na co dzień piwnica na zapasy</td></tr>
+      <tr><td><strong>3. Piwniczka z prefabrykatu betonowego</strong></td><td>mało czasu, jest dojazd dla HDS</td><td>niska</td><td>1–2 tygodnie</td><td>szybkie ukrycie i spiżarnia; nośność zależy od producenta</td></tr>
+      <tr><td><strong>4. Kryta szczelina</strong></td><td>brak budżetu, potrzeba na już</td><td>niska</td><td>2–4 dni</td><td>ukrycie doraźne przed odłamkami i falą; drewno wytrzyma kilka sezonów</td></tr>
+      <tr><td><strong>5. Schronienie w piwnicy domu</strong></td><td>dom z piwnicą i żelbetowym stropem</td><td>niska</td><td>weekend</td><td>najbliżej domowników, bez robót ziemnych; ograniczona odporność</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<div class="srcs">
+  <p><strong>Źródła liczb i wymagań</strong></p>
+  <ul>
+    <li><a href="https://api.sejm.gov.pl/eli/acts/DU/2025/1548/text.pdf">Rozporządzenie MSWiA z 4 listopada 2025 r. o warunkach technicznych budowli ochronnych (Dz.U. 2025 poz. 1548)</a>: 1 m² i 20 m³/h powietrza na osobę, 3 l wody na dobę, 0,75 m nad wodą gruntową, kategorie odporności</li>
+    <li><a href="https://eli.gov.pl/eli/DU/2025/1847/ogl/pol/pdf">Ustawa z 4 grudnia 2025 r. o zmianie Prawa budowlanego (Dz.U. 2025 poz. 1847)</a>: zgłoszenie przydomowej budowli ochronnej do 35 m²</li>
+    <li><a href="https://prepready.pro/pl/poradniki/schron-przydomowy/">PrepReady: Schron przydomowy, przepisy, rodzaje i ceny</a></li>
+    <li><a href="https://muratordom.pl/komentarze/dom-z-kontenerow-ile-kosztuja-kontenery-morskie-i-jak-zbudowac-z-nich-dom-aa-mgnd-9G35-Kgct.html">Murator: domy z kontenerów morskich</a>: wymiary, podłogi, izolacja wnętrza</li>
+  </ul>
+  <p>Materiał edukacyjny. Wymiary konstrukcji, zbrojenie i posadowienie każdorazowo zatwierdza projektant z uprawnieniami budowlanymi. W sytuacji zagrożenia stosuj się do komunikatów RCB i służb.</p>
+</div>
+  </div>
+</div>
+</Base>
+
+<script is:inline>
+
+function D(o){
+  const k=o.k,p=[],W=Math.round((o.x1-o.x0)*k),H=Math.round((o.y1-o.y0)*k);
+  const X=x=>+((x-o.x0)*k).toFixed(1),Y=y=>+((y-o.y0)*k).toFixed(1),S=v=>+(v*k).toFixed(1);
+  const a={
+    rect(x,y,w,h,c){p.push(`<rect x="${X(x)}" y="${Y(y)}" width="${S(w)}" height="${S(h)}" class="${c}"/>`);return a},
+    poly(pts,c){p.push(`<polygon points="${pts.map(q=>X(q[0])+','+Y(q[1])).join(' ')}" class="${c}"/>`);return a},
+    line(x1,y1,x2,y2,c='ln'){p.push(`<line x1="${X(x1)}" y1="${Y(y1)}" x2="${X(x2)}" y2="${Y(y2)}" class="${c}"/>`);return a},
+    circ(x,y,r,c='ln'){p.push(`<circle cx="${X(x)}" cy="${Y(y)}" r="${S(r)}" class="${c}"/>`);return a},
+    text(x,y,s,c='tx',an='middle'){p.push(`<text x="${X(x)}" y="${Y(y)}" class="${c}" text-anchor="${an}">${s}</text>`);return a},
+    mark(x,y,n){p.push(`<g class="mk"><circle cx="${X(x)}" cy="${Y(y)}" r="9.5"/><text x="${X(x)}" y="${Y(y)+3.7}" text-anchor="middle">${n}</text></g>`);return a},
+    dimH(x1,x2,y,l){const t=l??Math.round((x2-x1)*100),a1=X(x1),a2=X(x2),b=Y(y);
+      p.push(`<path class="dm" d="M${a1-6} ${b}H${a2+6}M${a1-4} ${b+4}L${a1+4} ${b-4}M${a2-4} ${b+4}L${a2+4} ${b-4}M${a1} ${b-7}V${b+7}M${a2} ${b-7}V${b+7}"/><text class="dt" text-anchor="middle" x="${(a1+a2)/2}" y="${b-6}">${t}</text>`);return a},
+    dimV(y1,y2,x,l){const t=l??Math.round((y2-y1)*100),b1=Y(y1),b2=Y(y2),c=X(x),m=(b1+b2)/2;
+      p.push(`<path class="dm" d="M${c} ${b1-6}V${b2+6}M${c-4} ${b1+4}L${c+4} ${b1-4}M${c-4} ${b2+4}L${c+4} ${b2-4}M${c-7} ${b1}H${c+7}M${c-7} ${b2}H${c+7}"/><text class="dt" text-anchor="middle" transform="rotate(-90 ${c-6} ${m})" x="${c-6}" y="${m}">${t}</text>`);return a},
+    door(xp,yh,w,side){const r=S(w);p.push(`<path class="ln" d="M${X(xp)} ${Y(yh)}L${X(xp+side*w)} ${Y(yh)}"/><path class="lt" d="M${X(xp+side*w)} ${Y(yh)}A${r} ${r} 0 0 ${side>0?1:0} ${X(xp)} ${Y(yh+w)}"/>`);return a},
+    bar(x,y){const b=Y(y);p.push(`<path class="ln" d="M${X(x)} ${b}H${X(x+2)}M${X(x)} ${b-5}V${b+5}M${X(x+1)} ${b-5}V${b+5}M${X(x+2)} ${b-5}V${b+5}"/><text class="tx" x="${X(x)}" y="${b+17}" text-anchor="middle">0</text><text class="tx" x="${X(x+1)}" y="${b+17}" text-anchor="middle">1</text><text class="tx" x="${X(x+2)}" y="${b+17}" text-anchor="middle">2 m</text>`);return a},
+    out(){return `<svg viewBox="0 0 ${W} ${H}" width="${W}" style="min-width:${Math.min(W,760)}px;width:100%;max-width:${W}px" role="img" aria-label="${o.t}">${p.join('')}</svg>`}
+  };return a;
+}
+const put=(id,d)=>{document.getElementById(id).innerHTML=d.out()};
+
+/* RYS. 1 kontener rzut */
+(function(){const d=D({k:62,x0:-.75,x1:14.45,y0:-1.35,y1:3.75,t:"Rzut kontenera 45 stóp z podziałem na strefy"});
+  const Lc=13.716,Bc=2.438,i0=.14,i1=Bc-.14;
+  d.rect(0,0,Lc,Bc,'f-steel').rect(.04,.04,Lc-.08,Bc-.08,'f-ins').rect(i0,i0,Lc-.28,Bc-.28,'bg');
+  d.rect(0,.77,.14,.9,'bg').door(.14,.77,.9,1);
+  d.rect(Lc-.14,.9,.14,.65,'bg').line(Lc-.14,.9,Lc,1.55,'lt').line(Lc-.14,1.55,Lc,.9,'lt');
+  [[1.58,1.2],[3.58,1.2]].forEach(q=>{d.rect(q[0]-.03,i0,.06,i1-i0,'f-steel').rect(q[0]-.04,q[1],.08,.8,'bg').door(q[0],q[1],.8,1)});
+  d.line(7.08,i0,7.08,i1,'ds');
+  d.rect(11.05,i0,.06,i1-i0,'f-steel').rect(11.04,1.3,.08,.8,'bg').door(11.08,1.3,.8,-1);
+  d.rect(1.68,.16,1.2,1,'fur').text(2.28,.7,'WODA').rect(2.93,.16,.6,.6,'fur').text(3.23,.5,'AKU');
+  d.rect(2.6,1.93,.5,.35,'fur').circ(2.85,2.1,.06,'pipe');
+  d.rect(3.68,.16,1.8,.6,'fur').text(4.58,.5,'BLAT').rect(5.38,1.58,1.2,.7,'fur').text(5.98,1.97,'STÓŁ').rect(5.6,.16,1.38,.4,'fur');
+  d.rect(7.13,.16,1.95,.8,'fur').line(7.13,.16,9.08,.96,'lt').rect(9.12,.16,1.9,.8,'fur').line(9.12,.16,11.02,.96,'lt').rect(7.13,1.88,3.05,.4,'fur').text(8.65,2.12,'REGAŁ');
+  d.rect(11.14,i0,1.14,1,'bgl').circ(11.4,.4,.06,'pipe').text(11.75,.92,'WC');
+  d.rect(12.33,.16,1.22,.4,'fur').rect(11.2,1.88,2.36,.4,'fur');
+  const xs=[.08,1.58,3.58,7.08,11.08,13.636],ls=[150,200,350,400,256];
+  for(let i=0;i<5;i++)d.dimH(xs[i],xs[i+1],-.45,ls[i]);
+  d.dimH(0,Lc,-.98,1372).dimV(0,Bc,-.4,244).dimV(i0,i1,14.05,'216 w świetle');
+  d.mark(.6,2.05,1).mark(2.2,1.55,2).mark(4.9,1.25,3).mark(9,1.42,4).mark(11.95,.38,5).mark(12.95,1.22,6).mark(13.4,1.22,7).mark(3.32,2.1,8).mark(11.4,.75,9);
+  d.bar(0,3.2).text(6.86,3.3,'WEJŚCIE GŁÓWNE Z LEWEJ, WYJŚCIE AWARYJNE Z PRAWEJ','tx');
+  put('r1',d);})();
+
+/* RYS. 2 kontener naziemny przekrój */
+(function(){const d=D({k:112,x0:-1.5,x1:3.95,y0:-3.75,y1:1.45,t:"Przekrój poprzeczny kontenera naziemnego z ociepleniem od środka"});
+  const B=2.438,top=-3.146,bot=-.25;
+  d.rect(-1.5,0,5.45,1.45,'f-earth');
+  d.rect(-.05,bot,.5,1.25,'f-conc').rect(B-.45,bot,.5,1.25,'f-conc');
+  d.line(-1.5,0,3.95,0,'gnd');
+  d.rect(0,top,B,2.896,'f-steel');
+  d.rect(.04,-.45,B-.08,.03,'f-wood').rect(.04,-.5,B-.08,.05,'f-ins').rect(.04,-.525,B-.08,.025,'f-wood');
+  d.rect(.04,top+.04,B-.08,2.656,'f-ins').rect(.12,top+.14,B-.24,2.556,'f-wood').rect(.15,top+.17,B-.3,2.451,'bg');
+  d.rect(.04,-.5,B-.08,.05,'f-ins').rect(.15,-.525,B-.3,.025,'f-wood');
+  d.dimH(0,B,-3.45,244).dimH(.15,B-.15,-1.5,214).dimV(top,bot,3.3,290).dimV(top+.17,-.525,1.75,245).dimV(bot,0,-.75,25);
+  d.mark(-.28,-1.9,1).line(-.19,-1.9,0,-1.9,'lt').mark(.75,-3.3,2).line(.75,-3.21,.75,-3.06,'lt').mark(.45,-2.2,3).line(.36,-2.2,.14,-2.2,'lt').mark(.75,-.85,4).line(.75,-.76,.75,-.5,'lt').mark(-.5,.6,5).line(-.41,.6,-.05,.6,'lt').mark(1.22,-.12,6);
+  d.text(1.22,-2.55,'WNĘTRZE','tl');
+  put('r2',d);})();
+
+/* RYS. 3 kontener w obudowie */
+(function(){const d=D({k:64,x0:-4.75,x1:7.4,y0:-3.25,y1:3.45,t:"Przekrój kontenera w obudowie żelbetowej z nasypem"});
+  d.rect(-4.75,0,12.15,3.45,'f-earth');
+  d.poly([[-3.9,0],[-1.25,2.65],[3.89,2.65],[6.54,0]],'f-fill');
+  d.poly([[-3.15,0],[-.65,-1.67],[3.29,-1.67],[5.79,0]],'f-fill');
+  d.line(-4.75,0,7.4,0,'gnd');
+  d.rect(-1,2.15,.45,.42,'f-gravel').rect(3.19,2.15,.45,.42,'f-gravel').circ(-.78,2.38,.08,'pipe').circ(3.42,2.38,.08,'pipe');
+  d.rect(-.55,2.55,3.74,.1,'f-conc').rect(-.45,2.3,3.54,.25,'f-rc');
+  d.rect(-.35,-1.07,3.34,3.37,'f-ins');
+  d.rect(-.25,-.97,3.14,.22,'f-rc').rect(-.25,-.75,.25,3.05,'f-block').rect(2.64,-.75,.25,3.05,'f-block').rect(0,-.75,2.64,3.05,'bg');
+  d.rect(.1,-.596,2.438,2.896,'f-steel').rect(.14,-.556,2.358,2.816,'bg');
+  d.rect(.62,-2.6,.11,2.0,'pipe').line(.5,-2.6,.85,-2.6,'ln');
+  d.text(1.32,.75,"KONTENER 45' HC",'tl').text(1.32,1.05,'244 × 290');
+  d.dimH(0,2.64,3.05,264).dimV(0,2.65,-4.35,265).dimV(-1.67,0,6.85,167).dimV(-1.67,-1.07,2.2,60);
+  d.mark(1.32,1.6,1).mark(-.72,.9,2).line(-.63,.9,-.12,.9,'lt').mark(1.9,-2.2,3).line(1.9,-2.11,1.9,-.86,'lt').mark(-1.5,2.95,4).line(-1.41,2.9,-.45,2.45,'lt').mark(3.6,.5,5).line(3.51,.5,2.95,.5,'lt').mark(4.15,2.38,6).line(4.06,2.38,3.5,2.38,'lt').mark(-2.3,1.3,7).mark(4.5,-.45,8).mark(.05,-1.95,9).line(.05,-1.86,.05,-.6,'lt').mark(1.15,-2.9,10).line(1.06,-2.9,.73,-2.75,'lt');
+  d.bar(-4.4,-2.6);
+  put('r3',d);})();
+
+/* RYS. 4 ziemianka rzut */
+(function(){const d=D({k:72,x0:-3.1,x1:7.6,y0:-2.35,y1:4.55,t:"Rzut ziemianki-schronu z przedsionkiem i zejściem"});
+  d.rect(-.25,-1.5,5.9,1.5,'f-block').rect(-2,-1.5,2,3.25,'f-block').rect(-.25,-.25,5.5,3.5,'f-block').rect(5.25,1.85,1.05,1.3,'f-block');
+  d.rect(0,0,5,3,'bg').rect(-1.75,-1.25,1.5,2.75,'bg').rect(-.26,-1.25,5.95,1,'bg').rect(5.25,2.1,.8,.8,'bg').rect(4.99,2.1,.27,.8,'bg');
+  d.line(5.25,2.1,6.05,2.9,'lt').line(5.25,2.9,6.05,2.1,'lt');
+  for(let i=0;i<19;i++)d.line(.75+i*.27,-1.25,.75+i*.27,-.25,'lt');
+  d.line(5.45,-.75,1.0,-.75,'ln').poly([[.85,-.75],[1.1,-.83],[1.1,-.67]],'ar').text(3.2,-.86,'W DÓŁ, 19 STOPNI');
+  d.door(-.25,-1.2,.9,1);
+  d.rect(-.26,.3,.27,.9,'bg').door(-.25,.3,.9,-1);
+  d.rect(.1,2.15,2,.8,'fur').line(.1,2.15,2.1,2.95,'lt').rect(2.2,2.15,2,.8,'fur').line(2.2,2.15,4.2,2.95,'lt');
+  d.rect(1.2,.05,2.7,.45,'fur').text(2.55,.33,'REGAŁ').rect(4.02,.05,.93,.9,'bgl').circ(4.72,.3,.06,'pipe').text(4.4,.75,'WC');
+  d.rect(4.5,1.15,.45,.6,'fur').circ(4.72,1.45,.06,'pipe').circ(-1.5,1.25,.06,'pipe');
+  d.dimH(0,5,3.85,500).dimV(0,3,6.95,300).dimH(-1.75,-.25,2.35,150).dimV(-1.25,1.5,-2.5,275).dimV(-1.25,-.25,6.15,100).dimH(-.25,0,-1.95,25);
+  d.mark(2.6,1.45,1).mark(-1.0,-.1,2).mark(4.3,-1.82,3).line(4.3,-1.73,4.3,-1.3,'lt').mark(.35,-1.85,4).line(.3,-1.76,.15,-1.25,'lt').mark(.55,.75,5).mark(6.6,2.5,6).mark(4.15,1.45,7).mark(-1.15,1.25,8).mark(2.15,1.9,9).mark(4.3,.3,10);
+  d.bar(-2.9,4.05);
+  put('r4',d);})();
+
+/* RYS. 5 ziemianka przekrój */
+(function(){const d=D({k:66,x0:-5.5,x1:8.5,y0:-2.1,y1:4.35,t:"Przekrój poprzeczny ziemianki-schronu z warstwami i wykopem"});
+  d.rect(-5.5,0,14,4.35,'f-earth');
+  d.poly([[-4.8,0],[-1.2,3.6],[4.2,3.6],[7.8,0]],'f-fill');
+  d.line(-5.5,0,8.5,0,'gnd');
+  d.rect(-.98,3.05,.45,.42,'f-gravel').rect(3.53,3.05,.45,.42,'f-gravel').circ(-.76,3.28,.08,'pipe').circ(3.76,3.28,.08,'pipe');
+  d.rect(-.5,3.5,4,.1,'f-conc').rect(-.4,3.3,3.8,.2,'f-rc');
+  d.rect(-.35,.8,3.7,2.5,'f-ins');
+  d.rect(-.25,.9,3.5,.2,'f-rc').rect(-.25,1.1,.25,2.2,'f-block').rect(3,1.1,.25,2.2,'f-block').rect(0,1.1,3,2.2,'bg');
+  d.rect(2.55,-1,.11,4,'pipe').line(2.43,-1,2.78,-1,'ln').rect(.4,-1.5,.11,2.65,'pipe').line(.28,-1.5,.63,-1.5,'ln');
+  d.text(1.45,1.75,'KOMORA','tl');
+  d.dimH(0,3,2.85,300).dimV(1.1,3.3,.95,220).dimV(0,.8,1.45,80).dimV(0,3.6,-5.15,360).dimH(-1.2,4.2,4.02,540).dimH(-4.8,7.8,-.35,1260);
+  d.mark(1.9,.5,1).line(1.9,.59,1.9,.95,'lt').mark(-.75,1.9,2).line(-.66,1.9,-.12,1.9,'lt').mark(.6,3.02,3).line(.6,3.11,.6,3.36,'lt').mark(-1.75,3.95,4).line(-1.66,3.9,-.5,3.56,'lt').mark(3.75,1.5,5).line(3.66,1.5,3.26,1.5,'lt').mark(3.75,2.2,6).line(3.66,2.2,3.31,2.2,'lt').mark(4.5,3.28,7).line(4.41,3.28,3.85,3.28,'lt').mark(-2.2,1.6,8).mark(3.05,-1.55,9).line(2.96,-1.5,2.68,-1.1,'lt').mark(-.1,-1.75,10).line(-.01,-1.72,.4,-1.5,'lt').mark(6.9,2.2,11);
+  d.bar(4.6,-1.6);
+  put('r5',d);})();
+
+/* RYS. 9 warstwy ściany */
+(function(){const d=D({k:560,x0:-.22,x1:1.2,y0:-.16,y1:.62,t:"Układ warstw ściany podziemnej od wnętrza do gruntu"});
+  d.rect(0,0,.25,.45,'f-rc').rect(.25,0,.012,.45,'f-steel').rect(.262,0,.1,.45,'f-ins').rect(.362,0,.02,.45,'f-gravel').rect(.382,0,.3,.45,'f-fill').rect(.682,0,.5,.45,'f-earth');
+  d.line(.682,0,.682,.45,'ds');
+  d.dimH(0,.25,.53,25).dimH(.262,.362,.53,10).dimH(.382,.682,.53,30);
+  d.text(-.11,.24,'WNĘTRZE').mark(-.11,.08,1).mark(.125,-.07,2).line(.125,-.053,.125,.02,'lt').mark(.2,.22,3).line(.217,.22,.25,.22,'lt').mark(.312,-.07,4).line(.312,-.053,.312,.02,'lt').mark(.43,-.07,5).line(.42,-.055,.375,.03,'lt').mark(.54,.22,6).mark(.95,.22,7);
+  put('r6',d);})();
+
+/* RYS. 6 prefabrykat */
+(function(){const d=D({k:76,x0:-3.4,x1:5.8,y0:-1.75,y1:3.55,t:"Przekrój piwniczki z prefabrykatu betonowego"});
+  d.rect(-3.4,0,9.2,3.55,'f-earth');
+  d.poly([[-2.6,0],[-.6,3],[3,3],[5,0]],'f-fill');
+  d.line(-3.4,0,5.8,0,'gnd');
+  d.rect(-.3,2.8,3,.2,'f-gravel');
+  d.rect(0,.5,2.4,2.3,'f-rc').rect(.12,.62,2.16,2.06,'bg');
+  d.rect(.45,-1.1,.11,1.75,'pipe').line(.33,-1.1,.68,-1.1,'ln').rect(1.85,-.8,.11,1.45,'pipe').line(1.73,-.8,2.08,-.8,'ln');
+  d.dimH(0,2.4,3.3,240).dimV(.5,2.8,-3.0,230).dimV(0,.5,1.2,50);
+  d.text(1.2,1.75,'KOMORA','tl');
+  d.mark(2.85,1.6,1).line(2.76,1.6,2.4,1.6,'lt').mark(3.55,2.9,2).line(3.46,2.9,2.7,2.9,'lt').mark(1.2,-.35,3).mark(2.5,-1.15,4).line(2.41,-1.1,2.0,-.85,'lt').mark(-1.3,1.6,5);
+  d.bar(3.4,-1.2);
+  put('r7',d);})();
+
+/* RYS. 7 szczelina */
+(function(){const d=D({k:64,x0:-3.2,x1:10.8,y0:-1.85,y1:3.45,t:"Kryta szczelina: przekrój poprzeczny i rzut"});
+  d.rect(-3.2,0,6.9,2.7,'f-earth');
+  d.poly([[-2,0],[-.95,-.9],[1.95,-.9],[3,0]],'f-fill');
+  d.line(-3.2,0,3.7,0,'gnd');
+  d.rect(-.04,0,1.08,2.04,'f-wood').rect(0,0,1,2,'bg');
+  d.rect(0,0,.12,2,'f-wood').rect(.88,0,.12,2,'f-wood').rect(.12,1.9,.76,.1,'f-wood').rect(.12,.02,.76,.1,'f-wood');
+  d.rect(.12,1.5,.36,.05,'f-wood').line(.44,1.55,.44,1.9,'ln');
+  d.rect(-.7,-.2,2.4,.2,'f-wood');
+  d.dimH(0,1,2.4,100).dimV(0,2,-2.7,200).dimV(-.9,-.2,2.35,70);
+  d.text(.25,3.15,'PRZEKRÓJ A-A','tl');
+  d.mark(.6,1.0,1).mark(-.55,.6,2).line(-.46,.6,.05,.6,'lt').mark(1.6,1.3,3).line(1.51,1.3,1.03,1.3,'lt').mark(-1.25,-.1,4).line(-1.16,-.1,-.7,-.1,'lt').mark(.5,-.58,5).mark(-.55,1.75,6).line(-.46,1.72,.2,1.54,'lt');
+  /* rzut */
+  d.rect(5.1,.1,5.3,1.3,'f-wood').rect(5.25,.25,5,1,'bg');
+  d.rect(5.1,1.25,1.3,1.9,'f-wood').rect(5.25,1.2,1,1.95,'bg');
+  for(let i=0;i<6;i++)d.line(5.25,1.55+i*.27,6.25,1.55+i*.27,'lt');
+  d.rect(9.45,.25,.8,1,'fur').line(9.45,.25,10.25,1.25,'lt').line(9.45,1.25,10.25,.25,'lt');
+  d.rect(6.4,.25,2.9,.36,'fur');
+  d.line(7.7,-.25,7.7,1.75,'ds').text(7.7,-.4,'A').text(7.7,2.0,'A');
+  d.dimH(5.25,10.25,-.85,500).dimV(.25,1.25,10.65,100);
+  d.text(7.9,3.15,'RZUT','tl');
+  d.mark(5.75,2.75,7).mark(9.85,.75,8).mark(7.2,.43,6);
+  d.bar(8.2,2.55);
+  put('r8',d);})();
+
+/* RYS. 8 piwnica */
+(function(){const d=D({k:92,x0:-1.7,x1:5.5,y0:-1.45,y1:4.1,t:"Rzut pomieszczenia schronienia w piwnicy domu"});
+  d.rect(-.3,-.4,4.7,3.7,'f-block').rect(0,0,4,3,'bg');
+  d.rect(2.8,-.41,.8,.42,'bg').line(2.8,-.2,3.6,-.2,'ln');
+  d.rect(2.55,-.95,1.3,.52,'f-fill');
+  d.rect(-.31,.9,.32,.9,'bg').door(0,.9,.9,-1);
+  [1,2].forEach(y=>{d.line(.5,y,3.4,y,'ds');[1,2,3].forEach(x=>d.circ(x,y,.07,'bgl'))});
+  d.rect(.1,.1,1.1,.5,'fur').text(.65,.4,'WODA').rect(3.5,.9,.42,2,'fur').rect(.6,2.15,2,.8,'fur').line(.6,2.15,2.6,2.95,'lt');
+  d.dimH(0,4,3.7,400).dimV(0,3,4.85,300);
+  d.mark(2,1.3,1).line(2,1.21,2,1.07,'lt').mark(1.5,2.0,2).mark(4.1,-.9,3).line(4.01,-.85,3.85,-.75,'lt').mark(-.9,1.35,4).mark(1.45,.35,5).mark(3.72,.55,6).mark(1.6,2.55,7);
+  d.text(-1.0,-.7,'GRUNT').text(4.9,3.6,'DOM','tx');
+  d.bar(-1.4,3.45);
+  put('r9',d);})();
+
+/* ---------- KALKULATOR ---------- */
+/*CALC-START*/
+const WALLS={
+  sz25:{n:'pustak szalunkowy 25 cm',t:.25,units:8,fill:.14,steelM2:12,kind:'sz'},
+  sz30:{n:'pustak szalunkowy 30 cm',t:.30,units:8,fill:.18,steelM2:14,kind:'sz'},
+  mon25:{n:'żelbet monolityczny 25 cm',t:.25,kind:'mon'},
+  bl24:{n:'bloczek betonowy, ściana 24 cm',t:.24,units:19.7,mortar:.035,kind:'bl'},
+  bl38:{n:'bloczek betonowy, ściana 38 cm',t:.38,units:30.8,mortar:.07,kind:'bl'}
+};
+function calc(s){
+  const w=WALLS[s.wall],tw=w.t,ts=s.strop/100,tp=s.plyta/100,ins=s.xps/100,cov=s.cover/100,ch=.10;
+  const Lz=s.L+2*tw,Bz=s.B+2*tw,full=s.mode==='full';
+  const depth=ch+tp+s.H+ts+(full?ins+cov:0);
+  const bl=Lz+.3+2*s.work,bb=Bz+.3+2*s.work,tl=bl+2*s.n*depth,tb=bb+2*s.n*depth;
+  const A1=bl*bb,A2=tl*tb,Am=((bl+tl)/2)*((bb+tb)/2);
+  const Vex=depth/6*(A1+4*Am+A2);
+  const Vstr=(Lz+.5)*(Bz+.5)*ch+(Lz+.3)*(Bz+.3)*tp+(Lz+2*ins)*(Bz+2*ins)*(s.H+ts+(full?ins:0));
+  const backfill=Vex-Vstr;
+  let mound=0;const hm=ins+cov;
+  if(!full&&hm>0){const At=(Lz+1)*(Bz+1),Ab=(Lz+1+3*hm)*(Bz+1+3*hm);mound=hm/3*(At+Ab+Math.sqrt(At*Ab))-Lz*Bz*ins;}
+  const surplus=Vex-backfill-mound;
+  const cSlab=(Lz+.3)*(Bz+.3)*tp,cLean=(Lz+.5)*(Bz+.5)*ch,cRoof=Lz*Bz*ts;
+  const wallA=Math.max(0,(2*(s.L+s.B)+4*tw)*s.H-1.8);
+  let cWall=0,units=0,mortar=0,steelW=0,formwork=0;
+  if(w.kind==='mon'){cWall=wallA*tw;steelW=cWall*90;formwork=2*wallA;}
+  if(w.kind==='sz'){cWall=wallA*w.fill;units=wallA*w.units;steelW=wallA*w.steelM2;}
+  if(w.kind==='bl'){units=wallA*w.units;mortar=wallA*w.mortar;}
+  const cStruct=(cSlab+cRoof+cWall)*1.05;
+  const steel=cSlab*80+cRoof*110+steelW;
+  const hydro=2*(Lz+Bz)*(s.H+ts+tp)+Lz*Bz;
+  const xpsA=ins>0?2*(Lz+Bz)*(s.H+ts)+Lz*Bz:0;
+  const mat=2*(Lz+Bz)*(s.H+ts);
+  const foil=(Lz+.5)*(Bz+.5);
+  const drain=2*(Lz+Bz+2.4)+5;
+  const q=cov*18+ts*25;
+  const zb=s.H+ts+ins+cov;
+  const press=.5*18*zb;
+  const pf=Math.pow(2,ts*100/6+cov*100/9);
+  const Q=s.persons*20;
+  const dReq=Math.sqrt(4*(Q/3600/3)/Math.PI)*1000;
+  const dStd=[110,125,160,200,250,315].find(v=>v>=dReq)||315;
+  const vol=s.L*s.B*s.H;
+  const area=s.area||s.L*s.B;
+  return {w,tw,ts,tp,ins,cov,ch,Lz,Bz,full,depth,bl,bb,tl,tb,Vex,backfill,mound,surplus,loose:surplus*1.25,
+    cSlab,cLean,cRoof,cWall,cStruct,wallA,units:Math.ceil(units*1.05),mortar:mortar*1.05,steel,formwork,
+    hydro,xpsA,xpsV:xpsA*ins,mat,foil,drain,gravel:drain*.16,q,qkg:q*102,press,pf,Q,dStd,vol,area,
+    perPerson:area/s.persons,co2h:vol/s.persons,water:s.persons*3*s.days,hm};
+}
+/*CALC-END*/
+const PRE={
+  ziem:{L:5,B:3,H:2.2,wall:'sz25',strop:20,plyta:20,cover:80,mode:'full',area:0},
+  k20:{L:6.26,B:2.64,H:2.75,wall:'sz25',strop:20,plyta:25,cover:60,mode:'mound',area:13.9},
+  k40:{L:12.4,B:2.64,H:3.05,wall:'sz25',strop:22,plyta:25,cover:60,mode:'mound',area:28.3},
+  k45:{L:13.92,B:2.64,H:3.05,wall:'sz25',strop:22,plyta:25,cover:60,mode:'mound',area:31.9}
+};
+let presetArea=0;
+const $=id=>document.getElementById(id);
+const nf=(v,d=1)=>v.toLocaleString('pl-PL',{minimumFractionDigits:d,maximumFractionDigits:d});
+const num=(id,lo,hi,def)=>{let v=parseFloat(String($(id).value).replace(',','.'));if(!isFinite(v))v=def;return Math.min(hi,Math.max(lo,v))};
+function read(){return{L:num('cL',1.5,20,5),B:num('cB',1.2,8,3),H:num('cH',1.8,3.5,2.2),wall:$('cW').value,strop:num('cS',15,40,20),plyta:num('cP',15,40,20),cover:num('cC',0,200,80),xps:num('cX',0,20,10),mode:$('cM').value,n:parseFloat($('cG').value),work:num('cR',.5,1.5,.8),persons:Math.round(num('cN',1,30,4)),days:Math.round(num('cD',1,60,7)),area:presetArea}}
+function drawCalc(s,r){
+  const yT=r.full?r.ins+r.cov:0,yRoofB=yT+r.ts,yFloor=yRoofB+s.H,ySlabB=yFloor+r.tp,yBot=ySlabB+r.ch;
+  const tw=r.tw,B=s.B,xbl=-(tw+.15+s.work),xbr=B+tw+.15+s.work,xtl=xbl-s.n*r.depth,xtr=xbr+s.n*r.depth;
+  const mh=r.full?0:r.hm,ml=-tw-.5-1.5*mh,mr=B+tw+.5+1.5*mh;
+  const x0=Math.min(xtl,ml)-1.3,x1=Math.max(xtr,mr)+1.3,y0=-mh-1.9,y1=yBot+.95;
+  const k=Math.max(28,Math.min(92,880/(x1-x0)));
+  const d=D({k,x0,x1,y0,y1,t:'Przekrój poprzeczny dla wpisanych wymiarów'});
+  d.rect(x0,0,x1-x0,y1,'f-earth').poly([[xtl,0],[xbl,yBot],[xbr,yBot],[xtr,0]],'f-fill');
+  if(mh>0)d.poly([[ml,0],[-tw-.5,-mh],[B+tw+.5,-mh],[mr,0]],'f-fill');
+  d.line(x0,0,x1,0,'gnd');
+  d.rect(-tw-.25,ySlabB,B+2*tw+.5,r.ch,'f-conc').rect(-tw-.15,yFloor,B+2*tw+.3,r.tp,'f-rc');
+  if(r.ins>0)d.rect(-tw-r.ins,yT-r.ins,B+2*tw+2*r.ins,r.ts+s.H+r.ins,'f-ins');
+  const wc=r.w.kind==='mon'?'f-rc':'f-block';
+  d.rect(-tw,yT,B+2*tw,r.ts,'f-rc').rect(-tw,yRoofB,tw,s.H,wc).rect(B,yRoofB,tw,s.H,wc).rect(0,yRoofB,B,s.H,'bg');
+  d.circ(-tw-.5,yFloor,.08,'pipe').circ(B+tw+.5,yFloor,.08,'pipe');
+  const pt=-mh-1;
+  d.rect(B*.8,pt,.11,yFloor-.3-pt,'pipe').rect(B*.15,pt-.4,.11,yRoofB+.1-pt+.4,'pipe');
+  d.dimH(0,B,yFloor-.35,Math.round(B*100)).dimV(yRoofB,yFloor,B*.5,Math.round(s.H*100));
+  if(r.cov>0)d.dimV(yT-r.ins-r.cov,yT-r.ins,B*.5,Math.round(r.cov*100));
+  d.dimV(0,yBot,xtl-.6,Math.round(r.depth*100)).dimH(xbl,xbr,yBot+.5,Math.round((xbr-xbl)*100)).dimH(xtl,xtr,-mh-1.45+(mh>0?0:.0),Math.round((xtr-xtl)*100));
+  $('rc').innerHTML=d.out();
+}
+function render(){
+  const s=read(),r=calc(s),F=[];
+  if(r.area>35)F.push('Powierzchnia użytkowa przekracza 35 m². Taki obiekt wymaga pozwolenia na budowę, a nie zgłoszenia.');
+  if(r.perPerson<1)F.push('Mniej niż 1 m² na osobę. Rozporządzenie wymaga co najmniej 1 m² powierzchni netto na każdego.');
+  if(s.B>4.2)F.push('Rozpiętość stropu ponad 4,2 m. Strop '+s.strop+' cm może nie wystarczyć, rozważ ścianę lub podciąg w środku.');
+  if(r.w.kind==='bl')F.push('Ściana z bloczków na zaprawie nie jest zbrojona. Pod ziemią wymaga wieńców i trzpieni żelbetowych albo zamiany na pustaki szalunkowe.');
+  if(r.pf<100)F.push('Strop z przykryciem osłabia promieniowanie mniej niż 100 razy. Dla ochrony przed opadem promieniotwórczym dołóż ziemi.');
+  if(r.depth>3)F.push('Wykop głębszy niż 3 m. Potrzebna koparka o dużym zasięgu i szczególna ostrożność przy skarpach; sprawdź poziom wód na tej głębokości.');
+  if(r.surplus<0)F.push('Ziemi z wykopu zabraknie na zasypkę i nasyp. Trzeba dowieźć ok. '+nf(-r.surplus,0)+' m³.');
+  $('flags').innerHTML=F.map(t=>`<p><b>UWAGA</b>${t}</p>`).join('');
+  const G=[
+    ['Wykop i ziemia',[['Głębokość wykopu',nf(r.depth,2)+' m'],['Dno wykopu',nf(r.bl,1)+' × '+nf(r.bb,1)+' m'],['Wykop na poziomie terenu',nf(r.tl,1)+' × '+nf(r.tb,1)+' m'],['Objętość wykopu',nf(r.Vex,0)+' m³'],['Zasypka wokół obiektu',nf(r.backfill,0)+' m³'],...(r.full?[]:[['Nasyp nad stropem',nf(r.mound,0)+' m³']]),[r.surplus>=0?'Nadmiar gruntu (w wykopie)':'Brak gruntu',nf(Math.abs(r.surplus),0)+' m³'],...(r.surplus>0?[['Do wywozu po spulchnieniu',nf(r.loose,0)+' m³']]:[])]],
+    ['Beton i stal',[['Chudy beton C8/10',nf(r.cLean,1)+' m³'],['Płyta denna',nf(r.cSlab,1)+' m³'],['Strop',nf(r.cRoof,1)+' m³'],...(r.cWall>0?[[r.w.kind==='sz'?'Wypełnienie pustaków':'Ściany',nf(r.cWall,1)+' m³']]:[]),['Beton C20/25 razem (+5%)',nf(r.cStruct,1)+' m³'],['Stal zbrojeniowa (wskaźnik)',nf(Math.round(r.steel/10)*10,0)+' kg'],...(r.formwork>0?[['Szalunek ścian',nf(r.formwork,0)+' m²']]:[])]],
+    ['Ściany',[['Wymiary zewnętrzne',nf(r.Lz,2)+' × '+nf(r.Bz,2)+' m'],['Powierzchnia ścian',nf(r.wallA,1)+' m²'],...(r.units>0?[[r.w.kind==='sz'?'Pustaki szalunkowe (+5%)':'Bloczki betonowe (+5%)',nf(r.units,0)+' szt.']]:[]),...(r.mortar>0?[['Zaprawa murarska',nf(r.mortar,1)+' m³']]:[])]],
+    ['Izolacje i odwodnienie',[['Hydroizolacja',nf(r.hydro,0)+' m²'],['XPS '+s.xps+' cm',nf(r.xpsA,0)+' m² ('+nf(r.xpsV,1)+' m³)'],['Mata drenażowa',nf(r.mat,0)+' m²'],['Folia pod płytę',nf(r.foil,0)+' m²'],['Rura drenarska Ø100',nf(r.drain,0)+' m'],['Żwir do obsypki drenażu',nf(r.gravel,1)+' m³']]],
+    ['Ludzie i powietrze',[['Powierzchnia użytkowa',nf(r.area,1)+' m²'],['Na osobę',nf(r.perPerson,1)+' m²'],['Kubatura',nf(r.vol,0)+' m³'],['Wymagany nawiew',nf(r.Q,0)+' m³/h'],['Przewód nawiewny i wywiewny','Ø'+r.dStd+' mm'],['Bez wentylacji 2% CO₂ po ok.',nf(r.co2h,0)+' h'],['Woda na '+s.days+' dni',nf(r.water,0)+' l']]],
+    ['Obciążenia i osłona',[['Obciążenie stropu',nf(r.q,1)+' kN/m²'],['czyli ok.',nf(Math.round(r.qkg/10)*10,0)+' kg/m²'],['Parcie gruntu u podstawy ściany',nf(r.press,0)+' kPa'],['Osłabienie promieniowania (strop)',r.pf>=10000?'ponad 10 000×':'ok. '+nf(r.pf>=100?Math.round(r.pf/10)*10:Math.round(r.pf),0)+'×']]]
+  ];
+  $('res').innerHTML=G.map(g=>`<div><h4>${g[0]}</h4><dl>${g[1].map(x=>`<dt>${x[0]}</dt><dd>${x[1]}</dd>`).join('')}</dl></div>`).join('');
+  drawCalc(s,r);
+  render.text='Zestawienie: komora '+nf(s.L,2)+' × '+nf(s.B,2)+' × '+nf(s.H,2)+' m, '+r.w.n+', strop '+s.strop+' cm, ziemia '+s.cover+' cm\n\n'+G.map(g=>g[0].toUpperCase()+'\n'+g[1].map(x=>'  '+x[0]+': '+x[1]).join('\n')).join('\n\n')+'\n\nPrzedmiar orientacyjny z kalkulatora PrepReady. Konstrukcję zatwierdza projektant.';
+}
+function setPreset(key){const p=PRE[key];$('cL').value=p.L;$('cB').value=p.B;$('cH').value=p.H;$('cW').value=p.wall;$('cS').value=p.strop;$('cP').value=p.plyta;$('cC').value=p.cover;$('cM').value=p.mode;presetArea=p.area;
+  document.querySelectorAll('[data-p]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.p===key));render();}
+document.querySelectorAll('[data-p]').forEach(b=>b.addEventListener('click',()=>setPreset(b.dataset.p)));
+$('f').addEventListener('input',e=>{if(['cL','cB'].includes(e.target.id)){presetArea=0;document.querySelectorAll('[data-p]').forEach(b=>b.setAttribute('aria-pressed','false'));}render();});
+$('copy').addEventListener('click',()=>{const t=render.text,ok=()=>{$('copymsg').textContent='Skopiowano zestawienie do schowka.'},no=()=>{$('copybox').hidden=false;$('copyout').value=t;$('copyout').select();$('copymsg').textContent='Zaznaczono tekst poniżej. Skopiuj go skrótem klawiszowym.'};
+  try{navigator.clipboard.writeText(t).then(ok,no)}catch(e){no()}});
+render();
+</script>
+
+<style is:global>
+.sdiy{--panel:var(--surface);--paper:var(--surface);--ink-2:var(--muted);--accent:var(--signal);--on-accent:var(--on-signal);--dim:var(--action);--warn:var(--signal);--ins:color-mix(in srgb,var(--signal) 20%,var(--surface));--earth:var(--surface-2);font-family:var(--body);font-weight:var(--body-w);font-size:16px;line-height:1.6;color:var(--ink);padding-bottom:48px}
+.sdiy section{scroll-margin-top:90px}
+.sdiy .srcs{padding-block:28px 0;color:var(--muted);font-size:14px;border-top:1px solid var(--line);margin-top:44px}
+.sdiy .srcs li{margin-bottom:4px}
+.sdiy a{color:var(--action)}
+.sdiy .res h4, .sdiy .rules b{font-family:var(--display);font-stretch:80%;font-weight:750}
+.sdiy .col{max-width:68ch}
+.sdiy nav.toc{margin-top:22px;display:flex;flex-wrap:wrap;gap:8px;padding-block:14px;border-block:1px solid var(--line)}
+.sdiy nav.toc a{font:500 13px var(--mono);color:var(--ink);text-decoration:none;padding:7px 11px;border:1px solid var(--line);background:var(--panel)}
+.sdiy nav.toc a:hover, .sdiy nav.toc a:focus-visible{border-color:var(--accent);color:var(--accent);outline:none}
+.sdiy section{padding-block:44px 8px}
+.sdiy h2{margin:6px 0 14px}
+.sdiy h3{margin:30px 0 8px}
+.sdiy p{margin:0 0 14px}
+.sdiy ul, .sdiy ol{margin:0 0 14px;padding-left:22px}
+.sdiy li{margin-bottom:6px}
+.sdiy strong{font-weight:600}
+.sdiy .note{border:1px solid var(--warn);padding:14px 16px;margin:18px 0;background:var(--panel)}
+.sdiy .note b.tag{display:block;font:600 12px var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--warn);margin-bottom:6px}
+.sdiy .note p:last-child{margin:0}
+.sdiy .rules{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:0;border:1px solid var(--line);margin:22px 0}
+.sdiy .rules div{padding:16px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);margin:0 -1px -1px 0;background:var(--panel)}
+.sdiy .rules b{display:block;font:600 20px var(--display);text-transform:uppercase;margin-bottom:4px}
+.sdiy .rules span{font-size:14.5px;color:var(--ink-2)}
+.sdiy .tw{overflow-x:auto;margin:18px 0}
+.sdiy table{border-collapse:collapse;width:100%;font-size:14.5px;min-width:620px}
+.sdiy th, .sdiy td{text-align:left;vertical-align:top;padding:9px 10px;border-bottom:1px solid var(--line)}
+.sdiy th{font:600 11.5px var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--ink-2)}
+.sdiy td.n, .sdiy th.n{text-align:right;font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+.sdiy figure.dw{margin:24px 0;border:1px solid var(--line);background:var(--paper)}
+.sdiy .dw-s{overflow-x:auto;padding:10px}
+.sdiy .dw-s svg{display:block;height:auto;margin:0 auto;max-width:none}
+.sdiy .tb{display:grid;grid-template-columns:auto 1fr auto;border-top:1px solid var(--line);font:500 12px var(--mono)}
+.sdiy .tb span{padding:8px 12px;border-right:1px solid var(--line)}
+.sdiy .tb span:last-child{border-right:0;color:var(--ink-2)}
+.sdiy .tb .no{color:var(--on-accent);background:var(--accent);font-weight:600}
+.sdiy .tb .ti{text-transform:uppercase;letter-spacing:.06em}
+.sdiy ol.lg{list-style:none;counter-reset:l;margin:0;padding:12px 12px 8px;border-top:1px solid var(--line);columns:2 260px;column-gap:24px;font-size:13.5px;color:var(--ink)}
+.sdiy ol.lg li{counter-increment:l;break-inside:avoid;padding-left:28px;position:relative;margin-bottom:7px}
+.sdiy ol.lg li::before{content:counter(l);position:absolute;left:0;top:1px;width:19px;height:19px;border-radius:50%;background:var(--accent);color:var(--on-accent);font:600 10.5px/19px var(--mono);text-align:center}
+.sdiy svg .bg{fill:var(--paper);stroke:none}
+.sdiy svg .bgl{fill:var(--paper);stroke:var(--ink);stroke-width:1}
+.sdiy svg .ln{stroke:var(--ink);stroke-width:1.1;fill:none}
+.sdiy svg .lt{stroke:var(--ink-2);stroke-width:.7;fill:none}
+.sdiy svg .ds{stroke:var(--ink-2);stroke-width:1;stroke-dasharray:6 4;fill:none}
+.sdiy svg .gnd{stroke:var(--ink);stroke-width:2.4;fill:none}
+.sdiy svg .fur{fill:none;stroke:var(--ink-2);stroke-width:.9}
+.sdiy svg .pipe{fill:var(--paper);stroke:var(--accent);stroke-width:1.5}
+.sdiy svg .f-steel{fill:var(--ink);stroke:var(--ink);stroke-width:1}
+.sdiy svg .f-rc{fill:url(#h-rc);stroke:var(--ink);stroke-width:1.4}
+.sdiy svg .f-conc{fill:url(#h-conc);stroke:var(--ink);stroke-width:1}
+.sdiy svg .f-block{fill:url(#h-block);stroke:var(--ink);stroke-width:1.4}
+.sdiy svg .f-earth{fill:url(#h-earth);stroke:none}
+.sdiy svg .f-fill{fill:url(#h-fill);stroke:var(--ink-2);stroke-width:.8;stroke-dasharray:6 4}
+.sdiy svg .f-gravel{fill:url(#h-gravel);stroke:var(--ink-2);stroke-width:.7}
+.sdiy svg .f-ins{fill:url(#h-ins);stroke:var(--accent);stroke-width:.8}
+.sdiy svg .f-wood{fill:url(#h-wood);stroke:var(--ink);stroke-width:1}
+.sdiy svg .pb{fill:var(--paper)}
+.sdiy svg .pbe{fill:var(--earth)}
+.sdiy svg .pbi{fill:var(--ins)}
+.sdiy svg .ph{stroke:var(--ink-2);stroke-width:.7;fill:none}
+.sdiy svg .phi{stroke:var(--accent);stroke-width:.6;fill:none}
+.sdiy svg .pd{fill:var(--ink-2)}
+.sdiy svg .dm{stroke:var(--dim);stroke-width:.9;fill:none}
+.sdiy svg text{paint-order:stroke;stroke:var(--paper);stroke-width:4px;stroke-linejoin:round}
+.sdiy svg .dt{fill:var(--dim);font:500 11.5px var(--mono)}
+.sdiy svg .tx{fill:var(--ink);font:500 10.5px var(--mono);letter-spacing:.03em}
+.sdiy svg .tl{fill:var(--ink);font:600 13px var(--display);letter-spacing:.08em}
+.sdiy svg .mk circle{fill:var(--accent)}
+.sdiy svg .mk text{fill:var(--on-accent);font:600 10.5px var(--mono);stroke:none}
+.sdiy svg .ar{fill:var(--ink)}
+.sdiy .calc{border:1px solid var(--line);background:var(--panel);margin:22px 0}
+.sdiy .presets{display:flex;flex-wrap:wrap;gap:8px;padding:14px;border-bottom:1px solid var(--line);align-items:center}
+.sdiy .presets small{font:500 12px var(--mono);color:var(--ink-2);margin-right:4px}
+.sdiy button{font:600 13px var(--mono);color:var(--ink);background:var(--bg);border:1px solid var(--line);padding:9px 12px;cursor:pointer}
+.sdiy button:hover, .sdiy button:focus-visible{border-color:var(--accent);color:var(--accent);outline:none}
+.sdiy button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+.sdiy .fields{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;padding:16px}
+.sdiy .fields label{display:flex;flex-direction:column;gap:5px;font:500 12px var(--mono);color:var(--ink-2);min-width:0}
+.sdiy input, .sdiy select{font:500 16px var(--mono);color:var(--ink);background:var(--bg);border:1px solid var(--line);padding:9px 10px;width:100%;min-width:0;border-radius:0}
+.sdiy input:focus-visible, .sdiy select:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+.sdiy .flags{padding:0 16px}
+.sdiy .flags p{border:1px solid var(--warn);padding:10px 12px;font-size:14.5px;margin:0 0 10px}
+.sdiy .flags p b{font:600 11.5px var(--mono);letter-spacing:.12em;color:var(--warn);margin-right:8px}
+.sdiy .res{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:0;border-top:1px solid var(--line)}
+.sdiy .res > div{padding:14px 16px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);margin:0 -1px -1px 0;min-width:0}
+.sdiy .res h4{font:600 19px var(--display);text-transform:uppercase;letter-spacing:.03em;margin:0 0 8px;color:var(--accent)}
+.sdiy .res dl{margin:0;display:grid;grid-template-columns:1fr auto;gap:5px 12px;font-size:14px}
+.sdiy .res dt{color:var(--ink-2)}
+.sdiy .res dd{margin:0;font:500 14px var(--mono);font-variant-numeric:tabular-nums;text-align:right;white-space:nowrap}
+.sdiy .calc-foot{display:flex;flex-wrap:wrap;gap:12px;align-items:center;padding:14px 16px;border-top:1px solid var(--line);font-size:13.5px;color:var(--ink-2)}
+.sdiy #copyout{width:100%;min-height:160px;font:12.5px var(--mono);background:var(--bg);color:var(--ink);border:1px solid var(--line);padding:10px}
+</style>
