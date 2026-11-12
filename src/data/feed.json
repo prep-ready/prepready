@@ -9,7 +9,7 @@
         "sev": 3,
         "source": "Komisja Europejska",
         "url": "https://energy.ec.europa.eu/data-and-analysis/weekly-oil-bulletin_en",
-        "title": "Ceny paliw w Polsce wzrosły w tydzień o 6%: Pb95 6.08 zł, ON 7.70 zł",
+        "title": "Ceny paliw w Polsce wzrosły w tydzień o 6%: Pb95 6.09 zł, ON 7.72 zł",
         "official": true,
         "forYou": "Nie rób zakupów w panice. Uzupełniaj zapas stopniowo, a bak tankuj, gdy spadnie do połowy.",
         "guide": {
@@ -18,17 +18,65 @@
         }
       },
       {
-        "at": "2026-11-11T19:06:03.000Z",
-        "cat": "safety",
+        "at": "2026-11-12T12:53:00.000Z",
+        "cat": "weather",
         "sev": 2,
-        "source": "WP Wiadomości",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQ05vM3RJTXhLTHJfX0tiNDdWWWgxNFhGV0txSlRqcGVDa2JNemlrekc2cnhfX1ZNc2pHM2R0eUI5dldfOVhnUmsxU0o3MDk3OGU2WVdaa0VkWDA2X1BRNWRiVktwRG50Y0h0aXJXalNWTFR3RlhDdDN1ajdQeHJGMFZEbWFvN2pZMmlEWXpncV96NWVaQXJtRUU2aDM1SUU5YjdZZExGajU?oc=5",
-        "title": "Ewakuacja wagonu w pociągu do Bielska-Białej. Pasażer miał broń",
+        "source": "IMGW",
+        "url": "https://meteo.imgw.pl/",
+        "title": "IMGW: 4 ostrzeżeń meteo, najwyższy stopień 1: Intensywne opady deszczu",
+        "official": true,
+        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
+      },
+      {
+        "at": "2026-11-12T12:50:39.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZlU1YVF0LUpBTkVHeFZiYTdvSEdkNXN4eEc5MTY4N3BhVEFvY3BPYU9VY0ZHWGN6VTZNU0VpX0NzUWJ3ZXpNS3BrUFBLdEF1dkFEWjhiUS16V0pUWkEzV184ekpXUndqNVF2TnRNUk54MGppZDlTbVV3MUFQVllGNXVoNXI5RThTVlU0LXJSdWJjd1Y1SGNIalhhbjc0emMyMGFOUk93?oc=5",
+        "title": "Rosyjski dron uderzył w blok w Kijowie. W budynku wybuchł pożar",
         "official": false,
         "forYou": "",
         "guide": {
-          "href": "/pl/poradniki/plan-ewakuacji-rodziny/",
-          "label": "Plan ewakuacji rodziny"
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
+      },
+      {
+        "at": "2026-11-12T09:23:03.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "Wyborcza.pl",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNalBkWVlwd2NZajZPLTNkRlJhMjBtbDIyZ1lUV3dpMGhzU2NIUG9YdU1JLWJTemNQb2tBbGI0OWZJTlZkRkdORmxEaDlLcjB6cHFOOE5kXzg0UXVEcjZmekNLYVlzU0hXbWNmTHBWc1RDS2c5MlFIWnFwVkNOOXVfNG1GQXE5WjB1bUhTOGNDbEdVclB5dXhtdW1JN0h0VnBkSXZEQmtCV0JVdjlj?oc=5",
+        "title": "Fałszywe alarmy bombowe. Włochy ewakuują uczniów, Wielka Brytania i Irlandia nie przerywają lekcji",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/poradniki/bezpieczenstwo-dziecka-w-szkole/",
+          "label": "Bezpieczeństwo dziecka w szkole"
+        }
+      },
+      {
+        "at": "2026-11-12T07:55:31.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUlZGYmdaNmhYbHNDS0RJMjNHbXNFV0dacWF3bklCdVdTb0YwZnNpWWJYTUtnclFSR1NuLU5SQnNBaXNrdl9WbTdvQ2tpRE1IalF5eS05cFA5d3hvekJydmxsOW5OcUhEckpFa3NzVENlWXdTMXpEMGhPaS0wWmplM19qejZRbTBMVkYwUGxtNVpXR21zRDhDRXluRUVjZG5waUlQX2IxRzZBQQ?oc=5",
+        "title": "Gazówka, nóż i \"teleskop\". Chwile grozy w pociągu do Bielska-Białej",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-12T04:45:02.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Defence24",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWWlOS2xoR1RVakZWSUpMUzBjWXVvSHN2VGpfVEk2ejFfV0tFaFl4MVdvOTBzTnlwamROaWxfSnZCSEd2VU5KTVVXVVNuSXlFWUEySy1mOEU0cjJaSTlCUFdGX3VUV2g5YzhOdVRselVMQW5CVjU2WFczWWtwOTdhdWdCMHNVSldFMjhIVEUzeWtkTF8ta0JvdFZxLXlCRnpmOHhVdjRicDhRazk5bHFZRHlHdw?oc=5",
+        "title": "Dron naruszył polską przestrzeń powietrzną? Sprzeczne głosy z Polski i Litwy",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
         }
       },
       {
@@ -196,61 +244,63 @@
         "title": "Nawrocki zdecydował o awansach w armii. Jedno nazwisko budzi kontrowersje",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-10T07:47:03.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Tygodnik Powszechny",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNzBHSDFMTnRvUF9uYWxPRzBTLW5hS0l6ZHRZOXBaQnc0bjZ1emtnZUtrVkMxU29lV1BaMGhvel8yQTdPZld1a1hFMHZOT1ZtWEtFUnpjMEJFUnJSNmRVakktRDdNMW4xU2NOTkk4ODdNWC1zODJTWWlCT2E4eXloSmZxWVJyMUdNQjFSdmk3SDltUF9wZTJpblQtOW5GX2dvZzdWNHdsV09sMnZfQzNENQ?oc=5",
-        "title": "Na misję z kondomami, ale bez podpasek. Jak Wojsko Polskie rozumie równość płci",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-10T06:10:00.000Z",
-        "cat": "weather",
-        "sev": 2,
-        "source": "IMGW",
-        "url": "https://meteo.imgw.pl/",
-        "title": "IMGW: 2 ostrzeżeń meteo, najwyższy stopień 1: Opady śniegu",
-        "official": true,
-        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
-      },
-      {
-        "at": "2026-11-10T04:12:59.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Polskie Radio 24",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQ0x3d1FTbk5WNzRkdVJyVmxPWndCRDdkMUk2Nkd5V0tUNGV0UklqSEdnb0Q5ZndkdFNWbTB6d29mYmRLTTd2dzhkOHNHc015WXBLM3Q1Mm90cEFzUWR3OExUMlRuQ3dBVW1sX1NNZHJ0LUhwUE5fendlTTItMTdQX1huLUlxYU5DV3FLVGFyU1A0WFN4UWc?oc=5",
-        "title": "Pilny alert RCB dla mieszkańców dwóch województw. \"Brak zagrożenia\"",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
-          "label": "Alert RCB i aplikacja RSO"
-        }
-      },
-      {
-        "at": "2026-11-10T02:06:40.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Defence24",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdFF0VDl6MC1WaWxJcHBPSEZkRExWTU82TEIzb3pic0Z2ak9NVzRmSmpqNXctSlZaZmZjdmdfVXV0cHhlWDlSajZNaHo3Rm1Xb201TlpudDNlS29NN1lmX3ZZdUJkS09BOGNuaUttSzhXc0x4a0E0VEhLbjlTWGEzM0FwUWhEcHdBVUhDd0Uxc2ZCT095cE04?oc=5",
-        "title": "Testy dronów dalekiego zasięgu nad Polską. Komunikat wojska",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/mapa-schronow/",
-          "label": "Mapa schronów"
-        }
       }
     ],
-    "updatedAt": "2026-11-12T04:23:51.823Z"
+    "updatedAt": "2026-11-12T13:20:48.116Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-12T12:26:01.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0wMjBISTdTSzZGQzZGVHJWUE1aQUIxaXlyRkhWei1yVi02UmJoNEJSdjRIQWxjYlo4MldUV19vOG9OanNWVWNIelY1cFlhOUJDQUJLTl9GVjNaT2s?oc=5",
+        "title": "Israeli strike on Gaza hospital kills six Palestinians, health ministry says",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-12T11:41:00.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Metro.co.uk",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPYVVFT3A5NGFaZ08xYWRCd0FQMC13VDRCakxFZzZ0Q3VqSkZkQ1BSQnlxVTg2OHozdU1zLTVIeU9DNW9yeW9Vc0Y4aTlsUEo0SUVkdHdYYXRnTlVldUJJSmQ3TnNBenFSR01Rd2JURWFOUjRoN2hoLTF0Qk5JNm56VVN0Ni13elJUM2xRUGdpcGo4cU80dFR3R0hjbndjSUZwdlJmMlhZUWE2eXoyeEHSAbMBQVVfeXFMTXpWM2k3VER6VkFnVjZhbnQwLUhPMklCWG83ektEekt2X2k2VU1KbER5MWdRNzNwbE9qN0x6SkhvWkJwQjcycWtFYWVOYlRYNy1PUngxNV82QlNqd25ZbjRPZ0JDZEFTYXpBMlRpTkpSUDBVbEJRR1J0cXU3ZUR2bWpuWDdNVzR2R3RkNTFzTFhWb3l6ajFMNDNWMmI5bVc4Z2p3WUgzajRSaW12X3MwejJGaWM?oc=5",
+        "title": "The 'sinister' permanent blackout cutting 2.4 million Brits off from loved ones",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-12T10:58:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The New Voice of Ukraine",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNU2JuNDhqejFqVjl6SUg4M2lwajc3ODI5QzB6TkZPci10WVhSQjlNZjVycldVS2QtaDlpLVdPd1ViaVh5MGJveDhMNHpXMDZFZklwMTBwU0JUZ1hIRnI5V09pcjEybXZaZXplUml0MDFuM3hQWlJYVnd4SGNGUlhYS3Z3cnVQSXNvRk1iVndCX1FmcGJoQmgxMzZ4MTBEV0FreHhHckdvSdIBnAFBVV95cUxPaUxSMFFKYm1aNG0yN2FMMHZTR2FlbGVTWmpTOXFYeWI4WVNzTGVuU3dvTndNbEx4VGpXcHdRcUJwYzZselhCOVlwamt1X2dEcDZYanpGelA3UEZXSzZsU0R2cXBIeXVxaW9yelFmRUpoWm1jaFBjeDAtNzFfTzdteGYxZUJOdHItOHdObmxPSm1lR0tHbnlUb2g2Y2M?oc=5",
+        "title": "Russian ballistic strike on Brovary sets chemical cargo truck ablaze, injures driver",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-12T10:12:21.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "IntelliNews",
+        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNYVdnVGZmc3IzVDFsaXpaV2F0RzhPM3N3d2trcXdCdTU0UEY4eDBkYXZYamgzcG44R3duNU9iVENoOEpwaWRzVkhZMFoySVNVMVRJMzdJTWNpbnAzSTJyUnJQUkZBZkNRRGFFWFEwMVB3TmZRMFhtQ2ZnYzM3cFZpR0doNENYa1ZDdmNDZVZscHFTSzdHaHdvY3JIV25DU29LcU01SnBDT1lqOU96bGJ1Z1hDQlNCLS1iZW4xckZwVFp4eTRFQXJlWlZleExHeUNzWk9OWGtNREZuTlVPZU80ZEdCckswOHFuQlZXQ1BjMzZQam5uSzBn?oc=5",
+        "title": "Missile War Monitor: Drones attack Omsk, home to Russia's largest oil refinery, as Russian strike on Chornomorsk market kills three",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-12T09:26:38.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "EU Today",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE43R3B4SjVNVXFNdC1DLURLa1ZKLXdBRlBwYllMWTVRdkh6RmI0YjJGdDZiSXZvTFR6TVUwZ251TDlheFdDZ2IzbnltTlpVUXppUFlfZ0ZOZjNTcldLZ1ZqT0lDVm5BUy1BM3c?oc=5",
+        "title": "France Accuses Iran of Cyber Sabotage as Europe Confronts a New Infrastructure Threat",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-11T23:04:43.000Z",
         "cat": "cyber",
@@ -268,16 +318,6 @@
         "source": "Barlaman Today",
         "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQX3ZyRXR6UWFPT0RLT056MUZCcUREVW55NDY3V0VLNWJfS1JpSjV4WkVjRThkdkt2RS02WXlHaDlFR2lDTnhSRGNIN0M3UU9zcU1FR3Q5NjR4N0ZtY0kyb0NJTXZnc3dtYlBCT3BCeEZzcktIOGh0ME5oYkc2Q0dJMm03VkRYX2dBT0lhOHdoUFlBS24tRzJyX3kzaGRWdTBlNkJF?oc=5",
         "title": "Power Gradually Returns to Casablanca After Widespread Outage",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-11T21:58:53.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Odessa Journal",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRTF0MWc2Zk9vUjRiaWxKWHdwMGZIRHpkVmhoUGJwLW5lcGpxc1cwUWR2RnZ4dVM2R1NTTzg2aE1FMjNFSzhlSHdmYWRBS0tiTzJxQlVseG5yZ19mOGZuSEQ3bWd2bS1jWTdGRlJCOVFoc1lONmMwTHFUX09UWGc3bHd5RzV5cUFfVjRxSWlsdXJwUTJ1M3I1U2pqNmNjYXo0UWdteW13c1JkNmJsbVE?oc=5",
-        "title": "Ukrainian Drones Strike Russian Oil Terminals and Missile Ship in Ust-Luga Operation - Oj",
         "official": false,
         "forYou": ""
       },
@@ -392,16 +432,6 @@
         "forYou": ""
       },
       {
-        "at": "2026-11-10T16:29:45.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "Latin Times",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOaHl3UXN3RG1FaXJ3eWZ2SEh6dlFYdm1VcDJ0N1p6ZFo5OUJMMmxIRUVYZWtvc3VUaGtnTGE3VnQ4aDhPWHdxTnlkVjVUSnpfYlpfWGVzUVF0X1EwUU9kM3hiOUVrYndFZlMtTFh4ZUg3OG9IdGZpNGNiVkM3NkRmSlcyMA?oc=5",
-        "title": "France says an Iranian IRGC cyber unit sabotaged refrigeration systems at 700 sites, destroying food inventories",
-        "official": false,
-        "forYou": ""
-      },
-      {
         "at": "2026-11-10T15:58:57.000Z",
         "cat": "energy",
         "sev": 2,
@@ -420,38 +450,8 @@
         "title": "Iran Uses Global Climate Talks to Highlight Impact of US Strike",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-10T10:24:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "New York Post",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQR095ZTRvSVZUbjJnbDRudFU4bVItb3BPX2J3MEV1OHdjMW1FZXl6S3ZlUmJ5YzM5cWhSWTJGZjJHc1hIZ2c1QXBsUmotVl9fWkRfa1F6bFVwMGp4c3lrRGh0SXBjWGdVckFVZmxvU3k5blVNcjJIUjlHSkpLWVlWZl9CN2xaR3d6enBrU01lRW9lZTN0cWgyQUQxdUdRWDNxZUUycjZQSGJwdWc?oc=5",
-        "title": "US-mediated talks on ending Russia-Ukraine war begin in Abu Dhabi",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-10T10:04:33.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Arabian Business",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeGVzSjhrbUhOTTctX0ViTkJTRnFEZnkwNTJQR3gySTJRQlk3aXNwenJ2Qk1DejVYcF84dmF4WDFPd2xKRzEwazEtOEdOb05OOFhJaXZQVTd3R2lDRHdGbTgtM1JSSEMxeFN5OTlLc0tLNE55MHlHRDZNU3lOVFBDaTJwQQ?oc=5",
-        "title": "Iran war live: GCC approves new military command HQ in Kuwait",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-10T05:00:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPejVOS3ZkMHdJYkh0ZHpjMjRPbTJqbFRrU2g1YlpDelRsbndKbDdGWGdOeDRVdTZYT05pcTR5TlFYQWh6VWRzd3U2U3lrZkhSa19OS1dWU3JTZ205NUNWcjFnSUVsNl9ncnJocm85SDBVcmhBZjRCSkI2V3ZDdGRaWThNZGx5RkdiRDg5RldnM0tmTFZXeUs2ZnBTSEpabC04MVZjLWNwME9aekRRT1VxdGtaV0NlUQ?oc=5",
-        "title": "The War Putin Wanted to Keep Away Is Coming Home to Russia",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-12T04:25:16.916Z"
+    "updatedAt": "2026-11-12T13:23:03.652Z"
   }
 }
