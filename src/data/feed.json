@@ -9,13 +9,57 @@
         "sev": 3,
         "source": "Komisja Europejska",
         "url": "https://energy.ec.europa.eu/data-and-analysis/weekly-oil-bulletin_en",
-        "title": "Ceny paliw w Polsce wzrosły w tydzień o 6%: Pb95 6.09 zł, ON 7.72 zł",
+        "title": "Ceny paliw w Polsce wzrosły w tydzień o 6%: Pb95 6.10 zł, ON 7.73 zł",
         "official": true,
         "forYou": "Nie rób zakupów w panice. Uzupełniaj zapas stopniowo, a bak tankuj, gdy spadnie do połowy.",
         "guide": {
           "href": "/pl/poradniki/zapas-wody-i-jedzenia/",
           "label": "Zapas na kryzys"
         }
+      },
+      {
+        "at": "2026-11-13T14:33:27.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "Polskie Radio 24",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRVdmTUV1YTJqU200cDFxNkl1QnpHR2pTNGlsb1VHUGRTUlA5NHI0dGQ3QWNKLWctVGllSkpmUEM0emhRb2xRNjl3MDdlM1UxUkNSdnE3T0Jua2hQZG1XMVNVS1Z0VzhrVERPWWNCU3poNEdZbDJXVjE0LVc4cHNBR080Qm9rcWxDc1dnVjlKMThLMWRiRURmOG5rWXF1UQ?oc=5",
+        "title": "Strzelanina w Krakowie. Wyszło na jaw, kim jest 39-letni napastnik",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-13T13:45:25.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Rzeczpospolita",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZmVCTFZnQzJfM2xieDc5ZGxGSUIzaWVaRUpTY2dFUzViWklTdnlqbGdzWnFZeEFLY2FjZm1OdDdqNWw0T1JOTjJfVmtBZHlCOFZ3Wjg5SzJKY2VIaG40MXk5MnllY050MkEwZ1V1NzVVWlcwc0NRUTVLem1md1ljZFo0NE5RY3J4M0lEZzNiU3JwM0VTOTdwQTJXb09obVVEaDkxMkpxRHNldVk3TXVfQ2VKSm0zOFhBaWFwbnV3?oc=5",
+        "title": "„Polska jak USA sprzed wojny secesyjnej”. Gorzkie słowa gen. Packa po zamachu w Krakowie",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-13T13:44:58.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Defence24",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNFpQUklCLXN6NmpHQXpOVlp3RUZicDFTNm5xcGpRcW5vNXFWSkZjWVN4dnZFTGJ1WjJGNXl5QlRlVDVIX1RRMFJKOWh5NWZWeE52UEs0NmVQNXJIT3VRZkFJUlF1N21aVWo3OXp4bkVkY1gtNi1HczFwVld1S1RxSkxEd0xDblgtUzBfMjVBeUpxZzBkclVUQUV1cw?oc=5",
+        "title": "Wojsko Polskie przetestuje lądowe drony do stawiania pól minowych",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
+      },
+      {
+        "at": "2026-11-13T11:52:00.000Z",
+        "cat": "weather",
+        "sev": 2,
+        "source": "IMGW",
+        "url": "https://meteo.imgw.pl/",
+        "title": "IMGW: 2 ostrzeżeń meteo, najwyższy stopień 1: Oblodzenie",
+        "official": true,
+        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
       },
       {
         "at": "2026-11-13T10:55:00.000Z",
@@ -26,6 +70,26 @@
         "title": "Podatności w oprogramowaniu Edito CMS",
         "official": true,
         "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
+      },
+      {
+        "at": "2026-11-13T09:28:04.000Z",
+        "cat": "health",
+        "sev": 1,
+        "source": "TVN24",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNU21PZmhmY2NiU0txWm5wN0M4ZWFNMlF6bFlzM09DOVAzTDE3alJFRXRGREFRc1BJckxyU1JtWDJTSXlfam1TUVRKMzR2ZUhjV3FZc1Zab1RYcmZaOHlsdDNDWmQ3Wl80RmlOMDZIRnduSHJYQU04VnNybU81aXRmWlpxSzV4VGk2c1ZwU1hpWW4zQ01kUF80Rk5wS1ZpYmNQanY2NjkxM2tKWENrVnpZVFg5QjBLM1U?oc=5",
+        "title": "Deweloper prze do budowy bloków przy oczyszczalni. Sanepid ostrzega, radni mówią \"nie\"",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-13T05:27:00.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "Warszawa.Wyborcza.pl",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOd1dycGZsQTdXaVdEbmJXc0Nzb3dQQkRleFd0V25vbW05b0MwcnFzbzM1WDMwem8tRFM5SmdGMTBNQ1VTRVhqYzZFVmtkRGc5VGNqWWk1RWZDc1RNcDJRYW4xZ05LNGJhNlhZQ0paNUI5bksxckZRSzRBMlVPbHl2R3pOSnlwZjl2NkZWYUZ1Y2dIVU93dUVCdUlTaEhMYV9KeTlQU3pXS3l0OFFGWWJUaUNfN3Ixb3k1Sk5iaXlOcw?oc=5",
+        "title": "Ósmoklasistom przepadły punkty na wagę złota. Szkolny konkurs, alarm bombowy i niewzruszone kuratorium",
+        "official": false,
+        "forYou": ""
       },
       {
         "at": "2026-11-13T02:11:13.000Z",
@@ -74,16 +138,6 @@
         "source": "WP Wiadomości",
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeE5BNHlZX0U2MG9sQmhMQlpySURkWkhmOFJ2VjJfVXFoVkVEVmI4YUVuN0ZnT0JPSHpVT1Q5UFVpY2ZwdkFSbFB4QXpOSlR5X0RyMVpOUU1SNWh4b29MTXVBMVZLa3lmWV9TQ3NlamJLVWhBbWpJSzBzZ0xIVGJVeUc1ZGZIdVpWZ1VTZ0NkclBQTlhkNnBnMkFKOXVaUzQ?oc=5",
         "title": "Strzelanina niedaleko Białego Domu. Są ranni, ruszyła obława",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-12T13:37:29.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "Polskie Radio 24",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbEhpV1FJNzVoWXREYXZlckZ4bXlGM3gybDN0MDFXTUJ5TU5aWTZTNFFhRGdXOXN0cDdXd0J0Qk9nM2puYzduRGdZZ2pOc3pPWThnSkI3ZHFXSTlZdnA4MXRLZm5IQlRQMHoyZG56cGpTaG9ISnY3ZFV4ck00RjlTSU8walBFVEVQSlB2OTg2ZGVXUVA4SzE2dWwtRVNWaldzbXJPbWpLQV9LMDR3MFE?oc=5",
-        "title": "Strzelanina w Krakowie. Napastnik otworzył ogień do policjantów na Bieżanowie",
         "official": false,
         "forYou": ""
       },
@@ -182,71 +236,53 @@
         "title": "Nieznany obiekt miał przekroczyć granicę Polski. Wojsko sprawdza doniesienia",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-11T05:11:02.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Wiadomości Onet",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMDgwQVRZQXJocVVUWjJDYXB0X0cxZllBMXdjcE9Td0R2LVJNMS1oYWplbkhJNTdXcnRiSGZaSDVuR0JRdzhUMjVvb3cxSjY0T25wcE9CdHRjNFNoY1g5Njdldm1tMVZFR21yWkF5Q2tpNHlQNWpXa3N1MHJuNXVHdXY4WGNLWGxpZzhsM0QtSDU4ekFLblIyWmxwTGpjbV9fX21UdjBR?oc=5",
-        "title": "Do Polski miał wlecieć dron, wojsko zaprzecza. Podsumowanie nocy",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/mapa-schronow/",
-          "label": "Mapa schronów"
-        }
-      },
-      {
-        "at": "2026-11-11T00:30:48.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "WP Wiadomości",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNT3pnQ1NZaHk1WU9ULUlTUkdWUHduYXV6b1JBYVBTLUotNXFTTEJMTWM3aXhWMGIwWkd5R29kdmhkc1Zkc0dpRGhia1BHQUxvZHZPNHRpU3VZTHZSWUhiaUxPZU5RRjlyaFFROV91Ynh3ZDVjN2NVRTA2cHM0bTliVG5SSmVjb0JXaDdfR0FHS0NrX3BsTW16RjN0NkJtV3U2eW0tZ2lQZ3k?oc=5",
-        "title": "Media: Dron przeleciał przez Litwę i przekroczył polską granicę",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/mapa-schronow/",
-          "label": "Mapa schronów"
-        }
-      },
-      {
-        "at": "2026-11-11T00:08:51.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "TVN24",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdXNnODdfZ2hnZ1VOWG9ZY3JIcG4wYVVXYnk1MGg1c1hrNlFBUENodGp4bXJrak5JUjhBLTNwZWxFeGFLZjJpMDFNT1Bfam1CTnNkWERiQUFWYXVzZDN4WmU5UldmMktqaFhKZ2RFNHlBRWxXYUpLd2tCaWo1ZUY0ekxLcERJeW5BZmNjNU9LNGh1YlRKellhUkNLUmlfU0RUQ19OcmtsTlB2a0IzVjhnS09JWQ?oc=5",
-        "title": "Warszawa. Atak nożownika w autobusie miejskim, policja szuka sprawcy | TVN Warszawa",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-10T15:47:13.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Defence24",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNc3VjbWJVVjctQjE4UnNaQm1Mek5WQXFpYnhWd3ZSVXJ0ZFNVT3NPWDZXSUt5UHVkYVNldmZMazktLXdlbnFsa2g0SjNxN0FHMlo4Z1NITnVIemRWOTg3dXFQZzRpZmktWUVxU0RLdnZ0YlNWdHdfdUtXR3NaT2tGcHNfdmlLNkUtUGNYUVlTMVRhWDRwNU5xRW00SzFHLVJ6aGZNaGFhWFFoaHM?oc=5",
-        "title": "Polska wyśle okręt do cieśniny Ormuz? Wojsko analizuje przełomowy ruch",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-10T13:02:00.000Z",
-        "cat": "health",
-        "sev": 1,
-        "source": "Medonet",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTWM1SFZrSlZncExaZmhkdmlkUU83OW5iQTJJdUVPdGZrX1BiRWpXZUJsajJ5MnRIWFdhbmR2SWRKYmVlcEVTVXJqMUlmNWlLd2x4azRxYWxpQnZHR254clRia092dWxhUkxoTVBjNkFURWtXUVpwbzRJSGx4d0docl96ZXpicnBPd1pKN0MyYUdFaG43amNPV3c0M2gwc2dKSnB2aE5TWVEzckhBWkxXeXAxbGd0OWZQaHlLeXdOTQ?oc=5",
-        "title": "Epidemia HIV w Rosji, ponad 1,2 mln osób zakażonych w 27 regionach",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-13T10:06:25.324Z"
+    "updatedAt": "2026-11-13T18:10:19.558Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-13T17:50:11.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "The 420.in",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdjBTbWlMVFlhdFNsWmpDbEphLXd3clN6azZzVEhiMk80UzlRbTk4Y0xkOW50MmV5UDlOTWJMc0xPT0ctUGJHbnctVDRoaVVmSFo3Zy10U29VWjlFaWI3WXRWc2Q0aEJfaURSa0NyRGZqa21pR2liclR0MUs0S1VpZWM1cUN3NUc0NWFkc3pxeXJDZjJVY2ZJUmJzdm1SVVltWXJlOWg2VTZrU0w0dnc?oc=5",
+        "title": "German Military Drones Resume Operations After Cyberattack On Manufacturer Quantum Systems",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-13T16:32:17.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Nacionale",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcXdDZmtEeEJWYThXUTA1NlgxYklUdkVDZWU2emx2bjk3WmdnQlB2NXRnME1SN2h5NTgwVlNjQnl4RkswMGY4ejZQbHpoemc1YV9TYWJ4MnFYcFRDLTNOSFV5YkNzMUlSck1zbXU2MGRGZUktUTRhMkNJblFjQmplbGZlemRTQ1hZM01SdkNBU3MzSGk2aElLTmdqVkJTZHJ2eThfcm5UUGRIR1FwYlE?oc=5",
+        "title": "How do you prepare for a power outage? A checklist, since November 17 brings only an alert test",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-13T16:06:26.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Heartlander News",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdXpfN2hJdzluUU82ZDRIN1ZaaWtCbXNsaFBVc2ppMDBSQnJibV8xbUVzRk1zZWNpbndTQ2JFV2tkNENBemo5b0FnUlpBUFZVdkU0ekNPMGRDUUwxaHZHd19aYWhLclJvY0h1NlljZEFlZ2MtN1hzUkM4am5tMHpMMmpHUlpJUnN4NHhxUkRaSzJsdnhtRWpJbFlpM2d0bDBmZzdYZ3hieVhxNEJaQTZ5Mg?oc=5",
+        "title": "Navy scrambles to ramp up tomahawk production after Iran War burns through arsenal",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-13T12:48:58.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "UNITED24 Media",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxON3dyQ1VxOFFlQjRtR05FQ3RGSHhkZF9tWVkyc2NvaGEwWnM5djA5dzNOVFdIaEFmcENKSVk2NTZBRTlROG5BWjlJRjhxdnZJM1NUUm0zOVJ0OXVTVndwZXBqTTVGblZ6bGpoTkY5TW5LU2owaE9EaE5TSFVtcHpJZlQxMGdYLVpQUExDUDA4cmNYX2VZVnczakJwdzJUX0JVa3p0VGxpWDRVWlZzNndMN1NtSXpydDRiWmhFcGVuRXN2QmlkSW1uYkNIOERoQW81ZTc2LXRIM3dRZ1VvZTZvUjhTb09KazdBRXd4SlMySFF1dF94Znc?oc=5",
+        "title": "Russia Builds, Stores and Repairs Its Drones in Rostov—Ukraine’s Neptune Missiles Hit All Three",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-13T08:26:00.000Z",
         "cat": "cyber",
@@ -318,16 +354,6 @@
         "forYou": ""
       },
       {
-        "at": "2026-11-12T22:40:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The Daily Caller",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5QRXI2NDQ0V2lpc1B4WlRvTFNPLUczUmlhaTlIeWh6NHdZTTJPQl9NOC1FNjktMHhJSWMwWHVsQ0x5bWh0YWgzclVCdTdfbHNKX2Z4UkRVc0dOVkdjelpqblRSeUdQZ3FuZUpGRThSR09oM1RMWlF3?oc=5",
-        "title": "Navy Scrambles To Ramp Up Tomahawk Production After Iran War Burns Through Arsenal",
-        "official": false,
-        "forYou": ""
-      },
-      {
         "at": "2026-11-12T20:00:35.000Z",
         "cat": "security",
         "sev": 2,
@@ -388,16 +414,6 @@
         "forYou": ""
       },
       {
-        "at": "2026-11-12T10:12:21.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "IntelliNews",
-        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNYVdnVGZmc3IzVDFsaXpaV2F0RzhPM3N3d2trcXdCdTU0UEY4eDBkYXZYamgzcG44R3duNU9iVENoOEpwaWRzVkhZMFoySVNVMVRJMzdJTWNpbnAzSTJyUnJQUkZBZkNRRGFFWFEwMVB3TmZRMFhtQ2ZnYzM3cFZpR0doNENYa1ZDdmNDZVZscHFTSzdHaHdvY3JIV25DU29LcU01SnBDT1lqOU96bGJ1Z1hDQlNCLS1iZW4xckZwVFp4eTRFQXJlWlZleExHeUNzWk9OWGtNREZuTlVPZU80ZEdCckswOHFuQlZXQ1BjMzZQam5uSzBn?oc=5",
-        "title": "Missile War Monitor: Drones attack Omsk, home to Russia's largest oil refinery, as Russian strike on Chornomorsk market kills three",
-        "official": false,
-        "forYou": ""
-      },
-      {
         "at": "2026-11-12T09:26:38.000Z",
         "cat": "cyber",
         "sev": 2,
@@ -426,28 +442,8 @@
         "title": "Power Gradually Returns to Casablanca After Widespread Outage",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-11T20:57:51.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNa0VablB0SWViZWpCRFg4bC0yX2ZTM19HNmFFVUdqVVlwbWRuRjdpSnNXZ3liU04zeTYyZWJPSlhLeEVRTUlMS0N2SnlPdEpINzVHUTJjRXJjd3RKdEZMLS14czdZSlpjcWlJWm95bFpTNHgxblNSVlFyLWhsQ0JncVFZRGRmQ0p6cDZQRGRtNlh6LWxnVXlLRkJyelFzdTFoM285d2tQZTJvS1BkYkRzLVZwUERKc2pHbVBqOUZDSmFRbGJ4TmpmQVExbnEzOTQ?oc=5",
-        "title": "Saudi Arabia intercepts Houthi missiles, drones; group denies targeting Mecca",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-11T20:26:52.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Britannica",
-        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5",
-        "title": "2026 Iran war | Oil, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-13T10:07:56.637Z"
+    "updatedAt": "2026-11-13T18:12:24.058Z"
   }
 }
