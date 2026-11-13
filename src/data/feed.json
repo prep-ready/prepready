@@ -18,6 +18,26 @@
         }
       },
       {
+        "at": "2026-11-13T10:55:00.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "CERT Polska",
+        "url": "https://cert.pl/posts/2026/11/CVE-2026-59074/",
+        "title": "Podatności w oprogramowaniu Edito CMS",
+        "official": true,
+        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
+      },
+      {
+        "at": "2026-11-13T02:11:13.000Z",
+        "cat": "health",
+        "sev": 1,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQejdOY2NXZzBwUzI3S05wQzd4NkxsRDdxODdRczhjVVVuMy1VSVN3cmlvMTgwREJEOTZKNDhSNGZ4VC1oVkQwZTcydUtEbFZPRmV1eTlMdkU2YndCdzFJbHZ2N1B4eHlvYkpkdkdybi0zdVpnTUFwMlJzRlB1cGowUHRtZVMxNTliY29rUnkzM05DYmc2R2ZvMnhiZWQyVlYtR1M0aXhzQmNUQi1Tb19KRA?oc=5",
+        "title": "Rosja w obliczu epidemii HIV. Kraj Putina mierzy się z niedoborem leków",
+        "official": false,
+        "forYou": ""
+      },
+      {
         "at": "2026-11-12T18:45:24.000Z",
         "cat": "security",
         "sev": 2,
@@ -44,6 +64,16 @@
         "source": "Wiadomości Onet",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTDYwZmExaUt6YlY5NHR3TUhGTlZYdG8wWGgzUHJNUVZfdVROZmYxdmtXWF9lelVPdnB1MWpQN05zY3E4NlNpZ01qaTBlQzdUUEkyWlhGU3ZmWndTaXA4SVY1V09zVEVoWGtsdGtXaVB0cE5zbFA5RXZjLWZkRnFrNVBERDFoZUdHSHBQV1hVSjJ5NWxjU3BKZkZvTnNMYzdfUDMyUDFR?oc=5",
         "title": "Strzelanina w Waszyngtonie. Co najmniej cztery osoby ranne",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-12T14:39:49.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "WP Wiadomości",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeE5BNHlZX0U2MG9sQmhMQlpySURkWkhmOFJ2VjJfVXFoVkVEVmI4YUVuN0ZnT0JPSHpVT1Q5UFVpY2ZwdkFSbFB4QXpOSlR5X0RyMVpOUU1SNWh4b29MTXVBMVZLa3lmWV9TQ3NlamJLVWhBbWpJSzBzZ0xIVGJVeUc1ZGZIdVpWZ1VTZ0NkclBQTlhkNnBnMkFKOXVaUzQ?oc=5",
+        "title": "Strzelanina niedaleko Białego Domu. Są ranni, ruszyła obława",
         "official": false,
         "forYou": ""
       },
@@ -210,43 +240,53 @@
         "title": "Epidemia HIV w Rosji, ponad 1,2 mln osób zakażonych w 27 regionach",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-10T12:05:00.000Z",
-        "cat": "weather",
-        "sev": 2,
-        "source": "IMGW",
-        "url": "https://meteo.imgw.pl/",
-        "title": "IMGW: 1 ostrzeżeń meteo, najwyższy stopień 1: Opady śniegu",
-        "official": true,
-        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
-      },
-      {
-        "at": "2026-11-10T12:05:00.000Z",
-        "cat": "weather",
-        "sev": 2,
-        "source": "IMGW",
-        "url": "https://meteo.imgw.pl/",
-        "title": "IMGW: 3 ostrzeżeń meteo, najwyższy stopień 1: Opady śniegu",
-        "official": true,
-        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
-      },
-      {
-        "at": "2026-11-10T10:20:38.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Wiadomości Onet",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcUMwYTJNbWU1dWREM1NVN3FsTzJtZUpKMGZhczlOZVdCT2RQUnY2TkU0bXVrQ1VZRHFOSnV2ZkhjZHlsSWhoaFBycTR5MWw1cjY1U0I4MDVKRGtycGM1eTBVUG5WS0J0c1FSVzhzMXhlMGFGT2ZNTzQwYWh5UVZpbDU5d0xtdkFoZFlSRFV5S3E4dEl5TksyRERXWDlLX201Sk9wcHZB?oc=5",
-        "title": "Korpus oficerski zyskał nowych generałów. Prezydent podpisał nominacje",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-13T02:12:10.916Z"
+    "updatedAt": "2026-11-13T10:06:25.324Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-13T08:26:00.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "The Times of India",
+        "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPS2U3dnkwTjJ4Z3NPMjNqV3BselFkZThZVWlKZkJkWmMxZG1iNkhjdk16cmtFd0c2MXVpSGwwZmx5OXFnNmZDNmI1LXo4a2ZVWnBzYi12UDlodFRTXzV6ZFVKbVppb19zaGNUUS1sZjhZTEhUclAxRjJGaHlnVWpFampKVUc2NzNPdEVfaVpqZnNERUkwZmtzWlJ4dTBKR2wyR0V0TWF1SFNtUjM2elpMOThoZlV1X0w1YTRua1E2QURaRmtyRGhpX0JlV1lTSDNtV3AxTWdGTUZoVnhmNWpMYXpieXN2cUVvYnRHNzhLdzJMTFNSM0tKWWgtcXJGN19GQlJUUjlkSktvbTVMOGZB0gGUAkFVX3lxTE42c1JIaU9iNkhfa1JkUnpqRk01X0ptQmdKSGVaTUE3a3AyMzRCMW5PWGpsbTRrUnkwU2dJWjRtcW4zZHQzU0hPSl8xSVM4ZmFHNkFOZWRUeFRlX1JnalpFV3B2ZERjMUY1enhGNWdWTEpnOFlkbFN5bkZyb1d5bjFMNmo4bmxhOXNfLTVBTG8xcVduUlFEUW54NWhGTThndGREYWdyMnRpc25RcmNWY05LdV9sSWd2eFVtSE5XUWJGTVRUam5TR0RxRllNSmZpcDBLSnpoallsd1pzcWIta1dvLUs0U0p5aU1sZG1vVlJ2VTMzbUJqMFBPUzR5Q3l6a051MEZGNFJnc19PQTNjU1pqalhNVg?oc=5",
+        "title": "Jensen Huang's resignation, Chinese cyberattack and rogue AI: The conspiracy theories surrounding Microso",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-13T08:17:00.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "The Telegraph",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOY21KWHVHTmNLR2ItQVFta1Z0M1ktTlpsdWc5ZDlqSW1id1NtTkF2VXc1dHl0QzIyelY3RndKakJNdlc0WTE5aUNiU1kyd0lVN2xYZGpWWXh0bTRzVmNzZU1VcllXdjkyQ0pramlRSXdSX3psTzQwVTItdEJFaldlTE9fNDBIZFI0NXZXY1F1Qy1tR25RSmhRa0I4bi1vTXVqT0Jr?oc=5",
+        "title": "What you need to know about Microsoft’s tech crash",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-13T07:04:45.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Arabian Business",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeGVzSjhrbUhOTTctX0ViTkJTRnFEZnkwNTJQR3gySTJRQlk3aXNwenJ2Qk1DejVYcF84dmF4WDFPd2xKRzEwazEtOEdOb05OOFhJaXZQVTd3R2lDRHdGbTgtM1JSSEMxeFN5OTlLc0tLNE55MHlHRDZNU3lOVFBDaTJwQQ?oc=5",
+        "title": "Iran war live: Trump says US does not need Iran deal as Vance told to focus on domestic issues",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-13T04:02:55.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Hum News English",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNkFkX2JYVWV3aS1CLVlDNjRlX3g5WjlvWDh1eVhSdWwwQ1g3TmEzOUpIbTQzeUNUUldLa0c5M3BLVnh6MmZjNVRQX2c5ZW1VcXJjb0Uway00RjJBZThFY2lEb0VZWGo2SG1ycnFHakJHX3lVVmk1ZWxKdVU0dy1aQmpxejYySG9udzh6RDZyRGZDS0VieVk2QU9HVFY1b3Q1UWxZd05NcklGYXVnWlEzYmgzQ2Z6Si1H?oc=5",
+        "title": "Iran claims strike on US radar in Bahrain as Trump rules out need for deal with Tehran",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-13T01:23:52.000Z",
         "cat": "energy",
@@ -406,48 +446,8 @@
         "title": "2026 Iran war | Oil, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-11T16:32:22.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "The Brussels Times",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWDN5VTJEUGVMcXY5QWowbEFubDJuSHdMZnh5S29ITndSR2hpR2t3MUc4VHdEZGpwbVRVX0pzal9iY0k5dldQU0dHSEVwaGxHQmxNUzlXQUNjelB6YmdVdWVuOWFlRDduQ2RCekJQdGVjR2NFcUJGXzNGaW1xM2plb0VjMnk1aWV3OU13WG1MSi10aG81YlE4b0J0RjVtTTdublUzZFhibmpxUk5CSmc?oc=5",
-        "title": "'Not a cyberattack': Network issues at Brussels hospital resolved",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-11T14:29:15.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "NationalWorld",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTzBSWmtvdEdXX2g2RTJSVmtlMFp0TksxVGVBeXZqYl95Qlk4SG5wSGFwOWl3TElhaEl4aXlnbkJ4MFFYNWtjZjFMN2V3NGtMemRFdlhnUjl4aWdieThVdjRGMWpwbnFELW1nYzhEUEo3czZiY2I5Vl9RQmhWRHdPVFRMLURLR3U2VTd6alNyd1hTdlBocGhHdQ?oc=5",
-        "title": "Inside mum’s £50 ‘doomsday box’ to survive a blackout – including chocolate",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-11T12:47:27.000Z",
-        "cat": "health",
-        "sev": 1,
-        "source": "ECDC",
-        "url": "https://www.ecdc.europa.eu/en/news-events/preparations-continue-rollout-new-public-health-surveillance-platform-nine-pilot",
-        "title": "Preparations continue for rollout of new public health surveillance platform in nine pilot countries",
-        "official": true,
-        "forYou": "Usually no action. Check your first-aid kit and expiry dates."
-      },
-      {
-        "at": "2026-11-11T04:47:39.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "Business Upturn",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPanUzcHdHV1F1Vy1VY2FFSHN0elpLVmNKd3ktc0VoUWtRSEQxZWZ5WVdXN1NsWkIzWk1kQndfNE5tVlRYVUdvdkpnS3hiXzBjcmRnRUNDT3Yya05OTFk3bkFTZm04MS1BWEtzd2Z3UDA3b2J0d1B0bW5LSUlRN0FGdzM5T2ZkZmxRNS1wQkxXdVNfVjNjMzctTQ?oc=5",
-        "title": "France blames Iran for supermarket freezer cyberattack",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-13T02:13:34.153Z"
+    "updatedAt": "2026-11-13T10:07:56.637Z"
   }
 }
