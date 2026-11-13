@@ -18,6 +18,16 @@
         }
       },
       {
+        "at": "2026-11-13T20:23:11.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdWFIMV9JNWZkU1UwQzhfTjhHOWdfcVlLUWo5X1dFSW1RVmh3ZG43alFlaklzWkpUNUcxNEplZ2lnQmFpa1lINDY4VlphZkFNMVZTdU9XSnliQnBPN2VOdHhFRDBLQk5kVlpwclEyVEYxQ2tmZVRaYzVJMVdNa014STdTUDgzRjhfQzBGdXlVWWdWMzdLZHJzbWQ5TkVXeFdjakNIVU9B?oc=5",
+        "title": "Strzelanina w Krakowie. Sprawca miał organizować wirtualne zamachy",
+        "official": false,
+        "forYou": ""
+      },
+      {
         "at": "2026-11-13T14:33:27.000Z",
         "cat": "safety",
         "sev": 3,
@@ -70,6 +80,16 @@
         "title": "Podatności w oprogramowaniu Edito CMS",
         "official": true,
         "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
+      },
+      {
+        "at": "2026-11-13T09:37:57.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUXlZTUxtWGVfczk4OGJkdVdzV0pFLVhpSlhSSlhJcEhqbHYzVmZDbG9HUUJhNElpblRQZDhYRXYyQlgyVXdPX1pPZUlPYllfVkRicTI4NU1CNS00NDRLa1dwT01mWUVoWHN2dFZIelpHSDJ4UnVWSzlabC1OUmxpVngwNlVZUWVqQWtaY2JzbjNIWWhSRGVKNmkycHI3YnpUQVFSZWJVeC1tSjA?oc=5",
+        "title": "Strzelanina w Krakowie. Prokurator wydał ważną decyzję w sprawie ciała ofiary",
+        "official": false,
+        "forYou": ""
       },
       {
         "at": "2026-11-13T09:28:04.000Z",
@@ -216,33 +236,43 @@
           "href": "/pl/poradniki/blackout-jak-sie-przygotowac/",
           "label": "Jak przygotować się na blackout"
         }
-      },
-      {
-        "at": "2026-11-11T11:24:00.000Z",
-        "cat": "health",
-        "sev": 1,
-        "source": "TVP Info",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPN2pUcDhpclh6LW5WVGRRNi1pVW9hcEdsLXRQWGhHZTJ1aTYxSTFqS1NTNXBabHJzbzVxTE1IOUNIS0N4T2NDWTdPd1loRHJjNzgtZFBDeDZLYXpXSEw4LUk3bFVKc2hlRmxRakJSZE4yRTd2VktEUTJaOURLbVVWSXgwVW9qRjM1Z2tBeHhFM2VLdHluRlFCV1BzcFY4N2RxWkx4NlEwUkNJNlRO?oc=5",
-        "title": "Rośnie liczba zachorowań na ebolę. „Najbardziej śmiercionośna epidemia”",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-11T09:21:15.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Rzeczpospolita",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdFVfMkhfTklfRE1SQ3NlVVJ3SmtlRTBUNEJJUDVfYUJiUzV5a1JFbmg4NDAyMjJOM01sMFUxaDFOakwwWFA3WWVDc2MtbVlFMWNiYWR4YnRlYlphWUFjQ191UWxsUlZqRVFGZkVDcG9Vc1dOb1htT0ctVy1RbFdWaldZVVE1dFViaVg0d29rY1RUYzhUNzFYOWs0YzE3aXNBUm9vRGVtTDFpM2s?oc=5",
-        "title": "Nieznany obiekt miał przekroczyć granicę Polski. Wojsko sprawdza doniesienia",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-13T18:10:19.558Z"
+    "updatedAt": "2026-11-13T23:57:36.871Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-13T22:20:52.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Mexico Business News",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUXhRTXNvV1lJNGFYbGxSZXdhY1duRV8tWWxObjJvTXc0OEhMRmJ4YXVyOXVGQm96SHhvOFA2VWNmRUdpVVV1MHNxdWJ0RDhiRVh5aGRndDYxUWtxTlY4Unc4ZmJ1UDBnQ1FZWTFmRjJJeWU0d1BnOGZnRnEzZWpPdk9UdU5nbjBEOHRmMUw0UWNVOWZJVXRtY1g5LTd2WG8?oc=5",
+        "title": "Dark Web Marketplaces Scaling Ransomware Operations",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-13T22:12:34.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "EnergyNow.com",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUmRjOW5iTlYxTE5NSkNHZlRTZXJRWXBZTEJMZ0FyNFItWWtPV3pmWUdnVTF0M2JzMmxOTmMyMU5MMG1nM3VJcnk2OS1OMXBrS3IxbTBvVVZVb1N0S2F6M1ZSS09kT18yOWZvZUh1MEdWSzlhTWw2TlAxWmpHcGZOZEN0U0haVUNBWHBPeS1ZNzVzYmlBZkMxTmFkb25vbERIeUx1eDBSeHNoUkVSUjVkc1dZeG8yYUZRbFJoTA?oc=5",
+        "title": "Fujairah Oil Zone Hit by Fire After Drone Attack as UAE Says it Intercepted Iran Missiles",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-13T20:15:32.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "cedarnews.net",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOWG8ta19DdkV6dWMxSTBGZ1U5Ylg4OFhCRk5tSWxrMU0xQmZOVTBYaTlCVERVMXV5eTNSejJhaHdmbnc1MWl1WENIbmdraU1NMUlHcGZ2aHNBUk1iXzJpcTBVaWFFNnBuVTFZVVZYSFFmMjJpODVPYXFDVEdNSTJGR2Q4bnlkMjFNVFNLTkVENnpJZFlkeWppamFIeDE?oc=5",
+        "title": "Worker involved in ‘electrical contact’ that prompts power outage in Warren",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-13T17:50:11.000Z",
         "cat": "cyber",
@@ -264,12 +294,22 @@
         "forYou": ""
       },
       {
-        "at": "2026-11-13T16:06:26.000Z",
+        "at": "2026-11-13T16:06:55.000Z",
         "cat": "security",
         "sev": 2,
         "source": "Heartlander News",
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdXpfN2hJdzluUU82ZDRIN1ZaaWtCbXNsaFBVc2ppMDBSQnJibV8xbUVzRk1zZWNpbndTQ2JFV2tkNENBemo5b0FnUlpBUFZVdkU0ekNPMGRDUUwxaHZHd19aYWhLclJvY0h1NlljZEFlZ2MtN1hzUkM4am5tMHpMMmpHUlpJUnN4NHhxUkRaSzJsdnhtRWpJbFlpM2d0bDBmZzdYZ3hieVhxNEJaQTZ5Mg?oc=5",
         "title": "Navy scrambles to ramp up tomahawk production after Iran War burns through arsenal",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-13T13:17:01.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Latest news from Azerbaijan",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbWFpOGxlVHZYbjBVMXIwTmpuNTBqNUVQRkxDaExsRVRqNS1paWVRbjF2QWVlLWR1OFZydmZNSEVOUlNBVGZoTXp4TTFNb19yeVBmUS1uem9YNHJ2R2s4SlhpSjFpaEtUUVN5THZVTzNtQkJXRjRGaHZEWDRSbTFEN01TcWlDTlRSUXMzeU4xMFZvaWprX0ZXR2JVdFM?oc=5",
+        "title": "Russian strike on Ukraine's Zaporizhzhia injures 13, including five children",
         "official": false,
         "forYou": ""
       },
@@ -334,16 +374,6 @@
         "forYou": ""
       },
       {
-        "at": "2026-11-12T22:50:24.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "EnergyNow.com",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUmRjOW5iTlYxTE5NSkNHZlRTZXJRWXBZTEJMZ0FyNFItWWtPV3pmWUdnVTF0M2JzMmxOTmMyMU5MMG1nM3VJcnk2OS1OMXBrS3IxbTBvVVZVb1N0S2F6M1ZSS09kT18yOWZvZUh1MEdWSzlhTWw2TlAxWmpHcGZOZEN0U0haVUNBWHBPeS1ZNzVzYmlBZkMxTmFkb25vbERIeUx1eDBSeHNoUkVSUjVkc1dZeG8yYUZRbFJoTA?oc=5",
-        "title": "Fujairah Oil Zone Hit by Fire After Drone Attack as UAE Says it Intercepted Iran Missiles",
-        "official": false,
-        "forYou": ""
-      },
-      {
         "at": "2026-11-12T22:41:32.000Z",
         "cat": "cyber",
         "sev": 2,
@@ -404,16 +434,6 @@
         "forYou": ""
       },
       {
-        "at": "2026-11-12T10:58:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The New Voice of Ukraine",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPaUxSMFFKYm1aNG0yN2FMMHZTR2FlbGVTWmpTOXFYeWI4WVNzTGVuU3dvTndNbEx4VGpXcHdRcUJwYzZselhCOVlwamt1X2dEcDZYanpGelA3UEZXSzZsU0R2cXBIeXVxaW9yelFmRUpoWm1jaFBjeDAtNzFfTzdteGYxZUJOdHItOHdObmxPSm1lR0tHbnlUb2g2Y2PSAZwBQVVfeXFMT2lMUjBRSmJtWjRtMjdhTDB2U0dhZWxlU1pqUzlxWHliOFlTc0xlblN3b053TWxMeFRqV3B3UXFCcGM2bHpYQjlZcGprdV9nRHA2WGp6RnpQN1BGV0s2bFNEdnFwSHl1cWlvcnpRZkVKaFptY2hQY3gwLTcxX083bXhmMWVCTnRyLTh3Tm5sT0ptZUdLR255VG9oNmNj?oc=5",
-        "title": "Russian ballistic strike on Brovary sets chemical cargo truck ablaze, injures driver",
-        "official": false,
-        "forYou": ""
-      },
-      {
         "at": "2026-11-12T09:26:38.000Z",
         "cat": "cyber",
         "sev": 2,
@@ -422,28 +442,8 @@
         "title": "France Accuses Iran of Cyber Sabotage as Europe Confronts a New Infrastructure Threat",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-11T23:04:43.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "Nigeria Communications Week",
-        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNT0xJNk1sVEZTdjludVM3VE96VVpJZU4tM19zTHFJVHItSmlGYkxLaEZjNUFHZk53TmJkaFZyUHRFbE82aDNxd3llZXJlQzJQUUZmM0lHTEVxSGhEQ0F5Z2h2UGpHWXBvY01HT0d4a3JBZXFoSkJIcEZUTC1scTRRa2dEa2JnUVRsSjBzOHl1WExlYTMyc3lyV0NhdkhDSnA0SzlvMUZpQllaUVdnTTdpOTM5ZU9NZmRsOXhIcl9hME1RSWhhbWlYN2NsMjZ6QTVfVURmUEdBT3E0SGNSSWRRZTJwOA?oc=5",
-        "title": "Kaspersky Identifies Routine Admin Gaps Opened the Door to Ransomware in Virtualisation Cases",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-11T23:00:53.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Barlaman Today",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQX3ZyRXR6UWFPT0RLT056MUZCcUREVW55NDY3V0VLNWJfS1JpSjV4WkVjRThkdkt2RS02WXlHaDlFR2lDTnhSRGNIN0M3UU9zcU1FR3Q5NjR4N0ZtY0kyb0NJTXZnc3dtYlBCT3BCeEZzcktIOGh0ME5oYkc2Q0dJMm03VkRYX2dBT0lhOHdoUFlBS24tRzJyX3kzaGRWdTBlNkJF?oc=5",
-        "title": "Power Gradually Returns to Casablanca After Widespread Outage",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-13T18:12:24.058Z"
+    "updatedAt": "2026-11-13T23:59:32.176Z"
   }
 }
