@@ -18,6 +18,16 @@
         }
       },
       {
+        "at": "2026-11-12T18:45:24.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "WP Wiadomości",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTU5jSVFoWFZUaGtnTG5WNXdvcjJ2R25ZZTluTnJac1lpRWtXYk96V0F0czlBQV9sN0tvckFMcVZvU1RNbi1DeUU4X0ktM0NFaTY0Q3dIcHBPSEJfbU1MM0lYeXppNVJjX3NGZEhYVHBfQWpjTkpiUzZlTXhla2JpelN0ZUF6TGpWb2lhZm1lS3pob2NjWUN6SWoybWZHRm5jWm53?oc=5",
+        "title": "Cios w rosyjski okręt na Bałtyku. Fińskie wojsko potwierdza",
+        "official": false,
+        "forYou": ""
+      },
+      {
         "at": "2026-11-12T16:13:05.000Z",
         "cat": "security",
         "sev": 2,
@@ -230,27 +240,53 @@
         "title": "Korpus oficerski zyskał nowych generałów. Prezydent podpisał nominacje",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-10T09:56:41.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "Radio Zet",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTTFCcTFKcEcyd3ZxU0ZxUEhBMG1QX2VGZ1R4OUJfeVgyMjBhMHlUUnl1S09ma3N5TkJBd090MTdBa1FWWGsySy1fOW81S3ZQT1VEcEpjX2g3Rkh2c0k3XzJSNkVvVDEwS0ZsZ25ZT1lTc1g0X1VIV05FenMtRkN4czU0RE15LU5YMzhPa0REWVFMYWpESkRjdHk0LXYzXzdZVENmUUVpazBvcUxOVWFV?oc=5",
-        "title": "Alert RCB dla Lubelszczyzny. Chodzi o rosyjski atak powietrzny na Ukrainę",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
-          "label": "Alert RCB i aplikacja RSO"
-        }
       }
     ],
-    "updatedAt": "2026-11-12T21:10:20.410Z"
+    "updatedAt": "2026-11-13T02:12:10.916Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-13T01:23:52.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "scoop.my",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZmlFbFBFdHZlOUpqa1Y2NGpuS294VnFiX3lKRXVlVk93UkpzOVlfc2tYSENxTTlpRjJhTXc4cjFQX212TkY1NnJaS09PZ1NPTGxlMzFKcmp4d2FJY3hKeGczRXA3UVBMY1JRRnlha2Y3LUlKamxtVHZNOXc3WHVaVFhUZkpMczI0dTVCekVvak1zdWlBR0ZVd3hWS1o2bDJ0WDJMTWVidl9PS1ZRS2ZhLVdNdnlETkhwN0Y3Y1czbDB1cnc3endHbg?oc=5",
+        "title": "Global blackout: Massive Microsoft 365 outage locks over 100,000 out of Outlook, Teams, and Copilot",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-12T22:50:24.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "EnergyNow.com",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUmRjOW5iTlYxTE5NSkNHZlRTZXJRWXBZTEJMZ0FyNFItWWtPV3pmWUdnVTF0M2JzMmxOTmMyMU5MMG1nM3VJcnk2OS1OMXBrS3IxbTBvVVZVb1N0S2F6M1ZSS09kT18yOWZvZUh1MEdWSzlhTWw2TlAxWmpHcGZOZEN0U0haVUNBWHBPeS1ZNzVzYmlBZkMxTmFkb25vbERIeUx1eDBSeHNoUkVSUjVkc1dZeG8yYUZRbFJoTA?oc=5",
+        "title": "Fujairah Oil Zone Hit by Fire After Drone Attack as UAE Says it Intercepted Iran Missiles",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-12T22:41:32.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "SC Media",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQT3UwcDh3N0VOS3Rxdkd3dFBMZnJpeVVVbkFMLU1idkYyVmk1SlBEbzdIQThYVlJRbjZJN2lRS2xzMFBOc1dDRUZiT1ZhcVV3R2QwWGgzV2t4aVY2WDlQTmdWSHVaa28wMWJjaEdiVXFjMlhNV2RqMGFjV3pKakllSGRXbjhoSXJ4VlNJMkZ5X1FNeWtKbkYtejVn?oc=5",
+        "title": "Poland takes e-government platform offline following cyberattack",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-12T22:40:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The Daily Caller",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5QRXI2NDQ0V2lpc1B4WlRvTFNPLUczUmlhaTlIeWh6NHdZTTJPQl9NOC1FNjktMHhJSWMwWHVsQ0x5bWh0YWgzclVCdTdfbHNKX2Z4UkRVc0dOVkdjelpqblRSeUdQZ3FuZUpGRThSR09oM1RMWlF3?oc=5",
+        "title": "Navy Scrambles To Ramp Up Tomahawk Production After Iran War Burns Through Arsenal",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-12T20:00:35.000Z",
         "cat": "security",
@@ -258,16 +294,6 @@
         "source": "tippinsights",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQT2NVdExXandnbE1EUnZGdDlmS01qT0o1UFFmTWFFeTZNNmlsOUE2NjRTWjZ0UmlXS1ZZbkRmWlRSTk54blRTR1p6aURQc2dvb0oyaC1TSTZJbURfWDBNcTRrUkswVmE3bGVPcU9BZ3AzNnVIMS1QU1RpMkFBYXpDdjZvU2RibC1Cc2ZoRS1HSnEweVExdHN4UzlkTXUzclhBaTVyX3FB?oc=5",
         "title": "France Warns Germany's Missile Plans Could Risk Nuclear Escalation With Russia",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-12T19:34:43.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Yahoo! Finance Canada",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUDZveGVZbXZVQUNBZkgwcGswY1lKbnNyTkZTVTVYRTZJV010dXkxUUM4XzRmcEtPQXpUd3JaU19wOGlPUy1wZmh1aEk4VDBZc0tvcHp0ZFY5QzRYRkwzR3NTZ3RpblpfblM4Y0ZZbFJzMF9yc0Y3TFRRS2szRVVwR04yNHZJeTJQeG5EeA?oc=5",
-        "title": "Is Outlook down? Widespread outage hits Microsoft apps",
         "official": false,
         "forYou": ""
       },
@@ -382,16 +408,6 @@
         "forYou": ""
       },
       {
-        "at": "2026-11-11T20:01:25.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "EnergyNow.com",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUmRjOW5iTlYxTE5NSkNHZlRTZXJRWXBZTEJMZ0FyNFItWWtPV3pmWUdnVTF0M2JzMmxOTmMyMU5MMG1nM3VJcnk2OS1OMXBrS3IxbTBvVVZVb1N0S2F6M1ZSS09kT18yOWZvZUh1MEdWSzlhTWw2TlAxWmpHcGZOZEN0U0haVUNBWHBPeS1ZNzVzYmlBZkMxTmFkb25vbERIeUx1eDBSeHNoUkVSUjVkc1dZeG8yYUZRbFJoTA?oc=5",
-        "title": "Fujairah Oil Zone Hit by Fire After Drone Attack as UAE Says it Intercepted Iran Missiles",
-        "official": false,
-        "forYou": ""
-      },
-      {
         "at": "2026-11-11T16:32:22.000Z",
         "cat": "cyber",
         "sev": 2,
@@ -430,28 +446,8 @@
         "title": "France blames Iran for supermarket freezer cyberattack",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-11T01:54:44.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "MEAWW News",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdGJSRGs5R3ZKcmFqT25ac2MzSmJhektteU5SUjNYUmxGdXRxTUhUTGswd08yaUhla3NXUldHQk1qYnhYbXNQV256ZER6ZHZyNTBhRnhzZHZmYmh4eVlWZTJzSHJlQ3JITU1GX3dJOEpJT3J0N05JSWNkSWdpSUNpLW5VVEp4aUxseVRWb3VQWXFrOUVp?oc=5",
-        "title": "Fact Check: Are videos showing Trump announcing 90-day blackout real?",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-10T23:28:39.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "CEO Magazyn",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4xaXFEVnJENmJydHktdDNRZjhoa2hQVHgzSEpHQkE2QVpGaWw3b3M3bWFrc2NDNk4ydTE1YjlpOGVTd3ZDMk0yRU9SeFV2eG9OS1JCejBQRzdpbzhzaUxoeV9YQVg1R1VfQ0cwUVZn?oc=5",
-        "title": "Poland Halts ePUAP Cyberattack, Full Service Still Pending | CEO Magazine Poland",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-12T21:12:03.366Z"
+    "updatedAt": "2026-11-13T02:13:34.153Z"
   }
 }
