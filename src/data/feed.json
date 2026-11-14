@@ -18,6 +18,16 @@
         }
       },
       {
+        "at": "2026-11-14T15:34:12.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Rzeczpospolita",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNOXNZbDVsM01HeU9sQmhOaXhNSGM3aERDVDdTbU1SV2pBQnh2Q3BzMlNUUFU0VFlMb3NleUZwekJnS2NiQlRJZUxaTE02cGpZMkdRb1BMdU40QXZVWnUzei1HR1JRR3M0WlRhSEZyUmFMcFljNE1iRUh1SlJydmJmNEcyNVdSbWREMW1rdUxtaGx6cHJiMHZ5NXZBT2dKT2xJQjhiMVpUWVFlZHFITDl1SFhJZmE5ZjRaMDA4NnZmVTQ?oc=5",
+        "title": "Gen. Polko ostrzega przed zwlekaniem z decyzją o bazie USA w Polsce. Wskazuje na Putina",
+        "official": false,
+        "forYou": ""
+      },
+      {
         "at": "2026-11-14T14:17:25.000Z",
         "cat": "safety",
         "sev": 2,
@@ -36,6 +46,16 @@
         "title": "IMGW: 2 ostrzeżeń meteo, najwyższy stopień 1: Gęsta mgła",
         "official": true,
         "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
+      },
+      {
+        "at": "2026-11-14T11:55:31.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQS1Z3RVhRaXhlUlcwSFowenBCa3gwWnp6MnF0SUVhMHdrV1VHYXpaWkFWUGNXRHZwQUhuQ1ZPMzg0NXJ0dzMtWC1HVzh0a29GMlVEMVBHNFVtU0N1UGFUTGZhR3pGQXlPVVRBVVVqQXJwQ3c5Tk5FcTZIV2tMMnJKVldsbl9DZmlwQ2pBWG1vMnEwMlNoZl9WQzVlbVh0MXNSNVhxZ205RkRMUEJTWnc?oc=5",
+        "title": "Tydzień po zamachu w Krakowie. W szpitalach pozostaje 10 osób",
+        "official": false,
+        "forYou": ""
       },
       {
         "at": "2026-11-13T20:23:11.000Z",
@@ -204,37 +224,43 @@
         "title": "Strzelanina niedaleko Białego Domu. Są ranni, ruszyła obława",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-12T12:53:00.000Z",
-        "cat": "weather",
-        "sev": 2,
-        "source": "IMGW",
-        "url": "https://meteo.imgw.pl/",
-        "title": "IMGW: 4 ostrzeżeń meteo, najwyższy stopień 1: Intensywne opady deszczu",
-        "official": true,
-        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
-      },
-      {
-        "at": "2026-11-12T12:50:39.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Wiadomości Onet",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZlU1YVF0LUpBTkVHeFZiYTdvSEdkNXN4eEc5MTY4N3BhVEFvY3BPYU9VY0ZHWGN6VTZNU0VpX0NzUWJ3ZXpNS3BrUFBLdEF1dkFEWjhiUS16V0pUWkEzV184ekpXUndqNVF2TnRNUk54MGppZDlTbVV3MUFQVllGNXVoNXI5RThTVlU0LXJSdWJjd1Y1SGNIalhhbjc0emMyMGFOUk93?oc=5",
-        "title": "Rosyjski dron uderzył w blok w Kijowie. W budynku wybuchł pożar",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/mapa-schronow/",
-          "label": "Mapa schronów"
-        }
       }
     ],
-    "updatedAt": "2026-11-14T14:35:19.152Z"
+    "updatedAt": "2026-11-14T19:33:32.736Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-14T18:49:34.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Beinsure",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdmxDdXl3bndDSF9qWFI4UEhNaGcwSFQwMHBNU0ptQkhTYkdXTVZKZ3VHUWh6WGtaYjJITnBsV1lIcTR5UXh6UHMyMTE0TGdId0pvTGg4cVNTYURzMHZnNlJpMElSTThXYnJKZGxfaVVNbWs1aTUxOTIzb0g3c0dOTEdLN0VtWnQtaUlfS2NTQzV6TjBvbUhVd2RuMmx1YTNFNEZWX2M3bVBPVDla?oc=5",
+        "title": "Iran-linked cyberattack targets European supermarkets and critical infrastructure: What we know so far",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-14T17:15:02.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Ukrainian News Agency",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOU2F5VWt5WVFac3E2OUJhYnRyX3pGQnhESDZ6RXRnX0VqeUtmZ2VoWVZzY21MMW9QeE5EVEdZdU1PcERxaVVxOTV6N1MxSk0tOUZXVUJaSVlaUEdIeE90SW56d19ZTmxjbDZaV0hSalgyUGFnVkVpbDl4emFxQURxaXUtT3preDdzVEplbVNNak9taFk4RDdDWUNYZ2IyOE9MeUxDYm1CQ0JqOGtudWM1ZjdsWktlZ3BDSTV0Zmw5LVk5UDJzNDJHaXdVbkpfRWPSAdQBQVVfeXFMUGpzVENOLU1DdVM0YlE1UWVVOElsRGlTWS1KbUtzUW5ha3NCYnhodWk5Wi1xWGtNYlZUdGVQNkhyU1l2WGdoYnZBSjd6NW9pX0ppN3pOTzJGM2RTOVBIdnFhdGJGeGE3TFhmME4wTjhjT19SWlhqU2t3T0xOS1hEZTNQR1UyWGxDdmtLWVdqMmZ1YkhHc2JEeGQwanZsczVOdFZiMWM2Rkc2NXpMeHNrTllBeHZpRER2dTZ0MVFsV1JzS0JnckRnM3FIZHFwdk1qeWJGTjI?oc=5",
+        "title": "Invaders modernize their \"Iskander\" missiles and want to cut Ukraine in half - media reports",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-14T15:05:56.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Kyiv Post",
+        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBNYzRxSXl3ZWpGcXB3ckZ4ZGlYT0g3NHE0SFVybkZqSlVlUHpBdlJ3SHd0WWVrWlk2MnNSbVFVdU5EeXBVQjJCSWlKWQ?oc=5",
+        "title": "Russia Uses Upgraded Iskander Missiles With Terminal Seekers to Hit Kyiv Bridges",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-14T14:24:52.000Z",
         "cat": "cyber",
@@ -246,12 +272,12 @@
         "forYou": ""
       },
       {
-        "at": "2026-11-14T13:45:18.000Z",
-        "cat": "security",
+        "at": "2026-11-14T13:19:12.000Z",
+        "cat": "energy",
         "sev": 2,
-        "source": "Media",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQlVnZ3RoNktzTHpZZ1c0cVhBbmJyWDZBWDdXRDZuZHJxbW5DZlMtN3lnV0JnT29HeHNzQk9hUUs4SDdKUERmYUpudXVXYXQ3NTZVSThxQmUyVW1abkNRYmNJeUFDUmJvZkRvSlVYbXBPYkJrWi1HV1BWcmRFanJLUlE1MjlQSHJKODc4VjF3cVBjSkp3Snc?oc=5",
-        "title": "Russia upgrades Iskander missiles to strike Ukrainian bridges with greater precision, reports say - RBC-Ukraine",
+        "source": "EnergyNow.com",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRHM5Z0w3dFFfNEtpem9naS1GakppY2drNmxqQ2xWRDB3b1hmMHBDWUZZc2ZKY2ZJR2RKejd4YW9CMTYxMzFqX01ZcmNXZG9WMVVKaXFIVlY2WVpBWUpMQnZMOEJaM2xtRW9IMnEzelgwQmQ4djVuYTA1MmVZWVB0a01IeWhuNkJnMnR3TA?oc=5",
+        "title": "Cuba’s National Electric Grid Collapses, Reason Unknown",
         "official": false,
         "forYou": ""
       },
@@ -404,38 +430,8 @@
         "title": "Iran claims strike on US radar in Bahrain as Trump rules out need for deal with Tehran",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-13T01:23:52.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "scoop.my",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZmlFbFBFdHZlOUpqa1Y2NGpuS294VnFiX3lKRXVlVk93UkpzOVlfc2tYSENxTTlpRjJhTXc4cjFQX212TkY1NnJaS09PZ1NPTGxlMzFKcmp4d2FJY3hKeGczRXA3UVBMY1JRRnlha2Y3LUlKamxtVHZNOXc3WHVaVFhUZkpMczI0dTVCekVvak1zdWlBR0ZVd3hWS1o2bDJ0WDJMTWVidl9PS1ZRS2ZhLVdNdnlETkhwN0Y3Y1czbDB1cnc3endHbg?oc=5",
-        "title": "Global blackout: Massive Microsoft 365 outage locks over 100,000 out of Outlook, Teams, and Copilot",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-12T22:41:32.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "SC Media",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQT3UwcDh3N0VOS3Rxdkd3dFBMZnJpeVVVbkFMLU1idkYyVmk1SlBEbzdIQThYVlJRbjZJN2lRS2xzMFBOc1dDRUZiT1ZhcVV3R2QwWGgzV2t4aVY2WDlQTmdWSHVaa28wMWJjaEdiVXFjMlhNV2RqMGFjV3pKakllSGRXbjhoSXJ4VlNJMkZ5X1FNeWtKbkYtejVn?oc=5",
-        "title": "Poland takes e-government platform offline following cyberattack",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-12T20:00:35.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "tippinsights",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQT2NVdExXandnbE1EUnZGdDlmS01qT0o1UFFmTWFFeTZNNmlsOUE2NjRTWjZ0UmlXS1ZZbkRmWlRSTk54blRTR1p6aURQc2dvb0oyaC1TSTZJbURfWDBNcTRrUkswVmE3bGVPcU9BZ3AzNnVIMS1QU1RpMkFBYXpDdjZvU2RibC1Cc2ZoRS1HSnEweVExdHN4UzlkTXUzclhBaTVyX3FB?oc=5",
-        "title": "France Warns Germany's Missile Plans Could Risk Nuclear Escalation With Russia",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-14T14:37:24.470Z"
+    "updatedAt": "2026-11-14T19:35:37.688Z"
   }
 }
