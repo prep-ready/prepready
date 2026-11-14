@@ -52,7 +52,7 @@
         "cat": "security",
         "sev": 2,
         "source": "Defence24",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNFpQUklCLXN6NmpHQXpOVlp3RUZicDFTNm5xcGpRcW5vNXFWSkZjWVN4dnZFTGJ1WjJGNXl5QlRlVDVIX1RRMFJKOWh5NWZWeE52UEs0NmVQNXJIT3VRZkFJUlF1N21aVWo3OXp4bkVkY1gtNi1HczFwVld1S1RxSkxEd0xDblgtUzBfMjVBeUpxZzBkclVUQUV1cw?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOaHhTY1lFVjA1bmpfN054N0VVSWcyZTM1MUhUbWVaU1MwYVJuakJ0QmpBNGc0eEFWY2dSeUxCZXFRMWRmTGh1OTZ4bzdETC1kYkxwQ202T2N3QVo1M2dkVFlQZVktUjFhNUNUeXE3UldfalA4OEtNLU81cE5jSmRSYmdJb3VXWmtnbDVLRVlLaTlVYWlqTTN5V0RjQmhna0k?oc=5",
         "title": "Wojsko Polskie przetestuje lądowe drony do stawiania pól minowych",
         "official": false,
         "forYou": "",
@@ -60,6 +60,30 @@
           "href": "/pl/mapa-schronow/",
           "label": "Mapa schronów"
         }
+      },
+      {
+        "at": "2026-11-13T12:41:42.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "WP Wiadomości",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQklUbFdsVDR1cThqaV9ZVmN6U3hEbXpjeGdtM3Z5NDBDVEJXbW5RR1gzMVR1LWxPN2Nwc29QTE1QRnNuaUdfN0UyZkNhcXZMcmhaQ3Y3a21XeDVVb0N2ZXFJZEZST29LaFQxVWdCb0VxRV9yQlJoLVhtNUVRVVItdGJiVUFSelRHTElpSllGdFZmblVWV21nclJZY2FHdVpYZ3llSC1qZ1lpQlF3?oc=5",
+        "title": "Przerwali lądowanie z powodu drona. Incydent na warszawskim Okęciu",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
+      },
+      {
+        "at": "2026-11-13T11:52:00.000Z",
+        "cat": "weather",
+        "sev": 2,
+        "source": "IMGW",
+        "url": "https://meteo.imgw.pl/",
+        "title": "IMGW: 1 ostrzeżeń meteo, najwyższy stopień 1: Oblodzenie",
+        "official": true,
+        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
       },
       {
         "at": "2026-11-13T11:52:00.000Z",
@@ -208,41 +232,33 @@
         "title": "Gazówka, nóż i \"teleskop\". Chwile grozy w pociągu do Bielska-Białej",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-12T04:45:02.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Defence24",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWWlOS2xoR1RVakZWSUpMUzBjWXVvSHN2VGpfVEk2ejFfV0tFaFl4MVdvOTBzTnlwamROaWxfSnZCSEd2VU5KTVVXVVNuSXlFWUEySy1mOEU0cjJaSTlCUFdGX3VUV2g5YzhOdVRselVMQW5CVjU2WFczWWtwOTdhdWdCMHNVSldFMjhIVEUzeWtkTF8ta0JvdFZxLXlCRnpmOHhVdjRicDhRazk5bHFZRHlHdw?oc=5",
-        "title": "Dron naruszył polską przestrzeń powietrzną? Sprzeczne głosy z Polski i Litwy",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/mapa-schronow/",
-          "label": "Mapa schronów"
-        }
-      },
-      {
-        "at": "2026-11-11T16:39:29.474Z",
-        "cat": "energy",
-        "sev": 3,
-        "source": "PSE",
-        "url": "https://www.pse.pl/",
-        "title": "PSE: dziś zalecane oszczędzanie energii",
-        "official": true,
-        "forYou": "Ogranicz zużycie prądu w godzinach szczytu, naładuj powerbanki i latarki.",
-        "guide": {
-          "href": "/pl/poradniki/blackout-jak-sie-przygotowac/",
-          "label": "Jak przygotować się na blackout"
-        }
       }
     ],
-    "updatedAt": "2026-11-13T23:57:36.871Z"
+    "updatedAt": "2026-11-14T07:06:11.172Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-14T06:04:26.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Todayville",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQWZ4Q1NjWXRXbjN4U2FnTUU5Qm5zOUR0cGhVbE9yWkJ1dTRmVVJVWXB3eE1fRXFwMDNqc0thQVZWekVGNHNDZ09rUXVSSUZHMS1JcVgwc2hIMXQ1U3d1aDhnVkYyMllCaWVJQ2t5ZG1IODh4LUxvbjRNM0ZEbW84S2l6X0NtMl9mRHlHVXVNWWMzVXpoMkNTZDdoUjFnY28zNElKNEw1MA?oc=5",
+        "title": "America’s skies reopen: Duffy reveals what caused nationwide blackout",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-14T05:51:31.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Türkiye Today",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOcm5mMnB5VzNSS1YtWEhnV3BrWFMzX2ZFS3lnQWhvdXV0S1duSm1seWhMeEZaWkVRQ2dNX2pla1pOV0V2Skxuc2t6d0FxeS1ydkc5RUZ3aUpZZUxzVUxiUUkwaXE1YVVKcktzVURvYjVKZ2FvV0ZUYjR2ZVJodXhGU3A2UUdROHRPSmZhdUN4bmo3WGdMOEZ6bHpJZ1Nwcm5uT3FYM1RrZm9LZVhROWtkYVFGUEtPUHo0NVhF?oc=5",
+        "title": "US says airspace 'opened up' after nationwide shutdown, no signs of cyberattack",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-13T22:20:52.000Z",
         "cat": "cyber",
@@ -260,6 +276,16 @@
         "source": "EnergyNow.com",
         "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUmRjOW5iTlYxTE5NSkNHZlRTZXJRWXBZTEJMZ0FyNFItWWtPV3pmWUdnVTF0M2JzMmxOTmMyMU5MMG1nM3VJcnk2OS1OMXBrS3IxbTBvVVZVb1N0S2F6M1ZSS09kT18yOWZvZUh1MEdWSzlhTWw2TlAxWmpHcGZOZEN0U0haVUNBWHBPeS1ZNzVzYmlBZkMxTmFkb25vbERIeUx1eDBSeHNoUkVSUjVkc1dZeG8yYUZRbFJoTA?oc=5",
         "title": "Fujairah Oil Zone Hit by Fire After Drone Attack as UAE Says it Intercepted Iran Missiles",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-13T21:45:42.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "https://houseofsaud.com/",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5SbTFqdVpmSDhlcG15cEdRdWUxMDAxMnNMaTJZV3MwcnA5LWt2SERqQmRnb2w2djdkX0twMTRYSjA1X2tqbFgyd3R5eG9wUjVROUltcUJGbjMteW0xOFU4T0xTdk9mak4zTzRQTFdXcDFEbXRVQkVFZg?oc=5",
+        "title": "Houthis Claim Missile Strike on Saudi Officers’ Camp in Aden",
         "official": false,
         "forYou": ""
       },
@@ -412,38 +438,8 @@
         "title": "'We've got to run': Inside ruined Ukraine power plant under constant drone threat",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-12T12:26:01.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "BBC",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0wMjBISTdTSzZGQzZGVHJWUE1aQUIxaXlyRkhWei1yVi02UmJoNEJSdjRIQWxjYlo4MldUV19vOG9OanNWVWNIelY1cFlhOUJDQUJLTl9GVjNaT2s?oc=5",
-        "title": "Israeli strike on Gaza hospital kills six Palestinians, health ministry says",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-12T11:41:00.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Metro.co.uk",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPYVVFT3A5NGFaZ08xYWRCd0FQMC13VDRCakxFZzZ0Q3VqSkZkQ1BSQnlxVTg2OHozdU1zLTVIeU9DNW9yeW9Vc0Y4aTlsUEo0SUVkdHdYYXRnTlVldUJJSmQ3TnNBenFSR01Rd2JURWFOUjRoN2hoLTF0Qk5JNm56VVN0Ni13elJUM2xRUGdpcGo4cU80dFR3R0hjbndjSUZwdlJmMlhZUWE2eXoyeEHSAbMBQVVfeXFMTXpWM2k3VER6VkFnVjZhbnQwLUhPMklCWG83ektEekt2X2k2VU1KbER5MWdRNzNwbE9qN0x6SkhvWkJwQjcycWtFYWVOYlRYNy1PUngxNV82QlNqd25ZbjRPZ0JDZEFTYXpBMlRpTkpSUDBVbEJRR1J0cXU3ZUR2bWpuWDdNVzR2R3RkNTFzTFhWb3l6ajFMNDNWMmI5bVc4Z2p3WUgzajRSaW12X3MwejJGaWM?oc=5",
-        "title": "The 'sinister' permanent blackout cutting 2.4 million Brits off from loved ones",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-12T09:26:38.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "EU Today",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE43R3B4SjVNVXFNdC1DLURLa1ZKLXdBRlBwYllMWTVRdkh6RmI0YjJGdDZiSXZvTFR6TVUwZ251TDlheFdDZ2IzbnltTlpVUXppUFlfZ0ZOZjNTcldLZ1ZqT0lDVm5BUy1BM3c?oc=5",
-        "title": "France Accuses Iran of Cyber Sabotage as Europe Confronts a New Infrastructure Threat",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-13T23:59:32.176Z"
+    "updatedAt": "2026-11-14T07:06:54.681Z"
   }
 }
