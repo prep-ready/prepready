@@ -18,6 +18,26 @@
         }
       },
       {
+        "at": "2026-11-14T14:17:25.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Business Insider Polska",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQk9XNThhSEhpal9tVEZFV2FWelVzQ0xIbXpBdnVaNi1BRWo1MjB4WmxCMk5QSjR2TXRrSTdieUlMRWtvaXRrU1ZtS2FUMHpmbVRVTS1zY1NwOV9jcHJwUU1oYTR3aS1qUjlqb2JsVENJS2FxTjhWS01JT1ZydHFlTjZTdGdRQTl0WXZObEFiTFREenlCbWkxZll5ZS1mZ3M4RDVudUpoSEZIczdTUXJSRTBSLTdkYVo0?oc=5",
+        "title": "Tragedia w Krakowie. Polska wciąż jednym z bezpieczniejszych krajów",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-14T12:02:00.000Z",
+        "cat": "weather",
+        "sev": 2,
+        "source": "IMGW",
+        "url": "https://meteo.imgw.pl/",
+        "title": "IMGW: 2 ostrzeżeń meteo, najwyższy stopień 1: Gęsta mgła",
+        "official": true,
+        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
+      },
+      {
         "at": "2026-11-13T20:23:11.000Z",
         "cat": "safety",
         "sev": 3,
@@ -52,7 +72,7 @@
         "cat": "security",
         "sev": 2,
         "source": "Defence24",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOaHhTY1lFVjA1bmpfN054N0VVSWcyZTM1MUhUbWVaU1MwYVJuakJ0QmpBNGc0eEFWY2dSeUxCZXFRMWRmTGh1OTZ4bzdETC1kYkxwQ202T2N3QVo1M2dkVFlQZVktUjFhNUNUeXE3UldfalA4OEtNLU81cE5jSmRSYmdJb3VXWmtnbDVLRVlLaTlVYWlqTTN5V0RjQmhna0k?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNFpQUklCLXN6NmpHQXpOVlp3RUZicDFTNm5xcGpRcW5vNXFWSkZjWVN4dnZFTGJ1WjJGNXl5QlRlVDVIX1RRMFJKOWh5NWZWeE52UEs0NmVQNXJIT3VRZkFJUlF1N21aVWo3OXp4bkVkY1gtNi1HczFwVld1S1RxSkxEd0xDblgtUzBfMjVBeUpxZzBkclVUQUV1cw?oc=5",
         "title": "Wojsko Polskie przetestuje lądowe drony do stawiania pól minowych",
         "official": false,
         "forYou": "",
@@ -208,37 +228,43 @@
           "href": "/pl/mapa-schronow/",
           "label": "Mapa schronów"
         }
-      },
-      {
-        "at": "2026-11-12T09:23:03.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "Wyborcza.pl",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNalBkWVlwd2NZajZPLTNkRlJhMjBtbDIyZ1lUV3dpMGhzU2NIUG9YdU1JLWJTemNQb2tBbGI0OWZJTlZkRkdORmxEaDlLcjB6cHFOOE5kXzg0UXVEcjZmekNLYVlzU0hXbWNmTHBWc1RDS2c5MlFIWnFwVkNOOXVfNG1GQXE5WjB1bUhTOGNDbEdVclB5dXhtdW1JN0h0VnBkSXZEQmtCV0JVdjlj?oc=5",
-        "title": "Fałszywe alarmy bombowe. Włochy ewakuują uczniów, Wielka Brytania i Irlandia nie przerywają lekcji",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/poradniki/bezpieczenstwo-dziecka-w-szkole/",
-          "label": "Bezpieczeństwo dziecka w szkole"
-        }
-      },
-      {
-        "at": "2026-11-12T07:55:31.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Wiadomości Onet",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUlZGYmdaNmhYbHNDS0RJMjNHbXNFV0dacWF3bklCdVdTb0YwZnNpWWJYTUtnclFSR1NuLU5SQnNBaXNrdl9WbTdvQ2tpRE1IalF5eS05cFA5d3hvekJydmxsOW5OcUhEckpFa3NzVENlWXdTMXpEMGhPaS0wWmplM19qejZRbTBMVkYwUGxtNVpXR21zRDhDRXluRUVjZG5waUlQX2IxRzZBQQ?oc=5",
-        "title": "Gazówka, nóż i \"teleskop\". Chwile grozy w pociągu do Bielska-Białej",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-14T07:06:11.172Z"
+    "updatedAt": "2026-11-14T14:35:19.152Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-14T14:24:52.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Ukrainian News Agency",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQTmV3b2VYejB5Tk5YUFAzVXhJVWxpSUVPT0dnSmxQUVBvU255T3BMZ3BJOGtmWG5xRzJKOXc3M0dqNXlTN3Q2ZmFBM0NQN3RGRFlCc1phelF3eTNyVmdqd3NwRTgzaGstajNEMFd3QWJGaDNXeGx3bm9QLUdWRHBYb24xX05zNng4Um5DaWxUbVgySllhdlBrZnpuTG1hSXVGd0VwbjR6TXBaSlc4TkthSHVLeTRvQjBkNTJpQjhlNUhTX21ZRzVZQncyT0t1VmfSAdQBQVVfeXFMTlNXYmVKbTdrX2F5eWJiazhiNkhPN2loTnpNS05RWUwtX2RmNEpNM1R1XzRrQTNnRkd1QnBCX2ZFNUFmRVFZRVB6SllLUmI0VTlJWTJ3R0VqR3ZlRDFuaGsyZ1VHSGhpamxFbUVzX28tRllkZHFvUGdrdnMwLXg3RTR5d3J4TlBuT0htTUxlRXVfUTVxVVBWdzdvaUtWT1F2NnQwd0VMZ1pBMW9wNUZCV1BRbXBRU0xBcTJhN3hMbnFBWWxHNDdaYW9yR2xzdjI2Q1RtN1U?oc=5",
+        "title": "Air travel resumes in United States: Trump does not believe disruption was caused by cyberattack or AI",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-14T13:45:18.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Media",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQlVnZ3RoNktzTHpZZ1c0cVhBbmJyWDZBWDdXRDZuZHJxbW5DZlMtN3lnV0JnT29HeHNzQk9hUUs4SDdKUERmYUpudXVXYXQ3NTZVSThxQmUyVW1abkNRYmNJeUFDUmJvZkRvSlVYbXBPYkJrWi1HV1BWcmRFanJLUlE1MjlQSHJKODc4VjF3cVBjSkp3Snc?oc=5",
+        "title": "Russia upgrades Iskander missiles to strike Ukrainian bridges with greater precision, reports say - RBC-Ukraine",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-14T12:11:41.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Ukrainian News Agency",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVTlvT1BjQmxuOHNySVhFekZxY3RkVGN5S3hha1NXS3VWdi1KS0xpUTQ0VUNha1lKdm5jMUJET3E0d1dXM2JpSGJpMGhNSGx1WGdOMzJqRWQ2ZTZLc2ZzT0VabGtXSS1jTW5CVy1ZcGJuTjJiT0Y2RnBObXhVT3lwNEw2N1NKY2xNckp3SVlYODNRaGJwOU8xaG5UbW5wd2ZkME9LcnNxMGQ5Z1lKQ184TFFJRW9JbTV4T0o0dWJZajlSdVU1ckZyN3lQUVrSAdIBQVVfeXFMTUVnYTNTMks3d1pzRFFGakFKcnYzUVN4MkJHN285ZGhsb3h0TW80WjB3ZU10bjZBbGRjdHJxdEtkdUVMRkxuTDhRQWd3UXpYbjZGZ202QzZOclFrSlVsdDNWLU4wZjhVSGxpb1ZXSmJrNGkxWnAwRHg4Yks1eGZSb0phNHpZb1E4Wk1RTmJxSklwRktXYVM5UUhwc05FNDFOUFhnOEI4TjViU0lmZnoxa210ek9HNk00WVAySUZYeGh4clQ3MXFRSGkxRkltN3NxUTNn?oc=5",
+        "title": "Widespread power outage: part of Sumy Region left without power due to shelling – regional power company",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-14T06:04:26.000Z",
         "cat": "energy",
@@ -256,6 +282,16 @@
         "source": "Türkiye Today",
         "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOcm5mMnB5VzNSS1YtWEhnV3BrWFMzX2ZFS3lnQWhvdXV0S1duSm1seWhMeEZaWkVRQ2dNX2pla1pOV0V2Skxuc2t6d0FxeS1ydkc5RUZ3aUpZZUxzVUxiUUkwaXE1YVVKcktzVURvYjVKZ2FvV0ZUYjR2ZVJodXhGU3A2UUdROHRPSmZhdUN4bmo3WGdMOEZ6bHpJZ1Nwcm5uT3FYM1RrZm9LZVhROWtkYVFGUEtPUHo0NVhF?oc=5",
         "title": "US says airspace 'opened up' after nationwide shutdown, no signs of cyberattack",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-14T01:23:12.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "https://houseofsaud.com/",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1IZ0NhOERhS3lha1FqXzVodXVkck5jLVZkY0RodkRsYUF4N3N5bnJoTlg3V1I5eFdFWHRKTnkxTldkSDl4MHNEM3hWeWVwb19RQTczQWsxUFNjMkJ1aVhWWkE1ZDA?oc=5",
+        "title": "GCC Tells UN Iran Fired Over 7,000 Missiles and Drones at Gulf States",
         "official": false,
         "forYou": ""
       },
@@ -330,26 +366,6 @@
         "forYou": ""
       },
       {
-        "at": "2026-11-13T13:17:01.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Latest news from Azerbaijan",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbWFpOGxlVHZYbjBVMXIwTmpuNTBqNUVQRkxDaExsRVRqNS1paWVRbjF2QWVlLWR1OFZydmZNSEVOUlNBVGZoTXp4TTFNb19yeVBmUS1uem9YNHJ2R2s4SlhpSjFpaEtUUVN5THZVTzNtQkJXRjRGaHZEWDRSbTFEN01TcWlDTlRSUXMzeU4xMFZvaWprX0ZXR2JVdFM?oc=5",
-        "title": "Russian strike on Ukraine's Zaporizhzhia injures 13, including five children",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-13T12:48:58.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "UNITED24 Media",
-        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxON3dyQ1VxOFFlQjRtR05FQ3RGSHhkZF9tWVkyc2NvaGEwWnM5djA5dzNOVFdIaEFmcENKSVk2NTZBRTlROG5BWjlJRjhxdnZJM1NUUm0zOVJ0OXVTVndwZXBqTTVGblZ6bGpoTkY5TW5LU2owaE9EaE5TSFVtcHpJZlQxMGdYLVpQUExDUDA4cmNYX2VZVnczakJwdzJUX0JVa3p0VGxpWDRVWlZzNndMN1NtSXpydDRiWmhFcGVuRXN2QmlkSW1uYkNIOERoQW81ZTc2LXRIM3dRZ1VvZTZvUjhTb09KazdBRXd4SlMySFF1dF94Znc?oc=5",
-        "title": "Russia Builds, Stores and Repairs Its Drones in Rostov—Ukraine’s Neptune Missiles Hit All Three",
-        "official": false,
-        "forYou": ""
-      },
-      {
         "at": "2026-11-13T08:26:00.000Z",
         "cat": "cyber",
         "sev": 2,
@@ -418,28 +434,8 @@
         "title": "France Warns Germany's Missile Plans Could Risk Nuclear Escalation With Russia",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-12T17:10:46.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "CyberSecurityNews",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBzWllOYm1hYXdaeThEQUMyc3ZJWndwai1KWFYwTjhVS2NubzZRbTVsRW5lV2ZZYk1IX2N4cmp0YjFDdmFtRUVjbFJXLTB2azNYV2FnRUJuVTZqdHl1OW1UTlluZExyb2RNY3BFRUVkNXHSAXZBVV95cUxPM3RKWFB5Rk41eEtGYVVicTBDYVVVWlpjZWxnekpqSHpBOWNNSG5wc0p2TE1SUXNxUGp0MW9URG5HRHFjQnBLNW1ReG9GVFBGbXZidTVhZC1CaTJHRDNMVEFfTnhRWHVhZ0xzdEJLUS1ibVZDTEhB?oc=5",
-        "title": "Europol Takes Down 235 Servers and 257 Domains Linked to Gootloader, CastleRAT, and StealC Malware",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-12T13:02:46.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "BBC",
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5lZE9XY0dSV3ZINVVlTVhzQkVhTmVDTmdpTS1pel9leHhEbTltYTQ3Y205RkJRTTRrVkNlN0wxUlRjdDdpN0ZGYnZvckNrTWJUYkpzUG1xVXc?oc=5",
-        "title": "'We've got to run': Inside ruined Ukraine power plant under constant drone threat",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-14T07:06:54.681Z"
+    "updatedAt": "2026-11-14T14:37:24.470Z"
   }
 }
