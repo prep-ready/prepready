@@ -18,6 +18,26 @@
         }
       },
       {
+        "at": "2026-11-14T21:11:00.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "PolsatNews.pl",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNl9pUlBqSUhwQzliaFhxRXliZHFvbEg4eDFJY1NnV191LVJDRmZYd1NIeGRyeUFNaldiYlNJTjYzRnpSb2lORUduZjg0aXZHMXh6enM2Y1gwNnVWRk94Q0hpVGJIU3psT251VFo1eXBOQzN1WkFucjdkNDVmTGt0U2tsejdBeUxBUHpmd0ZWbGpIZi1SQ2ZaUExvSjAxeXBwYTRsMUVpMkVRVExKMDcw?oc=5",
+        "title": "Tydzień po krwawym ataku. Są nowe informacje o ofiarach strzelaniny",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-14T15:40:00.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "PolsatNews.pl",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSlBpaWxyUVFiRDVqVGRBSFJqOTJhTUdvNXJBWnJGQVhKMGFxR0lrSDN1bzlLNGo2eTMweDY1OEtqdzEwN0lFcTFseFM2Ny1SZDFtQ1Zmcm5jU1RIYjVsMVhWZFNkTkh4SDRCYW5QMnpELVUxaUZBNXZsdHlJdW9oT3NXX3M0MHg4MFZDdFRuMW9vWWZlcUZTUXlUWk4yRjI2dmZlcTA0bXl1eDhreDZTNVFUVHpHOUJlbTBjU3R0SFlPUQ?oc=5",
+        "title": "Polska żegna ofiary ataku w Krakowie. \"Ten ból jest bólem nas wszystkich\"",
+        "official": false,
+        "forYou": ""
+      },
+      {
         "at": "2026-11-14T15:34:12.000Z",
         "cat": "security",
         "sev": 2,
@@ -36,6 +56,30 @@
         "title": "Tragedia w Krakowie. Polska wciąż jednym z bezpieczniejszych krajów",
         "official": false,
         "forYou": ""
+      },
+      {
+        "at": "2026-11-14T13:48:28.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Onet",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQMFVHZ28zU3M4NFE4RV9lOXVuamkzaHNUbzZCYk9WNnZHX0hiWUloTFpJRmtlOG9ZSWFUUzJaWXo4Tkl0MVl1WmlkMmJPSzdQSmtpaXZQY0xfTjJDZkVLRUN5S3NGU0ktRnZ2ZFhfSFh6eW1YQU5Bekd5VFlhUl9talVPLVBWRERFV1d2dDA3Q0szTGIyMGZwMU5PMWxwbHJKeFpXa0FjUUZySTU0N0h2YUN6ck5kazVwX0ZiNWptb04yMG5J?oc=5",
+        "title": "Wpadka rządu. Obiecali kask każdemu dziecku z kartą rowerową. Szkoły dostają za mało",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/poradniki/bezpieczenstwo-dziecka-w-szkole/",
+          "label": "Bezpieczeństwo dziecka w szkole"
+        }
+      },
+      {
+        "at": "2026-11-14T12:02:00.000Z",
+        "cat": "weather",
+        "sev": 2,
+        "source": "IMGW",
+        "url": "https://meteo.imgw.pl/",
+        "title": "IMGW: 3 ostrzeżeń meteo, najwyższy stopień 1: Gęsta mgła",
+        "official": true,
+        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
       },
       {
         "at": "2026-11-14T12:02:00.000Z",
@@ -184,53 +228,33 @@
         "title": "Rosja w obliczu epidemii HIV. Kraj Putina mierzy się z niedoborem leków",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-12T18:45:24.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "WP Wiadomości",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTU5jSVFoWFZUaGtnTG5WNXdvcjJ2R25ZZTluTnJac1lpRWtXYk96V0F0czlBQV9sN0tvckFMcVZvU1RNbi1DeUU4X0ktM0NFaTY0Q3dIcHBPSEJfbU1MM0lYeXppNVJjX3NGZEhYVHBfQWpjTkpiUzZlTXhla2JpelN0ZUF6TGpWb2lhZm1lS3pob2NjWUN6SWoybWZHRm5jWm53?oc=5",
-        "title": "Cios w rosyjski okręt na Bałtyku. Fińskie wojsko potwierdza",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-12T16:13:05.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Polska Zbrojna",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPU0NQSnQ3QW9TT0lBU3dQY016QURZLXk5M1hTYUstWEMtSVo0NFZ3c0ZTc1Z4ZVZlZ1R1M3d2QTZteW1sNW5lQzRhTE1zSXZqOXJ1YzFjc2tOQjhsdVVFV3JYNUw0TVZ5UWRPa19nLUJNVl9aNWNaQlduSENTeUZlX3V6dnFHUFJiS3VycUd1THJMc2xKWnFMTm53?oc=5",
-        "title": "Polska Zbrojna",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-12T14:43:03.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "Wiadomości Onet",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTDYwZmExaUt6YlY5NHR3TUhGTlZYdG8wWGgzUHJNUVZfdVROZmYxdmtXWF9lelVPdnB1MWpQN05zY3E4NlNpZ01qaTBlQzdUUEkyWlhGU3ZmWndTaXA4SVY1V09zVEVoWGtsdGtXaVB0cE5zbFA5RXZjLWZkRnFrNVBERDFoZUdHSHBQV1hVSjJ5NWxjU3BKZkZvTnNMYzdfUDMyUDFR?oc=5",
-        "title": "Strzelanina w Waszyngtonie. Co najmniej cztery osoby ranne",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-12T14:39:49.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "WP Wiadomości",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeE5BNHlZX0U2MG9sQmhMQlpySURkWkhmOFJ2VjJfVXFoVkVEVmI4YUVuN0ZnT0JPSHpVT1Q5UFVpY2ZwdkFSbFB4QXpOSlR5X0RyMVpOUU1SNWh4b29MTXVBMVZLa3lmWV9TQ3NlamJLVWhBbWpJSzBzZ0xIVGJVeUc1ZGZIdVpWZ1VTZ0NkclBQTlhkNnBnMkFKOXVaUzQ?oc=5",
-        "title": "Strzelanina niedaleko Białego Domu. Są ranni, ruszyła obława",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-14T19:33:32.736Z"
+    "updatedAt": "2026-11-14T23:27:39.016Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-14T21:44:26.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Nacionale",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPR3RPT1J6QzZmUmFnRjNjb2J0MnUwWFg3WkF0WENyNXcwbGFCRU40WFVkb2xPelNPMklzWldidDZmZFVkQVVkTTBjWktFU1hiTVZsaVpZd3p2TnpKQXhkdGRPVmdRNFk3WVVOUmkyZ1NDMEFOb29kQS1mRExDUU9LY0Z4Q3NCcG9WM19rOWszQ2M4cUpCWmlSYm1JelhWYWItbGdvSkY4MmNJRHVRY3ZJMVRaWHU?oc=5",
+        "title": "November 17 brings a nationwide TV and radio alert test, Nvidia earnings and Red Cup Day, not a blackout",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-14T20:00:28.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The Jerusalem Post",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBLOFpzRl9MQUJDakYzbFlFLVRtXzRxdjVhT215Y0piSG9LRHJucXU1WmpzSDJXYi1zV3FyblIzWTQySzFBRWZkVnV4TEhZMDBUWE4tdjlZWGdlXzJMSmZsVXhqUldlNHN5T3c?oc=5",
+        "title": "Israel fears surprise US strike on Iran as nuclear talks fuel concerns of escalation - analysis",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-14T18:49:34.000Z",
         "cat": "cyber",
@@ -372,16 +396,6 @@
         "forYou": ""
       },
       {
-        "at": "2026-11-13T16:32:17.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Nacionale",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcXdDZmtEeEJWYThXUTA1NlgxYklUdkVDZWU2emx2bjk3WmdnQlB2NXRnME1SN2h5NTgwVlNjQnl4RkswMGY4ejZQbHpoemc1YV9TYWJ4MnFYcFRDLTNOSFV5YkNzMUlSck1zbXU2MGRGZUktUTRhMkNJblFjQmplbGZlemRTQ1hZM01SdkNBU3MzSGk2aElLTmdqVkJTZHJ2eThfcm5UUGRIR1FwYlE?oc=5",
-        "title": "How do you prepare for a power outage? A checklist, since November 17 brings only an alert test",
-        "official": false,
-        "forYou": ""
-      },
-      {
         "at": "2026-11-13T16:06:55.000Z",
         "cat": "security",
         "sev": 2,
@@ -420,18 +434,8 @@
         "title": "Iran war live: Trump says US does not need Iran deal as Vance told to focus on domestic issues",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-13T04:02:55.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Hum News English",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNkFkX2JYVWV3aS1CLVlDNjRlX3g5WjlvWDh1eVhSdWwwQ1g3TmEzOUpIbTQzeUNUUldLa0c5M3BLVnh6MmZjNVRQX2c5ZW1VcXJjb0Uway00RjJBZThFY2lEb0VZWGo2SG1ycnFHakJHX3lVVmk1ZWxKdVU0dy1aQmpxejYySG9udzh6RDZyRGZDS0VieVk2QU9HVFY1b3Q1UWxZd05NcklGYXVnWlEzYmgzQ2Z6Si1H?oc=5",
-        "title": "Iran claims strike on US radar in Bahrain as Trump rules out need for deal with Tehran",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-14T19:35:37.688Z"
+    "updatedAt": "2026-11-14T23:28:27.495Z"
   }
 }
