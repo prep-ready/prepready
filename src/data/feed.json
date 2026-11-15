@@ -72,6 +72,16 @@
         }
       },
       {
+        "at": "2026-11-14T12:03:00.000Z",
+        "cat": "weather",
+        "sev": 2,
+        "source": "IMGW",
+        "url": "https://meteo.imgw.pl/",
+        "title": "IMGW: 2 ostrzeżeń meteo, najwyższy stopień 1: Silny wiatr",
+        "official": true,
+        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
+      },
+      {
         "at": "2026-11-14T12:02:00.000Z",
         "cat": "weather",
         "sev": 2,
@@ -218,23 +228,23 @@
         "title": "Ósmoklasistom przepadły punkty na wagę złota. Szkolny konkurs, alarm bombowy i niewzruszone kuratorium",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-13T02:11:13.000Z",
-        "cat": "health",
-        "sev": 1,
-        "source": "Wiadomości Onet",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQejdOY2NXZzBwUzI3S05wQzd4NkxsRDdxODdRczhjVVVuMy1VSVN3cmlvMTgwREJEOTZKNDhSNGZ4VC1oVkQwZTcydUtEbFZPRmV1eTlMdkU2YndCdzFJbHZ2N1B4eHlvYkpkdkdybi0zdVpnTUFwMlJzRlB1cGowUHRtZVMxNTliY29rUnkzM05DYmc2R2ZvMnhiZWQyVlYtR1M0aXhzQmNUQi1Tb19KRA?oc=5",
-        "title": "Rosja w obliczu epidemii HIV. Kraj Putina mierzy się z niedoborem leków",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-14T23:27:39.016Z"
+    "updatedAt": "2026-11-15T03:09:58.273Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-15T02:05:11.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "CubaHeadlines",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE81OTBJYXB1WExEYnZpUGV5MTVNNEZKdWNsOFBzT1NTTnptRHhnRzZ6SU94UnlHbFhSOTJtVlpZNkhYSzAzZUt3Q2Y3QTZHclhBWW1xU2RPMTA?oc=5",
+        "title": "Residents of Calabazar, Boyeros Take to Streets After Prolonged Power Outage",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-14T21:44:26.000Z",
         "cat": "energy",
@@ -262,6 +272,16 @@
         "source": "Beinsure",
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdmxDdXl3bndDSF9qWFI4UEhNaGcwSFQwMHBNU0ptQkhTYkdXTVZKZ3VHUWh6WGtaYjJITnBsV1lIcTR5UXh6UHMyMTE0TGdId0pvTGg4cVNTYURzMHZnNlJpMElSTThXYnJKZGxfaVVNbWs1aTUxOTIzb0g3c0dOTEdLN0VtWnQtaUlfS2NTQzV6TjBvbUhVd2RuMmx1YTNFNEZWX2M3bVBPVDla?oc=5",
         "title": "Iran-linked cyberattack targets European supermarkets and critical infrastructure: What we know so far",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-14T17:50:07.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Breaking News, Latest News and Videos",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWDlHRmd2UzVIcC02dS1GZ0JVMGZGME8zVlpBNF84TXZaWGpmU1RMdXBuVlFjRzFJS1NyandyTE1UQ2NmdmNYTUFCbDN4OTlKUlJfaWtVa3hTQTJ1TzM2R1NLb0c3UEVjbTl2YkwxUUJCYnp6cjNzZG1jem9hajhNQzRkWTd1dmwtdVZlaXFPTm1tclVhWmNPWWxNaUZOcVnSAaQBQVVfeXFMUG1CZktpZXBQRGNON3hBQXR4N2hnTkV3c2o2MC1UdnlSNVpIaHNtMWRtYVhPc1dadnNNdXpUWjRFaGJMS1BKb3puUUQyOC00akRwR2YzM1AxLXUyNTZwYm9NTHVfeEh3Y2JLenNab1BCcHNnRWVlWFF4OEtISUZ6bURjNTl6c0F0N2dJeEExbm1PemJLU1VUcmpJcHZJd21CMExBVW0?oc=5",
+        "title": "US missile seen hitting building near Iranian girls' school, experts say - ABC News",
         "official": false,
         "forYou": ""
       },
@@ -414,28 +434,8 @@
         "title": "Jensen Huang's resignation, Chinese cyberattack and rogue AI: The conspiracy theories surrounding Microso",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-13T08:17:00.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "The Telegraph",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOY21KWHVHTmNLR2ItQVFta1Z0M1ktTlpsdWc5ZDlqSW1id1NtTkF2VXc1dHl0QzIyelY3RndKakJNdlc0WTE5aUNiU1kyd0lVN2xYZGpWWXh0bTRzVmNzZU1VcllXdjkyQ0pramlRSXdSX3psTzQwVTItdEJFaldlTE9fNDBIZFI0NXZXY1F1Qy1tR25RSmhRa0I4bi1vTXVqT0Jr?oc=5",
-        "title": "What you need to know about Microsoft’s tech crash",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-13T07:04:45.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Arabian Business",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeGVzSjhrbUhOTTctX0ViTkJTRnFEZnkwNTJQR3gySTJRQlk3aXNwenJ2Qk1DejVYcF84dmF4WDFPd2xKRzEwazEtOEdOb05OOFhJaXZQVTd3R2lDRHdGbTgtM1JSSEMxeFN5OTlLc0tLNE55MHlHRDZNU3lOVFBDaTJwQQ?oc=5",
-        "title": "Iran war live: Trump says US does not need Iran deal as Vance told to focus on domestic issues",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-14T23:28:27.495Z"
+    "updatedAt": "2026-11-15T03:12:01.885Z"
   }
 }
