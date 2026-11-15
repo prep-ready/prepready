@@ -18,6 +18,26 @@
         }
       },
       {
+        "at": "2026-11-15T14:29:40.000Z",
+        "cat": "health",
+        "sev": 1,
+        "source": "Wyborcza.pl",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQTJrdGFVYjRwZktiQlU1ZGlDY2JocnlpcVc1dmlUMWUwaTlTN2JpdXN1UzhpS1BZQmIxSHcxd0lOc045NFY4NjhUeTBRcHl5SFZhNHMyLVlIY05KeTlvV3BpQW53SnREM0FZNlQ4WW5saHl1UEw4clQ3c1JEOVBKTUNUYUtySUJmazZheElLNXR6RktldnJhXzE0N2ZmMktpdmc?oc=5",
+        "title": "Epidemia Eboli w DRK wciąż poza kontrolą. Może być najbardziej śmiercionośna w historii",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-15T11:35:22.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Polskie Radio 24",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSHVMbUo1NVliR0FrY2Q0UzdRSnJVMWFRTTBWaGJTaHF1Mlh2V0s4RF93eWFQdXkxZUFMcG5MdnozYUk2V3RDWC0zMHZfNU9QTy11NE56d2M0d1RQV1JCekhhLWE4NGdCaHBaQTB0eXIxb0RyUXEzZmdJdHlhMmVrZWROV1I2Zk1rSjFHaU90STdiVzdwR3RZZk9CTTR0aW1KdVNkZA?oc=5",
+        "title": "Sabotaż na kolei to część większej gry? Pułkownik ujawnia rosyjską taktykę. \"Koza rabina\"",
+        "official": false,
+        "forYou": ""
+      },
+      {
         "at": "2026-11-15T07:38:00.000Z",
         "cat": "security",
         "sev": 2,
@@ -30,6 +50,16 @@
           "href": "/pl/mapa-schronow/",
           "label": "Mapa schronów"
         }
+      },
+      {
+        "at": "2026-11-14T22:12:00.000Z",
+        "cat": "weather",
+        "sev": 2,
+        "source": "IMGW",
+        "url": "https://meteo.imgw.pl/",
+        "title": "IMGW: 3 ostrzeżeń meteo, najwyższy stopień 1: Silny wiatr",
+        "official": true,
+        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
       },
       {
         "at": "2026-11-14T22:12:00.000Z",
@@ -206,45 +236,15 @@
           "href": "/pl/mapa-schronow/",
           "label": "Mapa schronów"
         }
-      },
-      {
-        "at": "2026-11-13T11:52:00.000Z",
-        "cat": "weather",
-        "sev": 2,
-        "source": "IMGW",
-        "url": "https://meteo.imgw.pl/",
-        "title": "IMGW: 1 ostrzeżeń meteo, najwyższy stopień 1: Oblodzenie",
-        "official": true,
-        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
-      },
-      {
-        "at": "2026-11-13T11:52:00.000Z",
-        "cat": "weather",
-        "sev": 2,
-        "source": "IMGW",
-        "url": "https://meteo.imgw.pl/",
-        "title": "IMGW: 2 ostrzeżeń meteo, najwyższy stopień 1: Oblodzenie",
-        "official": true,
-        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
-      },
-      {
-        "at": "2026-11-13T10:55:00.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "CERT Polska",
-        "url": "https://cert.pl/posts/2026/11/CVE-2026-59074/",
-        "title": "Podatności w oprogramowaniu Edito CMS",
-        "official": true,
-        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
       }
     ],
-    "updatedAt": "2026-11-15T11:34:31.972Z"
+    "updatedAt": "2026-11-15T18:01:20.075Z"
   },
   "en": {
     "sample": false,
     "items": [
       {
-        "at": "2026-11-15T11:07:37.000Z",
+        "at": "2026-11-15T17:13:02.000Z",
         "cat": "security",
         "sev": 2,
         "source": "The National",
@@ -254,12 +254,32 @@
         "forYou": ""
       },
       {
-        "at": "2026-11-15T09:44:30.000Z",
+        "at": "2026-11-15T15:13:56.000Z",
         "cat": "energy",
         "sev": 2,
         "source": "Nacionale",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPR3RPT1J6QzZmUmFnRjNjb2J0MnUwWFg3WkF0WENyNXcwbGFCRU40WFVkb2xPelNPMklzWldidDZmZFVkQVVkTTBjWktFU1hiTVZsaVpZd3p2TnpKQXhkdGRPVmdRNFk3WVVOUmkyZ1NDMEFOb29kQS1mRExDUU9LY0Z4Q3NCcG9WM19rOWszQ2M4cUpCWmlSYm1JelhWYWItbGdvSkY4MmNJRHVRY3ZJMVRaWHU?oc=5",
         "title": "November 17 brings a nationwide TV and radio alert test, Nvidia earnings and Red Cup Day, not a blackout",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-15T09:57:35.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "France 24",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQc1c4aEZGVWxpWDlYajhJZXFCbTBRa0NTTlZDWEpBMWNacEw5aEFOUnZGLTVGMXVlZkFVOEwzSEFFZXo4SW1nc0E5dUQzYzVqZmx5WXpBNlRERy10Uk1WdFd3S1VkOXFvUXg3VlF0ZFBlM1ZXMU53WXdVT2VKZG14ckNoVF9mWXdRckdxc1N2SWNETmo0Nzd3alA2YzNsRnNwVFdv?oc=5",
+        "title": "Iran claims attack on US military airbase in Bahrain",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-15T08:51:20.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Arabian Business",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeGVzSjhrbUhOTTctX0ViTkJTRnFEZnkwNTJQR3gySTJRQlk3aXNwenJ2Qk1DejVYcF84dmF4WDFPd2xKRzEwazEtOEdOb05OOFhJaXZQVTd3R2lDRHdGbTgtM1JSSEMxeFN5OTlLc0tLNE55MHlHRDZNU3lOVFBDaTJwQQ?oc=5",
+        "title": "Iran war live: Tehran targets air base in Bahrain in first direct strike on Gulf state in weeks",
         "official": false,
         "forYou": ""
       },
@@ -270,16 +290,6 @@
         "source": "France 24",
         "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOZzVkMWRTZnoxeVZBby1YM1I3bXVZam82eVRqODZhZlJ0T2ZYbGtMd0JmTDRDOEMxVDgtY2NxZVJqWk1xbXlES21yRkZUTXVsdUxNTWo1R094ckpJTnVuX3FjNTZBOXkxR213OC1QWmk4ZVFIS1ZMbGpveXpzTXhET3RjaTFHRl9Zc0JubnVzYWx0Qy14RWxvb1VmU0NFNUQ4RTViYVBQVE9HNzZRRkljZTdsQzNkd2VFY0lNMmRaTVNkbzNXaE85SHhod044WTlLWmMxQnRNWDFkSDQ?oc=5",
         "title": "'Is this a cyberattack?' Grounded flights, a Microsoft outage and AI chaos fuel cybersecurity fears",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-15T06:28:39.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Business Today",
-        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPQ3plTjlTWTFNYkxMWm1oZzRTc2tlYlNWQ0t4bnY3QjNhRFRFQ1poYTVyUC1hVUZuclNtdks1SHpVSGpJYm1QX1NLOS1Bd2hFOVZMclFQY21LWUstRkpDN3Bmc2xFS2dyYTR0YWtWUXNseV9aSUc2ZGtwU1FubXZGQ1dNWHRWTlZocklIS2xMaXY3Tzh3TmF6ZzFvbnNYdEluX0U1V0lLeGtRSmJRLWRmX0ZzNkhtZTAxNjZCQmlpX3RoZkJUSXNoc3lwTHRrajFTbWVJMHpaaXFMNXUtbTRLVnJ4QXgzbndZNXFkcEpR0gHzAUFVX3lxTE5vdTEwMV96b0RNanB5SUY4S0VoTTQ4TXhfMDlnc1ExRlBqQ2lDX0M4dERhUHljb2F5TkozdmdYT2x6M1h1MDk2WnREaGJkUVhvQnpncUFRSnd2SkVDSHRZckIwWTh0bHd2VHIzYlZDa1M4UXNjVFNWMnFJdWxNbDl5RjF4V2E1dW4ydXd5Zm1iREZxOXdTb3p6dWNCbXBJRy1KTV9nWVgzSHJ6WHdqQ1hjQ3psM2VOa2IyTTFfal9mX2FCREZuaVVWSnJsSlR6bE5KMjY3cWY0QmNGVDVuQU94YnpyaXhXejN0RFVHS2pDbW0yZw?oc=5",
-        "title": "West Asia war: Iran claims drone strike on US radar in Bahrain, Houthi missiles target Saudi capital",
         "official": false,
         "forYou": ""
       },
@@ -432,18 +442,8 @@
         "title": "German Military Drones Resume Operations After Cyberattack On Manufacturer Quantum Systems",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-13T16:06:55.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Heartlander News",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdXpfN2hJdzluUU82ZDRIN1ZaaWtCbXNsaFBVc2ppMDBSQnJibV8xbUVzRk1zZWNpbndTQ2JFV2tkNENBemo5b0FnUlpBUFZVdkU0ekNPMGRDUUwxaHZHd19aYWhLclJvY0h1NlljZEFlZ2MtN1hzUkM4am5tMHpMMmpHUlpJUnN4NHhxUkRaSzJsdnhtRWpJbFlpM2d0bDBmZzdYZ3hieVhxNEJaQTZ5Mg?oc=5",
-        "title": "Navy scrambles to ramp up tomahawk production after Iran War burns through arsenal",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-15T11:36:15.700Z"
+    "updatedAt": "2026-11-15T18:03:25.445Z"
   }
 }
