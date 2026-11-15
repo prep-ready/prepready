@@ -18,6 +18,30 @@
         }
       },
       {
+        "at": "2026-11-15T07:38:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Bankier.pl",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNeXUwM2JrcG5OMFBHS25xb0thb3VEYnIyaHVXYUFxblNoQWhtUE03bTYyZThtQThJVTV0QUxLQjZTTzN6a3FjeEtXVDJ6eF9qNVlMUFREUEZEXzhlaG0tOUM5RkpydVJqNmF1bTI3X0dxOHRGRGFmSC1JX295cGlGR1pvQWhtZnpmb1pGLS1XZXJJT2xBSHRaWURuZk5aYUZISzA0dDhQZzFkVnV2WjhyU1A1LXRfQnpIdzRrUWx6NDFCSndPbUl5cDRnTlN3VUczTXM4M2p4Z0hObTgyTW9lVE41ejc?oc=5",
+        "title": "Przełom w misjach kosmicznych SpaceX. Rakieta Starship wróciła z orbity do bazy",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
+      },
+      {
+        "at": "2026-11-14T22:12:00.000Z",
+        "cat": "weather",
+        "sev": 2,
+        "source": "IMGW",
+        "url": "https://meteo.imgw.pl/",
+        "title": "IMGW: 4 ostrzeżeń meteo, najwyższy stopień 1: Silny wiatr",
+        "official": true,
+        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
+      },
+      {
         "at": "2026-11-14T21:11:00.000Z",
         "cat": "safety",
         "sev": 3,
@@ -112,6 +136,20 @@
         "forYou": ""
       },
       {
+        "at": "2026-11-13T22:41:33.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Rzeczpospolita",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTFV4NzZpbkp1X2d0X21wY0hZS0h0M09wX1JKX2gyd0Z3dWx5YmxCOFdaZkNuYXBQZGVEVDNPcjNJdEpqcE1LeGFSdVhLUDVxTmhKUzV2dUpkRzg3cmFVWWlZZ1hwMF9vdDRfRnhleG9xSUhHYmhPUmhFblM5SU5SbkdTejUyVC10MTM3clBweTJvSVVMX1ZudERqTlNXWEpQRGxiTWxickRlLWZHOXJ3YlVsWnd5MXlKNC1Bc295d0pMX1pEeFFqcw?oc=5",
+        "title": "Podejrzane drony nad bazą USA. Wcześniej wycofano 12 samolotów z pobliskiego lotniska",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
+      },
+      {
         "at": "2026-11-13T20:23:11.000Z",
         "cat": "safety",
         "sev": 3,
@@ -198,43 +236,53 @@
         "title": "Podatności w oprogramowaniu Edito CMS",
         "official": true,
         "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
-      },
-      {
-        "at": "2026-11-13T09:37:57.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "Wiadomości Onet",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUXlZTUxtWGVfczk4OGJkdVdzV0pFLVhpSlhSSlhJcEhqbHYzVmZDbG9HUUJhNElpblRQZDhYRXYyQlgyVXdPX1pPZUlPYllfVkRicTI4NU1CNS00NDRLa1dwT01mWUVoWHN2dFZIelpHSDJ4UnVWSzlabC1OUmxpVngwNlVZUWVqQWtaY2JzbjNIWWhSRGVKNmkycHI3YnpUQVFSZWJVeC1tSjA?oc=5",
-        "title": "Strzelanina w Krakowie. Prokurator wydał ważną decyzję w sprawie ciała ofiary",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-13T09:28:04.000Z",
-        "cat": "health",
-        "sev": 1,
-        "source": "TVN24",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNU21PZmhmY2NiU0txWm5wN0M4ZWFNMlF6bFlzM09DOVAzTDE3alJFRXRGREFRc1BJckxyU1JtWDJTSXlfam1TUVRKMzR2ZUhjV3FZc1Zab1RYcmZaOHlsdDNDWmQ3Wl80RmlOMDZIRnduSHJYQU04VnNybU81aXRmWlpxSzV4VGk2c1ZwU1hpWW4zQ01kUF80Rk5wS1ZpYmNQanY2NjkxM2tKWENrVnpZVFg5QjBLM1U?oc=5",
-        "title": "Deweloper prze do budowy bloków przy oczyszczalni. Sanepid ostrzega, radni mówią \"nie\"",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-13T05:27:00.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "Warszawa.Wyborcza.pl",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOd1dycGZsQTdXaVdEbmJXc0Nzb3dQQkRleFd0V25vbW05b0MwcnFzbzM1WDMwem8tRFM5SmdGMTBNQ1VTRVhqYzZFVmtkRGc5VGNqWWk1RWZDc1RNcDJRYW4xZ05LNGJhNlhZQ0paNUI5bksxckZRSzRBMlVPbHl2R3pOSnlwZjl2NkZWYUZ1Y2dIVU93dUVCdUlTaEhMYV9KeTlQU3pXS3l0OFFGWWJUaUNfN3Ixb3k1Sk5iaXlOcw?oc=5",
-        "title": "Ósmoklasistom przepadły punkty na wagę złota. Szkolny konkurs, alarm bombowy i niewzruszone kuratorium",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-15T03:09:58.273Z"
+    "updatedAt": "2026-11-15T11:34:31.972Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-15T11:07:37.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The National",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRWFZVVhzUDVtSFIwNTY3QjZWN2NIRzJXVmdMWEc4ZEtKQlpQb1NBZ2VnUGxtaFZtc1IyLUZ0ZGFXZUtaUEVsd1lSNG1vSmF0Sy1KRndMcDdSYTdYaWI0ZXowSEwzLUhRN0ZKTVlhZ2ZiT2M1RTRwMEF4dEJQVGY4aExtUnF5T1RQLTlOMHdsLTVUblN2QUN1SXhmZ3hjZWV1?oc=5",
+        "title": "Middle East latest: Bahrain says it intercepted Iranian aerial attacks after nationwide alert",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-15T09:44:30.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Nacionale",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPR3RPT1J6QzZmUmFnRjNjb2J0MnUwWFg3WkF0WENyNXcwbGFCRU40WFVkb2xPelNPMklzWldidDZmZFVkQVVkTTBjWktFU1hiTVZsaVpZd3p2TnpKQXhkdGRPVmdRNFk3WVVOUmkyZ1NDMEFOb29kQS1mRExDUU9LY0Z4Q3NCcG9WM19rOWszQ2M4cUpCWmlSYm1JelhWYWItbGdvSkY4MmNJRHVRY3ZJMVRaWHU?oc=5",
+        "title": "November 17 brings a nationwide TV and radio alert test, Nvidia earnings and Red Cup Day, not a blackout",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-15T07:04:31.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "France 24",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOZzVkMWRTZnoxeVZBby1YM1I3bXVZam82eVRqODZhZlJ0T2ZYbGtMd0JmTDRDOEMxVDgtY2NxZVJqWk1xbXlES21yRkZUTXVsdUxNTWo1R094ckpJTnVuX3FjNTZBOXkxR213OC1QWmk4ZVFIS1ZMbGpveXpzTXhET3RjaTFHRl9Zc0JubnVzYWx0Qy14RWxvb1VmU0NFNUQ4RTViYVBQVE9HNzZRRkljZTdsQzNkd2VFY0lNMmRaTVNkbzNXaE85SHhod044WTlLWmMxQnRNWDFkSDQ?oc=5",
+        "title": "'Is this a cyberattack?' Grounded flights, a Microsoft outage and AI chaos fuel cybersecurity fears",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-15T06:28:39.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Business Today",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPQ3plTjlTWTFNYkxMWm1oZzRTc2tlYlNWQ0t4bnY3QjNhRFRFQ1poYTVyUC1hVUZuclNtdks1SHpVSGpJYm1QX1NLOS1Bd2hFOVZMclFQY21LWUstRkpDN3Bmc2xFS2dyYTR0YWtWUXNseV9aSUc2ZGtwU1FubXZGQ1dNWHRWTlZocklIS2xMaXY3Tzh3TmF6ZzFvbnNYdEluX0U1V0lLeGtRSmJRLWRmX0ZzNkhtZTAxNjZCQmlpX3RoZkJUSXNoc3lwTHRrajFTbWVJMHpaaXFMNXUtbTRLVnJ4QXgzbndZNXFkcEpR0gHzAUFVX3lxTE5vdTEwMV96b0RNanB5SUY4S0VoTTQ4TXhfMDlnc1ExRlBqQ2lDX0M4dERhUHljb2F5TkozdmdYT2x6M1h1MDk2WnREaGJkUVhvQnpncUFRSnd2SkVDSHRZckIwWTh0bHd2VHIzYlZDa1M4UXNjVFNWMnFJdWxNbDl5RjF4V2E1dW4ydXd5Zm1iREZxOXdTb3p6dWNCbXBJRy1KTV9nWVgzSHJ6WHdqQ1hjQ3psM2VOa2IyTTFfal9mX2FCREZuaVVWSnJsSlR6bE5KMjY3cWY0QmNGVDVuQU94YnpyaXhXejN0RFVHS2pDbW0yZw?oc=5",
+        "title": "West Asia war: Iran claims drone strike on US radar in Bahrain, Houthi missiles target Saudi capital",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-15T02:05:11.000Z",
         "cat": "energy",
@@ -242,16 +290,6 @@
         "source": "CubaHeadlines",
         "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE81OTBJYXB1WExEYnZpUGV5MTVNNEZKdWNsOFBzT1NTTnptRHhnRzZ6SU94UnlHbFhSOTJtVlpZNkhYSzAzZUt3Q2Y3QTZHclhBWW1xU2RPMTA?oc=5",
         "title": "Residents of Calabazar, Boyeros Take to Streets After Prolonged Power Outage",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-14T21:44:26.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Nacionale",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPR3RPT1J6QzZmUmFnRjNjb2J0MnUwWFg3WkF0WENyNXcwbGFCRU40WFVkb2xPelNPMklzWldidDZmZFVkQVVkTTBjWktFU1hiTVZsaVpZd3p2TnpKQXhkdGRPVmdRNFk3WVVOUmkyZ1NDMEFOb29kQS1mRExDUU9LY0Z4Q3NCcG9WM19rOWszQ2M4cUpCWmlSYm1JelhWYWItbGdvSkY4MmNJRHVRY3ZJMVRaWHU?oc=5",
-        "title": "November 17 brings a nationwide TV and radio alert test, Nvidia earnings and Red Cup Day, not a blackout",
         "official": false,
         "forYou": ""
       },
@@ -376,26 +414,6 @@
         "forYou": ""
       },
       {
-        "at": "2026-11-13T22:12:34.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "EnergyNow.com",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUmRjOW5iTlYxTE5NSkNHZlRTZXJRWXBZTEJMZ0FyNFItWWtPV3pmWUdnVTF0M2JzMmxOTmMyMU5MMG1nM3VJcnk2OS1OMXBrS3IxbTBvVVZVb1N0S2F6M1ZSS09kT18yOWZvZUh1MEdWSzlhTWw2TlAxWmpHcGZOZEN0U0haVUNBWHBPeS1ZNzVzYmlBZkMxTmFkb25vbERIeUx1eDBSeHNoUkVSUjVkc1dZeG8yYUZRbFJoTA?oc=5",
-        "title": "Fujairah Oil Zone Hit by Fire After Drone Attack as UAE Says it Intercepted Iran Missiles",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-13T21:45:42.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "https://houseofsaud.com/",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5SbTFqdVpmSDhlcG15cEdRdWUxMDAxMnNMaTJZV3MwcnA5LWt2SERqQmRnb2w2djdkX0twMTRYSjA1X2tqbFgyd3R5eG9wUjVROUltcUJGbjMteW0xOFU4T0xTdk9mak4zTzRQTFdXcDFEbXRVQkVFZg?oc=5",
-        "title": "Houthis Claim Missile Strike on Saudi Officers’ Camp in Aden",
-        "official": false,
-        "forYou": ""
-      },
-      {
         "at": "2026-11-13T20:15:32.000Z",
         "cat": "energy",
         "sev": 2,
@@ -424,18 +442,8 @@
         "title": "Navy scrambles to ramp up tomahawk production after Iran War burns through arsenal",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-13T08:26:00.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "The Times of India",
-        "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPS2U3dnkwTjJ4Z3NPMjNqV3BselFkZThZVWlKZkJkWmMxZG1iNkhjdk16cmtFd0c2MXVpSGwwZmx5OXFnNmZDNmI1LXo4a2ZVWnBzYi12UDlodFRTXzV6ZFVKbVppb19zaGNUUS1sZjhZTEhUclAxRjJGaHlnVWpFampKVUc2NzNPdEVfaVpqZnNERUkwZmtzWlJ4dTBKR2wyR0V0TWF1SFNtUjM2elpMOThoZlV1X0w1YTRua1E2QURaRmtyRGhpX0JlV1lTSDNtV3AxTWdGTUZoVnhmNWpMYXpieXN2cUVvYnRHNzhLdzJMTFNSM0tKWWgtcXJGN19GQlJUUjlkSktvbTVMOGZB0gGUAkFVX3lxTE42c1JIaU9iNkhfa1JkUnpqRk01X0ptQmdKSGVaTUE3a3AyMzRCMW5PWGpsbTRrUnkwU2dJWjRtcW4zZHQzU0hPSl8xSVM4ZmFHNkFOZWRUeFRlX1JnalpFV3B2ZERjMUY1enhGNWdWTEpnOFlkbFN5bkZyb1d5bjFMNmo4bmxhOXNfLTVBTG8xcVduUlFEUW54NWhGTThndGREYWdyMnRpc25RcmNWY05LdV9sSWd2eFVtSE5XUWJGTVRUam5TR0RxRllNSmZpcDBLSnpoallsd1pzcWIta1dvLUs0U0p5aU1sZG1vVlJ2VTMzbUJqMFBPUzR5Q3l6a051MEZGNFJnc19PQTNjU1pqalhNVg?oc=5",
-        "title": "Jensen Huang's resignation, Chinese cyberattack and rogue AI: The conspiracy theories surrounding Microso",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-15T03:12:01.885Z"
+    "updatedAt": "2026-11-15T11:36:15.700Z"
   }
 }
