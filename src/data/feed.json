@@ -18,12 +18,36 @@
         }
       },
       {
-        "at": "2026-11-15T14:29:40.000Z",
+        "at": "2026-11-15T21:30:55.000Z",
         "cat": "health",
         "sev": 1,
-        "source": "Wyborcza.pl",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQTJrdGFVYjRwZktiQlU1ZGlDY2JocnlpcVc1dmlUMWUwaTlTN2JpdXN1UzhpS1BZQmIxSHcxd0lOc045NFY4NjhUeTBRcHl5SFZhNHMyLVlIY05KeTlvV3BpQW53SnREM0FZNlQ4WW5saHl1UEw4clQ3c1JEOVBKTUNUYUtySUJmazZheElLNXR6RktldnJhXzE0N2ZmMktpdmc?oc=5",
-        "title": "Epidemia Eboli w DRK wciąż poza kontrolą. Może być najbardziej śmiercionośna w historii",
+        "source": "WP Wiadomości",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNYjRpcjZEcTJsM2NjN1VvQnBxODBJV2wxbjRuZVc1Y081VXV6RkpFSHdwODhjNFdfeV9USU9pOGxNUFZwR0NaNlcwYm9DWVVsU3NHX1RCcmZyN1pGMzg1NWNxb01ybW4yc3I3VWhjc205ZHY1R0F2SmdFSXh6aHNESUEwZDFBdWZrNHZIZ0tlaHZPeEI3amdZd21TS3hrb3N0bVNtUHAzZHg?oc=5",
+        "title": "\"Wspólna porażka\". Epidemia eboli poza kontrolą. Już 5,5 tys. ofiar.",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-15T19:20:57.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Onet",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQbzBBam9lTTI1d1ZRdlc4MXRmSzlCam1NdGUyVEs1Z1liUnpwd1phQU4tMmIzUHZXY1JuRUFjdmZfZEFFak5HaUZsaXVZY2xsYXRtUWVDM0pTZ1ItUjF3S29DTEd6WWt5dlFOWFd2RHhlUG1LcFpIUmFzMks3TGNwX2dSSXB0djZNSmxINVhvbDJSQ3hkNlc4MUZRT05uQ1FXOTBVWkkwZXVYdWQwSXdVaGhaLU1yZnV1Xy1TN2RHNjQ3c0l0ZWlVenR5Ylk4aWNMek91SkZuM1c0dw?oc=5",
+        "title": "Jak szkoła ma uczyć rozpoznawania dezinformacji? W poniedziałek debata w Warszawie",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/poradniki/bezpieczenstwo-dziecka-w-szkole/",
+          "label": "Bezpieczeństwo dziecka w szkole"
+        }
+      },
+      {
+        "at": "2026-11-15T19:20:49.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSTBsTlEtdFhUXzl6S0dlb2RWaTlKLTJlYlp6bGdZdThEYTVmNEZpbmFqdFQxd2htZFVGUGdPV1NFRDFKemNoVnROcTJVeVhzQWdsMU5YRVJMcHJwWmN6WFNwY1VDaWJONUZ0NlZkY0ZmRkZtRXhTQ3J2WkhIQWdiT2dWcmplQXY2YVR4Q2NIOU9yV1p4dk9BdV84bTlXaEZ0WDFDMjBnSEdXVGRhLS13?oc=5",
+        "title": "Akcja policji koło teatru w Częstochowie. Agresor groził ludziom nożem",
         "official": false,
         "forYou": ""
       },
@@ -208,41 +232,63 @@
         "title": "„Polska jak USA sprzed wojny secesyjnej”. Gorzkie słowa gen. Packa po zamachu w Krakowie",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-13T13:44:58.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Defence24",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNFpQUklCLXN6NmpHQXpOVlp3RUZicDFTNm5xcGpRcW5vNXFWSkZjWVN4dnZFTGJ1WjJGNXl5QlRlVDVIX1RRMFJKOWh5NWZWeE52UEs0NmVQNXJIT3VRZkFJUlF1N21aVWo3OXp4bkVkY1gtNi1HczFwVld1S1RxSkxEd0xDblgtUzBfMjVBeUpxZzBkclVUQUV1cw?oc=5",
-        "title": "Wojsko Polskie przetestuje lądowe drony do stawiania pól minowych",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/mapa-schronow/",
-          "label": "Mapa schronów"
-        }
-      },
-      {
-        "at": "2026-11-13T12:41:42.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "WP Wiadomości",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQklUbFdsVDR1cThqaV9ZVmN6U3hEbXpjeGdtM3Z5NDBDVEJXbW5RR1gzMVR1LWxPN2Nwc29QTE1QRnNuaUdfN0UyZkNhcXZMcmhaQ3Y3a21XeDVVb0N2ZXFJZEZST29LaFQxVWdCb0VxRV9yQlJoLVhtNUVRVVItdGJiVUFSelRHTElpSllGdFZmblVWV21nclJZY2FHdVpYZ3llSC1qZ1lpQlF3?oc=5",
-        "title": "Przerwali lądowanie z powodu drona. Incydent na warszawskim Okęciu",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/mapa-schronow/",
-          "label": "Mapa schronów"
-        }
       }
     ],
-    "updatedAt": "2026-11-15T18:01:20.075Z"
+    "updatedAt": "2026-11-15T23:13:56.973Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-15T22:25:11.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Pluang",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdlJ5WlNDTjRrREJDbmJSUHhPRld2U3I5SnNDR3k1T3ZXMjVKZTVOUEFVd3lOYVd0YjJnN0lqQnRld2tFSWFWTkphTDNzYm5CeUtfX21ZSlJmUHgzUFB3WnZLSEVDaEJSQ1JTWk5lR2tucXZJOXRzTUdCdkhwUXNJbUs4MTFGTVZ1ekFWSnZhbzhyUUpqMndvWnNZRUQ?oc=5",
+        "title": "New AI-assisted cyberattack targets Bitcoin min...",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-15T21:25:26.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Nacionale",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPR3RPT1J6QzZmUmFnRjNjb2J0MnUwWFg3WkF0WENyNXcwbGFCRU40WFVkb2xPelNPMklzWldidDZmZFVkQVVkTTBjWktFU1hiTVZsaVpZd3p2TnpKQXhkdGRPVmdRNFk3WVVOUmkyZ1NDMEFOb29kQS1mRExDUU9LY0Z4Q3NCcG9WM19rOWszQ2M4cUpCWmlSYm1JelhWYWItbGdvSkY4MmNJRHVRY3ZJMVRaWHU?oc=5",
+        "title": "November 17 brings a nationwide TV and radio alert test, Nvidia earnings and Red Cup Day, not a blackout",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-15T18:59:19.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdTFBcWR1YzJhai1UdGgzMHpvdm40VExxeXFqM0NtbU9YVmNSNXpNeDlXTGllRXFtczhIUzVsaFFWdVV5TGxESWdneGlXbER1Qlg2b2VhQ2lqMmxVaEd4U01nZmNXcFY2bmNhSTdIN0VycE84MWJDRXdZOGxMRGo0U1k1UjhiamFNQ1JIQmp1MUdxNlZGRm1UanBvaENxR3V2N25NdFVOaWpXX1E?oc=5",
+        "title": "Anti-Houthi forces retreat in Yemen as Iran strikes Bahrain",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-15T18:50:27.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWGo3OGMxN1ZNYy1FT1NCeF9OVHEyVjJjTlpJVzJHV2Ezamt3MFJkMDc0aUJlLUp3alBQZ200M2VRNWp3NXNkSllocERrOGxWUVBZNEp5VHkxVHJqcFVGeExLUWk5c2QxbHJsWVZIQnp1RFhULXktVHJQb3Nja3dWcFpkTWNZM1JhUGd3MUdSREpCYlJTSGw3TUl5UFFoR0tqWWxyTTdSZk96Z9IBrwFBVV95cUxOYlBrSExJX0JtT1R4MTlVUzVLVFFlZUllUFZmR29fNnNidkEwaFF3SEpkRDdKTDhsWUlTYURSdHBRd1E2V0pKZGRfbWpLS2hiZlEzUTc0SW1wT0JxMzRaMDlicVVQcXVJeGtRcGl1Y2hodkZ6cC15R095ckpuUU81RUJTd3FwSG5qNTRyN1piRlJPWF9rcjVKTnJwNldseVYyQ0VMYjdDcnZPRXljclo0?oc=5",
+        "title": "Saudi-led coalition intercepts suspected Houthi missiles and drones",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-15T18:09:18.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "NDTV",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNd2FJbFZ3X0VLaFNsYVFoQ3pvb1hYMmd3aG5UalJWaEQ2QWhxWGJqeTRlOTBuREdSX29STTRwUjF0U0h1cmlLSDEzYUZpMTFmVWZYY0NwZXhUaW1rSmlnY1JiWXkzWnZVX003dk5hQ0R1ZTJIOXlLX0N5WVRIODNXUlE2YTdTeE5kNHo0WjZYOThLd3F6TFlnWkRrRkoydk43NWcyNXJCeVoyS1NPcWxuYUZCYWZYN1dhOTZaR3RJSXBSdw?oc=5",
+        "title": "Video | Yemen's Houthi Rebels Release 600 War Detainees Captured In Latest Escalation Of Fighting",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-15T17:13:02.000Z",
         "cat": "security",
@@ -250,16 +296,6 @@
         "source": "The National",
         "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRWFZVVhzUDVtSFIwNTY3QjZWN2NIRzJXVmdMWEc4ZEtKQlpQb1NBZ2VnUGxtaFZtc1IyLUZ0ZGFXZUtaUEVsd1lSNG1vSmF0Sy1KRndMcDdSYTdYaWI0ZXowSEwzLUhRN0ZKTVlhZ2ZiT2M1RTRwMEF4dEJQVGY4aExtUnF5T1RQLTlOMHdsLTVUblN2QUN1SXhmZ3hjZWV1?oc=5",
         "title": "Middle East latest: Bahrain says it intercepted Iranian aerial attacks after nationwide alert",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-15T15:13:56.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Nacionale",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPR3RPT1J6QzZmUmFnRjNjb2J0MnUwWFg3WkF0WENyNXcwbGFCRU40WFVkb2xPelNPMklzWldidDZmZFVkQVVkTTBjWktFU1hiTVZsaVpZd3p2TnpKQXhkdGRPVmdRNFk3WVVOUmkyZ1NDMEFOb29kQS1mRExDUU9LY0Z4Q3NCcG9WM19rOWszQ2M4cUpCWmlSYm1JelhWYWItbGdvSkY4MmNJRHVRY3ZJMVRaWHU?oc=5",
-        "title": "November 17 brings a nationwide TV and radio alert test, Nvidia earnings and Red Cup Day, not a blackout",
         "official": false,
         "forYou": ""
       },
@@ -402,48 +438,8 @@
         "title": "US says airspace 'opened up' after nationwide shutdown, no signs of cyberattack",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-14T01:23:12.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "https://houseofsaud.com/",
-        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1IZ0NhOERhS3lha1FqXzVodXVkck5jLVZkY0RodkRsYUF4N3N5bnJoTlg3V1I5eFdFWHRKTnkxTldkSDl4MHNEM3hWeWVwb19RQTczQWsxUFNjMkJ1aVhWWkE1ZDA?oc=5",
-        "title": "GCC Tells UN Iran Fired Over 7,000 Missiles and Drones at Gulf States",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-13T22:20:52.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "Mexico Business News",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUXhRTXNvV1lJNGFYbGxSZXdhY1duRV8tWWxObjJvTXc0OEhMRmJ4YXVyOXVGQm96SHhvOFA2VWNmRUdpVVV1MHNxdWJ0RDhiRVh5aGRndDYxUWtxTlY4Unc4ZmJ1UDBnQ1FZWTFmRjJJeWU0d1BnOGZnRnEzZWpPdk9UdU5nbjBEOHRmMUw0UWNVOWZJVXRtY1g5LTd2WG8?oc=5",
-        "title": "Dark Web Marketplaces Scaling Ransomware Operations",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-13T20:15:32.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "cedarnews.net",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOWG8ta19DdkV6dWMxSTBGZ1U5Ylg4OFhCRk5tSWxrMU0xQmZOVTBYaTlCVERVMXV5eTNSejJhaHdmbnc1MWl1WENIbmdraU1NMUlHcGZ2aHNBUk1iXzJpcTBVaWFFNnBuVTFZVVZYSFFmMjJpODVPYXFDVEdNSTJGR2Q4bnlkMjFNVFNLTkVENnpJZFlkeWppamFIeDE?oc=5",
-        "title": "Worker involved in ‘electrical contact’ that prompts power outage in Warren",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-13T17:50:11.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "The 420.in",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdjBTbWlMVFlhdFNsWmpDbEphLXd3clN6azZzVEhiMk80UzlRbTk4Y0xkOW50MmV5UDlOTWJMc0xPT0ctUGJHbnctVDRoaVVmSFo3Zy10U29VWjlFaWI3WXRWc2Q0aEJfaURSa0NyRGZqa21pR2liclR0MUs0S1VpZWM1cUN3NUc0NWFkc3pxeXJDZjJVY2ZJUmJzdm1SVVltWXJlOWg2VTZrU0w0dnc?oc=5",
-        "title": "German Military Drones Resume Operations After Cyberattack On Manufacturer Quantum Systems",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-15T18:03:25.445Z"
+    "updatedAt": "2026-11-15T23:15:09.714Z"
   }
 }
