@@ -6,7 +6,7 @@ translationKey: home-shelter
 cluster: shelter
 kind: guide
 pubDate: 2026-10-27
-reviewed: 2026-10-27
+reviewed: 2026-11-16
 author: "Redakcja PrepReady"
 readingMinutes: 10
 sources:
@@ -38,7 +38,7 @@ faq:
   - q: "Ile kosztuje schron przydomowy?"
     a: "Według przeglądu Muratora z października 2026 r. stalowe schrony przydomowe kosztują od ok. 100 tys. zł netto, a modele z wyjściem awaryjnym i wyposażeniem od ok. 160 tys. zł netto. Prosta betonowa komora za ok. 15 tys. zł to raczej wzmocniona piwnica niż schron. Ceny często nie obejmują wykopu i formalności."
   - q: "Czy można zakopać kontener morski jako schron?"
-    a: "Zwykły kontener nie powstał jako konstrukcja podziemna: jego dach jest badany na obciążenie rzędu 300 kg, a niezabezpieczona stal rdzewieje. Parcie gruntu i warstwa ziemi na stropie to znacznie większe obciążenia, więc zakopany kontener wymaga obliczeń konstruktora, wzmocnień i izolacji."
+    a: "Zwykły kontener nie powstał jako konstrukcja podziemna: jego dach jest badany na obciążenie rzędu 300 kg, a niezabezpieczona stal rdzewieje. Parcie gruntu i warstwa ziemi na stropie to znacznie większe obciążenia, więc zakopany kontener wymaga obliczeń konstruktora, wzmocnień i izolacji. Jak to zrobić krok po kroku, pokazujemy na stronie prepready.pro/pl/schron/."
   - q: "Ile kosztuje zgłoszenie schronu przydomowego?"
     a: "Opłata skarbowa za przyjęcie zgłoszenia budowy przydomowej budowli ochronnej do 35 m² wynosi 155 zł. Do tego dochodzi koszt projektu przygotowanego przez osobę z uprawnieniami budowlanymi."
   - q: "Ile powietrza potrzeba w schronie?"
@@ -50,6 +50,8 @@ faq:
 Schron przydomowy to wolno stojąca, zwykle zakopana w ogrodzie budowla ochronna dla domowników. Od 7 stycznia 2026 r. taki obiekt do 35 m² powierzchni użytkowej, służący mieszkańcom domu jednorodzinnego, buduje się **na zgłoszenie, bez pozwolenia na budowę**. Gotowe schrony stalowe kosztują według przeglądu Muratora z października 2026 r. od ok. 100 tys. zł netto, a przed zakupem trzeba sprawdzić grunt i wody gruntowe, obliczenia konstrukcji, wentylację z filtrem, wyjście awaryjne i formalności.
 
 Po wojnie w Ukrainie i po uchwaleniu ustawy o ochronie ludności i obronie cywilnej coraz więcej właścicieli domów pyta o własny schron. Ten poradnik nie namawia do zakupu. Pokazuje, co mówią przepisy, jakie rozwiązania są na rynku, gdzie leżą pułapki i kiedy tańsza alternatywa da Ci podobny poziom spokoju.
+
+**Chcesz zbudować schron samodzielnie?** Projekty z rysunkami (schron z kontenera morskiego, ziemianka z pustaków, piwniczka z prefabrykatu) oraz kalkulator wykopu i materiałów znajdziesz w poradniku [Jak zbudować schron przydomowy samemu](/pl/schron/).
 
 ## Schron przydomowy a schron, ukrycie i MDS w ustawie
 
@@ -87,6 +89,8 @@ Ta tabela przyda się przy rozmowie ze sprzedawcą. Uczciwa oferta mówi, jaką 
 Kontener morski projektuje się do transportu i piętrowania. Według opisu konstrukcji kontenerów w Wikipedii dach jest budowany i badany na obciążenie zaledwie 300 kg, a stal bez zabezpieczenia i izolacji rdzewieje. Zakopanie oznacza zupełnie inne obciążenia: ziemię na stropie, parcie gruntu na ściany boczne i stałą wilgoć. Rozporządzenie MSWiA wymaga, by przegrody przysypane gruntem były zabezpieczone przed zawilgoceniem i infiltracją wody, a konstrukcja była zaprojektowana zgodnie z Polskimi Normami na obciążenia wynikające z kategorii odporności.
 
 Kontener ma więc sens tylko wtedy, gdy producent go do tego zaprojektował: z obliczeniami konstrukcyjnymi, wzmocnieniem ścian i stropu oraz izolacją przeciwwodną. Murator zwraca uwagę, że moduły kontenerowe bywają projektowane do ustawienia na powierzchni terenu, a nie pod ziemią. Zwykły kontener z placu, zakopany samodzielnie, to ryzyko zawalenia i zalania.
+
+Jak zakopać kontener poprawnie, czyli na płycie fundamentowej, ze stalowymi ramami w środku, izolacją od wewnątrz i włazem z drabiną, pokazujemy krok po kroku z przekrojami w projekcie [schronu z kontenera morskiego](/pl/schron/#kontener).
 
 ### Adaptacja piwnicy
 
@@ -139,7 +143,7 @@ Rozporządzenie wymaga, by budowla ochronna z czasem ochrony dłuższym niż 48 
 
 ![Schron przydomowy: 6 rzeczy do sprawdzenia przed zakupem](/img/poradniki/schron-przydomowy-infografika.webp)
 
-Chcesz budować samodzielnie? Na stronie [Schron własnymi rękami](/pl/schron/) są projekty z rzutami i przekrojami oraz kalkulator wykopu i materiałów.
+Budujesz sam? Rzuty, przekroje, porady o izolacji i kalkulator materiałów: [jak zbudować schron w ogrodzie](/pl/schron/).
 
 ## Ile kosztuje schron przydomowy
 
@@ -167,7 +171,7 @@ Do ceny modułu dolicz: badania gruntu, projekt, opłatę skarbową 155 zł, wyk
 
 ## Tańsza alternatywa: przygotuj pomieszczenie w domu
 
-Nie każdy dom potrzebuje schronu za kilkaset tysięcy złotych. Poradnik MSWiA radzi: jeśli nie możesz ukryć się w oznaczonym miejscu schronienia, zostań w domu z dala od okien, przy ścianach nośnych, w centralnych pomieszczeniach. W domu z piwnicą wybierz najlepsze pomieszczenie, uprzątnij je, zostaw tam wodę, latarkę, radio i koce. Jak to zrobić krok po kroku, opisujemy w poradniku [Schron w bloku](/pl/poradniki/schron-w-bloku/); większość wskazówek o piwnicy sprawdzi się też w domu jednorodzinnym.
+Nie każdy dom potrzebuje schronu za kilkaset tysięcy złotych. Poradnik MSWiA radzi: jeśli nie możesz ukryć się w oznaczonym miejscu schronienia, zostań w domu z dala od okien, przy ścianach nośnych, w centralnych pomieszczeniach. W domu z piwnicą wybierz najlepsze pomieszczenie, uprzątnij je, zostaw tam wodę, latarkę, radio i koce. Jak to zrobić krok po kroku, opisujemy w poradniku [Schron w bloku](/pl/poradniki/schron-w-bloku/); większość wskazówek o piwnicy sprawdzi się też w domu jednorodzinnym. Jak podeprzeć strop piwnicy stemplami i osłonić okienko, pokazujemy na rysunku w poradniku [o samodzielnej budowie schronu](/pl/schron/#inne).
 
 Sprawdź także, co masz w okolicy. Na [mapie schronów PrepReady](/pl/mapa-schronow/) zobaczysz ok. 82 tys. punktów schronienia z bazy Państwowej Straży Pożarnej, z odległością i trasą pieszo. Szkoła, urząd czy garaż podziemny kilka minut od domu to rozwiązanie, które nic nie kosztuje.
 

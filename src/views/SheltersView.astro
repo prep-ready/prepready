@@ -154,6 +154,17 @@ if (city) jsonLd.push({ '@context': 'https://schema.org', '@type': 'BreadcrumbLi
   </section>
 
   <section class="block">
+    <div class="wrap diy-cta">
+      <div>
+        <div class="eyebrow">Zbuduj własny schron</div>
+        <h2>{city ? `Daleko do schronu ${city.loc}? Zbuduj własny przy domu` : 'Daleko do schronu? Zbuduj własny przy domu'}</h2>
+        <p>Schron z kontenera morskiego zakopanego w ziemi, ziemianka z pustaków albo piwniczka z prefabrykatu. Projekty z rzutami i przekrojami, porady o izolacji i kalkulator wykopu i materiałów. Do 35 m² wystarczy zgłoszenie w starostwie.</p>
+      </div>
+      <a class="btn primary" href={routes.shelterDiy.pl}>Jak zbudować schron →</a>
+    </div>
+  </section>
+
+  <section class="block">
     <div class="wrap"><div class="prose-lite">
       <div class="eyebrow">Jak to sprawdzić</div>
       <h2>{city ? `Jak znaleźć najbliższy schron ${city.loc}` : 'Jak znaleźć najbliższy schron: 3 sposoby'}</h2>
@@ -361,6 +372,10 @@ if (city) jsonLd.push({ '@context': 'https://schema.org', '@type': 'BreadcrumbLi
 </script>
 
 <style>
+  .diy-cta{display:flex;flex-wrap:wrap;gap:20px 40px;align-items:center;justify-content:space-between}
+  .diy-cta > div{max-width:62ch;min-width:0}
+  .diy-cta h2{margin-top:6px}
+  .diy-cta p{font-family:var(--body);font-weight:var(--body-w);color:var(--ink-2);margin:10px 0 0;line-height:1.6}
   .search{display:flex;gap:8px;padding:8px;flex-wrap:wrap}
   .search input{flex:1 1 260px;min-width:0;border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:6px;padding:10px 12px;font:inherit;font-size:16px}
   .search input:focus-visible{outline:2px solid var(--action);outline-offset:0}

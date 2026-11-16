@@ -7,10 +7,24 @@ import Base from '../layouts/Base.astro';
 import { routes } from '../i18n/ui';
 
 const meta = {
-  title: 'Schron DIY: projekty, rysunki i kalkulator wykopu',
-  desc: 'Pięć projektów schronu do samodzielnej budowy: kontener 45 stóp, ziemianka z pustaków szalunkowych i trzy tańsze warianty. Rzuty, przekroje, izolacja i kalkulator materiałów.',
+  title: 'Jak zbudować schron w ogrodzie: kontener i ziemianka',
+  desc: 'Jak samemu zbudować schron w ogrodzie: kontener morski zakopany w ziemi, ziemianka z pustaków, piwniczka z szamba. Rysunki, izolacja, kalkulator wykopu.',
 };
-const jsonLd = { '@context': 'https://schema.org', '@type': 'TechArticle', headline: meta.title, description: meta.desc, inLanguage: 'pl', publisher: { '@type': 'Organization', name: 'PrepReady' } };
+const PAGE = new URL(routes.shelterDiy.pl, Astro.site).href;
+const faq = [["Jak zbudować schron w ogrodzie samemu?", "Najprościej na trzy sposoby: zakopać kontener morski na płycie fundamentowej i wzmocnić go od środka stalowymi ramami, postawić ziemiankę z pustaków szalunkowych zalanych betonem albo wkopać gotowy zbiornik żelbetowy z otworem drzwiowym. Każdy sposób wymaga zbadania gruntu, zgłoszenia w starostwie i projektu konstruktora."], ["Czy można zakopać kontener morski jako schron?", "Tak, ale nie bez przygotowania. Kontener przenosi ciężar przez słupki narożne, a ściany i dach z blachy falistej uginają się pod naporem ziemi. Trzeba go postawić na płycie fundamentowej, wzmocnić od środka stalowymi ramami co ok. 1,2 m, pokryć z zewnątrz hydroizolacją i przykryć najwyżej ok. 50 cm ziemi. Wchodzi się przez właz w dachu po drabinie. Przekroje ram dobiera konstruktor."], ["Jak ocieplić schron pod ziemią?", "Ziemiankę z betonu ociepla się od zewnątrz: hydroizolacja, 10 cm polistyrenu XPS i mata drenażowa. Kontener ociepla się od środka pianką PUR zamkniętokomórkową natryskiwaną wprost na blachę, bez pustki powietrznej, bo zimna stal skrapla wilgoć z oddechu."], ["Czy na schron w ogrodzie potrzebne jest pozwolenie?", "Od 7 stycznia 2026 r. wolno stojący schron przy domu jednorodzinnym do 35 m² powierzchni użytkowej wymaga tylko zgłoszenia w starostwie z projektem. Opłata skarbowa wynosi 155 zł, a urząd ma 21 dni na sprzeciw. Większy obiekt wymaga pozwolenia na budowę."], ["Ile ziemi powinno być nad schronem?", "W projekcie ziemianki z żelbetowym stropem 20 cm nad stropem jest 80 cm ziemi. Nad kontenerem najwyżej ok. 50 cm, bo jego dach nawet ze wzmocnieniem nie przeniesie więcej. Każde ok. 9 cm ubitej ziemi osłabia promieniowanie z opadu mniej więcej o połowę."], ["Czy piwniczka z szamba nadaje się na schron?", "Prefabrykowany zbiornik żelbetowy, ten sam typ co szambo, producenci sprzedają też jako piwniczkę ogrodową z otworem drzwiowym. Kupuj nowy, od razu z otworem, i sprawdź w karcie producenta, ile ziemi może leżeć na jego stropie."], ["Jaki jest najtańszy sposób na schron?", "Najtańsze jest przygotowanie piwnicy w domu pod żelbetowym stropem: stemple pod stropem, worki z piaskiem w okienku, solidne drzwi i zapasy wody. Najbliższe publiczne schrony i ukrycia sprawdzisz na mapie schronów PrepReady."]];
+const steps = [["Projekt i zgłoszenie", "Zbadaj grunt odwiertami, zleć konstruktorowi dobór ram stalowych i zgłoś budowę w starostwie."], ["Przygotowanie kontenera", "Oczyść blachę z rdzy, pomaluj farbą epoksydową, zaspawaj wrota, wytnij w dachu otwory pod dwa włazy i przyspawaj w środku ramy stalowe co ok. 1,2 m."], ["Wykop i płyta", "Wykop dół ok. 2,4 m głęboki ze skarpami, ułóż 20 cm zagęszczonego żwiru, wylej płytę żelbetową 20 cm i ułóż drenaż."], ["Wstawienie", "Opuść kontener dźwigiem na płytę i wypoziomuj."], ["Hydroizolacja", "Pokryj całą blachę masą bitumiczną, szczególnie spoiny i przejścia rur, a na nią połóż matę kubełkową."], ["Zasypanie", "Zasypuj piaskiem warstwami po 20–30 cm równo z obu stron, lekko zagęszczając, i usyp nad dachem najwyżej 50 cm ziemi."], ["Wnętrze", "Natryśnij piankę PUR między ramami, załóż okładzinę, ułóż podłogę z XPS i OSB, zamontuj drabiny pod włazami oraz wentylację z czerpnią i wyrzutnią."]];
+const jsonLd = [
+  { '@context': 'https://schema.org', '@type': 'TechArticle', headline: 'Jak zbudować schron przydomowy samemu', description: meta.desc, inLanguage: 'pl', url: PAGE, datePublished: '2026-11-12', dateModified: '2026-11-16',
+    about: ['schron przydomowy', 'schron z kontenera morskiego', 'ziemianka', 'bunkier w ogrodzie', 'izolacja schronu'],
+    author: { '@type': 'Organization', name: 'Redakcja PrepReady' }, publisher: { '@type': 'Organization', name: 'PrepReady', url: new URL('/', Astro.site).href } },
+  { '@context': 'https://schema.org', '@type': 'HowTo', name: 'Jak zakopać kontener morski jako schron', description: 'Kontener 45 stóp na płycie fundamentowej, wzmocniony od środka, ocieplony pianką PUR, z włazem i drabiną.', inLanguage: 'pl', url: PAGE + '#kontener',
+    step: steps.map(([name, text], i) => ({ '@type': 'HowToStep', position: i + 1, name, text })) },
+  { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faq.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) },
+  { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'PrepReady', item: new URL(routes.home.pl, Astro.site).href },
+    { '@type': 'ListItem', position: 2, name: 'Poradniki', item: new URL('/pl/poradniki/', Astro.site).href },
+    { '@type': 'ListItem', position: 3, name: 'Jak zbudować schron przydomowy', item: PAGE } ] },
+];
 ---
 <Base lang="pl" title={meta.title} description={meta.desc} alternates={{ pl: routes.shelterDiy.pl }} ogType="article" jsonLd={jsonLd}>
 <div class="sdiy">
@@ -26,14 +40,15 @@ const jsonLd = { '@context': 'https://schema.org', '@type': 'TechArticle', headl
 </defs></svg>
   <div class="wrap page-head">
     <div class="eyebrow">Projekty do samodzielnej budowy · rzuty · przekroje · kalkulator</div>
-    <h1>Schron własnymi rękami</h1>
-    <p>Pięć koncepcji, które da się zbudować samodzielnie lub z lokalną ekipą: kontener 45 stóp, ziemianka-schron z pustaków szalunkowych i trzy tańsze warianty. Każda z rzutem, przekrojem i listą warstw. Na końcu kalkulator, który liczy wykop, beton, pustaki, izolację i wentylację dla Twoich wymiarów.</p>
+    <h1>Jak zbudować schron przydomowy samemu</h1>
+    <p>Schron przydomowy możesz zbudować samodzielnie albo z lokalną ekipą. Najprostsze sposoby to zakopanie kontenera morskiego na płycie fundamentowej, ziemianka z pustaków szalunkowych i wkopany zbiornik betonowy, taki jak na szambo. Każdy projekt ma rzut, przekrój i listę warstw, a kalkulator liczy wykop, beton, izolację i wentylację dla Twoich wymiarów.</p>
     <nav class="toc" aria-label="Spis treści">
     <a href="#kontener">1. Kontener 45'</a>
     <a href="#ziemianka">2. Ziemianka-schron</a>
     <a href="#inne">3–5. Inne pomysły</a>
     <a href="#izolacja">Izolacja</a>
     <a href="#kalkulator">Kalkulator</a>
+    <a href="#faq">Pytania</a>
     <a href="#zasady">Zanim zaczniesz</a>
   </nav>
   </div>
@@ -41,7 +56,7 @@ const jsonLd = { '@context': 'https://schema.org', '@type': 'TechArticle', headl
 
 <section id="kontener">
   <p class="eyebrow" style="margin:0">Projekt 1</p>
-  <h2>Kontener morski 45' zakopany w ziemi</h2>
+  <h2>Schron z kontenera morskiego zakopany w ziemi</h2>
   <div class="col">
     <p>Kontener 45' HC ma na zewnątrz 13,72 × 2,44 × 2,90 m, w środku ok. 13,56 × 2,35 × 2,70 m. To 31,9 m² podłogi, czyli mieści się w limicie 35 m² dla zgłoszenia. W Polsce łatwiej kupić 40' HC (12,19 m); układ poniżej skrócisz wtedy o strefę magazynową.</p>
     <div class="note"><b class="tag">Uwaga: zakopany kontener trzeba wzmocnić od środka</b><p>Kontener przenosi obciążenia przez cztery słupki narożne. Dach jest badany na ok. 300 kg, a ściany z blachy falistej nie są ścianami oporowymi. Pod ziemią blacha wyboczy się, a niezabezpieczona stal przerdzewieje. Dlatego w tym projekcie kontener stoi na płycie fundamentowej i jest zasypany ziemią bez żadnej obudowy z boków i od góry, a parcie gruntu przejmują stalowe ramy wewnątrz. Ocieplenie, podłoga i wentylacja też są od środka.</p></div>
@@ -189,7 +204,7 @@ const jsonLd = { '@context': 'https://schema.org', '@type': 'TechArticle', headl
 
 <section id="inne">
   <p class="eyebrow" style="margin:0">Projekty 3–5</p>
-  <h2>Trzy prostsze pomysły</h2>
+  <h2>Tańsze sposoby: piwniczka z szamba, kryta szczelina, piwnica</h2>
   <div class="col">
     <h3>3. Piwniczka z prefabrykatu betonowego</h3>
     <p>To ten sam prefabrykat, który kupuje się jako szambo: żelbetowy zbiornik odlany w jednym kawałku, sprzedawany w różnych pojemnościach (popularny rozmiar to 10 m³). Te same firmy oferują go jako zbiornik na deszczówkę oraz jako piwniczkę ogrodową, czyli zbiornik z wyciętym otworem drzwiowym. Waży kilka ton, przyjeżdża na samochodzie z HDS i tego samego dnia stoi w wykopie na podsypce piaskowej.</p>
@@ -243,7 +258,7 @@ const jsonLd = { '@context': 'https://schema.org', '@type': 'TechArticle', headl
 
 <section id="izolacja">
   <p class="eyebrow" style="margin:0">Izolacja</p>
-  <h2>Woda, ciepło i skropliny</h2>
+  <h2>Izolacja schronu: woda, ciepło i skropliny</h2>
   <div class="col">
     <p>Pod ziemią grunt ma przez cały rok 8–10 °C. Izolacja nie walczy więc z mrozem, tylko z wodą z zewnątrz i skroplinami od środka. Kolejność warstw jest zawsze ta sama: konstrukcja, hydroizolacja, termoizolacja odporna na wodę, warstwa drenująca, przepuszczalna zasypka.</p>
   </div>
@@ -288,7 +303,7 @@ const jsonLd = { '@context': 'https://schema.org', '@type': 'TechArticle', headl
 
 <section id="kalkulator">
   <p class="eyebrow" style="margin:0">Narzędzie</p>
-  <h2>Kalkulator wykopu i materiałów</h2>
+  <h2>Kalkulator wykopu i materiałów na schron</h2>
   <div class="col">
     <p>Wpisz wymiary wewnętrzne komory i wybierz materiał. Kalkulator policzy wykop ze skarpami, beton, pustaki, izolację, drenaż, wentylację i obciążenie stropu, a rysunek przekroju zmieni się razem z liczbami. Wyniki są przedmiarem do wyceny i rozmowy z konstruktorem, nie obliczeniem nośności.</p>
   </div>
@@ -347,6 +362,15 @@ const jsonLd = { '@context': 'https://schema.org', '@type': 'TechArticle', headl
       <li>Osłabienie promieniowania: warstwa połówkowa ok. 6 cm betonu i 9 cm ubitej ziemi. To szacunek dla stropu; o wyniku całego obiektu decyduje wejście.</li>
       <li>Powietrze: 20 m³/h na osobę w trybie zwykłym, prędkość w przewodzie 3 m/s. Czas do 2% CO₂ przy 20 l CO₂ na osobę na godzinę.</li>
     </ul>
+  </div>
+</section>
+
+<section id="faq">
+  <p class="eyebrow">Pytania</p>
+  <h2>Najczęstsze pytania o budowę schronu</h2>
+  <div class="col qa">
+    {faq.map(([q, a]) => <details><summary>{q}</summary><p>{a}</p></details>)}
+    <p>Przepisy, rodzaje gotowych schronów i ceny opisujemy w poradniku <a href={'/pl/poradniki/schron-przydomowy/'}>Schron przydomowy: przepisy, rodzaje, ceny</a>. Najbliższe publiczne schrony znajdziesz na <a href={routes.shelters.pl}>mapie schronów</a>.</p>
   </div>
 </section>
 
@@ -694,6 +718,10 @@ render();
 </script>
 
 <style is:global>
+.sdiy .qa details{border-bottom:1px solid var(--line);padding:12px 0}
+.sdiy .qa summary{font-family:var(--display);font-weight:650;font-size:17px;cursor:pointer;color:var(--ink)}
+.sdiy .qa details p{margin:8px 0 0;color:var(--ink-2)}
+.sdiy .qa > p{margin-top:18px}
 .sdiy{--panel:var(--surface);--paper:var(--surface);--ink-2:var(--muted);--accent:var(--signal);--on-accent:var(--on-signal);--dim:var(--action);--warn:var(--signal);--ins:color-mix(in srgb,var(--signal) 20%,var(--surface));--earth:var(--surface-2);font-family:var(--body);font-weight:var(--body-w);font-size:16px;line-height:1.6;color:var(--ink);padding-bottom:48px}
 .sdiy section{scroll-margin-top:90px}
 .sdiy .srcs{padding-block:28px 0;color:var(--muted);font-size:14px;border-top:1px solid var(--line);margin-top:44px}
