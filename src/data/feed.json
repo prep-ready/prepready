@@ -18,6 +18,20 @@
         }
       },
       {
+        "at": "2026-11-16T03:15:23.153Z",
+        "cat": "energy",
+        "sev": 3,
+        "source": "PSE",
+        "url": "https://www.pse.pl/",
+        "title": "PSE: dziś zalecane oszczędzanie energii",
+        "official": true,
+        "forYou": "Ogranicz zużycie prądu w godzinach szczytu, naładuj powerbanki i latarki.",
+        "guide": {
+          "href": "/pl/poradniki/blackout-jak-sie-przygotowac/",
+          "label": "Jak przygotować się na blackout"
+        }
+      },
+      {
         "at": "2026-11-15T21:30:55.000Z",
         "cat": "health",
         "sev": 1,
@@ -222,35 +236,35 @@
         "title": "Strzelanina w Krakowie. Wyszło na jaw, kim jest 39-letni napastnik",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-13T13:45:25.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Rzeczpospolita",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZmVCTFZnQzJfM2xieDc5ZGxGSUIzaWVaRUpTY2dFUzViWklTdnlqbGdzWnFZeEFLY2FjZm1OdDdqNWw0T1JOTjJfVmtBZHlCOFZ3Wjg5SzJKY2VIaG40MXk5MnllY050MkEwZ1V1NzVVWlcwc0NRUTVLem1md1ljZFo0NE5RY3J4M0lEZzNiU3JwM0VTOTdwQTJXb09obVVEaDkxMkpxRHNldVk3TXVfQ2VKSm0zOFhBaWFwbnV3?oc=5",
-        "title": "„Polska jak USA sprzed wojny secesyjnej”. Gorzkie słowa gen. Packa po zamachu w Krakowie",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-15T23:13:56.973Z"
+    "updatedAt": "2026-11-16T03:16:26.495Z"
   },
   "en": {
     "sample": false,
     "items": [
       {
-        "at": "2026-11-15T22:25:11.000Z",
-        "cat": "cyber",
+        "at": "2026-11-16T02:17:08.000Z",
+        "cat": "security",
         "sev": 2,
-        "source": "Pluang",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdlJ5WlNDTjRrREJDbmJSUHhPRld2U3I5SnNDR3k1T3ZXMjVKZTVOUEFVd3lOYVd0YjJnN0lqQnRld2tFSWFWTkphTDNzYm5CeUtfX21ZSlJmUHgzUFB3WnZLSEVDaEJSQ1JTWk5lR2tucXZJOXRzTUdCdkhwUXNJbUs4MTFGTVZ1ekFWSnZhbzhyUUpqMndvWnNZRUQ?oc=5",
-        "title": "New AI-assisted cyberattack targets Bitcoin min...",
+        "source": "The National",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRWFZVVhzUDVtSFIwNTY3QjZWN2NIRzJXVmdMWEc4ZEtKQlpQb1NBZ2VnUGxtaFZtc1IyLUZ0ZGFXZUtaUEVsd1lSNG1vSmF0Sy1KRndMcDdSYTdYaWI0ZXowSEwzLUhRN0ZKTVlhZ2ZiT2M1RTRwMEF4dEJQVGY4aExtUnF5T1RQLTlOMHdsLTVUblN2QUN1SXhmZ3hjZWV1?oc=5",
+        "title": "Middle East latest: Bahrain says it intercepted Iranian aerial attacks after nationwide alert",
         "official": false,
         "forYou": ""
       },
       {
-        "at": "2026-11-15T21:25:26.000Z",
+        "at": "2026-11-16T00:49:52.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The New Arab",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPdU5ySmxIa1I1UkdaaW5LeEF4N2NBYXloZHpiaUhJMmtibWNPQzhxbHhpTkZRVmRUY3hHY3JvTnVKWTNUTlNubVhDekJ1Uk50bHZtcGFIc21RV0pMWkRPSnZCZDc1NXk5RUx1cDhwOGtJeEt1alpaMTJtYndsRTl4LXA3ZmdNU054X3c?oc=5",
+        "title": "Houthi attacks kill eight in Yemen, strike Riyadh airport and financial centre",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-16T00:23:57.000Z",
         "cat": "energy",
         "sev": 2,
         "source": "Nacionale",
@@ -260,12 +274,12 @@
         "forYou": ""
       },
       {
-        "at": "2026-11-15T18:59:19.000Z",
-        "cat": "security",
+        "at": "2026-11-15T22:25:11.000Z",
+        "cat": "cyber",
         "sev": 2,
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdTFBcWR1YzJhai1UdGgzMHpvdm40VExxeXFqM0NtbU9YVmNSNXpNeDlXTGllRXFtczhIUzVsaFFWdVV5TGxESWdneGlXbER1Qlg2b2VhQ2lqMmxVaEd4U01nZmNXcFY2bmNhSTdIN0VycE84MWJDRXdZOGxMRGo0U1k1UjhiamFNQ1JIQmp1MUdxNlZGRm1UanBvaENxR3V2N25NdFVOaWpXX1E?oc=5",
-        "title": "Anti-Houthi forces retreat in Yemen as Iran strikes Bahrain",
+        "source": "Pluang",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdlJ5WlNDTjRrREJDbmJSUHhPRld2U3I5SnNDR3k1T3ZXMjVKZTVOUEFVd3lOYVd0YjJnN0lqQnRld2tFSWFWTkphTDNzYm5CeUtfX21ZSlJmUHgzUFB3WnZLSEVDaEJSQ1JTWk5lR2tucXZJOXRzTUdCdkhwUXNJbUs4MTFGTVZ1ekFWSnZhbzhyUUpqMndvWnNZRUQ?oc=5",
+        "title": "New AI-assisted cyberattack targets Bitcoin min...",
         "official": false,
         "forYou": ""
       },
@@ -286,16 +300,6 @@
         "source": "NDTV",
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNd2FJbFZ3X0VLaFNsYVFoQ3pvb1hYMmd3aG5UalJWaEQ2QWhxWGJqeTRlOTBuREdSX29STTRwUjF0U0h1cmlLSDEzYUZpMTFmVWZYY0NwZXhUaW1rSmlnY1JiWXkzWnZVX003dk5hQ0R1ZTJIOXlLX0N5WVRIODNXUlE2YTdTeE5kNHo0WjZYOThLd3F6TFlnWkRrRkoydk43NWcyNXJCeVoyS1NPcWxuYUZCYWZYN1dhOTZaR3RJSXBSdw?oc=5",
         "title": "Video | Yemen's Houthi Rebels Release 600 War Detainees Captured In Latest Escalation Of Fighting",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-15T17:13:02.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The National",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRWFZVVhzUDVtSFIwNTY3QjZWN2NIRzJXVmdMWEc4ZEtKQlpQb1NBZ2VnUGxtaFZtc1IyLUZ0ZGFXZUtaUEVsd1lSNG1vSmF0Sy1KRndMcDdSYTdYaWI0ZXowSEwzLUhRN0ZKTVlhZ2ZiT2M1RTRwMEF4dEJQVGY4aExtUnF5T1RQLTlOMHdsLTVUblN2QUN1SXhmZ3hjZWV1?oc=5",
-        "title": "Middle East latest: Bahrain says it intercepted Iranian aerial attacks after nationwide alert",
         "official": false,
         "forYou": ""
       },
@@ -440,6 +444,6 @@
         "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-15T23:15:09.714Z"
+    "updatedAt": "2026-11-16T03:18:37.381Z"
   }
 }
