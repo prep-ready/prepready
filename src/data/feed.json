@@ -18,6 +18,66 @@
         }
       },
       {
+        "at": "2026-11-16T16:27:42.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZDY3cUY4cWFPcW85OFpHaXdPUUhZRzZfaENMLUpiT0dtb2FBbXpPcG9DcFFoQ1B0V24tc0NGQmpkVzgxLUdOT2FQSldrQTI1SHNRMFRWWW5hYXFtcVNtOVU1d29JSFZEWDd0dkJvUGR5NVlqd0xmc3ZCQUpXVDhNNGRabldESXVhcnpkU2NBSU9lVTJuVDd3aDBwVVVSRUM5d2h4VjNoalJnMGRiaHloQ3Bxak1BYVk?oc=5",
+        "title": "Atak w Krakowie. Kolejna osoba wyszła ze szpitala",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-16T16:00:02.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Defence24",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUm0yTHVicldBekRYdzhfbGJMZTBHaXN2dGpCSHU2WnY0aVNEMy0ySENoMUNLMlJsMGRxclpJanBfNnUyckdKaTJ3eEowSlRUbFF1NmJzZlFjaGN2UTZzMUg5ZnA3Zk5veUt5MGY3WUZxMl83N0RUYTNiWHUzMGVpbjA0T1VTZmxQTGVIcXFGUlFVeEpxYWVlZUZXTGVNYXdPbUsyQ3BrNmlxU3ViMGxKdENXTFN5dw?oc=5",
+        "title": "Wojsko sprawdzi gotowość do obrony. Rozpoczynają się ćwiczenia Brave Hussar-26",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-16T13:40:11.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "TVN24",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQlhKb3V6TjZGbjcyOWowZm1NSDlTTnk5cUZMd3VqYXdMX05oNUFKbDdQZFp0cjV3TWJCU1M4UVRoZldkN29ralRPOVhTWktzYnRPWlFNR1lIUUY3dDhvTFRCeE5KMFkzZEVmdXlUalBHRDZiUVBWZFlVU00yS3B6WXFBREszVnBFNTYtV0ZYcE9HZ1ZQWGtrQnU0WGQ?oc=5",
+        "title": "Chcą przekazać zwłoki zamachowca na cele naukowe",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-16T13:11:39.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMmJTd2g2dEcxOTA3dzBnYmtDcU9MZTg0dlpLZUw5RDcyeFJHdE03Y291ZFhTX2R1YTZjNXU5N1d6YUtOM3dZQ0hBMlZ6dVExdzZna1hiV2QtN1paN2MzSjFDQkN0ZHB2SHBFZnpOQ25CYUhSZXczX1JYM2MtTTRKQ3dvOWpjU1QzcXozY3U0UEVqSnRKdUg4U01RWUF3S2g4ZmplQXFHdkxoSDdyQTdveUN3?oc=5",
+        "title": "Kraków nie chce pogrzebu zamachowca. Prezydent Gibała ma inny plan",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-16T12:55:00.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "CERT Polska",
+        "url": "https://cert.pl/posts/2026/11/CVE-2026-113443/",
+        "title": "Podatności w oprogramowaniu VisualNet visualTicket",
+        "official": true,
+        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
+      },
+      {
+        "at": "2026-11-16T10:55:00.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "CERT Polska",
+        "url": "https://cert.pl/posts/2026/11/CVE-2026-111559/",
+        "title": "Podatność w oprogramowaniu Batflat",
+        "official": true,
+        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
+      },
+      {
         "at": "2026-11-16T09:39:58.000Z",
         "cat": "security",
         "sev": 2,
@@ -172,77 +232,73 @@
         "title": "IMGW: 4 ostrzeżeń meteo, najwyższy stopień 1: Silny wiatr",
         "official": true,
         "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
-      },
-      {
-        "at": "2026-11-14T21:11:00.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "PolsatNews.pl",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNl9pUlBqSUhwQzliaFhxRXliZHFvbEg4eDFJY1NnV191LVJDRmZYd1NIeGRyeUFNaldiYlNJTjYzRnpSb2lORUduZjg0aXZHMXh6enM2Y1gwNnVWRk94Q0hpVGJIU3psT251VFo1eXBOQzN1WkFucjdkNDVmTGt0U2tsejdBeUxBUHpmd0ZWbGpIZi1SQ2ZaUExvSjAxeXBwYTRsMUVpMkVRVExKMDcw?oc=5",
-        "title": "Tydzień po krwawym ataku. Są nowe informacje o ofiarach strzelaniny",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-14T15:40:00.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "PolsatNews.pl",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSlBpaWxyUVFiRDVqVGRBSFJqOTJhTUdvNXJBWnJGQVhKMGFxR0lrSDN1bzlLNGo2eTMweDY1OEtqdzEwN0lFcTFseFM2Ny1SZDFtQ1Zmcm5jU1RIYjVsMVhWZFNkTkh4SDRCYW5QMnpELVUxaUZBNXZsdHlJdW9oT3NXX3M0MHg4MFZDdFRuMW9vWWZlcUZTUXlUWk4yRjI2dmZlcTA0bXl1eDhreDZTNVFUVHpHOUJlbTBjU3R0SFlPUQ?oc=5",
-        "title": "Polska żegna ofiary ataku w Krakowie. \"Ten ból jest bólem nas wszystkich\"",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-14T15:34:12.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Rzeczpospolita",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNOXNZbDVsM01HeU9sQmhOaXhNSGM3aERDVDdTbU1SV2pBQnh2Q3BzMlNUUFU0VFlMb3NleUZwekJnS2NiQlRJZUxaTE02cGpZMkdRb1BMdU40QXZVWnUzei1HR1JRR3M0WlRhSEZyUmFMcFljNE1iRUh1SlJydmJmNEcyNVdSbWREMW1rdUxtaGx6cHJiMHZ5NXZBT2dKT2xJQjhiMVpUWVFlZHFITDl1SFhJZmE5ZjRaMDA4NnZmVTQ?oc=5",
-        "title": "Gen. Polko ostrzega przed zwlekaniem z decyzją o bazie USA w Polsce. Wskazuje na Putina",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-14T14:17:25.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Business Insider Polska",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQk9XNThhSEhpal9tVEZFV2FWelVzQ0xIbXpBdnVaNi1BRWo1MjB4WmxCMk5QSjR2TXRrSTdieUlMRWtvaXRrU1ZtS2FUMHpmbVRVTS1zY1NwOV9jcHJwUU1oYTR3aS1qUjlqb2JsVENJS2FxTjhWS01JT1ZydHFlTjZTdGdRQTl0WXZObEFiTFREenlCbWkxZll5ZS1mZ3M4RDVudUpoSEZIczdTUXJSRTBSLTdkYVo0?oc=5",
-        "title": "Tragedia w Krakowie. Polska wciąż jednym z bezpieczniejszych krajów",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-14T13:48:28.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Onet",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQMFVHZ28zU3M4NFE4RV9lOXVuamkzaHNUbzZCYk9WNnZHX0hiWUloTFpJRmtlOG9ZSWFUUzJaWXo4Tkl0MVl1WmlkMmJPSzdQSmtpaXZQY0xfTjJDZkVLRUN5S3NGU0ktRnZ2ZFhfSFh6eW1YQU5Bekd5VFlhUl9talVPLVBWRERFV1d2dDA3Q0szTGIyMGZwMU5PMWxwbHJKeFpXa0FjUUZySTU0N0h2YUN6ck5kazVwX0ZiNWptb04yMG5J?oc=5",
-        "title": "Wpadka rządu. Obiecali kask każdemu dziecku z kartą rowerową. Szkoły dostają za mało",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/poradniki/bezpieczenstwo-dziecka-w-szkole/",
-          "label": "Bezpieczeństwo dziecka w szkole"
-        }
-      },
-      {
-        "at": "2026-11-14T12:03:00.000Z",
-        "cat": "weather",
-        "sev": 2,
-        "source": "IMGW",
-        "url": "https://meteo.imgw.pl/",
-        "title": "IMGW: 2 ostrzeżeń meteo, najwyższy stopień 1: Silny wiatr",
-        "official": true,
-        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
       }
     ],
-    "updatedAt": "2026-11-16T12:07:36.717Z"
+    "updatedAt": "2026-11-16T22:36:05.988Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-16T22:12:33.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "JournalArta",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZEhlcF9TX2hzbmZqal8wX3VGSmZDM2V1MDNTcTVXTUk3MWF6WVNhVzIyTUJaNmwxYWtLZ1RHNmhjeG0tTVl0amVqU1prOWxDRGprcnREUjN0WkttYTUxRno3S0RGTlY2Zk1WT3FLQlNsUThBcmhIUWR5WUxWZ2lBYg?oc=5",
+        "title": "U.S. Emergency Alert Test Nov. 17 Is Not a Power Outage",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-16T19:44:11.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The National",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWUhsb2pnODdZNmUya1pnTkFma1Rsb0ozYnVkNGRzd0M0Q0VHT2xuVHhkaFc1NlREdnBiT2d0aW1oTjNRXzVOWkxnRmdzX1pvcmx4dWRIQmJySzFSOG52ZHZ3S0FpWTZOcFllRFRaaTg0ZEFsam8zdHlkME9rdFZGbWdxaVZtMDB6THQ2aGdCaEdLZjRMeTZfNURNZEUyWGoycVBkTg?oc=5",
+        "title": "Middle East latest: Pakistan awaits US response to latest Iran proposals",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-16T19:20:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "LIGA.net",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcU1LNGg3elpXMjhTRGVwczZ1N3BVN0VldzhpWlVQVW5OYmN0TkQteTJRNnl2dlFJSUVPOWNoWndTQ09VeHhLRlN2cGloaklZR3B5SjRoTDU1UXktZzRLSnhfQm1ONG5kUDBodVNmQW9RVXpGd0hfMEhVZkdpQUpycGtpU2otX3JmV3JmYzhSZjJCbTVCb2Y5YXdJc1AxOV9pajF1cmh6WdIBrAFBVV95cUxOOS1HZXJWSm5HMWtLcm5oLWV1N25TdkdKR1R4SGlSREY1c1p1aFdYd0M5VUwxZ2M3c3NEYXBsd3k1NmtiSS0zZzJ0eVZ1S1VZeXI0aFRRamV6OTdpWk5CWFJHdl84c1l4UGxJWHNBZ1o5cThheVFVSXJPdlZIM1RvcUNnVWhQMnJzZmJ3ZExEZEZNQjZlaUxyV3VNTGtrVjVMNGJXa01WaDVpVDVQ?oc=5",
+        "title": "Zelenskyy urges people to heed missile warnings on November 16–17",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-16T18:49:22.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "ИФЗ РАН",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQ0ZkTFJkNVdGbVZaSmhTUEFFT1Q3M2tQRE9lSm5jcFMxRzZ1VGhQcmpOVllnSmlrbk5JSUU4ZDBuQ3RFRnh4Z2JHWklGRkZWdVR0bkU1ZHBBZ053YURkWlRVZGwtQnU0aW9jUmZ0T2pCNUZSOGhPYUl2dmRmZW9ST29hZW9JWTd0emVHekJKa2s2aW5CYTlvTmZR?oc=5",
+        "title": "Why The Supermarket Fridge Cyberattack Changes Everything We Know About Infrastructure Security",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-16T18:00:00.000Z",
+        "cat": "disaster",
+        "sev": 3,
+        "source": "GDACS",
+        "url": "https://www.gdacs.org/report.aspx?eventid=1001351&episodeid=1&eventtype=TC",
+        "title": "Tropical Cyclone AKVAN-26 (Orange alert)",
+        "official": true,
+        "forYou": "If you have family in the area, check in. Review your own evacuation plan."
+      },
+      {
+        "at": "2026-11-16T15:58:54.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "EnergyNow.com",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUmRjOW5iTlYxTE5NSkNHZlRTZXJRWXBZTEJMZ0FyNFItWWtPV3pmWUdnVTF0M2JzMmxOTmMyMU5MMG1nM3VJcnk2OS1OMXBrS3IxbTBvVVZVb1N0S2F6M1ZSS09kT18yOWZvZUh1MEdWSzlhTWw2TlAxWmpHcGZOZEN0U0haVUNBWHBPeS1ZNzVzYmlBZkMxTmFkb25vbERIeUx1eDBSeHNoUkVSUjVkc1dZeG8yYUZRbFJoTA?oc=5",
+        "title": "Fujairah Oil Zone Hit by Fire After Drone Attack as UAE Says it Intercepted Iran Missiles",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-16T12:01:29.000Z",
         "cat": "energy",
@@ -250,16 +306,6 @@
         "source": "Komani News",
         "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9zaUtrbXBaZFNRcW9SUTRhdHJhRzJjTHlPYnR3cGJaZlptWDBZMXRsZ1RnZFl1UHoxQzN1MTVVZHlmZlJsTWVvWlRRai12Q1dKOXRtVzNZQnhycDdfaExaeTVOQjRXMEZMbjNBU1phdkRzWnJGWG95NUkzYmt0QQ?oc=5",
         "title": "Widespread Power Outage Hits Buffalo City Metro",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-16T11:54:21.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "Report.az",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWVBYYXN4R3BRRE5NaUpLR19RNDdISkRFa01kcjUxQkxKTkdBN1Q4VmFJQnhfUzFoRjdoZExHSFl4enZPcnowZlluandMMDktOTJETTZnUHFvRWd6M0I5X2k4c3ZHdUJjSlJqRkJFUjdSZkUxVmFQbWFYY1hUZ0pZbEczR0JXY1ZyMDlERU9DZU83LVVPWEtEaTVVUWhGdEhoOW8tR0V1RFAwaXRwemJmZEViNGFMVjg?oc=5",
-        "title": "France seeks EU sanctions over cyberattack on French supermarket infrastructure",
         "official": false,
         "forYou": ""
       },
@@ -290,16 +336,6 @@
         "source": "ProtoThema English",
         "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxONTh5NXpYQ0x0cVBtNUpERFNjRVlZRHRwR2tHbG80Q1FQTzZYTGNiSWVMMmNObERtYUpjUU04OW9QNUszcXpOcTVVTkRRZ0lfMV85bFJVRkNGdjVRc0M5THlXSjBfc2Vxb2JrQVpJQ043VW9sdXF4em5mYXM2Z1ZFcUh6LTZRV3U5RmxrQXA4RTJzY1RNaGlNOHVFN1E5eWFrczFTU29FcEpSZkg5VnhBVkNGekJCUWlqWmtmZ0RzYjI1NGkycExfR0NmU2FLRldVT05GOTJB?oc=5",
         "title": "Iran has up to 2,500 missiles in its arsenal and threatens to strike Europe, Wall Street Journal reveals",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-16T02:17:08.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The National",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRWFZVVhzUDVtSFIwNTY3QjZWN2NIRzJXVmdMWEc4ZEtKQlpQb1NBZ2VnUGxtaFZtc1IyLUZ0ZGFXZUtaUEVsd1lSNG1vSmF0Sy1KRndMcDdSYTdYaWI0ZXowSEwzLUhRN0ZKTVlhZ2ZiT2M1RTRwMEF4dEJQVGY4aExtUnF5T1RQLTlOMHdsLTVUblN2QUN1SXhmZ3hjZWV1?oc=5",
-        "title": "Middle East latest: Bahrain says it intercepted Iranian aerial attacks after nationwide alert",
         "official": false,
         "forYou": ""
       },
@@ -402,48 +438,8 @@
         "title": "Israel fears surprise US strike on Iran as nuclear talks fuel concerns of escalation - analysis",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-14T17:50:07.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Breaking News, Latest News and Videos",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWDlHRmd2UzVIcC02dS1GZ0JVMGZGME8zVlpBNF84TXZaWGpmU1RMdXBuVlFjRzFJS1NyandyTE1UQ2NmdmNYTUFCbDN4OTlKUlJfaWtVa3hTQTJ1TzM2R1NLb0c3UEVjbTl2YkwxUUJCYnp6cjNzZG1jem9hajhNQzRkWTd1dmwtdVZlaXFPTm1tclVhWmNPWWxNaUZOcVnSAaQBQVVfeXFMUG1CZktpZXBQRGNON3hBQXR4N2hnTkV3c2o2MC1UdnlSNVpIaHNtMWRtYVhPc1dadnNNdXpUWjRFaGJMS1BKb3puUUQyOC00akRwR2YzM1AxLXUyNTZwYm9NTHVfeEh3Y2JLenNab1BCcHNnRWVlWFF4OEtISUZ6bURjNTl6c0F0N2dJeEExbm1PemJLU1VUcmpJcHZJd21CMExBVW0?oc=5",
-        "title": "US missile seen hitting building near Iranian girls' school, experts say - ABC News",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-14T17:15:02.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Ukrainian News Agency",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOU2F5VWt5WVFac3E2OUJhYnRyX3pGQnhESDZ6RXRnX0VqeUtmZ2VoWVZzY21MMW9QeE5EVEdZdU1PcERxaVVxOTV6N1MxSk0tOUZXVUJaSVlaUEdIeE90SW56d19ZTmxjbDZaV0hSalgyUGFnVkVpbDl4emFxQURxaXUtT3preDdzVEplbVNNak9taFk4RDdDWUNYZ2IyOE9MeUxDYm1CQ0JqOGtudWM1ZjdsWktlZ3BDSTV0Zmw5LVk5UDJzNDJHaXdVbkpfRWPSAdQBQVVfeXFMUGpzVENOLU1DdVM0YlE1UWVVOElsRGlTWS1KbUtzUW5ha3NCYnhodWk5Wi1xWGtNYlZUdGVQNkhyU1l2WGdoYnZBSjd6NW9pX0ppN3pOTzJGM2RTOVBIdnFhdGJGeGE3TFhmME4wTjhjT19SWlhqU2t3T0xOS1hEZTNQR1UyWGxDdmtLWVdqMmZ1YkhHc2JEeGQwanZsczVOdFZiMWM2Rkc2NXpMeHNrTllBeHZpRER2dTZ0MVFsV1JzS0JnckRnM3FIZHFwdk1qeWJGTjI?oc=5",
-        "title": "Invaders modernize their \"Iskander\" missiles and want to cut Ukraine in half - media reports",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-14T15:05:56.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Kyiv Post",
-        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBNYzRxSXl3ZWpGcXB3ckZ4ZGlYT0g3NHE0SFVybkZqSlVlUHpBdlJ3SHd0WWVrWlk2MnNSbVFVdU5EeXBVQjJCSWlKWQ?oc=5",
-        "title": "Russia Uses Upgraded Iskander Missiles With Terminal Seekers to Hit Kyiv Bridges",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-14T14:24:52.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "Ukrainian News Agency",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQTmV3b2VYejB5Tk5YUFAzVXhJVWxpSUVPT0dnSmxQUVBvU255T3BMZ3BJOGtmWG5xRzJKOXc3M0dqNXlTN3Q2ZmFBM0NQN3RGRFlCc1phelF3eTNyVmdqd3NwRTgzaGstajNEMFd3QWJGaDNXeGx3bm9QLUdWRHBYb24xX05zNng4Um5DaWxUbVgySllhdlBrZnpuTG1hSXVGd0VwbjR6TXBaSlc4TkthSHVLeTRvQjBkNTJpQjhlNUhTX21ZRzVZQncyT0t1VmfSAdQBQVVfeXFMTlNXYmVKbTdrX2F5eWJiazhiNkhPN2loTnpNS05RWUwtX2RmNEpNM1R1XzRrQTNnRkd1QnBCX2ZFNUFmRVFZRVB6SllLUmI0VTlJWTJ3R0VqR3ZlRDFuaGsyZ1VHSGhpamxFbUVzX28tRllkZHFvUGdrdnMwLXg3RTR5d3J4TlBuT0htTUxlRXVfUTVxVVBWdzdvaUtWT1F2NnQwd0VMZ1pBMW9wNUZCV1BRbXBRU0xBcTJhN3hMbnFBWWxHNDdaYW9yR2xzdjI2Q1RtN1U?oc=5",
-        "title": "Air travel resumes in United States: Trump does not believe disruption was caused by cyberattack or AI",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-16T12:09:20.771Z"
+    "updatedAt": "2026-11-16T22:37:15.086Z"
   }
 }
