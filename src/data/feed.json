@@ -18,6 +18,34 @@
         }
       },
       {
+        "at": "2026-11-17T04:48:50.695Z",
+        "cat": "energy",
+        "sev": 3,
+        "source": "PSE",
+        "url": "https://www.pse.pl/",
+        "title": "PSE: dziś zalecane oszczędzanie energii",
+        "official": true,
+        "forYou": "Ogranicz zużycie prądu w godzinach szczytu, naładuj powerbanki i latarki.",
+        "guide": {
+          "href": "/pl/poradniki/blackout-jak-sie-przygotowac/",
+          "label": "Jak przygotować się na blackout"
+        }
+      },
+      {
+        "at": "2026-11-16T22:03:36.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "WP Wiadomości",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRVlZeW1lRWVFVlVBcTFNbzRMWGpqTXJvMlllMlZTZzRteUxmMHluMWwycnRYalJxanJiQTdqZm43ZUlFVzFURmZhSnB0YS1pdzMyZk9iamtCa1pacDZxMzRORTJ3OGdpX1d6ZGQyeFo4VldFNWt0ZG5qdk5ETlNWeFhYbGV2NVVtYmJmYWEzbjFpOV9UTlZSOXlSX3ZRcmN2cUZlU29OUQ?oc=5",
+        "title": "Nocna ewakuacja w Tatrach. Zaginiona turystka w ciężkim stanie",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/poradniki/plan-ewakuacji-rodziny/",
+          "label": "Plan ewakuacji rodziny"
+        }
+      },
+      {
         "at": "2026-11-16T16:27:42.000Z",
         "cat": "safety",
         "sev": 3,
@@ -138,20 +166,6 @@
         "forYou": ""
       },
       {
-        "at": "2026-11-16T03:15:23.153Z",
-        "cat": "energy",
-        "sev": 3,
-        "source": "PSE",
-        "url": "https://www.pse.pl/",
-        "title": "PSE: dziś zalecane oszczędzanie energii",
-        "official": true,
-        "forYou": "Ogranicz zużycie prądu w godzinach szczytu, naładuj powerbanki i latarki.",
-        "guide": {
-          "href": "/pl/poradniki/blackout-jak-sie-przygotowac/",
-          "label": "Jak przygotować się na blackout"
-        }
-      },
-      {
         "at": "2026-11-15T21:59:32.000Z",
         "cat": "security",
         "sev": 2,
@@ -222,23 +236,53 @@
         "title": "IMGW: 3 ostrzeżeń meteo, najwyższy stopień 1: Silny wiatr",
         "official": true,
         "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
-      },
-      {
-        "at": "2026-11-14T22:12:00.000Z",
-        "cat": "weather",
-        "sev": 2,
-        "source": "IMGW",
-        "url": "https://meteo.imgw.pl/",
-        "title": "IMGW: 4 ostrzeżeń meteo, najwyższy stopień 1: Silny wiatr",
-        "official": true,
-        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
       }
     ],
-    "updatedAt": "2026-11-16T22:36:05.988Z"
+    "updatedAt": "2026-11-17T04:50:04.479Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-17T04:19:23.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "PopTV Culture",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5PcGRSSXBqc3NlWDNQeWV0VEg2WTI0SXcwOWxQR3RvQlhoYXpGY01nUEtaRFJJRlA2V3F4Y0t5c3k2SGNUd2RfUkhtV3R3SmFoLWE0NjFHWmFySHZsZUlDWkFKYjA2WTdEMExPRW9QM0o1NXJmOUE?oc=5",
+        "title": "Has the US Ever Had a Nationwide Blackout? Biggest US Blackouts in History",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-17T03:43:23.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Firstpost",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNWkdRN2Z3cWQ0QmlpdFEzUk9TVm01U2Y5U1c4U2trWTF1Y3ZwSkZLVlZkaHZuNlkwYWI3azhBOGYyc1Nhc2oyeVQtMEVSWno0dUlWa1JYeFg3dlg5SkhzazhOazhPdWJGd3hZaFdHWUdIQkY4U1Y4WTJ1M0pYVkhKUVBvTTE0bnhVVEloTnJfbmdwdWo1SFFnS3JianVYN3lTbW9ka1pZNjRQcFlqN3hScjd1anhacmJKaDB4bDJOel9ydUZuQk94VkR5QklSQ3k1eGMwMHRR0gHbAUFVX3lxTFA1QkY4S2hpNk9DdGZ0VUY3c3BGUUJ3YUNSWmJyM0VNLTFRbkROeXlCbzg0WUFHNHNueGY0NGdPVlJwamdtbkJOb1FfMzFIWnNwZE1wTDF2b1NOWGpCaVloT1pHc0hoU05rUzV0eEJuMlczaUFVUTNLNmVIczBDSW9jUEl2aTJQWWJITHJfUHZRTzJJR3dZMTJUd3hqODNUY29sVmVRMUw1eWlGai1DelJDMnVJd19Dcl9NRWg4eXNwaUE1c3FEZWtkQWZHM0NoNTRZOXhpV01pb1ZNQQ?oc=5",
+        "title": "Bank outages in US after flights and Microsoft disruptions: Is it a coordinated cyberattack?",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-17T03:20:23.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Around Prague",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQlBHMkVqVGNmaTVaZXQxOEhwbzNNMjVDM2pnVDQwVjIzN05oTjJXUExQM0o4aF9CV1I5V2ZqWEhfMzNycVlOV0FON2RuRTkxZlM2ZF9jZmdZcloxbjVXbW1icE1pWTlnNWpoWkxQcS1WeWRiNUdyN3RpQXk3aXNkWjNFYXZVdWpFSkJYQzVzQ3ZhNXkxZFRaZWhJUWFuOVZBVUZISGZ2S3FPZE5TQkVfeVdzTQ?oc=5",
+        "title": "Zelensky warns Russia is preparing a new missile strike on Ukraine",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-17T01:46:45.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The National",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWUhsb2pnODdZNmUya1pnTkFma1Rsb0ozYnVkNGRzd0M0Q0VHT2xuVHhkaFc1NlREdnBiT2d0aW1oTjNRXzVOWkxnRmdzX1pvcmx4dWRIQmJySzFSOG52ZHZ3S0FpWTZOcFllRFRaaTg0ZEFsam8zdHlkME9rdFZGbWdxaVZtMDB6THQ2aGdCaEdLZjRMeTZfNURNZEUyWGoycVBkTg?oc=5",
+        "title": "Middle East latest: Pakistan awaits US response to latest Iran proposals",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-16T22:12:33.000Z",
         "cat": "energy",
@@ -246,16 +290,6 @@
         "source": "JournalArta",
         "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZEhlcF9TX2hzbmZqal8wX3VGSmZDM2V1MDNTcTVXTUk3MWF6WVNhVzIyTUJaNmwxYWtLZ1RHNmhjeG0tTVl0amVqU1prOWxDRGprcnREUjN0WkttYTUxRno3S0RGTlY2Zk1WT3FLQlNsUThBcmhIUWR5WUxWZ2lBYg?oc=5",
         "title": "U.S. Emergency Alert Test Nov. 17 Is Not a Power Outage",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-16T19:44:11.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The National",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWUhsb2pnODdZNmUya1pnTkFma1Rsb0ozYnVkNGRzd0M0Q0VHT2xuVHhkaFc1NlREdnBiT2d0aW1oTjNRXzVOWkxnRmdzX1pvcmx4dWRIQmJySzFSOG52ZHZ3S0FpWTZOcFllRFRaaTg0ZEFsam8zdHlkME9rdFZGbWdxaVZtMDB6THQ2aGdCaEdLZjRMeTZfNURNZEUyWGoycVBkTg?oc=5",
-        "title": "Middle East latest: Pakistan awaits US response to latest Iran proposals",
         "official": false,
         "forYou": ""
       },
@@ -278,6 +312,16 @@
         "title": "Why The Supermarket Fridge Cyberattack Changes Everything We Know About Infrastructure Security",
         "official": false,
         "forYou": ""
+      },
+      {
+        "at": "2026-11-16T18:00:00.000Z",
+        "cat": "disaster",
+        "sev": 3,
+        "source": "GDACS",
+        "url": "https://www.gdacs.org/report.aspx?eventid=1001351&episodeid=2&eventtype=TC",
+        "title": "Tropical Cyclone AKVAN-26 (Orange alert)",
+        "official": true,
+        "forYou": "If you have family in the area, check in. Review your own evacuation plan."
       },
       {
         "at": "2026-11-16T18:00:00.000Z",
@@ -398,48 +442,8 @@
         "title": "Iran claims attack on US military airbase in Bahrain",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-15T08:51:20.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Arabian Business",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeGVzSjhrbUhOTTctX0ViTkJTRnFEZnkwNTJQR3gySTJRQlk3aXNwenJ2Qk1DejVYcF84dmF4WDFPd2xKRzEwazEtOEdOb05OOFhJaXZQVTd3R2lDRHdGbTgtM1JSSEMxeFN5OTlLc0tLNE55MHlHRDZNU3lOVFBDaTJwQQ?oc=5",
-        "title": "Iran war live: Tehran targets air base in Bahrain in first direct strike on Gulf state in weeks",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-15T07:04:31.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "France 24",
-        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOZzVkMWRTZnoxeVZBby1YM1I3bXVZam82eVRqODZhZlJ0T2ZYbGtMd0JmTDRDOEMxVDgtY2NxZVJqWk1xbXlES21yRkZUTXVsdUxNTWo1R094ckpJTnVuX3FjNTZBOXkxR213OC1QWmk4ZVFIS1ZMbGpveXpzTXhET3RjaTFHRl9Zc0JubnVzYWx0Qy14RWxvb1VmU0NFNUQ4RTViYVBQVE9HNzZRRkljZTdsQzNkd2VFY0lNMmRaTVNkbzNXaE85SHhod044WTlLWmMxQnRNWDFkSDQ?oc=5",
-        "title": "'Is this a cyberattack?' Grounded flights, a Microsoft outage and AI chaos fuel cybersecurity fears",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-15T02:05:11.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "CubaHeadlines",
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE81OTBJYXB1WExEYnZpUGV5MTVNNEZKdWNsOFBzT1NTTnptRHhnRzZ6SU94UnlHbFhSOTJtVlpZNkhYSzAzZUt3Q2Y3QTZHclhBWW1xU2RPMTA?oc=5",
-        "title": "Residents of Calabazar, Boyeros Take to Streets After Prolonged Power Outage",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-14T20:00:28.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The Jerusalem Post",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBLOFpzRl9MQUJDakYzbFlFLVRtXzRxdjVhT215Y0piSG9LRHJucXU1WmpzSDJXYi1zV3FyblIzWTQySzFBRWZkVnV4TEhZMDBUWE4tdjlZWGdlXzJMSmZsVXhqUldlNHN5T3c?oc=5",
-        "title": "Israel fears surprise US strike on Iran as nuclear talks fuel concerns of escalation - analysis",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-16T22:37:15.086Z"
+    "updatedAt": "2026-11-17T04:52:11.004Z"
   }
 }
