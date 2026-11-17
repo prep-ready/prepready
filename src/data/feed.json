@@ -9,13 +9,91 @@
         "sev": 3,
         "source": "Komisja Europejska",
         "url": "https://energy.ec.europa.eu/data-and-analysis/weekly-oil-bulletin_en",
-        "title": "Ceny paliw w Polsce wzrosły w tydzień o 6%: Pb95 6.10 zł, ON 7.72 zł",
+        "title": "Ceny paliw w Polsce wzrosły w tydzień o 6%: Pb95 6.09 zł, ON 7.72 zł",
         "official": true,
         "forYou": "Nie rób zakupów w panice. Uzupełniaj zapas stopniowo, a bak tankuj, gdy spadnie do połowy.",
         "guide": {
           "href": "/pl/poradniki/zapas-wody-i-jedzenia/",
           "label": "Zapas na kryzys"
         }
+      },
+      {
+        "at": "2026-11-17T11:18:27.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Polskie Radio 24",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUlk2SkhoUTlpN3BZQld6aDdTaTlzSXd6bXhCcHctXzVlVXVvVDdmQVVteDIyOXFaVjhpOENnMFlaemJzWTMxRnBZU1g2QXdZSVhndHBnM1JzUFhKMzZjcVlNWGExVkc4VXZ5bXpFMnNJX28zaEMxTy1ZM3lQdG9RYkRpTVpFRkhJbXdMTlBrVDZLUQ?oc=5",
+        "title": "Napięcie przy polskiej granicy. Nowy komunikat Dowództwa",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-17T10:55:00.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "CERT Polska",
+        "url": "https://cert.pl/posts/2026/11/CVE-2026-107190/",
+        "title": "Podatność w oprogramowaniu Bludit",
+        "official": true,
+        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
+      },
+      {
+        "at": "2026-11-17T09:44:00.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "PolsatNews.pl",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQzNGZGNoZVZzR014aUtfVC1ncWE4TWFGcE9hemdNY1dpTk94YzE0VTNEQnpLZFBOb2FRejFsT0NCeWFHQ1ZUTVpwM2UxQkx1Q1N0RjdlTVV5dHdwckU0MHQyWHJJcUhVRmJHdzJKOEhyRjRvbjlrbFFNVGhTSExFN0tPNzdKOVplOUtKVGk2eTBvQzZzV0kzVEtoWE5zY3JEcFhTRWFFMkpPRnpxTUtuanZEWDloZ3NG?oc=5",
+        "title": "Kule padały centymetry od dziecka. Wstrząsające nagranie z zamachu w Krakowie",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-17T09:09:00.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "RMF24",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQlVYLUotRHIxWHhhUG5mVGE1VUlBQnhqTFIwVkM5WElVcVBlNGM4a2RKV0JoeXlHV1VEc3RvWlR4U2IzbGJZdzFMTE9HSlNnUUtyMi12eXh2NWhyWUNSeE9kYUhaR1pvN0ExY3BuZlc0NVZOV1V4dTJDMDZmN0JPVUI5QXJEYkJYQUZ0Q0FGdmdkTmtrZnhPT0RIV3lUN3JuY05mTEVZcy00ZkhJbUd5LVI5Nm50cGM?oc=5",
+        "title": "71-latka wywołała fałszywy alarm bombowy w Warszawie. Policja wskazała powód",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-17T07:51:31.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZ3c5Y0NPSEVaNWRCUU5YQ2hGYlUxa05SMlM2aFFWVGpPdmV1OFpLY0pFTmIteU42TGttYzJxX1ZXYmQ4WDlCV2F6RXFyQlNJVlc5U1Z4OGdsRFBjVmtaTXlMREN3NldldkJuNVFXMWdqLWlQd3lHTHpITGxjXzNrVWxXQnZtR3IyZ3pnR2hUVnJXTk1SZjdTT2V6NA?oc=5",
+        "title": "Atak Rosji na Ukrainę. Polskie wojsko poderwało myśliwce",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
+      },
+      {
+        "at": "2026-11-17T06:35:52.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Polskie Radio 24",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQY1FiRkhyM0RIQVhwV2hmM1AwVjVqSWY5RGw4RWJsbGV0aGsxYnVBVXk1UlNoc01lX19mNXVXRWxFZWwtZGcwT0IxSk9fRlh2TkNYbG9Ha21odDJkeGtvNFlVTDJ5YkNmZW81RWFrRERfeEtpM2swVUVKMlZDUDZBSm4zeW1JTmdqdDVfaS1oaFR2eHJZajAwZjB6TU1KWnBuNnc?oc=5",
+        "title": "Alert RCB na Dolnym Śląsku. Mieszkańcy usłyszą syreny, jest komunikat",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
+          "label": "Alert RCB i aplikacja RSO"
+        }
+      },
+      {
+        "at": "2026-11-17T06:09:00.000Z",
+        "cat": "weather",
+        "sev": 2,
+        "source": "IMGW",
+        "url": "https://meteo.imgw.pl/",
+        "title": "IMGW: 2 ostrzeżeń meteo, najwyższy stopień 1: Silny wiatr",
+        "official": true,
+        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
       },
       {
         "at": "2026-11-17T04:48:50.695Z",
@@ -154,95 +232,73 @@
         "title": "Nożownik przed teatrem. Widzowie nie mogli opuścić budynku",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-16T06:13:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "RMF24",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUjBwdUtYTUUza1JXWUtmcjhRem9OaDhhT2lUbmVDV3NxalBTUlQwZ3ZnN1JGcWlIZllDMElwekNpVnlZTEozRE80MWg3R2hBQ0FjZmV2NHlNUDJnaVZyNmFYdGQxbTI5cWJMS0cyVzFqeklLcU1ZZVotc3liQ3pwU1dUQ01mUzlYLWMzRlpVVW5BQ1dVQkhxRTZESHF0d1hWSVNrT3Z1ZHMzcU43eDZqSG1R?oc=5",
-        "title": "15 osób podejrzewanych o sabotaż lub dywersję zatrzymanych. Rok operacji „TOR”",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-15T21:59:32.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Wiadomości Onet",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQay1xNC11YXp2N3NZZFZKcTdtWFR4aThfai1JSGRQR0VmTHA5R21YNU1sSzZxRU9MN242QVlrMHFxdl80aklYVVdqaElydmhCWU1oWG1DRHBsLXhtOThsTTBhalg1ZmlLVVNTOHd5Yl9PSURNUmUxSGJRVkdpUHdLSVlFV1FndEVaYmtaV1RPa3Zib0R6SzFVMzYwR3lER3Y4Qk9mOGtpc0trY3FQclpZ?oc=5",
-        "title": "Rakieta Vulcan Centaur uległa awarii. Stracono 40 satelitów Amazon Leo",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/mapa-schronow/",
-          "label": "Mapa schronów"
-        }
-      },
-      {
-        "at": "2026-11-15T21:30:55.000Z",
-        "cat": "health",
-        "sev": 1,
-        "source": "WP Wiadomości",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNYjRpcjZEcTJsM2NjN1VvQnBxODBJV2wxbjRuZVc1Y081VXV6RkpFSHdwODhjNFdfeV9USU9pOGxNUFZwR0NaNlcwYm9DWVVsU3NHX1RCcmZyN1pGMzg1NWNxb01ybW4yc3I3VWhjc205ZHY1R0F2SmdFSXh6aHNESUEwZDFBdWZrNHZIZ0tlaHZPeEI3amdZd21TS3hrb3N0bVNtUHAzZHg?oc=5",
-        "title": "\"Wspólna porażka\". Epidemia eboli poza kontrolą. Już 5,5 tys. ofiar.",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-15T19:20:57.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Onet",
-        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQbzBBam9lTTI1d1ZRdlc4MXRmSzlCam1NdGUyVEs1Z1liUnpwd1phQU4tMmIzUHZXY1JuRUFjdmZfZEFFak5HaUZsaXVZY2xsYXRtUWVDM0pTZ1ItUjF3S29DTEd6WWt5dlFOWFd2RHhlUG1LcFpIUmFzMks3TGNwX2dSSXB0djZNSmxINVhvbDJSQ3hkNlc4MUZRT05uQ1FXOTBVWkkwZXVYdWQwSXdVaGhaLU1yZnV1Xy1TN2RHNjQ3c0l0ZWlVenR5Ylk4aWNMek91SkZuM1c0dw?oc=5",
-        "title": "Jak szkoła ma uczyć rozpoznawania dezinformacji? W poniedziałek debata w Warszawie",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/poradniki/bezpieczenstwo-dziecka-w-szkole/",
-          "label": "Bezpieczeństwo dziecka w szkole"
-        }
-      },
-      {
-        "at": "2026-11-15T11:35:22.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Polskie Radio 24",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSHVMbUo1NVliR0FrY2Q0UzdRSnJVMWFRTTBWaGJTaHF1Mlh2V0s4RF93eWFQdXkxZUFMcG5MdnozYUk2V3RDWC0zMHZfNU9QTy11NE56d2M0d1RQV1JCekhhLWE4NGdCaHBaQTB0eXIxb0RyUXEzZmdJdHlhMmVrZWROV1I2Zk1rSjFHaU90STdiVzdwR3RZZk9CTTR0aW1KdVNkZA?oc=5",
-        "title": "Sabotaż na kolei to część większej gry? Pułkownik ujawnia rosyjską taktykę. \"Koza rabina\"",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-15T07:38:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Bankier.pl",
-        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNeXUwM2JrcG5OMFBHS25xb0thb3VEYnIyaHVXYUFxblNoQWhtUE03bTYyZThtQThJVTV0QUxLQjZTTzN6a3FjeEtXVDJ6eF9qNVlMUFREUEZEXzhlaG0tOUM5RkpydVJqNmF1bTI3X0dxOHRGRGFmSC1JX295cGlGR1pvQWhtZnpmb1pGLS1XZXJJT2xBSHRaWURuZk5aYUZISzA0dDhQZzFkVnV2WjhyU1A1LXRfQnpIdzRrUWx6NDFCSndPbUl5cDRnTlN3VUczTXM4M2p4Z0hObTgyTW9lVE41ejc?oc=5",
-        "title": "Przełom w misjach kosmicznych SpaceX. Rakieta Starship wróciła z orbity do bazy",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/mapa-schronow/",
-          "label": "Mapa schronów"
-        }
-      },
-      {
-        "at": "2026-11-14T22:12:00.000Z",
-        "cat": "weather",
-        "sev": 2,
-        "source": "IMGW",
-        "url": "https://meteo.imgw.pl/",
-        "title": "IMGW: 3 ostrzeżeń meteo, najwyższy stopień 1: Silny wiatr",
-        "official": true,
-        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
       }
     ],
-    "updatedAt": "2026-11-17T04:50:04.479Z"
+    "updatedAt": "2026-11-17T14:57:52.556Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-17T16:36:21.000Z",
+        "cat": "health",
+        "sev": 2,
+        "source": "ECDC",
+        "url": "https://www.ecdc.europa.eu/en/ebola-disease-multi-country-outbreak-2026",
+        "title": "Ebola disease: Multi-country outbreak 2026",
+        "official": true,
+        "forYou": "Usually no action. Check your first-aid kit and expiry dates."
+      },
+      {
+        "at": "2026-11-17T14:51:28.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "USA Today",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPd3hWQ1FNa0tXOEN5eXVXQWl4d2VKWk9yZkxSQkRfMzhWZ1VSNmJfRGh6MUZWQlhpTk1MZ2VOTHlCOEtiSW5Zbm1hR3puUmItejc2SFE1Tk11Z1l6YmNJOEFVN1V2aS13X3RmeG5WVlR0ZEdOcWpuZ1JiZXhhSFBMdkxCUWxWOVd1V0R1dkN6dkRSZkZIakV6ZENqd3A4WHJGYldFQTdTOXk3dHVQ?oc=5",
+        "title": "Emergency alert test sparks rumors of a blackout. What's going on?",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-17T14:08:02.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Just Security",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5lY3JmVkJtaG9SYVlNVU9LTXBWMGRKd0oxYUlZdEFpZW5pTHJlMW9pQ1BSWVdIVzhneU1CX2Y3d2EwTXJraThSSy1TZlVMb3Q1aFpNV0JGWmhNWGlWbzRmQVJFbEYxLU01MUpUZlJKSWdZalFXT3NhRGJDNA?oc=5",
+        "title": "The United States’ Missile Strike on Minab’s Shajareh Tayyebeh Elementary School: Part I",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-17T14:01:04.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Medical Daily",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQR0VvM3hnUGE1eWotcEdTdVYxenlvZHR5cnNrYzJJdUxXRllkRy1JWTFDckVwMVhyRjJuZGkxUFQ5R1Nfc0ZvZVpIWWZvUHM0S0RUQVU2Y3BhTU04ZFF2SjRwOGNDd3hPWFJJM2hVMlQtVGxMbzBxelY0aUw4S1JOQ0U5dlFKbkF1V3NFc1cxWQ?oc=5",
+        "title": "Kazakhstan national accused in ransomware attacks on hospitals appears in U.S. court after extradition from Italy",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-17T13:17:41.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "NZ Herald",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUmcxTll0WGN1R0syTzlfVVFnemVieWtia0xUZXJ0VzRkajZud1JEUXdxUG1wbnZ5QUt4YVBRNFk4MDBzenkxNkhzY3FOTTFpQlJ2Nm02MDRFcVlPb21UM1BLaVZGbGFHb2NxZ1JoaGRpNVJMVVY2WHhFVmtZdjBKNWlRRW9vM1V5Y3k1SzBjVXN3Unp4Z3FicmlBM1FXTFRndFhSNEFqMnVUTmxjTjIxWU5mUQ?oc=5",
+        "title": "'War will always return': Zelenskyy hails Crimea bridge strike",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-17T11:45:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Українська правда",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1oTUtBSERDMy1hMHNvS2N6WkxGc0RrSWdGV0dBRi1HUmN1a2lVOXBUUlg3dTlvaVFqaTE3N0QtVkhvVzBIVk9DMFd2QTRyanlnWTRvQnlBWjloSzlZQkdkOW5acmlQcTNLSUJqenBDeEfSAXBBVV95cUxNaE1LQUhEQzMtYTBzb0tjelpMRnNEa0lnRldHQUYtR1JjdWtpVTlwVFJYN3U5b2lRamkxNzdELVZIb1cwSFZPQzBXdkE0cmp5Z1k0b0J5QVo5aEs5WUJHZDluWnJpUHEzS0lCanpwQ3hH?oc=5",
+        "title": "Air defence downs 3 missiles and over 200 Russian drones: Impacts recorded at 44 locations",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-17T04:19:23.000Z",
         "cat": "energy",
@@ -318,6 +374,16 @@
         "cat": "disaster",
         "sev": 3,
         "source": "GDACS",
+        "url": "https://www.gdacs.org/report.aspx?eventid=1001351&episodeid=4&eventtype=TC",
+        "title": "Tropical Cyclone AKVAN-26 (Orange alert)",
+        "official": true,
+        "forYou": "If you have family in the area, check in. Review your own evacuation plan."
+      },
+      {
+        "at": "2026-11-16T18:00:00.000Z",
+        "cat": "disaster",
+        "sev": 3,
+        "source": "GDACS",
         "url": "https://www.gdacs.org/report.aspx?eventid=1001351&episodeid=2&eventtype=TC",
         "title": "Tropical Cyclone AKVAN-26 (Orange alert)",
         "official": true,
@@ -372,78 +438,8 @@
         "title": "Middle East latest: Tanker struck by unknown projectile in Strait of Hormuz, UKMTO says",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-16T09:04:17.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "ProtoThema English",
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxONTh5NXpYQ0x0cVBtNUpERFNjRVlZRHRwR2tHbG80Q1FQTzZYTGNiSWVMMmNObERtYUpjUU04OW9QNUszcXpOcTVVTkRRZ0lfMV85bFJVRkNGdjVRc0M5THlXSjBfc2Vxb2JrQVpJQ043VW9sdXF4em5mYXM2Z1ZFcUh6LTZRV3U5RmxrQXA4RTJzY1RNaGlNOHVFN1E5eWFrczFTU29FcEpSZkg5VnhBVkNGekJCUWlqWmtmZ0RzYjI1NGkycExfR0NmU2FLRldVT05GOTJB?oc=5",
-        "title": "Iran has up to 2,500 missiles in its arsenal and threatens to strike Europe, Wall Street Journal reveals",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-16T00:49:52.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The New Arab",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPdU5ySmxIa1I1UkdaaW5LeEF4N2NBYXloZHpiaUhJMmtibWNPQzhxbHhpTkZRVmRUY3hHY3JvTnVKWTNUTlNubVhDekJ1Uk50bHZtcGFIc21RV0pMWkRPSnZCZDc1NXk5RUx1cDhwOGtJeEt1alpaMTJtYndsRTl4LXA3ZmdNU054X3c?oc=5",
-        "title": "Houthi attacks kill eight in Yemen, strike Riyadh airport and financial centre",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-16T00:23:57.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Nacionale",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPR3RPT1J6QzZmUmFnRjNjb2J0MnUwWFg3WkF0WENyNXcwbGFCRU40WFVkb2xPelNPMklzWldidDZmZFVkQVVkTTBjWktFU1hiTVZsaVpZd3p2TnpKQXhkdGRPVmdRNFk3WVVOUmkyZ1NDMEFOb29kQS1mRExDUU9LY0Z4Q3NCcG9WM19rOWszQ2M4cUpCWmlSYm1JelhWYWItbGdvSkY4MmNJRHVRY3ZJMVRaWHU?oc=5",
-        "title": "November 17 brings a nationwide TV and radio alert test, Nvidia earnings and Red Cup Day, not a blackout",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-15T22:25:11.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "Pluang",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdlJ5WlNDTjRrREJDbmJSUHhPRld2U3I5SnNDR3k1T3ZXMjVKZTVOUEFVd3lOYVd0YjJnN0lqQnRld2tFSWFWTkphTDNzYm5CeUtfX21ZSlJmUHgzUFB3WnZLSEVDaEJSQ1JTWk5lR2tucXZJOXRzTUdCdkhwUXNJbUs4MTFGTVZ1ekFWSnZhbzhyUUpqMndvWnNZRUQ?oc=5",
-        "title": "New AI-assisted cyberattack targets Bitcoin min...",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-15T18:50:27.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWGo3OGMxN1ZNYy1FT1NCeF9OVHEyVjJjTlpJVzJHV2Ezamt3MFJkMDc0aUJlLUp3alBQZ200M2VRNWp3NXNkSllocERrOGxWUVBZNEp5VHkxVHJqcFVGeExLUWk5c2QxbHJsWVZIQnp1RFhULXktVHJQb3Nja3dWcFpkTWNZM1JhUGd3MUdSREpCYlJTSGw3TUl5UFFoR0tqWWxyTTdSZk96Z9IBrwFBVV95cUxOYlBrSExJX0JtT1R4MTlVUzVLVFFlZUllUFZmR29fNnNidkEwaFF3SEpkRDdKTDhsWUlTYURSdHBRd1E2V0pKZGRfbWpLS2hiZlEzUTc0SW1wT0JxMzRaMDlicVVQcXVJeGtRcGl1Y2hodkZ6cC15R095ckpuUU81RUJTd3FwSG5qNTRyN1piRlJPWF9rcjVKTnJwNldseVYyQ0VMYjdDcnZPRXljclo0?oc=5",
-        "title": "Saudi-led coalition intercepts suspected Houthi missiles and drones",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-15T18:09:18.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "NDTV",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNd2FJbFZ3X0VLaFNsYVFoQ3pvb1hYMmd3aG5UalJWaEQ2QWhxWGJqeTRlOTBuREdSX29STTRwUjF0U0h1cmlLSDEzYUZpMTFmVWZYY0NwZXhUaW1rSmlnY1JiWXkzWnZVX003dk5hQ0R1ZTJIOXlLX0N5WVRIODNXUlE2YTdTeE5kNHo0WjZYOThLd3F6TFlnWkRrRkoydk43NWcyNXJCeVoyS1NPcWxuYUZCYWZYN1dhOTZaR3RJSXBSdw?oc=5",
-        "title": "Video | Yemen's Houthi Rebels Release 600 War Detainees Captured In Latest Escalation Of Fighting",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-15T09:57:35.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "France 24",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQc1c4aEZGVWxpWDlYajhJZXFCbTBRa0NTTlZDWEpBMWNacEw5aEFOUnZGLTVGMXVlZkFVOEwzSEFFZXo4SW1nc0E5dUQzYzVqZmx5WXpBNlRERy10Uk1WdFd3S1VkOXFvUXg3VlF0ZFBlM1ZXMU53WXdVT2VKZG14ckNoVF9mWXdRckdxc1N2SWNETmo0Nzd3alA2YzNsRnNwVFdv?oc=5",
-        "title": "Iran claims attack on US military airbase in Bahrain",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-17T04:52:11.004Z"
+    "updatedAt": "2026-11-17T14:59:15.656Z"
   }
 }
