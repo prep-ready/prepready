@@ -18,6 +18,30 @@
         }
       },
       {
+        "at": "2026-11-17T22:21:00.000Z",
+        "cat": "weather",
+        "sev": 2,
+        "source": "IMGW",
+        "url": "https://meteo.imgw.pl/",
+        "title": "IMGW: 2 ostrzeżeń meteo, najwyższy stopień 1: Silny wiatr",
+        "official": true,
+        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
+      },
+      {
+        "at": "2026-11-17T15:12:30.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "InfoSecurity24",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNWGJMZndveUZfMGU4ZXEzcDlCT0RKaU1YX1dqV05wVDVkU2ZlcjFkdGZxTUpPeUZMZkNlQTRhQlozMDlqVDBNRnlHdk1tN29SaHNpUnV2bWhCallpQVRxU2RKSHpOTDdPMTFrSFFVLTctaDlOOFJfb2U2bklyWEdJY1JUNk43ZEd6YkRLbFpqTUZWS0FTa1dUTlFQMUZFVDFaa2tTRGpZc3BGTjRfVEhKeW9UTVVxMjU1aFBxRDQ1Q2NHYVdkSVg4djlEa2JKTEVSVjdkbjNDdw?oc=5",
+        "title": "Ostatnie szlify polskich planów ewakuacyjnych. Chodzi o współpracę z państwami bałtyckimi",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/poradniki/plan-ewakuacji-rodziny/",
+          "label": "Plan ewakuacji rodziny"
+        }
+      },
+      {
         "at": "2026-11-17T11:18:27.000Z",
         "cat": "security",
         "sev": 2,
@@ -86,16 +110,6 @@
         }
       },
       {
-        "at": "2026-11-17T06:09:00.000Z",
-        "cat": "weather",
-        "sev": 2,
-        "source": "IMGW",
-        "url": "https://meteo.imgw.pl/",
-        "title": "IMGW: 2 ostrzeżeń meteo, najwyższy stopień 1: Silny wiatr",
-        "official": true,
-        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
-      },
-      {
         "at": "2026-11-17T04:48:50.695Z",
         "cat": "energy",
         "sev": 3,
@@ -121,6 +135,20 @@
         "guide": {
           "href": "/pl/poradniki/plan-ewakuacji-rodziny/",
           "label": "Plan ewakuacji rodziny"
+        }
+      },
+      {
+        "at": "2026-11-16T19:55:23.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Radio Zet",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVzJGYWE5ZTI3RzYzeXU3UHp3b2pycE5SOXEyblg3TFl0RjdSeUM1TVJUTHJPRW91SlQzbmJqMFgta3lpOVhyY1hKUnpYRGtBdENORG5tWHhHUjdpbUxKQUZhT1U2MmM5dHVHSy1CblhYelRnUjNyaVJyM2NwVy0zWjAxN09lSl93NHpXQXhyN3h5ZkdnY3BvY29XdEFVTXZNdEducUM5S3RRRERf?oc=5",
+        "title": "Groził masowym zabójstwem w szkole. Policja zatrzymała 16-latka z Rosji",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/poradniki/bezpieczenstwo-dziecka-w-szkole/",
+          "label": "Bezpieczeństwo dziecka w szkole"
         }
       },
       {
@@ -212,33 +240,43 @@
         "title": "Cicha epidemia. Psycholog: dzieci nagle zrywają kontakt. Są dwa powody",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-16T07:04:38.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "TVN24",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOMjhKdjI0VDNhcXZmd1JxdlNzeVJuYXVHS0pLWXZINXBwN2RLUnlmNGlyNU1vckpZanc1djBGQVpuVnFoTTF5OTlWel82NHAwLTI4T1c3X1lSWFNSRENqNWJxclJ6X1RWVjBhdncxXzNMQ3lxWTllMXRBRTQtVWdWWW53?oc=5",
-        "title": "Nożownik w pobliżu teatru. Szybka akcja policji",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-16T06:17:40.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "WP Wiadomości",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNnUxZWNsSm5MNk8wa1hCRUZDeHRLMjBpRVRKZGFsdU1xcjY0ZmZhb19ZMVFLYXE5NnNpLVBEa0JoY01PSlpsenFYeDlLaGQwMzJKaTJZSTg2MUk5WDlHRklZU0k3TDNSeDNqTVk4WlZXOFNjcnVVOVBuRF9EUUpqam1JYk5QQllmTHpKOFV3bDh1SkVUU3JpQnhuNldQNHZXM1E?oc=5",
-        "title": "Nożownik przed teatrem. Widzowie nie mogli opuścić budynku",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-17T14:57:52.556Z"
+    "updatedAt": "2026-11-17T23:13:51.487Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-17T22:12:32.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "The Sun",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMUxxUk1CaGs4ZkQtdVJiRFFKNl9lM2EzeFN6WGg5aFE4RHVYSDBMaUhkY1VVM2EyOXdpbHNqM01pWTRzRlZkZ0o1M0lnRVEtYWJnbmcyTG8xZWlUUDBKaUx6a0VDMFRJSFZ2b0V0QmZvVzJwcW1PaXdieUo0NVNiOGtyeGM?oc=5",
+        "title": "AI built my Doomsday to-go bag as 90-day blackout panic rises – but it won’t protect me from the most dangerous threat",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-17T21:54:00.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "KATU",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNeDRiNjRmV1p4clhPaWRNOFRSaUM5Zll3NHNaLVNBa0tSZUt0SXdzQ3FjV3VYa1RLX2x1VGd0QUJ4UGx6WjRIQm5JX1hEZlp3SU9tSlV6eFUtNC14VC0zcXZSYzE4Vko2cElyTV9WdnVFemdhQl9rbVo3UDJKMC1ES3VEZmJ2eFdrNVEwckgzOVZLQXlrRERYVGlqTGRuZy01ZnpPVnRRVktuTElwM3B5TWs4bXZGSDVzNlVfTGFxTGh5N1NOOTMzSlRRSEVNbHM4YWUwaWg3bGUwSzA3LW9vZDBwZTJiZw?oc=5",
+        "title": "NSA says classified network experienced temporary disruption during routine maintenance",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-17T21:24:35.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBSRU00UVItWVBVOXhnT1ozc2E0NXk5V3VNTlN4eERVeGVRRlJKc3dHLUMxbTRISm5RbEhoeEJUdEhCbldiU0txRExramJVWF9OcVdIV3dBOEo3czA?oc=5",
+        "title": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-17T16:36:21.000Z",
         "cat": "health",
@@ -276,16 +314,6 @@
         "source": "Medical Daily",
         "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQR0VvM3hnUGE1eWotcEdTdVYxenlvZHR5cnNrYzJJdUxXRllkRy1JWTFDckVwMVhyRjJuZGkxUFQ5R1Nfc0ZvZVpIWWZvUHM0S0RUQVU2Y3BhTU04ZFF2SjRwOGNDd3hPWFJJM2hVMlQtVGxMbzBxelY0aUw4S1JOQ0U5dlFKbkF1V3NFc1cxWQ?oc=5",
         "title": "Kazakhstan national accused in ransomware attacks on hospitals appears in U.S. court after extradition from Italy",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-17T13:17:41.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "NZ Herald",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUmcxTll0WGN1R0syTzlfVVFnemVieWtia0xUZXJ0VzRkajZud1JEUXdxUG1wbnZ5QUt4YVBRNFk4MDBzenkxNkhzY3FOTTFpQlJ2Nm02MDRFcVlPb21UM1BLaVZGbGFHb2NxZ1JoaGRpNVJMVVY2WHhFVmtZdjBKNWlRRW9vM1V5Y3k1SzBjVXN3Unp4Z3FicmlBM1FXTFRndFhSNEFqMnVUTmxjTjIxWU5mUQ?oc=5",
-        "title": "'War will always return': Zelenskyy hails Crimea bridge strike",
         "official": false,
         "forYou": ""
       },
@@ -374,6 +402,16 @@
         "cat": "disaster",
         "sev": 3,
         "source": "GDACS",
+        "url": "https://www.gdacs.org/report.aspx?eventid=1001351&episodeid=5&eventtype=TC",
+        "title": "Tropical Cyclone AKVAN-26 (Orange alert)",
+        "official": true,
+        "forYou": "If you have family in the area, check in. Review your own evacuation plan."
+      },
+      {
+        "at": "2026-11-16T18:00:00.000Z",
+        "cat": "disaster",
+        "sev": 3,
+        "source": "GDACS",
         "url": "https://www.gdacs.org/report.aspx?eventid=1001351&episodeid=4&eventtype=TC",
         "title": "Tropical Cyclone AKVAN-26 (Orange alert)",
         "official": true,
@@ -408,38 +446,8 @@
         "title": "Fujairah Oil Zone Hit by Fire After Drone Attack as UAE Says it Intercepted Iran Missiles",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-16T12:01:29.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Komani News",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9zaUtrbXBaZFNRcW9SUTRhdHJhRzJjTHlPYnR3cGJaZlptWDBZMXRsZ1RnZFl1UHoxQzN1MTVVZHlmZlJsTWVvWlRRai12Q1dKOXRtVzNZQnhycDdfaExaeTVOQjRXMEZMbjNBU1phdkRzWnJGWG95NUkzYmt0QQ?oc=5",
-        "title": "Widespread Power Outage Hits Buffalo City Metro",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-16T11:33:34.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "UNITED24 Media",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZGItdEl6UENBRVRlZjlDODRFSlFLeHN0VGVmUEhrRERyLWlkeWFNWmlVbTdaUjIyX3RaX2pvZm1WSnB2MWduOEpnT1hXcXhFUGhXaDlUczNqc0JHZHhDY05rNkF4em92M0xuRXJzV2VUNThtUVNQdWFpdF95STlEVnltUDBBT0hFUnk2VHVyVzFfSm85ZHFONjNVNWw4OWlNaURJRkNCTTRSRXVJV1Z1c3U5cTBja3o1a0lhZmRUNVpzdEhobGo1TVhR?oc=5",
-        "title": "Russia Claims Ukraine Launched Largest Drone Assault of the War With Over 2,000 UAVs",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-16T10:24:21.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The National",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWUhsb2pnODdZNmUya1pnTkFma1Rsb0ozYnVkNGRzd0M0Q0VHT2xuVHhkaFc1NlREdnBiT2d0aW1oTjNRXzVOWkxnRmdzX1pvcmx4dWRIQmJySzFSOG52ZHZ3S0FpWTZOcFllRFRaaTg0ZEFsam8zdHlkME9rdFZGbWdxaVZtMDB6THQ2aGdCaEdLZjRMeTZfNURNZEUyWGoycVBkTg?oc=5",
-        "title": "Middle East latest: Tanker struck by unknown projectile in Strait of Hormuz, UKMTO says",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-17T14:59:15.656Z"
+    "updatedAt": "2026-11-17T23:15:59.229Z"
   }
 }
