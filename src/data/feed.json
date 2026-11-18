@@ -4,18 +4,58 @@
     "sample": false,
     "items": [
       {
-        "at": "2026-11-09T12:00:00.000Z",
-        "cat": "supply",
-        "sev": 3,
-        "source": "Komisja Europejska",
-        "url": "https://energy.ec.europa.eu/data-and-analysis/weekly-oil-bulletin_en",
-        "title": "Ceny paliw w Polsce wzrosły w tydzień o 6%: Pb95 6.10 zł, ON 7.73 zł",
-        "official": true,
-        "forYou": "Nie rób zakupów w panice. Uzupełniaj zapas stopniowo, a bak tankuj, gdy spadnie do połowy.",
+        "at": "2026-11-18T20:12:39.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWWprbkpkY0pUdXN4M2oxSXhLeEhDZnMxa3ZwYWF4QlhTTGp5UmVhYXVJT2RNNEI4d1VyZ0J2MWU1N254c2FOU1R2SGk2RWJMSldvZkw0bk9kOGxiWHBLX0daMl9qNVhaMGNKNjA1VVJnYm1HLXo0TmxJaGhURW11WGtsYWJCdUc4ZG43dWlmRVoxUmdwMzhYSzdrcE9CSjNodWhPZ1dYdXNYU1h3bXU0amo5VGotSUY1eWc?oc=5",
+        "title": "Tak wyglądał wojskowy test pod Warszawą. Świecące kule na niebie",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-18T17:00:00.000Z",
+        "cat": "health",
+        "sev": 1,
+        "source": "Rynek Zdrowia",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUzdIS1RzdkEwUVVnSnhkZWpkcVhKUjZWR19UclVUNzN2NzBhdVg1NzZ5czhXLUdDREdORUhBemJ4UG82aS1uUmJkZ2FJUEhTN01Hd2RXbkVZaVN4SllRR2hfazg3c29sbHhZTWRNNGRKMS1OeVgwalFUY0RjbHA0MnVVUFYybUFHN0hRU1BBUXFkSUgtUkxzcHI2UHd6Rmx6eXNMNTZSMFlrUHNUS09wcFVR?oc=5",
+        "title": "3,8 tys. osób zakażonych. Zapomniana choroba zbiera w Polsce żniwo",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-18T16:40:00.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Portal Samorządowy",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPV09hcEppUm9aUTB6dDVIUFhvNnVQX3BhTWFvLU9YZnM4UlNpTzgwZGRkOE5aN2ZWQ2N2QVBhaWpNS2FGTFVaSjRuaTl4MGlaZDdzSmQwVThuSXBXN3ZPemphUTBTdklILUJ3Q3Raa29ZNEFqVzcyZjFGR3VOaWJPRExucC1DdVYtZE91MFN2dkJpUHV3RnhSLTJhSkhiQktZSTAtSnZaM3pKeDFrX21EZ0pfUlp5cGphbzFWLThYZVJSa09vWGpDd2w0Ym5DRzdh?oc=5",
+        "title": "Nie każdy poradzi sobie z ewakuacją. Standardowe procedury nie wystarczą",
+        "official": false,
+        "forYou": "",
         "guide": {
-          "href": "/pl/poradniki/zapas-wody-i-jedzenia/",
-          "label": "Zapas na kryzys"
+          "href": "/pl/poradniki/plan-ewakuacji-rodziny/",
+          "label": "Plan ewakuacji rodziny"
         }
+      },
+      {
+        "at": "2026-11-18T15:27:02.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Polskie Radio 24",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQnB6M3Y5RVlsckZPUXhfQlZUNy1NYTRRY01JUEhvUmV5OUs4elhaR0JobTBkbDNhWVA2V0ItNGNKc25EUE0tRmNiTlNkQnR5bDlHX1RPRWItamtkcXdsaWxiUHd3WFR6UG5VUUgycG9rTGowekpnQVRUajBHOEFxZ2lRUGhONlRBRGh6QTEtZmxaWWVXbzlWeEtYcWlET0FndXBhckcxZ2ZXY1h5?oc=5",
+        "title": "Nietypowe światła nad Warszawą \"na spadochronach\". RCB wydało komunikat",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-18T14:11:34.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "TVN24",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPaEVUNHVOQUhjZVUzX0JNYjJ2Y0puLTA4VEh1bUpoWUhBTEVMYmM4MjV1b3FJTEdQeWx2V2NPRnFqODNaRDM4NDJEaXhFeTAxcTlzdkJRc2prZl9MQk9JYVVXSDNRWHBfOFRIMXhEVld4elNSWHBndjhmanU1LTFGMjl4bGNza0JOakxIZFc5dE5fQQ?oc=5",
+        "title": "Ostrym narzędziem zaatakował pracowników budowu. Policja szuka dwóch osób",
+        "official": false,
+        "forYou": ""
       },
       {
         "at": "2026-11-18T12:55:00.000Z",
@@ -186,67 +226,43 @@
           "href": "/pl/poradniki/blackout-jak-sie-przygotowac/",
           "label": "Jak przygotować się na blackout"
         }
-      },
-      {
-        "at": "2026-11-16T22:03:36.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "WP Wiadomości",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRVlZeW1lRWVFVlVBcTFNbzRMWGpqTXJvMlllMlZTZzRteUxmMHluMWwycnRYalJxanJiQTdqZm43ZUlFVzFURmZhSnB0YS1pdzMyZk9iamtCa1pacDZxMzRORTJ3OGdpX1d6ZGQyeFo4VldFNWt0ZG5qdk5ETlNWeFhYbGV2NVVtYmJmYWEzbjFpOV9UTlZSOXlSX3ZRcmN2cUZlU29OUQ?oc=5",
-        "title": "Nocna ewakuacja w Tatrach. Zaginiona turystka w ciężkim stanie",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/poradniki/plan-ewakuacji-rodziny/",
-          "label": "Plan ewakuacji rodziny"
-        }
-      },
-      {
-        "at": "2026-11-16T16:27:42.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "Wiadomości Onet",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZDY3cUY4cWFPcW85OFpHaXdPUUhZRzZfaENMLUpiT0dtb2FBbXpPcG9DcFFoQ1B0V24tc0NGQmpkVzgxLUdOT2FQSldrQTI1SHNRMFRWWW5hYXFtcVNtOVU1d29JSFZEWDd0dkJvUGR5NVlqd0xmc3ZCQUpXVDhNNGRabldESXVhcnpkU2NBSU9lVTJuVDd3aDBwVVVSRUM5d2h4VjNoalJnMGRiaHloQ3Bxak1BYVk?oc=5",
-        "title": "Atak w Krakowie. Kolejna osoba wyszła ze szpitala",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-16T16:00:02.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Defence24",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUm0yTHVicldBekRYdzhfbGJMZTBHaXN2dGpCSHU2WnY0aVNEMy0ySENoMUNLMlJsMGRxclpJanBfNnUyckdKaTJ3eEowSlRUbFF1NmJzZlFjaGN2UTZzMUg5ZnA3Zk5veUt5MGY3WUZxMl83N0RUYTNiWHUzMGVpbjA0T1VTZmxQTGVIcXFGUlFVeEpxYWVlZUZXTGVNYXdPbUsyQ3BrNmlxU3ViMGxKdENXTFN5dw?oc=5",
-        "title": "Wojsko sprawdzi gotowość do obrony. Rozpoczynają się ćwiczenia Brave Hussar-26",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-16T13:40:11.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "TVN24",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQlhKb3V6TjZGbjcyOWowZm1NSDlTTnk5cUZMd3VqYXdMX05oNUFKbDdQZFp0cjV3TWJCU1M4UVRoZldkN29ralRPOVhTWktzYnRPWlFNR1lIUUY3dDhvTFRCeE5KMFkzZEVmdXlUalBHRDZiUVBWZFlVU00yS3B6WXFBREszVnBFNTYtV0ZYcE9HZ1ZQWGtrQnU0WGQ?oc=5",
-        "title": "Chcą przekazać zwłoki zamachowca na cele naukowe",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-16T13:11:39.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Wiadomości Onet",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMmJTd2g2dEcxOTA3dzBnYmtDcU9MZTg0dlpLZUw5RDcyeFJHdE03Y291ZFhTX2R1YTZjNXU5N1d6YUtOM3dZQ0hBMlZ6dVExdzZna1hiV2QtN1paN2MzSjFDQkN0ZHB2SHBFZnpOQ25CYUhSZXczX1JYM2MtTTRKQ3dvOWpjU1QzcXozY3U0UEVqSnRKdUg4U01RWUF3S2g4ZmplQXFHdkxoSDdyQTdveUN3?oc=5",
-        "title": "Kraków nie chce pogrzebu zamachowca. Prezydent Gibała ma inny plan",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-18T13:32:42.415Z"
+    "updatedAt": "2026-11-18T21:39:51.171Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-18T20:03:34.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "tippinsights",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNemxjaDIwM2hQei0yX0dYd0lENklDZFEzb1plNF8wZGtaMVMwU2hzd0tkM1RaaUo4c2dpQU4za3Q1RkJCM2tkVlhqdDVYME9ia1QzU25ocDc5cG1CWXZUV0YxN2dJR2k0dUtGQzY4T1ZUbkdib0JLTnR4dVRaWDhiU212U0MxVnk2WGk1OTZHcEwxbUlZNjU3bXlldzR5WUpIYXF1djBuZDl3V0ExZTk3czFHcHRPYlk2dzNSUE5kX3J2T1VDVmd1bktR?oc=5",
+        "title": "Should You Fear a Nationwide Blackout? Doomsday Preppers And Power Grid Experts Weigh In on Nov 17 Claims",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-18T14:21:19.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Just Security",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTHBnUUVDTGl3cU5pUzI1VTRXTkNROUZKak9oQ1BzZ2xHemZnRkhTcDROWnlwYnBQRGF2WHFVNkVheHYtQWFZR19HcEhaaEc5M0lObjk0RkEzSGdsMDZTZmwxWjNDVlE3ZVZDYUFzTVZXVEZia3N1SlRMc1hYUENYaEZLd0FibThM?oc=5",
+        "title": "The United States’ Missile Strike on Minab’s Shajareh Tayyebeh Elementary School Part II",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-18T13:33:14.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Dagens.com",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTW94Qk1lLW5xeWpSUmNPSWo0OC13eXc0TGZibEY1bTlvX3VwQnVCN2N4MU9hN0hyMkM2Z2xHckthNk15Nzk2cmJJOXlZMnhiWHFPVFhuRlF2VUQzV0xLNmdiMWttTVBQWmpzYnREZmJLVmFmXzY5eEZhbWl1Zk50bjFWbUFvYVZDZGJZbm1aWkxjd1UycGI5TzRZS1l1a2hpUVBPY29Td1VBc0l5eEotQTZ1RDFuSlk0?oc=5",
+        "title": "A live-streaming cruise missile: Ukraine releases footage of strike on Putin’s prized bridge",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-18T13:01:01.000Z",
         "cat": "security",
@@ -274,16 +290,6 @@
         "source": "IT Security Guru",
         "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQTmNuNUZmeWFVbEQ3NHlpVG9NNXFiLWJ6Q2N2V2ltU3R3TC1nTzQwRDNKZ2VVdE1ueXJnNFFwVEw5LVpFZXQ2WHdDQlNieXRjUlB3WW14ODFWakFOVGZMZUlDNHRUUmtfdkRFcGVSaU51T2dfM3RzMG1yX0NlXzN6cWs2V2dlOGJ2cjhBNzdFSmFiWmJ0eXd5Q0lic0Y5a3B6dXRiNVEwTXp6VE5hNFROZ1ZpSWtWZWlmRHRnSWVVSnBrWkYzQy1ZX3hKODVzYjRCODFzSTRSUzJHVWdo?oc=5",
         "title": "Keeper Security Launches Global Emergency Breach Response Service for Organisations Under Cyberattack",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-18T12:04:52.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Israel Defense",
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5CNGt2VHozRVp1YnpDQ1A1aDBTN3Bycl9ZVEcxUklWOUczbEFGWXhweWYwSjFNMW0tVHZwTWd4SkFzN0NzWl9tMXNlcDFQczhwTFJPdFg1bTM?oc=5",
-        "title": "Ukrainian Drone and Missile Strike Heavily Damages Kerch Bridge",
         "official": false,
         "forYou": ""
       },
@@ -328,16 +334,6 @@
         "forYou": ""
       },
       {
-        "at": "2026-11-18T00:57:19.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "SSBCrack",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSFcxdXM3emEteWtia191UHZjQXgxQ1Q3UjhtVDA1VU10X0xuMHd4QWJOVTNySThmbExtTFlGV0NvWXBiaFhKc1VJZEs3Tk5KYXlsbW9wMGhtV0p3WTBTSGRIZU1ETkdWQV9hTlhxSWwxZnQ2NWtIQzVVQjhGNURoOVhMQWFxLTM5VHZrdHdqYks4VFhOMXBySm9yTUxqZ2szRkR0bjByYVhYdw?oc=5",
-        "title": "No Evidence of a Nationwide 90-Day Blackout on Nov. 17, 2026, Despite Viral Claims",
-        "official": false,
-        "forYou": ""
-      },
-      {
         "at": "2026-11-17T22:12:32.000Z",
         "cat": "energy",
         "sev": 2,
@@ -374,16 +370,6 @@
         "source": "USA Today",
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPd3hWQ1FNa0tXOEN5eXVXQWl4d2VKWk9yZkxSQkRfMzhWZ1VSNmJfRGh6MUZWQlhpTk1MZ2VOTHlCOEtiSW5Zbm1hR3puUmItejc2SFE1Tk11Z1l6YmNJOEFVN1V2aS13X3RmeG5WVlR0ZEdOcWpuZ1JiZXhhSFBMdkxCUWxWOVd1V0R1dkN6dkRSZkZIakV6ZENqd3A4WHJGYldFQTdTOXk3dHVQ?oc=5",
         "title": "Emergency alert test sparks rumors of a blackout. What's going on?",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-17T14:08:02.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Just Security",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5lY3JmVkJtaG9SYVlNVU9LTXBWMGRKd0oxYUlZdEFpZW5pTHJlMW9pQ1BSWVdIVzhneU1CX2Y3d2EwTXJraThSSy1TZlVMb3Q1aFpNV0JGWmhNWGlWbzRmQVJFbEYxLU01MUpUZlJKSWdZalFXT3NhRGJDNA?oc=5",
-        "title": "The United States’ Missile Strike on Minab’s Shajareh Tayyebeh Elementary School: Part I",
         "official": false,
         "forYou": ""
       },
@@ -448,6 +434,6 @@
         "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-18T13:34:26.533Z"
+    "updatedAt": "2026-11-18T21:41:55.263Z"
   }
 }

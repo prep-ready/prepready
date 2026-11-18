@@ -2,9 +2,9 @@
   "_comment": "Aktualizuje scripts/update-data.mjs codziennie. pl = Polska, en = świat. Składowe z mode=manual ustawiasz ręcznie.",
   "pl": {
     "sample": false,
-    "updatedAt": "2026-11-18T13:32:42.412Z",
-    "score": 27,
-    "delta7": 4,
+    "updatedAt": "2026-11-18T21:39:51.169Z",
+    "score": 30,
+    "delta7": 7,
     "ago30": 36,
     "history": [
       36,
@@ -36,14 +36,14 @@
       21,
       19,
       23,
-      27
+      30
     ],
     "components": [
       {
         "id": "conflict",
         "name": "Konflikt w regionie",
         "weight": 30,
-        "value": 26,
+        "value": 34,
         "sources": "GDELT · Google News",
         "trend": [
           23,
@@ -53,7 +53,7 @@
           6,
           11,
           25,
-          26
+          34
         ],
         "mode": "auto",
         "raw": [
@@ -86,7 +86,7 @@
           29,
           25,
           39,
-          39
+          47
         ],
         "stale": false
       },
@@ -255,9 +255,9 @@
   },
   "en": {
     "sample": false,
-    "updatedAt": "2026-11-18T13:34:26.533Z",
-    "score": 36,
-    "delta7": 13,
+    "updatedAt": "2026-11-18T21:41:55.262Z",
+    "score": 31,
+    "delta7": 8,
     "ago30": 40,
     "history": [
       40,
@@ -289,14 +289,14 @@
       39,
       43,
       22,
-      36
+      31
     ],
     "components": [
       {
         "id": "conflict",
         "name": "Global conflict",
         "weight": 30,
-        "value": 46,
+        "value": 28,
         "sources": "GDELT · Google News",
         "trend": [
           36,
@@ -306,7 +306,7 @@
           44,
           45,
           12,
-          46
+          28
         ],
         "mode": "auto",
         "raw": [
@@ -339,7 +339,7 @@
           25,
           23,
           21,
-          26
+          30
         ],
         "stale": false
       },
@@ -365,7 +365,7 @@
         "id": "energy",
         "name": "Power & grid",
         "weight": 15,
-        "value": 67,
+        "value": 69,
         "sources": "Google News",
         "trend": [
           5,
@@ -375,7 +375,7 @@
           23,
           39,
           47,
-          67
+          69
         ],
         "mode": "auto",
         "raw": [
@@ -408,7 +408,7 @@
           26,
           36,
           45,
-          72
+          74
         ],
         "stale": false
       },
