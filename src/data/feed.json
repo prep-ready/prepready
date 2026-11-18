@@ -42,6 +42,16 @@
         }
       },
       {
+        "at": "2026-11-17T14:16:23.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "TVN24",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNdF9YeUZkeUd6aDYxTFhKRm1nZ0NDS2JvLUNxZlZwSXZ1WU90anJwMHZlUE1QcTNKdmRXN0VEYTEzZ1JiR1lqVHBoTktTMm54cWJ6MFk0b3RHNnNkM3ZYN2lHVGdVX29xVlZhSVFtc2lKQ2ZiNVJfaUxiT2pYZ1RhR1hQMG9YY3J6ZTIzNkN6c1BZQjMySTlldnpMZFNoLUtwM2VXY3BiampoUQ?oc=5",
+        "title": "Zwrot w sprawie pochówku zamachowca z Krakowa. Zgłosiła się \"osoba najbliższa\"",
+        "official": false,
+        "forYou": ""
+      },
+      {
         "at": "2026-11-17T11:18:27.000Z",
         "cat": "security",
         "sev": 2,
@@ -230,23 +240,63 @@
         "title": "Grozili bombą i mierzyli do ludzi z pistoletu we Wrocławiu. Szybka reakcja służb",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-16T08:07:00.000Z",
-        "cat": "health",
-        "sev": 1,
-        "source": "Onet",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQTE1aWNvSGtkOEs4a1IwenpJLUxHRTRpVE5KU0o0cDVKY2ZiejltUFdlN1FOeGwwMzhOcXdSQmhDbzJsWEd5eHZ0TEhieklEOEdySTZJcHdYdEtZLVNXS2h5c0dwZnFSVHJMS1pGb2t4ejA1OURweEdtb2JreTBkMWw5dGI3dDEzYlpCeWRFVkRJNWJGTGcxRU1PeGxDRC0tVk1EYndsZG5iSGtCWDROaXJrSkdibUoyakJFTjVSckVHQQ?oc=5",
-        "title": "Cicha epidemia. Psycholog: dzieci nagle zrywają kontakt. Są dwa powody",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-17T23:13:51.487Z"
+    "updatedAt": "2026-11-18T04:46:19.636Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-18T04:12:00.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "CBS News",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVmhlU05wRWpDeXdBT29TajItbThSaXM0SVRxakhSSC03Wm53UkdMR1ppUEd2UHJib1VtWlVhTUs4WnZ2ZGFKWGJ0WWE3Ml9KZVB5RjdBaFRfOHZWOHJIQ01fQ2UwQzI4c2w5cHVRT3dRVlBPU1l1NTN3OExYRzFnZUZTS2dtNzN1blVNTlJudkExSF94eUV6Y3lycDl2ZU5WLU5VWTNCdw?oc=5",
+        "title": "No evidence of cyberattack behind wave of tech outages, Rubio says",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-18T03:22:23.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The National",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNS1lqMnhfdVg2OGtJamZFSnh3Uzc2YzhteVFUemRxWTNsdjl6cU1nbDJyN2xJTUR4dGsyTEdDVC1YOXYtR0VjemJDSktyTlZFcTJBazM3cGJjRTVSWE8wVHJTaVkxTks2TjhSam95R2lWSWpySW1RclEtcmRQV1V6SVdHNUdkUEhUTGRkZngwcjExdjUwYXBGc3hQNG9KUQ?oc=5",
+        "title": "Middle East latest: Bahrain accuses Iran of attacks as Kuwait counters drone attacks",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-18T03:02:10.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Kyiv Post",
+        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9MenEyWE84QmFLeXVEOG9famFBYmJ3YWVOR19Qdzg1Z2EzU2kxTWFoMnNtNGdDbVB0X1ZDYkR3OUJoUUNMb3pEX0VEZw?oc=5",
+        "title": "Russian naval commanders face war crimes charges over deadly Kyiv strike",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-18T01:32:05.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The Sun Chronicle",
+        "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNMVN1ME5BcDMtZ0JNY2xVMTFIWENaWGNNbEJweWx0bXRCNXFHSndCY0I2dGhWVHBaMTBPNWg2ZmFuLVdocW5RS1FhandxZVNyTms0ZTl2V1F4RG5LbUN5eXlna1liMzIxT0QxT0d4STJxU1ItQXllSjMxZUowZV9MQUJzQmJzSlB5M0RzUlYweDVlNUNEUnlfbWVOX3RTcndfXzdHekZid3pobTQ0cGhRUjFvc1Ewb0JjeUptS1dkZ3lrdi1nb3dsMzNiV0ZsZ0RNNlZvZHNYZ0ZLN05ibW02R251QzBVdDBsRE85QlNfazdCazQwTEhVNk83SHdQR1pOSUpDWFRFTkRDTzQ?oc=5",
+        "title": "Ukrainian drones and missiles strike Kerch Bridge that links Russia with Crimea",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-18T00:57:19.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "SSBCrack",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSFcxdXM3emEteWtia191UHZjQXgxQ1Q3UjhtVDA1VU10X0xuMHd4QWJOVTNySThmbExtTFlGV0NvWXBiaFhKc1VJZEs3Tk5KYXlsbW9wMGhtV0p3WTBTSGRIZU1ETkdWQV9hTlhxSWwxZnQ2NWtIQzVVQjhGNURoOVhMQWFxLTM5VHZrdHdqYks4VFhOMXBySm9yTUxqZ2szRkR0bjByYVhYdw?oc=5",
+        "title": "No Evidence of a Nationwide 90-Day Blackout on Nov. 17, 2026, Despite Viral Claims",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-17T22:12:32.000Z",
         "cat": "energy",
@@ -264,16 +314,6 @@
         "source": "KATU",
         "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNeDRiNjRmV1p4clhPaWRNOFRSaUM5Zll3NHNaLVNBa0tSZUt0SXdzQ3FjV3VYa1RLX2x1VGd0QUJ4UGx6WjRIQm5JX1hEZlp3SU9tSlV6eFUtNC14VC0zcXZSYzE4Vko2cElyTV9WdnVFemdhQl9rbVo3UDJKMC1ES3VEZmJ2eFdrNVEwckgzOVZLQXlrRERYVGlqTGRuZy01ZnpPVnRRVktuTElwM3B5TWs4bXZGSDVzNlVfTGFxTGh5N1NOOTMzSlRRSEVNbHM4YWUwaWg3bGUwSzA3LW9vZDBwZTJiZw?oc=5",
         "title": "NSA says classified network experienced temporary disruption during routine maintenance",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-17T21:24:35.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "BBC",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBSRU00UVItWVBVOXhnT1ozc2E0NXk5V3VNTlN4eERVeGVRRlJKc3dHLUMxbTRISm5RbEhoeEJUdEhCbldiU0txRExramJVWF9OcVdIV3dBOEo3czA?oc=5",
-        "title": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
         "official": false,
         "forYou": ""
       },
@@ -318,16 +358,6 @@
         "forYou": ""
       },
       {
-        "at": "2026-11-17T11:45:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Українська правда",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1oTUtBSERDMy1hMHNvS2N6WkxGc0RrSWdGV0dBRi1HUmN1a2lVOXBUUlg3dTlvaVFqaTE3N0QtVkhvVzBIVk9DMFd2QTRyanlnWTRvQnlBWjloSzlZQkdkOW5acmlQcTNLSUJqenBDeEfSAXBBVV95cUxNaE1LQUhEQzMtYTBzb0tjelpMRnNEa0lnRldHQUYtR1JjdWtpVTlwVFJYN3U5b2lRamkxNzdELVZIb1cwSFZPQzBXdkE0cmp5Z1k0b0J5QVo5aEs5WUJHZDluWnJpUHEzS0lCanpwQ3hH?oc=5",
-        "title": "Air defence downs 3 missiles and over 200 Russian drones: Impacts recorded at 44 locations",
-        "official": false,
-        "forYou": ""
-      },
-      {
         "at": "2026-11-17T04:19:23.000Z",
         "cat": "energy",
         "sev": 2,
@@ -344,16 +374,6 @@
         "source": "Firstpost",
         "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNWkdRN2Z3cWQ0QmlpdFEzUk9TVm01U2Y5U1c4U2trWTF1Y3ZwSkZLVlZkaHZuNlkwYWI3azhBOGYyc1Nhc2oyeVQtMEVSWno0dUlWa1JYeFg3dlg5SkhzazhOazhPdWJGd3hZaFdHWUdIQkY4U1Y4WTJ1M0pYVkhKUVBvTTE0bnhVVEloTnJfbmdwdWo1SFFnS3JianVYN3lTbW9ka1pZNjRQcFlqN3hScjd1anhacmJKaDB4bDJOel9ydUZuQk94VkR5QklSQ3k1eGMwMHRR0gHbAUFVX3lxTFA1QkY4S2hpNk9DdGZ0VUY3c3BGUUJ3YUNSWmJyM0VNLTFRbkROeXlCbzg0WUFHNHNueGY0NGdPVlJwamdtbkJOb1FfMzFIWnNwZE1wTDF2b1NOWGpCaVloT1pHc0hoU05rUzV0eEJuMlczaUFVUTNLNmVIczBDSW9jUEl2aTJQWWJITHJfUHZRTzJJR3dZMTJUd3hqODNUY29sVmVRMUw1eWlGai1DelJDMnVJd19Dcl9NRWg4eXNwaUE1c3FEZWtkQWZHM0NoNTRZOXhpV01pb1ZNQQ?oc=5",
         "title": "Bank outages in US after flights and Microsoft disruptions: Is it a coordinated cyberattack?",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-17T03:20:23.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Around Prague",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQlBHMkVqVGNmaTVaZXQxOEhwbzNNMjVDM2pnVDQwVjIzN05oTjJXUExQM0o4aF9CV1I5V2ZqWEhfMzNycVlOV0FON2RuRTkxZlM2ZF9jZmdZcloxbjVXbW1icE1pWTlnNWpoWkxQcS1WeWRiNUdyN3RpQXk3aXNkWjNFYXZVdWpFSkJYQzVzQ3ZhNXkxZFRaZWhJUWFuOVZBVUZISGZ2S3FPZE5TQkVfeVdzTQ?oc=5",
-        "title": "Zelensky warns Russia is preparing a new missile strike on Ukraine",
         "official": false,
         "forYou": ""
       },
@@ -402,6 +422,16 @@
         "cat": "disaster",
         "sev": 3,
         "source": "GDACS",
+        "url": "https://www.gdacs.org/report.aspx?eventid=1001351&episodeid=6&eventtype=TC",
+        "title": "Tropical Cyclone AKVAN-26 (Orange alert)",
+        "official": true,
+        "forYou": "If you have family in the area, check in. Review your own evacuation plan."
+      },
+      {
+        "at": "2026-11-16T18:00:00.000Z",
+        "cat": "disaster",
+        "sev": 3,
+        "source": "GDACS",
         "url": "https://www.gdacs.org/report.aspx?eventid=1001351&episodeid=5&eventtype=TC",
         "title": "Tropical Cyclone AKVAN-26 (Orange alert)",
         "official": true,
@@ -416,38 +446,8 @@
         "title": "Tropical Cyclone AKVAN-26 (Orange alert)",
         "official": true,
         "forYou": "If you have family in the area, check in. Review your own evacuation plan."
-      },
-      {
-        "at": "2026-11-16T18:00:00.000Z",
-        "cat": "disaster",
-        "sev": 3,
-        "source": "GDACS",
-        "url": "https://www.gdacs.org/report.aspx?eventid=1001351&episodeid=2&eventtype=TC",
-        "title": "Tropical Cyclone AKVAN-26 (Orange alert)",
-        "official": true,
-        "forYou": "If you have family in the area, check in. Review your own evacuation plan."
-      },
-      {
-        "at": "2026-11-16T18:00:00.000Z",
-        "cat": "disaster",
-        "sev": 3,
-        "source": "GDACS",
-        "url": "https://www.gdacs.org/report.aspx?eventid=1001351&episodeid=1&eventtype=TC",
-        "title": "Tropical Cyclone AKVAN-26 (Orange alert)",
-        "official": true,
-        "forYou": "If you have family in the area, check in. Review your own evacuation plan."
-      },
-      {
-        "at": "2026-11-16T15:58:54.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "EnergyNow.com",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUmRjOW5iTlYxTE5NSkNHZlRTZXJRWXBZTEJMZ0FyNFItWWtPV3pmWUdnVTF0M2JzMmxOTmMyMU5MMG1nM3VJcnk2OS1OMXBrS3IxbTBvVVZVb1N0S2F6M1ZSS09kT18yOWZvZUh1MEdWSzlhTWw2TlAxWmpHcGZOZEN0U0haVUNBWHBPeS1ZNzVzYmlBZkMxTmFkb25vbERIeUx1eDBSeHNoUkVSUjVkc1dZeG8yYUZRbFJoTA?oc=5",
-        "title": "Fujairah Oil Zone Hit by Fire After Drone Attack as UAE Says it Intercepted Iran Missiles",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-17T23:15:59.229Z"
+    "updatedAt": "2026-11-18T04:47:43.132Z"
   }
 }
