@@ -9,12 +9,66 @@
         "sev": 3,
         "source": "Komisja Europejska",
         "url": "https://energy.ec.europa.eu/data-and-analysis/weekly-oil-bulletin_en",
-        "title": "Ceny paliw w Polsce wzrosły w tydzień o 6%: Pb95 6.09 zł, ON 7.72 zł",
+        "title": "Ceny paliw w Polsce wzrosły w tydzień o 6%: Pb95 6.10 zł, ON 7.73 zł",
         "official": true,
         "forYou": "Nie rób zakupów w panice. Uzupełniaj zapas stopniowo, a bak tankuj, gdy spadnie do połowy.",
         "guide": {
           "href": "/pl/poradniki/zapas-wody-i-jedzenia/",
           "label": "Zapas na kryzys"
+        }
+      },
+      {
+        "at": "2026-11-18T12:55:00.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "CERT Polska",
+        "url": "https://cert.pl/posts/2026/11/CVE-2026-127142/",
+        "title": "Podatności w oprogramowaniu LMS",
+        "official": true,
+        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
+      },
+      {
+        "at": "2026-11-18T11:42:00.000Z",
+        "cat": "weather",
+        "sev": 2,
+        "source": "IMGW",
+        "url": "https://meteo.imgw.pl/",
+        "title": "IMGW: 1 ostrzeżeń meteo, najwyższy stopień 1: Silny wiatr",
+        "official": true,
+        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
+      },
+      {
+        "at": "2026-11-18T11:30:00.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "CERT Polska",
+        "url": "https://cert.pl/posts/2026/11/CVE-2026-109857/",
+        "title": "Podatności w oprogramowaniu CAST Imaging",
+        "official": true,
+        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
+      },
+      {
+        "at": "2026-11-18T08:46:06.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "WP Wiadomości",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPR0M0RHZEelN2NkFUbk5HcGJXZzl3aVJGbnRvMTNQS2w1VXhwQVRlVU5OcDNSUkIwVDczZ2gtRjZ6R0x3NFhwdlBvZ1YycmtqM1BYNFFUWXk3ZzROVGI5UkwwQnRVaDg4XzNOdU1iVldNZTYzV09qMlNNY3lfa2VrZUNQYXlyejJQZGZHdjk3OUZaX2V2RXo4Y3dHQXBMeTg?oc=5",
+        "title": "\"W banku jest bomba\". Policja zatrzymała 71-latkę",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-18T06:54:28.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMHRyc2RuM1A1YTFmdGVNUFgzcWoxb0VzYTBMVUN5Ul81cnc2R19hdDFjc3ZDSXVaOV9KSnp6WlhMR1R5QnlDOGNxOVR1dHNTRTdDckVaa21JUWNOVDVSMlBBS0ZibzhneC1JZUd3NjhZTU5PeEdya3pQZk80LWtYUHQ2ZFl5ZmxxNzBpNmZKU3hPb0ZQblBTaVA2a2JZMkNwUVJQRWMtNjNkaWVX?oc=5",
+        "title": "16-latka groziła wysadzeniem szkoły. Policja zatrzymała ją w domu",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/poradniki/bezpieczenstwo-dziecka-w-szkole/",
+          "label": "Bezpieczeństwo dziecka w szkole"
         }
       },
       {
@@ -148,20 +202,6 @@
         }
       },
       {
-        "at": "2026-11-16T19:55:23.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Radio Zet",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVzJGYWE5ZTI3RzYzeXU3UHp3b2pycE5SOXEyblg3TFl0RjdSeUM1TVJUTHJPRW91SlQzbmJqMFgta3lpOVhyY1hKUnpYRGtBdENORG5tWHhHUjdpbUxKQUZhT1U2MmM5dHVHSy1CblhYelRnUjNyaVJyM2NwVy0zWjAxN09lSl93NHpXQXhyN3h5ZkdnY3BvY29XdEFVTXZNdEducUM5S3RRRERf?oc=5",
-        "title": "Groził masowym zabójstwem w szkole. Policja zatrzymała 16-latka z Rosji",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/poradniki/bezpieczenstwo-dziecka-w-szkole/",
-          "label": "Bezpieczeństwo dziecka w szkole"
-        }
-      },
-      {
         "at": "2026-11-16T16:27:42.000Z",
         "cat": "safety",
         "sev": 3,
@@ -200,53 +240,73 @@
         "title": "Kraków nie chce pogrzebu zamachowca. Prezydent Gibała ma inny plan",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-16T12:55:00.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "CERT Polska",
-        "url": "https://cert.pl/posts/2026/11/CVE-2026-113443/",
-        "title": "Podatności w oprogramowaniu VisualNet visualTicket",
-        "official": true,
-        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
-      },
-      {
-        "at": "2026-11-16T10:55:00.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "CERT Polska",
-        "url": "https://cert.pl/posts/2026/11/CVE-2026-111559/",
-        "title": "Podatność w oprogramowaniu Batflat",
-        "official": true,
-        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
-      },
-      {
-        "at": "2026-11-16T09:39:58.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Rzeczpospolita",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPa000b2ZaOUIzQmxqTDNVcmJBLTNNU0xiY0ZvSldFUFNlZDNHSlh3TkhNb1ExOS1FYUUtOUtoclEyYnJTRkpGTGk0WDZ3b05tYm1fUHc5RlBVUmUxY1hlMnJRQk0tX3ZfWHpqSjBUUE1pVVp5dC15SWhSNmc2QTVaeEJRdWlSRWt6NWlObFAzUGthYUlfRzV3cjFEVkJISVN5VjF6bzdrbmVTakkzbEl0M255Vl9ObTJsZF9xY2pBUQ?oc=5",
-        "title": "Nowe uderzenie UE w Rosję. Sankcje na 50 banków i podmioty wspierające flotę cieni",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-16T08:42:27.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "Wiadomości Onet",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNeVpIbEtwdU56YmQxbkRQVHktR3Y3WlNkTlFkdVo3WFA3QTM5NXJNTE9nLXdaWXpTNWloeFh1NzJ1TG9jNlZRY2RZX0gyaFp4Vy14b1JJaGdFUW9vVGRKUXlLeUVRa0Z5MXdBVUc1OHU1UDdPazR1NjNkOTl4RGhlOWxOLWhLamw4cXprQlJZTU1SMElCT2NTdDZJT0tIVV9UaVZWMFdTeVFQM19hSkxlal80SzVfQQ?oc=5",
-        "title": "Grozili bombą i mierzyli do ludzi z pistoletu we Wrocławiu. Szybka reakcja służb",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-18T04:46:19.636Z"
+    "updatedAt": "2026-11-18T13:32:42.415Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-18T13:01:01.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The National",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVTdScFFjTlhtU25LQmJvdEp1Vk5qZ3FtTFE3RkdXUzVDZFgtSnY3MkhTeW82UW9QTWVibnVQb2Nyb1RVYWlFTlpyd3JCdjIzVnV1QmVxUEUyTDhzWXdrZUhPN0N6aUxrYWN3NXdWcVNQeUtFVnFPMHRvSURyTFpMY0tvWmxoZ014aS1iWjVsMnRCVHFDeVhjcllvYw?oc=5",
+        "title": "Middle East latest: Gulf nations condemn 'hostile' Iranian attacks on Bahrain and Kuwait",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-18T12:28:20.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "London Now",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNa0E4UllOdW9aV0hJWFZsX1g3RzF2N052Mk9MSUJnR3cwRzFuX2Q5UmRpeUhwXzNsd0VNZm1vcUVsRkZEY280cklqSVZIX0UteVFZaGVQRGFZZmhoc2pxNzhhR0xrb0d1NmtqS2xjaERRMER5bnY5ZHU4ei16RzV3ZlZwNUMzRVZFVUJZMExmVmhhcTBwQjdtWlRjUFc?oc=5",
+        "title": "Heathrow and Gatwick flights could face chaos in major power blackout",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-18T12:18:59.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "IT Security Guru",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQTmNuNUZmeWFVbEQ3NHlpVG9NNXFiLWJ6Q2N2V2ltU3R3TC1nTzQwRDNKZ2VVdE1ueXJnNFFwVEw5LVpFZXQ2WHdDQlNieXRjUlB3WW14ODFWakFOVGZMZUlDNHRUUmtfdkRFcGVSaU51T2dfM3RzMG1yX0NlXzN6cWs2V2dlOGJ2cjhBNzdFSmFiWmJ0eXd5Q0lic0Y5a3B6dXRiNVEwTXp6VE5hNFROZ1ZpSWtWZWlmRHRnSWVVSnBrWkYzQy1ZX3hKODVzYjRCODFzSTRSUzJHVWdo?oc=5",
+        "title": "Keeper Security Launches Global Emergency Breach Response Service for Organisations Under Cyberattack",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-18T12:04:52.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Israel Defense",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5CNGt2VHozRVp1YnpDQ1A1aDBTN3Bycl9ZVEcxUklWOUczbEFGWXhweWYwSjFNMW0tVHZwTWd4SkFzN0NzWl9tMXNlcDFQczhwTFJPdFg1bTM?oc=5",
+        "title": "Ukrainian Drone and Missile Strike Heavily Damages Kerch Bridge",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-18T09:00:48.000Z",
+        "cat": "health",
+        "sev": 1,
+        "source": "ECDC",
+        "url": "https://www.ecdc.europa.eu/en/news-events/stockholm-welcomes-scientific-experts-escaide-europes-leading-annual-public-health",
+        "title": "Stockholm welcomes scientific experts to ESCAIDE – Europe’s leading annual public health conference",
+        "official": true,
+        "forYou": "Usually no action. Check your first-aid kit and expiry dates."
+      },
+      {
+        "at": "2026-11-18T05:00:07.000Z",
+        "cat": "health",
+        "sev": 1,
+        "source": "ECDC",
+        "url": "https://www.ecdc.europa.eu/en/news-events/urgent-action-needed-safeguard-effectiveness-antibiotics",
+        "title": "Urgent action needed to safeguard the effectiveness of antibiotics",
+        "official": true,
+        "forYou": "Usually no action. Check your first-aid kit and expiry dates."
+      },
       {
         "at": "2026-11-18T04:12:00.000Z",
         "cat": "cyber",
@@ -258,32 +318,12 @@
         "forYou": ""
       },
       {
-        "at": "2026-11-18T03:22:23.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The National",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNS1lqMnhfdVg2OGtJamZFSnh3Uzc2YzhteVFUemRxWTNsdjl6cU1nbDJyN2xJTUR4dGsyTEdDVC1YOXYtR0VjemJDSktyTlZFcTJBazM3cGJjRTVSWE8wVHJTaVkxTks2TjhSam95R2lWSWpySW1RclEtcmRQV1V6SVdHNUdkUEhUTGRkZngwcjExdjUwYXBGc3hQNG9KUQ?oc=5",
-        "title": "Middle East latest: Bahrain accuses Iran of attacks as Kuwait counters drone attacks",
-        "official": false,
-        "forYou": ""
-      },
-      {
         "at": "2026-11-18T03:02:10.000Z",
         "cat": "security",
         "sev": 2,
         "source": "Kyiv Post",
         "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9MenEyWE84QmFLeXVEOG9famFBYmJ3YWVOR19Qdzg1Z2EzU2kxTWFoMnNtNGdDbVB0X1ZDYkR3OUJoUUNMb3pEX0VEZw?oc=5",
         "title": "Russian naval commanders face war crimes charges over deadly Kyiv strike",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-18T01:32:05.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The Sun Chronicle",
-        "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNMVN1ME5BcDMtZ0JNY2xVMTFIWENaWGNNbEJweWx0bXRCNXFHSndCY0I2dGhWVHBaMTBPNWg2ZmFuLVdocW5RS1FhandxZVNyTms0ZTl2V1F4RG5LbUN5eXlna1liMzIxT0QxT0d4STJxU1ItQXllSjMxZUowZV9MQUJzQmJzSlB5M0RzUlYweDVlNUNEUnlfbWVOX3RTcndfXzdHekZid3pobTQ0cGhRUjFvc1Ewb0JjeUptS1dkZ3lrdi1nb3dsMzNiV0ZsZ0RNNlZvZHNYZ0ZLN05ibW02R251QzBVdDBsRE85QlNfazdCazQwTEhVNk83SHdQR1pOSUpDWFRFTkRDTzQ?oc=5",
-        "title": "Ukrainian drones and missiles strike Kerch Bridge that links Russia with Crimea",
         "official": false,
         "forYou": ""
       },
@@ -406,48 +446,8 @@
         "title": "Zelenskyy urges people to heed missile warnings on November 16–17",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-16T18:49:22.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "ИФЗ РАН",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQ0ZkTFJkNVdGbVZaSmhTUEFFT1Q3M2tQRE9lSm5jcFMxRzZ1VGhQcmpOVllnSmlrbk5JSUU4ZDBuQ3RFRnh4Z2JHWklGRkZWdVR0bkU1ZHBBZ053YURkWlRVZGwtQnU0aW9jUmZ0T2pCNUZSOGhPYUl2dmRmZW9ST29hZW9JWTd0emVHekJKa2s2aW5CYTlvTmZR?oc=5",
-        "title": "Why The Supermarket Fridge Cyberattack Changes Everything We Know About Infrastructure Security",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-16T18:00:00.000Z",
-        "cat": "disaster",
-        "sev": 3,
-        "source": "GDACS",
-        "url": "https://www.gdacs.org/report.aspx?eventid=1001351&episodeid=6&eventtype=TC",
-        "title": "Tropical Cyclone AKVAN-26 (Orange alert)",
-        "official": true,
-        "forYou": "If you have family in the area, check in. Review your own evacuation plan."
-      },
-      {
-        "at": "2026-11-16T18:00:00.000Z",
-        "cat": "disaster",
-        "sev": 3,
-        "source": "GDACS",
-        "url": "https://www.gdacs.org/report.aspx?eventid=1001351&episodeid=5&eventtype=TC",
-        "title": "Tropical Cyclone AKVAN-26 (Orange alert)",
-        "official": true,
-        "forYou": "If you have family in the area, check in. Review your own evacuation plan."
-      },
-      {
-        "at": "2026-11-16T18:00:00.000Z",
-        "cat": "disaster",
-        "sev": 3,
-        "source": "GDACS",
-        "url": "https://www.gdacs.org/report.aspx?eventid=1001351&episodeid=4&eventtype=TC",
-        "title": "Tropical Cyclone AKVAN-26 (Orange alert)",
-        "official": true,
-        "forYou": "If you have family in the area, check in. Review your own evacuation plan."
       }
     ],
-    "updatedAt": "2026-11-18T04:47:43.132Z"
+    "updatedAt": "2026-11-18T13:34:26.533Z"
   }
 }
