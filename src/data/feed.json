@@ -4,6 +4,84 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-11-19T10:44:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Rynek Zdrowia",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQeVMwZHVTS2pCOVBJVzROVFVOTVFPMHdubFlzT2tiR3p2MkREMWlhN3B0a05VaDJGbDY3eGZ5UURYTzhDeTkycEc5YW9NTTNSNFJxQ182c3FYY3NWU2xLWFk3UDlDYV9TODIxRGgxaHNpMGRDZnhuVWtMMkt3OXFyaml4S2hpMnkydHBqT0hXNURRd20tVElkY29IXzJsVDByNFRJN3hDWmlkTnM0bW90eXp6cFRVNDFmSlEwODdpSFlYcXpSOU1vY2pBcmlyeDQ?oc=5",
+        "title": "Wojsko polskie zapłaci 3250 zł za osiem dni. Jest warunek do spełnienia",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-19T09:07:22.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Defence24",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxObFdzQzlBSVhvQWlTSzdwRHNyRTFEVl9OeHhGOXRMcEpwQ2w0N3lBeDRRcHZSVGlkMTZ2Q2lMTXAyRnlUaGRUUGxrbzR3X3FGRHUtamkwOUdXUTFXLXFSSXdVU3lGV3hvZnVkcGdpNTQ0TngwZ2c3OFNWZWkwUVZ6Y2pJTjZBNTFITXg0ZXRFM0tVY2JjZkhOTkVSVldRWjZnLUZUTnptbGl4VEphVnh4RTVTX0JnQTJzUWFnVlluQQ?oc=5",
+        "title": "Co potrafią przemysł i nauka? Wojsko organizuje warsztaty o technologiach rakietowych",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
+      },
+      {
+        "at": "2026-11-19T08:45:52.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Polskie Radio 24",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRU8tbV94X3lBQ2RLYkZxc3JxRHYxSTFqV0tBLUlYckVqMV9UdDh0MFdTZy1pd2pYSGNTT2lUUjdJbmgteFp5VHo1UWJzUW5wQThpLVpxNE9BQ2RxZXV1X1FPaHY3eWVZamVLWUFEemNSTzNpbFg0UXhTbTllMXpKbGRHckNyWEItOEgwRGZtNzVQUTJJTmRqaW50YTdvNk5qUVhPRk1mWmI?oc=5",
+        "title": "Niebezpieczna toksyna w kawie. GIS wydał pilne ostrzeżenie",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-19T08:13:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "WP Wiadomości",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQU1IOHBxLU1EeGNfek1IRGxselJSbU15YXp1azFFU055OWIyMGRaU1gxYWk1Q0JPQnEzVXVvLW85aE1iVzJXX3lRVmUtQUtQWXdtN1pCOXNpdEp2Q1FlYUdGVUtaTVFOUmNhNnY2ZEVMUHFiNlN5cVNMU3dpODFsYU1iS1J1QURlUk42ZnFWdVpuQ0dlXzFyRzE5Y3lrUmNtdlRHanZkbkVGVUVLS1UyY19UWHRWYWFyWk9B?oc=5",
+        "title": "Świetlne punkty na niebie. Wojsko testowało pociski oświetlające pod Warszawą",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-19T07:44:03.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Polskie Radio 24",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNemUxNHBXUkl0bkc1OFdhbE9kZzZsQ2IyZW92MUtHOWdJSTZRV0FWUTN3eDZ1c2NYX3lkZWhmbTVYVHJNQTVGcG9xTkdiNkJSakxmSTJhb2d6U2liX1BFd1gtYjI3a1FWQVpxUXJVRlY5S0NJM1VyT0FndDIySzkyN0RRMTBVdWxKUURIQTh5Z29JdS1NbEYxYm03NTRsWUM3?oc=5",
+        "title": "Zagadka zaginięcia sprzed niemal 10 lat rozwiązana. Policja odnalazła ciało na dnie stawu",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-19T07:20:47.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Radio Zet",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQYVBNeUhUbjZyTEpORzFyVngyMWE4cUhwRVlfNzB1ZTZLWVhfVFhqSXhjOFNENFBFNWhZQXhQenI2Z09zSE92MTN5M0RiVFZJZGdUQnBOWE9MTWZvVXVacWRuc19mTmVsekI5MHVtWDZiN1ZPUFV4UzRwZWtoLUw3eFJtR3BnS0xJbFdV?oc=5",
+        "title": "Syreny na Lubelszczyźnie. RCB wydało komunikat",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/poradniki/syreny-alarmowe/",
+          "label": "Sygnały syren alarmowych"
+        }
+      },
+      {
+        "at": "2026-11-19T06:31:00.000Z",
+        "cat": "health",
+        "sev": 1,
+        "source": "Medonet",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcndyVVRBazhiTVpGb3llMFVFS2k0R256b1N5b0lfNklPTXk2ZTUyY2E4SENVTm5qLVEtQ09TVEhBR0JQeWZscm9GY0pCRWk4aHR5a0dxNWY1YVJqNGdPaHpNVmpRdlVvNEZUb0lGTTROMFhGb3RXMk1lSzFOUUI3Qmx3WE83S09DU0VkbGlGQjhYS3lnSFhOT25oSE4zOGdpTTB6N2NRMlRQNElFdGRkSlBYR2RkcWgzSDVYNElEcw?oc=5",
+        "title": "Baseny w hotelach i sanatoriach pod lupą. Wykrywano bakterie i legionellę",
+        "official": false,
+        "forYou": ""
+      },
+      {
         "at": "2026-11-19T02:51:36.001Z",
         "cat": "energy",
         "sev": 3,
@@ -16,16 +94,6 @@
           "href": "/pl/poradniki/blackout-jak-sie-przygotowac/",
           "label": "Jak przygotować się na blackout"
         }
-      },
-      {
-        "at": "2026-11-18T20:12:39.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Wiadomości Onet",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWWprbkpkY0pUdXN4M2oxSXhLeEhDZnMxa3ZwYWF4QlhTTGp5UmVhYXVJT2RNNEI4d1VyZ0J2MWU1N254c2FOU1R2SGk2RWJMSldvZkw0bk9kOGxiWHBLX0daMl9qNVhaMGNKNjA1VVJnYm1HLXo0TmxJaGhURW11WGtsYWJCdUc4ZG43dWlmRVoxUmdwMzhYSzdrcE9CSjNodWhPZ1dYdXNYU1h3bXU0amo5VGotSUY1eWc?oc=5",
-        "title": "Tak wyglądał wojskowy test pod Warszawą. Świecące kule na niebie",
-        "official": false,
-        "forYou": ""
       },
       {
         "at": "2026-11-18T17:00:00.000Z",
@@ -68,16 +136,6 @@
         "source": "TVN24",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPaEVUNHVOQUhjZVUzX0JNYjJ2Y0puLTA4VEh1bUpoWUhBTEVMYmM4MjV1b3FJTEdQeWx2V2NPRnFqODNaRDM4NDJEaXhFeTAxcTlzdkJRc2prZl9MQk9JYVVXSDNRWHBfOFRIMXhEVld4elNSWHBndjhmanU1LTFGMjl4bGNza0JOakxIZFc5dE5fQQ?oc=5",
         "title": "Ostrym narzędziem zaatakował pracowników budowu. Policja szuka dwóch osób",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-18T13:32:18.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Wiadomości Onet",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSXcwU2xWdzdjX21SbVF2M2E2VGZmV2hmYmhlbXIzSHc3TFlibGFDVXhGNFd2MjNVUGhZMk9INWlOaFlPcXptTmNkeTJ1azMtN1hIU0JqU3hFNGt6djdmV2RhejRUaTRVbm00VnhwdlBodDVSRjBsbXdtMVI4X1kweG5UdFlTREQxZmxIYkt5ODduVlFVNXFyeENTbGVYX05WSzBDTTFjdHJULU1qVWI1R01wZU1VUQ?oc=5",
-        "title": "Test pocisków oświetlających nad Warszawą. \"Mogą przypominać nietypowy obiekt\"",
         "official": false,
         "forYou": ""
       },
@@ -168,74 +226,50 @@
         "title": "Zwrot w sprawie pochówku zamachowca z Krakowa. Zgłosiła się \"osoba najbliższa\"",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-17T11:18:27.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Polskie Radio 24",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUlk2SkhoUTlpN3BZQld6aDdTaTlzSXd6bXhCcHctXzVlVXVvVDdmQVVteDIyOXFaVjhpOENnMFlaemJzWTMxRnBZU1g2QXdZSVhndHBnM1JzUFhKMzZjcVlNWGExVkc4VXZ5bXpFMnNJX28zaEMxTy1ZM3lQdG9RYkRpTVpFRkhJbXdMTlBrVDZLUQ?oc=5",
-        "title": "Napięcie przy polskiej granicy. Nowy komunikat Dowództwa",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-17T10:55:00.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "CERT Polska",
-        "url": "https://cert.pl/posts/2026/11/CVE-2026-107190/",
-        "title": "Podatność w oprogramowaniu Bludit",
-        "official": true,
-        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
-      },
-      {
-        "at": "2026-11-17T09:44:00.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "PolsatNews.pl",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQzNGZGNoZVZzR014aUtfVC1ncWE4TWFGcE9hemdNY1dpTk94YzE0VTNEQnpLZFBOb2FRejFsT0NCeWFHQ1ZUTVpwM2UxQkx1Q1N0RjdlTVV5dHdwckU0MHQyWHJJcUhVRmJHdzJKOEhyRjRvbjlrbFFNVGhTSExFN0tPNzdKOVplOUtKVGk2eTBvQzZzV0kzVEtoWE5zY3JEcFhTRWFFMkpPRnpxTUtuanZEWDloZ3NG?oc=5",
-        "title": "Kule padały centymetry od dziecka. Wstrząsające nagranie z zamachu w Krakowie",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-17T09:09:00.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "RMF24",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQlVYLUotRHIxWHhhUG5mVGE1VUlBQnhqTFIwVkM5WElVcVBlNGM4a2RKV0JoeXlHV1VEc3RvWlR4U2IzbGJZdzFMTE9HSlNnUUtyMi12eXh2NWhyWUNSeE9kYUhaR1pvN0ExY3BuZlc0NVZOV1V4dTJDMDZmN0JPVUI5QXJEYkJYQUZ0Q0FGdmdkTmtrZnhPT0RIV3lUN3JuY05mTEVZcy00ZkhJbUd5LVI5Nm50cGM?oc=5",
-        "title": "71-latka wywołała fałszywy alarm bombowy w Warszawie. Policja wskazała powód",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-17T07:51:31.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Wiadomości Onet",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZ3c5Y0NPSEVaNWRCUU5YQ2hGYlUxa05SMlM2aFFWVGpPdmV1OFpLY0pFTmIteU42TGttYzJxX1ZXYmQ4WDlCV2F6RXFyQlNJVlc5U1Z4OGdsRFBjVmtaTXlMREN3NldldkJuNVFXMWdqLWlQd3lHTHpITGxjXzNrVWxXQnZtR3IyZ3pnR2hUVnJXTk1SZjdTT2V6NA?oc=5",
-        "title": "Atak Rosji na Ukrainę. Polskie wojsko poderwało myśliwce",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/mapa-schronow/",
-          "label": "Mapa schronów"
-        }
       }
     ],
-    "updatedAt": "2026-11-19T02:52:40.616Z"
+    "updatedAt": "2026-11-19T12:14:35.989Z"
   },
   "en": {
     "sample": false,
     "items": [
       {
-        "at": "2026-11-19T02:16:00.000Z",
+        "at": "2026-11-19T11:58:45.000Z",
         "cat": "security",
         "sev": 2,
-        "source": "The Guardian",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNOENUX1hEa09FRkEySGhZbmYtbDJrNE8zQmg5WWswbGpBTGhPZEF5YWxtU1laU1F0SFU4Y2Izd1NYcDhlaWF2cGNwMWZuYmh5bUVRdlFnNWI3alp0Y0tpYnJ4am5TcW1RVE9oNm82UXJhc3h6NE5ZcXd2RHhvV21wSGJNLW5rSlVuV3JWR2JsdG12Y00wak9NUG9ST1UyMHl6Z3RDZ3dsSEZHRDh6Q0MteWkxT0dWUGU1ZHRHYjNXM3dBT2Y3UlhUNzMzd0FmSFpDQkFZQg?oc=5",
-        "title": "Ukraine war briefing: Russia asks if Netherlands has joined conflict after Crimea bridge strike",
+        "source": "The National",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPam9XS0tmcEhaa3NBUzd2bUJ5ME1FWktqN2hhaVFzd2k0MlVDaExwX0EyUW84Ylg2QkNFZ2FMTC1RbkZ2VGtUNV9xQzhMQ1lhcklId3JXbGQ1dTBHNDg3Qm0wT1RBWEZYRGFIUjZ0YVZlcHI3NUcyZV9yNFdaam9qX1FHZUtIbnFpRU5EU2dxMnRXZ2lRNlpfYTFJWQ?oc=5",
+        "title": "Middle East latest: Saudi wealth fund tower damaged in Riyadh as Houthis launch attacks",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-19T11:55:08.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "UNITED24 Media",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNVWhLbi1wVWg3REJsQTEzZFBsLTk3dlJhbzJUQkc1eDlSZk80LWdCbWFrdGM5N3g5MDlrbFpMQUgzZFBLWTVndXRXeHpzSjh0ZmI2UmFIdHN1ay16b203ZVFoUkFuZkdaSkdzcEcxc2poVGc3cmRkTV9kT3g2ajhqbEhIeWdncDdhNjZQT3BCR1Mtb1pzWEhHOWYxOUhud2ZKUXduNTNPQVNYQTZvNHBKckRJT010VFFfd2trTWcwMWFTWS02eTYzM1ljUVlNcmVR?oc=5",
+        "title": "Ukraine’s Neptune Missiles Strike Crimean Bridge—The Same Weapon That Sank Russia’s Moskva",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-19T10:38:31.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Newswav",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONGxiRGlCQmxPMVYzcnRrVTJ3cE1hRG1TZXhYSF9aTVFjS01ITG04enZsNTlyTlVYVEJEUTFwM0o5REs5NUVmWE5EYVpWS1FtNHdQaU56LUNocjZSdDlTWENWSjFMS2JHcjl0Z184WnV0NjM5U3lxYjQ0dlpXM2hjbkhoZzVBdkk1dnh3eVktazd2WDFKa2E0SlRDY1FEU2dVejI3SkFzWGZVby1Ic2dCMg?oc=5",
+        "title": "EU Commission hit by large-scale cyberattack with data leakage unknown",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-19T09:33:12.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "TheNiche",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZ3F1TnF4LXV3RXlicTNGU1RTaUV0dHRLX2FDdzUtZDhEcHFNeFBsTG9YcFlCSVhDaWRtSkJsWjBMLWpCYWYwdEh0bFR2WmI1M1pGOTV4OHkxcE02SHA2dW9BUU12RzlrOXF4TWJqdnZQTU9sMnduQ1E0b3JENU85cmZCMnlyd2pYRnBMZWpUTXVxSHJvZ0FEdG1vUEVONmtJbG5uTDQybGZJMVlVQkRQU2tn?oc=5",
+        "title": "Nollywood star Kevin Ikeduba bemoans nationwide power outage, says ‘Everybody on Band Zero’",
         "official": false,
         "forYou": ""
       },
@@ -276,16 +310,6 @@
         "source": "Just Security",
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTHBnUUVDTGl3cU5pUzI1VTRXTkNROUZKak9oQ1BzZ2xHemZnRkhTcDROWnlwYnBQRGF2WHFVNkVheHYtQWFZR19HcEhaaEc5M0lObjk0RkEzSGdsMDZTZmwxWjNDVlE3ZVZDYUFzTVZXVEZia3N1SlRMc1hYUENYaEZLd0FibThM?oc=5",
         "title": "The United States’ Missile Strike on Minab’s Shajareh Tayyebeh Elementary School Part II",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-18T13:01:01.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The National",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVTdScFFjTlhtU25LQmJvdEp1Vk5qZ3FtTFE3RkdXUzVDZFgtSnY3MkhTeW82UW9QTWVibnVQb2Nyb1RVYWlFTlpyd3JCdjIzVnV1QmVxUEUyTDhzWXdrZUhPN0N6aUxrYWN3NXdWcVNQeUtFVnFPMHRvSURyTFpMY0tvWmxoZ014aS1iWjVsMnRCVHFDeVhjcllvYw?oc=5",
-        "title": "Middle East latest: Gulf nations condemn 'hostile' Iranian attacks on Bahrain and Kuwait",
         "official": false,
         "forYou": ""
       },
@@ -408,28 +432,8 @@
         "title": "Has the US Ever Had a Nationwide Blackout? Biggest US Blackouts in History",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-17T01:46:45.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The National",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWUhsb2pnODdZNmUya1pnTkFma1Rsb0ozYnVkNGRzd0M0Q0VHT2xuVHhkaFc1NlREdnBiT2d0aW1oTjNRXzVOWkxnRmdzX1pvcmx4dWRIQmJySzFSOG52ZHZ3S0FpWTZOcFllRFRaaTg0ZEFsam8zdHlkME9rdFZGbWdxaVZtMDB6THQ2aGdCaEdLZjRMeTZfNURNZEUyWGoycVBkTg?oc=5",
-        "title": "Middle East latest: Pakistan awaits US response to latest Iran proposals",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-16T22:12:33.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "JournalArta",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZEhlcF9TX2hzbmZqal8wX3VGSmZDM2V1MDNTcTVXTUk3MWF6WVNhVzIyTUJaNmwxYWtLZ1RHNmhjeG0tTVl0amVqU1prOWxDRGprcnREUjN0WkttYTUxRno3S0RGTlY2Zk1WT3FLQlNsUThBcmhIUWR5WUxWZ2lBYg?oc=5",
-        "title": "U.S. Emergency Alert Test Nov. 17 Is Not a Power Outage",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-19T02:54:04.011Z"
+    "updatedAt": "2026-11-19T12:16:03.137Z"
   }
 }
