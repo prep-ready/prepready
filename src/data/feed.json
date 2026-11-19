@@ -4,6 +4,78 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-11-19T18:03:34.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdTk3bnU5d1g3U3RwTXpVM3NyTjJHVXZzYkJsdTl0Z3BJMXd5X1BITFEyRzJTblRueTQ4MHcxc3NYQzIxVEo5UE5JVDZvN3kzWU00WGFvWTBSN3R4R2pOc0YxOUZNaUFQdEwyVkpITUY0czhwVGQ3cUwybHZKbnYxaWZoOHFfeVhRbDVmaXV1V2t1a3Y1WnhPR3poSTJBUWlOcFZ4Nl9hZjNpNXloWDdERnlhVU0?oc=5",
+        "title": "Dron spadł przy ambasadzie Holandii w Kijowie. Haga wzywa ambasadora Rosji",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
+      },
+      {
+        "at": "2026-11-19T15:51:24.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Onet",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPeVNpbjhPTzlfbWFmMnIxYTZBbUJSb3o4SktVSE9UcFQ3RVJpMDMzMHBWZnFtMkx5eWRNVEozd3FZN1Y1a2xuakNLR1FFT1plOUJMT2J6RzJOMll5WE9aeDB4UUc3MlpnMFlZU0RxZ3gxaGIxVjNOb3VYVlFQZFppUFQ3Z19FSFpDSVVhQkF1OFVyLUJLblJSM2VRRVdTUjVLWHRnRnlPX2E3UDhvTndIQkFsZG43aFVTM1V6eDg5V1hIWDBteUhGTzFOcmszZlRfTmJOdHBsYW1OTWt3aW1v?oc=5",
+        "title": "Sabotaż kolei, cyberataki i podejrzane drony stają się problemem całej Europy. Polska, Niemcy i Francja zapowiadają bliższą współpracę",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
+      },
+      {
+        "at": "2026-11-19T15:05:00.000Z",
+        "cat": "health",
+        "sev": 1,
+        "source": "Gov.pl",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUHRfWnZTUkFZMXlDc0RVQTl1VnRNRUlmV0tNRFBzWXZRaVIzbDF1NzJlQkZ0aThUMjdtNVR4VVdhcGRvWmFGWkNwQ3FLcUNoakcyWVhsQmQ2eGhacjQxSUViOGlmaDZiVXVfcVBpRFJ5WHF6TjFXOERSdTkwTEpJbTlTR3dzMDN5d29KNmdtLVNuQXgwUDRMU2tOdzNPNThsNWRyVGktcTgybWF3WlE?oc=5",
+        "title": "Konferencja „Profilaktyka - wzory duńskie” z udziałem Głównego Inspektora Sanitarnego",
+        "official": true,
+        "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
+      },
+      {
+        "at": "2026-11-19T13:46:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Bankier.pl",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTUIxeHVFWklXbGZhZW9TbktSci1TZmhzNExrZUY2Y3NwY0t4NXF1bGdESXRTOGNmSjNJcVM2NGNVUmp0ZVUxYjd6OE53YVYxUGJfU2ZqS2xETDdfTWFvdlpvVUNNOUM5UHRRMjBINjctdEJnU1JvdU9nNTJBeHptdHdwYm9XdmJkcnpoNEVHODdhbWtEUUxpclc0aGtHbFpLZDlmZi1aLUNZN3B1bVZCS3RBRU9zazVxNl96Yg?oc=5",
+        "title": "Polski przemysł zbrojeniowy dostarcza kolejne Borsuki. Wojsko szkoli załogi",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-19T13:13:30.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Polskie Radio 24",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdWpnUUU3eXJSNG1DSGVIOHBSTzZydWswMjF4V1p1WWxmRFRPUWVNYW9pTHZoWXc4RWI5M2pDLW4tcjN6R19iRExWRjJRZEU4ZW9Bdl9zYVo0Qk9WUDF3dmtzM2JLR2hIck1xUzZKekw3R01aalZvdWFUOFlGam0wdk44RTRDdDIwWmpxblA1c3drWXdZV3I3REFwZUJRVGFPYnFVRDYzOGlrTDc3cFRhcQ?oc=5",
+        "title": "Ewakuacja przedszkola w Lubartowie. \"Znaleziono fiolkę z nieznaną substancją\"",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/poradniki/bezpieczenstwo-dziecka-w-szkole/",
+          "label": "Bezpieczeństwo dziecka w szkole"
+        }
+      },
+      {
+        "at": "2026-11-19T10:55:00.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "CERT Polska",
+        "url": "https://cert.pl/posts/2026/11/CVE-2026-87867/",
+        "title": "Podatności w oprogramowaniu MRemoteNG",
+        "official": true,
+        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
+      },
+      {
         "at": "2026-11-19T10:44:00.000Z",
         "cat": "security",
         "sev": 2,
@@ -33,7 +105,7 @@
         "sev": 2,
         "source": "Polskie Radio 24",
         "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRU8tbV94X3lBQ2RLYkZxc3JxRHYxSTFqV0tBLUlYckVqMV9UdDh0MFdTZy1pd2pYSGNTT2lUUjdJbmgteFp5VHo1UWJzUW5wQThpLVpxNE9BQ2RxZXV1X1FPaHY3eWVZamVLWUFEemNSTzNpbFg0UXhTbTllMXpKbGRHckNyWEItOEgwRGZtNzVQUTJJTmRqaW50YTdvNk5qUVhPRk1mWmI?oc=5",
-        "title": "Niebezpieczna toksyna w kawie. GIS wydał pilne ostrzeżenie",
+        "title": "GIS wydał pilne ostrzeżenie. Niebezpieczna toksyna w trzech partiach kawy",
         "official": false,
         "forYou": ""
       },
@@ -158,88 +230,50 @@
         "title": "IMGW: 1 ostrzeżeń meteo, najwyższy stopień 1: Silny wiatr",
         "official": true,
         "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
-      },
-      {
-        "at": "2026-11-18T11:30:00.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "CERT Polska",
-        "url": "https://cert.pl/posts/2026/11/CVE-2026-109857/",
-        "title": "Podatności w oprogramowaniu CAST Imaging",
-        "official": true,
-        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
-      },
-      {
-        "at": "2026-11-18T08:46:06.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "WP Wiadomości",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPR0M0RHZEelN2NkFUbk5HcGJXZzl3aVJGbnRvMTNQS2w1VXhwQVRlVU5OcDNSUkIwVDczZ2gtRjZ6R0x3NFhwdlBvZ1YycmtqM1BYNFFUWXk3ZzROVGI5UkwwQnRVaDg4XzNOdU1iVldNZTYzV09qMlNNY3lfa2VrZUNQYXlyejJQZGZHdjk3OUZaX2V2RXo4Y3dHQXBMeTg?oc=5",
-        "title": "\"W banku jest bomba\". Policja zatrzymała 71-latkę",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-18T06:54:28.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Wiadomości Onet",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMHRyc2RuM1A1YTFmdGVNUFgzcWoxb0VzYTBMVUN5Ul81cnc2R19hdDFjc3ZDSXVaOV9KSnp6WlhMR1R5QnlDOGNxOVR1dHNTRTdDckVaa21JUWNOVDVSMlBBS0ZibzhneC1JZUd3NjhZTU5PeEdya3pQZk80LWtYUHQ2ZFl5ZmxxNzBpNmZKU3hPb0ZQblBTaVA2a2JZMkNwUVJQRWMtNjNkaWVX?oc=5",
-        "title": "16-latka groziła wysadzeniem szkoły. Policja zatrzymała ją w domu",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/poradniki/bezpieczenstwo-dziecka-w-szkole/",
-          "label": "Bezpieczeństwo dziecka w szkole"
-        }
-      },
-      {
-        "at": "2026-11-17T22:21:00.000Z",
-        "cat": "weather",
-        "sev": 2,
-        "source": "IMGW",
-        "url": "https://meteo.imgw.pl/",
-        "title": "IMGW: 2 ostrzeżeń meteo, najwyższy stopień 1: Silny wiatr",
-        "official": true,
-        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
-      },
-      {
-        "at": "2026-11-17T15:12:30.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "InfoSecurity24",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNWGJMZndveUZfMGU4ZXEzcDlCT0RKaU1YX1dqV05wVDVkU2ZlcjFkdGZxTUpPeUZMZkNlQTRhQlozMDlqVDBNRnlHdk1tN29SaHNpUnV2bWhCallpQVRxU2RKSHpOTDdPMTFrSFFVLTctaDlOOFJfb2U2bklyWEdJY1JUNk43ZEd6YkRLbFpqTUZWS0FTa1dUTlFQMUZFVDFaa2tTRGpZc3BGTjRfVEhKeW9UTVVxMjU1aFBxRDQ1Q2NHYVdkSVg4djlEa2JKTEVSVjdkbjNDdw?oc=5",
-        "title": "Ostatnie szlify polskich planów ewakuacyjnych. Chodzi o współpracę z państwami bałtyckimi",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/poradniki/plan-ewakuacji-rodziny/",
-          "label": "Plan ewakuacji rodziny"
-        }
-      },
-      {
-        "at": "2026-11-17T14:16:23.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "TVN24",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNdF9YeUZkeUd6aDYxTFhKRm1nZ0NDS2JvLUNxZlZwSXZ1WU90anJwMHZlUE1QcTNKdmRXN0VEYTEzZ1JiR1lqVHBoTktTMm54cWJ6MFk0b3RHNnNkM3ZYN2lHVGdVX29xVlZhSVFtc2lKQ2ZiNVJfaUxiT2pYZ1RhR1hQMG9YY3J6ZTIzNkN6c1BZQjMySTlldnpMZFNoLUtwM2VXY3BiampoUQ?oc=5",
-        "title": "Zwrot w sprawie pochówku zamachowca z Krakowa. Zgłosiła się \"osoba najbliższa\"",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-19T12:14:35.989Z"
+    "updatedAt": "2026-11-19T21:03:01.186Z"
   },
   "en": {
     "sample": false,
     "items": [
       {
-        "at": "2026-11-19T11:58:45.000Z",
+        "at": "2026-11-19T19:56:55.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "PBS",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcmFNTmJiTzY2SFNiZlM5dE14ekFoc0ZrZFQ3T043M3BCOURXOXFza2g0ZVZwZFZxaHF3NDJNR2VIb1BXUHc0TGZtbDl5SlpUeDJPLUtJMEZuaHpFTGJsd1JLQW1NaV9TOHlqcktNTHoxVmhEQmh0R2NsMjVJbFV0RnVzcnMzSzNZWUx5SVloS2xkSFBmOXhUcXdnQmZuTU5rM3MyUjVwMWZGanB3bGQ5Sw?oc=5",
+        "title": "Debunking social media posts that claim a 90-day blackout will start Nov. 17",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-19T19:00:23.000Z",
         "cat": "security",
         "sev": 2,
         "source": "The National",
         "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPam9XS0tmcEhaa3NBUzd2bUJ5ME1FWktqN2hhaVFzd2k0MlVDaExwX0EyUW84Ylg2QkNFZ2FMTC1RbkZ2VGtUNV9xQzhMQ1lhcklId3JXbGQ1dTBHNDg3Qm0wT1RBWEZYRGFIUjZ0YVZlcHI3NUcyZV9yNFdaam9qX1FHZUtIbnFpRU5EU2dxMnRXZ2lRNlpfYTFJWQ?oc=5",
-        "title": "Middle East latest: Saudi wealth fund tower damaged in Riyadh as Houthis launch attacks",
+        "title": "Middle East latest: Saudi Arabia confirms strike on PIF tower and condemns Houthi attacks",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-19T14:43:21.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Arabian Business",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeGVzSjhrbUhOTTctX0ViTkJTRnFEZnkwNTJQR3gySTJRQlk3aXNwenJ2Qk1DejVYcF84dmF4WDFPd2xKRzEwazEtOEdOb05OOFhJaXZQVTd3R2lDRHdGbTgtM1JSSEMxeFN5OTlLc0tLNE55MHlHRDZNU3lOVFBDaTJwQQ?oc=5",
+        "title": "Iran war live: Strait of Hormuz crisis dubbed ‘largest energy shock in history’",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-19T14:42:18.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "TMZ",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUlJaM0FjNmxKbDhzZmwwVHMxZWJhNnZHemI5WlJmWWt5WE44MU5STXhpZXNFWUswVHU5X3o0djlhM3dhWmVnRUZ3dV80Uko3dUdxb0kzVVVxbVg0dThmZXI0aWVwcExlMXZseHJmWWNjbUVVRF94OF9KSm1IRFcxQ0dLQk9VcHB6bU16bg?oc=5",
+        "title": "Hollywood Burbank Airport Left With No Air Traffic Controllers, Reported Staffing Issue",
         "official": false,
         "forYou": ""
       },
@@ -402,38 +436,8 @@
         "title": "Ebola disease: Multi-country outbreak 2026",
         "official": true,
         "forYou": "Usually no action. Check your first-aid kit and expiry dates."
-      },
-      {
-        "at": "2026-11-17T14:51:28.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "USA Today",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPd3hWQ1FNa0tXOEN5eXVXQWl4d2VKWk9yZkxSQkRfMzhWZ1VSNmJfRGh6MUZWQlhpTk1MZ2VOTHlCOEtiSW5Zbm1hR3puUmItejc2SFE1Tk11Z1l6YmNJOEFVN1V2aS13X3RmeG5WVlR0ZEdOcWpuZ1JiZXhhSFBMdkxCUWxWOVd1V0R1dkN6dkRSZkZIakV6ZENqd3A4WHJGYldFQTdTOXk3dHVQ?oc=5",
-        "title": "Emergency alert test sparks rumors of a blackout. What's going on?",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-17T14:01:04.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "Medical Daily",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQR0VvM3hnUGE1eWotcEdTdVYxenlvZHR5cnNrYzJJdUxXRllkRy1JWTFDckVwMVhyRjJuZGkxUFQ5R1Nfc0ZvZVpIWWZvUHM0S0RUQVU2Y3BhTU04ZFF2SjRwOGNDd3hPWFJJM2hVMlQtVGxMbzBxelY0aUw4S1JOQ0U5dlFKbkF1V3NFc1cxWQ?oc=5",
-        "title": "Kazakhstan national accused in ransomware attacks on hospitals appears in U.S. court after extradition from Italy",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-17T04:19:23.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "PopTV Culture",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5PcGRSSXBqc3NlWDNQeWV0VEg2WTI0SXcwOWxQR3RvQlhoYXpGY01nUEtaRFJJRlA2V3F4Y0t5c3k2SGNUd2RfUkhtV3R3SmFoLWE0NjFHWmFySHZsZUlDWkFKYjA2WTdEMExPRW9QM0o1NXJmOUE?oc=5",
-        "title": "Has the US Ever Had a Nationwide Blackout? Biggest US Blackouts in History",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-19T12:16:03.137Z"
+    "updatedAt": "2026-11-19T21:05:10.818Z"
   }
 }
