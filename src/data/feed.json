@@ -4,6 +4,20 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-11-19T02:51:36.001Z",
+        "cat": "energy",
+        "sev": 3,
+        "source": "PSE",
+        "url": "https://www.pse.pl/",
+        "title": "PSE: dziś zalecane oszczędzanie energii",
+        "official": true,
+        "forYou": "Ogranicz zużycie prądu w godzinach szczytu, naładuj powerbanki i latarki.",
+        "guide": {
+          "href": "/pl/poradniki/blackout-jak-sie-przygotowac/",
+          "label": "Jak przygotować się na blackout"
+        }
+      },
+      {
         "at": "2026-11-18T20:12:39.000Z",
         "cat": "security",
         "sev": 2,
@@ -54,6 +68,16 @@
         "source": "TVN24",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPaEVUNHVOQUhjZVUzX0JNYjJ2Y0puLTA4VEh1bUpoWUhBTEVMYmM4MjV1b3FJTEdQeWx2V2NPRnFqODNaRDM4NDJEaXhFeTAxcTlzdkJRc2prZl9MQk9JYVVXSDNRWHBfOFRIMXhEVld4elNSWHBndjhmanU1LTFGMjl4bGNza0JOakxIZFc5dE5fQQ?oc=5",
         "title": "Ostrym narzędziem zaatakował pracowników budowu. Policja szuka dwóch osób",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-18T13:32:18.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSXcwU2xWdzdjX21SbVF2M2E2VGZmV2hmYmhlbXIzSHc3TFlibGFDVXhGNFd2MjNVUGhZMk9INWlOaFlPcXptTmNkeTJ1azMtN1hIU0JqU3hFNGt6djdmV2RhejRUaTRVbm00VnhwdlBodDVSRjBsbXdtMVI4X1kweG5UdFlTREQxZmxIYkt5ODduVlFVNXFyeENTbGVYX05WSzBDTTFjdHJULU1qVWI1R01wZU1VUQ?oc=5",
+        "title": "Test pocisków oświetlających nad Warszawą. \"Mogą przypominać nietypowy obiekt\"",
         "official": false,
         "forYou": ""
       },
@@ -198,41 +222,43 @@
           "href": "/pl/mapa-schronow/",
           "label": "Mapa schronów"
         }
-      },
-      {
-        "at": "2026-11-17T06:35:52.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Polskie Radio 24",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQY1FiRkhyM0RIQVhwV2hmM1AwVjVqSWY5RGw4RWJsbGV0aGsxYnVBVXk1UlNoc01lX19mNXVXRWxFZWwtZGcwT0IxSk9fRlh2TkNYbG9Ha21odDJkeGtvNFlVTDJ5YkNmZW81RWFrRERfeEtpM2swVUVKMlZDUDZBSm4zeW1JTmdqdDVfaS1oaFR2eHJZajAwZjB6TU1KWnBuNnc?oc=5",
-        "title": "Alert RCB na Dolnym Śląsku. Mieszkańcy usłyszą syreny, jest komunikat",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
-          "label": "Alert RCB i aplikacja RSO"
-        }
-      },
-      {
-        "at": "2026-11-17T04:48:50.695Z",
-        "cat": "energy",
-        "sev": 3,
-        "source": "PSE",
-        "url": "https://www.pse.pl/",
-        "title": "PSE: dziś zalecane oszczędzanie energii",
-        "official": true,
-        "forYou": "Ogranicz zużycie prądu w godzinach szczytu, naładuj powerbanki i latarki.",
-        "guide": {
-          "href": "/pl/poradniki/blackout-jak-sie-przygotowac/",
-          "label": "Jak przygotować się na blackout"
-        }
       }
     ],
-    "updatedAt": "2026-11-18T21:39:51.171Z"
+    "updatedAt": "2026-11-19T02:52:40.616Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-19T02:16:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNOENUX1hEa09FRkEySGhZbmYtbDJrNE8zQmg5WWswbGpBTGhPZEF5YWxtU1laU1F0SFU4Y2Izd1NYcDhlaWF2cGNwMWZuYmh5bUVRdlFnNWI3alp0Y0tpYnJ4am5TcW1RVE9oNm82UXJhc3h6NE5ZcXd2RHhvV21wSGJNLW5rSlVuV3JWR2JsdG12Y00wak9NUG9ST1UyMHl6Z3RDZ3dsSEZHRDh6Q0MteWkxT0dWUGU1ZHRHYjNXM3dBT2Y3UlhUNzMzd0FmSFpDQkFZQg?oc=5",
+        "title": "Ukraine war briefing: Russia asks if Netherlands has joined conflict after Crimea bridge strike",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-19T00:07:04.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "NewsNation",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNazhKY0FTLUU5aGctWVdVWWFxSTA2U2ZMelRuMnlVZEtyVG42bmpoUXhXR0NQMHJWX0ZIZmxnTlZfZzA2UjJsOVlKVGpmcnE0QXJuUmZMTUJPS21CMWJsZEc5UXAxOXJWcVJidEdkVTYxWF9pNXEwRHlSUlZUdWllSTh6VTJJSk1nTU8yNzFEeDQ2dE9pR0VTR0RIXzhOX3R1aWxj0gGoAUFVX3lxTE5xUWE1X05WVm05VUUwUFI2TjV5T0ozU29BV3FEQUdwQUFXMjV3cXZneHdCS19ubzNyaWFGcENMZTFrLURLUWNkRS1jV2JFRUZyeVdfcnBvYXpsaVRCUGhjUEE1SnE5NUZoMGtwNTdVMGpBU3BXM0dRN09qR3djQmxpRVg2ZWpFVEFUZk1ENjJRRlFBVFJwX2hMZTZLOU1qQVJ0YW92TTFQeQ?oc=5",
+        "title": "Tech blackout? Outages hit banks, airlines and government agencies",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-18T22:34:08.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "ABC7 Chicago",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQczBrVlBwMkxPalR3VTlNeEdjbUdEZVM0N1M1T3JJUWdPQnFKZk9PQk1QTjBPdWZBeWF5XzVvRHE0VnIwTlZlNjMzMFFhVHBTQ0VGQWpGQU5RUlI1WjRSQ3N6Nm9FR0lNVHBhR3R1X1MyaVpLX2NSUU1FQWRQWEQ4ZWZjUlh6ejBZbFl5YTR1Skd0ZnpmZlVtcnhzd0VUNWVZYUZsLUIxQ1VsaFpwa2VybnFNNktVaWtpRHpLU0JQcEhabC1TTzJ0LXE0VVlkRDl2eUxkM1N2NS1yaUXSAeABQVVfeXFMUE9uYWZ1dlJKX2dQc0E0WjdXRUlNNDhXbk9jZkRGVDhXUVI0WlFmTjU0NjJHU3ZRQnVBWEdzTndQVzZDaWhXYXNUNWM0Tk1HSTR0ZlBzS3NGdTZKQ0l6b1BUSjJEcEVfZFpTZ29TNnNSUVVWRjJoWFVjeWR3TkdQcVluOUdWZjZMMDBvWmo4dGpSUU9iMk1vRTlxODhCLWhxeUhCSEdmR3RTSFJDZlNmTWFjNU1kWDZDX2R6d1U5bWRyeER3N3V0RkJWQ090LXBjUDBaNE9jcVlLdWk4WmlHdEs?oc=5",
+        "title": "US Sen. Tammy Duckworth, Democrat from Illinois, seeks answers after FAA outage as officials rule out coordinated cyberattack",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-18T20:03:34.000Z",
         "cat": "energy",
@@ -250,16 +276,6 @@
         "source": "Just Security",
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTHBnUUVDTGl3cU5pUzI1VTRXTkNROUZKak9oQ1BzZ2xHemZnRkhTcDROWnlwYnBQRGF2WHFVNkVheHYtQWFZR19HcEhaaEc5M0lObjk0RkEzSGdsMDZTZmwxWjNDVlE3ZVZDYUFzTVZXVEZia3N1SlRMc1hYUENYaEZLd0FibThM?oc=5",
         "title": "The United States’ Missile Strike on Minab’s Shajareh Tayyebeh Elementary School Part II",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-18T13:33:14.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Dagens.com",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTW94Qk1lLW5xeWpSUmNPSWo0OC13eXc0TGZibEY1bTlvX3VwQnVCN2N4MU9hN0hyMkM2Z2xHckthNk15Nzk2cmJJOXlZMnhiWHFPVFhuRlF2VUQzV0xLNmdiMWttTVBQWmpzYnREZmJLVmFmXzY5eEZhbWl1Zk50bjFWbUFvYVZDZGJZbm1aWkxjd1UycGI5TzRZS1l1a2hpUVBPY29Td1VBc0l5eEotQTZ1RDFuSlk0?oc=5",
-        "title": "A live-streaming cruise missile: Ukraine releases footage of strike on Putin’s prized bridge",
         "official": false,
         "forYou": ""
       },
@@ -394,16 +410,6 @@
         "forYou": ""
       },
       {
-        "at": "2026-11-17T03:43:23.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "Firstpost",
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNWkdRN2Z3cWQ0QmlpdFEzUk9TVm01U2Y5U1c4U2trWTF1Y3ZwSkZLVlZkaHZuNlkwYWI3azhBOGYyc1Nhc2oyeVQtMEVSWno0dUlWa1JYeFg3dlg5SkhzazhOazhPdWJGd3hZaFdHWUdIQkY4U1Y4WTJ1M0pYVkhKUVBvTTE0bnhVVEloTnJfbmdwdWo1SFFnS3JianVYN3lTbW9ka1pZNjRQcFlqN3hScjd1anhacmJKaDB4bDJOel9ydUZuQk94VkR5QklSQ3k1eGMwMHRR0gHbAUFVX3lxTFA1QkY4S2hpNk9DdGZ0VUY3c3BGUUJ3YUNSWmJyM0VNLTFRbkROeXlCbzg0WUFHNHNueGY0NGdPVlJwamdtbkJOb1FfMzFIWnNwZE1wTDF2b1NOWGpCaVloT1pHc0hoU05rUzV0eEJuMlczaUFVUTNLNmVIczBDSW9jUEl2aTJQWWJITHJfUHZRTzJJR3dZMTJUd3hqODNUY29sVmVRMUw1eWlGai1DelJDMnVJd19Dcl9NRWg4eXNwaUE1c3FEZWtkQWZHM0NoNTRZOXhpV01pb1ZNQQ?oc=5",
-        "title": "Bank outages in US after flights and Microsoft disruptions: Is it a coordinated cyberattack?",
-        "official": false,
-        "forYou": ""
-      },
-      {
         "at": "2026-11-17T01:46:45.000Z",
         "cat": "security",
         "sev": 2,
@@ -422,18 +428,8 @@
         "title": "U.S. Emergency Alert Test Nov. 17 Is Not a Power Outage",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-16T19:20:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "LIGA.net",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcU1LNGg3elpXMjhTRGVwczZ1N3BVN0VldzhpWlVQVW5OYmN0TkQteTJRNnl2dlFJSUVPOWNoWndTQ09VeHhLRlN2cGloaklZR3B5SjRoTDU1UXktZzRLSnhfQm1ONG5kUDBodVNmQW9RVXpGd0hfMEhVZkdpQUpycGtpU2otX3JmV3JmYzhSZjJCbTVCb2Y5YXdJc1AxOV9pajF1cmh6WdIBrAFBVV95cUxOOS1HZXJWSm5HMWtLcm5oLWV1N25TdkdKR1R4SGlSREY1c1p1aFdYd0M5VUwxZ2M3c3NEYXBsd3k1NmtiSS0zZzJ0eVZ1S1VZeXI0aFRRamV6OTdpWk5CWFJHdl84c1l4UGxJWHNBZ1o5cThheVFVSXJPdlZIM1RvcUNnVWhQMnJzZmJ3ZExEZEZNQjZlaUxyV3VNTGtrVjVMNGJXa01WaDVpVDVQ?oc=5",
-        "title": "Zelenskyy urges people to heed missile warnings on November 16–17",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-18T21:41:55.263Z"
+    "updatedAt": "2026-11-19T02:54:04.011Z"
   }
 }
