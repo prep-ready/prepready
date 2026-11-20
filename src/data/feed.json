@@ -4,6 +4,60 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-11-20T18:34:34.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "TVN24",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPNWhpT3E1aHd6dFVhOHExLWJ4WHBSZDFuT2toWDRNTmFGblVwNTRWcHdVdzAzQk9JckVBYUpDcmFEQXlOdjl0TDR3MUZpNXFFZEZNb0FYQllDQzV5cEcxQl92TDRlMDJZRWNfQlpqczJ0NGtnSDctWXJ1SzZXMl9DVzNTenRXRjVzbEhfLVRFcnpINWhFZUk2MkhmeWpnTWFOZXlPZjdJV0w2d3hLaE4tUXNfRlpqSXZydHZlRy1LdWxRMUtZZGZiMF9TdW8yYTdjZ2dDWmFXbzB4OGdpaWUxRw?oc=5",
+        "title": "\"Trwa wielka operacja dezinformacyjna\". Wojsko ostrzega i apeluje",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-20T18:18:22.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Defence24",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNdklVQk1wY1BmQmQzVjFEN3lNS0FNVlcxMkdYeWFINGgzcERkZ3VRd0lyMEt1Q2U4eEpUMG9leXUwTElDSEZ2Tkx1bGlOQi1lQUV4UlMyNVVrb1BKZTRiZUVkMmdXeU40WFhOSTdfMFhhYUhTYjdxeUxyLWpnSC1oQktqVm9DRHdZclJFbDlTSGRrU1JpNWdlVHZRNjZkSDRyaFk0ZWtCRjFKeTdpaGttVmowY1psenJoN3p4b0Q4QTdmLTlQRHQ1bGhB?oc=5",
+        "title": "Rosyjskie obiekty mogły lecieć w kierunku Nowej Dęby. Wojsko analizuje zagrożenie dla ćwiczeń",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-20T17:39:29.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWW9uRldpdUV0SmlOQ1BsZXNOaVdSbVRCdG5NWGRreThUcU5Wc1czM3d3ZXpYcV9fUTZ1VGtSZjVlYWNNNnFWcFBHRHAxWGVVdmxwTkdqTUt0dFhWQWQwYTdSb2pFWHJlaEtCSG53RUhyQjhFaG9aVVNyeHVUN3JhODRrM0ZrSHh2RXJ4Nmc0YXFlTTFVdUpVRWdmaUgyc3pWQXJoRnVtdE5YUQ?oc=5",
+        "title": "Nocna akcja Gripenów nad Polską. Szwedzkie wojsko ujawnia szczegóły",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-20T16:54:38.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "WP Wiadomości",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNnRWemJEZDFZRTUzeWhCdlFPcXZtUERuMy1BZTJ3cXl1QzNRZkR6ZXAwMnRPUXlaS0I5aUpzcTFwUUNWMjE0MHJtVFlOZXhfOG16YllFaTF2c1FvQ1VydEswOWdEYnBhUzJ3UVdsTy1UaXhWZ3BtcmV4OHBOYTlsb0JwQUxVN0FveFJQRXlEUDJOTUVi?oc=5",
+        "title": "Ewakuacja wieży w Rzeszowie. PAŻP ujawnia kulisy",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/poradniki/plan-ewakuacji-rodziny/",
+          "label": "Plan ewakuacji rodziny"
+        }
+      },
+      {
+        "at": "2026-11-20T10:55:00.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "CERT Polska",
+        "url": "https://cert.pl/posts/2026/11/CVE-2026-127027/",
+        "title": "Podatność w oprogramowaniu Analogic Poste.io",
+        "official": true,
+        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
+      },
+      {
         "at": "2026-11-20T10:24:00.000Z",
         "cat": "security",
         "sev": 2,
@@ -42,12 +96,22 @@
         }
       },
       {
-        "at": "2026-11-20T08:11:15.000Z",
+        "at": "2026-11-20T10:03:30.000Z",
+        "cat": "health",
+        "sev": 1,
+        "source": "Gov.pl",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMXBSNnM2cGQ0MnRWVWtpZGllX3FWOE04SC16RkdNWVV4LTBvLWdRa19wVHFDLURUazRRYTZ1Wm1SZU5FS3RyMi15TzBwV3JQV29PbnA2TTFIa19xM09jOVZwaEEwRGhlTV84OVdweFVRaTBoWWZfX2M0ajVTN2NxMEdjMDlzeTlJcjY2RV9KN0l3T2E4WFUycmd2VkVObnZkS002alh0OUFmV2V5ZnVKYUxkU3pOelNYZ0FR?oc=5",
+        "title": "Konferencja „Profilaktyka - wzory duńskie” z udziałem Głównego Inspektora Sanitarnego",
+        "official": true,
+        "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
+      },
+      {
+        "at": "2026-11-20T09:55:17.000Z",
         "cat": "safety",
-        "sev": 2,
-        "source": "Polskie Radio 24",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQRVZQR29kUHhheU8tdWs3VkxXUkFTRlk2Ym1UNVNJYTB1TkY5VkxUT0tHUV8xWkpldGxyOUhMWmdLeDBJdWdpSXBRUjJiVHQtSWpnNFBfcWpoN2hGcmxaZnFsZGJHbmh5ZXRqRXVIbXhfa0plMnh2b0RMY09LaXFvTU5xMjV2MnJ4VmMydE55dk9IdTF5?oc=5",
-        "title": "Alert RCB odwołany, nowa wiadomość. \"Brak zagrożenia na terenie Polski\"",
+        "sev": 3,
+        "source": "rzeszow.wyborcza.pl",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSkdMZld4SFA0QUlDd1VkX2pTR2dadGJ5c0dRejFqV19teWRPYnBzZXRtaTRBWVBsbUFXTjhxLUQ2Z0drNHlBUDVzbWZuOHl3Ull3RXMxckJ4TnZqckVjVl9Wa2QyQXlTVExvTUpyWllLN3JJWFM2WXY0TmJtNGRWWmh2T0M2SzA5WllLOXplOTg4Z3JNRVJBdHE5a1dnQnVhc2t3RXVSV2JsR1N6d185RHROR2drNEY3cUE?oc=5",
+        "title": "Alert RCB, zamknięta Jasionka, wstrzymane pociągi. Tak wyglądał poranek po rosyjskim ataku w Ukrainie",
         "official": false,
         "forYou": "",
         "guide": {
@@ -56,12 +120,12 @@
         }
       },
       {
-        "at": "2026-11-20T01:54:52.000Z",
+        "at": "2026-11-20T08:11:15.000Z",
         "cat": "safety",
-        "sev": 3,
-        "source": "TVN24",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdWR1TnVVcURGbUhkYlZUcWFScGlWSW1aUVlKbXVkVXlxLTdNdkFIVU5CT01lM2p1WEkzd2dYN2RiWm5FZHhpY0pIMmpZbDFxcWN0WFZlOEp5a1ZyQXhpelhZZnl3aEVRUWRJbFg5MkdNVGc4TW1YdTJGRHpSa0oxcDlGekxDTXprQTBoaw?oc=5",
-        "title": "Alert RCB w związku z rosyjskim atakiem na Ukrainę",
+        "sev": 2,
+        "source": "Polskie Radio 24",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQRVZQR29kUHhheU8tdWs3VkxXUkFTRlk2Ym1UNVNJYTB1TkY5VkxUT0tHUV8xWkpldGxyOUhMWmdLeDBJdWdpSXBRUjJiVHQtSWpnNFBfcWpoN2hGcmxaZnFsZGJHbmh5ZXRqRXVIbXhfa0plMnh2b0RMY09LaXFvTU5xMjV2MnJ4VmMydE55dk9IdTF5?oc=5",
+        "title": "Alert RCB odwołany, nowa wiadomość. \"Brak zagrożenia na terenie Polski\"",
         "official": false,
         "forYou": "",
         "guide": {
@@ -178,81 +242,63 @@
         "title": "Podatności w oprogramowaniu MRemoteNG",
         "official": true,
         "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
-      },
-      {
-        "at": "2026-11-19T10:44:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Rynek Zdrowia",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQeVMwZHVTS2pCOVBJVzROVFVOTVFPMHdubFlzT2tiR3p2MkREMWlhN3B0a05VaDJGbDY3eGZ5UURYTzhDeTkycEc5YW9NTTNSNFJxQ182c3FYY3NWU2xLWFk3UDlDYV9TODIxRGgxaHNpMGRDZnhuVWtMMkt3OXFyaml4S2hpMnkydHBqT0hXNURRd20tVElkY29IXzJsVDByNFRJN3hDWmlkTnM0bW90eXp6cFRVNDFmSlEwODdpSFlYcXpSOU1vY2pBcmlyeDQ?oc=5",
-        "title": "Wojsko polskie zapłaci 3250 zł za osiem dni. Jest warunek do spełnienia",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-19T09:07:22.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Defence24",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxObFdzQzlBSVhvQWlTSzdwRHNyRTFEVl9OeHhGOXRMcEpwQ2w0N3lBeDRRcHZSVGlkMTZ2Q2lMTXAyRnlUaGRUUGxrbzR3X3FGRHUtamkwOUdXUTFXLXFSSXdVU3lGV3hvZnVkcGdpNTQ0TngwZ2c3OFNWZWkwUVZ6Y2pJTjZBNTFITXg0ZXRFM0tVY2JjZkhOTkVSVldRWjZnLUZUTnptbGl4VEphVnh4RTVTX0JnQTJzUWFnVlluQQ?oc=5",
-        "title": "Co potrafią przemysł i nauka? Wojsko organizuje warsztaty o technologiach rakietowych",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/mapa-schronow/",
-          "label": "Mapa schronów"
-        }
-      },
-      {
-        "at": "2026-11-19T08:45:52.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Polskie Radio 24",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRU8tbV94X3lBQ2RLYkZxc3JxRHYxSTFqV0tBLUlYckVqMV9UdDh0MFdTZy1pd2pYSGNTT2lUUjdJbmgteFp5VHo1UWJzUW5wQThpLVpxNE9BQ2RxZXV1X1FPaHY3eWVZamVLWUFEemNSTzNpbFg0UXhTbTllMXpKbGRHckNyWEItOEgwRGZtNzVQUTJJTmRqaW50YTdvNk5qUVhPRk1mWmI?oc=5",
-        "title": "GIS wydał pilne ostrzeżenie. Niebezpieczna toksyna w trzech partiach kawy",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-19T08:13:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "WP Wiadomości",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQU1IOHBxLU1EeGNfek1IRGxselJSbU15YXp1azFFU055OWIyMGRaU1gxYWk1Q0JPQnEzVXVvLW85aE1iVzJXX3lRVmUtQUtQWXdtN1pCOXNpdEp2Q1FlYUdGVUtaTVFOUmNhNnY2ZEVMUHFiNlN5cVNMU3dpODFsYU1iS1J1QURlUk42ZnFWdVpuQ0dlXzFyRzE5Y3lrUmNtdlRHanZkbkVGVUVLS1UyY19UWHRWYWFyWk9B?oc=5",
-        "title": "Świetlne punkty na niebie. Wojsko testowało pociski oświetlające pod Warszawą",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-19T07:44:03.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Polskie Radio 24",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNemUxNHBXUkl0bkc1OFdhbE9kZzZsQ2IyZW92MUtHOWdJSTZRV0FWUTN3eDZ1c2NYX3lkZWhmbTVYVHJNQTVGcG9xTkdiNkJSakxmSTJhb2d6U2liX1BFd1gtYjI3a1FWQVpxUXJVRlY5S0NJM1VyT0FndDIySzkyN0RRMTBVdWxKUURIQTh5Z29JdS1NbEYxYm03NTRsWUM3?oc=5",
-        "title": "Zagadka zaginięcia sprzed niemal 10 lat rozwiązana. Policja odnalazła ciało na dnie stawu",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-19T07:20:47.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Radio Zet",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQYVBNeUhUbjZyTEpORzFyVngyMWE4cUhwRVlfNzB1ZTZLWVhfVFhqSXhjOFNENFBFNWhZQXhQenI2Z09zSE92MTN5M0RiVFZJZGdUQnBOWE9MTWZvVXVacWRuc19mTmVsekI5MHVtWDZiN1ZPUFV4UzRwZWtoLUw3eFJtR3BnS0xJbFdV?oc=5",
-        "title": "Syreny na Lubelszczyźnie. RCB wydało komunikat",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/poradniki/syreny-alarmowe/",
-          "label": "Sygnały syren alarmowych"
-        }
       }
     ],
-    "updatedAt": "2026-11-20T10:37:30.434Z"
+    "updatedAt": "2026-11-20T18:54:20.440Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-20T17:28:29.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Herald.Wales",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQWEyOTd5eElOMGZzZFdFOGJMRUlLcV9DYm9DZlBxV2dLQnJlbVN4cjZ4RzdxZWpZYWJtcV9HblJvS251QUs2MFhILWdyREFKWGVSN0JRSjREbDhRWXFGNWVpN1JxMzlYREI5VktSanJfQlloQjNFTzdxNVBSVUZabkh0UHQ?oc=5",
+        "title": "Inside the ‘Black Sky’ plans for a nationwide blackout",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-20T17:15:24.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "SC Media",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNeU1qdTJERFRONWY0blBhQ1JXVGQ0dGxxd0FnUGhwRnhhaVpzNUswWnJ4NU1TUXhsQlR0bzVFQXNNVkFqWk5MYmhVM1dUMElvdGZmUGIzeHEyLTdEeHE5SERkSmpXWjJCR011ZVV6VndicDh4dUo5eEN3VUo1a0JhbF9xZk9wOWc?oc=5",
+        "title": "How to determine if a tech outage is a cyberattack",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-20T16:54:29.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8wTkZBWEhyWUxyWHJPbmJIZ1pVcFZwMTkwQXduY1F5bWN0c0FfZ3o4SXJyd0FtckdncnJIbFRWcHo2bjFncDYwOGhZNERnUWRlWXNaWkVsUXBpX1E?oc=5",
+        "title": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-20T16:30:56.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The National",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPV2s2d2xVNlpZamM1RXpfRURTUFM4eFhHeFBkQVp6TTlLTXZWMjB5WFEwcF8wQ2dqR3U5SDd2VUNKdm1uV2RfV256RHUzUS1ZQWZJdnNlRmJtemxFeUZLR2tLWXhza2EwOVBWUEVPeUJ2VG9aV0R0RjVSWU1wVG8zU3p4RWJQMmhDcjdKOF9XZXBMQQ?oc=5",
+        "title": "Middle East latest: Saudi-led coalition targets Houthi weapons smuggling at Hodeidah port",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-20T15:50:03.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "DW.com",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPeV9qSzNGLU5BaGd1UHRudmk5NjV5UDFnLVJuX2FYUUZnZmpVZjZkZFVSZzE3SnFzMkZLVVZDMktHTGdUbGJTM3E4S2VZMW9hcWhaR21uSFB5czM3ZDZBNkF2ZmlrUWtmOHF0S3Z4MzhLUzl2ZmxiWXlwUjdSODdHeHlOa29DUmNzTl9oTG5WbjlfbjJheEt3YmRBR2I?oc=5",
+        "title": "Ukraine updates: Russian attack 'one of largest,' Zelenskyy says",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-20T08:10:51.000Z",
         "cat": "cyber",
@@ -402,58 +448,8 @@
         "title": "The United States’ Missile Strike on Minab’s Shajareh Tayyebeh Elementary School Part II",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-18T12:28:20.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "London Now",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNa0E4UllOdW9aV0hJWFZsX1g3RzF2N052Mk9MSUJnR3cwRzFuX2Q5UmRpeUhwXzNsd0VNZm1vcUVsRkZEY280cklqSVZIX0UteVFZaGVQRGFZZmhoc2pxNzhhR0xrb0d1NmtqS2xjaERRMER5bnY5ZHU4ei16RzV3ZlZwNUMzRVZFVUJZMExmVmhhcTBwQjdtWlRjUFc?oc=5",
-        "title": "Heathrow and Gatwick flights could face chaos in major power blackout",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-18T12:18:59.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "IT Security Guru",
-        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQTmNuNUZmeWFVbEQ3NHlpVG9NNXFiLWJ6Q2N2V2ltU3R3TC1nTzQwRDNKZ2VVdE1ueXJnNFFwVEw5LVpFZXQ2WHdDQlNieXRjUlB3WW14ODFWakFOVGZMZUlDNHRUUmtfdkRFcGVSaU51T2dfM3RzMG1yX0NlXzN6cWs2V2dlOGJ2cjhBNzdFSmFiWmJ0eXd5Q0lic0Y5a3B6dXRiNVEwTXp6VE5hNFROZ1ZpSWtWZWlmRHRnSWVVSnBrWkYzQy1ZX3hKODVzYjRCODFzSTRSUzJHVWdo?oc=5",
-        "title": "Keeper Security Launches Global Emergency Breach Response Service for Organisations Under Cyberattack",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-18T09:00:48.000Z",
-        "cat": "health",
-        "sev": 1,
-        "source": "ECDC",
-        "url": "https://www.ecdc.europa.eu/en/news-events/stockholm-welcomes-scientific-experts-escaide-europes-leading-annual-public-health",
-        "title": "Stockholm welcomes scientific experts to ESCAIDE – Europe’s leading annual public health conference",
-        "official": true,
-        "forYou": "Usually no action. Check your first-aid kit and expiry dates."
-      },
-      {
-        "at": "2026-11-18T05:00:07.000Z",
-        "cat": "health",
-        "sev": 1,
-        "source": "ECDC",
-        "url": "https://www.ecdc.europa.eu/en/news-events/urgent-action-needed-safeguard-effectiveness-antibiotics",
-        "title": "Urgent action needed to safeguard the effectiveness of antibiotics",
-        "official": true,
-        "forYou": "Usually no action. Check your first-aid kit and expiry dates."
-      },
-      {
-        "at": "2026-11-18T04:12:00.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "CBS News",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVmhlU05wRWpDeXdBT29TajItbThSaXM0SVRxakhSSC03Wm53UkdMR1ppUEd2UHJib1VtWlVhTUs4WnZ2ZGFKWGJ0WWE3Ml9KZVB5RjdBaFRfOHZWOHJIQ01fQ2UwQzI4c2w5cHVRT3dRVlBPU1l1NTN3OExYRzFnZUZTS2dtNzN1blVNTlJudkExSF94eUV6Y3lycDl2ZU5WLU5VWTNCdw?oc=5",
-        "title": "No evidence of cyberattack behind wave of tech outages, Rubio says",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-20T10:39:36.852Z"
+    "updatedAt": "2026-11-20T18:55:20.564Z"
   }
 }
