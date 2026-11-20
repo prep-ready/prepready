@@ -4,6 +4,34 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-11-20T01:54:52.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "TVN24",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdWR1TnVVcURGbUhkYlZUcWFScGlWSW1aUVlKbXVkVXlxLTdNdkFIVU5CT01lM2p1WEkzd2dYN2RiWm5FZHhpY0pIMmpZbDFxcWN0WFZlOEp5a1ZyQXhpelhZZnl3aEVRUWRJbFg5MkdNVGc4TW1YdTJGRHpSa0oxcDlGekxDTXprQTBoaw?oc=5",
+        "title": "Alert RCB w związku z rosyjskim atakiem na Ukrainę",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
+          "label": "Alert RCB i aplikacja RSO"
+        }
+      },
+      {
+        "at": "2026-11-20T01:54:49.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNWRsNjI1WmVSS0lpU2ZxSGtIaFVQbTVuZFUtaUFzOVp0ZmlHUDBiRUlDUGVibDUtcHlFRTVxd19JZm56UTRLNG1JOHI4cm94T051TmZJQjd4cVF1dmhsR0ZqNEZSOFZpUXdaQ3RZMnluRWpwa0swdTFyd0hVMWNsMUhoZkg4MU56MXN4ZEFVN2lYRUtkWDhGc1l6T1Q1NmJlb2NvSA?oc=5",
+        "title": "Nocny alert RCB dla mieszkańców dwóch województw. Powodem ataki w Ukrainie",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
+          "label": "Alert RCB i aplikacja RSO"
+        }
+      },
+      {
         "at": "2026-11-19T18:03:34.000Z",
         "cat": "security",
         "sev": 2,
@@ -40,6 +68,16 @@
         "title": "Konferencja „Profilaktyka - wzory duńskie” z udziałem Głównego Inspektora Sanitarnego",
         "official": true,
         "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
+      },
+      {
+        "at": "2026-11-19T14:45:45.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "Radio Zet",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUjZrTHZFVncydHJUUDNmZUZCeEV6bkRBblh2dWhnajhxWmt5R090ZHdHekYwRHRON2NqOGJtU3kteWk2WW96dG1DdS1TM0oycHJWampjRWtpeHN0OXcwQlJHNGh4RkI2ZE9QMUx1c0FQSVQxVDRzMl8tUG5rWkZEaHFIb1lXQTEySDdFQTY4YTR2cFJZVHJ1WVM0TzhzQmRLSGxKNWdWSWlCZTFPVENXOHBDREtGelBjWGR4RGx3?oc=5",
+        "title": "Nie żyje jeden z rannych po ataku nożownika w Jarosławiu. Śledczy ustalają szczegóły",
+        "official": false,
+        "forYou": ""
       },
       {
         "at": "2026-11-19T13:46:00.000Z",
@@ -200,43 +238,43 @@
         "title": "Nietypowe światła nad Warszawą \"na spadochronach\". RCB wydało komunikat",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-18T14:11:34.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "TVN24",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPaEVUNHVOQUhjZVUzX0JNYjJ2Y0puLTA4VEh1bUpoWUhBTEVMYmM4MjV1b3FJTEdQeWx2V2NPRnFqODNaRDM4NDJEaXhFeTAxcTlzdkJRc2prZl9MQk9JYVVXSDNRWHBfOFRIMXhEVld4elNSWHBndjhmanU1LTFGMjl4bGNza0JOakxIZFc5dE5fQQ?oc=5",
-        "title": "Ostrym narzędziem zaatakował pracowników budowu. Policja szuka dwóch osób",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-18T12:55:00.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "CERT Polska",
-        "url": "https://cert.pl/posts/2026/11/CVE-2026-127142/",
-        "title": "Podatności w oprogramowaniu LMS",
-        "official": true,
-        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
-      },
-      {
-        "at": "2026-11-18T11:42:00.000Z",
-        "cat": "weather",
-        "sev": 2,
-        "source": "IMGW",
-        "url": "https://meteo.imgw.pl/",
-        "title": "IMGW: 1 ostrzeżeń meteo, najwyższy stopień 1: Silny wiatr",
-        "official": true,
-        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
       }
     ],
-    "updatedAt": "2026-11-19T21:03:01.186Z"
+    "updatedAt": "2026-11-20T02:42:19.911Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-20T01:00:34.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The National",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPam9XS0tmcEhaa3NBUzd2bUJ5ME1FWktqN2hhaVFzd2k0MlVDaExwX0EyUW84Ylg2QkNFZ2FMTC1RbkZ2VGtUNV9xQzhMQ1lhcklId3JXbGQ1dTBHNDg3Qm0wT1RBWEZYRGFIUjZ0YVZlcHI3NUcyZV9yNFdaam9qX1FHZUtIbnFpRU5EU2dxMnRXZ2lRNlpfYTFJWQ?oc=5",
+        "title": "Middle East latest: Saudi Arabia confirms strike on PIF tower and condemns Houthi attacks",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-19T22:19:17.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "WCIV",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRlJwZHVUTDlBQ3FHamFnZ0F1MEdCVzhvSHdpYm9aa1NFU2Vmc1lRVW5GNXlwNVdIYkkybWxUUm9DelFXdlprdHZzNEx1LXVhODhpcEs0dm5YaGZVNjhUa2xtWXVhWG94b1ZiajExeTVITDVtZkNleEZucXlzRl9hU0pfeEZqUnk3SS1EdmhvaVd5NXBmS3FVTlZJVFRoeUZiZ3JIZzRJVWhDaXFvT1RJ?oc=5",
+        "title": "SLED opens criminal probe into Charleston County cyberattack after data copied",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-19T19:59:20.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "EnergyNow.com",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRHM5Z0w3dFFfNEtpem9naS1GakppY2drNmxqQ2xWRDB3b1hmMHBDWUZZc2ZKY2ZJR2RKejd4YW9CMTYxMzFqX01ZcmNXZG9WMVVKaXFIVlY2WVpBWUpMQnZMOEJaM2xtRW9IMnEzelgwQmQ4djVuYTA1MmVZWVB0a01IeWhuNkJnMnR3TA?oc=5",
+        "title": "Cuba’s National Electric Grid Collapses, Reason Unknown",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-19T19:56:55.000Z",
         "cat": "energy",
@@ -244,16 +282,6 @@
         "source": "PBS",
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcmFNTmJiTzY2SFNiZlM5dE14ekFoc0ZrZFQ3T043M3BCOURXOXFza2g0ZVZwZFZxaHF3NDJNR2VIb1BXUHc0TGZtbDl5SlpUeDJPLUtJMEZuaHpFTGJsd1JLQW1NaV9TOHlqcktNTHoxVmhEQmh0R2NsMjVJbFV0RnVzcnMzSzNZWUx5SVloS2xkSFBmOXhUcXdnQmZuTU5rM3MyUjVwMWZGanB3bGQ5Sw?oc=5",
         "title": "Debunking social media posts that claim a 90-day blackout will start Nov. 17",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-19T19:00:23.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The National",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPam9XS0tmcEhaa3NBUzd2bUJ5ME1FWktqN2hhaVFzd2k0MlVDaExwX0EyUW84Ylg2QkNFZ2FMTC1RbkZ2VGtUNV9xQzhMQ1lhcklId3JXbGQ1dTBHNDg3Qm0wT1RBWEZYRGFIUjZ0YVZlcHI3NUcyZV9yNFdaam9qX1FHZUtIbnFpRU5EU2dxMnRXZ2lRNlpfYTFJWQ?oc=5",
-        "title": "Middle East latest: Saudi Arabia confirms strike on PIF tower and condemns Houthi attacks",
         "official": false,
         "forYou": ""
       },
@@ -416,28 +444,8 @@
         "title": "AI built my Doomsday to-go bag as 90-day blackout panic rises – but it won’t protect me from the most dangerous threat",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-17T21:54:00.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "KATU",
-        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNeDRiNjRmV1p4clhPaWRNOFRSaUM5Zll3NHNaLVNBa0tSZUt0SXdzQ3FjV3VYa1RLX2x1VGd0QUJ4UGx6WjRIQm5JX1hEZlp3SU9tSlV6eFUtNC14VC0zcXZSYzE4Vko2cElyTV9WdnVFemdhQl9rbVo3UDJKMC1ES3VEZmJ2eFdrNVEwckgzOVZLQXlrRERYVGlqTGRuZy01ZnpPVnRRVktuTElwM3B5TWs4bXZGSDVzNlVfTGFxTGh5N1NOOTMzSlRRSEVNbHM4YWUwaWg3bGUwSzA3LW9vZDBwZTJiZw?oc=5",
-        "title": "NSA says classified network experienced temporary disruption during routine maintenance",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-17T16:36:21.000Z",
-        "cat": "health",
-        "sev": 2,
-        "source": "ECDC",
-        "url": "https://www.ecdc.europa.eu/en/ebola-disease-multi-country-outbreak-2026",
-        "title": "Ebola disease: Multi-country outbreak 2026",
-        "official": true,
-        "forYou": "Usually no action. Check your first-aid kit and expiry dates."
       }
     ],
-    "updatedAt": "2026-11-19T21:05:10.818Z"
+    "updatedAt": "2026-11-20T02:44:31.690Z"
   }
 }
