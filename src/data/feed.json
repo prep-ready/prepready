@@ -4,6 +4,58 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-11-20T10:24:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "TVP Info",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPSU9ON1k0X1V4RGxyVGdYYkYxd1dWZ19VMjZBMEFVbjd6X1BmTzctSlpwandaRksxS2NhV3JCYUQxQ2hBOUw0dEwxa3ZrOVV5c0NfQ24ycFhhNnhnZEFuQzd4UnlWQ3h1ckhfN3Z5SHBSaVd6d3FiRDdES3ZwSTFYOFFUX09zVDJpdUNVdllGLTdlUmNpSXZrYklxOTZ5d00xamw4NlkzSmlmTTFJNkZJbGRhZzd6OE95aEZJZ2JGMHYyLVZOUE04TXVUMjgyYngybFFoNWpWUS03c2RhQThr?oc=5",
+        "title": "Latające radary NATO nad Polską. Obserwują niebo na wschodzie",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-20T10:19:23.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Rzeczpospolita",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPLWJPU0s2SDlzaFhXU0paMy04R3ZWaVBGUDdUcFVLQWhMNjZiOTQ2cDdxTGw4RGdfS2ZEcHNQM21JbW9LcnNqWlVyeUFlUDJWRzdTcWdxMGVCM0VkVW9jMEtqTXBQVFNPZmFtTGNaU3NWUUgyQTNCN2otdXpTV29haEcwLXY0WEgzT0l2Q2ZHNzFyZWJYYTg0NXQtVWRfd0UwcGdkWjI5NlFXd21QRVFXQm02bFZqZXdL?oc=5",
+        "title": "Ukraińskie media: Rosyjska rakieta mogła przekroczyć granicę i spaść w Polsce",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
+      },
+      {
+        "at": "2026-11-20T10:13:48.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "WP Wiadomości",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQc1YwWWEyMFdzaHlDTWduZDhTLWlBWE8xTWpnQV9mVXRXZVRNSHJ4dUVPWUxIdGxVTjA2Z3NEYjRlc2dXVFlmN0EydGc3N0hqWnZHRnFUaElXeEtSWFZPaTNGOGdOT1BTM1hJMWM0TEs4SDhZdEd6NWFtelgwU2ROSHdqN2EzbkoyeFJiNnpHOUl3dlM5Y3lGNjN3Y2VEYlN2X1djSHFTMWc?oc=5",
+        "title": "Pod Biłgorajem spadł obiekt. \"Rakieta Ch-101 albo dron odrzutowy\"",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
+      },
+      {
+        "at": "2026-11-20T08:11:15.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Polskie Radio 24",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQRVZQR29kUHhheU8tdWs3VkxXUkFTRlk2Ym1UNVNJYTB1TkY5VkxUT0tHUV8xWkpldGxyOUhMWmdLeDBJdWdpSXBRUjJiVHQtSWpnNFBfcWpoN2hGcmxaZnFsZGJHbmh5ZXRqRXVIbXhfa0plMnh2b0RMY09LaXFvTU5xMjV2MnJ4VmMydE55dk9IdTF5?oc=5",
+        "title": "Alert RCB odwołany, nowa wiadomość. \"Brak zagrożenia na terenie Polski\"",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
+          "label": "Alert RCB i aplikacja RSO"
+        }
+      },
+      {
         "at": "2026-11-20T01:54:52.000Z",
         "cat": "safety",
         "sev": 3,
@@ -104,6 +156,20 @@
         }
       },
       {
+        "at": "2026-11-19T12:56:46.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Onet",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPbmxMYW9aZWRIZnFjNFFIcGc2anZvdEMtTkxoYVpNU2ZDa2EtQmpOMjBxTlNtcXg3c25hZGhlMzRiZm1yeGE0NHpLWHl0WjhHcF9zU29wc2Y0M2x4NklweFpHclpNYm5pdnBpX0x4VHVxYmJFMU1EUjhqMlN5MENNVzBqaXNwQnE5NUNveXo2aEJSRy05WnlkVno3eXJ3MG5TQ2dxb3MtRU9HRWR6V0VhQm41S2toVjRXWS02eWx2bzdIS0JxclhpcGJn?oc=5",
+        "title": "Niemcy: uczeń miał planować zamach na meczet. Broń miał z drukarki 3D -",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/poradniki/bezpieczenstwo-dziecka-w-szkole/",
+          "label": "Bezpieczeństwo dziecka w szkole"
+        }
+      },
+      {
         "at": "2026-11-19T10:55:00.000Z",
         "cat": "cyber",
         "sev": 2,
@@ -180,78 +246,50 @@
           "href": "/pl/poradniki/syreny-alarmowe/",
           "label": "Sygnały syren alarmowych"
         }
-      },
-      {
-        "at": "2026-11-19T06:31:00.000Z",
-        "cat": "health",
-        "sev": 1,
-        "source": "Medonet",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcndyVVRBazhiTVpGb3llMFVFS2k0R256b1N5b0lfNklPTXk2ZTUyY2E4SENVTm5qLVEtQ09TVEhBR0JQeWZscm9GY0pCRWk4aHR5a0dxNWY1YVJqNGdPaHpNVmpRdlVvNEZUb0lGTTROMFhGb3RXMk1lSzFOUUI3Qmx3WE83S09DU0VkbGlGQjhYS3lnSFhOT25oSE4zOGdpTTB6N2NRMlRQNElFdGRkSlBYR2RkcWgzSDVYNElEcw?oc=5",
-        "title": "Baseny w hotelach i sanatoriach pod lupą. Wykrywano bakterie i legionellę",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-19T02:51:36.001Z",
-        "cat": "energy",
-        "sev": 3,
-        "source": "PSE",
-        "url": "https://www.pse.pl/",
-        "title": "PSE: dziś zalecane oszczędzanie energii",
-        "official": true,
-        "forYou": "Ogranicz zużycie prądu w godzinach szczytu, naładuj powerbanki i latarki.",
-        "guide": {
-          "href": "/pl/poradniki/blackout-jak-sie-przygotowac/",
-          "label": "Jak przygotować się na blackout"
-        }
-      },
-      {
-        "at": "2026-11-18T17:00:00.000Z",
-        "cat": "health",
-        "sev": 1,
-        "source": "Rynek Zdrowia",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUzdIS1RzdkEwUVVnSnhkZWpkcVhKUjZWR19UclVUNzN2NzBhdVg1NzZ5czhXLUdDREdORUhBemJ4UG82aS1uUmJkZ2FJUEhTN01Hd2RXbkVZaVN4SllRR2hfazg3c29sbHhZTWRNNGRKMS1OeVgwalFUY0RjbHA0MnVVUFYybUFHN0hRU1BBUXFkSUgtUkxzcHI2UHd6Rmx6eXNMNTZSMFlrUHNUS09wcFVR?oc=5",
-        "title": "3,8 tys. osób zakażonych. Zapomniana choroba zbiera w Polsce żniwo",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-18T16:40:00.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Portal Samorządowy",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPV09hcEppUm9aUTB6dDVIUFhvNnVQX3BhTWFvLU9YZnM4UlNpTzgwZGRkOE5aN2ZWQ2N2QVBhaWpNS2FGTFVaSjRuaTl4MGlaZDdzSmQwVThuSXBXN3ZPemphUTBTdklILUJ3Q3Raa29ZNEFqVzcyZjFGR3VOaWJPRExucC1DdVYtZE91MFN2dkJpUHV3RnhSLTJhSkhiQktZSTAtSnZaM3pKeDFrX21EZ0pfUlp5cGphbzFWLThYZVJSa09vWGpDd2w0Ym5DRzdh?oc=5",
-        "title": "Nie każdy poradzi sobie z ewakuacją. Standardowe procedury nie wystarczą",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/poradniki/plan-ewakuacji-rodziny/",
-          "label": "Plan ewakuacji rodziny"
-        }
-      },
-      {
-        "at": "2026-11-18T15:27:02.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Polskie Radio 24",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQnB6M3Y5RVlsckZPUXhfQlZUNy1NYTRRY01JUEhvUmV5OUs4elhaR0JobTBkbDNhWVA2V0ItNGNKc25EUE0tRmNiTlNkQnR5bDlHX1RPRWItamtkcXdsaWxiUHd3WFR6UG5VUUgycG9rTGowekpnQVRUajBHOEFxZ2lRUGhONlRBRGh6QTEtZmxaWWVXbzlWeEtYcWlET0FndXBhckcxZ2ZXY1h5?oc=5",
-        "title": "Nietypowe światła nad Warszawą \"na spadochronach\". RCB wydało komunikat",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-20T02:42:19.911Z"
+    "updatedAt": "2026-11-20T10:37:30.434Z"
   },
   "en": {
     "sample": false,
     "items": [
       {
-        "at": "2026-11-20T01:00:34.000Z",
+        "at": "2026-11-20T08:10:51.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "KTNV Las Vegas",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPaEcxckxjR3Z3SE5QeE9KRXprVmtFSjB1T3F5MnZWVXc4aHdZRzhpLVc2LTYtTVZzQ2dGdDk4OW51Tzl4MnJsd01sZGV4THctRUk4VDRLbEpab2UxYVVFTGs2Xy1EdFVLLW5PLU9HYy04UkR5TGdlTG81eWNuMmZaVnlJdFJLc2ZObWNBT2Rjbk1fQXFRdTRLbC1WUjNORmpZOWN2RV9Wa3dOOVJ1d3BTNFVqNWZWQ1FzbmVvcE10WQ?oc=5",
+        "title": "Las Vegas residents take precautions amid nationwide tech outages, new JPMorgan Chase cyberattack",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-20T06:25:54.000Z",
         "cat": "security",
         "sev": 2,
-        "source": "The National",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPam9XS0tmcEhaa3NBUzd2bUJ5ME1FWktqN2hhaVFzd2k0MlVDaExwX0EyUW84Ylg2QkNFZ2FMTC1RbkZ2VGtUNV9xQzhMQ1lhcklId3JXbGQ1dTBHNDg3Qm0wT1RBWEZYRGFIUjZ0YVZlcHI3NUcyZV9yNFdaam9qX1FHZUtIbnFpRU5EU2dxMnRXZ2lRNlpfYTFJWQ?oc=5",
-        "title": "Middle East latest: Saudi Arabia confirms strike on PIF tower and condemns Houthi attacks",
+        "source": "Around Prague",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNXzlNVWFyN0RidmltTVloeVhsQ0VpOWtBX1lSZWxNZl8zanZlY2tLekYyVWNPVmwzd2lWN3Yzc0RRVENycjAxY05SZ29heTlhSF9iQVl5cXRQcnpJaUZoam1jWTB1a3FqeEJzQlp5YWVaNlNuX3prWDRicHJiWlNxZElxTWJyM3Jsc0NtYnp4SWx1MGxWM0w2c1JQMlZzTl9vZGZvajlwc1BmbjlNVm9aLTZjbDloUHJIMGwwUDdVRWY?oc=5",
+        "title": "Kyiv missile strike: Russia hits the city again, fires in 3 districts",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-20T06:16:33.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "EA WorldView",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNM2RrVEhkLTl5UDFBVUdjZ1NZTXN2RzgzSnhUUGZ3enFsWVA1ZllBbUc2QU9UNVpkcDN3UUFiMlpfVHZVVzBjYUtScVg1UDFMYmFNLXhjLVc5aG1xSjhRQ0J2ZXpNVHRYbEx2NmxrTXRlZ09BUHdqZ2tuTms2a3pNWGtR?oc=5",
+        "title": "UPDATES: US War on Iran, Day 267 — Houthi Missile Attacks on Saudi Arabia",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-19T23:41:36.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The Kyiv Independent",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQblM4Z1VFYS10TkllLVVhc3VmdFd0Tnp6RzVMbzktcmktcmlnc196OG5rQ1dKZklrUER2ckw2T2Y4WVhTWDZ3eXBVX3Y4VGJoSUhBQjk2Y1luNU51NmxxRGl4RlFRSlJKLVdzeEc0ME5jZlFIaFdQYjlYOFJ6V2pMWDlZeVlYMWpjMnMxLXlfZGl0LVUwMTlFaU1MQTk2elVTTXExUVJ0WmI?oc=5",
+        "title": "3 Kyiv bridges struck in massive Russian aerial assault on Ukraine, at least 8 dead",
         "official": false,
         "forYou": ""
       },
@@ -302,16 +340,6 @@
         "source": "TMZ",
         "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUlJaM0FjNmxKbDhzZmwwVHMxZWJhNnZHemI5WlJmWWt5WE44MU5STXhpZXNFWUswVHU5X3o0djlhM3dhWmVnRUZ3dV80Uko3dUdxb0kzVVVxbVg0dThmZXI0aWVwcExlMXZseHJmWWNjbUVVRF94OF9KSm1IRFcxQ0dLQk9VcHB6bU16bg?oc=5",
         "title": "Hollywood Burbank Airport Left With No Air Traffic Controllers, Reported Staffing Issue",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-19T11:55:08.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "UNITED24 Media",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNVWhLbi1wVWg3REJsQTEzZFBsLTk3dlJhbzJUQkc1eDlSZk80LWdCbWFrdGM5N3g5MDlrbFpMQUgzZFBLWTVndXRXeHpzSjh0ZmI2UmFIdHN1ay16b203ZVFoUkFuZkdaSkdzcEcxc2poVGc3cmRkTV9kT3g2ajhqbEhIeWdncDdhNjZQT3BCR1Mtb1pzWEhHOWYxOUhud2ZKUXduNTNPQVNYQTZvNHBKckRJT010VFFfd2trTWcwMWFTWS02eTYzM1ljUVlNcmVR?oc=5",
-        "title": "Ukraine’s Neptune Missiles Strike Crimean Bridge—The Same Weapon That Sank Russia’s Moskva",
         "official": false,
         "forYou": ""
       },
@@ -424,28 +452,8 @@
         "title": "No evidence of cyberattack behind wave of tech outages, Rubio says",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-18T03:02:10.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Kyiv Post",
-        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9MenEyWE84QmFLeXVEOG9famFBYmJ3YWVOR19Qdzg1Z2EzU2kxTWFoMnNtNGdDbVB0X1ZDYkR3OUJoUUNMb3pEX0VEZw?oc=5",
-        "title": "Russian naval commanders face war crimes charges over deadly Kyiv strike",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-17T22:12:32.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "The Sun",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMUxxUk1CaGs4ZkQtdVJiRFFKNl9lM2EzeFN6WGg5aFE4RHVYSDBMaUhkY1VVM2EyOXdpbHNqM01pWTRzRlZkZ0o1M0lnRVEtYWJnbmcyTG8xZWlUUDBKaUx6a0VDMFRJSFZ2b0V0QmZvVzJwcW1PaXdieUo0NVNiOGtyeGM?oc=5",
-        "title": "AI built my Doomsday to-go bag as 90-day blackout panic rises – but it won’t protect me from the most dangerous threat",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-20T02:44:31.690Z"
+    "updatedAt": "2026-11-20T10:39:36.852Z"
   }
 }
