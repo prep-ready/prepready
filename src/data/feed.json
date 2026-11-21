@@ -4,6 +4,58 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-11-21T09:33:00.000Z",
+        "cat": "weather",
+        "sev": 2,
+        "source": "IMGW",
+        "url": "https://meteo.imgw.pl/",
+        "title": "IMGW: 1 ostrzeżeń meteo, najwyższy stopień 1: Silny wiatr",
+        "official": true,
+        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
+      },
+      {
+        "at": "2026-11-21T08:16:22.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "TVN24",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNMnNlQzZ3bWNGOXJIYzE5MDlVdmtfWVkwSGJUdUYxZDUweE5FT3N2M2prNDZiRU8tWUV3bzNoOGNMQV9jQ05pVnR5NFZRUmwtQi0zQXR4TVVySkhwaDNJT1FlVjduajM1RjM1MFY5RlBNMUZUcVI3b05ETEo4TEJmd1dXSzNseVRacDlBejVlYUdEZWxSU29TR3U2aF9jYkJ1TzNZa1M5bl9saUNyYmxsNExaMEFxRWtMWXc?oc=5",
+        "title": "Taka rakieta spadła w Polsce. \"Cała Europa jest w jej zasięgu\"",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
+      },
+      {
+        "at": "2026-11-21T07:52:58.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "TVN24",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPajJrbWFNMUtjZFNJYlBRTFVLOEpIN050LXVGMlktZm9GOHJ5NnJKZE0ybE9jczZjb2VmVnkzTGZXQWdIbXg3ZkEzYnJCcW9MNWdDRDZ6eTRTb3lMNmVxRXVXN1dPekpubGZmaUt1SXV6Q29JR2RIU0tyODdZMnRzMGpscVlMYWtQcHQ2M0d0T21oRmttWXNJQQ?oc=5",
+        "title": "Ewakuacja wieży kontroli lotów. Komentarze ekspertów",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/poradniki/plan-ewakuacji-rodziny/",
+          "label": "Plan ewakuacji rodziny"
+        }
+      },
+      {
+        "at": "2026-11-21T07:21:37.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Polskie Radio 24",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPMjFNYkdrbnNMakpqZkpELTh6b096Y2k4aEVPS2NVNUtnMFJuUXNGQll4S016WmFTaUNpVklHa1NUVmJpay1aYnVteFZtdlhtaVlwSlcya3FnY3dfdktFd1YzQXdZUE5acE15aTJxM1VlR091TkRadV9mUXFmWHN2Q2dkQ3JXUEozQmxGRA?oc=5",
+        "title": "Alert RCB. Wtedy zawyją syreny alarmowe. Podano godziny",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
+          "label": "Alert RCB i aplikacja RSO"
+        }
+      },
+      {
         "at": "2026-11-20T21:04:13.000Z",
         "cat": "security",
         "sev": 2,
@@ -68,20 +120,6 @@
         "source": "WP Wiadomości",
         "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNnRWemJEZDFZRTUzeWhCdlFPcXZtUERuMy1BZTJ3cXl1QzNRZkR6ZXAwMnRPUXlaS0I5aUpzcTFwUUNWMjE0MHJtVFlOZXhfOG16YllFaTF2c1FvQ1VydEswOWdEYnBhUzJ3UVdsTy1UaXhWZ3BtcmV4OHBOYTlsb0JwQUxVN0FveFJQRXlEUDJOTUVi?oc=5",
         "title": "Ewakuacja wieży w Rzeszowie. PAŻP ujawnia kulisy",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/poradniki/plan-ewakuacji-rodziny/",
-          "label": "Plan ewakuacji rodziny"
-        }
-      },
-      {
-        "at": "2026-11-20T14:37:57.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Radio Zet",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOX1drak9HQkxYdkRhLXMxbm05NFVnc3IxcTdndHBjbGhDUkNuMkJ3LWsyNENySmY1RFdCb2lQYXdLVEE2Qk8tXzdkMVRKazMzWDBxNDhRNnBzVjdyMDVjWlJJa0lmOGJ2dlphclNOYWRSRTJaZERxWE9EUHplTDRSM3BPbnpwTG5zUnlHZ29vTDhkN19LcE1EU0VVT1BMVGlEZmx5QndBYmozWjIwLUdkNUtOMzB6aUZQQWc?oc=5",
-        "title": "Ewakuacja wieży kontroli lotów, opóźnienia pociągów i samolotów. Resort podał dane",
         "official": false,
         "forYou": "",
         "guide": {
@@ -212,47 +250,53 @@
         "title": "Konferencja „Profilaktyka - wzory duńskie” z udziałem Głównego Inspektora Sanitarnego",
         "official": true,
         "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
-      },
-      {
-        "at": "2026-11-19T14:45:45.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "Radio Zet",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUjZrTHZFVncydHJUUDNmZUZCeEV6bkRBblh2dWhnajhxWmt5R090ZHdHekYwRHRON2NqOGJtU3kteWk2WW96dG1DdS1TM0oycHJWampjRWtpeHN0OXcwQlJHNGh4RkI2ZE9QMUx1c0FQSVQxVDRzMl8tUG5rWkZEaHFIb1lXQTEySDdFQTY4YTR2cFJZVHJ1WVM0TzhzQmRLSGxKNWdWSWlCZTFPVENXOHBDREtGelBjWGR4RGx3?oc=5",
-        "title": "Nie żyje jeden z rannych po ataku nożownika w Jarosławiu. Śledczy ustalają szczegóły",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-19T13:46:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Bankier.pl",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTUIxeHVFWklXbGZhZW9TbktSci1TZmhzNExrZUY2Y3NwY0t4NXF1bGdESXRTOGNmSjNJcVM2NGNVUmp0ZVUxYjd6OE53YVYxUGJfU2ZqS2xETDdfTWFvdlpvVUNNOUM5UHRRMjBINjctdEJnU1JvdU9nNTJBeHptdHdwYm9XdmJkcnpoNEVHODdhbWtEUUxpclc0aGtHbFpLZDlmZi1aLUNZN3B1bVZCS3RBRU9zazVxNl96Yg?oc=5",
-        "title": "Polski przemysł zbrojeniowy dostarcza kolejne Borsuki. Wojsko szkoli załogi",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-19T13:13:30.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Polskie Radio 24",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdWpnUUU3eXJSNG1DSGVIOHBSTzZydWswMjF4V1p1WWxmRFRPUWVNYW9pTHZoWXc4RWI5M2pDLW4tcjN6R19iRExWRjJRZEU4ZW9Bdl9zYVo0Qk9WUDF3dmtzM2JLR2hIck1xUzZKekw3R01aalZvdWFUOFlGam0wdk44RTRDdDIwWmpxblA1c3drWXdZV3I3REFwZUJRVGFPYnFVRDYzOGlrTDc3cFRhcQ?oc=5",
-        "title": "Ewakuacja przedszkola w Lubartowie. \"Znaleziono fiolkę z nieznaną substancją\"",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/poradniki/bezpieczenstwo-dziecka-w-szkole/",
-          "label": "Bezpieczeństwo dziecka w szkole"
-        }
       }
     ],
-    "updatedAt": "2026-11-21T00:59:40.171Z"
+    "updatedAt": "2026-11-21T08:52:01.364Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-21T07:41:15.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Institute for the Study of War",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNlM4aDBCQjFpWWp6NFp3aU1wUVI2LXJLeFlFSmo3c2RiZ1hhbDgxOFJaWWtHc1JiYzBXd29mVXlsbzl3ZHF2a3RzQlZ1SFAtWVFWWXdITXpJMXU0a1RfZFVfQ1E5aHRGYjJtMFo3Y2p0dlpFZU1qbFd3S0dNYVVZZVM3cm1Lc3hkcDd0MGJBQkVRaHE4V21VVlc1cjdVaDZkTGlCQXFrdTByQXVj?oc=5",
+        "title": "Russian Offensive Campaign Assessment, November 20, 2026",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-21T05:39:30.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "MLQ.ai",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUFliMXd2aTlNRHpUN1BHc1ZmcXA2R21JSUdLU2p1R09Ld1VTb2duc0EwcjNKX01Vb3lsOW9td2xHVVdxZHA0S0hBdVFNTkJBQWt4Q2FUUGdjLUI0VjJFN0dtbXg4RTFmek9YeTV1U0pMM2F3eTZfdU01cWdIT1JVZzRNQzI2QjFTOE4ybnY5RVJFUUlvMFJ3UWJicFVLbVYtNk1YelllRQ?oc=5",
+        "title": "Illinois investigates an apparent cyberattack on the Algonquin Dam on the Fox River",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-21T02:09:46.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8wTkZBWEhyWUxyWHJPbmJIZ1pVcFZwMTkwQXduY1F5bWN0c0FfZ3o4SXJyd0FtckdncnJIbFRWcHo2bjFncDYwOGhZNERnUWRlWXNaWkVsUXBpX1E?oc=5",
+        "title": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-21T01:03:51.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Anadolu Ajansı",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNYWpfdTNZaVR1eFMyYWNhWW5obTdTWUxPeXVkRlEzY3JaLTZNeE96Q1BocmVrNl9UTXVIUkkxT0pGNW16ZkJoM0hvejlfcFRfVDJRMnpHQ0xBbU1EWnVGUWtURW1qMWdSc0Nja2EzQ1hZM0dMN2ZzcTRrYlk2MVRJZUd6OUoxaktvLTJidTJ2YjFkNjJURXo4djlsZ0h2QUFGaDFrSzB6OUlDRVByNGRMZDNR?oc=5",
+        "title": "Iran denies reports of US-Israeli missile strike on Qeshm Island",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-20T22:50:14.000Z",
         "cat": "cyber",
@@ -274,6 +318,16 @@
         "forYou": ""
       },
       {
+        "at": "2026-11-20T19:37:00.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "ProtoThema English",
+        "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxPN3BHVVdiNlJfTFFaZ0tnOVE3MjdQSWVPOVZjMnpoYnBhdDBDSEswSE5nX3RwSXRRMHdUX1R6czdqTG5RY0FzVlliSlJWU0lLYWwzZ2FYZDczVHRaYmx4WU9oVm0ySHYzVS1MQW1ERll0RVRjMWpoME5MTm0tWS0zQmM5RXJ1cUFrSlpCS1JFbmNDNDVuejlZOEhQSmZJNG5Jdk5BeVBkLThUclBQVVBoMlhndVRKeVhmWE4xNV8wMHV2S0M4a2RlNXNYbnM1Q1AxMGNvRGhKVWZEeUxSazllMWlvYmNzb0dLbHVuUVZkeFpNOGhodHU5bEtRaU14cHNMdk9lS2Rqb1I3MlZCV25DZ1hFbVE1SlQwZHdRdmdR?oc=5",
+        "title": "“72-hour survival kits” in Europe, “Fortress America” plan in the US: Pentagon prepares for 90 days without electricity or resupply amid fears of a total blackout",
+        "official": false,
+        "forYou": ""
+      },
+      {
         "at": "2026-11-20T17:28:29.000Z",
         "cat": "energy",
         "sev": 2,
@@ -290,16 +344,6 @@
         "source": "SC Media",
         "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNeU1qdTJERFRONWY0blBhQ1JXVGQ0dGxxd0FnUGhwRnhhaVpzNUswWnJ4NU1TUXhsQlR0bzVFQXNNVkFqWk5MYmhVM1dUMElvdGZmUGIzeHEyLTdEeHE5SERkSmpXWjJCR011ZVV6VndicDh4dUo5eEN3VUo1a0JhbF9xZk9wOWc?oc=5",
         "title": "How to determine if a tech outage is a cyberattack",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-20T16:54:29.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "BBC",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8wTkZBWEhyWUxyWHJPbmJIZ1pVcFZwMTkwQXduY1F5bWN0c0FfZ3o4SXJyd0FtckdncnJIbFRWcHo2bjFncDYwOGhZNERnUWRlWXNaWkVsUXBpX1E?oc=5",
-        "title": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
         "official": false,
         "forYou": ""
       },
@@ -412,48 +456,8 @@
         "title": "EU Commission hit by large-scale cyberattack with data leakage unknown",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-19T09:33:12.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "TheNiche",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZ3F1TnF4LXV3RXlicTNGU1RTaUV0dHRLX2FDdzUtZDhEcHFNeFBsTG9YcFlCSVhDaWRtSkJsWjBMLWpCYWYwdEh0bFR2WmI1M1pGOTV4OHkxcE02SHA2dW9BUU12RzlrOXF4TWJqdnZQTU9sMnduQ1E0b3JENU85cmZCMnlyd2pYRnBMZWpUTXVxSHJvZ0FEdG1vUEVONmtJbG5uTDQybGZJMVlVQkRQU2tn?oc=5",
-        "title": "Nollywood star Kevin Ikeduba bemoans nationwide power outage, says ‘Everybody on Band Zero’",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-19T00:07:04.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "NewsNation",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNazhKY0FTLUU5aGctWVdVWWFxSTA2U2ZMelRuMnlVZEtyVG42bmpoUXhXR0NQMHJWX0ZIZmxnTlZfZzA2UjJsOVlKVGpmcnE0QXJuUmZMTUJPS21CMWJsZEc5UXAxOXJWcVJidEdkVTYxWF9pNXEwRHlSUlZUdWllSTh6VTJJSk1nTU8yNzFEeDQ2dE9pR0VTR0RIXzhOX3R1aWxj0gGoAUFVX3lxTE5xUWE1X05WVm05VUUwUFI2TjV5T0ozU29BV3FEQUdwQUFXMjV3cXZneHdCS19ubzNyaWFGcENMZTFrLURLUWNkRS1jV2JFRUZyeVdfcnBvYXpsaVRCUGhjUEE1SnE5NUZoMGtwNTdVMGpBU3BXM0dRN09qR3djQmxpRVg2ZWpFVEFUZk1ENjJRRlFBVFJwX2hMZTZLOU1qQVJ0YW92TTFQeQ?oc=5",
-        "title": "Tech blackout? Outages hit banks, airlines and government agencies",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-18T22:34:08.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "ABC7 Chicago",
-        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQczBrVlBwMkxPalR3VTlNeEdjbUdEZVM0N1M1T3JJUWdPQnFKZk9PQk1QTjBPdWZBeWF5XzVvRHE0VnIwTlZlNjMzMFFhVHBTQ0VGQWpGQU5RUlI1WjRSQ3N6Nm9FR0lNVHBhR3R1X1MyaVpLX2NSUU1FQWRQWEQ4ZWZjUlh6ejBZbFl5YTR1Skd0ZnpmZlVtcnhzd0VUNWVZYUZsLUIxQ1VsaFpwa2VybnFNNktVaWtpRHpLU0JQcEhabC1TTzJ0LXE0VVlkRDl2eUxkM1N2NS1yaUXSAeABQVVfeXFMUE9uYWZ1dlJKX2dQc0E0WjdXRUlNNDhXbk9jZkRGVDhXUVI0WlFmTjU0NjJHU3ZRQnVBWEdzTndQVzZDaWhXYXNUNWM0Tk1HSTR0ZlBzS3NGdTZKQ0l6b1BUSjJEcEVfZFpTZ29TNnNSUVVWRjJoWFVjeWR3TkdQcVluOUdWZjZMMDBvWmo4dGpSUU9iMk1vRTlxODhCLWhxeUhCSEdmR3RTSFJDZlNmTWFjNU1kWDZDX2R6d1U5bWRyeER3N3V0RkJWQ090LXBjUDBaNE9jcVlLdWk4WmlHdEs?oc=5",
-        "title": "US Sen. Tammy Duckworth, Democrat from Illinois, seeks answers after FAA outage as officials rule out coordinated cyberattack",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-18T20:03:34.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "tippinsights",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNemxjaDIwM2hQei0yX0dYd0lENklDZFEzb1plNF8wZGtaMVMwU2hzd0tkM1RaaUo4c2dpQU4za3Q1RkJCM2tkVlhqdDVYME9ia1QzU25ocDc5cG1CWXZUV0YxN2dJR2k0dUtGQzY4T1ZUbkdib0JLTnR4dVRaWDhiU212U0MxVnk2WGk1OTZHcEwxbUlZNjU3bXlldzR5WUpIYXF1djBuZDl3V0ExZTk3czFHcHRPYlk2dzNSUE5kX3J2T1VDVmd1bktR?oc=5",
-        "title": "Should You Fear a Nationwide Blackout? Doomsday Preppers And Power Grid Experts Weigh In on Nov 17 Claims",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-21T01:00:59.562Z"
+    "updatedAt": "2026-11-21T08:53:19.151Z"
   }
 }
