@@ -4,6 +4,30 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-11-21T20:52:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "PolsatNews.pl",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNUGtxZldEOGhrZXJMSmZ2ZW9nb3lKdGg4enVSNnFSTWhydEY2bjBmUkNQdmxIRF90UGpHSXFYNFkyYlZYRDVhRUV0UExYVlkxUENOZVRTLXUxQ2FhM1JvbjRwaWgzNjdHZFRoN0FVcklHam02dDNFM045TkxneXdBLVNmT3E4RUFDQUdKeGY2dkd0R2xNYjM1SWJfbWZOQWZRYXczOTNKZWJZamxSZ3FHVlQyZmFKTktQcU1jSW90RU5zUnpx?oc=5",
+        "title": "Rosyjska rakieta w Polsce. Nowe ustalenia śledczych: Czwarty kwartał roku",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
+      },
+      {
+        "at": "2026-11-21T19:38:07.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "polskieradio.pl",
+        "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQTlpKVnlHbDk3elptYmhaV01ONF9SUG93VXFqZWlScWNVd2pkbXVYYVFjYS1WWnF2Ui1Hbl8xTjQxM192QnFjcm9fMFl1RUg3VVR0Tk50bTY5LU9YY0tCbnBlbXJDTWpLUTBtUkFIdERrcGVpY09kMWdNVG5YZkE5cXpQUFozXzBVSE9PTjdvUGMxX011OERBQWc2WUtTdEFEUmFlaXBfSXNhQUlSSXNzc2xtWEZwbUpGZFgxZ2htcG1hclN0R1F2MW5SaXl4N1RfVXh3ZlA0Q3VWd1RMdi16N0N6Z3JvRXE5bFZoLXV4TmlPQ0x2TWtCclhGR0F1MTMteG5LZldzUXZNcDQ?oc=5",
+        "title": "Trzy rosyjskie obiekty w Polsce. \"Wojsko powinno ocenić, czy zestrzelić\"",
+        "official": false,
+        "forYou": ""
+      },
+      {
         "at": "2026-11-21T15:59:00.000Z",
         "cat": "security",
         "sev": 2,
@@ -128,36 +152,12 @@
         }
       },
       {
-        "at": "2026-11-20T19:24:28.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "WP Wiadomości",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOT3lfSlFCa0tVVVJCcWpKbHZDSFRaNnVyeUlFNV9kVVhROXZlVkI5QnJDT1NoTHdyUHBHRUVLYUd0VmFFaUoyVUZLLWhCd2ZaaHNlZmlEUFhRN0NnVzZkVVhWV21SaDh0M2oybFBmZXM5X0d4b0p4YnNJdTBzVkVPUm9GWlppQWh5SjFNWkpBMFZkWlFwb2Y1bEZn?oc=5",
-        "title": "Rosyjskie rakiety w Polsce. Sikorski zapowiada kroki",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/mapa-schronow/",
-          "label": "Mapa schronów"
-        }
-      },
-      {
         "at": "2026-11-20T18:34:34.000Z",
         "cat": "security",
         "sev": 2,
         "source": "TVN24",
         "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPNWhpT3E1aHd6dFVhOHExLWJ4WHBSZDFuT2toWDRNTmFGblVwNTRWcHdVdzAzQk9JckVBYUpDcmFEQXlOdjl0TDR3MUZpNXFFZEZNb0FYQllDQzV5cEcxQl92TDRlMDJZRWNfQlpqczJ0NGtnSDctWXJ1SzZXMl9DVzNTenRXRjVzbEhfLVRFcnpINWhFZUk2MkhmeWpnTWFOZXlPZjdJV0w2d3hLaE4tUXNfRlpqSXZydHZlRy1LdWxRMUtZZGZiMF9TdW8yYTdjZ2dDWmFXbzB4OGdpaWUxRw?oc=5",
         "title": "\"Trwa wielka operacja dezinformacyjna\". Wojsko ostrzega i apeluje",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-20T18:18:22.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Defence24",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNdklVQk1wY1BmQmQzVjFEN3lNS0FNVlcxMkdYeWFINGgzcERkZ3VRd0lyMEt1Q2U4eEpUMG9leXUwTElDSEZ2Tkx1bGlOQi1lQUV4UlMyNVVrb1BKZTRiZUVkMmdXeU40WFhOSTdfMFhhYUhTYjdxeUxyLWpnSC1oQktqVm9DRHdZclJFbDlTSGRrU1JpNWdlVHZRNjZkSDRyaFk0ZWtCRjFKeTdpaGttVmowY1psenJoN3p4b0Q4QTdmLTlQRHQ1bGhB?oc=5",
-        "title": "Rosyjskie obiekty mogły lecieć w kierunku Nowej Dęby. Wojsko analizuje zagrożenie dla ćwiczeń",
         "official": false,
         "forYou": ""
       },
@@ -244,11 +244,51 @@
         }
       }
     ],
-    "updatedAt": "2026-11-21T16:59:38.568Z"
+    "updatedAt": "2026-11-21T22:28:14.434Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-21T20:02:40.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "UA.NEWS",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUVB4bHVLZFEyRnpuUGdvR1RYTzZKTXdyQ3RNd2RJSTVHcENIc2xZd0lwazNMMmhjcnpVTTBEQlRuWml5TUJrOHRtNW5vb3NJa3pIY1hyR1owTFpOcm52UGxVUy1vcmRrTWY1Y1hRMVZQSkNQRktxdjZGUGRNckdUTVdGX0hTVlNDU0RhRXNnR1RZSlFLYjhHRlppMUZMVVpVNmRvQw?oc=5",
+        "title": "Russian attacks on the energy sector caused a widespread blackout in the Odesa region",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-21T19:36:16.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "CBC",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE4xS29ZZ1VBUFIzaUVKd24zYjJxakUwWXNSbHZfUVR3ZVoxZ2JBMXRCU3V3TXFhdFNUcnpqYlFrenJnbHE4eFlLSEZMNGk1LXN0a0Vlb1BTRHlmaTl2OUllSHk1d1JOYTJBVkN6cGJLSTV3YS1GOFpUVDRwRVlydw?oc=5",
+        "title": "Russian strike on Zelenskyy's hometown in central Ukraine kills 2, wounds 60",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-21T18:22:19.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Latin Times",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPbVpMZm0tWXJaTGotM3FGS2FRaFV0ZFNYTjVNUXptV2dELTFXWTJnNlRFUW1GX1VSSGhtSHNGYjgwdmtTMU5CWW9XTHl2TXlhdjM2LU4wNFpRRHRjRjhpU04zX0d6RGtRYmpRWWh0WUVIU1E2R2szTDRfY2lhbXNmU0pnTE12dw?oc=5",
+        "title": "Ukraine says Russia's latest barrage used cluster warheads and timed missile waves to endanger repair crews",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-21T18:15:34.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "L'Unione Sarda",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQXhoUFM0LXEweTNGQWpPeU9nZWhyMUJjWmlKZm9CWkFzeWkxWkpNNWQteXhVeDRTZm82bjdkTV9HajJNeklkMnR1bTg3d0VXRVFtZjdhNTFlYzZpdDlialJZX2tNdFZCN0VEMjJjM19seTBnZ2ZvVXNNQUJmYmx3UnJldXVrN2FuamVsVzRDd2VVVm4wcVBDQ2xn0gGiAUFVX3lxTE5KTVcwa3NNR1d5SzlHTXdPZlJDVE9CTzVvek5nLVJlYk1LdnVrUHV3WmJJM2N3SnpFZU80R3lvUkY5Mll2MmVmRE5UNlotSTlHbVhNTWdWVEItMDNpYk0zaVItSWpFYmtGV2RKaW9vWXdZV1ZUcVBFbVVtU0JpRmZBUjZtVjNCXzFQZ3JoWmFzNUpCTTgtdFdaOC1GdXRHNU1Pdw?oc=5",
+        "title": "Cyberattack on the FBI: Criminal Archives Breached",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-21T14:01:38.000Z",
         "cat": "cyber",
@@ -320,16 +360,6 @@
         "forYou": ""
       },
       {
-        "at": "2026-11-20T19:52:08.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "UNITED24 Media",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOYVZCU0pIMFVHSE1NWmdhWXpzbXNyS08wUzJ5b3Rra2UxZ2VkWGNMMWJOTWxYUkdQTFVLc1hKVFdkc05wZG80bzV3aklxLUlmTzB5cXgtYmJCd2EyUUxHTU9GUXJhOGZzVE5vcGFvMnJ3OC1CaTRKblRTbWIxVC13bUk1NDdCQ3AtTHM0RVRTbUVxWjEwdF82Qi05Yi1CMkFTOVExR1Q3cncwbmRmektyVl9JNnVuU3VGQjlmX1VrVk1PMk82QmxhNFNORW9nMTBndlRFWQ?oc=5",
-        "title": "Russian Missile Strike on Central Kryvyi Rih Kills 20-Year-Old Paramedic, Injures 22",
-        "official": false,
-        "forYou": ""
-      },
-      {
         "at": "2026-11-20T19:37:00.000Z",
         "cat": "energy",
         "sev": 2,
@@ -356,16 +386,6 @@
         "source": "The National",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPV2s2d2xVNlpZamM1RXpfRURTUFM4eFhHeFBkQVp6TTlLTXZWMjB5WFEwcF8wQ2dqR3U5SDd2VUNKdm1uV2RfV256RHUzUS1ZQWZJdnNlRmJtemxFeUZLR2tLWXhza2EwOVBWUEVPeUJ2VG9aV0R0RjVSWU1wVG8zU3p4RWJQMmhDcjdKOF9XZXBMQQ?oc=5",
         "title": "Middle East latest: Saudi-led coalition targets Houthi weapons smuggling at Hodeidah port",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-20T15:50:03.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "DW.com",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPeV9qSzNGLU5BaGd1UHRudmk5NjV5UDFnLVJuX2FYUUZnZmpVZjZkZFVSZzE3SnFzMkZLVVZDMktHTGdUbGJTM3E4S2VZMW9hcWhaR21uSFB5czM3ZDZBNkF2ZmlrUWtmOHF0S3Z4MzhLUzl2ZmxiWXlwUjdSODdHeHlOa29DUmNzTl9oTG5WbjlfbjJheEt3YmRBR2I?oc=5",
-        "title": "Ukraine updates: Russian attack 'one of largest,' Zelenskyy says",
         "official": false,
         "forYou": ""
       },
@@ -428,28 +448,8 @@
         "title": "Debunking social media posts that claim a 90-day blackout will start Nov. 17",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-19T14:43:21.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Arabian Business",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeGVzSjhrbUhOTTctX0ViTkJTRnFEZnkwNTJQR3gySTJRQlk3aXNwenJ2Qk1DejVYcF84dmF4WDFPd2xKRzEwazEtOEdOb05OOFhJaXZQVTd3R2lDRHdGbTgtM1JSSEMxeFN5OTlLc0tLNE55MHlHRDZNU3lOVFBDaTJwQQ?oc=5",
-        "title": "Iran war live: Strait of Hormuz crisis dubbed ‘largest energy shock in history’",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-19T14:42:18.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "TMZ",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUlJaM0FjNmxKbDhzZmwwVHMxZWJhNnZHemI5WlJmWWt5WE44MU5STXhpZXNFWUswVHU5X3o0djlhM3dhWmVnRUZ3dV80Uko3dUdxb0kzVVVxbVg0dThmZXI0aWVwcExlMXZseHJmWWNjbUVVRF94OF9KSm1IRFcxQ0dLQk9VcHB6bU16bg?oc=5",
-        "title": "Hollywood Burbank Airport Left With No Air Traffic Controllers, Reported Staffing Issue",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-21T17:01:40.518Z"
+    "updatedAt": "2026-11-21T22:30:13.214Z"
   }
 }
