@@ -4,6 +4,54 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-11-21T15:59:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "RMF24",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaU53UXFJaHFsTjNlQnZLdTZ3c1hFamJjX2g3OTZSZnpqWk1KbUoyY0VORjFYMzB1c2ZLVDRXQWVfSEpGRGMzZ2FuTlhQOWhfX1ZDUG9hZkk1RVVvenFrSGQ3bVBTZmV3U2pYQndoY09YaWdUV0Fjd2pSQlRScGZVMDE0aERMSnBjeGs5TVZzcmY0eERZWUg0M3N1a2pjVDhRS0cwNEZMcGpZZVJVUFFLa1F3?oc=5",
+        "title": "„To jest ta rakieta”. Prokuratura o obiekcie, który spadł w Nowym Lipowcu",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
+      },
+      {
+        "at": "2026-11-21T15:00:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "TVP Info",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQ2w0Y01FNXBWVC04TFBiWUp0UjdFZEFKejJQdmMwWlJ4T2ducFlHNTYyR2piZkQ1bkZlWHhaMHUzRV9wZXlLbFRPNGRlNHlLdy1xTU54U3lWRlFLVnFUNVlnTWhVRXkxMkJFUk9OY0RuRXFuSG05UVl3eHNQSWxfbS1XN0tocS1RNHgwdTZFSUxjaDA2SERYOW5leDJBVEd2cjBqWVZTZWlVVU54QzdVeA?oc=5",
+        "title": "Nartuszona przestrzeń powietrzna Polski. NATO zwołuje spotkanie",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
+      },
+      {
+        "at": "2026-11-21T12:00:00.000Z",
+        "cat": "weather",
+        "sev": 2,
+        "source": "IMGW",
+        "url": "https://meteo.imgw.pl/",
+        "title": "IMGW: 1 ostrzeżeń meteo, najwyższy stopień 1: Oblodzenie",
+        "official": true,
+        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
+      },
+      {
+        "at": "2026-11-21T11:39:37.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNeGp3dnZnRUE5ODVoT0xkVHVmTnp3clJhU1ZFcUZVX3lwZ29lRm9jQW1pNW5sOWpsLWJ5T3BZZnJxQms0VDFTQzJvTGRSby1WN2NNWlZrUzNuQUR2Z3JDaF9sSmRneXdCMm4yaEZiN2J1aWQ1QjRiNXR3eXhyZjRUbjF2VzVXYVM2a1RERVVuR2QwMDlkNDcwbVlyVXY4TDQ2TVFxWHVTMnpGbEpM?oc=5",
+        "title": "\"Najtrudniejsza sytuacja w Nowym Lipowcu\". Nowe informacje o obiektach z Rosji",
+        "official": false,
+        "forYou": ""
+      },
+      {
         "at": "2026-11-21T09:33:00.000Z",
         "cat": "weather",
         "sev": 2,
@@ -12,6 +60,16 @@
         "title": "IMGW: 1 ostrzeżeń meteo, najwyższy stopień 1: Silny wiatr",
         "official": true,
         "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
+      },
+      {
+        "at": "2026-11-21T08:30:00.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSzJHWEdiSU9UN25vUXhCbWVXN3g5OUlFMWxwSk9ZZEJnTmN4UjVsT1JwYWI2TkdUNzZicVJBWmc1WGxlN0xzRlU0VS1FeEx5ZGdvd05NckkzUkQ2bVpFLTh3ODVfbUVqQW02Um1Ndld0a3F1TTNMSXFJN05qWnlMSnV1Z1VRaDFkVWZtMXRQbGRMX0NMM1RCdWFlbmRiSm4weGJ2NWU1OEEzYm9BajliVFVjU3lLazBYVHQ2UHRmUHFNSmc?oc=5",
+        "title": "Rosyjskie zagrożenie w Polsce. Co zrobić po otrzymaniu alertu RCB? [WYJAŚNIAMY]",
+        "official": false,
+        "forYou": ""
       },
       {
         "at": "2026-11-21T08:16:22.000Z",
@@ -184,81 +242,45 @@
           "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
           "label": "Alert RCB i aplikacja RSO"
         }
-      },
-      {
-        "at": "2026-11-20T08:11:15.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Polskie Radio 24",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQRVZQR29kUHhheU8tdWs3VkxXUkFTRlk2Ym1UNVNJYTB1TkY5VkxUT0tHUV8xWkpldGxyOUhMWmdLeDBJdWdpSXBRUjJiVHQtSWpnNFBfcWpoN2hGcmxaZnFsZGJHbmh5ZXRqRXVIbXhfa0plMnh2b0RMY09LaXFvTU5xMjV2MnJ4VmMydE55dk9IdTF5?oc=5",
-        "title": "Alert RCB odwołany, nowa wiadomość. \"Brak zagrożenia na terenie Polski\"",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
-          "label": "Alert RCB i aplikacja RSO"
-        }
-      },
-      {
-        "at": "2026-11-20T01:54:49.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "Wiadomości Onet",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNWRsNjI1WmVSS0lpU2ZxSGtIaFVQbTVuZFUtaUFzOVp0ZmlHUDBiRUlDUGVibDUtcHlFRTVxd19JZm56UTRLNG1JOHI4cm94T051TmZJQjd4cVF1dmhsR0ZqNEZSOFZpUXdaQ3RZMnluRWpwa0swdTFyd0hVMWNsMUhoZkg4MU56MXN4ZEFVN2lYRUtkWDhGc1l6T1Q1NmJlb2NvSA?oc=5",
-        "title": "Nocny alert RCB dla mieszkańców dwóch województw. Powodem ataki w Ukrainie",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
-          "label": "Alert RCB i aplikacja RSO"
-        }
-      },
-      {
-        "at": "2026-11-19T18:03:34.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Wiadomości Onet",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdTk3bnU5d1g3U3RwTXpVM3NyTjJHVXZzYkJsdTl0Z3BJMXd5X1BITFEyRzJTblRueTQ4MHcxc3NYQzIxVEo5UE5JVDZvN3kzWU00WGFvWTBSN3R4R2pOc0YxOUZNaUFQdEwyVkpITUY0czhwVGQ3cUwybHZKbnYxaWZoOHFfeVhRbDVmaXV1V2t1a3Y1WnhPR3poSTJBUWlOcFZ4Nl9hZjNpNXloWDdERnlhVU0?oc=5",
-        "title": "Dron spadł przy ambasadzie Holandii w Kijowie. Haga wzywa ambasadora Rosji",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/mapa-schronow/",
-          "label": "Mapa schronów"
-        }
-      },
-      {
-        "at": "2026-11-19T15:51:24.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Onet",
-        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPeVNpbjhPTzlfbWFmMnIxYTZBbUJSb3o4SktVSE9UcFQ3RVJpMDMzMHBWZnFtMkx5eWRNVEozd3FZN1Y1a2xuakNLR1FFT1plOUJMT2J6RzJOMll5WE9aeDB4UUc3MlpnMFlZU0RxZ3gxaGIxVjNOb3VYVlFQZFppUFQ3Z19FSFpDSVVhQkF1OFVyLUJLblJSM2VRRVdTUjVLWHRnRnlPX2E3UDhvTndIQkFsZG43aFVTM1V6eDg5V1hIWDBteUhGTzFOcmszZlRfTmJOdHBsYW1OTWt3aW1v?oc=5",
-        "title": "Sabotaż kolei, cyberataki i podejrzane drony stają się problemem całej Europy. Polska, Niemcy i Francja zapowiadają bliższą współpracę",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/mapa-schronow/",
-          "label": "Mapa schronów"
-        }
-      },
-      {
-        "at": "2026-11-19T15:05:00.000Z",
-        "cat": "health",
-        "sev": 1,
-        "source": "Gov.pl",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUHRfWnZTUkFZMXlDc0RVQTl1VnRNRUlmV0tNRFBzWXZRaVIzbDF1NzJlQkZ0aThUMjdtNVR4VVdhcGRvWmFGWkNwQ3FLcUNoakcyWVhsQmQ2eGhacjQxSUViOGlmaDZiVXVfcVBpRFJ5WHF6TjFXOERSdTkwTEpJbTlTR3dzMDN5d29KNmdtLVNuQXgwUDRMU2tOdzNPNThsNWRyVGktcTgybWF3WlE?oc=5",
-        "title": "Konferencja „Profilaktyka - wzory duńskie” z udziałem Głównego Inspektora Sanitarnego",
-        "official": true,
-        "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
       }
     ],
-    "updatedAt": "2026-11-21T08:52:01.364Z"
+    "updatedAt": "2026-11-21T16:59:38.568Z"
   },
   "en": {
     "sample": false,
     "items": [
       {
-        "at": "2026-11-21T07:41:15.000Z",
+        "at": "2026-11-21T14:01:38.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Livemint",
+        "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQejFPRlZvRkMycXNqQ0VzMlVkMFlqcU5udTVSX3dEbmVQQ2J6N3VkczlmeHFBaUdXUDVWVUs1ZFNtUjB1T3VqZVoweDBZbm9YbHJNUGt4VmEyWHVkcENDZkwtV3VRdlRvN3NJcmowU0ktVVNKS3FRYzUtWXhLYWlHZy15cGR2cG5QVjJoZU5UYk83ZDlQYkpMQWhESlhQbDVBQ0ltYktSb2tLd0REMzY2OWJuMTBYanEwV0VsQVRKZUptUTdGTE5sU3ZWdGhnR2dVd2ZrVVZaNThPeVRRX0dUOUZyU3hPWGxsNWdHTE0yd1Y3Y3prNU1ueFRnNDQwLXVUajAycUhMeU7SAY4CQVVfeXFMT2NfMHVsT2xlQU1MUnIwTTdrYy1UQnZPQXJuQ1lobENVcVFVTkcwOGJnR3BsSmZLd2JsbUFRcThZTk5sQ0p1MG9kaTNLRWlJZjF0SHZDanBReDYyYXRIczAzTFZSLVBfX2RILVlUVDBKSTFVZFdhZGxCR1p0NUhzOEdtd3hYZzFRXzlOaXNwMi1sbWRROUdNQXNtU01YSzVhc0VhT011X0VMZ3pEYnBmM0ZGcHFmc3BDX3p5R2FZQmtNcXJyNHpGN2hyTF8wWURzTVFlYzRMM2puT2Z5VWxFdFEyZldIUnR2dkZubUFSOGdFUldQV0NmQVFON3ZEcEc1NFoxbDVwRF9sLUljM0dR?oc=5",
+        "title": "MoEngage cyberattack: SaaS startup confirms breach via third-party vendor – what it said and how many customers affected",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-21T13:15:53.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Herald.Wales",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQWEyOTd5eElOMGZzZFdFOGJMRUlLcV9DYm9DZlBxV2dLQnJlbVN4cjZ4RzdxZWpZYWJtcV9HblJvS251QUs2MFhILWdyREFKWGVSN0JRSjREbDhRWXFGNWVpN1JxMzlYREI5VktSanJfQlloQjNFTzdxNVBSVUZabkh0UHQ?oc=5",
+        "title": "Inside the ‘Black Sky’ plans for a nationwide blackout",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-21T11:06:42.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObXJxS0Y2ZWlaREQtbEtfbmhwcFJibU9pOTdCalNJNGhlTElNSmFMZXN0Sy1YYTlVN2VfcGRpbFgtNFlKM0I3ZEtILWk1TTRTVG1KYkp1VmJqcldtNG1rVnY1cG5rMUppb29kekNKazBGUy1LMVRKeEtOcmd2cTdFNUQxVl9mS3Zld0VqbEpiSU9nQU82bGdqUUN3c0JlMHR6VHB4UHlxU2Fod9IBrwFBVV95cUxPWS1tWElsbWdpWUFTN3VyamFlYTd5UXhMLTI1R0NKa1NzamV5WVIwRndZRm5qOWgxclQwOEprdi1tb290VHFnZWZHMGtSTVJidmFZT3RJVWpKS3lscFl6N244akRLQ29UeDZGcVBiZjR4MkthYkdCRUxCdmhtZnd0eFl2ZWtaWDdEN3Ridy1nLUgzN2E3LXI1MnEyb2NxTHlMUllZcnd2MUlHYXIwS2tr?oc=5",
+        "title": "Russian missiles hit Poland: What happened, and could NATO respond?",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-21T08:13:01.000Z",
         "cat": "security",
         "sev": 2,
         "source": "Institute for the Study of War",
@@ -274,16 +296,6 @@
         "source": "MLQ.ai",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUFliMXd2aTlNRHpUN1BHc1ZmcXA2R21JSUdLU2p1R09Ld1VTb2duc0EwcjNKX01Vb3lsOW9td2xHVVdxZHA0S0hBdVFNTkJBQWt4Q2FUUGdjLUI0VjJFN0dtbXg4RTFmek9YeTV1U0pMM2F3eTZfdU01cWdIT1JVZzRNQzI2QjFTOE4ybnY5RVJFUUlvMFJ3UWJicFVLbVYtNk1YelllRQ?oc=5",
         "title": "Illinois investigates an apparent cyberattack on the Algonquin Dam on the Fox River",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-21T02:09:46.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "BBC",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8wTkZBWEhyWUxyWHJPbmJIZ1pVcFZwMTkwQXduY1F5bWN0c0FfZ3o4SXJyd0FtckdncnJIbFRWcHo2bjFncDYwOGhZNERnUWRlWXNaWkVsUXBpX1E?oc=5",
-        "title": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
         "official": false,
         "forYou": ""
       },
@@ -324,16 +336,6 @@
         "source": "ProtoThema English",
         "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxPN3BHVVdiNlJfTFFaZ0tnOVE3MjdQSWVPOVZjMnpoYnBhdDBDSEswSE5nX3RwSXRRMHdUX1R6czdqTG5RY0FzVlliSlJWU0lLYWwzZ2FYZDczVHRaYmx4WU9oVm0ySHYzVS1MQW1ERll0RVRjMWpoME5MTm0tWS0zQmM5RXJ1cUFrSlpCS1JFbmNDNDVuejlZOEhQSmZJNG5Jdk5BeVBkLThUclBQVVBoMlhndVRKeVhmWE4xNV8wMHV2S0M4a2RlNXNYbnM1Q1AxMGNvRGhKVWZEeUxSazllMWlvYmNzb0dLbHVuUVZkeFpNOGhodHU5bEtRaU14cHNMdk9lS2Rqb1I3MlZCV25DZ1hFbVE1SlQwZHdRdmdR?oc=5",
         "title": "“72-hour survival kits” in Europe, “Fortress America” plan in the US: Pentagon prepares for 90 days without electricity or resupply amid fears of a total blackout",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-20T17:28:29.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Herald.Wales",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQWEyOTd5eElOMGZzZFdFOGJMRUlLcV9DYm9DZlBxV2dLQnJlbVN4cjZ4RzdxZWpZYWJtcV9HblJvS251QUs2MFhILWdyREFKWGVSN0JRSjREbDhRWXFGNWVpN1JxMzlYREI5VktSanJfQlloQjNFTzdxNVBSVUZabkh0UHQ?oc=5",
-        "title": "Inside the ‘Black Sky’ plans for a nationwide blackout",
         "official": false,
         "forYou": ""
       },
@@ -446,18 +448,8 @@
         "title": "Hollywood Burbank Airport Left With No Air Traffic Controllers, Reported Staffing Issue",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-19T10:38:31.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "Newswav",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONGxiRGlCQmxPMVYzcnRrVTJ3cE1hRG1TZXhYSF9aTVFjS01ITG04enZsNTlyTlVYVEJEUTFwM0o5REs5NUVmWE5EYVpWS1FtNHdQaU56LUNocjZSdDlTWENWSjFMS2JHcjl0Z184WnV0NjM5U3lxYjQ0dlpXM2hjbkhoZzVBdkk1dnh3eVktazd2WDFKa2E0SlRDY1FEU2dVejI3SkFzWGZVby1Ic2dCMg?oc=5",
-        "title": "EU Commission hit by large-scale cyberattack with data leakage unknown",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-21T08:53:19.151Z"
+    "updatedAt": "2026-11-21T17:01:40.518Z"
   }
 }
