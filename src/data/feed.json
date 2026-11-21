@@ -4,6 +4,34 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-11-20T21:04:13.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Polskie Radio 24",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUlVOdmZic21xb0hZdG5FQlotemhCb1FvWk80TnBaSlNjZkhHdjlCcUZEWHNIV3JyenI1Wkh6TFlpa0pBYnpZS2xGY0N0TUZFZGxmNnluQmNkYjIwNnNvWGpiTGUzOE56S0dvS3lSN01qS09sSTc1Wl9iUWJCdWswWDZoTTBjc2dKUmlOdWxJRkltRHhpOXRlLS1zWk9TRndibVpQV1J3?oc=5",
+        "title": "Rosyjska rakieta spadła 350 metrów od jego domu. \"Usłyszałem potężny huk\"",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
+      },
+      {
+        "at": "2026-11-20T19:24:28.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "WP Wiadomości",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOT3lfSlFCa0tVVVJCcWpKbHZDSFRaNnVyeUlFNV9kVVhROXZlVkI5QnJDT1NoTHdyUHBHRUVLYUd0VmFFaUoyVUZLLWhCd2ZaaHNlZmlEUFhRN0NnVzZkVVhWV21SaDh0M2oybFBmZXM5X0d4b0p4YnNJdTBzVkVPUm9GWlppQWh5SjFNWkpBMFZkWlFwb2Y1bEZn?oc=5",
+        "title": "Rosyjskie rakiety w Polsce. Sikorski zapowiada kroki",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
+      },
+      {
         "at": "2026-11-20T18:34:34.000Z",
         "cat": "security",
         "sev": 2,
@@ -48,6 +76,20 @@
         }
       },
       {
+        "at": "2026-11-20T14:37:57.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Radio Zet",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOX1drak9HQkxYdkRhLXMxbm05NFVnc3IxcTdndHBjbGhDUkNuMkJ3LWsyNENySmY1RFdCb2lQYXdLVEE2Qk8tXzdkMVRKazMzWDBxNDhRNnBzVjdyMDVjWlJJa0lmOGJ2dlphclNOYWRSRTJaZERxWE9EUHplTDRSM3BPbnpwTG5zUnlHZ29vTDhkN19LcE1EU0VVT1BMVGlEZmx5QndBYmozWjIwLUdkNUtOMzB6aUZQQWc?oc=5",
+        "title": "Ewakuacja wieży kontroli lotów, opóźnienia pociągów i samolotów. Resort podał dane",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/poradniki/plan-ewakuacji-rodziny/",
+          "label": "Plan ewakuacji rodziny"
+        }
+      },
+      {
         "at": "2026-11-20T10:55:00.000Z",
         "cat": "cyber",
         "sev": 2,
@@ -66,20 +108,6 @@
         "title": "Latające radary NATO nad Polską. Obserwują niebo na wschodzie",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-20T10:19:23.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Rzeczpospolita",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPLWJPU0s2SDlzaFhXU0paMy04R3ZWaVBGUDdUcFVLQWhMNjZiOTQ2cDdxTGw4RGdfS2ZEcHNQM21JbW9LcnNqWlVyeUFlUDJWRzdTcWdxMGVCM0VkVW9jMEtqTXBQVFNPZmFtTGNaU3NWUUgyQTNCN2otdXpTV29haEcwLXY0WEgzT0l2Q2ZHNzFyZWJYYTg0NXQtVWRfd0UwcGdkWjI5NlFXd21QRVFXQm02bFZqZXdL?oc=5",
-        "title": "Ukraińskie media: Rosyjska rakieta mogła przekroczyć granicę i spaść w Polsce",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/mapa-schronow/",
-          "label": "Mapa schronów"
-        }
       },
       {
         "at": "2026-11-20T10:13:48.000Z",
@@ -218,37 +246,33 @@
           "href": "/pl/poradniki/bezpieczenstwo-dziecka-w-szkole/",
           "label": "Bezpieczeństwo dziecka w szkole"
         }
-      },
-      {
-        "at": "2026-11-19T12:56:46.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Onet",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPbmxMYW9aZWRIZnFjNFFIcGc2anZvdEMtTkxoYVpNU2ZDa2EtQmpOMjBxTlNtcXg3c25hZGhlMzRiZm1yeGE0NHpLWHl0WjhHcF9zU29wc2Y0M2x4NklweFpHclpNYm5pdnBpX0x4VHVxYmJFMU1EUjhqMlN5MENNVzBqaXNwQnE5NUNveXo2aEJSRy05WnlkVno3eXJ3MG5TQ2dxb3MtRU9HRWR6V0VhQm41S2toVjRXWS02eWx2bzdIS0JxclhpcGJn?oc=5",
-        "title": "Niemcy: uczeń miał planować zamach na meczet. Broń miał z drukarki 3D -",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/poradniki/bezpieczenstwo-dziecka-w-szkole/",
-          "label": "Bezpieczeństwo dziecka w szkole"
-        }
-      },
-      {
-        "at": "2026-11-19T10:55:00.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "CERT Polska",
-        "url": "https://cert.pl/posts/2026/11/CVE-2026-87867/",
-        "title": "Podatności w oprogramowaniu MRemoteNG",
-        "official": true,
-        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
       }
     ],
-    "updatedAt": "2026-11-20T18:54:20.440Z"
+    "updatedAt": "2026-11-21T00:59:40.171Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-20T22:50:14.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Law.com",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQWkZuekh4VHNqU3Q2Vzh6TDNTUFlkRzQxb0xGX3ZpU2NzeU5RbDRtN2F2bFlxWnlqSndjWjdSTE8zV2RJZEJlN0pnOGU3ZlFuSUptUVpSbktmazB4aUZEdkZhYUM1dnhhRE9KdXhZOTZ1YXAyMFQ2TUdwdmVZLUlhN3plSzhwWUNMLVg0TkRtZ0JkbDgwaWtXb0tCNUlQR0lRSDJGYkc5TFA3UV9JWHJLXzI1TkVfTTA3bnp5S0s0dXM3a2tyQk1hQU9uZzZMZw?oc=5",
+        "title": "Wave of Cases Over Ohio Hospital Cyberattack Shows Speed of Modern Data Breach Litigation",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-20T19:52:08.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "UNITED24 Media",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOYVZCU0pIMFVHSE1NWmdhWXpzbXNyS08wUzJ5b3Rra2UxZ2VkWGNMMWJOTWxYUkdQTFVLc1hKVFdkc05wZG80bzV3aklxLUlmTzB5cXgtYmJCd2EyUUxHTU9GUXJhOGZzVE5vcGFvMnJ3OC1CaTRKblRTbWIxVC13bUk1NDdCQ3AtTHM0RVRTbUVxWjEwdF82Qi05Yi1CMkFTOVExR1Q3cncwbmRmektyVl9JNnVuU3VGQjlmX1VrVk1PMk82QmxhNFNORW9nMTBndlRFWQ?oc=5",
+        "title": "Russian Missile Strike on Central Kryvyi Rih Kills 20-Year-Old Paramedic, Injures 22",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-20T17:28:29.000Z",
         "cat": "energy",
@@ -306,16 +330,6 @@
         "source": "KTNV Las Vegas",
         "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPaEcxckxjR3Z3SE5QeE9KRXprVmtFSjB1T3F5MnZWVXc4aHdZRzhpLVc2LTYtTVZzQ2dGdDk4OW51Tzl4MnJsd01sZGV4THctRUk4VDRLbEpab2UxYVVFTGs2Xy1EdFVLLW5PLU9HYy04UkR5TGdlTG81eWNuMmZaVnlJdFJLc2ZObWNBT2Rjbk1fQXFRdTRLbC1WUjNORmpZOWN2RV9Wa3dOOVJ1d3BTNFVqNWZWQ1FzbmVvcE10WQ?oc=5",
         "title": "Las Vegas residents take precautions amid nationwide tech outages, new JPMorgan Chase cyberattack",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-20T06:25:54.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Around Prague",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNXzlNVWFyN0RidmltTVloeVhsQ0VpOWtBX1lSZWxNZl8zanZlY2tLekYyVWNPVmwzd2lWN3Yzc0RRVENycjAxY05SZ29heTlhSF9iQVl5cXRQcnpJaUZoam1jWTB1a3FqeEJzQlp5YWVaNlNuX3prWDRicHJiWlNxZElxTWJyM3Jsc0NtYnp4SWx1MGxWM0w2c1JQMlZzTl9vZGZvajlwc1BmbjlNVm9aLTZjbDloUHJIMGwwUDdVRWY?oc=5",
-        "title": "Kyiv missile strike: Russia hits the city again, fires in 3 districts",
         "official": false,
         "forYou": ""
       },
@@ -438,18 +452,8 @@
         "title": "Should You Fear a Nationwide Blackout? Doomsday Preppers And Power Grid Experts Weigh In on Nov 17 Claims",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-18T14:21:19.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Just Security",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTHBnUUVDTGl3cU5pUzI1VTRXTkNROUZKak9oQ1BzZ2xHemZnRkhTcDROWnlwYnBQRGF2WHFVNkVheHYtQWFZR19HcEhaaEc5M0lObjk0RkEzSGdsMDZTZmwxWjNDVlE3ZVZDYUFzTVZXVEZia3N1SlRMc1hYUENYaEZLd0FibThM?oc=5",
-        "title": "The United States’ Missile Strike on Minab’s Shajareh Tayyebeh Elementary School Part II",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-20T18:55:20.564Z"
+    "updatedAt": "2026-11-21T01:00:59.562Z"
   }
 }
