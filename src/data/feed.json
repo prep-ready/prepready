@@ -4,6 +4,44 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-11-22T16:01:03.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "TVN24",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOV3k3TENURnBuOFFrc3JyV0Y4M00zQm54VTFxTl9sMUkwb2M3LXNKTXBKYzI3ZDlsSWxpOHVlX2RGeXRIV1RTa0M5LVlHaDljbG1lWHV2MXE1R0ZLdTBXQVdRV3RZWHVWYk1xbVhmVXlPM1ZEMGlMbFFVZV8tVFhLMG9TeEFHbmVwWWdsMURCVUU3SUpES2pubEdILVluSlF1VUhaMWJMV2s0dS1jM21B?oc=5",
+        "title": "Prokuratura poinformowała, jakie rakiety spadły we wschodniej Polsce",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
+      },
+      {
+        "at": "2026-11-22T14:38:39.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbkhBUG9qX1B0ZWFXNjZoaHh0MVZkVHZxc0E5Q0ZPeENfSXJ5T3NrODYxNjJ4c1Nib291MFFvajVwa3duelZuTHBRTUVISlhwemEtMG4xOEh6dXdIZHc2ZVhlUHpEVUZxV0VGT3pYMWc0bHYzb0lsTklXZXJSNEFyRXdoU2dQZEEwRXZSUGh4TGlZUEJ2WUJVVUlnYy1tcW9qTHRpOU00QVBhMVdpdmxYTw?oc=5",
+        "title": "Nowe informacje po rosyjskim ataku w Dymerze. Są doniesienia o ofiarach",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-22T13:24:18.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "WP Wiadomości",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNS3ZHQ0F4MU80MldVSWxZVHp2Z1VNVkhURlNUSDl4R0hRQW9KMmlSeHE4U1V5Q2paaVo4dFRmMUxGaHl0RXE3VGI3a1VsMHpZTzRhN3pYMEN4dUlQaXRRYy1fa2hJam9tdlFwMmE2VUM1RXl6bWd1bTUtX1FyYTNWSWRfcVRyTk5UTlpMUVRUd2RpZDMxVmVrYW5HTDlmczJsd3FhZy1ENk4?oc=5",
+        "title": "Ewakuacja w Małopolsce. Śmigłowce LPR zabrały rannych w pożarze",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/poradniki/plan-ewakuacji-rodziny/",
+          "label": "Plan ewakuacji rodziny"
+        }
+      },
+      {
         "at": "2026-11-22T10:00:00.000Z",
         "cat": "security",
         "sev": 2,
@@ -18,17 +56,31 @@
         }
       },
       {
-        "at": "2026-11-22T08:34:14.000Z",
-        "cat": "security",
+        "at": "2026-11-22T09:50:13.000Z",
+        "cat": "safety",
         "sev": 2,
-        "source": "TVN24",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQaFE3RzZqWTBiWi1JNzBOSnN2WDcxN3U3cXJaNDdMLTM2RC1fcVpGRllRYi1iV0lTVlpWdGIwb3dmajFVeHNoT1pGRzJSbW9RWlJmNkFfN20xS3I4Y3RZcnQzaDlXYjNZcEZoRlFxaHRXRjFsRWxyYXR5YWpReVZGZ25RaGdfZEJjV2t3RkNFbnBWdU1BaERFQ0xYZ1F2cENPRHkyVlF6TQ?oc=5",
-        "title": "Obok jego domu spadła rakieta, miał zablokowany alert RCB. \"Jak chyba większość mieszkańców\"",
+        "source": "Radio Zet",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbm05SHp0OU9mOG9mWlJPNnY2d3JfZWNmdW5BTWNwYlpNWkxzaEd0UHhuSnF6NUR6YkdWSGxhd0h2X0RXVVIyZENBX3R4V1JZR2xyWGNNdGE2SmRtQWpNZlRSTmJlWXQxS1cwOFlMT0RCVTdMMUlkSnVNRVRaM0dGNnBFdTU0VEFmejFaRTk2QnlpbFpBQWYxNEo2MXcwRVdBa08xU19KLXFiZUV6SXBYU2VVSWhrY3M?oc=5",
+        "title": "Obok domu Tomasza spadła rakieta. Wcześniej zablokował alert RCB. „Zdążyłem uciec\"",
         "official": false,
         "forYou": "",
         "guide": {
           "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
           "label": "Alert RCB i aplikacja RSO"
+        }
+      },
+      {
+        "at": "2026-11-22T08:51:16.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "WP Wiadomości",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVnBrNTRJQ2lHNmxzM3kxTjV4SlgteE1tS2Z6XzBKT1lVSGhoX0VOR19xbzRQODNZUzcyWGtsQllOU2x4dnZqclBkVkVYS01xRk1LUjdlN1ZVc0h1MC1va2ZQbUxCWGpHbGt2NmoxeUdsNGR1UWwyQWdnc0xDbmlDQzJiSm1wZ19PVi1rU21JSUhDMTVDbHlrUEowV1U?oc=5",
+        "title": "Ewakuacja na wzór Ołeszek. Zełenski ogłasza nową listę",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/poradniki/plan-ewakuacji-rodziny/",
+          "label": "Plan ewakuacji rodziny"
         }
       },
       {
@@ -202,69 +254,35 @@
         "title": "\"Trwa wielka operacja dezinformacyjna\". Wojsko ostrzega i apeluje",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-20T17:39:29.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Wiadomości Onet",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWW9uRldpdUV0SmlOQ1BsZXNOaVdSbVRCdG5NWGRreThUcU5Wc1czM3d3ZXpYcV9fUTZ1VGtSZjVlYWNNNnFWcFBHRHAxWGVVdmxwTkdqTUt0dFhWQWQwYTdSb2pFWHJlaEtCSG53RUhyQjhFaG9aVVNyeHVUN3JhODRrM0ZrSHh2RXJ4Nmc0YXFlTTFVdUpVRWdmaUgyc3pWQXJoRnVtdE5YUQ?oc=5",
-        "title": "Nocna akcja Gripenów nad Polską. Szwedzkie wojsko ujawnia szczegóły",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-20T16:54:38.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "WP Wiadomości",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNnRWemJEZDFZRTUzeWhCdlFPcXZtUERuMy1BZTJ3cXl1QzNRZkR6ZXAwMnRPUXlaS0I5aUpzcTFwUUNWMjE0MHJtVFlOZXhfOG16YllFaTF2c1FvQ1VydEswOWdEYnBhUzJ3UVdsTy1UaXhWZ3BtcmV4OHBOYTlsb0JwQUxVN0FveFJQRXlEUDJOTUVi?oc=5",
-        "title": "Ewakuacja wieży w Rzeszowie. PAŻP ujawnia kulisy",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/poradniki/plan-ewakuacji-rodziny/",
-          "label": "Plan ewakuacji rodziny"
-        }
-      },
-      {
-        "at": "2026-11-20T10:55:00.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "CERT Polska",
-        "url": "https://cert.pl/posts/2026/11/CVE-2026-127027/",
-        "title": "Podatność w oprogramowaniu Analogic Poste.io",
-        "official": true,
-        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
-      },
-      {
-        "at": "2026-11-20T10:24:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "TVP Info",
-        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPSU9ON1k0X1V4RGxyVGdYYkYxd1dWZ19VMjZBMEFVbjd6X1BmTzctSlpwandaRksxS2NhV3JCYUQxQ2hBOUw0dEwxa3ZrOVV5c0NfQ24ycFhhNnhnZEFuQzd4UnlWQ3h1ckhfN3Z5SHBSaVd6d3FiRDdES3ZwSTFYOFFUX09zVDJpdUNVdllGLTdlUmNpSXZrYklxOTZ5d00xamw4NlkzSmlmTTFJNkZJbGRhZzd6OE95aEZJZ2JGMHYyLVZOUE04TXVUMjgyYngybFFoNWpWUS03c2RhQThr?oc=5",
-        "title": "Latające radary NATO nad Polską. Obserwują niebo na wschodzie",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-22T10:24:00.918Z"
+    "updatedAt": "2026-11-22T18:06:04.269Z"
   },
   "en": {
     "sample": false,
     "items": [
       {
-        "at": "2026-11-22T10:21:28.000Z",
+        "at": "2026-11-22T16:53:12.000Z",
         "cat": "security",
         "sev": 2,
-        "source": "The National",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUHN2cW4tcHM0SnF6VTliWkZvYnptOHl1T19RT0p4TlZKNUd0VlNQd3hWR2lNbUh4UEN2cmZzZGNnTjRya1FJOV9WZmd3dkU1bmNJdFZwVEhIMmhhT0hkZkYtWVZ3QXU5R25JRTVNTVVpaFp6VHNQaW9rV3hsYVR1UjAwclM0NWhqZkE?oc=5",
-        "title": "Middle East latest: Bahrain says two injured after Iranian attack on civilian industrial facility",
+        "source": "The Kyiv Independent",
+        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPb1hDeGZPSTNtQmhNb3d2VlNZQkNoSUdKY002Z0YybHhTd3JiX2VmWk1nSDZJMHk3RjF3Y25veHZaOEh3eGV0dGllbm5mMFhnZ20ybzZXZ1ExTHZMZllDeDlfZlBOOElMLXR1Zzk5SXYtWjRoUGtnOS1ucW5FMUpRMGNNRlFRcmJkT25KWGpHb2FXZzZqcmJiVFAwZ2RjUzA0LTFEUGs1Y0FvLVROWjlMTXdUQVNCOEctUThCblprdVNQVVhvbDg4anVBRTFJak1jVnBudmhTQVZKdGdoY0RWYjR3SURIamozUzhaRWxZNXE?oc=5",
+        "title": "Ukraine war latest: US delays on Patriot missiles 'difficult to understand' as Russia fires 165 missiles in single week, Zelensky says",
         "official": false,
         "forYou": ""
       },
       {
-        "at": "2026-11-22T09:51:25.000Z",
+        "at": "2026-11-22T15:38:48.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Yahoo",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSGVJZW91bU14RG1rM1UtaUdKaXZNTmpqYTdROW5Rek8tUFNSMUtPNEo4eERaV2x2MnFVSTdWNUxzQ0E3dkEtUmRlTnVTSzRCQWNkdXNZbXZzU0NrYVp4VHZlazdUU1ZZRjBIVkNmVGJON0htS2FVZnFDTHo0bk0zNWNpQ0pRWTBhTGxpNHd2aGxfX2M3RXlBQWl0Q0NCYXNxTlNrZ21n?oc=5",
+        "title": "Simpsons November 17 Blackout Prediction: Fact vs. Fiction",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-22T14:37:39.000Z",
         "cat": "cyber",
         "sev": 2,
         "source": "DW.com",
@@ -274,12 +292,12 @@
         "forYou": ""
       },
       {
-        "at": "2026-11-22T08:13:04.000Z",
+        "at": "2026-11-22T10:21:28.000Z",
         "cat": "security",
         "sev": 2,
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUW0waDFYcE81MlNfS1FJT25tZXV6SFVLWmhLSWdicllwX1JSandoUm0yU19ZLW1QdDRoUnlpTHBjSVhIZjFXc1RpUko3aUZJWlBjODFLRUQ0ZVFWTWlCd2V5WFo1VlZxR01KQ3hJTmR4cDZkdm9hUDJ0SWpvZkdRdDByTmJXU213enJPd2ozSy1jQmVCNFpFN0RaSHBJSTE2UDg3LVZWRFM5YTjSAbABQVVfeXFMT1ltd0RWTHk0UzVCUXJuTTJjclNGa1JuM3hIMWs0N1FsQXc0am5XTXZFbUozMDhkVTZ6SUQ4QTdIbnNWV1JCQnB1dTJIaTJ2WmxxdDZTS2dPSVRTVzlQQmdVeVowYU5xNmc0NFVwWG5oajRvYzIxSVBjM0duU3JWeTZNVWVKTXFOMk4xdFhBYTZsX0RnelNaOFJTTHJQTllRM25MM1hwVkl1X2ZDakRfQ3U?oc=5",
-        "title": "Dashcam captures Russian missile strike on Lviv, Ukraine",
+        "source": "The National",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUHN2cW4tcHM0SnF6VTliWkZvYnptOHl1T19RT0p4TlZKNUd0VlNQd3hWR2lNbUh4UEN2cmZzZGNnTjRya1FJOV9WZmd3dkU1bmNJdFZwVEhIMmhhT0hkZkYtWVZ3QXU5R25JRTVNTVVpaFp6VHNQaW9rV3hsYVR1UjAwclM0NWhqZkE?oc=5",
+        "title": "Middle East latest: Bahrain says two injured after Iranian attack on civilian industrial facility",
         "official": false,
         "forYou": ""
       },
@@ -442,18 +460,8 @@
         "title": "3 Kyiv bridges struck in massive Russian aerial assault on Ukraine, at least 8 dead",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-19T22:19:17.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "WCIV",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRlJwZHVUTDlBQ3FHamFnZ0F1MEdCVzhvSHdpYm9aa1NFU2Vmc1lRVW5GNXlwNVdIYkkybWxUUm9DelFXdlprdHZzNEx1LXVhODhpcEs0dm5YaGZVNjhUa2xtWXVhWG94b1ZiajExeTVITDVtZkNleEZucXlzRl9hU0pfeEZqUnk3SS1EdmhvaVd5NXBmS3FVTlZJVFRoeUZiZ3JIZzRJVWhDaXFvT1RJ?oc=5",
-        "title": "SLED opens criminal probe into Charleston County cyberattack after data copied",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-22T10:26:03.965Z"
+    "updatedAt": "2026-11-22T18:08:16.086Z"
   }
 }
