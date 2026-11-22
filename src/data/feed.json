@@ -4,6 +4,34 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-11-22T10:00:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Rzeczpospolita",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOT25nc1RuMnB1eGh1dUtuc0FHcHJEcEdhM1A5YnNoaHFjSzlZRTFyQ0VRSkc5aUdfN2xDVE1YRzhuS1VoTlp2Y0cyY19vam9yS0xaRWNpdTF5aE5WSjZKWEVORk9CXy13bmFwc2dZaDJwalJ6cEF0TU0tc2diUWtoSVEtVDM1eUYtdldOX3RQcC1hN0N2X0IwUThDdmpWOHdjUDVIcnF4WDhFdlFQYmlmMVlidkxSaTJncl82WGppYnNoRTJZVmtTaktQeFc3d0xpSVJZSkltRElzNjhp?oc=5",
+        "title": "Polska rozbudowuje swoje wojska do sześciu brygad artylerii i trzech brygad rakiet",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
+      },
+      {
+        "at": "2026-11-22T08:34:14.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "TVN24",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQaFE3RzZqWTBiWi1JNzBOSnN2WDcxN3U3cXJaNDdMLTM2RC1fcVpGRllRYi1iV0lTVlpWdGIwb3dmajFVeHNoT1pGRzJSbW9RWlJmNkFfN20xS3I4Y3RZcnQzaDlXYjNZcEZoRlFxaHRXRjFsRWxyYXR5YWpReVZGZ25RaGdfZEJjV2t3RkNFbnBWdU1BaERFQ0xYZ1F2cENPRHkyVlF6TQ?oc=5",
+        "title": "Obok jego domu spadła rakieta, miał zablokowany alert RCB. \"Jak chyba większość mieszkańców\"",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
+          "label": "Alert RCB i aplikacja RSO"
+        }
+      },
+      {
         "at": "2026-11-21T20:52:00.000Z",
         "cat": "security",
         "sev": 2,
@@ -218,44 +246,50 @@
         "title": "Latające radary NATO nad Polską. Obserwują niebo na wschodzie",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-20T10:13:48.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "WP Wiadomości",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQc1YwWWEyMFdzaHlDTWduZDhTLWlBWE8xTWpnQV9mVXRXZVRNSHJ4dUVPWUxIdGxVTjA2Z3NEYjRlc2dXVFlmN0EydGc3N0hqWnZHRnFUaElXeEtSWFZPaTNGOGdOT1BTM1hJMWM0TEs4SDhZdEd6NWFtelgwU2ROSHdqN2EzbkoyeFJiNnpHOUl3dlM5Y3lGNjN3Y2VEYlN2X1djSHFTMWc?oc=5",
-        "title": "Pod Biłgorajem spadł obiekt. \"Rakieta Ch-101 albo dron odrzutowy\"",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/mapa-schronow/",
-          "label": "Mapa schronów"
-        }
-      },
-      {
-        "at": "2026-11-20T10:03:30.000Z",
-        "cat": "health",
-        "sev": 1,
-        "source": "Gov.pl",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMXBSNnM2cGQ0MnRWVWtpZGllX3FWOE04SC16RkdNWVV4LTBvLWdRa19wVHFDLURUazRRYTZ1Wm1SZU5FS3RyMi15TzBwV3JQV29PbnA2TTFIa19xM09jOVZwaEEwRGhlTV84OVdweFVRaTBoWWZfX2M0ajVTN2NxMEdjMDlzeTlJcjY2RV9KN0l3T2E4WFUycmd2VkVObnZkS002alh0OUFmV2V5ZnVKYUxkU3pOelNYZ0FR?oc=5",
-        "title": "Konferencja „Profilaktyka - wzory duńskie” z udziałem Głównego Inspektora Sanitarnego",
-        "official": true,
-        "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
       }
     ],
-    "updatedAt": "2026-11-22T02:42:00.355Z"
+    "updatedAt": "2026-11-22T10:24:00.918Z"
   },
   "en": {
     "sample": false,
     "items": [
       {
-        "at": "2026-11-21T23:04:25.000Z",
+        "at": "2026-11-22T10:21:28.000Z",
         "cat": "security",
         "sev": 2,
-        "source": "CBC",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE4xS29ZZ1VBUFIzaUVKd24zYjJxakUwWXNSbHZfUVR3ZVoxZ2JBMXRCU3V3TXFhdFNUcnpqYlFrenJnbHE4eFlLSEZMNGk1LXN0a0Vlb1BTRHlmaTl2OUllSHk1d1JOYTJBVkN6cGJLSTV3YS1GOFpUVDRwRVlydw?oc=5",
-        "title": "Russian strike on Zelenskyy's hometown in central Ukraine kills 2, wounds 60",
+        "source": "The National",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUHN2cW4tcHM0SnF6VTliWkZvYnptOHl1T19RT0p4TlZKNUd0VlNQd3hWR2lNbUh4UEN2cmZzZGNnTjRya1FJOV9WZmd3dkU1bmNJdFZwVEhIMmhhT0hkZkYtWVZ3QXU5R25JRTVNTVVpaFp6VHNQaW9rV3hsYVR1UjAwclM0NWhqZkE?oc=5",
+        "title": "Middle East latest: Bahrain says two injured after Iranian attack on civilian industrial facility",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-22T09:51:25.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "DW.com",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUXNtSV9BaVRXaVpkZWhmdXR0TkF6T1BJYVRteUVrMW9BOXp3OVNTZ2F3S241OFBaWkVaaHZMbEhWbG53XzF5SHBaZEtHQ21qdXdzLWpSa01SZElzeWNPeURiRUJFSk1DRDlULVpZOTJwd2pNcGt6VGxybEQ5eFgwU2s4d25QazRyeTB4elBKTWd5WWt5MmxpaA?oc=5",
+        "title": "Is the US under cyberattack?",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-22T08:13:04.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUW0waDFYcE81MlNfS1FJT25tZXV6SFVLWmhLSWdicllwX1JSandoUm0yU19ZLW1QdDRoUnlpTHBjSVhIZjFXc1RpUko3aUZJWlBjODFLRUQ0ZVFWTWlCd2V5WFo1VlZxR01KQ3hJTmR4cDZkdm9hUDJ0SWpvZkdRdDByTmJXU213enJPd2ozSy1jQmVCNFpFN0RaSHBJSTE2UDg3LVZWRFM5YTjSAbABQVVfeXFMT1ltd0RWTHk0UzVCUXJuTTJjclNGa1JuM3hIMWs0N1FsQXc0am5XTXZFbUozMDhkVTZ6SUQ4QTdIbnNWV1JCQnB1dTJIaTJ2WmxxdDZTS2dPSVRTVzlQQmdVeVowYU5xNmc0NFVwWG5oajRvYzIxSVBjM0duU3JWeTZNVWVKTXFOMk4xdFhBYTZsX0RnelNaOFJTTHJQTllRM25MM1hwVkl1X2ZDakRfQ3U?oc=5",
+        "title": "Dashcam captures Russian missile strike on Lviv, Ukraine",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-22T00:30:00.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Bangalore Mirror",
+        "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQLXJ6bDZLejNkNXJEUU5jaXhSOUNSU2NfT2NrR1Y0VkhLbXZFUDlGSmtvTlZSX0d2X01Qck1Qc1RLQkpadVA2QzdYRUxmUGZfUnBMWGlVd04xZEd0X2FxbmhmenV3TmZROFFuVmk5QzZYWk4tRzI4QzFERmI5OFJsRWcxZGhRRzJweHBmc2FpSkZmd3pOeFVyMlpfZDhSUHBwWVdLeHl3V091UU12T3hlWkNyTDFUNTU1V2MtdVFMUG5CbWVvcVAtVUlmdXpfTEFyaXU4SDBGTDRVQ0tOTHpZRU9GNnJFbm9jS2FNMnJxTXBKbXFBc2gwRGt1bUZuQTREUlNpdTNJYk1wOTdXMGJ1bHF6MnlsSDJIRWfSAZ8CQVVfeXFMT3UzTVFUX2hua3VCcWxlNWIzUmVNWTlpOGVmVmFObEx2SHJKcjQ4a1djTUFrLXdYRDBKVWpEWGdGSlhMRm5oOGltOFhmWjlHQXQ5Y0ZLVWtyX3JydW5KN2ZwVXhMbHJFNElQV0UwYllYMHc5bW5jMHY1Rm1tZE12VXRoTGIwU3paMVBRUVgyR2huMU1ESlZvYzctMXpBVTI0T0Z1ekRCTlV0NDVMdWM5Ung5WXdYbXJGRjZ6VU5uank2ekxDWjNtV25abXZIZ2RYX1RkNUZxcWJvQ3pZUUZMYTN0eFNheUdmclkyVklYUHZVTTN6U1JLYjZscE94RmhteHAwWVhYbE1mUDNGTWI2OE55dWx3b2M5OEdQUWxCc00?oc=5",
+        "title": "Bust Fake News With Bangalore Mirror: Debunked: FEMA test did not signal an impending worldwide power bl",
         "official": false,
         "forYou": ""
       },
@@ -266,16 +300,6 @@
         "source": "UA.NEWS",
         "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUVB4bHVLZFEyRnpuUGdvR1RYTzZKTXdyQ3RNd2RJSTVHcENIc2xZd0lwazNMMmhjcnpVTTBEQlRuWml5TUJrOHRtNW5vb3NJa3pIY1hyR1owTFpOcm52UGxVUy1vcmRrTWY1Y1hRMVZQSkNQRktxdjZGUGRNckdUTVdGX0hTVlNDU0RhRXNnR1RZSlFLYjhHRlppMUZMVVpVNmRvQw?oc=5",
         "title": "Russian attacks on the energy sector caused a widespread blackout in the Odesa region",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-21T18:22:19.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Latin Times",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPbVpMZm0tWXJaTGotM3FGS2FRaFV0ZFNYTjVNUXptV2dELTFXWTJnNlRFUW1GX1VSSGhtSHNGYjgwdmtTMU5CWW9XTHl2TXlhdjM2LU4wNFpRRHRjRjhpU04zX0d6RGtRYmpRWWh0WUVIU1E2R2szTDRfY2lhbXNmU0pnTE12dw?oc=5",
-        "title": "Ukraine says Russia's latest barrage used cluster warheads and timed missile waves to endanger repair crews",
         "official": false,
         "forYou": ""
       },
@@ -428,28 +452,8 @@
         "title": "SLED opens criminal probe into Charleston County cyberattack after data copied",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-19T19:59:20.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "EnergyNow.com",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRHM5Z0w3dFFfNEtpem9naS1GakppY2drNmxqQ2xWRDB3b1hmMHBDWUZZc2ZKY2ZJR2RKejd4YW9CMTYxMzFqX01ZcmNXZG9WMVVKaXFIVlY2WVpBWUpMQnZMOEJaM2xtRW9IMnEzelgwQmQ4djVuYTA1MmVZWVB0a01IeWhuNkJnMnR3TA?oc=5",
-        "title": "Cuba’s National Electric Grid Collapses, Reason Unknown",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-19T19:56:55.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "PBS",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcmFNTmJiTzY2SFNiZlM5dE14ekFoc0ZrZFQ3T043M3BCOURXOXFza2g0ZVZwZFZxaHF3NDJNR2VIb1BXUHc0TGZtbDl5SlpUeDJPLUtJMEZuaHpFTGJsd1JLQW1NaV9TOHlqcktNTHoxVmhEQmh0R2NsMjVJbFV0RnVzcnMzSzNZWUx5SVloS2xkSFBmOXhUcXdnQmZuTU5rM3MyUjVwMWZGanB3bGQ5Sw?oc=5",
-        "title": "Debunking social media posts that claim a 90-day blackout will start Nov. 17",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-22T02:43:19.996Z"
+    "updatedAt": "2026-11-22T10:26:03.965Z"
   }
 }
