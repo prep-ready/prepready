@@ -18,6 +18,20 @@
         }
       },
       {
+        "at": "2026-11-21T20:14:03.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "WP Wiadomości",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTWZIZjEycllBMkN6MmVSQUJZQjlhVUpoU3liNXRoMGZIRVQyZmpTRENBRGthZUo5SnQzRzZ0c0I0MWhnUVhxclZRWXY1ZHFkSE0wcXZxV1pmSzNsXzFjQUtldnMtRThhLVRsTExVUkJLX3psNHRyb2xrNHFFNXAyT1VUNkJYa3dMeHZITFVDUXQwT3pYTXc?oc=5",
+        "title": "Dron nad strategiczną bazą NATO. Alarm na Sycylii",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
+      },
+      {
         "at": "2026-11-21T19:38:07.000Z",
         "cat": "security",
         "sev": 2,
@@ -228,27 +242,23 @@
         "title": "Konferencja „Profilaktyka - wzory duńskie” z udziałem Głównego Inspektora Sanitarnego",
         "official": true,
         "forYou": "Zwykle bez działań. Sprawdź apteczkę i daty ważności leków."
-      },
-      {
-        "at": "2026-11-20T09:55:17.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "rzeszow.wyborcza.pl",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSkdMZld4SFA0QUlDd1VkX2pTR2dadGJ5c0dRejFqV19teWRPYnBzZXRtaTRBWVBsbUFXTjhxLUQ2Z0drNHlBUDVzbWZuOHl3Ull3RXMxckJ4TnZqckVjVl9Wa2QyQXlTVExvTUpyWllLN3JJWFM2WXY0TmJtNGRWWmh2T0M2SzA5WllLOXplOTg4Z3JNRVJBdHE5a1dnQnVhc2t3RXVSV2JsR1N6d185RHROR2drNEY3cUE?oc=5",
-        "title": "Alert RCB, zamknięta Jasionka, wstrzymane pociągi. Tak wyglądał poranek po rosyjskim ataku w Ukrainie",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
-          "label": "Alert RCB i aplikacja RSO"
-        }
       }
     ],
-    "updatedAt": "2026-11-21T22:28:14.434Z"
+    "updatedAt": "2026-11-22T02:42:00.355Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-21T23:04:25.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "CBC",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE4xS29ZZ1VBUFIzaUVKd24zYjJxakUwWXNSbHZfUVR3ZVoxZ2JBMXRCU3V3TXFhdFNUcnpqYlFrenJnbHE4eFlLSEZMNGk1LXN0a0Vlb1BTRHlmaTl2OUllSHk1d1JOYTJBVkN6cGJLSTV3YS1GOFpUVDRwRVlydw?oc=5",
+        "title": "Russian strike on Zelenskyy's hometown in central Ukraine kills 2, wounds 60",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-21T20:02:40.000Z",
         "cat": "energy",
@@ -256,16 +266,6 @@
         "source": "UA.NEWS",
         "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUVB4bHVLZFEyRnpuUGdvR1RYTzZKTXdyQ3RNd2RJSTVHcENIc2xZd0lwazNMMmhjcnpVTTBEQlRuWml5TUJrOHRtNW5vb3NJa3pIY1hyR1owTFpOcm52UGxVUy1vcmRrTWY1Y1hRMVZQSkNQRktxdjZGUGRNckdUTVdGX0hTVlNDU0RhRXNnR1RZSlFLYjhHRlppMUZMVVpVNmRvQw?oc=5",
         "title": "Russian attacks on the energy sector caused a widespread blackout in the Odesa region",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-21T19:36:16.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "CBC",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE4xS29ZZ1VBUFIzaUVKd24zYjJxakUwWXNSbHZfUVR3ZVoxZ2JBMXRCU3V3TXFhdFNUcnpqYlFrenJnbHE4eFlLSEZMNGk1LXN0a0Vlb1BTRHlmaTl2OUllSHk1d1JOYTJBVkN6cGJLSTV3YS1GOFpUVDRwRVlydw?oc=5",
-        "title": "Russian strike on Zelenskyy's hometown in central Ukraine kills 2, wounds 60",
         "official": false,
         "forYou": ""
       },
@@ -450,6 +450,6 @@
         "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-21T22:30:13.214Z"
+    "updatedAt": "2026-11-22T02:43:19.996Z"
   }
 }
