@@ -4,18 +4,28 @@
     "sample": false,
     "items": [
       {
-        "at": "2026-11-22T16:01:03.000Z",
+        "at": "2026-11-22T18:16:41.000Z",
         "cat": "security",
         "sev": 2,
-        "source": "TVN24",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOV3k3TENURnBuOFFrc3JyV0Y4M00zQm54VTFxTl9sMUkwb2M3LXNKTXBKYzI3ZDlsSWxpOHVlX2RGeXRIV1RTa0M5LVlHaDljbG1lWHV2MXE1R0ZLdTBXQVdRV3RZWHVWYk1xbVhmVXlPM1ZEMGlMbFFVZV8tVFhLMG9TeEFHbmVwWWdsMURCVUU3SUpES2pubEdILVluSlF1VUhaMWJMV2s0dS1jM21B?oc=5",
-        "title": "Prokuratura poinformowała, jakie rakiety spadły we wschodniej Polsce",
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYXZEcEVSR1J2ZWl6eWFMWU9hMUthRUtrcTVCeXBZUVJMVmF0QzNyWTk3dkl2bzZXWTVYb3F0Z25Zc2ZsdGhVUGZhM3Zpc203UEZSd0lqUUV4cXJsRTloVzMyeDQzdHhRc0N4ZFJ2NkphbXY3MWFkSDgyb2lDdDVOV0tobkx5aTdCcmhVV3BXYXBxbFhNSHpPbXNRREdLUW13emVhOG9pME50YlNXTkxWUmdGY0E?oc=5",
+        "title": "\"Żyj synku, błagam cię, żyj\". Dramatyczne godziny po ataku rosyjskiego drona",
         "official": false,
         "forYou": "",
         "guide": {
           "href": "/pl/mapa-schronow/",
           "label": "Mapa schronów"
         }
+      },
+      {
+        "at": "2026-11-22T16:05:10.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNUgwX2xqTHU4NEFSOFEycWVPSTZWUVZ3eXhwV0dmUzk0S0tYc256YjJscmpMM3laam1zOVZZSWZ2aEtqM2ZyakhfM1hPTlJHX3RhcGNfUERCZXQyNUxycnZYTnBtYUt3bUNDaVZCZklxRGFxMHFXeFFIbk81WFhNLUlrMkl3aTJ0a3ZhejNuWDc2d2x4Y3I3Y1VXSDZoS1NUbmx6MFYxM0ZYRFNIX1B6Ulhn?oc=5",
+        "title": "Rosyjskie obiekty spadły w Polsce. Prokuratura prostuje informacje",
+        "official": false,
+        "forYou": ""
       },
       {
         "at": "2026-11-22T14:38:39.000Z",
@@ -110,16 +120,6 @@
           "href": "/pl/mapa-schronow/",
           "label": "Mapa schronów"
         }
-      },
-      {
-        "at": "2026-11-21T19:38:07.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "polskieradio.pl",
-        "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQTlpKVnlHbDk3elptYmhaV01ONF9SUG93VXFqZWlScWNVd2pkbXVYYVFjYS1WWnF2Ui1Hbl8xTjQxM192QnFjcm9fMFl1RUg3VVR0Tk50bTY5LU9YY0tCbnBlbXJDTWpLUTBtUkFIdERrcGVpY09kMWdNVG5YZkE5cXpQUFozXzBVSE9PTjdvUGMxX011OERBQWc2WUtTdEFEUmFlaXBfSXNhQUlSSXNzc2xtWEZwbUpGZFgxZ2htcG1hclN0R1F2MW5SaXl4N1RfVXh3ZlA0Q3VWd1RMdi16N0N6Z3JvRXE5bFZoLXV4TmlPQ0x2TWtCclhGR0F1MTMteG5LZldzUXZNcDQ?oc=5",
-        "title": "Trzy rosyjskie obiekty w Polsce. \"Wojsko powinno ocenić, czy zestrzelić\"",
-        "official": false,
-        "forYou": ""
       },
       {
         "at": "2026-11-21T15:59:00.000Z",
@@ -256,18 +256,38 @@
         "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-22T18:06:04.269Z"
+    "updatedAt": "2026-11-22T23:53:52.524Z"
   },
   "en": {
     "sample": false,
     "items": [
       {
-        "at": "2026-11-22T16:53:12.000Z",
+        "at": "2026-11-22T19:50:34.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Herald.Wales",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQWEyOTd5eElOMGZzZFdFOGJMRUlLcV9DYm9DZlBxV2dLQnJlbVN4cjZ4RzdxZWpZYWJtcV9HblJvS251QUs2MFhILWdyREFKWGVSN0JRSjREbDhRWXFGNWVpN1JxMzlYREI5VktSanJfQlloQjNFTzdxNVBSVUZabkh0UHQ?oc=5",
+        "title": "Inside the ‘Black Sky’ plans for a nationwide blackout",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-22T18:10:27.000Z",
         "cat": "security",
         "sev": 2,
-        "source": "The Kyiv Independent",
-        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPb1hDeGZPSTNtQmhNb3d2VlNZQkNoSUdKY002Z0YybHhTd3JiX2VmWk1nSDZJMHk3RjF3Y25veHZaOEh3eGV0dGllbm5mMFhnZ20ybzZXZ1ExTHZMZllDeDlfZlBOOElMLXR1Zzk5SXYtWjRoUGtnOS1ucW5FMUpRMGNNRlFRcmJkT25KWGpHb2FXZzZqcmJiVFAwZ2RjUzA0LTFEUGs1Y0FvLVROWjlMTXdUQVNCOEctUThCblprdVNQVVhvbDg4anVBRTFJak1jVnBudmhTQVZKdGdoY0RWYjR3SURIamozUzhaRWxZNXE?oc=5",
-        "title": "Ukraine war latest: US delays on Patriot missiles 'difficult to understand' as Russia fires 165 missiles in single week, Zelensky says",
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWDROSjJ4ZmFrSWp4VDNoeS1aRVlHb25QQXJvV0JhQWtrNjdJekNQWHEyQ0VhZUIyNHBpd3l2eEJSYmc4Zk45V2lhcWxwMzJBT09XYk1hRzZwa0FkT2ltdUl2STFtb1lBVHRtVFpDTGtYc2FVZWJqQXYyYlFSVzBhNzhpbE83NlByTGJHQjloNEZvZ9IBlwFBVV95cUxORzQwam00SzMzbWFrZHNQMlAxQU1sTmJ3ZEFQRU51V1B4MGxUb1FFeUo3R05ya0hQMFRVRjRGOTlVZDliV25wbGdnZzI1YlI5N2lpTnltOE5ZYUItZDViTlJvNkRCaGR0M2NxQ19zeEJrSmhVTGVKVGpoRFBNTlFlMFpxUzNKblhkYjlBek91OUJxbmZNdkRr?oc=5",
+        "title": "Zelenskyy urges US to release Patriot missiles as Russia kills 7 in Ukraine",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-22T17:01:05.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Gulf News",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbExvM1NVR2NsWnZOdm9vT3ZqTFMzVzNoTmNPTGJNc05uSlkzTDhqbzF3ZmFITC1zeFJ2TGtCRHVpb1VIZjlMT29iRHoxUFZqQjZSMFVMTUo2T01kZHo5Z1FUd1R4eFZJMFZ5dk9admc5RmMyUi1HOFVTMVFqMnVONlYzNlBxc3dnQ2haVndPT3hfZTNZRVJyeWFnLUpIMHJ2c2pGSjBjNEl4NGxYdnhFZ1JSRmVWU2lhQVNNMDNpRk53cEXSAdYBQVVfeXFMT055ZHB1bVFvcGI5NEV6U2x2ZWpOX01WMnBtZ0l4MlNDb1Y4S2VyWGJUek4xRi16ZHB2akZveEpsUEdrYlNacFJlcU42MWo5MnE4WG4xTEItYjdUZFhULWgyYzVDdUg5VjBxQl96R0MzeUtOeTRab0NwbkdZVU9HTkZ2SW9xU1BmRFRRbnJJNEdGMl9lZV9DQk1wT2tCdmh1SUU4bExjNGJyN3Y1a2QzLWdpNERuTVh2b0ZhS2Uxc2NxV1RnMnAwQkNSNW92QWRrdHBSd2ZRUQ?oc=5",
+        "title": "US ports face wave of cyberattacks as Los Angeles blocks 120 million attempts",
         "official": false,
         "forYou": ""
       },
@@ -288,6 +308,16 @@
         "source": "DW.com",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUXNtSV9BaVRXaVpkZWhmdXR0TkF6T1BJYVRteUVrMW9BOXp3OVNTZ2F3S241OFBaWkVaaHZMbEhWbG53XzF5SHBaZEtHQ21qdXdzLWpSa01SZElzeWNPeURiRUJFSk1DRDlULVpZOTJwd2pNcGt6VGxybEQ5eFgwU2s4d25QazRyeTB4elBKTWd5WWt5MmxpaA?oc=5",
         "title": "Is the US under cyberattack?",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-22T11:49:36.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOM1owT2pOYVc3bXd5Z0RTeGlaemVoVXVReXNLeHcza0U3aVo2RW5FWDJjUTFGdGtrNm9OVEY4VVZCYXh6aTZ3bzZaVG1NYzdwZGRYOHRlUXVyanBTVzNTQ0FPNnpLbFl5WDBSamUxQmkxRHVUMG1sMk5xMm9sbmZKOEpwMUxVSHJCamsxdFJEZ3dKUWRoSy1SaGJn0gGfAUFVX3lxTE1sMGtPREkyMU1XR0dvQ0pkM2hraWFPblNyWGtsNC1fY1REcjFELUU2Sk9hNFNpT2dxVmxoU3JZQU9QMmlVWlladjlCRW95bEx6MGItcFNjN1VuMHJQSTZwWm1SQ3pLN28zbE05ZHo4cnBGWFZwZXhUR0VYUC1DMGFkTnV2XzlnZTRubzJtSzJ6YzhwUzgwRk1HdnhpVlNNWQ?oc=5",
+        "title": "What’s behind Iran’s escalation of attacks in the Gulf?",
         "official": false,
         "forYou": ""
       },
@@ -338,16 +368,6 @@
         "source": "Livemint",
         "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQejFPRlZvRkMycXNqQ0VzMlVkMFlqcU5udTVSX3dEbmVQQ2J6N3VkczlmeHFBaUdXUDVWVUs1ZFNtUjB1T3VqZVoweDBZbm9YbHJNUGt4VmEyWHVkcENDZkwtV3VRdlRvN3NJcmowU0ktVVNKS3FRYzUtWXhLYWlHZy15cGR2cG5QVjJoZU5UYk83ZDlQYkpMQWhESlhQbDVBQ0ltYktSb2tLd0REMzY2OWJuMTBYanEwV0VsQVRKZUptUTdGTE5sU3ZWdGhnR2dVd2ZrVVZaNThPeVRRX0dUOUZyU3hPWGxsNWdHTE0yd1Y3Y3prNU1ueFRnNDQwLXVUajAycUhMeU7SAY4CQVVfeXFMT2NfMHVsT2xlQU1MUnIwTTdrYy1UQnZPQXJuQ1lobENVcVFVTkcwOGJnR3BsSmZLd2JsbUFRcThZTk5sQ0p1MG9kaTNLRWlJZjF0SHZDanBReDYyYXRIczAzTFZSLVBfX2RILVlUVDBKSTFVZFdhZGxCR1p0NUhzOEdtd3hYZzFRXzlOaXNwMi1sbWRROUdNQXNtU01YSzVhc0VhT011X0VMZ3pEYnBmM0ZGcHFmc3BDX3p5R2FZQmtNcXJyNHpGN2hyTF8wWURzTVFlYzRMM2puT2Z5VWxFdFEyZldIUnR2dkZubUFSOGdFUldQV0NmQVFON3ZEcEc1NFoxbDVwRF9sLUljM0dR?oc=5",
         "title": "MoEngage cyberattack: SaaS startup confirms breach via third-party vendor – what it said and how many customers affected",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-21T13:15:53.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Herald.Wales",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQWEyOTd5eElOMGZzZFdFOGJMRUlLcV9DYm9DZlBxV2dLQnJlbVN4cjZ4RzdxZWpZYWJtcV9HblJvS251QUs2MFhILWdyREFKWGVSN0JRSjREbDhRWXFGNWVpN1JxMzlYREI5VktSanJfQlloQjNFTzdxNVBSVUZabkh0UHQ?oc=5",
-        "title": "Inside the ‘Black Sky’ plans for a nationwide blackout",
         "official": false,
         "forYou": ""
       },
@@ -440,28 +460,8 @@
         "title": "Las Vegas residents take precautions amid nationwide tech outages, new JPMorgan Chase cyberattack",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-20T06:16:33.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "EA WorldView",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNM2RrVEhkLTl5UDFBVUdjZ1NZTXN2RzgzSnhUUGZ3enFsWVA1ZllBbUc2QU9UNVpkcDN3UUFiMlpfVHZVVzBjYUtScVg1UDFMYmFNLXhjLVc5aG1xSjhRQ0J2ZXpNVHRYbEx2NmxrTXRlZ09BUHdqZ2tuTms2a3pNWGtR?oc=5",
-        "title": "UPDATES: US War on Iran, Day 267 — Houthi Missile Attacks on Saudi Arabia",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-19T23:41:36.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The Kyiv Independent",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQblM4Z1VFYS10TkllLVVhc3VmdFd0Tnp6RzVMbzktcmktcmlnc196OG5rQ1dKZklrUER2ckw2T2Y4WVhTWDZ3eXBVX3Y4VGJoSUhBQjk2Y1luNU51NmxxRGl4RlFRSlJKLVdzeEc0ME5jZlFIaFdQYjlYOFJ6V2pMWDlZeVlYMWpjMnMxLXlfZGl0LVUwMTlFaU1MQTk2elVTTXExUVJ0WmI?oc=5",
-        "title": "3 Kyiv bridges struck in massive Russian aerial assault on Ukraine, at least 8 dead",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-22T18:08:16.086Z"
+    "updatedAt": "2026-11-22T23:55:10.933Z"
   }
 }
