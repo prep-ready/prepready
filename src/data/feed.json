@@ -4,6 +4,26 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-11-23T05:35:56.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "TVN24",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9qVmdwTW1tenNOeUFpTi1LTzRPcGNqN0wzZk43eUNBQXRHNnFtZlZtZldMUmh1Zk1YQldxSl9WVUdBZTVtS3lZR3NreWM0MWVSVHczUDRMZkUwTE5lR2VJbV9nd3JSZElsVU1USEE5Vmp0WmM?oc=5",
+        "title": "Pożar w porcie Gdańsk. \"Jeżeli możesz zostań w domu\"",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-23T05:18:15.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Polskie Radio 24",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTnNBemRaZ1VuRy1EX05rLWZUell1Sk9MVDI2T3lrTEp3UlFiOUNVY0pkX2NFc0NjdTYxTk5zYTVPQUxtVDFBSVJZSFp5WF9SZ3ZCSlVva0hkMXRtTGtjNXNiODBvQ1VET2ZOTUpjV0ZHMVdkZVRpRTljU1FaNjE5bzUxbWhIWW9MdXpYMWZTQQ?oc=5",
+        "title": "Kłęby dymu unoszą się nad portem w Gdańsku. RCB wydało alert",
+        "official": false,
+        "forYou": ""
+      },
+      {
         "at": "2026-11-22T18:16:41.000Z",
         "cat": "security",
         "sev": 2,
@@ -230,37 +250,43 @@
           "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
           "label": "Alert RCB i aplikacja RSO"
         }
-      },
-      {
-        "at": "2026-11-20T21:04:13.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Polskie Radio 24",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUlVOdmZic21xb0hZdG5FQlotemhCb1FvWk80TnBaSlNjZkhHdjlCcUZEWHNIV3JyenI1Wkh6TFlpa0pBYnpZS2xGY0N0TUZFZGxmNnluQmNkYjIwNnNvWGpiTGUzOE56S0dvS3lSN01qS09sSTc1Wl9iUWJCdWswWDZoTTBjc2dKUmlOdWxJRkltRHhpOXRlLS1zWk9TRndibVpQV1J3?oc=5",
-        "title": "Rosyjska rakieta spadła 350 metrów od jego domu. \"Usłyszałem potężny huk\"",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/mapa-schronow/",
-          "label": "Mapa schronów"
-        }
-      },
-      {
-        "at": "2026-11-20T18:34:34.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "TVN24",
-        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPNWhpT3E1aHd6dFVhOHExLWJ4WHBSZDFuT2toWDRNTmFGblVwNTRWcHdVdzAzQk9JckVBYUpDcmFEQXlOdjl0TDR3MUZpNXFFZEZNb0FYQllDQzV5cEcxQl92TDRlMDJZRWNfQlpqczJ0NGtnSDctWXJ1SzZXMl9DVzNTenRXRjVzbEhfLVRFcnpINWhFZUk2MkhmeWpnTWFOZXlPZjdJV0w2d3hLaE4tUXNfRlpqSXZydHZlRy1LdWxRMUtZZGZiMF9TdW8yYTdjZ2dDWmFXbzB4OGdpaWUxRw?oc=5",
-        "title": "\"Trwa wielka operacja dezinformacyjna\". Wojsko ostrzega i apeluje",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-22T23:53:52.524Z"
+    "updatedAt": "2026-11-23T08:19:38.442Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-23T06:09:03.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Hoosier Ag Today",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSXlJZWVNTkUzdHVCbjNYMXJIeWstX2NCb2tDdmx6R3B0RFl6MW5ydjFlMXVtYUxvNE16UHN1ZEVBbkJpNzVoYVlEclpCeTY1M2Z2YWVBRDM3UmpJamh2aU1xOEJzVDAtNTVRR2d3cXpuTUFYcmk5VnBUc2o1UzMtUXhmWldwYkhzTHlrdmpyMVlSRFZMS3c?oc=5",
+        "title": "USDA Cyberattack Disrupts Farmer-Payment Systems, Raising Questions About Access to Critical Farm Programs",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-23T05:29:58.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWDROSjJ4ZmFrSWp4VDNoeS1aRVlHb25QQXJvV0JhQWtrNjdJekNQWHEyQ0VhZUIyNHBpd3l2eEJSYmc4Zk45V2lhcWxwMzJBT09XYk1hRzZwa0FkT2ltdUl2STFtb1lBVHRtVFpDTGtYc2FVZWJqQXYyYlFSVzBhNzhpbE83NlByTGJHQjloNEZvZ9IBlwFBVV95cUxORzQwam00SzMzbWFrZHNQMlAxQU1sTmJ3ZEFQRU51V1B4MGxUb1FFeUo3R05ya0hQMFRVRjRGOTlVZDliV25wbGdnZzI1YlI5N2lpTnltOE5ZYUItZDViTlJvNkRCaGR0M2NxQ19zeEJrSmhVTGVKVGpoRFBNTlFlMFpxUzNKblhkYjlBek91OUJxbmZNdkRr?oc=5",
+        "title": "Ukraine urges US to release Patriot missiles as Russian strikes kill 15",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-23T01:00:36.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Eurasia Review",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZlBwOTRjbjdnRTdaRnVBdVZsbmkwSjR5dHBHNVJOY1VBaGJ6TUFHVjdsc21aczlCdWdWUXRJcHBXNkJnWGI1V0JOM0FHa0xpZzZFampqaWtkRDVFMWs2RkxpTlh2R2Y2R2VEQXk4MDFiRUJTQmxtVUxvU3lpZ3ZPcWVkRG43R25HVGxiSDVjTQ?oc=5",
+        "title": "America’s Outages Expose A Crisis Of Trust – OpEd",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-22T19:50:34.000Z",
         "cat": "energy",
@@ -272,12 +298,12 @@
         "forYou": ""
       },
       {
-        "at": "2026-11-22T18:10:27.000Z",
+        "at": "2026-11-22T18:03:00.000Z",
         "cat": "security",
         "sev": 2,
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWDROSjJ4ZmFrSWp4VDNoeS1aRVlHb25QQXJvV0JhQWtrNjdJekNQWHEyQ0VhZUIyNHBpd3l2eEJSYmc4Zk45V2lhcWxwMzJBT09XYk1hRzZwa0FkT2ltdUl2STFtb1lBVHRtVFpDTGtYc2FVZWJqQXYyYlFSVzBhNzhpbE83NlByTGJHQjloNEZvZ9IBlwFBVV95cUxORzQwam00SzMzbWFrZHNQMlAxQU1sTmJ3ZEFQRU51V1B4MGxUb1FFeUo3R05ya0hQMFRVRjRGOTlVZDliV25wbGdnZzI1YlI5N2lpTnltOE5ZYUItZDViTlJvNkRCaGR0M2NxQ19zeEJrSmhVTGVKVGpoRFBNTlFlMFpxUzNKblhkYjlBek91OUJxbmZNdkRr?oc=5",
-        "title": "Zelenskyy urges US to release Patriot missiles as Russia kills 7 in Ukraine",
+        "source": "TAG24 NEWS USA INC",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNaEdEWG4wUURfaVYxY0JXdHlUX2RVZXNKWWp4U04tWXB5MnY4cENvSTdsYzFMbXd1UmZCdmctb1pLMzllQjhpMWw1Zzk4UUh4NWo3NHN1WjhaUWtFdG93U2NKUVBLWFhqckl0bG5WdEQ1S3dGdmdUN2FjRV9OZzNiR0o0NUoyenlFdngydVpZSjBULXZhSlBtZnBNNEdLY1JRTzgxSmlrZUUxVkVnQ0wyXzZzRFE5MjItenpJWUlTSy03ZURIN0RXbmFKamlreTZzTTdWa2dFMkrSAd4BQVVfeXFMTjJLVDNGMEFtYW5nNkg2QmNVSFhvbVpXZjZmMkYzY0RNeDNURHhNRlJGOXF1QkMzTkZSNXc2V2RjTVFBblJRRzZlblNsaGNjblhxM0hqQTNlYnl3Wmd4RGZxTUhsM3ZIVjlfeFBMSjVsUVNIVmtpbmRQRGM4Mk9uTUE1eFRhOV8wSzNnQ1JtWWRXbHhDOWFMNjJ2QVlRZWJmMVVIVjdPcU15ZmRPUXpaMlpmZDVOTUloZ0UzcGFuRHloRm1PeEd0U2x5c0JiNVJyTXlTSGdNbGpLeE5feWFB?oc=5",
+        "title": "In defiant move, Iran taunts US with missile launcher talks: \"The damage suffered by our enemy is only the beginning\"",
         "official": false,
         "forYou": ""
       },
@@ -430,38 +456,8 @@
         "title": "“72-hour survival kits” in Europe, “Fortress America” plan in the US: Pentagon prepares for 90 days without electricity or resupply amid fears of a total blackout",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-20T17:15:24.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "SC Media",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNeU1qdTJERFRONWY0blBhQ1JXVGQ0dGxxd0FnUGhwRnhhaVpzNUswWnJ4NU1TUXhsQlR0bzVFQXNNVkFqWk5MYmhVM1dUMElvdGZmUGIzeHEyLTdEeHE5SERkSmpXWjJCR011ZVV6VndicDh4dUo5eEN3VUo1a0JhbF9xZk9wOWc?oc=5",
-        "title": "How to determine if a tech outage is a cyberattack",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-20T16:30:56.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The National",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPV2s2d2xVNlpZamM1RXpfRURTUFM4eFhHeFBkQVp6TTlLTXZWMjB5WFEwcF8wQ2dqR3U5SDd2VUNKdm1uV2RfV256RHUzUS1ZQWZJdnNlRmJtemxFeUZLR2tLWXhza2EwOVBWUEVPeUJ2VG9aV0R0RjVSWU1wVG8zU3p4RWJQMmhDcjdKOF9XZXBMQQ?oc=5",
-        "title": "Middle East latest: Saudi-led coalition targets Houthi weapons smuggling at Hodeidah port",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-20T08:10:51.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "KTNV Las Vegas",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPaEcxckxjR3Z3SE5QeE9KRXprVmtFSjB1T3F5MnZWVXc4aHdZRzhpLVc2LTYtTVZzQ2dGdDk4OW51Tzl4MnJsd01sZGV4THctRUk4VDRLbEpab2UxYVVFTGs2Xy1EdFVLLW5PLU9HYy04UkR5TGdlTG81eWNuMmZaVnlJdFJLc2ZObWNBT2Rjbk1fQXFRdTRLbC1WUjNORmpZOWN2RV9Wa3dOOVJ1d3BTNFVqNWZWQ1FzbmVvcE10WQ?oc=5",
-        "title": "Las Vegas residents take precautions amid nationwide tech outages, new JPMorgan Chase cyberattack",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-22T23:55:10.933Z"
+    "updatedAt": "2026-11-23T08:21:21.776Z"
   }
 }
