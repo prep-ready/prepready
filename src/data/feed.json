@@ -4,6 +4,90 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-11-24T04:49:38.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdUlCVGpONE1zQkN6Q0tvODVGTWpUWUZOcUZ5ZU40VWZhTkptcU1tbFVuMGtGMHN4SHU1b3NFWVpSaWFQYTFUM3ROelVnYjJUNmd6c0ZQSG9GM2dMbDYwY3Z1QWYzcE4tR3N4S1RTQm05ZjFnN0c0amJnb0NWd2dZbUs4UXExck1rODh2VDZXUHdSNHRtSUNqY3pZZzFPZnQ4ZlZvNHZsYVgzbzRZeFE?oc=5",
+        "title": "Rosyjski dron w Polsce, samoloty Kremla w strefie KADIZ. Podsumowanie nocy",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
+      },
+      {
+        "at": "2026-11-24T04:37:51.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "WP Wiadomości",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNVd6cTM3OXQwTkM0NEJQSlpLTmN1dHZ4b0Z3VXZkSmw2d05XNm42MGI5ZVRYclc2OG5HQnF1MTl0ZnRFS2JmYVZMODU3WTBid2tBMnRvWVZBN011NnBLcUVWWnM5T3N4bVVNN0RkYUdtdlhRSnJ2eUtKWFRrblhIMk1qUmZ1OVJjbmxtM25uN3c2UWVweDZ2LVZ6RGNUVVhVcXkxQURZaFg1VU9KWWdtNFVQUUIxZw?oc=5",
+        "title": "Działo się w nocy. Rosyjski dron nad Polską i chaos w Seulu po prowokacji",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
+      },
+      {
+        "at": "2026-11-24T04:28:17.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "WP Wiadomości",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPLVJud0RQYjBpd0dWakJ3Vl9PWVlJWUN0MXNzdXA0OWtxaTVFb1BsUHVtZlhkOXZnMjFpMDhhTkwydTBhME9hNlpqYVZPVjNnNDVkQUpUUEREdEpiWWhlb0REV2tGOWRjZkZQczNxeC0zVEZrdE9nQV8tXzEwVWRNV1p1VFRjZ1VmZ0FjN0U3NF9wcWVDUTJnb0RqU1pCNmFSVVE?oc=5",
+        "title": "Nagrania ze wschodu Polski. Słychać wyjące syreny alarmowe",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/poradniki/syreny-alarmowe/",
+          "label": "Sygnały syren alarmowych"
+        }
+      },
+      {
+        "at": "2026-11-24T04:19:25.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "Polskie Radio 24",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOODM1M0hXYzluaTBmbWZiMC10bzVWT2QzSThzbDBqUXNoNnd5RlIzOHlQLWN1emlOakdQLWVxV0lNM01hdlExVTBXX2w4TE9jTHNfZWFSSDRackczTEJCYUF2Slk1bFhtVGxqekdlWXcwMW5JVWlYVGxoQkp6ZGxTd2JFeGdFTEVNR1kxcnRpbDZRZXlDTE5hZ2Y2QU8yN2dHdFJFcGhBVmpDcFhqRDdQZkF3?oc=5",
+        "title": "Rosyjski dron naruszył polską przestrzeń powietrzną. Wojsko wydało zgodę na zestrzelenie",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
+      },
+      {
+        "at": "2026-11-23T22:05:07.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "TVN24",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVWZCR00zajEzTXdVZm8wWnAzN2VWRWVmaWgxME1pc0tsR0s1TTU4YnQ4Z3BubEF0aXhYa1JlSWlCemhaOHJFbnVmWk9SWWlyUEk3aFV4cW01ekpNdS1XZWFpc2R0cFBtcF84Ny1kRDMyZGZQcXhUMFl5Z01ZZDJEdWdSMTk1Q09nTE1VSHQwMG04X3plRWZqQ3RHSmhidVUxbk9nQlZ3?oc=5",
+        "title": "\"Krótkotrwałe naruszenie polskiej przestrzeni\". Alert RCB i komunikat wojska",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
+          "label": "Alert RCB i aplikacja RSO"
+        }
+      },
+      {
+        "at": "2026-11-23T22:02:00.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "TVP Info",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOVkZkNmtWN21wSVNDazJ0MnQteWE2NkI4ZDlha1EtSFdjMnhIcEJKcTJ4X0VQWEhBbHg4OFhmYkVWRlBYcHdScmYxekh6TXRxNVVYMm5zWWJqV3QxN2FwTXFEclRqOU5SSW1fN2ZyazhXajdISV9fMkFTLUVKblhkZGs1b1RWRjE0RjlfNnFka0N6eUM5U1MzbGV2VnFJeEx6RW1GU2dfY29RaHdFTVhkRF9jMnNYVUVBV04tbEtnWQ?oc=5",
+        "title": "Alert RCB odwołany. System Obrony Powietrznej był w pogotowiu",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
+          "label": "Alert RCB i aplikacja RSO"
+        }
+      },
+      {
         "at": "2026-11-23T19:55:14.000Z",
         "cat": "security",
         "sev": 2,
@@ -24,16 +108,6 @@
         "source": "Onet",
         "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONHc3eWJLdU8zdFdaMGhYbXJqcUJRSktzUndkaEFDcFpoRWxGZVRLMkJNNnVaeDJlNzhOZnZIX2o3MG93bTlubFZZU05mUU5TQ0kycmk4Vmx0eFc1UlJud3ZrdGNhQmc2RDh0ejB5STJYTDhMeUVsdnpyVlN5WXFmcnIwQ0V0RGZqbEZ5OGktMkp6Y3pxcXJacUU4b1pZZjJEYkJ5NjVZanhmMUZZQ1AwcG1zWi02dw?oc=5",
         "title": "Śmiertelne zatrucie czadem w powiecie jarocińskim -",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-23T15:41:21.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Portal Samorządowy",
-        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOSWNRUHlEdHV6T1BMYlZDdDg0U081dFhHcVdiWGVtRHJCbzN0N2lUcllEV19qZVNXcVNlaE80WGNKSVgzQW10a3dMNUJKR3dZZW5QeEJJZE1oYlNES2pJVHhDRENWNmZraFBaNzl6NmZUX1B2bThfNm85a3NaMGF2dWVsanlsNUlWZC14Y1BzbDNIcFdXcVMySU5tM2V6bFdSQkVDNkRqYTRrSWI2TzRoT0VmN2lGaW16Rm9mYXh5Q1I2QTlPanVxVFRYTjdZTV96a1VPbXF1TlJNUkJPczR2ZWZ3?oc=5",
-        "title": "Kowal: o reakcji na naruszenia polskiej przestrzeni powietrznej decyduje wojsko",
         "official": false,
         "forYou": ""
       },
@@ -180,75 +254,43 @@
           "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
           "label": "Alert RCB i aplikacja RSO"
         }
-      },
-      {
-        "at": "2026-11-22T08:51:16.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "WP Wiadomości",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVnBrNTRJQ2lHNmxzM3kxTjV4SlgteE1tS2Z6XzBKT1lVSGhoX0VOR19xbzRQODNZUzcyWGtsQllOU2x4dnZqclBkVkVYS01xRk1LUjdlN1ZVc0h1MC1va2ZQbUxCWGpHbGt2NmoxeUdsNGR1UWwyQWdnc0xDbmlDQzJiSm1wZ19PVi1rU21JSUhDMTVDbHlrUEowV1U?oc=5",
-        "title": "Ewakuacja na wzór Ołeszek. Zełenski ogłasza nową listę",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/poradniki/plan-ewakuacji-rodziny/",
-          "label": "Plan ewakuacji rodziny"
-        }
-      },
-      {
-        "at": "2026-11-21T20:14:03.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "WP Wiadomości",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTWZIZjEycllBMkN6MmVSQUJZQjlhVUpoU3liNXRoMGZIRVQyZmpTRENBRGthZUo5SnQzRzZ0c0I0MWhnUVhxclZRWXY1ZHFkSE0wcXZxV1pmSzNsXzFjQUtldnMtRThhLVRsTExVUkJLX3psNHRyb2xrNHFFNXAyT1VUNkJYa3dMeHZITFVDUXQwT3pYTXc?oc=5",
-        "title": "Dron nad strategiczną bazą NATO. Alarm na Sycylii",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/mapa-schronow/",
-          "label": "Mapa schronów"
-        }
-      },
-      {
-        "at": "2026-11-21T15:59:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "RMF24",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaU53UXFJaHFsTjNlQnZLdTZ3c1hFamJjX2g3OTZSZnpqWk1KbUoyY0VORjFYMzB1c2ZLVDRXQWVfSEpGRGMzZ2FuTlhQOWhfX1ZDUG9hZkk1RVVvenFrSGQ3bVBTZmV3U2pYQndoY09YaWdUV0Fjd2pSQlRScGZVMDE0aERMSnBjeGs5TVZzcmY0eERZWUg0M3N1a2pjVDhRS0cwNEZMcGpZZVJVUFFLa1F3?oc=5",
-        "title": "„To jest ta rakieta”. Prokuratura o obiekcie, który spadł w Nowym Lipowcu",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/mapa-schronow/",
-          "label": "Mapa schronów"
-        }
-      },
-      {
-        "at": "2026-11-21T12:00:00.000Z",
-        "cat": "weather",
-        "sev": 2,
-        "source": "IMGW",
-        "url": "https://meteo.imgw.pl/",
-        "title": "IMGW: 1 ostrzeżeń meteo, najwyższy stopień 1: Oblodzenie",
-        "official": true,
-        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
-      },
-      {
-        "at": "2026-11-21T11:39:37.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Wiadomości Onet",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNeGp3dnZnRUE5ODVoT0xkVHVmTnp3clJhU1ZFcUZVX3lwZ29lRm9jQW1pNW5sOWpsLWJ5T3BZZnJxQms0VDFTQzJvTGRSby1WN2NNWlZrUzNuQUR2Z3JDaF9sSmRneXdCMm4yaEZiN2J1aWQ1QjRiNXR3eXhyZjRUbjF2VzVXYVM2a1RERVVuR2QwMDlkNDcwbVlyVXY4TDQ2TVFxWHVTMnpGbEpM?oc=5",
-        "title": "\"Najtrudniejsza sytuacja w Nowym Lipowcu\". Nowe informacje o obiektach z Rosji",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-23T20:38:42.957Z"
+    "updatedAt": "2026-11-24T05:02:45.023Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-24T03:39:21.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The National",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNW14YjRmMTY1a0preF9JQmJVaDFGVmZWUlNJbmRNelFCQjFqYVpfbzJMSFJPN2hwQ1diRDZYdkh3Z09LalBnb3hBZ0k1LUtZNWVpZnprZDlzMzAtVnZZZzAxNTlQYXZYcHNHdjJEZkE5Y3Nfall1Vnk0YkQ5NUpTZDctU3BLbXhz?oc=5",
+        "title": "Middle East latest: IRGC says three tankers ablaze in Strait of Hormuz",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-24T01:14:19.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Wisevoter",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPWmVMcUJYdTUzZlU0VkdIUDRQdE14dXVjTm51STBPOFUtMHZVYnFvRjRJSjhZbWM4R1RhbGZETkVLQzdXMDlXOUNCdTVZSGlEQkhCTjdFYmhDOS11ZkFsRU1vajhlZi0xZHVXbGpPMlVQTEFFdVhsaWlBWVVYNlZxUXJHRlA3cHhkYkQtcnBKM2tuLXhzSkZGOGdKWGFkVFZ3THc?oc=5",
+        "title": "Yuma Hospital Settles Ransomware Suit for $1.985M",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-23T22:44:24.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "EnergyNow.com",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUmRjOW5iTlYxTE5NSkNHZlRTZXJRWXBZTEJMZ0FyNFItWWtPV3pmWUdnVTF0M2JzMmxOTmMyMU5MMG1nM3VJcnk2OS1OMXBrS3IxbTBvVVZVb1N0S2F6M1ZSS09kT18yOWZvZUh1MEdWSzlhTWw2TlAxWmpHcGZOZEN0U0haVUNBWHBPeS1ZNzVzYmlBZkMxTmFkb25vbERIeUx1eDBSeHNoUkVSUjVkc1dZeG8yYUZRbFJoTA?oc=5",
+        "title": "Fujairah Oil Zone Hit by Fire After Drone Attack as UAE Says it Intercepted Iran Missiles",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-23T20:29:00.000Z",
         "cat": "security",
@@ -286,6 +328,16 @@
         "source": "UA.NEWS",
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNzduT3QxUFRFMU1rUXA3bnVLd2s1Z2tlQnRxU3lDVU9kQ0JKQm1tamFta0kwUnRkZ013UXFFUEk2bXVoOExjN2N6Rk90Q1hEeHBwR1R1djhVNnZMUXNlY3QweXQ3U3dFU3BMVnpaSUlpVEUzTWZDb3pVVHhhUU1JdjZfb1VaT0VlUHhUOTJRVlItWnJCT3d0NXpfVG5EZnVCY3B6SlM1OF9oVnha?oc=5",
         "title": "US Marines seek to double Naval Strike Missile range — The War Zone",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-23T16:32:41.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "MyStateline",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTEN4Ni1uMzBzTGE5M3RpUEdzUC1fM1M5bHJXbnBsY19DT0NxUVdhcl9QYVd3dHhyMHExa2h3WEZGQXllelFJaXViOGYzbXBmLWFTNXJGcWtwZkZubExibl85VjVfZ1ZSREhXNGZqY2RoTnBhSko1ZUcyY0M0bWc4bkVKdkFhdld4MnfSAY8BQVVfeXFMTWxyenhnRkphcGVhN1JsMjBwUUhhZk9MUXFQWXB4V2pGVkV3bjlpeS0tUW1MbW56MURGYUkycEdJUU1LX1l1bmRLbG1WeDJxVV9xNVdQRmJxOFdQX21aWENrQUprSk5rSjVaMmFuYURZa1BNSE42QWluUXVKc3hraVRrbm9OczVkS05SSGtnM3M?oc=5",
+        "title": "What is Blackout Wednesday, and is it still a nationwide trend?",
         "official": false,
         "forYou": ""
       },
@@ -408,48 +460,8 @@
         "title": "Russian attacks on the energy sector caused a widespread blackout in the Odesa region",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-21T18:15:34.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "L'Unione Sarda",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQXhoUFM0LXEweTNGQWpPeU9nZWhyMUJjWmlKZm9CWkFzeWkxWkpNNWQteXhVeDRTZm82bjdkTV9HajJNeklkMnR1bTg3d0VXRVFtZjdhNTFlYzZpdDlialJZX2tNdFZCN0VEMjJjM19seTBnZ2ZvVXNNQUJmYmx3UnJldXVrN2FuamVsVzRDd2VVVm4wcVBDQ2xn0gGiAUFVX3lxTE5KTVcwa3NNR1d5SzlHTXdPZlJDVE9CTzVvek5nLVJlYk1LdnVrUHV3WmJJM2N3SnpFZU80R3lvUkY5Mll2MmVmRE5UNlotSTlHbVhNTWdWVEItMDNpYk0zaVItSWpFYmtGV2RKaW9vWXdZV1ZUcVBFbVVtU0JpRmZBUjZtVjNCXzFQZ3JoWmFzNUpCTTgtdFdaOC1GdXRHNU1Pdw?oc=5",
-        "title": "Cyberattack on the FBI: Criminal Archives Breached",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-21T14:01:38.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "Livemint",
-        "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQejFPRlZvRkMycXNqQ0VzMlVkMFlqcU5udTVSX3dEbmVQQ2J6N3VkczlmeHFBaUdXUDVWVUs1ZFNtUjB1T3VqZVoweDBZbm9YbHJNUGt4VmEyWHVkcENDZkwtV3VRdlRvN3NJcmowU0ktVVNKS3FRYzUtWXhLYWlHZy15cGR2cG5QVjJoZU5UYk83ZDlQYkpMQWhESlhQbDVBQ0ltYktSb2tLd0REMzY2OWJuMTBYanEwV0VsQVRKZUptUTdGTE5sU3ZWdGhnR2dVd2ZrVVZaNThPeVRRX0dUOUZyU3hPWGxsNWdHTE0yd1Y3Y3prNU1ueFRnNDQwLXVUajAycUhMeU7SAY4CQVVfeXFMT2NfMHVsT2xlQU1MUnIwTTdrYy1UQnZPQXJuQ1lobENVcVFVTkcwOGJnR3BsSmZLd2JsbUFRcThZTk5sQ0p1MG9kaTNLRWlJZjF0SHZDanBReDYyYXRIczAzTFZSLVBfX2RILVlUVDBKSTFVZFdhZGxCR1p0NUhzOEdtd3hYZzFRXzlOaXNwMi1sbWRROUdNQXNtU01YSzVhc0VhT011X0VMZ3pEYnBmM0ZGcHFmc3BDX3p5R2FZQmtNcXJyNHpGN2hyTF8wWURzTVFlYzRMM2puT2Z5VWxFdFEyZldIUnR2dkZubUFSOGdFUldQV0NmQVFON3ZEcEc1NFoxbDVwRF9sLUljM0dR?oc=5",
-        "title": "MoEngage cyberattack: SaaS startup confirms breach via third-party vendor – what it said and how many customers affected",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-21T11:06:42.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObXJxS0Y2ZWlaREQtbEtfbmhwcFJibU9pOTdCalNJNGhlTElNSmFMZXN0Sy1YYTlVN2VfcGRpbFgtNFlKM0I3ZEtILWk1TTRTVG1KYkp1VmJqcldtNG1rVnY1cG5rMUppb29kekNKazBGUy1LMVRKeEtOcmd2cTdFNUQxVl9mS3Zld0VqbEpiSU9nQU82bGdqUUN3c0JlMHR6VHB4UHlxU2Fod9IBrwFBVV95cUxPWS1tWElsbWdpWUFTN3VyamFlYTd5UXhMLTI1R0NKa1NzamV5WVIwRndZRm5qOWgxclQwOEprdi1tb290VHFnZWZHMGtSTVJidmFZT3RJVWpKS3lscFl6N244akRLQ29UeDZGcVBiZjR4MkthYkdCRUxCdmhtZnd0eFl2ZWtaWDdEN3Ridy1nLUgzN2E3LXI1MnEyb2NxTHlMUllZcnd2MUlHYXIwS2tr?oc=5",
-        "title": "Russian missiles hit Poland: What happened, and could NATO respond?",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-21T08:13:01.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Institute for the Study of War",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNlM4aDBCQjFpWWp6NFp3aU1wUVI2LXJLeFlFSmo3c2RiZ1hhbDgxOFJaWWtHc1JiYzBXd29mVXlsbzl3ZHF2a3RzQlZ1SFAtWVFWWXdITXpJMXU0a1RfZFVfQ1E5aHRGYjJtMFo3Y2p0dlpFZU1qbFd3S0dNYVVZZVM3cm1Lc3hkcDd0MGJBQkVRaHE4V21VVlc1cjdVaDZkTGlCQXFrdTByQXVj?oc=5",
-        "title": "Russian Offensive Campaign Assessment, November 20, 2026",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-23T20:40:54.172Z"
+    "updatedAt": "2026-11-24T05:05:09.629Z"
   }
 }
