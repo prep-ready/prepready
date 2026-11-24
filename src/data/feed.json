@@ -4,6 +4,82 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-11-24T15:23:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Rzeczpospolita",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQUkx2RFpnd1VpWldJVVlqMVRsRmJpTWEteEowZ25fT3MzTFdRRDBwZ3Q1MjVOcndhZVVlT2UtdV9RQ0NwRHpfUGNUZS1wSGxsaUY0RjFVT095YW5VUFdrVmFKbVFSZF9IN2hzOWg4VWk1ZTUtNnhsWUVvUDdCbzI4NWFYWkcwZzBWUTFyOUhyTWpHNU1mMVB6ZmhaalV3UzFFUFJqbTM2dXpwTHlDWld4QkEzU0h0MnI4QlFiS0hnTV9pSnFzWUNiXzhabDhFMmM?oc=5",
+        "title": "Rosja nieświadomie odsłoniła swoje karty. Rakiety, które spadły w Polsce, były nowe",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
+      },
+      {
+        "at": "2026-11-24T15:07:00.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "TVN24",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYTFLc0Q3M193X2JhWnJjQTdpak1sVkhtXzJTLW5TYXBiS3R1ZkFqaG5yMkM2Z3QwUHotWk1Xbi1ZWjhOWjA1VnBEZ2pORFU0eHlHVTJhLWJYV1F4OTYtMENyVGlweWxkSjh0VWU2MjlqOFp5VE1QRmFsamI0N2NNb19GcUFQUmNmYl9uTE1EcWxOUWZaZGRMOGlKUEtQdVBCTXpsa2dSUjlnVk51MG51bEVB?oc=5",
+        "title": "Rosja atakuje Ukrainę. Wysłano alert RCB",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
+          "label": "Alert RCB i aplikacja RSO"
+        }
+      },
+      {
+        "at": "2026-11-24T15:06:17.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Polskie Radio 24",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNN0dFVS1mQUZaQkZmWlNYTFd4enNjdm85MDd3UGxFa2dvMGh1TE1pNFFaTW13MGNtcmFoakdyRjdQX2tkMFJpZTNhQXBjbDZVWnRuSENDOXNuWWs5VU5FYm9HN0tZeDlGaEY5WTU3SnlUelJXM0F0X1lfcXJvaHZ6M2NRMnZ4RzdlcjduRjd4aW45RWdPZ3JMenowN01VYVloS2dBVVpXZ056VF93Sm04?oc=5",
+        "title": "\"Brak zagrożenia na terenie Polski\". Alert RCB dla woj. lubelskiego odwołany",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
+          "label": "Alert RCB i aplikacja RSO"
+        }
+      },
+      {
+        "at": "2026-11-24T15:04:45.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "WP Wiadomości",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNb0djbVhGbWpUMU5KZGppSk5MMDQ3TGVPVUI4ZkdFSW9KckhDNm1YLWliZVBEb296cTdnc1JGQU56eWVKXzNObkcwd3o0SmdONG4zNVladHF4dzFBX1hjOXM0XzNfbllfQjZYbkhiMW5EN2tIM0FkU1BDUmFDRzRMemRRNlY0Zm1rT3NXNjNiWERweFU?oc=5",
+        "title": "Alert RCB w woj. lubelskim. Trwa atak na Ukrainę",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
+          "label": "Alert RCB i aplikacja RSO"
+        }
+      },
+      {
+        "at": "2026-11-24T14:29:42.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "TVN24",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdEpjSDRjY2VyRmZHd1daWHVJVXJ4eHNiNmpDVjh0NndKS2Z1WFBUOElmRW1tSi1MMjdiZkdta05LQ01GV0VaWUc5TG5BYnQyY0g1WWdyZ1FhVGZFT3g3NDc5c2QtU2RQV0tGajB0bWJsajR6WGRFSTRPdFlsZlhCd0lMaFBYOHJPM2dEaFI2a090bWZlb0FVS1g1bzZETDJXNm0wNQ?oc=5",
+        "title": "Czy Polska wezwie ambasadora Rosji? Szłapka: to gest symboliczny",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-24T14:04:11.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Polskie Radio 24",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUXJWWFRkZHBwd2F4MWpoMjJxOTVudEd1Q2R5RXIzZWc0QWRuUUlES0RMTkZPUkNIWFRmWnZPdjgzRXdqSnJKZ2kzS1BOSFBVVzJxZDA3aVBLVDNTcGVQWFd6NFJSSjF1TU90Z3JPcU5BcXpkMVc3dE5xWGVfM0Y2aTBaMnNBTDVJOWNXRjV5VnhZRXpxS25CQ0k2dWxIbElkVTZ3dDNBTjYyR2N1QzlPS1ZnTQ?oc=5",
+        "title": "Potężny kosmiczny śmieć zbliża się do Ziemi. Wiadomo, czy przeleci nad Polską",
+        "official": false,
+        "forYou": ""
+      },
+      {
         "at": "2026-11-24T04:49:38.000Z",
         "cat": "security",
         "sev": 2,
@@ -127,6 +203,16 @@
         "sev": 2,
         "source": "IMGW",
         "url": "https://meteo.imgw.pl/",
+        "title": "IMGW: 3 ostrzeżeń meteo, najwyższy stopień 1: Intensywne opady śniegu",
+        "official": true,
+        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
+      },
+      {
+        "at": "2026-11-23T12:05:00.000Z",
+        "cat": "weather",
+        "sev": 2,
+        "source": "IMGW",
+        "url": "https://meteo.imgw.pl/",
         "title": "IMGW: 2 ostrzeżeń meteo, najwyższy stopień 1: Intensywne opady śniegu",
         "official": true,
         "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
@@ -168,99 +254,53 @@
           "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
           "label": "Alert RCB i aplikacja RSO"
         }
-      },
-      {
-        "at": "2026-11-23T05:35:56.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "TVN24",
-        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9qVmdwTW1tenNOeUFpTi1LTzRPcGNqN0wzZk43eUNBQXRHNnFtZlZtZldMUmh1Zk1YQldxSl9WVUdBZTVtS3lZR3NreWM0MWVSVHczUDRMZkUwTE5lR2VJbV9nd3JSZElsVU1USEE5Vmp0WmM?oc=5",
-        "title": "Pożar w porcie Gdańsk. \"Jeżeli możesz zostań w domu\"",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-23T05:18:15.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Polskie Radio 24",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTnNBemRaZ1VuRy1EX05rLWZUell1Sk9MVDI2T3lrTEp3UlFiOUNVY0pkX2NFc0NjdTYxTk5zYTVPQUxtVDFBSVJZSFp5WF9SZ3ZCSlVva0hkMXRtTGtjNXNiODBvQ1VET2ZOTUpjV0ZHMVdkZVRpRTljU1FaNjE5bzUxbWhIWW9MdXpYMWZTQQ?oc=5",
-        "title": "Kłęby dymu unoszą się nad portem w Gdańsku. RCB wydało alert",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-22T18:16:41.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Wiadomości Onet",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYXZEcEVSR1J2ZWl6eWFMWU9hMUthRUtrcTVCeXBZUVJMVmF0QzNyWTk3dkl2bzZXWTVYb3F0Z25Zc2ZsdGhVUGZhM3Zpc203UEZSd0lqUUV4cXJsRTloVzMyeDQzdHhRc0N4ZFJ2NkphbXY3MWFkSDgyb2lDdDVOV0tobkx5aTdCcmhVV3BXYXBxbFhNSHpPbXNRREdLUW13emVhOG9pME50YlNXTkxWUmdGY0E?oc=5",
-        "title": "\"Żyj synku, błagam cię, żyj\". Dramatyczne godziny po ataku rosyjskiego drona",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/mapa-schronow/",
-          "label": "Mapa schronów"
-        }
-      },
-      {
-        "at": "2026-11-22T14:38:39.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Wiadomości Onet",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbkhBUG9qX1B0ZWFXNjZoaHh0MVZkVHZxc0E5Q0ZPeENfSXJ5T3NrODYxNjJ4c1Nib291MFFvajVwa3duelZuTHBRTUVISlhwemEtMG4xOEh6dXdIZHc2ZVhlUHpEVUZxV0VGT3pYMWc0bHYzb0lsTklXZXJSNEFyRXdoU2dQZEEwRXZSUGh4TGlZUEJ2WUJVVUlnYy1tcW9qTHRpOU00QVBhMVdpdmxYTw?oc=5",
-        "title": "Nowe informacje po rosyjskim ataku w Dymerze. Są doniesienia o ofiarach",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-22T13:24:18.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "WP Wiadomości",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNS3ZHQ0F4MU80MldVSWxZVHp2Z1VNVkhURlNUSDl4R0hRQW9KMmlSeHE4U1V5Q2paaVo4dFRmMUxGaHl0RXE3VGI3a1VsMHpZTzRhN3pYMEN4dUlQaXRRYy1fa2hJam9tdlFwMmE2VUM1RXl6bWd1bTUtX1FyYTNWSWRfcVRyTk5UTlpMUVRUd2RpZDMxVmVrYW5HTDlmczJsd3FhZy1ENk4?oc=5",
-        "title": "Ewakuacja w Małopolsce. Śmigłowce LPR zabrały rannych w pożarze",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/poradniki/plan-ewakuacji-rodziny/",
-          "label": "Plan ewakuacji rodziny"
-        }
-      },
-      {
-        "at": "2026-11-22T10:00:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Rzeczpospolita",
-        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOT25nc1RuMnB1eGh1dUtuc0FHcHJEcEdhM1A5YnNoaHFjSzlZRTFyQ0VRSkc5aUdfN2xDVE1YRzhuS1VoTlp2Y0cyY19vam9yS0xaRWNpdTF5aE5WSjZKWEVORk9CXy13bmFwc2dZaDJwalJ6cEF0TU0tc2diUWtoSVEtVDM1eUYtdldOX3RQcC1hN0N2X0IwUThDdmpWOHdjUDVIcnF4WDhFdlFQYmlmMVlidkxSaTJncl82WGppYnNoRTJZVmtTaktQeFc3d0xpSVJZSkltRElzNjhp?oc=5",
-        "title": "Polska rozbudowuje swoje wojska do sześciu brygad artylerii i trzech brygad rakiet",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/mapa-schronow/",
-          "label": "Mapa schronów"
-        }
-      },
-      {
-        "at": "2026-11-22T09:50:13.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Radio Zet",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbm05SHp0OU9mOG9mWlJPNnY2d3JfZWNmdW5BTWNwYlpNWkxzaEd0UHhuSnF6NUR6YkdWSGxhd0h2X0RXVVIyZENBX3R4V1JZR2xyWGNNdGE2SmRtQWpNZlRSTmJlWXQxS1cwOFlMT0RCVTdMMUlkSnVNRVRaM0dGNnBFdTU0VEFmejFaRTk2QnlpbFpBQWYxNEo2MXcwRVdBa08xU19KLXFiZUV6SXBYU2VVSWhrY3M?oc=5",
-        "title": "Obok domu Tomasza spadła rakieta. Wcześniej zablokował alert RCB. „Zdążyłem uciec\"",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
-          "label": "Alert RCB i aplikacja RSO"
-        }
       }
     ],
-    "updatedAt": "2026-11-24T05:02:45.023Z"
+    "updatedAt": "2026-11-24T16:32:39.506Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-24T16:22:28.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "CBC",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9TRkdxUkxNVV9nUEU2dFVuam12d1RfZGY5YWkzZ2t2eno1NTQtSE9pcUVPcmhtakZHYUhkQTdPS2k2NkhCUFR5OVdMdlVDc3d0WDFLSG55Rm0zLXlta19NeHZvYU5FeDFOblNjRGlGenp6MzlwMHNDelFsN1p1anc?oc=5",
+        "title": "Monday Night Football power outage leaves fans and players in the dark",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-24T16:11:05.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "TechStory",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMmRzV2lYdWZWbDBrTzNEV1VZODhTMGpFMVRIVkFtTGZ4WHVKcXF1U2FCczNRWHA2dW5kTXUybTBQR0MyTmIzYndrTDdQRE5LbjdUWFBydVl6NV9QLTNBdFhWWU9kYXpSZW8wUlVkdnUzSXN1QkI0azNaZ3U0U0xCRjFnOERPdnlDU2ZtemEwRlVPOVhNVXAyOHhnSWVZN2M?oc=5",
+        "title": "Hackers Give NVIDIA Until November 28 As Ransomware Gang Threatens Data Leak",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-24T15:20:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The Independent",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaTJKUm5DVVdmNmxZSW8yNTItYTVaSU13bWFueV9rdEVpUDlCci1HdG1zX2FoRFYtZW1ySHdHT1ZKYVJEeGpndmhDSTU5eG1yalk4Y24yZ1FrUVNrQTVXVDdSOG05dTFEb0hlRXIwMUhPTU5ORzMxNHpyb3lvUjUwaHdBU0hvZ24yaXEyeXJpczNJWGFORF83MUlPVHJFV1V6?oc=5",
+        "title": "Russia razes own ballistic missile workshop months after Ukraine strike",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-24T10:20:17.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The National",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSXhnd0U5NHV1U0V6RmlPTGhnMlM3WFFQWWdJQjlTRFBkVUJreHQ3VVZKZnFtNmNpTGZucTZrbHRzZHVmd0JlN3ljLWlIWU8wWUJuZ0V1ZHBVT2FuYVVpUTJnQ1MzSkg3V3VQcFd3VkItQUNLTDJtM0ZORHBKbWJZUllENjdhZzZuSzR2T3ItTlBvRnhSQ09HTQ?oc=5",
+        "title": "Middle East latest: Riyadh tower targeted in terrorist attack, Saudi-led coalition says",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-24T03:39:21.000Z",
         "cat": "security",
@@ -352,16 +392,6 @@
         "forYou": ""
       },
       {
-        "at": "2026-11-23T05:29:58.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWDROSjJ4ZmFrSWp4VDNoeS1aRVlHb25QQXJvV0JhQWtrNjdJekNQWHEyQ0VhZUIyNHBpd3l2eEJSYmc4Zk45V2lhcWxwMzJBT09XYk1hRzZwa0FkT2ltdUl2STFtb1lBVHRtVFpDTGtYc2FVZWJqQXYyYlFSVzBhNzhpbE83NlByTGJHQjloNEZvZ9IBlwFBVV95cUxORzQwam00SzMzbWFrZHNQMlAxQU1sTmJ3ZEFQRU51V1B4MGxUb1FFeUo3R05ya0hQMFRVRjRGOTlVZDliV25wbGdnZzI1YlI5N2lpTnltOE5ZYUItZDViTlJvNkRCaGR0M2NxQ19zeEJrSmhVTGVKVGpoRFBNTlFlMFpxUzNKblhkYjlBek91OUJxbmZNdkRr?oc=5",
-        "title": "Ukraine urges US to release Patriot missiles as Russian strikes kill 15",
-        "official": false,
-        "forYou": ""
-      },
-      {
         "at": "2026-11-23T01:00:36.000Z",
         "cat": "energy",
         "sev": 2,
@@ -430,38 +460,8 @@
         "title": "What’s behind Iran’s escalation of attacks in the Gulf?",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-22T10:21:28.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The National",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUHN2cW4tcHM0SnF6VTliWkZvYnptOHl1T19RT0p4TlZKNUd0VlNQd3hWR2lNbUh4UEN2cmZzZGNnTjRya1FJOV9WZmd3dkU1bmNJdFZwVEhIMmhhT0hkZkYtWVZ3QXU5R25JRTVNTVVpaFp6VHNQaW9rV3hsYVR1UjAwclM0NWhqZkE?oc=5",
-        "title": "Middle East latest: Bahrain says two injured after Iranian attack on civilian industrial facility",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-22T00:30:00.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Bangalore Mirror",
-        "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQLXJ6bDZLejNkNXJEUU5jaXhSOUNSU2NfT2NrR1Y0VkhLbXZFUDlGSmtvTlZSX0d2X01Qck1Qc1RLQkpadVA2QzdYRUxmUGZfUnBMWGlVd04xZEd0X2FxbmhmenV3TmZROFFuVmk5QzZYWk4tRzI4QzFERmI5OFJsRWcxZGhRRzJweHBmc2FpSkZmd3pOeFVyMlpfZDhSUHBwWVdLeHl3V091UU12T3hlWkNyTDFUNTU1V2MtdVFMUG5CbWVvcVAtVUlmdXpfTEFyaXU4SDBGTDRVQ0tOTHpZRU9GNnJFbm9jS2FNMnJxTXBKbXFBc2gwRGt1bUZuQTREUlNpdTNJYk1wOTdXMGJ1bHF6MnlsSDJIRWfSAZ8CQVVfeXFMT3UzTVFUX2hua3VCcWxlNWIzUmVNWTlpOGVmVmFObEx2SHJKcjQ4a1djTUFrLXdYRDBKVWpEWGdGSlhMRm5oOGltOFhmWjlHQXQ5Y0ZLVWtyX3JydW5KN2ZwVXhMbHJFNElQV0UwYllYMHc5bW5jMHY1Rm1tZE12VXRoTGIwU3paMVBRUVgyR2huMU1ESlZvYzctMXpBVTI0T0Z1ekRCTlV0NDVMdWM5Ung5WXdYbXJGRjZ6VU5uank2ekxDWjNtV25abXZIZ2RYX1RkNUZxcWJvQ3pZUUZMYTN0eFNheUdmclkyVklYUHZVTTN6U1JLYjZscE94RmhteHAwWVhYbE1mUDNGTWI2OE55dWx3b2M5OEdQUWxCc00?oc=5",
-        "title": "Bust Fake News With Bangalore Mirror: Debunked: FEMA test did not signal an impending worldwide power bl",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-21T20:02:40.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "UA.NEWS",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUVB4bHVLZFEyRnpuUGdvR1RYTzZKTXdyQ3RNd2RJSTVHcENIc2xZd0lwazNMMmhjcnpVTTBEQlRuWml5TUJrOHRtNW5vb3NJa3pIY1hyR1owTFpOcm52UGxVUy1vcmRrTWY1Y1hRMVZQSkNQRktxdjZGUGRNckdUTVdGX0hTVlNDU0RhRXNnR1RZSlFLYjhHRlppMUZMVVpVNmRvQw?oc=5",
-        "title": "Russian attacks on the energy sector caused a widespread blackout in the Odesa region",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-24T05:05:09.629Z"
+    "updatedAt": "2026-11-24T16:34:11.352Z"
   }
 }
