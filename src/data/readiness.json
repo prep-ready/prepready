@@ -2,9 +2,9 @@
   "_comment": "Aktualizuje scripts/update-data.mjs codziennie. pl = Polska, en = świat. Składowe z mode=manual ustawiasz ręcznie.",
   "pl": {
     "sample": false,
-    "updatedAt": "2026-11-25T10:34:22.559Z",
-    "score": 42,
-    "delta7": 12,
+    "updatedAt": "2026-11-25T20:16:29.028Z",
+    "score": 49,
+    "delta7": 19,
     "ago30": 17,
     "history": [
       17,
@@ -36,7 +36,7 @@
       44,
       49,
       41,
-      42
+      49
     ],
     "components": [
       {
@@ -132,7 +132,7 @@
         "id": "weather",
         "name": "Pogoda i żywioły",
         "weight": 15,
-        "value": 13,
+        "value": 33,
         "sources": "IMGW · GDACS",
         "trend": [
           33,
@@ -142,7 +142,7 @@
           13,
           33,
           34,
-          13
+          33
         ],
         "mode": "auto",
         "raw": [],
@@ -172,7 +172,7 @@
         "id": "cyber",
         "name": "Cyber i łączność",
         "weight": 15,
-        "value": 36,
+        "value": 62,
         "sources": "GDELT · Google News · CERT",
         "trend": [
           30,
@@ -182,7 +182,7 @@
           20,
           36,
           35,
-          36
+          62
         ],
         "mode": "auto",
         "raw": [
@@ -215,7 +215,7 @@
           30,
           30,
           29,
-          30
+          54
         ],
         "stale": false
       }
@@ -255,9 +255,9 @@
   },
   "en": {
     "sample": false,
-    "updatedAt": "2026-11-25T10:36:07.258Z",
-    "score": 35,
-    "delta7": 4,
+    "updatedAt": "2026-11-25T20:18:36.362Z",
+    "score": 22,
+    "delta7": -9,
     "ago30": 38,
     "history": [
       38,
@@ -289,14 +289,14 @@
       29,
       23,
       32,
-      35
+      22
     ],
     "components": [
       {
         "id": "conflict",
         "name": "Global conflict",
         "weight": 30,
-        "value": 40,
+        "value": 26,
         "sources": "GDELT · Google News",
         "trend": [
           28,
@@ -306,7 +306,7 @@
           48,
           23,
           50,
-          40
+          26
         ],
         "mode": "auto",
         "raw": [
@@ -339,7 +339,7 @@
           25,
           21,
           48,
-          25
+          28
         ],
         "stale": false
       },
@@ -365,7 +365,7 @@
         "id": "energy",
         "name": "Power & grid",
         "weight": 15,
-        "value": 48,
+        "value": 7,
         "sources": "Google News",
         "trend": [
           69,
@@ -375,7 +375,7 @@
           22,
           40,
           49,
-          48
+          7
         ],
         "mode": "auto",
         "raw": [
@@ -408,7 +408,7 @@
           25,
           37,
           45,
-          44
+          17
         ],
         "stale": false
       },
@@ -456,7 +456,7 @@
         "id": "cyber",
         "name": "Cyber & infrastructure",
         "weight": 15,
-        "value": 51,
+        "value": 29,
         "sources": "GDELT · Google News",
         "trend": [
           16,
@@ -466,7 +466,7 @@
           16,
           5,
           5,
-          51
+          29
         ],
         "mode": "auto",
         "raw": [
@@ -499,7 +499,7 @@
           29,
           29,
           28,
-          42
+          25
         ],
         "stale": false
       }
