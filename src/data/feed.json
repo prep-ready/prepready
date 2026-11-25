@@ -4,7 +4,7 @@
     "sample": false,
     "items": [
       {
-        "at": "2026-11-25T01:09:05.154Z",
+        "at": "2026-11-25T10:33:17.997Z",
         "cat": "energy",
         "sev": 3,
         "source": "PSE",
@@ -15,6 +15,48 @@
         "guide": {
           "href": "/pl/poradniki/blackout-jak-sie-przygotowac/",
           "label": "Jak przygotować się na blackout"
+        }
+      },
+      {
+        "at": "2026-11-25T09:19:05.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Polskie Radio",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNk9FOU5pWnJVcmgtaDUtZ0ZNMEhITWJURXJOSTZ0NTZadkVXVkh2V211eC0tTWgwTzFxOWFOSjY4TWdiUnBoZk9LMFp3RWxhLWVoRGJteEtDbFRIQ0J1d09IOUoxejBxb3QtRHp0YnB3Ni1abU9TN0U1ZXVVV0VVdk90MG5Da3ZEUTdWblpVcm5OUHlFcl9zYnpvNFZPNTRfU2xwWUo4VGRrUQ?oc=5",
+        "title": "Wiceszef MON o zestrzeliwaniu dronów. \"Wojsko jest na to gotowe\" - Jedynka",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
+      },
+      {
+        "at": "2026-11-25T09:09:23.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQeDV5cEx0dlVXUVpoNEVMQUc4Ulo1RlBJTjhsZzZUc0xvQ1JBalFCQTN3VkhIT3U3UG9pRGk2QURHenZzNUVkQkN5c3Z3QU5GNUQteldSOVg0X3RjMDZ4NmUyVGZqd1Y5eFRHQ3prZWpZSHZ0amJEeHZzZmNCMGpwdDlIRmdzdm1oTDVuY2laOGExUE04N1owOEtkQWlCVmdDejhsTWNHcmdhV2lQTVpCT0NPSkp6NktBUXRPcDdFcmI2VUk?oc=5",
+        "title": "Cztery minuty na reakcję. Wojskowy o tym, jak naprawdę wygląda obrona Polski przed dronami",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
+      },
+      {
+        "at": "2026-11-25T07:12:05.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Polskie Radio 24",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUGFNUk9nZ3FFMU8wM2IzV3FwaTBJbzhvS0ZWejhnWXRqb2hIUlNHeTBHeXE3S3l5Z2ROakgwX0h2RFFtYl9fbVVaNE1TaHBVS2VWLWVWTGMxZGVDanFteUVDaDVaTVdQSVAtQzhMNVI3ZjZKNWJDR01ON0ZvWVlqNEZLMHprZEpZQ1RVbFlZTkl0dnlORmR5N1E5WQ?oc=5",
+        "title": "Alert RCB na Warmii i Mazurach, zawyją syreny, \"Zachowaj spokój\"",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
+          "label": "Alert RCB i aplikacja RSO"
         }
       },
       {
@@ -220,51 +262,43 @@
           "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
           "label": "Alert RCB i aplikacja RSO"
         }
-      },
-      {
-        "at": "2026-11-23T22:02:00.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "TVP Info",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOVkZkNmtWN21wSVNDazJ0MnQteWE2NkI4ZDlha1EtSFdjMnhIcEJKcTJ4X0VQWEhBbHg4OFhmYkVWRlBYcHdScmYxekh6TXRxNVVYMm5zWWJqV3QxN2FwTXFEclRqOU5SSW1fN2ZyazhXajdISV9fMkFTLUVKblhkZGs1b1RWRjE0RjlfNnFka0N6eUM5U1MzbGV2VnFJeEx6RW1GU2dfY29RaHdFTVhkRF9jMnNYVUVBV04tbEtnWQ?oc=5",
-        "title": "Alert RCB odwołany. System Obrony Powietrznej był w pogotowiu",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
-          "label": "Alert RCB i aplikacja RSO"
-        }
-      },
-      {
-        "at": "2026-11-23T19:55:14.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Wiadomości Onet",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPa2w0MkVUV1ZyTXI3S3pUZld6Q0hPNml0cGpkT0VObHBsZVJFZEJDTm0waEMwcE5NVGkwelNiV2hyclZrRlVYU1FsMzh5RlloWnZraG9EMGFsdS1RNzVPYjZEdFh4X0s5WTNwemJ4eG8zQks1cU9VbUlTVjF1R0JRSm10bURjSFlBZE1feDVTeHFzVG9uOXBEWVJIQTUyM1JhR2pVazZyZVFGNFVBMHpiNmVGMXp0NXk3X2hrMjZfZGVnQ0U?oc=5",
-        "title": "Rosyjska rakieta w Polsce, deepfaki nieletnich, premiera Salome, zadymy na stadionach | Onet Rano.",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/mapa-schronow/",
-          "label": "Mapa schronów"
-        }
-      },
-      {
-        "at": "2026-11-23T18:53:21.000Z",
-        "cat": "health",
-        "sev": 1,
-        "source": "Onet",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONHc3eWJLdU8zdFdaMGhYbXJqcUJRSktzUndkaEFDcFpoRWxGZVRLMkJNNnVaeDJlNzhOZnZIX2o3MG93bTlubFZZU05mUU5TQ0kycmk4Vmx0eFc1UlJud3ZrdGNhQmc2RDh0ejB5STJYTDhMeUVsdnpyVlN5WXFmcnIwQ0V0RGZqbEZ5OGktMkp6Y3pxcXJacUU4b1pZZjJEYkJ5NjVZanhmMUZZQ1AwcG1zWi02dw?oc=5",
-        "title": "Śmiertelne zatrucie czadem w powiecie jarocińskim -",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-25T01:10:10.663Z"
+    "updatedAt": "2026-11-25T10:34:22.563Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-25T10:15:24.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "UA.NEWS",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOLXBkR3BHMHNLdFNGQmR0ZkRPRTFPOTl6Q1pVbW9XMUtGN296Nml4aHpUNTdLWGxGZW1xWXJsZWxVbXZNdXZZRXBFamJWb0FrQjBHMmVPeDdqdzdJcHY5WGZ1VGl2Rlh2dC10OEZoclVMTWFqY0lnZjBtUWJzUk9XbzNNX2tLeE1JdE5vNGpwUTZFRndNbXRCS1ZBOWVaOGFoQ0hjTGlDVXVIUQ?oc=5",
+        "title": "A woman who was wounded during a Russian missile strike on Kryvyi Rih died in the hospital",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-25T10:15:24.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "UA.NEWS",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUl8zYVdqTVQ1Q0ZoRWhtd0pQZTdxZFZLbW4xLVhoU2tPS0tpZkNzNUpZUWhYSE1vYVZ1eThqWnQwbDduRndtZWpHNFBlcmF0eEwyaEpiWGFCYWUzNUZmQ0JuYXFkSm96V2xZLTVUMkotbHFuWHIybVN6Rk56ZUZZeFhSN1k1aE01WFI2SUFEWVF3SWQxUExSZXJRVDZHQTV5QUlPOHBXVGF3dmpFRFE?oc=5",
+        "title": "Gatwick Airport disables payment system after cyberattack — The National",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-25T01:08:12.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The Kyiv Independent",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeUxOaThiVDlHRFdTUnBOQU1yUHBiMFdodnVwbWVHdEJpSV9iRV9iZHpZa29tOWR3RHZaSy1uSG11b0p6SG1lMmxtaHFuMm40YzgxTGRCQm5McmVnZ1V6cUpfUWRzZUJBSVd3M3AyMEtVWGE0RXBJTUxtcGFLYmZ2RkhXYm1CakMzcUx4RVJuZjdfQkZ6NDNIcnpIZ0licGVvN2tZNlA1QQ?oc=5",
+        "title": "Ukrainian drones reportedly strike 2 Russian oil refineries in massive attack",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-25T00:33:24.000Z",
         "cat": "cyber",
@@ -322,16 +356,6 @@
         "source": "TechStory",
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMmRzV2lYdWZWbDBrTzNEV1VZODhTMGpFMVRIVkFtTGZ4WHVKcXF1U2FCczNRWHA2dW5kTXUybTBQR0MyTmIzYndrTDdQRE5LbjdUWFBydVl6NV9QLTNBdFhWWU9kYXpSZW8wUlVkdnUzSXN1QkI0azNaZ3U0U0xCRjFnOERPdnlDU2ZtemEwRlVPOVhNVXAyOHhnSWVZN2M?oc=5",
         "title": "Hackers Give NVIDIA Until November 28 As Ransomware Gang Threatens Data Leak",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-24T15:20:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The Independent",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaTJKUm5DVVdmNmxZSW8yNTItYTVaSU13bWFueV9rdEVpUDlCci1HdG1zX2FoRFYtZW1ySHdHT1ZKYVJEeGpndmhDSTU5eG1yalk4Y24yZ1FrUVNrQTVXVDdSOG05dTFEb0hlRXIwMUhPTU5ORzMxNHpyb3lvUjUwaHdBU0hvZ24yaXEyeXJpczNJWGFORF83MUlPVHJFV1V6?oc=5",
-        "title": "Russia razes own ballistic missile workshop months after Ukraine strike",
         "official": false,
         "forYou": ""
       },
@@ -406,16 +430,6 @@
         "forYou": ""
       },
       {
-        "at": "2026-11-23T06:09:03.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "Hoosier Ag Today",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSXlJZWVNTkUzdHVCbjNYMXJIeWstX2NCb2tDdmx6R3B0RFl6MW5ydjFlMXVtYUxvNE16UHN1ZEVBbkJpNzVoYVlEclpCeTY1M2Z2YWVBRDM3UmpJamh2aU1xOEJzVDAtNTVRR2d3cXpuTUFYcmk5VnBUc2o1UzMtUXhmWldwYkhzTHlrdmpyMVlSRFZMS3c?oc=5",
-        "title": "USDA Cyberattack Disrupts Farmer-Payment Systems, Raising Questions About Access to Critical Farm Programs",
-        "official": false,
-        "forYou": ""
-      },
-      {
         "at": "2026-11-23T01:00:36.000Z",
         "cat": "energy",
         "sev": 2,
@@ -454,18 +468,8 @@
         "title": "US ports face wave of cyberattacks as Los Angeles blocks 120 million attempts",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-22T15:38:48.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Yahoo",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSGVJZW91bU14RG1rM1UtaUdKaXZNTmpqYTdROW5Rek8tUFNSMUtPNEo4eERaV2x2MnFVSTdWNUxzQ0E3dkEtUmRlTnVTSzRCQWNkdXNZbXZzU0NrYVp4VHZlazdUU1ZZRjBIVkNmVGJON0htS2FVZnFDTHo0bk0zNWNpQ0pRWTBhTGxpNHd2aGxfX2M3RXlBQWl0Q0NCYXNxTlNrZ21n?oc=5",
-        "title": "Simpsons November 17 Blackout Prediction: Fact vs. Fiction",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-25T01:11:57.644Z"
+    "updatedAt": "2026-11-25T10:36:07.259Z"
   }
 }
