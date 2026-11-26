@@ -4,7 +4,7 @@
     "sample": false,
     "items": [
       {
-        "at": "2026-11-25T20:15:25.137Z",
+        "at": "2026-11-26T03:13:05.383Z",
         "cat": "energy",
         "sev": 3,
         "source": "PSE",
@@ -252,11 +252,51 @@
         }
       }
     ],
-    "updatedAt": "2026-11-25T20:16:29.033Z"
+    "updatedAt": "2026-11-26T03:14:10.869Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-26T03:04:34.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The National",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPcnZ5TGlIcndkLWs0YmFxMzl1Z1dkVlE2ODFrUnAzejJXNC1tY1AzR3hVTVJ6OW9hSnZIanJpTFZDUDhySXBVZHFicTMweEktY3E1SXBtQ0lvNlctbmlQak9XcjZRYTZGQVd6YTBNeXlpMUotVHB6TXc4NHBIVTJGVmRaUFA1b2trOWRINVV5UVNURi1ZLTJZRjdR?oc=5",
+        "title": "Middle East latest: Houthis claim attacks on refinery and Riyadh as Saudis strike Hodeidah port",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-26T02:15:00.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "The Straits Times",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPT3dPWGY5Y0x1Rklyd3IyUHRrM3k3N1JJOGpIVm9hMk1uVWRyRmR4ODdwd0ZaRXotUnREM192QmVpZDM5eTczYzJFUnBTdHRSVjNSLXJ4dXZDdVM1SEZxOUZuMks1bUdnOHp6Y2ZDcVJnTHR4d3V5NTYwN0lMNGMxYXZ0SlJ4X2hpMnY4WXJB?oc=5",
+        "title": "Major blackout hits Sabah’s east coast again",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-26T00:00:21.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "TRT World",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5iZ19tS3lmNEYyN0J2VXNha2JzRVRIaEp5Y1Vra1VtYXYxT1VhMkZzbGxPamN6N3h3aDB2WE9EQnFLSXI1WEpLdVBQalZsaFRQNmNncTdlODg?oc=5",
+        "title": "Kiev mayor says Russia targeted capital with ballistic missiles as US warns against escalation",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-25T22:33:21.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Wisevoter",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTUw2ekVubFI1bTUtbExJaDBKelRrWHYzd1Utd2hGRTBuVXlzOTB6VVNGZjZLMmo0dWhCVlRGbDdKczZ2VFBqOXdiOVc4Y2FJd0ZXRktvYlBuYVpCMXNKbkdzTFZQQ1lUN0ctMl9CNjlXOHl0NjVMcGRhSE1DX2l1RXdqenpKZnV4cUxNbEVjYmprQQ?oc=5",
+        "title": "AI Lets Individuals Disrupt Critical Infrastructure",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-25T18:28:37.000Z",
         "cat": "cyber",
@@ -264,16 +304,6 @@
         "source": "MLQ.ai",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObWlGaUtiYWtlUE9jZGV2YlBfWXR3c2ljSGxieHFaRE9kTGk2STZmRWlRd21JZE5ucUxKbWFaaUJkZDNFSFh0cjZ5TWg2MnE3U1dONUlnWFVXM3ktZUFMaEJBSHpaRzY1dmpxZVJkanAwVjhDUlIzdVU2NGRGeE5NQzltWVZpcVN1MHlQWGtUS3VTZw?oc=5",
         "title": "Ransomware recovery co-founder charged with secretly paying hackers",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-25T17:19:41.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The National",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPcnZ5TGlIcndkLWs0YmFxMzl1Z1dkVlE2ODFrUnAzejJXNC1tY1AzR3hVTVJ6OW9hSnZIanJpTFZDUDhySXBVZHFicTMweEktY3E1SXBtQ0lvNlctbmlQak9XcjZRYTZGQVd6YTBNeXlpMUotVHB6TXc4NHBIVTJGVmRaUFA1b2trOWRINVV5UVNURi1ZLTJZRjdR?oc=5",
-        "title": "Middle East latest: Houthis claim attacks on refinery and Riyadh as Saudis strike Hodeidah port",
         "official": false,
         "forYou": ""
       },
@@ -426,38 +456,8 @@
         "title": "iQSTEL's GlobeTopper puts the revenue hit from an October cyberattack at up to about $2.5 million",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-23T19:02:30.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "UA.NEWS",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNzduT3QxUFRFMU1rUXA3bnVLd2s1Z2tlQnRxU3lDVU9kQ0JKQm1tamFta0kwUnRkZ013UXFFUEk2bXVoOExjN2N6Rk90Q1hEeHBwR1R1djhVNnZMUXNlY3QweXQ3U3dFU3BMVnpaSUlpVEUzTWZDb3pVVHhhUU1JdjZfb1VaT0VlUHhUOTJRVlItWnJCT3d0NXpfVG5EZnVCY3B6SlM1OF9oVnha?oc=5",
-        "title": "US Marines seek to double Naval Strike Missile range — The War Zone",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-23T16:32:41.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "MyStateline",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTEN4Ni1uMzBzTGE5M3RpUEdzUC1fM1M5bHJXbnBsY19DT0NxUVdhcl9QYVd3dHhyMHExa2h3WEZGQXllelFJaXViOGYzbXBmLWFTNXJGcWtwZkZubExibl85VjVfZ1ZSREhXNGZqY2RoTnBhSko1ZUcyY0M0bWc4bkVKdkFhdld4MnfSAY8BQVVfeXFMTWxyenhnRkphcGVhN1JsMjBwUUhhZk9MUXFQWXB4V2pGVkV3bjlpeS0tUW1MbW56MURGYUkycEdJUU1LX1l1bmRLbG1WeDJxVV9xNVdQRmJxOFdQX21aWENrQUprSk5rSjVaMmFuYURZa1BNSE42QWluUXVKc3hraVRrbm9OczVkS05SSGtnM3M?oc=5",
-        "title": "What is Blackout Wednesday, and is it still a nationwide trend?",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-23T01:00:36.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "Eurasia Review",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZlBwOTRjbjdnRTdaRnVBdVZsbmkwSjR5dHBHNVJOY1VBaGJ6TUFHVjdsc21aczlCdWdWUXRJcHBXNkJnWGI1V0JOM0FHa0xpZzZFampqaWtkRDVFMWs2RkxpTlh2R2Y2R2VEQXk4MDFiRUJTQmxtVUxvU3lpZ3ZPcWVkRG43R25HVGxiSDVjTQ?oc=5",
-        "title": "America’s Outages Expose A Crisis Of Trust – OpEd",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-25T20:18:36.362Z"
+    "updatedAt": "2026-11-26T03:16:16.343Z"
   }
 }
