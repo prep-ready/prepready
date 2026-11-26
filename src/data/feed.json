@@ -4,7 +4,7 @@
     "sample": false,
     "items": [
       {
-        "at": "2026-11-26T03:13:05.383Z",
+        "at": "2026-11-26T13:14:52.267Z",
         "cat": "energy",
         "sev": 3,
         "source": "PSE",
@@ -16,6 +16,56 @@
           "href": "/pl/poradniki/blackout-jak-sie-przygotowac/",
           "label": "Jak przygotować się na blackout"
         }
+      },
+      {
+        "at": "2026-11-26T13:03:30.000Z",
+        "cat": "health",
+        "sev": 1,
+        "source": "Radio Zet",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUVBkSkhJUGRlN1FTU0tVS2owZ2FuZ2NBOVhnajVNbThaOXJ6azdSLUUzc1FBaEJ1N0hPcWNnOHlnbGFlTTMtdDM1djk4bnF1cGxrM3M4ZWJZVUZtc1UyUVMxZGlrbFU2MTJMUnNvVEc4UDZJZTgxR1FWdW1IYWtCd1didHJQcTRlTzAxeVkwM0c0ZVdKcEctdTcwUHRWZDNfR1BnS0lBVk1tZDNFVjhzemNRR2xHSTFw?oc=5",
+        "title": "Sanepid w Mielcu wydał komunikat dla dwóch gmin. Zostały wykryte groźne bakterie",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-26T12:11:08.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Polska Zbrojna",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSkF0WG5BdExIRmJPRzUtd0hqSm4zLW9qN2N0QTlabjFuM0hXWlZfZGl2RWU5aEg4ZS1ncmdzWlZxUW9PQzdoNWpGTTVDUTJVRmhSZ1pid3NJNGdOZkdNYWpGbl9fRDBkTkpxbmNJZXVQRk5jdUVBQ0lBS25wMnNNemNWR1NneXNDRi15VDJHUQ?oc=5",
+        "title": "Polska Zbrojna",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-26T12:03:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Rzeczpospolita",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOekh5S2FNN1BnYm1UME5RcTUwVzRXQldxVlNLd184M19mN09IQmpRSEltekRQZUxtN2JqeGNoQ24wSVZpbUp2MEpROVpnd3B0SXNEcnJ3NHJlNno3T0V2WDBmWWtTRzAwYUFWVHZJaXNQWkFld3FWWUxUN3NkeXcycFI2QzlUMmtfaWhsX2tDa2k2Zk1PS01yYWl5Z2Z3NEo1VDg3SUpTUVZES3RPU2d1RzlB?oc=5",
+        "title": "Tajemnicze loty nad Polską. Samoloty z Algierii regularnie latają do Rosji",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-26T10:18:00.000Z",
+        "cat": "weather",
+        "sev": 2,
+        "source": "IMGW",
+        "url": "https://meteo.imgw.pl/",
+        "title": "IMGW: 4 ostrzeżeń meteo, najwyższy stopień 1: Intensywne opady śniegu",
+        "official": true,
+        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
+      },
+      {
+        "at": "2026-11-26T03:43:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Rzeczpospolita",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONHJXZ2JoX21KZXBHRFdZUGhIU29NUWx4WlpJSWJqS0w2RDlBN0UyXzQ2TktnamJDNF9wZWNIX3Q0WFR2VUJBbnRyZ0NMSHhmY2VERFkzMEh5TnRTUHVOZ2lGZ2p3WEtUR3B2MkkwSG1PREc5T2owampXSXRqQWU0NlAxMnhSSFpXOUdXaTRGeUN0aWdkRFdrOXFHMWZmVm05ZmdwakV3b2loQVo1YzFVMw?oc=5",
+        "title": "Strącanie pocisków nad Ukrainą w praktyce niemożliwe. Jest kilka powodów",
+        "official": false,
+        "forYou": ""
       },
       {
         "at": "2026-11-25T18:19:46.000Z",
@@ -184,79 +234,53 @@
           "href": "/pl/mapa-schronow/",
           "label": "Mapa schronów"
         }
-      },
-      {
-        "at": "2026-11-24T19:21:34.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Wiadomości Onet",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVG44VHAwU0NMZlJGdXZMSi1vUFdyVXlDVTZ1M2NKZzNVTWdJVVRrZVE3OGJBY3JFbE9BMUV1QWgzMFVOVnRIRUlxZGtmMG1pQ0hXMVNhT3liSGpLbWhZQUgyX0lWVTFWTFVwbE9XWE5RY0ZuSVQtU1RaMi10UWNfaXF2YjU0Sm4zUlpXYTdkM1ZKMzlNR1p2eWdUVDlVWl85ZW9sdFAtU2xHX3g4Q1R3VQ?oc=5",
-        "title": "Oblężenie supermarketu w Kolumbii. Napastnicy żądają nie tylko milionów",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-24T18:21:00.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "RMF24",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTmQ5dFByTTRJTzFHQ3c5ZG5ZTUNTSlc5U1FlMzRsRzRuMWxjclA4elZiRmtjM2tQS1RsWjVhU0UzdGlScVc0cWRqeWgwRDhveENNWDFaSllER3Y0N3B0bEU1S2puYmZPOFNTRkdqRm50UTFUcWR3V3o0LW80YWdRQlJDRjBTZUxfZFExODZiTVZTUkktQU1TMUxUNnY4VG1xRE1GWm04MzI1ZmtlcXp5ZndpRkc?oc=5",
-        "title": "Alert RCB dla mieszkańców Lubelszczyzny. „Brak zagrożenia na terenie Polski”",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
-          "label": "Alert RCB i aplikacja RSO"
-        }
-      },
-      {
-        "at": "2026-11-24T18:19:35.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "WP Wiadomości",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVUR5X3NidGt6MWpxNDJhb1pqQjRFeXJxV18ybERjX01tZEc3RnJVc2tUVUQ4WkxsdjEycFNSbDdNcGdvTXdhZFRLWGJReGRCU1VkZnh4eExqRzl6WFdOcklPMFhWUEN5OXRHRTBQREpGamo1cFJkc3pRcTYxZENKbTlIWWxhbnRnYTZ5aWZ6QThvZFNXeFZsLUdjdGxLamhlY2haejRXY21WVXplOXlZdDJnSWpCUzlfZXc?oc=5",
-        "title": "Rosyjski atak na Ukrainę. Kolejny alert RCB w części województwa lubelskiego",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
-          "label": "Alert RCB i aplikacja RSO"
-        }
-      },
-      {
-        "at": "2026-11-24T15:23:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Rzeczpospolita",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQUkx2RFpnd1VpWldJVVlqMVRsRmJpTWEteEowZ25fT3MzTFdRRDBwZ3Q1MjVOcndhZVVlT2UtdV9RQ0NwRHpfUGNUZS1wSGxsaUY0RjFVT095YW5VUFdrVmFKbVFSZF9IN2hzOWg4VWk1ZTUtNnhsWUVvUDdCbzI4NWFYWkcwZzBWUTFyOUhyTWpHNU1mMVB6ZmhaalV3UzFFUFJqbTM2dXpwTHlDWld4QkEzU0h0MnI4QlFiS0hnTV9pSnFzWUNiXzhabDhFMmM?oc=5",
-        "title": "Rosja nieświadomie odsłoniła swoje karty. Rakiety, które spadły w Polsce, były nowe",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/mapa-schronow/",
-          "label": "Mapa schronów"
-        }
-      },
-      {
-        "at": "2026-11-24T15:07:00.000Z",
-        "cat": "safety",
-        "sev": 3,
-        "source": "TVN24",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYTFLc0Q3M193X2JhWnJjQTdpak1sVkhtXzJTLW5TYXBiS3R1ZkFqaG5yMkM2Z3QwUHotWk1Xbi1ZWjhOWjA1VnBEZ2pORFU0eHlHVTJhLWJYV1F4OTYtMENyVGlweWxkSjh0VWU2MjlqOFp5VE1QRmFsamI0N2NNb19GcUFQUmNmYl9uTE1EcWxOUWZaZGRMOGlKUEtQdVBCTXpsa2dSUjlnVk51MG51bEVB?oc=5",
-        "title": "Rosja atakuje Ukrainę. Wysłano alert RCB",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
-          "label": "Alert RCB i aplikacja RSO"
-        }
       }
     ],
-    "updatedAt": "2026-11-26T03:14:10.869Z"
+    "updatedAt": "2026-11-26T13:15:56.692Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-26T13:00:25.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Iceland Review",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNLWlyMDZIQUpwb2RiY0hWYjAzT0tYb1NCRUVhR3ZKalY0MTdKX3RqemF2WTJXZGZqOTlnYnZvTnJwQWFhSzZxTFluOFFtUmRxU1FWSnlsUkFhcTJUYUFUX2ktVGNxTTBDam83a3l0b0ktZWxVdlMwYkE1N3h3S3RMTFJ3QllYNXVUejc1aFdfbl9ta0tWcUhEcQ?oc=5",
+        "title": "Cyberattacks Trigger Iceland’s Critical-Infrastructure Response Plan",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-26T12:27:57.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "UNITED24 Media",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPeW5mSmQtOFdqc0lKQWZGLXIwc1p5RUNHcGFfczFmSGNwb0ZFNEJ3Ym5FbnZaUXZWR3ktZTdFdkM3RUNZVFVVQklXTzR2djJGQWN3aC1DVk5ITzRENGRxREw0c3RaQmgtUkRzX1M1Q19mSTI5N0dRNVYwWDNqOTd4LUNfX2toMTZYYnlGRXh4enhYQm1ZcTIyekFNNUJpN2F3Z0ppdEVVNW5NQ00xRVdCYUd3akdiTDBTS1ZkTUpNdjZvQXAzYUxRY3NnYnpZZklWQUYzTS13?oc=5",
+        "title": "Ukrainian Neptune Missiles Strike Russian Su-34 Airbase as Separate Attack Hits Oil Facility",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-26T11:18:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The Mirror",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPa2xSSkhuRjZYa1doVU5SWFBwRDZXZ3ZOMm1UcXI1YXlWc1Y3enVTMnNqeE50RW1BTHJfUVR2TTdYLUZCM0hMTDFuaF8ycUtlek5fdURicEF4aHNRV2pXQ1lEV3pBcUZGSUdNOS1sam9yUWMwbkJrN1ZPZlZ6SFVZNA?oc=5",
+        "title": "Burning tankers and missile strikes: The Briton who swam across wartorn Strait of Hormuz",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-26T04:29:07.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "FOX 10 Phoenix",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORkhzalEwMFJyRW4xQ05wbUtsbmprTGpXN2xPUlYzLV94bU0wSzFmT1ZGYTNleVR3Q004djZlVE43U3F5UFV1ZFI4TTRLV2VXdklLMWFkWmQzcmpBOVY5bldNVS11TGF1U3llYld2V0dBNnozdGg4RkRlcnh5V09Ea1BfMUpCeG5vVGo4bVlKSVFHbGRwZkJWNzJuV2l5WnZaV016VA?oc=5",
+        "title": "Old Town Scottsdale bars draw crowds for Blackout Wednesday, Drinksgiving",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-26T03:04:34.000Z",
         "cat": "security",
@@ -339,16 +363,6 @@
       },
       {
         "at": "2026-11-25T10:15:24.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "UA.NEWS",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOLXBkR3BHMHNLdFNGQmR0ZkRPRTFPOTl6Q1pVbW9XMUtGN296Nml4aHpUNTdLWGxGZW1xWXJsZWxVbXZNdXZZRXBFamJWb0FrQjBHMmVPeDdqdzdJcHY5WGZ1VGl2Rlh2dC10OEZoclVMTWFqY0lnZjBtUWJzUk9XbzNNX2tLeE1JdE5vNGpwUTZFRndNbXRCS1ZBOWVaOGFoQ0hjTGlDVXVIUQ?oc=5",
-        "title": "A woman who was wounded during a Russian missile strike on Kryvyi Rih died in the hospital",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-25T10:15:24.000Z",
         "cat": "cyber",
         "sev": 2,
         "source": "UA.NEWS",
@@ -408,16 +422,6 @@
         "forYou": ""
       },
       {
-        "at": "2026-11-24T03:39:21.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The National",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNW14YjRmMTY1a0preF9JQmJVaDFGVmZWUlNJbmRNelFCQjFqYVpfbzJMSFJPN2hwQ1diRDZYdkh3Z09LalBnb3hBZ0k1LUtZNWVpZnprZDlzMzAtVnZZZzAxNTlQYXZYcHNHdjJEZkE5Y3Nfall1Vnk0YkQ5NUpTZDctU3BLbXhz?oc=5",
-        "title": "Middle East latest: IRGC says three tankers ablaze in Strait of Hormuz",
-        "official": false,
-        "forYou": ""
-      },
-      {
         "at": "2026-11-24T01:14:19.000Z",
         "cat": "cyber",
         "sev": 2,
@@ -436,28 +440,8 @@
         "title": "Middle East latest: Eisenkot says no immediate Iran threat requiring Israeli military action",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-23T19:39:00.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9URXYwNlFGREJTQ1I4eTZ5U3U3NXByVFgxNE41UmZmVkZLVmtmMU1VWlRDeFdPYmxPQXJzenRJZHYteUp3Vkd3cUtzWVh2TXJROTlfckhxQ1ZhYmwwNXVRSDltZE53WHVKRk5mc0o3T0wyeWZP?oc=5",
-        "title": "How to Plan for an A.I. Emergency, or Any Calamity",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-23T19:16:14.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "MLQ.ai",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxObmE3T3BLb2ZXbS1ucWI2bGFTek5OV3daY1ZEX3hyQUJnRjdibW54cVZFcXJZRVEyaUVGNGdPS183TGlJVWtQZTV4U2laekMybnluTXkxUFh1MU41Wk9mSHZQYzVaSHd1Nk9PQkhlaVgwQ25LcnNUc25mZFZ2ckhBSnNqbXhlRmQzLXBIbll6Ri1HSXZ1bGlQNHpRalhGZ3B4NTB3UkY0YVVGME85Y1BkR0xwN2ZFUQ?oc=5",
-        "title": "iQSTEL's GlobeTopper puts the revenue hit from an October cyberattack at up to about $2.5 million",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-26T03:16:16.343Z"
+    "updatedAt": "2026-11-26T13:17:22.249Z"
   }
 }
