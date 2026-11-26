@@ -4,6 +4,36 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-11-26T19:17:59.000Z",
+        "cat": "health",
+        "sev": 1,
+        "source": "Polskie Radio 24",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOejRCd1BDZHQ3TkVGT2c1TC1yajdsZTZSb2JFX2toQ0gtcU9RemFxQXc0SUVYVHE1VUx3WXBpeGN3dXp3aGVBWVBMb0tXOFVaLXNVSEpUQ2hLQXQ0VWYtRG1mNzNZa1NScjFfVUFuS3ZOdjJSZXhCX1BfdmJTYk1kRm0xTlJfaHlNYy1WcUpiT0sxdTBLVGhGdS1UMF9YYzNaV0VGeWFoRQ?oc=5",
+        "title": "Plaga kiły. W Polsce wykryto ją u dzieci, w Niemczech padł rekord zakażeń",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-26T16:12:05.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "TVN24",
+        "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPZzNXMnBXTzJsdXI5VkN1d1kyeHRJTGcxMjIwc092SWp3bDNaN2UzVDM1bzAxUlNhQVcyX3ROX3o2Vm96UVlwMllHTzZyYWtQUUNPVnRHM042Y0xINzVub3RrLVFDU1ZsOGE2QUh5NXotZktENU9YTTRnY0stY2lYOE1yazFwa3d1Y0k3c3pqWUUwQWVkOTI0c1ZHcjlmaEJwWGQzcWgweEN4OUh5a1JCT3NXSlZwbTNwN2ttay1PQ2VxRkFUeFdyVndZZ3F5QTdzMWNGNzFWQUg4cmF6ZVA5QWFrY1RQQ25DMWtnRnExbFlkYXR4Wk5JRXRlQ0NGTzhKVnNwNlRVTEdBLXNMc19oZQ?oc=5",
+        "title": "Sztuczna inteligencja w służbie polskiego wojska. Nowy kontrakt z Palantirem",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-26T13:38:09.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Defence24",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRjRVSkxDNzJKX194ZndpYW5NZW5fS3YwdU5vS1lyT24zcEZ2Q0hKdzJnVTJudk1GOEdMRlVUNVhyRHQ1Qldoc3lETkJ5SkhEeUZOSkVkSE9RanZsdGFCZXRQRS1RR3lxS2ZhR2dYWmlodG5RYWk4OG1EWnZJRGYydnZmd21sY1ZyTjlCX2duc3ZiSjlPTUt3NnhEWUJNaXhOc2c?oc=5",
+        "title": "Niemcy jak Polska: Gigantyczny budżet na armię i coraz większe problemy",
+        "official": false,
+        "forYou": ""
+      },
+      {
         "at": "2026-11-26T13:14:52.267Z",
         "cat": "energy",
         "sev": 3,
@@ -28,6 +58,16 @@
         "forYou": ""
       },
       {
+        "at": "2026-11-26T12:55:00.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "CERT Polska",
+        "url": "https://cert.pl/posts/2026/11/CVE-2026-110699/",
+        "title": "Podatność w oprogramowaniu Chainlit",
+        "official": true,
+        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
+      },
+      {
         "at": "2026-11-26T12:11:08.000Z",
         "cat": "security",
         "sev": 2,
@@ -48,7 +88,17 @@
         "forYou": ""
       },
       {
-        "at": "2026-11-26T10:18:00.000Z",
+        "at": "2026-11-26T10:55:00.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "CERT Polska",
+        "url": "https://cert.pl/posts/2026/11/CVE-2026-71409/",
+        "title": "Podatności w oprogramowaniu GNU Screen",
+        "official": true,
+        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
+      },
+      {
+        "at": "2026-11-26T05:53:00.000Z",
         "cat": "weather",
         "sev": 2,
         "source": "IMGW",
@@ -168,79 +218,63 @@
           "href": "/pl/mapa-schronow/",
           "label": "Mapa schronów"
         }
-      },
-      {
-        "at": "2026-11-25T09:09:23.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Wiadomości Onet",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQeDV5cEx0dlVXUVpoNEVMQUc4Ulo1RlBJTjhsZzZUc0xvQ1JBalFCQTN3VkhIT3U3UG9pRGk2QURHenZzNUVkQkN5c3Z3QU5GNUQteldSOVg0X3RjMDZ4NmUyVGZqd1Y5eFRHQ3prZWpZSHZ0amJEeHZzZmNCMGpwdDlIRmdzdm1oTDVuY2laOGExUE04N1owOEtkQWlCVmdDejhsTWNHcmdhV2lQTVpCT0NPSkp6NktBUXRPcDdFcmI2VUk?oc=5",
-        "title": "Cztery minuty na reakcję. Wojskowy o tym, jak naprawdę wygląda obrona Polski przed dronami",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/mapa-schronow/",
-          "label": "Mapa schronów"
-        }
-      },
-      {
-        "at": "2026-11-25T07:42:02.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Radio Zet",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQR0I3Q3BRejR6UlVxNHdkbjU1VlNEbU0xSC1NellXNExUcV8tb2dvWk45MjR6MG1uVVBXcG1TR0FVUlRocVVSbFhoZEhYODJxcWNiS19ub3g2elpXZ01Pbmx6WWE2R0YyelkxRzczbjhXTVJIazQtd25yMmV6WG9lSnJJczM3VWhyZWRIVHVvVTd5Q1R3anJLZjlZMW9aam1JUVhFUE45ZjUzclot?oc=5",
-        "title": "Alert RCB na Warmii i Mazurach. Zapowiedziano ćwiczenia. „Zachowaj spokój”",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
-          "label": "Alert RCB i aplikacja RSO"
-        }
-      },
-      {
-        "at": "2026-11-24T20:05:26.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Money.pl",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNM0t5MEQwTEVGMnN6QlB0QlNRdDhHUmExSG96Q3JRQ0dKY3ZkaDY3QS1fWmtQUlpnLTJldEZBdmc2MnpFeFNWTGFtblNqUkVBb1g0b0c4UEVTU2N4Wm5Ib3dHRWxGSml4OU01clBvV21qS1U4NmtlQ1NURl9MQXN1TlZadUR3U0lVNERyb1ptdkxKSlpHX2Q0cEpUZUFmM2Ff?oc=5",
-        "title": "Rakieta przekroczy 100 km. Polska i Wielka Brytania ją opracują",
-        "official": true,
-        "forYou": "Jeśli RCB ogłosi zagrożenie z powietrza w Twoim regionie, zejdź do piwnicy lub pomieszczenia bez okien i śledź Alert RCB. Nie podchodź do szczątków, zgłoś je pod 112.",
-        "guide": {
-          "href": "/pl/mapa-schronow/",
-          "label": "Mapa schronów"
-        }
-      },
-      {
-        "at": "2026-11-24T19:40:04.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Business Insider Polska",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNd2Vmd2NQcHp2NVM1S3A3UjI0YjJoLWMwS1N1bUg5M3ZsRXVEeDVDZXhybXRYdjZnWVJ1T2NLaGV0dk02MEF1ZXd6aWlsMHp4Z3RjVEhucW1qZy1ROEV5bS0xMV9YTWVCcHNWM0kzQmtFc3lHNE5OXzlrUi1DUDNod1FORDhCWC11T000YjRUdFgyRGZkQV95WmktSF83bjl4NTNoNVZrX3Y5Q3N1LW5aT0t6VVRoWWVRQ2p1cUEzNFdyNk1vMWQtMg?oc=5",
-        "title": "Nowy pocisk dla Polski. Rząd podpisał umowę z Wielką Brytanią",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-24T19:37:04.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "WP Wiadomości",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSDdBUkZpQWVaNkpqTy1qam5qS045Nm9VLVFON0t5OExDdzBLRUx5NTlRLWNzaTZkTi1RSFNhcUtYSXkydzhEc1VKb1ZzQXYwTjF4MVZPUGt6MmoxV2JTQjEyX2UtMG16aFBGeFJBT2FtQVhtSGJMU2ROZzNDVXhSSl9KSzFESG9GNEdBSHZldWNXdlUwNl9TcjFacUdXZjBVc043U3duNzk4UktybG12TnpGcTB0WV9PcTdBWVlicnJCQQ?oc=5",
-        "title": "Gen. Polko: To tylko dron rozpoznawczy, uff... odleciał. Nie możemy tak czekać na ofiary",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/mapa-schronow/",
-          "label": "Mapa schronów"
-        }
       }
     ],
-    "updatedAt": "2026-11-26T13:15:56.692Z"
+    "updatedAt": "2026-11-26T22:40:00.397Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-26T21:52:29.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The National",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZjlZcjNRWExvSC0zaURTVmE2YjJuTHI5Z3ZQb3dxMGtCS09EMEVwNVc3T1hzTnZ5Z3czZGhqWDRNU2tNb1RTTFZOempjZHFKNE95SG54NjBGSlBHb2VqVlRqTTlwd3h0UUcyd3lGMDZuejRyamV5cmg5cVBlNlVZeVdNTDlyXzRhRjR1Qm1pbWI?oc=5",
+        "title": "Middle East latest: Two Italians killed in Iranian drone attack in Kuwait",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-26T21:32:31.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "The Sunday Guardian",
+        "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNNU9LWWh2cTJrMTJ2ZFVfSFVMX1BEWW1ZWHc4d3hFd0I4ajNnSTNjLVB5Mmw5V1IxSnM4M3JSaVpUaWpGN0dEdlEtMUJ2UWRMZmtrSEZlZ2pjdUZsdy1oU1lRVGVHdmtHZW1RWHBTTU4taUxpY2VWNEJuZ3Vrang5X25pNXZ2T2F5aVBjSDU4UGU4ckRWSjlFbkw1X1Aybmc1d2pKdDBEQXVBZ29EelpPWUt5anh6bUNVM0V4UnVsX1FxeGV6bmRjNXdzVUg1VXlIR3Bfek5ZTF8zczczd1lPa0dMbXBLLW5mWDRUcUFkZzU1TmZjT0FoajBZME83MjFNN2NKdTFYamt5YmctSnc?oc=5",
+        "title": "BGE Power Outage: Hundreds Of Thousands Lose Electricity Across US On Thanksgiving As Snow Hits Missouri And Storms Lash Mid Atlantic",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-26T18:56:15.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "MLQ.ai",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZkkza095VDVCTTVhYnFkbldIVV9LTUZwa0h3MjQtQThyYjlLZkJaZFNVbkx5RnRFRHJJY200RktuaG9lOWVWYlJvMGQzaExkd0puX1FEOUFOQXZ5WkR3VkVLc0d1ZXVScWg5VXljbUFVVWtjeFhzZ3pYc2d4NEJncEdHVnFIbHdhWElJUnJ5QQ?oc=5",
+        "title": "Cyberattack halts Allied Media newspapers in New Zealand for days",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-26T17:09:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The New Voice of Ukraine",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOT29uYkQ2OUZma0VZUkNnaXM1NVo1QVJ3RnUzSHJpX2UxU1d1X0FsbDZDaWFPbkVST2Z4NFlSZGFjTU8zUFpqNHpmMWZtX1czeWhSc3V0c2FrLTFuSWU5ZjN2TlJrdjF3MHJxaU9uS1A4VGZWNWdrZWtqSWEyNlp4UmtwR2pvQ3B2T1k2MzNyb2lmc1BfeEtiTUdKWjFUVVhpTC0zSDRneHl4YzcydEwtQzlZdWNPQ2J2Xy0yQkp2ZVc?oc=5",
+        "title": "Ukrainian Neptune missiles strike Russian airfield housing Su-34 bombers — General Staff",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-26T13:03:30.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The National Interest",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMFZmZWh2Z1NxZXBWN1V3c2dCbTdCcWdMc3NteFlUOWZMVVU1YWFNalNGVGlSWUxFdlQ3Q2E1blpHR3F4ZFZkbFNsRUdRdmJDdVozMmpWQ2RWS1M5dVRZSklYbEQ0VVdLY2JDRDRfQ2JmYnpITzR0bWxLZkVFRXM0dnhjcERLQ0JMdGFfNnY1WE5odHN6Znc?oc=5",
+        "title": "Why NATO Must Build Up a ‘Deep Strike’ Munitions Arsenal",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-26T13:00:25.000Z",
         "cat": "cyber",
@@ -248,16 +282,6 @@
         "source": "Iceland Review",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNLWlyMDZIQUpwb2RiY0hWYjAzT0tYb1NCRUVhR3ZKalY0MTdKX3RqemF2WTJXZGZqOTlnYnZvTnJwQWFhSzZxTFluOFFtUmRxU1FWSnlsUkFhcTJUYUFUX2ktVGNxTTBDam83a3l0b0ktZWxVdlMwYkE1N3h3S3RMTFJ3QllYNXVUejc1aFdfbl9ta0tWcUhEcQ?oc=5",
         "title": "Cyberattacks Trigger Iceland’s Critical-Infrastructure Response Plan",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-26T12:27:57.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "UNITED24 Media",
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPeW5mSmQtOFdqc0lKQWZGLXIwc1p5RUNHcGFfczFmSGNwb0ZFNEJ3Ym5FbnZaUXZWR3ktZTdFdkM3RUNZVFVVQklXTzR2djJGQWN3aC1DVk5ITzRENGRxREw0c3RaQmgtUkRzX1M1Q19mSTI5N0dRNVYwWDNqOTd4LUNfX2toMTZYYnlGRXh4enhYQm1ZcTIyekFNNUJpN2F3Z0ppdEVVNW5NQ00xRVdCYUd3akdiTDBTS1ZkTUpNdjZvQXAzYUxRY3NnYnpZZklWQUYzTS13?oc=5",
-        "title": "Ukrainian Neptune Missiles Strike Russian Su-34 Airbase as Separate Attack Hits Oil Facility",
         "official": false,
         "forYou": ""
       },
@@ -278,16 +302,6 @@
         "source": "FOX 10 Phoenix",
         "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORkhzalEwMFJyRW4xQ05wbUtsbmprTGpXN2xPUlYzLV94bU0wSzFmT1ZGYTNleVR3Q004djZlVE43U3F5UFV1ZFI4TTRLV2VXdklLMWFkWmQzcmpBOVY5bldNVS11TGF1U3llYld2V0dBNnozdGg4RkRlcnh5V09Ea1BfMUpCeG5vVGo4bVlKSVFHbGRwZkJWNzJuV2l5WnZaV016VA?oc=5",
         "title": "Old Town Scottsdale bars draw crowds for Blackout Wednesday, Drinksgiving",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-26T03:04:34.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The National",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPcnZ5TGlIcndkLWs0YmFxMzl1Z1dkVlE2ODFrUnAzejJXNC1tY1AzR3hVTVJ6OW9hSnZIanJpTFZDUDhySXBVZHFicTMweEktY3E1SXBtQ0lvNlctbmlQak9XcjZRYTZGQVd6YTBNeXlpMUotVHB6TXc4NHBIVTJGVmRaUFA1b2trOWRINVV5UVNURi1ZLTJZRjdR?oc=5",
-        "title": "Middle East latest: Houthis claim attacks on refinery and Riyadh as Saudis strike Hodeidah port",
         "official": false,
         "forYou": ""
       },
@@ -410,38 +424,8 @@
         "title": "Monday Night Football power outage leaves fans and players in the dark",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-24T16:11:05.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "TechStory",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMmRzV2lYdWZWbDBrTzNEV1VZODhTMGpFMVRIVkFtTGZ4WHVKcXF1U2FCczNRWHA2dW5kTXUybTBQR0MyTmIzYndrTDdQRE5LbjdUWFBydVl6NV9QLTNBdFhWWU9kYXpSZW8wUlVkdnUzSXN1QkI0azNaZ3U0U0xCRjFnOERPdnlDU2ZtemEwRlVPOVhNVXAyOHhnSWVZN2M?oc=5",
-        "title": "Hackers Give NVIDIA Until November 28 As Ransomware Gang Threatens Data Leak",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-24T01:14:19.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "Wisevoter",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPWmVMcUJYdTUzZlU0VkdIUDRQdE14dXVjTm51STBPOFUtMHZVYnFvRjRJSjhZbWM4R1RhbGZETkVLQzdXMDlXOUNCdTVZSGlEQkhCTjdFYmhDOS11ZkFsRU1vajhlZi0xZHVXbGpPMlVQTEFFdVhsaWlBWVVYNlZxUXJHRlA3cHhkYkQtcnBKM2tuLXhzSkZGOGdKWGFkVFZ3THc?oc=5",
-        "title": "Yuma Hospital Settles Ransomware Suit for $1.985M",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-23T20:29:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The National",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZDlXbXpiU2cwRGZTckR6TUc1RXMyUlBoS1hGd0NBdmEzYTZOQ3hLdElPbkVlU1lfX2g3RGJ4UnZVOFRCY3drMURtdGRBU1FCcDdRVm1RVkNZRS1GRlVUOHhqYmxPRXlvM1FIUzk2ejU4N0xrRW5VOWVZVUVmVFUwTEp3?oc=5",
-        "title": "Middle East latest: Eisenkot says no immediate Iran threat requiring Israeli military action",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-26T13:17:22.249Z"
+    "updatedAt": "2026-11-26T22:42:06.209Z"
   }
 }
