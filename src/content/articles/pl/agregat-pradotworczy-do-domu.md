@@ -6,7 +6,7 @@ translationKey: home-generator
 cluster: blackout
 kind: guide
 pubDate: 2026-10-17
-reviewed: 2026-10-17
+reviewed: 2026-11-27
 author: "Redakcja PrepReady"
 readingMinutes: 9
 sources:
@@ -40,6 +40,8 @@ Agregat prądotwórczy do domu jednorodzinnego dobierasz do mocy urządzeń, kt�
 Agregat ma sens w domu z ogrodem. W bloku odpada: nie wolno go uruchamiać w mieszkaniu ani na balkonie. Tam lepiej sprawdzi się [powerbank albo przenośna stacja zasilania](/pl/poradniki/powerbank-na-blackout/).
 
 ## Jak policzyć moc agregatu do domu
+
+Do liczenia przyda się nasza darmowa [lista do druku „Przerwa w dostawie prądu” (PDF)](/pobierz/PrepReady_Lista_przerwa_w_dostawie_pradu.pdf). Ma gotową tabelę: wpisujesz moc urządzeń z tabliczek, sumujesz i mnożysz przez 1,25.
 
 Zacznij od listy. Tauron Dystrybucja radzi wypisać urządzenia, które chcesz zasilać (ogrzewanie, lodówka i zamrażarka, oświetlenie, router, brama, rolety), i sprawdzić, czy są jednofazowe, czy trójfazowe. Z agregatu nie zasilisz całego domu naraz, bo suma mocy szybko przekroczy jego możliwości.
 
