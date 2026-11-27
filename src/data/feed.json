@@ -4,6 +4,74 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-11-27T19:33:51.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Money.pl",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSDgxWC01cHlYT2hvTnhpbU1PVk5aRnNDQ1hJWXBnN0FiLUdNa3VmeXRMN3JMM01HZHZ3b1RfMjRONlJua3VNZndnUmFmNmxUMHlybE1oa2hTOVNyZVBldHhONldWdmk2TEVhSHdqUFM0ZFFhOGFjcmlMcWZ5YkxCbEdMbkp4eDg1QS1MVWdhRU9HTFRrYjVXTjhSbG1HdEN5YjBfU0VTQllXNEJaSXc?oc=5",
+        "title": "Wojsko zyska system Maven. Umowa z Palantirem na 300 mln dol.",
+        "official": true,
+        "forYou": "Informacja o sprzęcie wojskowym. Nie wymaga działań z Twojej strony."
+      },
+      {
+        "at": "2026-11-27T18:59:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Defence24",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbGFXZWY1Y2VDWDFaQzBCYkdwNnhSc1d2aEh3bFhxRFVPZVp6UjhfU2VaakVJMjB6RTg1aE9SV2tlVUhFc3RpOGtDTnQzTmFZUVNDZ1RmLW5kOTJPZTVScUl5QkxObnA4Tkdpc3N6UVExb1BHZzEycERJalVxaHNsY05URWt2ampNclBJR3lqVzVPV1R3cWNTZjNsNWNPN3JRRUwtZDJwWkx4QVZGOTdaR1ExZzU?oc=5",
+        "title": "Pociski nad Polską, brzydkie kaczątko w wojsku i spór o rakiety | Defence24Week #177",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/mapa-schronow/",
+          "label": "Mapa schronów"
+        }
+      },
+      {
+        "at": "2026-11-27T17:57:08.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "WP Wiadomości",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVlJGcldWNmlPSm9Xd0VoVWwtT2VhQzVCTXNONGVmSXFraWduY0Q2YUc5RHBrU2hkT2xKSU90RFJGaWdlcGZ3RjZpZGdacjZrTkhSSENsallZeU94Q2RTMmltUTg5SHhSVXN6dmhic2pndEFLb25LU0IyTV9ZZXdibG4xTmNkVFp1b05CeTJqc0ZnTlVjaDk1d0hJd3Nybk9rUi14alBpNnJfc29wMjNVVDNn?oc=5",
+        "title": "Ewakuacja schroniska nad Morskim Okiem. \"Sytuacja zupełnie nietuzinkowa\"",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/poradniki/plan-ewakuacji-rodziny/",
+          "label": "Plan ewakuacji rodziny"
+        }
+      },
+      {
+        "at": "2026-11-27T16:30:41.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "TVN24",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZFNmbjZSaXI2b2prYlREWjd0eXpMNEZSQmhIM1VOWE4yallZQUVWR2Y4clUwdnE2OGFzaFBwcTIzT1pudXhpaUpMOXJnWFJVWE1lSTk1dk9GU3JiLVlJRUM4ejE2UWk5eVNEaDhHYWpONmxyRkdDdTBQcE9JNTJBQ0RidHFoTlNPdGJkdk1aNk8yVVNRc2p1bldINWVZbWJidTl2T1gxaTZBOW1fLTl2cEJxcDJnNlk?oc=5",
+        "title": "Umowa MON z Palantirem podpisana. Szef MON: serwery są i będą u nas",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-27T16:26:11.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "TVN24",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQV0lYVXE1eTA1dkF0MDFSUklHckJkX0FnRVByRjNFX1EybzNkTlhuN1ItaGVOendmOWc0UGxlUWV6RVhOYUtoV0lDMWhqZFJsMjRKUDFqVGNodWZLYWtIT256RUZkQzgyQzhKV19oRnI3SExXUEdNUlVoQlI5X3RhU05Sb3M1dnNUWkNnc1RqaVZvVFlrS0lQRGQxRDhsQXdoQWZmaTA5REQtZmZWbWYw?oc=5",
+        "title": "Rodzice dziecka z nagrania zgłosili się do prokuratury",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-27T15:21:12.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "TVN24",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPdEZNZXF5eTJiQWJGbHZYMzRQSkZvanFLY195M29GdnpFZUU1bE8wVldVVkM2dVZIeTZHZ0M0NTcxSkxfNi1hWE8xVVMycUdNUExWaHAzZTV1c1BQVEstNHpBQjdkR1RLZnRzWmt1RnNweWw5LTU0Mm9hMndYZ3VMaXJmdTZrVTVYbXRudTF5cl95VXNKTG0zVTJxSGdOWGowakhfZUxyX2pFZzByMHZJa1A4UDBpdmN0dWRDbUxlRk1mREdkSUFmbnRESjlzVDRCVUptYVktNWRBZFlObDl2N3lmb2g0VWR2U0E?oc=5",
+        "title": "Waży kilka ton, niedługo ma wejść w ziemską atmosferę. Przeleci także nad Polską",
+        "official": false,
+        "forYou": ""
+      },
+      {
         "at": "2026-11-27T14:09:42.000Z",
         "cat": "security",
         "sev": 2,
@@ -150,73 +218,53 @@
         "title": "Podatność w oprogramowaniu Chainlit",
         "official": true,
         "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
-      },
-      {
-        "at": "2026-11-26T12:11:08.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Polska Zbrojna",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSkF0WG5BdExIRmJPRzUtd0hqSm4zLW9qN2N0QTlabjFuM0hXWlZfZGl2RWU5aEg4ZS1ncmdzWlZxUW9PQzdoNWpGTTVDUTJVRmhSZ1pid3NJNGdOZkdNYWpGbl9fRDBkTkpxbmNJZXVQRk5jdUVBQ0lBS25wMnNNemNWR1NneXNDRi15VDJHUQ?oc=5",
-        "title": "Polska Zbrojna",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-26T12:03:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Rzeczpospolita",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOekh5S2FNN1BnYm1UME5RcTUwVzRXQldxVlNLd184M19mN09IQmpRSEltekRQZUxtN2JqeGNoQ24wSVZpbUp2MEpROVpnd3B0SXNEcnJ3NHJlNno3T0V2WDBmWWtTRzAwYUFWVHZJaXNQWkFld3FWWUxUN3NkeXcycFI2QzlUMmtfaWhsX2tDa2k2Zk1PS01yYWl5Z2Z3NEo1VDg3SUpTUVZES3RPU2d1RzlB?oc=5",
-        "title": "Tajemnicze loty nad Polską. Samoloty z Algierii regularnie latają do Rosji",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-26T10:55:00.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "CERT Polska",
-        "url": "https://cert.pl/posts/2026/11/CVE-2026-71409/",
-        "title": "Podatności w oprogramowaniu GNU Screen",
-        "official": true,
-        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
-      },
-      {
-        "at": "2026-11-26T05:53:00.000Z",
-        "cat": "weather",
-        "sev": 2,
-        "source": "IMGW",
-        "url": "https://meteo.imgw.pl/",
-        "title": "IMGW: 1 ostrzeżeń meteo, najwyższy stopień 1: Intensywne opady śniegu",
-        "official": true,
-        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
-      },
-      {
-        "at": "2026-11-26T05:53:00.000Z",
-        "cat": "weather",
-        "sev": 2,
-        "source": "IMGW",
-        "url": "https://meteo.imgw.pl/",
-        "title": "IMGW: 4 ostrzeżeń meteo, najwyższy stopień 1: Intensywne opady śniegu",
-        "official": true,
-        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
-      },
-      {
-        "at": "2026-11-26T03:43:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Rzeczpospolita",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONHJXZ2JoX21KZXBHRFdZUGhIU29NUWx4WlpJSWJqS0w2RDlBN0UyXzQ2TktnamJDNF9wZWNIX3Q0WFR2VUJBbnRyZ0NMSHhmY2VERFkzMEh5TnRTUHVOZ2lGZ2p3WEtUR3B2MkkwSG1PREc5T2owampXSXRqQWU0NlAxMnhSSFpXOUdXaTRGeUN0aWdkRFdrOXFHMWZmVm05ZmdwakV3b2loQVo1YzFVMw?oc=5",
-        "title": "Strącanie pocisków nad Ukrainą w praktyce niemożliwe. Jest kilka powodów",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-27T14:27:47.899Z"
+    "updatedAt": "2026-11-27T23:03:40.246Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-27T22:36:37.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "National Security Journal",
+        "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQUGFWTVQwTGZRcWRFbzkxTkZwemJuLTBIUjZMbTl0VVNRdUpIX1FSamI2Z0EyZjJkUDc0bS1scDk1SjFCMlp2Mm1HRUNDVlkwbTYyM1JjYUc3QkZ1RDdXQTdFX1o2TlBJanBIVHItQnB6U3hJVDhlRG55UlozX3FzSVd6bGFGeUlhdEV5dlZkNWJTT2RXczk3VFdUc2RJUzhqNmZzMGxNa0hRM3EwMnBzakVpRXFnREVNV3dYdVlSenRuUk5mbVdJSmRwQzVkQ2NPdlhVVDZrbGtTUGRGOXRkcnk0SFd2c1JCOTg3RGlCSTF6VERoS0xxYkF3?oc=5",
+        "title": "Trump Just Called the Ukraine War ‘a Complete Bloodbath’ Killing Thousands Every Month as Kyiv Warns of Another Russian Mass Strike",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-27T18:36:27.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The Kyiv Independent",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNV2xOLTBrY2RGTDJZRjBfVWlIemJMQmh5SzRKWkhIdXkyeEVRbUc0R1RWR2FLek9rYjgwR2FPcUJ2Qjd2LXV6eDVRd19VUjVpT2xWTVc5S1RtUjNhWUo4OUtKSkZTcGlWTTJscTlWeDdQMDNyT1ZaRFlDcW1vVHBST0ZTZGt5a0ZiU1psZVN4ZVFTMlh4dm9ZRlRMbUc5WW5uZDk2RjdBMjNjakYxSF9felcyV25udkdtSlhvcmNuaGRLU3ZldHN3ZW1n?oc=5",
+        "title": "Ukraine war latest: Ukraine hits missile fuel production facility in Russia's Tula Oblast, military says",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-27T17:47:02.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Livemint",
+        "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNbE9lcjdOcTVvRjVfQmdwVWlaYlJVTGFFeThydS15YWEzaTAya1VMeHA1REU1RzBfTFA0Z1N4dDhqa3I3M1FVcjdXUkpGYV9lSFJqMUs5NGtFWVE0UjBIZV9IM005R0t2b3VmVFdQSUVJaFM5MTF2WXpVRFV0VGVkeW1YWTQ0cXg5ZTFHUGI1MXBCdTFVRFBlUlRieHlyc3VaWmFheE5LUmN6cFJnU2Joa1dXRld2YzRvS0F6Smt0M2liaXlkcTk1TERac2p1X3Z6dFFMU3FHVS1tRmJzVVpsd0RhMEdNdUZ3QXR0ZHNLZWhWVU9ZNzVkX2tMQjlKcjcwZGfSAYcCQVVfeXFMT25FLTdmZHRic2JvTGFfTmtadjJ1NGNDakxGYi14MVhjM28zRy1DWjVMckZLbHFQUFYxamFFcXNjRHdfWkdsenQwZ2NLWERwTUsxYzl0cGJfQnhCUi1VOC1hN1NPZklkQ1JUY3gtRWRLT2F3a3ZmcXp1cnhPVXpNNnhoZTgxa0JYX0stTmZlTkZOdmhHQXdDam5uQ1ptbmVVeHBNV2RocGRjeFJZa1VMcTFSdnRTZ3VkX254SllPVWE2cnNnWmh5U1hLTEtDSWw4bGhOZ3JfUjJtY0NiZ240bUU4VHJHb21oN2V2OVJOX3RKQUx1T0pCNzFfSGZjYjR6a2dTMFFEakE?oc=5",
+        "title": "Cloud One cyberattack: US Air Force platform backed by tech giants Microsoft, Amazon, Oracle, Alphabet reportedly hacked",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-27T17:35:20.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Herald.Wales",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQWEyOTd5eElOMGZzZFdFOGJMRUlLcV9DYm9DZlBxV2dLQnJlbVN4cjZ4RzdxZWpZYWJtcV9HblJvS251QUs2MFhILWdyREFKWGVSN0JRSjREbDhRWXFGNWVpN1JxMzlYREI5VktSanJfQlloQjNFTzdxNVBSVUZabkh0UHQ?oc=5",
+        "title": "Inside the ‘Black Sky’ plans for a nationwide blackout",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-27T13:58:47.000Z",
         "cat": "cyber",
@@ -234,16 +282,6 @@
         "source": "The Marblehead Independent",
         "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPLVQ5RlBpaEhsUEZzVC1UUWJRSG1MQllXdVE1dkRObm5vS0pmV1phMGJ5TmNfbmhkSjRNaGdJTUd2Q3pXTHRlajVvNUZ5SEM2NWhEaHB1Nmo0dER2TEg5MXk3d0l1UVVRcnZFdjdrR1lwVThkTUgyb1Utb3l2UGFOSzlyN3VyUFR2cm52STBCVWdqN3pTQUlV?oc=5",
         "title": "Widespread power outage hits Old Town, Marblehead Neck",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-27T10:32:54.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "UNITED24 Media",
-        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdEt4cXItb1BRRUhMeGF1RkxUcjlNVG9SSHVMa3gxV1p5N3pPUjUtNTNFWlN4S3MyZngyM05RN0pUT3A4al9FYXpqakNoejd2YWpERXBjRnNpLXJPSUJBTmVQLV9IR1VPa3NGZXVEMmlTaE4wY0xnbWxBOW9nbW9oOVpqcm9NRWZ4UmVxdk9NVmt0ZEZNVDJiNHZ3UFRUZS1qcFgyQ0t0a3k2UjZTQjdSUElaSk1STjdtbWIzLVdoOXJHaFVXSkkwM09MUjFaako3OGVNN1dRZlUzZw?oc=5",
-        "title": "Ukraine Strikes Russian Chemical Plant Producing Components for Iskander Ballistic Missile Fuel",
         "official": false,
         "forYou": ""
       },
@@ -386,38 +424,8 @@
         "title": "Cuba’s National Electric Grid Collapses, Reason Unknown",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-25T15:41:28.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Kyiv Post",
-        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1nZUVWSllXb2xlNzBIMnBKS0dLNEk2dzZjZGd4TDhfM0RsZFVCYmd2X0pTZkxWNEsyMVctLW1yaEFRWjFJbW52Ykw2bHZicTQ?oc=5",
-        "title": "OPINION: The Economics of the Sky: Why Ukraine Cannot Afford a Missile-For-Missile War",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-25T14:46:39.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Fight Back! News",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNOEtUTllWck44dXdRaXZpb0xzWVcxVU0xYWNDaVhqRERlTzVsTXZlc2hsWXBGZTRmZjFhSldabXN0WkE4dTVtYjBTSFNQdk1SQ1R0R0xHeWtXUkpMdVd2U0UwZS1WUXlHaWcxcDRJbnFpeVYxa0FXTTh3RzRwdWRrTGF1NDFuY1J3ODFmT0cwOGJ0aVFQb0Z6bjdQU1BaZUpucnJLZlFtSzRNSUwzUzVtVHN0RDU?oc=5",
-        "title": "Tucson Anti-War Committee launches campaign to kick Raytheon out of Festival of Books",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-25T10:15:24.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "UA.NEWS",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUl8zYVdqTVQ1Q0ZoRWhtd0pQZTdxZFZLbW4xLVhoU2tPS0tpZkNzNUpZUWhYSE1vYVZ1eThqWnQwbDduRndtZWpHNFBlcmF0eEwyaEpiWGFCYWUzNUZmQ0JuYXFkSm96V2xZLTVUMkotbHFuWHIybVN6Rk56ZUZZeFhSN1k1aE01WFI2SUFEWVF3SWQxUExSZXJRVDZHQTV5QUlPOHBXVGF3dmpFRFE?oc=5",
-        "title": "Gatwick Airport disables payment system after cyberattack — The National",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-27T14:29:53.065Z"
+    "updatedAt": "2026-11-27T23:05:48.019Z"
   }
 }
