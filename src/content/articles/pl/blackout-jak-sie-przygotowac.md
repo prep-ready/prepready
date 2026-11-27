@@ -6,7 +6,7 @@ translationKey: blackout-prep
 cluster: blackout
 kind: pillar
 pubDate: 2026-09-26
-reviewed: 2026-09-26
+reviewed: 2026-11-27
 author: "Redakcja PrepReady"
 readingMinutes: 8
 sources:
@@ -38,6 +38,12 @@ Poradnik bezpieczeństwa MSWiA ostrzega, że taka przerwa „może potrwać nawe
 - Łączność: radio na baterie lub na korbkę, naładowany powerbank.
 - Jedzenie: rzeczy gotowe do zjedzenia albo kuchenka turystyczna na gaz.
 - Gotówka: terminale płatnicze i bankomaty nie działają bez prądu.
+
+## Lista do druku: przerwa w dostawie prądu (PDF)
+
+Przygotowaliśmy darmową listę na dwie strony A4. Na pierwszej są zapasy na co najmniej 3 dni, zasilanie awaryjne i tabela, w której policzysz moc agregatu (suma mocy urządzeń × 1,25). Na drugiej: co zrobić, gdy prąd zniknie, zasady bezpieczeństwa przy agregacie, co zrobić, gdy prąd wróci, oraz ważne numery z pustym polem na numer do elektryka albo sąsiada. Wydrukuj ją i powieś w widocznym miejscu, np. na lodówce albo obok rozdzielnicy.
+
+[Pobierz listę PDF (2 strony, 213 KB)](/pobierz/PrepReady_Lista_przerwa_w_dostawie_pradu.pdf)
 
 ## Lista rzeczy na blackout
 
