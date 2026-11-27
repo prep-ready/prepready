@@ -4,6 +4,80 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-11-27T14:09:42.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "TOK FM",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdk8wMU9tWWVZTWdTcmFrZlRWTE1pUE9JRS0tdlc1Tk9vUldDZzVUWWd0cWRjYWhoSTdVTU1zaVZBWkRJNmJNUkZ4VlNYM09TTW1MZXl1TEVGSXlBcVcwQlFCQTlWQ2NkS1ZJT2pNdk5mbXBNX29VY2k1SzY1dHVxT01yQmk1SHpqdE1yS3FxNU9jOUk?oc=5",
+        "title": "MON podpisał umowę z Palantirem. Co zyska wojsko? \"To bezcenne\"",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-27T12:24:48.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSTgwdldKRFVKSlNQdjJ3X2Z3c1lLUmhZUjV4eHRYdTBQSjRKMlhMaDR3SXNRUWNTcUExNXlYUmw5Z2hoSFRzNDNIdkNUNjBYbFpSU3pKMktaODBCbG55RzNKb3dlcWFpaWNhNEU5QUlvckF0UUhzSFJESWpqUEcyWjRDa016bFh1MzBCNmJ6d0t6cW8tRTA3UXI4N3l5enhpdm55dHRkTzRNQUxUb0xmQTBB?oc=5",
+        "title": "Rosja zmienia taktykę sabotażową. Polska i Niemcy w centrum uwagi",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-27T11:55:00.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "CERT Polska",
+        "url": "https://cert.pl/posts/2026/11/CVE-2026-107189/",
+        "title": "Podatność w oprogramowaniu GNU m4",
+        "official": true,
+        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
+      },
+      {
+        "at": "2026-11-27T11:48:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Bankier.pl",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOVmxYbFR5OGVvYlhTZE1UTExxY203c1hGMXpKbHIwSG1OR3pWSEZENzB6dFI3aE85c3pBZXlzcUNaZjg1b1dLN0dsMWhlT1EwMjZUaUwxU19BWVRIblZRMnZTcDIwWmJzYkV6RGEwUHUxTUtKRjlYR01YbFRRejF0YS1zRTAzSEg5ZWplemY4clVtYlNraG1zN3FwNXVWdmdXNDA5dmJQYWg3Y1Vkdm1TNWI3QWRPSldZNlhJdzJXMDNaTFZ0YXBwcXYtWm5SZDVyQWEyX29XT2xRaFk?oc=5",
+        "title": "Wojsko Polskie wdraża AI od Palantir. Szef MON: Wszystkie serwery i dane należą wyłącznie do Polski",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-27T10:55:00.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "CERT Polska",
+        "url": "https://cert.pl/posts/2026/11/CVE-2026-127118/",
+        "title": "Podatność w oprogramowaniu SMSEagle RCDevs OpenOTP SMS integration connector",
+        "official": true,
+        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
+      },
+      {
+        "at": "2026-11-27T10:31:34.000Z",
+        "cat": "health",
+        "sev": 1,
+        "source": "Wiadomości Onet",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSU52NnBsUkJuX0ZqTzFhQWY3R1BPTWZnY2o4dHBLbmpXZmdvV3otaElhalB3UUdMT3RvU3c4bGxfTUxQRlJtYzNIR3ZHamFJRWp3N2NtbklqLUhRR1FybXFFSW84dW5rczAzUjFVMzEyckdtS2xrbzRGckdGOEFCOTBRR3BRS1E0VHpNbGkwNGxwcVp5dVZGMWNFUjE3N3lZWjFF?oc=5",
+        "title": "Cicha epidemia. Jak siedzący tryb życia powoli nas zabija. Wyniki badań zaskoczyły nawet naukowców",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-27T06:21:28.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "Polskie Radio 24",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZmlDd2NKbjlpZlZZbUtPNXp3djlfbGtzc1Z5ZUdWdThaN1h1OXBXb3czSUEwUld1WGxJUlNGS3RDdmtmUlhwZ1B5RGp1bzlvbXFlbzBhcDEwcTB5U2Yzd0lFLUF6MENGUmttWnh3bkdOU01fbmkzQktjVGxOczQzb2xHZ2NVZjFFdzVjWWN0YWtIYmh3NjU4UlJB?oc=5",
+        "title": "Alert RCB usprawiedliwi nieobecność w pracy? Padł apel do władz",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/poradniki/alert-rcb-i-aplikacja-rso/",
+          "label": "Alert RCB i aplikacja RSO"
+        }
+      },
+      {
         "at": "2026-11-26T19:17:59.000Z",
         "cat": "health",
         "sev": 1,
@@ -113,6 +187,16 @@
         "sev": 2,
         "source": "IMGW",
         "url": "https://meteo.imgw.pl/",
+        "title": "IMGW: 1 ostrzeżeń meteo, najwyższy stopień 1: Intensywne opady śniegu",
+        "official": true,
+        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
+      },
+      {
+        "at": "2026-11-26T05:53:00.000Z",
+        "cat": "weather",
+        "sev": 2,
+        "source": "IMGW",
+        "url": "https://meteo.imgw.pl/",
         "title": "IMGW: 4 ostrzeżeń meteo, najwyższy stopień 1: Intensywne opady śniegu",
         "official": true,
         "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
@@ -126,101 +210,63 @@
         "title": "Strącanie pocisków nad Ukrainą w praktyce niemożliwe. Jest kilka powodów",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-25T18:19:46.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Wiadomości Onet",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdU5YLXZ6M190MWpBMzA3eWxjaXQxMEJ0VUpQSEpoNmU1QndXT2ZVWU05ZURmaThGZkNzalFLVU9EbkkyV1pkT25VWTJEZXFzSEtHRkRQcmZwZ0duSHJseVh5bEtfUHFMaW5tMlhvTlR6eC1kck5NMVNKRUN1TWlSeGU5MEpOWk1YTk0tLWc0SHpZMzVsYTdtUVdDM3k?oc=5",
-        "title": "Rosyjski dron zniszczony laserem. Ukraina testuje nową obronę",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/mapa-schronow/",
-          "label": "Mapa schronów"
-        }
-      },
-      {
-        "at": "2026-11-25T15:17:41.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Polska Zbrojna",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNm1FNXM0N0stOHhuUkxNRlN6Z0NOMk9MeG8zanBIUXhtbk5OMTJNZkU4RlFRRWVsWjZna2lIQjZQV3p0LVAyNlNVc1pQOW5oTDQxdGF5enUyQ055dmVHSGt2TGwxaTNZTVdyUEV1dXFsZXlZTG5EMmM3X0JTa3RmblhrcUo?oc=5",
-        "title": "Polska Zbrojna",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-25T14:27:42.000Z",
-        "cat": "safety",
-        "sev": 2,
-        "source": "Radio Zet",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPakxFS3oyZjl0TG5jd2dWVHR3TjJNRF84RFo3WmhQY2xRQXJqSWtIMVFiMWpIbGhiYlExRlV1c1JFaGdjMFRFVFdaemFVdmZZQi1wRzZ2QkNjMm4wOUtMMkZSaVBkM0wxcHYzMXVwaUt3WnBPbXFUY2J6M2YtMVJlcWdHSTBzeFJRcmUzODdYbmI4V3Z5ZVBid2I5V3V6cGJFaW1Pa2dHV0pzeEstV0l5MGNtNA?oc=5",
-        "title": "Zaginął Bartosz Zarzycki, pilny komunikat policji. „Zagrożenie życia i zdrowia”",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-25T14:15:00.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "CERT Polska",
-        "url": "https://cert.pl/posts/2026/11/CVE-2026-114346/",
-        "title": "Podatności w module PrestaHelp phsuperpack dla Prestashop",
-        "official": true,
-        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
-      },
-      {
-        "at": "2026-11-25T13:09:19.000Z",
-        "cat": "health",
-        "sev": 1,
-        "source": "Polskie Radio 24",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQUE9JOFpURnRVbWp2aEF0WUUwTS1tVTdEbjJQdG9ISklSNkVFanF5cjlPMjJlQUF5aElKQ3A4czY5REEyZm9ETXVwWnZKLVpaTnphc3R2d1lBVGFBOFg1NHRSWW5BWWJCSWdXMU95alJfdGhKUnlvV3d5SGlWU0Z6QU50OVRSSzdGVW5ET3RGYzBSVnc?oc=5",
-        "title": "Małpia ospa na Pomorzu. Sanepid: wykryto kolejne przypadki",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-25T12:16:23.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Wiadomości Onet",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWm00UExNWEkzVUJ1UFJnaVEzVHREN3NzSmdyMDhNbTM5eV81a3pybnNQYS12VzByQUxwYXVCSXR3bm9IbU5FeWtza2FXZnZ1Z0RtOXpVUzhyMk5md3RtOVp1bEV4Yll6UXRWQ3pINGtFd0hvY3h6cUt4a0xVYjJTWEtIaERRcFl2WS1tcG82aW5JQXBld1VJNkVEOHNRY2t6X2xaalA4SFpPLVg0MUNJY3k2RQ?oc=5",
-        "title": "Niemcy testowali drony przy granicy z Białorusią. Nagle jeden zboczył z kursu",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/mapa-schronow/",
-          "label": "Mapa schronów"
-        }
-      },
-      {
-        "at": "2026-11-25T11:57:00.000Z",
-        "cat": "weather",
-        "sev": 2,
-        "source": "IMGW",
-        "url": "https://meteo.imgw.pl/",
-        "title": "IMGW: 2 ostrzeżeń meteo, najwyższy stopień 1: Oblodzenie",
-        "official": true,
-        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
-      },
-      {
-        "at": "2026-11-25T11:55:00.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "CERT Polska",
-        "url": "https://cert.pl/posts/2026/11/CVE-2026-129968/",
-        "title": "Podatność w oprogramowaniu LiteSpeed Cache Plugin for Prestashop",
-        "official": true,
-        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
       }
     ],
-    "updatedAt": "2026-11-27T04:36:46.454Z"
+    "updatedAt": "2026-11-27T14:27:47.899Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-27T13:58:47.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "TechStory",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcUNCUzhWZk5YbkkyTEYwdC1NdWRmZ2lzcDIxbEtIRl9aUUJOOUJycFBZUzJzRkJhM1BpNHRnbEdlU19kUjZjNE95VktwUk1RLWQ1WnQtOFhCZjhoUHF4T0wtMjFfLTV6T3lKVWRINUtTQkloV0FBdUpJTjlVNElwaXQ5bmFYMWdNRC1ucFB1LWNjcWdNOGlvSkF4ZXZvYWNXNloyb2ln?oc=5",
+        "title": "The US Government Is Under AI Cyberattack as Hackers Target Intelligence Agencies",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-27T13:18:54.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "The Marblehead Independent",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPLVQ5RlBpaEhsUEZzVC1UUWJRSG1MQllXdVE1dkRObm5vS0pmV1phMGJ5TmNfbmhkSjRNaGdJTUd2Q3pXTHRlajVvNUZ5SEM2NWhEaHB1Nmo0dER2TEg5MXk3d0l1UVVRcnZFdjdrR1lwVThkTUgyb1Utb3l2UGFOSzlyN3VyUFR2cm52STBCVWdqN3pTQUlV?oc=5",
+        "title": "Widespread power outage hits Old Town, Marblehead Neck",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-27T10:32:54.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "UNITED24 Media",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdEt4cXItb1BRRUhMeGF1RkxUcjlNVG9SSHVMa3gxV1p5N3pPUjUtNTNFWlN4S3MyZngyM05RN0pUT3A4al9FYXpqakNoejd2YWpERXBjRnNpLXJPSUJBTmVQLV9IR1VPa3NGZXVEMmlTaE4wY0xnbWxBOW9nbW9oOVpqcm9NRWZ4UmVxdk9NVmt0ZEZNVDJiNHZ3UFRUZS1qcFgyQ0t0a3k2UjZTQjdSUElaSk1STjdtbWIzLVdoOXJHaFVXSkkwM09MUjFaako3OGVNN1dRZlUzZw?oc=5",
+        "title": "Ukraine Strikes Russian Chemical Plant Producing Components for Iskander Ballistic Missile Fuel",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-27T07:15:46.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "NewsBytes",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUTBVYmdoWWdPTVdvdWdEWnRjODVfT183YTkzdzlPbUEybV8wWTBVdzRrQ0NtMlhsdUlmcmdmLWQ0cG5MejlHS2tTaDBBWlpFbXUtLUFSclVySWhISElQaE1Oa0MyVzNzVC11WnZraTREbng1Mk5nekszTHF3SVRKVS1ydmFGWmVuZl9CRkJvMU1hdFY5TnlF?oc=5",
+        "title": "Houthi missile strike on Saudi refinery kills Nepalese worker",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-27T05:06:26.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Asia Times",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQclVrSC1sRnVmRWlYaGlKUlZCWFpZdHNfSm5sUVlHYTJSNWZ4Y0F0MmdxRDBwdkNjUmZpMjFhYUNybUZPd183S21Fc3VsZjJudnQ1MW1WYXh0VzY5SVVqY3BURFRiOWFqZHpuRVFXQzM4NHJraGxQZmpoVEJEQ3lhZm1LdlpsZkN2TzFWODJxazJtclhv?oc=5",
+        "title": "Ukraine’s laser drone hit is a milestone, not a silver bullet",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-27T03:52:29.000Z",
         "cat": "security",
@@ -252,32 +298,12 @@
         "forYou": ""
       },
       {
-        "at": "2026-11-26T23:29:00.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "The Sun",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMEtfRkdieXBXTHZudUJWRVhpanpocVMwM1JKM3ZjNVN6cHdpaGVjWUppT1RtdGY0WEZHVGNzRkF2eU5ybF9YTEd1WXBrU1U3bDhKcWNvNDZvVjktdUtQbVJRcnZZLUdrY0xxZnVZRld2RHpCNTItNGFjSDVuRkZjN1lHVDBFZU5K?oc=5",
-        "title": "Ukrainian gymnast, 10, who lost leg in Russia strike dreams of Paralympic win",
-        "official": false,
-        "forYou": ""
-      },
-      {
         "at": "2026-11-26T21:32:31.000Z",
         "cat": "energy",
         "sev": 2,
         "source": "The Sunday Guardian",
         "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNNU9LWWh2cTJrMTJ2ZFVfSFVMX1BEWW1ZWHc4d3hFd0I4ajNnSTNjLVB5Mmw5V1IxSnM4M3JSaVpUaWpGN0dEdlEtMUJ2UWRMZmtrSEZlZ2pjdUZsdy1oU1lRVGVHdmtHZW1RWHBTTU4taUxpY2VWNEJuZ3Vrang5X25pNXZ2T2F5aVBjSDU4UGU4ckRWSjlFbkw1X1Aybmc1d2pKdDBEQXVBZ29EelpPWUt5anh6bUNVM0V4UnVsX1FxeGV6bmRjNXdzVUg1VXlIR3Bfek5ZTF8zczczd1lPa0dMbXBLLW5mWDRUcUFkZzU1TmZjT0FoajBZME83MjFNN2NKdTFYamt5YmctSnc?oc=5",
         "title": "BGE Power Outage: Hundreds Of Thousands Lose Electricity Across US On Thanksgiving As Snow Hits Missouri And Storms Lash Mid Atlantic",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-26T19:54:17.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "UA.NEWS",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQQ2V4WUx5YXNEODM4NW14Z0RiOW80S0Q0T3plYW1RSmlJOFRBT2l5Zk1QMUJoSkRldFZCVnJHeFZ4S2MyeFh0QUF5eHZvS3R6Qi1UeG1yWjJPTlZTR0JLb2RsbHRkU1A2VjRGRk1ObkU2Z2FOMVpfcDFLRWFKcVZ5U0NBWGstUG9YMTg1TDl1OW1xZlBKWE14a2hqSVBpd01P?oc=5",
-        "title": "Zelenskyy warned that Russia is preparing a massive missile strike",
         "official": false,
         "forYou": ""
       },
@@ -328,16 +354,6 @@
         "source": "The Straits Times",
         "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPT3dPWGY5Y0x1Rklyd3IyUHRrM3k3N1JJOGpIVm9hMk1uVWRyRmR4ODdwd0ZaRXotUnREM192QmVpZDM5eTczYzJFUnBTdHRSVjNSLXJ4dXZDdVM1SEZxOUZuMks1bUdnOHp6Y2ZDcVJnTHR4d3V5NTYwN0lMNGMxYXZ0SlJ4X2hpMnY4WXJB?oc=5",
         "title": "Major blackout hits Sabah’s east coast again",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-26T00:00:21.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "TRT World",
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5iZ19tS3lmNEYyN0J2VXNha2JzRVRIaEp5Y1Vra1VtYXYxT1VhMkZzbGxPamN6N3h3aDB2WE9EQnFLSXI1WEpLdVBQalZsaFRQNmNncTdlODg?oc=5",
-        "title": "Kiev mayor says Russia targeted capital with ballistic missiles as US warns against escalation",
         "official": false,
         "forYou": ""
       },
@@ -400,28 +416,8 @@
         "title": "Gatwick Airport disables payment system after cyberattack — The National",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-25T00:33:24.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "Federal News Network",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTThUQ2tKc3BHM25BejlUMk1vMUNWSW4tRFh3TWtBY1NCaEg1dU5aRWR6V1VVSElzei1Sa3RzN2kwWFhOSHVzVGVfUGFjNmlvdENKRXJDbWFhWVJZWVprN1dXX3VfSkIxVlBSdG5iQ0sxR1VWSlNuMHN3THl2WnJValVnVm5rX0FiQnBqYVZmYm53UEl3Ml9PRXQtRjN1b2xfSHRTTGgtUktkOXhQN3YyZ0p1LXFtdDhmd1JPS0h4V3VCSTg?oc=5",
-        "title": "An unclassified CIA system was breached in a cyberattack, AP source says",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-24T23:07:21.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "LEADERSHIP Newspapers",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQS0pCSlFYVG0ya042OU54al9KeTR3NFlBenRaLWx0WHE0VFFneFBvUy1KTHptRVhsWDVMc1VZRGd4Vm1qX2R5V1licW9FX0RsTDlpU0xGaUVpV05kaTdyT00zOTRrQ1ZkSjUzOGtYZ1dTY3RWdUZCZ0NqMEdEU0d0enJPejc2Zw?oc=5",
-        "title": "CCTV Extends Real Madrid Blackout Despite Mbappé Apology",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-27T04:38:57.453Z"
+    "updatedAt": "2026-11-27T14:29:53.065Z"
   }
 }
