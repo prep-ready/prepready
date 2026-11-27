@@ -35,7 +35,7 @@ const catById = new Map(bagCategories.map((c) => [c.id, c]));
 const swatchBg = (c: (typeof bagModel.colors)[number]) => c.palette
   ? `background:linear-gradient(135deg,${c.palette.map((h, i, a) => `${h} ${(i / a.length) * 100}% ${((i + 1) / a.length) * 100}%`).join(',')})`
   : `background:${c.hex}`;
-const basicPrice = basic.reduce((s, i) => s + (i.produkt?.cena ?? 0), 0);
+const basicPrice = basic.reduce((s, i) => s + (i.produkt?.cena ?? i.cena ?? 0), 0);
 
 const jsonLd = [
   {
@@ -154,7 +154,7 @@ const jsonLd = [
         <div class="custom-bar" hidden>
           <span class="cb-label" data-cb-label>Własny zestaw na bazie wersji Podstawowej</span>
           <button class="chip" type="button" data-reset>Przywróć wersję</button>
-          <button class="chip" type="button" data-clear>Wyczyść wszystko</button>
+          <button class="chip" type="button" data-clear>Zostaw tylko niezbędne</button>
         </div>
 
         <div class="cfg">
@@ -240,9 +240,10 @@ const jsonLd = [
                   <p><b data-t-items>{basic.length}</b> <span data-t-items-l>{rzeczy(basic.length)}</span></p>
                   <p><b data-t-pouches>{pouches.length}</b> <span data-t-pouches-l>{saszetek(pouches.length)}</span></p>
                 </div>
+                <p class="t-l">Szacunkowo <b data-t-sum>{zl(Math.round(basicPrice))}</b></p>
                 <a class="btn primary t-btn" href="#zgloszenie">Zamów ten zestaw</a>
                 <p class="t-time">Kompletowanie do 10 dni. Zamówienia hurtowe wyceniamy indywidualnie.</p>
-                <p class="t-note">Cenę zestawu, wysyłkę i termin podamy w wycenie mailem.</p>
+                <p class="t-note">Szacunkowa cena całego zestawu, zmienia się, gdy dodajesz lub usuwasz rzeczy. Dokładną cenę, wysyłkę i termin podamy w wycenie mailem.</p>
               </div>
 
               <div class="psum panel" aria-live="polite">
@@ -494,7 +495,8 @@ const jsonLd = [
     const verLabel = () => (isCustom() ? `Własny (na bazie ${verById.get(base)!.gen})` : verById.get(base)!.name);
     const priceOf = (id: string): number | null => {
       if (id === 'plecak') return colorById.get(color)?.cena ?? byId.get(id)!.produkt?.cena ?? null;
-      return byId.get(id)!.produkt?.cena ?? null;
+      const it = byId.get(id)!;
+      return it.produkt?.cena ?? it.cena ?? null;
     };
 
     const $ = <T extends HTMLElement = HTMLElement>(s: string, el: ParentNode = root) => el.querySelector<T>(s)!;
@@ -549,6 +551,7 @@ const jsonLd = [
       const li = document.createElement('li');
       const lab = document.createElement('label'); lab.className = 'hc-it';
       const inp = document.createElement('input'); inp.type = 'checkbox'; inp.checked = on; inp.dataset.id = id;
+      if (on && it.wymagane) { inp.disabled = true; lab.title = 'Niezbędne, zawsze w plecaku'; }
       inp.setAttribute('aria-label', `W plecaku: ${it.name}`);
       const ck = document.createElement('span'); ck.className = 'hc-ck'; ck.setAttribute('aria-hidden', 'true');
       const n = document.createElement('span'); n.className = 'hn'; n.textContent = it.name;
@@ -610,7 +613,17 @@ const jsonLd = [
 
     /* ── Rysowanie listy, liczników, podsumowań ── */
     let first = true;
+    // Niezbędne rzeczy zawsze są w plecaku (albo ich lepsza wersja)
+    const ensureRequired = () => {
+      bagItems.forEach((i) => {
+        if (!i.wymagane) return;
+        const swapped = (replacers.get(i.id) || []).some((x) => rawIn(x));
+        if (!swapped && !rawIn(i.id)) { inBase(i.id) ? rem.delete(i.id) : add.add(i.id); }
+      });
+    };
+    const isLocked = (id: string, kitSet: Set<string>) => !!byId.get(id)!.wymagane && kitSet.has(id);
     const render = () => {
+      ensureRequired();
       const animate = !first;
       first = false;
       const kit = kitItems();
@@ -638,9 +651,13 @@ const jsonLd = [
         }
         li.classList.toggle('on', on);
         li.querySelector('input')!.checked = on;
+        const locked = isLocked(id, kitSet);
+        li.querySelector('input')!.disabled = locked;
+        li.classList.toggle('req', locked);
         const note = $('[data-lvl]', li);
         const swap = (replacers.get(id) || []).find((x) => kitSet.has(x));
-        if (on) note.textContent = add.has(id) && !inBase(id) ? `Dodane przez Ciebie, w standardzie w wersji ${levelLoc[it.level]}` : '';
+        if (on && locked) note.textContent = 'Niezbędne, zawsze w plecaku';
+        else if (on) note.textContent = add.has(id) && !inBase(id) ? `Dodane przez Ciebie, w standardzie w wersji ${levelLoc[it.level]}` : '';
         else if (swap) note.textContent = `Zastąpione przez: ${byId.get(swap)!.name}`;
         else if (it.replaces && kitSet.has(it.replaces)) note.textContent = `Lepsza wersja, zastąpi: ${byId.get(it.replaces)!.name}`;
         else note.textContent = inBase(id) ? `W standardzie w tej wersji, usunięte przez Ciebie` : `W standardzie w wersji ${levelLoc[it.level]}`;
@@ -709,9 +726,10 @@ const jsonLd = [
       $('[data-t-items-l]').textContent = rzeczy(kit.length);
       tween($('[data-t-pouches]'), nP, String, animate);
       $('[data-t-pouches-l]').textContent = saszetek(nP);
+      tween($('[data-t-sum]'), Math.round(sum), zlR, animate);
       $('[data-sb-v]', sbar).textContent = label;
       $('[data-t-v]').textContent = label;
-      $('[data-sb-c]', sbar).textContent = `${nR(kit.length)} · ${nS(nP)}`;
+      $('[data-sb-c]', sbar).textContent = `${nR(kit.length)} · ok. ${zlR(sum)}`;
 
       // Podsumowanie w formularzu, aktualizowane na żywo
       sel.value = custom ? 'custom' : base;
@@ -724,7 +742,7 @@ const jsonLd = [
         return li;
       }));
       const nQ = Math.max(1, Math.round(Number(($('#bg-qty', form) as HTMLInputElement).value) || 1));
-      $('.sel-total', selBox).textContent = kit.length && nQ > 1 ? `Ilość: ${nQ} szt. Cenę podamy w wycenie.` : '';
+      $('.sel-total', selBox).textContent = kit.length ? `Szacunkowo: ${zlR(sum)}${nQ > 1 ? ` × ${nQ} szt. = ${zlR(sum * nQ)}` : ''}` : '';
       $('.sel-det-l', selBox).textContent = `Pokaż listę rzeczy (${kit.length})`;
       if (animate && !reduce) { selBox.classList.remove('flash'); void selBox.offsetWidth; selBox.classList.add('flash'); }
 
@@ -765,6 +783,7 @@ const jsonLd = [
       else { inBase(id) ? rem.add(id) : add.delete(id); }
     };
     const toggleItem = (id: string, on: boolean) => {
+      if (!on && byId.get(id)!.wymagane && !(replacers.get(id) || []).some((x) => rawIn(x))) { render(); return; }
       setIn(id, on);
       if (on) {
         // zamiennik wypiera słabszą wersję i odwrotnie
@@ -788,7 +807,7 @@ const jsonLd = [
     });
     $('[data-reset]', bar).addEventListener('click', () => setVersion(base));
     $('[data-clear]', bar).addEventListener('click', () => {
-      add.clear(); bagItems.forEach((i) => { if (inBase(i.id)) rem.add(i.id); }); customFlag = true;
+      add.clear(); bagItems.forEach((i) => { if (inBase(i.id) && !i.wymagane) rem.add(i.id); }); customFlag = true;
       render(); save();
     });
 
@@ -1027,6 +1046,7 @@ const jsonLd = [
         `Ilość: ${n} szt.`,
         `Telefon: ${phone || 'nie podano'}`,
         `Miasto / kod: ${city || 'nie podano'}`,
+        `Szacunkowo za 1 szt.: ${zl(Math.round(sum))}${n > 1 ? `, za ${n} szt.: ${zl(Math.round(sum * n))}` : ''}`,
         `Link do zestawu: ${location.href.split('#')[0]}`,
         '',
         ...lines,
@@ -1045,7 +1065,7 @@ const jsonLd = [
         if (!j.ok) throw new Error(j.error || 'send');
         $$('fieldset, .check, .actions, #bg-consent-e', form).forEach((el) => (el.hidden = true));
         const done = $('.done', form);
-        $('.done-s', done).textContent = `${name}, ${n} szt. · kolor ${c.name}`;
+        $('.done-s', done).textContent = `${name}, ${n} szt. · kolor ${c.name} · szacunkowo ${zlR(sum * n)}`;
         $('.done-mail', done).textContent = $<HTMLInputElement>('#bg-email', form).value.trim();
         done.hidden = false;
         form.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' });
@@ -1199,6 +1219,12 @@ const jsonLd = [
   .slot{display:inline-flex;align-items:center;min-height:28px;margin-left:auto;font-size:12.5px;color:var(--muted);white-space:nowrap}
   .slot:hover{color:var(--ink)}
 
+  /* niezbędne: zawsze w plecaku, przełącznik zablokowany */
+  .cat li.req .it{cursor:default}
+  .cat li.req .it input:checked + .ck{background:var(--ink-2);border-color:var(--ink-2)}
+  .cat li.req .it:hover .ck{border-color:var(--ink-2)}
+  .cat li.req .lvl{color:var(--ink-2)}
+  .hc-list :global(.hc-it input:disabled + .hc-ck){opacity:.55}
   /* drobiazgi: krótki wiersz jak punkt listy, opis w dymku */
   .cat li.small .it{padding:9px 16px 9px}
   .cat li.small .in{font-weight:550;font-size:14.5px}
