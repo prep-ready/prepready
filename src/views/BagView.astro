@@ -19,7 +19,7 @@ import { routes, guideBase } from '../i18n/ui';
 const path = '/pl/plecak-ewakuacyjny/';
 const pageUrl = new URL(path, Astro.site).href;
 const title = 'Plecak ewakuacyjny PrepReady: 4 wersje, co jest w środku';
-const description = 'Plecak ewakuacyjny w 3D: kolorowe saszetki na wodę, jedzenie, apteczkę i resztę, przykładowe produkty z cenami i zestaw, który ułożysz sam. Podstawowy, Rozszerzony, Pro albo własny.';
+const description = 'Plecak ewakuacyjny w 3D: kolorowe saszetki na wodę, jedzenie, apteczkę i resztę, przykładowy sprzęt od naszych partnerów i zestaw, który ułożysz sam. Podstawowy, Rozszerzony, Pro albo własny.';
 
 const basic = itemsFor('basic');
 const counts = Object.fromEntries(bagVersions.map((v) => [v.id, v.id === 'custom' ? basic.length : itemsFor(v.id).length]));
@@ -58,7 +58,7 @@ const jsonLd = [
       <div class="h-head">
         <p class="eyebrow">Plecak ewakuacyjny PrepReady · kompletujemy</p>
         <h1>Plecak ewakuacyjny: wybierz wersję i zobacz, co jest w środku</h1>
-        <p class="lead">Wszystko pakujemy w kolorowe saszetki: niebieska to woda, zielona z białym krzyżem to apteczka, żółta to światło i prąd. Otwórz plecak, wybierz wersję i sprawdź każdą rzecz z przykładowym produktem i ceną. Pierwsze zestawy kompletujemy teraz.</p>
+        <p class="lead">Wszystko pakujemy w kolorowe saszetki: niebieska to woda, zielona z białym krzyżem to apteczka, żółta to światło i prąd. Otwórz plecak, wybierz wersję i sprawdź każdą rzecz: najedź na nią, a zobaczysz krótki opis i specyfikację. Pierwsze zestawy kompletujemy teraz.</p>
       </div>
 
       <div class="stage panel" id="bag-stage">
@@ -116,7 +116,7 @@ const jsonLd = [
                 aria-label={c.name} title={c.desc ? `${c.name}: ${c.desc}` : c.name} style={swatchBg(c)}></button>
             ))}
           </div>
-          <p class="col-note" data-col-note>{defColor.cena ? `${zl(defColor.cena)} u producenta · ` : ''}ten kolor mamy w plecaku testowym</p>
+          <p class="col-note" data-col-note>ten kolor mamy w plecaku testowym</p>
         </div>
 
         <div class="cta-row">
@@ -180,35 +180,47 @@ const jsonLd = [
                     <ul class="out-list" data-out>
                       {items.map((i) => {
                         const p = i.produkt;
-                        const showBrand = p && !p.nazwa.toLowerCase().includes(p.marka.split(/[ /(]/)[0].toLowerCase());
+                        const tipId = `tip-${i.id}`;
+                        const hasTip = !!(i.drobne || p);
                         return (
-                          <li id={`rzecz-${i.id}`} data-id={i.id} data-level={i.level} data-cat={i.cat}>
+                          <li id={`rzecz-${i.id}`} data-id={i.id} data-level={i.level} data-cat={i.cat} class={i.drobne ? 'small' : undefined}>
                             <label class="it">
-                              <input type="checkbox" value={i.id} aria-label={`W plecaku: ${i.name}`} />
+                              <input type="checkbox" value={i.id} aria-label={`W plecaku: ${i.name}`} aria-describedby={hasTip ? tipId : undefined} />
                               <span class="ck" aria-hidden="true"></span>
                               <span class="it-b">
                                 <span class="it-h">
                                   <span class="in">{i.name}</span>
-                                  <span class={`ip${p?.cena == null ? ' na' : ''}`} data-pp>{p?.cena != null ? zl(p.cena) : 'cena wkrótce'}</span>
                                 </span>
-                                <span class="iw">{i.why}</span>
+                                {!i.drobne && <span class="iw">{i.why}</span>}
                                 <span class="lvl" data-lvl></span>
                                 {i.outside && <span class="where"><i class="dot out"></i>Na zewnątrz: {i.outside}</span>}
                               </span>
                             </label>
-                            <p class="prod" data-prod>
-                              {p ? (
-                                <Fragment>
-                                  <span class="pn">{showBrand && <Fragment><b data-pm>{p.marka}</b> </Fragment>}<span data-pn>{p.nazwa}</span></span>
-                                  {p.uwaga && <span class="ph">{p.uwaga}</span>}
-                                  {p.url && <a class="pu" data-pu href={p.url} rel="sponsored noopener" target="_blank">Zobacz<span class="sr-only"> produkt: {p.nazwa} (nowa karta)</span></a>}
-                                  {p.dodatkowe?.map((u, k) => <a class="pu" href={u} rel="sponsored noopener" target="_blank">{p.dodatkowe!.length > 1 ? `część ${k + 2}` : 'druga część'}<span class="sr-only"> (nowa karta)</span></a>)}
-                                </Fragment>
-                              ) : (
-                                <span class="pn na">Przykładowy produkt wkrótce</span>
-                              )}
-                              {!p?.partner && <a class="slot" href={REKLAMA}>Miejsce dla producenta</a>}
-                            </p>
+                            {!i.drobne && (
+                              <p class="prod" data-prod>
+                                {p ? (
+                                  <span class="pn"><b data-pm>{p.marka}</b> <span data-pn>{p.nazwa}</span></span>
+                                ) : (
+                                  <span class="pn na">Producenta właśnie dobieramy</span>
+                                )}
+                                {p?.uwaga && <span class="ph">{p.uwaga}</span>}
+                                {p && <button class="tip-b" type="button" data-tip aria-expanded="false" aria-controls={tipId}>Specyfikacja</button>}
+                                {!p?.partner && <a class="slot" href={REKLAMA}>Miejsce dla producenta</a>}
+                              </p>
+                            )}
+                            {hasTip && (
+                              <div class="tip" id={tipId} role="tooltip">
+                                {p ? (
+                                  <Fragment>
+                                    <p class="tip-h"><b>{p.marka}</b> {p.nazwa}</p>
+                                    {p.opis && <p class="tip-o">{p.opis}</p>}
+                                    {p.spec && <dl class="tip-s">{p.spec.map(([k, v]) => <div><dt>{k}</dt><dd>{v}</dd></div>)}</dl>}
+                                  </Fragment>
+                                ) : (
+                                  <p class="tip-o">{i.why} Drobiazg do dokupienia, kompletujemy go sami.</p>
+                                )}
+                              </div>
+                            )}
                           </li>
                         );
                       })}
@@ -228,14 +240,13 @@ const jsonLd = [
                   <p><b data-t-items>{basic.length}</b> <span data-t-items-l>{rzeczy(basic.length)}</span></p>
                   <p><b data-t-pouches>{pouches.length}</b> <span data-t-pouches-l>{saszetek(pouches.length)}</span></p>
                 </div>
-                <p class="t-l">Szacunkowo <b data-t-sum>{zl(basicPrice)}</b><span class="t-miss" data-t-miss></span></p>
                 <a class="btn primary t-btn" href="#zgloszenie">Zamów ten zestaw</a>
                 <p class="t-time">Kompletowanie do 10 dni. Zamówienia hurtowe wyceniamy indywidualnie.</p>
-                <p class="t-note">{cenyDate ? `Ceny przykładowych produktów z dnia ${cenyDate}, mogą się zmienić. Dokładną wycenę wyślemy mailem.` : 'Ceny przykładowych produktów właśnie uzupełniamy i mogą się zmienić. Dokładną wycenę wyślemy mailem.'}</p>
+                <p class="t-note">Cenę zestawu, wysyłkę i termin podamy w wycenie mailem.</p>
               </div>
 
               <div class="psum panel" aria-live="polite">
-                <p class="ps-h"><b>Koszt saszetek</b><span data-ps-sub></span></p>
+                <p class="ps-h"><b>Saszetki</b><span data-ps-sub></span></p>
                 <ul class="ps-list">
                   {pouches.map((c) => (
                     <li data-cat={c.id} title="">
@@ -267,7 +278,6 @@ const jsonLd = [
           <div class="a-text">
             {bagModel.opis.map((p) => <p>{p}</p>)}
           </div>
-          <p class="a-link"><a class="link-more" href={bagModel.url} rel="sponsored noopener" target="_blank">Strona plecaka u producenta<span class="sr-only"> (nowa karta)</span></a></p>
         </div>
         <div>
           <dl class="specs">
@@ -276,10 +286,10 @@ const jsonLd = [
           <p class="eyebrow a-col-h">Kolory ({bagModel.colors.length})</p>
           <ul class="a-cols">
             {bagModel.colors.map((c) => (
-              <li><button type="button" data-color={c.id} aria-pressed={c.id === defColor.id ? 'true' : 'false'}><i class="sw-s" style={swatchBg(c)}></i><span>{c.name}</span>{c.cena && <span class="a-p">{zl(c.cena)}</span>}</button></li>
+              <li><button type="button" data-color={c.id} aria-pressed={c.id === defColor.id ? 'true' : 'false'}><i class="sw-s" style={swatchBg(c)}></i><span>{c.name}</span></button></li>
             ))}
           </ul>
-          <p class="a-src">Opis i ceny według strony producenta ({bagModel.sprawdzono.split('-').reverse().join('.')}). Kolory na modelu są przybliżone, kamuflaże rysujemy w uproszczeniu.</p>
+          <p class="a-src">Opis według strony producenta ({bagModel.sprawdzono.split('-').reverse().join('.')}). Kolory na modelu są przybliżone, kamuflaże rysujemy w uproszczeniu.</p>
         </div>
       </div>
     </section>
@@ -543,9 +553,6 @@ const jsonLd = [
       const ck = document.createElement('span'); ck.className = 'hc-ck'; ck.setAttribute('aria-hidden', 'true');
       const n = document.createElement('span'); n.className = 'hn'; n.textContent = it.name;
       lab.append(inp, ck, n);
-      const pr = priceOf(id);
-      const p = document.createElement('span'); p.className = pr == null ? 'hp na' : 'hp'; p.textContent = pr == null ? 'wkrótce' : zl(pr);
-      lab.append(p);
       li.append(lab);
       return li;
     };
@@ -558,7 +565,7 @@ const jsonLd = [
       card.style.setProperty('--c', c.pouch?.hex || 'var(--muted)');
       $('.hc-t', card).textContent = c.pouch ? `${c.name}` : 'Plecak';
       $('.hc-n', card).textContent = c.pouch ? `${pouchName(c)} · ${nR(inCat.length)}` : nR(inCat.length);
-      $('.hc-s', card).textContent = inCat.length ? zlR(sumOf(inCat)) : '';
+      $('.hc-s', card).textContent = '';
       $('.hc-list', card).replaceChildren(...inCat.map((i) => cardRow(i.id, true)));
       $('.hc-empty', card).hidden = inCat.length > 0;
       const addBtn = $<HTMLButtonElement>('.hc-add', card), out = $('.hc-out', card);
@@ -658,8 +665,7 @@ const jsonLd = [
         const out = $('[data-out]', g).children.length;
         tween($('[data-cc]', g), n, String, animate);
         $('[data-cc-w]', g).textContent = rzeczy(n);
-        tween($('[data-csum]', g), Math.round(costCat.get(g.dataset.cat!) || 0), (v) => (v ? zl(v) : ''), animate);
-        $('[data-ctop]', g).hidden = g.dataset.cat !== topPouch;
+        $('[data-ctop]', g).hidden = true;
         $('[data-empty]', g).hidden = n > 0;
         const det = $<HTMLDetailsElement>('[data-add]', g);
         det.hidden = out === 0;
@@ -670,20 +676,20 @@ const jsonLd = [
       const nP = inside.size;
       const nIn = [...inside.values()].reduce((s, a) => s + a.length, 0);
       $('[data-ps-sub]').textContent = ` · ${nS(nP)}, ${nR(nIn)}`;
+      const maxN = Math.max(0, ...[...inside.values()].map((a) => a.length));
       $$('.ps-list li').forEach((li) => {
         const list = inside.get(li.dataset.cat!) || [];
-        const cost = costCat.get(li.dataset.cat!) || 0;
         li.hidden = !list.length;
-        li.classList.toggle('top', li.dataset.cat === topPouch);
-        $('[data-ps-k]', li).textContent = zlR(cost);
-        $<HTMLElement>('[data-ps-bar]', li).style.width = `${topCost ? Math.max(4, (cost / topCost) * 100) : 0}%`;
+        li.classList.remove('top');
+        $('[data-ps-k]', li).textContent = nR(list.length);
+        $<HTMLElement>('[data-ps-bar]', li).style.width = `${maxN ? Math.max(4, (list.length / maxN) * 100) : 0}%`;
         $('[data-ps-i]', li).textContent = list.join(', ');
         li.title = list.join(', ');
       });
       // lista saszetek od najdroższej
       const psUl = $('.ps-list');
       const psLis = [...psUl.children] as HTMLElement[];
-      const psSorted = [...psLis].sort((x, y) => (costCat.get(y.dataset.cat!) || 0) - (costCat.get(x.dataset.cat!) || 0));
+      const psSorted = [...psLis].sort((x, y) => (inside.get(y.dataset.cat!)?.length || 0) - (inside.get(x.dataset.cat!)?.length || 0));
       if (psSorted.some((x, i) => x !== psLis[i])) psUl.append(...psSorted);
       const outs = kit.filter((i) => i.outside);
       const psOut = $('[data-ps-out]');
@@ -703,11 +709,9 @@ const jsonLd = [
       $('[data-t-items-l]').textContent = rzeczy(kit.length);
       tween($('[data-t-pouches]'), nP, String, animate);
       $('[data-t-pouches-l]').textContent = saszetek(nP);
-      tween($('[data-t-sum]'), Math.round(sum), zlR, animate);
-      $('[data-t-miss]').textContent = miss ? ` + ${nR(miss)} z ceną wkrótce` : '';
       $('[data-sb-v]', sbar).textContent = label;
       $('[data-t-v]').textContent = label;
-      $('[data-sb-c]', sbar).textContent = `${nR(kit.length)} · ok. ${zlR(sum)}${miss ? '+' : ''}`;
+      $('[data-sb-c]', sbar).textContent = `${nR(kit.length)} · ${nS(nP)}`;
 
       // Podsumowanie w formularzu, aktualizowane na żywo
       sel.value = custom ? 'custom' : base;
@@ -716,13 +720,11 @@ const jsonLd = [
       $('.sel-items', selBox).replaceChildren(...kit.map((i) => {
         const li = document.createElement('li');
         const n = document.createElement('span'); n.textContent = i.name;
-        const p = document.createElement('span'); const pr = priceOf(i.id); p.textContent = pr == null ? 'cena wkrótce' : zl(pr);
-        if (pr == null) p.className = 'na';
-        li.append(n, p);
+        li.append(n);
         return li;
       }));
       const nQ = Math.max(1, Math.round(Number(($('#bg-qty', form) as HTMLInputElement).value) || 1));
-      $('.sel-total', selBox).textContent = kit.length ? `Szacunkowo: ${zlR(sum)}${nQ > 1 ? ` × ${nQ} szt. = ${zlR(sum * nQ)}` : ''}${miss ? ` + ${nR(miss)} z ceną wkrótce` : ''}` : '';
+      $('.sel-total', selBox).textContent = kit.length && nQ > 1 ? `Ilość: ${nQ} szt. Cenę podamy w wycenie.` : '';
       $('.sel-det-l', selBox).textContent = `Pokaż listę rzeczy (${kit.length})`;
       if (animate && !reduce) { selBox.classList.remove('flash'); void selBox.offsetWidth; selBox.classList.add('flash'); }
 
@@ -799,7 +801,7 @@ const jsonLd = [
       color = id;
       $$('[data-color]').forEach((b) => b.setAttribute(b.getAttribute('role') === 'radio' ? 'aria-checked' : 'aria-pressed', String(b.dataset.color === id)));
       colName.textContent = c.name;
-      const parts = [c.cena ? `${zl(c.cena)} u producenta` : '', c.palette ? 'wzór uproszczony' : ''];
+      const parts = [c.palette ? 'wzór uproszczony' : ''];
       parts.push(id === bagModel.defaultColor ? 'ten kolor mamy w plecaku testowym' : c.dostepny === false ? 'u producenta chwilowo niedostępny' : 'u producenta dostępny');
       colNote.textContent = parts.filter(Boolean).join(' · ');
       if (plecakLi) {
@@ -833,6 +835,43 @@ const jsonLd = [
     }));
     card.querySelector('.hc-x')!.addEventListener('click', () => pick(null));
     document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && picked) pick(null); });
+    /* ── Dymek z opisem i specyfikacją: najechanie na rzecz, fokus albo przycisk „Specyfikacja” (dotyk) ── */
+    let tipLi: HTMLElement | null = null;
+    const placeTip = (li: HTMLElement) => {
+      const tip = li.querySelector<HTMLElement>('.tip');
+      if (!tip) return;
+      if (tipLi && tipLi !== li) hideTip(tipLi);
+      tipLi = li;
+      li.classList.add('tip-on');
+      li.querySelector('[data-tip]')?.setAttribute('aria-expanded', 'true');
+      const r = li.getBoundingClientRect(), w = tip.offsetWidth, h = tip.offsetHeight, m = 12;
+      let left = Math.min(Math.max(m, r.left + 54), window.innerWidth - w - m);
+      let top = r.bottom + 6;
+      if (top + h > window.innerHeight - m) top = Math.max(m, r.top - h - 6);
+      tip.style.left = `${left}px`; tip.style.top = `${top}px`;
+    };
+    const hideTip = (li: HTMLElement | null) => {
+      if (!li) return;
+      li.classList.remove('tip-on');
+      li.querySelector('[data-tip]')?.setAttribute('aria-expanded', 'false');
+      if (tipLi === li) tipLi = null;
+    };
+    const hoverOk = matchMedia('(hover:hover)').matches;
+    rows.forEach((li) => {
+      if (!li.querySelector('.tip')) return;
+      if (hoverOk) {
+        li.addEventListener('mouseenter', () => placeTip(li));
+        li.addEventListener('mouseleave', () => hideTip(li));
+      }
+      li.addEventListener('focusin', (e) => { if ((e.target as HTMLElement).matches('input,[data-tip]')) placeTip(li); });
+      li.addEventListener('focusout', () => hideTip(li));
+      li.querySelector('[data-tip]')?.addEventListener('click', (e) => {
+        e.preventDefault();
+        li.classList.contains('tip-on') && !hoverOk ? hideTip(li) : placeTip(li);
+      });
+    });
+    window.addEventListener('scroll', () => hideTip(tipLi), { passive: true });
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') hideTip(tipLi); });
     openBtn.addEventListener('click', () => {
       if (!bag) return;
       const on = !bag.isOpen();
@@ -976,7 +1015,7 @@ const jsonLd = [
         const p = priceOf(i.id);
         p == null ? miss++ : (sum += p);
         const prod = i.id === 'plecak' ? `Wisport Whistler II 35, ${c.name}` : i.produkt ? `${i.produkt.marka} ${i.produkt.nazwa}` : '';
-        return `- ${i.name}${prod ? ` (${prod})` : ''}: ${p == null ? 'cena wkrótce' : zl(p)}`;
+        return `- ${i.name}${prod ? ` (${prod})` : ''}`;
       });
       const set = (k: string, v: string) => ((form.elements.namedItem(k) as HTMLInputElement).value = v);
       set('company', `Zamówienie plecaka · ${name} × ${n}${n >= BULK ? ' (hurt)' : ''}`);
@@ -992,8 +1031,6 @@ const jsonLd = [
         '',
         ...lines,
         '',
-        `Szacunkowo za 1 szt.: ${zl(Math.round(sum))}${miss ? ` + ${nR(miss)} bez ceny` : ''}`,
-        n > 1 ? `Szacunkowo za ${n} szt.: ${zl(Math.round(sum * n))}` : '',
         '',
         `Uwagi: ${note || 'brak'}`,
       ].filter((l, i, a) => l !== '' || a[i - 1] !== '').join('\n').replace(/ /g, ' '));
@@ -1008,7 +1045,7 @@ const jsonLd = [
         if (!j.ok) throw new Error(j.error || 'send');
         $$('fieldset, .check, .actions, #bg-consent-e', form).forEach((el) => (el.hidden = true));
         const done = $('.done', form);
-        $('.done-s', done).textContent = `${name}, ${n} szt. · kolor ${c.name} · szacunkowo ${zlR(sum * n)}${miss ? '+' : ''}`;
+        $('.done-s', done).textContent = `${name}, ${n} szt. · kolor ${c.name}`;
         $('.done-mail', done).textContent = $<HTMLInputElement>('#bg-email', form).value.trim();
         done.hidden = false;
         form.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' });
@@ -1161,6 +1198,27 @@ const jsonLd = [
   .prod .ph{font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--signal);border:1px solid currentColor;border-radius:4px;padding:0 5px;white-space:nowrap}
   .slot{display:inline-flex;align-items:center;min-height:28px;margin-left:auto;font-size:12.5px;color:var(--muted);white-space:nowrap}
   .slot:hover{color:var(--ink)}
+
+  /* drobiazgi: krótki wiersz jak punkt listy, opis w dymku */
+  .cat li.small .it{padding:9px 16px 9px}
+  .cat li.small .in{font-weight:550;font-size:14.5px}
+  .cat li.small .ck{width:20px;height:20px}
+
+  /* dymek po najechaniu: nasz krótki opis i specyfikacja (bez cen i linków) */
+  .tip-b{display:inline-flex;align-items:center;min-height:28px;padding:0;border:0;background:none;font:inherit;font-weight:700;font-size:12.5px;color:var(--ink-2);text-decoration:underline;text-decoration-style:dotted;text-underline-offset:3px;cursor:help}
+  .tip-b:hover,.tip-b[aria-expanded="true"]{color:var(--ink)}
+  .tip{position:fixed;z-index:60;display:none;width:min(320px,calc(100vw - 24px));padding:12px 14px;border-radius:8px;background:var(--ink);color:var(--bg);box-shadow:0 10px 30px rgba(0,0,0,.28);pointer-events:none;font-size:13px;line-height:1.45}
+  .cat li.tip-on .tip{display:block}
+  .tip p{margin:0}
+  .tip-h{font-family:var(--body);font-weight:var(--body-w)}
+  .tip-h b{font-family:var(--display);font-weight:700}
+  .tip-o{margin-top:6px !important;opacity:.85}
+  .cat li.small .tip-o{margin-top:0 !important}
+  .tip-s{display:grid;gap:3px;margin:9px 0 0;padding-top:8px;border-top:1px solid color-mix(in srgb,var(--bg) 22%,transparent)}
+  .tip-s div{display:flex;justify-content:space-between;gap:14px}
+  .tip-s dt{font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;opacity:.7;padding-top:2px}
+  .tip-s dd{margin:0;text-align:right;font-weight:600}
+  @media (hover:none){.tip{pointer-events:auto}}
 
   /* „Możesz dodać”: zwinięte, rzeczy przygaszone, dopóki ich nie zaznaczysz */
   .can-add{border-top:1px solid var(--line)}
