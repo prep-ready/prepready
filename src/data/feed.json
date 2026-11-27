@@ -24,6 +24,16 @@
         "forYou": ""
       },
       {
+        "at": "2026-11-26T15:16:00.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "PolsatNews.pl",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNaXVod0NWaHZKalo5TUhEU0NHcVdKUjAzWmNxMTNEdFZaNzZJV1lGSEd5YlpSMHFmOEVNd1UyWVZtbEF4LXQyTWZMRjNtSnBhWll1alJhNlZyY3R1OHhROG9DYTZaLVFrbHB2MkxVOFMwZ2ZsUm9nSWZSbGN2YWQ1ZDNmVmdhQW0zV2kxV3lEeVBjcXVVOTlOSXVZZk9UUlFpTzRhRHBQeU1tSUNiYjYtckpzNDVMaWM2?oc=5",
+        "title": "Zamach w Krakowie. Prokuratura ujawnia szczegóły śledztwa. Przesłuchano już około 250 świadków",
+        "official": false,
+        "forYou": ""
+      },
+      {
         "at": "2026-11-26T13:38:09.000Z",
         "cat": "security",
         "sev": 2,
@@ -204,34 +214,50 @@
         "title": "Podatność w oprogramowaniu LiteSpeed Cache Plugin for Prestashop",
         "official": true,
         "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
-      },
-      {
-        "at": "2026-11-25T09:19:05.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Polskie Radio",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNk9FOU5pWnJVcmgtaDUtZ0ZNMEhITWJURXJOSTZ0NTZadkVXVkh2V211eC0tTWgwTzFxOWFOSjY4TWdiUnBoZk9LMFp3RWxhLWVoRGJteEtDbFRIQ0J1d09IOUoxejBxb3QtRHp0YnB3Ni1abU9TN0U1ZXVVV0VVdk90MG5Da3ZEUTdWblpVcm5OUHlFcl9zYnpvNFZPNTRfU2xwWUo4VGRrUQ?oc=5",
-        "title": "Wiceszef MON o zestrzeliwaniu dronów. \"Wojsko jest na to gotowe\" - Jedynka",
-        "official": false,
-        "forYou": "",
-        "guide": {
-          "href": "/pl/mapa-schronow/",
-          "label": "Mapa schronów"
-        }
       }
     ],
-    "updatedAt": "2026-11-26T22:40:00.397Z"
+    "updatedAt": "2026-11-27T04:36:46.454Z"
   },
   "en": {
     "sample": false,
     "items": [
       {
-        "at": "2026-11-26T21:52:29.000Z",
+        "at": "2026-11-27T03:52:29.000Z",
         "cat": "security",
         "sev": 2,
         "source": "The National",
         "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZjlZcjNRWExvSC0zaURTVmE2YjJuTHI5Z3ZQb3dxMGtCS09EMEVwNVc3T1hzTnZ5Z3czZGhqWDRNU2tNb1RTTFZOempjZHFKNE95SG54NjBGSlBHb2VqVlRqTTlwd3h0UUcyd3lGMDZuejRyamV5cmg5cVBlNlVZeVdNTDlyXzRhRjR1Qm1pbWI?oc=5",
         "title": "Middle East latest: Two Italians killed in Iranian drone attack in Kuwait",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-27T02:32:20.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "CNAW2",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPY3d6WkQ5ODlBdUY3SlAzUzZjbUpvRXJuOUczLVluYXVmQnJrcXNRWXNhSU5NaEVaMk82aldUN25MTjM3ZE5BZW53NXdEZHVKbW5IV2RlanFhYVVfa1BqRGZ6czdJTGMwYXNfd1dOdXZvLVM3UExKSUdUdTBWQ1h6Sw?oc=5",
+        "title": "Overturned vehicle crash on I-85 South in Macon County",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-27T00:28:04.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "MLQ.ai",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZkkza095VDVCTTVhYnFkbldIVV9LTUZwa0h3MjQtQThyYjlLZkJaZFNVbkx5RnRFRHJJY200RktuaG9lOWVWYlJvMGQzaExkd0puX1FEOUFOQXZ5WkR3VkVLc0d1ZXVScWg5VXljbUFVVWtjeFhzZ3pYc2d4NEJncEdHVnFIbHdhWElJUnJ5QQ?oc=5",
+        "title": "Cyberattack halts Allied Media newspapers in New Zealand for days",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-26T23:29:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "The Sun",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMEtfRkdieXBXTHZudUJWRVhpanpocVMwM1JKM3ZjNVN6cHdpaGVjWUppT1RtdGY0WEZHVGNzRkF2eU5ybF9YTEd1WXBrU1U3bDhKcWNvNDZvVjktdUtQbVJRcnZZLUdrY0xxZnVZRld2RHpCNTItNGFjSDVuRkZjN1lHVDBFZU5K?oc=5",
+        "title": "Ukrainian gymnast, 10, who lost leg in Russia strike dreams of Paralympic win",
         "official": false,
         "forYou": ""
       },
@@ -246,22 +272,12 @@
         "forYou": ""
       },
       {
-        "at": "2026-11-26T18:56:15.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "MLQ.ai",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZkkza095VDVCTTVhYnFkbldIVV9LTUZwa0h3MjQtQThyYjlLZkJaZFNVbkx5RnRFRHJJY200RktuaG9lOWVWYlJvMGQzaExkd0puX1FEOUFOQXZ5WkR3VkVLc0d1ZXVScWg5VXljbUFVVWtjeFhzZ3pYc2d4NEJncEdHVnFIbHdhWElJUnJ5QQ?oc=5",
-        "title": "Cyberattack halts Allied Media newspapers in New Zealand for days",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-26T17:09:00.000Z",
+        "at": "2026-11-26T19:54:17.000Z",
         "cat": "security",
         "sev": 2,
-        "source": "The New Voice of Ukraine",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOT29uYkQ2OUZma0VZUkNnaXM1NVo1QVJ3RnUzSHJpX2UxU1d1X0FsbDZDaWFPbkVST2Z4NFlSZGFjTU8zUFpqNHpmMWZtX1czeWhSc3V0c2FrLTFuSWU5ZjN2TlJrdjF3MHJxaU9uS1A4VGZWNWdrZWtqSWEyNlp4UmtwR2pvQ3B2T1k2MzNyb2lmc1BfeEtiTUdKWjFUVVhpTC0zSDRneHl4YzcydEwtQzlZdWNPQ2J2Xy0yQkp2ZVc?oc=5",
-        "title": "Ukrainian Neptune missiles strike Russian airfield housing Su-34 bombers — General Staff",
+        "source": "UA.NEWS",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQQ2V4WUx5YXNEODM4NW14Z0RiOW80S0Q0T3plYW1RSmlJOFRBT2l5Zk1QMUJoSkRldFZCVnJHeFZ4S2MyeFh0QUF5eHZvS3R6Qi1UeG1yWjJPTlZTR0JLb2RsbHRkU1A2VjRGRk1ObkU2Z2FOMVpfcDFLRWFKcVZ5U0NBWGstUG9YMTg1TDl1OW1xZlBKWE14a2hqSVBpd01P?oc=5",
+        "title": "Zelenskyy warned that Russia is preparing a massive missile strike",
         "official": false,
         "forYou": ""
       },
@@ -404,28 +420,8 @@
         "title": "CCTV Extends Real Madrid Blackout Despite Mbappé Apology",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-24T16:43:44.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "EnergyNow.com",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUmRjOW5iTlYxTE5NSkNHZlRTZXJRWXBZTEJMZ0FyNFItWWtPV3pmWUdnVTF0M2JzMmxOTmMyMU5MMG1nM3VJcnk2OS1OMXBrS3IxbTBvVVZVb1N0S2F6M1ZSS09kT18yOWZvZUh1MEdWSzlhTWw2TlAxWmpHcGZOZEN0U0haVUNBWHBPeS1ZNzVzYmlBZkMxTmFkb25vbERIeUx1eDBSeHNoUkVSUjVkc1dZeG8yYUZRbFJoTA?oc=5",
-        "title": "Fujairah Oil Zone Hit by Fire After Drone Attack as UAE Says it Intercepted Iran Missiles",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-24T16:22:28.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "CBC",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9TRkdxUkxNVV9nUEU2dFVuam12d1RfZGY5YWkzZ2t2eno1NTQtSE9pcUVPcmhtakZHYUhkQTdPS2k2NkhCUFR5OVdMdlVDc3d0WDFLSG55Rm0zLXlta19NeHZvYU5FeDFOblNjRGlGenp6MzlwMHNDelFsN1p1anc?oc=5",
-        "title": "Monday Night Football power outage leaves fans and players in the dark",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-26T22:42:06.209Z"
+    "updatedAt": "2026-11-27T04:38:57.453Z"
   }
 }
