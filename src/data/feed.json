@@ -220,11 +220,31 @@
         "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
       }
     ],
-    "updatedAt": "2026-11-27T23:03:40.246Z"
+    "updatedAt": "2026-11-28T05:03:57.014Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-28T03:22:28.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "PaidFreeDroid",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbC1OTWVqWFRPSldpeDVIR0hiaUx4bWhHbF9VTTdneWwzOGhMNk9FSXRHZVJSUU5PUXFFWGJSSnUxX1JLUVZFbW1qSU1QaXJQTGtjWmdfT0JXOEV5X2JxQzlfZmlVRXpRZ1Y3a21fQlF1RmlaTUhUYnJRMWdKV0k1QktrZVRXRGwwY01OMzk5dGRXbms3YVIwdA?oc=5",
+        "title": "Air Force Cloud One Cyberattack: Weapons & Radar Breach Explained",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-27T22:50:38.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "Todayville",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQWZ4Q1NjWXRXbjN4U2FnTUU5Qm5zOUR0cGhVbE9yWkJ1dTRmVVJVWXB3eE1fRXFwMDNqc0thQVZWekVGNHNDZ09rUXVSSUZHMS1JcVgwc2hIMXQ1U3d1aDhnVkYyMllCaWVJQ2t5ZG1IODh4LUxvbjRNM0ZEbW84S2l6X0NtMl9mRHlHVXVNWWMzVXpoMkNTZDdoUjFnY28zNElKNEw1MA?oc=5",
+        "title": "America’s skies reopen: Duffy reveals what caused nationwide blackout",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-27T22:36:37.000Z",
         "cat": "security",
@@ -242,16 +262,6 @@
         "source": "The Kyiv Independent",
         "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNV2xOLTBrY2RGTDJZRjBfVWlIemJMQmh5SzRKWkhIdXkyeEVRbUc0R1RWR2FLek9rYjgwR2FPcUJ2Qjd2LXV6eDVRd19VUjVpT2xWTVc5S1RtUjNhWUo4OUtKSkZTcGlWTTJscTlWeDdQMDNyT1ZaRFlDcW1vVHBST0ZTZGt5a0ZiU1psZVN4ZVFTMlh4dm9ZRlRMbUc5WW5uZDk2RjdBMjNjakYxSF9felcyV25udkdtSlhvcmNuaGRLU3ZldHN3ZW1n?oc=5",
         "title": "Ukraine war latest: Ukraine hits missile fuel production facility in Russia's Tula Oblast, military says",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-27T17:47:02.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "Livemint",
-        "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNbE9lcjdOcTVvRjVfQmdwVWlaYlJVTGFFeThydS15YWEzaTAya1VMeHA1REU1RzBfTFA0Z1N4dDhqa3I3M1FVcjdXUkpGYV9lSFJqMUs5NGtFWVE0UjBIZV9IM005R0t2b3VmVFdQSUVJaFM5MTF2WXpVRFV0VGVkeW1YWTQ0cXg5ZTFHUGI1MXBCdTFVRFBlUlRieHlyc3VaWmFheE5LUmN6cFJnU2Joa1dXRld2YzRvS0F6Smt0M2liaXlkcTk1TERac2p1X3Z6dFFMU3FHVS1tRmJzVVpsd0RhMEdNdUZ3QXR0ZHNLZWhWVU9ZNzVkX2tMQjlKcjcwZGfSAYcCQVVfeXFMT25FLTdmZHRic2JvTGFfTmtadjJ1NGNDakxGYi14MVhjM28zRy1DWjVMckZLbHFQUFYxamFFcXNjRHdfWkdsenQwZ2NLWERwTUsxYzl0cGJfQnhCUi1VOC1hN1NPZklkQ1JUY3gtRWRLT2F3a3ZmcXp1cnhPVXpNNnhoZTgxa0JYX0stTmZlTkZOdmhHQXdDam5uQ1ptbmVVeHBNV2RocGRjeFJZa1VMcTFSdnRTZ3VkX254SllPVWE2cnNnWmh5U1hLTEtDSWw4bGhOZ3JfUjJtY0NiZ240bUU4VHJHb21oN2V2OVJOX3RKQUx1T0pCNzFfSGZjYjR6a2dTMFFEakE?oc=5",
-        "title": "Cloud One cyberattack: US Air Force platform backed by tech giants Microsoft, Amazon, Oracle, Alphabet reportedly hacked",
         "official": false,
         "forYou": ""
       },
@@ -414,18 +424,8 @@
         "title": "Ransomware recovery co-founder charged with secretly paying hackers",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-25T16:05:20.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "EnergyNow.com",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRHM5Z0w3dFFfNEtpem9naS1GakppY2drNmxqQ2xWRDB3b1hmMHBDWUZZc2ZKY2ZJR2RKejd4YW9CMTYxMzFqX01ZcmNXZG9WMVVKaXFIVlY2WVpBWUpMQnZMOEJaM2xtRW9IMnEzelgwQmQ4djVuYTA1MmVZWVB0a01IeWhuNkJnMnR3TA?oc=5",
-        "title": "Cuba’s National Electric Grid Collapses, Reason Unknown",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-27T23:05:48.019Z"
+    "updatedAt": "2026-11-28T05:05:39.308Z"
   }
 }
