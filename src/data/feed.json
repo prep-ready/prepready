@@ -4,6 +4,40 @@
     "sample": false,
     "items": [
       {
+        "at": "2026-11-28T11:49:00.000Z",
+        "cat": "weather",
+        "sev": 2,
+        "source": "IMGW",
+        "url": "https://meteo.imgw.pl/",
+        "title": "IMGW: 3 ostrzeżeń meteo, najwyższy stopień 1: Silny mróz",
+        "official": true,
+        "forYou": "Sprawdź ostrzeżenie dla swojego powiatu, naładuj telefon, zabezpiecz rzeczy na zewnątrz."
+      },
+      {
+        "at": "2026-11-28T08:19:00.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "PolsatNews.pl",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOcVY3MU5xUnYycVNxcUt3UlBxM2hZX2lLeEZJRzNtSHU4LTBtTExRZ2lYR2M0bmpQQmJDM0VSaC1QUVJNZkFDdDBXRzFSUl9NRjBqN3ZPcGwtRm1BVXBmVUEyNHJDOEN1VmZXdTRMYzB5LW1iTE9oamtTRHRDbGQtSFQ1STJMcGVNQzZlRk1tYTd3MHpiRVF1eVhrUl9oMmRfSXlZaUpxWXNSZnUzanIxdEctT05NLU9ESlRVVVZTeWE?oc=5",
+        "title": "\"Wypadek masowy\" w Europie? Alarmująca analiza, dwa kraje zagrożone",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-28T06:00:00.000Z",
+        "cat": "safety",
+        "sev": 3,
+        "source": "Opole.Wyborcza.pl",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOaWZWcXFPdGpSLUhtczBaM19LejhrbWZ6UGNXb19mendfQUZyS0lUN3ZzLXFuWW9zUG5XTXN2WVVqenVjWGM0elZNSGpDay1FaDFQMUFFU0ZQZ1h6ZmlJX0U2ZVp4VmtISVdPZlNPbkxUeWZQbFdFX1NrZDVTR2JFRm02NjlFVlhyY2F2V3g3d29oZUdwY1hNQlZoZDZlNXJnYmRfWVEyRGIxWWxoaXkwRk9NaUNCUQ?oc=5",
+        "title": "Uczennica planowała bombowy zamach w szkole. Śledczy ustalili kolejnych członków grupy szykujących zbrodnie",
+        "official": false,
+        "forYou": "",
+        "guide": {
+          "href": "/pl/poradniki/bezpieczenstwo-dziecka-w-szkole/",
+          "label": "Bezpieczeństwo dziecka w szkole"
+        }
+      },
+      {
         "at": "2026-11-27T19:33:51.000Z",
         "cat": "security",
         "sev": 2,
@@ -26,6 +60,16 @@
           "href": "/pl/mapa-schronow/",
           "label": "Mapa schronów"
         }
+      },
+      {
+        "at": "2026-11-27T18:40:30.000Z",
+        "cat": "safety",
+        "sev": 2,
+        "source": "WP Wiadomości",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZHJOaDFaMnUzdXFOcHlMQWxMS1B4TXE1bm9ZWmo4UHg0SXR0U3BZUFRENm5kZnJKTE1rQk5ILWYwNURMc1RzVGwybmViUHVUSy1nQmk3elcycFJTTHNpZ3pyVUxyTmNWREpPVmE2UnFOUGVQczYwNmRvTk1wTDZXRFcxSWNESWc4MVNJeVlobkptTGJIN3lNOHRMU0RkamNONjBVWV9jUlNOY1lHMmRKN213?oc=5",
+        "title": "Dwa auta stanęły w ogniu. Rzucili się na pomoc, sami ucierpieli",
+        "official": false,
+        "forYou": ""
       },
       {
         "at": "2026-11-27T17:57:08.000Z",
@@ -174,57 +218,43 @@
         "title": "Zamach w Krakowie. Prokuratura ujawnia szczegóły śledztwa. Przesłuchano już około 250 świadków",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-26T13:38:09.000Z",
-        "cat": "security",
-        "sev": 2,
-        "source": "Defence24",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRjRVSkxDNzJKX194ZndpYW5NZW5fS3YwdU5vS1lyT24zcEZ2Q0hKdzJnVTJudk1GOEdMRlVUNVhyRHQ1Qldoc3lETkJ5SkhEeUZOSkVkSE9RanZsdGFCZXRQRS1RR3lxS2ZhR2dYWmlodG5RYWk4OG1EWnZJRGYydnZmd21sY1ZyTjlCX2duc3ZiSjlPTUt3NnhEWUJNaXhOc2c?oc=5",
-        "title": "Niemcy jak Polska: Gigantyczny budżet na armię i coraz większe problemy",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-26T13:14:52.267Z",
-        "cat": "energy",
-        "sev": 3,
-        "source": "PSE",
-        "url": "https://www.pse.pl/",
-        "title": "PSE: dziś zalecane oszczędzanie energii",
-        "official": true,
-        "forYou": "Ogranicz zużycie prądu w godzinach szczytu, naładuj powerbanki i latarki.",
-        "guide": {
-          "href": "/pl/poradniki/blackout-jak-sie-przygotowac/",
-          "label": "Jak przygotować się na blackout"
-        }
-      },
-      {
-        "at": "2026-11-26T13:03:30.000Z",
-        "cat": "health",
-        "sev": 1,
-        "source": "Radio Zet",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUVBkSkhJUGRlN1FTU0tVS2owZ2FuZ2NBOVhnajVNbThaOXJ6azdSLUUzc1FBaEJ1N0hPcWNnOHlnbGFlTTMtdDM1djk4bnF1cGxrM3M4ZWJZVUZtc1UyUVMxZGlrbFU2MTJMUnNvVEc4UDZJZTgxR1FWdW1IYWtCd1didHJQcTRlTzAxeVkwM0c0ZVdKcEctdTcwUHRWZDNfR1BnS0lBVk1tZDNFVjhzemNRR2xHSTFw?oc=5",
-        "title": "Sanepid w Mielcu wydał komunikat dla dwóch gmin. Zostały wykryte groźne bakterie",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-26T12:55:00.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "CERT Polska",
-        "url": "https://cert.pl/posts/2026/11/CVE-2026-110699/",
-        "title": "Podatność w oprogramowaniu Chainlit",
-        "official": true,
-        "forYou": "Aktualizuj system i aplikacje. Podejrzane SMS-y przekazuj na numer 8080."
       }
     ],
-    "updatedAt": "2026-11-28T05:03:57.014Z"
+    "updatedAt": "2026-11-28T14:36:02.417Z"
   },
   "en": {
     "sample": false,
     "items": [
+      {
+        "at": "2026-11-28T13:00:25.000Z",
+        "cat": "cyber",
+        "sev": 2,
+        "source": "Beinsure",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOcUN0SWtrT3p4aWNIZ1hTbUhEWThXLWNpYm1FeGxEaG44MEc2UklBUTloRmdmOVZmX0kySlRWXzIwTVNGXy1VdEV3dW5IejEtV25FVmJ3UGZDclN0d0hoemNUWmtIZlFMOWtReHZzelRrZTJVUE1wOEtqRHRsSTdxZGFSQWZ0MjlDWEZPU2xwTzRROXEzbERpam5TbGV4b3d0Mk9N?oc=5",
+        "title": "pCloud confirms password manager cyberattack, exposing user email addresses",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-28T10:05:00.000Z",
+        "cat": "energy",
+        "sev": 2,
+        "source": "The Cool Down",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQM0FsTzh5MXJSZ2k0ZXNIOHplQXRDVklialEwNTZETTNsQ045VVhCNmY1SnlxYklqRkYxZDN0MkNtUGhTdEc1ZEZOQ1dKOHI0MDVILV9qUlZ3Vkw0ckM2Sm43WG03VmZfZ0hZWXlYT1VfRUp4a25sQy1Ob0o4ZURIckprTFJzSi15cUE?oc=5",
+        "title": "EV driver finds working chargers in hurricane-hit Georgia amid miles of shuttered gas stations",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-28T06:30:07.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "Mezha.net",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVVlMZlNFMXI2cUlqclJtUHdTai1vdGp0ZG84WnNYLUtSR1BzSDR4ZUQ4eThlZm81WjIzbmU2ZXhfNjh6QmlZY2pRLUhQa1FTSkkxU2ROWlJSX3ludm1OaWVYLVZZNmp0OGx6MUR6TFh6ckczeHBibFVvNkZlcWtxSnFHZVJ4cTJiVEc4?oc=5",
+        "title": "According to preliminary information, the enemy launched a missile strike on the Osnovianskyi district",
+        "official": false,
+        "forYou": ""
+      },
       {
         "at": "2026-11-28T03:22:28.000Z",
         "cat": "cyber",
@@ -252,6 +282,16 @@
         "source": "National Security Journal",
         "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQUGFWTVQwTGZRcWRFbzkxTkZwemJuLTBIUjZMbTl0VVNRdUpIX1FSamI2Z0EyZjJkUDc0bS1scDk1SjFCMlp2Mm1HRUNDVlkwbTYyM1JjYUc3QkZ1RDdXQTdFX1o2TlBJanBIVHItQnB6U3hJVDhlRG55UlozX3FzSVd6bGFGeUlhdEV5dlZkNWJTT2RXczk3VFdUc2RJUzhqNmZzMGxNa0hRM3EwMnBzakVpRXFnREVNV3dYdVlSenRuUk5mbVdJSmRwQzVkQ2NPdlhVVDZrbGtTUGRGOXRkcnk0SFd2c1JCOTg3RGlCSTF6VERoS0xxYkF3?oc=5",
         "title": "Trump Just Called the Ukraine War ‘a Complete Bloodbath’ Killing Thousands Every Month as Kyiv Warns of Another Russian Mass Strike",
+        "official": false,
+        "forYou": ""
+      },
+      {
+        "at": "2026-11-27T21:14:27.000Z",
+        "cat": "security",
+        "sev": 2,
+        "source": "EnergyNow.com",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUmRjOW5iTlYxTE5NSkNHZlRTZXJRWXBZTEJMZ0FyNFItWWtPV3pmWUdnVTF0M2JzMmxOTmMyMU5MMG1nM3VJcnk2OS1OMXBrS3IxbTBvVVZVb1N0S2F6M1ZSS09kT18yOWZvZUh1MEdWSzlhTWw2TlAxWmpHcGZOZEN0U0haVUNBWHBPeS1ZNzVzYmlBZkMxTmFkb25vbERIeUx1eDBSeHNoUkVSUjVkc1dZeG8yYUZRbFJoTA?oc=5",
+        "title": "Fujairah Oil Zone Hit by Fire After Drone Attack as UAE Says it Intercepted Iran Missiles",
         "official": false,
         "forYou": ""
       },
@@ -384,48 +424,8 @@
         "title": "Burning tankers and missile strikes: The Briton who swam across wartorn Strait of Hormuz",
         "official": false,
         "forYou": ""
-      },
-      {
-        "at": "2026-11-26T04:29:07.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "FOX 10 Phoenix",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORkhzalEwMFJyRW4xQ05wbUtsbmprTGpXN2xPUlYzLV94bU0wSzFmT1ZGYTNleVR3Q004djZlVE43U3F5UFV1ZFI4TTRLV2VXdklLMWFkWmQzcmpBOVY5bldNVS11TGF1U3llYld2V0dBNnozdGg4RkRlcnh5V09Ea1BfMUpCeG5vVGo4bVlKSVFHbGRwZkJWNzJuV2l5WnZaV016VA?oc=5",
-        "title": "Old Town Scottsdale bars draw crowds for Blackout Wednesday, Drinksgiving",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-26T02:15:00.000Z",
-        "cat": "energy",
-        "sev": 2,
-        "source": "The Straits Times",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPT3dPWGY5Y0x1Rklyd3IyUHRrM3k3N1JJOGpIVm9hMk1uVWRyRmR4ODdwd0ZaRXotUnREM192QmVpZDM5eTczYzJFUnBTdHRSVjNSLXJ4dXZDdVM1SEZxOUZuMks1bUdnOHp6Y2ZDcVJnTHR4d3V5NTYwN0lMNGMxYXZ0SlJ4X2hpMnY4WXJB?oc=5",
-        "title": "Major blackout hits Sabah’s east coast again",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-25T22:33:21.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "Wisevoter",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTUw2ekVubFI1bTUtbExJaDBKelRrWHYzd1Utd2hGRTBuVXlzOTB6VVNGZjZLMmo0dWhCVlRGbDdKczZ2VFBqOXdiOVc4Y2FJd0ZXRktvYlBuYVpCMXNKbkdzTFZQQ1lUN0ctMl9CNjlXOHl0NjVMcGRhSE1DX2l1RXdqenpKZnV4cUxNbEVjYmprQQ?oc=5",
-        "title": "AI Lets Individuals Disrupt Critical Infrastructure",
-        "official": false,
-        "forYou": ""
-      },
-      {
-        "at": "2026-11-25T18:28:37.000Z",
-        "cat": "cyber",
-        "sev": 2,
-        "source": "MLQ.ai",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObWlGaUtiYWtlUE9jZGV2YlBfWXR3c2ljSGxieHFaRE9kTGk2STZmRWlRd21JZE5ucUxKbWFaaUJkZDNFSFh0cjZ5TWg2MnE3U1dONUlnWFVXM3ktZUFMaEJBSHpaRzY1dmpxZVJkanAwVjhDUlIzdVU2NGRGeE5NQzltWVZpcVN1MHlQWGtUS3VTZw?oc=5",
-        "title": "Ransomware recovery co-founder charged with secretly paying hackers",
-        "official": false,
-        "forYou": ""
       }
     ],
-    "updatedAt": "2026-11-28T05:05:39.308Z"
+    "updatedAt": "2026-11-28T14:37:24.200Z"
   }
 }
